@@ -1,0 +1,77 @@
+Almost two years ago, I began work on a small project to enhance Pokemon Black 2, as a means to pass the time in lockdown. After working on thing for around a year, it became increasingly clear to me that I was just remaking Blaze Black 2!
+
+At that point, I'd finished about 40-50% of the game. I'd recently discovered this very server, so through it contacted Dray and showed him what I'd come up with. I think he liked what he saw, and for the next year we've been working to get Redux as polished and feature packed as possible!
+
+So, we now bring you Pokemon Blaze Black 2 and Volt White 2 Redux! You can get a copy here:
+
+All the documentation is included in the patch download.
+
+At a glance, here is a list of some features and additions you can expect from Redux:
+
+* The ability to catch all 649 Pokémon in a single playthrough.
+
+* A revamped trainer roster and two optional difficulty modes. Challenge Mode will push vertain players to their limits, whilst Easy Mode provides a relaxed experience. Normal Mode is roughly as tough as Renegade Platinum.
+
+* The addition of the Fairy Type, as well as changes to the Steel type introduced In Gen VI.
+
+* Documentation of all Pokémon changes, Item locations, important NPCs etc - as is standard in Drayano Hacks.
+
+* Select moves from later generations have been implemented, replacing old and broadly unused moves. This includes (and is not limited too) Power-Up Punch taking the place of Comet Punch, Dual Wingbeat the place of Vice Grip and Lunge the place of Barrage. Furthermore, several Legends: Arceus moves and move changes have been included!
+
+* A new level curve. All Pokémon can be fully evolved by the Pokémon League.
+
+* Several brand new story additions and character encounters. For example, instead of heading to Pokéstar Studios, you'll now remind Brycen of the joy of Pokémon battles!
+
+* All legendary encounters have been revamped and extended. You'll travel to a new Faraway Island to catch Mew, meet Morty hunting down Suicune or travel to the Entralink to catch Celebi.
+
+* The Postgame has been expanded, now including ~2-3 hours of additional content in a questline surrounding Unity Tower, a returning fan favourite character and the very fate of the universe. This will serve as the way to catch Dialga, Palkia, Giratina and Arceus in Redux.
+
+* Pokémon across the Pokédex have been updated to their modern stat distributions, held items, type combinations and abilities.
+
+  * Furthermore, Pokémon have had their dream world abilities (were useful) swapped into their regular abilities, so that they can be obtained via regular gameplay.
+
+* In the complete version of Redux, Pokémon have received additional changes to abilities, moveset and type combinations. For example, Serperior is now Grass/Dragon, Weavile gets Technician and Butterfree has a higher BST. If this kind of thing isn't for you, a Classic Patch is available which omits these changes.
+
+* The need for trade evolution has been removed. Pokémon which used to evolve by trade now evolve by using the new 'Link Cable' item on them like an evolutionary stone. (Which actually predates Legends: Arceus!). In addition, all Pokémon which previously evolved by holding an item whilst being traded can now have said item used upon them like an evolutionary stone. For other types of trade evolution, the new method to evolve is listed in the provided documents.
+
+* All Pokémon have seen their level-up learnsets completely revamped to include Egg moves, Event moves and in select cases, moves they couldn't learn before. These changes include learnset changes up to and including Gen VIII, where appropriate. There are also some Legends: Arceus additions!
+
+* A number of moves have received balance adjustments, including changes made in official games since Gen V. There have also been some custom changes, like those seen in Drayano's previous hacks.
+
+* Item distribution has been completely overhauled. You'll have access to the Muscle Band before the first gym and all TMs by the Pokémon league. Powerful items like Leftovers have been restricted though, you'll have to work a little harder to obtain them than in the Vanilla titles ;).
+
+* The ability to revive Fossils has been brought forward from Narcene City to the Desert Resort. Select NPCs will now gift you Fossils, whilst the rest can be found in the Overworld.
+
+* Clay Tunnel has been opened early, no longer requiring the player to have beaten the Pokémon League to access.
+
+* The Heonn Leaders from BB2 and VW2 have returned, now with revamped teams and their aces standing proud next to them in the Overworld!
+
+* The selection of Gift Pokémon has been overhauled. Gone are the season dependent starter gifts from BB2 and VW2, in their place are new NPCs who give you a choice of starter. There are also a couple of new NPC gifts, including an Egg with Random contents, an Elemental Monkey (like in Black and White) and a special Corsola!
+
+* Marts and Vendors have seen their inventory overhauled, it is now possible to buy Evolutionary Stones in Driftveil market and EV reducing berries in Castelia City. Speaking of...
+
+* Returning from Platinum is the inclusion of a dedicated EV trainer and Pokémon leveling trainer. These additions are sure to help with team building and reducing the time spent Audino Grinding.
+
+* Indeed, Audino grinding has been made more convenient and there are new nurses to help with grinding in Castelia Gardens and Victory Road. Furthermore, Audino grinding is now possible before the first Gym via NPC!
+
+* The amount of required HMs has been cut back, no longer shall you find Cut trees blocking your way. Furthermore, the need to use Flash has been eliminated from dark caves.
+
+* The Shiny rate has been increased to 1/512, like in Renegade Platinum.
+
+* NPC trades have been fixed and overhauled to give more useful Pokémon than before.
+
+* Attempting to fish in a body of water should no longer fail. Instead, the player should be guaranteed an encounter with each cast of the rod!
+
+* The Medal Guy has been moved to the upper levels of the Pokémon Center. This should stop the player accidentally talking to him for 5+ minutes when they just want to use the PC!
+
+* Some good news surrounding the Fairy Type implementation and playing the game on Flash Cards, Twilight Menu etc.
+
+* It seems as if Redux does indeed work on several different setups, I will include a Document which keeps track of what users report as working or not. This includes TWiLight Menu ++.
+
+* An emulator is still recommended, but with the info above in mind, there's a good chance it can be enjoyed on other setups :)
+
+* If a new implementation becomes available, I will work to include it in Redux ASAP - the game will not be left behind!
+
+Finally, I'd like to give a big thanks to the community and everyone who plays the game. I sincerely hope you enjoy playing Redux, as much as I've enjoyed creating it! For here forwards, the best place to stay updated about Redux is my twitter, which you can find here. If you have any questions, that's the best place to contact me!
+
+Thank you again! ❤️

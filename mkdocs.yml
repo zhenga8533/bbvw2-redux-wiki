@@ -1,0 +1,5 @@
+site_name: Blaze Black 2 & Volt White 2 Redux Wiki
+theme:
+  name: material
+nav:
+  - Home: index.md
