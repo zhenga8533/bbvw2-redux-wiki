@@ -1,0 +1,8 @@
+{
+  "pokedb": {
+    "repo_url": "https://github.com/zhenga8533/pokedb",
+    "branch": "data",
+    "data_dir": "data/pokedb",
+    "generations": ["gen5", "gen8"]
+  }
+}
