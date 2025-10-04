@@ -10,7 +10,7 @@ General Info
 This is just a quick collection of answers to questions I've seen asked a decent amount.
  - Answering them here lets me give more detailed and informative answers, as well as reducing a little repetition from me.
  - If you've got any other questions, shoot me a message on Twitter and I'll do my best to answer it!
- 
+
 
 =========================================================
 ~~~~~~~~~~~~~~~~~~~~~~~ FAQ: ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -20,7 +20,7 @@ This is just a quick collection of answers to questions I've seen asked a decent
 
 Firstly, Redux is my project. I began work on Redux in early Covid 19 lockdown, ~March 2020. I've been working on the project for around two years!
 
-Redux started as a way to pass the time and learn some new skills, but I quickly found I had a knack for Rom Hacking. 
+Redux started as a way to pass the time and learn some new skills, but I quickly found I had a knack for Rom Hacking.
 The more I worked on Redux, the more I found that I was effectively remaking Drayano's Blaze Black 2 and Volt White 2, so after about a year of development I reached out to him and showed him an early build of Redux, which was ~40% complete.
  - Dray liked what he saw and agreed to help me out!
 
@@ -39,11 +39,11 @@ Drayano - @Drayano60 - was my partner in development. He completed ~15% of the w
  - Promotion of the project, particularly on Twitter!
  - Putting me intouch with various members of the community. (Who comprise the final ~5% of the project, they're all listed by name in the Redux Credits document.)
  - Giving me second opinions on all sorts of aspects of the game, from balance to text, to playtesting.
- 
+
 A final invaluable 'unofficial' member of Redux's development was Koji - @kojiyomi - who created several bits of art for Redux. These include:
  - The Redux logos, both in game and used on Twitter.
  - A couple of other graphics used in game, like the 'Link Cable' icon. (Made before Legends: Arceus was revealed - we totally called it!)
- 
+
 Finally, I'll give a special shoutout to a few members of the hacking community, you can see a more detailed breakdown of their contributions in the Redux Credits document.
  - Hello007
  - Phunsukh Wangdu (formerly PlatinumMaster)
@@ -64,10 +64,10 @@ I'd also be open to working with Dray in the future, but SGSS V2 is his solo pro
 ~~~~~ Can I use Redux as a base for my own projects? ~~~~~
 
 If you'd like to use Redux as a base for your own project, drop me a DM on Twitter or Discord! I'll be happy to sort something out with you. I'll also ask if Koji and Dray are happy with things!
-On the technical side of things too, you *might* encounter significant issues trying to edit the new events and scripts in Redux. Again, get in touch with me and I'll help you out with that! 
+On the technical side of things too, you *might* encounter significant issues trying to edit the new events and scripts in Redux. Again, get in touch with me and I'll help you out with that!
 
 
 
 ~~~~~ I'd like to donate! Do you accept donations? ~~~~~
 
-Everything I do (and have done), has been and will be free for the community. That said, if you'd like to donate anything, DM me on twitter and we'll sort something out. 
+Everything I do (and have done), has been and will be free for the community. That said, if you'd like to donate anything, DM me on twitter and we'll sort something out.

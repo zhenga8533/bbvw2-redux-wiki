@@ -1,5 +1,86 @@
+# --- Site Information ---
 site_name: Blaze Black 2 & Volt White 2 Redux Wiki
+site_description: A comprehensive wiki and Pokédex for the BBVW2 Redux rom hack.
+site_author: zhenga8533
+site_url: https://zhenga8533.github.io/bbvw2-redux-wiki/
+edit_uri: edit/main/docs/
+repo_name: zhenga8533/bbvw2-redux-wiki
+repo_url: https://github.com/zhenga8533/bbvw2-redux-wiki
+copyright: Copyright &copy; 2025 Allen Zheng
+
+# --- Extensions ---
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - md_in_html
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - toc:
+      permalink: true
+
+# --- Plugins ---
+plugins:
+  - git-authors
+  - git-committers:
+      enabled: !ENV [CI, false]
+      repository: zhenga8533/bbvw2-redux
+      branch: main
+  - search
+
+# --- Theme Configuration ---
 theme:
   name: material
+  features:
+    - content.tabs.link
+    - navigation.footer
+    - navigation.sections
+    - navigation.tabs
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.suggest
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+# --- Website Navigation Structure ---
 nav:
-  - Home: index.md
+  - Getting Started:
+      - Home: index.md
+      - Hardware Info: getting_started/hardware_info.md
+      - Patching Guide: getting_started/patching_guide.md
+      - Changelog: getting_started/changelog.md
+      - Credits: getting_started/credits.md
+      - Known Bugs: getting_started/known_bugs.md
+      - FAQ: getting_started/faq.md
+  - Changes:
+      - Evolution Changes: changes/evolution_changes.md
+      - Pokémon Changes: changes/pokemon_changes.md
+      - Item Changes: changes/item_changes.md
+      - Move Changes: changes/move_changes.md
+      - Trade Changes: changes/trade_changes.md
+      - Trainer Changes: changes/trainer_changes.md
+      - Type Changes: changes/type_changes.md
+      - Wild Area Changes: changes/wild_area_changes.md
+  - Reference:
+      - Action Replay Codes: reference/action_replay_codes.md
+      - Gift Pokémon: reference/gift_pokemon.md
+      - Important NPCs: reference/important_npcs.md
+      - Legendary Locations: reference/legendary_locations.md
+      - Nuzlocke Info: reference/nuzlocke_info.md
+  - Locations:
+      - Unova Region: locations/unova_region.md
+  - Pokédex:
+      - National Pokédex: pokedex/national_pokedex.md
+      - Unova Pokédex: pokedex/unova_pokedex.md
