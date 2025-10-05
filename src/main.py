@@ -27,12 +27,13 @@ def run_parsers(parser_names: list[str], save_data: bool = False):
         save_data: Whether to save parsed data files
     """
     # Import parsers here to avoid circular imports
-    # Add your parser imports here as you create them
+    from .parsers.evolution_parser import EvolutionParser
     # from .parsers.example_parser import ExampleParser
 
     # Registry of available parsers
     # Format: 'name': (ParserClass, input_file, output_dir, parsed_data_dir)
     parser_registry = {
+        'evolution': (EvolutionParser, "Evolution Changes.txt", "docs/changes", "evolution"),
         # Example:
         # 'npcs': (ExampleParser, "Important NPCs.txt", "docs/npcs", "npcs"),
     }
@@ -117,9 +118,10 @@ Examples:
 
     # List parsers if requested
     if args.list_parsers:
-        # Import to get registry (same as in run_parsers)
+        from .parsers.evolution_parser import EvolutionParser
+
         parser_registry = {
-            # Add your parsers here
+            'evolution': (EvolutionParser, "Evolution Changes.txt", "docs/changes", "evolution"),
         }
         if parser_registry:
             print("Available parsers:")

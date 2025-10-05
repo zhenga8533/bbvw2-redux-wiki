@@ -1,5 +1,6 @@
 data/*pokedb/
 data/overrides/
+logs/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
