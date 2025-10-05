@@ -4,8 +4,8 @@ Base parser class for processing documentation files and generating markdown out
 
 from abc import ABC, abstractmethod
 from pathlib import Path
-from typing import Optional
-import logging
+from typing import Dict, Optional
+from ..utils.logger import setup_logger
 import json
 
 
@@ -23,7 +23,7 @@ class BaseParser(ABC):
         self,
         input_file: str,
         output_dir: str = "docs",
-        parsed_data_dir: Optional[str] = None,
+        log_file: Optional[str] = None,
     ):
         """
         Initialize the parser.
@@ -31,26 +31,22 @@ class BaseParser(ABC):
         Args:
             input_file: Path to the input file (relative to data/documentation/)
             output_dir: Directory where markdown files will be generated (default: docs)
-            parsed_data_dir: Optional directory for parsed data files
-                           (relative to data/documentation/parsed/)
+            log_file: Optional path to use for logging (defaults to child class file)
         """
-        self.logger = logging.getLogger(self.__class__.__name__)
+        # Use the provided log_file or derive from child class location
+        log_file = log_file if log_file is not None else self._get_child_file()
+        self.logger = setup_logger(self.__class__.__name__, log_file)
 
         # Set up paths
         self.project_root = Path(__file__).parent.parent.parent
         self.input_path = self.project_root / "data" / "documentation" / input_file
-        self.output_dir = self.project_root / output_dir
+        self.output_file = input_file.replace(" ", "_").lower().split(".")[0]
 
-        if parsed_data_dir:
-            self.parsed_data_dir = (
-                self.project_root
-                / "data"
-                / "documentation"
-                / "parsed"
-                / parsed_data_dir
-            )
-        else:
-            self.parsed_data_dir = None
+        self.output_dir = self.project_root / output_dir
+        self.output_path = self.output_dir / (self.output_file + ".md")
+
+        self.change_log_dir = self.project_root / "logs" / "changes"
+        self.change_log_path = self.change_log_dir / (self.output_file + ".json")
 
         # Validate input file exists
         if not self.input_path.exists():
@@ -58,21 +54,31 @@ class BaseParser(ABC):
 
         # Ensure output directories exist
         self.output_dir.mkdir(parents=True, exist_ok=True)
-        if self.parsed_data_dir:
-            self.parsed_data_dir.mkdir(parents=True, exist_ok=True)
+        self.change_log_dir.mkdir(parents=True, exist_ok=True)
+
+    def _get_child_file(self) -> str:
+        """
+        Get the file path of the child class for logging purposes.
+
+        Returns:
+            str: Path to the child class file
+        """
+        import inspect
+
+        return inspect.getfile(self.__class__)
 
     @abstractmethod
-    def parse(self) -> dict:
+    def parse(self) -> Dict:
         """
         Parse the input file and extract structured data.
 
         Returns:
-            dict: Parsed data structure (format depends on parser implementation)
+            Dict: Parsed data structure (format depends on parser implementation)
         """
         pass
 
     @abstractmethod
-    def generate_markdown(self, parsed_data: dict) -> str:
+    def generate_markdown(self, parsed_data: Dict) -> str:
         """
         Generate markdown content from parsed data.
 
@@ -84,7 +90,7 @@ class BaseParser(ABC):
         """
         pass
 
-    def save_markdown(self, content: str, filename: str) -> Path:
+    def save_markdown(self, content: str) -> Path:
         """
         Save markdown content to the output directory.
 
@@ -95,12 +101,14 @@ class BaseParser(ABC):
         Returns:
             Path: Path to the saved file
         """
-        output_path = self.output_dir / filename
-        output_path.write_text(content, encoding="utf-8")
-        self.logger.info(f"Saved markdown to {output_path}")
-        return output_path
+        if not content:
+            self.logger.warning("No content to save for markdown.")
+            return self.output_path
+        self.output_path.write_text(content, encoding="utf-8")
+        self.logger.info(f"Saved markdown to {self.output_path}")
+        return self.output_path
 
-    def save_parsed_data(self, data: dict, filename: str) -> Optional[Path]:
+    def save_change_log(self, data: Dict) -> Optional[Path]:
         """
         Save parsed data to a file (JSON, YAML, etc.).
 
@@ -109,22 +117,14 @@ class BaseParser(ABC):
             filename: Output filename
 
         Returns:
-            Path: Path to the saved file, or None if no parsed_data_dir is set
+            Path: Path to the saved file, or None if no change_log_dir is set
         """
-        if not self.parsed_data_dir:
-            self.logger.warning("No parsed_data_dir configured, skipping data save")
+        if not data:
+            self.logger.warning("No data to save for change log.")
             return None
-
-        output_path = self.parsed_data_dir / filename
-
-        if filename.endswith(".json"):
-            output_path.write_text(json.dumps(data, indent=2), encoding="utf-8")
-        else:
-            # For other formats, subclasses should override this method
-            raise NotImplementedError(f"Unsupported file format: {filename}")
-
-        self.logger.info(f"Saved parsed data to {output_path}")
-        return output_path
+        self.change_log_path.write_text(json.dumps(data, indent=2), encoding="utf-8")
+        self.logger.info(f"Saved parsed data to {self.change_log_path}")
+        return self.change_log_path
 
     def run(self, save_data: bool = False) -> tuple[Path, Optional[Path]]:
         """
@@ -145,34 +145,10 @@ class BaseParser(ABC):
         markdown_content = self.generate_markdown(parsed_data)
 
         # Save markdown
-        markdown_filename = self.get_output_filename()
-        markdown_path = self.save_markdown(markdown_content, markdown_filename)
+        markdown_path = self.save_markdown(markdown_content)
 
         # Optionally save parsed data
-        data_path = None
-        if save_data and self.parsed_data_dir:
-            data_filename = self.get_data_filename()
-            data_path = self.save_parsed_data(parsed_data, data_filename)
+        data_path = self.save_change_log(parsed_data)
 
         self.logger.info("Parsing complete")
         return markdown_path, data_path
-
-    def get_output_filename(self) -> str:
-        """
-        Get the output markdown filename.
-        Override this method to customize output filenames.
-
-        Returns:
-            str: Output filename (e.g., "my_doc.md")
-        """
-        return self.input_path.stem + ".md"
-
-    def get_data_filename(self) -> str:
-        """
-        Get the parsed data filename.
-        Override this method to customize data filenames.
-
-        Returns:
-            str: Data filename (e.g., "my_doc.json")
-        """
-        return self.input_path.stem + ".json"

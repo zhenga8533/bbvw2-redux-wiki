@@ -22,8 +22,16 @@ class EvolutionChangesParser(BaseParser):
     Extracts evolution method changes and updates Pokemon JSON files.
     """
 
-    def __init__(self):
+    def __init__(self, input_file: str, output_dir: str):
         """Initialize the Evolution Changes parser."""
-        super().__init__(input_file="Evolution Changes.txt", output_dir="docs")
+        super().__init__(
+            input_file=input_file, output_dir=output_dir, log_file=__file__
+        )
         self.loader = PokeDBLoader(use_parsed=True)
         self.pokedb_dir = self.project_root / "data" / "pokedb" / "parsed"
+
+    def parse(self) -> Dict:
+        return {}
+
+    def generate_markdown(self, parsed_data: Dict) -> str:
+        return ""

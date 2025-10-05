@@ -4,7 +4,6 @@ Main entry point for initializing data and running parsers.
 
 import argparse
 import sys
-from pathlib import Path
 from .utils.pokedb_initializer import PokeDBInitializer
 from .utils.logger import setup_logger
 
@@ -27,13 +26,16 @@ def run_parsers(parser_names: list[str], save_data: bool = False):
         save_data: Whether to save parsed data files
     """
     # Import parsers here to avoid circular imports
-    # from .parsers.example_parser import ExampleParser
+    from .parsers.evolution_changes_parser import EvolutionChangesParser
 
     # Registry of available parsers
-    # Format: 'name': (ParserClass, input_file, output_dir, parsed_data_dir)
+    # Format: 'name': (ParserClass, input_file)
     parser_registry = {
-        # Example:
-        # 'npcs': (ExampleParser, "Important NPCs.txt", "docs/npcs", "npcs"),
+        "evolution_changes": (
+            EvolutionChangesParser,
+            "Evolution Changes.txt",
+            "docs/changes",
+        ),
     }
 
     if not parser_registry:
@@ -56,15 +58,15 @@ def run_parsers(parser_names: list[str], save_data: bool = False):
 
     # Run each parser
     for name in parsers_to_run:
-        ParserClass, input_file, output_dir, parsed_data_dir = parser_registry[name]
+        ParserClass, input_file, output_dir = parser_registry[name]
         logger.info(f"Running parser: {name}")
 
         try:
-            parser = ParserClass(input_file, output_dir, parsed_data_dir)
+            parser = ParserClass(input_file, output_dir)
             markdown_path, data_path = parser.run(save_data=save_data)
-            logger.info(f"✓ {name}: {markdown_path}")
-            if data_path:
-                logger.info(f"  Data: {data_path}")
+            logger.info(
+                f"✓ {name} completed:\n  - Markdown: {markdown_path}\n  - Data: {data_path}"
+            )
         except Exception as e:
             logger.error(f"✗ {name} failed: {e}", exc_info=True)
 
