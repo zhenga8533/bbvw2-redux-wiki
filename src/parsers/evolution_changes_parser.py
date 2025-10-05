@@ -7,10 +7,7 @@ This parser:
 3. Generates a markdown file to docs/evolution_changes.md
 """
 
-import re
-import json
-from pathlib import Path
-from typing import Dict, List, Optional
+from typing import Any, Dict
 from .base_parser import BaseParser
 from ..utils.pokedb_loader import PokeDBLoader
 
@@ -22,16 +19,17 @@ class EvolutionChangesParser(BaseParser):
     Extracts evolution method changes and updates Pokemon JSON files.
     """
 
-    def __init__(self, input_file: str, output_dir: str):
+    def __init__(self, input_file: str, output_dir: str = "docs"):
         """Initialize the Evolution Changes parser."""
         super().__init__(
             input_file=input_file, output_dir=output_dir, log_file=__file__
         )
         self.loader = PokeDBLoader(use_parsed=True)
-        self.pokedb_dir = self.project_root / "data" / "pokedb" / "parsed"
 
-    def parse(self) -> Dict:
-        return {}
+    def parse(self) -> tuple[str, Dict[str, Any]]:
+        """Parse the Evolution Changes documentation file.
 
-    def generate_markdown(self, parsed_data: Dict) -> str:
-        return ""
+        Returns:
+            tuple: (markdown_content, parsed_data)
+        """
+        raise NotImplementedError("Evolution Changes parser is not yet implemented")
