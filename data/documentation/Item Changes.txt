@@ -89,23 +89,23 @@ Max Revive x2 -> Choice Scarf
 TM83 Work Up
 
 
-~~~~~ Route 19 ~~~~~ 
+~~~~~ Route 19 ~~~~~
 
 Potion
 Oran Berry x5
 Water Stone
 Nest Ball -> TM31 Brick Break
-Expert Belt 
+Expert Belt
 
 
-~~~~~ Floccesy Town ~~~~~ 
+~~~~~ Floccesy Town ~~~~~
 
 X-Speed -> Muscle Band
 Potion x1
 Potion
 
 
-~~~~~ Route 20 ~~~~~ 
+~~~~~ Route 20 ~~~~~
 
 Parlyz Heal -> Silk Scarf
 Pokéball (Hidden)
@@ -123,7 +123,7 @@ Big Mushroom (Hidden)
 Sticky Barb
 
 
-~~~~~ Floccesy Ranch ~~~~~ 
+~~~~~ Floccesy Ranch ~~~~~
 
 Potion -> Soothe Bell
 Potion -> TM41 Infestation
@@ -133,13 +133,13 @@ X-Attack -> Binding Band
 TM21 Frustration
 
 
-~~~~~ Trainer School ~~~~~ 
+~~~~~ Trainer School ~~~~~
 
 X-Defend -> Iron Ball
 Berry Juice x2
 
- 
-~~~~~ Virbank City ~~~~~ 
+
+~~~~~ Virbank City ~~~~~
 
 Great Ball x2 -> Great Ball x15
 Burn Heal -> Focus Band
@@ -150,7 +150,7 @@ Rare Candy -> TM36 Sludge Bomb
 TM09 Venoshock
 
 
-~~~~~ Virbank Complex ~~~~~ 
+~~~~~ Virbank Complex ~~~~~
 
 X-Accuracy -> TM94 Rock Smash
 Silk Scarf -> Wise Glasses
@@ -164,7 +164,7 @@ Great Ball x5 -> TM47 Low Sweep
 Tiny Mushroom (Hidden)
 
 
-~~~~~ Castelia City ~~~~~ 
+~~~~~ Castelia City ~~~~~
 
 Bicycle -> Lucky Egg
 Rare Candy
@@ -194,7 +194,7 @@ Quick Claw -> TM88 Pluck
 Tanga Berries x2
 
 
-~~~~~ Castelia Sewers ~~~~~ 
+~~~~~ Castelia Sewers ~~~~~
 
 Twisted Spoon -> Toxic Orb
 X Sp.Atk -> Twisted Spoon
@@ -213,7 +213,7 @@ Ultra Ball (Hidden)
 Black Sludge -> TM08 Bulk Up
 
 
-~~~~~ Relic Passage ~~~~~ 
+~~~~~ Relic Passage ~~~~~
 
 Escape Rope
 Escape Rope -> TM23 Smack Down
@@ -232,7 +232,7 @@ Rocky Helmet -> TM25 Thunder
 Big Pearl -> TM52 Focus Blast
 
 
-~~~~~ Route 4 ~~~~~ 
+~~~~~ Route 4 ~~~~~
 
 Poke Toy
 Protein -> Life Orb
@@ -249,7 +249,7 @@ Grip Claw
 Green Shard
 
 
-~~~~~ Desert Resort ~~~~~ 
+~~~~~ Desert Resort ~~~~~
 
 Soft Sand
 Rawst Berry x2
@@ -269,7 +269,7 @@ Max Ether
 Fire Stone (Hidden)
 
 
-~~~~~ Relic Castle ~~~~~ 
+~~~~~ Relic Castle ~~~~~
 
 Heart Scale (Hidden)
 TM39 Rock Tomb
@@ -277,7 +277,7 @@ Sun Stone (Hidden)
 Ultra Ball -> TM01 Hone Claws
 
 
-~~~~~ Nimbasa City ~~~~~ 
+~~~~~ Nimbasa City ~~~~~
 
 Sun Stone -> Ice Stone
 Macho Brace
@@ -295,14 +295,14 @@ Cheri Berry x12**
 **Challenge mode only.
 
 
-~~~~~ Route 16 ~~~~~ 
+~~~~~ Route 16 ~~~~~
 
 Heal Ball -> Dawn Stone
 TM66 Payback -> TM66 Power Gem
 TinyMushroom (Hidden)
 
 
-~~~~~ Lostlorn Forest ~~~~~ 
+~~~~~ Lostlorn Forest ~~~~~
 
 Rare Candy -> TM22 Solarbeam
 Ultra Ball -> Leaf Stone
@@ -314,7 +314,7 @@ Cheri Berry
 Grass Gem (Hidden) -> Hard Stone
 
 
-~~~~~ Route 5 ~~~~~ 
+~~~~~ Route 5 ~~~~~
 
 Electric Guitar -> Metronome
 Hyper Potion -> TM43 Flame Charge
@@ -329,13 +329,13 @@ Cheri Berry
 New: Armour Fossil and Skull Fossil.
 
 
-~~~~~ Driftveil City ~~~~~ 
+~~~~~ Driftveil City ~~~~~
 
 Expert Belt
 Heart Scale
 Ultra Ball
 Calcium -> Link Cable
-Shell Bell 
+Shell Bell
 Haban Berry
 Big Root -> Iron Ball
 Everstone
@@ -350,15 +350,15 @@ Link Cable**
 *Easy and Normal mode only.
 **Challenge mode only.
 
-~~~~~ PWT ~~~~~ 
+~~~~~ PWT ~~~~~
 
 Ether (Hidden)
 Rocky Helmet
-Zinc (Hidden) 
+Zinc (Hidden)
 PP Up -> TM79 Frost Breath
 
 
-~~~~~ Route 6 ~~~~~ 
+~~~~~ Route 6 ~~~~~
 
 Elixir
 Moon Stone
@@ -374,7 +374,7 @@ PP Up -> King's Rock
 Big Mushroom (Hidden)
 
 
-~~~~~ Chargestone Cave ~~~~~ 
+~~~~~ Chargestone Cave ~~~~~
 
 Magnet
 Full Heal
@@ -396,7 +396,7 @@ Metal Coat
 Electric Gem (Hidden) -> Hard Stone
 
 
-~~~~~ Clay Tunnel ~~~~~ 
+~~~~~ Clay Tunnel ~~~~~
 
 Lum Berry x2
 Red Shard -> TM64 Explosion
@@ -414,7 +414,7 @@ Iron (Hidden)
 Big Nugget (Hidden)
 
 
-~~~~~ Mistralton Cave ~~~~~ 
+~~~~~ Mistralton Cave ~~~~~
 
 Dusk Ball -> TM82 Dragon Tail
 Yellow Shard -> Link Cable
@@ -429,7 +429,7 @@ TM80 Rock Slide
 Dragon Gem (Hidden) -> Hard Stone
 
 
-~~~~~ Mistralton City ~~~~~ 
+~~~~~ Mistralton City ~~~~~
 
 Sharp Beak
 TM58 Hurricane -> Eject Button
@@ -446,7 +446,7 @@ TM62 Acrobatics
 **Challenge mode only.
 
 
-~~~~~ Route 7 ~~~~~ 
+~~~~~ Route 7 ~~~~~
 
 TM81 X-Scissor -> TM89 U-Turn
 Zinc -> King's Rock
@@ -456,7 +456,7 @@ TinyMushroom (Hidden)
 Revive (Hidden)
 
 
-~~~~~ Celestial Tower ~~~~~ 
+~~~~~ Celestial Tower ~~~~~
 
 Lucky Egg
 Hyper Potion -> Mental Herb
@@ -467,14 +467,14 @@ TM65 Shadow Claw
 Ghost Gem (Hidden) -> Hard Stone
 
 
-~~~~~ Lentimas Town ~~~~~ 
+~~~~~ Lentimas Town ~~~~~
 
 Fire Stone
 TM57 Charge Beam -> TM24 Thunderbolt
 Spell Tag -> Cleanse Tag
 
 
-~~~~~ Reversal Mountain ~~~~~ 
+~~~~~ Reversal Mountain ~~~~~
 
 Max Repel
 TM69 Rock Polish
@@ -494,17 +494,17 @@ Persim Berry
 Water Gem (Hidden) -> Hard Stone
 
 
-~~~~~ Strange House ~~~~~ 
+~~~~~ Strange House ~~~~~
 
 TM30 Shadow Ball -> Shed Shell
 Spell Tag
 Full Heal -> TM30 Shadow Ball
 Dusk Stone
 Lunar Wing
-Rare Candy 
+Rare Candy
 
 
-~~~~~ Undella Town ~~~~~ 
+~~~~~ Undella Town ~~~~~
 
 New: HM05 Waterfall
 HM06 Dive -> Master Ball
@@ -515,14 +515,14 @@ Pearl x2 (Hidden)
 Big Pearl (Hidden)
 
 
-~~~~~ Undella Bay ~~~~~ 
+~~~~~ Undella Bay ~~~~~
 
 Draco Plate
 Heart Scale (Hidden)
 Splash Plate
 
 
-~~~~~ Route 14 ~~~~~ 
+~~~~~ Route 14 ~~~~~
 
 Big Pearl
 Max Potion
@@ -532,7 +532,7 @@ Nugget
 Nugget (Hidden)
 
 
-~~~~~ Abundant Shrine ~~~~~ 
+~~~~~ Abundant Shrine ~~~~~
 
 Calcium (Hidden)
 Tiny Mushroom (Hidden)
@@ -545,7 +545,7 @@ PP Max (Hidden)
 Rare Candy
 
 
-~~~~~ Route 13 ~~~~~ 
+~~~~~ Route 13 ~~~~~
 
 Blue Shard
 Max Ether
@@ -565,13 +565,13 @@ Heart Scale (Hidden)
 Power Lens/Power Band -> TM48 Mystical Fire
 
 
-~~~~~ Lacunosa Town ~~~~~ 
+~~~~~ Lacunosa Town ~~~~~
 
 Metronome -> TM04 Calm Mind
 Full Heal -> TM56 Weather Ball
 
 
-~~~~~ Route 12 ~~~~~ 
+~~~~~ Route 12 ~~~~~
 
 Max Repel (Hidden)
 Rare Candy (Hidden)
@@ -583,7 +583,7 @@ Green Shard -> Stick
 Max Potion -> TM93 Wild Charge
 
 
-~~~~~ Village Bridge ~~~~~ 
+~~~~~ Village Bridge ~~~~~
 
 Carbos
 Rare Candy
@@ -597,7 +597,7 @@ Sitrus Berry x5
 Blue Shard -> Black Belt
 
 
-~~~~~ Route 11 ~~~~~ 
+~~~~~ Route 11 ~~~~~
 
 Aspear Berry x2
 Favored Mail -> Big Root
@@ -608,7 +608,7 @@ HP Up (Hidden)
 Razor Fang
 
 
-~~~~~ Opelucid City ~~~~~ 
+~~~~~ Opelucid City ~~~~~
 
 New: Cover Fossil and Plume Fossil
 Float Stone -> Absorb Bulb
@@ -620,7 +620,7 @@ TM82 Dragon Tail -> TM02 Dragon Claw
 *Easy and Normal mode only.
 
 
-~~~~~ Route 9 ~~~~~ 
+~~~~~ Route 9 ~~~~~
 
 Poke Doll -> TM87 Rock Climb
 Quick Ball
@@ -631,12 +631,12 @@ Dark Gem (Hidden) -> Hard Stone
 HP Up
 
 
-~~~~~ Marine Tube ~~~~~ 
+~~~~~ Marine Tube ~~~~~
 
 TM42 Facade
 
 
-~~~~~ Humilau City ~~~~~ 
+~~~~~ Humilau City ~~~~~
 
 Heart Scale -> Mystic Water
 Heart Scale (Hidden)
@@ -649,7 +649,7 @@ TM55 Scald -> TM51 Wave Crash
 TM17 Protect
 
 
-~~~~~ Plasma Frigate ~~~~~ 
+~~~~~ Plasma Frigate ~~~~~
 
 Revive
 TM67 Retaliate
@@ -661,7 +661,7 @@ Power Band -> Zoom Lens
 Master Ball
 
 
-~~~~~ Route 22 ~~~~~ 
+~~~~~ Route 22 ~~~~~
 
 Carbos (Hidden)
 PP Up
@@ -673,13 +673,13 @@ Max Potion
 Red Shard
 
 
-~~~~~ Route 21 ~~~~~ 
+~~~~~ Route 21 ~~~~~
 
 Big Pearl
 PP Up
 
 
-~~~~~ Seaside Cave ~~~~~ 
+~~~~~ Seaside Cave ~~~~~
 
 TM06 Toxic
 Persim Berry x2
@@ -692,7 +692,7 @@ Max Repel
 Rare Candy
 
 
-~~~~~ Giant Chasm ~~~~~ 
+~~~~~ Giant Chasm ~~~~~
 
 Yellow Shard
 Moon Stone (Hidden)
@@ -713,7 +713,7 @@ Carbos
 Sun Stone
 
 
-~~~~~ Route 23 ~~~~~ 
+~~~~~ Route 23 ~~~~~
 
 Heart Scale
 Max Potion -> TM50 Overheat
@@ -735,7 +735,7 @@ PP Up (Hidden)
 TM12 Taunt
 
 
-~~~~~ Victory Road ~~~~~ 
+~~~~~ Victory Road ~~~~~
 
 HM05 Waterfall -> Old Sea Map
 PP Up -> TM58 Hurricane
@@ -755,7 +755,7 @@ Red Shard (Hidden)
 PP Max -> Reaper Cloth
 Max Elixir
 Max Elixir (Hidden)
-Rare Candy 
+Rare Candy
 Rare Candy (Hidden)
 Dragon Scale
 Normal Gem (Hidden) -> Hard Stone
@@ -1177,4 +1177,4 @@ TM91    Flash Cannon                    Chargestone Cave *
 TM92    Trick Room                      Plasma Frigate *
 TM93    Wild Charge                     Route 12 *
 TM94    Rock Smash                      Virbank Complex
-TM95    Snarl                           Lostlorn Forest 
+TM95    Snarl                           Lostlorn Forest

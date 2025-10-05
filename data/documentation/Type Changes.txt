@@ -10,17 +10,17 @@ General Notes
 The Fairy-type has been added to the game.
  - All Pokémon which are canonically Fairy Type as of X and Y are Fairy type in Redux.
  - In the Complete version, there are several additional Fairy types, like Renegade Platinum.
-    
+
 All Pokémon that are Fairy-type in Gen VI onwards are also Fairy-type in Redux. This is true for the Complete and the Vanilla versions.
 
 For the type changes below, they are only present in the 'Complete' version of the Redux. If you don't like these changes, use the 'Vanilla' version patch instead.
 
- 
+
 
 =========================================================
 Pokémon Type Changes (Complete version only)
 =========================================================
- 
+
 Pokémon                 Old Type            New Type                Justification
   ---                     ---                 ---                     ---
 #005 Charmeleon         Fire                Fire / Dragon           Draconic appearance, gives it useful resistances early on.
@@ -38,8 +38,8 @@ Pokémon                 Old Type            New Type                Justificati
 #200 Misdreavus         Ghost               Ghost / Fairy           Design inspiration from mythological creatures; mischievous nature; evolved form has a witch aesthetic.
 #209 Snubull            Fairy               Fighting / Fairy        Voted for by community to fix Hall of Fame crash. Naturally learns lots of Fighting type moves, Unique type combination.
 #210 Grabull            Fairy               Fighting / Fairy        Voted for by community to fix Hall of Fame crash. Naturally learns lots of Fighting type moves, Unique type combination. Boxer appearance.
-#216 Teddiursa          Normal              Normal / Ground         Inherited from Legends: Arceus evolution Ursaluna; type combination unique to Gen V games. 
-#217 Ursaring           Normal              Normal / Ground         Inherited from Legends: Arceus evolution Ursaluna; type combination unique to Gen V games. 
+#216 Teddiursa          Normal              Normal / Ground         Inherited from Legends: Arceus evolution Ursaluna; type combination unique to Gen V games.
+#217 Ursaring           Normal              Normal / Ground         Inherited from Legends: Arceus evolution Ursaluna; type combination unique to Gen V games.
 #254 Sceptile           Grass               Grass / Dragon          Inherited from Mega form; commonly requested.
 #284 Masquerain         Bug / Flying        Bug / Water             Pre-evolution has Water type; Bug/Water is a fairly unique type combo; still looks a lot like Surskit.
 #313 Volbeat            Bug                 Bug / Electric          Learns a lot of Electric attacks; has illumination powers; design looks fitting for Electric.

@@ -19,7 +19,7 @@ The Codes
 Instant Shaking Grass/Water Ripple/Dust Cloud:
 ---
  - Hold 'L' for an instant Shaking Grass/Water Ripple/Dust Cloud!
- - This is great for Audino grinding, and will work near any grass, water, cave or bridge tiles. 
+ - This is great for Audino grinding, and will work near any grass, water, cave or bridge tiles.
  - Note that you still need to have the first badge for it to have any effect!
 
 Black 2:

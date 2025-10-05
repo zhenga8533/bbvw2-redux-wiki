@@ -19,7 +19,7 @@ Trade Pokémon
 Togepi Trade.
 ---
 Location: Route 4.
- 
+
  - Talk to the Lass (BB2 Redux) or Youngster (VW2 Redux) on Route 4 to initiate the trade.
  - They are each looking for a Meowth in exchange for Togepi, which can be found on Route 20. (See Wild Area Changes Document).
  - The Togepi has the following traits:
@@ -32,7 +32,7 @@ Location: Route 4.
 Ditto Trade.
 ---
 Location: Route 7.
- 
+
  - Talk to the Hiker living in a house on Route 7 to initiate the trade.
  - He is looking for a Feebas in exchange for Ditto, which can be found in various areas around Unova. (See Wild Area Changes Document).
  - The Ditto has the following traits:
@@ -46,7 +46,7 @@ Location: Route 7.
 Phione Trade.
 ---
 Location: Route 7.
- 
+
  - Talk to the Rough-Neck living in Humilau City to initiate the trade.
  - He is looking for a Lumineon in exchange for Phione, which can also be found in various areas around Unova, or evolved from Finneon. (See Wild Area Changes Document).
  - The Phione has the following traits:

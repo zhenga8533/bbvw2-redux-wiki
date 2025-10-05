@@ -13,7 +13,7 @@ The Wild Pokémon in each area have been modified, as is standard in these kinds
  - The Super Rod is the only obtainable Rod in Gen V, as is given out after defeating Cheren on Route 20, from Cheren.
     - Thus Fishing is grouped under one heading.
 
-A quick word on Nuzlocking: 
+A quick word on Nuzlocking:
 
 A common metric for if an encounter is allowed in Nuzlockes is the 'Area Name', as can be seen by saving in an area. Typically, only one encounter is allowed per 'Area Name'.
  - Virbank Complex has been split into the Outer Complex and Inner Complex to allow for an extra encounter.
@@ -33,8 +33,8 @@ Area Changes
 =========================================================
 Main Story
 =========================================================
- 
- 
+
+
 
 ~~~~~ Aspertia City ~~~~~
 
@@ -53,7 +53,7 @@ Feebas Lv. 02-08 05%                     Feebas Lv. 06-14 10%
 
 
 
-~~~~~ Route 19 ~~~~~ 
+~~~~~ Route 19 ~~~~~
 
 Grass, Normal:
 ----------------------------------------
@@ -89,7 +89,7 @@ Staryu Lv. 05 05%
 
 
 
-~~~~~ Route 20 - Spring ~~~~~ 
+~~~~~ Route 20 - Spring ~~~~~
 
 Grass, Normal:                           Grass, Doubles:
 ---------------------------------------- ----------------------------------------
@@ -128,7 +128,7 @@ Dratini Lv. 05-15 40%                    Dratini Lv. 05-15 40%
 
 
 
-~~~~~ Route 20 - Summer ~~~~~ 
+~~~~~ Route 20 - Summer ~~~~~
 
 Grass, Normal:                           Grass, Doubles:
 ---------------------------------------- ----------------------------------------
@@ -176,7 +176,7 @@ Sewaddle Lv. 05-07 20%                   Venipede Lv. 11-14 20%
 Cubone Lv. 05-07 10%                     Wurmple Lv. 11-14 10%
 Lotad Lv. 05-07 10%                      Caterpie Lv. 11-14 10%
 Seedot Lv. 05-07 10%                     Weedle Lv. 11-14 10%
-Bellsprout Lv. 05-07 10%                 Sewaddle Lv. 11-14 10%    
+Bellsprout Lv. 05-07 10%                 Sewaddle Lv. 11-14 10%
 Ralts Lv. 05-07 05%                      Bonsly Lv. 11-14 05%
 Shroomish Lv. 05-07 05%                  Mime Jr. Lv. 11-14 05%
 Mankey Lv. 05-07 04%                     Shroomish Lv. 11-14 04%
@@ -246,7 +246,7 @@ Dratini Lv. 05-15 40%                    Dratini Lv. 05-15 40%
 
 
 
-~~~~~ Floccesy Ranch ~~~~~ 
+~~~~~ Floccesy Ranch ~~~~~
 
 Grass, Normal:
 ----------------------------------------
@@ -295,14 +295,14 @@ Fish, Normal:                            Fish, Dark Spot:
 ---------------------------------------- ----------------------------------------
 Finneon Lv. 13-15 60%                    Krabby Lv. 13-17 60%
 Krabby Lv. 13-15 30%                     Chinchou Lv. 13-17 30%
-Horsea Lv. 13-15 05%                     Horsea Lv. 13-17 05%     
-Chinchou Lv. 13-15 05%                   Finneon Lv. 13-15 05%                         
+Horsea Lv. 13-15 05%                     Horsea Lv. 13-17 05%
+Chinchou Lv. 13-15 05%                   Finneon Lv. 13-15 05%
 
 
 
 
 
-~~~~~ Virbank Complex - Outside ~~~~~ 
+~~~~~ Virbank Complex - Outside ~~~~~
 
 Grass, Normal:
 ----------------------------------------
@@ -314,7 +314,7 @@ Nidoran♂ Lv. 14-15 10%
 Nidoran♀ Lv. 14-15 10%
 Shellos-W Lv. 14-15 05%
 Makuhita Lv. 14-15 05%
-Tyrogue Lv. 14-15 05%    
+Tyrogue Lv. 14-15 05%
 Buizel Lv. 14-15 05%
 
 Grass, Shaking Spots:
@@ -337,7 +337,7 @@ Corphish Lv. 13-15 05%                   Finneon Lv. 13-17 10%
 
 
 
-~~~~~ Virbank Complex - Inside ~~~~~ 
+~~~~~ Virbank Complex - Inside ~~~~~
 
 Grass, Normal:                           Grass, Doubles:
 ---------------------------------------- ----------------------------------------
@@ -364,7 +364,7 @@ Beldum Lv. 16 10%
 
 
 
-~~~~~ Castelia City ~~~~~ 
+~~~~~ Castelia City ~~~~~
 
 Grass, Normal:                           Grass, Doubles:
 ---------------------------------------- ----------------------------------------
@@ -387,7 +387,7 @@ Audino Lv. 25 100%
 
 
 
-~~~~~ Castelia Sewers ~~~~~ 
+~~~~~ Castelia Sewers ~~~~~
 
 Sewer, Normal:
 ----------------------------------------
@@ -417,7 +417,7 @@ Stunfisk Lv. 10-20 35%                   Stunfisk Lv. 17-23 35%
 
 
 
-~~~~~ Relic Passage - Castelia ~~~~~ 
+~~~~~ Relic Passage - Castelia ~~~~~
 
 Cave, Normal:                            Cave, Dust Cloud:
 ---------------------------------------- ----------------------------------------
@@ -436,7 +436,7 @@ Larvitar Lv. 19-20 05%
 
 
 
-~~~~~ Route 4 ~~~~~ 
+~~~~~ Route 4 ~~~~~
 
 Sand, Normal:                            Special Event:
 ---------------------------------------- ----------------------------------------
@@ -466,7 +466,7 @@ Clamperl Lv. 15-25 10%                   Clamperl Lv. 15-25 10%
 
 
 
-~~~~~ Desert Resort ~~~~~ 
+~~~~~ Desert Resort ~~~~~
 
 Sand, Normal, Outside:                   Sand, Normal, Inside:
 ---------------------------------------- ----------------------------------------
@@ -485,7 +485,7 @@ Elgyem Lv. 22-24 05%                     Skorupi Lv. 24-26 05%
 
 
 
-~~~~~ Relic Castle - Upper Floors ~~~~~ 
+~~~~~ Relic Castle - Upper Floors ~~~~~
 
 Sand, Normal, 1F:                        Sand, Normal, B1F:
 ---------------------------------------- ----------------------------------------
@@ -502,7 +502,7 @@ Cubone Lv. 23-25 10%                     Litwick Lv. 24-26 10%
 
 
 
-~~~~~ Route 5 ~~~~~ 
+~~~~~ Route 5 ~~~~~
 
 Grass, Normal:                           Grass, Doubles:
 ---------------------------------------- ----------------------------------------
@@ -527,7 +527,7 @@ Stantler Lv. 27-30 10%
 
 
 
-~~~~~ Route 16 ~~~~~ 
+~~~~~ Route 16 ~~~~~
 
 Grass, Normal:                           Grass, Doubles:
 ---------------------------------------- ----------------------------------------
@@ -553,7 +553,7 @@ Lickilicky Lv. 27-30 05%
 
 
 
-~~~~~ Lostlorn Forest ~~~~~ 
+~~~~~ Lostlorn Forest ~~~~~
 
 Grass, Normal:                           Grass, Doubles:
 ---------------------------------------- ----------------------------------------
@@ -595,7 +595,7 @@ Basculin-B Lv. 18-22 30%                 Basculin-R Lv. 23-27 30%
 
 
 
-~~~~~ Driftveil Drawbridge, Charizard Bridge ~~~~~ 
+~~~~~ Driftveil Drawbridge, Charizard Bridge ~~~~~
 
 Bridge, Dark Spots:
 ----------------------------------------
@@ -607,7 +607,7 @@ Swablu Lv. 29-33 20%
 
 
 
-~~~~~ Route 6 - Spring, Summer, Autumn ~~~~~ 
+~~~~~ Route 6 - Spring, Summer, Autumn ~~~~~
 
 Grass, Normal:                           Grass, Doubles:
 ---------------------------------------- ----------------------------------------
@@ -647,7 +647,7 @@ Barboach Lv. 25 10%                      Barboach Lv. 30 10%
 
 
 
-~~~~~ Route 6 - Winter ~~~~~ 
+~~~~~ Route 6 - Winter ~~~~~
 
 Grass, Normal:                           Grass, Doubles:
 ---------------------------------------- ----------------------------------------
@@ -686,7 +686,7 @@ Barboach Lv. 25 10%                      Barboach Lv. 30 10%
 
 
 
-~~~~~ Clay Tunnel - All Areas ~~~~~ 
+~~~~~ Clay Tunnel - All Areas ~~~~~
 
 Cave, Normal:                            Cave, Dust Cloud:
 ---------------------------------------- ----------------------------------------
@@ -703,7 +703,7 @@ Palpitoad Lv. 33-36 05%
 Surf, Normal:                            Surf, Dark Spot:
 ---------------------------------------- ----------------------------------------
 Seel  Lv. 35-40 65%                      Seel Lv. 35-40 65%
-Feebas Lv. 35-40 35%                     Feebas Lv. 35-40 35%    
+Feebas Lv. 35-40 35%                     Feebas Lv. 35-40 35%
 
 Fish, Normal:                            Fish, Dark Spot:
 ---------------------------------------- ----------------------------------------
@@ -714,7 +714,7 @@ Barboach Lv. 35-40 30%                   Barboach Lv. 35-40 30%
 
 
 
-~~~~~ Relic Passage - Driftveil Side ~~~~~ 
+~~~~~ Relic Passage - Driftveil Side ~~~~~
 
 Cave, Normal:                            Cave, Dust Cloud:
 ---------------------------------------- ----------------------------------------
@@ -732,7 +732,7 @@ Clefairy Lv. 29-32 05%
 
 
 
-~~~~~ Relic Passage - Center (Main) Room ~~~~~ 
+~~~~~ Relic Passage - Center (Main) Room ~~~~~
 
 Cave, Normal:                            Cave, Dust Cloud:
 ---------------------------------------- ----------------------------------------
@@ -763,7 +763,7 @@ Barboach Lv. 25-35 100%                  Barboach Lv. 25-35 90%
 
 
 
-~~~~~ Relic Castle - Lower Floors ~~~~~ 
+~~~~~ Relic Castle - Lower Floors ~~~~~
 
 Floor, Room Left of Pots:                Floor, Room Right of Pots:
 ---------------------------------------- ----------------------------------------
@@ -806,7 +806,7 @@ Darmanitan-Z Lv. 35 05%                  Volcarona Lv. 40* Event --%
 
 
 
-~~~~~ Mistralton Cave ~~~~~ 
+~~~~~ Mistralton Cave ~~~~~
 
 Cave, Normal, 1F:                        Cave, Dust Cloud, 1F:
 ---------------------------------------- ----------------------------------------
@@ -848,12 +848,12 @@ Pupitar Lv. 36-38 05%
 
 
 
-~~~~~ Chargestone Cave ~~~~~ 
+~~~~~ Chargestone Cave ~~~~~
 
 Cave, Normal, 1F:                        Cave, Dust Cloud, 1F:
 ---------------------------------------- ----------------------------------------
 Nosepass Lv. 32-36 20%                   Nosepass Lv. 32-36 50%
-Klink Lv. 32-36 20%                      Geodude Lv. 32-36 30%    
+Klink Lv. 32-36 20%                      Geodude Lv. 32-36 30%
 Ferroseed Lv. 32-36 10%                  Diglett Lv. 32-36 20%
 Boldore Lv. 32-36 10%
 Magnemite Lv. 32-36 10%
@@ -866,7 +866,7 @@ Voltorb Lv. 32-36 04%
 Cave, Normal, B1F:                       Cave, Dust Cloud, B1F:
 ---------------------------------------- ----------------------------------------
 Nosepass Lv. 36-40 20%                   Nosepass Lv. 36-40 50%
-Klink Lv. 36-40 20%                      Graveler Lv. 36-40 30%    
+Klink Lv. 36-40 20%                      Graveler Lv. 36-40 30%
 Ferroseed Lv. 36-40 10%                  Dugtrio Lv. 36-40 20%
 Boldore Lv. 36-40 10%
 Magneton Lv. 36-40 10%
@@ -879,7 +879,7 @@ Electrode Lv. 36-40 04%
 Cave, Normal, B2F:                       Cave, Dust Cloud, B2F:
 ---------------------------------------- ----------------------------------------
 Nosepass Lv. 38-41 20%                   Probopass Lv. 38-41 50%
-Klink Lv. 38-41 20%                      Graveler Lv. 38-41 30%    
+Klink Lv. 38-41 20%                      Graveler Lv. 38-41 30%
 Ferroseed Lv. 38-41 10%                  Dugtrio Lv. 38-41 20%
 Boldore Lv. 38-41 10%
 Magneton Lv. 38-41 10%
@@ -893,7 +893,7 @@ Electrode Lv. 38-41 04%
 
 
 
-~~~~~ Route 7 - Spring, Summer, Autumn ~~~~~ 
+~~~~~ Route 7 - Spring, Summer, Autumn ~~~~~
 
 Grass, Normal:                           Grass, Doubles:
 ---------------------------------------- ----------------------------------------
@@ -917,7 +917,7 @@ Audino Lv. 43-47 100%                    Search 'Hidden Grotto Guide' - (End of 
 
 
 
-~~~~~ Route 7 - Winter ~~~~~ 
+~~~~~ Route 7 - Winter ~~~~~
 
 Grass, Normal:                           Grass, Doubles:
 ---------------------------------------- ----------------------------------------
@@ -941,7 +941,7 @@ Audino Lv. 43-47 100%                    Search 'Hidden Grotto Guide' - (End of 
 
 
 
-~~~~~ Celestial Tower ~~~~~ 
+~~~~~ Celestial Tower ~~~~~
 
 Floor, 2F:                               Floor, 3F:
 ---------------------------------------- ----------------------------------------
@@ -973,7 +973,7 @@ Banette Lv. 40-43 05%                    Bronzong Lv. 40-44 05%
 
 
 
-~~~~~ Reversal Mountain - Outside ~~~~~ 
+~~~~~ Reversal Mountain - Outside ~~~~~
 
 Grass, Normal:                           Grass, Doubles:
 ---------------------------------------- ----------------------------------------
@@ -997,7 +997,7 @@ Cacturne Lv. 40-43 30%
 
 
 
-~~~~~ Reversal Mountain - Inside ~~~~~ 
+~~~~~ Reversal Mountain - Inside ~~~~~
 
 Cave, Normal, 1F:                        Cave, Dust Cloud, 1F:
 ---------------------------------------- ----------------------------------------
@@ -1029,7 +1029,7 @@ Sawk Lv. 41-44 05%
 
 
 
-~~~~~ Strange House ~~~~~ 
+~~~~~ Strange House ~~~~~
 
 Rooms, Type One:                         Rooms, Type Two:
 ---------------------------------------- ----------------------------------------
@@ -1047,7 +1047,7 @@ Spiritomb Lv. 40-43 05%                  Spiritomb Lv. 40-43 05%
 
 
 
-~~~~~ Undella Town ~~~~~ 
+~~~~~ Undella Town ~~~~~
 
 Surf, Normal, Undella Town:              Surf, Dark Spot, Undella Town:
 ---------------------------------------- ----------------------------------------
@@ -1065,7 +1065,7 @@ Luvdisc Lv. 40-46 10%                    Cloyster Lv. 40-46 10%
 
 
 
-~~~~~ Undella Bay ~~~~~ 
+~~~~~ Undella Bay ~~~~~
 
 Surf, Normal, Undella Bay:               Surf, Dark Spot, Undella Bay:
 ---------------------------------------- ----------------------------------------
@@ -1094,7 +1094,7 @@ Jellicent♀ Lv. 45 VW2 --%
 
 
 
-~~~~~ Route 14 ~~~~~ 
+~~~~~ Route 14 ~~~~~
 
 Grass, Normal:                           Grass, Doubles:
 ---------------------------------------- ----------------------------------------
@@ -1106,7 +1106,7 @@ Mienfoo Lv. 41-44 10%                    Mienfoo Lv. 42-46 10%
 Tropius Lv. 41-44 10%                    Tropius Lv. 42-46 10%
 Jigglypuff Lv. 41-44 05%                 Jigglypuff Lv. 42-46 05%
 Altaria Lv. 41-44 05%                    Altaria Lv. 42-46 05%
-Chansey Lv. 41-44 05%                    
+Chansey Lv. 41-44 05%
 
 Grass, Shaking Spots:
 ----------------------------------------
@@ -1124,13 +1124,13 @@ Floatzel Lv. 40-46 10%
 Fish, Normal:                            Fish, Dark Spot:
 ---------------------------------------- ----------------------------------------
 Psyduck Lv. 40-46 90%                    Psyduck Lv. 40-46 60%
-Golduck Lv. 40-46 10%                    Golduck Lv. 40-46 40%                 
+Golduck Lv. 40-46 10%                    Golduck Lv. 40-46 40%
 
 
 
 
 
-~~~~~ Abundant Shrine ~~~~~ 
+~~~~~ Abundant Shrine ~~~~~
 
 Grass, Normal:                           Grass, Doubles:
 ---------------------------------------- ----------------------------------------
@@ -1142,7 +1142,7 @@ Marill Lv. 41-44 10%                     Marill Lv. 42-46 10%
 Swablu Lv. 41-44 10%                     Gloom Lv. 42-46 10%
 Pineco Lv. 41-44 05%                     Pineco Lv. 42-46 05%
 Eevee Lv. 41-44 05%                      Eevee Lv. 42-46 05%
-Vulpix Lv. 41-44 05%                    
+Vulpix Lv. 41-44 05%
 Slowpoke Lv. 41-44 05%
 
 Grass, Shaking Spots:                    Hidden Grottos:
@@ -1171,7 +1171,7 @@ Crawdaunt Lv. 40-46 10%
 
 
 
-~~~~~ Seaside Cave - Upper Floor ~~~~~ 
+~~~~~ Seaside Cave - Upper Floor ~~~~~
 
 Cave, Normal:                            Cave, Dust Cloud:
 ---------------------------------------- ----------------------------------------
@@ -1206,13 +1206,13 @@ Crustle Lv. 50 --%
 
 
 
-~~~~~ Seaside Cave - Lower Floor ~~~~~ 
+~~~~~ Seaside Cave - Lower Floor ~~~~~
 
 Cave, Normal:                            Cave, Dust Cloud:
 ---------------------------------------- ----------------------------------------
 Woobat Lv. 46 20%                        Stunfisk Lv. 44-46 100%
-Golduck Lv. 46 20%                         
-Gurdurr Lv. 46 10%                         
+Golduck Lv. 46 20%
+Gurdurr Lv. 46 10%
 Machoke Lv. 46 10%
 Eelektrik Lv. 46 10%
 Dewgong Lv. 46 10%
@@ -1225,7 +1225,7 @@ Sealeo Lv. 46 05%
 
 
 
-~~~~~ Route 13 ~~~~~ 
+~~~~~ Route 13 ~~~~~
 
 Grass, Normal:                           Grass, Doubles:
 ---------------------------------------- ----------------------------------------
@@ -1259,7 +1259,7 @@ Staryu Lv. 40-46 35%                     Kingler Lv. 40-46 30%
 Luvdisc Lv. 40-46 05%                    Luvdisc Lv. 40-46 05%
 Starmie Lv. 40-46 05%
 
-Special Event: 
+Special Event:
 ----------------------------------------
 Cobalion Lv. 50 --%
 
@@ -1267,7 +1267,7 @@ Cobalion Lv. 50 --%
 
 
 
-~~~~~ Route 12 ~~~~~ 
+~~~~~ Route 12 ~~~~~
 
 Grass, Normal:                           Grass, Doubles:
 ---------------------------------------- ----------------------------------------
@@ -1293,7 +1293,7 @@ Staraptor Lv. 44-46 05%
 
 
 
-~~~~~ Village Bridge ~~~~~ 
+~~~~~ Village Bridge ~~~~~
 
 Grass, Normal:                           Grass, Doubles:
 ---------------------------------------- ----------------------------------------
@@ -1331,7 +1331,7 @@ Basculin-B Lv. 42-48 30%                 Carvanha Lv. 42-48 30%
 
 
 
-~~~~~ Route 11 ~~~~~ 
+~~~~~ Route 11 ~~~~~
 
 Grass, Normal:                           Grass, Doubles:
 ---------------------------------------- ----------------------------------------
@@ -1367,7 +1367,7 @@ Basculin-B Lv. 48-53 30%                 Basculin-R Lv. 48-53 30%
 
 
 
-~~~~~ Route 9 ~~~~~ 
+~~~~~ Route 9 ~~~~~
 
 Grass, Normal:                           Grass, Doubles:
 ---------------------------------------- ----------------------------------------
@@ -1410,7 +1410,7 @@ Cloyster Lv. 50-55 10%
 
 
 
-~~~~~ Humilau City ~~~~~ 
+~~~~~ Humilau City ~~~~~
 
 Surf, Normal, Humilau City:              Surf, Dark Spot, Humilau City:
 ---------------------------------------- ----------------------------------------
@@ -1429,7 +1429,7 @@ Gorebyss Lv. 50-55 05%
 
 
 
-~~~~~ Route 22 ~~~~~ 
+~~~~~ Route 22 ~~~~~
 
 Grass, Normal:                           Grass, Doubles:
 ---------------------------------------- ----------------------------------------
@@ -1457,7 +1457,7 @@ Mamoswine Lv. 54-58 05%                  Terrakion Lv. 50 --%
 Surf, Normal:                            Surf, Dark Spot:
 ---------------------------------------- ----------------------------------------
 Lotad Lv. 50-55 70%                      Lombre Lv. 50-55 70%
-Surskit Lv. 50-55 30%                    Masquerain Lv. 50-55 30%     
+Surskit Lv. 50-55 30%                    Masquerain Lv. 50-55 30%
 
 Fish, Normal:                            Fish, Dark Spot:
 ---------------------------------------- ----------------------------------------
@@ -1469,7 +1469,7 @@ Seaking Lv. 50-55 10%
 
 
 
-~~~~~ Giants Chasm - Route 13 ~~~~~ 
+~~~~~ Giants Chasm - Route 13 ~~~~~
 
 Grass, Normal:                           Grass, Doubles:
 ---------------------------------------- ----------------------------------------
@@ -1495,7 +1495,7 @@ Crobat Lv. 54-58 05%
 
 
 
-~~~~~ Giants Chasm - Entrance Cave ~~~~~ 
+~~~~~ Giants Chasm - Entrance Cave ~~~~~
 
 Cave, Normal:                            Cave, Dust Cloud:
 ---------------------------------------- ----------------------------------------
@@ -1525,7 +1525,7 @@ Shellos-E Lv. 50-60 30%                  Gastrodon-E Lv. 50-60 05%
 
 
 
-~~~~~ Giants Chasm - Plasma Airship Area ~~~~~ 
+~~~~~ Giants Chasm - Plasma Airship Area ~~~~~
 
 Grass, Normal:                           Grass, Doubles:
 ---------------------------------------- ----------------------------------------
@@ -1550,14 +1550,14 @@ Vanilluxe Lv. 50 05%
 
 
 
-~~~~~ Giants Chasm - Kyurems Cave ~~~~~ 
+~~~~~ Giants Chasm - Kyurems Cave ~~~~~
 
 Cave, Normal:                            Cave, Dust Cloud:
 ---------------------------------------- ----------------------------------------
 Piloswine Lv. 53-56 20%                  Lunatone Lv. 54-58 50%
 Golbat Lv. 53-56 20%                     Solrock Lv. 54-58 50%
-Delibird Lv. 53-56 10%                     
-Boldore Lv. 53-56 10%                     
+Delibird Lv. 53-56 10%
+Boldore Lv. 53-56 10%
 Jynx Lv. 53-56 10%
 Vanillish Lv. 53-56 10%                  Special Event:
 Cryogonal Lv. 53-56 05%                  ----------------------------------------
@@ -1580,7 +1580,7 @@ Shellos-E Lv. 50-60 30%                  Gastrodon-E Lv. 50-60 05%
 
 
 
-~~~~~ Route 23 ~~~~~ 
+~~~~~ Route 23 ~~~~~
 
 Grass, Normal:                           Grass, Doubles:
 ---------------------------------------- ----------------------------------------
@@ -1617,7 +1617,7 @@ Kingler Lv. 55-65 10%                    Kingler Lv. 55-65 10%
 
 
 
-~~~~~ Victory Road - Ruined Area ~~~~~ 
+~~~~~ Victory Road - Ruined Area ~~~~~
 
 Cave, Normal:
 ----------------------------------------
@@ -1645,7 +1645,7 @@ Basculin-B Lv. 60-70 30%                 Basculin-R Lv. 60-70 30%
 
 
 
-~~~~~ Victory Road - Lower Mountainside ~~~~~ 
+~~~~~ Victory Road - Lower Mountainside ~~~~~
 
 Grass, Normal:                           Grass, Doubles:
 ---------------------------------------- ----------------------------------------
@@ -1680,7 +1680,7 @@ Basculin-B Lv. 60-70 30%                 Basculin-R Lv. 60-70 30%
 
 
 
-~~~~~ Victory Road - Forest ~~~~~ 
+~~~~~ Victory Road - Forest ~~~~~
 
 Grass, Normal:                           Grass, Doubles:
 ---------------------------------------- ----------------------------------------
@@ -1711,14 +1711,14 @@ Shiftry Lv. 59 05%
 
 
 
-~~~~~ Victory Road - Connecting Caves I ~~~~~ 
+~~~~~ Victory Road - Connecting Caves I ~~~~~
 
 Cave, Main, Normal:                      Cave, Main, Dust Cloud:
 ---------------------------------------- ----------------------------------------
 Boldore Lv. 59-62 20%                    Donphan Lv. 60-65 60%
 Lairon Lv. 59-62 20%                     Durant Lv. 60-65 20%
-Magneton Lv. 59-62 10%                   Heatmor Lv. 60-65 20%  
-Kadabra Lv. 59-62 10%                     
+Magneton Lv. 59-62 10%                   Heatmor Lv. 60-65 20%
+Kadabra Lv. 59-62 10%
 Rhydon Lv. 59-62 10%
 Durant Lv. 59-62 10%
 Donphan Lv. 59-62 10%
@@ -1728,8 +1728,8 @@ Cave, Dark, Normal:                      Cave, Dark, Dust Cloud:
 ---------------------------------------- ----------------------------------------
 Boldore Lv. 59-62 20%                    Parasect Lv. 60-65 60%
 Graveler Lv. 59-62 20%                   Ursaring Lv. 60-65 40%
-Parasect Lv. 59-62 10%                     
-Wobbuffet Lv. 59-62 10%                     
+Parasect Lv. 59-62 10%
+Wobbuffet Lv. 59-62 10%
 Mawile Lv. 59-62 10%
 Sableye Lv. 59-62 10%
 Golbat Lv. 59-62 05%
@@ -1741,7 +1741,7 @@ Excadrill Lv. 59-62 05%
 
 
 
-~~~~~ Victory Road - Upper Mountainside ~~~~~ 
+~~~~~ Victory Road - Upper Mountainside ~~~~~
 
 Grass, Normal:                           Grass, Doubles:
 ---------------------------------------- ----------------------------------------
@@ -1767,13 +1767,13 @@ Lucario Lv. 60-65 05%
 
 
 
-~~~~~ Victory Road - Connecting Caves II ~~~~~ 
+~~~~~ Victory Road - Connecting Caves II ~~~~~
 
 Cave, Dragons, Normal:                   Cave, Dragons, Dust Cloud:
 ---------------------------------------- ----------------------------------------
 Druddigon Lv. 59-62 40%                  Druddigon Lv. 60-65 40%
 Magmar Lv. 59-62 10%                     Steelix Lv. 60-65 20%
-Electabuzz Lv. 59-62 10%                 Kangaskhan Lv. 60-65 20%   
+Electabuzz Lv. 59-62 10%                 Kangaskhan Lv. 60-65 20%
 Kangaskhan Lv. 59-62 10%                 Magmar Lv. 60-65 10%
 Arbok Lv. 59-62 10%                      Electabuzz Lv. 60-65 10%
 Shelgon Lv. 59-62 05%
@@ -1785,7 +1785,7 @@ Cave, Top, Normal:                       Cave, Top, Dust Cloud:
 ---------------------------------------- ----------------------------------------
 Woobat Lv. 59-62 20%                     Swoobat Lv. 60-65 60%
 Golbat Lv. 59-62 20%                     Hariyama Lv. 60-65 40%
-Boldore Lv. 59-62 10%                         
+Boldore Lv. 59-62 10%
 Gurdurr Lv. 59-62 10%
 Pupitar Lv. 59-62 10%
 Hariyama Lv. 59-62 10%
@@ -2525,7 +2525,7 @@ The following is a list of Hidden Grottos and what can be encountered in each on
 Guaranteed Encounters:
 
  - When you first make it to Route 5, Bianca will demonstrate the Hidden Grotto mechanic.
- - You will always encounter a Lv. 30 Stantler here. 
+ - You will always encounter a Lv. 30 Stantler here.
     - This replaces the overpowered Munchlax from BB2 and VW2 and the fairly useless Minccino of the vanilla games.
 
 Common Encounters:
@@ -2548,7 +2548,7 @@ Rare Encounters:
  - Totodile
  - Stantler
 
- 
+
 ~~~~~~ Lostlorn Forest ~~~~~~
 
 Common Encounters:
@@ -2571,7 +2571,7 @@ Rare Encounters:
  - Treecko
  - Scyther
 
- 
+
 ~~~~~~ Route 6 - Driftveil Entrance ~~~~~~
 
 Common Encounters:
@@ -2594,7 +2594,7 @@ Rare Encounters:
  - Chikorita
  - Turtwig
 
- 
+
 ~~~~~~ Route 6 - Mistralton Cave Entrance ~~~~~~
 
 Common Encounters:
@@ -2616,8 +2616,8 @@ Rare Encounters:
  - Gible
  - Cyndaquil
  - Torchic
- 
- 
+
+
 ~~~~~~ Floccesy Ranch ~~~~~~
 
 Common Encounters:
@@ -2639,14 +2639,14 @@ Rare Encounters:
  - Houndour
  - Miltank
  - Tauros
- 
- 
+
+
 ~~~~~~ Route 7 ~~~~~~
 
 Common Encounters:
 
  - Swinub
- - Snorunt 
+ - Snorunt
  - Phanpy
  - Aipom
 
@@ -2662,8 +2662,8 @@ Rare Encounters:
  - Sneasel
  - Charmander
  - Chimchar
- 
- 
+
+
 ~~~~~~ Abundant Shrine - Entrance ~~~~~~
 
 Common Encounters:
@@ -2684,10 +2684,10 @@ Rare Encounters:
 
  - Eevee
  - Slowpoke
- - Vulpix 
+ - Vulpix
  - Abra
 
- 
+
 ~~~~~~ Abundant Shrine - Back Pond near Shrine ~~~~~~
 
 Common Encounters:
@@ -2706,8 +2706,8 @@ Rare Encounters:
 
  - Dratini
  - Poliwag
- 
- 
+
+
 ~~~~~~ Route 13 - Near Cobalion's Grove ~~~~~~
 
 Common Encounters:
@@ -2754,7 +2754,7 @@ Rare Encounters:
  - Golett
  - Munchlax
 
- 
+
 ~~~~~~ Route 22 ~~~~~~
 
 Common Encounters:
@@ -2763,7 +2763,7 @@ Common Encounters:
  - Ledyba
  - Spinarak
  - Shuckle
- 
+
 Uncommon Encounters:
 
  - Surskit
@@ -2775,19 +2775,19 @@ Rare Encounters:
 
  - Mienfoo
  - Delibird
- - Gligar 
+ - Gligar
  - Corsola
- 
- 
+
+
 ~~~~~~ Giant Chasm ~~~~~~
 
 Common Encounters:
 
- - Clefairy 
+ - Clefairy
  - Absol
  - Drowzee
  - Castform
- 
+
 Uncommon Encounters:
 
  - Porygon
@@ -2797,12 +2797,12 @@ Uncommon Encounters:
 
 Rare Encounters:
 
- - Drilbur 
+ - Drilbur
  - Beldum
  - Ditto
  - Roggenrola
 
- 
+
 ~~~~~~ Route 13 - Outside Giant Chasm ~~~~~~
 
 Common Encounters:
@@ -2826,7 +2826,7 @@ Rare Encounters:
  - Togepi
  - Happiny
 
- 
+
 ~~~~~~ Route 23 ~~~~~~
 
 Common Encounters:
@@ -2850,13 +2850,13 @@ Rare Encounters:
  - Tauros
  - Gastly
 
- 
+
 ~~~~~~ Pinwheel Forest - Deep in the Woods ~~~~~~
 
 Common Encounters:
 
- - Amoonguss 
- - Murkrow 
+ - Amoonguss
+ - Murkrow
  - Pinsir
  - Scyther
 
@@ -2870,7 +2870,7 @@ Rare Encounters:
  - Breloom
  - Scolipede
 
- 
+
 ~~~~~~ Pinwheel Forest - Challenger's Rock ~~~~~~
 
 Common Encounters:
@@ -2890,14 +2890,14 @@ Rare Encounters:
  - Ledian
  - Ariados
 
- 
+
 ~~~~~~ Route 3 - In the Dark, Doubles Grass ~~~~~~
 
 Common Encounters:
 
- - Pachirisu 
- - Manectric 
- - Zebstrika 
+ - Pachirisu
+ - Manectric
+ - Zebstrika
  - Luxray
 
 Uncommon Encounters:
@@ -2910,7 +2910,7 @@ Rare Encounters:
  - Ninetales
  - Arcanine
 
- 
+
 ~~~~~~ Route 3 - Over the Clear, Blue Pond ~~~~~~
 
 Common Encounters:
@@ -2919,52 +2919,52 @@ Common Encounters:
  - Venonat
  - Lombre
  - Masquerain
- 
+
 Uncommon Encounters:
 
  - Basculin
  - Lanturn
- 
+
 Rare Encounters:
 
- - Flaaffy 
+ - Flaaffy
  - Mightyena
 
- 
+
 ~~~~~~ Route 2 ~~~~~~
 
 Common Encounters:
 
- - Watchog 
- - Nidorino 
- - Nidorina 
+ - Watchog
+ - Nidorino
+ - Nidorina
  - Granbull
- 
+
 Uncommon Encounters:
 
- - Primeape 
+ - Primeape
  - Herdier
- 
+
 Rare Encounters:
 
  - Dunsparce
  - Kricketune
 
- 
+
 ~~~~~~ Route 18 ~~~~~~
 
 Common Encounters:
 
- - Kingler 
- - Crawdaunt 
+ - Kingler
+ - Crawdaunt
  - Chatot
  - Dragonite
- 
+
 Uncommon Encounters:
 
- - Feebas 
+ - Feebas
  - Crustle
- 
+
 Rare Encounters:
 
  - Galvantula

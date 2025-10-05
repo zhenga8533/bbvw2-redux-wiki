@@ -36,7 +36,7 @@ Move Deleter
 =========================================================
 
 Location: Castelia Pokémon Center.
- 
+
  - The move deleter's brother can be found in Castelia Pokémon Center, replacing the slightly irritating Genonet interaction.
  - The move deleter still be found in the PWT.
  - No other changes.
@@ -58,12 +58,12 @@ Move Tutors
 =========================================================
 
 Location(s): Drfitveil City, Lentimas Town, Humilau City, Route 23 (new) and Nacrene City.
- 
+
  - All move tutors remain where they are for balance purposes in Redux.
 	- However, the Master tutor in Nacrene City can now also be found on Route 23.
  - Shards can be purchased in Driftveil Pokémon Center, or farmed from dust clouds in certain caves.
- 
- 
+
+
 =========================================================
 Fossil Reviver
 =========================================================

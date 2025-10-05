@@ -26,7 +26,7 @@ Level up moves have been changed for every single Pokémon. These include moves 
  - All level up move changes are found in both the Complete and Classic Versions of Redux.
 
 All Pokémon have had their wild held item updated to match Gen VIII, Pokémon Sword and Shield.
- - There are some exceptions to this, mainly the Munchlax line no longer carries Leftovers and Cubone no longer carries a Thick Club, for balance purposes. 
+ - There are some exceptions to this, mainly the Munchlax line no longer carries Leftovers and Cubone no longer carries a Thick Club, for balance purposes.
  - These can each be obtained elsewhere through regular gameplay, see 'Item Changes' for more information.
 Pokémon who may hold an item in Pokémon Sword and Shield that doesn't exist in Black 2 and White 2 will not hold anything.
 
@@ -46,7 +46,7 @@ At a glance, here are all the Pokémon with new type combinations:
    Gen I: Charmeleon, Charizard, Spearow, Fearow, Ninetales, Golduck, Rapidash, Farfetch'd, Shellder.
    Gen II: Meganium, Noctowl, Ampharos, Misdreavus, Snubull, Granbull, Teddiursa, Ursaring.
    Gen III: Sceptile, Masquerain, Volbeat, Illumise, Trapinch, Vibrava, Flygon, Swablu, Altaria, Banette, Glalie, Luvdisc.
-   Gen IV: Luxray, Lopunny, Mismagius, Electivire, Probopass, Uxie, Mesprit, Azelf. 
+   Gen IV: Luxray, Lopunny, Mismagius, Electivire, Probopass, Uxie, Mesprit, Azelf.
    Gen V: Servine, Serperior, Pignite, Emboar, Dewott, Samurott, Munna, Musharna, Audino, Gothita, Gothorita, Gothitelle, Vanilluxe and Beartic.
 
 All new type changes are omitted in the Classic version of Redux.
@@ -83,7 +83,7 @@ Level Up:
 16 - Charm
 19 - Magical Leaf
 22 - Sludge
-25 - Nature Power 
+25 - Nature Power
 28 - Seed Bomb
 31 - Take Down
 34 - Leech Seed
@@ -283,7 +283,7 @@ Now compatible with Draco Meteor from the Move Tutor.
 
 Type (Complete):
 Old     Fire / Flying
-New     Fire / Dragon     
+New     Fire / Dragon
 
 Level Up:
 1 - Belly Drum
@@ -354,7 +354,7 @@ New     Shell Armor / Torrent / Rain Dish
 
 Ability (Classic):
 Old     Torrent / Torrent / Rain Dish
-New     Rain Dish / Torrent / Rain Dish  
+New     Rain Dish / Torrent / Rain Dish
 
 Level Up:
 1 - Block [*]
@@ -386,7 +386,7 @@ Level Up:
 ===================
 Base Stats (Complete):
 Old     79 HP / 83 Atk / 100 Def / 85 SAtk / 105 SDef / 78 Spd / 530 BST
-New     79 HP / 83 Atk / 100 Def / 90 SAtk / 105 SDef / 78 Spd / 535 BST    
+New     79 HP / 83 Atk / 100 Def / 90 SAtk / 105 SDef / 78 Spd / 535 BST
 
 Ability (Complete):
 Old     Torrent / Torrent / Rain Dish
@@ -569,7 +569,7 @@ Ability (Complete / Classic):
 Old     Keen Eye / Tangled Feet / Big Pecks
 New     Big Pecks / Tangled Feet / Keen Eye
 
-Moves: 
+Moves:
 Now compatible with TM49, Echoed Voice.
 
 Level Up:
@@ -602,13 +602,13 @@ Level Up:
 ===================
 Base Stats (Complete):
 Old     63 HP / 60 Atk / 55 Def / 50 SAtk / 50 SDef / 71 Spd / 349 BST
-New     63 HP / 50 Atk / 50 Def / 65 SAtk / 50 SDef / 71 Spd / 349 BST    
+New     63 HP / 50 Atk / 50 Def / 65 SAtk / 50 SDef / 71 Spd / 349 BST
 
 Ability (Complete / Classic):
 Old     Keen Eye / Tangled Feet / Big Pecks
-New     Big Pecks / Tangled Feet / Keen Eye 
+New     Big Pecks / Tangled Feet / Keen Eye
 
-Moves: 
+Moves:
 Now compatible with TM49, Echoed Voice.
 Now compatible with TM58, Hurricane.
 
@@ -640,7 +640,7 @@ Level Up:
 
 ===================
 018 - Pidgeot
-===================   
+===================
 Base Stats (Complete):
 Old     83 HP / 80 Atk / 75 Def / 70 SAtk / 70 SDef / 101 Spd / 479 BST
 New     83 HP / 60 Atk / 70 Def / 115 SAtk / 70 SDef / 101 Spd / 499 BST
@@ -653,7 +653,7 @@ Ability (Classic):
 Old     Keen Eye / Tangled Feet / Big Pecks
 New     Big Pecks / Tangled Feet / Keen Eye
 
-Moves:  
+Moves:
 Now compatible with TM49, Echoed Voice.
 Now compatible with TM58, Hurricane.
 
@@ -694,7 +694,7 @@ New     Hustle / Guts / Run Away
 Moves:
 Now compatible with TM01, Hone Claws.
 Now compatible with TM60, Quash.
- 
+
 Level Up:
 1 - Bite
 1 - Me First
@@ -738,7 +738,7 @@ Now compatible with TM54, False Swipe.
 Now compatible with TM60, Quash.
 Now compatible with TM65, Shadow Claw.
 Now compatible with TM87, Rock Climb.
- 
+
 Level Up:
 1 - Revenge
 1 - Bite
@@ -790,8 +790,8 @@ Now compatible with TM58, Hurricane.
 
 Type (Complete):
 Old     Normal / Flying
-New     Flying     
- 
+New     Flying
+
 Level Up:
 1 - Growl
 1 - Leer
@@ -826,11 +826,11 @@ New     Intimidate / Sniper / Sniper
 
 Ability (Classic):
 Old     Keen Eye / Keen Eye / Sniper
-New     Keen Eye / Sniper / Sniper  
+New     Keen Eye / Sniper / Sniper
 
 Type (Complete):
 Old     Normal / Flying
-New     Flying     
+New     Flying
 
 Moves:
 Now compatible with TM01, Hone Claws.
@@ -840,7 +840,7 @@ Now compatible with TM60, Quash.
 Now compatible with TM65, Shadow Claw.
 Now compatible with TM95, Snarl.
 Now compatible with HM01, Cut.
- 
+
 Level Up:
 1 - Dual Wingbeat
 1 - Growl
@@ -984,7 +984,7 @@ New     60 HP / 95 Atk / 55 Def / 95 SAtk / 80 SDef / 110 Spd / 495 BST
 
 Ability (Complete / Classic):
 Old     Static / Static / Lightning Rod
-New     Static / Lightning Rod / Lightning Rod   
+New     Static / Lightning Rod / Lightning Rod
 
 Moves:
 Now compatible with TM29, Psychic.
@@ -1048,11 +1048,11 @@ Level Up:
 028 - Sandslash
 ===================
 Ability (Complete):
-Old     Sand Veil / Sand Veil / Sand Rush 
+Old     Sand Veil / Sand Veil / Sand Rush
 New     Rough Skin / Sand Rush / Sand Rush
 
 Ability (Classic):
-Old     Sand Veil / Sand Veil / Sand Rush 
+Old     Sand Veil / Sand Veil / Sand Rush
 New     Sand Veil / Sand Rush / Sand Rush
 
 Moves:
@@ -1091,8 +1091,8 @@ Level Up:
 029 - Nidoran♀
 ===================
 Ability (Complete / Classic):
-Old     Poison Point / Rivalry / Hustle 
-New     Hustle / Poison Point / Rivalry 
+Old     Poison Point / Rivalry / Hustle
+New     Hustle / Poison Point / Rivalry
 
 Level Up:
 1 - Growl
@@ -1121,8 +1121,8 @@ Level Up:
 030 - Nidorina
 ===================
 Ability (Complete / Classic):
-Old     Poison Point / Rivalry / Hustle 
-New     Hustle / Poison Point / Rivalry 
+Old     Poison Point / Rivalry / Hustle
+New     Hustle / Poison Point / Rivalry
 
 Level Up:
 1 - Growl
@@ -1165,7 +1165,7 @@ Level Up:
 1 - High Horsepower
 1 - Moonblast
 1 - Moonlight
-1 - Play Rough     
+1 - Play Rough
 1 - Poison Sting
 1 - Toxic Spikes
 25 - Chip Away
@@ -1177,8 +1177,8 @@ Level Up:
 032 - Nidoran♂
 ===================
 Ability (Complete / Classic):
-Old     Poison Point / Rivalry / Hustle 
-New     Hustle / Poison Point / Rivalry 
+Old     Poison Point / Rivalry / Hustle
+New     Hustle / Poison Point / Rivalry
 
 Level Up:
 1 - Growl
@@ -1207,8 +1207,8 @@ Level Up:
 033 - Nidorino
 ===================
 Ability (Complete / Classic):
-Old     Poison Point / Rivalry / Hustle 
-New     Hustle / Poison Point / Rivalry 
+Old     Poison Point / Rivalry / Hustle
+New     Hustle / Poison Point / Rivalry
 
 Level Up:
 1 - Growl
@@ -1252,19 +1252,19 @@ Level Up:
 1 - High Horsepower
 1 - Morning Sun
 1 - Smart Strike
-1 - Play Rough     
+1 - Play Rough
 1 - Poison Sting
 25 - Chip Away
 35 - Poison Tail
 45 - Megahorn
 58 - Scorching Sands
- 
+
 ===================
 035 - Clefairy
 ===================
 Ability (Complete / Classic):
 Old     Cute Charm / Magic Guard / Friend Guard
-New     Cute Charm / Magic Guard / Friend Guard 
+New     Cute Charm / Magic Guard / Friend Guard
 
 Moves:
 Now compatible with TM66, Power Gem.
@@ -1325,7 +1325,7 @@ Moves:
 Now compatible with TM20, Tri Attack.
 Now compatible with TM32, Dazzling Gleam.
 Now compatible with TM66, Power Gem.
- 
+
 Level Up:
 1 - Ember
 1 - Spite
@@ -1348,7 +1348,7 @@ Level Up:
 52 - Flare Blitz
 56 - Extrasensory
 60 - Grudge
- 
+
 ===================
 038 - Ninetales
 ===================
@@ -1359,7 +1359,7 @@ New     73 HP / 67 Atk / 75 Def / 81 SAtk / 100 SDef / 109 Spd / 505 BST
 Ability (Complete / Classic):
 Old     Flash Fire / Flash Fire / Drought
 New     Drought / Flash Fire / Drought
- 
+
 Moves:
 Now compatible with TM20, Tri Attack.
 Now compatible with TM29, Psychic.
@@ -1367,11 +1367,11 @@ Now compatible with TM30, Shadow Ball.
 Now compatible with TM32, Dazzling Gleam.
 Now compatible with TM66, Power Gem.
 Now compatible with TM70, Flash
- 
+
 Type (Complete):
 Old     Fire
-New     Fire / Fairy      
- 
+New     Fire / Fairy
+
 Level Up:
 1 - Captivate
 1 - Disable
@@ -1394,7 +1394,7 @@ Level Up:
 ===================
 Base Stats (Complete):
 Old     115 HP / 45 Atk / 20 Def / 45 SAtk / 25 SDef / 20 Spd / 270 BST
-New     115 HP / 35 Atk / 20 Def / 55 SAtk / 25 SDef / 20 Spd / 270 BST  
+New     115 HP / 35 Atk / 20 Def / 55 SAtk / 25 SDef / 20 Spd / 270 BST
 
 Ability (Complete / Classic):
 Old     Cute Charm / Cute Charm / Friend Guard
@@ -1402,7 +1402,7 @@ New     Cute Charm / Friend Guard / Friend Guard
 
 Moves:
 Now compatible with TM66, Power Gem.
- 
+
 Level Up:
 1 - Defense Curl
 1 - Sing
@@ -1424,7 +1424,7 @@ Level Up:
 40 - Hyper Voice
 44 - Moonblast
 49 - Perish Song
-54 - Play Rough 
+54 - Play Rough
 59 - Boomburst
 
 ===================
@@ -1444,8 +1444,8 @@ New     Cute Charm / Frisk / Frisk
 
 Moves:
 Now compatible with TM47, Low Sweep.
-Now compatible with TM66, Power Gem. 
- 
+Now compatible with TM66, Power Gem.
+
 Level Up:
 1 - Moonblast
 1 - Double-Edge
@@ -1454,7 +1454,7 @@ Level Up:
 20 - Gravity
 30 - Covet
 40 - Draining Kiss
-50 - Play Rough    
+50 - Play Rough
 60 - Boomburst
 70 - Nasty Plot
 
@@ -1464,7 +1464,7 @@ Level Up:
 Ability (Complete / Classic):
 Old     Inner Focus / Inner Focus / Infiltrator
 New     Inner Focus / Infiltrator / Infiltrator
- 
+
 Level Up:
 1 - Absorb
 1 - Gust
@@ -1497,8 +1497,8 @@ Ability (Complete / Classic):
 Old     Inner Focus / Inner Focus / Infiltrator
 New     Inner Focus / Infiltrator / Infiltrator
 
-Moves: 
-Now compatible with TM58, Hurricane. 
+Moves:
+Now compatible with TM58, Hurricane.
 
 Level Up:
 1 - Absorb
@@ -1548,9 +1548,9 @@ Level Up:
 25 - Natural Gift
 28 - Nature Power
 32 - Sludge
-36 - Leech Seed 
+36 - Leech Seed
 40 - Moonlight
-44 - Teeter Dance 
+44 - Teeter Dance
 48 - Synthesis
 52 - Moonblast
 56 - Petal Dance
@@ -1579,9 +1579,9 @@ Level Up:
 28 - Natural Gift
 32 - Nature Power
 36 - Sludge
-40 - Leech Seed 
+40 - Leech Seed
 44 - Moonlight
-48 - Teeter Dance 
+48 - Teeter Dance
 52 - Synthesis
 56 - Moonblast
 60 - Petal Dance
@@ -1619,7 +1619,7 @@ Level Up:
 ===================
 Moves:
 Now compatible with TM76, Bug Buzz.
- 
+
 Level Up:
 1 - Absorb
 1 - Scratch
@@ -1651,10 +1651,10 @@ Level Up:
 Base Stats (Complete):
 Old     60 HP / 95 Atk / 80 Def / 60 SAtk / 80 SDef / 30 Spd / 405 BST
 New     60 HP / 115 Atk / 100 Def / 55 SAtk / 90 SDef / 30 Spd / 450 BST
- 
+
 Moves:
 Now compatible with TM76, Bug Buzz.
- 
+
 Level Up:
 1 - Counter
 1 - Fury Cutter
@@ -1733,12 +1733,12 @@ New     70 HP / 55 Atk / 60 Def / 100 SAtk / 75 SDef / 90 Spd / 450 BST
 Ability (Complete / Classic):
 Old     Shield Dust / Tinted Lens / Wonder Skin
 New     Wonder Skin / Tinted Lens / Shield Dust
- 
+
 Moves:
 Now compatible with TM58, Hurricane.
 Now compatible with TM76, Bug Buzz.
 Now compatible with HM02, Fly.
- 
+
 Level Up:
 1 - Ominous Wind
 1 - Twister
@@ -1769,7 +1769,7 @@ Level Up:
 050 - Diglett
 ===================
 Ability (Complete / Classic):
-Old     Sand Veil / Arena Trap / Sand Force 
+Old     Sand Veil / Arena Trap / Sand Force
 New     Sand Force / Arena Trap / Sand Force
 
 Level Up:
@@ -1800,7 +1800,7 @@ Level Up:
 051 - Dugtrio
 ===================
 Ability (Complete / Classic):
-Old     Sand Veil / Arena Trap / Sand Force 
+Old     Sand Veil / Arena Trap / Sand Force
 New     Sand Force / Arena Trap / Sand Force
 
 Level Up:
@@ -1863,7 +1863,7 @@ Level Up:
 42 - Captivate
 45 - Double-Edge
 48 - Last Resort
- 
+
 ===================
 053 - Persian
 ===================
@@ -1903,7 +1903,7 @@ Level Up:
 48 - Captivate
 52 - Double-Edge
 56 - Last Resort
- 
+
 ===================
 054 - Psyduck
 ===================
@@ -1943,14 +1943,14 @@ Level Up:
 055 - Golduck
 ===================
 Ability (Complete / Classic):
-Old     Damp / Cloud Nine / Swift Swim 
-New     Cloud Nine / Swift Swim / Damp 
+Old     Damp / Cloud Nine / Swift Swim
+New     Cloud Nine / Swift Swim / Damp
 
 Moves:
 Now compatible with TM46, Aura Sphere.
 Now compatible with TM51, Wave Crash.
-Now compatible with TM66, Power Gem. 
- 
+Now compatible with TM66, Power Gem.
+
 Type (Complete):
 Old     Water
 New     Water / Psychic
@@ -1970,7 +1970,7 @@ Level Up:
 20 - Bubble Beam
 22 - Soak
 24 - Hypnosis
-25 - Refresh	
+25 - Refresh
 27 - Simple Beam
 29 - Synchronoise
 31 - Aqua Tail
@@ -2128,7 +2128,7 @@ Level Up
 33 - Endeavor
 36 - Haze
 39 - Helping Hand
- 
+
 ===================
 061 - Poliwhirl
 ===================
@@ -2162,13 +2162,13 @@ Level Up:
 48 - Storm Throw
 52 - Drain Punch
 56 - Hydro Pump
- 
+
 ===================
 062 - Poliwrath
 ===================
 Base Stats (Complete):
 Old     90 HP / 95 Atk / 95 Def / 70 SAtk / 90 SDef / 70 Spd / 510 BST
-New     90 HP / 105 Atk / 95 Def / 60 SAtk / 90 SDef / 70 Spd / 510 BST    
+New     90 HP / 105 Atk / 95 Def / 60 SAtk / 90 SDef / 70 Spd / 510 BST
 
 Ability (Complete / Classic):
 Old     Water Absorb / Damp / Swift Swim
@@ -2176,7 +2176,7 @@ New     Water Absorb / Swift Swim / Damp
 
 Moves:
 Now compatible with TM51, Wave Crash.
- 
+
 Level Up:
 1 - Dual Chop
 1 - Lovely Kiss
@@ -2190,7 +2190,7 @@ Level Up:
 50 - Storm Throw
 55 - Close Combat
 60 - Hydro Pump
- 
+
 ===================
 063 - Abra
 ===================
@@ -2205,7 +2205,7 @@ Level Up:
 1 - Teleport
 1 - Hidden Power
 1 - Kinesis
- 
+
 ===================
 064 - Kadabra
 ===================
@@ -2214,11 +2214,11 @@ Old     Synchronise / Inner Focus / Magic Guard
 New     Synchronise / Magic Guard / Inner Focus
 
 Evolution:
-Now able to evolve into Alakazam by using a Link Cable.  
+Now able to evolve into Alakazam by using a Link Cable.
 
 Moves:
-Now compatible with TM46, Aura Sphere. 
- 
+Now compatible with TM46, Aura Sphere.
+
 Level Up:
 1 - Teleport
 1 - Hidden Power
@@ -2239,7 +2239,7 @@ Level Up:
 49 - Trick
 52 - Stored Power
 56 - Nasty Plot
- 
+
 ===================
 065 - Alakazam
 ===================
@@ -2271,7 +2271,7 @@ Level Up:
 49 - Trick
 52 - Stored Power
 56 - Nasty Plot
- 
+
 ===================
 066 - Machop
 ===================
@@ -2314,7 +2314,7 @@ New     Steadfast / No Guard / Steadfast
 
 Evolution:
 Now able to evolve into Machamp by using a Link Cable.
- 
+
 Level Up:
 1 - Karate Chop
 1 - Leer
@@ -2463,7 +2463,7 @@ Level Up:
 ===================
 Ability (Complete / Classic):
 Old     Clear Body / Liquid Ooze / Rain Dish
-New     Clear Body / Rain Dish / Liquid Ooze 
+New     Clear Body / Rain Dish / Liquid Ooze
 
 Level Up:
 1 - Poison Sting
@@ -2609,15 +2609,15 @@ Level Up:
 077 - Ponyta
 ===================
 Ability (Classic):
-Old     Run Away / Flash Fire / Flame Body 
+Old     Run Away / Flash Fire / Flame Body
 New     Flame Body / Flash Fire / Flame Body
 
 Ability (Complete):
-Old     Run Away / Flash Fire / Flame Body 
+Old     Run Away / Flash Fire / Flame Body
 New     Flame Body / - / Flame Body
 
 Moves:
-Now compatible with TM47, Low Sweep. 
+Now compatible with TM47, Low Sweep.
 
 Evolution:
 Now evolves into Rapidash at Level 35.
@@ -2651,11 +2651,11 @@ Level Up:
 078 - Rapidash
 ===================
 Ability (Classic):
-Old     Run Away / Flash Fire / Flame Body 
+Old     Run Away / Flash Fire / Flame Body
 New     Flame Body / Flash Fire / Flame Body
 
 Ability (Complete):
-Old     Run Away / Flash Fire / Flame Body 
+Old     Run Away / Flash Fire / Flame Body
 New     Flame Body / - / Flame Body
 
 Moves:
@@ -2663,7 +2663,7 @@ Now compatible with TM47, Low Sweep.
 
 Type (Complete):
 Old     Fire
-New     Fire / Fairy     
+New     Fire / Fairy
 
 Level Up:
 1 - Megahorn
@@ -2838,7 +2838,7 @@ New     55 HP / 110 Atk / 65 Def / 75 SAtk / 65 SDef / 100 Spd / 470 BST
 
 Ability (Complete):
 Old     Keen Eye / Inner Focus / Defiant
-New     Defeatist / - / - 
+New     Defeatist / - / -
 
 Ability (Classic):
 Old     Keen Eye / Inner Focus / Defiant
@@ -2889,7 +2889,7 @@ Level Up:
 ===================
 Ability (Complete):
 Old     Run Away / Early Bird / Tangled Feet
-New     Tangled Feet / Early Bird / Tangled Feet  
+New     Tangled Feet / Early Bird / Tangled Feet
 
 Ability (Classic):
 Old     Run Away / Early Bird / Tangled Feet
@@ -3114,7 +3114,7 @@ Now compatible with HM05, Waterfall.
 
 Type (Complete):
 Old     Water
-New     Water / Ice 
+New     Water / Ice
 
 Level Up:
 1 - Tackle
@@ -3146,7 +3146,7 @@ Level Up:
 ===================
 Moves:
 Now compatible with HM05, Waterfall.
- 
+
 Level Up:
 1 - Aurora Beam
 1 - Pin Missile
@@ -3167,7 +3167,7 @@ Level Up:
 ===================
 Ability (Complete / Classic):
 Old     Levitate / - / -
-New     Levitate / Cursed Body / Levitate    
+New     Levitate / Cursed Body / Levitate
 
 Moves:
 Now compatible with TM46, Aura Sphere.
@@ -3202,7 +3202,7 @@ Level Up:
 ===================
 Ability (Complete / Classic):
 Old     Levitate / - / -
-New     Levitate / Cursed Body / Levitate   
+New     Levitate / Cursed Body / Levitate
 
 Evolution:
 Now able to evolve into Gengar by using a Link Cable.
@@ -3242,7 +3242,7 @@ Level Up:
 ===================
 Ability (Complete / Classic):
 Old     Cursed Body / - / -
-New     Levitate / Cursed Body / Levitate   
+New     Levitate / Cursed Body / Levitate
 
 Moves:
 Now compatible with TM46, Aura Sphere.
@@ -3396,7 +3396,7 @@ New     Sheer Force / Shell Armor / Sheer Force
 
 Moves:
 Now compatible with TM65, Shadow Claw.
-Now compatible with TM87, Rock Climb.  
+Now compatible with TM87, Rock Climb.
 Now compatible with HM05, Waterfall.
 
 Level Up:
@@ -3494,9 +3494,9 @@ Level Up:
 Moves:
 Now compatible with TM20, Tri Attack.
 Now compatible with TM46, Aura Sphere.
-Now compatible with TM50, Overheat. 
-Now compatible with TM53, Energy Ball. 
-Now compatible with TM56, Weather Ball.  
+Now compatible with TM50, Overheat.
+Now compatible with TM53, Energy Ball.
+Now compatible with TM56, Weather Ball.
 Now compatible with TM76, Bug Buzz.
 
 Level Up:
@@ -3587,7 +3587,7 @@ Level Up:
 ===================
 Ability (Complete / Classic):
 Old     Rock Head / Lightning Rod / Battle Armor
-New     Battle Armor / Lightning Rod / Rock Head 
+New     Battle Armor / Lightning Rod / Rock Head
 
 Evolution:
 Now able to evolve into Marowak at level 27.
@@ -3719,7 +3719,7 @@ Level Up:
 52 - Lunge
 56 - Focus Punch
 60 - High Jump Kick
-64 - Close Combat 
+64 - Close Combat
 
 ===================
 108 - Lickitung
@@ -4033,7 +4033,7 @@ Level Up:
 ===================
 Base Stats (Complete):
 Old     45 HP / 67 Atk / 60 Def / 35 SAtk / 50 SDef / 63 Spd / 320 BST
-New     45 HP / 77 Atk / 60 Def / 25 SAtk / 50 SDef / 73 Spd / 330 BST    
+New     45 HP / 77 Atk / 60 Def / 25 SAtk / 50 SDef / 73 Spd / 330 BST
 
 Ability (Complete / Classic):
 Old     Swift Swim / Water Veil / Lightning Rod
@@ -4182,7 +4182,7 @@ Now compatible with TM46, Aura Sphere.
 Now compatible with TM48, Mystical Fire.
 Now compatible with TM60, Quash.
 Now compatible with TM66, Power Gem.
- 
+
 Level Up:
 1 - Barrier
 1 - Confusion
@@ -4214,7 +4214,7 @@ Level Up:
 ===================
 Evolution:
 Now able to evolve into Scizor by using a Metal Coat.
- 
+
 Level Up:
 1 - Psycho Cut
 1 - Leer
@@ -4246,11 +4246,11 @@ Level Up:
 ===================
 Base Stats (Complete):
 Old     65 HP / 50 Atk / 35 Def / 115 SAtk / 95 SDef / 95 Spd / 455 BST
-New     75 HP / 43 Atk / 65 Def / 125 SAtk / 96 SDef / 96 Spd / 500 BST    
+New     75 HP / 43 Atk / 65 Def / 125 SAtk / 96 SDef / 96 Spd / 500 BST
 
 Ability (Complete):
 Old     Oblivious / Forewarn / Dry Skin
-New     Trace / Dry Skin / Dry Skin 
+New     Trace / Dry Skin / Dry Skin
 
 Ability (Classic):
 Old     Oblivious / Forewarn / Dry Skin
@@ -4392,7 +4392,7 @@ Level Up:
 38 - Lunge
 42 - Close Combat
 46 - Storm Throw
-51 - Megahorn     
+51 - Megahorn
 56 - Superpower
 60 - Guillotine
 
@@ -4733,7 +4733,7 @@ Level Up:
 25 - Brine
 28 - Ancient Power
 33 - Protect
-38 - Accelerock     
+38 - Accelerock
 43 - Tickle
 46 - Power Gem
 52 - Shell Smash
@@ -4759,7 +4759,7 @@ Level Up:
 25 - Ancient Power
 28 - Protect
 33 - Crunch
-38 - Accelerock     
+38 - Accelerock
 43 - Tickle
 46 - Power Gem
 53 - Shell Smash
@@ -4837,10 +4837,10 @@ Level Up:
 41 - Iron Head
 45 - Dual Wingbeat
 49 - Stone Edge
-53 - Double-Edge     
+53 - Double-Edge
 57 - Dragon Dance
 61 - Accelerock
-65 - Brave Bird     
+65 - Brave Bird
 70 - Head Smash
 
 ===================
@@ -5144,7 +5144,7 @@ New     Serene Grace / Overgrow / Leaf Guard
 
 Ability (Classic):
 Old     Overgrow / Overgrow / Leaf Guard
-New     Leaf Guard / Overgrow / Leaf Guard 
+New     Leaf Guard / Overgrow / Leaf Guard
 
 Moves:
 Now compatible with TM32, Dazzling Gleam.
@@ -5197,7 +5197,7 @@ Now compatible with TM85, Play Rough.
 
 Type (Complete):
 Old     Grass
-New     Grass / Fairy     
+New     Grass / Fairy
 
 Level Up:
 1 - Draining Kiss
@@ -5230,7 +5230,7 @@ Level Up:
 ===================
 Ability (Complete / Classic):
 Old     Blaze / Blaze / Flash Fire
-New     Flash Fire / Blaze / Flash Fire     
+New     Flash Fire / Blaze / Flash Fire
 
 Level Up:
 1 - Tackle
@@ -5257,7 +5257,7 @@ Level Up:
 ===================
 Ability (Complete / Classic):
 Old     Blaze / Blaze / Flash Fire
-New     Flash Fire / Blaze / Flash Fire     
+New     Flash Fire / Blaze / Flash Fire
 
 Level Up:
 1 - Tackle
@@ -5291,7 +5291,7 @@ New     78 HP / 84 Atk / 78 Def / 110 SAtk / 85 SDef / 100 Spd / 535 BST
 
 Ability (Complete / Classic):
 Old     Blaze / Blaze / Flash Fire
-New     Flash Fire / Blaze / Flash Fire       
+New     Flash Fire / Blaze / Flash Fire
 
 Moves:
 Now compatible with TM48, Mystical Fire.
@@ -5328,7 +5328,7 @@ Level Up:
 ===================
 Ability (Complete / Classic):
 Old     Torrent / None / Sheer Force
-New     Sheer Force / Torrent / Sheer Force     
+New     Sheer Force / Torrent / Sheer Force
 
 Moves:
 Now compatible with TM02, Dragon Claw.
@@ -5364,7 +5364,7 @@ New     75 HP / 80 Atk / 80 Def / 49 SAtk / 68 SDef / 53 Spd / 405 BST
 
 Ability (Complete / Classic):
 Old     Torrent / None / Sheer Force
-New     Sheer Force / Torrent / Sheer Force       
+New     Sheer Force / Torrent / Sheer Force
 
 Moves:
 Now compatible with TM02, Dragon Claw.
@@ -5406,7 +5406,7 @@ Old     Torrent / None / Sheer Force
 New     Sheer Force / Torrent / Sheer Force
 
 Moves:
-Now compatible with TM51, Wave Crash. 
+Now compatible with TM51, Wave Crash.
 
 Level Up:
 1 - Focus Punch
@@ -5440,7 +5440,7 @@ Level Up:
 ===================
 Base Stats (Complete):
 Old     35 HP / 46 Atk / 34 Def / 35 SAtk / 45 SDef / 20 Spd / 215 BST
-New     45 HP / 50 Atk / 35 Def / 35 SAtk / 45 SDef / 70 Spd / 280 BST   
+New     45 HP / 50 Atk / 35 Def / 35 SAtk / 45 SDef / 70 Spd / 280 BST
 
 Ability (Complete):
 Old     Run Away / Keen Eye / Frisk
@@ -5482,7 +5482,7 @@ Level Up:
 ===================
 Base Stats (Complete):
 Old     85 HP / 76 Atk / 64 Def / 45 SAtk / 55 SDef / 90 Spd / 415 BST
-New     90 HP / 85 Atk / 65 Def / 45 SAtk / 55 SDef / 105 Spd / 445 BST 
+New     90 HP / 85 Atk / 65 Def / 45 SAtk / 55 SDef / 105 Spd / 445 BST
 
 Ability (Complete):
 Old     Run Away / Keen Eye / Frisk
@@ -5490,11 +5490,11 @@ New     Quick Feet / Hustle / Run Away
 
 Ability (Classic):
 Old     Run Away / Keen Eye / Frisk
-New     Frisk / Keen Eye / Run Away  
+New     Frisk / Keen Eye / Run Away
 
 Moves:
 Now compatible with TM60, Quash.
-Now compatible with TM85, Play Rough. 
+Now compatible with TM85, Play Rough.
 
 Level Up:
 1 - Defense Curl
@@ -5528,11 +5528,11 @@ Level Up:
 ===================
 Ability (Complete / Classic):
 Old     Insomnia / Keen Eye / Tinted Lens
-New     Tinted Lens / Insomnia / Keen Eye     
+New     Tinted Lens / Insomnia / Keen Eye
 
 Moves:
 Now compatible with TM70, Flash.
- 
+
 Level Up:
 1 - Foresight
 1 - Growl
@@ -5566,7 +5566,7 @@ New     100 HP / 40 Atk / 40 Def / 106 SAtk / 116 SDef / 60 Spd / 462 BST
 
 Ability (Complete / Classic):
 Old     Insomnia / Keen Eye / Tinted Lens
-New     Tinted Lens / Insomnia / Keen Eye        
+New     Tinted Lens / Insomnia / Keen Eye
 
 Moves:
 Now compatible with TM48, Mystical Fire.
@@ -5574,7 +5574,7 @@ Now compatible with TM70, Flash.
 
 Type (Complete):
 Old     Normal / Flying
-New     Psychic / Flying     
+New     Psychic / Flying
 
 Level Up:
 1 - Future Sight
@@ -5608,7 +5608,7 @@ Level Up:
 ===================
 Base Stats (Complete):
 Old     40 HP / 20 Atk / 30 Def / 40 SAtk / 80 SDef / 55 Spd / 265 BST
-New     40 HP / 60 Atk / 30 Def / 45 SAtk / 80 SDef / 55 Spd / 310 BST  
+New     40 HP / 60 Atk / 30 Def / 45 SAtk / 80 SDef / 55 Spd / 310 BST
 
 Ability (Complete):
 Old     Swarm / Early Bird / Rattled
@@ -5616,7 +5616,7 @@ New     Rattled / Iron Fist / Swarm
 
 Ability (Classic):
 Old     Swarm / Early Bird / Rattled
-New     Swarm / Rattled / Early Bird 
+New     Swarm / Rattled / Early Bird
 
 Moves:
 Now compatible with TM76, Bug Buzz.
@@ -5652,7 +5652,7 @@ Level Up:
 ===================
 Base Stats (Complete):
 Old     55 HP / 35 Atk / 50 Def / 55 SAtk / 110 SDef / 85 Spd / 390 BST
-New     60 HP / 90 Atk / 50 Def / 55 SAtk / 110 SDef / 85 Spd / 450 BST    
+New     60 HP / 90 Atk / 50 Def / 55 SAtk / 110 SDef / 85 Spd / 450 BST
 
 Ability (Complete):
 Old     Swarm / Early Bird / Rattled
@@ -5660,7 +5660,7 @@ New     Rattled / Iron Fist / Swarm
 
 Ability (Classic):
 Old     Swarm / Early Bird / Rattled
-New     Swarm / Rattled / Early Bird 
+New     Swarm / Rattled / Early Bird
 
 Moves:
 Now compatible with TM76, Bug Buzz.
@@ -5702,7 +5702,7 @@ New     40 HP / 70 Atk / 40 Def / 40 SAtk / 40 SDef / 50 Spd / 280 BST
 
 Ability (Complete / Classic):
 Old     Swarm / Insomnia / Sniper
-New     Sniper / Insomnia / Sniper  
+New     Sniper / Insomnia / Sniper
 
 Moves:
 Now compatible with TM60, Quash.
@@ -5737,11 +5737,11 @@ Level Up:
 ===================
 Base Stats (Complete):
 Old     70 HP / 90 Atk / 70 Def / 60 SAtk / 70 SDef / 40 Spd / 400 BST
-New     70 HP / 110 Atk / 70 Def / 50 SAtk / 70 SDef / 80 Spd / 450 BST  
+New     70 HP / 110 Atk / 70 Def / 50 SAtk / 70 SDef / 80 Spd / 450 BST
 
 Ability (Complete / Classic):
 Old     Swarm / Insomnia / Sniper
-New     Sniper / Insomnia / Sniper   
+New     Sniper / Insomnia / Sniper
 
 Moves:
 Now compatible with TM60, Quash.
@@ -5842,7 +5842,7 @@ Level Up:
 ===================
 Base Stats (Complete):
 Old     125 HP / 58 Atk / 58 Def / 76 SAtk / 76 SDef / 67 Spd / 460 BST
-New     125 HP / 58 Atk / 58 Def / 91 SAtk / 86 SDef / 67 Spd / 485 BST  
+New     125 HP / 58 Atk / 58 Def / 91 SAtk / 86 SDef / 67 Spd / 485 BST
 
 Ability (Complete / Classic):
 Old     Volt Absorb / Illuminate / Water Absorb
@@ -5886,7 +5886,7 @@ Ability (Complete / Classic):
 Old     Static / Static / Lightning Rod
 New     Static / Lightning Rod / Lightning Rod
 
-Base Happiness:    
+Base Happiness:
 Old     70
 New     180
 
@@ -5915,21 +5915,21 @@ Ability (Complete / Classic):
 Old     Cute Charm / Magic Guard / Friend Guard
 New     Cute Charm / Magic Guard / Friend Guard
 
-Base Happiness:    
+Base Happiness:
 Old     140
 New     180
- 
+
 Level Up:
 1 - Pound
 1 - Charm
-1 - Disarming Voice     
+1 - Disarming Voice
 1 - Metronome
 4 - Fake Tears
 7 - Sing
 11 - Copycat
 16 - Magical Leaf
-21 - Draining Kiss     
- 
+21 - Draining Kiss
+
 ===================
 174 - Igglybuff
 ===================
@@ -5937,20 +5937,20 @@ Ability (Complete):
 Old     Cute Charm / Cute Charm / Friend Guard
 New     Cute Charm / Friend Guard / Friend Guard
 
-Base Happiness:    
+Base Happiness:
 Old     70
 New     180
- 
+
 Level Up:
 1 - Sing
 1 - Charm
-1 - Disarming Voice     
+1 - Disarming Voice
 1 - Defense Curl
 4 - Pound
 7 - Metronome
 11 - Copycat
-17 - Draining Kiss     
- 
+17 - Draining Kiss
+
 ===================
 175 - Togepi
 ===================
@@ -6057,7 +6057,7 @@ Level Up:
 ===================
 Base Stats (Complete):
 Old     65 HP / 75 Atk / 70 Def / 95 SAtk / 70 SDef / 95 Spd / 470 BST
-New     65 HP / 65 Atk / 70 Def / 105 SAtk / 80 SDef / 95 Spd / 480 BST  
+New     65 HP / 65 Atk / 70 Def / 105 SAtk / 80 SDef / 95 Spd / 480 BST
 
 Ability (Complete / Classic):
 Old     Synchronise / Early Bird / Magic Bounce
@@ -6194,7 +6194,7 @@ Now compatible with Draco Meteor from the Move Tutor.
 
 Type (Complete):
 Old     Electric
-New     Electric / Dragon     
+New     Electric / Dragon
 
 Level Up:
 1 - Cotton Spore
@@ -6259,7 +6259,7 @@ Old     70 HP / 20 Atk / 50 Def / 20 SAtk / 50 SDef / 40 Spd / 250 BST
 New     70 HP / 20 Atk / 50 Def / 40 SAtk / 50 SDef / 40 Spd / 270 BST
 
 Ability (Complete / Classic):
-Old     Thick Fat / Huge Power / Sap Sipper 
+Old     Thick Fat / Huge Power / Sap Sipper
 New     Huge Power / Thick Fat / Sap Sipper
 
 Evolution:
@@ -6299,7 +6299,7 @@ Old     100 HP / 50 Atk / 80 Def / 60 SAtk / 80 SDef / 50 Spd / 420 BST
 New     100 HP / 50 Atk / 80 Def / 80 SAtk / 80 SDef / 50 Spd / 440 BST
 
 Ability (Complete / Classic):
-Old     Thick Fat / Huge Power / Sap Sipper 
+Old     Thick Fat / Huge Power / Sap Sipper
 New     Huge Power / Thick Fat / Sap Sipper
 
 Level Up:
@@ -6556,7 +6556,7 @@ New     50 HP / 30 Atk / 50 Def / 30 SAtk / 50 SDef / 30 Spd / 240 BST
 
 Ability (Complete):
 Old     Chlorophyll / Solar Power / Early Bird
-New     Chlorophyll / Solar Power / Chlorophyll 
+New     Chlorophyll / Solar Power / Chlorophyll
 
 Level Up:
 1 - Absorb
@@ -6591,7 +6591,7 @@ New     75 HP / 75 Atk / 85 Def / 125 SAtk / 85 SDef / 30 Spd / 475 BST
 
 Ability (Complete):
 Old     Chlorophyll / Solar Power / Early Bird
-New     Drought / Solar Power / Chlorophyll 
+New     Drought / Solar Power / Chlorophyll
 
 Moves:
 Now compatible with TM56, Weather Ball.
@@ -6655,7 +6655,7 @@ Level Up:
 ===================
 Ability (Complete / Classic):
 Old     Damp / Water Absorb / Unaware
-New     Water Absorb / Unaware / Damp     
+New     Water Absorb / Unaware / Damp
 
 Base Stats (Complete):
 Old     55 HP / 45 Atk / 45 Def / 25 SAtk / 25 SDef / 15 Spd / 210 BST
@@ -6691,7 +6691,7 @@ Level Up:
 ===================
 Ability (Complete / Classic):
 Old     Damp / Water Absorb / Unaware
-New     Water Absorb / Unaware / Damp     
+New     Water Absorb / Unaware / Damp
 
 Base Stats (Complete):
 Old     95 HP / 85 Atk / 85 Def / 65 SAtk / 65 SDef / 35 Spd / 430 BST
@@ -6763,7 +6763,7 @@ Level Up:
 55 - Wish
 60 - Future Sight
 65 - Last Resort
- 
+
 ===================
 197 - Umbreon
 ===================
@@ -6777,7 +6777,7 @@ Now compatible with TM48, Mystical Fire.
 Now compatible with TM60, Quash.
 Now compatible with TM66, Power Gem.
 Now compatible with TM86, Grass Knot.
- 
+
 Level Up:
 1 - Night Daze
 1 - Growth [*]
@@ -6916,11 +6916,11 @@ Level Up:
 Base Stats (Complete):
 Old     48 HP / 72 Atk / 48 Def / 72 SAtk / 48 SDef / 48 Spd / 336 BST
 New     48 HP / 72 Atk / 48 Def / 102 SAtk / 48 SDef / 78 Spd / 396 BST
- 
-Catch Rate:    
+
+Catch Rate:
 Old     225
 New     255
- 
+
 Level Up:
 1 - Ancient Power
 1 - Cosmic Power
@@ -6929,7 +6929,7 @@ Level Up:
 1 - Nature Power
 1 - Secret Power
 1 - Stored Power
- 
+
 ===================
 202 - Wobbuffet
 ===================
@@ -6945,7 +6945,7 @@ Level Up:
 1 - Mirror Coat
 1 - Safeguard
 1 - Tickle
- 
+
 ===================
 203 - Girafarig
 ===================
@@ -7001,7 +7001,7 @@ New     Sturdy / Overcoat / Overcoat
 
 Moves:
 Now compatible with TM76, Bug Buzz.
- 
+
 Level Up:
 1 - Tackle
 1 - Protect
@@ -7022,7 +7022,7 @@ Level Up:
 48 - Power Trick
 51 - Double-Edge
 54 - Explosion
- 
+
 ===================
 205 - Forretress
 ===================
@@ -7032,7 +7032,7 @@ New     Sturdy / Overcoat / Overcoat
 
 Moves:
 Now compatible with TM76, Bug Buzz.
- 
+
 Level Up:
 1 - Heavy Slam
 1 - Magnet Rise
@@ -7056,7 +7056,7 @@ Level Up:
 51 - Double-Edge
 54 - Explosion
 58 - Zap Cannon
- 
+
 ===================
 206 - Dunsparce
 ===================
@@ -7107,7 +7107,7 @@ Now able to evolve into Gliscor at any time by using a Razor Fang.
 Moves:
 Now compatible with TM76, Bug Buzz.
 Now compatible with TM87, Rock Climb.
- 
+
 Level Up:
 1 - Harden
 1 - Poison Sting
@@ -7170,7 +7170,7 @@ Level Up:
 60 - Wide Guard
 64 - Heavy Slam
 68 - Dragon Dance
- 
+
 ===================
 209 - Snubbull
 ===================
@@ -7240,7 +7240,7 @@ Level Up:
 56 - Close Combat
 60 - Double-Edge
 64 - Last Resort
- 
+
 ===================
 211 - Qwilfish
 ===================
@@ -7254,7 +7254,7 @@ New     Intimidate / Swift Swim / Poison Point
 
 Moves:
 Now compatible with TM51, Wave Crash.
- 
+
 Level Up:
 1 - Astonish
 1 - Harden
@@ -7288,7 +7288,7 @@ Level Up:
 Moves:
 Now compatible with TM01, Hone Claws.
 Now compatible with TM76, Bug Buzz.
- 
+
 Level Up:
 1 - Psycho Cut
 1 - Leer
@@ -7320,11 +7320,11 @@ Level Up:
 ===================
 Ability (Complete / Classic):
 Old     Sturdy / Gluttony / Contrary
-New     Sturdy / Contrary / Gluttony     
+New     Sturdy / Contrary / Gluttony
 
 Moves:
 Now compatible with TM76, Bug Buzz.
- 
+
 Level Up:
 1 - Bide
 1 - Infestation
@@ -7358,10 +7358,10 @@ New     Moxie / Skill Link / Guts
 Ability (Classic):
 Old     Swarm / Guts / Moxie
 New     Guts / Moxie / Swarm
- 
+
 Moves:
 Now compatible with TM76, Bug Buzz.
- 
+
 Level Up:
 1 - Arm Thrust
 1 - Bullet Seed
@@ -7540,11 +7540,11 @@ Level Up:
 ===================
 Base Stats (Complete):
 Old     60 HP / 50 Atk / 120 Def / 90 SAtk / 80 SDef / 30 Spd / 430 BST
-New     60 HP / 50 Atk / 140 Def / 120 SAtk / 100 SDef / 30 Spd / 500 BST 
+New     60 HP / 50 Atk / 140 Def / 120 SAtk / 100 SDef / 30 Spd / 500 BST
 
 Ability (Complete):
 Old     Magma Armor / Flame Body / Weak Armor
-New     Solid Rock / Flame Body / Weak Armor   
+New     Solid Rock / Flame Body / Weak Armor
 
 Moves:
 Now compatible with TM66, Power Gem.
@@ -7666,7 +7666,7 @@ Level Up:
 28 - Iron Defense
 28 - Amnesia
 31 - Camouflage
-34 - Earth Power     
+34 - Earth Power
 37 - Icicle Spear
 40 - Rock Blast
 43 - Ingrain
@@ -7713,7 +7713,7 @@ New     75 HP / 115 Atk / 75 Def / 115 SAtk / 75 SDef / 45 Spd / 500 BST
 
 Ability (Complete):
 Old     Suction Cups / Sniper / Moody
-New     Mold Breaker / Sniper / Suction Cups    
+New     Mold Breaker / Sniper / Suction Cups
 
 Moves:
 Now compatible with TM20, Tri Attack.
@@ -7750,7 +7750,7 @@ Level Up:
 ===================
 Base Stats (Complete):
 Old     45 HP / 55 Atk / 45 Def / 65 SAtk / 45 SDef / 75 Spd / 330 BST
-New     55 HP / 95 Atk / 65 Def / 65 SAtk / 65 SDef / 95 Spd / 440 BST  
+New     55 HP / 95 Atk / 65 Def / 65 SAtk / 65 SDef / 95 Spd / 440 BST
 
 Ability (Complete):
 Old     Vital Spirit / Hustle / Insomnia
@@ -7765,7 +7765,7 @@ Now compatible with TM89, U-turn.
 Now compatible with HM01, Cut.
 Now compatible with HM04, Strength.
 
-EVs:    
+EVs:
 Old     1 Spd
 New     1 SAtk, 1 Spd
 
@@ -8018,7 +8018,7 @@ Level Up:
 ===================
 Evolution:
 Now able to evolve into Porygon-Z by using a Dubious Disc.
- 
+
 Level Up:
 1 - Last Resort
 1 - Conversion
@@ -8050,11 +8050,11 @@ Level Up:
 ===================
 Base Stats (Complete):
 Old     73 HP / 95 Atk / 62 Def / 85 SAtk / 65 SDef / 85 Spd / 465 BST
-New     73 HP / 95 Atk / 62 Def / 95 SAtk / 75 SDef / 85 Spd / 485 BST  
+New     73 HP / 95 Atk / 62 Def / 95 SAtk / 75 SDef / 85 Spd / 485 BST
 
 Ability (Complete / Classic):
 Old     Intimidate / Frisk / Sap Sipper
-New     Sap Sipper / Frisk / Intimidate  
+New     Sap Sipper / Frisk / Intimidate
 
 Moves:
 Now compatible with TM20, Tri Attack.
@@ -8086,7 +8086,7 @@ Level Up:
 51 - Bounce
 54 - Double-Edge
 58 - Last Resort
- 
+
 ===================
 235 - Smeargle
 ===================
@@ -8104,7 +8104,7 @@ Level Up:
 77 - Sketch
 88 - Sketch
 99 - Sketch
- 
+
 ===================
 236 - Tyrogue
 ===================
@@ -8170,8 +8170,8 @@ New     50 HP / 37 Atk / 37 Def / 90 SAtk / 65 SDef / 80 Spd / 360 BST
 
 Ability (Complete / Classic):
 Old     Oblivious / Forewarn / Dry Skin
-New     Dry Skin / Forewarn / Oblivious   
- 
+New     Dry Skin / Forewarn / Oblivious
+
 Level Up:
 1 - Pound
 1 - Mean Look
@@ -8229,7 +8229,7 @@ Level Up:
 51 - Feint
 55 - Cross Chop
 59 - Discharge
- 
+
 ===================
 240 - Magby
 ===================
@@ -8297,7 +8297,7 @@ Level Up:
 56 - Heal Bell
 60 - Focus Punch
 64 - Double-Edge
- 
+
 ===================
 242 - Blissey
 ===================
@@ -8327,7 +8327,7 @@ Level Up:
 56 - Heal Bell
 60 - Soft-Boiled
 64 - Last Resort
- 
+
 ===================
 243 - Raikou
 ===================
@@ -8348,7 +8348,7 @@ Level Up:
 42 - Calm Mind
 46 - Thunder
 50 - Aura Sphere [*]
- 
+
 ===================
 244 - Entei
 ===================
@@ -8370,7 +8370,7 @@ Level Up:
 42 - Calm Mind
 46 - Eruption
 50 - Flare Blitz [*]
- 
+
 ===================
 245 - Suicune
 ===================
@@ -8378,7 +8378,7 @@ Moves:
 Now compatible with TM51, Wave Crash.
 Now compatible with TM58, Hurricane.
 Now compatible with TM79, Frost Breath.
- 
+
 Level Up:
 1 - Sheer Cold [*]
 1 - Extreme Speed [*]
@@ -8396,7 +8396,7 @@ Level Up:
 42 - Calm Mind
 46 - Blizzard
 50 - Air Slash [*]
- 
+
 ===================
 246 - Larvitar
 ===================
@@ -8413,7 +8413,7 @@ Level Up:
 5 - Sandstorm
 10 - Screech
 13 - Bulldoze
-16 - Rock Tomb 
+16 - Rock Tomb
 19 - Scary Face
 22 - Rock Slide
 25 - Payback
@@ -8424,7 +8424,7 @@ Level Up:
 42 - Earthquake
 46 - Stone Edge
 50 - Hyper Beam
- 
+
 ===================
 247 - Pupitar
 ===================
@@ -8441,7 +8441,7 @@ Level Up:
 5 - Sandstorm
 10 - Screech
 13 - Bulldoze
-16 - Rock Tomb 
+16 - Rock Tomb
 19 - Scary Face
 22 - Rock Slide
 25 - Payback
@@ -8454,7 +8454,7 @@ Level Up:
 47 - Stone Edge
 51 - Hyper Beam
 55 - Dragon Dance
- 
+
 ===================
 248 - Tyranitar
 ===================
@@ -8474,7 +8474,7 @@ Level Up:
 1 - Scorching Sands
 1 - Seismic Toss
 10 - Screech
-16 - Rock Tomb 
+16 - Rock Tomb
 19 - Scary Face
 22 - Rock Slide
 25 - Payback
@@ -8517,7 +8517,7 @@ Level Up:
 ===================
 Moves:
 Now compatible with TM58, Hurricane.
- 
+
 Level Up:
 1 - Whirlwind
 1 - Weather Ball
@@ -8626,14 +8626,14 @@ New     70 HP / 105 Atk / 67 Def / 85 SAtk / 88 SDef / 120 Spd / 535 BST
 
 Ability (Complete / Classic):
 Old     Overgrow / Overgrow / Unburden
-New     Unburden / Overgrow / Unburden     
+New     Unburden / Overgrow / Unburden
 
 Type (Complete):
 Old     Grass
 New     Grass / Dragon
 
 Moves:
-Now compatible with Draco Meteor from the Move Tutor. 
+Now compatible with Draco Meteor from the Move Tutor.
 
 Level Up:
 1 - Leer
@@ -8671,8 +8671,8 @@ New     Quick Feet / Blaze / Quick Feet
 
 Ability (Classic):
 Old     Blaze / Blaze / Speed Boost
-New     Speed Boost / Blaze / Speed Boost 
- 
+New     Speed Boost / Blaze / Speed Boost
+
 Level Up:
 1 - Scratch
 1 - Growl
@@ -8703,8 +8703,8 @@ New     Quick Feet / Blaze / Quick Feet
 
 Ability (Classic):
 Old     Blaze / Blaze / Speed Boost
-New     Speed Boost / Blaze / Speed Boost 
- 
+New     Speed Boost / Blaze / Speed Boost
+
 Level Up:
 1 - Scratch
 1 - Growl
@@ -8727,13 +8727,13 @@ Level Up:
 46 - Close Combat
 49 - Scorching Sands
 53 - Bounce
- 
+
 ===================
 257 - Blaziken
 ===================
 Base Stats (Complete):
 Old     80 HP / 120 Atk / 70 Def / 110 SAtk / 70 SDef / 80 Spd / 530 BST
-New     80 HP / 120 Atk / 65 Def / 110 SAtk / 65 SDef / 95 Spd / 535 BST    
+New     80 HP / 120 Atk / 65 Def / 110 SAtk / 65 SDef / 95 Spd / 535 BST
 
 Ability (Complete):
 Old     Blaze / Blaze / Speed Boost
@@ -8741,8 +8741,8 @@ New     Reckless / Blaze / Reckless
 
 Ability (Classic):
 Old     Blaze / Blaze / Speed Boost
-New     Speed Boost / Blaze / Speed Boost  
- 
+New     Speed Boost / Blaze / Speed Boost
+
 Level Up:
 1 - Scratch
 1 - Growl
@@ -8774,7 +8774,7 @@ Level Up:
 258 - Mudkip
 ===================
 Ability (Complete):
-Old     Torrent / Torrent / Damp 
+Old     Torrent / Torrent / Damp
 New     Water Veil / Torrent / Damp
 
 Level Up:
@@ -8801,7 +8801,7 @@ Level Up:
 259 - Marshtomp
 ===================
 Ability (Complete):
-Old     Torrent / Torrent / Damp 
+Old     Torrent / Torrent / Damp
 New     Water Veil / Torrent / Damp
 
 Level Up:
@@ -8831,7 +8831,7 @@ Level Up:
 260 - Swampert
 ===================
 Ability (Complete):
-Old     Torrent / Torrent / Damp 
+Old     Torrent / Torrent / Damp
 New     Water Veil / Torrent / Damp
 
 Level Up:
@@ -8871,7 +8871,7 @@ New     35 HP / 65 Atk / 35 Def / 30 SAtk / 30 SDef / 55 Spd / 250 BST
 Ability (Complete / Classic):
 Old     Run Away / Quick Feet / Rattled
 New     Rattled / Run Away / Quick Feet
- 
+
 Level Up:
 1 - Tackle
 1 - Astonish
@@ -8911,7 +8911,7 @@ New     Intimidate / Moxie / Quick Feet
 
 Moves:
 Now compatible with TM60, Quash.
- 
+
 Level Up:
 1 - Tackle
 1 - Astonish
@@ -8937,17 +8937,17 @@ Level Up:
 49 - Crunch
 53 - Body Slam
 57 - Foul Play
- 
+
 ===================
 263 - Zigzagoon
 ===================
 Base Stats (Complete):
 Old     38 HP / 30 Atk / 41 Def / 30 SAtk / 41 SDef / 60 Spd / 240 BST
 New     38 HP / 40 Atk / 41 Def / 30 SAtk / 41 SDef / 60 Spd / 250 BST
- 
+
 Moves:
 Now compatible with TM87, Rock Climb.
- 
+
 Level Up:
 1 - Tackle
 1 - Tail Whip
@@ -8968,7 +8968,7 @@ Level Up:
 42 - Extreme Speed
 45 - Belly Drum
 49 - Last Resort
- 
+
 ===================
 264 - Linoone
 ===================
@@ -9023,22 +9023,22 @@ Level Up:
 ===================
 Ability (Complete / Classic):
 Old     Shed Skin / Shed Skin / Shed Skin
-New     Shell Armor / Shed Skin / Shed Skin     
+New     Shell Armor / Shed Skin / Shed Skin
 
 Level Up:
 1 - Harden
 7 - Iron Defense
- 
+
 ===================
 267 - Beautifly
 ===================
 Base Stats (Complete):
 Old     60 HP / 70 Atk / 50 Def / 100 SAtk / 50 SDef / 65 Spd / 395 BST
-New     60 HP / 70 Atk / 57 Def / 120 SAtk / 58 SDef / 85 Spd / 450 BST 
+New     60 HP / 70 Atk / 57 Def / 120 SAtk / 58 SDef / 85 Spd / 450 BST
 
 Ability (Complete / Classic):
 Old     Swarm / Swarm / Rivalry
-New     Rivalry / Swarm / Rivalry     
+New     Rivalry / Swarm / Rivalry
 
 Moves:
 Now compatible with TM58, Hurricane.
@@ -9067,22 +9067,22 @@ Level Up:
 ===================
 Ability (Complete / Classic):
 Old     Shed Skin / Shed Skin / Shed Skin
-New     Shell Armor / Shed Skin / Shed Skin     
+New     Shell Armor / Shed Skin / Shed Skin
 
 Level Up:
 1 - Harden
-7 - Iron Defense 
+7 - Iron Defense
 
 ===================
 269 - Dustox
 ===================
 Base Stats (Complete):
 Old     60 HP / 50 Atk / 70 Def / 50 SAtk / 90 SDef / 65 Spd / 385 BST
-New     60 HP / 50 Atk / 80 Def / 80 SAtk / 110 SDef / 80 Spd / 450 BST 
+New     60 HP / 50 Atk / 80 Def / 80 SAtk / 110 SDef / 80 Spd / 450 BST
 
 Ability (Complete / Classic):
 Old     Shield Dust / Shield Dust / Compound Eyes
-New     Compound Eyes / Shield Dust / Compound Eyes         
+New     Compound Eyes / Shield Dust / Compound Eyes
 
 Moves:
 Now compatible with TM58, Hurricane.
@@ -9181,7 +9181,7 @@ Level Up:
 ===================
 Ability (Complete):
 Old     Chlorophyll / Early Bird / Pickpocket
-New     Chlorophyll / Rattled / Early Bird   
+New     Chlorophyll / Rattled / Early Bird
 
 Ability (Classic):
 Old     Chlorophyll / Early Bird / Pickpocket
@@ -9214,7 +9214,7 @@ Level Up:
 ===================
 Ability (Complete):
 Old     Chlorophyll / Early Bird / Pickpocket
-New     Chlorophyll / Rattled / Early Bird   
+New     Chlorophyll / Rattled / Early Bird
 
 Ability (Classic):
 Old     Chlorophyll / Early Bird / Pickpocket
@@ -9251,7 +9251,7 @@ Level Up:
 ===================
 Ability (Complete):
 Old     Chlorophyll / Early Bird / Pickpocket
-New     Chlorophyll / Rattled / Early Bird   
+New     Chlorophyll / Rattled / Early Bird
 
 Ability (Classic):
 Old     Chlorophyll / Early Bird / Pickpocket
@@ -9279,12 +9279,12 @@ Level Up:
 276 - Taillow
 ===================
 Ability (Complete):
-Old     Guts / Guts / Scrappy 
-New     Early Bird / Scrappy / Scrappy 
- 
+Old     Guts / Guts / Scrappy
+New     Early Bird / Scrappy / Scrappy
+
 Moves:
 Now compatible with TM58, Hurricane.
- 
+
 Level Up:
 1 - Growl
 1 - Mud-Slap
@@ -9307,7 +9307,7 @@ Level Up:
 46 - Reversal
 50 - Endeavor
 54 - Sky Attack
- 
+
 ===================
 277 - Swellow
 ===================
@@ -9316,12 +9316,12 @@ Old     60 HP / 85 Atk / 60 Def / 75 SAtk / 50 SDef / 125 Spd / 455 BST
 New     60 HP / 85 Atk / 60 Def / 85 SAtk / 50 SDef / 125 Spd / 465 BST
 
 Ability (Complete / Classic):
-Old     Guts / Guts / Scrappy 
-New     Guts / Scrappy / Scrappy 
- 
+Old     Guts / Guts / Scrappy
+New     Guts / Scrappy / Scrappy
+
 Moves:
 Now compatible with TM58, Hurricane.
- 
+
 Level Up:
 1 - Sky Attack
 1 - Refresh
@@ -9348,7 +9348,7 @@ Level Up:
 52 - Double-Edge
 56 - Brave Bird
 60 - Boomburst
- 
+
 ===================
 278 - Wingull
 ===================
@@ -9358,7 +9358,7 @@ New     Hydration / Rain Dish / Keen Eye
 
 Moves:
 Now compatible with TM62, Acrobatics.
- 
+
 Level Up:
 1 - Growl
 1 - Supersonic
@@ -9395,7 +9395,7 @@ New     Drizzle / Rain Dish / Keen Eye
 
 Moves:
 Now compatible with TM62, Acrobatics.
- 
+
 Level Up:
 1 - Wide Guard
 1 - Growl
@@ -9441,7 +9441,7 @@ Level Up:
 6 - Disarming Voice
 8 - Captivate
 10 - Lucky Chant
-12 - Psybeam     
+12 - Psybeam
 14 - Shock Wave
 16 - Magical Leaf
 19 - Draining Kiss
@@ -9474,7 +9474,7 @@ Level Up:
 6 - Disarming Voice
 8 - Captivate
 10 - Lucky Chant
-12 - Psybeam     
+12 - Psybeam
 14 - Shock Wave
 16 - Draining Kiss
 19 - Magical Leaf
@@ -9504,7 +9504,7 @@ Level Up:
 6 - Disarming Voice
 8 - Captivate
 10 - Lucky Chant
-12 - Psybeam     
+12 - Psybeam
 14 - Shock Wave
 16 - Draining Kiss
 19 - Magical Leaf
@@ -9527,7 +9527,7 @@ Level Up:
 ===================
 Base Stats (Complete):
 Old     40 HP / 30 Atk / 32 Def / 50 SAtk / 52 SDef / 65 Spd / 269 BST
-New     40 HP / 30 Atk / 30 Def / 55 SAtk / 55 SDef / 65 Spd / 275 BST  
+New     40 HP / 30 Atk / 30 Def / 55 SAtk / 55 SDef / 65 Spd / 275 BST
 
 Ability (Complete / Classic):
 Old     Swift Swim / Swift Swim / Rain Dish
@@ -9577,7 +9577,7 @@ Now compatible with HM06, Dive.
 
 Type (Complete):
 Old     Bug / Flying
-New     Bug / Water     
+New     Bug / Water
 
 Level Up:
 1 - Twister
@@ -9776,8 +9776,8 @@ Level Up:
 290 - Nincada
 ===================
 Ability (Complete / Classic):
-Old     Compound Eyes / Compound Eyes / Run Away 
-New     Compound Eyes / Run Away / Run Away 
+Old     Compound Eyes / Compound Eyes / Run Away
+New     Compound Eyes / Run Away / Run Away
 
 Level Up:
 1 - Absorb
@@ -9876,7 +9876,7 @@ Level Up:
 ===================
 Ability (Complete / Classic):
 Old     Soundproof / Soundproof / Rattled
-New     Soundproof / Scrappy / Rattled     
+New     Soundproof / Scrappy / Rattled
 
 Moves:
 Now compatible with TM76, Bug Buzz.
@@ -10033,16 +10033,16 @@ Level Up:
 ===================
 Base Stats (Complete):
 Old     50 HP / 20 Atk / 40 Def / 20 SAtk / 40 SDef / 20 Spd / 190 BST
-New     50 HP / 20 Atk / 40 Def / 30 SAtk / 40 SDef / 20 Spd / 200 BST  
+New     50 HP / 20 Atk / 40 Def / 30 SAtk / 40 SDef / 20 Spd / 200 BST
 
 Ability (Complete / Classic):
-Old     Thick Fat / Huge Power / Sap Sipper 
+Old     Thick Fat / Huge Power / Sap Sipper
 New     Huge Power / Thick Fat / Sap Sipper
- 
+
 Base Happiness:
 Old     70
-New     180   
- 
+New     180
+
 Level Up:
 1 - Splash
 1 - Tackle
@@ -10104,10 +10104,10 @@ Level Up:
 ===================
 Base Stats (Complete):
 Old     50 HP / 45 Atk / 45 Def / 35 SAtk / 35 SDef / 50 Spd / 260 BST
-New     50 HP / 50 Atk / 50 Def / 40 SAtk / 40 SDef / 60 Spd / 290 BST    
+New     50 HP / 50 Atk / 50 Def / 40 SAtk / 40 SDef / 60 Spd / 290 BST
 
 Ability (Complete):
-Old     Cute Charm / Normalize / Wonder Skin 
+Old     Cute Charm / Normalize / Wonder Skin
 New     Wonder Skin / Normalize / Wonder Skin
 
 Evolution:
@@ -10149,16 +10149,16 @@ Level Up:
 ===================
 Base Stats (Complete):
 Old     70 HP / 65 Atk / 65 Def / 55 SAtk / 55 SDef / 90 Spd / 400 BST
-New     70 HP / 95 Atk / 65 Def / 85 SAtk / 75 SDef / 95 Spd / 485 BST 
+New     70 HP / 95 Atk / 65 Def / 85 SAtk / 75 SDef / 95 Spd / 485 BST
 
 Ability (Complete):
-Old     Cute Charm / Normalize / Wonder Skin 
-New     Wonder Skin / Normalize / Wonder Skin  
+Old     Cute Charm / Normalize / Wonder Skin
+New     Wonder Skin / Normalize / Wonder Skin
 
 Moves:
 Now compatible with TM01, Hone Claws.
 Now compatible with TM66, Power Gem.
-Now compatible with HM01, Cut.  
+Now compatible with HM01, Cut.
 
 Level Up:
 1 - Fake Tears
@@ -10324,7 +10324,7 @@ Level Up:
 Base Stats (Complete):
 Old     70 HP / 110 Atk / 180 Def / 60 SAtk / 60 SDef / 50 Spd / 530 BST
 New     70 HP / 110 Atk / 160 Def / 50 SAtk / 80 SDef / 60 Spd / 530 BST
- 
+
 Ability (Complete):
 Old     Sturdy / Rock Head / Heavy Metal
 New     Filter / Rock Head / Sturdy
@@ -10402,7 +10402,7 @@ New     60 HP / 65 Atk / 80 Def / 75 SAtk / 80 SDef / 90 Spd / 450 BST
 
 Moves:
 Now compatible with TM62, Acrobatics.
- 
+
 Level Up:
 1 - Ally Switch
 1 - Confusion
@@ -10432,7 +10432,7 @@ Level Up:
 ===================
 Ability (Complete):
 Old     Static / Lightningrod / Minus
-New     Intimidate / Static / Lightningrod     
+New     Intimidate / Static / Lightningrod
 
 Level Up:
 1 - Leer
@@ -10591,7 +10591,7 @@ Now compatible with TM48, Mystical Fire.
 
 Type (Complete):
 Old     Bug
-New     Bug / Electric     
+New     Bug / Electric
 
 Level Up:
 1 - Flash
@@ -10632,7 +10632,7 @@ Now compatible with TM60, Quash.
 
 Type (Complete):
 Old     Bug
-New     Bug / Fairy     
+New     Bug / Fairy
 
 Level Up:
 1 - Trick
@@ -10744,7 +10744,7 @@ Level Up:
 318 - Carvanha
 ===================
 Ability (Complete / Classic):
-Old     Rough Skin / Rough Skin / Speed Boost 
+Old     Rough Skin / Rough Skin / Speed Boost
 New     Rough Skin / Speed Boost / Speed Boost
 
 Evolution:
@@ -10781,7 +10781,7 @@ Level Up:
 319 - Sharpedo
 ===================
 Ability (Complete / Classic):
-Old     Rough Skin / Rough Skin / Speed Boost 
+Old     Rough Skin / Rough Skin / Speed Boost
 New     Rough Skin / Speed Boost / Speed Boost
 
 Moves:
@@ -10818,7 +10818,7 @@ Level Up:
 320 - Wailmer
 ===================
 Ability (Complete / Classic):
-Old     Water Veil / Oblivious / Pressure 
+Old     Water Veil / Oblivious / Pressure
 New     Water Veil / Pressure / Pressure
 
 Level Up:
@@ -10852,8 +10852,8 @@ Old     170 HP / 90 Atk / 45 Def / 90 SAtk / 45 SDef / 60 Spd / 500 BST
 New     200 HP / 90 Atk / 45 Def / 90 SAtk / 45 SDef / 60 Spd / 530 BST
 
 Ability (Complete / Classic):
-Old     Water Veil / Oblivious / Pressure 
-New     Water Veil / Pressure / Pressure 
+Old     Water Veil / Oblivious / Pressure
+New     Water Veil / Pressure / Pressure
 
 Moves:
 Now compatible with TM56, Weather Ball.
@@ -10888,7 +10888,7 @@ Level Up:
 322 - Numel
 ===================
 Ability (Complete):
-Old     Oblivious / Simple / Own Tempo 
+Old     Oblivious / Simple / Own Tempo
 New     Oblivious / Simple / Own Tempo
 
 Moves:
@@ -10919,7 +10919,7 @@ Level Up:
 55 - Fissure
 58 - Double-Edge
 61 - Eruption
- 
+
 ===================
 323 - Camerupt
 ===================
@@ -11056,8 +11056,8 @@ Old     60 HP / 60 Atk / 60 Def / 60 SAtk / 60 SDef / 60 Spd / 360 BST
 New     75 HP / 75 Atk / 75 Def / 75 SAtk / 75 SDef / 75 Spd / 450 BST
 
 Ability (Complete / Classic):
-Old     Own Tempo / Tangled Feet / Contrary 
-New     Contrary / Tangled Feet / Contrary  
+Old     Own Tempo / Tangled Feet / Contrary
+New     Contrary / Tangled Feet / Contrary
 
 Level Up:
 1 - Disable
@@ -11080,18 +11080,18 @@ Level Up:
 48 - Drain Punch
 52 - Double-Edge
 56 - Hyper Voice
-60 - Boomburst     
+60 - Boomburst
 
 ===================
 328 - Trapinch
 ===================
 Base Stats (Complete):
 Old     45 HP / 100 Atk / 45 Def / 45 SAtk / 45 SDef / 10 Spd / 290 BST
-New     55 HP / 100 Atk / 45 Def / 45 SAtk / 45 SDef / 10 Spd / 300 BST   
+New     55 HP / 100 Atk / 45 Def / 45 SAtk / 45 SDef / 10 Spd / 300 BST
 
 Ability (Complete / Classic):
 Old     Hyper Cutter / Arena Trap / Sheer Force
-New     Hyper Cutter / Sheer Force / Arena Trap     
+New     Hyper Cutter / Sheer Force / Arena Trap
 
 Moves:
 Now compatible with TM76, Bug Buzz.
@@ -11101,7 +11101,7 @@ Now evolves into Vibrava at Level 30.
 
 Type (Complete):
 Old     Ground
-New     Bug / Ground     
+New     Bug / Ground
 
 Level Up:
 1 - Astonish
@@ -11139,11 +11139,11 @@ Now compatible with TM58, Hurricane.
 
 Evolution:
 Now evolves into Flygon at Level 55.
- 
+
 Type (Complete):
 Old     Ground / Dragon
 New     Bug / Dragon
- 
+
 EVs:
 Old     1 Atk, 1 Spd
 New     2 SAtk
@@ -11309,15 +11309,15 @@ Level Up:
 ===================
 Base Stats (Complete):
 Old     45 HP / 40 Atk / 60 Def / 40 SAtk / 75 SDef / 50 Spd / 310 BST
-New     65 HP / 50 Atk / 60 Def / 50 SAtk / 75 SDef / 50 Spd / 350 BST  
+New     65 HP / 50 Atk / 60 Def / 50 SAtk / 75 SDef / 50 Spd / 350 BST
 
 Ability (Complete / Classic):
 Old     Natural Cure / Natural Cure / Cloud Nine
-New     Natural Cure / Cloud Nine / Cloud Nine  
+New     Natural Cure / Cloud Nine / Cloud Nine
 
 Type (Complete):
 Old     Normal / Flying
-New     Fairy / Flying     
+New     Fairy / Flying
 
 Level Up:
 1 - Growl
@@ -11348,17 +11348,17 @@ Level Up:
 ===================
 Base Stats (Complete):
 Old     75 HP / 70 Atk / 90 Def / 70 SAtk / 105 SDef / 80 Spd / 490 BST
-New     95 HP / 80 Atk / 90 Def / 70 SAtk / 105 SDef / 80 Spd / 520 BST 
+New     95 HP / 80 Atk / 90 Def / 70 SAtk / 105 SDef / 80 Spd / 520 BST
 
 Ability (Complete / Classic):
 Old     Natural Cure / Natural Cure / Cloud Nine
-New     Natural Cure / Cloud Nine / Cloud Nine    
+New     Natural Cure / Cloud Nine / Cloud Nine
 
 Type (Complete):
 Old     Dragon / Flying
-New     Dragon / Fairy     
+New     Dragon / Fairy
 
-Level Up: 
+Level Up:
 1 - Heal Bell
 1 - Mirror Move
 1 - Ominous Wind
@@ -11471,7 +11471,7 @@ Base Stats (Complete):
 Old     90 HP / 55 Atk / 65 Def / 95 SAtk / 85 SDef / 70 Spd / 460 BST
 New     90 HP / 55 Atk / 65 Def / 115 SAtk / 85 SDef / 70 Spd / 480 BST
 
-Moves: 
+Moves:
 Now compatible with TM66, Power Gem.
 
 Level Up:
@@ -11633,7 +11633,7 @@ Level Up:
 54 - Crabhammer
 58 - Trump Card
 62 - Guillotine
- 
+
 ===================
 342 - Crawdaunt
 ===================
@@ -11791,8 +11791,8 @@ Level Up:
 347 - Anorith
 ===================
 Ability (Complete / Classic):
-Old     Battle Armor / Battle Armor / Swift Swim 
-New     Battle Armor / Swift Swim / Swift Swim 
+Old     Battle Armor / Battle Armor / Swift Swim
+New     Battle Armor / Swift Swim / Swift Swim
 
 Evolution:
 Now evolves into Armaldo at Level 30.
@@ -11829,8 +11829,8 @@ Level Up:
 348 - Armaldo
 ===================
 Ability (Complete / Classic):
-Old     Battle Armor / Battle Armor / Swift Swim 
-New     Battle Armor / Swift Swim / Swift Swim 
+Old     Battle Armor / Battle Armor / Swift Swim
+New     Battle Armor / Swift Swim / Swift Swim
 
 Moves:
 Now compatible with TM51, Wave Crash.
@@ -11894,7 +11894,7 @@ Level Up:
 47 - Breaking Swipe
 50 - Hypnosis
 53 - Haze
-56 - Dragon Pulse 
+56 - Dragon Pulse
 59 - Coil
 62 - Hydro Pump
 
@@ -12010,7 +12010,7 @@ Level Up:
 ===================
 Base Stats (Complete):
 Old     64 HP / 115 Atk / 65 Def / 83 SAtk / 63 SDef / 65 Spd / 455 BST
-New     64 HP / 125 Atk / 65 Def / 93 SAtk / 63 SDef / 65 Spd / 475 BST   
+New     64 HP / 125 Atk / 65 Def / 93 SAtk / 63 SDef / 65 Spd / 475 BST
 
 Ability (Complete / Classic):
 Old     Insomnia / Frisk / Cursed Body
@@ -12023,7 +12023,7 @@ Now compatible with HM01, Cut.
 
 Type (Complete):
 Old     Ghost
-New     Ghost / Normal   
+New     Ghost / Normal
 
 Level Up:
 1 - Screech
@@ -12113,7 +12113,7 @@ Level Up:
 ===================
 Base Stats (Complete):
 Old     99 HP / 68 Atk / 83 Def / 72 SAtk / 87 SDef / 51 Spd / 460 BST
-New     99 HP / 98 Atk / 83 Def / 82 SAtk / 87 SDef / 51 Spd / 500 BST   
+New     99 HP / 98 Atk / 83 Def / 82 SAtk / 87 SDef / 51 Spd / 500 BST
 
 Moves:
 Now compatible with TM58, Hurricane.
@@ -12152,7 +12152,7 @@ Level Up:
 ===================
 Base Stats (Complete):
 Old     75 HP / 50 Atk / 80 Def / 95 SAtk / 90 SDef / 65 Spd / 455 BST
-New     75 HP / 50 Atk / 80 Def / 110 SAtk / 90 SDef / 65 Spd / 470 BST    
+New     75 HP / 50 Atk / 80 Def / 110 SAtk / 90 SDef / 65 Spd / 470 BST
 
 Moves:
 Now compatible with TM56, Weather Ball.
@@ -12190,11 +12190,11 @@ Level Up:
 ===================
 Base Stats (Complete):
 Old     65 HP / 130 Atk / 60 Def / 75 SAtk / 60 SDef / 75 Spd / 465 BST
-New     65 HP / 130 Atk / 60 Def / 85 SAtk / 60 SDef / 85 Spd / 485 BST 
+New     65 HP / 130 Atk / 60 Def / 85 SAtk / 60 SDef / 85 Spd / 485 BST
 
 Ability (Complete / Classic):
 Old     Pressure / Super Luck / Justified
-New     Justified / Super Luck / Pressure    
+New     Justified / Super Luck / Pressure
 
 Moves:
 Now compatible with TM46, Aura Sphere.
@@ -12277,7 +12277,7 @@ New     80 HP / 110 Atk / 110 Def / 60 SAtk / 60 SDef / 80 Spd / 500 BST
 
 Ability (Complete):
 Old     Inner Focus / Ice Body / Moody
-New     Levitate / - / -  
+New     Levitate / - / -
 
 Moves:
 Now compatible with TM23, Smack Down.
@@ -12287,11 +12287,11 @@ Now compatible with TM69, Rock Polish.
 Now compatible with TM71, Stone Edge.
 Now compatible with TM80, Rock Slide.
 Now compatible with TM83, Work Up.
-Now compatible with TM94, Rock Smash. 
+Now compatible with TM94, Rock Smash.
 
 Type (Complete):
 Old     Ice
-New     Ice / Rock     
+New     Ice / Rock
 
 Level Up:
 1 - Rollout
@@ -12305,7 +12305,7 @@ Level Up:
 24 - Headbutt
 27 - Avalanche
 30 - Crunch
-33 - Rock Slide  
+33 - Rock Slide
 36 - Fake Tears
 40 - Hex
 44 - Hail
@@ -12518,8 +12518,8 @@ Old     43 HP / 30 Atk / 55 Def / 40 SAtk / 65 SDef / 97 Spd / 330 BST
 New     53 HP / 30 Atk / 65 Def / 90 SAtk / 65 SDef / 117 Spd / 420 BST
 
 Ability (Complete / Classic):
-Old     Swift Swim / Swift Swim / Hydration 
-New     Swift Swim / Hydration / Hydration     
+Old     Swift Swim / Swift Swim / Hydration
+New     Swift Swim / Hydration / Hydration
 
 Moves:
 Now compatible with TM32, Dazzling Gleam.
@@ -12545,7 +12545,7 @@ Level Up:
 28 - Heart Stamp
 31 - Take Down
 34 - Captivate
-37 - Moonblast     
+37 - Moonblast
 40 - Aqua Ring
 43 - Bounce
 46 - Safeguard
@@ -12668,7 +12668,7 @@ New     Clear Body / Rock Head / Heavy Metal
 
 Catch Rate
 Old     3
-New     45     
+New     45
 
 Level Up:
 1 - Iron Defense
@@ -12682,7 +12682,7 @@ Level Up:
 ===================
 Ability (Complete):
 Old     Clear Body / Clear Body / Light Metal
-New     Clear Body / Iron Fist / Heavy Metal    
+New     Clear Body / Iron Fist / Heavy Metal
 
 Moves:
 Now compatible with HM02, Fly.
@@ -12758,7 +12758,7 @@ Level Up:
 ===================
 Ability (Complete):
 Old     Clear Body / Clear Body / Sturdy
-New     Solid Rock / Sturdy / Clear Body     
+New     Solid Rock / Sturdy / Clear Body
 
 Level Up:
 1 - Explosion
@@ -12782,7 +12782,7 @@ Level Up:
 ===================
 Ability (Complete):
 Old     Clear Body / Clear Body / Ice Body
-New     Filter / Ice Body / Clear Body     
+New     Filter / Ice Body / Clear Body
 
 Level Up:
 1 - Explosion
@@ -12806,7 +12806,7 @@ Level Up:
 ===================
 Ability (Complete):
 Old     Clear Body / Clear Body / Light Metal
-New     Heatproof / Clear Body / Light Metal     
+New     Heatproof / Clear Body / Light Metal
 
 Level Up:
 1 - Explosion
@@ -12976,7 +12976,7 @@ Level Up:
 42 - Double-Edge
 46 - Last Resort
 50 - Doom Desire
- 
+
 ===================
 386 - Deoxys
 ===================
@@ -13208,7 +13208,7 @@ Level Up:
 ===================
 Ability (Complete / Classic):
 Old     Blaze / Blaze / Iron Fist
-New     Iron Fist / Blaze / Iron Fist    
+New     Iron Fist / Blaze / Iron Fist
 
 Level Up:
 1 - Scratch
@@ -13238,11 +13238,11 @@ Level Up:
 ===================
 Base Stats (Complete):
 Old     76 HP / 104 Atk / 71 Def / 104 SAtk / 71 SDef / 108 Spd / 534 BST
-New     76 HP / 104 Atk / 71 Def / 104 SAtk / 71 SDef / 109 Spd / 535 BST  
+New     76 HP / 104 Atk / 71 Def / 104 SAtk / 71 SDef / 109 Spd / 535 BST
 
 Ability (Complete / Classic):
 Old     Blaze / Blaze / Iron Fist
-New     Iron Fist / Blaze / Iron Fist   
+New     Iron Fist / Blaze / Iron Fist
 
 Level Up:
 1 - Blaze Kick
@@ -13339,11 +13339,11 @@ Level Up:
 ===================
 Base Stats (Complete):
 Old     84 HP / 86 Atk / 88 Def / 111 SAtk / 101 SDef / 60 Spd / 530 BST
-New     84 HP / 91 Atk / 88 Def / 111 SAtk / 101 SDef / 60 Spd / 535 BST 
+New     84 HP / 91 Atk / 88 Def / 111 SAtk / 101 SDef / 60 Spd / 535 BST
 
 Ability (Complete / Classic):
 Old     Torrent / Torrent / Defiant
-New     Defiant / Torrent / Defiant    
+New     Defiant / Torrent / Defiant
 
 Moves:
 Now compatible with TM51, Wave Crash.
@@ -13437,7 +13437,7 @@ Level Up:
 ===================
 Ability (Complete / Classic):
 Old     Intimidate / Intimidate / Reckless
-New     Reckless / Intimidate / Reckless  
+New     Reckless / Intimidate / Reckless
 
 Moves:
 Now compatible with TM58, Hurricane.
@@ -13537,7 +13537,7 @@ Level Up:
 ===================
 Base Stats (Complete):
 Old     37 HP / 25 Atk / 41 Def / 25 SAtk / 41 SDef / 25 Spd / 194 BST
-New     37 HP / 35 Atk / 41 Def / 35 SAtk / 41 SDef / 25 Spd / 214 BST   
+New     37 HP / 35 Atk / 41 Def / 35 SAtk / 41 SDef / 25 Spd / 214 BST
 
 Ability (Complete / Classic):
 Old     Shed Skin / Shed Skin / Run Away
@@ -13556,7 +13556,7 @@ Level Up:
 ===================
 Base Stats (Complete):
 Old     77 HP / 85 Atk / 51 Def / 55 SAtk / 51 SDef / 65 Spd / 384 BST
-New     75 HP / 95 Atk / 57 Def / 71 SAtk / 57 SDef / 70 Spd / 425 BST   
+New     75 HP / 95 Atk / 57 Def / 71 SAtk / 57 SDef / 70 Spd / 425 BST
 
 Ability (Complete / Classic):
 Old     Swarm / Swarm / Technician
@@ -13596,7 +13596,7 @@ Level Up:
 ===================
 Ability (Complete / Classic):
 Old     Rivalry / Intimidate / Guts
-New     Rivalry / Intimidate / Guts 
+New     Rivalry / Intimidate / Guts
 
 Level Up:
 1 - Leer
@@ -13629,7 +13629,7 @@ Level Up:
 ===================
 Ability (Complete / Classic):
 Old     Rivalry / Intimidate / Guts
-New     Rivalry / Intimidate / Guts 
+New     Rivalry / Intimidate / Guts
 
 Level Up:
 1 - Leer
@@ -13662,11 +13662,11 @@ Level Up:
 ===================
 Ability (Complete / Classic):
 Old     Rivalry / Intimidate / Guts
-New     Guts / Intimidate / Guts 
+New     Guts / Intimidate / Guts
 
 Type (Complete):
 Old     Electric
-New     Electric / Dark     
+New     Electric / Dark
 
 Level Up:
 1 - Psychic Fangs
@@ -13700,7 +13700,7 @@ Level Up:
 ===================
 Base Happiness:
 Old     70
-New     180     
+New     180
 
 Evolution:
 Now evolves into Roselia when happy regardless of the time.
@@ -13803,11 +13803,11 @@ Level Up:
 ===================
 Base Stats (Complete):
 Old     30 HP / 42 Atk / 118 Def / 42 SAtk / 88 SDef / 30 Spd / 350 BST
-New     30 HP / 62 Atk / 118 Def / 22 SAtk / 88 SDef / 30 Spd / 350 BST 
+New     30 HP / 62 Atk / 118 Def / 22 SAtk / 88 SDef / 30 Spd / 350 BST
 
 Ability (Complete / Classic):
 Old     Sturdy / Sturdy / Soundproof
-New     Sturdy / Soundproof / Soundproof    
+New     Sturdy / Soundproof / Soundproof
 
 Moves:
 Now compatible with TM87, Rock Climb.
@@ -13835,7 +13835,7 @@ Level Up:
 ===================
 Base Stats (Complete):
 Old     60 HP / 52 Atk / 168 Def / 47 SAtk / 138 SDef / 30 Spd / 495 BST
-New     60 HP / 72 Atk / 168 Def / 27 SAtk / 138 SDef / 30 Spd / 495 BST 
+New     60 HP / 72 Atk / 168 Def / 27 SAtk / 138 SDef / 30 Spd / 495 BST
 
 Ability (Complete / Classic):
 Old     Sturdy / Sturdy / Soundproof
@@ -13995,11 +13995,11 @@ Level Up (Trash Cloak):
 ===================
 Base Stats (Complete):
 Old     70 HP / 94 Atk / 50 Def / 94 SAtk / 50 SDef / 66 Spd / 424 BST
-New     70 HP / 94 Atk / 50 Def / 94 SAtk / 50 SDef / 92 Spd / 450 BST   
+New     70 HP / 94 Atk / 50 Def / 94 SAtk / 50 SDef / 92 Spd / 450 BST
 
 Ability (Complete / Classic):
 Old     Swarm / Swarm / Tinted Lens
-New     Swarm / Tinted Lens / Tinted Lens  
+New     Swarm / Tinted Lens / Tinted Lens
 
 Moves:
 Now compatible with TM58, Hurricane.
@@ -14035,7 +14035,7 @@ New     Honey Gather / Hustle / Hustle
 Gender Ratio:
 87.5% Male, 12.5% Female
 -> 50% Male, 50% Female
- 
+
 Level Up:
 1 - Sweet Scent
 1 - Gust
@@ -14048,11 +14048,11 @@ Level Up:
 ===================
 Base Stats (Complete):
 Old     70 HP / 80 Atk / 102 Def / 80 SAtk / 102 SDef / 40 Spd / 474 BST
-New     81 HP / 95 Atk / 102 Def / 80 SAtk / 102 SDef / 40 Spd / 500 BST 
+New     81 HP / 95 Atk / 102 Def / 80 SAtk / 102 SDef / 40 Spd / 500 BST
 
 Ability (Complete):
 Old     Pressure / Pressure / Unnerve
-New     Intimidate / Pressure / Unnerve        
+New     Intimidate / Pressure / Unnerve
 
 Moves:
 Now compatible with TM58, Hurricane.
@@ -14075,7 +14075,7 @@ Level Up:
 37 - Air Slash
 41 - Ominous Wind
 45 - Tailwind
-49 - Cross Poison 
+49 - Cross Poison
 53 - Revenge
 57 - Destiny Bond
 
@@ -14084,14 +14084,14 @@ Level Up:
 ===================
 Base Stats (Complete):
 Old     60 HP / 45 Atk / 70 Def / 45 SAtk / 90 SDef / 95 Spd / 405 BST
-New     65 HP / 60 Atk / 80 Def / 60 SAtk / 90 SDef / 95 Spd / 450 BST   
+New     65 HP / 60 Atk / 80 Def / 60 SAtk / 90 SDef / 95 Spd / 450 BST
 
 Ability (Complete / Classic):
 Old     Run Away / Pickup / Volt Absorb
-New     Volt Absorb / Pickup / Run Away  
+New     Volt Absorb / Pickup / Run Away
 
 Moves:
-Now compatible with TM85, Play Rough. 
+Now compatible with TM85, Play Rough.
 
 Level Up:
 1 - Charge
@@ -14354,7 +14354,7 @@ Level Up:
 425 - Drifloon
 ===================
 Ability (Complete / Classic):
-Old     Aftermath / Unburden / Flare Boost 
+Old     Aftermath / Unburden / Flare Boost
 New     Flare Boost / Unburden / Aftermath
 
 Moves:
@@ -14387,7 +14387,7 @@ Level Up:
 426 - Drifblim
 ===================
 Ability (Complete / Classic):
-Old     Aftermath / Unburden / Flare Boost 
+Old     Aftermath / Unburden / Flare Boost
 New     Flare Boost / Unburden / Aftermath
 
 Moves:
@@ -14432,7 +14432,7 @@ Level Up:
 7 - Quick Attack
 10 - Fake Tears
 13 - Foresight
-16 - Agility 
+16 - Agility
 19 - Headbutt
 22 - Fake Out
 25 - Switcheroo
@@ -14463,7 +14463,7 @@ New     Run Away / Limber / Klutz
 
 Type (Complete):
 Old     Normal
-New     Normal / Fighting     
+New     Normal / Fighting
 
 Level Up:
 1 - High Horsepower
@@ -14474,7 +14474,7 @@ Level Up:
 7 - Quick Attack
 10 - Fake Tears
 13 - Foresight
-16 - Agility 
+16 - Agility
 19 - Headbutt
 22 - Fake Out
 25 - Switcheroo
@@ -14505,11 +14505,11 @@ New     Infiltrator / - / -
 
 Moves:
 Now compatible with TM48, Mystical Fire.
-Now compatible with TM66, Power Gem.  
+Now compatible with TM66, Power Gem.
 
 Type (Complete):
 Old     Ghost
-New     Ghost / Fairy     
+New     Ghost / Fairy
 
 Level Up:
 1 - Spite
@@ -14592,8 +14592,8 @@ Old     71 HP / 82 Atk / 64 Def / 64 SAtk / 59 SDef / 112 Spd / 452 BST
 New     90 HP / 95 Atk / 70 Def / 65 SAtk / 60 SDef / 115 Spd / 495 BST
 
 Ability (Complete / Classic):
-Old     Thick Fat / Own Tempo / Defiant 
-New     Thick Fat / Defiant / Defiant      
+Old     Thick Fat / Own Tempo / Defiant
+New     Thick Fat / Defiant / Defiant
 
 Level Up:
 1 - Fury Cutter
@@ -14627,14 +14627,14 @@ Level Up:
 ===================
 Base Stats (Complete):
 Old     45 HP / 30 Atk / 50 Def / 65 SAtk / 50 SDef / 45 Spd / 285 BST
-New     45 HP / 30 Atk / 50 Def / 80 SAtk / 60 SDef / 45 Spd / 310 BST    
+New     45 HP / 30 Atk / 50 Def / 80 SAtk / 60 SDef / 45 Spd / 310 BST
 
 Moves:
 Now compatible with TM56, Weather Ball.
 
 Base Happiness:
 Old     70
-New     180     
+New     180
 
 Evolution:
 Now evolves into Chimecho when it learns Heal Bell.
@@ -14816,11 +14816,11 @@ Level Up:
 ===================
 Base Stats (Complete):
 Old     20 HP / 25 Atk / 45 Def / 70 SAtk / 90 SDef / 60 Spd / 310 BST
-New     20 HP / 15 Atk / 45 Def / 80 SAtk / 90 SDef / 65 Spd / 315 BST   
+New     20 HP / 15 Atk / 45 Def / 80 SAtk / 90 SDef / 65 Spd / 315 BST
 
 Ability (Complete / Classic):
 Old     Soundproof / Filter / Technician
-New     Technician / Filter / Soundproof  
+New     Technician / Filter / Soundproof
 
 Moves:
 Now compatible with TM20, Tri Attack.
@@ -14861,7 +14861,7 @@ Now able to evolve into Chansey at level 30.
 Base Happiness:
 Old     140
 New     180
- 
+
 Level Up:
 1 - Metronome
 1 - Copycat
@@ -14882,11 +14882,11 @@ Level Up:
 ===================
 Base Stats (Complete):
 Old     76 HP / 65 Atk / 45 Def / 92 SAtk / 42 SDef / 91 Spd / 411 BST
-New     75 HP / 65 Atk / 50 Def / 105 SAtk / 50 SDef / 96 Spd / 441 BST   
+New     75 HP / 65 Atk / 50 Def / 105 SAtk / 50 SDef / 96 Spd / 441 BST
 
 Ability (Complete):
 Old     Keen Eye / Tangled Feet / Big Pecks
-New     Soundproof / Tangled Feet / Big Pecks       
+New     Soundproof / Tangled Feet / Big Pecks
 
 Moves:
 Now compatible with TM58, Hurricane.
@@ -14922,7 +14922,7 @@ Level Up:
 ===================
 Ability (Complete / Classic):
 Old     Pressure / Pressure / Infiltrator
-New     Pressure / Infiltrator / Infiltrator     
+New     Pressure / Infiltrator / Infiltrator
 
 Level Up:
 1 - Pursuit
@@ -15106,7 +15106,7 @@ Level Up:
 ===================
 Ability (Complete / Classic):
 Old     Steadfast / Inner Focus / Justified
-New     Justified / Steadfast / Inner Focus     
+New     Justified / Steadfast / Inner Focus
 
 Level Up:
 1 - Aura Sphere
@@ -15221,7 +15221,7 @@ Level Up:
 
 ===================
 452 - Drapion
-===================  
+===================
 Level Up:
 1 - Thunder Fang
 1 - Ice Fang
@@ -15447,8 +15447,8 @@ Level Up:
 459 - Snover
 ===================
 Ability (Complete / Classic):
-Old     Snow Warning / Snow Warning / Soundproof 
-New     Snow Warning / Soundproof / Soundproof 
+Old     Snow Warning / Snow Warning / Soundproof
+New     Snow Warning / Soundproof / Soundproof
 
 Moves:
 Now compatible with TM45, Power-Up Punch.
@@ -15481,8 +15481,8 @@ Level Up:
 460 - Abomasnow
 ===================
 Ability (Complete / Classic):
-Old     Snow Warning / Snow Warning / Soundproof 
-New     Snow Warning / Soundproof / Soundproof 
+Old     Snow Warning / Snow Warning / Soundproof
+New     Snow Warning / Soundproof / Soundproof
 
 Moves:
 Now compatible with TM45, Power-Up Punch.
@@ -15519,7 +15519,7 @@ Level Up:
 461 - Weavile
 ===================
 Moves:
-Now compatible with TM60, Quash. 
+Now compatible with TM60, Quash.
 
 Level Up:
 1 - Scratch
@@ -15551,7 +15551,7 @@ Level Up:
 ===================
 Ability (Complete / Classic):
 Old     Magnet Pull / Sturdy / Analytic
-New     Analytic / Sturdy / Magnet Pull 
+New     Analytic / Sturdy / Magnet Pull
 
 Moves:
 Now compatible with TM76, Bug Buzz.
@@ -15683,8 +15683,8 @@ Level Up:
 466 - Electivire
 ===================
 Ability (Complete / Classic):
-Old     Motor Drive / Motor Drive / Vital Spirit 
-New     Motor Drive / Vital Spirit / Vital Spirit 
+Old     Motor Drive / Motor Drive / Vital Spirit
+New     Motor Drive / Vital Spirit / Vital Spirit
 
 Type (Complete):
 Old     Electric
@@ -15764,8 +15764,8 @@ Level Up:
 468 - Togekiss
 ===================
 Ability (Complete / Classic):
-Old     Hustle / Serene Grace / Super Luck 
-New     Super Luck / Serene Grace / Super Luck     
+Old     Hustle / Serene Grace / Super Luck
+New     Super Luck / Serene Grace / Super Luck
 
 Moves:
 Now compatible with TM20, Tri Attack. [*]
@@ -15824,7 +15824,7 @@ New     Super Luck / Chlorophyll / Chlorophyll
 
 Moves:
 Now compatible with TM20, Tri Attack.
-Now compatible with TM85, Play Rough. 
+Now compatible with TM85, Play Rough.
 Now compatible with HM01, Cut.
 
 Level Up:
@@ -15903,7 +15903,7 @@ Level Up:
 
 ===================
 472 - Gliscor
-=================== 
+===================
 Ability (Complete / Classic):
 Old     Hyper Cutter / Sand Veil / Poison Heal
 New     Hyper Cutter / Poison Heal / Poison Heal
@@ -15945,7 +15945,7 @@ Level Up:
 ===================
 Ability (Complete / Classic):
 Old     Oblivious / Snow Cloak / Thick Fat
-New     Thick Fat / Snow Cloak / Oblivious     
+New     Thick Fat / Snow Cloak / Oblivious
 
 Level Up:
 1 - Ancient Power
@@ -16029,7 +16029,7 @@ Level Up:
 6 - Disarming Voice
 8 - Captivate
 10 - Lucky Chant
-12 - Psybeam     
+12 - Psybeam
 14 - Shock Wave
 16 - Draining Kiss
 19 - Magical Leaf
@@ -16070,7 +16070,7 @@ Now compatible with TM66, Power Gem.
 
 Type (Complete):
 Old     Rock / Steel
-New     Rock / Electric 
+New     Rock / Electric
 
 Level Up:
 1 - Tackle
@@ -16137,11 +16137,11 @@ Level Up:
 ===================
 Base Stats (Complete):
 Old     70 HP / 80 Atk / 70 Def / 80 SAtk / 70 SDef / 110 Spd / 480 BST
-New     70 HP / 70 Atk / 70 Def / 110 SAtk / 70 SDef / 110 Spd / 500 BST  
+New     70 HP / 70 Atk / 70 Def / 110 SAtk / 70 SDef / 110 Spd / 500 BST
 
 Ability (Complete / Classic):
 Old     Snow Cloak / Snow Cloak / Cursed Body
-New     Snow Cloak / Cursed Body / Cursed Body   
+New     Snow Cloak / Cursed Body / Cursed Body
 
 Moves:
 Now compatible with TM48, Mystical Fire.
@@ -16207,10 +16207,10 @@ Level Up:
 ===================
 Type (Complete):
 Old     Psychic
-New     Psychic / Fairy     
+New     Psychic / Fairy
 
 Level Up:
-1 - Moonblast     
+1 - Moonblast
 1 - Memento
 1 - Confusion
 6 - Imprison
@@ -16231,10 +16231,10 @@ Level Up:
 ===================
 Type (Complete):
 Old     Psychic
-New     Psychic / Fairy     
+New     Psychic / Fairy
 
 Level Up:
-1 - Moonblast     
+1 - Moonblast
 1 - Healing Wish
 1 - Confusion
 6 - Imprison
@@ -16255,10 +16255,10 @@ Level Up:
 ===================
 Type (Complete):
 Old     Psychic
-New     Psychic / Fairy     
+New     Psychic / Fairy
 
 Level Up:
-1 - Moonblast     
+1 - Moonblast
 1 - Explosion
 1 - Confusion
 6 - Imprison
@@ -16432,7 +16432,7 @@ Level Up:
 38 - Signal Beam
 42 - Moonblast
 46 - Rain Dance
-50 - Hydro Pump     
+50 - Hydro Pump
 
 ===================
 490 - Manaphy
@@ -16455,7 +16455,7 @@ Level Up:
 38 - Signal Beam
 42 - Moonblast
 46 - Rain Dance
-50 - Hydro Pump     
+50 - Hydro Pump
 
 ===================
 491 - Darkrai
@@ -16494,7 +16494,7 @@ Level Up (Land Forme):
 30 - Aromatherapy
 34 - Sleep Powder
 38 - Earth Power
-42 - Draining Kiss     
+42 - Draining Kiss
 46 - Leaf Storm
 50 - Seed Flare
 
@@ -16510,7 +16510,7 @@ Level Up (Sky Forme):
 30 - Aromatherapy
 34 - Sleep Powder
 38 - Air Slash
-42 - Draining Kiss     
+42 - Draining Kiss
 46 - Leaf Storm
 50 - Seed Flare
 
@@ -16538,8 +16538,8 @@ Level Up:
 34 - Perish Song
 38 - Outrage
 42 - Recover
-46 - Blast Burn     
-46 - Hydro Cannon     
+46 - Blast Burn
+46 - Hydro Cannon
 50 - Judgment
 
 ===================
@@ -16656,7 +16656,7 @@ Now compatible with Draco Meteor from the Move Tutor.
 
 Type (Complete):
 Old     Grass
-New     Grass / Dragon     
+New     Grass / Dragon
 
 Level Up:
 1 - Outrage
@@ -16732,9 +16732,9 @@ Now compatible with TM60, Quash.
 
 Type (Complete):
 Old     Fire / Fighting
-New     Fire / Ground     
+New     Fire / Ground
 
-Level Up:    
+Level Up:
 1 - Tackle
 1 - Tail Whip
 5 - Ember
@@ -16762,7 +16762,7 @@ Level Up:
 ===================
 Base Stats (Complete):
 Old     110 HP / 123 Atk / 65 Def / 100 SAtk / 65 SDef / 65 Spd / 528 BST
-New     115 HP / 125 Atk / 80 Def / 70 SAtk / 80 SDef / 65 Spd / 535 BST 
+New     115 HP / 125 Atk / 80 Def / 70 SAtk / 80 SDef / 65 Spd / 535 BST
 
 Ability (Complete):
 Old     Blaze / Blaze / Reckless
@@ -16778,9 +16778,9 @@ Now compatible with TM87, Rock Climb.
 
 Type (Complete):
 Old     Fire / Fighting
-New     Fire / Ground     
+New     Fire / Ground
 
-Level Up: 
+Level Up:
 1 - Tackle
 1 - Tail Whip
 5 - Ember
@@ -16817,7 +16817,7 @@ New     Shell Armor / Torrent / Shell Armor
 Moves:
 Now compatible with TM51, Wave Crash.
 
-Level Up:    
+Level Up:
 1 - Tackle
 1 - Tail Whip
 5 - Water Gun
@@ -16851,7 +16851,7 @@ Now compatible with TM51, Wave Crash.
 
 Type (Complete):
 Old     Water
-New     Water / Fighting     
+New     Water / Fighting
 
 Level Up:
 1 - Tackle
@@ -16895,7 +16895,7 @@ Now compatible with TM87, Rock Climb.
 
 Type (Complete):
 Old     Water
-New     Water / Fighting     
+New     Water / Fighting
 
 Level Up:
 1 - Tail Whip
@@ -16937,7 +16937,7 @@ New     Analytic / Keen Eye / Analytic
 
 Moves:
 Now compatible with TM60, Quash.
- 
+
 Level Up:
 1 - Foresight
 1 - Leer
@@ -16967,7 +16967,7 @@ Level Up:
 ===================
 Base Stats (Complete):
 Old     60 HP / 85 Atk / 69 Def / 60 SAtk / 69 SDef / 77 Spd / 420 BST
-New     60 HP / 90 Atk / 75 Def / 60 SAtk / 75 SDef / 79 Spd / 439 BST 
+New     60 HP / 90 Atk / 75 Def / 60 SAtk / 75 SDef / 79 Spd / 439 BST
 
 Ability (Complete / Classic):
 Old     Illuminate / Keen Eye / Analytic
@@ -16976,7 +16976,7 @@ New     Analytic / Keen Eye / Analytic
 Moves:
 Now compatible with TM47, Low Sweep.
 Now compatible with TM60, Quash.
- 
+
 Level Up:
 1 - Confuse Ray
 1 - Foresight
@@ -17061,7 +17061,7 @@ Level Up:
 ===================
 Base Stats (Complete):
 Old     85 HP / 100 Atk / 90 Def / 45 SAtk / 90 SDef / 80 Spd / 490 BST
-New     95 HP / 110 Atk / 90 Def / 45 SAtk / 90 SDef / 80 Spd / 510 BST 
+New     95 HP / 110 Atk / 90 Def / 45 SAtk / 90 SDef / 80 Spd / 510 BST
 
 Level Up:
 1 - Leer
@@ -17132,7 +17132,7 @@ Level Up:
 ===================
 Base Stats (Complete):
 Old     64 HP / 88 Atk / 50 Def / 88 SAtk / 50 SDef / 106 Spd / 446 BST
-New     64 HP / 90 Atk / 50 Def / 90 SAtk / 50 SDef / 106 Spd / 450 BST 
+New     64 HP / 90 Atk / 50 Def / 90 SAtk / 50 SDef / 106 Spd / 450 BST
 
 Ability (Complete / Classic):
 Old     Limber / Unburden / Prankster
@@ -17173,7 +17173,7 @@ Level Up:
 ===================
 Ability (Complete / Classic):
 Old     Gluttony / Gluttony / Overgrow
-New     Gluttony / Overgrow / Overgrow   
+New     Gluttony / Overgrow / Overgrow
 
 Moves:
 Now compatible with TM45, Power-Up Punch.
@@ -17215,11 +17215,11 @@ Level Up:
 ===================
 Base Stats (Complete):
 Old     75 HP / 98 Atk / 63 Def / 98 SAtk / 63 SDef / 101 Spd / 498 BST
-New     75 HP / 99 Atk / 63 Def / 99 SAtk / 63 SDef / 101 Spd / 500 BST    
+New     75 HP / 99 Atk / 63 Def / 99 SAtk / 63 SDef / 101 Spd / 500 BST
 
 Ability (Complete / Classic):
 Old     Gluttony / Gluttony / Overgrow
-New     Gluttony / Overgrow / Overgrow   
+New     Gluttony / Overgrow / Overgrow
 
 Moves:
 Now compatible with TM60, Quash.
@@ -17250,7 +17250,7 @@ Level Up:
 ===================
 Ability (Complete / Classic):
 Old     Gluttony / Gluttony / Blaze
-New     Gluttony / Blaze / Blaze 
+New     Gluttony / Blaze / Blaze
 
 Moves:
 Now compatible with TM45, Power-Up Punch.
@@ -17293,7 +17293,7 @@ Level Up:
 ===================
 Base Stats (Complete):
 Old     75 HP / 98 Atk / 63 Def / 98 SAtk / 63 SDef / 101 Spd / 498 BST
-New     75 HP / 99 Atk / 63 Def / 99 SAtk / 63 SDef / 101 Spd / 500 BST 
+New     75 HP / 99 Atk / 63 Def / 99 SAtk / 63 SDef / 101 Spd / 500 BST
 
 Ability (Complete / Classic):
 Old     Gluttony / Gluttony / Blaze
@@ -17328,7 +17328,7 @@ Level Up:
 ===================
 Ability (Complete / Classic):
 Old     Gluttony / Gluttony / Torrent
-New     Gluttony / Torrent / Torrent 
+New     Gluttony / Torrent / Torrent
 
 Moves:
 Now compatible with TM45, Power-Up Punch.
@@ -17374,7 +17374,7 @@ New     75 HP / 99 Atk / 63 Def / 99 SAtk / 63 SDef / 101 Spd / 500 BST
 
 Ability (Complete / Classic):
 Old     Gluttony / Gluttony / Torrent
-New     Gluttony / Torrent / Torrent 
+New     Gluttony / Torrent / Torrent
 
 Moves:
 Now compatible with TM60, Quash.
@@ -17405,11 +17405,11 @@ Level Up:
 ===================
 Ability (Complete):
 Old     Forewarn / Synchronise / Telepathy
-New     Analytic / Synchronise / Telepathy 
+New     Analytic / Synchronise / Telepathy
 
 Type (Complete):
 Old     Psychic
-New     Psychic / Fairy     
+New     Psychic / Fairy
 
 Level Up:
 1 - Confusion
@@ -17441,11 +17441,11 @@ Level Up:
 ===================
 Ability (Complete):
 Old     Forewarn / Synchronise / Telepathy
-New     Analytic / Synchronise / Telepathy 
+New     Analytic / Synchronise / Telepathy
 
 Type (Complete):
 Old     Psychic
-New     Psychic / Fairy    
+New     Psychic / Fairy
 
 Moves:
 Now compatible with TM20, Tri Attack.
@@ -17470,7 +17470,7 @@ Level Up:
 ===================
 Base Stats (Complete):
 Old     50 HP / 55 Atk / 50 Def / 36 SAtk / 30 SDef / 43 Spd / 264 BST
-New     50 HP / 36 Atk / 50 Def / 55 SAtk / 30 SDef / 43 Spd / 264 BST 
+New     50 HP / 36 Atk / 50 Def / 55 SAtk / 30 SDef / 43 Spd / 264 BST
 
 Ability (Complete):
 Old     Big Pecks / Super Luck / Rivalry
@@ -17542,7 +17542,7 @@ Level Up:
 ===================
 Base Stats (Complete):
 Old     80 HP / 105 Atk / 80 Def / 65 SAtk / 55 SDef / 93 Spd / 478 BST
-New     80 HP / 65 Atk / 80 Def / 110 SAtk / 55 SDef / 95 Spd / 485 BST 
+New     80 HP / 65 Atk / 80 Def / 110 SAtk / 55 SDef / 95 Spd / 485 BST
 
 Ability (Complete):
 Old     Big Pecks / Super Luck / Rivalry
@@ -17674,10 +17674,10 @@ Level Up:
 ===================
 Moves:
 Now compatible with TM45, Power-Up Punch.
-Now compatible with TM87, Rock Climb.  
+Now compatible with TM87, Rock Climb.
 
 Evolution:
-Now able to evolve into Gigalith by using a Link Cable. 
+Now able to evolve into Gigalith by using a Link Cable.
 
 Level Up:
 1 - Harden
@@ -17737,7 +17737,7 @@ Level Up:
 ===================
 Base Stats (Complete):
 Old    65 HP / 45 Atk / 43 Def / 55 SAtk / 43 SDef / 72 Spd / 323 BST
-New    65 HP / 45 Atk / 43 Def / 65 SAtk / 43 SDef / 72 Spd / 333 BST  
+New    65 HP / 45 Atk / 43 Def / 65 SAtk / 43 SDef / 72 Spd / 333 BST
 
 Ability (Complete / Classic):
 Old     Unaware / Klutz / Simple
@@ -17767,7 +17767,7 @@ Level Up:
 48 - Stored Power
 52 - Air Slash
 56 - Tailwind
-60 - Nasty Plot 
+60 - Nasty Plot
 
 ===================
 528 - Swoobat
@@ -17778,10 +17778,10 @@ New     70 HP / 57 Atk / 63 Def / 86 SAtk / 75 SDef / 114 Spd / 465 BST
 
 Ability (Complete / Classic):
 Old     Unaware / Klutz / Simple
-New     Unaware / Simple / Simple 
+New     Unaware / Simple / Simple
 
 Moves:
-Now compatible with TM48, Mystical Fire.  
+Now compatible with TM48, Mystical Fire.
 Now compatible with TM58, Hurricane.
 
 Level Up:
@@ -17807,7 +17807,7 @@ Level Up:
 50 - Stored Power
 54 - Air Slash
 58 - Tailwind
-62 - Nasty Plot 
+62 - Nasty Plot
 66 - Esper Wing
 
 ===================
@@ -17815,7 +17815,7 @@ Level Up:
 ===================
 Ability (Complete / Classic):
 Old     Sand Rush / Sand Force / Mold Breaker
-New     Sand Rush / Mold Breaker / Sand Force 
+New     Sand Rush / Mold Breaker / Sand Force
 
 Level Up:
 1 - Mud-Slap
@@ -17842,7 +17842,7 @@ Level Up:
 ===================
 Ability (Complete / Classic):
 Old     Sand Rush / Sand Force / Mold Breaker
-New     Sand Rush / Mold Breaker / Sand Force 
+New     Sand Rush / Mold Breaker / Sand Force
 
 Level Up:
 1 - Mud-Slap
@@ -18013,7 +18013,7 @@ Level Up:
 ===================
 Ability (Complete / Classic):
 Old     Swift Swim / Hydration / Water Absorb
-New     Water Absorb / Hydration / Swift Swim 
+New     Water Absorb / Hydration / Swift Swim
 
 Level Up:
 1 - Mud-Slap
@@ -18041,7 +18041,7 @@ Level Up:
 ===================
 Ability (Complete / Classic):
 Old     Swift Swim / Hydration / Water Absorb
-New     Water Absorb / Hydration / Swift Swim 
+New     Water Absorb / Hydration / Swift Swim
 
 Level Up:
 1 - Mud-Slap
@@ -18069,7 +18069,7 @@ Level Up:
 ===================
 Ability (Complete / Classic):
 Old     Swift Swim / Poison Touch / Water Absorb
-New     Water Absorb / Poison Touch / Swift Swim 
+New     Water Absorb / Poison Touch / Swift Swim
 
 Level Up:
 1 - Mud-Slap
@@ -18131,7 +18131,7 @@ Now compatible with TM60, Quash.
 ===================
 Ability (Complete / Classic):
 Old     Sturdy / Inner Focus / Mold Breaker
-New     Sturdy / Mold Breaker / Mold Breaker 
+New     Sturdy / Mold Breaker / Mold Breaker
 
 1 - Dual Chop
 1 - Bide
@@ -18276,7 +18276,7 @@ New     Speed Boost / Poison Point / Swarm
 
 Ability (Classic):
 Old     Poison Point / Swarm / Quick Feet
-New     Quick Feet / Poison Point / Swarm  
+New     Quick Feet / Poison Point / Swarm
 
 Moves:
 Now compatible with TM76, Bug Buzz.
@@ -18428,7 +18428,7 @@ Level Up:
 35 - Extrasensory
 40 - Helping Hand
 50 - Quiver Dance
-55 - Fiery Dance 
+55 - Fiery Dance
 
 ===================
 550 - Basculin
@@ -18610,7 +18610,7 @@ Level Up:
 ===================
 Base Stats (Complete):
 Old     75 HP / 86 Atk / 67 Def / 106 SAtk / 67 SDef / 60 Spd / 461 BST
-New     75 HP / 106 Atk / 72 Def / 86 SAtk / 81 SDef / 60 Spd / 480 BST 
+New     75 HP / 106 Atk / 72 Def / 86 SAtk / 81 SDef / 60 Spd / 480 BST
 
 Ability (Complete / Classic):
 Old     Water Absorb / Chlorophyll / Storm Drain
@@ -18635,7 +18635,7 @@ Level Up:
 30 - Seed Bomb
 33 - Synthesis
 36 - Cotton Spore
-39 - Scald     
+39 - Scald
 42 - Needle Arm
 45 - Drain Punch
 48 - Petal Dance
@@ -18736,7 +18736,7 @@ Level Up:
 ===================
 Ability (Complete / Classic):
 Old     Shed Skin / Moxie / Intimidate
-New     Intimidate / Moxie / Shed Skin    
+New     Intimidate / Moxie / Shed Skin
 
 Level Up:
 1 - Headbutt
@@ -18923,7 +18923,7 @@ Level Up:
 37 - Rapid Spin
 41 - Body Slam
 45 - Wide Guard
-49 - Hydro Pump	
+49 - Hydro Pump
 53 - Shell Smash
 58 - Wave Crash
 
@@ -18937,11 +18937,11 @@ Level Up:
 1 - Leer
 1 - Quick Attack
 3 - Bite
-6 - Wing Attack	
+6 - Wing Attack
 9 - Dragon Breath
 12 - Ancient Power
 15 - Rock Throw
-18 - Quick Guard	
+18 - Quick Guard
 21 - Rock Tomb
 24 - Pluck
 27 - Scary Face
@@ -18964,11 +18964,11 @@ Level Up:
 1 - Leer
 1 - Quick Attack
 3 - Bite
-6 - Wing Attack	
+6 - Wing Attack
 9 - Dragon Breath
 12 - Ancient Power
 15 - Rock Throw
-18 - Quick Guard	
+18 - Quick Guard
 21 - Rock Tomb
 24 - Pluck
 27 - Scary Face
@@ -19148,7 +19148,7 @@ Level Up:
 ===================
 Base Stats (Complete):
 Old     75 HP / 95 Atk / 60 Def / 65 SAtk / 60 SDef / 115 Spd / 470 BST
-New     80 HP / 100 Atk / 60 Def / 65 SAtk / 60 SDef / 115 Spd / 480 BST 
+New     80 HP / 100 Atk / 60 Def / 65 SAtk / 60 SDef / 115 Spd / 480 BST
 
 Ability (Complete / Classic):
 Old     Cute Charm / Technician / Skill Link
@@ -19557,7 +19557,7 @@ Level Up:
 1 - Tackle
 4 - Growl
 7 - Sand Attack
-10 - Double Kick	
+10 - Double Kick
 13 - Leech Seed
 16 - Faint Attack
 20 - Take Down
@@ -19592,7 +19592,7 @@ Level Up:
 1 - Tackle
 4 - Growl
 7 - Sand Attack
-10 - Double Kick	
+10 - Double Kick
 13 - Leech Seed
 16 - Faint Attack
 20 - Take Down
@@ -19616,11 +19616,11 @@ Level Up:
 ===================
 Base Stats (Complete):
 Old     55 HP / 75 Atk / 60 Def / 75 SAtk / 60 SDef / 103 Spd / 428 BST
-New     60 HP / 75 Atk / 60 Def / 90 SAtk / 60 SDef / 105 Spd / 450 BST 
+New     60 HP / 75 Atk / 60 Def / 90 SAtk / 60 SDef / 105 Spd / 450 BST
 
 Ability (Complete / Classic):
-Old     Static / Static / Motor Drive 
-New     Static / Motor Drive / Motor Drive 
+Old     Static / Static / Motor Drive
+New     Static / Motor Drive / Motor Drive
 
 Moves:
 Now compatible with TM60, Quash.
@@ -19654,7 +19654,7 @@ Level Up:
 588 - Karrablast
 ===================
 Ability (Complete / Classic):
-Old     Swarm / Shed Skin / No Guard 
+Old     Swarm / Shed Skin / No Guard
 New     Swarm / No Guard / Shed Skin
 
 Evolution:
@@ -19724,7 +19724,7 @@ Level Up:
 ===================
 Ability (Complete / Classic):
 Old     Effect Spore / Effect Spore / Regenerator
-New     Effect Spore / Regenerator / Regenerator 
+New     Effect Spore / Regenerator / Regenerator
 
 Level Up:
 1 - Absorb
@@ -19754,7 +19754,7 @@ Level Up:
 ===================
 Ability (Complete / Classic):
 Old     Effect Spore / Effect Spore / Regenerator
-New     Effect Spore / Regenerator / Regenerator 
+New     Effect Spore / Regenerator / Regenerator
 
 Level Up:
 1 - Absorb
@@ -19834,11 +19834,11 @@ Level Up:
 ===================
 Ability (Complete / Classic):
 Old     Healer / Hydration / Regenerator
-New     Regenerator / Hydration / Regenerator 
+New     Regenerator / Hydration / Regenerator
 
 Level Up:
 1 - Mirror Coat
-1 - Pound	
+1 - Pound
 1 - Pain Split
 1 - Wide Guard
 5 - Aqua Ring
@@ -19992,7 +19992,7 @@ Level Up:
 ===================
 Ability (Complete):
 Old     Plus / Minus / Clear Body
-New     Levitate / - / - 
+New     Levitate / - / -
 
 Evolution:
 Now evolves into Klang at Level 30.
@@ -20058,7 +20058,7 @@ Now compatible with TM20, Tri Attack.
 Now compatible with TM66, Power Gem.
 
 Level Up:
-1 - Superpower     
+1 - Superpower
 1 - Gear Grind
 1 - Thunder Shock
 4 - Bind
@@ -20141,7 +20141,7 @@ Level Up:
 ===================
 Ability (Complete / Classic):
 Old     Telepathy / Synchronise / Analytic
-New     Analytic / Synchronise / Analytic  
+New     Analytic / Synchronise / Analytic
 
 Moves:
 Now compatible with TM20, Tri Attack.
@@ -20164,7 +20164,7 @@ Level Up:
 14 - Disable
 17 - Trick Room
 21 - Psybeam
-24 - Pain Split	
+24 - Pain Split
 27 - Mystical Fire
 30 - Uproar
 33 - Wonder Room
@@ -20185,7 +20185,7 @@ Level Up:
 ===================
 Ability (Complete / Classic):
 Old     Telepathy / Synchronise / Analytic
-New     Analytic / Synchronise / Analytic  
+New     Analytic / Synchronise / Analytic
 
 Moves:
 Now compatible with TM20, Tri Attack.
@@ -20205,7 +20205,7 @@ Level Up:
 14 - Disable
 17 - Trick Room
 21 - Psybeam
-24 - Pain Split	
+24 - Pain Split
 27 - Mystical Fire
 30 - Uproar
 33 - Wonder Room
@@ -20357,7 +20357,7 @@ Now compatible with TM87, Rock Climb.
 
 Level Up:
 1 - Bite
-1 - False Swipe	
+1 - False Swipe
 1 - Leer
 1 - Scratch
 9 - Assurance
@@ -20374,7 +20374,7 @@ Level Up:
 38 - Breaking Swipe
 42 - Swords Dance
 46 - Superpower
-48 - Outrage	
+48 - Outrage
 52 - Guillotine
 56 - Giga Impact
 
@@ -20388,7 +20388,7 @@ Now compatible with TM87, Rock Climb.
 Level Up:
 1 - Iron Tail
 1 - Raging Fury
-1 - Scratch	
+1 - Scratch
 9 - Assurance
 12 - Taunt
 15 - Reversal
@@ -20407,7 +20407,7 @@ Level Up:
 52 - Guillotine
 56 - Cross Poison
 60 - Psycho Cut
-64 - Close Combat 
+64 - Close Combat
 66 - Endeavor
 70 - Giga Impact
 
@@ -20420,7 +20420,7 @@ New     Snow Cloak / Rattled / Rattled
 
 Level Up:
 1 - Growl
-1 - Powder Snow	
+1 - Powder Snow
 6 - Fury Swipes
 9 - Rock Smash
 11 - Flail
@@ -20460,12 +20460,12 @@ Now compatible with HM05, Waterfall.
 
 Type (Complete):
 Old     Ice
-New     Ice / Fighting     
+New     Ice / Fighting
 
 Level Up:
 1 - Focus Punch
 1 - Ice Shard
-1 - Powder Snow	
+1 - Powder Snow
 6 - Fury Swipes
 9 - Rock Smash
 11 - Flail
@@ -20495,7 +20495,7 @@ Level Up:
 1 - Triple Axel
 1 - Ice Shard
 4 - Confuse Ray
-8 - Rapid Spin	
+8 - Rapid Spin
 15 - Icy Wind
 20 - Haze
 20 - Mist
@@ -20555,7 +20555,7 @@ Moves:
 Now compatible with TM62, Acrobatics.
 
 Level Up:
-1 - Extreme Speed  
+1 - Extreme Speed
 1 - Wide Guard
 1 - Absorb
 1 - Protect
@@ -20611,7 +20611,7 @@ Level Up:
 48 - Thunderbolt
 52 - Curse
 56 - Flail
-60 - Earthquake	
+60 - Earthquake
 64 - Thunder
 68 - Fissure
 
@@ -20703,14 +20703,14 @@ Level Up:
 24 - Dual Wingbeat
 28 - Slash
 28 - Night Slash
-32 - Breaking Swipe	
+32 - Breaking Swipe
 36 - Crush Claw
 40 - Glare
 44 - Crunch
 48 - Iron Head
 52 - Sucker Punch
 56 - Poison Tail
-56 - Aqua Tail	
+56 - Aqua Tail
 60 - Dragon Rush
 
 ===================
@@ -20752,7 +20752,7 @@ Level Up:
 ===================
 Base Stats (Complete):
 Old     89 HP / 124 Atk / 80 Def / 55 SAtk / 80 SDef / 55 Spd / 483 BST
-New     115 HP / 125 Atk / 85 Def / 55 SAtk / 85 SDef / 55 Spd / 520 BST 
+New     115 HP / 125 Atk / 85 Def / 55 SAtk / 85 SDef / 55 Spd / 520 BST
 
 Ability (Complete / Classic):
 Old     Iron Fist / Klutz / No Guard
@@ -20786,7 +20786,7 @@ Level Up:
 60 - Zen Headbutt
 64 - Dynamic Punch
 68 - Close Combat
-72 - Shadow Force     
+72 - Shadow Force
 
 ===================
 624 - Pawniard
@@ -20804,7 +20804,7 @@ Level Up:
 19 - Snarl
 22 - Torment
 26 - Assurance
-30 - Beat Up	
+30 - Beat Up
 34 - Mean Look
 38 - Revenge
 40 - Iron Head
@@ -20833,7 +20833,7 @@ Level Up:
 19 - Snarl
 22 - Torment
 26 - Assurance
-30 - Beat Up	
+30 - Beat Up
 34 - Mean Look
 38 - Revenge
 40 - Iron Head
@@ -20854,16 +20854,16 @@ Level Up:
 1 - Smart Strike
 1 - Pursuit
 1 - Leer
-1 - Tackle	
+1 - Tackle
 5 - Focus Energy
 10 - Fury Attack
-15 - Revenge	
+15 - Revenge
 20 - Scary Face
 25 - Horn Attack
 30 - Reversal
 34 - Endeavor
 38 - Body Slam
-40 - Flame Charge     	
+40 - Flame Charge
 44 - Head Charge
 48 - Close Combat
 52 - Megahorn
@@ -20896,7 +20896,7 @@ Level Up:
 30 - Bulk Up
 33 - Air Slash
 36 - Slash
-36 - Night Slash     
+36 - Night Slash
 39 - Agility
 40 - Crush Claw
 42 - Superpower
@@ -20905,7 +20905,7 @@ Level Up:
 52 - Steel Wing
 55 - Brave Bird
 58 - Zen Headbutt
-62 - Defog	
+62 - Defog
 65 - Close Combat
 
 ===================
@@ -20931,7 +20931,7 @@ Level Up:
 30 - Bulk Up
 33 - Air Slash
 36 - Slash
-36 - Night Slash     
+36 - Night Slash
 39 - Agility
 40 - Crush Claw
 44 - Superpower
@@ -20940,7 +20940,7 @@ Level Up:
 55 - Steel Wing
 58 - Brave Bird
 62 - Zen Headbutt
-66 - Defog	
+66 - Defog
 70 - Close Combat
 
 ===================
@@ -20977,7 +20977,7 @@ Level Up:
 52 - Foul Play
 55 - Brave Bird
 58 - Zen Headbutt
-62 - Defog	
+62 - Defog
 65 - Superpower
 
 ===================
@@ -21013,7 +21013,7 @@ Level Up:
 55 - Foul Play
 58 - Brave Bird
 62 - Zen Headbutt
-66 - Defog	
+66 - Defog
 70 - Superpower
 
 ===================
@@ -21031,9 +21031,9 @@ Now compatible with TM87, Rock Climb.
 Level Up:
 1 - Raging Fury
 1 - Lick
-1 - Tackle	
-5 - Fury Swipes	
-11 - Incinerate	
+1 - Tackle
+5 - Fury Swipes
+11 - Incinerate
 14 - Bug Bite
 17 - Tickle
 20 - Stockpile
@@ -21105,7 +21105,7 @@ Level Up:
 17 - Assurance
 21 - Headbutt
 25 - Work Up
-28 - Zen Headbutt	
+28 - Zen Headbutt
 31 - Crunch
 34 - Body Slam
 37 - Scary Face
@@ -21123,7 +21123,7 @@ Evolution:
 Now evolves into Hydreigon at Level 58.
 
 Level Up:
-1 - Bite 
+1 - Bite
 1 - Dragon Breath
 1 - Focus Energy
 1 - Tackle
@@ -21186,7 +21186,7 @@ Level Up:
 1 - Absorb
 6 - Flame Charge
 12 - Struggle Bug
-16 - Sunny Day	
+16 - Sunny Day
 20 - Bug Bite
 24 - Screech
 28 - String Shot
@@ -21239,9 +21239,9 @@ Now compatible with TM87, Rock Climb.
 Level Up:
 1 - Helping Hand
 1 - Leer
-1 - Quick Attack	
+1 - Quick Attack
 1 - Scary Face
-10 - Metal Claw	
+10 - Metal Claw
 14 - Quick Guard
 18 - Double Kick
 22 - Iron Defense
@@ -21328,10 +21328,10 @@ Level Up:
 1 - Astonish
 1 - Gust
 5 - Leer
-10 - Swagger	
+10 - Swagger
 15 - Bite
 20 - Air Cutter
-23 - Agility	
+23 - Agility
 26 - Tailwind
 29 - Air Slash
 32 - Crunch
@@ -21404,7 +21404,7 @@ Level Up:
 12 - Tailwind
 16 - Crunch
 22 - Zen Headbutt
-26 - Dragon Claw	
+26 - Dragon Claw
 30 - Thunderbolt
 34 - Thunder
 38 - Hyper Voice
@@ -21453,7 +21453,7 @@ Level Up:
 14 - Endeavor
 19 - Ice Beam
 24 - Dragon Pulse
-29 - Icicle Crash     
+29 - Icicle Crash
 32 - Hyper Voice
 35 - Scary Face
 38 - Blizzard
@@ -21465,8 +21465,8 @@ Level Up:
 Black Kyurem:
 70 - Dragon Dance
 70 - Fusion Bolt
-70 - Icicle Crash     
-70 - Freeze Shock 
+70 - Icicle Crash
+70 - Freeze Shock
 
 White Kyurem:
 70 - Esper Wing

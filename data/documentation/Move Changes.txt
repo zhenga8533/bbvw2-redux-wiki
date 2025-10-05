@@ -73,8 +73,8 @@ Rock Climb
 =========================================================
 Redux Move Modifications
 =========================================================
-As of late, the Pokémon series has become decently fragmented across different titles when it comes to moves. 
- - With Legends: Arceus came a further fragmentation of move effects across the Pokémon series. 
+As of late, the Pokémon series has become decently fragmented across different titles when it comes to moves.
+ - With Legends: Arceus came a further fragmentation of move effects across the Pokémon series.
  - As of writing, it's hard to know what will carry over to the 'mainline' series (think Stealth Rock changes etc).
  - This makes updating moves to current standards fairly tricky, so we've gone with a 'selective' approach - e.g. just take the bits we like!
 
@@ -114,7 +114,7 @@ Arm Thrust
 Assurance
  - Power 50 -> 60
 
-Astonish 
+Astonish
  - Power 30 -> 35 [!]
 
 Aura Sphere
@@ -174,8 +174,8 @@ Crunch
 Cut
  - None -> High Critical Ratio [!]
  - Type Normal -> Grass [!]
- 
-Draco Meteor 
+
+Draco Meteor
  - Power 140 -> 130
 
 Dark Pulse
@@ -227,7 +227,7 @@ Fire Blast
 Fire Pledge
  - Power 50 -> 75 [!]
 
-Fire Punch 
+Fire Punch
  - PP 15 -> 10 [L:A]
 
 Flame Charge
@@ -251,7 +251,7 @@ Focus Energy
  - PP 30 -> 20 [L:A]
 
 Follow Me
- - Priority +3 -> +2 
+ - Priority +3 -> +2
 
 Frost Breath
  - Power 60 -> 50** [!]
@@ -399,7 +399,7 @@ Pin Missile
  - Power 14 -> 25
  - Accuracy 85 -> 95
 
-Poison Fang 
+Poison Fang
  - Power 50 -> 65 [!]
  - Accuracy 100 -> 95 [!]
  - B.Poison 30% -> 50% [!]
@@ -408,7 +408,7 @@ Poison Gas
  - PP 40 -> 20 [L:A]
  - Accuracy 80 -> 100 [!]
 
-Poison Jab 
+Poison Jab
  - PP 20 -> 10 [L:A]
 
 Poison Powder
@@ -471,7 +471,7 @@ Rollout
 Sacred Sword
  - PP 20 -> 15
 
-Scald 
+Scald
  - PP 15 -> 10 [!]
  - 30% Burn -> 10% Burn [!]
 
@@ -630,7 +630,7 @@ Zen Headbutt
 Further Modifications
  - All Sound Moves now hit through a defenders Substitute, like in Gen VI+.
 
-*Not currently implemented/cannot be properly implemented due limitations with the Gen V engine/toolset. 
+*Not currently implemented/cannot be properly implemented due limitations with the Gen V engine/toolset.
 **Accounting for the x2 damage of critical hits in Gen V, as opposed to the x1.5 damage of Gen VI+.
 ***Born of current Gen V Limitations, uses Triple Kick mechanics, with a higher initial base power. This should work out to roughly the same amount of damage.
 

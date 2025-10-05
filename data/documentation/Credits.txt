@@ -11,7 +11,7 @@ Pokémon Blaze Black 2 and Volt White 2 Redux have been developed primarily by m
  - About a year into development, I showed Redux to Drayano. The rest as they say is history, we decided on a name and over the next year began a formal collaboration on Redux.
  - I have attempted to credit everyone who helped out in this document. If you feel you should be added, get in touch with me and I'll sort something out :).
  - To help anyone looking for somewhere to start in making their own projects, I have included an approximate list of tools used in the development of Redux.
- 
+
 
 
 =========================================================
@@ -41,7 +41,7 @@ The list on contributions Dray has made to the project is vast and I am massivel
     - Hosting the project files.
     - Various aspects of promotion.
     - Game balance.
- 
+
 I'm incredibly grateful for everything Dray has done and his help with Redux.
  - He's an all-around great guy and lovely to work with <3.
 
@@ -53,7 +53,7 @@ Without Kurt's old ProjectPokémon guides, resources and documentation, I wouldn
  - His old written tutorials on Pokecommunity single-handedly got me into scripting and Hex Editing.
  - I couldn't have got Redux off the ground without his old documents.
 
- 
+
 
 ~~~~~ Phunsukh Wangdu (PlatinumMaster) ~~~~~
 
@@ -115,7 +115,7 @@ Below is a list of the major playtesters:
  - Fire
     - Provided important info on Trainer A.I.
  - Poke
-    - Played through the game under hardcore conditions and broke it wide open - extremely valuable! 
+    - Played through the game under hardcore conditions and broke it wide open - extremely valuable!
  - J.P.
     - Like Poke, played through the game under hardcore conditions.
  - Ivy
@@ -156,15 +156,15 @@ Making a Map and getting it into the game is an involved process, but thanks to 
     - Being lovely to talk to!
  - Hello007
     - Help with various parts of insertion into the game and technical debugging.
- 
- 
+
+
 =========================================================
 ~~~~~~~~~~~~~~~~~~~~ Tools Used ~~~~~~~~~~~~~~~~~~~~~~~~~
 =========================================================
 
 Redux comes at an extremely exciting time for Gen V rom hack development. Many powerful new tools have become available/are in the works - the future of the hacking scene is bright.
  - However, I started Redux before the majority of these tools had been created/were fully functional. Thus, this section is split in two - old and new tools. Everything mentioned was used at some point or another.
- 
+
 
 =========================================================
 'New' Tools
@@ -172,7 +172,7 @@ Redux comes at an extremely exciting time for Gen V rom hack development. Many p
 
 These are more modern and up-to-date tools for Gen V hacking. If you're starting out, use these!
  - These tools would have been more heavily used, had I known about them/had they existed when I started Redux.
- 
+
 
 ~~~~~ SAK (Swiss Army Knife) ~~~~~
 
@@ -186,8 +186,8 @@ An all around, multi-purpose Gen V hacking tool, created by PlatinumMaster. It c
 
 A tool which can edit various aspects of the overworld, with a handy visual interface! It's also got a powerful script editor built in.
  - The best bit is the graphical interface, you can 'see' the game as you edit it!
- 
- 
+
+
 =========================================================
 'Other' Tools
 =========================================================
@@ -205,7 +205,7 @@ I'll start by cheating a little, HxD64 is a hex editor, not traditional tool as 
 
 A tool modified by Kaphotics and now made obsolete by SAK and CTRMap. It parses scripts from the game into a more readable format.
  - Without it, I likely wouldn't have been able to get into scripting.
- 
+
 
 ~~~~~ PPNFR ~~~~~
 
@@ -256,7 +256,7 @@ Used to modify Pokémon learnsets and hidden grottos.
 
 ~~~~~ Pokémon Rom Changer (PRC) ~~~~~
 
-Used to edit Pokémon base stats, abilities, types etc. 
+Used to edit Pokémon base stats, abilities, types etc.
  - Works on absolute offsets, so using it can be a little tricky.
  - Can also modify moves, useful to get around OxAttack limitations.
 
