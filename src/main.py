@@ -26,14 +26,68 @@ def run_parsers(parser_names: list[str]):
     """
     # Import parsers here to avoid circular imports
     from .parsers.evolution_changes_parser import EvolutionChangesParser
+    from .parsers.gift_pokemon_parser import GiftPokemonParser
+    from .parsers.item_changes_parser import ItemChangesParser
+    from .parsers.legendary_locations_parser import LegendaryLocationsParser
+    from .parsers.move_changes_parser import MoveChangesParser
+    from .parsers.pokemon_changes_parser import PokemonChangesParser
+    from .parsers.trade_changes_parser import TradeChangesParser
+    from .parsers.trainer_changes_parser import TrainerChangesParser
+    from .parsers.type_changes_parser import TypeChangesParser
+    from .parsers.wild_area_changes_parser import WildAreaChangesParser
 
     # Registry of available parsers
-    # Format: 'name': (ParserClass, input_file)
+    # Format: 'name': (ParserClass, input_file, output_dir)
     parser_registry = {
         "evolution_changes": (
             EvolutionChangesParser,
             "Evolution Changes.txt",
             "docs/changes",
+        ),
+        "gift_pokemon": (
+            GiftPokemonParser,
+            "Gift Pokemon.txt",
+            "docs",
+        ),
+        "item_changes": (
+            ItemChangesParser,
+            "Item Changes.txt",
+            "docs/changes",
+        ),
+        "legendary_locations": (
+            LegendaryLocationsParser,
+            "Legendary Locations.txt",
+            "docs",
+        ),
+        "move_changes": (
+            MoveChangesParser,
+            "Move Changes.txt",
+            "docs/changes",
+        ),
+        "pokemon_changes": (
+            PokemonChangesParser,
+            "Pokemon Changes.txt",
+            "docs/changes",
+        ),
+        "trade_changes": (
+            TradeChangesParser,
+            "Trade Changes.txt",
+            "docs/changes",
+        ),
+        "trainer_changes": (
+            TrainerChangesParser,
+            "Trainer Changes.txt",
+            "docs/changes",
+        ),
+        "type_changes": (
+            TypeChangesParser,
+            "Type Changes.txt",
+            "docs/changes",
+        ),
+        "wild_area_changes": (
+            WildAreaChangesParser,
+            "Wild Area Changes.txt",
+            "docs",
         ),
     }
 
@@ -110,7 +164,31 @@ Examples:
 
     # List parsers if requested
     if args.list_parsers:
-        parser_registry = {}
+        # Import parsers here to get the registry
+        from .parsers.evolution_changes_parser import EvolutionChangesParser
+        from .parsers.gift_pokemon_parser import GiftPokemonParser
+        from .parsers.item_changes_parser import ItemChangesParser
+        from .parsers.legendary_locations_parser import LegendaryLocationsParser
+        from .parsers.move_changes_parser import MoveChangesParser
+        from .parsers.pokemon_changes_parser import PokemonChangesParser
+        from .parsers.trade_changes_parser import TradeChangesParser
+        from .parsers.trainer_changes_parser import TrainerChangesParser
+        from .parsers.type_changes_parser import TypeChangesParser
+        from .parsers.wild_area_changes_parser import WildAreaChangesParser
+
+        parser_registry = {
+            "evolution_changes": (EvolutionChangesParser, "Evolution Changes.txt", "docs/changes"),
+            "gift_pokemon": (GiftPokemonParser, "Gift Pokemon.txt", "docs"),
+            "item_changes": (ItemChangesParser, "Item Changes.txt", "docs/changes"),
+            "legendary_locations": (LegendaryLocationsParser, "Legendary Locations.txt", "docs"),
+            "move_changes": (MoveChangesParser, "Move Changes.txt", "docs/changes"),
+            "pokemon_changes": (PokemonChangesParser, "Pokemon Changes.txt", "docs/changes"),
+            "trade_changes": (TradeChangesParser, "Trade Changes.txt", "docs/changes"),
+            "trainer_changes": (TrainerChangesParser, "Trainer Changes.txt", "docs/changes"),
+            "type_changes": (TypeChangesParser, "Type Changes.txt", "docs/changes"),
+            "wild_area_changes": (WildAreaChangesParser, "Wild Area Changes.txt", "docs"),
+        }
+
         if parser_registry:
             print("Available parsers:")
             for name in parser_registry.keys():

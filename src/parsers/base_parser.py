@@ -69,6 +69,10 @@ class BaseParser(ABC):
         """
         pass
 
+    def read_input_lines(self) -> list[str]:
+        """Read and return the input file as lines."""
+        return self.input_path.read_text(encoding="utf-8").splitlines()
+
     def save_markdown(self, content: str) -> Optional[Path]:
         """
         Save markdown content to the output directory.
