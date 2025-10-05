@@ -6,6 +6,7 @@ from abc import ABC, abstractmethod
 from pathlib import Path
 from typing import Optional
 import logging
+import json
 
 
 class BaseParser(ABC):
@@ -113,8 +114,6 @@ class BaseParser(ABC):
         if not self.parsed_data_dir:
             self.logger.warning("No parsed_data_dir configured, skipping data save")
             return None
-
-        import json
 
         output_path = self.parsed_data_dir / filename
 
