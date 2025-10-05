@@ -4,10 +4,7 @@ Helper utilities for loading PokeDB JSON data into dataclass structures.
 
 import json
 from pathlib import Path
-from typing import Dict, List, Optional, Type, TypeVar
-from .pokedb_structure import Pokemon, Move, Ability, Item
-
-T = TypeVar("T")
+from typing import Dict, Optional
 
 
 class PokeDBLoader:
@@ -35,13 +32,14 @@ class PokeDBLoader:
                 "Run 'python -m src.main --init' to download the data."
             )
 
-    def _load_json(self, category: str, name: str) -> dict:
+    def _load_json(self, category: str, name: str, subfolder: Optional[str] = None) -> dict:
         """
         Load a JSON file from the PokeDB directory.
 
         Args:
             category: The category folder (pokemon, move, ability, item)
             name: The name of the JSON file (without .json extension)
+            subfolder: Optional subfolder within category
 
         Returns:
             dict: Parsed JSON data
@@ -49,7 +47,11 @@ class PokeDBLoader:
         Raises:
             FileNotFoundError: If the file doesn't exist
         """
-        file_path = self.data_dir / category / f"{name}.json"
+        if subfolder:
+            file_path = self.data_dir / category / subfolder / f"{name}.json"
+        else:
+            file_path = self.data_dir / category / f"{name}.json"
+
         if not file_path.exists():
             raise FileNotFoundError(f"File not found: {file_path}")
 
@@ -93,12 +95,7 @@ class PokeDBLoader:
         Returns:
             dict: Pokemon data
         """
-        file_path = self.data_dir / "pokemon" / subfolder / f"{name}.json"
-        if not file_path.exists():
-            raise FileNotFoundError(f"Pokemon not found: {file_path}")
-
-        with open(file_path, "r", encoding="utf-8") as f:
-            return json.load(f)
+        return self._load_json("pokemon", name, subfolder)
 
     def load_all_pokemon(self, subfolder: str = "default") -> Dict[str, dict]:
         """
