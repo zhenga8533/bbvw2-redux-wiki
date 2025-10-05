@@ -126,12 +126,9 @@ class BaseParser(ABC):
         self.logger.info(f"Saved parsed data to {self.change_log_path}")
         return self.change_log_path
 
-    def run(self, save_data: bool = False) -> tuple[Path, Optional[Path]]:
+    def run(self) -> tuple[Path, Optional[Path]]:
         """
         Execute the full parsing pipeline.
-
-        Args:
-            save_data: Whether to save parsed data to data/documentation/parsed/
 
         Returns:
             tuple: (markdown_path, parsed_data_path)

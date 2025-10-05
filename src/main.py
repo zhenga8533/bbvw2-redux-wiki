@@ -17,13 +17,12 @@ def initialize_data():
     initializer.run()
 
 
-def run_parsers(parser_names: list[str], save_data: bool = False):
+def run_parsers(parser_names: list[str]):
     """
     Run specified parsers.
 
     Args:
         parser_names: List of parser names to run (or ['all'] for all parsers)
-        save_data: Whether to save parsed data files
     """
     # Import parsers here to avoid circular imports
     from .parsers.evolution_changes_parser import EvolutionChangesParser
@@ -63,7 +62,7 @@ def run_parsers(parser_names: list[str], save_data: bool = False):
 
         try:
             parser = ParserClass(input_file, output_dir)
-            markdown_path, data_path = parser.run(save_data=save_data)
+            markdown_path, data_path = parser.run()
             logger.info(
                 f"✓ {name} completed:\n  - Markdown: {markdown_path}\n  - Data: {data_path}"
             )
@@ -81,7 +80,6 @@ Examples:
   python -m src.main --init                        # Initialize PokeDB data
   python -m src.main --parsers all                 # Run all parsers
   python -m src.main --parsers npcs items          # Run specific parsers
-  python -m src.main --parsers all --save-data     # Run all parsers and save data files
   python -m src.main --init --parsers all          # Initialize data and run all parsers
         """,
     )
@@ -97,12 +95,6 @@ Examples:
         nargs="+",
         metavar="PARSER",
         help='Parser(s) to run. Use "all" to run all parsers, or specify parser names',
-    )
-
-    parser.add_argument(
-        "--save-data",
-        action="store_true",
-        help="Save parsed data files to data/documentation/parsed/",
     )
 
     parser.add_argument(
@@ -132,7 +124,7 @@ Examples:
         initialize_data()
 
     if args.parsers:
-        run_parsers(args.parsers, save_data=args.save_data)
+        run_parsers(args.parsers)
 
     logger.info("Complete!")
 
