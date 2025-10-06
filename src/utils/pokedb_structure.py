@@ -145,24 +145,24 @@ class Sprites:
 
 @dataclass
 class EvolutionDetails:
-    item: Optional[str]
-    trigger: str
-    gender: Optional[int]
-    held_item: Optional[str]
-    known_move: Optional[str]
-    known_move_type: Optional[str]
-    location: Optional[str]
-    min_level: Optional[int]
-    min_happiness: Optional[int]
-    min_beauty: Optional[int]
-    min_affection: Optional[int]
-    needs_overworld_rain: bool
-    party_species: Optional[str]
-    party_type: Optional[str]
-    relative_physical_stats: Optional[int]
-    time_of_day: str
-    trade_species: Optional[str]
-    turn_upside_down: bool
+    item: Optional[str] = None
+    gender: Optional[int] = None
+    held_item: Optional[str] = None
+    known_move: Optional[str] = None
+    known_move_type: Optional[str] = None
+    location: Optional[str] = None
+    min_level: Optional[int] = None
+    min_happiness: Optional[int] = None
+    min_beauty: Optional[int] = None
+    min_affection: Optional[int] = None
+    party_species: Optional[str] = None
+    party_type: Optional[str] = None
+    relative_physical_stats: Optional[int] = None
+    trade_species: Optional[str] = None
+    trigger: str = ""
+    time_of_day: str = ""
+    needs_overworld_rain: bool = False
+    turn_upside_down: bool = False
 
 
 @dataclass
