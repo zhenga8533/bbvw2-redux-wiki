@@ -8,6 +8,7 @@ from typing import Any, Dict, Optional, Tuple
 from ..utils.logger import setup_logger
 import inspect
 import json
+import re
 
 
 class BaseParser(ABC):
@@ -19,6 +20,9 @@ class BaseParser(ABC):
     - Generate markdown files to docs/ (or subdirectories)
     - Optionally update data files in data/documentation/parsed/
     """
+
+    _markdown = ""
+    _parsed_data: Dict[str, Any] = {}
 
     def __init__(
         self,
@@ -58,7 +62,7 @@ class BaseParser(ABC):
         self.change_log_dir.mkdir(parents=True, exist_ok=True)
 
     @abstractmethod
-    def parse(self) -> Tuple[str, Dict[str, Any]]:
+    def parse(self) -> None:
         """
         Parse the input file and extract data.
 
@@ -70,8 +74,21 @@ class BaseParser(ABC):
         pass
 
     def read_input_lines(self) -> list[str]:
-        """Read and return the input file as lines."""
-        return self.input_path.read_text(encoding="utf-8").splitlines()
+        """Read and return the input file as lines, skipping empty lines and skip patterns."""
+        skip_patterns = [r"^=+$"]
+
+        # Read lines from the input file
+        with self.input_path.open("r", encoding="utf-8") as f:
+            lines = [line.strip() for line in f]
+
+        # Apply skip patterns
+        filtered_lines = [
+            line
+            for line in lines
+            if not any(re.fullmatch(pattern, line) for pattern in skip_patterns)
+        ]
+
+        return filtered_lines
 
     def save_markdown(self, content: str) -> Optional[Path]:
         """
@@ -119,13 +136,13 @@ class BaseParser(ABC):
         self.logger.info(f"Starting parse of {self.input_path}")
 
         # Parse input file
-        markdown_content, parsed_data = self.parse()
+        self.parse()
 
         # Optionally save markdown
-        markdown_path = self.save_markdown(markdown_content)
+        markdown_path = self.save_markdown(self._markdown)
 
         # Optionally save parsed data
-        data_path = self.save_change_log(parsed_data)
+        data_path = self.save_change_log(self._parsed_data)
 
         self.logger.info("Parsing complete")
         return markdown_path, data_path

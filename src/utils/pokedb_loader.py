@@ -201,3 +201,23 @@ class PokeDBLoader:
         if subfolder:
             return self.data_dir / category / subfolder
         return self.data_dir / category
+
+    def save_pokemon(self, name: str, data: dict, subfolder: str = "default") -> Path:
+        """
+        Save Pokemon data to a JSON file.
+
+        Args:
+            name: Pokemon name (e.g., 'pikachu')
+            data: Pokemon data dictionary
+            subfolder: Pokemon subfolder (default, cosmetic, transformation, variant)
+
+        Returns:
+            Path: Path to the saved file
+        """
+        file_path = self.data_dir / "pokemon" / subfolder / f"{name}.json"
+        file_path.parent.mkdir(parents=True, exist_ok=True)
+
+        with open(file_path, "w", encoding="utf-8") as f:
+            json.dump(data, f, indent=2, ensure_ascii=False)
+
+        return file_path

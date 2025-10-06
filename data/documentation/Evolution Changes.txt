@@ -12,6 +12,7 @@ A number of Pokémon have had their evolution methods modified in Redux.
 This is usually either to allow the player to obtain them in a single player setting, make some Pokémon more available, or in some cases to act as a buff or nerf to the Pokémon.
 
 The Link Cable and Ice Stone have also been introduced to the game as evolution items.
+
  - On top of that, most items that are normally used in trade evolutions have been modified to be able to work the same as an evolution stone.
 
 In most cases, the listed evolution method replaces the Pokémon's original method unless explicitly stated otherwise.
@@ -95,7 +96,7 @@ Pokémon              New Method
 453 Croagunk         Now evolves into Toxicroak at Level 33.
 458 Mantyke          Now evolves into Mantine at Level 27 in addition to its normal evolution method.
 525 Boldore          Now evolves into Gigalith via the use of a Link Cable.
-527	Woobat           Now evolves into Swoobat at Level 25.
+527 Woobat           Now evolves into Swoobat at Level 25.
 533 Gurdurr          Now evolves into Conkeldurr via the use of a Link Cable.
 540 Sewaddle         Now evolves into Swadloon at Level 21.
 543 Venipede         Now evolves into Whirlipede at Level 20.
