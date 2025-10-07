@@ -3,8 +3,16 @@ Helper utilities for loading PokeDB JSON data into dataclass structures.
 """
 
 import json
+from dataclasses import asdict
 from pathlib import Path
 from typing import Dict, Optional
+
+from src.utils.pokedb_structure import Pokemon
+from src.utils.pokedb_structure import (
+    EvolutionChain,
+    EvolutionNode,
+    EvolutionDetails,
+)
 
 
 class PokeDBLoader:
@@ -13,6 +21,34 @@ class PokeDBLoader:
 
     Supports loading from both the original gen5 data and the parsed working copy.
     """
+
+    @staticmethod
+    def _dict_to_evolution_node(data: dict) -> EvolutionNode:
+        """Convert a dict to an EvolutionNode dataclass."""
+        evolves_to = [
+            PokeDBLoader._dict_to_evolution_node(node)
+            for node in data.get("evolves_to", [])
+        ]
+        evolution_details = None
+        if data.get("evolution_details") is not None:
+            evolution_details = EvolutionDetails(**data["evolution_details"])
+        return EvolutionNode(
+            species_name=data["species_name"],
+            evolves_to=evolves_to,
+            evolution_details=evolution_details,
+        )
+
+    @staticmethod
+    def _dict_to_evolution_chain(data: dict) -> EvolutionChain:
+        """Convert a dict to an EvolutionChain dataclass."""
+        evolves_to = [
+            PokeDBLoader._dict_to_evolution_node(node)
+            for node in data.get("evolves_to", [])
+        ]
+        return EvolutionChain(
+            species_name=data["species_name"],
+            evolves_to=evolves_to,
+        )
 
     def __init__(self, use_parsed: bool = False):
         """
@@ -32,7 +68,9 @@ class PokeDBLoader:
                 "Run 'python -m src.main --init' to download the data."
             )
 
-    def _load_json(self, category: str, name: str, subfolder: Optional[str] = None) -> dict:
+    def _load_json(
+        self, category: str, name: str, subfolder: Optional[str] = None
+    ) -> dict:
         """
         Load a JSON file from the PokeDB directory.
 
@@ -58,7 +96,9 @@ class PokeDBLoader:
         with open(file_path, "r", encoding="utf-8") as f:
             return json.load(f)
 
-    def _load_all_json(self, category: str, subfolder: Optional[str] = None) -> Dict[str, dict]:
+    def _load_all_json(
+        self, category: str, subfolder: Optional[str] = None
+    ) -> Dict[str, dict]:
         """
         Load all JSON files from a category folder.
 
@@ -84,7 +124,7 @@ class PokeDBLoader:
 
         return results
 
-    def load_pokemon(self, name: str, subfolder: str = "default") -> dict:
+    def load_pokemon(self, name: str, subfolder: str = "default") -> Pokemon:
         """
         Load a Pokemon JSON file.
 
@@ -93,11 +133,17 @@ class PokeDBLoader:
             subfolder: Pokemon subfolder (default, cosmetic, transformation, variant)
 
         Returns:
-            dict: Pokemon data
+            Pokemon: Pokemon data
         """
-        return self._load_json("pokemon", name, subfolder)
+        data = self._load_json("pokemon", name, subfolder)
+        # Convert evolution_chain from dict to proper dataclass
+        if "evolution_chain" in data and isinstance(data["evolution_chain"], dict):
+            data["evolution_chain"] = self._dict_to_evolution_chain(
+                data["evolution_chain"]
+            )
+        return Pokemon(**data)
 
-    def load_all_pokemon(self, subfolder: str = "default") -> Dict[str, dict]:
+    def load_all_pokemon(self, subfolder: str = "default") -> Dict[str, Pokemon]:
         """
         Load all Pokemon from a specific subfolder.
 
@@ -107,7 +153,8 @@ class PokeDBLoader:
         Returns:
             dict: Mapping of pokemon name to data
         """
-        return self._load_all_json("pokemon", subfolder)
+        raw_data = self._load_all_json("pokemon", subfolder)
+        return {name: Pokemon(**data) for name, data in raw_data.items()}
 
     def load_move(self, name: str) -> dict:
         """
@@ -202,13 +249,15 @@ class PokeDBLoader:
             return self.data_dir / category / subfolder
         return self.data_dir / category
 
-    def save_pokemon(self, name: str, data: dict, subfolder: str = "default") -> Path:
+    def save_pokemon(
+        self, name: str, data: Pokemon, subfolder: str = "default"
+    ) -> Path:
         """
         Save Pokemon data to a JSON file.
 
         Args:
             name: Pokemon name (e.g., 'pikachu')
-            data: Pokemon data dictionary
+            data: Pokemon dataclass object
             subfolder: Pokemon subfolder (default, cosmetic, transformation, variant)
 
         Returns:
@@ -218,6 +267,6 @@ class PokeDBLoader:
         file_path.parent.mkdir(parents=True, exist_ok=True)
 
         with open(file_path, "w", encoding="utf-8") as f:
-            json.dump(data, f, indent=2, ensure_ascii=False)
+            json.dump(asdict(data), f, indent=2, ensure_ascii=False)
 
         return file_path

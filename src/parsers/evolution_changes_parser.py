@@ -7,11 +7,19 @@ This parser:
 3. Generates a markdown file to docs/evolution_changes.md
 """
 
+from calendar import c
+import copy
+from dataclasses import asdict
 import re
-from typing import Any, Dict
+from typing import Any, Dict, List
 
 from src.utils.constants import POKEMON_PATTERN
-from src.utils.pokedb_structure import EvolutionDetails
+from src.utils.pokedb_structure import (
+    EvolutionChain,
+    EvolutionDetails,
+    EvolutionNode,
+    Pokemon,
+)
 from src.utils.text_utils import name_to_id
 
 from .base_parser import BaseParser
@@ -97,10 +105,10 @@ class EvolutionChangesParser(BaseParser):
         # Check for gender requirement
         gender = None
         if " if " in method_text and " is female" in method_text:
-            gender = "female"
+            gender = 1
             method_text = re.sub(rf" if {POKEMON_PATTERN} is female", "", method_text)
         elif " if " in method_text and " is male" in method_text:
-            gender = "male"
+            gender = 0
             method_text = re.sub(rf" if {POKEMON_PATTERN} is male", "", method_text)
 
         patterns = {
@@ -111,17 +119,12 @@ class EvolutionChangesParser(BaseParser):
             "party": rf"by leveling up when a {POKEMON_PATTERN} is in the party",
         }
 
-        evolution_data = {
-            "species": evolution.lower().replace(" ", "-"),
-            "trigger": None,
-            "level": None,
-            "item": None,
-            "move": None,
-            "party_species": None,
-            "happiness": None,
-            "gender": gender,
-            "keep_existing": keep_existing,
-        }
+        # Load the Pokemon data
+        pokemon_id = name_to_id(self._current_pokemon)
+        evolution_id = name_to_id(evolution)
+        pokemon_data: Pokemon = self.loader.load_pokemon(pokemon_id)
+        evolution_chain: EvolutionChain = pokemon_data.evolution_chain
+        evolution_details: EvolutionDetails = EvolutionDetails()
 
         matched = False
         for method_type, pattern in patterns.items():
@@ -129,142 +132,126 @@ class EvolutionChangesParser(BaseParser):
                 matched = True
 
                 if method_type == "level":
-                    evolution_data["trigger"] = "level-up"
-                    evolution_data["level"] = int(match.group(1))
+                    evolution_details.trigger = "level-up"
+                    evolution_details.min_level = int(match.group(1))
                 elif method_type == "item":
-                    evolution_data["trigger"] = "use-item"
-                    evolution_data["item"] = match.group(1).lower().replace(" ", "-")
+                    evolution_details.trigger = "use-item"
+                    evolution_details.item = match.group(1).lower().replace(" ", "-")
                 elif method_type == "friendship":
-                    evolution_data["trigger"] = "level-up"
-                    evolution_data["happiness"] = int(match.group(1))
+                    evolution_details.trigger = "level-up"
+                    evolution_details.min_happiness = int(match.group(1))
                 elif method_type == "move":
-                    evolution_data["trigger"] = "level-up"
-                    evolution_data["move"] = match.group(1).lower().replace(" ", "-")
-                elif method_type == "party":
-                    evolution_data["trigger"] = "level-up"
-                    evolution_data["party_species"] = (
+                    evolution_details.trigger = "level-up"
+                    evolution_details.known_move = (
                         match.group(1).lower().replace(" ", "-")
                     )
-                break
+                elif method_type == "party":
+                    evolution_details.trigger = "level-up"
+                    evolution_details.party_species = (
+                        match.group(1).lower().replace(" ", "-")
+                    )
+
+                if gender:
+                    evolution_details.gender = gender
+
+                self._update_evolution_data(
+                    pokemon_id,
+                    evolution_id,
+                    keep_existing,
+                    evolution_chain,
+                    evolution_details,
+                )
+
         if not matched:
             self.logger.warning(
-                f"Could not parse evolution method for {self._current_pokemon}: {method_text}"
+                f"Unrecognized evolution method for {self._current_pokemon}: {method_text}"
             )
-            return
+        else:
+            self._save_evolution_data(
+                pokemon_id, evolution_chain, evolution_chain.evolves_to
+            )
 
-        # Update Pokemon data
-        self._update_pokemon_evolution(evolution_data)
-
-    def _update_pokemon_evolution(self, evolution_data: Dict[str, Any]) -> None:
+    def _update_evolution_data(
+        self,
+        pokemon_id: str,
+        evolution_id: str,
+        keep_existing: bool,
+        evolution_node: EvolutionChain | EvolutionNode,
+        evolution_details: EvolutionDetails,
+    ) -> None:
         """Update the Pokemon JSON file with new evolution data in evolution_chain."""
-        try:
-            # Load the Pokemon data
-            pokemon_filename = name_to_id(self._current_pokemon)
-            pokemon_data = self.loader.load_pokemon(pokemon_filename)
 
-            # Get the evolution data
-            evolution_species = evolution_data["species"]
-            evolution_chain = pokemon_data.get("evolution_chain", {})
-            evolves_to = evolution_chain.get("evolves_to", [])
+        species_name = evolution_node.species_name
+        evolves_to = evolution_node.evolves_to
+        species_match = species_name == evolution_id
 
-            # Clear existing evolutions if not keeping existing
-            keep_existing = evolution_data.pop("keep_existing", False)
-            if not keep_existing and self._current_pokemon not in self._evolution_cache:
-                self._evolution_cache[self._current_pokemon] = evolution_chain
-                self._clear_evolutions(evolves_to, evolution_species)
+        # Clean out evolution methods (keeps one backup)
+        if (
+            species_match
+            and not keep_existing
+            and pokemon_id not in self._evolution_cache
+        ):
+            found = False
+            for i in range(len(evolves_to)):
+                evo = evolves_to[i]
+                if evo.species_name != evolution_id:
+                    continue
 
-            # Find the evolution entry for this target species
-            self._update_evolutions(evolves_to, evolution_data)
+                # Remove all but one existing evolution method
+                if found:
+                    evolves_to.pop(i)
+                else:
+                    evo.evolution_details = None
+                    found = True
 
-            # Save the updated Pokemon data
-            files_updated = self._save_evolutions(pokemon_data)
+        for evo in evolves_to:
+            # Recurse if not the target species
+            if not species_match:
+                self._update_evolution_data(
+                    pokemon_id,
+                    evolution_id,
+                    keep_existing,
+                    evo,
+                    evolution_details,
+                )
+                continue
 
-            # Track in parsed data
-            self._parsed_data["evolution_changes"].append(
-                {
-                    "dex_number": self._current_dex_num,
-                    "pokemon": self._current_pokemon,
-                    "evolution_data": evolution_data,
-                    "files_updated": files_updated,
-                }
-            )
+            # Skip if not the target evolution
+            if evo.species_name != evolution_id:
+                continue
 
-        except FileNotFoundError as e:
-            self.logger.warning(
-                f"Could not find Pokemon file for {self._current_pokemon}: {e}"
-            )
-        except Exception as e:
-            self.logger.error(
-                f"Error updating evolution for {self._current_pokemon}: {e}",
-                exc_info=True,
-            )
+            # Update the evolution details
+            if evo.evolution_details is None:
+                evo.evolution_details = evolution_details
+            else:
+                node_copy = copy.deepcopy(evo)
+                node_copy.evolution_details = evolution_details
+                evolves_to.append(node_copy)
+            break
 
-    def _clear_evolutions(
-        self, evolves_to: list[Dict[str, Any]], evolution_species: str
+    def _save_evolution_data(
+        self,
+        pokemon_id: str,
+        evolution_chain: EvolutionChain,
+        evolves_to: List[EvolutionNode],
     ) -> None:
-        """Recursively clear evolution entries for the given species."""
-        for i in range(len(evolves_to)):
-            evolution = evolves_to[i]
-            next_evolution = evolution.get("evolves_to", [])
-
-            # If this evolution matches the target species, clear its evolution_details
-            if evolution.get("species_name") == evolution_species:
-                evolves_to[i] = {
-                    "species_name": evolution["species_name"],
-                    "evolution_details": EvolutionDetails(),
-                    "evolves_to": next_evolution,
-                }
-
-            # Recursively clear in next evolutions
-            self._clear_evolutions(next_evolution, evolution_species)
-
-    def _update_evolutions(
-        self, evolves_to: list[Dict[str, Any]], evolution_data: Dict[str, Any]
-    ) -> None:
-        """Recursively update evolution entries with new evolution data."""
-        for evolution in evolves_to:
-            if evolution.get("species_name") == evolution_data["species"]:
-                evo_details = evolution.get("evolution_details", {})
-
-                # Update the trigger
-                if evolution_data.get("trigger"):
-                    evo_details["trigger"] = evolution_data["trigger"]
-
-                # Update level
-                if evolution_data.get("level"):
-                    evo_details["min_level"] = evolution_data["level"]
-                else:
-                    evo_details["min_level"] = None
-
-                # Update item
-                if evolution_data.get("item"):
-                    evo_details["item"] = evolution_data["item"]
-                else:
-                    evo_details["item"] = None
-
-                # Update happiness
-                if evolution_data.get("happiness"):
-                    evo_details["min_happiness"] = evolution_data["happiness"]
-                else:
-                    evo_details["min_happiness"] = None
-
-                # Update move
-                if evolution_data.get("move"):
-                    evo_details["known_move"] = evolution_data["move"]
-                else:
-                    evo_details["known_move"] = None
-
-                # Update party species
-                if evolution_data.get("party_species"):
-                    evo_details["party_species"] = evolution_data["party_species"]
-                else:
-                    evo_details["party_species"] = None
-
-    def _save_evolutions(self, pokemon_data: Dict[str, Any]) -> None:
         """Recursively save updated pokemon data."""
-        for evolution in pokemon_data.get("evolves_to", []):
-            self._save_evolutions(evolution)
-        self.loader.save_pokemon(pokemon_data["species_name"], pokemon_data)
+        for evolution in evolves_to:
+            self._save_evolution_data(
+                evolution.species_name, evolution_chain, evolution.evolves_to
+            )
+
+        pokemon_data = self.loader.load_pokemon(pokemon_id)
+        pokemon_data.evolution_chain = evolution_chain
+        path = self.loader.save_pokemon(pokemon_id, pokemon_data)
+
+        self._parsed_data["evolution_changes"].append(
+            {
+                "pokemon": pokemon_id,
+                "file_updated": str(path),
+            }
+        )
+        self.logger.info(f"Updated evolution for {pokemon_id}")
 
     def parse(self) -> None:
         """Parse the Evolution Changes documentation file."""
