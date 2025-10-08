@@ -20,7 +20,7 @@ data/pokedb/
 """
 
 from dataclasses import dataclass, field
-from typing import Any, Dict, List, Optional
+from typing import Any, Dict, List, Literal, Optional
 
 
 # region Helper Classes for Pokémon Structure
@@ -272,6 +272,14 @@ class Move:
 
 
 @dataclass
+class Form:
+    """Represents a Pokémon form (e.g., Mega Charizard X)."""
+
+    name: str
+    category: Literal["default", "cosmetic", "transformation", "variant"]
+
+
+@dataclass
 class Pokemon:
     """Represents a Pokémon (e.g., Aggron)."""
 
@@ -307,7 +315,7 @@ class Pokemon:
     evolution_chain: EvolutionChain
     held_items: Dict[str, Dict[str, int]]
     moves: PokemonMoves
-    forms: List[str]
+    forms: List[Form]
 
 
 # endregion
