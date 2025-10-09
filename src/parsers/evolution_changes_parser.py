@@ -7,11 +7,8 @@ This parser:
 3. Generates a markdown file to docs/evolution_changes.md
 """
 
-from calendar import c
-import copy
-from dataclasses import asdict
 import re
-from typing import Any, Dict, List
+from typing import Any, Dict, List, Optional
 
 from src.utils.constants import POKEMON_PATTERN
 from src.utils.pokedb_structure import (
@@ -21,6 +18,7 @@ from src.utils.pokedb_structure import (
     Pokemon,
 )
 from src.utils.text_utils import name_to_id
+from src.services.evolution_service import EvolutionService
 
 from .base_parser import BaseParser
 from ..utils.pokedb_loader import PokeDBLoader
@@ -120,7 +118,22 @@ class EvolutionChangesParser(BaseParser):
         # Load the Pokemon data
         pokemon_id = name_to_id(self._current_pokemon)
         evolution_id = name_to_id(evolution)
-        pokemon_data: Pokemon = self.loader.load_pokemon(pokemon_id)
+
+        try:
+            pokemon_data: Pokemon = self.loader.load_pokemon(pokemon_id)
+        except FileNotFoundError:
+            self.logger.error(f"Pokemon not found: {pokemon_id}")
+            return
+
+        # Validate that the evolution target exists
+        try:
+            self.loader.load_pokemon(evolution_id)
+        except FileNotFoundError:
+            self.logger.warning(
+                f"Evolution target '{evolution}' (id: {evolution_id}) not found. "
+                f"Evolution chain will still be updated for {self._current_pokemon}."
+            )
+
         evolution_chain: EvolutionChain = pokemon_data.evolution_chain
         evolution_details: EvolutionDetails = EvolutionDetails()
 
@@ -152,12 +165,13 @@ class EvolutionChangesParser(BaseParser):
                 if gender:
                     evolution_details.gender = gender
 
-                self._update_evolution_data(
+                # Use the evolution service to update the chain
+                EvolutionService.update_evolution_chain(
+                    evolution_chain,
                     pokemon_id,
                     evolution_id,
-                    keep_existing,
-                    evolution_chain,
                     evolution_details,
+                    keep_existing,
                 )
 
         if not matched:
@@ -169,64 +183,6 @@ class EvolutionChangesParser(BaseParser):
                 pokemon_id, evolution_chain, evolution_chain.evolves_to
             )
 
-    def _update_evolution_data(
-        self,
-        pokemon_id: str,
-        evolution_id: str,
-        keep_existing: bool,
-        evolution_node: EvolutionChain | EvolutionNode,
-        evolution_details: EvolutionDetails,
-    ) -> None:
-        """Update the Pokemon JSON file with new evolution data in evolution_chain."""
-
-        species_name = evolution_node.species_name
-        evolves_to = evolution_node.evolves_to
-        species_match = species_name == evolution_id
-
-        # Clean out evolution methods (keeps one backup)
-        if (
-            species_match
-            and not keep_existing
-            and pokemon_id not in self._parsed_data["evolution_changes"]
-        ):
-            found = False
-            for i in range(len(evolves_to)):
-                evo = evolves_to[i]
-                if evo.species_name != evolution_id:
-                    continue
-
-                # Remove all but one existing evolution method
-                if found:
-                    evolves_to.pop(i)
-                else:
-                    evo.evolution_details = None
-                    found = True
-
-        for evo in evolves_to:
-            # Recurse if not the target species
-            if not species_match:
-                self._update_evolution_data(
-                    pokemon_id,
-                    evolution_id,
-                    keep_existing,
-                    evo,
-                    evolution_details,
-                )
-                continue
-
-            # Skip if not the target evolution
-            if evo.species_name != evolution_id:
-                continue
-
-            # Update the evolution details
-            if evo.evolution_details is None:
-                evo.evolution_details = evolution_details
-            else:
-                node_copy = copy.deepcopy(evo)
-                node_copy.evolution_details = evolution_details
-                evolves_to.append(node_copy)
-            break
-
     def _save_evolution_data(
         self,
         pokemon_id: str,
@@ -236,30 +192,50 @@ class EvolutionChangesParser(BaseParser):
         subfolder: str = "default",
     ) -> None:
         """Recursively save updated pokemon data."""
+        # When recursing to evolved forms, always use "default" subfolder
+        # because evolved forms are typically in the default folder
         for evolution in evolves_to:
             self._save_evolution_data(
-                evolution.species_name, evolution_chain, evolution.evolves_to
+                evolution.species_name,
+                evolution_chain,
+                evolution.evolves_to,
+                check_forms=False,
+                subfolder="default",  # Always use default for evolved forms
             )
 
-        pokemon_data = self.loader.load_pokemon(pokemon_id, subfolder=subfolder)
-        pokemon_data.evolution_chain = evolution_chain
-        path = self.loader.save_pokemon(pokemon_id, pokemon_data, subfolder=subfolder)
+        try:
+            pokemon_data = self.loader.load_pokemon(pokemon_id, subfolder=subfolder)
+            pokemon_data.evolution_chain = evolution_chain
+            path = self.loader.save_pokemon(pokemon_id, pokemon_data, subfolder=subfolder)
 
-        if check_forms:
-            for form in pokemon_data.forms:
-                # Skip the default form since it's the same as pokemon_id
-                if form.category == "default":
-                    continue
-                self._save_evolution_data(
-                    form.name,
-                    evolution_chain,
-                    evolves_to,
-                    check_forms=False,
-                    subfolder=form.category,
-                )
+            if check_forms:
+                for form in pokemon_data.forms:
+                    # Skip the default form since it's the same as pokemon_id
+                    if form.category == "default":
+                        continue
+                    try:
+                        self._save_evolution_data(
+                            form.name,
+                            evolution_chain,
+                            evolves_to,
+                            check_forms=False,
+                            subfolder=form.category,
+                        )
+                    except FileNotFoundError:
+                        self.logger.warning(
+                            f"Form variant not found: {form.name} in {form.category} folder"
+                        )
+                    except Exception as e:
+                        self.logger.error(
+                            f"Error saving form {form.name}: {e}"
+                        )
 
-        self._parsed_data["evolution_changes"][pokemon_id] = str(path)
-        self.logger.info(f"Updated evolution for {pokemon_data.name}")
+            self._parsed_data["evolution_changes"][pokemon_id] = str(path)
+            self.logger.info(f"Updated evolution for {pokemon_data.name}")
+        except FileNotFoundError:
+            self.logger.error(f"Pokemon not found: {pokemon_id} in {subfolder} folder")
+        except Exception as e:
+            self.logger.error(f"Error saving evolution data for {pokemon_id}: {e}")
 
     def parse(self) -> None:
         """Parse the Evolution Changes documentation file."""

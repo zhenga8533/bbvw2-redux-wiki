@@ -21,35 +21,8 @@ class PokeDBLoader:
     Utility class for loading PokeDB JSON files into structured dataclasses.
 
     Supports loading from both the original gen5 data and the parsed working copy.
+    Implements caching to avoid redundant file I/O operations.
     """
-
-    @staticmethod
-    def _dict_to_evolution_node(data: dict) -> EvolutionNode:
-        """Convert a dict to an EvolutionNode dataclass."""
-        evolves_to = [
-            PokeDBLoader._dict_to_evolution_node(node)
-            for node in data.get("evolves_to", [])
-        ]
-        evolution_details = None
-        if data.get("evolution_details") is not None:
-            evolution_details = EvolutionDetails(**data["evolution_details"])
-        return EvolutionNode(
-            species_name=data["species_name"],
-            evolves_to=evolves_to,
-            evolution_details=evolution_details,
-        )
-
-    @staticmethod
-    def _dict_to_evolution_chain(data: dict) -> EvolutionChain:
-        """Convert a dict to an EvolutionChain dataclass."""
-        evolves_to = [
-            PokeDBLoader._dict_to_evolution_node(node)
-            for node in data.get("evolves_to", [])
-        ]
-        return EvolutionChain(
-            species_name=data["species_name"],
-            evolves_to=evolves_to,
-        )
 
     def __init__(self, use_parsed: bool = False):
         """
@@ -68,6 +41,65 @@ class PokeDBLoader:
                 f"PokeDB data directory not found: {self.data_dir}\n"
                 "Run 'python -m src.main --init' to download the data."
             )
+
+        # Cache for loaded Pokemon data
+        self._pokemon_cache: Dict[tuple[str, str], Pokemon] = {}
+
+    @staticmethod
+    def _dict_to_evolution_node(data: dict) -> EvolutionNode:
+        """Convert a dict to an EvolutionNode dataclass."""
+        evolves_to = [
+            PokeDBLoader._dict_to_evolution_node(node)
+            for node in data.get("evolves_to", [])
+        ]
+        evolution_details = None
+        if data.get("evolution_details") is not None:
+            evolution_details = EvolutionDetails(**data["evolution_details"])
+        return EvolutionNode(
+            species_name=data["species_name"],
+            evolves_to=evolves_to,
+            evolution_details=evolution_details,
+        )
+
+    @staticmethod
+    def _convert_nested_dataclasses(data: dict) -> dict:
+        """
+        Convert nested dictionaries to their corresponding dataclass objects.
+
+        This handles evolution_chain and forms conversions.
+
+        Args:
+            data: The raw Pokemon data dictionary
+
+        Returns:
+            dict: The data with nested objects converted to dataclasses
+        """
+        # Convert evolution_chain dict to EvolutionChain dataclass
+        if "evolution_chain" in data and isinstance(data["evolution_chain"], dict):
+            data["evolution_chain"] = PokeDBLoader._dict_to_evolution_chain(
+                data["evolution_chain"]
+            )
+
+        # Convert forms list of dicts to list of Form dataclasses
+        if "forms" in data and isinstance(data["forms"], list):
+            data["forms"] = [
+                Form(**form) if isinstance(form, dict) else form
+                for form in data["forms"]
+            ]
+
+        return data
+
+    @staticmethod
+    def _dict_to_evolution_chain(data: dict) -> EvolutionChain:
+        """Convert a dict to an EvolutionChain dataclass."""
+        evolves_to = [
+            PokeDBLoader._dict_to_evolution_node(node)
+            for node in data.get("evolves_to", [])
+        ]
+        return EvolutionChain(
+            species_name=data["species_name"],
+            evolves_to=evolves_to,
+        )
 
     def _find_file_with_fallback(
         self, category: str, name: str, subfolder: Optional[str] = None
@@ -171,7 +203,7 @@ class PokeDBLoader:
 
     def load_pokemon(self, name: str, subfolder: str = "default") -> Pokemon:
         """
-        Load a Pokemon JSON file.
+        Load a Pokemon JSON file with caching.
 
         Args:
             name: Pokemon name (e.g., 'pikachu')
@@ -180,22 +212,21 @@ class PokeDBLoader:
         Returns:
             Pokemon: Pokemon data
         """
+        cache_key = (name, subfolder)
+
+        # Check cache first
+        if cache_key in self._pokemon_cache:
+            return self._pokemon_cache[cache_key]
+
+        # Load from file
         data = self._load_json("pokemon", name, subfolder)
+        data = self._convert_nested_dataclasses(data)
+        pokemon = Pokemon(**data)
 
-        # Convert evolution_chain dict to EvolutionChain dataclass
-        if "evolution_chain" in data and isinstance(data["evolution_chain"], dict):
-            data["evolution_chain"] = self._dict_to_evolution_chain(
-                data["evolution_chain"]
-            )
+        # Cache the result
+        self._pokemon_cache[cache_key] = pokemon
 
-        # Convert forms list of dicts to list of Form dataclasses
-        if "forms" in data and isinstance(data["forms"], list):
-            data["forms"] = [
-                Form(**form) if isinstance(form, dict) else form
-                for form in data["forms"]
-            ]
-
-        return Pokemon(**data)
+        return pokemon
 
     def load_all_pokemon(self, subfolder: str = "default") -> Dict[str, Pokemon]:
         """
@@ -210,19 +241,7 @@ class PokeDBLoader:
         raw_data = self._load_all_json("pokemon", subfolder)
         result = {}
         for name, data in raw_data.items():
-            # Convert evolution_chain dict to EvolutionChain dataclass
-            if "evolution_chain" in data and isinstance(data["evolution_chain"], dict):
-                data["evolution_chain"] = self._dict_to_evolution_chain(
-                    data["evolution_chain"]
-                )
-
-            # Convert forms list of dicts to list of Form dataclasses
-            if "forms" in data and isinstance(data["forms"], list):
-                data["forms"] = [
-                    Form(**form) if isinstance(form, dict) else form
-                    for form in data["forms"]
-                ]
-
+            data = self._convert_nested_dataclasses(data)
             result[name] = Pokemon(**data)
         return result
 
@@ -323,7 +342,7 @@ class PokeDBLoader:
         self, name: str, data: Pokemon, subfolder: str = "default"
     ) -> Path:
         """
-        Save Pokemon data to a JSON file.
+        Save Pokemon data to a JSON file and invalidate cache.
 
         Args:
             name: Pokemon name (e.g., 'pikachu')
@@ -338,5 +357,10 @@ class PokeDBLoader:
 
         with open(file_path, "w", encoding="utf-8") as f:
             json.dump(asdict(data), f, indent=2, ensure_ascii=False)
+
+        # Invalidate cache for this Pokemon
+        cache_key = (name, subfolder)
+        if cache_key in self._pokemon_cache:
+            del self._pokemon_cache[cache_key]
 
         return file_path
