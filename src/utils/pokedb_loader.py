@@ -12,6 +12,7 @@ from src.utils.pokedb_structure import (
     EvolutionChain,
     EvolutionNode,
     EvolutionDetails,
+    Form,
 )
 
 
@@ -187,6 +188,13 @@ class PokeDBLoader:
                 data["evolution_chain"]
             )
 
+        # Convert forms list of dicts to list of Form dataclasses
+        if "forms" in data and isinstance(data["forms"], list):
+            data["forms"] = [
+                Form(**form) if isinstance(form, dict) else form
+                for form in data["forms"]
+            ]
+
         return Pokemon(**data)
 
     def load_all_pokemon(self, subfolder: str = "default") -> Dict[str, Pokemon]:
@@ -207,6 +215,14 @@ class PokeDBLoader:
                 data["evolution_chain"] = self._dict_to_evolution_chain(
                     data["evolution_chain"]
                 )
+
+            # Convert forms list of dicts to list of Form dataclasses
+            if "forms" in data and isinstance(data["forms"], list):
+                data["forms"] = [
+                    Form(**form) if isinstance(form, dict) else form
+                    for form in data["forms"]
+                ]
+
             result[name] = Pokemon(**data)
         return result
 

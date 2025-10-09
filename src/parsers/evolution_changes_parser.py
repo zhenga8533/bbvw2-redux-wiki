@@ -39,8 +39,6 @@ class EvolutionChangesParser(BaseParser):
     _current_dex_num: str = ""
     _current_pokemon: str = ""
 
-    _evolution_cache: Dict[str, Any] = {}
-
     def __init__(self, input_file: str, output_dir: str = "docs"):
         """Initialize the Evolution Changes parser."""
         super().__init__(
@@ -55,7 +53,7 @@ class EvolutionChangesParser(BaseParser):
         if new_section == "Evolution Changes":
             self._markdown += "| Dex Num | Pokémon | Evolution | New Method |\n"
             self._markdown += "|---------|:-------:|-----------|------------|\n"
-            self._parsed_data["evolution_changes"] = []
+            self._parsed_data["evolution_changes"] = {}
 
     def parse_general_notes(self, line: str) -> None:
         """Parse a line from the General Notes section."""
@@ -189,7 +187,7 @@ class EvolutionChangesParser(BaseParser):
         if (
             species_match
             and not keep_existing
-            and pokemon_id not in self._evolution_cache
+            and pokemon_id not in self._parsed_data["evolution_changes"]
         ):
             found = False
             for i in range(len(evolves_to)):
@@ -234,6 +232,8 @@ class EvolutionChangesParser(BaseParser):
         pokemon_id: str,
         evolution_chain: EvolutionChain,
         evolves_to: List[EvolutionNode],
+        check_forms: bool = True,
+        subfolder: str = "default",
     ) -> None:
         """Recursively save updated pokemon data."""
         for evolution in evolves_to:
@@ -241,17 +241,25 @@ class EvolutionChangesParser(BaseParser):
                 evolution.species_name, evolution_chain, evolution.evolves_to
             )
 
-        pokemon_data = self.loader.load_pokemon(pokemon_id)
+        pokemon_data = self.loader.load_pokemon(pokemon_id, subfolder=subfolder)
         pokemon_data.evolution_chain = evolution_chain
-        path = self.loader.save_pokemon(pokemon_id, pokemon_data)
+        path = self.loader.save_pokemon(pokemon_id, pokemon_data, subfolder=subfolder)
 
-        self._parsed_data["evolution_changes"].append(
-            {
-                "pokemon": pokemon_id,
-                "file_updated": str(path),
-            }
-        )
-        self.logger.info(f"Updated evolution for {pokemon_id}")
+        if check_forms:
+            for form in pokemon_data.forms:
+                # Skip the default form since it's the same as pokemon_id
+                if form.category == "default":
+                    continue
+                self._save_evolution_data(
+                    form.name,
+                    evolution_chain,
+                    evolves_to,
+                    check_forms=False,
+                    subfolder=form.category,
+                )
+
+        self._parsed_data["evolution_changes"][pokemon_id] = str(path)
+        self.logger.info(f"Updated evolution for {pokemon_data.name}")
 
     def parse(self) -> None:
         """Parse the Evolution Changes documentation file."""
