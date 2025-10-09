@@ -68,6 +68,46 @@ class PokeDBLoader:
                 "Run 'python -m src.main --init' to download the data."
             )
 
+    def _find_file_with_fallback(
+        self, category: str, name: str, subfolder: Optional[str] = None
+    ) -> Optional[Path]:
+        """
+        Find a file, with fallback to check for variants with form suffixes.
+
+        For Pokemon that have forms (e.g., wormadam-plant, darmanitan-standard),
+        this will try to find the base name first, then look for any files
+        starting with the base name followed by a hyphen.
+
+        Args:
+            category: The category folder (pokemon, move, ability, item)
+            name: The name of the JSON file (without .json extension)
+            subfolder: Optional subfolder within category
+
+        Returns:
+            Path: The found file path, or None if not found
+        """
+        if subfolder:
+            dir_path = self.data_dir / category / subfolder
+            file_path = dir_path / f"{name}.json"
+        else:
+            dir_path = self.data_dir / category
+            file_path = dir_path / f"{name}.json"
+
+        # First try exact match
+        if file_path.exists():
+            return file_path
+
+        # If not found, try to find a file starting with name followed by hyphen
+        # This handles cases like "wormadam" -> "wormadam-plant.json"
+        if dir_path.exists():
+            pattern = f"{name}-*.json"
+            matches = list(dir_path.glob(pattern))
+            if matches:
+                # Return the first match (alphabetically sorted for consistency)
+                return sorted(matches)[0]
+
+        return None
+
     def _load_json(
         self, category: str, name: str, subfolder: Optional[str] = None
     ) -> dict:
@@ -85,13 +125,17 @@ class PokeDBLoader:
         Raises:
             FileNotFoundError: If the file doesn't exist
         """
-        if subfolder:
-            file_path = self.data_dir / category / subfolder / f"{name}.json"
-        else:
-            file_path = self.data_dir / category / f"{name}.json"
+        file_path = self._find_file_with_fallback(category, name, subfolder)
 
-        if not file_path.exists():
-            raise FileNotFoundError(f"File not found: {file_path}")
+        if file_path is None:
+            # Provide helpful error message
+            if subfolder:
+                search_location = self.data_dir / category / subfolder
+            else:
+                search_location = self.data_dir / category
+            raise FileNotFoundError(
+                f"File not found: {name}.json (searched in {search_location})"
+            )
 
         with open(file_path, "r", encoding="utf-8") as f:
             return json.load(f)
@@ -136,11 +180,13 @@ class PokeDBLoader:
             Pokemon: Pokemon data
         """
         data = self._load_json("pokemon", name, subfolder)
-        # Convert evolution_chain from dict to proper dataclass
+
+        # Convert evolution_chain dict to EvolutionChain dataclass
         if "evolution_chain" in data and isinstance(data["evolution_chain"], dict):
             data["evolution_chain"] = self._dict_to_evolution_chain(
                 data["evolution_chain"]
             )
+
         return Pokemon(**data)
 
     def load_all_pokemon(self, subfolder: str = "default") -> Dict[str, Pokemon]:
@@ -154,7 +200,15 @@ class PokeDBLoader:
             dict: Mapping of pokemon name to data
         """
         raw_data = self._load_all_json("pokemon", subfolder)
-        return {name: Pokemon(**data) for name, data in raw_data.items()}
+        result = {}
+        for name, data in raw_data.items():
+            # Convert evolution_chain dict to EvolutionChain dataclass
+            if "evolution_chain" in data and isinstance(data["evolution_chain"], dict):
+                data["evolution_chain"] = self._dict_to_evolution_chain(
+                    data["evolution_chain"]
+                )
+            result[name] = Pokemon(**data)
+        return result
 
     def load_move(self, name: str) -> dict:
         """
