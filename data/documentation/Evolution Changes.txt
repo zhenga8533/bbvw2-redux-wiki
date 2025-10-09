@@ -58,7 +58,7 @@ Pokémon              New Method
 207 Gligar           Now evolves into Gliscor via the use of an Razor Fang.
 215 Sneasel          Now evolves into Weavile via the use of an Razor Claw.
 218 Slugma           Now evolves into Magcargo at Level 30.
-220 Swinub           Now evolves into Poliswine at Level 29.
+220 Swinub           Now evolves into Piloswine at Level 29.
 233 Porygon2         Now evolves into Porygon-Z via the use of a Dubious Disc.
 239 Elekid           Now evolves into Electabuzz at Level 29.
 240 Magby            Now evolves into Magmar at Level 29.
