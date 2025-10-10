@@ -4,5 +4,24 @@
     "branch": "data",
     "data_dir": "data/pokedb",
     "generations": ["gen5", "gen8"]
+  },
+  "logging": {
+    "level": "DEBUG",
+    "format": "text",
+    "log_dir": "logs",
+    "max_log_size_mb": 10,
+    "backup_count": 5,
+    "console_colors": true,
+    "clear_on_run": true
+  },
+  "paths": {
+    "documentation_dir": "data/documentation",
+    "output_dir": "docs",
+    "changes_output_dir": "docs/changes",
+    "change_log_dir": "logs/changes"
+  },
+  "parsers": {
+    "skip_patterns": ["^=+$"],
+    "default_output_format": "markdown"
   }
 }

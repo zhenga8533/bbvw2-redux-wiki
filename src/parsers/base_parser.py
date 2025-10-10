@@ -5,8 +5,7 @@ Base parser class for processing documentation files and generating markdown out
 from abc import ABC, abstractmethod
 from pathlib import Path
 from typing import Any, Dict, Optional, Tuple
-from ..utils.logger import setup_logger
-import inspect
+from ..utils.logger import get_logger
 import json
 import re
 
@@ -24,23 +23,16 @@ class BaseParser(ABC):
     _markdown = ""
     _parsed_data: Dict[str, Any] = {}
 
-    def __init__(
-        self,
-        input_file: str,
-        output_dir: str = "docs",
-        log_file: Optional[str] = None,
-    ):
+    def __init__(self, input_file: str, output_dir: str = "docs"):
         """
         Initialize the parser.
 
         Args:
             input_file: Path to the input file (relative to data/documentation/)
             output_dir: Directory where markdown files will be generated (default: docs)
-            log_file: Optional path to use for logging (defaults to child class file)
         """
-        # Use the provided log_file or derive from child class location
-        log_file = log_file if log_file is not None else inspect.getfile(self.__class__)
-        self.logger = setup_logger(self.__class__.__name__, log_file)
+        # Set up logger for this parser instance
+        self.logger = get_logger(self.__class__.__module__)
 
         # Set up paths
         self.project_root = Path(__file__).parent.parent.parent

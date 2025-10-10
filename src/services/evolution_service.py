@@ -8,11 +8,15 @@ evolution chains, separating it from the parser implementation.
 import copy
 from typing import Optional
 
+from src.data.pokedb_loader import PokeDBLoader
 from src.models.pokedb import (
     EvolutionChain,
     EvolutionNode,
     EvolutionDetails,
 )
+from src.utils.logger import get_logger
+
+logger = get_logger(__name__)
 
 
 class EvolutionService:
@@ -25,49 +29,67 @@ class EvolutionService:
 
     @staticmethod
     def update_evolution_chain(
-        evolution_chain: EvolutionChain,
         pokemon_id: str,
         evolution_id: str,
+        evolution_chain: EvolutionChain,
         evolution_details: EvolutionDetails,
         keep_existing: bool = False,
-        already_processed: Optional[set] = None,
+        processed: Optional[set] = None,
     ) -> EvolutionChain:
         """
         Update an evolution chain with new evolution details.
 
         Args:
-            evolution_chain: The evolution chain to update
             pokemon_id: ID of the Pokemon that is evolving
             evolution_id: ID of the evolution target
+            evolution_chain: The evolution chain to update
             evolution_details: The new evolution details
             keep_existing: If True, add to existing methods; if False, replace
-            already_processed: Set of pokemon_ids already processed (for internal use)
+            processed: Set of pokemon_ids already processed (for internal use)
 
         Returns:
             EvolutionChain: The updated evolution chain
         """
-        if already_processed is None:
-            already_processed = set()
+        if processed is None:
+            processed = set()
+
+        mode = "addition" if keep_existing else "replacement"
+        logger.debug(
+            f"Updating evolution chain: {pokemon_id} -> {evolution_id} (mode: {mode})",
+            extra={
+                "pokemon_id": pokemon_id,
+                "evolution_id": evolution_id,
+                "keep_existing": keep_existing,
+            },
+        )
 
         EvolutionService._update_evolution_node(
+            evolution_chain,
             evolution_chain,
             pokemon_id,
             evolution_id,
             evolution_details,
             keep_existing,
-            already_processed,
+            processed,
         )
 
+        # Save the updated chain to ALL Pokemon in the chain
+        all_species = EvolutionService._collect_all_species(evolution_chain)
+        for species_id in all_species:
+            EvolutionService._save_evolution_node(species_id, evolution_chain)
+
+        logger.debug(f"Successfully updated evolution chain for {pokemon_id}")
         return evolution_chain
 
     @staticmethod
     def _update_evolution_node(
+        original_chain: EvolutionChain,
         evolution_node: EvolutionChain | EvolutionNode,
         pokemon_id: str,
         evolution_id: str,
         evolution_details: EvolutionDetails,
         keep_existing: bool,
-        already_processed: set,
+        processed: set,
     ) -> None:
         """Recursively update evolution nodes."""
         species_name = evolution_node.species_name
@@ -76,8 +98,8 @@ class EvolutionService:
         species_match = species_name == pokemon_id
 
         # Clean out evolution methods (keeps one backup)
-        if species_match and not keep_existing and pokemon_id not in already_processed:
-            already_processed.add(pokemon_id)
+        if species_match and not keep_existing and pokemon_id not in processed:
+            processed.add(pokemon_id)
             found = False
 
             # Use reverse iteration to safely remove items
@@ -97,12 +119,13 @@ class EvolutionService:
             # Recurse if not the target species
             if not species_match:
                 EvolutionService._update_evolution_node(
+                    original_chain,
                     evo,
                     pokemon_id,
                     evolution_id,
                     evolution_details,
                     keep_existing,
-                    already_processed,
+                    processed,
                 )
                 continue
 
@@ -120,31 +143,25 @@ class EvolutionService:
             break
 
     @staticmethod
-    def find_evolution_target(
-        evolution_chain: EvolutionChain | EvolutionNode, target_id: str
-    ) -> Optional[EvolutionNode]:
+    def _collect_all_species(node: EvolutionChain | EvolutionNode) -> set[str]:
         """
-        Find a specific evolution node in the chain.
+        Recursively collect all species IDs in an evolution chain.
 
         Args:
-            evolution_chain: The chain to search
-            target_id: The species ID to find
+            node: The evolution chain or node to traverse
 
         Returns:
-            EvolutionNode if found, None otherwise
+            Set of all species IDs in the chain
         """
-        if evolution_chain.species_name == target_id:
-            # For EvolutionChain, we need to wrap it conceptually
-            # but this is more for validation purposes
-            return None
+        species_ids = {node.species_name}
+        for evolution in node.evolves_to:
+            species_ids.update(EvolutionService._collect_all_species(evolution))
+        return species_ids
 
-        for evo in evolution_chain.evolves_to:
-            if evo.species_name == target_id:
-                return evo
-
-            # Recurse into child evolutions
-            found = EvolutionService.find_evolution_target(evo, target_id)
-            if found:
-                return found
-
-        return None
+    @staticmethod
+    def _save_evolution_node(pokemon_id: str, evolution_chain: EvolutionChain):
+        """Save the evolution node to a file."""
+        logger.debug(f"Saving evolution chain for {pokemon_id}")
+        pokemon_data = PokeDBLoader.load_pokemon(pokemon_id)
+        pokemon_data.evolution_chain = evolution_chain
+        PokeDBLoader.save_pokemon(pokemon_id, pokemon_data)

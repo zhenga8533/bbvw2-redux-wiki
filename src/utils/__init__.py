@@ -5,11 +5,11 @@ This module contains only pure utility functions and helpers
 that have no domain-specific knowledge.
 """
 
-from .logger import setup_logger, ChangeLogger
+from .logger import get_logger, LogContext
 from .text_utils import name_to_id
 
 __all__ = [
-    "setup_logger",
-    "ChangeLogger",
+    "get_logger",
+    "LogContext",
     "name_to_id",
 ]

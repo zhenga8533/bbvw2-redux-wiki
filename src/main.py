@@ -5,24 +5,17 @@ Main entry point for initializing data and running parsers.
 import argparse
 import sys
 from src.data.pokedb_initializer import PokeDBInitializer
-from src.utils.logger import setup_logger
+from src.utils.logger import get_logger
 
-logger = setup_logger(__name__, __file__)
-
-
-def initialize_data():
-    """Initialize PokeDB data (download and prepare parsed directory)."""
-    logger.info("Starting PokeDB data initialization...")
-    initializer = PokeDBInitializer("src/config.json")
-    initializer.run()
+logger = get_logger(__name__)
 
 
-def run_parsers(parser_names: list[str]):
+def get_parser_registry():
     """
-    Run specified parsers.
+    Get the registry of available parsers.
 
-    Args:
-        parser_names: List of parser names to run (or ['all'] for all parsers)
+    Returns:
+        dict: Registry mapping parser names to (ParserClass, input_file, output_dir) tuples
     """
     # Import parsers here to avoid circular imports
     from .parsers.evolution_changes_parser import EvolutionChangesParser
@@ -36,9 +29,7 @@ def run_parsers(parser_names: list[str]):
     from .parsers.type_changes_parser import TypeChangesParser
     from .parsers.wild_area_changes_parser import WildAreaChangesParser
 
-    # Registry of available parsers
-    # Format: 'name': (ParserClass, input_file, output_dir)
-    parser_registry = {
+    return {
         "evolution_changes": (
             EvolutionChangesParser,
             "Evolution Changes.txt",
@@ -90,6 +81,23 @@ def run_parsers(parser_names: list[str]):
             "docs",
         ),
     }
+
+
+def initialize_data():
+    """Initialize PokeDB data (download and prepare parsed directory)."""
+    logger.info("Starting PokeDB data initialization...")
+    initializer = PokeDBInitializer("src/config.json")
+    initializer.run()
+
+
+def run_parsers(parser_names: list[str]):
+    """
+    Run specified parsers.
+
+    Args:
+        parser_names: List of parser names to run (or ['all'] for all parsers)
+    """
+    parser_registry = get_parser_registry()
 
     if not parser_registry:
         logger.warning(
@@ -164,30 +172,7 @@ Examples:
 
     # List parsers if requested
     if args.list_parsers:
-        # Import parsers here to get the registry
-        from .parsers.evolution_changes_parser import EvolutionChangesParser
-        from .parsers.gift_pokemon_parser import GiftPokemonParser
-        from .parsers.item_changes_parser import ItemChangesParser
-        from .parsers.legendary_locations_parser import LegendaryLocationsParser
-        from .parsers.move_changes_parser import MoveChangesParser
-        from .parsers.pokemon_changes_parser import PokemonChangesParser
-        from .parsers.trade_changes_parser import TradeChangesParser
-        from .parsers.trainer_changes_parser import TrainerChangesParser
-        from .parsers.type_changes_parser import TypeChangesParser
-        from .parsers.wild_area_changes_parser import WildAreaChangesParser
-
-        parser_registry = {
-            "evolution_changes": (EvolutionChangesParser, "Evolution Changes.txt", "docs/changes"),
-            "gift_pokemon": (GiftPokemonParser, "Gift Pokemon.txt", "docs"),
-            "item_changes": (ItemChangesParser, "Item Changes.txt", "docs/changes"),
-            "legendary_locations": (LegendaryLocationsParser, "Legendary Locations.txt", "docs"),
-            "move_changes": (MoveChangesParser, "Move Changes.txt", "docs/changes"),
-            "pokemon_changes": (PokemonChangesParser, "Pokemon Changes.txt", "docs/changes"),
-            "trade_changes": (TradeChangesParser, "Trade Changes.txt", "docs/changes"),
-            "trainer_changes": (TrainerChangesParser, "Trainer Changes.txt", "docs/changes"),
-            "type_changes": (TypeChangesParser, "Type Changes.txt", "docs/changes"),
-            "wild_area_changes": (WildAreaChangesParser, "Wild Area Changes.txt", "docs"),
-        }
+        parser_registry = get_parser_registry()
 
         if parser_registry:
             print("Available parsers:")

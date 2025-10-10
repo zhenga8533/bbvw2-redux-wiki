@@ -174,8 +174,8 @@ class EvolutionNode:
 
 @dataclass
 class EvolutionChain:
-    species_name: str
-    evolves_to: List[EvolutionNode]
+    species_name: str = ""
+    evolves_to: List[EvolutionNode] = field(default_factory=list)
 
 
 @dataclass

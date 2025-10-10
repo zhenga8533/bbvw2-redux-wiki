@@ -1,253 +1,344 @@
 """
-Logger utilities for the wiki generator.
+Modern logging utilities for the wiki generator.
 
-Provides both basic logging setup and structured change logging for parsers.
+Provides structured logging with:
+- Per-module loggers using standard Python logging
+- Rich console output with colors and formatting
+- Rotating file handlers to prevent unbounded growth
+- JSON structured logging support
+- Configuration via config.json or environment variables
+- Context managers for operation tracking
 """
 
-import json
 import logging
 import sys
-import io
 from pathlib import Path
-from typing import Any, Dict, List, Optional
+from typing import Optional
+from logging.handlers import RotatingFileHandler
+import json
 from datetime import datetime
+import os
 
 
-# Fix Windows console encoding for Unicode characters (only once)
-if sys.platform == "win32" and not isinstance(sys.stdout, io.TextIOWrapper):
-    try:
-        sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
-        sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding='utf-8')
-    except (AttributeError, ValueError):
-        # Already wrapped or not a buffered stream
-        pass
+def _load_config():
+    """Load configuration from config.json, with environment variable overrides."""
+    config_path = Path(__file__).parent.parent / "config.json"
+    defaults = {
+        "level": "INFO",
+        "format": "text",
+        "log_dir": "logs",
+        "max_log_size_mb": 10,
+        "backup_count": 5,
+        "console_colors": True,
+        "clear_on_run": False,
+    }
+
+    # Try to load from config file
+    if config_path.exists():
+        try:
+            with open(config_path) as f:
+                config = json.load(f)
+                logging_config = config.get("logging", {})
+                defaults.update(logging_config)
+        except (json.JSONDecodeError, IOError):
+            pass  # Fall back to defaults
+
+    # Environment variables override config file
+    clear_on_run_env = os.getenv("WIKI_CLEAR_ON_RUN")
+    if clear_on_run_env is not None:
+        clear_on_run = clear_on_run_env.lower() in ("true", "1", "yes")
+    else:
+        clear_on_run = defaults.get("clear_on_run", False)
+
+    return {
+        "log_dir": os.getenv("WIKI_LOG_DIR", defaults.get("log_dir", "logs")),
+        "level": os.getenv("WIKI_LOG_LEVEL", defaults.get("level", "INFO")).upper(),
+        "format": os.getenv("WIKI_LOG_FORMAT", defaults.get("format", "text")),
+        "max_log_size_mb": int(os.getenv("WIKI_MAX_LOG_SIZE_MB", defaults.get("max_log_size_mb", 10))),
+        "backup_count": int(os.getenv("WIKI_LOG_BACKUP_COUNT", defaults.get("backup_count", 5))),
+        "console_colors": defaults.get("console_colors", True),
+        "clear_on_run": clear_on_run,
+    }
 
 
-def setup_logger(name: str, file_path: str):
+# Global configuration (loaded once)
+_config = _load_config()
+LOG_DIR = Path(_config["log_dir"])
+LOG_LEVEL = _config["level"]
+LOG_FORMAT_JSON = _config["format"] == "json"
+MAX_LOG_SIZE = _config["max_log_size_mb"] * 1024 * 1024  # Convert MB to bytes
+BACKUP_COUNT = _config["backup_count"]
+CONSOLE_COLORS = _config["console_colors"]
+CLEAR_ON_RUN = _config["clear_on_run"]
+
+
+class JSONFormatter(logging.Formatter):
+    """Format log records as JSON for structured logging."""
+
+    def format(self, record: logging.LogRecord) -> str:
+        """Format the log record as a JSON string."""
+        log_data = {
+            "timestamp": datetime.utcnow().isoformat(),
+            "level": record.levelname,
+            "logger": record.name,
+            "message": record.getMessage(),
+            "module": record.module,
+            "function": record.funcName,
+            "line": record.lineno,
+        }
+
+        # Add exception info if present
+        if record.exc_info:
+            log_data["exception"] = self.formatException(record.exc_info)
+
+        # Add extra fields from the record
+        for key, value in record.__dict__.items():
+            if key not in [
+                "name",
+                "msg",
+                "args",
+                "created",
+                "filename",
+                "funcName",
+                "levelname",
+                "levelno",
+                "lineno",
+                "module",
+                "msecs",
+                "message",
+                "pathname",
+                "process",
+                "processName",
+                "relativeCreated",
+                "thread",
+                "threadName",
+                "exc_info",
+                "exc_text",
+                "stack_info",
+            ]:
+                log_data[key] = value
+
+        return json.dumps(log_data)
+
+
+class ColoredConsoleFormatter(logging.Formatter):
+    """Colored console formatter for better readability."""
+
+    COLORS = {
+        "DEBUG": "\033[36m",  # Cyan
+        "INFO": "\033[32m",  # Green
+        "WARNING": "\033[33m",  # Yellow
+        "ERROR": "\033[31m",  # Red
+        "CRITICAL": "\033[35m",  # Magenta
+    }
+    RESET = "\033[0m"
+
+    def format(self, record: logging.LogRecord) -> str:
+        """Format with colors for console output."""
+        # Create a copy to avoid modifying the original record
+        record_copy = logging.makeLogRecord(record.__dict__)
+
+        log_color = self.COLORS.get(record_copy.levelname, self.RESET)
+
+        # Color the level name on the copy
+        record_copy.levelname = f"{log_color}{record_copy.levelname}{self.RESET}"
+
+        # Format the message using the copy
+        formatted = super().format(record_copy)
+
+        return formatted
+
+
+def setup_logger(
+    name: str,
+    level: Optional[str] = None,
+    log_file: Optional[str] = None,
+) -> logging.Logger:
     """
-    Set up a logger that logs to a file named after the calling script.
+    Set up a logger with both console and file handlers.
 
     Args:
-        name: Logger name (typically __name__)
-        file_path: Path to the calling script (typically __file__)
+        name: Logger name (typically __name__ from calling module)
+        level: Log level (DEBUG, INFO, WARNING, ERROR, CRITICAL)
+        log_file: Optional specific log file name (without path)
 
     Returns:
-        Logger instance configured for both file and console output
+        Configured logger instance
 
-    Note:
-        Logs are reset on each run (file mode='w')
+    Example:
+        >>> logger = setup_logger(__name__)
+        >>> logger.info("Processing started")
+        >>> logger.warning("Missing optional field", extra={"field": "description"})
     """
-
-    log_filename = f"{Path(file_path).stem}.log"
-    log_dir = Path("logs")
-    log_dir.mkdir(parents=True, exist_ok=True)
-    log_file = log_dir / log_filename
-
     logger = logging.getLogger(name)
-    logger.setLevel(logging.INFO)
 
+    # Avoid adding handlers multiple times
     if logger.hasHandlers():
-        logger.handlers.clear()
+        return logger
 
-    # Create formatters
-    file_formatter = logging.Formatter(
-        "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+    # Set log level
+    log_level = getattr(logging, level or LOG_LEVEL, logging.INFO)
+    logger.setLevel(log_level)
+
+    # Ensure log directory exists
+    LOG_DIR.mkdir(parents=True, exist_ok=True)
+
+    # Console handler with optional colored output
+    console_handler = logging.StreamHandler(sys.stdout)
+    console_handler.setLevel(log_level)
+
+    if LOG_FORMAT_JSON:
+        console_formatter = JSONFormatter()
+    else:
+        if CONSOLE_COLORS:
+            console_formatter = ColoredConsoleFormatter(
+                fmt="%(levelname)s - %(name)s - %(message)s",
+                datefmt="%H:%M:%S",
+            )
+        else:
+            console_formatter = logging.Formatter(
+                fmt="%(levelname)s - %(name)s - %(message)s",
+                datefmt="%H:%M:%S",
+            )
+    console_handler.setFormatter(console_formatter)
+    logger.addHandler(console_handler)
+
+    # File handler with rotation
+    if log_file is None:
+        # Use module-specific log file
+        log_file = f"{name.replace('.', '_')}.log"
+
+    file_path = LOG_DIR / log_file
+
+    # Clear log file if configured
+    if CLEAR_ON_RUN and file_path.exists():
+        try:
+            file_path.unlink()
+            # Also remove any backup files
+            for i in range(1, BACKUP_COUNT + 1):
+                backup_path = Path(f"{file_path}.{i}")
+                if backup_path.exists():
+                    backup_path.unlink()
+        except OSError:
+            pass  # Ignore errors if file is locked or doesn't exist
+
+    file_handler = RotatingFileHandler(
+        file_path,
+        maxBytes=MAX_LOG_SIZE,
+        backupCount=BACKUP_COUNT,
+        encoding="utf-8",
     )
-    console_formatter = logging.Formatter("%(name)s - %(levelname)s - %(message)s")
+    file_handler.setLevel(log_level)
 
-    # Console handler with UTF-8 encoding
-    c_handler = logging.StreamHandler()
-    c_handler.setFormatter(console_formatter)
-    logger.addHandler(c_handler)
-
-    # File handler (overwrites the file on each run) with UTF-8 encoding
-    f_handler = logging.FileHandler(log_file, mode="w", encoding="utf-8")
-    f_handler.setFormatter(file_formatter)
-    logger.addHandler(f_handler)
+    if LOG_FORMAT_JSON:
+        file_formatter = JSONFormatter()
+    else:
+        file_formatter = logging.Formatter(
+            fmt="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
+            datefmt="%Y-%m-%d %H:%M:%S",
+        )
+    file_handler.setFormatter(file_formatter)
+    logger.addHandler(file_handler)
 
     return logger
 
 
-class ChangeLogger:
+def get_logger(name: str) -> logging.Logger:
     """
-    Mixin class for logging data changes in parsers.
+    Get or create a logger for the given name.
 
-    Provides methods to track, format, and output changes made to data files.
+    This is the recommended way to get a logger in your modules:
+
+    Example:
+        >>> from src.utils.logger import get_logger
+        >>> logger = get_logger(__name__)
+        >>> logger.info("Starting process")
+
+    Args:
+        name: Logger name (use __name__ for automatic module naming)
+
+    Returns:
+        Logger instance
+    """
+    return setup_logger(name)
+
+
+class LogContext:
+    """
+    Context manager for tracking operations with automatic success/failure logging.
+
+    Example:
+        >>> logger = get_logger(__name__)
+        >>> with LogContext(logger, "parsing evolution data"):
+        ...     # Your code here
+        ...     process_data()
+        # Automatically logs success or failure with timing
     """
 
-    def __init__(self):
-        """Initialize the change logger."""
-        self.changes_log: List[Dict[str, Any]] = []
-        self.logger = logging.getLogger(self.__class__.__name__)
-
-    def log_change(
+    def __init__(
         self,
-        entity_type: str,
-        entity_name: str,
-        field: str,
-        old_value: Any,
-        new_value: Any,
-        file_path: Optional[Path] = None,
-        metadata: Optional[Dict] = None,
+        logger: logging.Logger,
+        operation: str,
+        level: int = logging.INFO,
     ):
         """
-        Log a single data change.
+        Initialize log context.
 
         Args:
-            entity_type: Type of entity (e.g., 'pokemon', 'move', 'item')
-            entity_name: Name/ID of the entity being modified
-            field: Field being changed (e.g., 'evolution_chain', 'base_stats')
-            old_value: Previous value (None if new)
-            new_value: New value
-            file_path: Path to the file being modified
-            metadata: Additional context about the change
+            logger: Logger instance to use
+            operation: Description of the operation
+            level: Log level for success messages
         """
-        change_entry = {
-            "timestamp": datetime.now().isoformat(),
-            "entity_type": entity_type,
-            "entity_name": entity_name,
-            "field": field,
-            "old_value": old_value,
-            "new_value": new_value,
-            "file_path": str(file_path) if file_path else None,
-            "metadata": metadata or {},
-        }
-        self.changes_log.append(change_entry)
+        self.logger = logger
+        self.operation = operation
+        self.level = level
+        self.start_time = None
 
-        # Log to console
-        self._log_to_console(change_entry)
+    def __enter__(self):
+        """Enter the context."""
+        self.start_time = datetime.now()
+        self.logger.log(self.level, f"Starting {self.operation}")
+        return self
 
-    def _log_to_console(self, change: Dict[str, Any]):
-        """Format and log change to console."""
-        entity = f"{change['entity_type'].upper()}: {change['entity_name']}"
-        field = change['field']
-        old = self._format_value(change['old_value'])
-        new = self._format_value(change['new_value'])
-
-        if old is None:
-            self.logger.info(f"  [ADD] {entity}.{field} = {new}")
-        elif new is None:
-            self.logger.info(f"  [REMOVE] {entity}.{field} (was: {old})")
+    def __exit__(self, exc_type, exc_val, exc_tb):
+        """Exit the context and log completion or failure."""
+        if self.start_time is not None:
+            duration = datetime.now() - self.start_time
+            duration_ms = duration.total_seconds() * 1000
         else:
-            self.logger.info(f"  [UPDATE] {entity}.{field}: {old} -> {new}")
+            duration_ms = None
 
-    def _format_value(self, value: Any, max_length: int = 60) -> str:
-        """Format a value for display in logs."""
-        if value is None:
-            return "None"
+        if exc_type is None:
+            self.logger.log(
+                self.level,
+                f"Completed {self.operation}",
+                extra={"duration_ms": duration_ms},
+            )
+        else:
+            self.logger.error(
+                f"Failed {self.operation}: {exc_val}",
+                exc_info=(exc_type, exc_val, exc_tb),
+                extra={"duration_ms": duration_ms},
+            )
 
-        # Handle dict/list
-        if isinstance(value, (dict, list)):
-            formatted = json.dumps(value, ensure_ascii=False)
-            if len(formatted) > max_length:
-                return formatted[:max_length] + "..."
-            return formatted
+        # Don't suppress exceptions
+        return False
 
-        # Handle strings
-        if isinstance(value, str):
-            if len(value) > max_length:
-                return value[:max_length] + "..."
-            return f'"{value}"'
 
-        return str(value)
+# Convenience function for quick setup
+def configure_logging(level: Optional[str] = None):
+    """
+    Configure root logger with default settings.
 
-    def log_file_update(self, file_path: Path, action: str = "updated"):
-        """
-        Log that a file was updated.
+    This is optional - individual modules can use get_logger() directly.
 
-        Args:
-            file_path: Path to the file
-            action: Action performed (updated, created, deleted)
-        """
-        self.logger.info(f"  [FILE] {action}: {file_path}")
+    Args:
+        level: Override the default log level
+    """
+    root_logger = logging.getLogger()
 
-    def get_change_summary(self) -> Dict[str, Any]:
-        """
-        Generate a summary of all changes.
+    # Clear existing handlers
+    root_logger.handlers.clear()
 
-        Returns:
-            dict: Summary statistics and grouped changes
-        """
-        if not self.changes_log:
-            return {
-                "total_changes": 0,
-                "by_entity_type": {},
-                "by_action": {},
-                "files_modified": [],
-            }
-
-        # Count by entity type
-        by_entity_type = {}
-        for change in self.changes_log:
-            entity_type = change["entity_type"]
-            by_entity_type[entity_type] = by_entity_type.get(entity_type, 0) + 1
-
-        # Count by action type
-        by_action = {"add": 0, "update": 0, "remove": 0}
-        for change in self.changes_log:
-            if change["old_value"] is None:
-                by_action["add"] += 1
-            elif change["new_value"] is None:
-                by_action["remove"] += 1
-            else:
-                by_action["update"] += 1
-
-        # Get unique files modified
-        files_modified = list(
-            {c["file_path"] for c in self.changes_log if c["file_path"]}
-        )
-
-        return {
-            "total_changes": len(self.changes_log),
-            "by_entity_type": by_entity_type,
-            "by_action": by_action,
-            "files_modified": files_modified,
-        }
-
-    def save_change_log(self, output_path: Path):
-        """
-        Save the complete change log to a JSON file.
-
-        Args:
-            output_path: Path to save the log file
-        """
-        log_data = {
-            "summary": self.get_change_summary(),
-            "changes": self.changes_log,
-            "generated_at": datetime.now().isoformat(),
-        }
-
-        output_path.parent.mkdir(parents=True, exist_ok=True)
-        with open(output_path, "w", encoding="utf-8") as f:
-            json.dump(log_data, f, indent=2, ensure_ascii=False)
-
-        self.logger.info(f"Change log saved to: {output_path}")
-
-    def print_change_summary(self):
-        """Print a human-readable summary of changes to console."""
-        summary = self.get_change_summary()
-
-        if summary["total_changes"] == 0:
-            self.logger.info("No changes made.")
-            return
-
-        self.logger.info("\n" + "=" * 60)
-        self.logger.info("CHANGE SUMMARY")
-        self.logger.info("=" * 60)
-        self.logger.info(f"Total changes: {summary['total_changes']}")
-
-        if summary["by_entity_type"]:
-            self.logger.info("\nBy entity type:")
-            for entity_type, count in summary["by_entity_type"].items():
-                self.logger.info(f"  - {entity_type}: {count}")
-
-        if summary["by_action"]:
-            self.logger.info("\nBy action:")
-            for action, count in summary["by_action"].items():
-                if count > 0:
-                    self.logger.info(f"  - {action}: {count}")
-
-        if summary["files_modified"]:
-            self.logger.info(f"\nFiles modified: {len(summary['files_modified'])}")
-
-        self.logger.info("=" * 60 + "\n")
+    # Set up with new configuration
+    setup_logger("root", level=level)

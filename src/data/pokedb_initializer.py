@@ -10,9 +10,9 @@ import zipfile
 import io
 from pathlib import Path
 from typing import List, Tuple
-from src.utils.logger import setup_logger
+from src.utils.logger import get_logger
 
-logger = setup_logger(__name__, __file__)
+logger = get_logger(__name__)
 
 
 class PokeDBInitializer:
