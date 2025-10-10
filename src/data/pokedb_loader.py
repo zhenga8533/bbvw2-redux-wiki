@@ -356,3 +356,32 @@ class PokeDBLoader:
             del PokeDBLoader._pokemon_cache[cache_key]
 
         return file_path
+
+    @staticmethod
+    def clear_cache() -> None:
+        """
+        Clear the entire Pokemon cache.
+
+        Useful when you need to reload data from disk or free up memory.
+        """
+        PokeDBLoader._pokemon_cache.clear()
+
+    @staticmethod
+    def get_cache_size() -> int:
+        """
+        Get the number of cached Pokemon.
+
+        Returns:
+            int: Number of Pokemon currently in the cache
+        """
+        return len(PokeDBLoader._pokemon_cache)
+
+    @staticmethod
+    def get_cached_pokemon() -> list[tuple[str, str]]:
+        """
+        Get a list of all cached Pokemon identifiers.
+
+        Returns:
+            list: List of (name, subfolder) tuples for all cached Pokemon
+        """
+        return list(PokeDBLoader._pokemon_cache.keys())

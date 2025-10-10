@@ -19,14 +19,8 @@ class TrainerChangesParser(BaseParser):
 
     def __init__(self, input_file: str, output_dir: str = "docs"):
         """Initialize the Trainer Changes parser."""
-        super().__init__(
-            input_file=input_file, output_dir=output_dir, log_file=__file__
-        )
+        super().__init__(input_file=input_file, output_dir=output_dir)
 
-    def parse(self) -> tuple[str, Dict[str, Any]]:
-        """Parse the Trainer Changes documentation file.
-
-        Returns:
-            tuple: (markdown_content, parsed_data)
-        """
+    def parse(self) -> None:
+        """Parse the Trainer Changes documentation file."""
         raise NotImplementedError("Trainer Changes parser is not yet implemented")

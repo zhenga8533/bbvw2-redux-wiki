@@ -20,9 +20,6 @@ class BaseParser(ABC):
     - Optionally update data files in data/documentation/parsed/
     """
 
-    _markdown = ""
-    _parsed_data: Dict[str, Any] = {}
-
     def __init__(self, input_file: str, output_dir: str = "docs"):
         """
         Initialize the parser.
@@ -31,6 +28,10 @@ class BaseParser(ABC):
             input_file: Path to the input file (relative to data/documentation/)
             output_dir: Directory where markdown files will be generated (default: docs)
         """
+        # Initialize instance variables to avoid shared state
+        self._markdown = ""
+        self._parsed_data: Dict[str, Any] = {}
+
         # Set up logger for this parser instance
         self.logger = get_logger(self.__class__.__module__)
 
@@ -58,10 +59,12 @@ class BaseParser(ABC):
         """
         Parse the input file and extract data.
 
+        This method should populate:
+        - self._markdown: str containing the generated markdown
+        - self._parsed_data: Dict containing structured data extracted from the input
+
         Returns:
-            tuple: (markdown_content, parsed_data)
-                - markdown_content: str containing the generated markdown
-                - parsed_data: Dict containing structured data extracted from the input
+            None
         """
         pass
 

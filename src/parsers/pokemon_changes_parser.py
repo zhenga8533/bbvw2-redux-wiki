@@ -9,7 +9,6 @@ This parser:
 
 from typing import Any, Dict
 from .base_parser import BaseParser
-from src.data.pokedb_loader import PokeDBLoader
 
 
 class PokemonChangesParser(BaseParser):
@@ -21,15 +20,8 @@ class PokemonChangesParser(BaseParser):
 
     def __init__(self, input_file: str, output_dir: str = "docs"):
         """Initialize the Pokemon Changes parser."""
-        super().__init__(
-            input_file=input_file, output_dir=output_dir, log_file=__file__
-        )
-        self.loader = PokeDBLoader(use_parsed=True)
+        super().__init__(input_file=input_file, output_dir=output_dir)
 
-    def parse(self) -> tuple[str, Dict[str, Any]]:
-        """Parse the Pokemon Changes documentation file.
-
-        Returns:
-            tuple: (markdown_content, parsed_data)
-        """
+    def parse(self) -> None:
+        """Parse the Pokemon Changes documentation file."""
         raise NotImplementedError("Pokemon Changes parser is not yet implemented")

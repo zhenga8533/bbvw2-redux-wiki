@@ -9,7 +9,6 @@ This parser:
 
 from typing import Any, Dict
 from .base_parser import BaseParser
-from src.data.pokedb_loader import PokeDBLoader
 
 
 class MoveChangesParser(BaseParser):
@@ -21,15 +20,8 @@ class MoveChangesParser(BaseParser):
 
     def __init__(self, input_file: str, output_dir: str = "docs"):
         """Initialize the Move Changes parser."""
-        super().__init__(
-            input_file=input_file, output_dir=output_dir, log_file=__file__
-        )
-        self.loader = PokeDBLoader(use_parsed=True)
+        super().__init__(input_file=input_file, output_dir=output_dir)
 
-    def parse(self) -> tuple[str, Dict[str, Any]]:
-        """Parse the Move Changes documentation file.
-
-        Returns:
-            tuple: (markdown_content, parsed_data)
-        """
+    def parse(self) -> None:
+        """Parse the Move Changes documentation file."""
         raise NotImplementedError("Move Changes parser is not yet implemented")
