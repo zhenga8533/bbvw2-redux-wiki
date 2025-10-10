@@ -9,7 +9,7 @@ This parser:
 
 from typing import Any, Dict
 from .base_parser import BaseParser
-from ..utils.pokedb_loader import PokeDBLoader
+from src.data.pokedb_loader import PokeDBLoader
 
 
 class PokemonChangesParser(BaseParser):

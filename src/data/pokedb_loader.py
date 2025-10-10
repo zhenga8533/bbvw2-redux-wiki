@@ -7,8 +7,8 @@ from dataclasses import asdict
 from pathlib import Path
 from typing import Dict, Optional
 
-from src.utils.pokedb_structure import Pokemon
-from src.utils.pokedb_structure import (
+from src.models.pokedb import (
+    Pokemon,
     EvolutionChain,
     EvolutionNode,
     EvolutionDetails,

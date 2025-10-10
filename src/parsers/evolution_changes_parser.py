@@ -11,17 +11,17 @@ import re
 from typing import Any, Dict, List, Optional
 
 from src.utils.constants import POKEMON_PATTERN
-from src.utils.pokedb_structure import (
+from src.utils.text_utils import name_to_id
+from src.models.pokedb import (
     EvolutionChain,
     EvolutionDetails,
     EvolutionNode,
     Pokemon,
 )
-from src.utils.text_utils import name_to_id
+from src.data.pokedb_loader import PokeDBLoader
 from src.services.evolution_service import EvolutionService
 
 from .base_parser import BaseParser
-from ..utils.pokedb_loader import PokeDBLoader
 
 
 class EvolutionChangesParser(BaseParser):

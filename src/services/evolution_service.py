@@ -8,7 +8,7 @@ evolution chains, separating it from the parser implementation.
 import copy
 from typing import Optional
 
-from src.utils.pokedb_structure import (
+from src.models.pokedb import (
     EvolutionChain,
     EvolutionNode,
     EvolutionDetails,

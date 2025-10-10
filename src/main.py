@@ -4,8 +4,8 @@ Main entry point for initializing data and running parsers.
 
 import argparse
 import sys
-from .utils.pokedb_initializer import PokeDBInitializer
-from .utils.logger import setup_logger
+from src.data.pokedb_initializer import PokeDBInitializer
+from src.utils.logger import setup_logger
 
 logger = setup_logger(__name__, __file__)
 

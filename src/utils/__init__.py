@@ -1,32 +1,15 @@
 """
 Utility modules for the wiki generator.
+
+This module contains only pure utility functions and helpers
+that have no domain-specific knowledge.
 """
 
 from .logger import setup_logger, ChangeLogger
-from .pokedb_initializer import PokeDBInitializer
-from .pokedb_loader import PokeDBLoader
-from .pokedb_structure import (
-    Pokemon,
-    Move,
-    Ability,
-    Item,
-    Stats,
-    PokemonAbility,
-    EvolutionChain,
-    PokemonMoves,
-)
+from .text_utils import name_to_id
 
 __all__ = [
     "setup_logger",
     "ChangeLogger",
-    "PokeDBInitializer",
-    "PokeDBLoader",
-    "Pokemon",
-    "Move",
-    "Ability",
-    "Item",
-    "Stats",
-    "PokemonAbility",
-    "EvolutionChain",
-    "PokemonMoves",
+    "name_to_id",
 ]

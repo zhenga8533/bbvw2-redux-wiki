@@ -10,7 +10,7 @@ import zipfile
 import io
 from pathlib import Path
 from typing import List, Tuple
-from .logger import setup_logger
+from src.utils.logger import setup_logger
 
 logger = setup_logger(__name__, __file__)
 
