@@ -131,7 +131,9 @@ def run_parsers(parser_names: list[str]):
             logger.error(f"[FAIL] {name} failed - file not found: {e}", exc_info=True)
             failed_parsers.append((name, "file not found"))
         except (OSError, IOError, PermissionError) as e:
-            logger.error(f"[FAIL] {name} failed - file system error: {e}", exc_info=True)
+            logger.error(
+                f"[FAIL] {name} failed - file system error: {e}", exc_info=True
+            )
             failed_parsers.append((name, "file system error"))
         except Exception as e:
             logger.error(f"[FAIL] {name} failed: {e}", exc_info=True)
@@ -144,7 +146,7 @@ def run_parsers(parser_names: list[str]):
             logger.error(f"  - {name}: {reason}")
         return False
     else:
-        logger.info(f"\nAll {len(parsers_to_run)} parser(s) completed successfully")
+        logger.info(f"All {len(parsers_to_run)} parser(s) completed successfully")
         return True
 
 
