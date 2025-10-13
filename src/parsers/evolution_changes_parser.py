@@ -30,6 +30,7 @@ class EvolutionChangesParser(BaseParser):
     """
 
     _SECTIONS = ["General Notes", "Evolution Changes"]
+    _parsed_data = {}
 
     _current_section: str = ""
     _current_dex_num: str = ""
@@ -46,7 +47,6 @@ class EvolutionChangesParser(BaseParser):
         if new_section == "Evolution Changes":
             self._markdown += "| Dex Num | Pokémon | Evolution | New Method |\n"
             self._markdown += "|---------|:-------:|-----------|------------|\n"
-            self._parsed_data["evolution_changes"] = {}
 
     def parse_general_notes(self, line: str) -> None:
         """Parse a line from the General Notes section."""
@@ -90,7 +90,7 @@ class EvolutionChangesParser(BaseParser):
         # Check for "in addition to" clause
         keep_existing = (
             "in addition to its normal evolution method" in method_text
-            or self._current_pokemon in self._parsed_data.get("evolution_changes", {})
+            or self._current_pokemon in self._parsed_data
         )
         method_text = method_text.replace(
             " in addition to its normal evolution method", ""
@@ -182,7 +182,7 @@ class EvolutionChangesParser(BaseParser):
             self.logger.info(
                 f"Updated evolution data for {self._current_pokemon} to {evolution} {method_text}"
             )
-            self._parsed_data["evolution_changes"][pokemon_id] = {
+            self._parsed_data[pokemon_id] = {
                 "pokemon": self._current_pokemon,
                 "evolution": evolution,
                 "method": method_text,

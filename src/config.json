@@ -17,8 +17,7 @@
   "paths": {
     "documentation_dir": "data/documentation",
     "output_dir": "docs",
-    "changes_output_dir": "docs/changes",
-    "change_log_dir": "logs/changes"
+    "changes_output_dir": "docs/changes"
   },
   "parsers": {
     "skip_patterns": ["^=+$"],

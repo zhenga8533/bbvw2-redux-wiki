@@ -124,10 +124,8 @@ def run_parsers(parser_names: list[str]):
 
         try:
             parser = ParserClass(input_file, output_dir)
-            markdown_path, data_path = parser.run()
-            logger.info(
-                f"✓ {name} completed:\n  - Markdown: {markdown_path}\n  - Data: {data_path}"
-            )
+            markdown_path = parser.run()
+            logger.info(f"✓ {name} completed: {markdown_path}")
         except Exception as e:
             logger.error(f"✗ {name} failed: {e}", exc_info=True)
 

@@ -30,7 +30,6 @@ class BaseParser(ABC):
         """
         # Initialize instance variables to avoid shared state
         self._markdown = ""
-        self._parsed_data: Dict[str, Any] = {}
 
         # Set up logger for this parser instance
         self.logger = get_logger(self.__class__.__module__)
@@ -43,16 +42,12 @@ class BaseParser(ABC):
         self.output_dir = self.project_root / output_dir
         self.output_path = self.output_dir / (self.output_file + ".md")
 
-        self.change_log_dir = self.project_root / "logs" / "changes"
-        self.change_log_path = self.change_log_dir / (self.output_file + ".json")
-
         # Validate input file exists
         if not self.input_path.exists():
             raise FileNotFoundError(f"Input file not found: {self.input_path}")
 
         # Ensure output directories exist
         self.output_dir.mkdir(parents=True, exist_ok=True)
-        self.change_log_dir.mkdir(parents=True, exist_ok=True)
 
     @abstractmethod
     def parse(self) -> None:
@@ -61,7 +56,6 @@ class BaseParser(ABC):
 
         This method should populate:
         - self._markdown: str containing the generated markdown
-        - self._parsed_data: Dict containing structured data extracted from the input
 
         Returns:
             None
@@ -102,31 +96,12 @@ class BaseParser(ABC):
         self.logger.info(f"Saved markdown to {self.output_path}")
         return self.output_path
 
-    def save_change_log(self, data: Dict[str, Any]) -> Optional[Path]:
-        """
-        Save parsed data to a file (JSON, YAML, etc.).
-
-        Args:
-            data: Data to save
-
-        Returns:
-            Path: Path to the saved file, or None if no change_log_dir is set
-        """
-        if not data:
-            self.logger.warning("No data to save for change log.")
-            return None
-        self.change_log_path.write_text(json.dumps(data, indent=2), encoding="utf-8")
-        self.logger.info(f"Saved parsed data to {self.change_log_path}")
-        return self.change_log_path
-
-    def run(self) -> Tuple[Optional[Path], Optional[Path]]:
+    def run(self) -> Optional[Path]:
         """
         Execute the full parsing pipeline.
 
         Returns:
-            tuple: (markdown_path, data_path)
-                - markdown_path: Path to the saved markdown file
-                - data_path: Path to the saved data file (if any)
+            Path: Path to the saved markdown file
         """
         self.logger.info(f"Starting parse of {self.input_path}")
 
@@ -136,8 +111,5 @@ class BaseParser(ABC):
         # Optionally save markdown
         markdown_path = self.save_markdown(self._markdown)
 
-        # Optionally save parsed data
-        data_path = self.save_change_log(self._parsed_data)
-
         self.logger.info("Parsing complete")
-        return markdown_path, data_path
+        return markdown_path
