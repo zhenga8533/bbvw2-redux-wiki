@@ -100,12 +100,25 @@ class PokeDBInitializer:
             logger.info(
                 f"Data directory '{self.data_dir}' already exists and is not empty."
             )
-            user_input = input(
-                "Do you want to re-download and replace it? (y/n): "
-            ).lower()
-            if user_input != "y":
-                logger.info("Initialization cancelled.")
+            try:
+                user_input = input(
+                    "Do you want to re-download and replace it? (yes/no): "
+                ).strip().lower()
+
+                # Accept various affirmative responses
+                if user_input not in ("yes", "y"):
+                    logger.info("Initialization cancelled by user.")
+                    return
+
+            except (EOFError, KeyboardInterrupt):
+                # Handle Ctrl+C, Ctrl+D, or automated environments
+                logger.info("\nInitialization cancelled by user.")
                 return
+            except Exception as e:
+                logger.error(f"Error reading user input: {e}")
+                logger.info("Initialization cancelled due to input error.")
+                return
+
             logger.info(f"Removing existing directory '{self.data_dir}'...")
             shutil.rmtree(self.data_dir)
 
