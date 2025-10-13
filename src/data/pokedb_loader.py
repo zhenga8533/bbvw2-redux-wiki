@@ -9,6 +9,9 @@ from typing import Dict, Optional
 
 from src.models.pokedb import (
     Pokemon,
+    Move,
+    Ability,
+    Item,
     EvolutionChain,
     EvolutionNode,
     EvolutionDetails,
@@ -280,73 +283,79 @@ class PokeDBLoader:
         return result
 
     @staticmethod
-    def load_move(name: str) -> dict:
+    def load_move(name: str) -> Move:
         """
-        Load a Move JSON file.
+        Load a Move JSON file and return as a Move dataclass.
 
         Args:
             name: Move name (e.g., 'thunderbolt')
 
         Returns:
-            dict: Move data
+            Move: Move dataclass object
         """
-        return PokeDBLoader._load_json("move", name)
+        data = PokeDBLoader._load_json("move", name)
+        return Move(**data)
 
     @staticmethod
-    def load_all_moves() -> Dict[str, dict]:
+    def load_all_moves() -> Dict[str, Move]:
         """
-        Load all moves.
+        Load all moves and return as Move dataclasses.
 
         Returns:
-            dict: Mapping of move name to data
+            dict: Mapping of move name to Move dataclass objects
         """
-        return PokeDBLoader._load_all_json("move")
+        raw_data = PokeDBLoader._load_all_json("move")
+        return {name: Move(**data) for name, data in raw_data.items()}
 
     @staticmethod
-    def load_ability(name: str) -> dict:
+    def load_ability(name: str) -> Ability:
         """
-        Load an Ability JSON file.
+        Load an Ability JSON file and return as an Ability dataclass.
 
         Args:
             name: Ability name (e.g., 'intimidate')
 
         Returns:
-            dict: Ability data
+            Ability: Ability dataclass object
         """
-        return PokeDBLoader._load_json("ability", name)
+        data = PokeDBLoader._load_json("ability", name)
+        return Ability(**data)
 
     @staticmethod
-    def load_all_abilities() -> Dict[str, dict]:
+    def load_all_abilities() -> Dict[str, Ability]:
         """
-        Load all abilities.
+        Load all abilities and return as Ability dataclasses.
 
         Returns:
-            dict: Mapping of ability name to data
+            dict: Mapping of ability name to Ability dataclass objects
         """
-        return PokeDBLoader._load_all_json("ability")
+        raw_data = PokeDBLoader._load_all_json("ability")
+        return {name: Ability(**data) for name, data in raw_data.items()}
 
     @staticmethod
-    def load_item(name: str) -> dict:
+    def load_item(name: str) -> Item:
         """
-        Load an Item JSON file.
+        Load an Item JSON file and return as an Item dataclass.
 
         Args:
             name: Item name (e.g., 'potion')
 
         Returns:
-            dict: Item data
+            Item: Item dataclass object
         """
-        return PokeDBLoader._load_json("item", name)
+        data = PokeDBLoader._load_json("item", name)
+        return Item(**data)
 
     @staticmethod
-    def load_all_items() -> Dict[str, dict]:
+    def load_all_items() -> Dict[str, Item]:
         """
-        Load all items.
+        Load all items and return as Item dataclasses.
 
         Returns:
-            dict: Mapping of item name to data
+            dict: Mapping of item name to Item dataclass objects
         """
-        return PokeDBLoader._load_all_json("item")
+        raw_data = PokeDBLoader._load_all_json("item")
+        return {name: Item(**data) for name, data in raw_data.items()}
 
     @staticmethod
     def get_pokemon_count(subfolder: str = "default") -> int:
