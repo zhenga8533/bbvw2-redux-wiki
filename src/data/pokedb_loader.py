@@ -22,9 +22,25 @@ class PokeDBLoader:
 
     Supports loading from both the original gen5 data and the parsed working copy.
     Implements caching to avoid redundant file I/O operations.
+
+    IMPORTANT: This class uses a class-level cache that persists across all
+    instances and throughout the lifetime of the process. This provides significant
+    performance benefits but has important implications:
+
+    - Cache invalidation: Call clear_cache() if files are modified externally
+      or if you need fresh data from disk
+    - Memory usage: In long-running processes, the cache can grow large.
+      Call clear_cache() periodically if memory is a concern
+    - Thread safety: This class is NOT thread-safe. Do not use concurrently
+      from multiple threads without external synchronization
+    - Testing: Call clear_cache() between tests to ensure isolation
+
+    The cache is automatically invalidated when saving Pokemon via save_pokemon().
     """
 
     _data_dir: Path = Path(__file__).parent.parent.parent / "data" / "pokedb" / "parsed"
+    # Class-level cache: intentionally shared across all instances
+    # Maps (name, subfolder) -> Pokemon object
     _pokemon_cache: Dict[tuple[str, str], Pokemon] = {}
 
     @staticmethod
@@ -369,6 +385,11 @@ class PokeDBLoader:
         """
         Save Pokemon data to a JSON file and invalidate cache.
 
+        This method invalidates ALL cache entries for the given Pokemon name
+        across all subfolders, not just the specific subfolder being saved to.
+        This ensures cache consistency when a Pokemon might be loaded under
+        different forms or categories.
+
         Args:
             name: Pokemon name (e.g., 'pikachu')
             data: Pokemon dataclass object
@@ -383,10 +404,13 @@ class PokeDBLoader:
         with open(file_path, "w", encoding="utf-8") as f:
             json.dump(asdict(data), f, indent=2, ensure_ascii=False)
 
-        # Invalidate cache for this Pokemon
-        cache_key = (name, subfolder)
-        if cache_key in PokeDBLoader._pokemon_cache:
-            del PokeDBLoader._pokemon_cache[cache_key]
+        # Invalidate ALL cache entries with this name (any subfolder)
+        # This prevents stale cached data if the same Pokemon is cached under different forms
+        keys_to_remove = [
+            key for key in PokeDBLoader._pokemon_cache.keys() if key[0] == name
+        ]
+        for key in keys_to_remove:
+            del PokeDBLoader._pokemon_cache[key]
 
         return file_path
 
