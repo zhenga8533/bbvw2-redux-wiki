@@ -39,12 +39,57 @@ class PokeDBLoader:
     - Testing: Call clear_cache() between tests to ensure isolation
 
     The cache is automatically invalidated when saving Pokemon via save_pokemon().
+
+    Configuration:
+    - Use set_data_dir() to override the default data directory path
+    - Use get_data_dir() to retrieve the current data directory path
+    - The default path is: <project_root>/data/pokedb/parsed
     """
 
-    _data_dir: Path = Path(__file__).parent.parent.parent / "data" / "pokedb" / "parsed"
+    # Class-level data directory (configurable, defaults to None = use default path)
+    _data_dir: Optional[Path] = None
     # Class-level cache: intentionally shared across all instances
     # Maps (name, subfolder) -> Pokemon object
     _pokemon_cache: Dict[tuple[str, str], Pokemon] = {}
+
+    @classmethod
+    def get_data_dir(cls) -> Path:
+        """
+        Get the current data directory path.
+
+        Returns:
+            Path: The data directory path (either custom or default)
+
+        Example:
+            >>> data_dir = PokeDBLoader.get_data_dir()
+            >>> print(data_dir)
+            /path/to/project/data/pokedb/parsed
+        """
+        if cls._data_dir is None:
+            # Default to <project_root>/data/pokedb/parsed
+            cls._data_dir = Path(__file__).parent.parent.parent / "data" / "pokedb" / "parsed"
+        return cls._data_dir
+
+    @classmethod
+    def set_data_dir(cls, path: Path) -> None:
+        """
+        Set a custom data directory path.
+
+        This is useful for testing or when working with data in a non-standard location.
+        When setting a new data directory, the cache is automatically cleared to prevent
+        loading stale data from the previous directory.
+
+        Args:
+            path: The new data directory path
+
+        Example:
+            >>> # For testing with a temporary directory
+            >>> PokeDBLoader.set_data_dir(Path("/tmp/test_pokedb"))
+            >>> # Reset to default
+            >>> PokeDBLoader.set_data_dir(Path(__file__).parent.parent.parent / "data" / "pokedb" / "parsed")
+        """
+        cls._data_dir = path
+        cls.clear_cache()  # Clear cache when changing directory
 
     @staticmethod
     def _dict_to_evolution_node(data: dict) -> EvolutionNode:
@@ -102,9 +147,9 @@ class PokeDBLoader:
             evolves_to=evolves_to,
         )
 
-    @staticmethod
+    @classmethod
     def _find_file(
-        category: str, name: str, subfolder: Optional[str] = None
+        cls, category: str, name: str, subfolder: Optional[str] = None
     ) -> Optional[Path]:
         """
         Find a file, with fallback to check for variants with form suffixes.
@@ -121,11 +166,12 @@ class PokeDBLoader:
         Returns:
             Path: The found file path, or None if not found
         """
+        data_dir = cls.get_data_dir()
         if subfolder:
-            dir_path = PokeDBLoader._data_dir / category / subfolder
+            dir_path = data_dir / category / subfolder
             file_path = dir_path / f"{name}.json"
         else:
-            dir_path = PokeDBLoader._data_dir / category
+            dir_path = data_dir / category
             file_path = dir_path / f"{name}.json"
 
         # First try exact match
@@ -176,8 +222,8 @@ class PokeDBLoader:
             # If file not found, return empty list
             return []
 
-    @staticmethod
-    def _load_json(category: str, name: str, subfolder: Optional[str] = None) -> dict:
+    @classmethod
+    def _load_json(cls, category: str, name: str, subfolder: Optional[str] = None) -> dict:
         """
         Load a JSON file from the PokeDB directory.
 
@@ -192,14 +238,15 @@ class PokeDBLoader:
         Raises:
             FileNotFoundError: If the file doesn't exist
         """
-        file_path = PokeDBLoader._find_file(category, name, subfolder)
+        file_path = cls._find_file(category, name, subfolder)
 
         if file_path is None:
             # Provide helpful error message
+            data_dir = cls.get_data_dir()
             if subfolder:
-                search_location = PokeDBLoader._data_dir / category / subfolder
+                search_location = data_dir / category / subfolder
             else:
-                search_location = PokeDBLoader._data_dir / category
+                search_location = data_dir / category
             raise FileNotFoundError(
                 f"File not found: {name}.json (searched in {search_location})"
             )
@@ -207,9 +254,9 @@ class PokeDBLoader:
         with open(file_path, "r", encoding="utf-8") as f:
             return json.load(f)
 
-    @staticmethod
+    @classmethod
     def _load_all_json(
-        category: str, subfolder: Optional[str] = None
+        cls, category: str, subfolder: Optional[str] = None
     ) -> Dict[str, dict]:
         """
         Load all JSON files from a category folder.
@@ -221,10 +268,11 @@ class PokeDBLoader:
         Returns:
             dict: Mapping of filename (without .json) to parsed JSON data
         """
+        data_dir = cls.get_data_dir()
         if subfolder:
-            dir_path = PokeDBLoader._data_dir / category / subfolder
+            dir_path = data_dir / category / subfolder
         else:
-            dir_path = PokeDBLoader._data_dir / category
+            dir_path = data_dir / category
 
         if not dir_path.exists():
             return {}
@@ -357,8 +405,8 @@ class PokeDBLoader:
         raw_data = PokeDBLoader._load_all_json("item")
         return {name: Item(**data) for name, data in raw_data.items()}
 
-    @staticmethod
-    def get_pokemon_count(subfolder: str = "default") -> int:
+    @classmethod
+    def get_pokemon_count(cls, subfolder: str = "default") -> int:
         """
         Get the count of Pokemon in a subfolder.
 
@@ -368,13 +416,13 @@ class PokeDBLoader:
         Returns:
             int: Number of Pokemon JSON files
         """
-        dir_path = PokeDBLoader._data_dir / "pokemon" / subfolder
+        dir_path = cls.get_data_dir() / "pokemon" / subfolder
         if not dir_path.exists():
             return 0
         return len(list(dir_path.glob("*.json")))
 
-    @staticmethod
-    def get_category_path(category: str, subfolder: Optional[str] = None) -> Path:
+    @classmethod
+    def get_category_path(cls, category: str, subfolder: Optional[str] = None) -> Path:
         """
         Get the path to a category folder.
 
@@ -385,12 +433,13 @@ class PokeDBLoader:
         Returns:
             Path: Absolute path to the category folder
         """
+        data_dir = cls.get_data_dir()
         if subfolder:
-            return PokeDBLoader._data_dir / category / subfolder
-        return PokeDBLoader._data_dir / category
+            return data_dir / category / subfolder
+        return data_dir / category
 
-    @staticmethod
-    def save_pokemon(name: str, data: Pokemon, subfolder: str = "default") -> Path:
+    @classmethod
+    def save_pokemon(cls, name: str, data: Pokemon, subfolder: str = "default") -> Path:
         """
         Save Pokemon data to a JSON file and invalidate cache.
 
@@ -407,7 +456,7 @@ class PokeDBLoader:
         Returns:
             Path: Path to the saved file
         """
-        file_path = PokeDBLoader._data_dir / "pokemon" / subfolder / f"{name}.json"
+        file_path = cls.get_data_dir() / "pokemon" / subfolder / f"{name}.json"
         file_path.parent.mkdir(parents=True, exist_ok=True)
 
         with open(file_path, "w", encoding="utf-8") as f:
