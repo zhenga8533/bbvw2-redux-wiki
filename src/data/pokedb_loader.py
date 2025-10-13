@@ -295,6 +295,15 @@ class PokeDBLoader:
 
         Returns:
             Pokemon: Pokemon data
+
+        Examples:
+            >>> pokemon = PokeDBLoader.load_pokemon("pikachu")
+            >>> print(pokemon.name)
+            pikachu
+            >>> print(pokemon.types)
+            ['electric']
+            >>> # Load a specific form
+            >>> darmanitan = PokeDBLoader.load_pokemon("darmanitan-zen", subfolder="variant")
         """
         cache_key = (name, subfolder)
 
@@ -340,6 +349,15 @@ class PokeDBLoader:
 
         Returns:
             Move: Move dataclass object
+
+        Examples:
+            >>> move = PokeDBLoader.load_move("thunderbolt")
+            >>> print(move.name)
+            thunderbolt
+            >>> print(move.type)
+            {'gen5': 'electric'}
+            >>> print(move.power)
+            {'gen5': 90}
         """
         data = PokeDBLoader._load_json("move", name)
         return Move(**data)
@@ -365,6 +383,13 @@ class PokeDBLoader:
 
         Returns:
             Ability: Ability dataclass object
+
+        Examples:
+            >>> ability = PokeDBLoader.load_ability("intimidate")
+            >>> print(ability.name)
+            intimidate
+            >>> print(ability.is_main_series)
+            True
         """
         data = PokeDBLoader._load_json("ability", name)
         return Ability(**data)
@@ -390,6 +415,15 @@ class PokeDBLoader:
 
         Returns:
             Item: Item dataclass object
+
+        Examples:
+            >>> item = PokeDBLoader.load_item("potion")
+            >>> print(item.name)
+            potion
+            >>> print(item.category)
+            healing
+            >>> print(item.cost)
+            300
         """
         data = PokeDBLoader._load_json("item", name)
         return Item(**data)
@@ -478,6 +512,16 @@ class PokeDBLoader:
         Clear the entire Pokemon cache.
 
         Useful when you need to reload data from disk or free up memory.
+
+        Examples:
+            >>> # Load and cache Pokemon
+            >>> pokemon = PokeDBLoader.load_pokemon("pikachu")
+            >>> print(PokeDBLoader.get_cache_size())
+            1
+            >>> # Clear the cache
+            >>> PokeDBLoader.clear_cache()
+            >>> print(PokeDBLoader.get_cache_size())
+            0
         """
         PokeDBLoader._pokemon_cache.clear()
 
