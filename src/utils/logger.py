@@ -71,6 +71,33 @@ BACKUP_COUNT = _config["backup_count"]
 CONSOLE_COLORS = _config["console_colors"]
 CLEAR_ON_RUN = _config["clear_on_run"]
 
+# Standard fields that are part of every LogRecord instance
+# These fields are excluded when adding extra fields to JSON logs
+# See: https://docs.python.org/3/library/logging.html#logrecord-attributes
+_STANDARD_LOG_RECORD_FIELDS = frozenset([
+    "name",
+    "msg",
+    "args",
+    "created",
+    "filename",
+    "funcName",
+    "levelname",
+    "levelno",
+    "lineno",
+    "module",
+    "msecs",
+    "message",
+    "pathname",
+    "process",
+    "processName",
+    "relativeCreated",
+    "thread",
+    "threadName",
+    "exc_info",
+    "exc_text",
+    "stack_info",
+])
+
 
 class JSONFormatter(logging.Formatter):
     """Format log records as JSON for structured logging."""
@@ -91,31 +118,9 @@ class JSONFormatter(logging.Formatter):
         if record.exc_info:
             log_data["exception"] = self.formatException(record.exc_info)
 
-        # Add extra fields from the record
+        # Add extra fields from the record (excluding standard LogRecord fields)
         for key, value in record.__dict__.items():
-            if key not in [
-                "name",
-                "msg",
-                "args",
-                "created",
-                "filename",
-                "funcName",
-                "levelname",
-                "levelno",
-                "lineno",
-                "module",
-                "msecs",
-                "message",
-                "pathname",
-                "process",
-                "processName",
-                "relativeCreated",
-                "thread",
-                "threadName",
-                "exc_info",
-                "exc_text",
-                "stack_info",
-            ]:
+            if key not in _STANDARD_LOG_RECORD_FIELDS:
                 log_data[key] = value
 
         return json.dumps(log_data)
