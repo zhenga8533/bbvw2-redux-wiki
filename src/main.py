@@ -96,14 +96,11 @@ def run_parsers(parser_names: list[str]):
 
     Args:
         parser_names: List of parser names to run (or ['all'] for all parsers)
+
+    Returns:
+        bool: True if all parsers succeeded, False if any failed
     """
     parser_registry = get_parser_registry()
-
-    if not parser_registry:
-        logger.warning(
-            "No parsers registered yet. Add parsers to main.py parser_registry."
-        )
-        return False
 
     # Determine which parsers to run
     if "all" in parser_names:
@@ -126,18 +123,18 @@ def run_parsers(parser_names: list[str]):
         try:
             parser = ParserClass(input_file, output_dir)
             markdown_path = parser.run()
-            logger.info(f"✓ {name} completed: {markdown_path}")
+            logger.info(f"[OK] {name} completed: {markdown_path}")
         except NotImplementedError as e:
-            logger.warning(f"⊘ {name} not yet implemented: {e}")
+            logger.warning(f"[SKIP] {name} not yet implemented: {e}")
             failed_parsers.append((name, "not implemented"))
         except FileNotFoundError as e:
-            logger.error(f"✗ {name} failed - file not found: {e}", exc_info=True)
+            logger.error(f"[FAIL] {name} failed - file not found: {e}", exc_info=True)
             failed_parsers.append((name, "file not found"))
         except (OSError, IOError, PermissionError) as e:
-            logger.error(f"✗ {name} failed - file system error: {e}", exc_info=True)
+            logger.error(f"[FAIL] {name} failed - file system error: {e}", exc_info=True)
             failed_parsers.append((name, "file system error"))
         except Exception as e:
-            logger.error(f"✗ {name} failed: {e}", exc_info=True)
+            logger.error(f"[FAIL] {name} failed: {e}", exc_info=True)
             failed_parsers.append((name, "unexpected error"))
 
     # Report results
@@ -192,13 +189,9 @@ Examples:
     # List parsers if requested
     if args.list_parsers:
         parser_registry = get_parser_registry()
-
-        if parser_registry:
-            print("Available parsers:")
-            for name in parser_registry.keys():
-                print(f"  - {name}")
-        else:
-            print("No parsers registered yet.")
+        print("Available parsers:")
+        for name in parser_registry.keys():
+            print(f"  - {name}")
         sys.exit(0)
 
     # Run requested operations
