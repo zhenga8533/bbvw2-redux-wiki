@@ -5,7 +5,7 @@ Helper utilities for loading PokeDB JSON data into dataclass structures.
 import json
 from dataclasses import asdict
 from pathlib import Path
-from typing import Optional
+from typing import Any, Optional
 
 from src.models.pokedb import (
     Pokemon,
@@ -16,6 +16,21 @@ from src.models.pokedb import (
     EvolutionNode,
     EvolutionDetails,
     Form,
+    Sprites,
+    Cries,
+    Stats,
+    PokemonAbility,
+    EVYield,
+    PokemonMoves,
+    MoveLearn,
+    OtherSprites,
+    Versions,
+    DreamWorld,
+    Home,
+    OfficialArtwork,
+    Showdown,
+    AnimatedSprites,
+    GenerationSprites,
 )
 from src.utils.logger import get_logger
 
@@ -79,7 +94,9 @@ class PokeDBLoader:
         """
         if cls._data_dir is None:
             # Default to <project_root>/data/pokedb/parsed
-            cls._data_dir = Path(__file__).parent.parent.parent / "data" / "pokedb" / "parsed"
+            cls._data_dir = (
+                Path(__file__).parent.parent.parent / "data" / "pokedb" / "parsed"
+            )
         return cls._data_dir
 
     @classmethod
@@ -126,7 +143,8 @@ class PokeDBLoader:
         """
         Convert nested dictionaries to their corresponding dataclass objects.
 
-        This handles evolution_chain and forms conversions.
+        This handles all nested structures in Pokemon data including sprites,
+        cries, stats, abilities, moves, evolution_chain, and forms.
 
         Args:
             data: The raw Pokemon data dictionary
@@ -134,6 +152,94 @@ class PokeDBLoader:
         Returns:
             dict: The data with nested objects converted to dataclasses
         """
+        # Convert sprites dict to Sprites dataclass
+        if "sprites" in data and isinstance(data["sprites"], dict):
+            sprites_data = data["sprites"]
+
+            # Convert nested other sprites
+            if "other" in sprites_data and isinstance(sprites_data["other"], dict):
+                other = sprites_data["other"]
+
+                # Handle specific nested sprite structures
+                if "dream_world" in other:
+                    other["dream_world"] = DreamWorld(**other["dream_world"])
+
+                if "home" in other:
+                    other["home"] = Home(**other["home"])
+
+                # Handle kebab-case key: official-artwork -> official_artwork
+                if "official-artwork" in other:
+                    other["official_artwork"] = OfficialArtwork(**other["official-artwork"])
+                    del other["official-artwork"]
+                elif "official_artwork" in other:
+                    other["official_artwork"] = OfficialArtwork(**other["official_artwork"])
+
+                if "showdown" in other:
+                    other["showdown"] = Showdown(**other["showdown"])
+
+                sprites_data["other"] = OtherSprites(**other)
+
+            # Convert nested versions
+            if "versions" in sprites_data and isinstance(sprites_data["versions"], dict):
+                versions = sprites_data["versions"]
+
+                # Handle kebab-case key: black-white -> black_white
+                if "black-white" in versions:
+                    bw_data = versions["black-white"]
+                    if "animated" in bw_data:
+                        bw_data["animated"] = AnimatedSprites(**bw_data["animated"])
+                    versions["black_white"] = GenerationSprites(**bw_data)
+                    del versions["black-white"]
+
+                sprites_data["versions"] = Versions(**versions)
+
+            data["sprites"] = Sprites(**sprites_data)
+
+        # Convert cries dict to Cries dataclass
+        if "cries" in data and isinstance(data["cries"], dict):
+            data["cries"] = Cries(**data["cries"])
+
+        # Convert stats dict to Stats dataclass
+        # Handle kebab-case keys: special-attack and special-defense
+        if "stats" in data and isinstance(data["stats"], dict):
+            stats_data = data["stats"]
+            if "special-attack" in stats_data:
+                stats_data["special_attack"] = stats_data.pop("special-attack")
+            if "special-defense" in stats_data:
+                stats_data["special_defense"] = stats_data.pop("special-defense")
+            data["stats"] = Stats(**stats_data)
+
+        # Convert abilities list of dicts to list of PokemonAbility dataclasses
+        if "abilities" in data and isinstance(data["abilities"], list):
+            data["abilities"] = [
+                PokemonAbility(**ability) if isinstance(ability, dict) else ability
+                for ability in data["abilities"]
+            ]
+
+        # Convert ev_yield list of dicts to list of EVYield dataclasses
+        if "ev_yield" in data and isinstance(data["ev_yield"], list):
+            data["ev_yield"] = [
+                EVYield(**ev) if isinstance(ev, dict) else ev for ev in data["ev_yield"]
+            ]
+
+        # Convert moves dict to PokemonMoves dataclass
+        if "moves" in data and isinstance(data["moves"], dict):
+            moves_data = data["moves"]
+
+            # Convert each move list to MoveLearn objects
+            for move_type in ["egg", "tutor", "machine", "level-up"]:
+                if move_type in moves_data and isinstance(moves_data[move_type], list):
+                    moves_data[move_type] = [
+                        MoveLearn(**move) if isinstance(move, dict) else move
+                        for move in moves_data[move_type]
+                    ]
+
+            # Rename level-up to level_up for dataclass
+            if "level-up" in moves_data:
+                moves_data["level_up"] = moves_data.pop("level-up")
+
+            data["moves"] = PokemonMoves(**moves_data)
+
         # Convert evolution_chain dict to EvolutionChain dataclass
         if "evolution_chain" in data and isinstance(data["evolution_chain"], dict):
             data["evolution_chain"] = PokeDBLoader._dict_to_evolution_chain(
@@ -237,7 +343,9 @@ class PokeDBLoader:
             return []
 
     @classmethod
-    def _load_json(cls, category: str, name: str, subfolder: Optional[str] = None) -> dict:
+    def _load_json(
+        cls, category: str, name: str, subfolder: Optional[str] = None
+    ) -> dict:
         """
         Load a JSON file from the PokeDB directory.
 
@@ -332,7 +440,9 @@ class PokeDBLoader:
 
         # Check cache first
         if cache_key in PokeDBLoader._pokemon_cache:
-            logger.debug(f"Loading Pokemon '{name}' from cache (subfolder: {subfolder})")
+            logger.debug(
+                f"Loading Pokemon '{name}' from cache (subfolder: {subfolder})"
+            )
             return PokeDBLoader._pokemon_cache[cache_key]
 
         # Load from file
@@ -343,7 +453,9 @@ class PokeDBLoader:
 
         # Cache the result
         PokeDBLoader._pokemon_cache[cache_key] = pokemon
-        logger.debug(f"Cached Pokemon '{name}' (cache size: {len(PokeDBLoader._pokemon_cache)})")
+        logger.debug(
+            f"Cached Pokemon '{name}' (cache size: {len(PokeDBLoader._pokemon_cache)})"
+        )
 
         return pokemon
 
@@ -354,7 +466,7 @@ class PokeDBLoader:
         dataclass_type: type,
         subfolder: Optional[str] = None,
         convert_nested: bool = False,
-    ) -> dict[str, any]:
+    ) -> dict[str, Any]:
         """
         Generic method to load all items of a given category.
 
@@ -386,7 +498,9 @@ class PokeDBLoader:
         Returns:
             dict: Mapping of pokemon name to data
         """
-        return PokeDBLoader._load_all_generic("pokemon", Pokemon, subfolder, convert_nested=True)
+        return PokeDBLoader._load_all_generic(
+            "pokemon", Pokemon, subfolder, convert_nested=True
+        )
 
     @staticmethod
     def load_move(name: str) -> Move:
@@ -553,7 +667,9 @@ class PokeDBLoader:
             key for key in PokeDBLoader._pokemon_cache.keys() if key[0] == name
         ]
         if keys_to_remove:
-            logger.debug(f"Invalidating {len(keys_to_remove)} cache entries for '{name}'")
+            logger.debug(
+                f"Invalidating {len(keys_to_remove)} cache entries for '{name}'"
+            )
             for key in keys_to_remove:
                 del PokeDBLoader._pokemon_cache[key]
 

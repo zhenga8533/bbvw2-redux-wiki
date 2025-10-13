@@ -290,6 +290,7 @@ class MoveLearn:
 
 @dataclass
 class PokemonMoves:
+    egg: list[MoveLearn]
     tutor: list[MoveLearn]
     machine: list[MoveLearn]
     level_up: list[MoveLearn] = field(metadata={"data_key": "level-up"})

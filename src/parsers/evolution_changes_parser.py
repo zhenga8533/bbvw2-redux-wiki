@@ -9,8 +9,9 @@ This parser:
 
 import re
 
-from src.utils.constants import POKEMON_PATTERN, POKEMON_PATTERN_STR
+from src.utils.constants import POKEMON_PATTERN_STR
 from src.utils.text_utils import name_to_id
+from src.utils.markdown_utils import format_pokemon_with_sprite
 from src.models.pokedb import (
     EvolutionChain,
     EvolutionDetails,
@@ -46,8 +47,8 @@ class EvolutionChangesParser(BaseParser):
         self._current_section = new_section
 
         if new_section == "Evolution Changes":
-            self._markdown += "| Dex Num | Pokémon | Evolution | New Method |\n"
-            self._markdown += "|---------|:-------:|-----------|------------|\n"
+            self._markdown += "| Dex # | Pokémon | Evolution | New Method |\n"
+            self._markdown += "|:-----:|:-------:|:---------:|------------|\n"
 
     def parse_general_notes(self, line: str) -> None:
         """Parse a line from the General Notes section."""
@@ -64,12 +65,37 @@ class EvolutionChangesParser(BaseParser):
                 match.groups()
             )
             evolution, evolution_text = self.parse_evolution_text(evolution_text)
-            self._markdown += f"| {self._current_dex_num} | {self._current_pokemon} | {evolution} | {evolution_text} |\n"
+            self._add_evolution_row(evolution, evolution_text)
             self.parse_evolution_method(evolution, evolution_text)
         elif line and self._current_pokemon:
             evolution, evolution_text = self.parse_evolution_text(line)
-            self._markdown += f"| {self._current_dex_num} | {self._current_pokemon} | {evolution} | {evolution_text} |\n"
+            self._add_evolution_row(evolution, evolution_text)
             self.parse_evolution_method(evolution, evolution_text)
+
+    def _add_evolution_row(self, evolution: str, evolution_text: str) -> None:
+        """
+        Add a row to the evolution table with Pokemon sprites.
+
+        Args:
+            evolution: Name of the evolution target Pokemon
+            evolution_text: Description of the evolution method
+        """
+        # Format Pokemon with sprites and links
+        from_pokemon_md = format_pokemon_with_sprite(
+            self._current_pokemon,
+            pokedex_base_path="../pokedex"
+        )
+
+        if evolution:
+            to_pokemon_md = format_pokemon_with_sprite(
+                evolution,
+                pokedex_base_path="../pokedex"
+            )
+        else:
+            to_pokemon_md = ""
+
+        # Add table row
+        self._markdown += f"| {self._current_dex_num} | {from_pokemon_md} | {to_pokemon_md} | {evolution_text} |\n"
 
     def parse_evolution_text(self, text: str) -> tuple[str, str]:
         """
