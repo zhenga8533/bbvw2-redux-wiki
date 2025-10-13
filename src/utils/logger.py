@@ -205,8 +205,21 @@ def setup_logger(
 
     # File handler with rotation
     if log_file is None:
-        # Use module-specific log file
-        log_file = f"{name.replace('.', '_')}.log"
+        # Use module-specific log file with directory structure
+        # Remove 'src.' prefix if present and create subdirectories
+        module_path = name
+        if module_path.startswith('src.'):
+            module_path = module_path[4:]  # Remove 'src.' prefix
+
+        # Split into directory components and filename
+        parts = module_path.split('.')
+        if len(parts) > 1:
+            # Create subdirectories for nested modules
+            subdir = LOG_DIR / '/'.join(parts[:-1])
+            subdir.mkdir(parents=True, exist_ok=True)
+            log_file = '/'.join(parts[:-1]) + '/' + parts[-1] + '.log'
+        else:
+            log_file = f"{module_path}.log"
 
     file_path = LOG_DIR / log_file
 

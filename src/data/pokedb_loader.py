@@ -125,6 +125,39 @@ class PokeDBLoader:
         return None
 
     @staticmethod
+    def find_all_form_files(pokemon_id: str) -> list[tuple[str, str]]:
+        """
+        Find all form files for a given Pokemon by reading the forms field.
+
+        This method loads the Pokemon data and returns all forms listed in
+        the "forms" field, including their names and categories.
+
+        Args:
+            pokemon_id: The Pokemon species ID (e.g., 'wormadam')
+
+        Returns:
+            List of tuples (form_name, category) for all forms of this Pokemon.
+            Returns empty list if Pokemon has no forms field or doesn't exist.
+
+        Example:
+            >>> PokeDBLoader.find_all_form_files('wormadam')
+            [('wormadam-plant', 'default'), ('wormadam-sandy', 'variant'), ...]
+        """
+        try:
+            # Load the base Pokemon data to get the forms list
+            pokemon = PokeDBLoader.load_pokemon(pokemon_id)
+
+            if not pokemon.forms:
+                # If no forms field, return just the base Pokemon
+                return [(pokemon_id, "default")]
+
+            # Return all forms from the forms field
+            return [(form.name, form.category) for form in pokemon.forms]
+        except FileNotFoundError:
+            # If file not found, return empty list
+            return []
+
+    @staticmethod
     def _load_json(category: str, name: str, subfolder: Optional[str] = None) -> dict:
         """
         Load a JSON file from the PokeDB directory.

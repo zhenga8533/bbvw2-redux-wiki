@@ -160,8 +160,39 @@ class EvolutionService:
 
     @staticmethod
     def _save_evolution_node(pokemon_id: str, evolution_chain: EvolutionChain):
-        """Save the evolution node to a file."""
-        logger.debug(f"Saving evolution chain for {pokemon_id}")
-        pokemon_data = PokeDBLoader.load_pokemon(pokemon_id)
-        pokemon_data.evolution_chain = evolution_chain
-        PokeDBLoader.save_pokemon(pokemon_id, pokemon_data)
+        """
+        Save the evolution node to all form files for this Pokemon.
+
+        This ensures that Pokemon with multiple forms (e.g., wormadam-plant,
+        wormadam-sandy) all get the updated evolution chain.
+        """
+        # Get all form files for this Pokemon
+        form_files = PokeDBLoader.find_all_form_files(pokemon_id)
+
+        if not form_files:
+            logger.warning(
+                f"No form files found for {pokemon_id}, attempting default save"
+            )
+            # Fallback: try to save to the default location
+            try:
+                pokemon_data = PokeDBLoader.load_pokemon(pokemon_id)
+                pokemon_data.evolution_chain = evolution_chain
+                PokeDBLoader.save_pokemon(pokemon_id, pokemon_data)
+                logger.debug(f"Saved evolution chain for {pokemon_id}")
+            except FileNotFoundError:
+                logger.error(f"Could not find or save {pokemon_id}")
+            return
+
+        # Save to all form files
+        for form_name, category in form_files:
+            try:
+                logger.debug(
+                    f"Saving evolution chain for {pokemon_id} form: {form_name} (category: {category})"
+                )
+                pokemon_data = PokeDBLoader.load_pokemon(form_name, subfolder=category)
+                pokemon_data.evolution_chain = evolution_chain
+                PokeDBLoader.save_pokemon(form_name, pokemon_data, subfolder=category)
+            except FileNotFoundError:
+                logger.warning(
+                    f"Form file not found: {form_name} in {category}, skipping"
+                )
