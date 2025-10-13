@@ -20,7 +20,37 @@ data/pokedb/
 """
 
 from dataclasses import dataclass, field
-from typing import Any, Dict, List, Literal, Optional
+from typing import Any, Literal, Optional
+
+
+# Pokemon Constants
+MIN_ABILITY_SLOT = 1
+MAX_ABILITY_SLOTS = 3
+MIN_EV_YIELD = 0
+MAX_EV_YIELD = 3
+MIN_POKEMON_LEVEL = 1
+MAX_POKEMON_LEVEL = 100
+MIN_STAT_VALUE = 0
+MIN_HAPPINESS = 0
+MAX_HAPPINESS = 255
+MIN_BEAUTY = 0
+MAX_BEAUTY = 255
+MIN_AFFECTION = 0
+MAX_AFFECTION = 255
+MIN_CAPTURE_RATE = 0
+MAX_CAPTURE_RATE = 255
+MIN_GENDER_RATE = -1
+MAX_GENDER_RATE = 8
+GENDER_FEMALE = 1
+GENDER_MALE = 2
+
+# Move Constants
+MIN_MOVE_PRIORITY = -7
+MAX_MOVE_PRIORITY = 5
+MIN_PERCENTAGE = 0
+MAX_PERCENTAGE = 100
+MIN_DRAIN_HEALING = -100
+MAX_DRAIN_HEALING = 100
 
 
 # region Helper Classes for Pokémon Structure
@@ -38,8 +68,8 @@ class PokemonAbility:
             raise ValueError(f"Ability name must be a non-empty string, got: {self.name}")
         if not isinstance(self.is_hidden, bool):
             raise ValueError(f"is_hidden must be a boolean, got: {type(self.is_hidden)}")
-        if not isinstance(self.slot, int) or self.slot < 1 or self.slot > 3:
-            raise ValueError(f"Ability slot must be an integer between 1 and 3, got: {self.slot}")
+        if not isinstance(self.slot, int) or self.slot < MIN_ABILITY_SLOT or self.slot > MAX_ABILITY_SLOTS:
+            raise ValueError(f"Ability slot must be an integer between {MIN_ABILITY_SLOT} and {MAX_ABILITY_SLOTS}, got: {self.slot}")
 
 
 @dataclass
@@ -58,7 +88,7 @@ class Stats:
         stat_fields = ['hp', 'attack', 'defense', 'special_attack', 'special_defense', 'speed']
         for field_name in stat_fields:
             value = getattr(self, field_name)
-            if not isinstance(value, int) or value < 0:
+            if not isinstance(value, int) or value < MIN_STAT_VALUE:
                 raise ValueError(f"{field_name} must be a non-negative integer, got: {value}")
 
 
@@ -74,8 +104,8 @@ class EVYield:
         valid_stats = {'hp', 'attack', 'defense', 'special_attack', 'special_defense', 'speed'}
         if not isinstance(self.stat, str) or self.stat not in valid_stats:
             raise ValueError(f"stat must be one of {valid_stats}, got: {self.stat}")
-        if not isinstance(self.effort, int) or self.effort < 0 or self.effort > 3:
-            raise ValueError(f"effort must be an integer between 0 and 3, got: {self.effort}")
+        if not isinstance(self.effort, int) or self.effort < MIN_EV_YIELD or self.effort > MAX_EV_YIELD:
+            raise ValueError(f"effort must be an integer between {MIN_EV_YIELD} and {MAX_EV_YIELD}, got: {self.effort}")
 
 
 @dataclass
@@ -201,16 +231,16 @@ class EvolutionDetails:
             raise ValueError(f"turn_upside_down must be a boolean, got: {type(self.turn_upside_down)}")
 
         # Validate optional integer fields with reasonable ranges
-        if self.gender is not None and (not isinstance(self.gender, int) or self.gender not in (1, 2)):
-            raise ValueError(f"gender must be None or 1 (female) or 2 (male), got: {self.gender}")
-        if self.min_level is not None and (not isinstance(self.min_level, int) or self.min_level < 1 or self.min_level > 100):
-            raise ValueError(f"min_level must be None or between 1 and 100, got: {self.min_level}")
-        if self.min_happiness is not None and (not isinstance(self.min_happiness, int) or self.min_happiness < 0 or self.min_happiness > 255):
-            raise ValueError(f"min_happiness must be None or between 0 and 255, got: {self.min_happiness}")
-        if self.min_beauty is not None and (not isinstance(self.min_beauty, int) or self.min_beauty < 0 or self.min_beauty > 255):
-            raise ValueError(f"min_beauty must be None or between 0 and 255, got: {self.min_beauty}")
-        if self.min_affection is not None and (not isinstance(self.min_affection, int) or self.min_affection < 0 or self.min_affection > 255):
-            raise ValueError(f"min_affection must be None or between 0 and 255, got: {self.min_affection}")
+        if self.gender is not None and (not isinstance(self.gender, int) or self.gender not in (GENDER_FEMALE, GENDER_MALE)):
+            raise ValueError(f"gender must be None or {GENDER_FEMALE} (female) or {GENDER_MALE} (male), got: {self.gender}")
+        if self.min_level is not None and (not isinstance(self.min_level, int) or self.min_level < MIN_POKEMON_LEVEL or self.min_level > MAX_POKEMON_LEVEL):
+            raise ValueError(f"min_level must be None or between {MIN_POKEMON_LEVEL} and {MAX_POKEMON_LEVEL}, got: {self.min_level}")
+        if self.min_happiness is not None and (not isinstance(self.min_happiness, int) or self.min_happiness < MIN_HAPPINESS or self.min_happiness > MAX_HAPPINESS):
+            raise ValueError(f"min_happiness must be None or between {MIN_HAPPINESS} and {MAX_HAPPINESS}, got: {self.min_happiness}")
+        if self.min_beauty is not None and (not isinstance(self.min_beauty, int) or self.min_beauty < MIN_BEAUTY or self.min_beauty > MAX_BEAUTY):
+            raise ValueError(f"min_beauty must be None or between {MIN_BEAUTY} and {MAX_BEAUTY}, got: {self.min_beauty}")
+        if self.min_affection is not None and (not isinstance(self.min_affection, int) or self.min_affection < MIN_AFFECTION or self.min_affection > MAX_AFFECTION):
+            raise ValueError(f"min_affection must be None or between {MIN_AFFECTION} and {MAX_AFFECTION}, got: {self.min_affection}")
         if self.relative_physical_stats is not None and (not isinstance(self.relative_physical_stats, int) or self.relative_physical_stats not in (-1, 0, 1)):
             raise ValueError(f"relative_physical_stats must be None, -1, 0, or 1, got: {self.relative_physical_stats}")
 
@@ -218,7 +248,7 @@ class EvolutionDetails:
 @dataclass
 class EvolutionNode:
     species_name: str
-    evolves_to: List["EvolutionNode"]
+    evolves_to: list["EvolutionNode"]
     evolution_details: Optional[EvolutionDetails] = None
 
     def __post_init__(self):
@@ -232,7 +262,7 @@ class EvolutionNode:
 @dataclass
 class EvolutionChain:
     species_name: str = ""
-    evolves_to: List[EvolutionNode] = field(default_factory=list)
+    evolves_to: list[EvolutionNode] = field(default_factory=list)
 
     def __post_init__(self):
         """Validate evolution chain fields."""
@@ -246,7 +276,7 @@ class EvolutionChain:
 class MoveLearn:
     name: str
     level_learned_at: int
-    version_groups: List[str]
+    version_groups: list[str]
 
     def __post_init__(self):
         """Validate move learn fields."""
@@ -260,9 +290,9 @@ class MoveLearn:
 
 @dataclass
 class PokemonMoves:
-    tutor: List[MoveLearn]
-    machine: List[MoveLearn]
-    level_up: List[MoveLearn] = field(metadata={"data_key": "level-up"})
+    tutor: list[MoveLearn]
+    machine: list[MoveLearn]
+    level_up: list[MoveLearn] = field(metadata={"data_key": "level-up"})
 
 
 # endregion
@@ -300,14 +330,14 @@ class MoveMetadata:
         # Validate percentage/chance fields (0-100)
         for field_name in ['crit_rate', 'ailment_chance', 'flinch_chance', 'stat_chance']:
             value = getattr(self, field_name)
-            if not isinstance(value, int) or value < 0 or value > 100:
-                raise ValueError(f"{field_name} must be an integer between 0 and 100, got: {value}")
+            if not isinstance(value, int) or value < MIN_PERCENTAGE or value > MAX_PERCENTAGE:
+                raise ValueError(f"{field_name} must be an integer between {MIN_PERCENTAGE} and {MAX_PERCENTAGE}, got: {value}")
 
         # Validate drain and healing (-100 to 100, can be negative for drain)
         for field_name in ['drain', 'healing']:
             value = getattr(self, field_name)
-            if not isinstance(value, int) or value < -100 or value > 100:
-                raise ValueError(f"{field_name} must be an integer between -100 and 100, got: {value}")
+            if not isinstance(value, int) or value < MIN_DRAIN_HEALING or value > MAX_DRAIN_HEALING:
+                raise ValueError(f"{field_name} must be an integer between {MIN_DRAIN_HEALING} and {MAX_DRAIN_HEALING}, got: {value}")
 
 
 # endregion
@@ -324,11 +354,11 @@ class Item:
     cost: int
     fling_power: int
     fling_effect: Optional[str]
-    attributes: List[str]
+    attributes: list[str]
     category: str
     effect: str
     short_effect: str
-    flavor_text: Dict[str, str]
+    flavor_text: dict[str, str]
     sprite: str
 
     def __post_init__(self):
@@ -351,9 +381,9 @@ class Ability:
     name: str
     source_url: str
     is_main_series: bool
-    effect: Dict[str, str]
+    effect: dict[str, str]
     short_effect: str
-    flavor_text: Dict[str, str]
+    flavor_text: dict[str, str]
 
     def __post_init__(self):
         """Validate ability fields."""
@@ -372,19 +402,19 @@ class Move:
     id: int
     name: str
     source_url: str
-    accuracy: Dict[str, int]
-    power: Dict[str, Optional[int]]
-    pp: Dict[str, int]
+    accuracy: dict[str, int]
+    power: dict[str, Optional[int]]
+    pp: dict[str, int]
     priority: int
     damage_class: str
-    type: Dict[str, str]
+    type: dict[str, str]
     target: str
     generation: str
-    effect_chance: Dict[str, Optional[int]]
-    effect: Dict[str, str]
-    short_effect: Dict[str, str]
-    flavor_text: Dict[str, str]
-    stat_changes: List[Any]
+    effect_chance: dict[str, Optional[int]]
+    effect: dict[str, str]
+    short_effect: dict[str, str]
+    flavor_text: dict[str, str]
+    stat_changes: list[Any]
     machine: Optional[Any]
     metadata: MoveMetadata
 
@@ -394,8 +424,8 @@ class Move:
             raise ValueError(f"id must be a positive integer, got: {self.id}")
         if not isinstance(self.name, str) or not self.name.strip():
             raise ValueError(f"name must be a non-empty string, got: {self.name}")
-        if not isinstance(self.priority, int) or self.priority < -7 or self.priority > 5:
-            raise ValueError(f"priority must be an integer between -7 and 5, got: {self.priority}")
+        if not isinstance(self.priority, int) or self.priority < MIN_MOVE_PRIORITY or self.priority > MAX_MOVE_PRIORITY:
+            raise ValueError(f"priority must be an integer between {MIN_MOVE_PRIORITY} and {MAX_MOVE_PRIORITY}, got: {self.priority}")
 
 
 @dataclass
@@ -423,10 +453,10 @@ class Pokemon:
     species: str
     is_default: bool
     source_url: str
-    types: List[str]
-    abilities: List[PokemonAbility]
+    types: list[str]
+    abilities: list[PokemonAbility]
     stats: Stats
-    ev_yield: List[EVYield]
+    ev_yield: list[EVYield]
     height: int
     weight: int
     cries: Cries
@@ -440,17 +470,17 @@ class Pokemon:
     is_baby: bool
     is_legendary: bool
     is_mythical: bool
-    pokedex_numbers: Dict[str, int]
+    pokedex_numbers: dict[str, int]
     color: str
     shape: str
-    egg_groups: List[str]
-    flavor_text: Dict[str, str]
+    egg_groups: list[str]
+    flavor_text: dict[str, str]
     genus: str
     generation: str
     evolution_chain: EvolutionChain
-    held_items: Dict[str, Dict[str, int]]
+    held_items: dict[str, dict[str, int]]
     moves: PokemonMoves
-    forms: List[Form]
+    forms: list[Form]
 
     def __post_init__(self):
         """Validate Pokemon fields."""
@@ -468,16 +498,16 @@ class Pokemon:
             raise ValueError(f"height must be a non-negative integer, got: {self.height}")
         if not isinstance(self.weight, int) or self.weight < 0:
             raise ValueError(f"weight must be a non-negative integer, got: {self.weight}")
-        if not isinstance(self.base_experience, int) or self.base_experience < 0:
+        if not isinstance(self.base_experience, int) or self.base_experience < MIN_STAT_VALUE:
             raise ValueError(f"base_experience must be a non-negative integer, got: {self.base_experience}")
-        if not isinstance(self.base_happiness, int) or self.base_happiness < 0 or self.base_happiness > 255:
-            raise ValueError(f"base_happiness must be between 0 and 255, got: {self.base_happiness}")
-        if not isinstance(self.capture_rate, int) or self.capture_rate < 0 or self.capture_rate > 255:
-            raise ValueError(f"capture_rate must be between 0 and 255, got: {self.capture_rate}")
-        if not isinstance(self.hatch_counter, int) or self.hatch_counter < 0:
+        if not isinstance(self.base_happiness, int) or self.base_happiness < MIN_HAPPINESS or self.base_happiness > MAX_HAPPINESS:
+            raise ValueError(f"base_happiness must be between {MIN_HAPPINESS} and {MAX_HAPPINESS}, got: {self.base_happiness}")
+        if not isinstance(self.capture_rate, int) or self.capture_rate < MIN_CAPTURE_RATE or self.capture_rate > MAX_CAPTURE_RATE:
+            raise ValueError(f"capture_rate must be between {MIN_CAPTURE_RATE} and {MAX_CAPTURE_RATE}, got: {self.capture_rate}")
+        if not isinstance(self.hatch_counter, int) or self.hatch_counter < MIN_STAT_VALUE:
             raise ValueError(f"hatch_counter must be a non-negative integer, got: {self.hatch_counter}")
-        if not isinstance(self.gender_rate, int) or self.gender_rate < -1 or self.gender_rate > 8:
-            raise ValueError(f"gender_rate must be between -1 and 8, got: {self.gender_rate}")
+        if not isinstance(self.gender_rate, int) or self.gender_rate < MIN_GENDER_RATE or self.gender_rate > MAX_GENDER_RATE:
+            raise ValueError(f"gender_rate must be between {MIN_GENDER_RATE} and {MAX_GENDER_RATE}, got: {self.gender_rate}")
 
 
 # endregion

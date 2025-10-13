@@ -4,12 +4,12 @@ PokeDB initializer to download and set up data from a GitHub repository.
 
 import shutil
 import json
+import os
 import requests
 import traceback
 import zipfile
 import io
 from pathlib import Path
-from typing import List, Tuple
 from src.utils.logger import get_logger
 
 logger = get_logger(__name__)
@@ -26,7 +26,7 @@ class PokeDBInitializer:
         self.branch = pokedb_config.get("branch")
         self.data_dir = Path(pokedb_config.get("data_dir", "data/pokedb"))
         self.parsed_dir = self.data_dir / "parsed"
-        self.generations: List[str] = pokedb_config.get("generations", [])
+        self.generations: list[str] = pokedb_config.get("generations", [])
         self.repo_owner, self.repo_name = self._parse_repo_url()
 
     def _load_config(self, config_path: str) -> dict:
@@ -41,7 +41,7 @@ class PokeDBInitializer:
             logger.error(f"Invalid JSON in config file: {e}")
             raise
 
-    def _parse_repo_url(self) -> Tuple[str, str]:
+    def _parse_repo_url(self) -> tuple[str, str]:
         """Parse the repository owner and name from the URL."""
         if not self.repo_url:
             raise ValueError("Repository URL is not defined in the config.")
@@ -100,6 +100,13 @@ class PokeDBInitializer:
             logger.info(
                 f"Data directory '{self.data_dir}' already exists and is not empty."
             )
+
+            # Check for non-interactive mode
+            skip_prompt = os.getenv("WIKI_NON_INTERACTIVE", "false").lower() in ("true", "1", "yes")
+            if skip_prompt:
+                logger.info("Non-interactive mode: skipping re-download")
+                return
+
             try:
                 user_input = input(
                     "Do you want to re-download and replace it? (yes/no): "

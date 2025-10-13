@@ -5,7 +5,7 @@ Helper utilities for loading PokeDB JSON data into dataclass structures.
 import json
 from dataclasses import asdict
 from pathlib import Path
-from typing import Dict, Optional
+from typing import Optional
 
 from src.models.pokedb import (
     Pokemon,
@@ -37,8 +37,6 @@ class PokeDBLoader:
       or if you need fresh data from disk
     - Memory usage: In long-running processes, the cache can grow large.
       Call clear_cache() periodically if memory is a concern
-    - Thread safety: This class is NOT thread-safe. Do not use concurrently
-      from multiple threads without external synchronization
     - Testing: Call clear_cache() between tests to ensure isolation
 
     The cache is automatically invalidated when saving Pokemon via save_pokemon().
@@ -47,13 +45,24 @@ class PokeDBLoader:
     - Use set_data_dir() to override the default data directory path
     - Use get_data_dir() to retrieve the current data directory path
     - The default path is: <project_root>/data/pokedb/parsed
+
+    Thread Safety:
+    ⚠️  WARNING: This class is NOT thread-safe!
+    - Class-level state (_data_dir, _pokemon_cache) is shared across all instances
+    - Concurrent access from multiple threads can lead to race conditions
+    - DO NOT use this class concurrently from multiple threads without external
+      synchronization (e.g., threading.Lock)
+    - If thread safety is required, implement proper locking around:
+      * Cache reads/writes (_pokemon_cache access)
+      * Data directory changes (set_data_dir())
+      * File operations (save_pokemon())
     """
 
     # Class-level data directory (configurable, defaults to None = use default path)
     _data_dir: Optional[Path] = None
     # Class-level cache: intentionally shared across all instances
     # Maps (name, subfolder) -> Pokemon object
-    _pokemon_cache: Dict[tuple[str, str], Pokemon] = {}
+    _pokemon_cache: dict[tuple[str, str], Pokemon] = {}
 
     @classmethod
     def get_data_dir(cls) -> Path:
@@ -271,7 +280,7 @@ class PokeDBLoader:
     @classmethod
     def _load_all_json(
         cls, category: str, subfolder: Optional[str] = None
-    ) -> Dict[str, dict]:
+    ) -> dict[str, dict]:
         """
         Load all JSON files from a category folder.
 
@@ -338,8 +347,36 @@ class PokeDBLoader:
 
         return pokemon
 
+    @classmethod
+    def _load_all_generic(
+        cls,
+        category: str,
+        dataclass_type: type,
+        subfolder: Optional[str] = None,
+        convert_nested: bool = False,
+    ) -> dict[str, any]:
+        """
+        Generic method to load all items of a given category.
+
+        Args:
+            category: The category folder (pokemon, move, ability, item)
+            dataclass_type: The dataclass type to instantiate
+            subfolder: Optional subfolder within category
+            convert_nested: Whether to convert nested dataclasses (for Pokemon)
+
+        Returns:
+            dict: Mapping of item name to dataclass objects
+        """
+        raw_data = cls._load_all_json(category, subfolder)
+        result = {}
+        for name, data in raw_data.items():
+            if convert_nested:
+                data = cls._convert_nested_dataclasses(data)
+            result[name] = dataclass_type(**data)
+        return result
+
     @staticmethod
-    def load_all_pokemon(subfolder: str = "default") -> Dict[str, Pokemon]:
+    def load_all_pokemon(subfolder: str = "default") -> dict[str, Pokemon]:
         """
         Load all Pokemon from a specific subfolder.
 
@@ -349,12 +386,7 @@ class PokeDBLoader:
         Returns:
             dict: Mapping of pokemon name to data
         """
-        raw_data = PokeDBLoader._load_all_json("pokemon", subfolder)
-        result = {}
-        for name, data in raw_data.items():
-            data = PokeDBLoader._convert_nested_dataclasses(data)
-            result[name] = Pokemon(**data)
-        return result
+        return PokeDBLoader._load_all_generic("pokemon", Pokemon, subfolder, convert_nested=True)
 
     @staticmethod
     def load_move(name: str) -> Move:
@@ -380,15 +412,14 @@ class PokeDBLoader:
         return Move(**data)
 
     @staticmethod
-    def load_all_moves() -> Dict[str, Move]:
+    def load_all_moves() -> dict[str, Move]:
         """
         Load all moves and return as Move dataclasses.
 
         Returns:
             dict: Mapping of move name to Move dataclass objects
         """
-        raw_data = PokeDBLoader._load_all_json("move")
-        return {name: Move(**data) for name, data in raw_data.items()}
+        return PokeDBLoader._load_all_generic("move", Move)
 
     @staticmethod
     def load_ability(name: str) -> Ability:
@@ -412,15 +443,14 @@ class PokeDBLoader:
         return Ability(**data)
 
     @staticmethod
-    def load_all_abilities() -> Dict[str, Ability]:
+    def load_all_abilities() -> dict[str, Ability]:
         """
         Load all abilities and return as Ability dataclasses.
 
         Returns:
             dict: Mapping of ability name to Ability dataclass objects
         """
-        raw_data = PokeDBLoader._load_all_json("ability")
-        return {name: Ability(**data) for name, data in raw_data.items()}
+        return PokeDBLoader._load_all_generic("ability", Ability)
 
     @staticmethod
     def load_item(name: str) -> Item:
@@ -446,15 +476,14 @@ class PokeDBLoader:
         return Item(**data)
 
     @staticmethod
-    def load_all_items() -> Dict[str, Item]:
+    def load_all_items() -> dict[str, Item]:
         """
         Load all items and return as Item dataclasses.
 
         Returns:
             dict: Mapping of item name to Item dataclass objects
         """
-        raw_data = PokeDBLoader._load_all_json("item")
-        return {name: Item(**data) for name, data in raw_data.items()}
+        return PokeDBLoader._load_all_generic("item", Item)
 
     @classmethod
     def get_pokemon_count(cls, subfolder: str = "default") -> int:

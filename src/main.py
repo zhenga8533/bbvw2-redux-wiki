@@ -209,7 +209,7 @@ Examples:
         logger.info("Complete!")
         sys.exit(0)
     else:
-        logger.error("Completed with errors")
+        logger.error("Completed with errors.")
         sys.exit(1)
 
 

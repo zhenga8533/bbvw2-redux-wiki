@@ -4,7 +4,7 @@ Base parser class for processing documentation files and generating markdown out
 
 from abc import ABC, abstractmethod
 from pathlib import Path
-from typing import Any, Dict, Optional, Tuple
+from typing import Optional
 from ..utils.logger import get_logger
 import json
 import re
@@ -23,6 +23,16 @@ class BaseParser(ABC):
 
     Configuration:
     - Use set_project_root() to override the default project root for testing
+
+    Thread Safety:
+    ⚠️  WARNING: This class is NOT thread-safe!
+    - The class-level _project_root is shared across all parser instances
+    - Concurrent access from multiple threads can lead to race conditions
+    - DO NOT use parsers concurrently from multiple threads without external
+      synchronization (e.g., threading.Lock)
+    - If thread safety is required, implement proper locking around:
+      * Project root changes (set_project_root())
+      * File operations (parse(), save_markdown())
     """
 
     # Class-level project root (configurable for testing)

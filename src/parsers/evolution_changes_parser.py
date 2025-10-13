@@ -9,7 +9,7 @@ This parser:
 
 import re
 
-from src.utils.constants import POKEMON_PATTERN
+from src.utils.constants import POKEMON_PATTERN, POKEMON_PATTERN_STR
 from src.utils.text_utils import name_to_id
 from src.models.pokedb import (
     EvolutionChain,
@@ -57,7 +57,7 @@ class EvolutionChangesParser(BaseParser):
         """Parse a line from the Evolution Changes section and update data."""
 
         # Matches: dex_num name (spaces) evolution_text
-        pattern = rf"^(\d+) {POKEMON_PATTERN}\s+(.*)"
+        pattern = rf"^(\d+) {POKEMON_PATTERN_STR}\s+(.*)"
 
         if match := re.match(pattern, line):
             self._current_dex_num, self._current_pokemon, evolution_text = (
@@ -82,7 +82,7 @@ class EvolutionChangesParser(BaseParser):
             Tuple of (evolution_pokemon_name, evolution_method_text)
             Returns ("", "") if the text doesn't match the expected pattern
         """
-        pattern = rf"Now evolves into {POKEMON_PATTERN} (.*)\."
+        pattern = rf"Now evolves into {POKEMON_PATTERN_STR} (.*)\."
         if match := re.match(pattern, text):
             groups = match.groups()
 
@@ -116,20 +116,21 @@ class EvolutionChangesParser(BaseParser):
         )
 
         # Check for gender requirement
+        # Note: Gender values follow Pokemon API convention: 1 = female, 2 = male
         gender = None
         if " if " in method_text and " is female" in method_text:
             gender = 1
-            method_text = re.sub(rf" if {POKEMON_PATTERN} is female", "", method_text)
+            method_text = re.sub(rf" if {POKEMON_PATTERN_STR} is female", "", method_text)
         elif " if " in method_text and " is male" in method_text:
-            gender = 0
-            method_text = re.sub(rf" if {POKEMON_PATTERN} is male", "", method_text)
+            gender = 2
+            method_text = re.sub(rf" if {POKEMON_PATTERN_STR} is male", "", method_text)
 
         patterns = {
             "level": r"at Level (\d+)",
             "item": r"via the use of a(?:n)? (.+)",
             "friendship": r"by leveling up while at (\d+)\+ friendship at any time of day",
             "move": r"by leveling up while knowing the move (.+)",
-            "party": rf"by leveling up when a {POKEMON_PATTERN} is in the party",
+            "party": rf"by leveling up when a {POKEMON_PATTERN_STR} is in the party",
         }
 
         # Load the Pokemon data
