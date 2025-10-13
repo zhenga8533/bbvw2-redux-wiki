@@ -30,15 +30,16 @@ class EvolutionChangesParser(BaseParser):
     """
 
     _SECTIONS = ["General Notes", "Evolution Changes"]
-    _parsed_data = {}
-
-    _current_section: str = ""
-    _current_dex_num: str = ""
-    _current_pokemon: str = ""
 
     def __init__(self, input_file: str, output_dir: str = "docs"):
         """Initialize the Evolution Changes parser."""
         super().__init__(input_file=input_file, output_dir=output_dir)
+
+        # Initialize instance variables to avoid shared state between parser instances
+        self._parsed_data: dict = {}
+        self._current_section: str = ""
+        self._current_dex_num: str = ""
+        self._current_pokemon: str = ""
 
     def handle_section_change(self, new_section: str) -> None:
         """Handle logic when changing sections, if needed."""
