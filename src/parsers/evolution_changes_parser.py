@@ -72,11 +72,29 @@ class EvolutionChangesParser(BaseParser):
             self.parse_evolution_method(evolution, evolution_text)
 
     def parse_evolution_text(self, text: str) -> tuple[str, str]:
-        """Extract evolution and method from text."""
+        """
+        Extract evolution and method from text.
+
+        Args:
+            text: The evolution text to parse
+
+        Returns:
+            Tuple of (evolution_pokemon_name, evolution_method_text)
+            Returns ("", "") if the text doesn't match the expected pattern
+        """
         pattern = rf"Now evolves into {POKEMON_PATTERN} (.*)\."
         if match := re.match(pattern, text):
             groups = match.groups()
-            return groups[0].strip(), f"Now evolves {groups[1].strip()}"
+
+            # Validate we have the expected number of groups
+            if len(groups) >= 2:
+                return groups[0].strip(), f"Now evolves {groups[1].strip()}"
+            else:
+                self.logger.warning(
+                    f"Unexpected regex match format in evolution text: '{text}' "
+                    f"(expected 2 groups, got {len(groups)})"
+                )
+                return "", ""
         else:
             return "", ""
 
