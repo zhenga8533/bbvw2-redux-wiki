@@ -152,14 +152,25 @@ class PokeDBInitializer:
             self._initialize_parsed_data()
 
         except requests.exceptions.RequestException as e:
-            logger.error(f"An error occurred during download: {e}")
+            logger.error(f"Network error during download: {e}", exc_info=True)
+            raise RuntimeError(f"Failed to download repository data: {e}") from e
+        except (zipfile.BadZipFile, ValueError) as e:
+            logger.error(f"Invalid repository data: {e}", exc_info=True)
+            raise RuntimeError(f"Failed to process repository archive: {e}") from e
+        except (OSError, IOError, PermissionError) as e:
+            logger.error(f"File system error during initialization: {e}", exc_info=True)
+            raise RuntimeError(f"Failed to create or copy files: {e}") from e
         except Exception as e:
-            logger.error(f"An unexpected error occurred: {e}")
-            logger.debug(traceback.format_exc())
+            logger.error(f"Unexpected error during initialization: {e}", exc_info=True)
+            raise
         finally:
+            # Always attempt cleanup, but don't fail if cleanup fails
             if extracted_repo_path and extracted_repo_path.parent.exists():
-                logger.info("Cleaning up temporary files...")
-                shutil.rmtree(extracted_repo_path.parent)
+                try:
+                    logger.info("Cleaning up temporary files...")
+                    shutil.rmtree(extracted_repo_path.parent)
+                except (OSError, PermissionError) as cleanup_error:
+                    logger.warning(f"Failed to clean up temporary files: {cleanup_error}")
 
 
 if __name__ == "__main__":

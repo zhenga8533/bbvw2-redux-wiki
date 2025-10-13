@@ -103,7 +103,7 @@ def run_parsers(parser_names: list[str]):
         logger.warning(
             "No parsers registered yet. Add parsers to main.py parser_registry."
         )
-        return
+        return False
 
     # Determine which parsers to run
     if "all" in parser_names:
@@ -117,7 +117,8 @@ def run_parsers(parser_names: list[str]):
             logger.info(f"Available parsers: {', '.join(parser_registry.keys())}")
             sys.exit(1)
 
-    # Run each parser
+    # Run each parser and track failures
+    failed_parsers = []
     for name in parsers_to_run:
         ParserClass, input_file, output_dir = parser_registry[name]
         logger.info(f"Running parser: {name}")
@@ -126,8 +127,28 @@ def run_parsers(parser_names: list[str]):
             parser = ParserClass(input_file, output_dir)
             markdown_path = parser.run()
             logger.info(f"✓ {name} completed: {markdown_path}")
+        except NotImplementedError as e:
+            logger.warning(f"⊘ {name} not yet implemented: {e}")
+            failed_parsers.append((name, "not implemented"))
+        except FileNotFoundError as e:
+            logger.error(f"✗ {name} failed - file not found: {e}", exc_info=True)
+            failed_parsers.append((name, "file not found"))
+        except (OSError, IOError, PermissionError) as e:
+            logger.error(f"✗ {name} failed - file system error: {e}", exc_info=True)
+            failed_parsers.append((name, "file system error"))
         except Exception as e:
             logger.error(f"✗ {name} failed: {e}", exc_info=True)
+            failed_parsers.append((name, "unexpected error"))
+
+    # Report results
+    if failed_parsers:
+        logger.error(f"\nFailed parsers ({len(failed_parsers)}):")
+        for name, reason in failed_parsers:
+            logger.error(f"  - {name}: {reason}")
+        return False
+    else:
+        logger.info(f"\nAll {len(parsers_to_run)} parser(s) completed successfully")
+        return True
 
 
 def main():
@@ -181,13 +202,20 @@ Examples:
         sys.exit(0)
 
     # Run requested operations
+    success = True
+
     if args.init:
         initialize_data()
 
     if args.parsers:
-        run_parsers(args.parsers)
+        success = run_parsers(args.parsers)
 
-    logger.info("Complete!")
+    if success:
+        logger.info("Complete!")
+        sys.exit(0)
+    else:
+        logger.error("Completed with errors")
+        sys.exit(1)
 
 
 if __name__ == "__main__":

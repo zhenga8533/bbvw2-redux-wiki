@@ -18,7 +18,37 @@ class BaseParser(ABC):
     - Read files from data/documentation/
     - Generate markdown files to docs/ (or subdirectories)
     - Optionally update data files in data/documentation/parsed/
+
+    Configuration:
+    - Use set_project_root() to override the default project root for testing
     """
+
+    # Class-level project root (configurable for testing)
+    _project_root: Optional[Path] = None
+
+    @classmethod
+    def set_project_root(cls, path: Path) -> None:
+        """
+        Set a custom project root path for all parsers.
+
+        This is useful for testing or when running from a non-standard location.
+
+        Args:
+            path: The new project root path
+        """
+        cls._project_root = path
+
+    @classmethod
+    def get_project_root(cls) -> Path:
+        """
+        Get the current project root path.
+
+        Returns:
+            Path: The project root path (either custom or default)
+        """
+        if cls._project_root is None:
+            cls._project_root = Path(__file__).parent.parent.parent
+        return cls._project_root
 
     def __init__(self, input_file: str, output_dir: str = "docs"):
         """
@@ -35,7 +65,7 @@ class BaseParser(ABC):
         self.logger = get_logger(self.__class__.__module__)
 
         # Set up paths
-        self.project_root = Path(__file__).parent.parent.parent
+        self.project_root = self.get_project_root()
         self.input_path = self.project_root / "data" / "documentation" / input_file
         self.output_file = Path(input_file).stem.replace(" ", "_").lower()
 
