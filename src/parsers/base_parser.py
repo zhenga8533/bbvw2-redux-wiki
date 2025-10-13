@@ -9,6 +9,8 @@ from ..utils.logger import get_logger
 import json
 import re
 
+logger = get_logger(__name__)
+
 
 class BaseParser(ABC):
     """
@@ -36,7 +38,9 @@ class BaseParser(ABC):
         Args:
             path: The new project root path
         """
+        old_root = cls._project_root
         cls._project_root = path
+        logger.info(f"Project root changed from {old_root} to {path}")
 
     @classmethod
     def get_project_root(cls) -> Path:
@@ -72,12 +76,22 @@ class BaseParser(ABC):
         self.output_dir = self.project_root / output_dir
         self.output_path = self.output_dir / (self.output_file + ".md")
 
+        self.logger.debug(
+            f"Initializing parser: {self.__class__.__name__}",
+            extra={
+                "input_file": str(self.input_path),
+                "output_path": str(self.output_path),
+            },
+        )
+
         # Validate input file exists
         if not self.input_path.exists():
+            self.logger.error(f"Input file not found: {self.input_path}")
             raise FileNotFoundError(f"Input file not found: {self.input_path}")
 
         # Ensure output directories exist
         self.output_dir.mkdir(parents=True, exist_ok=True)
+        self.logger.debug(f"Output directory ready: {self.output_dir}")
 
     @abstractmethod
     def parse(self) -> None:
@@ -96,9 +110,14 @@ class BaseParser(ABC):
         """Read and return the input file as lines, skipping empty lines and skip patterns."""
         skip_patterns = [r"^=+$"]
 
-        # Read lines from the input file
-        with self.input_path.open("r", encoding="utf-8") as f:
-            lines = [line.strip() for line in f]
+        self.logger.debug(f"Reading input file: {self.input_path}")
+        try:
+            # Read lines from the input file
+            with self.input_path.open("r", encoding="utf-8") as f:
+                lines = [line.strip() for line in f]
+        except (OSError, IOError) as e:
+            self.logger.error(f"Error reading input file {self.input_path}: {e}", exc_info=True)
+            raise
 
         # Apply skip patterns
         filtered_lines = [
@@ -107,6 +126,9 @@ class BaseParser(ABC):
             if not any(re.fullmatch(pattern, line) for pattern in skip_patterns)
         ]
 
+        self.logger.debug(
+            f"Read {len(lines)} lines, filtered to {len(filtered_lines)} lines"
+        )
         return filtered_lines
 
     def save_markdown(self, content: str) -> Optional[Path]:

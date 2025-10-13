@@ -17,6 +17,9 @@ from src.models.pokedb import (
     EvolutionDetails,
     Form,
 )
+from src.utils.logger import get_logger
+
+logger = get_logger(__name__)
 
 
 class PokeDBLoader:
@@ -88,7 +91,9 @@ class PokeDBLoader:
             >>> # Reset to default
             >>> PokeDBLoader.set_data_dir(Path(__file__).parent.parent.parent / "data" / "pokedb" / "parsed")
         """
+        old_dir = cls._data_dir
         cls._data_dir = path
+        logger.info(f"Data directory changed from {old_dir} to {path}")
         cls.clear_cache()  # Clear cache when changing directory
 
     @staticmethod
@@ -247,12 +252,21 @@ class PokeDBLoader:
                 search_location = data_dir / category / subfolder
             else:
                 search_location = data_dir / category
+            logger.error(f"File not found: {name}.json in {search_location}")
             raise FileNotFoundError(
                 f"File not found: {name}.json (searched in {search_location})"
             )
 
-        with open(file_path, "r", encoding="utf-8") as f:
-            return json.load(f)
+        logger.debug(f"Loading JSON file: {file_path}")
+        try:
+            with open(file_path, "r", encoding="utf-8") as f:
+                return json.load(f)
+        except json.JSONDecodeError as e:
+            logger.error(f"Invalid JSON in file {file_path}: {e}", exc_info=True)
+            raise
+        except (OSError, IOError) as e:
+            logger.error(f"Error reading file {file_path}: {e}", exc_info=True)
+            raise
 
     @classmethod
     def _load_all_json(
@@ -309,15 +323,18 @@ class PokeDBLoader:
 
         # Check cache first
         if cache_key in PokeDBLoader._pokemon_cache:
+            logger.debug(f"Loading Pokemon '{name}' from cache (subfolder: {subfolder})")
             return PokeDBLoader._pokemon_cache[cache_key]
 
         # Load from file
+        logger.debug(f"Loading Pokemon '{name}' from disk (subfolder: {subfolder})")
         data = PokeDBLoader._load_json("pokemon", name, subfolder)
         data = PokeDBLoader._convert_nested_dataclasses(data)
         pokemon = Pokemon(**data)
 
         # Cache the result
         PokeDBLoader._pokemon_cache[cache_key] = pokemon
+        logger.debug(f"Cached Pokemon '{name}' (cache size: {len(PokeDBLoader._pokemon_cache)})")
 
         return pokemon
 
@@ -493,17 +510,25 @@ class PokeDBLoader:
         file_path = cls.get_data_dir() / "pokemon" / subfolder / f"{name}.json"
         file_path.parent.mkdir(parents=True, exist_ok=True)
 
-        with open(file_path, "w", encoding="utf-8") as f:
-            json.dump(asdict(data), f, indent=2, ensure_ascii=False)
+        logger.info(f"Saving Pokemon '{name}' to {file_path}")
+        try:
+            with open(file_path, "w", encoding="utf-8") as f:
+                json.dump(asdict(data), f, indent=2, ensure_ascii=False)
+        except (OSError, IOError) as e:
+            logger.error(f"Error saving Pokemon '{name}': {e}", exc_info=True)
+            raise
 
         # Invalidate ALL cache entries with this name (any subfolder)
         # This prevents stale cached data if the same Pokemon is cached under different forms
         keys_to_remove = [
             key for key in PokeDBLoader._pokemon_cache.keys() if key[0] == name
         ]
-        for key in keys_to_remove:
-            del PokeDBLoader._pokemon_cache[key]
+        if keys_to_remove:
+            logger.debug(f"Invalidating {len(keys_to_remove)} cache entries for '{name}'")
+            for key in keys_to_remove:
+                del PokeDBLoader._pokemon_cache[key]
 
+        logger.info(f"Successfully saved Pokemon '{name}'")
         return file_path
 
     @staticmethod
@@ -523,7 +548,9 @@ class PokeDBLoader:
             >>> print(PokeDBLoader.get_cache_size())
             0
         """
+        cache_size = len(PokeDBLoader._pokemon_cache)
         PokeDBLoader._pokemon_cache.clear()
+        logger.info(f"Cleared Pokemon cache ({cache_size} entries)")
 
     @staticmethod
     def get_cache_size() -> int:
