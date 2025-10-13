@@ -215,9 +215,9 @@ def setup_logger(
         parts = module_path.split('.')
         if len(parts) > 1:
             # Create subdirectories for nested modules
-            subdir = LOG_DIR / '/'.join(parts[:-1])
+            subdir = LOG_DIR / Path(*parts[:-1])
             subdir.mkdir(parents=True, exist_ok=True)
-            log_file = '/'.join(parts[:-1]) + '/' + parts[-1] + '.log'
+            log_file = str(Path(*parts[:-1]) / f"{parts[-1]}.log")
         else:
             log_file = f"{module_path}.log"
 
