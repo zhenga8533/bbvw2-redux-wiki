@@ -149,8 +149,20 @@ class EVYield:
 
     @classmethod
     def from_dict(cls, data: dict[str, Any]) -> "EVYield":
-        """Create an EVYield object from a dictionary."""
-        # Handle kebab-case for stat names by replacing hyphens
+        """
+        Create an EVYield object from a dictionary.
+
+        Note: The backend data repository uses snake_case for JSON field names,
+        but the stat VALUES may still be in kebab-case in some legacy data.
+        This method converts kebab-case stat values to snake_case for
+        backwards compatibility.
+
+        Example:
+            Data: {"stat": "special-defense", "effort": 2}
+            Becomes: EVYield(stat="special_defense", effort=2)
+        """
+        # Convert kebab-case to snake_case for stat values
+        # (Field names are already snake_case from the JSON)
         if "stat" in data and isinstance(data["stat"], str):
             data["stat"] = data["stat"].replace("-", "_")
         return cls(**data)

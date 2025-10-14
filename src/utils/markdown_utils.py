@@ -9,7 +9,9 @@ from typing import Optional
 
 from src.models.pokedb import Pokemon
 from src.data.pokedb_loader import PokeDBLoader
+from src.utils.config_loader import get_config
 from src.utils.text_utils import name_to_id
+from src.utils.constants import POKEMON_SPRITE_WIDTH
 
 
 def get_pokemon_sprite_url(pokemon: Pokemon) -> Optional[str]:
@@ -31,7 +33,7 @@ def format_pokemon_with_sprite(
     pokemon_name: str,
     sprite_url: Optional[str] = None,
     pokedex_link: bool = True,
-    pokedex_base_path: str = "../pokedex",
+    pokedex_base_path: Optional[str] = None,
 ) -> str:
     """
     Format a Pokemon name with its sprite stacked on top, optionally linked to its Pokedex page.
@@ -43,7 +45,7 @@ def format_pokemon_with_sprite(
         pokemon_name: The display name of the Pokemon (e.g., "Pikachu")
         sprite_url: URL to the Pokemon's sprite image. If None, attempts to load from PokeDB
         pokedex_link: Whether to link to the Pokemon's Pokedex page
-        pokedex_base_path: Base path for Pokedex links (relative to current page)
+        pokedex_base_path: Base path for Pokedex links. If None, uses value from config.json.
 
     Returns:
         Markdown string with sprite and name
@@ -51,6 +53,11 @@ def format_pokemon_with_sprite(
     Example output:
         <div align="center"><img src="sprite.png" width="96"><br><a href="../pokedex/pikachu">Pikachu</a></div>
     """
+    # Use config for default path if not provided
+    if pokedex_base_path is None:
+        config = get_config()
+        pokedex_base_path = config.get("markdown", {}).get("pokedex_base_path", "../pokedex")
+
     pokemon_id = name_to_id(pokemon_name)
 
     # Try to load sprite URL if not provided
@@ -64,7 +71,7 @@ def format_pokemon_with_sprite(
 
     # Build the HTML structure
     if sprite_url:
-        sprite_img = f'<img src="{sprite_url}" width="96" alt="{pokemon_name}">'
+        sprite_img = f'<img src="{sprite_url}" width="{POKEMON_SPRITE_WIDTH}" alt="{pokemon_name}">'
     else:
         # Fallback to just text if no sprite
         sprite_img = ""
@@ -87,7 +94,7 @@ def format_pokemon_pair_with_sprites(
     to_pokemon: str,
     sprite_from: Optional[str] = None,
     sprite_to: Optional[str] = None,
-    pokedex_base_path: str = "../pokedex",
+    pokedex_base_path: Optional[str] = None,
 ) -> tuple[str, str]:
     """
     Format a pair of Pokemon (evolution from -> to) with sprites.

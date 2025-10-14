@@ -121,7 +121,8 @@ class PokeDBInitializer:
                 # Handle Ctrl+C, Ctrl+D, or automated environments
                 logger.info("\nInitialization cancelled by user.")
                 return
-            except Exception as e:
+            except OSError as e:
+                # Handle I/O errors when reading from stdin (e.g., closed stdin)
                 logger.error(f"Error reading user input: {e}")
                 logger.info("Initialization cancelled due to input error.")
                 return

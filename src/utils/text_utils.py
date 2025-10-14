@@ -6,13 +6,17 @@ def name_to_id(name: str) -> str:
     Convert a name to a standardized ID format.
 
     Converts to lowercase, replaces spaces with hyphens, and removes
-    non-alphanumeric characters (except hyphens).
+    non-alphanumeric characters (except hyphens). This is used for
+    file names and string values in the JSON data.
+
+    Note: JSON field names use snake_case, but this function produces
+    kebab-case for file names and data values.
 
     Args:
         name: The name to convert.
 
     Returns:
-        A standardized ID string (lowercase, hyphenated, alphanumeric only).
+        A standardized ID string (lowercase, kebab-case, alphanumeric only).
 
     Examples:
         >>> name_to_id("Mr. Mime")

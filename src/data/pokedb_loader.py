@@ -234,22 +234,27 @@ class PokeDBLoader:
         return None
 
     @staticmethod
-    def find_all_form_files(pokemon_id: str) -> list[tuple[str, str]]:
+    def find_all_form_files(
+        pokemon_id: str,
+    ) -> tuple[list[tuple[str, str]], Optional[Pokemon]]:
         """
-        Find all form files for a given Pokemon by reading the forms field.
+        Find all form files for a given Pokemon and return the base Pokemon data.
 
         This method loads the Pokemon data and returns all forms listed in
-        the "forms" field, including their names and categories.
+        the "forms" field. It also returns the loaded base Pokemon object
+        to prevent redundant loads by the caller.
 
         Args:
             pokemon_id: The Pokemon species ID (e.g., 'wormadam')
 
         Returns:
-            List of tuples (form_name, category) for all forms of this Pokemon.
-            Returns empty list if Pokemon has no forms field or doesn't exist.
+            A tuple containing:
+            - A list of (form_name, category) tuples for all forms.
+            - The loaded Pokemon object for the base form, or None if not found.
 
         Example:
-            >>> PokeDBLoader.find_all_form_files('wormadam')
+            >>> forms, pokemon_obj = PokeDBLoader.find_all_form_files('wormadam')
+            >>> forms
             [('wormadam-plant', 'default'), ('wormadam-sandy', 'variant'), ...]
         """
         try:
@@ -258,13 +263,13 @@ class PokeDBLoader:
 
             if not pokemon.forms:
                 # If no forms field, return just the base Pokemon
-                return [(pokemon_id, "default")]
+                return ([(pokemon_id, "default")], pokemon)
 
             # Return all forms from the forms field
-            return [(form.name, form.category) for form in pokemon.forms]
+            return ([(form.name, form.category) for form in pokemon.forms], pokemon)
         except FileNotFoundError:
-            # If file not found, return empty list
-            return []
+            # If file not found, return empty list and None
+            return ([], None)
 
     @classmethod
     def _load_json(

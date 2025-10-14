@@ -21,56 +21,22 @@ class BaseParser(ABC):
     - Generate markdown files to docs/ (or subdirectories)
     - Optionally update data files in data/documentation/parsed/
 
-    Configuration:
-    - Use set_project_root() to override the default project root for testing
-
-    Thread Safety:
-    ⚠️  WARNING: This class is NOT thread-safe!
-    - The class-level _project_root is shared across all parser instances
-    - Concurrent access from multiple threads can lead to race conditions
-    - DO NOT use parsers concurrently from multiple threads without external
-      synchronization (e.g., threading.Lock)
-    - If thread safety is required, implement proper locking around:
-      * Project root changes (set_project_root())
-      * File operations (parse(), save_markdown())
+    Each parser instance is independent and thread-safe.
     """
 
-    # Class-level project root (configurable for testing)
-    _project_root: Optional[Path] = None
-
-    @classmethod
-    def set_project_root(cls, path: Path) -> None:
-        """
-        Set a custom project root path for all parsers.
-
-        This is useful for testing or when running from a non-standard location.
-
-        Args:
-            path: The new project root path
-        """
-        old_root = cls._project_root
-        cls._project_root = path
-        logger.info(f"Project root changed from {old_root} to {path}")
-
-    @classmethod
-    def get_project_root(cls) -> Path:
-        """
-        Get the current project root path.
-
-        Returns:
-            Path: The project root path (either custom or default)
-        """
-        if cls._project_root is None:
-            cls._project_root = Path(__file__).parent.parent.parent
-        return cls._project_root
-
-    def __init__(self, input_file: str, output_dir: str = "docs"):
+    def __init__(
+        self,
+        input_file: str,
+        output_dir: str = "docs",
+        project_root: Optional[Path] = None,
+    ):
         """
         Initialize the parser.
 
         Args:
             input_file: Path to the input file (relative to data/documentation/)
             output_dir: Directory where markdown files will be generated (default: docs)
+            project_root: The root directory of the project. If None, it's inferred.
         """
         # Initialize instance variables to avoid shared state
         self._markdown = ""
@@ -79,7 +45,11 @@ class BaseParser(ABC):
         self.logger = get_logger(self.__class__.__module__)
 
         # Set up paths
-        self.project_root = self.get_project_root()
+        if project_root is None:
+            self.project_root = Path(__file__).parent.parent.parent
+        else:
+            self.project_root = project_root
+
         self.input_path = self.project_root / "data" / "documentation" / input_file
         self.output_file = Path(input_file).stem.replace(" ", "_").lower()
 

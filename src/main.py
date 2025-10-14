@@ -4,83 +4,42 @@ Main entry point for initializing data and running parsers.
 
 import argparse
 import sys
+import importlib
 from src.data.pokedb_initializer import PokeDBInitializer
 from src.utils.logger import get_logger
+from src.utils.config_loader import get_config
 
 logger = get_logger(__name__)
 
 
 def get_parser_registry():
     """
-    Get the registry of available parsers.
+    Get the registry of available parsers by dynamically loading them from the config.
 
     Returns:
         dict: Registry mapping parser names to (ParserClass, input_file, output_dir) tuples
     """
-    # Import parsers here to avoid circular imports
-    from .parsers.evolution_changes_parser import EvolutionChangesParser
-    from .parsers.gift_pokemon_parser import GiftPokemonParser
-    from .parsers.item_changes_parser import ItemChangesParser
-    from .parsers.legendary_locations_parser import LegendaryLocationsParser
-    from .parsers.move_changes_parser import MoveChangesParser
-    from .parsers.pokemon_changes_parser import PokemonChangesParser
-    from .parsers.trade_changes_parser import TradeChangesParser
-    from .parsers.trainer_changes_parser import TrainerChangesParser
-    from .parsers.type_changes_parser import TypeChangesParser
-    from .parsers.wild_area_changes_parser import WildAreaChangesParser
+    config = get_config()
+    parser_config = config.get("parsers", {}).get("registry", {})
+    registry = {}
 
-    return {
-        "evolution_changes": (
-            EvolutionChangesParser,
-            "Evolution Changes.txt",
-            "docs/changes",
-        ),
-        "gift_pokemon": (
-            GiftPokemonParser,
-            "Gift Pokemon.txt",
-            "docs",
-        ),
-        "item_changes": (
-            ItemChangesParser,
-            "Item Changes.txt",
-            "docs/changes",
-        ),
-        "legendary_locations": (
-            LegendaryLocationsParser,
-            "Legendary Locations.txt",
-            "docs",
-        ),
-        "move_changes": (
-            MoveChangesParser,
-            "Move Changes.txt",
-            "docs/changes",
-        ),
-        "pokemon_changes": (
-            PokemonChangesParser,
-            "Pokemon Changes.txt",
-            "docs/changes",
-        ),
-        "trade_changes": (
-            TradeChangesParser,
-            "Trade Changes.txt",
-            "docs/changes",
-        ),
-        "trainer_changes": (
-            TrainerChangesParser,
-            "Trainer Changes.txt",
-            "docs/changes",
-        ),
-        "type_changes": (
-            TypeChangesParser,
-            "Type Changes.txt",
-            "docs/changes",
-        ),
-        "wild_area_changes": (
-            WildAreaChangesParser,
-            "Wild Area Changes.txt",
-            "docs",
-        ),
-    }
+    for name, details in parser_config.items():
+        try:
+            module_name = details["module"]
+            class_name = details["class"]
+            input_file = details["input_file"]
+            output_dir = details["output_dir"]
+
+            # Dynamically import the module and get the class
+            module = importlib.import_module(module_name)
+            ParserClass = getattr(module, class_name)
+
+            registry[name] = (ParserClass, input_file, output_dir)
+        except (KeyError, ImportError, AttributeError) as e:
+            logger.error(f"Failed to load parser '{name}': {e}", exc_info=True)
+            continue
+
+    return registry
 
 
 def initialize_data():

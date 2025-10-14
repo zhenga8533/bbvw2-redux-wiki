@@ -82,6 +82,73 @@ class EvolutionService:
         return evolution_chain
 
     @staticmethod
+    def _clean_existing_evolution_methods(
+        evolves_to: list[EvolutionNode],
+        evolution_id: str,
+    ) -> None:
+        """
+        Clean out existing evolution methods for the target evolution.
+
+        Keeps only one evolution path to the target, removing its details
+        so it can be replaced with new details. This ensures we don't have
+        duplicate evolution paths with old methods.
+
+        Args:
+            evolves_to: List of evolution nodes to clean
+            evolution_id: The ID of the evolution target to clean
+        """
+        found = False
+
+        # Use reverse iteration to safely remove items while iterating
+        for i in range(len(evolves_to) - 1, -1, -1):
+            evo = evolves_to[i]
+            if evo.species_name != evolution_id:
+                continue
+
+            # Remove all but one existing evolution method
+            if found:
+                # We already kept one, remove this duplicate
+                evolves_to.pop(i)
+            else:
+                # Keep this one but clear its evolution details for replacement
+                evo.evolution_details = None
+                found = True
+
+    @staticmethod
+    def _apply_evolution_update(
+        evolves_to: list[EvolutionNode],
+        evolution_id: str,
+        evolution_details: EvolutionDetails,
+    ) -> None:
+        """
+        Apply new evolution details to the target evolution.
+
+        If an evolution node without details exists, it fills in the details.
+        If all existing nodes have details, it creates a new node with the
+        new details (for alternate evolution methods).
+
+        Args:
+            evolves_to: List of evolution nodes to update
+            evolution_id: The ID of the evolution target
+            evolution_details: The new evolution details to apply
+        """
+        for evo in evolves_to:
+            # Skip if not the target evolution
+            if evo.species_name != evolution_id:
+                continue
+
+            # Update the evolution details
+            if evo.evolution_details is None:
+                # Fill in the empty slot we created during cleanup
+                evo.evolution_details = evolution_details
+            else:
+                # Add as an alternate evolution method
+                node_copy = copy.deepcopy(evo)
+                node_copy.evolution_details = evolution_details
+                evolves_to.append(node_copy)
+            break
+
+    @staticmethod
     def _update_evolution_node(
         original_chain: EvolutionChain,
         evolution_node: EvolutionChain | EvolutionNode,
@@ -91,32 +158,38 @@ class EvolutionService:
         keep_existing: bool,
         processed: set,
     ) -> None:
-        """Recursively update evolution nodes."""
+        """
+        Recursively update evolution nodes in the chain.
+
+        This method traverses the evolution chain tree to find the Pokemon
+        that is evolving (pokemon_id), then updates its evolution to the
+        target (evolution_id) with new details.
+
+        Args:
+            original_chain: The root of the evolution chain
+            evolution_node: Current node being processed
+            pokemon_id: ID of the Pokemon that is evolving
+            evolution_id: ID of the evolution target
+            evolution_details: New evolution details to apply
+            keep_existing: If True, add to existing methods; if False, replace
+            processed: Set tracking which Pokemon have been processed
+        """
         species_name = evolution_node.species_name
         evolves_to = evolution_node.evolves_to
-        # Match on the PARENT species (the one that evolves)
+
+        # Check if this node is the Pokemon we're looking for
         species_match = species_name == pokemon_id
 
-        # Clean out evolution methods (keeps one backup)
+        # Clean out old evolution methods if we're replacing (not adding)
         if species_match and not keep_existing and pokemon_id not in processed:
             processed.add(pokemon_id)
-            found = False
+            EvolutionService._clean_existing_evolution_methods(
+                evolves_to, evolution_id
+            )
 
-            # Use reverse iteration to safely remove items
-            for i in range(len(evolves_to) - 1, -1, -1):
-                evo = evolves_to[i]
-                if evo.species_name != evolution_id:
-                    continue
-
-                # Remove all but one existing evolution method
-                if found:
-                    evolves_to.pop(i)
-                else:
-                    evo.evolution_details = None
-                    found = True
-
+        # Process each evolution path
         for evo in evolves_to:
-            # Recurse if not the target species
+            # If this isn't the target Pokemon, recurse deeper
             if not species_match:
                 EvolutionService._update_evolution_node(
                     original_chain,
@@ -129,17 +202,14 @@ class EvolutionService:
                 )
                 continue
 
-            # Skip if not the target evolution
+            # Skip if this evolution isn't our target
             if evo.species_name != evolution_id:
                 continue
 
-            # Update the evolution details
-            if evo.evolution_details is None:
-                evo.evolution_details = evolution_details
-            else:
-                node_copy = copy.deepcopy(evo)
-                node_copy.evolution_details = evolution_details
-                evolves_to.append(node_copy)
+            # Apply the evolution update
+            EvolutionService._apply_evolution_update(
+                evolves_to, evolution_id, evolution_details
+            )
             break
 
     @staticmethod
@@ -166,21 +236,11 @@ class EvolutionService:
         This ensures that Pokemon with multiple forms (e.g., wormadam-plant,
         wormadam-sandy) all get the updated evolution chain.
         """
-        # Get all form files for this Pokemon
-        form_files = PokeDBLoader.find_all_form_files(pokemon_id)
+        # Get all form files and the pre-loaded base Pokemon object
+        form_files, base_pokemon_data = PokeDBLoader.find_all_form_files(pokemon_id)
 
         if not form_files:
-            logger.warning(
-                f"No form files found for {pokemon_id}, attempting default save"
-            )
-            # Fallback: try to save to the default location
-            try:
-                pokemon_data = PokeDBLoader.load_pokemon(pokemon_id)
-                pokemon_data.evolution_chain = evolution_chain
-                PokeDBLoader.save_pokemon(pokemon_id, pokemon_data)
-                logger.debug(f"Saved evolution chain for {pokemon_id}")
-            except FileNotFoundError:
-                logger.error(f"Could not find or save {pokemon_id}")
+            logger.warning(f"No form files found for {pokemon_id}, cannot save evolution chain.")
             return
 
         # Save to all form files
@@ -189,10 +249,18 @@ class EvolutionService:
                 logger.debug(
                     f"Saving evolution chain for {pokemon_id} form: {form_name} (category: {category})"
                 )
-                pokemon_data = PokeDBLoader.load_pokemon(form_name, subfolder=category)
+
+                # If we are processing the base form that we already loaded, reuse the object.
+                # Otherwise, load the specific form data from disk.
+                if base_pokemon_data and form_name == base_pokemon_data.name:
+                    pokemon_data = base_pokemon_data
+                else:
+                    pokemon_data = PokeDBLoader.load_pokemon(form_name, subfolder=category)
+
                 pokemon_data.evolution_chain = evolution_chain
                 PokeDBLoader.save_pokemon(form_name, pokemon_data, subfolder=category)
+
             except FileNotFoundError:
                 logger.warning(
-                    f"Form file not found: {form_name} in {category}, skipping"
+                    f"Form file not found during save: {form_name} in {category}, skipping"
                 )

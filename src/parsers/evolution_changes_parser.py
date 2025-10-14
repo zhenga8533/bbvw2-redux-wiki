@@ -33,6 +33,25 @@ class EvolutionChangesParser(BaseParser):
 
     _SECTIONS = ["General Notes", "Evolution Changes"]
 
+    # Pre-compiled regex patterns for better performance
+    _POKEMON_LINE_PATTERN = re.compile(rf"^(\d+) {POKEMON_PATTERN_STR}\s+(.*)")
+    _EVOLVES_INTO_PATTERN = re.compile(
+        rf"Now evolves into {POKEMON_PATTERN_STR} (.*)\."
+    )
+    _GENDER_FEMALE_PATTERN = re.compile(rf" if {POKEMON_PATTERN_STR} is female")
+    _GENDER_MALE_PATTERN = re.compile(rf" if {POKEMON_PATTERN_STR} is male")
+
+    # Pre-compiled evolution method patterns
+    _LEVEL_PATTERN = re.compile(r"at Level (\d+)")
+    _ITEM_PATTERN = re.compile(r"via the use of a(?:n)? (.+)")
+    _FRIENDSHIP_PATTERN = re.compile(
+        r"by leveling up while at (\d+)\+ friendship at any time of day"
+    )
+    _MOVE_PATTERN = re.compile(r"by leveling up while knowing the move (.+)")
+    _PARTY_PATTERN = re.compile(
+        rf"by leveling up when a {POKEMON_PATTERN_STR} is in the party"
+    )
+
     def __init__(self, input_file: str, output_dir: str = "docs"):
         """Initialize the Evolution Changes parser."""
         super().__init__(input_file=input_file, output_dir=output_dir)
@@ -59,9 +78,7 @@ class EvolutionChangesParser(BaseParser):
         """Parse a line from the Evolution Changes section and update data."""
 
         # Matches: dex_num name (spaces) evolution_text
-        pattern = rf"^(\d+) {POKEMON_PATTERN_STR}\s+(.*)"
-
-        if match := re.match(pattern, line):
+        if match := self._POKEMON_LINE_PATTERN.match(line):
             self._current_dex_num, self._current_pokemon, evolution_text = (
                 match.groups()
             )
@@ -82,14 +99,10 @@ class EvolutionChangesParser(BaseParser):
             evolution_text: Description of the evolution method
         """
         # Format Pokemon with sprites and links
-        from_pokemon_md = format_pokemon_with_sprite(
-            self._current_pokemon, pokedex_base_path="../pokedex"
-        )
+        from_pokemon_md = format_pokemon_with_sprite(self._current_pokemon)
 
         if evolution:
-            to_pokemon_md = format_pokemon_with_sprite(
-                evolution, pokedex_base_path="../pokedex"
-            )
+            to_pokemon_md = format_pokemon_with_sprite(evolution)
         else:
             to_pokemon_md = ""
 
@@ -107,8 +120,7 @@ class EvolutionChangesParser(BaseParser):
             Tuple of (evolution_pokemon_name, evolution_method_text)
             Returns ("", "") if the text doesn't match the expected pattern
         """
-        pattern = rf"Now evolves into {POKEMON_PATTERN_STR} (.*)\."
-        if match := re.match(pattern, text):
+        if match := self._EVOLVES_INTO_PATTERN.match(text):
             groups = match.groups()
 
             # Validate we have the expected number of groups
@@ -132,6 +144,10 @@ class EvolutionChangesParser(BaseParser):
         method_text = method_text[len("Now evolves ") :].rstrip(".")
 
         # Check for "in addition to" clause
+        # This flag determines whether we ADD to existing evolution methods or REPLACE them
+        # We keep existing if:
+        # 1. The text explicitly says "in addition to its normal evolution method", OR
+        # 2. We've already processed this Pokemon once in this parse session (multiple evolutions)
         keep_existing = (
             "in addition to its normal evolution method" in method_text
             or self._current_pokemon in self._parsed_data
@@ -144,19 +160,18 @@ class EvolutionChangesParser(BaseParser):
         gender = None
         if " if " in method_text and " is female" in method_text:
             gender = Gender.FEMALE
-            method_text = re.sub(
-                rf" if {POKEMON_PATTERN_STR} is female", "", method_text
-            )
+            method_text = self._GENDER_FEMALE_PATTERN.sub("", method_text)
         elif " if " in method_text and " is male" in method_text:
             gender = Gender.MALE
-            method_text = re.sub(rf" if {POKEMON_PATTERN_STR} is male", "", method_text)
+            method_text = self._GENDER_MALE_PATTERN.sub("", method_text)
 
+        # Map of evolution method types to their pre-compiled patterns
         patterns = {
-            "level": r"at Level (\d+)",
-            "item": r"via the use of a(?:n)? (.+)",
-            "friendship": r"by leveling up while at (\d+)\+ friendship at any time of day",
-            "move": r"by leveling up while knowing the move (.+)",
-            "party": rf"by leveling up when a {POKEMON_PATTERN_STR} is in the party",
+            "level": self._LEVEL_PATTERN,
+            "item": self._ITEM_PATTERN,
+            "friendship": self._FRIENDSHIP_PATTERN,
+            "move": self._MOVE_PATTERN,
+            "party": self._PARTY_PATTERN,
         }
 
         # Load the Pokemon data
@@ -169,15 +184,6 @@ class EvolutionChangesParser(BaseParser):
             self.logger.error(f"Pokemon not found: {pokemon_id}")
             return
 
-        # Validate that the evolution target exists
-        try:
-            PokeDBLoader.load_pokemon(evolution_id)
-        except FileNotFoundError:
-            self.logger.warning(
-                f"Evolution target '{evolution}' (id: {evolution_id}) not found. "
-                f"Evolution chain will still be updated for {self._current_pokemon}."
-            )
-
         evolution_chain: EvolutionChain = pokemon_data.evolution_chain
         evolution_details: EvolutionDetails = EvolutionDetails()
 
@@ -185,7 +191,7 @@ class EvolutionChangesParser(BaseParser):
 
         # Try to match each known pattern
         for method_type, pattern in patterns.items():
-            if match := re.match(pattern, method_text):
+            if match := pattern.match(method_text):
                 matched = True
 
                 if method_type == "level":
