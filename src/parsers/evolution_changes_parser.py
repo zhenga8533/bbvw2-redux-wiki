@@ -15,6 +15,7 @@ from src.utils.markdown_utils import format_pokemon_with_sprite
 from src.models.pokedb import (
     EvolutionChain,
     EvolutionDetails,
+    Gender,
     Pokemon,
 )
 from src.data.pokedb_loader import PokeDBLoader
@@ -82,14 +83,12 @@ class EvolutionChangesParser(BaseParser):
         """
         # Format Pokemon with sprites and links
         from_pokemon_md = format_pokemon_with_sprite(
-            self._current_pokemon,
-            pokedex_base_path="../pokedex"
+            self._current_pokemon, pokedex_base_path="../pokedex"
         )
 
         if evolution:
             to_pokemon_md = format_pokemon_with_sprite(
-                evolution,
-                pokedex_base_path="../pokedex"
+                evolution, pokedex_base_path="../pokedex"
             )
         else:
             to_pokemon_md = ""
@@ -142,13 +141,14 @@ class EvolutionChangesParser(BaseParser):
         )
 
         # Check for gender requirement
-        # Note: Gender values follow Pokemon API convention: 1 = female, 2 = male
         gender = None
         if " if " in method_text and " is female" in method_text:
-            gender = 1
-            method_text = re.sub(rf" if {POKEMON_PATTERN_STR} is female", "", method_text)
+            gender = Gender.FEMALE
+            method_text = re.sub(
+                rf" if {POKEMON_PATTERN_STR} is female", "", method_text
+            )
         elif " if " in method_text and " is male" in method_text:
-            gender = 2
+            gender = Gender.MALE
             method_text = re.sub(rf" if {POKEMON_PATTERN_STR} is male", "", method_text)
 
         patterns = {
