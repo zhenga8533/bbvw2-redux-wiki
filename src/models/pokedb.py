@@ -20,7 +20,16 @@ data/pokedb/
 """
 
 from dataclasses import dataclass, field
+from enum import IntEnum
 from typing import Any, Literal, Optional
+
+
+# region Enums and Constants
+class Gender(IntEnum):
+    """Represents gender constants for evolution triggers."""
+
+    FEMALE = 1
+    MALE = 2
 
 
 # Pokemon Constants
@@ -41,8 +50,6 @@ MIN_CAPTURE_RATE = 0
 MAX_CAPTURE_RATE = 255
 MIN_GENDER_RATE = -1
 MAX_GENDER_RATE = 8
-GENDER_FEMALE = 1
-GENDER_MALE = 2
 
 # Move Constants
 MIN_MOVE_PRIORITY = -7
@@ -51,6 +58,7 @@ MIN_PERCENTAGE = 0
 MAX_PERCENTAGE = 100
 MIN_DRAIN_HEALING = -100
 MAX_DRAIN_HEALING = 100
+# endregion
 
 
 # region Helper Classes for Pokémon Structure
@@ -109,16 +117,6 @@ class Stats:
                 raise ValueError(
                     f"{field_name} must be a non-negative integer, got: {value}"
                 )
-
-    @classmethod
-    def from_dict(cls, data: dict[str, Any]) -> "Stats":
-        """Create a Stats object from a dictionary."""
-        # Handle kebab-case keys
-        if "special-attack" in data:
-            data["special_attack"] = data.pop("special-attack")
-        if "special-defense" in data:
-            data["special_defense"] = data.pop("special-defense")
-        return cls(**data)
 
 
 @dataclass(slots=True)
@@ -233,7 +231,7 @@ class GenerationSprites:
 
 @dataclass(slots=True)
 class Versions:
-    black_white: GenerationSprites = field(metadata={"data_key": "black-white"})
+    black_white: GenerationSprites
 
 
 @dataclass(slots=True)
@@ -255,7 +253,7 @@ class Sprites:
 @dataclass(slots=True)
 class EvolutionDetails:
     item: Optional[str] = None
-    gender: Optional[int] = None
+    gender: Optional[Gender] = None
     held_item: Optional[str] = None
     known_move: Optional[str] = None
     known_move_type: Optional[str] = None
@@ -290,46 +288,32 @@ class EvolutionDetails:
                 f"turn_upside_down must be a boolean, got: {type(self.turn_upside_down)}"
             )
 
+        def _validate_optional_int(
+            val: Optional[int], name: str, min_val: int, max_val: int
+        ):
+            """Helper to validate an optional integer within a range."""
+            if val is not None and (
+                not isinstance(val, int) or not (min_val <= val <= max_val)
+            ):
+                raise ValueError(
+                    f"{name} must be None or between {min_val} and {max_val}, got: {val}"
+                )
+
         # Validate optional integer fields with reasonable ranges
-        if self.gender is not None and (
-            not isinstance(self.gender, int)
-            or self.gender not in (GENDER_FEMALE, GENDER_MALE)
-        ):
+        if self.gender is not None and self.gender not in list(Gender):
             raise ValueError(
-                f"gender must be None or {GENDER_FEMALE} (female) or {GENDER_MALE} (male), got: {self.gender}"
+                f"gender must be None or a valid Gender enum, got: {self.gender}"
             )
-        if self.min_level is not None and (
-            not isinstance(self.min_level, int)
-            or self.min_level < MIN_POKEMON_LEVEL
-            or self.min_level > MAX_POKEMON_LEVEL
-        ):
-            raise ValueError(
-                f"min_level must be None or between {MIN_POKEMON_LEVEL} and {MAX_POKEMON_LEVEL}, got: {self.min_level}"
-            )
-        if self.min_happiness is not None and (
-            not isinstance(self.min_happiness, int)
-            or self.min_happiness < MIN_HAPPINESS
-            or self.min_happiness > MAX_HAPPINESS
-        ):
-            raise ValueError(
-                f"min_happiness must be None or between {MIN_HAPPINESS} and {MAX_HAPPINESS}, got: {self.min_happiness}"
-            )
-        if self.min_beauty is not None and (
-            not isinstance(self.min_beauty, int)
-            or self.min_beauty < MIN_BEAUTY
-            or self.min_beauty > MAX_BEAUTY
-        ):
-            raise ValueError(
-                f"min_beauty must be None or between {MIN_BEAUTY} and {MAX_BEAUTY}, got: {self.min_beauty}"
-            )
-        if self.min_affection is not None and (
-            not isinstance(self.min_affection, int)
-            or self.min_affection < MIN_AFFECTION
-            or self.min_affection > MAX_AFFECTION
-        ):
-            raise ValueError(
-                f"min_affection must be None or between {MIN_AFFECTION} and {MAX_AFFECTION}, got: {self.min_affection}"
-            )
+        _validate_optional_int(
+            self.min_level, "min_level", MIN_POKEMON_LEVEL, MAX_POKEMON_LEVEL
+        )
+        _validate_optional_int(
+            self.min_happiness, "min_happiness", MIN_HAPPINESS, MAX_HAPPINESS
+        )
+        _validate_optional_int(self.min_beauty, "min_beauty", MIN_BEAUTY, MAX_BEAUTY)
+        _validate_optional_int(
+            self.min_affection, "min_affection", MIN_AFFECTION, MAX_AFFECTION
+        )
         if self.relative_physical_stats is not None and (
             not isinstance(self.relative_physical_stats, int)
             or self.relative_physical_stats not in (-1, 0, 1)
@@ -395,16 +379,13 @@ class PokemonMoves:
     egg: list[MoveLearn] = field(default_factory=list)
     tutor: list[MoveLearn] = field(default_factory=list)
     machine: list[MoveLearn] = field(default_factory=list)
-    level_up: list[MoveLearn] = field(
-        default_factory=list, metadata={"data_key": "level-up"}
-    )
+    level_up: list[MoveLearn] = field(default_factory=list)
 
     @classmethod
     def from_dict(cls, data: dict[str, Any]) -> "PokemonMoves":
         """Create a PokemonMoves object from a dictionary."""
-        # Handle kebab-case key
-        if "level-up" in data:
-            data["level_up"] = data.pop("level-up")
+        # The 'level-up' key is automatically converted to 'level_up' by dacite
+        # before this type hook is called.
 
         # Convert each move list to MoveLearn objects
         for move_type in ["egg", "tutor", "machine", "level_up"]:
@@ -478,6 +459,14 @@ class MoveMetadata:
                 raise ValueError(
                     f"{field_name} must be an integer between {MIN_DRAIN_HEALING} and {MAX_DRAIN_HEALING}, got: {value}"
                 )
+
+
+@dataclass(slots=True)
+class StatChange:
+    """Represents a stat change from a move."""
+
+    change: int
+    stat: str
 
 
 # endregion
@@ -558,8 +547,8 @@ class Move:
     effect: dict[str, str]
     short_effect: dict[str, str]
     flavor_text: dict[str, str]
-    stat_changes: list[Any]
-    machine: Optional[Any]
+    stat_changes: list[StatChange]
+    machine: Optional[dict[str, Any]]
     metadata: MoveMetadata
 
     def __post_init__(self):

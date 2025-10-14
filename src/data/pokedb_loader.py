@@ -7,36 +7,26 @@ import threading
 from collections import OrderedDict
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from dataclasses import asdict
+from enum import IntEnum
 from pathlib import Path
-from typing import Any, Optional
+from typing import Any, Optional, Type, TypeVar
+
+from dacite import from_dict, Config, DaciteError
 
 from src.models.pokedb import (
     Pokemon,
     Move,
     Ability,
     Item,
-    EvolutionChain,
-    EvolutionNode,
-    EvolutionDetails,
     Form,
-    Sprites,
-    Cries,
     Stats,
-    PokemonAbility,
     EVYield,
     PokemonMoves,
-    OtherSprites,
-    Versions,
-    DreamWorld,
-    Home,
-    OfficialArtwork,
-    Showdown,
-    AnimatedSprites,
-    GenerationSprites,
 )
 from src.utils.logger import get_logger
 
 logger = get_logger(__name__)
+T = TypeVar("T")
 
 
 class ReadWriteLock:
@@ -145,6 +135,17 @@ class PokeDBLoader:
     _data_dir_lock = threading.Lock()
     _file_lock = threading.Lock()  # For file write operations
 
+    # Dacite configuration for efficient deserialization
+    _dacite_config = Config(
+        check_types=False,  # We rely on __post_init__ for validation
+        cast=[list, dict],
+        # Use from_dict methods for types that need special handling
+        type_hooks={
+            EVYield: EVYield.from_dict,
+            PokemonMoves: PokemonMoves.from_dict,
+        },
+    )
+
     @classmethod
     def get_data_dir(cls) -> Path:
         """
@@ -189,157 +190,6 @@ class PokeDBLoader:
             cls._data_dir = path
             logger.info(f"Data directory changed from {old_dir} to {path}")
             cls.clear_cache()  # Clear cache when changing directory
-
-    @staticmethod
-    def _dict_to_evolution_node(data: dict) -> EvolutionNode:
-        """Convert a dict to an EvolutionNode dataclass."""
-        evolves_to = [
-            PokeDBLoader._dict_to_evolution_node(node)
-            for node in data.get("evolves_to", [])
-        ]
-        evolution_details = None
-        if data.get("evolution_details") is not None:
-            evolution_details = EvolutionDetails(**data["evolution_details"])
-        return EvolutionNode(
-            species_name=data["species_name"],
-            evolves_to=evolves_to,
-            evolution_details=evolution_details,
-        )
-
-    # Lookup table for faster nested dataclass type checking
-    _NESTED_CONVERTERS = {
-        "sprites": lambda d: None,  # Will be handled specially
-        "cries": lambda d: Cries(**d),
-        "stats": lambda d: Stats.from_dict(d),
-        "abilities": lambda lst: [
-            PokemonAbility(**ability) if isinstance(ability, dict) else ability
-            for ability in lst
-        ],
-        "ev_yield": lambda lst: [
-            EVYield.from_dict(ev) if isinstance(ev, dict) else ev for ev in lst
-        ],
-        "moves": lambda d: PokemonMoves.from_dict(d),
-        "evolution_chain": lambda d: None,  # Will be handled specially
-        "forms": lambda lst: [
-            Form(**form) if isinstance(form, dict) else form for form in lst
-        ],
-    }
-
-    @staticmethod
-    def _convert_nested_dataclasses(data: dict) -> dict:
-        """
-        Convert nested dictionaries to their corresponding dataclass objects.
-
-        This handles all nested structures in Pokemon data including sprites,
-        cries, stats, abilities, moves, evolution_chain, and forms.
-
-        Args:
-            data: The raw Pokemon data dictionary
-
-        Returns:
-            dict: The data with nested objects converted to dataclasses
-        """
-        # Convert sprites dict to Sprites dataclass
-        if "sprites" in data and isinstance(data["sprites"], dict):
-            sprites_data = data["sprites"]
-
-            # Convert nested other sprites
-            if "other" in sprites_data and isinstance(sprites_data["other"], dict):
-                other = sprites_data["other"]
-
-                # Handle specific nested sprite structures
-                if "dream_world" in other:
-                    other["dream_world"] = DreamWorld(**other["dream_world"])
-
-                if "home" in other:
-                    other["home"] = Home(**other["home"])
-
-                # Handle kebab-case key: official-artwork -> official_artwork
-                if "official-artwork" in other:
-                    other["official_artwork"] = OfficialArtwork(
-                        **other["official-artwork"]
-                    )
-                    del other["official-artwork"]
-                elif "official_artwork" in other:
-                    other["official_artwork"] = OfficialArtwork(
-                        **other["official_artwork"]
-                    )
-
-                if "showdown" in other:
-                    other["showdown"] = Showdown(**other["showdown"])
-
-                sprites_data["other"] = OtherSprites(**other)
-
-            # Convert nested versions
-            if "versions" in sprites_data and isinstance(
-                sprites_data["versions"], dict
-            ):
-                versions = sprites_data["versions"]
-
-                # Handle kebab-case key: black-white -> black_white
-                if "black-white" in versions:
-                    bw_data = versions["black-white"]
-                    if "animated" in bw_data:
-                        bw_data["animated"] = AnimatedSprites(**bw_data["animated"])
-                    versions["black_white"] = GenerationSprites(**bw_data)
-                    del versions["black-white"]
-
-                sprites_data["versions"] = Versions(**versions)
-
-            data["sprites"] = Sprites(**sprites_data)
-
-        # Convert cries dict to Cries dataclass
-        if "cries" in data and isinstance(data["cries"], dict):
-            data["cries"] = Cries(**data["cries"])
-
-        # Convert stats dict to Stats dataclass
-        if "stats" in data and isinstance(data["stats"], dict):
-            data["stats"] = Stats.from_dict(data["stats"])
-
-        # Convert abilities list of dicts to list of PokemonAbility dataclasses
-        if "abilities" in data and isinstance(data["abilities"], list):
-            data["abilities"] = [
-                PokemonAbility(**ability) if isinstance(ability, dict) else ability
-                for ability in data["abilities"]
-            ]
-
-        # Convert ev_yield list of dicts to list of EVYield dataclasses
-        if "ev_yield" in data and isinstance(data["ev_yield"], list):
-            data["ev_yield"] = [
-                EVYield.from_dict(ev) if isinstance(ev, dict) else ev
-                for ev in data["ev_yield"]
-            ]
-
-        # Convert moves dict to PokemonMoves dataclass
-        if "moves" in data and isinstance(data["moves"], dict):
-            data["moves"] = PokemonMoves.from_dict(data["moves"])
-
-        # Convert evolution_chain dict to EvolutionChain dataclass
-        if "evolution_chain" in data and isinstance(data["evolution_chain"], dict):
-            data["evolution_chain"] = PokeDBLoader._dict_to_evolution_chain(
-                data["evolution_chain"]
-            )
-
-        # Convert forms list of dicts to list of Form dataclasses
-        if "forms" in data and isinstance(data["forms"], list):
-            data["forms"] = [
-                Form(**form) if isinstance(form, dict) else form
-                for form in data["forms"]
-            ]
-
-        return data
-
-    @staticmethod
-    def _dict_to_evolution_chain(data: dict) -> EvolutionChain:
-        """Convert a dict to an EvolutionChain dataclass."""
-        evolves_to = [
-            PokeDBLoader._dict_to_evolution_node(node)
-            for node in data.get("evolves_to", [])
-        ]
-        return EvolutionChain(
-            species_name=data["species_name"],
-            evolves_to=evolves_to,
-        )
 
     @classmethod
     def _find_file(
@@ -570,8 +420,6 @@ class PokeDBLoader:
         cls._cache_lock.acquire_read()
         try:
             if cache_key in cls._pokemon_cache:
-                # Cache hit - just return without updating LRU
-                # (we skip move_to_end to avoid needing write lock upgrade)
                 cls._cache_hits += 1
                 result = cls._pokemon_cache[cache_key]
                 logger.debug(
@@ -588,8 +436,13 @@ class PokeDBLoader:
         # Load from file (outside cache lock to allow parallel file reads)
         logger.debug(f"Loading Pokemon '{name}' from disk (subfolder: {subfolder})")
         data = cls._load_json("pokemon", name, subfolder)
-        data = cls._convert_nested_dataclasses(data)
-        pokemon = Pokemon(**data)
+        try:
+            pokemon = from_dict(
+                data_class=Pokemon, data=data, config=cls._dacite_config
+            )
+        except (DaciteError, ValueError, TypeError) as e:
+            logger.error(f"Error deserializing Pokemon '{name}': {e}", exc_info=True)
+            raise
 
         # Cache the result with LRU eviction
         cls._update_cache(cache_key, pokemon, name)
@@ -599,10 +452,9 @@ class PokeDBLoader:
     def _load_all_generic(
         cls,
         category: str,
-        dataclass_type: type,
+        dataclass_type: Type[T],
         subfolder: Optional[str] = None,
-        convert_nested: bool = False,
-    ) -> dict[str, Any]:
+    ) -> dict[str, T]:
         """
         Generic method to load all items of a given category.
 
@@ -610,7 +462,6 @@ class PokeDBLoader:
             category: The category folder (pokemon, move, ability, item)
             dataclass_type: The dataclass type to instantiate
             subfolder: Optional subfolder within category
-            convert_nested: Whether to convert nested dataclasses (for Pokemon)
 
         Returns:
             dict: Mapping of item name to dataclass objects
@@ -618,16 +469,16 @@ class PokeDBLoader:
         raw_data = cls._load_all_json(category, subfolder)
         result = {}
         for name, data in raw_data.items():
-            if convert_nested:
-                data = cls._convert_nested_dataclasses(data)
             try:
-                result[name] = dataclass_type(**data)
-            except (TypeError, ValueError) as e:
+                result[name] = from_dict(
+                    data_class=dataclass_type, data=data, config=cls._dacite_config
+                )
+            except (DaciteError, TypeError, ValueError) as e:
                 logger.error(f"Error loading {category} '{name}': {e}", exc_info=True)
         return result
 
-    @staticmethod
-    def load_all_pokemon(subfolder: str = "default") -> dict[str, Pokemon]:
+    @classmethod
+    def load_all_pokemon(cls, subfolder: str = "default") -> dict[str, Pokemon]:
         """
         Load all Pokemon from a specific subfolder.
 
@@ -637,12 +488,10 @@ class PokeDBLoader:
         Returns:
             dict: Mapping of pokemon name to data
         """
-        return PokeDBLoader._load_all_generic(
-            "pokemon", Pokemon, subfolder, convert_nested=True
-        )
+        return cls._load_all_generic("pokemon", Pokemon, subfolder)
 
-    @staticmethod
-    def load_move(name: str) -> Move:
+    @classmethod
+    def load_move(cls, name: str) -> Move:
         """
         Load a Move JSON file and return as a Move dataclass.
 
@@ -661,21 +510,21 @@ class PokeDBLoader:
             >>> print(move.power)
             {'gen5': 90}
         """
-        data = PokeDBLoader._load_json("move", name)
-        return Move(**data)
+        data = cls._load_json("move", name)
+        return from_dict(data_class=Move, data=data, config=cls._dacite_config)
 
-    @staticmethod
-    def load_all_moves() -> dict[str, Move]:
+    @classmethod
+    def load_all_moves(cls) -> dict[str, Move]:
         """
         Load all moves and return as Move dataclasses.
 
         Returns:
             dict: Mapping of move name to Move dataclass objects
         """
-        return PokeDBLoader._load_all_generic("move", Move)
+        return cls._load_all_generic("move", Move)
 
-    @staticmethod
-    def load_ability(name: str) -> Ability:
+    @classmethod
+    def load_ability(cls, name: str) -> Ability:
         """
         Load an Ability JSON file and return as an Ability dataclass.
 
@@ -692,21 +541,21 @@ class PokeDBLoader:
             >>> print(ability.is_main_series)
             True
         """
-        data = PokeDBLoader._load_json("ability", name)
-        return Ability(**data)
+        data = cls._load_json("ability", name)
+        return from_dict(data_class=Ability, data=data, config=cls._dacite_config)
 
-    @staticmethod
-    def load_all_abilities() -> dict[str, Ability]:
+    @classmethod
+    def load_all_abilities(cls) -> dict[str, Ability]:
         """
         Load all abilities and return as Ability dataclasses.
 
         Returns:
             dict: Mapping of ability name to Ability dataclass objects
         """
-        return PokeDBLoader._load_all_generic("ability", Ability)
+        return cls._load_all_generic("ability", Ability)
 
-    @staticmethod
-    def load_item(name: str) -> Item:
+    @classmethod
+    def load_item(cls, name: str) -> Item:
         """
         Load an Item JSON file and return as an Item dataclass.
 
@@ -725,18 +574,18 @@ class PokeDBLoader:
             >>> print(item.cost)
             300
         """
-        data = PokeDBLoader._load_json("item", name)
-        return Item(**data)
+        data = cls._load_json("item", name)
+        return from_dict(data_class=Item, data=data, config=cls._dacite_config)
 
-    @staticmethod
-    def load_all_items() -> dict[str, Item]:
+    @classmethod
+    def load_all_items(cls) -> dict[str, Item]:
         """
         Load all items and return as Item dataclasses.
 
         Returns:
             dict: Mapping of item name to Item dataclass objects
         """
-        return PokeDBLoader._load_all_generic("item", Item)
+        return cls._load_all_generic("item", Item)
 
     @classmethod
     def get_pokemon_count(cls, subfolder: str = "default") -> int:
@@ -801,10 +650,16 @@ class PokeDBLoader:
             try:
                 # Write to temp file first, then atomic rename (safer)
                 with open(temp_path, "wb") as f:
-                    # orjson.dumps with OPT_INDENT_2 for pretty printing
+                    # asdict needs a custom factory to handle enums
                     f.write(
                         orjson.dumps(
-                            asdict(data),
+                            asdict(
+                                data,
+                                dict_factory=lambda x: {
+                                    k: v.value if isinstance(v, IntEnum) else v
+                                    for k, v in x
+                                },
+                            ),
                             option=orjson.OPT_INDENT_2 | orjson.OPT_SORT_KEYS,
                         )
                     )
@@ -961,7 +816,15 @@ class PokeDBLoader:
             cls._cache_lock.release_write()
 
     @classmethod
-    def preload_cache(cls, subfolders: Optional[list[str]] = None) -> dict[str, int]:
+    def _preload_worker(cls, json_file: Path) -> tuple[str, dict]:
+        """A dedicated worker just for reading and parsing a JSON file."""
+        name = json_file.stem
+        with open(json_file, "rb") as f:
+            data = orjson.loads(f.read())
+        return name, data
+
+    @classmethod
+    def preload_cache(cls, subfolders: Optional[list[str]] = None) -> dict[str, Any]:
         """
         Pre-load all Pokemon into cache for maximum performance during a run.
 
@@ -994,6 +857,7 @@ class PokeDBLoader:
             >>> stats = PokeDBLoader.preload_cache()
         """
         import time
+        import os
 
         if subfolders is None:
             subfolders = ["default", "cosmetic", "transformation", "variant"]
@@ -1005,10 +869,6 @@ class PokeDBLoader:
 
         by_subfolder = {}
         total_loaded = 0
-
-        # Determine optimal worker count (4x CPU cores for I/O-bound tasks)
-        import os
-
         worker_count = min(32, (os.cpu_count() or 4) * 4)
 
         for subfolder in subfolders:
@@ -1020,32 +880,43 @@ class PokeDBLoader:
                 by_subfolder[subfolder] = 0
                 continue
 
-            # Load all Pokemon from this subfolder in parallel
             json_files = list(data_dir.glob("*.json"))
-            loaded_count = 0
+            loaded_pokemon: dict[tuple[str, str], Pokemon] = {}
 
-            # Use ThreadPoolExecutor for parallel loading
             with ThreadPoolExecutor(max_workers=worker_count) as executor:
-                # Submit all load tasks
-                future_to_name = {
-                    executor.submit(
-                        cls.load_pokemon, json_file.stem, subfolder
-                    ): json_file.stem
-                    for json_file in json_files
+                future_to_file = {
+                    executor.submit(cls._preload_worker, f): f for f in json_files
                 }
 
-                # Collect results as they complete
-                for future in as_completed(future_to_name):
-                    pokemon_name = future_to_name[future]
+                for future in as_completed(future_to_file):
+                    file_path = future_to_file[future]
                     try:
-                        future.result()  # This will raise if the load failed
-                        loaded_count += 1
+                        name, data = future.result()
+                        pokemon = from_dict(
+                            data_class=Pokemon, data=data, config=cls._dacite_config
+                        )
+                        loaded_pokemon[(name, subfolder)] = pokemon
                     except Exception as e:
                         logger.error(
-                            f"Failed to load Pokemon '{pokemon_name}' from {subfolder}: {e}"
+                            f"Failed to preload Pokemon '{file_path.stem}': {e}"
                         )
 
+            if loaded_pokemon:
+                cls._cache_lock.acquire_write()
+                try:
+                    for key, mon in loaded_pokemon.items():
+                        cls._pokemon_cache[key] = mon
+                        cls._pokemon_cache.move_to_end(key)
+
+                    overage = len(cls._pokemon_cache) - cls.MAX_CACHE_SIZE
+                    if overage > 0:
+                        for _ in range(overage):
+                            cls._pokemon_cache.popitem(last=False)
+                finally:
+                    cls._cache_lock.release_write()
+
             subfolder_time = time.time() - subfolder_start
+            loaded_count = len(loaded_pokemon)
             by_subfolder[subfolder] = loaded_count
             total_loaded += loaded_count
 
@@ -1070,8 +941,7 @@ class PokeDBLoader:
             f"(cache: {cache_size_before} -> {cache_size_after})"
         )
 
-        # Warn if cache size might be limiting
-        if cache_size_after < total_loaded:
+        if cache_size_after < total_loaded + cache_size_before:
             logger.warning(
                 f"Cache size ({cls.MAX_CACHE_SIZE}) is smaller than total Pokemon "
                 f"({total_loaded}). Some entries were evicted. Consider increasing "
