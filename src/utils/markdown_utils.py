@@ -56,7 +56,9 @@ def format_pokemon_with_sprite(
     # Use config for default path if not provided
     if pokedex_base_path is None:
         config = get_config()
-        pokedex_base_path = config.get("markdown", {}).get("pokedex_base_path", "../pokedex")
+        pokedex_base_path = config.get("markdown", {}).get(
+            "pokedex_base_path", "../pokedex"
+        )
 
     pokemon_id = name_to_id(pokemon_name)
 
@@ -109,8 +111,15 @@ def format_pokemon_pair_with_sprites(
     Returns:
         Tuple of (from_markdown, to_markdown)
     """
-    from_md = format_pokemon_with_sprite(from_pokemon, sprite_from, pokedex_link=True, pokedex_base_path=pokedex_base_path)
-    to_md = format_pokemon_with_sprite(to_pokemon, sprite_to, pokedex_link=True, pokedex_base_path=pokedex_base_path)
+    from_md = format_pokemon_with_sprite(
+        from_pokemon,
+        sprite_from,
+        pokedex_link=True,
+        pokedex_base_path=pokedex_base_path,
+    )
+    to_md = format_pokemon_with_sprite(
+        to_pokemon, sprite_to, pokedex_link=True, pokedex_base_path=pokedex_base_path
+    )
     return from_md, to_md
 
 
@@ -124,7 +133,24 @@ def escape_markdown(text: str) -> str:
     Returns:
         Escaped text safe for markdown
     """
-    special_chars = ['\\', '`', '*', '_', '{', '}', '[', ']', '(', ')', '#', '+', '-', '.', '!', '|']
+    special_chars = [
+        "\\",
+        "`",
+        "*",
+        "_",
+        "{",
+        "}",
+        "[",
+        "]",
+        "(",
+        ")",
+        "#",
+        "+",
+        "-",
+        ".",
+        "!",
+        "|",
+    ]
     for char in special_chars:
-        text = text.replace(char, f'\\{char}')
+        text = text.replace(char, f"\\{char}")
     return text

@@ -15,8 +15,6 @@
     "clear_on_run": true
   },
   "parsers": {
-    "skip_patterns": ["^=+$"],
-    "default_output_format": "markdown",
     "registry": {
       "evolution_changes": {
         "module": "src.parsers.evolution_changes_parser",
@@ -28,7 +26,7 @@
         "module": "src.parsers.gift_pokemon_parser",
         "class": "GiftPokemonParser",
         "input_file": "Gift Pokemon.txt",
-        "output_dir": "docs"
+        "output_dir": "docs/reference"
       },
       "item_changes": {
         "module": "src.parsers.item_changes_parser",
@@ -40,7 +38,7 @@
         "module": "src.parsers.legendary_locations_parser",
         "class": "LegendaryLocationsParser",
         "input_file": "Legendary Locations.txt",
-        "output_dir": "docs"
+        "output_dir": "docs/reference"
       },
       "move_changes": {
         "module": "src.parsers.move_changes_parser",
@@ -76,7 +74,7 @@
         "module": "src.parsers.wild_area_changes_parser",
         "class": "WildAreaChangesParser",
         "input_file": "Wild Area Changes.txt",
-        "output_dir": "docs"
+        "output_dir": "docs/changes"
       }
     }
   },

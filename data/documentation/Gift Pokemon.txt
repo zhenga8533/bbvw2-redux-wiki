@@ -8,6 +8,7 @@ General Notes
 =========================================================
 
 All Pokémon here have the normal chance to be shiny. There are no shiny locks.
+
  - Thus, you can soft reset for shinies.
  - The Starter Gifts do not show if the Pokémon is shiny in the little picture. This cannot be implemented sadly!
 
@@ -27,7 +28,7 @@ Level: 5
    - On the Complete version, this means Snivy will always have Contrary, Tepig Sheer Force and Oshawott Shell Armor.
 
 
-'Elemental Monkey' Gift.
+Pansage, Panpour or Pansear.
 ---
 Location: Floccesy Town, Outside.
 Level: 5
@@ -40,7 +41,7 @@ Level: 5
    - If you choose Oshawott you will receive a Pansear.
 
 
-Ranch Egg Gift.
+Pichu, Igglybuff, Teddiursa, Slugma, Tyrogue, Smoochum, Elekid, Magby, Carvanha, Spheal, Budew, Munna, Blitzle, Vanillite, Litwick, Elgyem or Cubchoo Egg.
 ---
 Location: Floccesy Ranch, just past the location of the Rival Battle.
 Level: 1
@@ -48,8 +49,7 @@ Level: 1
  - Talk to the Daycare Woman roaming Floccesy Ranch to receive an Egg.
  - Ensure you have a space free in your party, otherwise you will not be able to receive the Egg.
  - The Egg will hatch into one of the following Pokémon at random:
-   Pichu, Igglybuff, Teddiursa, Slugma, Tyrogue, Smoochum, Elekid, Magby,
-   Carvanha, Spheal, Budew, Munna, Blitzle, Vanillite, Litwick, Elgyem and Cubchoo.
+   - Pichu, Igglybuff, Teddiursa, Slugma, Tyrogue, Smoochum, Elekid, Magby, Carvanha, Spheal, Budew, Munna, Blitzle, Vanillite, Litwick, Elgyem or Cubchoo.
  - You can save before collecting the Egg and soft reset if you don't like the result.
 
 
@@ -104,7 +104,7 @@ Level: 1
  - Defeat all trainers on both levels of the Battle Company and the Janitor will give the player a random Egg.
  - Ensure you have a space free in your party, otherwise you will not be able to receive an Egg.
  - The Egg will hatch into one of the following Pokémon at random:
-   Bonsly, Mime Jr., Glameow or Stunky.
+   - Bonsly, Mime Jr., Glameow or Stunky.
  - You can save before collecting the Egg and soft reset if you don't like the result.
 
 
@@ -122,12 +122,12 @@ Level: 25
  - Don't forget to make space in your party to receive the Pokémon!
 
 
-Treeko, Torchic or Mudkip.
+Treecko, Torchic or Mudkip.
 ---
 Location: Anville Town, South-western most House.
 Level: 5
 
- - Speak to the Juggler to receive either Treeko, Torchic or Mudkip.
+ - Speak to the Juggler to receive either Treecko, Torchic or Mudkip.
  - Ensure you have a space free in your party, otherwise you will not be able to receive a Pokémon.
  - Hidden Grottos can be used to obtain the other two Pokémon, see the Wild Pokémon document for more details.
 
@@ -142,7 +142,7 @@ Level: 5
  - Hidden Grottos can be used to obtain the other two Pokémon, see the Wild Pokémon document for more details.
 
 
-N's Zorua.
+Zorua.
 ---
 Location: Team Plasma's Safehouse.
 Level: 30
@@ -168,10 +168,12 @@ Special Encounters
 =========================================================
 
 There are certain special encounters which can be found in Redux. These are listed below.
+
  - These encounters can only be experienced once.
  - Make sure to save the game before you interact with them, just in case!
 
 Once again, all Pokémon here have the normal chance to be shiny. There are no shiny locks.
+
  - Thus, you can soft reset for shinies.
 
 

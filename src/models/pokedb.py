@@ -22,6 +22,8 @@ data/pokedb/
 from dataclasses import dataclass, field
 from enum import IntEnum
 from typing import Any, Literal, Optional
+from dataclasses import dataclass, field, fields
+from typing import Any
 
 
 # region Enums and Constants
@@ -392,21 +394,25 @@ class PokemonMoves:
     tutor: list[MoveLearn] = field(default_factory=list)
     machine: list[MoveLearn] = field(default_factory=list)
     level_up: list[MoveLearn] = field(default_factory=list)
+    extra_fields: dict[str, Any] = field(default_factory=dict, repr=False)
 
     @classmethod
     def from_dict(cls, data: dict[str, Any]) -> "PokemonMoves":
-        """Create a PokemonMoves object from a dictionary."""
-        # The 'level-up' key is automatically converted to 'level_up' by dacite
-        # before this type hook is called.
-
+        """Create a PokemonMoves object from a dictionary, allowing extra fields."""
         # Convert each move list to MoveLearn objects
-        for move_type in ["egg", "tutor", "machine", "level_up"]:
-            data[move_type] = [
+        known_fields = {"egg", "tutor", "machine", "level_up"}
+        init_data = {}
+        for move_type in known_fields:
+            init_data[move_type] = [
                 MoveLearn(**move)
                 for move in data.get(move_type, [])
                 if isinstance(move, dict)
             ]
-        return cls(**data)
+
+        # Store any unexpected fields in extra_fields
+        extra = {k: v for k, v in data.items() if k not in known_fields}
+        init_data["extra_fields"] = extra
+        return cls(**init_data)
 
 
 # endregion

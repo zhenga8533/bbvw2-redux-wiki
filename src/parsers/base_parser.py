@@ -2,14 +2,12 @@
 Base parser class for processing documentation files and generating markdown output.
 """
 
-from abc import ABC, abstractmethod
+from abc import ABC
 from pathlib import Path
 from typing import Optional
 from ..utils.logger import get_logger
-import json
 import re
-
-logger = get_logger(__name__)
+import unicodedata
 
 
 class BaseParser(ABC):
@@ -40,6 +38,10 @@ class BaseParser(ABC):
         """
         # Initialize instance variables to avoid shared state
         self._markdown = ""
+        self._sections = []
+        self._current_section = ""
+        self._lines = []
+        self._line_index = 0
 
         # Set up logger for this parser instance
         self.logger = get_logger(self.__class__.__module__)
@@ -73,18 +75,128 @@ class BaseParser(ABC):
         self.output_dir.mkdir(parents=True, exist_ok=True)
         self.logger.debug(f"Output directory ready: {self.output_dir}")
 
-    @abstractmethod
     def parse(self) -> None:
         """
-        Parse the input file and extract data.
+        Default parse implementation for section-based parsers.
 
-        This method should populate:
-        - self._markdown: str containing the generated markdown
+        This template method:
+        1. Reads input lines
+        2. Initializes markdown with a title
+        3. Dispatches lines to section-specific handlers
+
+        Subclasses should:
+        - Define _sections class attribute with section names
+        - Implement parse_<section_name>() methods for each section
+        - Optionally override get_title() to customize the markdown title
+        - Can override this method entirely for custom parsing logic
+        """
+        if not hasattr(self, "_sections"):
+            raise NotImplementedError(
+                "Subclasses must define _sections or override parse()"
+            )
+
+        self._lines = self.read_input_lines()
+        self._line_index = 0
+        self._markdown = f"# {self.get_title()}\n\n"
+
+        while self._line_index < len(self._lines):
+            line = self._lines[self._line_index]
+
+            if line in self._sections:
+                self.handle_section_change(line)
+            elif self._current_section:
+                self.dispatch_line(line)
+
+            self._line_index += 1
+
+    def peek_line(self, offset: int) -> Optional[str]:
+        """
+        Peek at a line at a specific offset from the current position.
+
+        Args:
+            offset: Number of lines ahead to peek (1 = next line, 2 = line after next, etc.)
 
         Returns:
-            None
+            Optional[str]: The line at the specified offset, or None if out of bounds
         """
-        pass
+        index = self._line_index + offset
+        if 0 <= index < len(self._lines):
+            return self._lines[index]
+        return None
+
+    def get_title(self) -> str:
+        """
+        Get the title for the markdown document.
+
+        Default implementation converts the input filename to title case.
+        Subclasses can override to provide custom titles.
+
+        Returns:
+            str: The title for the markdown document
+        """
+        return self.output_file.replace("_", " ").title()
+
+    def dispatch_line(self, line: str) -> None:
+        """
+        Dispatch a line to the appropriate section handler.
+
+        Converts section name to method name (e.g., "General Notes" -> "parse_general_notes")
+        and calls that method with the line.
+
+        Args:
+            line: The line to dispatch
+        """
+        method_name = self._section_to_method_name(self._current_section)
+        method = getattr(self, method_name, None)
+
+        if method is None:
+            self.logger.warning(
+                f"No handler method '{method_name}' found for section '{self._current_section}'"
+            )
+            return
+
+        method(line)
+
+    def _section_to_method_name(self, section: str) -> str:
+        """
+        Convert section name to method name.
+
+        Examples:
+            "General Notes" -> "parse_general_notes"
+            "Gift Pokémon" -> "parse_gift_pokemon"
+            "Evolution Changes" -> "parse_evolution_changes"
+
+        Args:
+            section: The section name
+
+        Returns:
+            str: The method name
+        """
+
+        # Normalize unicode characters (e.g., "Pokémon" -> "Pokemon")
+        normalized = unicodedata.normalize("NFKD", section)
+        # Remove accents/diacritics
+        ascii_str = normalized.encode("ASCII", "ignore").decode("ASCII")
+        # Convert to lowercase and replace spaces with underscores
+        snake_case = ascii_str.lower().replace(" ", "_")
+        # Remove any non-alphanumeric characters except underscores
+        clean = "".join(c for c in snake_case if c.isalnum() or c == "_")
+        return f"parse_{clean}"
+
+    def handle_section_change(self, new_section: str) -> None:
+        """
+        Handle logic when changing sections.
+
+        This is a template method that subclasses can override to add custom
+        behavior when sections change (e.g., adding table headers, resetting state).
+
+        The default implementation updates self._current_section.
+
+        Args:
+            new_section: Name of the new section being entered
+        """
+        self._markdown += f"## {new_section}\n\n"
+        self._current_section = new_section
 
     def read_input_lines(self) -> list[str]:
         """Read and return the input file as lines, skipping empty lines and skip patterns."""
@@ -94,9 +206,11 @@ class BaseParser(ABC):
         try:
             # Read lines from the input file
             with self.input_path.open("r", encoding="utf-8") as f:
-                lines = [line.strip() for line in f]
+                lines = [line.rstrip() for line in f]
         except (OSError, IOError) as e:
-            self.logger.error(f"Error reading input file {self.input_path}: {e}", exc_info=True)
+            self.logger.error(
+                f"Error reading input file {self.input_path}: {e}", exc_info=True
+            )
             raise
 
         # Apply skip patterns

@@ -31,8 +31,6 @@ class EvolutionChangesParser(BaseParser):
     Extracts evolution method changes and updates Pokemon JSON files.
     """
 
-    _SECTIONS = ["General Notes", "Evolution Changes"]
-
     # Pre-compiled regex patterns for better performance
     _POKEMON_LINE_PATTERN = re.compile(rf"^(\d+) {POKEMON_PATTERN_STR}\s+(.*)")
     _EVOLVES_INTO_PATTERN = re.compile(
@@ -55,30 +53,28 @@ class EvolutionChangesParser(BaseParser):
     def __init__(self, input_file: str, output_dir: str = "docs"):
         """Initialize the Evolution Changes parser."""
         super().__init__(input_file=input_file, output_dir=output_dir)
+        self._sections = ["General Notes", "Evolution Changes"]
 
         # Initialize instance variables to avoid shared state between parser instances
-        self._parsed_data: dict = {}
-        self._current_section: str = ""
+        self._parsed_cache: set[str] = set()
         self._current_dex_num: str = ""
         self._current_pokemon: str = ""
-
-    def handle_section_change(self, new_section: str) -> None:
-        """Handle logic when changing sections, if needed."""
-        self._current_section = new_section
-
-        if new_section == "Evolution Changes":
-            self._markdown += "| Dex # | Pokémon | Evolution | New Method |\n"
-            self._markdown += "|:-----:|:-------:|:---------:|------------|\n"
 
     def parse_general_notes(self, line: str) -> None:
         """Parse a line from the General Notes section."""
         self._markdown += f"{line}\n"
 
-    def parse_evolution_change(self, line: str) -> None:
+    def parse_evolution_changes(self, line: str) -> None:
         """Parse a line from the Evolution Changes section and update data."""
 
+        # Table header match
+        if line == "Pokémon              New Method":
+            self._markdown += "| Dex # | Pokémon | Evolution | New Method |\n"
+        elif line == "---                  ---":
+            self._markdown += "|:-----:|:-------:|:---------:|------------|\n"
+
         # Matches: dex_num name (spaces) evolution_text
-        if match := self._POKEMON_LINE_PATTERN.match(line):
+        elif match := self._POKEMON_LINE_PATTERN.match(line):
             self._current_dex_num, self._current_pokemon, evolution_text = (
                 match.groups()
             )
@@ -150,7 +146,7 @@ class EvolutionChangesParser(BaseParser):
         # 2. We've already processed this Pokemon once in this parse session (multiple evolutions)
         keep_existing = (
             "in addition to its normal evolution method" in method_text
-            or self._current_pokemon in self._parsed_data
+            or self._current_pokemon in self._parsed_cache
         )
         method_text = method_text.replace(
             " in addition to its normal evolution method", ""
@@ -234,23 +230,4 @@ class EvolutionChangesParser(BaseParser):
             self.logger.info(
                 f"Updated evolution data for {self._current_pokemon} to {evolution} {method_text}"
             )
-            self._parsed_data[pokemon_id] = {
-                "pokemon": self._current_pokemon,
-                "evolution": evolution,
-                "method": method_text,
-            }
-
-    def parse(self) -> None:
-        """Parse the Evolution Changes documentation file."""
-
-        input_lines = self.read_input_lines()
-        self._markdown = "# Evolution Changes\n\n"
-
-        for line in input_lines:
-            if line in self._SECTIONS:
-                self._markdown += f"## {line}\n\n"
-                self.handle_section_change(line)
-            elif self._current_section == "General Notes":
-                self.parse_general_notes(line)
-            elif self._current_section == "Evolution Changes":
-                self.parse_evolution_change(line)
+            self._parsed_cache.add(self._current_pokemon)
