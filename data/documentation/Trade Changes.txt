@@ -8,6 +8,7 @@ General Notes
 =========================================================
 
 In Dray's original projects, the trades with NPC's you can find scattered around Unova are all broken. This has been overhauled and rectified in Redux.
+
  - Details of the new trades are found below.
  - The Curtis/Yancy trades remain unchanged as in BB2 and VW2.
 
@@ -51,6 +52,6 @@ Location: Route 7.
  - He is looking for a Lumineon in exchange for Phione, which can also be found in various areas around Unova, or evolved from Finneon. (See Wild Area Changes Document).
  - The Phione has the following traits:
     - 31 IV's in all stats.
-	- A Bashful nature.
-	- The ability Hydration.
-	- Phione is holding a Lucky Egg.
+    - A Bashful nature.
+    - The ability Hydration.
+    - Phione is holding a Lucky Egg.
