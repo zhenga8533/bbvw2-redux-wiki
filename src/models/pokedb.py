@@ -280,24 +280,26 @@ class EvolutionDetails:
     party_type: Optional[str] = None
     relative_physical_stats: Optional[int] = None
     trade_species: Optional[str] = None
-    trigger: str = ""
-    time_of_day: str = ""
-    needs_overworld_rain: bool = False
-    turn_upside_down: bool = False
+    trigger: Optional[str] = None
+    time_of_day: Optional[str] = None
+    needs_overworld_rain: Optional[bool] = None
+    turn_upside_down: Optional[bool] = None
 
     def __post_init__(self):
         """Validate evolution details fields."""
-        if not isinstance(self.trigger, str):
+        if self.trigger and not isinstance(self.trigger, str):
             raise ValueError(f"trigger must be a string, got: {type(self.trigger)}")
-        if not isinstance(self.time_of_day, str):
+        if self.time_of_day and not isinstance(self.time_of_day, str):
             raise ValueError(
                 f"time_of_day must be a string, got: {type(self.time_of_day)}"
             )
-        if not isinstance(self.needs_overworld_rain, bool):
+        if self.needs_overworld_rain and not isinstance(
+            self.needs_overworld_rain, bool
+        ):
             raise ValueError(
                 f"needs_overworld_rain must be a boolean, got: {type(self.needs_overworld_rain)}"
             )
-        if not isinstance(self.turn_upside_down, bool):
+        if self.turn_upside_down and not isinstance(self.turn_upside_down, bool):
             raise ValueError(
                 f"turn_upside_down must be a boolean, got: {type(self.turn_upside_down)}"
             )
