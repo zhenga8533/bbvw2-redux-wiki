@@ -9,8 +9,8 @@ from typing import Optional
 
 from src.models.pokedb import Pokemon
 from src.data.pokedb_loader import PokeDBLoader
-from src.utils.config_utils import get_config
-from src.utils.text_utils import name_to_id
+from src.utils.config_util import get_config
+from src.utils.text_util import name_to_id
 
 
 def get_pokemon_sprite_url(pokemon: Pokemon, animated: bool = False) -> Optional[str]:

@@ -6,8 +6,8 @@ import argparse
 import sys
 import importlib
 from src.data.pokedb_initializer import PokeDBInitializer
-from src.utils.logger_utils import get_logger
-from src.utils.config_utils import get_config
+from src.utils.logger_util import get_logger
+from src.utils.config_util import get_config
 
 logger = get_logger(__name__)
 

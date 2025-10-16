@@ -8,7 +8,7 @@ This parser:
 
 from typing import Any, Dict
 
-from src.utils.markdown_utils import format_item
+from src.utils.markdown_util import format_item
 from .base_parser import BaseParser
 import re
 

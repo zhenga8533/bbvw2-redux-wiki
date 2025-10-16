@@ -14,7 +14,7 @@ from src.models.pokedb import (
     EvolutionNode,
     EvolutionDetails,
 )
-from src.utils.logger_utils import get_logger
+from src.utils.logger_util import get_logger
 
 logger = get_logger(__name__)
 

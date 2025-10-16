@@ -9,8 +9,8 @@ This parser:
 
 import re
 
-from src.utils.text_utils import name_to_id
-from src.utils.markdown_utils import format_pokemon_with_sprite
+from src.utils.text_util import name_to_id
+from src.utils.markdown_util import format_pokemon_with_sprite
 from src.models.pokedb import (
     EvolutionChain,
     EvolutionDetails,

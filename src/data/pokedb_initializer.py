@@ -10,7 +10,7 @@ import traceback
 import zipfile
 import io
 from pathlib import Path
-from src.utils.logger_utils import get_logger
+from src.utils.logger_util import get_logger
 
 logger = get_logger(__name__)
 
