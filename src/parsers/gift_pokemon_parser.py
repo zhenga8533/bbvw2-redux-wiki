@@ -6,7 +6,7 @@ This parser:
 2. Generates a markdown file to docs/gift_pokemon.md
 """
 
-from src.utils.markdown_util import format_pokemon_with_sprite
+from src.utils.markdown_util import format_pokemon
 from .base_parser import BaseParser
 import re
 
@@ -17,8 +17,6 @@ class GiftPokemonParser(BaseParser):
 
     Extracts gift Pokemon information and generates markdown.
     """
-
-    _DETAIL_PATTERN = re.compile(r"([a-zA-z]+): (.*)")
 
     def __init__(self, input_file: str, output_dir: str = "docs"):
         """Initialize the Gift Pokemon parser."""
@@ -31,23 +29,28 @@ class GiftPokemonParser(BaseParser):
 
     def parse_general_notes(self, line: str) -> None:
         """Parse lines under the General Notes section."""
-        self._markdown += f"{line}\n"
+        self.parse_default(line)
 
     def parse_gift_pokemon(self, line: str) -> None:
         """Parse lines under the Gift Pokémon section."""
         next_line = self.peek_line(1)
 
+        # Match: header line followed by "---" separator
         if next_line == "---":
-            self.format_gift_header(line)
+            self.format_gift_pokemon(line)
+        # Match: separator line "---"
         elif line == "---":
             return
-        elif match := self._DETAIL_PATTERN.match(line):
+        # Match: "Key: Value"
+        elif match := re.match(r"([a-zA-z]+): (.*)", line):
             key, value = match.groups()
             self._markdown += f"**{key}**: {value}\n\n"
+        # Default: regular text line
         else:
-            self._markdown += f"{line}\n"
+            self.parse_default(line)
 
-    def format_gift_header(self, header: str) -> None:
+    def format_gift_pokemon(self, header: str) -> None:
+        """Format gift Pokemon section with sprite table."""
         # Clean up header
         header = header.removesuffix(".")
         gift_pokemon = re.split(r", | or ", header.removesuffix(" Egg"))
@@ -57,7 +60,7 @@ class GiftPokemonParser(BaseParser):
         # Build table rows in chunks of 3, centering if fewer than 3
         table = "|   |   |   |\n|:-:|:-:|:-:|\n"
         rows = [
-            [format_pokemon_with_sprite(p) for p in gift_pokemon[i : i + 3]]
+            [format_pokemon(p) for p in gift_pokemon[i : i + 3]]
             for i in range(0, len(gift_pokemon), 3)
         ]
 

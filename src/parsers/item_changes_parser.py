@@ -20,16 +20,6 @@ class ItemChangesParser(BaseParser):
     Extracts item change information and generates markdown.
     """
 
-    # Modified Items Patterns
-    _REPLACE_PATTERN = re.compile(r"^ - ([a-zA-Z\s]+) -> ([a-zA-Z\s]+)$")
-    _ADJUST_COST_PATTERN = re.compile(r"^ - ([a-zA-Zé\s]+)\s+\(\$(\d+) -> \$(\d+)\)$")
-    _ITEM_LIST_PATTERN = re.compile(r"^ - (.*)$")
-
-    # Pickup Table Changes Patterns
-    _PICKUP_REPLACE_PATTERN = re.compile(
-        r"^ - All instances of a ([a-zA-Z'\s]+) have been replaced with a ([a-zA-Z'\s]+)\.$"
-    )
-
     def __init__(self, input_file: str, output_dir: str = "docs"):
         """Initialize the Item Changes parser."""
         super().__init__(input_file=input_file, output_dir=output_dir)
@@ -47,12 +37,12 @@ class ItemChangesParser(BaseParser):
 
     def parse_evless_mode_information(self, line: str) -> None:
         """Parse lines under the EVless Mode Information section."""
-        self._markdown += f"{line}\n"
+        self.parse_default(line)
 
     def parse_modified_items(self, line: str) -> None:
         """Parse lines under the Modified Items section."""
-
-        if match := self._REPLACE_PATTERN.match(line):
+        # Match: " - old_item -> new_item"
+        if match := re.match(r"^ - ([a-zA-Z\s]+) -> ([a-zA-Z\s]+)$", line):
             if not self._in_replace:
                 self._markdown += "| Old Item | New Item |\n"
                 self._markdown += "|:--------:|:--------:|\n"
@@ -63,7 +53,8 @@ class ItemChangesParser(BaseParser):
             new_item_md = format_item(new_item)
 
             self._markdown += f"| {old_item_md} | {new_item_md} |\n"
-        elif match := self._ADJUST_COST_PATTERN.match(line):
+        # Match: " - item ($old_cost -> $new_cost)"
+        elif match := re.match(r"^ - ([a-zA-Zé\s]+)\s+\(\$(\d+) -> \$(\d+)\)$", line):
             if not self._in_adjust_cost:
                 self._markdown += "\n"
                 self._markdown += "| Item | Old Cost | New Cost |\n"
@@ -74,22 +65,24 @@ class ItemChangesParser(BaseParser):
             item_md = format_item(item)
 
             self._markdown += f"| {item_md} | ${old_cost} | ${new_cost} |\n"
-        elif match := self._ITEM_LIST_PATTERN.match(line):
+        # Match: " - item" (simple list item)
+        elif match := re.match(r"^ - (.*)$", line):
             item = match.group(1)
             item_md = format_item(item)
 
             self._markdown += f"- {item_md}\n"
+        # Default: regular text line
         else:
-            self._markdown += "\n"
+            self.parse_default(line)
 
     def parse_pickup_table_changes(self, line: str) -> None:
         """Parse lines under the Pickup Table Changes section."""
-        self._markdown += f"{line}\n"
+        self.parse_default(line)
 
     def parse_castelia_berry_guy_battle_subway_and_pwt_prizes(self, line: str) -> None:
         """Parse lines under the Castelia Berry Guy, Battle Subway and PWT Prizes section."""
-        self._markdown += f"{line}\n"
+        self.parse_default(line)
 
     def parse_item_locations(self, line: str) -> None:
         """Parse lines under the Item Locations section."""
-        self._markdown += f"{line}\n"
+        self.parse_default(line)

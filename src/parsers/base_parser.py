@@ -75,6 +75,39 @@ class BaseParser(ABC):
         self.output_dir.mkdir(parents=True, exist_ok=True)
         self.logger.debug(f"Output directory ready: {self.output_dir}")
 
+    def _section_to_method_name(self, section: str) -> str:
+        """
+        Convert section name to method name.
+
+        Args:
+            section: The section name
+
+        Returns:
+            str: The method name
+        """
+
+        # Normalize unicode characters (e.g., "Pokémon" -> "Pokemon")
+        normalized = unicodedata.normalize("NFKD", section)
+        # Remove accents/diacritics
+        ascii_str = normalized.encode("ASCII", "ignore").decode("ASCII")
+        # Convert to lowercase and replace spaces with underscores
+        snake_case = ascii_str.lower().replace(" ", "_")
+        # Remove any non-alphanumeric characters except underscores
+        clean = "".join(c for c in snake_case if c.isalnum() or c == "_")
+        return f"parse_{clean}"
+
+    def get_title(self) -> str:
+        """
+        Get the title for the markdown document.
+
+        Default implementation converts the input filename to title case.
+        Subclasses can override to provide custom titles.
+
+        Returns:
+            str: The title for the markdown document
+        """
+        return self.output_file.replace("_", " ").title()
+
     def parse(self) -> None:
         """
         Default parse implementation for section-based parsers.
@@ -105,9 +138,29 @@ class BaseParser(ABC):
             if line in self._sections:
                 self.handle_section_change(line)
             elif self._current_section:
-                self.dispatch_line(line)
+                method_name = self._section_to_method_name(self._current_section)
+                method = getattr(self, method_name, None)
+
+                if method is None:
+                    self.logger.warning(
+                        f"No handler for section '{self._current_section}', using parse_default"
+                    )
+                    self.parse_default(line)
+                else:
+                    method(line)
 
             self._line_index += 1
+
+    def parse_default(self, line: str) -> None:
+        """
+        Default line parser if no section-specific method is found.
+
+        Simply appends the line to the markdown output.
+
+        Args:
+            line: The line to parse
+        """
+        self._markdown += f"{line}\n"
 
     def peek_line(self, offset: int) -> Optional[str]:
         """
@@ -123,65 +176,6 @@ class BaseParser(ABC):
         if 0 <= index < len(self._lines):
             return self._lines[index]
         return None
-
-    def get_title(self) -> str:
-        """
-        Get the title for the markdown document.
-
-        Default implementation converts the input filename to title case.
-        Subclasses can override to provide custom titles.
-
-        Returns:
-            str: The title for the markdown document
-        """
-        return self.output_file.replace("_", " ").title()
-
-    def dispatch_line(self, line: str) -> None:
-        """
-        Dispatch a line to the appropriate section handler.
-
-        Converts section name to method name (e.g., "General Notes" -> "parse_general_notes")
-        and calls that method with the line.
-
-        Args:
-            line: The line to dispatch
-        """
-        method_name = self._section_to_method_name(self._current_section)
-        method = getattr(self, method_name, None)
-
-        if method is None:
-            self.logger.warning(
-                f"No handler method '{method_name}' found for section '{self._current_section}'"
-            )
-            return
-
-        method(line)
-
-    def _section_to_method_name(self, section: str) -> str:
-        """
-        Convert section name to method name.
-
-        Examples:
-            "General Notes" -> "parse_general_notes"
-            "Gift Pokémon" -> "parse_gift_pokemon"
-            "Evolution Changes" -> "parse_evolution_changes"
-
-        Args:
-            section: The section name
-
-        Returns:
-            str: The method name
-        """
-
-        # Normalize unicode characters (e.g., "Pokémon" -> "Pokemon")
-        normalized = unicodedata.normalize("NFKD", section)
-        # Remove accents/diacritics
-        ascii_str = normalized.encode("ASCII", "ignore").decode("ASCII")
-        # Convert to lowercase and replace spaces with underscores
-        snake_case = ascii_str.lower().replace(" ", "_")
-        # Remove any non-alphanumeric characters except underscores
-        clean = "".join(c for c in snake_case if c.isalnum() or c == "_")
-        return f"parse_{clean}"
 
     def handle_section_change(self, new_section: str) -> None:
         """
@@ -225,7 +219,7 @@ class BaseParser(ABC):
         )
         return filtered_lines
 
-    def save_markdown(self, content: str) -> Optional[Path]:
+    def save_markdown(self) -> Path:
         """
         Save markdown content to the output directory.
 
@@ -235,10 +229,8 @@ class BaseParser(ABC):
         Returns:
             Path: Path to the saved file
         """
-        if not content:
-            self.logger.warning("No content to save for markdown.")
-            return None
-        self.output_path.write_text(content, encoding="utf-8")
+
+        self.output_path.write_text(self._markdown, encoding="utf-8")
         self.logger.info(f"Saved markdown to {self.output_path}")
         return self.output_path
 
@@ -249,13 +241,11 @@ class BaseParser(ABC):
         Returns:
             Path: Path to the saved markdown file
         """
-        self.logger.info(f"Starting parse of {self.input_path}")
 
         # Parse input file
         self.parse()
 
-        # Optionally save markdown
-        markdown_path = self.save_markdown(self._markdown)
+        # Save markdown
+        markdown_path = self.save_markdown()
 
-        self.logger.info("Parsing complete")
         return markdown_path
