@@ -11,7 +11,6 @@ from src.models.pokedb import Pokemon
 from src.data.pokedb_loader import PokeDBLoader
 from src.utils.config_loader import get_config
 from src.utils.text_utils import name_to_id
-from src.utils.constants import POKEMON_SPRITE_WIDTH
 
 
 def get_pokemon_sprite_url(pokemon: Pokemon, animated: bool = False) -> Optional[str]:
@@ -74,7 +73,7 @@ def format_pokemon_with_sprite(
     # Build the HTML structure
     if sprite_url:
         sprite_img = (
-            f'<img src="{sprite_url}" width="{POKEMON_SPRITE_WIDTH}" alt="{pokemon_name}">'
+            f'<img src="{sprite_url}" width="96" alt="{pokemon_name}">'
             if not animated
             else f'<img src="{sprite_url}"  alt="{pokemon_name} (animated)">'
         )

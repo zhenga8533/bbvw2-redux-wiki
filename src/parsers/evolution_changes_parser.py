@@ -9,7 +9,6 @@ This parser:
 
 import re
 
-from src.utils.constants import POKEMON_PATTERN_STR
 from src.utils.text_utils import name_to_id
 from src.utils.markdown_utils import format_pokemon_with_sprite
 from src.models.pokedb import (
@@ -31,13 +30,15 @@ class EvolutionChangesParser(BaseParser):
     Extracts evolution method changes and updates Pokemon JSON files.
     """
 
+    _POKEMON_PATTERN_STR = r"([A-Z][\w':.-]*(?:\s[A-Z][\w':.-]*)*)"
+
     # Pre-compiled regex patterns for better performance
-    _POKEMON_LINE_PATTERN = re.compile(rf"^(\d+) {POKEMON_PATTERN_STR}\s+(.*)")
+    _POKEMON_LINE_PATTERN = re.compile(rf"^(\d+) {_POKEMON_PATTERN_STR}\s+(.*)")
     _EVOLVES_INTO_PATTERN = re.compile(
-        rf"Now evolves into {POKEMON_PATTERN_STR} (.*)\."
+        rf"Now evolves into {_POKEMON_PATTERN_STR} (.*)\."
     )
-    _GENDER_FEMALE_PATTERN = re.compile(rf" if {POKEMON_PATTERN_STR} is female")
-    _GENDER_MALE_PATTERN = re.compile(rf" if {POKEMON_PATTERN_STR} is male")
+    _GENDER_FEMALE_PATTERN = re.compile(rf" if {_POKEMON_PATTERN_STR} is female")
+    _GENDER_MALE_PATTERN = re.compile(rf" if {_POKEMON_PATTERN_STR} is male")
 
     # Pre-compiled evolution method patterns
     _LEVEL_PATTERN = re.compile(r"at Level (\d+)")
@@ -47,7 +48,7 @@ class EvolutionChangesParser(BaseParser):
     )
     _MOVE_PATTERN = re.compile(r"by leveling up while knowing the move (.+)")
     _PARTY_PATTERN = re.compile(
-        rf"by leveling up when a {POKEMON_PATTERN_STR} is in the party"
+        rf"by leveling up when a {_POKEMON_PATTERN_STR} is in the party"
     )
 
     def __init__(self, input_file: str, output_dir: str = "docs"):
