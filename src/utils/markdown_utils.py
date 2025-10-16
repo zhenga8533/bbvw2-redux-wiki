@@ -9,7 +9,7 @@ from typing import Optional
 
 from src.models.pokedb import Pokemon
 from src.data.pokedb_loader import PokeDBLoader
-from src.utils.config_loader import get_config
+from src.utils.config_utils import get_config
 from src.utils.text_utils import name_to_id
 
 
