@@ -22,8 +22,6 @@ data/pokedb/
 from dataclasses import dataclass, field
 from enum import IntEnum
 from typing import Any, Literal, Optional
-from dataclasses import dataclass, field, fields
-from typing import Any
 
 
 # region Enums and Constants
@@ -149,39 +147,35 @@ class EVYield:
                 f"effort must be an integer between {MIN_EV_YIELD} and {MAX_EV_YIELD}, got: {self.effort}"
             )
 
-    @classmethod
-    def from_dict(cls, data: dict[str, Any]) -> "EVYield":
-        """
-        Create an EVYield object from a dictionary.
-
-        Note: The backend data repository uses snake_case for JSON field names,
-        but the stat VALUES may still be in kebab-case in some legacy data.
-        This method converts kebab-case stat values to snake_case for
-        backwards compatibility.
-
-        Example:
-            Data: {"stat": "special-defense", "effort": 2}
-            Becomes: EVYield(stat="special_defense", effort=2)
-        """
-        # Convert kebab-case to snake_case for stat values
-        # (Field names are already snake_case from the JSON)
-        if "stat" in data and isinstance(data["stat"], str):
-            data["stat"] = data["stat"].replace("-", "_")
-        return cls(**data)
-
 
 @dataclass(slots=True)
 class Cries:
     """Contains URLs to a Pokémon's cries."""
 
     latest: str
-    legacy: str
+    legacy: Optional[str]
+
+    def __post_init__(self):
+        """Validate cries fields."""
+        if not isinstance(self.latest, str):
+            raise ValueError(f"latest must be a string, got: {type(self.latest)}")
 
 
 @dataclass(slots=True)
 class DreamWorld:
     front_default: Optional[str]
     front_female: Optional[str]
+
+    def __post_init__(self):
+        """Validate DreamWorld sprite URLs."""
+        if self.front_default is not None and not isinstance(self.front_default, str):
+            raise ValueError(
+                f"front_default must be None or a string, got: {type(self.front_default)}"
+            )
+        if self.front_female is not None and not isinstance(self.front_female, str):
+            raise ValueError(
+                f"front_female must be None or a string, got: {type(self.front_female)}"
+            )
 
 
 @dataclass(slots=True)
@@ -191,11 +185,37 @@ class Home:
     front_shiny: Optional[str]
     front_shiny_female: Optional[str]
 
+    def __post_init__(self):
+        """Validate Home sprite URLs."""
+        optional_fields = [
+            "front_default",
+            "front_female",
+            "front_shiny",
+            "front_shiny_female",
+        ]
+        for field_name in optional_fields:
+            value = getattr(self, field_name)
+            if value is not None and not isinstance(value, str):
+                raise ValueError(
+                    f"{field_name} must be None or a string, got: {type(value)}"
+                )
+
 
 @dataclass(slots=True)
 class OfficialArtwork:
     front_default: Optional[str]
     front_shiny: Optional[str]
+
+    def __post_init__(self):
+        """Validate OfficialArtwork sprite URLs."""
+        if self.front_default is not None and not isinstance(self.front_default, str):
+            raise ValueError(
+                f"front_default must be None or a string, got: {type(self.front_default)}"
+            )
+        if self.front_shiny is not None and not isinstance(self.front_shiny, str):
+            raise ValueError(
+                f"front_shiny must be None or a string, got: {type(self.front_shiny)}"
+            )
 
 
 @dataclass(slots=True)
@@ -209,6 +229,25 @@ class Showdown:
     front_shiny: Optional[str]
     front_shiny_female: Optional[str]
 
+    def __post_init__(self):
+        """Validate Showdown sprite URLs."""
+        optional_fields = [
+            "back_default",
+            "back_female",
+            "back_shiny",
+            "back_shiny_female",
+            "front_default",
+            "front_female",
+            "front_shiny",
+            "front_shiny_female",
+        ]
+        for field_name in optional_fields:
+            value = getattr(self, field_name)
+            if value is not None and not isinstance(value, str):
+                raise ValueError(
+                    f"{field_name} must be None or a string, got: {type(value)}"
+                )
+
 
 @dataclass(slots=True)
 class OtherSprites:
@@ -216,6 +255,23 @@ class OtherSprites:
     home: Home
     official_artwork: OfficialArtwork
     showdown: Showdown
+
+    def __post_init__(self):
+        """Validate OtherSprites nested objects."""
+        if not isinstance(self.dream_world, DreamWorld):
+            raise ValueError(
+                f"dream_world must be a DreamWorld instance, got: {type(self.dream_world)}"
+            )
+        if not isinstance(self.home, Home):
+            raise ValueError(f"home must be a Home instance, got: {type(self.home)}")
+        if not isinstance(self.official_artwork, OfficialArtwork):
+            raise ValueError(
+                f"official_artwork must be an OfficialArtwork instance, got: {type(self.official_artwork)}"
+            )
+        if not isinstance(self.showdown, Showdown):
+            raise ValueError(
+                f"showdown must be a Showdown instance, got: {type(self.showdown)}"
+            )
 
 
 @dataclass(slots=True)
@@ -228,6 +284,25 @@ class AnimatedSprites:
     front_female: Optional[str]
     front_shiny: Optional[str]
     front_shiny_female: Optional[str]
+
+    def __post_init__(self):
+        """Validate AnimatedSprites URLs."""
+        optional_fields = [
+            "back_default",
+            "back_female",
+            "back_shiny",
+            "back_shiny_female",
+            "front_default",
+            "front_female",
+            "front_shiny",
+            "front_shiny_female",
+        ]
+        for field_name in optional_fields:
+            value = getattr(self, field_name)
+            if value is not None and not isinstance(value, str):
+                raise ValueError(
+                    f"{field_name} must be None or a string, got: {type(value)}"
+                )
 
 
 @dataclass(slots=True)
@@ -242,10 +317,40 @@ class GenerationSprites:
     front_shiny: Optional[str]
     front_shiny_female: Optional[str]
 
+    def __post_init__(self):
+        """Validate GenerationSprites nested objects and URLs."""
+        if not isinstance(self.animated, AnimatedSprites):
+            raise ValueError(
+                f"animated must be an AnimatedSprites instance, got: {type(self.animated)}"
+            )
+        optional_fields = [
+            "back_default",
+            "back_female",
+            "back_shiny",
+            "back_shiny_female",
+            "front_default",
+            "front_female",
+            "front_shiny",
+            "front_shiny_female",
+        ]
+        for field_name in optional_fields:
+            value = getattr(self, field_name)
+            if value is not None and not isinstance(value, str):
+                raise ValueError(
+                    f"{field_name} must be None or a string, got: {type(value)}"
+                )
+
 
 @dataclass(slots=True)
 class Versions:
     black_white: GenerationSprites
+
+    def __post_init__(self):
+        """Validate Versions nested objects."""
+        if not isinstance(self.black_white, GenerationSprites):
+            raise ValueError(
+                f"black_white must be a GenerationSprites instance, got: {type(self.black_white)}"
+            )
 
 
 @dataclass(slots=True)
@@ -262,6 +367,33 @@ class Sprites:
     front_female: Optional[str] = None
     front_shiny_female: Optional[str] = None
     back_shiny_female: Optional[str] = None
+
+    def __post_init__(self):
+        """Validate Sprites nested objects and URLs."""
+        if not isinstance(self.other, OtherSprites):
+            raise ValueError(
+                f"other must be an OtherSprites instance, got: {type(self.other)}"
+            )
+        if not isinstance(self.versions, Versions):
+            raise ValueError(
+                f"versions must be a Versions instance, got: {type(self.versions)}"
+            )
+        optional_fields = [
+            "back_default",
+            "back_shiny",
+            "front_default",
+            "front_shiny",
+            "back_female",
+            "front_female",
+            "front_shiny_female",
+            "back_shiny_female",
+        ]
+        for field_name in optional_fields:
+            value = getattr(self, field_name)
+            if value is not None and not isinstance(value, str):
+                raise ValueError(
+                    f"{field_name} must be None or a string, got: {type(value)}"
+                )
 
 
 @dataclass(slots=True)
@@ -287,19 +419,36 @@ class EvolutionDetails:
 
     def __post_init__(self):
         """Validate evolution details fields."""
-        if self.trigger and not isinstance(self.trigger, str):
-            raise ValueError(f"trigger must be a string, got: {type(self.trigger)}")
-        if self.time_of_day and not isinstance(self.time_of_day, str):
-            raise ValueError(
-                f"time_of_day must be a string, got: {type(self.time_of_day)}"
-            )
-        if self.needs_overworld_rain and not isinstance(
+        # Validate optional string fields
+        string_fields = [
+            "item",
+            "held_item",
+            "known_move",
+            "known_move_type",
+            "location",
+            "party_species",
+            "party_type",
+            "trade_species",
+            "trigger",
+            "time_of_day",
+        ]
+        for field_name in string_fields:
+            value = getattr(self, field_name)
+            if value is not None and not isinstance(value, str):
+                raise ValueError(
+                    f"{field_name} must be None or a string, got: {type(value)}"
+                )
+
+        # Validate boolean fields
+        if self.needs_overworld_rain is not None and not isinstance(
             self.needs_overworld_rain, bool
         ):
             raise ValueError(
                 f"needs_overworld_rain must be a boolean, got: {type(self.needs_overworld_rain)}"
             )
-        if self.turn_upside_down and not isinstance(self.turn_upside_down, bool):
+        if self.turn_upside_down is not None and not isinstance(
+            self.turn_upside_down, bool
+        ):
             raise ValueError(
                 f"turn_upside_down must be a boolean, got: {type(self.turn_upside_down)}"
             )
@@ -488,6 +637,23 @@ class StatChange:
     change: int
     stat: str
 
+    def __post_init__(self):
+        """Validate stat change fields."""
+        valid_stats = {
+            "hp",
+            "attack",
+            "defense",
+            "special_attack",
+            "special_defense",
+            "speed",
+            "accuracy",
+            "evasion",
+        }
+        if not isinstance(self.stat, str) or self.stat not in valid_stats:
+            raise ValueError(f"stat must be one of {valid_stats}, got: {self.stat}")
+        if not isinstance(self.change, int):
+            raise ValueError(f"change must be an integer, got: {type(self.change)}")
+
 
 # endregion
 
@@ -501,7 +667,7 @@ class Item:
     name: str
     source_url: str
     cost: int
-    fling_power: int
+    fling_power: Optional[int]
     fling_effect: Optional[str]
     attributes: list[str]
     category: str
@@ -516,12 +682,42 @@ class Item:
             raise ValueError(f"id must be a positive integer, got: {self.id}")
         if not isinstance(self.name, str) or not self.name.strip():
             raise ValueError(f"name must be a non-empty string, got: {self.name}")
+        if not isinstance(self.source_url, str):
+            raise ValueError(
+                f"source_url must be a string, got: {type(self.source_url)}"
+            )
         if not isinstance(self.cost, int) or self.cost < 0:
             raise ValueError(f"cost must be a non-negative integer, got: {self.cost}")
-        if not isinstance(self.fling_power, int) or self.fling_power < 0:
+        if self.fling_power is not None and (
+            not isinstance(self.fling_power, int) or self.fling_power < 0
+        ):
             raise ValueError(
                 f"fling_power must be a non-negative integer, got: {self.fling_power}"
             )
+        if self.fling_effect is not None and not isinstance(self.fling_effect, str):
+            raise ValueError(
+                f"fling_effect must be None or a string, got: {type(self.fling_effect)}"
+            )
+        if not isinstance(self.attributes, list) or not all(
+            isinstance(attr, str) for attr in self.attributes
+        ):
+            raise ValueError("attributes must be a list of strings")
+        if not isinstance(self.category, str) or not self.category.strip():
+            raise ValueError(
+                f"category must be a non-empty string, got: {self.category}"
+            )
+        if not isinstance(self.effect, str):
+            raise ValueError(f"effect must be a string, got: {type(self.effect)}")
+        if not isinstance(self.short_effect, str):
+            raise ValueError(
+                f"short_effect must be a string, got: {type(self.short_effect)}"
+            )
+        if not isinstance(self.flavor_text, dict):
+            raise ValueError(
+                f"flavor_text must be a dict, got: {type(self.flavor_text)}"
+            )
+        if not isinstance(self.sprite, str):
+            raise ValueError(f"sprite must be a string, got: {type(self.sprite)}")
 
 
 @dataclass(slots=True)
@@ -542,9 +738,23 @@ class Ability:
             raise ValueError(f"id must be a positive integer, got: {self.id}")
         if not isinstance(self.name, str) or not self.name.strip():
             raise ValueError(f"name must be a non-empty string, got: {self.name}")
+        if not isinstance(self.source_url, str):
+            raise ValueError(
+                f"source_url must be a string, got: {type(self.source_url)}"
+            )
         if not isinstance(self.is_main_series, bool):
             raise ValueError(
                 f"is_main_series must be a boolean, got: {type(self.is_main_series)}"
+            )
+        if not isinstance(self.effect, dict):
+            raise ValueError(f"effect must be a dict, got: {type(self.effect)}")
+        if not isinstance(self.short_effect, str):
+            raise ValueError(
+                f"short_effect must be a string, got: {type(self.short_effect)}"
+            )
+        if not isinstance(self.flavor_text, dict):
+            raise ValueError(
+                f"flavor_text must be a dict, got: {type(self.flavor_text)}"
             )
 
 
@@ -577,6 +787,16 @@ class Move:
             raise ValueError(f"id must be a positive integer, got: {self.id}")
         if not isinstance(self.name, str) or not self.name.strip():
             raise ValueError(f"name must be a non-empty string, got: {self.name}")
+        if not isinstance(self.source_url, str):
+            raise ValueError(
+                f"source_url must be a string, got: {type(self.source_url)}"
+            )
+        if not isinstance(self.accuracy, dict):
+            raise ValueError(f"accuracy must be a dict, got: {type(self.accuracy)}")
+        if not isinstance(self.power, dict):
+            raise ValueError(f"power must be a dict, got: {type(self.power)}")
+        if not isinstance(self.pp, dict):
+            raise ValueError(f"pp must be a dict, got: {type(self.pp)}")
         if (
             not isinstance(self.priority, int)
             or self.priority < MIN_MOVE_PRIORITY
@@ -584,6 +804,44 @@ class Move:
         ):
             raise ValueError(
                 f"priority must be an integer between {MIN_MOVE_PRIORITY} and {MAX_MOVE_PRIORITY}, got: {self.priority}"
+            )
+        if not isinstance(self.damage_class, str) or not self.damage_class.strip():
+            raise ValueError(
+                f"damage_class must be a non-empty string, got: {self.damage_class}"
+            )
+        if not isinstance(self.type, dict):
+            raise ValueError(f"type must be a dict, got: {type(self.type)}")
+        if not isinstance(self.target, str) or not self.target.strip():
+            raise ValueError(f"target must be a non-empty string, got: {self.target}")
+        if not isinstance(self.generation, str) or not self.generation.strip():
+            raise ValueError(
+                f"generation must be a non-empty string, got: {self.generation}"
+            )
+        if not isinstance(self.effect_chance, dict):
+            raise ValueError(
+                f"effect_chance must be a dict, got: {type(self.effect_chance)}"
+            )
+        if not isinstance(self.effect, dict):
+            raise ValueError(f"effect must be a dict, got: {type(self.effect)}")
+        if not isinstance(self.short_effect, dict):
+            raise ValueError(
+                f"short_effect must be a dict, got: {type(self.short_effect)}"
+            )
+        if not isinstance(self.flavor_text, dict):
+            raise ValueError(
+                f"flavor_text must be a dict, got: {type(self.flavor_text)}"
+            )
+        if not isinstance(self.stat_changes, list):
+            raise ValueError(
+                f"stat_changes must be a list, got: {type(self.stat_changes)}"
+            )
+        if self.machine is not None and not isinstance(self.machine, dict):
+            raise ValueError(
+                f"machine must be None or a dict, got: {type(self.machine)}"
+            )
+        if not isinstance(self.metadata, MoveMetadata):
+            raise ValueError(
+                f"metadata must be a MoveMetadata instance, got: {type(self.metadata)}"
             )
 
 
@@ -655,12 +913,26 @@ class Pokemon:
             raise ValueError(
                 f"is_default must be a boolean, got: {type(self.is_default)}"
             )
+        if not isinstance(self.source_url, str):
+            raise ValueError(
+                f"source_url must be a string, got: {type(self.source_url)}"
+            )
         if (
             not isinstance(self.types, list)
             or not self.types
             or not all(isinstance(t, str) for t in self.types)
         ):
             raise ValueError("types must be a non-empty list of strings")
+        if not isinstance(self.abilities, list) or not all(
+            isinstance(a, PokemonAbility) for a in self.abilities
+        ):
+            raise ValueError("abilities must be a list of PokemonAbility instances")
+        if not isinstance(self.stats, Stats):
+            raise ValueError(f"stats must be a Stats instance, got: {type(self.stats)}")
+        if not isinstance(self.ev_yield, list) or not all(
+            isinstance(ev, EVYield) for ev in self.ev_yield
+        ):
+            raise ValueError("ev_yield must be a list of EVYield instances")
         if not isinstance(self.height, int) or self.height < 0:
             raise ValueError(
                 f"height must be a non-negative integer, got: {self.height}"
@@ -668,6 +940,12 @@ class Pokemon:
         if not isinstance(self.weight, int) or self.weight < 0:
             raise ValueError(
                 f"weight must be a non-negative integer, got: {self.weight}"
+            )
+        if not isinstance(self.cries, Cries):
+            raise ValueError(f"cries must be a Cries instance, got: {type(self.cries)}")
+        if not isinstance(self.sprites, Sprites):
+            raise ValueError(
+                f"sprites must be a Sprites instance, got: {type(self.sprites)}"
             )
         if (
             not isinstance(self.base_experience, int)
@@ -707,6 +985,56 @@ class Pokemon:
             raise ValueError(
                 f"gender_rate must be between {MIN_GENDER_RATE} and {MAX_GENDER_RATE}, got: {self.gender_rate}"
             )
+        if not isinstance(self.has_gender_differences, bool):
+            raise ValueError(
+                f"has_gender_differences must be a boolean, got: {type(self.has_gender_differences)}"
+            )
+        if not isinstance(self.is_baby, bool):
+            raise ValueError(f"is_baby must be a boolean, got: {type(self.is_baby)}")
+        if not isinstance(self.is_legendary, bool):
+            raise ValueError(
+                f"is_legendary must be a boolean, got: {type(self.is_legendary)}"
+            )
+        if not isinstance(self.is_mythical, bool):
+            raise ValueError(
+                f"is_mythical must be a boolean, got: {type(self.is_mythical)}"
+            )
+        if not isinstance(self.pokedex_numbers, dict):
+            raise ValueError(
+                f"pokedex_numbers must be a dict, got: {type(self.pokedex_numbers)}"
+            )
+        if not isinstance(self.color, str) or not self.color.strip():
+            raise ValueError(f"color must be a non-empty string, got: {self.color}")
+        if not isinstance(self.shape, str) or not self.shape.strip():
+            raise ValueError(f"shape must be a non-empty string, got: {self.shape}")
+        if not isinstance(self.egg_groups, list) or not all(
+            isinstance(eg, str) for eg in self.egg_groups
+        ):
+            raise ValueError("egg_groups must be a list of strings")
+        if not isinstance(self.flavor_text, dict):
+            raise ValueError(
+                f"flavor_text must be a dict, got: {type(self.flavor_text)}"
+            )
+        if not isinstance(self.genus, str):
+            raise ValueError(f"genus must be a string, got: {type(self.genus)}")
+        if not isinstance(self.generation, str) or not self.generation.strip():
+            raise ValueError(
+                f"generation must be a non-empty string, got: {self.generation}"
+            )
+        if not isinstance(self.evolution_chain, EvolutionChain):
+            raise ValueError(
+                f"evolution_chain must be an EvolutionChain instance, got: {type(self.evolution_chain)}"
+            )
+        if not isinstance(self.held_items, dict):
+            raise ValueError(f"held_items must be a dict, got: {type(self.held_items)}")
+        if not isinstance(self.moves, PokemonMoves):
+            raise ValueError(
+                f"moves must be a PokemonMoves instance, got: {type(self.moves)}"
+            )
+        if not isinstance(self.forms, list) or not all(
+            isinstance(f, Form) for f in self.forms
+        ):
+            raise ValueError("forms must be a list of Form instances")
 
 
 # endregion

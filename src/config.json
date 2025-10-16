@@ -1,4 +1,5 @@
 {
+  "base_game": "black_2_white_2",
   "pokedb": {
     "repo_url": "https://github.com/zhenga8533/pokedb",
     "branch": "data",

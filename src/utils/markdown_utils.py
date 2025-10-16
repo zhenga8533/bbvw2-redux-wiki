@@ -93,3 +93,48 @@ def format_pokemon_with_sprite(
         return f'<div align="center">{sprite_img}<br>{name_html}</div>'
     else:
         return f'<div align="center">{name_html}</div>'
+
+
+def format_item(
+    item_name: str,
+    has_sprite: bool = True,
+    has_name: bool = True,
+    has_flavor_text: bool = True,
+):
+    """
+    Format an item with optional sprite, name, and flavor text.
+
+    Args:
+        item_name: The display name of the item (e.g., "Potion")
+        has_sprite: Whether to include the item's sprite image
+        has_name: Whether to include the item's name text
+        has_flavor_text: Whether to include the item's flavor text below the name
+
+    Returns:
+        Markdown string with item sprite, name, and optional flavor text
+
+    Example output:
+        <div align="center"><img src="sprite.png"><br><strong>Potion</strong><br>Restores 20 HP.</div>
+    """
+
+    item_html = '<div align="center">'
+
+    # Try to load item URL
+    try:
+        item_data = PokeDBLoader.load_item(name_to_id(item_name))
+    except FileNotFoundError:
+        return item_name
+
+    if has_sprite:
+        item_sprite_url = item_data.sprite
+        item_html += f'<img src="{item_sprite_url}"><br>'
+
+    if has_name:
+        # Show flavor text as tooltip on hover
+        if has_flavor_text and item_data.flavor_text:
+            item_html += f'<strong title="{item_data.flavor_text}">{item_name}</strong>'
+        else:
+            item_html += f"<strong>{item_name}</strong>"
+
+    item_html += "</div>"
+    return item_html

@@ -8,6 +8,7 @@ EVless Mode Information
 =========================================================
 
 In both the Complete EVless and Classic EVless versions of Redux, wild Pokémon do not carry any held items, except for the Latios, Latias and Giratina.
+
  - This is to double down on removing player advantages over the A.I.!
 
 =========================================================
@@ -18,10 +19,11 @@ The following items have been replaced for new items:
 
  - Red Scarf -> Ice Stone
  - Oval Stone -> Link Cable
- - 'God/Grey Stone' (Unused in Vanilla) -> Old Sea Map
+ - God Stone -> Old Sea Map
 
 
 The following items have had adjustments to their costs:
+
  - Poké Ball     ($200 -> $50)
  - Great Ball    ($600 -> $150)
  - Ultra Ball    ($1200 -> $300)
@@ -33,6 +35,7 @@ The following items have had adjustments to their costs:
 
 
 The following items now have a "Use" option like evolutionary stones:
+
  - Deep Sea Scale
  - Deep Sea Tooth
  - Dragon Scale
@@ -53,10 +56,12 @@ Pickup Table Changes
 =========================================================
 
 Various tweaks have been made to the pickup table. This is the 'loot pool' for Pokémon with the ability Pickup.
- - All instances of Leftovers have been replaced with a Lucky Egg.
+
+ - All instances of a Leftover have been replaced with a Lucky Egg.
  - All instances of a Sun Stone have been replaced with a Sticky Barb.
  - All instances of a Moon Stone have been replaced with a Lagging Tail.
  - All instances of a King's Rock have been replaced with a PP Max.
+
 These changes will only realistically effect <1% of players.
 
 
@@ -65,9 +70,11 @@ Castelia Berry Guy, Battle Subway and PWT Prizes
 =========================================================
 
 On Challenge Mode only, the BP prize vendors and the Castelia Cafe artist are all absent until the postgame.
+
  - This change is to help prevent players from obtaining powerful held items like the Focus Sash and certain TMs early.
  - Few will ever sit and grind out the required BP to legitimately acquire these items, so by removing the vendors the playing field is levelled.
  - Furthermore, this has been commonly requested by the community!
+
 Upon entering the postgame, the vendors will reappear upon sighting Suicune on Route 3.
 This change will only realistically effect <5% of players.
 

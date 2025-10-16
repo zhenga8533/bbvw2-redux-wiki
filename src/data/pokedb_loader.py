@@ -20,7 +20,6 @@ from src.models.pokedb import (
     Item,
     Form,
     Stats,
-    EVYield,
     PokemonMoves,
 )
 from src.utils.logger import get_logger
@@ -141,7 +140,6 @@ class PokeDBLoader:
         cast=[list, dict],
         # Use from_dict methods for types that need special handling
         type_hooks={
-            EVYield: EVYield.from_dict,
             PokemonMoves: PokemonMoves.from_dict,
         },
     )
