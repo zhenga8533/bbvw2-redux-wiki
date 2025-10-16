@@ -5,7 +5,7 @@ Base parser class for processing documentation files and generating markdown out
 from abc import ABC
 from pathlib import Path
 from typing import Optional
-from ..utils.logger import get_logger
+from ..utils.logger_utils import get_logger
 import re
 import unicodedata
 

@@ -14,7 +14,7 @@ from src.models.pokedb import (
     EvolutionNode,
     EvolutionDetails,
 )
-from src.utils.logger import get_logger
+from src.utils.logger_utils import get_logger
 
 logger = get_logger(__name__)
 
@@ -183,9 +183,7 @@ class EvolutionService:
         # Clean out old evolution methods if we're replacing (not adding)
         if species_match and not keep_existing and pokemon_id not in processed:
             processed.add(pokemon_id)
-            EvolutionService._clean_existing_evolution_methods(
-                evolves_to, evolution_id
-            )
+            EvolutionService._clean_existing_evolution_methods(evolves_to, evolution_id)
 
         # Process each evolution path
         for evo in evolves_to:
@@ -240,7 +238,9 @@ class EvolutionService:
         form_files, base_pokemon_data = PokeDBLoader.find_all_form_files(pokemon_id)
 
         if not form_files:
-            logger.warning(f"No form files found for {pokemon_id}, cannot save evolution chain.")
+            logger.warning(
+                f"No form files found for {pokemon_id}, cannot save evolution chain."
+            )
             return
 
         # Save to all form files
@@ -255,7 +255,9 @@ class EvolutionService:
                 if base_pokemon_data and form_name == base_pokemon_data.name:
                     pokemon_data = base_pokemon_data
                 else:
-                    pokemon_data = PokeDBLoader.load_pokemon(form_name, subfolder=category)
+                    pokemon_data = PokeDBLoader.load_pokemon(
+                        form_name, subfolder=category
+                    )
 
                 pokemon_data.evolution_chain = evolution_chain
                 PokeDBLoader.save_pokemon(form_name, pokemon_data, subfolder=category)

@@ -22,7 +22,7 @@ from src.models.pokedb import (
     Stats,
     PokemonMoves,
 )
-from src.utils.logger import get_logger
+from src.utils.logger_utils import get_logger
 
 logger = get_logger(__name__)
 T = TypeVar("T")

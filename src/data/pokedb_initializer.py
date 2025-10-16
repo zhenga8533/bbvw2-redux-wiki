@@ -10,7 +10,7 @@ import traceback
 import zipfile
 import io
 from pathlib import Path
-from src.utils.logger import get_logger
+from src.utils.logger_utils import get_logger
 
 logger = get_logger(__name__)
 
@@ -102,15 +102,21 @@ class PokeDBInitializer:
             )
 
             # Check for non-interactive mode
-            skip_prompt = os.getenv("WIKI_NON_INTERACTIVE", "false").lower() in ("true", "1", "yes")
+            skip_prompt = os.getenv("WIKI_NON_INTERACTIVE", "false").lower() in (
+                "true",
+                "1",
+                "yes",
+            )
             if skip_prompt:
                 logger.info("Non-interactive mode: skipping re-download")
                 return
 
             try:
-                user_input = input(
-                    "Do you want to re-download and replace it? (yes/no): "
-                ).strip().lower()
+                user_input = (
+                    input("Do you want to re-download and replace it? (yes/no): ")
+                    .strip()
+                    .lower()
+                )
 
                 # Accept various affirmative responses
                 if user_input not in ("yes", "y"):
@@ -178,7 +184,9 @@ class PokeDBInitializer:
                     logger.info("Cleaning up temporary files...")
                     shutil.rmtree(extracted_repo_path.parent)
                 except (OSError, PermissionError) as cleanup_error:
-                    logger.warning(f"Failed to clean up temporary files: {cleanup_error}")
+                    logger.warning(
+                        f"Failed to clean up temporary files: {cleanup_error}"
+                    )
 
 
 if __name__ == "__main__":
