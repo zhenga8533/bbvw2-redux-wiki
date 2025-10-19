@@ -132,8 +132,8 @@ class EVYield:
             "hp",
             "attack",
             "defense",
-            "special_attack",
-            "special_defense",
+            "special-attack",
+            "special-defense",
             "speed",
         }
         if not isinstance(self.stat, str) or self.stat not in valid_stats:

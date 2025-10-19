@@ -47,23 +47,28 @@ def format_pokemon(
     except FileNotFoundError:
         return pokemon_name
 
-    if is_linked:
-        name_html = f'<a href="{pokedex_base_path}/{pokemon_id}">{pokemon_name}</a>'
-    else:
-        name_html = pokemon_name
-
+    # Add sprite image if requested
     if has_sprite:
         animated_url = pokemon_data.sprites.versions.black_white.animated.front_default
         sprite_url = pokemon_data.sprites.front_default
 
-        pokemon_html += "<br>"
         if is_animated and animated_url:
             pokemon_html += f'<img src="{animated_url}" alt="{pokemon_name} (gif)">'
         else:
             pokemon_html += f'<img src="{sprite_url}" width="96" alt="{pokemon_name}">'
 
-    pokemon_html += name_html
+    # Add line break if both sprite and name are present
+    if has_sprite and is_linked:
+        pokemon_html += "<br>"
+
+    # Add linked or plain name
+    if is_linked:
+        pokemon_html += f'<a href="{pokedex_base_path}/{pokemon_id}">{pokemon_name}</a>'
+    else:
+        pokemon_html += pokemon_name
+
     pokemon_html += "</div>"
+
     return pokemon_html
 
 
