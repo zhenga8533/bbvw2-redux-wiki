@@ -93,7 +93,7 @@ def format_item(
     Example output:
         <div align="center"><img src="sprite.png"><br><strong>Potion</strong><br>Restores 20 HP.</div>
     """
-    item_html = '<div align="center">'
+    item_html = "<div>"
 
     # Try to load item URL
     try:
@@ -103,14 +103,14 @@ def format_item(
 
     if has_sprite:
         item_sprite_url = item_data.sprite
-        item_html += f'<img src="{item_sprite_url}"><br>'
+        item_html += f'<img src="{item_sprite_url}" alt="{item_name}" style="vertical-align: middle;">'
 
     if has_name:
         # Show flavor text as tooltip on hover
         if has_flavor_text and item_data.flavor_text:
-            item_html += f'<strong title="{item_data.flavor_text}">{item_name}</strong>'
+            item_html += f'<span style="border-bottom: 1px dashed #777; cursor: help;" title="{item_data.flavor_text.black_2_white_2}">{item_name}</span>'
         else:
-            item_html += f"<strong>{item_name}</strong>"
+            item_html += f"<span>{item_name}</span>"
 
     item_html += "</div>"
     return item_html

@@ -6,6 +6,9 @@ the domain entities: Pokemon, moves, items, abilities, and their related structu
 """
 
 from .pokedb import (
+    # Helper/Map models
+    GameVersionStringMap,
+    GameVersionIntMap,
     # Pokemon-related models
     Pokemon,
     PokemonAbility,
@@ -19,10 +22,12 @@ from .pokedb import (
     EvolutionChain,
     EvolutionNode,
     EvolutionDetails,
+    Gender,
     # Move-related models
     Move,
     MoveLearn,
     MoveMetadata,
+    StatChange,
     # Item models
     Item,
     # Ability models
@@ -31,7 +36,7 @@ from .pokedb import (
     OtherSprites,
     AnimatedSprites,
     GenerationSprites,
-    Versions,
+    SpriteVersions,  # Renamed from Versions
     DreamWorld,
     Home,
     OfficialArtwork,
@@ -39,6 +44,9 @@ from .pokedb import (
 )
 
 __all__ = [
+    # Helper/Map models
+    "GameVersionStringMap",
+    "GameVersionIntMap",
     # Pokemon-related models
     "Pokemon",
     "PokemonAbility",
@@ -52,10 +60,12 @@ __all__ = [
     "EvolutionChain",
     "EvolutionNode",
     "EvolutionDetails",
+    "Gender",
     # Move-related models
     "Move",
     "MoveLearn",
     "MoveMetadata",
+    "StatChange",
     # Item models
     "Item",
     # Ability models
@@ -64,7 +74,7 @@ __all__ = [
     "OtherSprites",
     "AnimatedSprites",
     "GenerationSprites",
-    "Versions",
+    "SpriteVersions",
     "DreamWorld",
     "Home",
     "OfficialArtwork",
