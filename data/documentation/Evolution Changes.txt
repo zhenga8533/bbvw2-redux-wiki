@@ -120,3 +120,4 @@ Pokémon              New Method
 629 Vullaby          Now evolves into Mandibuzz at Level 40.
 633 Deino            Now evolves into Zweilous at Level 38.
 634 Zweilous         Now evolves into Hydreigon at Level 58.
+

@@ -36,7 +36,7 @@ class EvolutionChangesParser(BaseParser):
         super().__init__(input_file=input_file, output_dir=output_dir)
         self._sections = ["General Notes", "Evolution Changes"]
 
-        # Initialize instance variables to avoid shared state between parser instances
+        self._is_table_open: bool = False
         self._parsed_cache: set[str] = set()
         self._current_dex_num: str = ""
         self._current_pokemon: str = ""
@@ -49,10 +49,16 @@ class EvolutionChangesParser(BaseParser):
         """Parse a line from the Evolution Changes section and update data."""
         # Match: table header "Pokémon              New Method"
         if line == "Pokémon              New Method":
-            self._markdown += "| Dex # | Pokémon | Evolution | New Method |\n"
+            self._is_table_open = True
+            self._markdown += "<table>\n  <thead>\n    <tr>\n"
+            self._markdown += '      <th align="center">Dex #</th>\n'
+            self._markdown += '      <th align="center">Pokémon</th>\n'
+            self._markdown += '      <th align="center">Evolution</th>\n'
+            self._markdown += '      <th align="left">New Method</th>\n'
+            self._markdown += "    </tr>\n  </thead>\n"
         # Match: table separator "---                  ---"
         elif line == "---                  ---":
-            self._markdown += "|:-----:|:-------:|:---------:|------------|\n"
+            self._markdown += "  <tbody>\n"
         # Match: "dex_num name (spaces) evolution_text"
         elif match := re.match(rf"^(\d+) {POKEMON_PATTERN_STR}\s+(.*)", line):
             self._current_dex_num, self._current_pokemon, evolution_text = (
@@ -69,10 +75,14 @@ class EvolutionChangesParser(BaseParser):
         # Unrecognized: log warning for unexpected format
         elif line:
             self.logger.warning(f"Unrecognized line format: '{line}'")
+        # Match: empty line indicates end of table
+        elif self._is_table_open:
+            self._markdown += "  </tbody>\n</table>\n"
+            self._is_table_open = False
 
     def _add_evolution_row(self, evolution: str, evolution_text: str) -> None:
         """
-        Add a row to the evolution table with Pokemon sprites.
+        Add an HTML table row to the evolution table.
 
         Args:
             evolution: Name of the evolution target Pokemon
@@ -86,8 +96,25 @@ class EvolutionChangesParser(BaseParser):
         else:
             to_pokemon_md = ""
 
-        # Add table row
-        self._markdown += f"| {self._current_dex_num} | {from_pokemon_md} | {to_pokemon_md} | {evolution_text} |\n"
+        # Add HTML table row
+        self._markdown += "    <tr>\n"
+        # Dex # cell: center-aligned horizontally, middle-aligned vertically
+        self._markdown += f'      <td align="center" style="vertical-align: middle;">{self._current_dex_num}</td>\n'
+
+        # Pokémon cell: vertical-align: bottom (as requested)
+        # format_pokemon() handles the inner div align="center"
+        self._markdown += (
+            f'      <td style="vertical-align: bottom;">{from_pokemon_md}</td>\n'
+        )
+
+        # Evolution cell: vertical-align: bottom (as requested)
+        self._markdown += (
+            f'      <td style="vertical-align: bottom;">{to_pokemon_md}</td>\n'
+        )
+
+        # New Method cell: left-aligned horizontally, middle-aligned vertically
+        self._markdown += f'      <td align="left" style="vertical-align: middle;">{evolution_text}</td>\n'
+        self._markdown += "    </tr>\n"
 
     def extract_evolution_text(self, text: str) -> tuple[str, str]:
         """
