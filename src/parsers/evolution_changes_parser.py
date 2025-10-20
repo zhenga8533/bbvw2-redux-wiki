@@ -11,7 +11,7 @@ import re
 
 from src.utils.regex_util import POKEMON_PATTERN_STR
 from src.utils.text_util import name_to_id
-from src.utils.markdown_util import format_pokemon
+from src.utils.markdown_util import format_pokemon, format_item
 from src.models.pokedb import (
     EvolutionChain,
     EvolutionDetails,
@@ -113,8 +113,34 @@ class EvolutionChangesParser(BaseParser):
         )
 
         # New Method cell: left-aligned horizontally, middle-aligned vertically
-        self._markdown += f'      <td align="left" style="vertical-align: middle;">{evolution_text}</td>\n'
+        formatted_text = self._format_evolution_text(evolution_text)
+        self._markdown += f'      <td align="left" style="vertical-align: middle;">{formatted_text}</td>\n'
         self._markdown += "    </tr>\n"
+
+    def _format_evolution_text(self, text: str) -> str:
+        """
+        Format evolution text by replacing item names with formatted sprites.
+
+        Args:
+            text: The evolution method text (e.g., "Now evolves via the use of a Fire Stone")
+
+        Returns:
+            Formatted text with item sprites and names
+        """
+
+        def replace_item(match):
+            item_name = match.group(1).strip()
+            formatted = format_item(
+                item_name, has_sprite=True, has_name=True, has_flavor_text=True
+            )
+            return f"via the use of {formatted}"
+
+        formatted_text = re.sub(
+            r"via the use of a(?:n)? (.+?)(?=\s+in addition|\s+if|$)",
+            replace_item,
+            text,
+        )
+        return formatted_text
 
     def extract_evolution_text(self, text: str) -> tuple[str, str]:
         """
