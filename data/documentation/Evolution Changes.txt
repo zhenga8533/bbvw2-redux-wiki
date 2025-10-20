@@ -75,7 +75,7 @@ Pokémon              New Method
 349 Feebas           Now evolves into Milotic via the use of a Prism Scale.
 353 Shuppet          Now evolves into Banette at Level 32.
 355 Duskull          Now evolves into Dusclops at Level 32.
-356 Dusclops         Now evolves into Dusknoir via the use of a Reaper's Cloth.
+356 Dusclops         Now evolves into Dusknoir via the use of a Reaper Cloth.
 361 Snorunt          Now evolves into Glalie via the use of an Ice Stone.
 363 Spheal           Now evolves into Sealeo at Level 16.
 364 Sealeo           Now evolves into Walrein at Level 40.

@@ -8,6 +8,7 @@ This parser:
 """
 
 import re
+from typing import Optional
 
 from src.utils.regex_util import POKEMON_PATTERN_STR
 from src.utils.text_util import name_to_id
@@ -64,14 +65,16 @@ class EvolutionChangesParser(BaseParser):
             self._current_dex_num, self._current_pokemon, evolution_text = (
                 match.groups()
             )
-            evolution, evolution_text = self.extract_evolution_text(evolution_text)
-            self._add_evolution_row(evolution, evolution_text)
-            self.update_evolution_method(evolution, evolution_text)
+            if result := self._extract_evolution_text(evolution_text):
+                evolution, evolution_text = result
+                self._add_evolution_row(evolution, evolution_text)
+                self._update_evolution_method(evolution, evolution_text)
         # Match: continuation line with evolution text (same Pokemon as previous)
         elif line and self._current_pokemon:
-            evolution, evolution_text = self.extract_evolution_text(line.strip())
-            self._add_evolution_row(evolution, evolution_text)
-            self.update_evolution_method(evolution, evolution_text)
+            if result := self._extract_evolution_text(line.strip()):
+                evolution, evolution_text = result
+                self._add_evolution_row(evolution, evolution_text)
+                self._update_evolution_method(evolution, evolution_text)
         # Unrecognized: log warning for unexpected format
         elif line:
             self.logger.warning(f"Unrecognized line format: '{line}'")
@@ -128,7 +131,8 @@ class EvolutionChangesParser(BaseParser):
             Formatted text with item sprites and names
         """
 
-        def replace_item(match):
+        def replace_item(match: re.Match[str]) -> str:
+            """Replace item text with formatted item display."""
             item_name = match.group(1).strip()
             formatted = format_item(
                 item_name, has_sprite=True, has_name=True, has_flavor_text=True
@@ -142,7 +146,7 @@ class EvolutionChangesParser(BaseParser):
         )
         return formatted_text
 
-    def extract_evolution_text(self, text: str) -> tuple[str, str]:
+    def _extract_evolution_text(self, text: str) -> Optional[tuple[str, str]]:
         """
         Extract evolution and method from text.
 
@@ -150,8 +154,7 @@ class EvolutionChangesParser(BaseParser):
             text: The evolution text to parse
 
         Returns:
-            Tuple of (evolution_pokemon_name, evolution_method_text)
-            Returns ("", "") if the text doesn't match the expected pattern
+            Tuple of (evolution_pokemon_name, evolution_method_text) or None if no match
         """
         if match := re.match(rf"Now evolves into {POKEMON_PATTERN_STR} (.*)\.", text):
             groups = match.groups()
@@ -164,11 +167,11 @@ class EvolutionChangesParser(BaseParser):
                     f"Unexpected regex match format in evolution text: '{text}' "
                     f"(expected 2 groups, got {len(groups)})"
                 )
-                return "", ""
+                return None
         else:
-            return "", ""
+            return None
 
-    def update_evolution_method(self, evolution: str, method_text: str) -> None:
+    def _update_evolution_method(self, evolution: str, method_text: str) -> None:
         """Parse the evolution method text into structured data and update Pokemon."""
 
         if not evolution:
