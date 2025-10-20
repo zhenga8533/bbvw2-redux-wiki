@@ -37,6 +37,7 @@ class EvolutionChangesParser(BaseParser):
         super().__init__(input_file=input_file, output_dir=output_dir)
         self._sections = ["General Notes", "Evolution Changes"]
 
+        # Evolution Changes states
         self._is_table_open: bool = False
         self._parsed_cache: set[str] = set()
         self._current_dex_num: str = ""

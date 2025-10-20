@@ -33,18 +33,18 @@ class ItemChangesParser(BaseParser):
             "Modified TMs + Locations",
         ]
 
-        # Modified Items state
+        # Modified Items states
         self._in_replace = False
         self._in_adjust_cost = False
 
-        # Item Locations state
+        # Item Locations states
         self._current_location = ""
         self._is_table_open = False
 
-        # Modified Marts state
+        # Modified Marts states
         self._current_location = ""
 
-        # Modified TMs + Locations state
+        # Modified TMs + Locations states
         self._is_table_open = False
 
     def handle_section_change(self, new_section: str) -> None:

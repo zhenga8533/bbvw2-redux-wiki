@@ -23,7 +23,7 @@ class TradeChangesParser(BaseParser):
         super().__init__(input_file=input_file, output_dir=output_dir)
         self._sections = ["General Notes", "Trade Pokémon", "Trade Items"]
 
-        # Track whether we're in the details section of a trade entry
+        # Trade Pokémon states
         self._in_details = True
 
     def parse_general_notes(self, line: str) -> None:
