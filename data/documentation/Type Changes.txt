@@ -8,6 +8,7 @@ General Notes
 =========================================================
 
 The Fairy-type has been added to the game.
+
  - All Pokémon which are canonically Fairy Type as of X and Y are Fairy type in Redux.
  - In the Complete version, there are several additional Fairy types, like Renegade Platinum.
 
@@ -18,11 +19,11 @@ For the type changes below, they are only present in the 'Complete' version of t
 
 
 =========================================================
-Pokémon Type Changes (Complete version only)
+Pokémon Type Changes
 =========================================================
 
 Pokémon                 Old Type            New Type                Justification
-  ---                     ---                 ---                     ---
+---                     ---                 ---                     ---
 #005 Charmeleon         Fire                Fire / Dragon           Draconic appearance, gives it useful resistances early on.
 #006 Charizard          Fire / Flying       Fire / Dragon           Inherited from Mega form; draconic appearance.
 #021 Spearow            Normal / Flying     Flying                  Mono-Flying gives a defensive niche; extremely rare type combination; Normal-Flying is very common.
@@ -36,8 +37,8 @@ Pokémon                 Old Type            New Type                Justificati
 #164 Noctowl            Normal / Flying     Psychic / Flying        Canonically uses Psychic-type moves; commonly thought that it should be a Psychic type.
 #181 Ampharos           Electric            Electric / Dragon       Inherited from Mega form; Japanese name means "Electric dragon"; was Dragon in early G/S development.
 #200 Misdreavus         Ghost               Ghost / Fairy           Design inspiration from mythological creatures; mischievous nature; evolved form has a witch aesthetic.
-#209 Snubull            Fairy               Fighting / Fairy        Voted for by community to fix Hall of Fame crash. Naturally learns lots of Fighting type moves, Unique type combination.
-#210 Grabull            Fairy               Fighting / Fairy        Voted for by community to fix Hall of Fame crash. Naturally learns lots of Fighting type moves, Unique type combination. Boxer appearance.
+#209 Snubbull           Fairy               Fighting / Fairy        Voted for by community to fix Hall of Fame crash. Naturally learns lots of Fighting type moves, Unique type combination.
+#210 Granbull           Fairy               Fighting / Fairy        Voted for by community to fix Hall of Fame crash. Naturally learns lots of Fighting type moves, Unique type combination. Boxer appearance.
 #216 Teddiursa          Normal              Normal / Ground         Inherited from Legends: Arceus evolution Ursaluna; type combination unique to Gen V games.
 #217 Ursaring           Normal              Normal / Ground         Inherited from Legends: Arceus evolution Ursaluna; type combination unique to Gen V games.
 #254 Sceptile           Grass               Grass / Dragon          Inherited from Mega form; commonly requested.

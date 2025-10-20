@@ -7,7 +7,9 @@ This parser:
 3. Generates a markdown file to docs/type_changes.md
 """
 
-from typing import Any, Dict
+import re
+
+from src.utils.markdown_util import format_pokemon
 from .base_parser import BaseParser
 
 
@@ -21,7 +23,37 @@ class TypeChangesParser(BaseParser):
     def __init__(self, input_file: str, output_dir: str = "docs"):
         """Initialize the Type Changes parser."""
         super().__init__(input_file=input_file, output_dir=output_dir)
+        self._sections = ["General Notes", "Pokémon Type Changes"]
 
-    def parse(self) -> None:
-        """Parse the Type Changes documentation file."""
-        raise NotImplementedError("Type Changes parser is not yet implemented")
+    def parse_general_notes(self, line: str) -> None:
+        """Parse the General Notes section."""
+        self.parse_default(line)
+
+    def parse_pokemon_type_changes(self, line: str) -> None:
+        """Parse the Pokémon Type Changes section."""
+        # Match: "Pokémon                 Old Type            New Type                Justification"
+        if (
+            line
+            == "Pokémon                 Old Type            New Type                Justification"
+        ):
+            self._markdown += (
+                "| Number | Pokémon | Old Type | New Type | Justification |\n"
+            )
+        # Match: "---                     ---                 ---                     ---"
+        elif (
+            line
+            == "---                     ---                 ---                     ---"
+        ):
+            self._markdown += (
+                "|:-------|:-------:|:---------|:---------|:--------------|\n"
+            )
+        # Match: "#<number> <pokemon>   <old type>   <new type>   <justification>"
+        elif line.startswith("#"):
+            pokemon, old_type, new_type, justification = re.split(r"\s{3,}", line)
+            number, pokemon = pokemon.split(" ", 1)
+            pokemon_html = format_pokemon(pokemon)
+
+            self._markdown += f"| {number} | {pokemon_html} | {old_type} | {new_type} | {justification} |\n"
+        # Default: regular text line
+        else:
+            self.parse_default(line)
