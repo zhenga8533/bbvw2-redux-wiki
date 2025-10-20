@@ -7,8 +7,9 @@ This parser:
 3. Generates a markdown file to docs/pokemon_changes.md
 """
 
-from typing import Any, Dict
+from src.utils.markdown_util import format_move
 from .base_parser import BaseParser
+import re
 
 
 class PokemonChangesParser(BaseParser):
@@ -21,7 +22,55 @@ class PokemonChangesParser(BaseParser):
     def __init__(self, input_file: str, output_dir: str = "docs"):
         """Initialize the Pokemon Changes parser."""
         super().__init__(input_file=input_file, output_dir=output_dir)
+        self._sections = [
+            "General Notes",
+            "Type Changes",
+            "Specific Changes",
+        ]
 
-    def parse(self) -> None:
-        """Parse the Pokemon Changes documentation file."""
-        raise NotImplementedError("Pokemon Changes parser is not yet implemented")
+        self._current_pokemon = ""
+
+    def parse_general_notes(self, line: str) -> None:
+        """Parse general notes section."""
+        self.parse_default(line)
+
+    def parse_type_changes(self, line: str) -> None:
+        """Parse type changes section."""
+        self.parse_default(line)
+
+    def parse_specific_changes(self, line: str) -> None:
+        """Parse specific changes section."""
+        # Match: "<number> - <pokemon>"
+        if match := re.match(r"^(\d{3}) - (.*)$", line):
+            pokedex_number = match.group(1)
+            self._current_pokemon = match.group(2)
+            self._markdown += f"### #{pokedex_number} {self._current_pokemon}\n\n"
+        # Match: "<attribute>:"
+        elif line.endswith(":"):
+            attribute = line[:-1]
+            self._format_attribute_change(attribute)
+        # Match: "<level> - <move>"
+        elif match := re.match(r"^(\d+) - (.*)$", line):
+            level = match.group(1)
+            move = match.group(2)
+
+            # Format event move checkbox
+            event_move = '<input type="checkbox" disabled>'
+            if move.endswith(" [*]"):
+                move = move[:-4]
+                event_move = '<input type="checkbox" checked disabled>'
+
+            move_html = format_move(move)
+
+            self._markdown += f"| {level} | {move_html} | {event_move} |\n"
+        # Default: regular text line
+        else:
+            self.parse_default(line)
+
+    def _format_attribute_change(self, attribute: str) -> None:
+        """Format an attribute change section."""
+        self._markdown += f"**{attribute}**:\n"
+
+        if attribute == "Level Up":
+            self._markdown += "| Level | Move | Event Move |\n"
+            self._markdown += "|:------|:-----|:----------:|\n"

@@ -8,26 +8,32 @@ General Notes
 =========================================================
 
 The Fairy-type has been added to the game.
+
  - All Pokémon which are canonically Fairy Type as of X and Y are Fairy type in Redux.
  - In the Complete version, there are several additional Fairy types, like Renegade Platinum.
 
 All Pokémon have had their stats updated to match Gen VIII, Pokémon Sword and Shield. Furthermore, many additional changes have been made to each Pokémon.
+
  - This patch also inherits some of the Pokémon changes made in Renegade Platinum, as well as Blaze Black 2 and Volt White 2.
  - The 'Classic' version of Redux omits custom Pokémon stat, type and ability changes.
 
 All Pokémon have had their abilities updated to match Gen VIII, Pokémon Sword and Shield. For example: Torkoal, Vanilluxe and Pelipper.
 There are three abilities listed for each Pokémon. These refer to their two regular abilities and their hidden ability, in that order.
 Most useful hidden abilities have been swapped with less useful regular abilities, where applicable. This is to help with obtaining useful abilities.
+
  - This change found in both the Complete and Classic Versions of Redux.
 
 Level up moves have been changed for every single Pokémon. These include moves learned up to Legends: Arceus that are available in Redux, as well as additional moves from move tutors, egg moves or entirely new techniques.
+
  - All Pokémon have had their TM learnsets modified to match Gen VIII, Pokémon Sword and Shield's Moves and TRs.
  - A [*] denotes a move a Pokémon got through an event.
  - All level up move changes are found in both the Complete and Classic Versions of Redux.
 
 All Pokémon have had their wild held item updated to match Gen VIII, Pokémon Sword and Shield.
+
  - There are some exceptions to this, mainly the Munchlax line no longer carries Leftovers and Cubone no longer carries a Thick Club, for balance purposes.
  - These can each be obtained elsewhere through regular gameplay, see 'Item Changes' for more information.
+
 Pokémon who may hold an item in Pokémon Sword and Shield that doesn't exist in Black 2 and White 2 will not hold anything.
 
 
@@ -36,6 +42,7 @@ Type Changes
 =========================================================
 
 Certain Pokémon have had their types changed to 'non-canon' combinations.
+
  - These are include changes made in Renegade Platinum, Blaze Black 2 and Volt White 2.
  - There are also some additional changes made in Redux.
 
@@ -43,11 +50,11 @@ A type-change justification document is also included with Redux.
 
 At a glance, here are all the Pokémon with new type combinations:
 
-   Gen I: Charmeleon, Charizard, Spearow, Fearow, Ninetales, Golduck, Rapidash, Farfetch'd, Shellder.
-   Gen II: Meganium, Noctowl, Ampharos, Misdreavus, Snubull, Granbull, Teddiursa, Ursaring.
-   Gen III: Sceptile, Masquerain, Volbeat, Illumise, Trapinch, Vibrava, Flygon, Swablu, Altaria, Banette, Glalie, Luvdisc.
-   Gen IV: Luxray, Lopunny, Mismagius, Electivire, Probopass, Uxie, Mesprit, Azelf.
-   Gen V: Servine, Serperior, Pignite, Emboar, Dewott, Samurott, Munna, Musharna, Audino, Gothita, Gothorita, Gothitelle, Vanilluxe and Beartic.
+ - Gen I: Charmeleon, Charizard, Spearow, Fearow, Ninetales, Golduck, Rapidash, Farfetch'd, Shellder.
+ - Gen II: Meganium, Noctowl, Ampharos, Misdreavus, Snubull, Granbull, Teddiursa, Ursaring.
+ - Gen III: Sceptile, Masquerain, Volbeat, Illumise, Trapinch, Vibrava, Flygon, Swablu, Altaria, Banette, Glalie, Luvdisc.
+ - Gen IV: Luxray, Lopunny, Mismagius, Electivire, Probopass, Uxie, Mesprit, Azelf.
+ - Gen V: Servine, Serperior, Pignite, Emboar, Dewott, Samurott, Munna, Musharna, Audino, Gothita, Gothorita, Gothitelle, Vanilluxe and Beartic.
 
 All new type changes are omitted in the Classic version of Redux.
 

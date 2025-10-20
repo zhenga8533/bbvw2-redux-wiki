@@ -121,9 +121,11 @@ class PokeDBLoader:
     # Class-level data directory (configurable, defaults to None = use default path)
     _data_dir: Optional[Path] = None
 
-    # Class-level cache: OrderedDict for LRU behavior
-    # Maps (name, subfolder) -> Pokemon object
+    # Class-level caches: OrderedDict for LRU behavior
     _pokemon_cache: OrderedDict[tuple[str, str], Pokemon] = OrderedDict()
+    _move_cache: OrderedDict[str, Move] = OrderedDict()
+    _ability_cache: OrderedDict[str, Ability] = OrderedDict()
+    _item_cache: OrderedDict[str, Item] = OrderedDict()
 
     # Cache statistics
     _cache_hits: int = 0
@@ -137,7 +139,6 @@ class PokeDBLoader:
     # Dacite configuration for efficient deserialization
     _dacite_config = Config(
         check_types=False,  # We rely on __post_init__ for validation
-        cast=[list, dict],
         # Use from_dict methods for types that need special handling
         type_hooks={
             PokemonMoves: PokemonMoves.from_dict,
@@ -473,6 +474,14 @@ class PokeDBLoader:
         result = {}
         for name, data in raw_data.items():
             try:
+                # Preprocess Move data: convert empty list to None for machine field
+                # (machine can be str, dict, or None)
+                if category == "move" and "machine" in data and isinstance(data["machine"], list):
+                    if len(data["machine"]) == 0:
+                        data["machine"] = None
+                    else:
+                        logger.warning(f"Move '{name}' has unexpected machine format: {data['machine']}")
+
                 result[name] = from_dict(
                     data_class=dataclass_type, data=data, config=cls._dacite_config
                 )
@@ -514,6 +523,16 @@ class PokeDBLoader:
             {'gen5': 90}
         """
         data = cls._load_json("move", name)
+
+        # Preprocess: Convert empty list to None for machine field
+        # (machine can be str, dict, or None)
+        if "machine" in data and isinstance(data["machine"], list):
+            if len(data["machine"]) == 0:
+                data["machine"] = None
+            else:
+                # If non-empty list, log warning but don't fail
+                logger.warning(f"Move '{name}' has unexpected machine format: {data['machine']}")
+
         return from_dict(data_class=Move, data=data, config=cls._dacite_config)
 
     @classmethod

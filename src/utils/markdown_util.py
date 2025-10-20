@@ -135,3 +135,32 @@ def format_item(
             item_html += f"<span>{item_name}</span>"
 
     return item_html
+
+
+def format_move(move_name: str, has_flavor_text: bool = True) -> str:
+    """
+    Format a move name with optional flavor text as tooltip.
+
+    Args:
+        move_name: The display name of the move (e.g., "Thunderbolt")
+        has_flavor_text: Whether to include the move's flavor text as a tooltip
+
+    Returns:
+        Formatted HTML string for the move
+    """
+    if not has_flavor_text:
+        return move_name
+
+    # Try to load move data
+    try:
+        move_data = PokeDBLoader.load_move(name_to_id(move_name))
+    except FileNotFoundError:
+        return move_name
+
+    # Add flavor text as tooltip if available
+    flavor = move_data.flavor_text.black_2_white_2
+    if flavor:
+        escaped_flavor = html.escape(flavor)
+        return f'<span style="border-bottom: 1px dashed #777; cursor: help;" title="{escaped_flavor}">{move_name}</span>'
+    else:
+        return move_name

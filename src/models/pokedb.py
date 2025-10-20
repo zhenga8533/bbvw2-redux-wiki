@@ -355,12 +355,13 @@ class StatChange:
 
     def __post_init__(self):
         """Validate stat change fields."""
+        # Use kebab-case to match JSON data format
         valid_stats = {
             "hp",
             "attack",
             "defense",
-            "special_attack",
-            "special_defense",
+            "special-attack",
+            "special-defense",
             "speed",
             "accuracy",
             "evasion",
@@ -391,27 +392,69 @@ class Move:
     short_effect: GameVersionStringMap
     flavor_text: GameVersionStringMap
     stat_changes: list[StatChange]
-    machine: Optional[dict[str, Any]]
+    machine: Optional[str | dict[str, Any]]
     metadata: MoveMetadata
 
     def __post_init__(self):
         """Construct nested objects and validate."""
+        # Convert accuracy to GameVersionIntMap
         if isinstance(self.accuracy, dict):
             self.accuracy = GameVersionIntMap.from_dict(self.accuracy)
+        elif isinstance(self.accuracy, int):
+            # Wrap plain int in GameVersionIntMap for all version groups
+            self.accuracy = GameVersionIntMap({key: self.accuracy for key in VERSION_GROUP_KEYS})
+        elif self.accuracy is None:
+            # None means no accuracy (always hits) - store as None for all versions
+            self.accuracy = GameVersionIntMap({key: None for key in VERSION_GROUP_KEYS})
+
+        # Convert power to GameVersionIntMap
         if isinstance(self.power, dict):
             self.power = GameVersionIntMap.from_dict(self.power)
+        elif isinstance(self.power, int):
+            self.power = GameVersionIntMap({key: self.power for key in VERSION_GROUP_KEYS})
+        elif self.power is None:
+            # None means no damage (status move)
+            self.power = GameVersionIntMap({key: None for key in VERSION_GROUP_KEYS})
+
+        # Convert pp to GameVersionIntMap
         if isinstance(self.pp, dict):
             self.pp = GameVersionIntMap.from_dict(self.pp)
+        elif isinstance(self.pp, int):
+            self.pp = GameVersionIntMap({key: self.pp for key in VERSION_GROUP_KEYS})
+
+        # Convert type to GameVersionStringMap
         if isinstance(self.type, dict):
             self.type = GameVersionStringMap.from_dict(self.type)
+        elif isinstance(self.type, str):
+            self.type = GameVersionStringMap({key: self.type for key in VERSION_GROUP_KEYS})
+
+        # Convert effect_chance to GameVersionIntMap
         if isinstance(self.effect_chance, dict):
             self.effect_chance = GameVersionIntMap.from_dict(self.effect_chance)
+        elif isinstance(self.effect_chance, int):
+            self.effect_chance = GameVersionIntMap({key: self.effect_chance for key in VERSION_GROUP_KEYS})
+        elif self.effect_chance is None:
+            # None means no additional effect chance
+            self.effect_chance = GameVersionIntMap({key: None for key in VERSION_GROUP_KEYS})
+
+        # Convert effect to GameVersionStringMap
         if isinstance(self.effect, dict):
             self.effect = GameVersionStringMap.from_dict(self.effect)
+        elif isinstance(self.effect, str):
+            self.effect = GameVersionStringMap({key: self.effect for key in VERSION_GROUP_KEYS})
+
+        # Convert short_effect to GameVersionStringMap
         if isinstance(self.short_effect, dict):
             self.short_effect = GameVersionStringMap.from_dict(self.short_effect)
+        elif isinstance(self.short_effect, str):
+            self.short_effect = GameVersionStringMap({key: self.short_effect for key in VERSION_GROUP_KEYS})
+
+        # Convert flavor_text to GameVersionStringMap
         if isinstance(self.flavor_text, dict):
             self.flavor_text = GameVersionStringMap.from_dict(self.flavor_text)
+        elif isinstance(self.flavor_text, str):
+            self.flavor_text = GameVersionStringMap({key: self.flavor_text for key in VERSION_GROUP_KEYS})
+
         if isinstance(self.stat_changes, list):
             self.stat_changes = [
                 StatChange(**sc) if isinstance(sc, dict) else sc
@@ -481,9 +524,9 @@ class Move:
             raise ValueError(
                 f"stat_changes must be a list, got: {type(self.stat_changes)}"
             )
-        if self.machine is not None and not isinstance(self.machine, dict):
+        if self.machine is not None and not isinstance(self.machine, (str, dict)):
             raise ValueError(
-                f"machine must be None or a dict, got: {type(self.machine)}"
+                f"machine must be None, a string, or a dict, got: {type(self.machine)}"
             )
         if not isinstance(self.metadata, MoveMetadata):
             raise ValueError(
