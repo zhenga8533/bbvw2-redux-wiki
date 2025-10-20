@@ -57,7 +57,7 @@ Pickup Table Changes
 
 Various tweaks have been made to the pickup table. This is the 'loot pool' for Pokémon with the ability Pickup.
 
- - All instances of a Leftover have been replaced with a Lucky Egg.
+ - All instances of a Leftovers have been replaced with a Lucky Egg.
  - All instances of a Sun Stone have been replaced with a Sticky Barb.
  - All instances of a Moon Stone have been replaced with a Lagging Tail.
  - All instances of a King's Rock have been replaced with a PP Max.
@@ -76,6 +76,7 @@ On Challenge Mode only, the BP prize vendors and the Castelia Cafe artist are al
  - Furthermore, this has been commonly requested by the community!
 
 Upon entering the postgame, the vendors will reappear upon sighting Suicune on Route 3.
+
 This change will only realistically effect <5% of players.
 
 
@@ -86,10 +87,10 @@ Item Locations
 Almost all items have been redistributed in Redux. These changes are documented below.
 
 
-~~~~~ Aspertia City ~~~~~~
+~~~~~ Aspertia City ~~~~~
 
-Pokéball x10 -> Pokéball x50
-Potion x1 -> Bike
+Poké Ball x10 -> Poké Ball x50
+Potion x1 -> Bicycle
 TM27 Return -> TM54 False Swipe
 TM53 Energy Ball
 Max Revive x2 -> Choice Scarf
@@ -114,9 +115,9 @@ Potion
 
 ~~~~~ Route 20 ~~~~~
 
-Parlyz Heal -> Silk Scarf
-Pokéball (Hidden)
-Pokéball
+Paralyze Heal -> Silk Scarf
+Poké Ball (Hidden)
+Poké Ball
 Pecha Berry x3 -> Super Rod
 Great Ball
 Antidote -> Miracle Seed
@@ -134,15 +135,15 @@ Sticky Barb
 
 Potion -> Soothe Bell
 Potion -> TM41 Infestation
-Pokéball -> Quick Claw
-Parlyz Heal -> Exp Share
+Poké Ball -> Quick Claw
+Paralyze Heal -> Exp Share
 X-Attack -> Binding Band
 TM21 Frustration
 
 
 ~~~~~ Trainer School ~~~~~
 
-X-Defend -> Iron Ball
+X-Defense -> Iron Ball
 Berry Juice x2
 
 
@@ -152,7 +153,7 @@ Great Ball x2 -> Great Ball x15
 Burn Heal -> Focus Band
 Poke Toy -> Smoke Ball
 Antidote (Hidden) -> Lagging Tail (Hidden)
-Pokéball x5 -> Ultra Ball x3
+Poké Ball x5 -> Ultra Ball x3
 Rare Candy -> TM36 Sludge Bomb
 TM09 Venoshock
 
@@ -165,7 +166,7 @@ Pearl (Hidden)
 TM46 Thief -> Mental Herb
 TM59 Incinerate
 TM94 Rock Smash -> TM45 Power-up Punch
-Either -> Scope Lens
+Ether -> Scope Lens
 Great Ball
 Great Ball x5 -> TM47 Low Sweep
 Tiny Mushroom (Hidden)
@@ -198,13 +199,13 @@ Repel -> Leftovers
 Black Glasses
 TM76 Struggle Bug -> TM81 X-Scissor
 Quick Claw -> TM88 Pluck
-Tanga Berries x2
+Tanga Berry x2
 
 
 ~~~~~ Castelia Sewers ~~~~~
 
 Twisted Spoon -> Toxic Orb
-X Sp.Atk -> Twisted Spoon
+X Sp. Atk -> Twisted Spoon
 Rare Bone
 Pearl -> TM84 Poison Jab
 Leftovers -> Black Sludge
@@ -261,12 +262,12 @@ Green Shard
 Soft Sand
 Rawst Berry x2
 Star Piece (Hidden)
-Blue Shard -> DeepSeaTooth
+Blue Shard -> Deep Sea Tooth
 Blue Shard (Hidden)
 Ground Gem (Hidden) -> Hard Stone
 Red Shard -> TM03 Psyshock
 Red Shard (Hidden)
-Yellow Shard -> DeepSeaScale
+Yellow Shard -> Deep Sea Scale
 Super Repel (Hidden)
 Nugget -> TM78 Bulldoze
 Heart Scale
@@ -290,9 +291,9 @@ Sun Stone -> Ice Stone
 Macho Brace
 Red Shard x10
 Soothe Bell
-Thunderstone (Hidden)
+Thunder Stone (Hidden)
 Revive (Hidden)
-Parlyz Heal -> Shell Bell
+Paralyze Heal -> Shell Bell
 TM72 Volt Switch
 TM49 Echoed Voice
 Choice Band*
@@ -306,7 +307,7 @@ Cheri Berry x12**
 
 Heal Ball -> Dawn Stone
 TM66 Payback -> TM66 Power Gem
-TinyMushroom (Hidden)
+Tiny Mushroom (Hidden)
 
 
 ~~~~~ Lostlorn Forest ~~~~~
@@ -333,7 +334,8 @@ Cheri Berry
 
 ~~~~~ Driftveil Drawbridge ~~~~~
 
-New: Armour Fossil and Skull Fossil.
+Armor Fossil
+Skull Fossil
 
 
 ~~~~~ Driftveil City ~~~~~
@@ -369,8 +371,8 @@ PP Up -> TM79 Frost Breath
 
 Elixir
 Moon Stone
-TinyMushroom (Hidden)
-Ultra Ball -> SilverPowder
+Tiny Mushroom (Hidden)
+Ultra Ball -> Silver Powder
 Protein (Hidden)
 Shiny Stone
 Pecha Berry
@@ -398,7 +400,7 @@ Carbos (Hidden)
 Revive -> TM91 Flash Cannon
 Iron -> Cell Battery
 Escape Rope -> TM57 Charge Beam
-Thunderstone
+Thunder Stone
 Metal Coat
 Electric Gem (Hidden) -> Hard Stone
 
@@ -459,7 +461,7 @@ TM81 X-Scissor -> TM89 U-Turn
 Zinc -> King's Rock
 Leaf Stone
 Elixir
-TinyMushroom (Hidden)
+Tiny Mushroom (Hidden)
 Revive (Hidden)
 
 
@@ -513,7 +515,7 @@ Rare Candy
 
 ~~~~~ Undella Town ~~~~~
 
-New: HM05 Waterfall
+HM05 Waterfall
 HM06 Dive -> Master Ball
 Shiny Stone (Hidden)
 Berry Juice -> TM55 Scald
@@ -559,7 +561,7 @@ Max Ether
 Sitrus Berry x2
 Pearl (Hidden)
 Big Pearl (Hidden)
-Red Shard -> BrightPowder
+Red Shard -> Bright Powder
 Zinc (Hidden)
 Max Repel
 Heart Scale (Hidden)
@@ -617,10 +619,11 @@ Razor Fang
 
 ~~~~~ Opelucid City ~~~~~
 
-New: Cover Fossil and Plume Fossil
+Cover Fossil
+Plume Fossil
 Float Stone -> Absorb Bulb
 Ring Target
-Smoke Ball -> Dubious Disk
+Smoke Ball -> Dubious Disc
 TM82 Dragon Tail -> TM02 Dragon Claw
 *Old Amber
 
@@ -706,7 +709,7 @@ Moon Stone (Hidden)
 Max Potion (Hidden)
 TM13 Ice Beam
 Star Piece
-Star Piece -> NeverMeltIce
+Star Piece -> Never Melt Ice
 Max Repel
 Ultra Ball
 Ice Gem (Hidden) -> Hard Stone
@@ -774,7 +777,7 @@ TM24 Thunderbolt -> HM06 Dive
 
 ~~~~~ Tubeline Bridge ~~~~~
 
-TM43, Flame Charge -> Choice Band
+TM43 Flame Charge -> Choice Band
 
 
 ~~~~~ Route 8 ~~~~~
@@ -786,14 +789,14 @@ Nest Ball
 Big Pearl
 Max Repel (Hidden)
 Rare Candy (Hidden)
-TM36, Sludge Bomb -> Choice Scarf
+TM36 Sludge Bomb -> Choice Scarf
 
 
 ~~~~~ Moor of Icirrus ~~~~~
 
 Lum Berry x2
-TM84, Poison Jab -> Toxic Orb
-TinyMushroom  (Hidden)
+TM84 Poison Jab -> Toxic Orb
+Tiny Mushroom  (Hidden)
 Dawn Stone (Hidden)
 Full Heal
 Big Mushroom (Hidden)
@@ -805,7 +808,7 @@ Heart Scale
 ~~~~~ Route 15 ~~~~~
 
 Max Elixir
-TM26, Earthquake -> TM20, Tri Attack
+TM26 Earthquake -> TM20 Tri Attack
 HP Up (Hidden)
 Max Potion
 Ultra Ball (Hidden)
@@ -813,7 +816,7 @@ Ultra Ball (Hidden)
 
 ~~~~~ Dragonspiral Tower ~~~~~
 
-NeverMeltIce
+Never Melt Ice
 Old Gateau
 Carbos
 Red Shard (Hidden)
@@ -842,7 +845,7 @@ Max Repel
 Max Revive
 Lum Berry x2
 Net Ball
-BalmMushroom (Hidden)
+Balm Mushroom (Hidden)
 Up-Grade
 TM86 Grass Knot -> Leaf Stone
 Green Shard (Hidden)
@@ -882,13 +885,13 @@ Ultra Ball (Hidden)
 
 ~~~~~ Twist Mountain ~~~~~
 
-Helix Fossil(s)
-Dome Fossil(s)
-Old Amber(s)
-Root Fossil(s)
-Claw Fossil(s)
-Skull Fossil(s)
-Armor Fossil(s)
+Helix Fossil
+Dome Fossil
+Old Amber
+Root Fossil
+Claw Fossil
+Skull Fossil
+Armor Fossil
 Dusk Ball
 TM71 Stone Edge -> Ice Stone
 TM91 Flash Cannon -> TM77 Psych Up
@@ -967,8 +970,8 @@ Ultra Ball
 
 ~~~~~ Accumula Town ~~~~~
 
-Pokéball x10
-BalmMushroom
+Poké Ball x10
+Balm Mushroom
 Grass Gem (Hidden) -> Hard Stone
 Fire Gem (Hidden) -> Hard Stone
 Water Gem (Hidden) -> Hard Stone
@@ -1036,50 +1039,125 @@ Several Pokémarts now sell different items. These are listed below.
 
 ~~~~~ Virbank City ~~~~~~
 
-Secondary Mart now sells Luxury Balls and Net Balls, as well as Aspear, Oran and Rawst Berries.
+Secondary Mart now sells:
+
+ - Luxury Ball
+ - Net Ball
+ - Aspear Berry
+ - Oran Berry
+ - Rawst Berry
 
 
 ~~~~~ Castelia City ~~~~~~
 
-Secondary Mart now sells EV decreasing berries, as well as Pecha and Chesto Berries.
+Secondary Mart now sells:
+
+ - Pomeg Berry
+ - Kelpsy Berry
+ - Qualot Berry
+ - Hondew Berry
+ - Grepa Berry
+ - Tamato Berry
+ - Pecha Berry
+ - Chesto Berry
 
 
 ~~~~~ Driftveil City ~~~~~~
 
 Secondary Mart now sells:
- - Red Shards
- - Blue Shards
- - Yellow Shards
- - Green Shards
+
+ - Red Shard
+ - Blue Shard
+ - Yellow Shard
+ - Green Shard
  - Heart Scales
  - Honey
- - Figy Berries.
- - Wiki Berries.
- - Mago Berries.
- - Aguav Berries.
- - Iapapa Berries.
+ - Figy Berry
+ - Wiki Berry
+ - Mago Berry
+ - Aguav Berry
+ - Iapapa Berry
 
 
 ~~~~~ Driftveil Market ~~~~~~
 
-Plasma Grunt now sells evolutionary stones, instead of incense.
+Plasma Grunt now sells:
+
+ - Water Stone
+ - Thunder Stone
+ - Fire Stone
+ - Sun Stone
+ - Moon Stone
+ - Leaf Stone
+ - Ice Stone
+ - Link Cable
+ - King's Rock
+ - Metal Coat
+ - Protector
+ - Dragon Scale
+ - Electirizer
+ - Magmarizer
+ - Up-Grade
+ - Razor Fang
+ - Razor Claw
+ - Dubious Disc
+ - Prism Scale
+ - Reaper Cloth
+ - Deep Sea Tooth
+ - Deep Sea Scale
 
 
 ~~~~~ Route 9 Shopping Mall ~~~~~~
 
 Now sells:
- - Incense Items.
- - All evolutionary items.
- - White, Mental and Power Herbs.
- - PP Ups and PP Maxes.
- - Everstones and Eviolites.
- - TM15, Hyper Beam.
- - TM66, Giga Impact.
+
+ - Lax Incense
+ - Odd Incense
+ - Sea Incense
+ - Full Incense
+ - Luck Incense
+ - Pure Incense
+ - Rock Incense
+ - Rose Incense
+ - Wave Incense
+ - Water Stone
+ - Thunder Stone
+ - Fire Stone
+ - Sun Stone
+ - Moon Stone
+ - Leaf Stone
+ - Ice Stone
+ - Link Cable
+ - King's Rock
+ - Metal Coat
+ - Protector
+ - Dragon Scale
+ - Electirizer
+ - Magmarizer
+ - Up-Grade
+ - Razor Fang
+ - Razor Claw
+ - Dubious Disc
+ - Prism Scale
+ - Reaper Cloth
+ - Deep Sea Tooth
+ - Deep Sea Scale
+ - White Herb
+ - Mental Herb
+ - Power Herb
+ - PP Up
+ - PP Max
+ - Everstone
+ - Eviolite
+ - TM15 Hyper Beam
+ - TM66 Giga Impact
 
 
 ~~~~~ Humilau City ~~~~~
 
-Secondary Mart now sells Sitrus and Perism berries.
+Secondary Mart now sells:
+ - Sitrus Berry
+ - Persim Berry
 
 
 =========================================================

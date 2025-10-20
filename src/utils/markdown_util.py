@@ -8,6 +8,7 @@ like Pokemon displays with sprites and links.
 from src.data.pokedb_loader import PokeDBLoader
 from src.utils.config_util import get_config
 from src.utils.text_util import name_to_id
+import re
 
 
 def format_pokemon(
@@ -93,7 +94,14 @@ def format_item(
     Example output:
         <div align="center"><img src="sprite.png"><br><strong>Potion</strong><br>Restores 20 HP.</div>
     """
-    item_html = "<div>"
+    item_html = ""
+
+    # Handle special case for TMs/HMs with numbers
+    item_extra = ""
+    if re.match(r"^(?:tm|hm)[\d]+$", item_name.lower().split(" ", 1)[0]):
+        item_name, item_extra = (
+            item_name.split(" ", 1) if " " in item_name else (item_name, "")
+        )
 
     # Try to load item URL
     try:
@@ -101,6 +109,11 @@ def format_item(
     except FileNotFoundError:
         return item_name
 
+    # Add extra text for TMs/HMs
+    if item_extra:
+        item_name += f" {item_extra}"
+
+    # Build item HTML
     if has_sprite:
         item_sprite_url = item_data.sprite
         item_html += f'<img src="{item_sprite_url}" alt="{item_name}" style="vertical-align: middle;">'
@@ -112,5 +125,4 @@ def format_item(
         else:
             item_html += f"<span>{item_name}</span>"
 
-    item_html += "</div>"
     return item_html
