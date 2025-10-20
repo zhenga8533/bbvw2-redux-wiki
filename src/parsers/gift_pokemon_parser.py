@@ -37,7 +37,7 @@ class GiftPokemonParser(BaseParser):
 
         # Match: header line followed by "---" separator
         if next_line == "---":
-            self.format_gift_pokemon(line)
+            self._format_gift_pokemon(line)
         # Match: separator line "---"
         elif line == "---":
             return
@@ -49,7 +49,7 @@ class GiftPokemonParser(BaseParser):
         else:
             self.parse_default(line)
 
-    def format_gift_pokemon(self, header: str) -> None:
+    def _format_gift_pokemon(self, header: str) -> None:
         """Format gift Pokemon section with sprite table."""
         # Clean up header
         header = header.removesuffix(".")
