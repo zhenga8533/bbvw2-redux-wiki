@@ -89,19 +89,20 @@ class PokeDBLoader:
     Utility class for loading PokeDB JSON files into structured dataclasses.
 
     Supports loading from both the original gen5 data and the parsed working copy.
-    Implements thread-safe LRU caching to avoid redundant file I/O operations.
+    Implements thread-safe LRU caching for all data types (Pokemon, Moves, Abilities, Items)
+    to avoid redundant file I/O operations.
 
-    IMPORTANT: This class uses a class-level cache that persists across all
+    IMPORTANT: This class uses class-level caches that persist across all
     instances and throughout the lifetime of the process. This provides significant
     performance benefits but has important implications:
 
     - Cache invalidation: Call clear_cache() if files are modified externally
       or if you need fresh data from disk
-    - Memory usage: The cache is limited to MAX_CACHE_SIZE entries (default: 1000).
-      Least recently used entries are automatically evicted when the cache is full.
+    - Memory usage: Each cache type is limited to MAX_CACHE_SIZE entries (default: 1000).
+      Least recently used entries are automatically evicted when a cache is full.
     - Testing: Call clear_cache() between tests to ensure isolation
 
-    The cache is automatically invalidated when saving Pokemon via save_pokemon().
+    The Pokemon cache is automatically updated when saving Pokemon via save_pokemon().
 
     Configuration:
     - Use set_data_dir() to override the default data directory path
@@ -121,11 +122,10 @@ class PokeDBLoader:
     # Class-level data directory (configurable, defaults to None = use default path)
     _data_dir: Optional[Path] = None
 
-    # Class-level caches: OrderedDict for LRU behavior
-    _pokemon_cache: OrderedDict[tuple[str, str], Pokemon] = OrderedDict()
-    _move_cache: OrderedDict[str, Move] = OrderedDict()
-    _ability_cache: OrderedDict[str, Ability] = OrderedDict()
-    _item_cache: OrderedDict[str, Item] = OrderedDict()
+    # Unified cache: OrderedDict for LRU behavior
+    # Key format: ("type", name, subfolder) for pokemon or ("type", name) for others
+    # Value: Pokemon | Move | Ability | Item
+    _cache: OrderedDict[tuple[str, ...], Pokemon | Move | Ability | Item] = OrderedDict()
 
     # Cache statistics
     _cache_hits: int = 0
@@ -347,43 +347,44 @@ class PokeDBLoader:
 
     @classmethod
     def _update_cache(
-        cls, cache_key: tuple[str, str], pokemon: Pokemon, name: str
+        cls, cache_key: tuple[str, ...], item: Pokemon | Move | Ability | Item, item_type: str, name: str
     ) -> None:
         """
-        Update cache with a Pokemon object, handling LRU eviction (thread-safe).
+        Update unified cache with an item, handling LRU eviction (thread-safe).
 
-        This shared method is used by both load_pokemon and save_pokemon to avoid
+        This shared method is used after loading any item from disk to avoid
         code duplication and ensure consistent cache behavior.
 
         Args:
-            cache_key: Tuple of (name, subfolder) for cache lookup
-            pokemon: Pokemon object to cache
-            name: Pokemon name (for logging)
+            cache_key: Tuple key for cache lookup (format varies by type)
+            item: Item object to cache (Pokemon, Move, Ability, or Item)
+            item_type: Type of item ("pokemon", "move", "ability", "item")
+            name: Item name (for logging)
         """
         cls._cache_lock.acquire_write()
         try:
             # Check again if another thread cached it while we were loading
-            if cache_key in cls._pokemon_cache:
-                cls._pokemon_cache.move_to_end(cache_key)
+            if cache_key in cls._cache:
+                cls._cache.move_to_end(cache_key)
                 return
 
             # Add to cache
-            cls._pokemon_cache[cache_key] = pokemon
-            cls._pokemon_cache.move_to_end(cache_key)
+            cls._cache[cache_key] = item
+            cls._cache.move_to_end(cache_key)
 
             # Optimized batch eviction: if we're significantly over limit,
             # evict multiple entries at once for better performance
-            overage = len(cls._pokemon_cache) - cls.MAX_CACHE_SIZE
+            overage = len(cls._cache) - cls.MAX_CACHE_SIZE
             if overage > 0:
                 # Evict 10% extra to reduce frequent evictions
                 evict_count = max(1, overage + cls.MAX_CACHE_SIZE // 10)
                 evicted_keys = []
-                for _ in range(min(evict_count, len(cls._pokemon_cache) - 1)):
-                    if len(cls._pokemon_cache) <= cls.MAX_CACHE_SIZE:
+                for _ in range(min(evict_count, len(cls._cache) - 1)):
+                    if len(cls._cache) <= cls.MAX_CACHE_SIZE:
                         break
-                    evicted_key = next(iter(cls._pokemon_cache))
-                    del cls._pokemon_cache[evicted_key]
-                    evicted_keys.append(evicted_key[0])
+                    evicted_key = next(iter(cls._cache))
+                    del cls._cache[evicted_key]
+                    evicted_keys.append(f"{evicted_key[0]}:{evicted_key[1]}")
 
                 if evicted_keys:
                     logger.debug(
@@ -392,7 +393,7 @@ class PokeDBLoader:
                     )
 
             logger.debug(
-                f"Cached Pokemon '{name}' (cache size: {len(cls._pokemon_cache)}/{cls.MAX_CACHE_SIZE})"
+                f"Cached {item_type} '{name}' (cache size: {len(cls._cache)}/{cls.MAX_CACHE_SIZE})"
             )
         finally:
             cls._cache_lock.release_write()
@@ -418,14 +419,14 @@ class PokeDBLoader:
             >>> # Load a specific form
             >>> darmanitan = PokeDBLoader.load_pokemon("darmanitan-zen", subfolder="variant")
         """
-        cache_key = (name, subfolder)
+        cache_key = ("pokemon", name, subfolder)
 
         # Check cache first (with read lock for better concurrency)
         cls._cache_lock.acquire_read()
         try:
-            if cache_key in cls._pokemon_cache:
+            if cache_key in cls._cache:
                 cls._cache_hits += 1
-                result = cls._pokemon_cache[cache_key]
+                result = cls._cache[cache_key]
                 logger.debug(
                     f"Loading Pokemon '{name}' from cache (subfolder: {subfolder}) "
                     f"[hit rate: {cls.get_cache_hit_rate():.1%}]"
@@ -449,7 +450,7 @@ class PokeDBLoader:
             raise
 
         # Cache the result with LRU eviction
-        cls._update_cache(cache_key, pokemon, name)
+        cls._update_cache(cache_key, pokemon, "pokemon", name)
         return pokemon
 
     @classmethod
@@ -522,6 +523,25 @@ class PokeDBLoader:
             >>> print(move.power)
             {'gen5': 90}
         """
+        cache_key = ("move", name)
+
+        # Check cache first (with read lock)
+        cls._cache_lock.acquire_read()
+        try:
+            if cache_key in cls._cache:
+                cls._cache_hits += 1
+                result = cls._cache[cache_key]
+                logger.debug(
+                    f"Loading Move '{name}' from cache "
+                    f"[hit rate: {cls.get_cache_hit_rate():.1%}]"
+                )
+                return result
+            # Cache miss
+            cls._cache_misses += 1
+        finally:
+            cls._cache_lock.release_read()
+
+        # Load from file
         data = cls._load_json("move", name)
 
         # Preprocess: Convert empty list to None for machine field
@@ -533,7 +553,11 @@ class PokeDBLoader:
                 # If non-empty list, log warning but don't fail
                 logger.warning(f"Move '{name}' has unexpected machine format: {data['machine']}")
 
-        return from_dict(data_class=Move, data=data, config=cls._dacite_config)
+        move = from_dict(data_class=Move, data=data, config=cls._dacite_config)
+
+        # Cache the result
+        cls._update_cache(cache_key, move, "move", name)
+        return move
 
     @classmethod
     def load_all_moves(cls) -> dict[str, Move]:
@@ -563,8 +587,31 @@ class PokeDBLoader:
             >>> print(ability.is_main_series)
             True
         """
+        cache_key = ("ability", name)
+
+        # Check cache first (with read lock)
+        cls._cache_lock.acquire_read()
+        try:
+            if cache_key in cls._cache:
+                cls._cache_hits += 1
+                result = cls._cache[cache_key]
+                logger.debug(
+                    f"Loading Ability '{name}' from cache "
+                    f"[hit rate: {cls.get_cache_hit_rate():.1%}]"
+                )
+                return result
+            # Cache miss
+            cls._cache_misses += 1
+        finally:
+            cls._cache_lock.release_read()
+
+        # Load from file
         data = cls._load_json("ability", name)
-        return from_dict(data_class=Ability, data=data, config=cls._dacite_config)
+        ability = from_dict(data_class=Ability, data=data, config=cls._dacite_config)
+
+        # Cache the result
+        cls._update_cache(cache_key, ability, "ability", name)
+        return ability
 
     @classmethod
     def load_all_abilities(cls) -> dict[str, Ability]:
@@ -596,8 +643,31 @@ class PokeDBLoader:
             >>> print(item.cost)
             300
         """
+        cache_key = ("item", name)
+
+        # Check cache first (with read lock)
+        cls._cache_lock.acquire_read()
+        try:
+            if cache_key in cls._cache:
+                cls._cache_hits += 1
+                result = cls._cache[cache_key]
+                logger.debug(
+                    f"Loading Item '{name}' from cache "
+                    f"[hit rate: {cls.get_cache_hit_rate():.1%}]"
+                )
+                return result
+            # Cache miss
+            cls._cache_misses += 1
+        finally:
+            cls._cache_lock.release_read()
+
+        # Load from file
         data = cls._load_json("item", name)
-        return from_dict(data_class=Item, data=data, config=cls._dacite_config)
+        item = from_dict(data_class=Item, data=data, config=cls._dacite_config)
+
+        # Cache the result
+        cls._update_cache(cache_key, item, "item", name)
+        return item
 
     @classmethod
     def load_all_items(cls) -> dict[str, Item]:
@@ -717,7 +787,7 @@ class PokeDBLoader:
 
         # Update cache with the new data instead of invalidating
         # This is more efficient for batch operations like evolution chain updates
-        cache_key = (name, subfolder)
+        cache_key = ("pokemon", name, subfolder)
         cls._update_cache(cache_key, data, name)
 
         logger.info(f"Successfully saved Pokemon '{name}'")
@@ -726,15 +796,16 @@ class PokeDBLoader:
     @classmethod
     def clear_cache(cls) -> None:
         """
-        Clear the entire Pokemon cache and reset statistics (thread-safe).
+        Clear all caches (Pokemon, Move, Ability, Item) and reset statistics (thread-safe).
 
         Useful when you need to reload data from disk or free up memory.
 
         Examples:
-            >>> # Load and cache Pokemon
+            >>> # Load and cache data
             >>> pokemon = PokeDBLoader.load_pokemon("pikachu")
+            >>> move = PokeDBLoader.load_move("thunderbolt")
             >>> print(PokeDBLoader.get_cache_size())
-            1
+            2
             >>> # Clear the cache
             >>> PokeDBLoader.clear_cache()
             >>> print(PokeDBLoader.get_cache_size())
@@ -742,25 +813,36 @@ class PokeDBLoader:
         """
         cls._cache_lock.acquire_write()
         try:
-            cache_size = len(cls._pokemon_cache)
-            cls._pokemon_cache.clear()
+            # Count entries by type
+            pokemon_size = sum(1 for k in cls._cache if k[0] == "pokemon")
+            move_size = sum(1 for k in cls._cache if k[0] == "move")
+            ability_size = sum(1 for k in cls._cache if k[0] == "ability")
+            item_size = sum(1 for k in cls._cache if k[0] == "item")
+            total_size = len(cls._cache)
+
+            cls._cache.clear()
             cls._cache_hits = 0
             cls._cache_misses = 0
-            logger.info(f"Cleared Pokemon cache ({cache_size} entries)")
+
+            logger.info(
+                f"Cleared unified cache ({total_size} total entries: "
+                f"{pokemon_size} Pokemon, {move_size} Moves, "
+                f"{ability_size} Abilities, {item_size} Items)"
+            )
         finally:
             cls._cache_lock.release_write()
 
     @classmethod
     def get_cache_size(cls) -> int:
         """
-        Get the number of cached Pokemon (thread-safe).
+        Get the total number of cached items across all caches (thread-safe).
 
         Returns:
-            int: Number of Pokemon currently in the cache
+            int: Total number of items currently in all caches
         """
         cls._cache_lock.acquire_read()
         try:
-            return len(cls._pokemon_cache)
+            return len(cls._cache)
         finally:
             cls._cache_lock.release_read()
 
@@ -774,7 +856,7 @@ class PokeDBLoader:
         """
         cls._cache_lock.acquire_read()
         try:
-            return list(cls._pokemon_cache.keys())
+            return [(k[1], k[2]) for k in cls._cache.keys() if k[0] == "pokemon"]
         finally:
             cls._cache_lock.release_read()
 
@@ -785,8 +867,12 @@ class PokeDBLoader:
 
         Returns:
             dict: Dictionary containing cache statistics:
-                - size: Number of cached Pokemon
-                - max_size: Maximum cache size
+                - total_size: Total number of cached items across all types
+                - pokemon_size: Number of cached Pokemon
+                - move_size: Number of cached Moves
+                - ability_size: Number of cached Abilities
+                - item_size: Number of cached Items
+                - max_size: Maximum cache size per type
                 - hits: Number of cache hits
                 - misses: Number of cache misses
                 - hit_rate: Cache hit rate (0.0 to 1.0)
@@ -796,8 +882,16 @@ class PokeDBLoader:
         try:
             total = cls._cache_hits + cls._cache_misses
             hit_rate = cls._cache_hits / total if total > 0 else 0.0
+            pokemon_size = sum(1 for k in cls._cache if k[0] == "pokemon")
+            move_size = sum(1 for k in cls._cache if k[0] == "move")
+            ability_size = sum(1 for k in cls._cache if k[0] == "ability")
+            item_size = sum(1 for k in cls._cache if k[0] == "item")
             return {
-                "size": len(cls._pokemon_cache),
+                "total_size": len(cls._cache),
+                "pokemon_size": pokemon_size,
+                "move_size": move_size,
+                "ability_size": ability_size,
+                "item_size": item_size,
                 "max_size": cls.MAX_CACHE_SIZE,
                 "hits": cls._cache_hits,
                 "misses": cls._cache_misses,
@@ -845,14 +939,14 @@ class PokeDBLoader:
             cls.MAX_CACHE_SIZE = size
 
             # Evict LRU entries if new size is smaller
-            while len(cls._pokemon_cache) > cls.MAX_CACHE_SIZE:
-                evicted_key = next(iter(cls._pokemon_cache))
-                del cls._pokemon_cache[evicted_key]
+            while len(cls._cache) > cls.MAX_CACHE_SIZE:
+                evicted_key = next(iter(cls._cache))
+                del cls._cache[evicted_key]
                 logger.debug(f"Evicted LRU entry: {evicted_key[0]}")
 
             logger.info(
                 f"Cache size changed from {old_size} to {size} "
-                f"(current entries: {len(cls._pokemon_cache)})"
+                f"(current entries: {len(cls._cache)})"
             )
         finally:
             cls._cache_lock.release_write()
@@ -923,7 +1017,7 @@ class PokeDBLoader:
                 continue
 
             json_files = list(data_dir.glob("*.json"))
-            loaded_pokemon: dict[tuple[str, str], Pokemon] = {}
+            loaded_pokemon: dict[tuple[str, str, str], Pokemon] = {}
 
             with ThreadPoolExecutor(max_workers=worker_count) as executor:
                 future_to_file = {
@@ -937,7 +1031,7 @@ class PokeDBLoader:
                         pokemon = from_dict(
                             data_class=Pokemon, data=data, config=cls._dacite_config
                         )
-                        loaded_pokemon[(name, subfolder)] = pokemon
+                        loaded_pokemon[("pokemon", name, subfolder)] = pokemon
                     except Exception as e:
                         logger.error(
                             f"Failed to preload Pokemon '{file_path.stem}': {e}"
@@ -947,13 +1041,13 @@ class PokeDBLoader:
                 cls._cache_lock.acquire_write()
                 try:
                     for key, mon in loaded_pokemon.items():
-                        cls._pokemon_cache[key] = mon
-                        cls._pokemon_cache.move_to_end(key)
+                        cls._cache[key] = mon
+                        cls._cache.move_to_end(key)
 
-                    overage = len(cls._pokemon_cache) - cls.MAX_CACHE_SIZE
+                    overage = len(cls._cache) - cls.MAX_CACHE_SIZE
                     if overage > 0:
                         for _ in range(overage):
-                            cls._pokemon_cache.popitem(last=False)
+                            cls._cache.popitem(last=False)
                 finally:
                     cls._cache_lock.release_write()
 
