@@ -658,6 +658,7 @@ class PokeDBLoader:
                         GameVersionStringMap,
                         GameVersionIntMap,
                         SpriteVersions,
+                        PokemonMoves,
                     )
 
                     def dict_factory(fields):
@@ -666,7 +667,13 @@ class PokeDBLoader:
                             if isinstance(v, IntEnum):
                                 result[k] = v.value
                             elif isinstance(
-                                v, (GameVersionStringMap, GameVersionIntMap, SpriteVersions)
+                                v,
+                                (
+                                    GameVersionStringMap,
+                                    GameVersionIntMap,
+                                    SpriteVersions,
+                                    PokemonMoves,
+                                ),
                             ):
                                 result[k] = v.to_dict()
                             else:

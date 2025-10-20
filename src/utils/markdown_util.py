@@ -5,10 +5,12 @@ This module provides helpers for creating consistent markdown elements
 like Pokemon displays with sprites and links.
 """
 
+import html
+import re
+
 from src.data.pokedb_loader import PokeDBLoader
 from src.utils.config_util import get_config
 from src.utils.text_util import name_to_id
-import re
 
 
 def format_pokemon(
@@ -55,8 +57,9 @@ def format_pokemon(
 
         if is_animated and animated_url:
             pokemon_html += f'<img src="{animated_url}" alt="{pokemon_name} (gif)">'
-        else:
+        elif sprite_url:
             pokemon_html += f'<img src="{sprite_url}" width="96" alt="{pokemon_name}">'
+        # If no sprite available, don't add an img tag
 
     # Add line break if both sprite and name are present
     if has_sprite and is_linked:
@@ -78,7 +81,7 @@ def format_item(
     has_sprite: bool = True,
     has_name: bool = True,
     has_flavor_text: bool = True,
-):
+) -> str:
     """
     Format an item with optional sprite, name, and flavor text.
 
@@ -121,7 +124,13 @@ def format_item(
     if has_name:
         # Show flavor text as tooltip on hover
         if has_flavor_text and item_data.flavor_text:
-            item_html += f'<span style="border-bottom: 1px dashed #777; cursor: help;" title="{item_data.flavor_text.black_2_white_2}">{item_name}</span>'
+            flavor = item_data.flavor_text.black_2_white_2
+            if flavor:
+                # Escape HTML special characters in flavor text for title attribute
+                escaped_flavor = html.escape(flavor)
+                item_html += f'<span style="border-bottom: 1px dashed #777; cursor: help;" title="{escaped_flavor}">{item_name}</span>'
+            else:
+                item_html += f"<span>{item_name}</span>"
         else:
             item_html += f"<span>{item_name}</span>"
 

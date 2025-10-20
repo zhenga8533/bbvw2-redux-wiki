@@ -659,6 +659,20 @@ class PokemonMoves:
         init_data["extra_fields"] = extra
         return cls(**init_data)
 
+    def to_dict(self) -> dict[str, Any]:
+        """Convert to dictionary, including extra fields."""
+        from dataclasses import asdict
+
+        result = {
+            "egg": [asdict(m) for m in self.egg],
+            "tutor": [asdict(m) for m in self.tutor],
+            "machine": [asdict(m) for m in self.machine],
+            "level_up": [asdict(m) for m in self.level_up],
+        }
+        # Merge in any extra fields
+        result.update(self.extra_fields)
+        return result
+
 
 class Gender(IntEnum):
     """Represents gender constants for evolution triggers."""
