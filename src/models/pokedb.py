@@ -1041,6 +1041,16 @@ class SpriteVersions:
                 f"Sprite key '{key}' must be a dict or GenerationSprites, got {type(value)}"
             )
 
+    def to_dict(self) -> dict[str, Any]:
+        """Convert to a dictionary."""
+        key = SPRITE_VERSION_KEY
+        value = getattr(self, key, None)
+        if value is not None:
+            # Convert GenerationSprites dataclass to dict
+            from dataclasses import asdict
+            return {key: asdict(value)}
+        return {}
+
     def __repr__(self) -> str:
         """Provide a clean representation for debugging."""
         key = SPRITE_VERSION_KEY

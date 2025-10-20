@@ -653,16 +653,29 @@ class PokeDBLoader:
             try:
                 # Write to temp file first, then atomic rename (safer)
                 with open(temp_path, "wb") as f:
-                    # asdict needs a custom factory to handle enums
+                    # asdict needs a custom factory to handle enums and custom classes
+                    from src.models.pokedb import (
+                        GameVersionStringMap,
+                        GameVersionIntMap,
+                        SpriteVersions,
+                    )
+
+                    def dict_factory(fields):
+                        result = {}
+                        for k, v in fields:
+                            if isinstance(v, IntEnum):
+                                result[k] = v.value
+                            elif isinstance(
+                                v, (GameVersionStringMap, GameVersionIntMap, SpriteVersions)
+                            ):
+                                result[k] = v.to_dict()
+                            else:
+                                result[k] = v
+                        return result
+
                     f.write(
                         orjson.dumps(
-                            asdict(
-                                data,
-                                dict_factory=lambda x: {
-                                    k: v.value if isinstance(v, IntEnum) else v
-                                    for k, v in x
-                                },
-                            ),
+                            asdict(data, dict_factory=dict_factory),
                             option=orjson.OPT_INDENT_2 | orjson.OPT_SORT_KEYS,
                         )
                     )
