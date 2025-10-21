@@ -550,7 +550,7 @@ Now compatible with HM02, Fly.
 
 Level Up:
 1 - Fury Attack
-13 - Twinneedle
+13 - Twineedle
 15 - Toxic Spikes
 17 - Pin Missile
 21 - Pursuit
@@ -1341,7 +1341,7 @@ Level Up:
 7 - Confuse Ray
 10 - Quick Attack
 13 - Captivate
-16 - Faint Attack
+16 - Feint Attack
 19 - Fire Spin
 22 - Hypnosis
 25 - Zen Headbutt
@@ -1484,7 +1484,7 @@ Level Up:
 16 - Poison Fang
 19 - Swift
 22 - Mean Look
-25 - Faint Attack
+25 - Feint Attack
 28 - Air Cutter
 31 - Haze
 34 - Whirlwind
@@ -1519,7 +1519,7 @@ Level Up:
 16 - Poison Fang
 19 - Swift
 22 - Mean Look
-26 - Faint Attack
+26 - Feint Attack
 30 - Air Cutter
 33 - Haze
 36 - Whirlwind
@@ -1763,7 +1763,7 @@ Level Up:
 23 - Disable
 26 - Poison Fang
 29 - Rage Powder
-31 - Sliver Wind
+31 - Silver Wind
 34 - Skill Swap
 38 - Signal Beam
 42 - Morning Sun
@@ -1859,7 +1859,7 @@ Level Up:
 16 - Headbutt
 18 - Spite
 20 - Hypnosis
-22 - Faint Attack
+22 - Feint Attack
 24 - Slash
 24 - Night Slash
 27 - Charm
@@ -1898,7 +1898,7 @@ Level Up:
 16 - Headbutt
 18 - Spite
 20 - Hypnosis
-22 - Faint Attack
+22 - Feint Attack
 24 - Slash
 24 - Night Slash
 27 - Charm
@@ -2556,7 +2556,7 @@ Evolution:
 Now able to evolve into Golem by using a Link Cable.
 
 Level Up:
-1 - Autonomize
+1 - Autotomize
 1 - Focus Punch
 1 - Rollout
 1 - Seismic Toss
@@ -2587,7 +2587,7 @@ Level Up:
 ===================
 Level Up:
 1 - Steamroller
-1 - Autonomize
+1 - Autotomize
 1 - Focus Punch
 1 - Rollout
 1 - Seismic Toss
@@ -4350,7 +4350,7 @@ Level Up:
 1 - Smokescreen
 5 - Clear Smog
 8 - Fire Spin
-10 - Faint Attack
+10 - Feint Attack
 12 - Mach Punch
 14 - Flame Wheel
 16 - Confuse Ray
@@ -4603,7 +4603,7 @@ Level Up:
 32 - Bubble Beam
 36 - Aqua Ring
 40 - Muddy Water
-45 - Acid Armour
+45 - Acid Armor
 50 - Synchronoise
 55 - Wish
 60 - Hydro Pump
@@ -5801,7 +5801,7 @@ Level Up:
 16 - Poison Fang
 19 - Swift
 22 - Mean Look
-26 - Faint Attack
+26 - Feint Attack
 31 - Air Cutter
 34 - Haze
 37 - Whirlwind
@@ -6828,7 +6828,7 @@ Level Up:
 5 - Pursuit
 9 - Haze
 12 - Screech
-15 - Faint Attack
+15 - Feint Attack
 18 - Night Shade
 21 - Wing Attack
 24 - Assurance
@@ -7014,7 +7014,7 @@ Level Up:
 1 - Protect
 6 - Struggle Bug
 12 - Rapid Spin
-15 - Autonomize
+15 - Autotomize
 18 - Rollout
 21 - Revenge
 24 - Counter
@@ -7047,7 +7047,7 @@ Level Up:
 1 - Protect
 6 - Struggle Bug
 12 - Rapid Spin
-15 - Autonomize
+15 - Autotomize
 18 - Rollout
 21 - Revenge
 24 - Counter
@@ -7123,7 +7123,7 @@ Level Up:
 7 - Quick Attack
 10 - Fury Cutter
 13 - Mud Bomb
-16 - Faint Attack
+16 - Feint Attack
 19 - Metal Claw
 22 - Agility
 25 - Counter
@@ -7406,7 +7406,7 @@ Level Up:
 1 - Fling
 7 - Quick Attack
 10 - Spite
-13 - Faint Attack
+13 - Feint Attack
 16 - Fury Swipes
 19 - Counter
 22 - Metal Claw
@@ -7445,7 +7445,7 @@ Level Up:
 13 - Headbutt
 16 - Bulldoze
 19 - Fury Cutter
-22 - Faint Attack
+22 - Feint Attack
 25 - Slash
 25 - Night Slash
 28 - Seismic Toss
@@ -7480,7 +7480,7 @@ Level Up:
 13 - Headbutt
 16 - Bulldoze
 19 - Fury Cutter
-22 - Faint Attack
+22 - Feint Attack
 25 - Slash
 25 - Night Slash
 28 - Seismic Toss
@@ -8256,14 +8256,14 @@ Level Up:
 1 - Smokescreen
 5 - Clear Smog
 8 - Fire Spin
-10 - Faint Attack
+10 - Feint Attack
 12 - Mach Punch
 14 - Flame Wheel
 16 - Confuse Ray
 18 - Flame Burst
 21 - Screech
 24 - Fire Punch
-27 - Will-O-Wiisp
+27 - Will-O-Wisp
 32 - Lava Plume
 35 - Cross Chop
 39 - Belly Drum
@@ -9239,7 +9239,7 @@ Level Up:
 14 - Fake Out
 16 - Synthesis
 19 - Quick Attack
-21 - Faint Attack
+21 - Feint Attack
 23 - Leech Seed
 26 - Worry Seed
 29 - Air Cutter
@@ -9379,7 +9379,7 @@ Level Up:
 22 - Brine
 25 - Air Cutter
 28 - Aqua Ring
-31 - Ominous Mind
+31 - Ominous Wind
 34 - Soak
 37 - Fling
 40 - Agility
@@ -9419,7 +9419,7 @@ Level Up:
 25 - Stockpile
 25 - Swallow
 28 - Aqua Ring
-32 - Ominous Mind
+32 - Ominous Wind
 36 - Soak
 40 - Fling
 44 - Agility
@@ -9800,7 +9800,7 @@ Level Up:
 18 - Metal Claw
 20 - Struggle Bug
 23 - Spite
-26 - Faint Attack
+26 - Feint Attack
 29 - Hone Claws
 32 - Flail
 35 - Natural Gift
@@ -10206,7 +10206,7 @@ Level Up:
 16 - Detect
 19 - Shadow Sneak
 22 - Fake Out
-25 - Faint Attack
+25 - Feint Attack
 28 - Metal Burst
 31 - Shadow Claw
 34 - Trick
@@ -10243,7 +10243,7 @@ Level Up:
 7 - Tickle
 10 - Pain Split
 13 - Seismic Toss
-16 - Faint Attack
+16 - Feint Attack
 19 - Covet
 22 - Metal Claw
 25 - Fire Fang
@@ -10281,7 +10281,7 @@ Level Up:
 16 - Headbutt
 19 - Screech
 22 - Endeavor
-25 - Autonomize
+25 - Autotomize
 28 - Curse
 31 - Metal Burst
 34 - Take Down
@@ -10314,7 +10314,7 @@ Level Up:
 19 - Screech
 22 - Endeavor
 24 - Iron Defense
-27 - Autonomize
+27 - Autotomize
 30 - Curse
 33 - Metal Burst
 36 - Take Down
@@ -10352,7 +10352,7 @@ Level Up:
 19 - Screech
 22 - Endeavor
 24 - Iron Defense
-27 - Autonomize
+27 - Autotomize
 30 - Curse
 33 - Metal Burst
 36 - Take Down
@@ -11071,7 +11071,7 @@ Level Up:
 1 - Rapid Spin
 1 - Tackle
 1 - Copycat
-7 - Faint Attack
+7 - Feint Attack
 10 - Hypnosis
 13 - Psybeam
 16 - Dizzy Punch
@@ -11252,7 +11252,7 @@ Level Up:
 10 - Magical Leaf
 13 - Leech Seed
 16 - Disable
-18 - Faint Attack
+18 - Feint Attack
 20 - Sandstorm
 22 - Bullet Seed
 24 - Destiny Bond
@@ -11293,7 +11293,7 @@ Level Up:
 10 - Magical Leaf
 13 - Leech Seed
 16 - Disable
-18 - Faint Attack
+18 - Feint Attack
 20 - Sandstorm
 22 - Bullet Seed
 24 - Destiny Bond
@@ -11965,7 +11965,7 @@ Level Up:
 7 - Shadow Sneak
 10 - Feint
 13 - Fury Swipes
-16 - Faint Attack
+16 - Feint Attack
 19 - Psybeam
 22 - Slash
 25 - Ancient Power
@@ -12000,7 +12000,7 @@ Level Up:
 10 - Disable
 13 - Shadow Sneak
 16 - Will-O-Wisp
-19 - Faint Attack
+19 - Feint Attack
 22 - Ominous Wind
 25 - Curse
 28 - Hex
@@ -12039,7 +12039,7 @@ Level Up:
 10 - Disable
 13 - Shadow Sneak
 16 - Will-O-Wisp
-19 - Faint Attack
+19 - Feint Attack
 22 - Ominous Wind
 25 - Curse
 28 - Hex
@@ -12075,7 +12075,7 @@ Level Up:
 28 - Pain Split
 31 - Ominous Wind
 34 - Shadow Sneak
-37 - Faint Attack
+37 - Feint Attack
 40 - Skill Swap
 43 - Hex
 46 - Leech Life
@@ -12105,7 +12105,7 @@ Level Up:
 28 - Pain Split
 31 - Ominous Wind
 34 - Shadow Sneak
-37 - Faint Attack
+37 - Feint Attack
 37 - Shadow Punch
 41 - Skill Swap
 45 - Hex
@@ -14573,7 +14573,7 @@ Level Up:
 1 - Growl
 1 - Scratch
 1 - Quick Attack
-4 - Faint Attack
+4 - Feint Attack
 7 - Fury Swipes
 10 - Hypnosis
 13 - Charm
@@ -14610,7 +14610,7 @@ Level Up:
 1 - Growl
 1 - Scratch
 1 - Quick Attack
-4 - Faint Attack
+4 - Feint Attack
 7 - Fury Swipes
 10 - Hypnosis
 13 - Charm
@@ -14744,7 +14744,7 @@ Level Up:
 13 - Psywave
 15 - Hypnosis
 17 - Extrasensory
-19 - Faint Attack
+19 - Feint Attack
 23 - Gyro Ball
 25 - Iron Defense
 27 - Zen Headbutt
@@ -14771,7 +14771,7 @@ Level Up:
 13 - Psywave
 15 - Hypnosis
 17 - Extrasensory
-19 - Faint Attack
+19 - Feint Attack
 23 - Gyro Ball
 25 - Iron Defense
 27 - Zen Headbutt
@@ -14936,7 +14936,7 @@ Level Up:
 1 - Confuse Ray
 1 - Spite
 1 - Shadow Sneak
-7 - Faint Attack
+7 - Feint Attack
 10 - Hypnosis
 13 - Dream Eater
 16 - Imprison
@@ -15273,7 +15273,7 @@ Level Up:
 13 - Mud Bomb
 16 - Revenge
 19 - Bullet Punch
-22 - Faint Attack
+22 - Feint Attack
 25 - Sucker Punch
 28 - Helping Hand
 31 - Counter
@@ -15303,7 +15303,7 @@ Level Up:
 13 - Mud Bomb
 16 - Revenge
 19 - Bullet Punch
-22 - Faint Attack
+22 - Feint Attack
 25 - Sucker Punch
 28 - Helping Hand
 31 - Counter
@@ -15334,7 +15334,7 @@ Level Up:
 9 - Bug Bite
 14 - Razor Leaf
 18 - Ingrain
-21 - Faint Attack
+21 - Feint Attack
 24 - Sleep Powder
 24 - Stun Spore
 27 - Poison Fang
@@ -15534,7 +15534,7 @@ Level Up:
 1 - Fling
 7 - Quick Attack
 10 - Spite
-13 - Faint Attack
+13 - Feint Attack
 16 - Fury Swipes
 19 - Counter
 22 - Metal Claw
@@ -15747,7 +15747,7 @@ Level Up:
 1 - Smokescreen
 5 - Clear Smog
 8 - Fire Spin
-10 - Faint Attack
+10 - Feint Attack
 12 - Mach Punch
 14 - Flame Wheel
 16 - Confuse Ray
@@ -15930,7 +15930,7 @@ Level Up:
 7 - Quick Attack
 10 - Fury Cutter
 13 - Mud Bomb
-16 - Faint Attack
+16 - Feint Attack
 19 - Metal Claw
 22 - Agility
 25 - Counter
@@ -16128,7 +16128,7 @@ Level Up:
 28 - Pain Split
 31 - Ominous Wind
 34 - Shadow Sneak
-37 - Faint Attack
+37 - Feint Attack
 37 - Shadow Punch
 41 - Skill Swap
 45 - Hex
@@ -16475,7 +16475,7 @@ Level Up:
 1 - Knock Off
 6 - Quick Attack
 10 - Hypnosis
-14 - Faint Attack
+14 - Feint Attack
 18 - Nightmare
 22 - Double Team
 26 - Haze
@@ -17115,7 +17115,7 @@ Level Up:
 6 - Pay Day
 8 - Assist
 10 - Fake Out
-12 - Faint Attack
+12 - Feint Attack
 14 - Captivate
 16 - Torment
 18 - Fake Tears
@@ -17155,7 +17155,7 @@ Level Up:
 6 - Pay Day
 8 - Assist
 10 - Fake Out
-12 - Faint Attack
+12 - Feint Attack
 14 - Captivate
 16 - Torment
 18 - Fake Tears
@@ -17671,7 +17671,7 @@ Level Up:
 31 - Take Down
 34 - Heavy Slam
 38 - Sandstorm
-42 - Autonomize
+42 - Autotomize
 46 - Stone Edge
 51 - Explosion
 56 - Wide Guard
@@ -17702,7 +17702,7 @@ Level Up:
 32 - Take Down
 35 - Heavy Slam
 39 - Sandstorm
-43 - Autonomize
+43 - Autotomize
 47 - Stone Edge
 52 - Explosion
 57 - Wide Guard
@@ -17733,7 +17733,7 @@ Level Up:
 32 - Take Down
 35 - Heavy Slam
 39 - Sandstorm
-43 - Autonomize
+43 - Autotomize
 47 - Stone Edge
 52 - Explosion
 57 - Wide Guard
@@ -18664,7 +18664,7 @@ Level Up:
 8 - Rock Tomb
 12 - Bug Bite
 16 - Flail
-19 - Faint Attack
+19 - Feint Attack
 22 - Spikes
 24 - Rock Slide
 27 - Slash
@@ -18690,7 +18690,7 @@ Level Up:
 8 - Rock Tomb
 12 - Bug Bite
 16 - Flail
-19 - Faint Attack
+19 - Feint Attack
 22 - Spikes
 24 - Rock Slide
 27 - Slash
@@ -18722,7 +18722,7 @@ Level Up:
 4 - Beat Up
 7 - Quick Guard
 10 - Acid Spray
-13 - Faint Attack
+13 - Feint Attack
 16 - Brick Break
 19 - Detect
 22 - Amnesia
@@ -18752,7 +18752,7 @@ Level Up:
 4 - Beat Up
 7 - Quick Guard
 10 - Acid Spray
-13 - Faint Attack
+13 - Feint Attack
 16 - Brick Break
 19 - Detect
 22 - Amnesia
@@ -19038,7 +19038,7 @@ Old     Stench / Sticky Hold / Aftermath
 New     Aftermath / Stench / Sticky Hold
 
 Level Up:
-1 - Autonomize
+1 - Autotomize
 1 - Metal Claw
 1 - Spite
 1 - Wide Guard
@@ -19077,7 +19077,7 @@ Level Up:
 16 - Fury Swipes
 19 - Imprison
 22 - Scary Face
-25 - Faint Attack
+25 - Feint Attack
 28 - Memento
 31 - Payback
 34 - Uproar
@@ -19103,7 +19103,7 @@ Level Up:
 16 - Fury Swipes
 19 - Imprison
 22 - Scary Face
-25 - Faint Attack
+25 - Feint Attack
 28 - Memento
 30 - Snarl
 34 - Payback
@@ -19205,7 +19205,7 @@ Level Up:
 25 - Hypnosis
 28 - Fake Tears
 31 - Helping Hand
-34 - Faint Attack
+34 - Feint Attack
 37 - Magic Room
 41 - Future Sight
 45 - Heal Pulse
@@ -19241,7 +19241,7 @@ Level Up:
 28 - Fake Tears
 30 - Fake Out
 33 - Helping Hand
-36 - Faint Attack
+36 - Feint Attack
 39 - Magic Room
 42 - Future Sight
 46 - Heal Pulse
@@ -19280,7 +19280,7 @@ Level Up:
 28 - Fake Tears
 30 - Fake Out
 33 - Helping Hand
-36 - Faint Attack
+36 - Feint Attack
 39 - Magic Room
 41 - Dark Pulse
 45 - Future Sight
@@ -19550,7 +19550,7 @@ Level Up:
 56 - Extrasensory
 61 - Haze
 66 - Hyper Voice
-71 - Autonomize
+71 - Autotomize
 76 - Sheer Cold
 
 ===================
@@ -19566,7 +19566,7 @@ Level Up:
 7 - Sand Attack
 10 - Double Kick
 13 - Leech Seed
-16 - Faint Attack
+16 - Feint Attack
 20 - Take Down
 23 - Synthesis
 26 - Jump Kick
@@ -19601,7 +19601,7 @@ Level Up:
 7 - Sand Attack
 10 - Double Kick
 13 - Leech Seed
-16 - Faint Attack
+16 - Feint Attack
 20 - Take Down
 23 - Synthesis
 26 - Jump Kick
@@ -19679,7 +19679,7 @@ Level Up:
 16 - Headbutt
 20 - Acid Spray
 24 - Bug Bite
-28 - Faint Attack
+28 - Feint Attack
 32 - Iron Defense
 36 - Fury Cutter
 40 - Slash
@@ -19711,7 +19711,7 @@ Level Up:
 16 - Headbutt
 20 - Acid Spray
 24 - Bug Bite
-28 - Faint Attack
+28 - Feint Attack
 32 - Iron Defense
 36 - Fury Cutter
 39 - Slash
@@ -19745,7 +19745,7 @@ Level Up:
 19 - Sludge
 22 - Rollout
 25 - Mega Drain
-28 - Faint Attack
+28 - Feint Attack
 31 - Clear Smog
 34 - Gastro Acid
 37 - Worry Seed
@@ -19775,7 +19775,7 @@ Level Up:
 19 - Sludge
 22 - Rollout
 25 - Mega Drain
-28 - Faint Attack
+28 - Feint Attack
 31 - Clear Smog
 34 - Gastro Acid
 37 - Worry Seed
@@ -20011,7 +20011,7 @@ Level Up:
 12 - Charge Beam
 15 - Iron Defense
 18 - Mirror Shot
-21 - Autonomize
+21 - Autotomize
 24 - Ally Switch
 27 - Spark
 30 - Gear Grind
@@ -20039,7 +20039,7 @@ Level Up:
 12 - Charge Beam
 15 - Iron Defense
 18 - Mirror Shot
-21 - Autonomize
+21 - Autotomize
 24 - Ally Switch
 27 - Spark
 30 - Gear Grind
@@ -20073,7 +20073,7 @@ Level Up:
 12 - Charge Beam
 15 - Iron Defense
 18 - Mirror Shot
-21 - Autonomize
+21 - Autotomize
 24 - Ally Switch
 27 - Spark
 30 - Gear Grind
