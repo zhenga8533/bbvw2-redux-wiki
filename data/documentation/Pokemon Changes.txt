@@ -5703,7 +5703,7 @@ Level Up:
 ===================
 167 - Spinarak
 ===================
-Base Stats):
+Base Stats (Complete):
 Old     40 HP / 60 Atk / 40 Def / 40 SAtk / 40 SDef / 30 Spd / 250 BST
 New     40 HP / 70 Atk / 40 Def / 40 SAtk / 40 SDef / 50 Spd / 280 BST
 
@@ -10080,8 +10080,9 @@ Moves:
 Now compatible with TM57, Charge Beam.
 Now compatible with TM66, Power Gem.
 
-Base Exp:
-75 -> 65
+Base Experience:
+Old     75
+New     65
 
 Level Up:
 1 - Tackle
@@ -11739,8 +11740,9 @@ New     Suction Cups / Storm Drain / Storm Drain
 Evolution:
 Now evolves into Cradily at Level 30.
 
-Base Exp:
-71 -> 65
+Base Experience:
+Old     71
+New     65
 
 Level Up:
 1 - Ingrain
@@ -11809,8 +11811,9 @@ Now compatible with TM51, Wave Crash.
 Now compatible with TM76, Bug Buzz.
 Now compatible with TM87, Rock Climb.
 
-Base Exp:
-71 -> 65
+Base Experience:
+Old     71
+New     65
 
 Level Up:
 1 - Harden
@@ -12673,7 +12676,7 @@ Ability (Complete):
 Old     Clear Body / Clear Body / Light Metal
 New     Clear Body / Rock Head / Heavy Metal
 
-Catch Rate
+Catch Rate:
 Old     3
 New     45
 
@@ -12694,7 +12697,7 @@ New     Clear Body / Iron Fist / Heavy Metal
 Moves:
 Now compatible with HM02, Fly.
 
-Catch Rate
+Catch Rate:
 Old     3
 New     45
 
@@ -12730,7 +12733,7 @@ Moves:
 Now compatible with TM87, Rock Climb.
 Now compatible with HM02, Fly.
 
-Catch Rate
+Catch Rate:
 Old     3
 New     45
 
@@ -13903,35 +13906,31 @@ Level Up:
 ===================
 413 - Wormadam
 ===================
-Base Stats (Plant Cloak):
+Base Stats (Plant Forme):
 Old     60 HP / 59 Atk / 85 Def / 79 SAtk / 105 SDef / 36 Spd / 424 BST
 New     66 HP / 59 Atk / 85 Def / 99 SAtk / 105 SDef / 36 Spd / 450 BST
 
-Base Stats (Sandy Cloak):
+Base Stats (Sandy Forme):
 Old     60 HP / 79 Atk / 105 Def / 59 SAtk / 85 SDef / 36 Spd / 424 BST
 New     66 HP / 99 Atk / 105 Def / 59 SAtk / 85 SDef / 36 Spd / 450 BST
 
-Base Stats (Trash Cloak):
+Base Stats (Trash Forme):
 Old     60 HP / 69 Atk / 95 Def / 69 SAtk / 95 SDef / 36 Spd / 424 BST
 New     66 HP / 77 Atk / 97 Def / 77 SAtk / 97 SDef / 36 Spd / 450 BST
 
-Ability (Classic / All Cloaks):
-Old     Anticipation / Anticipation / Overcoat
-New     Anticipation / Overcoat / Overcoat
-
-Ability (Complete / Plant Cloak):
+Ability (Complete / Plant Forme):
 Old     Anticipation / Anticipation / Overcoat
 New     Shield Dust / Overcoat / Overcoat
 
-Ability (Complete / Sandy Cloak):
+Ability (Complete / Sandy Forme):
 Old     Anticipation / Anticipation / Overcoat
 New     Rough Skin / Overcoat / Overcoat
 
-Ability (Complete / Trash Cloak):
+Ability (Complete / Trash Forme):
 Old     Anticipation / Anticipation / Overcoat
 New     Wonder Skin / Overcoat / Overcoat
 
-Level Up (Plant Cloak):
+Level Up (Plant Forme):
 1 - Rapid Spin
 1 - Tackle
 1 - Hidden Power
@@ -13953,7 +13952,7 @@ Level Up (Plant Cloak):
 56 - Quiver Dance
 60 - Leaf Storm
 
-Level Up (Sandy Cloak):
+Level Up (Sandy Forme):
 1 - Rapid Spin
 1 - Tackle
 1 - Hidden Power
@@ -13975,7 +13974,7 @@ Level Up (Sandy Cloak):
 56 - Quiver Dance
 60 - Earthquake
 
-Level Up (Trash Cloak):
+Level Up (Trash Forme):
 1 - Rapid Spin
 1 - Tackle
 1 - Hidden Power
@@ -14040,8 +14039,8 @@ Old     Honey Gather / Honey Gather / Hustle
 New     Honey Gather / Hustle / Hustle
 
 Gender Ratio:
-87.5% Male, 12.5% Female
--> 50% Male, 50% Female
+Old     87.5% Male, 12.5% Female
+New     50% Male, 50% Female
 
 Level Up:
 1 - Sweet Scent
@@ -16177,11 +16176,11 @@ Level Up:
 ===================
 479 - Rotom
 ===================
-Base Stats (Regular Form / Complete):
+Base Stats (Complete / Regular Forme):
 Old     50 HP / 50 Atk / 77 Def / 95 SAtk / 77 SDef / 91 Spd / 440 BST
 New     50 HP / 50 Atk / 77 Def / 95 SAtk / 77 SDef / 101 Spd / 450 BST
 
-Ability (Fan Form / Complete):
+Ability (Complete / Fan Forme):
 Old     Levitate / - / -
 New	    Motor Drive / - / -
 
@@ -17187,7 +17186,7 @@ Now compatible with TM45, Power-Up Punch.
 Now compatible with TM60, Quash.
 Now compatible with TM85, Play Rough.
 
-Other:
+Growth Rate:
 Now part of the 'fast' experience growth group (800,000 Exp to level 100).
 
 Level Up:
@@ -17232,7 +17231,7 @@ Moves:
 Now compatible with TM60, Quash.
 Now compatible with TM85, Play Rough.
 
-Other:
+Growth Rate:
 Now part of the 'fast' experience growth group (800,000 Exp to level 100).
 
 Level Up:
@@ -17265,7 +17264,7 @@ Now compatible with TM48, Mystical Fire.
 Now compatible with TM60, Quash.
 Now compatible with TM85, Play Rough.
 
-Other:
+Growth Rate:
 Now part of the 'fast' experience growth group (800,000 Exp to level 100).
 
 Level Up:
@@ -17311,7 +17310,7 @@ Now compatible with TM48, Mystical Fire.
 Now compatible with TM60, Quash.
 Now compatible with TM85, Play Rough.
 
-Other:
+Growth Rate:
 Now part of the 'fast' experience growth group (800,000 Exp to level 100).
 
 Level Up:
@@ -17342,7 +17341,7 @@ Now compatible with TM45, Power-Up Punch.
 Now compatible with TM60, Quash.
 Now compatible with TM85, Play Rough.
 
-Other:
+Growth Rate:
 Now part of the 'fast' experience growth group (800,000 Exp to level 100).
 
 Level Up:
@@ -17387,7 +17386,7 @@ Moves:
 Now compatible with TM60, Quash.
 Now compatible with TM85, Play Rough.
 
-Other:
+Growth Rate:
 Now part of the 'fast' experience growth group (800,000 Exp to level 100).
 
 Level Up:
@@ -18937,8 +18936,9 @@ Level Up:
 ===================
 566 - Archen
 ===================
-Base Exp:
-71 -> 65
+Base Experience:
+Old     71
+New     65
 
 Level Up:
 1 - Leer
@@ -21450,7 +21450,7 @@ Now compatible with TM79, Frost Breath.
 Now compatible with TM83, Work Up.
 Now compatible with TM87, Rock Climb.
 
-Level Up:
+Level Up (Black Forme):
 1 - Ancient Power
 1 - Dragon Dance
 1 - Dragon Breath
@@ -21468,14 +21468,29 @@ Level Up:
 44 - Outrage
 47 - Glaciate
 50 - Sheer Cold
-
-Black Kyurem:
 70 - Dragon Dance
 70 - Fusion Bolt
 70 - Icicle Crash
 70 - Freeze Shock
 
-White Kyurem:
+Level Up (White Forme):
+1 - Ancient Power
+1 - Dragon Dance
+1 - Dragon Breath
+1 - Dual Wingbeat
+1 - Icicle Spear
+8 - Slash
+14 - Endeavor
+19 - Ice Beam
+24 - Dragon Pulse
+29 - Icicle Crash
+32 - Hyper Voice
+35 - Scary Face
+38 - Blizzard
+41 - Imprison
+44 - Outrage
+47 - Glaciate
+50 - Sheer Cold
 70 - Esper Wing
 70 - Fusion Flare
 70 - Ice Beam
