@@ -55,21 +55,7 @@ class PokemonChangesParser(BaseParser):
         elif match := re.match(r"^(\d+) - (.*)$", line):
             level = match.group(1)
             move = match.group(2)
-
-            # Format event move checkbox
-            event_move = '<input type="checkbox" disabled>'
-            if move.endswith(" [*]"):
-                move = move[:-4]
-                event_move = '<input type="checkbox" checked disabled>'
-
-            move_html = format_move(move)
-            move_data = PokeDBLoader.load_move(move)
-
-            move_type = move_data.type.black_2_white_2 if move_data else "Unknown"
-            move_type = move_type.title() if move_type else "Unknown"
-            move_class = move_data.damage_class.title() if move_data else "Unknown"
-
-            self._markdown += f"| {level} | {move_html} | {move_type} | {move_class} | {event_move} |\n"
+            self._format_move_row(level, move)
         # Default: regular text line
         else:
             self.parse_default(line)
@@ -81,3 +67,24 @@ class PokemonChangesParser(BaseParser):
         if attribute == "Level Up":
             self._markdown += "| Level | Move | Type | Class | Event |\n"
             self._markdown += "|:------|:-----|:-----|:------|:------|\n"
+
+    def _format_move_row(self, level: str, move: str) -> None:
+        """Format a move row for markdown table."""
+        # Format event move checkbox
+        event_move = '<input type="checkbox" disabled>'
+        if move.endswith(" [*]"):
+            move = move[:-4]
+            event_move = '<input type="checkbox" checked disabled>'
+
+        # Format move name
+        move_html = format_move(move)
+
+        # Load move data from PokeDB
+        move_data = PokeDBLoader.load_move(move)
+        move_type = move_data.type.black_2_white_2 if move_data else "Unknown"
+        move_type = move_type.title() if move_type else "Unknown"
+        move_class = move_data.damage_class.title() if move_data else "Unknown"
+
+        self._markdown += (
+            f"| {level} | {move_html} | {move_type} | {move_class} | {event_move} |\n"
+        )
