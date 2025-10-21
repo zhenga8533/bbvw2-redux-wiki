@@ -7,7 +7,8 @@ This parser:
 3. Generates a markdown file to docs/pokemon_changes.md
 """
 
-from src.utils.markdown_util import format_move
+from src.data.pokedb_loader import PokeDBLoader
+from src.utils.markdown_util import format_move, format_pokemon
 from .base_parser import BaseParser
 import re
 
@@ -45,6 +46,7 @@ class PokemonChangesParser(BaseParser):
             pokedex_number = match.group(1)
             self._current_pokemon = match.group(2)
             self._markdown += f"### #{pokedex_number} {self._current_pokemon}\n\n"
+            self._markdown += format_pokemon(self._current_pokemon) + "\n\n"
         # Match: "<attribute>:"
         elif line.endswith(":"):
             attribute = line[:-1]
@@ -61,16 +63,21 @@ class PokemonChangesParser(BaseParser):
                 event_move = '<input type="checkbox" checked disabled>'
 
             move_html = format_move(move)
+            move_data = PokeDBLoader.load_move(move)
 
-            self._markdown += f"| {level} | {move_html} | {event_move} |\n"
+            move_type = move_data.type.black_2_white_2 if move_data else "Unknown"
+            move_type = move_type.title() if move_type else "Unknown"
+            move_class = move_data.damage_class.title() if move_data else "Unknown"
+
+            self._markdown += f"| {level} | {move_html} | {move_type} | {move_class} | {event_move} |\n"
         # Default: regular text line
         else:
             self.parse_default(line)
 
     def _format_attribute_change(self, attribute: str) -> None:
         """Format an attribute change section."""
-        self._markdown += f"**{attribute}**:\n"
+        self._markdown += f"**{attribute}**:\n\n"
 
         if attribute == "Level Up":
-            self._markdown += "| Level | Move | Event Move |\n"
-            self._markdown += "|:------|:-----|:----------:|\n"
+            self._markdown += "| Level | Move | Type | Class | Event |\n"
+            self._markdown += "|:------|:-----|:-----|:------|:------|\n"

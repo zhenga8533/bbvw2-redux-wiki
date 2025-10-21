@@ -216,9 +216,8 @@ class EvolutionChangesParser(BaseParser):
         pokemon_id = name_to_id(self._current_pokemon)
         evolution_id = name_to_id(evolution)
 
-        try:
-            pokemon_data: Pokemon = PokeDBLoader.load_pokemon(pokemon_id)
-        except FileNotFoundError:
+        pokemon_data = PokeDBLoader.load_pokemon(pokemon_id)
+        if pokemon_data is None:
             self.logger.error(f"Pokemon not found: {pokemon_id}")
             return
 

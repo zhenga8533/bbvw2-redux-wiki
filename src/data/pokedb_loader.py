@@ -23,6 +23,7 @@ from src.models.pokedb import (
     PokemonMoves,
 )
 from src.utils.logger_util import get_logger
+from src.utils.text_util import name_to_id
 
 logger = get_logger(__name__)
 T = TypeVar("T")
@@ -125,7 +126,9 @@ class PokeDBLoader:
     # Unified cache: OrderedDict for LRU behavior
     # Key format: ("type", name, subfolder) for pokemon or ("type", name) for others
     # Value: Pokemon | Move | Ability | Item
-    _cache: OrderedDict[tuple[str, ...], Pokemon | Move | Ability | Item] = OrderedDict()
+    _cache: OrderedDict[tuple[str, ...], Pokemon | Move | Ability | Item] = (
+        OrderedDict()
+    )
 
     # Cache statistics
     _cache_hits: int = 0
@@ -244,7 +247,7 @@ class PokeDBLoader:
         to prevent redundant loads by the caller.
 
         Args:
-            pokemon_id: The Pokemon species ID (e.g., 'wormadam')
+            pokemon_id: The Pokemon species ID (e.g., 'Wormadam', 'wormadam', or 'WORMADAM')
 
         Returns:
             A tuple containing:
@@ -252,23 +255,26 @@ class PokeDBLoader:
             - The loaded Pokemon object for the base form, or None if not found.
 
         Example:
-            >>> forms, pokemon_obj = PokeDBLoader.find_all_form_files('wormadam')
+            >>> forms, pokemon_obj = PokeDBLoader.find_all_form_files('Wormadam')
             >>> forms
             [('wormadam-plant', 'default'), ('wormadam-sandy', 'variant'), ...]
         """
-        try:
-            # Load the base Pokemon data to get the forms list
-            pokemon = PokeDBLoader.load_pokemon(pokemon_id)
+        # Normalize the pokemon_id to ID format
+        pokemon_id = name_to_id(pokemon_id)
 
-            if not pokemon.forms:
-                # If no forms field, return just the base Pokemon
-                return ([(pokemon_id, "default")], pokemon)
+        # Load the base Pokemon data to get the forms list
+        pokemon = PokeDBLoader.load_pokemon(pokemon_id)
 
-            # Return all forms from the forms field
-            return ([(form.name, form.category) for form in pokemon.forms], pokemon)
-        except FileNotFoundError:
+        if pokemon is None:
             # If file not found, return empty list and None
             return ([], None)
+
+        if not pokemon.forms:
+            # If no forms field, return just the base Pokemon
+            return ([(pokemon_id, "default")], pokemon)
+
+        # Return all forms from the forms field
+        return ([(form.name, form.category) for form in pokemon.forms], pokemon)
 
     @classmethod
     def _load_json(
@@ -347,7 +353,11 @@ class PokeDBLoader:
 
     @classmethod
     def _update_cache(
-        cls, cache_key: tuple[str, ...], item: Pokemon | Move | Ability | Item, item_type: str, name: str
+        cls,
+        cache_key: tuple[str, ...],
+        item: Pokemon | Move | Ability | Item,
+        item_type: str,
+        name: str,
     ) -> None:
         """
         Update unified cache with an item, handling LRU eviction (thread-safe).
@@ -399,26 +409,29 @@ class PokeDBLoader:
             cls._cache_lock.release_write()
 
     @classmethod
-    def load_pokemon(cls, name: str, subfolder: str = "default") -> Pokemon:
+    def load_pokemon(cls, name: str, subfolder: str = "default") -> Optional[Pokemon]:
         """
         Load a Pokemon JSON file with thread-safe LRU caching.
 
         Args:
-            name: Pokemon name (e.g., 'pikachu')
+            name: Pokemon name (e.g., 'Pikachu', 'pikachu', or 'PIKACHU')
             subfolder: Pokemon subfolder (default, cosmetic, transformation, variant)
 
         Returns:
-            Pokemon: Pokemon data
+            Optional[Pokemon]: Pokemon data, or None if not found
 
         Examples:
-            >>> pokemon = PokeDBLoader.load_pokemon("pikachu")
-            >>> print(pokemon.name)
+            >>> pokemon = PokeDBLoader.load_pokemon("Pikachu")
+            >>> if pokemon:
+            ...     print(pokemon.name)
             pikachu
             >>> print(pokemon.types)
             ['electric']
             >>> # Load a specific form
-            >>> darmanitan = PokeDBLoader.load_pokemon("darmanitan-zen", subfolder="variant")
+            >>> darmanitan = PokeDBLoader.load_pokemon("Darmanitan-Zen", subfolder="variant")
         """
+        # Normalize the name to ID format
+        name = name_to_id(name)
         cache_key = ("pokemon", name, subfolder)
 
         # Check cache first (with read lock for better concurrency)
@@ -431,8 +444,11 @@ class PokeDBLoader:
                     f"Loading Pokemon '{name}' from cache (subfolder: {subfolder}) "
                     f"[hit rate: {cls.get_cache_hit_rate():.1%}]"
                 )
+                if not isinstance(result, Pokemon):
+                    raise TypeError(
+                        f"Cached item for key {cache_key} is not a Pokemon: {type(result)}"
+                    )
                 return result
-
             # Cache miss
             cls._cache_misses += 1
         finally:
@@ -440,14 +456,19 @@ class PokeDBLoader:
 
         # Load from file (outside cache lock to allow parallel file reads)
         logger.debug(f"Loading Pokemon '{name}' from disk (subfolder: {subfolder})")
-        data = cls._load_json("pokemon", name, subfolder)
+        try:
+            data = cls._load_json("pokemon", name, subfolder)
+        except FileNotFoundError:
+            logger.debug(f"Pokemon '{name}' not found in subfolder '{subfolder}'")
+            return None
+
         try:
             pokemon = from_dict(
                 data_class=Pokemon, data=data, config=cls._dacite_config
             )
         except (DaciteError, ValueError, TypeError) as e:
             logger.error(f"Error deserializing Pokemon '{name}': {e}", exc_info=True)
-            raise
+            return None
 
         # Cache the result with LRU eviction
         cls._update_cache(cache_key, pokemon, "pokemon", name)
@@ -477,11 +498,17 @@ class PokeDBLoader:
             try:
                 # Preprocess Move data: convert empty list to None for machine field
                 # (machine can be str, dict, or None)
-                if category == "move" and "machine" in data and isinstance(data["machine"], list):
+                if (
+                    category == "move"
+                    and "machine" in data
+                    and isinstance(data["machine"], list)
+                ):
                     if len(data["machine"]) == 0:
                         data["machine"] = None
                     else:
-                        logger.warning(f"Move '{name}' has unexpected machine format: {data['machine']}")
+                        logger.warning(
+                            f"Move '{name}' has unexpected machine format: {data['machine']}"
+                        )
 
                 result[name] = from_dict(
                     data_class=dataclass_type, data=data, config=cls._dacite_config
@@ -504,25 +531,28 @@ class PokeDBLoader:
         return cls._load_all_generic("pokemon", Pokemon, subfolder)
 
     @classmethod
-    def load_move(cls, name: str) -> Move:
+    def load_move(cls, name: str) -> Optional[Move]:
         """
         Load a Move JSON file and return as a Move dataclass.
 
         Args:
-            name: Move name (e.g., 'thunderbolt')
+            name: Move name (e.g., 'Thunderbolt', 'thunderbolt', or 'THUNDERBOLT')
 
         Returns:
-            Move: Move dataclass object
+            Optional[Move]: Move dataclass object, or None if not found
 
         Examples:
-            >>> move = PokeDBLoader.load_move("thunderbolt")
-            >>> print(move.name)
+            >>> move = PokeDBLoader.load_move("Thunderbolt")
+            >>> if move:
+            ...     print(move.name)
             thunderbolt
             >>> print(move.type)
             {'gen5': 'electric'}
             >>> print(move.power)
             {'gen5': 90}
         """
+        # Normalize the name to ID format
+        name = name_to_id(name)
         cache_key = ("move", name)
 
         # Check cache first (with read lock)
@@ -535,6 +565,10 @@ class PokeDBLoader:
                     f"Loading Move '{name}' from cache "
                     f"[hit rate: {cls.get_cache_hit_rate():.1%}]"
                 )
+                if not isinstance(result, Move):
+                    raise TypeError(
+                        f"Cached item for key {cache_key} is not a Move: {type(result)}"
+                    )
                 return result
             # Cache miss
             cls._cache_misses += 1
@@ -542,7 +576,11 @@ class PokeDBLoader:
             cls._cache_lock.release_read()
 
         # Load from file
-        data = cls._load_json("move", name)
+        try:
+            data = cls._load_json("move", name)
+        except FileNotFoundError:
+            logger.debug(f"Move '{name}' not found")
+            return None
 
         # Preprocess: Convert empty list to None for machine field
         # (machine can be str, dict, or None)
@@ -551,9 +589,15 @@ class PokeDBLoader:
                 data["machine"] = None
             else:
                 # If non-empty list, log warning but don't fail
-                logger.warning(f"Move '{name}' has unexpected machine format: {data['machine']}")
+                logger.warning(
+                    f"Move '{name}' has unexpected machine format: {data['machine']}"
+                )
 
-        move = from_dict(data_class=Move, data=data, config=cls._dacite_config)
+        try:
+            move = from_dict(data_class=Move, data=data, config=cls._dacite_config)
+        except (DaciteError, ValueError, TypeError) as e:
+            logger.error(f"Error deserializing Move '{name}': {e}", exc_info=True)
+            return None
 
         # Cache the result
         cls._update_cache(cache_key, move, "move", name)
@@ -570,23 +614,26 @@ class PokeDBLoader:
         return cls._load_all_generic("move", Move)
 
     @classmethod
-    def load_ability(cls, name: str) -> Ability:
+    def load_ability(cls, name: str) -> Optional[Ability]:
         """
         Load an Ability JSON file and return as an Ability dataclass.
 
         Args:
-            name: Ability name (e.g., 'intimidate')
+            name: Ability name (e.g., 'Intimidate', 'intimidate', or 'INTIMIDATE')
 
         Returns:
-            Ability: Ability dataclass object
+            Optional[Ability]: Ability dataclass object, or None if not found
 
         Examples:
-            >>> ability = PokeDBLoader.load_ability("intimidate")
-            >>> print(ability.name)
+            >>> ability = PokeDBLoader.load_ability("Intimidate")
+            >>> if ability:
+            ...     print(ability.name)
             intimidate
             >>> print(ability.is_main_series)
             True
         """
+        # Normalize the name to ID format
+        name = name_to_id(name)
         cache_key = ("ability", name)
 
         # Check cache first (with read lock)
@@ -599,6 +646,10 @@ class PokeDBLoader:
                     f"Loading Ability '{name}' from cache "
                     f"[hit rate: {cls.get_cache_hit_rate():.1%}]"
                 )
+                if not isinstance(result, Ability):
+                    raise TypeError(
+                        f"Cached item for key {cache_key} is not an Ability: {type(result)}"
+                    )
                 return result
             # Cache miss
             cls._cache_misses += 1
@@ -606,8 +657,19 @@ class PokeDBLoader:
             cls._cache_lock.release_read()
 
         # Load from file
-        data = cls._load_json("ability", name)
-        ability = from_dict(data_class=Ability, data=data, config=cls._dacite_config)
+        try:
+            data = cls._load_json("ability", name)
+        except FileNotFoundError:
+            logger.debug(f"Ability '{name}' not found")
+            return None
+
+        try:
+            ability = from_dict(
+                data_class=Ability, data=data, config=cls._dacite_config
+            )
+        except (DaciteError, ValueError, TypeError) as e:
+            logger.error(f"Error deserializing Ability '{name}': {e}", exc_info=True)
+            return None
 
         # Cache the result
         cls._update_cache(cache_key, ability, "ability", name)
@@ -624,25 +686,28 @@ class PokeDBLoader:
         return cls._load_all_generic("ability", Ability)
 
     @classmethod
-    def load_item(cls, name: str) -> Item:
+    def load_item(cls, name: str) -> Optional[Item]:
         """
         Load an Item JSON file and return as an Item dataclass.
 
         Args:
-            name: Item name (e.g., 'potion')
+            name: Item name (e.g., 'Potion', 'potion', or 'POTION')
 
         Returns:
-            Item: Item dataclass object
+            Optional[Item]: Item dataclass object, or None if not found
 
         Examples:
-            >>> item = PokeDBLoader.load_item("potion")
-            >>> print(item.name)
+            >>> item = PokeDBLoader.load_item("Potion")
+            >>> if item:
+            ...     print(item.name)
             potion
             >>> print(item.category)
             healing
             >>> print(item.cost)
             300
         """
+        # Normalize the name to ID format
+        name = name_to_id(name)
         cache_key = ("item", name)
 
         # Check cache first (with read lock)
@@ -655,6 +720,10 @@ class PokeDBLoader:
                     f"Loading Item '{name}' from cache "
                     f"[hit rate: {cls.get_cache_hit_rate():.1%}]"
                 )
+                if not isinstance(result, Item):
+                    raise TypeError(
+                        f"Cached item for key {cache_key} is not an Item: {type(result)}"
+                    )
                 return result
             # Cache miss
             cls._cache_misses += 1
@@ -662,8 +731,17 @@ class PokeDBLoader:
             cls._cache_lock.release_read()
 
         # Load from file
-        data = cls._load_json("item", name)
-        item = from_dict(data_class=Item, data=data, config=cls._dacite_config)
+        try:
+            data = cls._load_json("item", name)
+        except FileNotFoundError:
+            logger.debug(f"Item '{name}' not found")
+            return None
+
+        try:
+            item = from_dict(data_class=Item, data=data, config=cls._dacite_config)
+        except (DaciteError, ValueError, TypeError) as e:
+            logger.error(f"Error deserializing Item '{name}': {e}", exc_info=True)
+            return None
 
         # Cache the result
         cls._update_cache(cache_key, item, "item", name)
@@ -724,13 +802,15 @@ class PokeDBLoader:
         Uses file locking to prevent concurrent write conflicts.
 
         Args:
-            name: Pokemon name (e.g., 'pikachu')
+            name: Pokemon name (e.g., 'Pikachu', 'pikachu', or 'PIKACHU')
             data: Pokemon dataclass object
             subfolder: Pokemon subfolder (default, cosmetic, transformation, variant)
 
         Returns:
             Path: Path to the saved file
         """
+        # Normalize the name to ID format
+        name = name_to_id(name)
         file_path = cls.get_data_dir() / "pokemon" / subfolder / f"{name}.json"
 
         # Use file lock to prevent concurrent writes
@@ -788,7 +868,7 @@ class PokeDBLoader:
         # Update cache with the new data instead of invalidating
         # This is more efficient for batch operations like evolution chain updates
         cache_key = ("pokemon", name, subfolder)
-        cls._update_cache(cache_key, data, name)
+        cls._update_cache(cache_key, data, "pokemon", name)
 
         logger.info(f"Successfully saved Pokemon '{name}'")
         return file_path

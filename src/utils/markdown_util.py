@@ -44,11 +44,13 @@ def format_pokemon(
         "pokedex_base_path", "../pokedex"
     )
 
-    pokemon_id = name_to_id(pokemon_name)
-    try:
-        pokemon_data = PokeDBLoader.load_pokemon(pokemon_id)
-    except FileNotFoundError:
+    # Try to load Pokemon data
+    pokemon_data = PokeDBLoader.load_pokemon(pokemon_name)
+    if not pokemon_data:
         return pokemon_name
+
+    # Get the normalized ID for links
+    pokemon_id = name_to_id(pokemon_name)
 
     # Add sprite image if requested
     if has_sprite:
@@ -106,10 +108,9 @@ def format_item(
             item_name.split(" ", 1) if " " in item_name else (item_name, "")
         )
 
-    # Try to load item URL
-    try:
-        item_data = PokeDBLoader.load_item(name_to_id(item_name))
-    except FileNotFoundError:
+    # Try to load item data
+    item_data = PokeDBLoader.load_item(item_name)
+    if not item_data:
         return item_name
 
     # Add extra text for TMs/HMs
@@ -137,7 +138,9 @@ def format_item(
     return item_html
 
 
-def format_move(move_name: str, has_flavor_text: bool = True) -> str:
+def format_move(
+    move_name: str, has_flavor_text: bool = True, has_color: bool = True
+) -> str:
     """
     Format a move name with optional flavor text as tooltip.
 
@@ -148,19 +151,46 @@ def format_move(move_name: str, has_flavor_text: bool = True) -> str:
     Returns:
         Formatted HTML string for the move
     """
+    # Type color mapping
+    TYPE_COLORS = {
+        None: "#777",
+        "normal": "#A8A878",
+        "fire": "#F08030",
+        "water": "#6890F0",
+        "electric": "#F8D030",
+        "grass": "#78C850",
+        "ice": "#98D8D8",
+        "fighting": "#C03028",
+        "poison": "#A040A0",
+        "ground": "#E0C068",
+        "flying": "#A890F0",
+        "psychic": "#F85888",
+        "bug": "#A8B820",
+        "rock": "#B8A038",
+        "ghost": "#705898",
+        "dragon": "#7038F8",
+        "dark": "#705848",
+        "steel": "#B8B8D0",
+        "fairy": "#EE99AC",
+    }
+
     if not has_flavor_text:
         return move_name
 
     # Try to load move data
-    try:
-        move_data = PokeDBLoader.load_move(name_to_id(move_name))
-    except FileNotFoundError:
+    move_data = PokeDBLoader.load_move(move_name)
+    if not move_data:
         return move_name
+
+    move_type = move_data.type.black_2_white_2
+    type_color = TYPE_COLORS.get(move_type, "#777") if has_color else "#777"
 
     # Add flavor text as tooltip if available
     flavor = move_data.flavor_text.black_2_white_2
     if flavor:
         escaped_flavor = html.escape(flavor)
-        return f'<span style="border-bottom: 1px dashed #777; cursor: help;" title="{escaped_flavor}">{move_name}</span>'
+        return f'<span style="border-bottom: 1px dashed #777; cursor: help; color: {type_color}; font-weight: 500;" title="{escaped_flavor}">{move_name}</span>'
     else:
-        return move_name
+        return (
+            f'<span style="color: {type_color}; font-weight: 500;">{move_name}</span>'
+        )
