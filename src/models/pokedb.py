@@ -288,8 +288,8 @@ class Ability:
 # region Move Structure
 @dataclass(slots=True)
 class MoveMetadata:
-    ailment: str
-    category: str
+    ailment: Optional[str]
+    category: Optional[str]
     min_hits: Optional[int]
     max_hits: Optional[int]
     min_turns: Optional[int]
@@ -303,10 +303,10 @@ class MoveMetadata:
 
     def __post_init__(self):
         """Validate move metadata fields."""
-        if not isinstance(self.ailment, str):
-            raise ValueError(f"ailment must be a string, got: {type(self.ailment)}")
-        if not isinstance(self.category, str):
-            raise ValueError(f"category must be a string, got: {type(self.category)}")
+        if self.ailment is not None and not isinstance(self.ailment, str):
+            raise ValueError(f"ailment must be None or a string, got: {type(self.ailment)}")
+        if self.category is not None and not isinstance(self.category, str):
+            raise ValueError(f"category must be None or a string, got: {type(self.category)}")
 
         # Validate optional integer fields
         for field_name in ["min_hits", "max_hits", "min_turns", "max_turns"]:

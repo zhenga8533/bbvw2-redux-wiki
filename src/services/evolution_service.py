@@ -258,6 +258,11 @@ class EvolutionService:
                     pokemon_data = PokeDBLoader.load_pokemon(
                         form_name, subfolder=category
                     )
+                    if not pokemon_data:
+                        logger.error(
+                            f"Failed to load form file during save: {form_name} in {category}, skipping"
+                        )
+                        continue
 
                 pokemon_data.evolution_chain = evolution_chain
                 PokeDBLoader.save_pokemon(form_name, pokemon_data, subfolder=category)

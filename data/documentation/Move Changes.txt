@@ -7,9 +7,11 @@ o-----------------------------------------------------o
 General Changes
 =========================================================
 The attributes of all moves (power, accuracy, PP, effect chance, priority) are updated to match Sword and Shield, with both DLCs.
+
  - Charm and Moonlight are now Fairy-type as in Sword and Shield.
 
 Legends: Arceus and 'Dexit' have introduced a high degree of fragmentation towards move effects in the main series.
+
  - See 'Redux Move Modifications' below for more information on how we've tackled that!
 
 
@@ -17,6 +19,7 @@ Legends: Arceus and 'Dexit' have introduced a high degree of fragmentation towar
 Move Replacements
 =========================================================
 To help modernise the game, the following moves have been replaced with moves from later generations.
+
  - Moves under the "Old Move" column are now unavailable.
 
 Old Move                New Move
@@ -38,7 +41,7 @@ Barrage                 Lunge
 Mist Ball               Moonblast
 Sacred Fire             Mystical Fire
 Sharpen                 Nuzzle
-Submisson               Play Rough
+Submission               Play Rough
 Comet Punch             Power-Up Punch
 Egg Bomb                Psychic Fangs
 Smelling Salts          Psyshield Bash
@@ -74,11 +77,13 @@ Rock Climb
 Redux Move Modifications
 =========================================================
 As of late, the Pokémon series has become decently fragmented across different titles when it comes to moves.
+
  - With Legends: Arceus came a further fragmentation of move effects across the Pokémon series.
  - As of writing, it's hard to know what will carry over to the 'mainline' series (think Stealth Rock changes etc).
  - This makes updating moves to current standards fairly tricky, so we've gone with a 'selective' approach - e.g. just take the bits we like!
 
 Below are all the changes made to moves from vanilla Gen V in Redux. There are three different categories of changes:
+
  - Changes made by Gamefreak in the mainline series of games (XY -> Sword and Shield). These changes are unmarked.
  - Changes made by Gamefreak in Legends: Arceus. These changes are marked by an '[L:A]'.
  - Changes made by ourselves, like in Renegade Platinum, are marked by an '[!]'.
