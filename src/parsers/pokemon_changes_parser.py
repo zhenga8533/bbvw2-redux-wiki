@@ -32,10 +32,14 @@ class PokemonChangesParser(BaseParser):
 
         # Specific Changes states
         self._current_pokemon = ""
-        self._current_forme = ""
+        self._current_forme = ""  # Store current forme (e.g., "attack", "defense")
         self._current_attribute = ""
         self._is_table_open = False
         self._temporary_markdown = ""
+
+        # Data accumulation for multi-line attributes
+        self._levelup_moves = []  # List of (level, move_name) tuples
+        self._tm_hm_moves = []  # List of (machine_type, number, move_name) tuples
 
     def parse_general_notes(self, line: str) -> None:
         """Parse general notes section."""
@@ -45,18 +49,64 @@ class PokemonChangesParser(BaseParser):
         """Parse type changes section."""
         self.parse_default(line)
 
+    def _flush_accumulated_data(self) -> None:
+        """Flush accumulated data (level-up moves, TMs) to Pokemon JSON."""
+        if not self._current_pokemon:
+            return
+
+        # Update level-up moves if we have any
+        if self._levelup_moves:
+            from src.services.pokemon_service import PokemonService
+            PokemonService.update_levelup_moves(
+                pokemon=self._current_pokemon,
+                moves=self._levelup_moves,
+                forme=self._current_forme,
+            )
+            self._levelup_moves = []
+
+        # Update TM/HM moves if we have any
+        if self._tm_hm_moves:
+            from src.services.pokemon_service import PokemonService
+            PokemonService.update_machine_moves(
+                pokemon=self._current_pokemon,
+                moves=self._tm_hm_moves,
+                forme=self._current_forme,
+            )
+            self._tm_hm_moves = []
+
     def parse_specific_changes(self, line: str) -> None:
         """Parse specific changes section."""
         next_line = self.peek_line(1) or ""
         # Match: "<number> - <pokemon>"
         if match := re.match(r"^(\d{3}) - (.*)$", line):
+            # Flush data from previous Pokemon
+            self._flush_accumulated_data()
+
             pokedex_number = match.group(1)
             self._current_pokemon = match.group(2)
+            self._current_forme = ""  # Reset forme for new Pokemon
             self._markdown += f"### #{pokedex_number} {self._current_pokemon}\n\n"
             self._markdown += f"{format_pokemon(self._current_pokemon)}<br>\n\n"
         # Match: "<attribute>:"
         elif line.endswith(":"):
+            # Flush accumulated data from previous attribute if needed
+            if self._current_attribute.startswith("Level Up"):
+                self._flush_accumulated_data()
+
             self._current_attribute = line[:-1]
+
+            # Extract forme from attribute if present
+            # Pattern: "Ability (Complete / Attack Forme)" -> "attack"
+            if " Forme)" in self._current_attribute:
+                forme_match = re.search(r"/ ([A-Za-z\s]+) Forme\)", self._current_attribute)
+                if forme_match:
+                    # Convert "Attack Forme" to "attack", "Normal Forme" to "normal"
+                    forme_name = forme_match.group(1).strip().lower()
+                    # Handle special cases: "Regular" becomes base forme (empty string)
+                    self._current_forme = "" if forme_name == "regular" else forme_name
+                else:
+                    self._current_forme = ""
+
             self._format_attribute(
                 self._current_attribute, is_changed=next_line.startswith("Old")
             )
@@ -81,9 +131,20 @@ class PokemonChangesParser(BaseParser):
                 pokemon=self._current_pokemon,
                 attribute=self._current_attribute,
                 value=line,
+                forme=self._current_forme,
             )
         # Match: continuation outside a table
         elif self._is_table_open:
+            # Parse special attribute lines
+            if self._current_attribute == "Moves" and line.startswith("Now compatible with"):
+                self._parse_moves_line(line)
+            elif self._current_attribute == "Evolution" and line.startswith("Now"):
+                self._parse_evolution_line(line)
+            elif self._current_attribute == "Growth Rate" and line.startswith("Now"):
+                self._parse_growth_rate_line(line)
+            elif self._current_attribute == "Held Item" and line.startswith("Now"):
+                self._parse_held_item_line(line)
+
             if line:
                 line = line.replace("[*]", "[\\*]")
                 line = f"- {line}"
@@ -140,6 +201,9 @@ class PokemonChangesParser(BaseParser):
             move = move[:-4]
             event_move = True
 
+        # Accumulate level-up move data
+        self._levelup_moves.append((int(level), move))
+
         # Format move name
         move_html = format_move(move)
 
@@ -150,3 +214,79 @@ class PokemonChangesParser(BaseParser):
         move_class = move_data.damage_class.title() if move_data else "Unknown"
 
         self._markdown += f"| {level} | {move_html} | {move_type} | {move_class} | {get_checkbox(event_move)} |\n"
+
+    def _parse_moves_line(self, line: str) -> None:
+        """
+        Parse TM/HM compatibility line and update Pokemon JSON.
+
+        Formats:
+        - "Now compatible with TM56, Weather Ball."
+        - "Now compatible with TM54, False Swipe. [*]"
+        - "Now compatible with Draco Meteor from the Move Tutor." (ignored)
+        """
+        # Skip move tutor lines (not TM/HM)
+        if "Move Tutor" in line:
+            return
+
+        # Pattern: "Now compatible with TM56, Weather Ball." or "... [*]"
+        match = re.match(r"^Now compatible with (TM|HM)(\d+), (.*?)\.(?: \[\*\])?$", line)
+        if not match:
+            self.logger.warning(f"Could not parse Moves line: {line}")
+            return
+
+        machine_type = match.group(1)  # "TM" or "HM"
+        number = match.group(2)        # "56"
+        move_name = match.group(3)     # "Weather Ball" or "False Swipe"
+
+        # Accumulate TM/HM move data
+        self._tm_hm_moves.append((machine_type, number, move_name))
+
+    def _parse_held_item_line(self, line: str) -> None:
+        """
+        Parse held item line and update Pokemon JSON.
+
+        Format: "Now holds a Griseous Orb with a 100% rate."
+        """
+        # Pattern: "Now holds a <item> with a <percent>% rate."
+        match = re.match(r"^Now holds a (.*?) with a (\d+)% rate\.$", line)
+        if not match:
+            self.logger.warning(f"Could not parse Held Item line: {line}")
+            return
+
+        item_name = match.group(1)     # "Griseous Orb"
+        rarity = int(match.group(2))   # 100
+
+        # Update held item immediately (no accumulation needed)
+        PokemonService.update_held_item(
+            pokemon=self._current_pokemon,
+            item_name=item_name,
+            rarity=rarity,
+            forme=self._current_forme,
+        )
+
+    def _parse_evolution_line(self, line: str) -> None:
+        """
+        Parse evolution line (display-only, no JSON update).
+
+        Various formats:
+        - "Now evolves into Fearow at Level 21."
+        - "Now able to evolve into Golduck at level 25."
+        - "Now able to evolve into Politoed by using a King's Rock."
+        - "Now evolves into Cherrim when happy regardless of the time."
+        - etc.
+        """
+        # Evolution data is complex and would require significant refactoring
+        # of the evolution_chain structure. For now, this is display-only.
+        # Log for debugging purposes
+        self.logger.debug(f"Evolution line (display-only): {line}")
+
+    def _parse_growth_rate_line(self, line: str) -> None:
+        """
+        Parse growth rate line (display-only, no JSON update).
+
+        Format: "Now part of the 'fast' experience growth group (800,000 Exp to level 100)."
+        """
+        # Growth rate is not stored in the Pokemon JSON (no field for it).
+        # This is display-only information.
+        # Log for debugging purposes
+        self.logger.debug(f"Growth rate line (display-only): {line}")
