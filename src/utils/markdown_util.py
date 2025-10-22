@@ -13,6 +13,19 @@ from src.utils.config_util import get_config
 from src.utils.text_util import name_to_id
 
 
+def get_checkbox(checked: bool) -> str:
+    """
+    Generate a checkbox input element.
+
+    Args:
+        checked (bool): Whether the checkbox should be checked.
+
+    Returns:
+        str: HTML string for the checkbox input.
+    """
+    return f'<input type="checkbox" disabled{" checked" if checked else ""} />'
+
+
 def format_pokemon(
     pokemon_name: str,
     has_sprite: bool = True,

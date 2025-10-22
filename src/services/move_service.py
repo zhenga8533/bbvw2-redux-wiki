@@ -2,11 +2,12 @@
 Service for copying new moves from gen8 to parsed data folder.
 """
 
-import json
-from collections import Counter
+import orjson
 from typing import Any
 
 from src.data.pokedb_loader import PokeDBLoader
+from src.models.pokedb import GameVersionStringMap
+from src.utils.dict_util import get_most_common_value
 from src.utils.logger_util import get_logger
 from src.utils.text_util import name_to_id
 
@@ -15,37 +16,6 @@ logger = get_logger(__name__)
 
 class MoveService:
     """Service for copying moves from gen8 to parsed folder."""
-
-    @staticmethod
-    def _get_most_common_value(version_dict: dict[str, Any]) -> Any:
-        """
-        Get the most common value from a version group dictionary.
-
-        If there's a tie, returns the first value in insertion order.
-
-        Args:
-            version_dict: Dictionary with version group keys and their values
-
-        Returns:
-            The most common value, or None if dict is empty or all values are None
-        """
-        if not version_dict:
-            return None
-
-        # Filter out None values
-        non_none_values = [v for v in version_dict.values() if v is not None]
-
-        if not non_none_values:
-            return None
-
-        # Count occurrences
-        counter = Counter(non_none_values)
-
-        # Get most common - returns list of (value, count) tuples
-        # In case of tie, Counter.most_common() returns them in first-seen order
-        most_common = counter.most_common(1)
-
-        return most_common[0][0] if most_common else None
 
     @staticmethod
     def _add_gen5_version_fields(data: dict[str, Any], field_name: str) -> None:
@@ -69,7 +39,7 @@ class MoveService:
             return
 
         # Get most common value
-        most_common = MoveService._get_most_common_value(field_value)
+        most_common = get_most_common_value(field_value)
 
         # Add black_white field if missing
         if "black_white" not in field_value:
@@ -128,10 +98,10 @@ class MoveService:
         # Normalize move name
         move_id = name_to_id(move_name)
 
-        # Get directory paths
+        # Use PokeDBLoader to get paths
         data_dir = PokeDBLoader.get_data_dir()
         gen8_move_dir = data_dir.parent / "gen8" / "move"
-        parsed_move_dir = data_dir / "move"
+        parsed_move_dir = PokeDBLoader.get_category_path("move")
 
         # Construct file paths
         source_path = gen8_move_dir / f"{move_id}.json"
@@ -152,19 +122,145 @@ class MoveService:
 
         # Load, process, and save the move data
         try:
-            # Load gen8 move data
-            with open(source_path, "r", encoding="utf-8") as f:
-                move_data = json.load(f)
+            # Load gen8 move data using orjson (2-3x faster than json)
+            with open(source_path, "rb") as f:
+                move_data = orjson.loads(f.read())
 
             # Process to add black_2_white_2 fields
             processed_data = MoveService._process_gen8_move_data(move_data)
 
-            # Save to parsed folder
-            with open(dest_path, "w", encoding="utf-8") as f:
-                json.dump(processed_data, f, indent=4, ensure_ascii=False)
+            # Save to parsed folder using orjson
+            with open(dest_path, "wb") as f:
+                f.write(
+                    orjson.dumps(
+                        processed_data,
+                        option=orjson.OPT_INDENT_2 | orjson.OPT_SORT_KEYS,
+                    )
+                )
 
             logger.info(f"Copied and processed move '{move_name}' from gen8 to parsed")
             return True
-        except (OSError, IOError, json.JSONDecodeError) as e:
+        except (OSError, IOError, ValueError) as e:
             logger.error(f"Error copying move '{move_name}': {e}")
+            return False
+
+    @staticmethod
+    def update_move_type(move_name: str, new_type: str) -> bool:
+        """
+        Change the type of an existing move in the parsed data folder.
+
+        Uses PokeDBLoader to load the Move dataclass, modifies it,
+        and saves it back using PokeDBLoader.save_move().
+
+        Args:
+            move_name: Name of the move to modify
+            new_type: New type to set for the move
+
+        Returns:
+            bool: True if modified, False if error
+        """
+        # Normalize move name
+        move_id = name_to_id(move_name)
+        type_id = name_to_id(new_type)
+
+        try:
+            # Load the move using PokeDBLoader
+            move = PokeDBLoader.load_move(move_id)
+            if move is None:
+                return False
+
+            # Update type for all version groups
+            for version_key in move.type.__slots__:
+                setattr(move.type, version_key, type_id)
+
+            # Save using PokeDBLoader
+            PokeDBLoader.save_move(move_id, move)
+            logger.info(f"Changed type of move '{move_name}' to '{type_id}'")
+            return True
+        except (OSError, IOError, ValueError) as e:
+            logger.error(f"Error changing type of move '{move_name}': {e}")
+            return False
+
+    @staticmethod
+    def update_move_attribute(move_name: str, attribute: str, new_value: str) -> bool:
+        """
+        Update an attribute of an existing move in the parsed data folder.
+
+        Supports: Power, PP, Priority, Accuracy, Type
+
+        Args:
+            move_name: Name of the move to modify
+            attribute: Attribute to modify (case-insensitive)
+            new_value: New value to set for the attribute
+
+        Returns:
+            bool: True if modified, False if error
+        """
+        # Normalize move name and attribute
+        move_id = name_to_id(move_name)
+        attribute = attribute.lower().strip()
+
+        # Map attribute names to field names
+        attribute_map = {
+            "power": "power",
+            "pp": "pp",
+            "priority": "priority",
+            "accuracy": "accuracy",
+            "type": "type",
+        }
+
+        if attribute not in attribute_map:
+            logger.warning(
+                f"Unsupported attribute '{attribute}' for move '{move_name}'"
+            )
+            return False
+
+        field_name = attribute_map[attribute]
+
+        try:
+            # Load the move using PokeDBLoader
+            move = PokeDBLoader.load_move(move_id)
+            if move is None:
+                logger.warning(f"Move '{move_name}' not found in parsed data")
+                return False
+
+            # Get the field object
+            if not hasattr(move, field_name):
+                logger.warning(f"Move object has no field '{field_name}'")
+                return False
+
+            field_obj = getattr(move, field_name)
+
+            # Process the new value based on attribute type
+            if attribute == "type":
+                processed_value = name_to_id(new_value)
+            elif attribute in ["power", "pp", "accuracy"]:
+                if "Never" in new_value:
+                    processed_value = None
+                else:
+                    cleaned_value = "".join(filter(str.isdigit, new_value))
+                    processed_value = int(cleaned_value)
+            elif attribute == "priority":
+                processed_value = int(new_value)
+            else:
+                processed_value = new_value
+
+            # Update the attribute
+            # Check if it's a version group object or a plain value
+            if hasattr(field_obj, "__slots__"):
+                # Version group object - update all version groups
+                for version_key in field_obj.__slots__:
+                    setattr(field_obj, version_key, processed_value)
+            else:
+                # Plain value - set directly on the move object
+                setattr(move, field_name, processed_value)
+
+            # Save using PokeDBLoader
+            PokeDBLoader.save_move(move_id, move)
+            logger.info(
+                f"Updated {attribute} of move '{move_name}' to '{processed_value}'"
+            )
+            return True
+        except (OSError, IOError, ValueError) as e:
+            logger.error(f"Error updating {attribute} of move '{move_name}': {e}")
             return False

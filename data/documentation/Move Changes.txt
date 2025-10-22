@@ -33,7 +33,7 @@ Round                   Disarming Voice
 Sweet Kiss              Draining Kiss
 Vice Grip               Dual Wingbeat
 Bubble                  Esper Wing
-Razorwind               Fire Lash
+Razor Wind              Fire Lash
 Constrict               Infestation
 Rolling Kick            Headlong Rush
 Mega Kick               High Horsepower
@@ -41,7 +41,7 @@ Barrage                 Lunge
 Mist Ball               Moonblast
 Sacred Fire             Mystical Fire
 Sharpen                 Nuzzle
-Submission               Play Rough
+Submission              Play Rough
 Comet Punch             Power-Up Punch
 Egg Bomb                Psychic Fangs
 Smelling Salts          Psyshield Bash
@@ -78,15 +78,19 @@ Redux Move Modifications
 =========================================================
 As of late, the Pokémon series has become decently fragmented across different titles when it comes to moves.
 
- - With Legends: Arceus came a further fragmentation of move effects across the Pokémon series.
- - As of writing, it's hard to know what will carry over to the 'mainline' series (think Stealth Rock changes etc).
- - This makes updating moves to current standards fairly tricky, so we've gone with a 'selective' approach - e.g. just take the bits we like!
+- With Legends: Arceus came a further fragmentation of move effects across the Pokémon series.
+- As of writing, it's hard to know what will carry over to the 'mainline' series (think Stealth Rock changes etc).
+- This makes updating moves to current standards fairly tricky, so we've gone with a 'selective' approach - e.g. just take the bits we like!
 
 Below are all the changes made to moves from vanilla Gen V in Redux. There are three different categories of changes:
 
- - Changes made by Gamefreak in the mainline series of games (XY -> Sword and Shield). These changes are unmarked.
- - Changes made by Gamefreak in Legends: Arceus. These changes are marked by an '[L:A]'.
- - Changes made by ourselves, like in Renegade Platinum, are marked by an '[!]'.
+- Changes made by Gamefreak in the mainline series of games (XY -> Sword and Shield). These changes are unmarked.
+- Changes made by Gamefreak in Legends: Arceus. These changes are marked by an '[L:A]'.
+- Changes made by ourselves, like in Renegade Platinum, are marked by an '[!]'.
+
+Further Modifications:
+
+- All Sound Moves now hit through a defenders Substitute, like in Gen VI+.
 
 With that out of the way, here are the changes to moves made in Redux:
 
@@ -96,7 +100,7 @@ Absorb
 Acid
  - Power 20 -> 35 [!]
 
-Acid Armour
+Acid Armor
  - PP 40 -> 20
 
 Air Cutter
@@ -140,7 +144,7 @@ Blizzard
 Bite
  - PP 25 -> 20 [L:A]
 
-BubbleBeam
+Bubble Beam
  - Power 65 -> 70 [!]
 
 Bulk Up
@@ -167,7 +171,7 @@ Covet
  - Type Normal -> Fairy [!]
 
 Crabhammer
- - High Critical Ratio -> 10% Def -1 [!]
+ - Effect High Critical Ratio -> 10% Def -1 [!]
 
 Cross Poison
  - Power 70 -> 90 [!]
@@ -177,7 +181,7 @@ Crunch
  - PP 15 -> 10 [L:A]
 
 Cut
- - None -> High Critical Ratio [!]
+ - Effect None -> High Critical Ratio [!]
  - Type Normal -> Grass [!]
 
 Draco Meteor
@@ -199,7 +203,7 @@ Dragon Breath
 Dragon Claw
  - Power 80 -> 85 [!]
  - PP 15 -> 10 [L:A]
- - None -> High Critical Ratio [L:A]
+ - Effect None -> High Critical Ratio [L:A]
 
 Dragon Pulse
  - Power 85 -> 90 [!]
@@ -312,7 +316,7 @@ Hex
  - PP 10 -> 15 [L:A]
 
 Howl*
- - Raises User and Allies Attack -> Raises only Users Attack
+ - Effect Raises User and Allies Attack -> Raises only Users Attack
 
 Hurricane
  - Power 120 -> 110
@@ -337,7 +341,7 @@ Incinerate
 Inferno
  - Accuracy 50 -> 65 [!]
 
-Judgement
+Judgment
  - Power 100 -> 150 [!]
 
 Knock Off
@@ -349,7 +353,7 @@ Leaf Storm
 Leaf Tornado
  - Power 65 -> 70 [!]
  - Accuracy 90 -> 100 [!]
- - 50% Accuracy -1 -> 30% Accuracy -1 [!]
+ - Effect 50% Accuracy -1 -> 30% Accuracy -1 [!]
 
 Leech Life
  - Power 20 -> 80
@@ -377,7 +381,7 @@ Mega Drain
 Meteor Mash
  - Power 90 -> 95 [!]
 
-Minimise
+Minimize
  - PP 20 -> 10
 
 Muddy Water
@@ -389,13 +393,13 @@ Mud-Slap
 
 Needle Arm
  - Power 60 -> 100 [!]
- - None -> Boosted by the ability Iron Fist [!]
+ - Effect None -> Boosted by the ability Iron Fist [!]
 
 Octazooka
  - Power 65 -> 90 [!]
  - PP 10 -> 5 [!]
- - 50% Accuracy -1 -> 30% Accuracy -1 [!]
- - None -> High Critical Ratio [!]
+ - Effect 50% Accuracy -1 -> 30% Accuracy -1 [!]
+ - Effect None -> High Critical Ratio [!]
 
 Overheat
  - Power 140 -> 130
@@ -407,7 +411,7 @@ Pin Missile
 Poison Fang
  - Power 50 -> 65 [!]
  - Accuracy 100 -> 95 [!]
- - B.Poison 30% -> 50% [!]
+ - Effect B.Poison 30% -> 50% [!]
 
 Poison Gas
  - PP 40 -> 20 [L:A]
@@ -430,7 +434,7 @@ Poison Tail
 Power Gem
  - Power 80 -> 90 [!]
  - PP 20 -> 10 [L:A]
- - None -> Sp. Def Drop 10% [!]
+ - Effect None -> Sp. Def Drop 10% [!]
 
 Power-Up Punch
  - Power 40 -> 50 [!]
@@ -463,7 +467,7 @@ Rock Climb
 Rock Smash
  - Power 40 -> 55 [!]
  - 50% Def -1 -> 100% Def -1 [!]
- - None -> Boosted by the ability Iron Fist [!]
+ - Effect None -> Boosted by the ability Iron Fist [!]
 
 Rock Tomb
  - Power 50 -> 60
@@ -478,7 +482,7 @@ Sacred Sword
 
 Scald
  - PP 15 -> 10 [!]
- - 30% Burn -> 10% Burn [!]
+ - Effect 30% Burn -> 10% Burn [!]
 
 Shadow Ball
  - PP 15 -> 10 [L:A]
@@ -512,20 +516,20 @@ Snarl
 Spore
  - PP 15 -> 10 [L:A]
 
-Steam Roller
+Steamroller
  - Power 75 -> 100 [!]
  - Accuracy 100 -> 90 [!]
  - PP 20 -> 10 [!]
 
 String Shot
- - Speed -1 -> Speed -2
+ - Effect Speed -1 -> Speed -2
 
 Storm Throw
  - Power 40 -> 50 [!]
 
 Strength
  - Power 80 -> 85 [!]
- - None -> 10% Raise Attack [!]
+ - Effect None -> 10% Raise Attack [!]
  - PP 15 -> 10 [!]
 
 Stun Spore
@@ -570,7 +574,7 @@ Thief
 
 Triple Axel***
  - Power 20 -> 30 [!]
- - Successive Hits Power 20 -> 10 [!]
+ - Effect Successive Hits Power 20 -> 10 [!]
 
 Thunder
  - Power 120 -> 110
@@ -613,7 +617,7 @@ Water Pledge
 
 Wild Charge
  - PP 15 -> 10 [!]
- - Recoil -> No Recoil [!]
+ - Effect Recoil -> No Recoil [!]
 
 Will-O-Wisp
  - Accuracy 75 -> 85
@@ -626,14 +630,11 @@ Wonder Room
 
 X-Scissor
  - PP 15 -> 10 [L:A]
- - None -> High Critical Ratio [L:A]
+ - Effect None -> High Critical Ratio [L:A]
 
 Zen Headbutt
  - PP 15 -> 10 [L:A]
 
-
-Further Modifications
- - All Sound Moves now hit through a defenders Substitute, like in Gen VI+.
 
 *Not currently implemented/cannot be properly implemented due limitations with the Gen V engine/toolset.
 **Accounting for the x2 damage of critical hits in Gen V, as opposed to the x1.5 damage of Gen VI+.
@@ -647,28 +648,28 @@ Esper Wing
  - Power 75 -> 70 [!]
  - Accuracy 90 -> 100 [!]
  - PP 10
- - +1 Priority like Quick Attack [!]
+ - Effect +1 Priority like Quick Attack [!]
 
 Headlong Rush
  - Power 100 -> 120 [!]
  - Accuracy 100 -> 90 [!]
  - PP 5
- - Drops both Defense and Special Defense like Close Combat
+ - Effect Drops both Defense and Special Defense like Close Combat
 
 Psyshield Bash
  - Power 70
  - Accuracy 90 -> 95 [!]
  - PP 10
- - Rasies the user's Defense and Special Defense by one stage.
+ - Effect Rasies the user's Defense and Special Defense by one stage.
 
 Raging Fury
  - Power 90 -> 95 [!]
  - Accuracy 85 -> 100 [!]
  - PP 10
- - Confuses user like Outrage
+ - Effect Confuses user like Outrage
 
 Wave Crash
  - Power 75 -> 110 [!]
  - Accuracy 100
  - PP 10 -> 5 [!]
- - Damages user like Double Edge
+ - Effect Damages user like Double Edge

@@ -791,38 +791,47 @@ class PokeDBLoader:
         return data_dir / category
 
     @classmethod
-    def save_pokemon(cls, name: str, data: Pokemon, subfolder: str = "default") -> Path:
+    def _save_data(
+        cls,
+        name: str,
+        data: Pokemon | Move | Ability | Item,
+        category: str,
+        subfolder: Optional[str] = None,
+    ) -> Path:
         """
-        Save Pokemon data to a JSON file and update cache (thread-safe).
+        Generic method to save data to a JSON file and update cache (thread-safe).
 
-        This method saves the Pokemon and updates the cache with the new data
-        instead of invalidating it. This provides better performance when saving
-        multiple Pokemon in a batch operation (like evolution chain updates).
-
-        Uses file locking to prevent concurrent write conflicts.
+        This internal method handles the common logic for saving any dataclass
+        type (Pokemon, Move, Ability, Item) to disk and updating the cache.
 
         Args:
-            name: Pokemon name (e.g., 'Pikachu', 'pikachu', or 'PIKACHU')
-            data: Pokemon dataclass object
-            subfolder: Pokemon subfolder (default, cosmetic, transformation, variant)
+            name: Item name (normalized to ID format)
+            data: Dataclass object to save
+            category: Category folder (pokemon, move, ability, item)
+            subfolder: Optional subfolder within category
 
         Returns:
             Path: Path to the saved file
         """
         # Normalize the name to ID format
         name = name_to_id(name)
-        file_path = cls.get_data_dir() / "pokemon" / subfolder / f"{name}.json"
+
+        # Construct file path
+        if subfolder:
+            file_path = cls.get_data_dir() / category / subfolder / f"{name}.json"
+        else:
+            file_path = cls.get_data_dir() / category / f"{name}.json"
 
         # Use file lock to prevent concurrent writes
         with cls._file_lock:
             file_path.parent.mkdir(parents=True, exist_ok=True)
 
-            logger.info(f"Saving Pokemon '{name}' to {file_path}")
+            logger.info(f"Saving {category} '{name}' to {file_path}")
             temp_path = file_path.with_suffix(".tmp")
             try:
                 # Write to temp file first, then atomic rename (safer)
                 with open(temp_path, "wb") as f:
-                    # asdict needs a custom factory to handle enums and custom classes
+                    # Import necessary types for dict factory
                     from src.models.pokedb import (
                         GameVersionStringMap,
                         GameVersionIntMap,
@@ -859,19 +868,99 @@ class PokeDBLoader:
                 # Atomic rename (or as close as possible on Windows)
                 temp_path.replace(file_path)
             except (OSError, IOError) as e:
-                logger.error(f"Error saving Pokemon '{name}': {e}", exc_info=True)
+                logger.error(f"Error saving {category} '{name}': {e}", exc_info=True)
                 # Clean up temp file if it exists
                 if temp_path.exists():
                     temp_path.unlink()
                 raise
 
-        # Update cache with the new data instead of invalidating
-        # This is more efficient for batch operations like evolution chain updates
-        cache_key = ("pokemon", name, subfolder)
-        cls._update_cache(cache_key, data, "pokemon", name)
+        # Update cache with the new data
+        if subfolder:
+            cache_key = (category, name, subfolder)
+        else:
+            cache_key = (category, name)
+        cls._update_cache(cache_key, data, category, name)
 
-        logger.info(f"Successfully saved Pokemon '{name}'")
+        logger.info(f"Successfully saved {category} '{name}'")
         return file_path
+
+    @classmethod
+    def save_pokemon(cls, name: str, data: Pokemon, subfolder: str = "default") -> Path:
+        """
+        Save Pokemon data to a JSON file and update cache (thread-safe).
+
+        This method saves the Pokemon and updates the cache with the new data
+        instead of invalidating it. This provides better performance when saving
+        multiple Pokemon in a batch operation (like evolution chain updates).
+
+        Uses file locking to prevent concurrent write conflicts.
+
+        Args:
+            name: Pokemon name (e.g., 'Pikachu', 'pikachu', or 'PIKACHU')
+            data: Pokemon dataclass object
+            subfolder: Pokemon subfolder (default, cosmetic, transformation, variant)
+
+        Returns:
+            Path: Path to the saved file
+        """
+        return cls._save_data(name, data, "pokemon", subfolder)
+
+    @classmethod
+    def save_move(cls, name: str, data: Move) -> Path:
+        """
+        Save Move data to a JSON file and update cache (thread-safe).
+
+        This method saves the Move and updates the cache with the new data
+        instead of invalidating it.
+
+        Uses file locking to prevent concurrent write conflicts.
+
+        Args:
+            name: Move name (e.g., 'Thunderbolt', 'thunderbolt', or 'THUNDERBOLT')
+            data: Move dataclass object
+
+        Returns:
+            Path: Path to the saved file
+        """
+        return cls._save_data(name, data, "move")
+
+    @classmethod
+    def save_ability(cls, name: str, data: Ability) -> Path:
+        """
+        Save Ability data to a JSON file and update cache (thread-safe).
+
+        This method saves the Ability and updates the cache with the new data
+        instead of invalidating it.
+
+        Uses file locking to prevent concurrent write conflicts.
+
+        Args:
+            name: Ability name (e.g., 'Intimidate', 'intimidate', or 'INTIMIDATE')
+            data: Ability dataclass object
+
+        Returns:
+            Path: Path to the saved file
+        """
+        return cls._save_data(name, data, "ability")
+
+    @classmethod
+    def save_item(cls, name: str, data: Item) -> Path:
+        """
+        Save Item data to a JSON file and update cache (thread-safe).
+
+        This method saves the Item and updates the cache with the new data
+        instead of invalidating it.
+
+        Uses file locking to prevent concurrent write conflicts.
+
+        Args:
+            name: Item name (e.g., 'Potion', 'potion', or 'POTION')
+            data: Item dataclass object
+
+        Returns:
+            Path: Path to the saved file
+        """
+        return cls._save_data(name, data, "item")
 
     @classmethod
     def clear_cache(cls) -> None:

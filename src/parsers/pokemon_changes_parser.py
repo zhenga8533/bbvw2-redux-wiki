@@ -9,7 +9,7 @@ This parser:
 
 from src.data.pokedb_loader import PokeDBLoader
 from src.services.pokemon_service import PokemonService
-from src.utils.markdown_util import format_move, format_pokemon
+from src.utils.markdown_util import format_move, format_pokemon, get_checkbox
 from .base_parser import BaseParser
 import re
 
@@ -114,11 +114,10 @@ class PokemonChangesParser(BaseParser):
 
     def _format_move_row(self, level: str, move: str) -> None:
         """Format a move row for markdown table."""
-        # Format event move checkbox
-        event_move = '<input type="checkbox" disabled>'
+        event_move = False
         if move.endswith(" [*]"):
             move = move[:-4]
-            event_move = '<input type="checkbox" checked disabled>'
+            event_move = True
 
         # Format move name
         move_html = format_move(move)
@@ -129,6 +128,4 @@ class PokemonChangesParser(BaseParser):
         move_type = move_type.title() if move_type else "Unknown"
         move_class = move_data.damage_class.title() if move_data else "Unknown"
 
-        self._markdown += (
-            f"| {level} | {move_html} | {move_type} | {move_class} | {event_move} |\n"
-        )
+        self._markdown += f"| {level} | {move_html} | {move_type} | {move_class} | {get_checkbox(event_move)} |\n"

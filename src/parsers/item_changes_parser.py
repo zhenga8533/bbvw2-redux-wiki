@@ -8,7 +8,7 @@ This parser:
 
 from typing import Any, Dict
 
-from src.utils.markdown_util import format_item
+from src.utils.markdown_util import format_item, get_checkbox
 from .base_parser import BaseParser
 import re
 
@@ -215,11 +215,7 @@ class ItemChangesParser(BaseParser):
         new_col_md = self._format_item_column(new_items, new_quantities, new_extra)
 
         # 3. Format hidden status
-        hidden_md = (
-            '<input type="checkbox" checked disabled>'
-            if is_hidden
-            else '<input type="checkbox" disabled>'
-        )
+        hidden_md = get_checkbox(is_hidden)
 
         # 4. Assemble the final table row
         self._markdown += f"| {old_col_md} | {new_col_md} | {hidden_md} |\n"
