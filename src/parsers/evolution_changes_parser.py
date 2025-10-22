@@ -10,14 +10,12 @@ This parser:
 import re
 from typing import Optional
 
-from src.utils.regex_util import POKEMON_PATTERN_STR
 from src.utils.text_util import name_to_id
 from src.utils.markdown_util import format_pokemon, format_item
 from src.models.pokedb import (
     EvolutionChain,
     EvolutionDetails,
     Gender,
-    Pokemon,
 )
 from src.data.pokedb_loader import PokeDBLoader
 from src.services.evolution_service import EvolutionService
@@ -62,7 +60,9 @@ class EvolutionChangesParser(BaseParser):
         elif line == "---                  ---":
             self._markdown += "  <tbody>\n"
         # Match: "dex_num name (spaces) evolution_text"
-        elif match := re.match(rf"^(\d+) {POKEMON_PATTERN_STR}\s+(.*)", line):
+        elif match := re.match(
+            rf"^(\d+) ([A-Z][\w':.-]*(?:\s[A-Z][\w':.-]*)*)\s+(.*)", line
+        ):
             self._current_dex_num, self._current_pokemon, evolution_text = (
                 match.groups()
             )
@@ -157,7 +157,9 @@ class EvolutionChangesParser(BaseParser):
         Returns:
             Tuple of (evolution_pokemon_name, evolution_method_text) or None if no match
         """
-        if match := re.match(rf"Now evolves into {POKEMON_PATTERN_STR} (.*)\.", text):
+        if match := re.match(
+            rf"Now evolves into ([A-Z][\w':.-]*(?:\s[A-Z][\w':.-]*)*) (.*)\.", text
+        ):
             groups = match.groups()
 
             # Validate we have the expected number of groups
@@ -196,12 +198,10 @@ class EvolutionChangesParser(BaseParser):
         gender = None
         if " if " in method_text and " is female" in method_text:
             gender = Gender.FEMALE
-            method_text = re.sub(
-                rf" if {POKEMON_PATTERN_STR} is female", "", method_text
-            )
+            method_text = re.sub(rf" if (.*) is female", "", method_text)
         elif " if " in method_text and " is male" in method_text:
             gender = Gender.MALE
-            method_text = re.sub(rf" if {POKEMON_PATTERN_STR} is male", "", method_text)
+            method_text = re.sub(rf" if (.*) is male", "", method_text)
 
         # Map of evolution method types to their pattern strings
         patterns = {
@@ -209,7 +209,7 @@ class EvolutionChangesParser(BaseParser):
             "item": r"via the use of a(?:n)? (.+)",
             "friendship": r"by leveling up while at (\d+)\+ friendship at any time of day",
             "move": r"by leveling up while knowing the move (.+)",
-            "party": rf"by leveling up when a {POKEMON_PATTERN_STR} is in the party",
+            "party": rf"by leveling up when a (.*) is in the party",
         }
 
         # Load the Pokemon data
