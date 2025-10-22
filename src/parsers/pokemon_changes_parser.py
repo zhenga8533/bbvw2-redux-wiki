@@ -34,6 +34,8 @@ class PokemonChangesParser(BaseParser):
         self._current_pokemon = ""
         self._current_forme = ""
         self._current_attribute = ""
+        self._is_table_open = False
+        self._temporary_markdown = ""
 
     def parse_general_notes(self, line: str) -> None:
         """Parse general notes section."""
@@ -45,16 +47,19 @@ class PokemonChangesParser(BaseParser):
 
     def parse_specific_changes(self, line: str) -> None:
         """Parse specific changes section."""
+        next_line = self.peek_line(1) or ""
         # Match: "<number> - <pokemon>"
         if match := re.match(r"^(\d{3}) - (.*)$", line):
             pokedex_number = match.group(1)
             self._current_pokemon = match.group(2)
             self._markdown += f"### #{pokedex_number} {self._current_pokemon}\n\n"
-            self._markdown += format_pokemon(self._current_pokemon) + "\n\n"
+            self._markdown += f"{format_pokemon(self._current_pokemon)}<br>\n\n"
         # Match: "<attribute>:"
         elif line.endswith(":"):
             self._current_attribute = line[:-1]
-            self._format_attribute(self._current_attribute)
+            self._format_attribute(
+                self._current_attribute, is_changed=next_line.startswith("Old")
+            )
         # Match: "<level> - <move>"
         elif match := re.match(r"^(\d+) - (.*)$", line):
             level = match.group(1)
@@ -69,7 +74,7 @@ class PokemonChangesParser(BaseParser):
             self._markdown += f" {line} |"
             if not is_new:
                 return
-            self._markdown += "\n\n"
+            self._markdown += "\n"
 
             # Update Pokemon attribute in JSON file
             PokemonService.update_attribute(
@@ -77,15 +82,19 @@ class PokemonChangesParser(BaseParser):
                 attribute=self._current_attribute,
                 value=line,
             )
+        # Match: continuation outside a table
+        elif self._is_table_open:
+            if line:
+                line = line.replace("[*]", "[\\*]")
+                line = f"- {line}"
+            self._temporary_markdown += f"{line}\n"
         # Default: regular text line
         else:
             self.parse_default(line)
 
-    def _format_attribute(self, attribute: str) -> None:
+    def _format_attribute(self, attribute: str, is_changed: bool) -> None:
         """Format an attribute change section."""
-        self._markdown += f"**{attribute}**:\n\n"
-
-        updated_attributes = [
+        changed_attributes = [
             "Base Stats",
             "Type",
             "Ability",
@@ -95,14 +104,26 @@ class PokemonChangesParser(BaseParser):
             "Catch Rate",
             "Gender Ratio",
         ]
-        for header in updated_attributes:
-            if attribute.startswith(header):
-                self._markdown += "| Old | New |\n"
-                self._markdown += "|:----|:----|\n|"
-                return
+        if is_changed and any(
+            attribute.startswith(attr) for attr in changed_attributes
+        ):
+            if not self._is_table_open:
+                self._is_table_open = True
+                self._markdown += "| Attribute | Old Value | New Value |\n"
+                self._markdown += "|:----------|:----------|:----------|\n"
+            self._markdown += f"| **{self._current_attribute}** | "
+            return
 
         static_attributes = ["Evolution", "Moves", "Held Item", "Growth Rate"]
+        if self._is_table_open:
+            self._temporary_markdown += f"**{attribute}**:\n\n"
+        else:
+            self._markdown += f"**{attribute}**:\n\n"
+
         if attribute.startswith("Level Up"):
+            self._markdown += self._temporary_markdown
+            self._temporary_markdown = ""
+            self._is_table_open = False
             self._markdown += "| Level | Move | Type | Class | Event |\n"
             self._markdown += "|:------|:-----|:-----|:------|:------|\n"
         elif attribute in static_attributes:
