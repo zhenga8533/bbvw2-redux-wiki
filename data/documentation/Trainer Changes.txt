@@ -435,7 +435,7 @@ Virbank Complex
 
 ○ Youngster Masahiro:
 Lillipup [Pickup], lv.15: Retaliate, Bite, Work Up, Lick
-Charmender [Blaze], lv.15: Dragon Breath, Metal Claw, Ember, Bite
+Charmander [Blaze], lv.15: Dragon Breath, Metal Claw, Ember, Bite
 Pikachu [Lightningrod], lv.15: Quick Attack, Shock Wave, Thunder Wave, Charm
 
 ○ Worker Mitchell:
@@ -799,7 +799,7 @@ Mothim [Tinted Lens], lv.23: Gust, Lunge, Air Cutter, Psybeam
 
 ○ Harlequin Anders:
 Dwebble [Sturdy], lv.24: Rock Tomb, Faint Attack, Spikes, Bug Bite
-Parasect [Effect Spore] lv.24: Bullet Seed, Spore, Bug Bite, Metal Claw
+Parasect [Effect Spore], lv.24: Bullet Seed, Spore, Bug Bite, Metal Claw
 Durant [Hustle], lv.24: Bug Bite, Bite, Metal Claw
 
 ●♛ LEADER BURGH - {TM81 X-Scissor} [Easy and Normal mode]:
@@ -814,7 +814,7 @@ Mothim [Tinted Lens], lv.28 @Metronome: Bug Buzz, Electroweb, Air Cutter, Psybea
 Masquerain [Intimidate*], lv.28 @Bug Gem: Soak, Bubble Beam, Struggle Bug, Mud Shot
 Escavalier [Shell Armor], lv.28 @Occa Berry: Twineedle, Razor Shell, Metal Burst, Endure
 Vespiquen [Intimidate*], lv.28 @Lum Berry: Attack Order, Air Slash, Power Gem, Revenge
-Heracross [Moxie], lv. 28 @Cell Battery: Brick Break, Fury Cutter, Helping Hand, Rock Tomb
+Heracross [Moxie], lv.28 @Cell Battery: Brick Break, Fury Cutter, Helping Hand, Rock Tomb
 Leavanny [Swarm], lv.29 @Focus Sash: X-Scissor, Leaf Blade, Swords Dance, Aerial Ace
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -2197,7 +2197,7 @@ Typhlosion [Flash Fire], lv.51: Scorching Sands, Lava Plume, Extrasensory
 Musharna [Analytic*], lv.51: Moonblast, Stored Power, Calm Mind, Yawn
 Illumise [Tinted Lens], lv.51: Quiver Dance, Bug Buzz, Moonblast, Mystical Fire
 Mismagius [Infiltrator*], lv.51: Draining Kiss, Hex, Nasty Plot, Hypnosis
-Vanilluxe [Snow Warning], lv. 51: Dazzling Gleam, Power Gem, Frost Breath, Autotomize
+Vanilluxe [Snow Warning], lv.51: Dazzling Gleam, Power Gem, Frost Breath, Autotomize
 
 ○ Youngster Jaye:
 Escavalier [No Guard], lv.51: Razor Shell, Night Slash, Megahorn, Smart Strike
@@ -2716,7 +2716,7 @@ Solrock [Levitate], lv.63 @Sitrus Berry: Psyshield Bash, Helping Hand, Rock Slid
  - Both Tate and Liza each use four Pokémon each, for a total of eight Pokémon!
 ---
 Left side: Liza
-Mr. Mime [Filter]. lv.66 @Lum Berry: Trick Room, Dazzling Gleam, Baton Pass, Aura Sphere
+Mr. Mime [Filter], lv.66 @Lum Berry: Trick Room, Dazzling Gleam, Baton Pass, Aura Sphere
 Lunatone [Levitate], lv.67 @Rock Gem: Psychic, Ice Beam, Earth Power, Power Gem
 Exeggutor [Harvest], lv.66 @Sitrus Berry: Trick Room, Sleep Powder, Giga Drain, Sludge Bomb
 Jynx [Trace], lv.66 @Focus Sash: Aura Sphere, Psyshock, Ice Beam, Draining Kiss
@@ -2911,12 +2911,12 @@ Girafarig [Sap Sipper], lv.62: High Horsepower, Double-Edge, Psyshield Bash, Fou
 
 ● Plasma Grunts #807 and #809:
 Left side:
-Gliscor [Poison Heal] lv.64 @Toxic Orb: Protect, Guillotine, Rock Climb, Tailwind
+Gliscor [Poison Heal], lv.64 @Toxic Orb: Protect, Guillotine, Rock Climb, Tailwind
 Machamp [No Guard], lv.64 @Leftovers: Protect, Cross Poison, Drain Punch, Bullet Punch
-Cryogonal [Levitate] lv.64 @Wide Lens: Protect, Sheer Cold, Icy Wind, Flash Cannon
+Cryogonal [Levitate], lv.64 @Wide Lens: Protect, Sheer Cold, Icy Wind, Flash Cannon
 Right side:
 Escavalier [No Guard], lv.64 @Occa Berry: Protect, Megahorn, Iron Head, Razor Shell
-Dugtrio [Sand Force] lv.64 @Wide Lens: Protect, Fissure, High Horsepower, Stone Edge
+Dugtrio [Sand Force], lv.64 @Wide Lens: Protect, Fissure, High Horsepower, Stone Edge
 Pidgeot [No Guard], lv.64 @Charcoal: Protect, Air Slash, Heat Wave, Hyper Voice
 
 ~~~~~~~~~~~~
@@ -3635,7 +3635,7 @@ Rotom [Levitate], lv.86 @Leftovers: Volt Switch, Hydro Pump, Reflect, Light Scre
 Metagross [Clear Body], lv.86 @Air Balloon: Meteor Mash, Earthquake, Ice Punch, Bullet Punch
 Magnezone [Analytic], lv.86 @Air Balloon: Volt Switch, Flash Cannon, Reflect, Light Screen
 Beheeyem [Analytic], lv.86 @Colbur Berry: Psychic, Thunderbolt, Trick Room, Bug Buzz
-Klinklang [Levitate*], lv.88 @: Gear Grind, Shift Gear, Wild Charge, Superpower
+Klinklang [Levitate*], lv.88 @Air Balloon: Gear Grind, Shift Gear, Wild Charge, Superpower
 
 
 Icirrus City, Postgame
@@ -3769,7 +3769,7 @@ Charizard [Defiant*], lv.100 @Sitrus Berry: Belly Drum, Dragon Claw, Fire Lash, 
 Blastoise [Shell Armor], lv.100 @White Herb: Shell Smash, Ice Beam, Aura Sphere, Surf
 Venusaur [Solar Power*], lv.100 @Black Sludge: Giga Drain, Leech Seed, Toxic, Sludge Bomb
 
-N
+N's Castle
 +++
 
 FIRST BATTLE: Blaze Black 2

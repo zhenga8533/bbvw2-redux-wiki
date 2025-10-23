@@ -7,9 +7,15 @@ This parser:
 """
 
 import re
-from typing import Any, Dict
+from typing import Any, Dict, Optional
 
-from src.utils.markdown_util import get_checkbox
+from src.utils.markdown_util import (
+    format_ability,
+    format_item,
+    format_move,
+    format_pokemon,
+    get_checkbox,
+)
 from .base_parser import BaseParser
 
 
@@ -108,4 +114,53 @@ class TrainerChangesParser(BaseParser):
 
     def parse_trainer_changes(self, line: str) -> None:
         """Parse the Trainer Changes section."""
-        self.parse_default(line)
+        next_line = self.peek_line(1) or ""
+
+        # Match: main headings
+        if next_line == "+++":
+            self._markdown += f"### {line}\n\n"
+        elif line == "+++":
+            pass
+        elif line == "---":
+            pass
+        # Match: sub-headings
+        elif next_line.startswith("~") and line:
+            self._markdown += f"**{line}**\n"
+        elif line.startswith("~"):
+            pass
+        # Match: "<trainer>:"
+        elif match := re.match(r"^(.*):$", line):
+            trainer = match.group(1)
+            self._markdown += f"{trainer}\n\n"
+            self._markdown += "| Pokémon | Attributes | Moves |\n"
+            self._markdown += "|:-------:|:-----------|:-------|\n"
+        # Match: "<pokemon> [(<ability>)], lv.<level>: <moves>"
+        elif match := re.match(r"^(.+?) \[(.+?)\], lv\.(\d+): (.+?)$", line):
+            pokemon, ability, level, moves = match.groups()
+            self._format_pokemon_row(pokemon, ability, level, None, moves)
+        # Match: "<pokemon> [(<ability>)], lv.<level> @<item>: <moves>"
+        elif match := re.match(r"^(.+?) \[(.+?)\], lv\.(\d+) @(.+?): (.+?)$", line):
+            pokemon, ability, level, item, moves = match.groups()
+            self._format_pokemon_row(pokemon, ability, level, item, moves)
+        # Default: regular text line
+        else:
+            self.parse_default(line)
+
+    def _format_pokemon_row(
+        self, pokemon: str, ability: str, level: str, item: Optional[str], moves: str
+    ) -> None:
+        """Format a Pokémon row for the markdown table."""
+        row = f"| {format_pokemon(pokemon)} | "
+
+        row += f"**Level:** {level}"
+        row += f"<br>**Ability:** {format_ability(ability)}"
+        if item:
+            row += f"<br>**Item:** {format_item(item)}"
+        row += " | "
+
+        for i, move in enumerate(re.split(r",\s*", moves)):
+            if i > 0:
+                row += "<br>"
+            row += f"{i + 1}. {format_move(move)}"
+
+        self._markdown += row + "\n"

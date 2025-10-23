@@ -26,6 +26,33 @@ def get_checkbox(checked: bool) -> str:
     return f'<input type="checkbox" disabled{" checked" if checked else ""} />'
 
 
+def format_ability(ability_name: str, has_flavor_text: bool = True) -> str:
+    """
+    Format an ability name with optional flavor text as tooltip.
+
+    Args:
+        ability_name: The display name of the ability (e.g., "Overgrow")
+        has_flavor_text: Whether to include the ability's flavor text as a tooltip
+    Returns:
+        Formatted HTML string for the ability
+    """
+    if not has_flavor_text:
+        return ability_name
+
+    # Try to load ability data
+    ability_data = PokeDBLoader.load_ability(ability_name)
+    if not ability_data:
+        return ability_name
+
+    # Add flavor text as tooltip if available
+    flavor = ability_data.flavor_text.black_2_white_2
+    if flavor:
+        escaped_flavor = html.escape(flavor)
+        return f'<span style="border-bottom: 1px dashed #777; cursor: help;" title="{escaped_flavor}">{ability_name}</span>'
+    else:
+        return ability_name
+
+
 def format_pokemon(
     pokemon_name: str,
     has_sprite: bool = True,
