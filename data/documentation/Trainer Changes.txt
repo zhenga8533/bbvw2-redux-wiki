@@ -5,21 +5,25 @@ o-----------------------------------------------------o
 
 =============================================================
 General Changes and Information
+
 =============================================================
 
 Trainer rosters in every area have been modified. Important trainers have their roster listed below including species, levels, items, moves.
 Indeed, trainers have been made more difficult across the board, compared to the base game. Compared to Vanilla Black and White 2, you will see a much greater variety in team composition, as is standard in these projects.
 
 Pokémon Black and White 2 both have inbuilt difficulty modes, which Redux takes full advantage of.
+
  - Easy mode and Normal Mode both share Trainer teams. Where applicable, trainers have a unique Challenge Mode team.
  - Easy mode differs from Normal mode only by subtracting levels, equal to what they are raised by in Challenge mode. This is also noted.
 
 Compared to the other modes, Challenge Mode increases the levels of trainers and important trainers have separate, Challenge Mode only teams.
+
  - Where a trainer shares a team between all three difficulty modes, this increase in levels is separately noted.
  - Where a trainer on Challenge mode has a unique team, the trainer's levels are as stated.
  - For example, you'll need to subtract 1 level from Cheren's Normal mode team if you're playing on Easy mode, but if you're playing on Challenge mode, the levels are as stated.
 
 It is currently impossible to set Trainer Pokémon's Natures and EVs in Gen V.
+
  - This also the case by default in all games, up until Gen VII, however in Gen III, very talented people have managed to implement trainer EVs into their games.
  - This hasn't been cracked yet for Gen V, so all Trainer Pokémon have random Nature's and no EV's.
  - Stronger Trainers have their Pokémon's IV's set to 30/31 across the board, however.
@@ -41,10 +45,12 @@ EV and Level Trainers' Information
 Like in Renegade Platinum, Redux features a handy EV and Level Trainer (Split into two NPCs this time!). They are both found together in the PWT.
 
 Here's a quick list of requirements to unlock the different training levels:
+
  - These are based on the Challenge mode level curve, but hold for all difficulties.
  - That is, the following information is correct regardless of the difficulty played on.
 
 Training Level      Requirement
+---                 ---
 Lv. 10              1st badge
 Lv. 20              2nd badge
 Lv. 30              4th badge
@@ -64,12 +70,12 @@ Many players enjoy sticking to the 'level caps' of important trainers. Below is 
 You are of course free to ignore this though, if it's not your thing :).
 
 It is currently impossible to achieve inbuilt level caps in Gen V projects, like those seen in Radical Red et al.
- - These are born of the pokeemerald-expansion and the Complete FireRed Upgrade available for Gen III titles, no such
-   equivalent exists yet for Gen V.
- - Thus, the player will need to manually ensure they don't over-level, if such a player decides they want to play with
-   level caps.
+
+ - These are born of the pokeemerald-expansion and the Complete FireRed Upgrade available for Gen III titles, no such equivalent exists yet for Gen V.
+ - Thus, the player will need to manually ensure they don't over-level, if such a player decides they want to play with level caps.
 
 Now that the game has been out a little while, these caps include caps for all boss trainers and new important battles in Redux.
+
  - These are the recommended caps for playing challenge runs, but you are of course free to play as you see fit :).
 
 
@@ -89,6 +95,7 @@ Here is a spoiler free level guide for Normal Mode:
 
 
 And here is a spoiler free, more comprehensive level guide for Challenge Mode:
+
  - Cheren, Lv. 14
  - Roxie, Lv. 21
  - New to Redux, Lv. 23
@@ -115,14 +122,6 @@ And here is a spoiler free, more comprehensive level guide for Challenge Mode:
 =============================================================
 Full Level Cap and Guide for Challenge mode (Spoilers!)
 =============================================================
-
-
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Spoilers ahead! You have been warned!
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
 
 This is a more comprehensive guide to the levels of all important Challenge mode trainers.
 
@@ -176,29 +175,36 @@ Challenge Mode Level Bug - Important info for Challenge Runs!
 =============================================================
 
 There exists a bug in all copies of Black 2 and White 2 (vanilla or modified!), for which the level shown for each trainer's Pokémon is not the real one, stat-wise.
+
  - This effects Easy and Challenge mode, but not Normal mode and is a Gamefreak bug in the damage calculation which currently can't ben fixed in Redux, just worked around sometimes.
 
 For instance, Cheren's Challenge mode Munchlax is level 14. However, it actually has the stats of a level 13 Munchlax!
+
  - The root of the issue is that the game doesn't properly add the extra difficulty levels (these levels "Levels -1 on Easy mode, +1 on Challenge mode." etc).
 
 Another common examples of the bug looks like this:
+
  - Challenging Ghetsis at the E4 level cap effectively puts the player 10 levels above his Pokémon! (+6 from overleveling, +4 from the bug)
 
 The damage formula takes into account the level to calculate the outgoing damage of a Pokémon. For this reason, two Pokémon with identical stats but different levels will do different damage by using the same move.
+
  - For example: an imaginary level 50 Rattata with 100 base attack will do less damage than a level 60 rattata with 100 attack, by using the same move.
  - For this reason if you wanna level cap by using the "unbugged level", it would be better to use a level in between the bugged one and the unbugged one (otherwise you'll play in disadvantage because you'll take more damage than you're supposed to).
 
 Generally, the bug will behave something like this:
+
  - The player has a +1 level advantage up until Roxie.
  - The player a +2 level advantage up until Elesa.
  - The player a +3 level advantage up until Skyla.
  - The player a +4 level advantage for the rest of the game past Skyla.
+
 This is flipped in Easy mode to a level disadvantage, which ironically makes Easy mode tougher to complete than Normal mode!
 
 All instances in this document where you see the line "No level shift based on difficulty, levels are as stated.", the trainers in that area do not suffer from the Challenge mode level bug.
 
 
 That might seem pretty confusing - and it is! How this got past Gamefreak developers is beyond me, although in a casual setting you probably won't notice the difference.
+
  - There are community guides you can seek out to find 'unbugged' level guides, if you want to try to minimise the advantage the bug gives the player as much as possible
 
 
@@ -206,26 +212,12 @@ That might seem pretty confusing - and it is! How this got past Gamefreak develo
 To recap, if you've ever felt that Black 2 and White 2 get easier as the game progresses, this is why!
 
 
-                        ---
-
-
 =============================================================
-~~~~~~~~~~~~~~~~~~ Trainer Changes ~~~~~~~~~~~~~~~~~~~~~~
+Trainer Changes
 =============================================================
 
-
-
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-*Major* Spoilers ahead! You have been warned!
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-
-
-=============================================================
 Route 20
-=============================================================
++++
 
  - Levels -1 on Easy mode, +1 on Challenge mode.
 
@@ -302,9 +294,8 @@ Arcanine [Flash Fire], lv.40: Extreme Speed, Raging Fury, Scorching Sands, Thund
 Stoutland [Intimidate], lv.40: Ice Fang, Thunder Fang, Fire Fang, Double-Edge
 
 
-=========================================================
 Floccesy Ranch
-=========================================================
++++
 
  - Levels -1 on Easy mode, +1 on Challenge mode.
 
@@ -346,9 +337,8 @@ Axew [Mold Breaker], lv.11: Endure, Rock Tomb, Taunt, Payback
 Joltik [Compound Eyes], lv.11: Screech, Shock Wave, Struggle Bug, Spider Web
 
 
-=========================================================
 Floccesy Town
-=========================================================
++++
 
  - When you follow Alder inside, you will face two school kids back to back (you are healed in between fights).
    - The trainers you fight will differ depending on the starter you chose.
@@ -388,9 +378,8 @@ Tepig [Sheer Force], lv.11: Ember, Smog, Defense Curl, Tackle
 Torchic [Quick Feet], lv.11: Ember, Growl, Sand Attack, Scratch
 
 
-=========================================================
 Aspertia City - Trainer School and Cheren's Gym
-=========================================================
++++
 
 ~~~~~~~~~~~~~~
 Trainer School
@@ -439,9 +428,8 @@ Deerling [Sap Sipper], lv.13 @Occa Berry: Work Up, Double Kick, Tackle, Leech Se
 Munchlax [Thick Fat], lv.14 @Oran Berry: Work Up, Tackle, Pursuit, Rock Tomb
 
 
-=========================================================
 Virbank Complex
-=========================================================
++++
 
  - Levels -1 on Easy mode, +1 on Challenge mode.
 
@@ -477,9 +465,8 @@ Vulpix [Drought], lv.15: Hypnosis, Fire Spin, Hex, Spite
 Cherubi [Chlorophyll], lv.15: Growth, Magical Leaf, Nature Power
 
 
-=========================================================
 Virbank City and Roxie's Gym
-=========================================================
++++
 
  - No level shift based on difficulty, levels are as stated.
 
@@ -552,9 +539,8 @@ Smoochum [Dry Skin], lv.21 @Focus Sash: Powder Snow, Confusion, Nasty Plot, Fake
 Shellder [Skill Link], lv.21 @Mystic Water: Icicle Spear, Rock Blast, Water Pulse, Shell Smash
 
 
-=========================================================
 Route 4 - Pre-Burgh/Castelia Side
-=========================================================
++++
 
  - Levels -2 on Easy mode, +2 on Challenge mode.
 
@@ -581,9 +567,8 @@ Dwebble [Shell Armor], lv.20: Faint Attack, Bug Bite, Smack Down, Withdraw
 Darumaka [Hustle], lv.20: Facade, Uproar, Fire Fang
 
 
-=========================================================
 Castelia City - Battle Company
-=========================================================
++++
 
  - Levels -2 on Easy mode, +2 on Challenge mode.
 
@@ -622,9 +607,8 @@ Quagsire [Water Absorb], lv.23: Bulldoze, Double Kick, Water Pulse, Curse
 Mr. Mime [Filter], lv.23: Draining Kiss, Psybeam, Fake Out, Hypnosis
 
 
-=========================================================
 Castelia Sewers
-=========================================================
++++
 
  - Levels -2 on Easy mode, +2 on Challenge mode.
 
@@ -689,9 +673,8 @@ Azumarill [Huge Power], lv.45: Soak, Aqua Tail, Future Sight, Body Slam
 Cinccino [Skill Link], lv.45: Tail Slap, Tickle, Wake-Up Slap, Sing
 
 
-=========================================================
 Liberty Garden
-=========================================================
++++
 
  - No level shift based on difficulty, levels are as stated.
  - Victini's Guardian will only battle the player on Challenge mode, before Burgh is defeated.
@@ -706,9 +689,8 @@ Shedinja [Wonder Guard], lv.27 @Focus Sash: Shadow Sneak, Ally Switch, Will-O-Wi
 Bellossom [Cloud Nine*], lv.27 @Leftovers: Fiery Dance, Leaf Tornado, Mud Bomb, Stun Spore
 
 
-=========================================================
 Relic Passage - Castelia Side
-=========================================================
++++
 
  - Levels -2 on Easy mode, +2 on Challenge mode.
 
@@ -731,9 +713,8 @@ Gurdurr [Sheer Force], lv.24: Payback, Counter, Force Palm, Rock Throw
 Simisage [Overgrow], lv.24: Leech Seed, Seed Bomb, Disarming Voice, Bite
 
 
-=========================================================
 Castelia City - Various + Burgh's Gym
-=========================================================
++++
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 GAMEFREAK Offices - Main Story
@@ -865,9 +846,8 @@ Typhlosion [Flash Fire], lv.50 @Choice Scarf: Eruption
 Feraligatr [Sheer Force], lv.50 @Life Orb: Aqua Tail, Dragon Dance, Crunch, Ice Fang
 
 
-=========================================================
 Route 4 - Post-Burgh
-=========================================================
++++
 
  - Levels -2 on Easy mode, +2 on Challenge mode.
 
@@ -966,9 +946,8 @@ Togetic [Super Luck], lv.26: Air Cutter, Future Sight, Metronome, Draining Kiss
 Vileplume [Thick Fat*], lv.26: Sludge, Nature Power, Sleep Powder, Ingrain
 
 
-=========================================================
 Desert Resort
-=========================================================
++++
 
  - Levels -2 on Easy mode, +2 on Challenge mode.
 
@@ -1014,9 +993,8 @@ Tirtouga [Sturdy], lv.27: Rock Slide, Razor Shell, Crunch, Aqua Jet
 Archen [Defeatist], lv.27: Pluck, Rock Tomb, Dragon Breath, Quick Attack
 
 
-=========================================================
 Relic Castle
-=========================================================
++++
 
  - Levels -2 on Easy mode, +2 on Challenge mode.
 
@@ -1039,9 +1017,8 @@ Spoink [Thick Fat], lv.28: Mirror Coat, Mirror Coat, Amnesia, Future Sight
 Kadabra [Synchronize], lv.28: Shock Wave, Psybeam, Recover, Nasty Plot
 
 
-=========================================================
 Nimbasa City
-=========================================================
++++
 
  - Levels -2 on Easy mode, +2 on Challenge mode.
 
@@ -1114,9 +1091,8 @@ Archen [Defeatist], lv.34: Accelerock, Dual Wingbeat, Dragon Claw, Crunch
 Swoobat [Simple], lv.34: Esper Wing, Air Cutter, Calm Mind, Stored Power
 
 
-=========================================================
 Route 16
-=========================================================
++++
 
  - Levels -2 on Easy mode, +2 on Challenge mode.
 
@@ -1154,9 +1130,8 @@ Farfetch'd [Defeatist*], lv.30: Fury Cutter, Aerial Ace, Feather Dance, Revenge
 Munchlax [Thick Fat], lv.30: Curse, Chip Away, Whirlwind, Gastro Acid
 
 
-=========================================================
 Lostlorn Forest
-=========================================================
++++
 
  - Levels -2 on Easy mode, +2 on Challenge mode.
 
@@ -1188,9 +1163,8 @@ Yanmega [Speed Boost], lv.50: Bug Buzz, Air Slash, Ancient Power, Protect
 Volcarona [Swarm], lv.50: Fire Blast, Psychic, Silver Wind, Giga Drain
 
 
-=========================================================
 Route 5
-=========================================================
++++
 
  - Levels -2 on Easy mode, +2 on Challenge mode.
 
@@ -1235,9 +1209,8 @@ Bouffalant [Reckless], lv.37 @Sitrus Berry: Head Charge, Wild Charge, Megahorn, 
 Crustle [Sturdy], lv.37 @Custap Berry: Rock Slide, Accelerock, Shell Smash, X-Scissor
 
 
-=========================================================
 Amusement Park and Elesa's Gym
-=========================================================
++++
 
 ~~~~~~~~~~~~~~
 Amusement Park
@@ -1293,9 +1266,8 @@ Stunfisk [Lightning Rod], lv.37 @Sitrus Berry: Muddy Water, Discharge, Earth Pow
 Zebstrika [Motor Drive], lv.38 @Life Orb: Wild Charge, Flare Blitz, High Horsepower, Lunge
 
 
-=========================================================
 Driftveil City
-=========================================================
++++
 
  - No level shift based on difficulty, levels are as stated.
 
@@ -1329,9 +1301,8 @@ Carracosta [Study], lv.41 @White Herb: Shell Smash, Razor Shell, Aqua Jet, Body 
 Basculin [Adaptability], lv.41 @Wacan Berry: Waterfall, Aqua Jet, Psychic Fangs, Head Smash
 
 
-=========================================================
 Route 6
-=========================================================
++++
 
  - Levels -3 on Easy mode, +3 on Challenge mode.
 
@@ -1401,9 +1372,8 @@ Starmie [Regenerator], lv.46 @Red Card: Scald, Psyshock, Signal Beam, Tri Attack
 Emboar [Mold Breaker], lv.47 @Leftovers: Body Slam, Flame Charge, Earthquake, Cross Chop
 
 
-=========================================================
 Clay Tunnel
-=========================================================
++++
 
  - Levels -3 on Easy mode, +3 on Challenge mode.
 
@@ -1461,9 +1431,8 @@ Onix [Weak Armor], lv.38: Dragon Dance, Rock Slide, High Horsepower, Thunder Fan
 Sunflora [Solar Power], lv.38: Leaf Tornado, GrassWhistle, Earth Power, Morning Sun
 
 
-=========================================================
 Clay's Gym
-=========================================================
++++
 
  - No level shift based on difficulty, levels are as stated.
  - So as not to spoil the gym puzzle for those who enjoy figuring it out, Trainers are not correctly marked as mandatory here! (Except Clay ;))
@@ -1525,9 +1494,8 @@ Nidoking [Sheer Force], lv.44 @Life Orb: Earth Power, Sludge Wave, Ice Beam, Thu
 Excadrill [Sand Rush], lv.45 @Air Balloon: Earthquake, Swords Dance, Rock Slide, X-Scissor
 
 
-=========================================================
 Plasma Frigate - First Visit
-=========================================================
++++
 
  - Levels -3 on Easy mode, +3 on Challenge mode.
 
@@ -1582,9 +1550,8 @@ Starmie [Regenerator], lv.39: Bubble Beam, Psyshock, Signal Beam, Calm Mind
 Vibrava [Levitate], lv.39: Signal Beam, Earth Power, Rock Slide, Dragon Breath
 
 
-=========================================================
 Chargestone Cave
-=========================================================
++++
 
  - Levels -3 on Easy mode, +3 on Challenge mode.
 
@@ -1667,9 +1634,8 @@ Noctowl [Insomnia], lv.41: Whirlwind, Extrasensory, Air Slash, Agility
 Cacturne [Water Absorb], lv.41: Needle Arm, Sucker Punch, Pin Missile, Drain Punch
 
 
-=========================================================
 Relic Passage - Driftveil Side
-=========================================================
++++
 
  - Levels -3 on Easy mode, +3 on Challenge mode.
 
@@ -1732,9 +1698,8 @@ Rotom-Heat [Levitate], lv.70 @White Herb: Overheat, Volt Switch, Will-O-Wisp, He
 Rotom-Wash [Levitate], lv.70 @Rindo Berry: Hydro Pump, Volt Switch, Pain Split, Signal Beam
 
 
-=========================================================
 Mistralton Cave
-=========================================================
++++
 
  - Levels -3 on Easy mode, +3 on Challenge mode.
 
@@ -1763,9 +1728,8 @@ Gabite [Rough Skin], lv.42: Slash, Bulldoze, Dual Chop, Rock Slide
 Zweilous [Hustle], lv.42: Dragon Rush, Zen Headbutt, Head Smash, Body Slam
 
 
-=========================================================
 Route 7
-=========================================================
++++
 
  - Levels -3 on Easy mode, +3 on Challenge mode.
 
@@ -1819,9 +1783,8 @@ Pidgeotto [Tangled Feet], lv.45: Air Slash, Hyper Voice, Mirror Move, Steel Wing
 Venomoth [Tinted Lens], lv.45: Silver Wind, Morning Sun, Skill Swap, Signal Beam
 
 
-=========================================================
 Celestial Tower
-=========================================================
++++
 
  - Levels -3 on Easy mode, +3 on Challenge mode.
 
@@ -1878,9 +1841,8 @@ Gallade [Hyper Cutter*], lv.45: Shadow Sneak, Leaf Blade, Sacred Sword, Slash
 Gothitelle [Shadow Tag], lv.45: Hypnosis, Substitute, Dark Pulse, Future Sight
 
 
-=========================================================
 Twist Mountain - Mistralton Side
-=========================================================
++++
 
  - No level shift based on difficulty, levels are as stated.
 
@@ -1901,9 +1863,8 @@ F-00 [Volt Absorb], lv.53 @Chople Berry: U-Turn, Extreme Speed, Thunder Wave, Ne
 MT2 [Flash Fire], lv.53 @Air Balloon: Shift Gear, Meteor Mash, Earthquake, Wild Charge
 
 
-=========================================================
 Mistralton City
-=========================================================
++++
 
  - No level shift based on difficulty, levels are as stated.
 
@@ -1980,9 +1941,8 @@ Togekiss [Serene Grace], lv.54 @Wacan Berry: Heat Wave, Dazzling Gleam, Hurrican
 Swanna [Friend Guard*], lv.55 @Life Orb: Hurricane, Hydro Pump, Icy Wind, Protect
 
 
-=========================================================
 Reversal Mountain
-=========================================================
++++
 
 ~~~~~~~~~~~~~~
 Outside Region
@@ -2087,9 +2047,8 @@ Stantler [Intimidate], lv.54: Hypnosis, Aura Sphere, Psyshield Bash, Lunge
 Vileplume [Thick Fat*], lv.54: Earth Power, Giga Drain, Moonblast, Toxic
 
 
-=========================================================
 Strange House
-=========================================================
++++
 
  - Levels -4 on Easy mode, +4 on Challenge mode.
 
@@ -2104,9 +2063,8 @@ Gardevoir [Trace], lv.49: Healing Wish, Disable, Future Sight, Mean Look
 Mismagius [Infiltrator*], lv.49: Spite, Ominous Wind, Hypnosis, Magical Leaf
 
 
-=========================================================
 Undella Town
-=========================================================
++++
 
  - Levels -4 on Easy mode, +4 on Challenge mode.
 
@@ -2132,9 +2090,8 @@ Emboar [Mold Breaker], lv.54 @Leftovers: Wild Charge, Flame Charge, Earthquake, 
 Lilligant [Own Tempo], lv.54 @Focus Sash: Petal Dance, Sleep Powder, Quiver Dance, Extrasensory
 
 
-=========================================================
 Undella Bay
-=========================================================
++++
 
  - Levels -4 on Easy mode, +4 on Challenge mode.
 
@@ -2172,9 +2129,8 @@ Kingdra [Sniper], lv.49: Aurora Beam, Octazooka, Signal Beam, Clear Smog
 Wailord [Pressure], lv.49: Brine, Bounce, Body Slam, Amnesia
 
 
-=========================================================
 Route 14
-=========================================================
++++
 
  - Levels -4 on Easy mode, +4 on Challenge mode.
 
@@ -2220,9 +2176,8 @@ Seadra [Poison Point], lv.50: Aurora Beam, Clear Smog, Muddy Water, Bounce
 Feebas [Swift Swim], lv.50: Splash, Tackle, Flail, Water Pulse
 
 
-=========================================================
 Adundant Shrine
-=========================================================
++++
 
  - Levels -4 on Easy mode, +4 on Challenge mode.
 
@@ -2251,9 +2206,8 @@ Scolipede [Poison Point], lv.51: Poison Tail, Steamroller, Swords Dance, Protect
 Accelgor [Unburden], lv.51: Leech Life, Extreme Speed, Energy Ball, Acrobatics
 
 
-=========================================================
 Route 13
-=========================================================
++++
 
  - Levels -4 on Easy mode, +4 on Challenge mode.
 
@@ -2322,9 +2276,8 @@ Raticate [Guts], lv.52: Sucker Punch, Reversal, Double-Edge, Scary Face
 Vespiquen [Intimidate*], lv.52: Air Slash, Ominous Wind, Attack Order, Cross Poison
 
 
-=========================================================
 Lacunosa Town
-=========================================================
++++
 
  - Levels -4 on Easy mode, +4 on Challenge mode.
 
@@ -2349,9 +2302,8 @@ Eelektross [Levitate], lv.51: Wild Charge, Aqua Tail, Drain Punch, Giga Drain
 Flygon [Levitate], lv.51: Earth Power, Dragon Pulse, Bug Buzz, Rock Slide
 
 
-=========================================================
 Route 12
-=========================================================
++++
 
  - No level shift based on difficulty, levels are as stated.
 
@@ -2388,9 +2340,8 @@ Conkeldurr [Guts], lv.61 @Flame Orb: Drain Punch, Mach Punch, Knock Off, Facade
 Volcarona [Flame Body], lv.62 @Lum Berry: Quiver Dance, Fiery Dance, Bug Buzz, Giga Drain
 
 
-=========================================================
 Village Bridge
-=========================================================
++++
 
  - Levels -4 on Easy mode, +4 on Challenge mode.
 
@@ -2447,9 +2398,8 @@ Chansey [Natural Cure], lv.54 @Sitrus Berry: Double-Edge, Aromatherapy, Counter,
 Cherrim [Flower Gift], lv.54 @Sitrus Berry: Energy Ball, Grass Whistle, Draining Kiss, Aromatherapy
 
 
-=========================================================
 Route 11
-=========================================================
++++
 
  - Levels -4 on Easy mode, +4 on Challenge mode.
 
@@ -2471,9 +2421,8 @@ Wigglytuff [Huge Power*], lv.55: Thunderbolt, Ice Beam, Hyper Voice, Play Rough
 Gliscor [Poison Heal], lv.55 @Toxic Orb: Acrobatics, Fling, Sky Uppercut, Earthquake
 
 
-=========================================================
 Opelucid City
-=========================================================
++++
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Rotation House/Triple House (Black 2/White 2 respectively):
@@ -2535,9 +2484,8 @@ Scyther [Technician], lv.59 @Focus Sash: U-Turn, Dual Wingbeat, Quick Attack, Bu
 Absol [Super Luck], lv.60 @Scope Lens: Play Rough, Megahorn, Sucker Punch, Psycho Cut
 
 
-=========================================================
 Route 9
-=========================================================
++++
 
  - Levels -4 on Easy mode, +4 on Challenge mode.
 
@@ -2582,9 +2530,8 @@ Ledian [Rattled], lv.56: Knock Off, Lunge, Smart Strike, Baton Pass
 Persian [Technician], lv.56: Power Gem, Fake Out, Double-Edge, Play Rough
 
 
-=========================================================
 Drayden's Gym
-=========================================================
++++
 
  - Not all the gym trainers are mandatory to progress, you can pick a side on each level as you progress to Drayden.
  - No level shift based on difficulty, levels are as stated.
@@ -2632,9 +2579,8 @@ Salamence [Intimidate], lv.63 @Yache Berry: Dragon Claw, Flamethrower, Dragon Da
 Sceptile [Unburden], lv.63 @Focus Sash: Dragon Claw, Leaf Blade, Acrobatics, Drain Punch
 
 
-=========================================================
 Seaside Cave
-=========================================================
++++
 
  - Levels -4 on Easy mode, +4 on Challenge mode.
 
@@ -2675,9 +2621,8 @@ Breloom [Technician], lv.60: Bullet Seed, Force Palm, Mach Punch, Rock Tomb
 Sawk [Sturdy], lv.60: Reversal, Blaze Kick, Stone Edge, Zen Headbutt
 
 
-=========================================================
 Route 21
-=========================================================
++++
 
  - Levels -4 on Easy mode, +4 on Challenge mode.
 
@@ -2715,9 +2660,8 @@ Wailmer [Pressure], lv.60: Hydro Pump, Soak, Body Slam, Bounce
 Wailord [Pressure], lv.60: Hydro Pump, Soak, Body Slam, Bounce
 
 
-=========================================================
 Route 22
-=========================================================
++++
 
  - Levels -4 on Easy mode, +4 on Challenge mode.
 
@@ -2754,9 +2698,8 @@ Ludicolo [Swift Swim], lv.60: Zen Headbutt, Muddy Water, Energy Ball, Hyper Voic
 Lucario [Justified], lv.60: Dragon Pulse, Bullet Punch, Blaze Kick, Close Combat
 
 
-=========================================================
 Humilau City and Marlon's Gym
-=========================================================
++++
 
  - No level shift based on difficulty, levels are as stated.
 
@@ -2844,9 +2787,8 @@ Starmie [Analytic], lv.67 @Rindo Berry: Thunder, Hydro Pump, Psychic, Ice Beam
 Kingdra [Swift Swim], lv.68 @Water Gem: Muddy Water, Dragon Pulse, Hurricane, Flash Cannon
 
 
-=========================================================
 Plasma Frigate - Second Visit
-=========================================================
++++
 
  - Levels -4 on Easy mode, +4 on Challenge mode.
 
@@ -2956,9 +2898,8 @@ Serperior [Contrary], lv.63: Glare, Giga Drain, Dragon Pulse, Aqua Tail
 Samurott [Water Veil], lv.63: Air Slash, Waterfall, Megahorn, Superpower
 
 
-=========================================================
 Giant Chasm and Plasma Frigate - Third Visit
-=========================================================
++++
 
  - Levels -4 on Easy mode, +4 on Challenge mode.
 
@@ -3087,9 +3028,8 @@ Genesect [Download], lv.68 @Focus Sash: Bug Buzz, Iron Head, Thunderbolt, Ice Be
 Hydreigon [Levitate], lv.67 @Life Orb: Dragon Pulse, Nasty Plot, Dark Pulse, Flash Cannon
 
 
-=========================================================
 Route 23
-=========================================================
++++
 
  - Levels -4 on Easy mode, +4 on Challenge mode.
 
@@ -3153,9 +3093,8 @@ Darmanitan [Sheer Force], lv.67: Zen Headbutt, Flare Blitz, Lunge
 Machamp [Guts], lv.67: Close Combat, High Horsepower, Heavy Slam, Dual Chop
 
 
-=========================================================
 Victory Road
-=========================================================
++++
 
  - The path through Victory Road differs depending on game version.
    - Thus, Victory Road is laid out here segment by segment.
@@ -3411,9 +3350,8 @@ Emboar [Mold Breaker], lv.73 @Leftovers: V-Create, Sucker Punch, Wild Charge, Ea
 Lilligant [Own Tempo], lv.71 @Focus Sash: Petal Dance, Fiery Dance, Sleep Powder, Quiver Dance
 
 
-=========================================================
 The Pokémon League
-=========================================================
++++
 
  - No level shift based on difficulty, levels are as stated.
 
@@ -3515,17 +3453,15 @@ Latios [Levitate], lv.79 @Life Orb: Dragon Pulse, Aura Sphere, Mystical Fire, Es
 
 
 
-=========================================================
 The Postgame
-=========================================================
++++
 
 The Postgame is still broadly undocumented as of v1.2.0, since we've not got a fantastic amount of time to spend on it!
 For now, the old documentation for the postgame is presented.
 If anyone in the community would like to document things and spend their own time on it, we'd be happy to integrate the documentation into these official ones.
 
-=========================================================
 Important Postgame Trainers
-=========================================================
++++
 
 ~~~~~ Steven and Wallace ~~~~~
 
@@ -3550,9 +3486,8 @@ Kabutops [Swift Swim], lv.90 @Rindo Berry: Rock Slide, Waterfall, Leech Life, Kn
 Sharpedo [Speed Boost], lv.90 @Focus Sash: Waterfall, Crunch, Close Combat, Protect
 
 
-=========================================================
 Elite Four, Second Matches
-=========================================================
++++
 
 ~~~~~ Shauntal ~~~~~
 
@@ -3645,9 +3580,8 @@ Serperior [Contrary], lv.96 @Focus Sash: Leaf Storm, Draco Meteor, Glare, Substi
 Rayquaza [Air Lock], lv.98 @Life Orb: Outrage, V-Creat, Dragon Dance, Hurricane
 
 
-=========================================================
 Hugh, Postgame
-=========================================================
++++
 
 ○ HUGH - Undella Town
 Regardless of starter…
@@ -3692,9 +3626,8 @@ Emboar [Mold Breaker*], lv.84 @Leftovers: V-Create, Sucker Punch, Wild Charge, E
 Lilligant [Own Tempo], lv.82 @Focus Sash: Petal Dance, Fiery Dance, Sleep Powder, Quiver Dance
 
 
-=========================================================
 Plasma Frigate, Postgame
-=========================================================
++++
 
 ○ COLRESS:
 Porygon-Z [Adaptability], lv.86 @Focus Sash: Hyper Beam, Ice Beam, Thunderbolt, Trick Room
@@ -3705,9 +3638,8 @@ Beheeyem [Analytic], lv.86 @Colbur Berry: Psychic, Thunderbolt, Trick Room, Bug 
 Klinklang [Levitate*], lv.88 @: Gear Grind, Shift Gear, Wild Charge, Superpower
 
 
-=========================================================
 Icirrus City, Postgame
-=========================================================
++++
 
 ○ Shadow Triad:
 Bisharp [Defiant], lv.81 @Air Balloon: Sucker Punch, Iron Head, Swords Dance, Brick Break
@@ -3731,14 +3663,12 @@ Weavile [Pressure], lv.81 @Razor Claw: Feint Attack, Ice Shard, Low Kick, Fake O
 Gengar [Levitate], lv.83 @Life Orb: Shadow Ball, Thunderbolt, Focus Blast, Sludge Bomb
 
 
-=========================================================
 Other Important Trainers, Postgame
-=========================================================
++++
 
 
-=========================================================
 Castelia City
-=========================================================
++++
 
 ○ Gamefreak Morimoto
 Braviary [Defiant], lv.90 @Power Herb: Fly
@@ -3757,9 +3687,8 @@ Blissey [Serene Grace], lv.90 @Chople Berry: Gravity, Soft-Boiled, Thunder, Focu
 Snorlax [Thick Fat], lv.92 @Leftovers: Slack Off, Gunk Shot, Strength, Earthquake
 
 
-=========================================================
 Nature Preserve
-=========================================================
++++
 
 ○ HILBERT:
 Reshiram [Turboblaze], lv.100 @White Herb: Blue Flare, Draco Meteor, Earth Power, Focus Blast
@@ -3778,9 +3707,8 @@ Musharna [Telepathy], lv.98 @Leftovers: Moonblast, Psyshock, Psych Up, Shadow Ba
 Volcarona [Flame Body], lv.98 @Life Orb: Quiver Dance, Giga Drain, Fire Blast, Bug Buzz
 
 
-=========================================================
 Striation City
-=========================================================
++++
 
 ○ LEADER CILAN:
 Ferrothorn [Iron Barbs], lv.82 @Rocky Helmet: Power Whip, Gyro Ball, Rock Climb, Leech Seed
@@ -3798,9 +3726,8 @@ Darmanitan [Sheer Force], lv.82 @Life Orb: Flare Blitz, Rock Slide, Zen Headbutt
 Simisear [Blaze], lv.84 @White Herb: Overheat, Focus Blast, Acrobatics, Grass Knot
 
 
-=========================================================
 Benga, Postgame
-=========================================================
++++
 
 ○ BENGA - White Tree Hollow:
 Kyogre [Drizzle], lv.100 @Leftovers: Hydro Pump, Thunder, Ice Beam, Calm Mind
@@ -3817,9 +3744,8 @@ Latias [Levitate], lv.100 @Soul Dew: Dragon Pulse, Psychic, Solar Beam, Mystical
 Volcarona [Swarm], lv.100 @Leftovers: Quiver Dance, Fiery Dance, Bug Buzz, Morning Sun
 
 
-=========================================================
 Wellspring Cave
-=========================================================
++++
 
 ○ BLUE:
 Pidgeot [No Guard*], lv.85 @Life Orb: Hyper Voice, Hurricane, U-Turn, Heat Wave
@@ -3830,9 +3756,8 @@ Gyarados [Moxie], lv.85 @Focus Sash: Power Whip, Waterfall, Dragon Dance, Earthq
 Machamp [No Guard], lv.85 @Fighting Gem: Dynamic Punch, Stone Edge, Thunder Punch
 
 
-=========================================================
 Faraway Island
-=========================================================
++++
 
 Levels +7(!) on Challenge Mode
 
@@ -3844,9 +3769,8 @@ Charizard [Defiant*], lv.100 @Sitrus Berry: Belly Drum, Dragon Claw, Fire Lash, 
 Blastoise [Shell Armor], lv.100 @White Herb: Shell Smash, Ice Beam, Aura Sphere, Surf
 Venusaur [Solar Power*], lv.100 @Black Sludge: Giga Drain, Leech Seed, Toxic, Sludge Bomb
 
-=========================================================
 N
-=========================================================
++++
 
 FIRST BATTLE: Blaze Black 2
 Zekrom [Teravolt], lv.100 @Leftovers: Bolt Strike, Outrage, Dragon Dance, Stone Edge
@@ -3896,9 +3820,8 @@ Jynx [Trace*], lv.90 @Quick Claw: Psycho Boost, Blizzard, Psyshock, Focus Blast
 
 
 
-=========================================================
 Unovan Gym Leader Rematches, Postgame
-=========================================================
++++
 
 
 
