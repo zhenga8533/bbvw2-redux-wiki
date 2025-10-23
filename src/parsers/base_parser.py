@@ -77,24 +77,32 @@ class BaseParser(ABC):
 
     def _section_to_method_name(self, section: str) -> str:
         """
-        Convert section name to method name.
+        Convert a section name to a normalized handler method name.
 
-        Args:
-            section: The section name
+        Examples:
+          "Getting Started" -> "parse_getting_started"
+          "Pokémon & Data"   -> "parse_pokemon_data"
 
-        Returns:
-            str: The method name
+        Falls back to "parse_default" if the section yields an empty name.
         """
+        if not section:
+            return "parse_default"
 
-        # Normalize unicode characters (e.g., "Pokémon" -> "Pokemon")
-        normalized = unicodedata.normalize("NFKD", section)
-        # Remove accents/diacritics
-        ascii_str = normalized.encode("ASCII", "ignore").decode("ASCII")
-        # Convert to lowercase and replace spaces with underscores
-        snake_case = ascii_str.lower().replace(" ", "_")
-        # Remove any non-alphanumeric characters except underscores
-        clean = "".join(c for c in snake_case if c.isalnum() or c == "_")
-        return f"parse_{clean}"
+        # Normalize unicode (e.g., "Pokémon" -> "Pokemon") and lower-case
+        s = (
+            unicodedata.normalize("NFKD", section)
+            .encode("ASCII", "ignore")
+            .decode("ASCII")
+            .lower()
+        )
+
+        # Replace any sequence of non-alphanumeric characters with a single underscore
+        s = re.sub(r"[^a-z0-9]+", "_", s)
+
+        # Trim leading/trailing underscores and collapse duplicates
+        s = s.strip("_")
+
+        return f"parse_{s}" if s else "parse_default"
 
     def get_title(self) -> str:
         """

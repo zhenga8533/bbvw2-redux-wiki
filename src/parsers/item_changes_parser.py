@@ -236,7 +236,7 @@ class ItemChangesParser(BaseParser):
         else:
             self.parse_default(line)
 
-    def parse_modified_tms__locations(self, line: str) -> None:
+    def parse_modified_tms_locations(self, line: str) -> None:
         """Parse lines under the Modified TMs + Locations section."""
         # Match: table header "TM #    Move                            Location in Redux"
         if line == "TM #    Move                            Location in Redux":
