@@ -35,6 +35,12 @@ class ReadWriteLock:
 
     Allows multiple concurrent readers or a single writer.
     This significantly improves performance for cache reads.
+
+    Supports context manager protocol for cleaner lock usage:
+        with lock.read_lock():
+            # read operations
+        with lock.write_lock():
+            # write operations
     """
 
     def __init__(self):
@@ -84,6 +90,44 @@ class ReadWriteLock:
             else:
                 self._read_ok.notify_all()
 
+    def read_lock(self):
+        """Context manager for read lock."""
+        return _ReadLockContext(self)
+
+    def write_lock(self):
+        """Context manager for write lock."""
+        return _WriteLockContext(self)
+
+
+class _ReadLockContext:
+    """Context manager for read lock."""
+
+    def __init__(self, lock: ReadWriteLock):
+        self.lock = lock
+
+    def __enter__(self):
+        self.lock.acquire_read()
+        return self
+
+    def __exit__(self, exc_type, exc_val, exc_tb):
+        self.lock.release_read()
+        return False
+
+
+class _WriteLockContext:
+    """Context manager for write lock."""
+
+    def __init__(self, lock: ReadWriteLock):
+        self.lock = lock
+
+    def __enter__(self):
+        self.lock.acquire_write()
+        return self
+
+    def __exit__(self, exc_type, exc_val, exc_tb):
+        self.lock.release_write()
+        return False
+
 
 class PokeDBLoader:
     """
@@ -129,6 +173,10 @@ class PokeDBLoader:
     _cache: OrderedDict[tuple[str, ...], Pokemon | Move | Ability | Item] = (
         OrderedDict()
     )
+
+    # Subfolder cache: Maps pokemon name to its subfolder
+    # This allows save_pokemon to know which subfolder to use
+    _subfolder_cache: dict[str, str] = {}
 
     # Cache statistics
     _cache_hits: int = 0
@@ -278,7 +326,7 @@ class PokeDBLoader:
 
     @classmethod
     def _load_json(
-        cls, category: str, name: str, subfolder: Optional[str] = None
+        cls, category: str, name: str, subfolder: Optional[str] = None, silent: bool = False
     ) -> dict:
         """
         Load a JSON file from the PokeDB directory.
@@ -287,6 +335,7 @@ class PokeDBLoader:
             category: The category folder (pokemon, move, ability, item)
             name: The name of the JSON file (without .json extension)
             subfolder: Optional subfolder within category
+            silent: If True, don't log error messages for file not found
 
         Returns:
             dict: Parsed JSON data
@@ -303,7 +352,8 @@ class PokeDBLoader:
                 search_location = data_dir / category / subfolder
             else:
                 search_location = data_dir / category
-            logger.error(f"File not found: {name}.json in {search_location}")
+            if not silent:
+                logger.error(f"File not found: {name}.json in {search_location}")
             raise FileNotFoundError(
                 f"File not found: {name}.json (searched in {search_location})"
             )
@@ -365,15 +415,35 @@ class PokeDBLoader:
         This shared method is used after loading any item from disk to avoid
         code duplication and ensure consistent cache behavior.
 
+        Uses double-checked locking for better performance: checks with read lock
+        first to avoid unnecessary write lock acquisition.
+
         Args:
             cache_key: Tuple key for cache lookup (format varies by type)
             item: Item object to cache (Pokemon, Move, Ability, or Item)
             item_type: Type of item ("pokemon", "move", "ability", "item")
             name: Item name (for logging)
         """
-        cls._cache_lock.acquire_write()
-        try:
-            # Check again if another thread cached it while we were loading
+        # Double-checked locking: check if already cached with read lock first
+        with cls._cache_lock.read_lock():
+            if cache_key in cls._cache:
+                # Another thread already cached it, just update access order
+                # Note: We can't safely move_to_end with read lock, so we'll
+                # acquire write lock below
+                needs_update = True
+            else:
+                needs_update = False
+
+        if needs_update:
+            # Update LRU order with write lock
+            with cls._cache_lock.write_lock():
+                if cache_key in cls._cache:
+                    cls._cache.move_to_end(cache_key)
+                    return
+
+        # Add to cache with write lock
+        with cls._cache_lock.write_lock():
+            # Check again if another thread cached it while we were waiting
             if cache_key in cls._cache:
                 cls._cache.move_to_end(cache_key)
                 return
@@ -405,38 +475,85 @@ class PokeDBLoader:
             logger.debug(
                 f"Cached {item_type} '{name}' (cache size: {len(cls._cache)}/{cls.MAX_CACHE_SIZE})"
             )
-        finally:
-            cls._cache_lock.release_write()
 
     @classmethod
-    def load_pokemon(cls, name: str, subfolder: str = "default") -> Optional[Pokemon]:
+    def load_pokemon(cls, name: str, subfolder: Optional[str] = None) -> Optional[Pokemon]:
         """
         Load a Pokemon JSON file with thread-safe LRU caching.
 
+        If subfolder is not provided, automatically searches all subfolders
+        (default, cosmetic, transformation, variant) in order and returns
+        the first match. The found subfolder is cached for use with save_pokemon().
+
         Args:
             name: Pokemon name (e.g., 'Pikachu', 'pikachu', or 'PIKACHU')
-            subfolder: Pokemon subfolder (default, cosmetic, transformation, variant)
+            subfolder: Optional subfolder (default, cosmetic, transformation, variant).
+                      If None, searches all subfolders automatically.
 
         Returns:
             Optional[Pokemon]: Pokemon data, or None if not found
 
         Examples:
+            >>> # Auto-detect subfolder (recommended)
             >>> pokemon = PokeDBLoader.load_pokemon("Pikachu")
             >>> if pokemon:
             ...     print(pokemon.name)
             pikachu
             >>> print(pokemon.types)
             ['electric']
-            >>> # Load a specific form
+            >>> # Load from specific subfolder
             >>> darmanitan = PokeDBLoader.load_pokemon("Darmanitan-Zen", subfolder="variant")
         """
         # Normalize the name to ID format
         name = name_to_id(name)
+
+        # If subfolder is provided, use the original behavior
+        if subfolder is not None:
+            return cls._load_pokemon_from_subfolder(name, subfolder)
+
+        # Check if we have a cached subfolder for this Pokemon
+        with cls._cache_lock.read_lock():
+            cached_subfolder = cls._subfolder_cache.get(name)
+
+        if cached_subfolder:
+            # Try the cached subfolder first
+            result = cls._load_pokemon_from_subfolder(name, cached_subfolder)
+            if result:
+                return result
+            # If not found in cached subfolder, fall through to search all
+
+        # Search all subfolders in order
+        subfolders_to_try = ["default", "cosmetic", "transformation", "variant"]
+        for search_subfolder in subfolders_to_try:
+            result = cls._load_pokemon_from_subfolder(name, search_subfolder)
+            if result:
+                # Cache the subfolder for future saves
+                with cls._cache_lock.write_lock():
+                    cls._subfolder_cache[name] = search_subfolder
+                logger.debug(
+                    f"Found Pokemon '{name}' in subfolder '{search_subfolder}', cached for future saves"
+                )
+                return result
+
+        logger.debug(f"Pokemon '{name}' not found in any subfolder")
+        return None
+
+    @classmethod
+    def _load_pokemon_from_subfolder(cls, name: str, subfolder: str) -> Optional[Pokemon]:
+        """
+        Internal method to load a Pokemon from a specific subfolder.
+
+        Args:
+            name: Pokemon name (already normalized to ID format)
+            subfolder: Pokemon subfolder
+
+        Returns:
+            Optional[Pokemon]: Pokemon data, or None if not found
+        """
         cache_key = ("pokemon", name, subfolder)
 
         # Check cache first (with read lock for better concurrency)
-        cls._cache_lock.acquire_read()
-        try:
+        with cls._cache_lock.read_lock():
             if cache_key in cls._cache:
                 cls._cache_hits += 1
                 result = cls._cache[cache_key]
@@ -451,13 +568,12 @@ class PokeDBLoader:
                 return result
             # Cache miss
             cls._cache_misses += 1
-        finally:
-            cls._cache_lock.release_read()
 
         # Load from file (outside cache lock to allow parallel file reads)
         logger.debug(f"Loading Pokemon '{name}' from disk (subfolder: {subfolder})")
         try:
-            data = cls._load_json("pokemon", name, subfolder)
+            # Use silent=True to avoid error logging during auto-detection search
+            data = cls._load_json("pokemon", name, subfolder, silent=True)
         except FileNotFoundError:
             logger.debug(f"Pokemon '{name}' not found in subfolder '{subfolder}'")
             return None
@@ -470,8 +586,13 @@ class PokeDBLoader:
             logger.error(f"Error deserializing Pokemon '{name}': {e}", exc_info=True)
             return None
 
-        # Cache the result with LRU eviction
+        # Cache the result with LRU eviction and update subfolder cache
         cls._update_cache(cache_key, pokemon, "pokemon", name)
+
+        # Update subfolder cache so save operations use the correct location
+        with cls._cache_lock.write_lock():
+            cls._subfolder_cache[name] = subfolder
+
         return pokemon
 
     @classmethod
@@ -556,8 +677,7 @@ class PokeDBLoader:
         cache_key = ("move", name)
 
         # Check cache first (with read lock)
-        cls._cache_lock.acquire_read()
-        try:
+        with cls._cache_lock.read_lock():
             if cache_key in cls._cache:
                 cls._cache_hits += 1
                 result = cls._cache[cache_key]
@@ -572,8 +692,6 @@ class PokeDBLoader:
                 return result
             # Cache miss
             cls._cache_misses += 1
-        finally:
-            cls._cache_lock.release_read()
 
         # Load from file
         try:
@@ -637,8 +755,7 @@ class PokeDBLoader:
         cache_key = ("ability", name)
 
         # Check cache first (with read lock)
-        cls._cache_lock.acquire_read()
-        try:
+        with cls._cache_lock.read_lock():
             if cache_key in cls._cache:
                 cls._cache_hits += 1
                 result = cls._cache[cache_key]
@@ -653,8 +770,6 @@ class PokeDBLoader:
                 return result
             # Cache miss
             cls._cache_misses += 1
-        finally:
-            cls._cache_lock.release_read()
 
         # Load from file
         try:
@@ -711,8 +826,7 @@ class PokeDBLoader:
         cache_key = ("item", name)
 
         # Check cache first (with read lock)
-        cls._cache_lock.acquire_read()
-        try:
+        with cls._cache_lock.read_lock():
             if cache_key in cls._cache:
                 cls._cache_hits += 1
                 result = cls._cache[cache_key]
@@ -727,8 +841,6 @@ class PokeDBLoader:
                 return result
             # Cache miss
             cls._cache_misses += 1
-        finally:
-            cls._cache_lock.release_read()
 
         # Load from file
         try:
@@ -881,11 +993,16 @@ class PokeDBLoader:
             cache_key = (category, name)
         cls._update_cache(cache_key, data, category, name)
 
+        # If saving a Pokemon with a subfolder, update the subfolder cache
+        if category == "pokemon" and subfolder:
+            with cls._cache_lock.write_lock():
+                cls._subfolder_cache[name] = subfolder
+
         logger.info(f"Successfully saved {category} '{name}'")
         return file_path
 
     @classmethod
-    def save_pokemon(cls, name: str, data: Pokemon, subfolder: str = "default") -> Path:
+    def save_pokemon(cls, name: str, data: Pokemon, subfolder: Optional[str] = None) -> Path:
         """
         Save Pokemon data to a JSON file and update cache (thread-safe).
 
@@ -893,16 +1010,32 @@ class PokeDBLoader:
         instead of invalidating it. This provides better performance when saving
         multiple Pokemon in a batch operation (like evolution chain updates).
 
+        If subfolder is not provided, uses the cached subfolder from when the
+        Pokemon was loaded. If no cached subfolder exists, defaults to "default".
+
         Uses file locking to prevent concurrent write conflicts.
 
         Args:
             name: Pokemon name (e.g., 'Pikachu', 'pikachu', or 'PIKACHU')
             data: Pokemon dataclass object
-            subfolder: Pokemon subfolder (default, cosmetic, transformation, variant)
+            subfolder: Optional Pokemon subfolder (default, cosmetic, transformation, variant).
+                      If None, uses the cached subfolder from load_pokemon(), or "default" if not cached.
 
         Returns:
             Path: Path to the saved file
         """
+        # Normalize the name to ID format
+        normalized_name = name_to_id(name)
+
+        # Determine the subfolder to use
+        if subfolder is None:
+            with cls._cache_lock.read_lock():
+                subfolder = cls._subfolder_cache.get(normalized_name, "default")
+            logger.debug(
+                f"Using {'cached' if normalized_name in cls._subfolder_cache else 'default'} "
+                f"subfolder '{subfolder}' for saving '{normalized_name}'"
+            )
+
         return cls._save_data(name, data, "pokemon", subfolder)
 
     @classmethod
@@ -967,6 +1100,8 @@ class PokeDBLoader:
         """
         Clear all caches (Pokemon, Move, Ability, Item) and reset statistics (thread-safe).
 
+        Also clears the subfolder cache used for save_pokemon().
+
         Useful when you need to reload data from disk or free up memory.
 
         Examples:
@@ -980,26 +1115,26 @@ class PokeDBLoader:
             >>> print(PokeDBLoader.get_cache_size())
             0
         """
-        cls._cache_lock.acquire_write()
-        try:
+        with cls._cache_lock.write_lock():
             # Count entries by type
             pokemon_size = sum(1 for k in cls._cache if k[0] == "pokemon")
             move_size = sum(1 for k in cls._cache if k[0] == "move")
             ability_size = sum(1 for k in cls._cache if k[0] == "ability")
             item_size = sum(1 for k in cls._cache if k[0] == "item")
             total_size = len(cls._cache)
+            subfolder_cache_size = len(cls._subfolder_cache)
 
             cls._cache.clear()
+            cls._subfolder_cache.clear()
             cls._cache_hits = 0
             cls._cache_misses = 0
 
             logger.info(
                 f"Cleared unified cache ({total_size} total entries: "
                 f"{pokemon_size} Pokemon, {move_size} Moves, "
-                f"{ability_size} Abilities, {item_size} Items)"
+                f"{ability_size} Abilities, {item_size} Items) and "
+                f"subfolder cache ({subfolder_cache_size} entries)"
             )
-        finally:
-            cls._cache_lock.release_write()
 
     @classmethod
     def get_cache_size(cls) -> int:
@@ -1009,25 +1144,8 @@ class PokeDBLoader:
         Returns:
             int: Total number of items currently in all caches
         """
-        cls._cache_lock.acquire_read()
-        try:
+        with cls._cache_lock.read_lock():
             return len(cls._cache)
-        finally:
-            cls._cache_lock.release_read()
-
-    @classmethod
-    def get_cached_pokemon(cls) -> list[tuple[str, str]]:
-        """
-        Get a list of all cached Pokemon identifiers (thread-safe).
-
-        Returns:
-            list: List of (name, subfolder) tuples for all cached Pokemon
-        """
-        cls._cache_lock.acquire_read()
-        try:
-            return [(k[1], k[2]) for k in cls._cache.keys() if k[0] == "pokemon"]
-        finally:
-            cls._cache_lock.release_read()
 
     @classmethod
     def get_cache_stats(cls) -> dict[str, Any]:
@@ -1047,8 +1165,7 @@ class PokeDBLoader:
                 - hit_rate: Cache hit rate (0.0 to 1.0)
                 - total_requests: Total number of cache requests
         """
-        cls._cache_lock.acquire_read()
-        try:
+        with cls._cache_lock.read_lock():
             total = cls._cache_hits + cls._cache_misses
             hit_rate = cls._cache_hits / total if total > 0 else 0.0
             pokemon_size = sum(1 for k in cls._cache if k[0] == "pokemon")
@@ -1067,8 +1184,6 @@ class PokeDBLoader:
                 "hit_rate": hit_rate,
                 "total_requests": total,
             }
-        finally:
-            cls._cache_lock.release_read()
 
     @classmethod
     def get_cache_hit_rate(cls) -> float:
@@ -1078,12 +1193,9 @@ class PokeDBLoader:
         Returns:
             float: Cache hit rate between 0.0 and 1.0
         """
-        cls._cache_lock.acquire_read()
-        try:
+        with cls._cache_lock.read_lock():
             total = cls._cache_hits + cls._cache_misses
             return cls._cache_hits / total if total > 0 else 0.0
-        finally:
-            cls._cache_lock.release_read()
 
     @classmethod
     def set_max_cache_size(cls, size: int) -> None:
@@ -1102,8 +1214,7 @@ class PokeDBLoader:
         if size <= 0:
             raise ValueError(f"Cache size must be positive, got: {size}")
 
-        cls._cache_lock.acquire_write()
-        try:
+        with cls._cache_lock.write_lock():
             old_size = cls.MAX_CACHE_SIZE
             cls.MAX_CACHE_SIZE = size
 
@@ -1117,8 +1228,6 @@ class PokeDBLoader:
                 f"Cache size changed from {old_size} to {size} "
                 f"(current entries: {len(cls._cache)})"
             )
-        finally:
-            cls._cache_lock.release_write()
 
     @classmethod
     def _preload_worker(cls, json_file: Path) -> tuple[str, dict]:
@@ -1207,8 +1316,7 @@ class PokeDBLoader:
                         )
 
             if loaded_pokemon:
-                cls._cache_lock.acquire_write()
-                try:
+                with cls._cache_lock.write_lock():
                     for key, mon in loaded_pokemon.items():
                         cls._cache[key] = mon
                         cls._cache.move_to_end(key)
@@ -1217,8 +1325,6 @@ class PokeDBLoader:
                     if overage > 0:
                         for _ in range(overage):
                             cls._cache.popitem(last=False)
-                finally:
-                    cls._cache_lock.release_write()
 
             subfolder_time = time.time() - subfolder_start
             loaded_count = len(loaded_pokemon)

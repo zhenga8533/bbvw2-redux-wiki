@@ -71,6 +71,14 @@ BACKUP_COUNT = _config["backup_count"]
 CONSOLE_COLORS = _config["console_colors"]
 CLEAR_ON_RUN = _config["clear_on_run"]
 
+# Clear entire logs directory if configured (before any loggers are initialized)
+if CLEAR_ON_RUN and LOG_DIR.exists():
+    import shutil
+    try:
+        shutil.rmtree(LOG_DIR)
+    except OSError:
+        pass  # Ignore if directory is locked or can't be deleted
+
 # Standard fields that are part of every LogRecord instance
 # These fields are excluded when adding extra fields to JSON logs
 # See: https://docs.python.org/3/library/logging.html#logrecord-attributes
@@ -227,18 +235,6 @@ def setup_logger(
             log_file = f"{module_path}.log"
 
     file_path = LOG_DIR / log_file
-
-    # Clear log file if configured
-    if CLEAR_ON_RUN and file_path.exists():
-        try:
-            file_path.unlink()
-            # Also remove any backup files
-            for i in range(1, BACKUP_COUNT + 1):
-                backup_path = Path(f"{file_path}.{i}")
-                if backup_path.exists():
-                    backup_path.unlink()
-        except OSError:
-            pass  # Ignore errors if file is locked or doesn't exist
 
     file_handler = RotatingFileHandler(
         file_path,

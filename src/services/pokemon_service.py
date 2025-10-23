@@ -2,15 +2,11 @@
 Service for updating Pokemon attributes in parsed data folder.
 """
 
-import json
-import re
-from collections import Counter
-from typing import Any
-
 from src.data.pokedb_loader import PokeDBLoader
-from src.models.pokedb import MoveLearn
+from src.models.pokedb import MoveLearn, Pokemon
 from src.utils.logger_util import get_logger
 from src.utils.text_util import name_to_id
+import re
 
 logger = get_logger(__name__)
 
@@ -123,7 +119,7 @@ class PokemonService:
             return False
 
     @staticmethod
-    def _update_base_stats(pokemon_id: str, pokemon_data: Any, value: str) -> bool:
+    def _update_base_stats(pokemon_id: str, pokemon_data: Pokemon, value: str) -> bool:
         """
         Update base stats for a Pokemon.
 
@@ -170,7 +166,7 @@ class PokemonService:
             return False
 
     @staticmethod
-    def _update_type(pokemon_id: str, pokemon_data: Any, value: str) -> bool:
+    def _update_type(pokemon_id: str, pokemon_data: Pokemon, value: str) -> bool:
         """
         Update type for a Pokemon.
 
@@ -195,7 +191,7 @@ class PokemonService:
         return True
 
     @staticmethod
-    def _update_ability(pokemon_id: str, pokemon_data: Any, value: str) -> bool:
+    def _update_ability(pokemon_id: str, pokemon_data: Pokemon, value: str) -> bool:
         """
         Update abilities for a Pokemon.
 
@@ -218,15 +214,11 @@ class PokemonService:
         # Structure: [{"name": str, "is_hidden": bool, "slot": int}]
         new_abilities = []
 
-        # Add first ability (slot 1)
-        new_abilities.append({"name": abilities[0], "is_hidden": False, "slot": 1})
+        for i, ability in enumerate(abilities):
+            if ability == "-":
+                continue
 
-        # Add second ability (slot 2) only if different from first
-        if abilities[1] != abilities[0]:
-            new_abilities.append({"name": abilities[1], "is_hidden": False, "slot": 2})
-
-        # Add hidden ability (slot 3)
-        new_abilities.append({"name": abilities[2], "is_hidden": True, "slot": 3})
+            new_abilities.append({"name": ability, "is_hidden": i == 2, "slot": i + 1})
 
         # Update abilities
         pokemon_data.abilities = new_abilities
@@ -238,7 +230,7 @@ class PokemonService:
         return True
 
     @staticmethod
-    def _update_evs(pokemon_id: str, pokemon_data: Any, value: str) -> bool:
+    def _update_evs(pokemon_id: str, pokemon_data: Pokemon, value: str) -> bool:
         """
         Update EV yields for a Pokemon.
 
@@ -288,7 +280,9 @@ class PokemonService:
         return True
 
     @staticmethod
-    def _update_base_happiness(pokemon_id: str, pokemon_data: Any, value: str) -> bool:
+    def _update_base_happiness(
+        pokemon_id: str, pokemon_data: Pokemon, value: str
+    ) -> bool:
         """
         Update base happiness for a Pokemon.
 
@@ -314,7 +308,9 @@ class PokemonService:
             return False
 
     @staticmethod
-    def _update_base_experience(pokemon_id: str, pokemon_data: Any, value: str) -> bool:
+    def _update_base_experience(
+        pokemon_id: str, pokemon_data: Pokemon, value: str
+    ) -> bool:
         """
         Update base experience for a Pokemon.
 
@@ -342,7 +338,7 @@ class PokemonService:
             return False
 
     @staticmethod
-    def _update_catch_rate(pokemon_id: str, pokemon_data: Any, value: str) -> bool:
+    def _update_catch_rate(pokemon_id: str, pokemon_data: Pokemon, value: str) -> bool:
         """
         Update catch rate for a Pokemon.
 
@@ -368,7 +364,9 @@ class PokemonService:
             return False
 
     @staticmethod
-    def _update_gender_ratio(pokemon_id: str, pokemon_data: Any, value: str) -> bool:
+    def _update_gender_ratio(
+        pokemon_id: str, pokemon_data: Pokemon, value: str
+    ) -> bool:
         """
         Update gender ratio for a Pokemon.
 
@@ -475,7 +473,7 @@ class PokemonService:
                 new_move = MoveLearn(
                     name=move_id,
                     level_learned_at=level,
-                    version_groups=["black-2-white-2"]
+                    version_groups=["black-2-white-2"],
                 )
                 new_levelup_moves.append(new_move)
 
@@ -545,7 +543,7 @@ class PokemonService:
                     new_move = MoveLearn(
                         name=move_id,
                         level_learned_at=0,
-                        version_groups=["black-2-white-2"]
+                        version_groups=["black-2-white-2"],
                     )
                     pokemon_data.moves.machine.append(new_move)
 

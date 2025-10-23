@@ -264,6 +264,7 @@ class EvolutionService:
                         )
                         continue
 
+                # Update the evolution chain and save
                 pokemon_data.evolution_chain = evolution_chain
                 PokeDBLoader.save_pokemon(form_name, pokemon_data, subfolder=category)
 
