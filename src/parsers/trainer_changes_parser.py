@@ -14,7 +14,7 @@ from src.utils.markdown_util import (
     format_item,
     format_move,
     format_pokemon,
-    get_checkbox,
+    format_checkbox,
 )
 from .base_parser import BaseParser
 
@@ -101,7 +101,7 @@ class TrainerChangesParser(BaseParser):
 
             bullet, number, text = match.groups()
             required = True if bullet == "●" else False
-            self._markdown += f"| {number} | {text} | {get_checkbox(required)} |\n"
+            self._markdown += f"| {number} | {text} | {format_checkbox(required)} |\n"
         # Default: regular text line
         else:
             self.parse_default(line)

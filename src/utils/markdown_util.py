@@ -7,13 +7,14 @@ like Pokemon displays with sprites and links.
 
 import html
 import re
+from typing import Optional
 
 from src.data.pokedb_loader import PokeDBLoader
 from src.utils.config_util import get_config
 from src.utils.text_util import name_to_id
 
 
-def get_checkbox(checked: bool) -> str:
+def format_checkbox(checked: bool) -> str:
     """
     Generate a checkbox input element.
 
@@ -24,6 +25,28 @@ def get_checkbox(checked: bool) -> str:
         str: HTML string for the checkbox input.
     """
     return f'<input type="checkbox" disabled{" checked" if checked else ""} />'
+
+
+def format_flavor_text(name: str, title: Optional[str], color: str = "") -> str:
+    """
+    Format flavor text with a tooltip.
+
+    Args:
+        text: The flavor text to display as a tooltip.
+        title: The main text to display.
+
+    Returns:
+        Formatted HTML string with tooltip.
+    """
+    if not title:
+        return f"<span>{name}</span>"
+
+    style = f"border-bottom: 1px dashed #777; cursor: help;"
+    if color:
+        style += f" color: {color};"
+
+    escaped_flavor = html.escape(title)
+    return f'<span style="{style}" title="{escaped_flavor}">{name}</span>'
 
 
 def format_ability(ability_name: str, has_flavor_text: bool = True) -> str:
@@ -46,11 +69,7 @@ def format_ability(ability_name: str, has_flavor_text: bool = True) -> str:
 
     # Add flavor text as tooltip if available
     flavor = ability_data.flavor_text.black_2_white_2
-    if flavor:
-        escaped_flavor = html.escape(flavor)
-        return f'<span style="border-bottom: 1px dashed #777; cursor: help;" title="{escaped_flavor}">{ability_name}</span>'
-    else:
-        return ability_name
+    return format_flavor_text(ability_name, flavor)
 
 
 def format_pokemon(
@@ -166,12 +185,7 @@ def format_item(
         # Show flavor text as tooltip on hover
         if has_flavor_text and item_data.flavor_text:
             flavor = item_data.flavor_text.black_2_white_2
-            if flavor:
-                # Escape HTML special characters in flavor text for title attribute
-                escaped_flavor = html.escape(flavor)
-                item_html += f'<span style="border-bottom: 1px dashed #777; cursor: help;" title="{escaped_flavor}">{item_name}</span>'
-            else:
-                item_html += f"<span>{item_name}</span>"
+            item_html += format_flavor_text(item_name, flavor)
         else:
             item_html += f"<span>{item_name}</span>"
 
@@ -227,10 +241,4 @@ def format_move(
 
     # Add flavor text as tooltip if available
     flavor = move_data.flavor_text.black_2_white_2
-    if flavor:
-        escaped_flavor = html.escape(flavor)
-        return f'<span style="border-bottom: 1px dashed #777; cursor: help; color: {type_color}; font-weight: 500;" title="{escaped_flavor}">{move_name}</span>'
-    else:
-        return (
-            f'<span style="color: {type_color}; font-weight: 500;">{move_name}</span>'
-        )
+    return format_flavor_text(move_name, flavor, type_color)

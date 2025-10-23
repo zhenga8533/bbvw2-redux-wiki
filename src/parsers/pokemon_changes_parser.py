@@ -9,7 +9,7 @@ This parser:
 
 from src.data.pokedb_loader import PokeDBLoader
 from src.services.pokemon_service import PokemonService
-from src.utils.markdown_util import format_move, format_pokemon, get_checkbox
+from src.utils.markdown_util import format_move, format_pokemon, format_checkbox
 from .base_parser import BaseParser
 import re
 
@@ -57,6 +57,7 @@ class PokemonChangesParser(BaseParser):
         # Update level-up moves if we have any
         if self._levelup_moves:
             from src.services.pokemon_service import PokemonService
+
             PokemonService.update_levelup_moves(
                 pokemon=self._current_pokemon,
                 moves=self._levelup_moves,
@@ -67,6 +68,7 @@ class PokemonChangesParser(BaseParser):
         # Update TM/HM moves if we have any
         if self._tm_hm_moves:
             from src.services.pokemon_service import PokemonService
+
             PokemonService.update_machine_moves(
                 pokemon=self._current_pokemon,
                 moves=self._tm_hm_moves,
@@ -98,7 +100,9 @@ class PokemonChangesParser(BaseParser):
             # Extract forme from attribute if present
             # Pattern: "Ability (Complete / Attack Forme)" -> "attack"
             if " Forme)" in self._current_attribute:
-                forme_match = re.search(r"/ ([A-Za-z\s]+) Forme\)", self._current_attribute)
+                forme_match = re.search(
+                    r"/ ([A-Za-z\s]+) Forme\)", self._current_attribute
+                )
                 if forme_match:
                     # Convert "Attack Forme" to "attack", "Normal Forme" to "normal"
                     forme_name = forme_match.group(1).strip().lower()
@@ -136,7 +140,9 @@ class PokemonChangesParser(BaseParser):
         # Match: continuation outside a table
         elif self._is_table_open:
             # Parse special attribute lines
-            if self._current_attribute == "Moves" and line.startswith("Now compatible with"):
+            if self._current_attribute == "Moves" and line.startswith(
+                "Now compatible with"
+            ):
                 self._parse_moves_line(line)
             elif self._current_attribute == "Evolution" and line.startswith("Now"):
                 self._parse_evolution_line(line)
@@ -213,7 +219,7 @@ class PokemonChangesParser(BaseParser):
         move_type = move_type.title() if move_type else "Unknown"
         move_class = move_data.damage_class.title() if move_data else "Unknown"
 
-        self._markdown += f"| {level} | {move_html} | {move_type} | {move_class} | {get_checkbox(event_move)} |\n"
+        self._markdown += f"| {level} | {move_html} | {move_type} | {move_class} | {format_checkbox(event_move)} |\n"
 
     def _parse_moves_line(self, line: str) -> None:
         """
@@ -229,14 +235,16 @@ class PokemonChangesParser(BaseParser):
             return
 
         # Pattern: "Now compatible with TM56, Weather Ball." or "... [*]"
-        match = re.match(r"^Now compatible with (TM|HM)(\d+), (.*?)\.(?: \[\*\])?$", line)
+        match = re.match(
+            r"^Now compatible with (TM|HM)(\d+), (.*?)\.(?: \[\*\])?$", line
+        )
         if not match:
             self.logger.warning(f"Could not parse Moves line: {line}")
             return
 
         machine_type = match.group(1)  # "TM" or "HM"
-        number = match.group(2)        # "56"
-        move_name = match.group(3)     # "Weather Ball" or "False Swipe"
+        number = match.group(2)  # "56"
+        move_name = match.group(3)  # "Weather Ball" or "False Swipe"
 
         # Accumulate TM/HM move data
         self._tm_hm_moves.append((machine_type, number, move_name))
@@ -253,8 +261,8 @@ class PokemonChangesParser(BaseParser):
             self.logger.warning(f"Could not parse Held Item line: {line}")
             return
 
-        item_name = match.group(1)     # "Griseous Orb"
-        rarity = int(match.group(2))   # 100
+        item_name = match.group(1)  # "Griseous Orb"
+        rarity = int(match.group(2))  # 100
 
         # Update held item immediately (no accumulation needed)
         PokemonService.update_held_item(

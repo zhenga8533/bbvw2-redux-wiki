@@ -7,7 +7,7 @@ This parser:
 3. Generates a markdown file to docs/move_changes.md
 """
 
-from src.utils.markdown_util import format_move, get_checkbox
+from src.utils.markdown_util import format_move, format_checkbox
 from src.services.move_service import MoveService
 from .base_parser import BaseParser
 import re
@@ -97,7 +97,7 @@ class MoveChangesParser(BaseParser):
                 new_type = new_type[:-4]
                 custom = True
 
-            self._markdown += f"| {old_type} | {new_type} | {get_checkbox(custom)} |"
+            self._markdown += f"| {old_type} | {new_type} | {format_checkbox(custom)} |"
         # Default: regular text line
         else:
             self.parse_default(line)
@@ -158,7 +158,7 @@ class MoveChangesParser(BaseParser):
         if not self._is_move_open:
             move_html = format_move(self._current_move)
             self._is_move_open = True
-        self._markdown += f"| {move_html} | {attribute} | {old_field} | {new_field} | {get_checkbox(custom)} | {get_checkbox(la)} |\n"
+        self._markdown += f"| {move_html} | {attribute} | {old_field} | {new_field} | {format_checkbox(custom)} | {format_checkbox(la)} |\n"
 
     def parse_legends_arceus_moves(self, line: str) -> None:
         """Parse Legends: Arceus moves."""
