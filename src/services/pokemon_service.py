@@ -215,7 +215,7 @@ class PokemonService:
         new_abilities = []
 
         for i, ability in enumerate(abilities):
-            if ability == "-":
+            if ability == "-" or not ability:
                 continue
 
             new_abilities.append({"name": ability, "is_hidden": i == 2, "slot": i + 1})

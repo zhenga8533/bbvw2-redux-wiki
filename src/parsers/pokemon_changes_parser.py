@@ -56,8 +56,6 @@ class PokemonChangesParser(BaseParser):
 
         # Update level-up moves if we have any
         if self._levelup_moves:
-            from src.services.pokemon_service import PokemonService
-
             PokemonService.update_levelup_moves(
                 pokemon=self._current_pokemon,
                 moves=self._levelup_moves,
@@ -67,8 +65,6 @@ class PokemonChangesParser(BaseParser):
 
         # Update TM/HM moves if we have any
         if self._tm_hm_moves:
-            from src.services.pokemon_service import PokemonService
-
             PokemonService.update_machine_moves(
                 pokemon=self._current_pokemon,
                 moves=self._tm_hm_moves,
@@ -88,7 +84,7 @@ class PokemonChangesParser(BaseParser):
             self._current_pokemon = match.group(2)
             self._current_forme = ""  # Reset forme for new Pokemon
             self._markdown += f"### #{pokedex_number} {self._current_pokemon}\n\n"
-            self._markdown += f"{format_pokemon(self._current_pokemon)}<br>\n\n"
+            self._markdown += f"{format_pokemon(self._current_pokemon)}\n\n"
         # Match: "<attribute>:"
         elif line.endswith(":"):
             # Flush accumulated data from previous attribute if needed
