@@ -36,6 +36,7 @@ class TrainerChangesParser(BaseParser):
             "Full Level Cap and Guide for Challenge mode (Spoilers!)",
             "Challenge Mode Level Bug - Important info for Challenge Runs!",
             "Trainer Changes",
+            "The Postgame",
         ]
 
         # EV and Level Trainers' Information States
@@ -44,6 +45,11 @@ class TrainerChangesParser(BaseParser):
         # Full Level Cap and Guide for Challenge mode (Spoilers!) States
         self._is_legend_open = False
         self._is_table_open = False
+
+        # Trainer Changes States
+        self._is_table_open = False
+        self._current_trainer = ""
+        self._indent_level = 0
 
     def handle_section_change(self, new_section: str) -> None:
         """Handle state reset on section change."""
@@ -121,19 +127,14 @@ class TrainerChangesParser(BaseParser):
             self._markdown += f"### {line}\n\n"
         elif line == "+++":
             pass
+        # Match: dividers
         elif line == "---":
-            pass
+            self._markdown += "\n"
         # Match: sub-headings
         elif next_line.startswith("~") and line:
-            self._markdown += f"**{line}**\n"
+            self._markdown += f"#### {line.strip(': ')}\n"
         elif line.startswith("~"):
             pass
-        # Match: "<trainer>:"
-        elif match := re.match(r"^(.*):$", line):
-            trainer = match.group(1)
-            self._markdown += f"{trainer}\n\n"
-            self._markdown += "| Pokémon | Attributes | Moves |\n"
-            self._markdown += "|:-------:|:-----------|:-------|\n"
         # Match: "<pokemon> [(<ability>)], lv.<level>: <moves>"
         elif match := re.match(r"^(.+?) \[(.+?)\], lv\.(\d+): (.+?)$", line):
             pokemon, ability, level, moves = match.groups()
@@ -142,14 +143,72 @@ class TrainerChangesParser(BaseParser):
         elif match := re.match(r"^(.+?) \[(.+?)\], lv\.(\d+) @(.+?): (.+?)$", line):
             pokemon, ability, level, item, moves = match.groups()
             self._format_pokemon_row(pokemon, ability, level, item, moves)
+        # Match: "(If you picked <starter>):"
+        elif match := re.match(r"^\(If you picked (.+?)\):$", line):
+            self._indent_level = 2 if self._current_trainer.startswith("Partner") else 1
+            self._is_table_open = False
+
+            starter = match.group(1)
+            self._markdown += f'{"\t" * (self._indent_level - 1)}=== "{starter}"\n\n'
+        # Match: "<trainer>:"
+        elif match := re.match(r"^(.*):$", line):
+            self._current_trainer = match.group(1)
+            self._format_trainer(self._current_trainer)
+            self._is_table_open = False
         # Default: regular text line
         else:
+            self._indent_level = 0
             self.parse_default(line)
+
+    def _format_trainer(self, trainer: str) -> None:
+        """Format a trainer name."""
+        if " Side" in trainer or trainer.startswith("Partner"):
+            self._markdown += f'=== "{trainer}"\n\n'
+            self._indent_level = 1
+            return
+
+        # Extract optional fields (reward in {}, mode in [], battle type in ())
+        fields = {"reward": "", "mode": "", "battle_type": ""}
+        patterns = {
+            "reward": r"\{(.+?)\}",
+            "mode": r"\[(.+?)\]",
+            "battle_type": r"\((.+?)\)",
+        }
+
+        for key, pat in patterns.items():
+            m = re.search(pat, trainer)
+            if m:
+                fields[key] = m.group(1).strip()
+                trainer = re.sub(r"\s*" + re.escape(m.group(0)) + r"\s*", " ", trainer)
+
+        trainer = trainer.strip(" -")
+        self._markdown += f"**{trainer}**\n\n"
+
+        # Format optional fields
+        if fields["reward"]:
+            self._markdown += "**Reward:** "
+            self._markdown += ", ".join(
+                format_item(item.strip()) for item in fields["reward"].split(",")
+            )
+            self._markdown += "\n\n"
+        if fields["mode"]:
+            self._markdown += f"**Mode:** {fields['mode']}\n\n"
+        if fields["battle_type"]:
+            self._markdown += f"**Battle Type:** {fields['battle_type']}\n\n"
 
     def _format_pokemon_row(
         self, pokemon: str, ability: str, level: str, item: Optional[str], moves: str
     ) -> None:
         """Format a Pokémon row for the markdown table."""
+        if not self._is_table_open:
+            self._markdown += (
+                "\t" * self._indent_level + "| Pokémon | Attributes | Moves |\n"
+            )
+            self._markdown += (
+                "\t" * self._indent_level + "|:-------:|:-----------|:------|\n"
+            )
+            self._is_table_open = True
+
         row = f"| {format_pokemon(pokemon)} | "
 
         row += f"**Level:** {level}"
@@ -163,4 +222,4 @@ class TrainerChangesParser(BaseParser):
                 row += "<br>"
             row += f"{i + 1}. {format_move(move)}"
 
-        self._markdown += row + "\n"
+        self._markdown += "\t" * self._indent_level + row + "\n"

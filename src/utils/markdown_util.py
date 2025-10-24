@@ -166,6 +166,9 @@ def format_item(
         item_name, item_extra = (
             item_name.split(" ", 1) if " " in item_name else (item_name, "")
         )
+    if match := re.match(r"^(.+?) x(\d+)$", item_name):
+        item_name, item_quantity = match.groups()
+        item_extra += f" x{item_quantity}"
 
     # Try to load item data
     item_data = PokeDBLoader.load_item(item_name)
