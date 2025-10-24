@@ -6,23 +6,22 @@ Provides structured logging with:
 - Rich console output with colors and formatting
 - Rotating file handlers to prevent unbounded growth
 - JSON structured logging support
-- Configuration via config.json or environment variables
+- Configuration via config.json (loaded through config_util)
 - Context managers for operation tracking
 """
 
 import logging
 import sys
+import json
 from pathlib import Path
 from typing import Optional
 from logging.handlers import RotatingFileHandler
-import json
 from datetime import datetime
-import os
+from src.utils.config_util import get_config
 
 
 def _load_config():
-    """Load configuration from config.json, with environment variable overrides."""
-    config_path = Path(__file__).parent.parent / "config.json"
+    """Load configuration from config.json via config_util."""
     defaults = {
         "level": "INFO",
         "format": "text",
@@ -33,32 +32,17 @@ def _load_config():
         "clear_on_run": False,
     }
 
-    # Try to load from config file
-    if config_path.exists():
-        try:
-            with open(config_path) as f:
-                config = json.load(f)
-                logging_config = config.get("logging", {})
-                defaults.update(logging_config)
-        except (json.JSONDecodeError, IOError):
-            pass  # Fall back to defaults
+    # Load from config file
+    try:
+        config = get_config()
+        logging_config = config.get("logging", {})
+        # Merge config values with defaults
+        for key, value in logging_config.items():
+            defaults[key] = value
+    except Exception:
+        pass  # Fall back to defaults
 
-    # Environment variables override config file
-    clear_on_run_env = os.getenv("WIKI_CLEAR_ON_RUN")
-    if clear_on_run_env is not None:
-        clear_on_run = clear_on_run_env.lower() in ("true", "1", "yes")
-    else:
-        clear_on_run = defaults.get("clear_on_run", False)
-
-    return {
-        "log_dir": os.getenv("WIKI_LOG_DIR", defaults.get("log_dir", "logs")),
-        "level": os.getenv("WIKI_LOG_LEVEL", defaults.get("level", "INFO")).upper(),
-        "format": os.getenv("WIKI_LOG_FORMAT", defaults.get("format", "text")),
-        "max_log_size_mb": int(os.getenv("WIKI_MAX_LOG_SIZE_MB", defaults.get("max_log_size_mb", 10))),
-        "backup_count": int(os.getenv("WIKI_LOG_BACKUP_COUNT", defaults.get("backup_count", 5))),
-        "console_colors": defaults.get("console_colors", True),
-        "clear_on_run": clear_on_run,
-    }
+    return defaults
 
 
 # Global configuration (loaded once)
@@ -74,6 +58,7 @@ CLEAR_ON_RUN = _config["clear_on_run"]
 # Clear entire logs directory if configured (before any loggers are initialized)
 if CLEAR_ON_RUN and LOG_DIR.exists():
     import shutil
+
     try:
         shutil.rmtree(LOG_DIR)
     except OSError:
@@ -82,29 +67,31 @@ if CLEAR_ON_RUN and LOG_DIR.exists():
 # Standard fields that are part of every LogRecord instance
 # These fields are excluded when adding extra fields to JSON logs
 # See: https://docs.python.org/3/library/logging.html#logrecord-attributes
-_STANDARD_LOG_RECORD_FIELDS = frozenset([
-    "name",
-    "msg",
-    "args",
-    "created",
-    "filename",
-    "funcName",
-    "levelname",
-    "levelno",
-    "lineno",
-    "module",
-    "msecs",
-    "message",
-    "pathname",
-    "process",
-    "processName",
-    "relativeCreated",
-    "thread",
-    "threadName",
-    "exc_info",
-    "exc_text",
-    "stack_info",
-])
+_STANDARD_LOG_RECORD_FIELDS = frozenset(
+    [
+        "name",
+        "msg",
+        "args",
+        "created",
+        "filename",
+        "funcName",
+        "levelname",
+        "levelno",
+        "lineno",
+        "module",
+        "msecs",
+        "message",
+        "pathname",
+        "process",
+        "processName",
+        "relativeCreated",
+        "thread",
+        "threadName",
+        "exc_info",
+        "exc_text",
+        "stack_info",
+    ]
+)
 
 
 class JSONFormatter(logging.Formatter):
@@ -221,11 +208,11 @@ def setup_logger(
         # Use module-specific log file with directory structure
         # Remove 'src.' prefix if present and create subdirectories
         module_path = name
-        if module_path.startswith('src.'):
+        if module_path.startswith("src."):
             module_path = module_path[4:]  # Remove 'src.' prefix
 
         # Split into directory components and filename
-        parts = module_path.split('.')
+        parts = module_path.split(".")
         if len(parts) > 1:
             # Create subdirectories for nested modules
             subdir = LOG_DIR / Path(*parts[:-1])

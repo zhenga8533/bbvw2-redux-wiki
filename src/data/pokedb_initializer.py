@@ -3,7 +3,6 @@ PokeDB initializer to download and set up data from a GitHub repository.
 """
 
 import shutil
-import json
 import os
 import requests
 import traceback
@@ -11,6 +10,7 @@ import zipfile
 import io
 from pathlib import Path
 from src.utils.logger_util import get_logger
+from src.utils.config_util import get_config
 
 logger = get_logger(__name__)
 
@@ -18,9 +18,9 @@ logger = get_logger(__name__)
 class PokeDBInitializer:
     """Download PokeDB data from a GitHub repository and initialize parsed data."""
 
-    def __init__(self, config_path: str = "src/config.json"):
+    def __init__(self):
         """Initialize the PokeDB initializer with configuration."""
-        self._config = self._load_config(config_path)
+        self._config = get_config()
         pokedb_config = self._config.get("pokedb", {})
         self.repo_url = pokedb_config.get("repo_url")
         self.branch = pokedb_config.get("branch")
@@ -28,18 +28,6 @@ class PokeDBInitializer:
         self.parsed_dir = self.data_dir / "parsed"
         self.generations: list[str] = pokedb_config.get("generations", [])
         self.repo_owner, self.repo_name = self._parse_repo_url()
-
-    def _load_config(self, config_path: str) -> dict:
-        """Load configuration from a JSON file."""
-        try:
-            with open(config_path, "r") as f:
-                return json.load(f)
-        except FileNotFoundError:
-            logger.error(f"Config file not found: {config_path}")
-            raise
-        except json.JSONDecodeError as e:
-            logger.error(f"Invalid JSON in config file: {e}")
-            raise
 
     def _parse_repo_url(self) -> tuple[str, str]:
         """Parse the repository owner and name from the URL."""

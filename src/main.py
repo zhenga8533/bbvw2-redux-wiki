@@ -45,7 +45,7 @@ def get_parser_registry():
 def initialize_data():
     """Initialize PokeDB data (download and prepare parsed directory)."""
     logger.info("Starting PokeDB data initialization...")
-    initializer = PokeDBInitializer("src/config.json")
+    initializer = PokeDBInitializer()
     initializer.run()
 
 
