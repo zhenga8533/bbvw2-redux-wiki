@@ -120,6 +120,7 @@ class TrainerChangesParser(BaseParser):
 
     def parse_trainer_changes(self, line: str) -> None:
         """Parse the Trainer Changes section."""
+        line = line.replace("*", "\\*")
         next_line = self.peek_line(1) or ""
 
         # Match: main headings
@@ -133,6 +134,8 @@ class TrainerChangesParser(BaseParser):
         # Match: sub-headings
         elif next_line.startswith("~") and line:
             self._markdown += f"#### {line.strip(': ')}\n"
+        elif match := re.match(r"^\~{1,} (.+) \~{1,}$", line):
+            self._markdown += f"#### {match.group(1).strip(': ')}\n"
         elif line.startswith("~"):
             pass
         # Match: "<pokemon> [(<ability>)], lv.<level>: <moves>"
@@ -223,3 +226,7 @@ class TrainerChangesParser(BaseParser):
             row += f"{i + 1}. {format_move(move)}"
 
         self._markdown += "\t" * self._indent_level + row + "\n"
+
+    def parse_the_postgame(self, line: str) -> None:
+        """Parse The Postgame section."""
+        self.parse_trainer_changes(line)

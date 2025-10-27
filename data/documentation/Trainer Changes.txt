@@ -1563,7 +1563,7 @@ Stantler [Intimidate], lv.38: Psyshield Bash, Role Play, Detect, Body Slam
 Larvesta [Flame Body], lv.38: Flame Charge, Leech Life, Flame Wheel, Screech
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-After the PWT and Plasma Frigate have been cleared:
+PWT and Plasma Frigate Cleared:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 ● Ace Trainer Corky (3x):
@@ -1674,7 +1674,7 @@ Duskull [Levitate], lv.41: Ominous Wind, Shadow Sneak, Feint Attack, Pain Split
 Shuppet [Cursed Body], lv.41: Hex, Embargo, Sucker Punch, Slash
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Relic Passage Backroom - TM Protectors
+Relic Passage Backroom
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
  - Levels -2 on Easy mode, +2 on Challenge mode.
@@ -1977,7 +1977,7 @@ Serperior [Contrary], lv.56 @Sitrus Berry: Leaf Storm, Glare, Dragon Pulse, Leec
 Samurott [Shell Armor], lv.56 @Life Orb: Swords Dance, Aqua Jet, Megahorn, Wave Crash
 Emboar [Mold Breaker], lv.56 @Fire Gem: Flare Blitz, Wild Charge, Head Smash, High Horsepower
 
-~~~~~ MAIN AREA ~~~~~
+~~~~~ Main Area ~~~~~
 
  - In all TAG battles, Bianca will partner with you, using her Easy and Normal mode team, regardless of difficulty.
  - Levels -4 on Easy mode, +4 on Challenge mode.
@@ -2431,7 +2431,7 @@ Opelucid City
 +++
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Rotation House/Triple House (Black 2/White 2 respectively):
+Rotation/Triple House:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
  - No level shift based on difficulty, levels are as stated.
@@ -3274,12 +3274,15 @@ Weather Trainers and Lance
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 After advancing through Victory Road, the player will encounter Lance - Champion of the Kanto and Johto regions - training a small group of trainers.
+
  - Players on Easy Mode can choose if they want to fight the first two trainers. The rest of the trainers and Lance will not fight the player.
  - Players on Normal Mode will battle the first two trainers. They can then choose to battle the other two trainers. Again, Lance will not fight the player.
  - Players on Challenge Mode will battle all four trainers and Lance. However, the player will do so in a gauntlet.
     - The Hail and Sun trainers are fought back-to-back. The player is healed between battles. Then the Rain and Sand trainers are fought back-to-back. The player is healed between battles. Finally, Lance can be fought.
 	- Prepare for a brutal challenge which will push you to your absolute limits, against all Gen V weather has to throw at you!
+
 Upon witnessing the initial cutscene, the difficulty of the gauntlet is set. Thus, you should pick your difficulty before you get here!
+
  - You cannot change this later!
 
 *Mandatory nature of these fights depends on your chosen difficulty.
