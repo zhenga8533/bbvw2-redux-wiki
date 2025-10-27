@@ -25,7 +25,7 @@ class WildAreaChangesParser(BaseParser):
         self._sections = [
             "General Changes",
             "Main Story Changes",
-            "Postgame Locations Changes",
+            "Postgame Location Changes",
             "Hidden Grotto Guide",
         ]
 
@@ -33,13 +33,16 @@ class WildAreaChangesParser(BaseParser):
         self._current_location = ""
         self._tab_markdown = ""
 
+        # Hidden Grotto Guide States
+        self._encounter_type = ""
+
     def parse_general_changes(self, line: str) -> None:
         """Parse the General Changes section."""
         self.parse_default(line)
 
     def parse_main_story_changes(self, line: str) -> None:
         """Parse the Main Story Changes section."""
-        pokemon_row_pattern = r"(.+?) Lv. (.+?) (\d+)%"
+        pokemon_row_pattern = r"(.+?) Lv\. (.+?) (.+?)%"
         table_header = "| Pokémon | Level(s) | Chance |"
         table_seperator = "|:-------:|:---------|:-------|"
 
@@ -62,7 +65,7 @@ class WildAreaChangesParser(BaseParser):
                 self._tab_markdown += f"\t{table_header}\n"
         elif line.endswith(":"):
             self._markdown += f"#### {line[:-1]}\n\n"
-            self._markdown += "| Pokémon | Level(s) | Chance |\n"
+            self._markdown += f"{table_header}\n"
         # Match: table seperators
         elif match := re.match(r"^\-{3,}\s{1,}\-{3,}$", line):
             self._markdown += f"\t{table_seperator}\n"
@@ -86,10 +89,12 @@ class WildAreaChangesParser(BaseParser):
                 self._markdown += (
                     f"\t{self._format_pokemon_row(pkmn1, level1, chance1)}\n"
                 )
-                self._tab_markdown += f"\t{extra}\n"
-        elif match := re.match(r"^(.+?) Lv\. (.+?) (.+?)%$", line):
+                self._tab_markdown += f"\t{extra.strip()}\n"
+        elif match := re.match(rf"^{pokemon_row_pattern}$", line):
             pkmn, level, chance = match.groups()
-            self._markdown += f"\t{self._format_pokemon_row(pkmn, level, chance)}\n"
+            if self._tab_markdown:
+                self._markdown += "\t"
+            self._markdown += f"{self._format_pokemon_row(pkmn, level, chance)}\n"
         # Match: empty line
         elif line == "":
             self._markdown += f"\n{self._tab_markdown}"
@@ -103,10 +108,31 @@ class WildAreaChangesParser(BaseParser):
         """Format a Pokémon row for the markdown table."""
         return f"| {format_pokemon(pokemon)} | {level} | {chance}% |"
 
-    def parse_postgame_locations_changes(self, line: str) -> None:
+    def parse_postgame_location_changes(self, line: str) -> None:
         """Parse the Postgame Locations Changes section."""
         self.parse_main_story_changes(line)
 
     def parse_hidden_grotto_guide(self, line: str) -> None:
         """Parse the Hidden Grotto Guide section."""
-        self.parse_default(line)
+        # Match: "~ <location> ~"
+        if match := re.match(r"^\~{1,} (.+) \~{1,}$", line):
+            self._current_location = match.group(1)
+            self._markdown += f"\n### {self._current_location}\n"
+        # Match: "<encounter>:"
+        elif line.endswith(":"):
+            self._encounter_type = line[:-1]
+            self._markdown += f'=== "{self._encounter_type}"\n'
+            if self._encounter_type != "Guaranteed Encounters":
+                self._markdown += '\n\t<div style="display: flex; justify-content: center; align-items: flex-end; flex-wrap: wrap; gap: 1rem;">'
+        elif line and self._encounter_type:
+            if self._encounter_type == "Guaranteed Encounters":
+                self._markdown += f"\t{line}\n"
+                return
+            self._markdown += f"\t\t{format_pokemon(line.strip(' -'))}\n"
+
+            if self.peek_line(1) == "":
+                self._markdown += "\t</div>\n"
+                self._encounter_type = ""
+        # Default: regular text line
+        else:
+            self.parse_default(line)
