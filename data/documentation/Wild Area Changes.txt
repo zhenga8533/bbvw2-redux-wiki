@@ -438,8 +438,8 @@ Larvitar Lv. 19-20 05%
 
 Sand, Normal:                            Special Event:
 ---------------------------------------- ----------------------------------------
-Dwebble Lv. 19-20 20%                    Mandibuzz Lv. 30 BB2 --%
-Darumaka Lv. 19-20 20%                   Braviary Lv. 30 VW2 --%
+Dwebble Lv. 19-20 20%                    Mandibuzz Lv. 30 BB2%
+Darumaka Lv. 19-20 20%                   Braviary Lv. 30 VW2%
 Sandile Lv. 19-20 10%
 Scraggy Lv. 19-20 10%
 Numel Lv. 19-20 10%
@@ -518,7 +518,7 @@ Pachirisu Lv. 27-29 05%                  Smeargle Lv. 27-30 05%
 Grass, Shaking Spots:                    Hidden Grotto:
 ---------------------------------------- ----------------------------------------
 Audino Lv. 27-30 75%                     Search 'Hidden Grotto Guide' - (End of Document)
-Emolga Lv. 27-30 15%                     *Guaranteed to be Stantler on first visit - see the Groto documentation!
+Emolga Lv. 27-30 15%                     *Guaranteed to be Stantler on first visit - see the Grotto documentation!
 Stantler Lv. 27-30 10%
 
 
@@ -624,11 +624,15 @@ Grass, Shaking Spots:                    Hidden Grottos:
 ---------------------------------------- ----------------------------------------
 Audino Lv. 32-36 60%                     Search 'Hidden Grotto Guide' - (End of Document)
 Emolga Lv. 32-36 10%
-Dunsparce Lv. 32-36 10%                  Special Gifts:
-Unfezant Lv. 32-36 05%                   ----------------------------------------
-Castform Lv. 32-36 05%                   Corsola* Lv. 30 --%
+Dunsparce Lv. 32-36 10%
+Unfezant Lv. 32-36 05%
+Castform Lv. 32-36 05%
 Yanmega Lv. 32-36 05%
 Azumarill Lv. 32-36 05%
+
+Special Gifts:
+----------------------------------------
+Corsola* Lv. 30 --%
 
 Surf, Normal:                            Surf, Dark Spot:
 ---------------------------------------- ----------------------------------------
@@ -658,16 +662,20 @@ Snover Lv. 32-36 10%                     Snover Lv. 32-36 10%
 Yanma Lv. 32-36 05%                      Sudowoodo Lv. 32-36 05%
 Marill Lv. 32-36 05%                     Mr. Mime Lv. 32-36 05%
 Bonsly Lv. 32-36 05%                     Marill Lv. 32-36 05%
-Mime Jr. 32-36 05%                       Yanma Lv. 32-36 05%
+Mime Jr. Lv. 32-36 05%                   Yanma Lv. 32-36 05%
 
 Grass, Shaking Spots:                    Hidden Grotto:
 ---------------------------------------- ----------------------------------------
 Audino Lv. 32-36 65%                     Search 'Hidden Grotto Guide' - (End of Document)
 Emolga Lv. 32-36 10%
-Dunsparce Lv. 32-36 10%                  Special Gifts:
-Azumarill Lv. 32-36 05%                  ----------------------------------------
-Castform Lv. 32-36 05%                   Corsola* Lv. 30 --%
+Dunsparce Lv. 32-36 10%
+Azumarill Lv. 32-36 05%
+Castform Lv. 32-36 05%
 Yanmega Lv. 32-36 05%
+
+Special Gifts:
+----------------------------------------
+Corsola* Lv. 30 --%
 
 Surf, Normal:                            Surf, Dark Spot:
 ---------------------------------------- ----------------------------------------
@@ -1085,8 +1093,8 @@ Horsea Lv. 40-46 10%                     Lanturn Lv. 40-46 10%
 
 Special Event, Undella Bay:
 ----------------------------------------
-Jellicent♂ Lv. 45 BB2 --%
-Jellicent♀ Lv. 45 VW2 --%
+Jellicent♂ Lv. 45 BB2%
+Jellicent♀ Lv. 45 VW2%
 
 
 
@@ -1448,9 +1456,13 @@ Audino Lv. 54-58 50%                     Search 'Hidden Grotto Guide' - (End of 
 Audino Lv. 54-58 20%
 Emolga Lv. 54-58 10%
 Vileplume Lv. 54-58 05%
-Victreebel Lv. 54-58 05%                 Special Event:
-Bellossom Lv. 54-58 05%                  ----------------------------------------
-Mamoswine Lv. 54-58 05%                  Terrakion Lv. 50 --%
+Victreebel Lv. 54-58 05%
+Bellossom Lv. 54-58 05%
+Mamoswine Lv. 54-58 05%
+
+Special Event:
+----------------------------------------
+Terrakion Lv. 50 --%
 
 Surf, Normal:                            Surf, Dark Spot:
 ---------------------------------------- ----------------------------------------
@@ -1557,11 +1569,15 @@ Golbat Lv. 53-56 20%                     Solrock Lv. 54-58 50%
 Delibird Lv. 53-56 10%
 Boldore Lv. 53-56 10%
 Jynx Lv. 53-56 10%
-Vanillish Lv. 53-56 10%                  Special Event:
-Cryogonal Lv. 53-56 05%                  ----------------------------------------
-Sneasel Lv. 53-56 05%                    Kyurem Lv. 75 --%
+Vanillish Lv. 53-56 10%
+Cryogonal Lv. 53-56 05%
+Sneasel Lv. 53-56 05%
 Solrock Lv. 53-56 05%
 Lunatone Lv. 53-56 05%
+
+Special Event:
+----------------------------------------
+Kyurem Lv. 75 --%
 
 Surf, Normal:                            Surf, Dark Spot:
 ---------------------------------------- ----------------------------------------
@@ -2485,9 +2501,9 @@ Kecleon Lv. 01-100 05%                   Umbreon Lv. 02-100 10%
 Girafarig Lv. 01-100 05%                 Espeon Lv. 02-100 10%
 Nuzleaf Lv. 14-100 05%                   Glaceon Lv. 02-100 10%
 
-Grass, Shaking Spots: Special Event:
+Grass, Shaking Spots:                    Special Event:
 ---------------------------------------- ----------------------------------------
-Audino Lv. 1-100 70%                     Arceus (***) Lv. 80 --%
+Audino Lv. 1-100 70%                     Arceus*** Lv. 80 --%
 Dunsparce Lv. 1-100 10%
 Serperior Lv. 36-100 05%
 Samurott Lv. 36-100 05%
