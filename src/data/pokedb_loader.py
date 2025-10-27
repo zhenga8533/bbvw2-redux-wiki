@@ -9,7 +9,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from dataclasses import asdict
 from enum import IntEnum
 from pathlib import Path
-from typing import Any, Optional, Type, TypeVar
+from typing import Any, Optional, Type, TypeVar, cast
 
 from dacite import from_dict, Config, DaciteError
 
@@ -326,7 +326,11 @@ class PokeDBLoader:
 
     @classmethod
     def _load_json(
-        cls, category: str, name: str, subfolder: Optional[str] = None, silent: bool = False
+        cls,
+        category: str,
+        name: str,
+        subfolder: Optional[str] = None,
+        silent: bool = False,
     ) -> dict:
         """
         Load a JSON file from the PokeDB directory.
@@ -477,7 +481,9 @@ class PokeDBLoader:
             )
 
     @classmethod
-    def load_pokemon(cls, name: str, subfolder: Optional[str] = None) -> Optional[Pokemon]:
+    def load_pokemon(
+        cls, name: str, subfolder: Optional[str] = None
+    ) -> Optional[Pokemon]:
         """
         Load a Pokemon JSON file with thread-safe LRU caching.
 
@@ -535,11 +541,13 @@ class PokeDBLoader:
                 )
                 return result
 
-        logger.debug(f"Pokemon '{name}' not found in any subfolder")
+        logger.warning(f"Pokemon '{name}' not found in any subfolder")
         return None
 
     @classmethod
-    def _load_pokemon_from_subfolder(cls, name: str, subfolder: str) -> Optional[Pokemon]:
+    def _load_pokemon_from_subfolder(
+        cls, name: str, subfolder: str
+    ) -> Optional[Pokemon]:
         """
         Internal method to load a Pokemon from a specific subfolder.
 
@@ -972,7 +980,7 @@ class PokeDBLoader:
 
                     f.write(
                         orjson.dumps(
-                            asdict(data, dict_factory=dict_factory),
+                            asdict(cast(Any, data), dict_factory=dict_factory),
                             option=orjson.OPT_INDENT_2 | orjson.OPT_SORT_KEYS,
                         )
                     )
@@ -1002,7 +1010,9 @@ class PokeDBLoader:
         return file_path
 
     @classmethod
-    def save_pokemon(cls, name: str, data: Pokemon, subfolder: Optional[str] = None) -> Path:
+    def save_pokemon(
+        cls, name: str, data: Pokemon, subfolder: Optional[str] = None
+    ) -> Path:
         """
         Save Pokemon data to a JSON file and update cache (thread-safe).
 

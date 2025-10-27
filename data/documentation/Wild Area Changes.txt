@@ -79,7 +79,7 @@ Surskit Lv. 30-40 30%                    Azumarill Lv. 35-45 30%
 
 Fish, Normal:                            Fish, Dark Spot:
 ---------------------------------------- ----------------------------------------
-Basculin-R Lv. 05 90%                    Basculin-R Lv. 05-15 70%
+Basculin-Red Striped Lv. 05 90%                    Basculin-Red Striped Lv. 05-15 70%
 Surskit Lv. 05 05%                       Surskit Lv. 05-15 30%
 Staryu Lv. 05 05%
 
@@ -119,7 +119,7 @@ Dragonair Lv. 35-45 05%
 
 Fish, Normal:                            Fish, Dark Spot:
 ---------------------------------------- ----------------------------------------
-Basculin-B Lv. 05-15 60%                 Basculin-B Lv. 05-15 60%
+Basculin-Blue Striped Lv. 05-15 60%                 Basculin-Blue Striped Lv. 05-15 60%
 Dratini Lv. 05-15 40%                    Dratini Lv. 05-15 40%
 
 
@@ -158,7 +158,7 @@ Dragonair Lv. 35-45 05%
 
 Fish, Normal:                            Fish, Dark Spot:
 ---------------------------------------- ----------------------------------------
-Basculin-B Lv. 05-15 60%                 Basculin-B Lv. 05-15 60%
+Basculin-Blue Striped Lv. 05-15 60%                 Basculin-Blue Striped Lv. 05-15 60%
 Dratini Lv. 05-15 40%                    Dratini Lv. 05-15 40%
 
 
@@ -197,7 +197,7 @@ Dragonair Lv. 35-45 05%
 
 Fish, Normal:                            Fish, Dark Spot:
 ---------------------------------------- ----------------------------------------
-Basculin-B Lv. 05-15 60%                 Basculin-B Lv. 05-15 60%
+Basculin-Blue Striped Lv. 05-15 60%                 Basculin-Blue Striped Lv. 05-15 60%
 Dratini Lv. 05-15 40%                    Dratini Lv. 05-15 40%
 
 
@@ -237,7 +237,7 @@ Dewgong Lv. 35-45 05%
 
 Fish, Normal:                            Fish, Dark Spot:
 ---------------------------------------- ----------------------------------------
-Basculin-B Lv. 05-15 60%                 Basculin-B Lv. 05-15 60%
+Basculin-Blue Striped Lv. 05-15 60%                 Basculin-Blue Striped Lv. 05-15 60%
 Dratini Lv. 05-15 40%                    Dratini Lv. 05-15 40%
 
 
@@ -270,7 +270,7 @@ Togepi Lv. 10-12 05%
 Surf, Normal:                            Surf, Dark Spot:
 ---------------------------------------- ----------------------------------------
 Magikarp Lv. 20-30 70%                   Magikarp Lv. 30-40 70%
-Basculin-R Lv. 20-30 30%                 Basculin-B Lv. 30-40 30%
+Basculin-Red Striped Lv. 20-30 30%                 Basculin-Blue Striped Lv. 30-40 30%
 
 Fish, Normal:                            Fish, Dark Spot:
 ---------------------------------------- ----------------------------------------
@@ -286,7 +286,7 @@ Goldeen Lv. 05-15 30%                    Poliwag Lv. 05-15 40%
 Surf, Normal:                            Surf, Dark Spot:
 ---------------------------------------- ----------------------------------------
 Frillish Lv. 40 70%                      Alomomola Lv. 40 70%
-Basculin-R Lv. 40 30%                    Jellicent Lv. 40 30%
+Basculin-Red Striped Lv. 40 30%                    Jellicent Lv. 40 30%
 Tentacool Lv. 40 30%                     Tentacruel Lv. 40 30%
 
 Fish, Normal:                            Fish, Dark Spot:
@@ -310,7 +310,7 @@ Electrike Lv. 14-15 10%
 Zigzagoon Lv. 14-15 10%
 Nidoran♂ Lv. 14-15 10%
 Nidoran♀ Lv. 14-15 10%
-Shellos-W Lv. 14-15 05%
+Shellos Lv. 14-15 05%
 Makuhita Lv. 14-15 05%
 Tyrogue Lv. 14-15 05%
 Buizel Lv. 14-15 05%
@@ -322,7 +322,7 @@ Audino Lv. 16 100%
 Surf, Normal:                            Surf, Dark Spot:
 ---------------------------------------- ----------------------------------------
 Frillish Lv. 40 60%                      Alomomola Lv. 40 90%
-Basculin-R Lv. 40 30%                    Tentacruel Lv. 40 05%
+Basculin-Red Striped Lv. 40 30%                    Tentacruel Lv. 40 05%
 Tentacool Lv. 40 10%                     Jellicent Lv. 40 05%
 
 Fish, Normal:                            Fish, Dark Spot:
@@ -581,13 +581,13 @@ Roserade Lv. 27-30 05%
 Surf, Normal:                            Surf, Dark Spot:
 ---------------------------------------- ----------------------------------------
 Buizel Lv. 24-26 60%                     Buizel Lv. 34-36 60%
-Basculin-B Lv. 24-26 30%                 Basculin-R Lv. 34-36 30%
+Basculin-Blue Striped Lv. 24-26 30%                 Basculin-Red Striped Lv. 34-36 30%
 Buizel Lv. 29-31 10%                     Floatzel Lv. 39-41 10%
 
 Fish, Normal:                            Fish, Dark Spot:
 ---------------------------------------- ----------------------------------------
 Psyduck Lv. 18-22 70%                    Psyduck Lv. 23-27 70%
-Basculin-B Lv. 18-22 30%                 Basculin-R Lv. 23-27 30%
+Basculin-Blue Striped Lv. 18-22 30%                 Basculin-Red Striped Lv. 23-27 30%
 
 
 
@@ -636,7 +636,7 @@ Corsola* Lv. 30 --%
 
 Surf, Normal:                            Surf, Dark Spot:
 ---------------------------------------- ----------------------------------------
-Basculin-R Lv. 30 70%                    Basculin-B Lv. 30 90%
+Basculin-Red Striped Lv. 30 70%                    Basculin-Blue Striped Lv. 30 90%
 Marill Lv. 30 30%                        Azumarill Lv. 30 10%
 
 Fish, Normal:                            Fish, Dark Spot:
@@ -679,7 +679,7 @@ Corsola* Lv. 30 --%
 
 Surf, Normal:                            Surf, Dark Spot:
 ---------------------------------------- ----------------------------------------
-Basculin-R Lv. 30 70%                    Basculin-B Lv. 30 90%
+Basculin-Red Striped Lv. 30 70%                    Basculin-Blue Striped Lv. 30 90%
 Seel Lv. 30 30%                          Dewgong Lv. 30 10%
 
 Fish, Normal:                            Fish, Dark Spot:
@@ -756,9 +756,9 @@ Swoobat Lv. 32-36 02%
 
 Surf, Normal:                            Surf, Dark Spot:
 ---------------------------------------- ----------------------------------------
-Shellos-W Lv. 25-35 70%                  Shellos-W Lv. 25-35 60%
-Basculin-R Lv. 25-35 30%                 Basculin-B Lv. 25-35 30%
-Gastrodon-W Lv. 25-35 10%
+Shellos Lv. 25-35 70%                  Shellos Lv. 25-35 60%
+Basculin-Red Striped Lv. 25-35 30%                 Basculin-Blue Striped Lv. 25-35 30%
+Gastrodon Lv. 25-35 10%
 
 Fish, Normal:                            Fish, Dark Spot:
 ---------------------------------------- ----------------------------------------
@@ -781,7 +781,7 @@ Unown-E Lv. 30 10%                       Unown-T Lv. 30 10%
 Unown-N Lv. 30 10%                       Unown-O Lv. 30 10%
 Lileep Lv. 30 05%                        Omanyte Lv. 30 05%
 Anorith Lv. 30 05%                       Kabuto Lv. 30 05%
-Unown-A Lv. 30 05%                       Unown-C Lv. 30 05%
+Unown Lv. 30 05%                         Unown-C Lv. 30 05%
 Unown-Z Lv. 30 05%                       Unown-X Lv. 30 05%
 
 Floor, Furthest Room Right:              Floor, Furthest Room Left:
@@ -806,7 +806,7 @@ Unown-G Lv. 30 10%                       Unown-L Lv. 30 10%
 Unown-Q Lv. 30 10%                       Unown-V Lv. 30 10%
 Unown-M Lv. 30 10%                       Unown-! Lv. 30 10%
 Aerodactyl Lv. 30 05%                    Unown-? Lv. 30 10%
-Darmanitan-Z Lv. 35 05%                  Volcarona Lv. 40* Event --%
+Darmanitan-Zen Lv. 35 05%                Volcarona Lv. 40* Event --%
 
 
 
@@ -1058,7 +1058,7 @@ Spiritomb Lv. 40-43 05%                  Spiritomb Lv. 40-43 05%
 Surf, Normal, Undella Town:              Surf, Dark Spot, Undella Town:
 ---------------------------------------- ----------------------------------------
 Frillish Lv. 40-46 60%                   Staryu Lv. 40-46 60%
-Basculin-B Lv. 40-46 30%                 Basculin-R Lv. 40-46 30%
+Basculin-Blue Striped Lv. 40-46 30%                 Basculin-Red Striped Lv. 40-46 30%
 Staryu Lv. 40-46 10%                     Jellicent Lv. 40-46 10%
 
 Fish, Normal, Undella Town:              Fish, Dark Spot, Undella Town:
@@ -1123,8 +1123,8 @@ Altaria Lv. 42-46 05%
 
 Surf, Normal:                            Surf, Dark Spot:
 ---------------------------------------- ----------------------------------------
-Basculin-B Lv. 40-46 70%                 Buizel Lv. 40-46 60%
-Buizel Lv. 40-46 30%                     Basculin-R Lv. 40-46 30%
+Basculin-Blue Striped Lv. 40-46 70%                 Buizel Lv. 40-46 60%
+Buizel Lv. 40-46 30%                     Basculin-Red Striped Lv. 40-46 30%
 Floatzel Lv. 40-46 10%
 
 Fish, Normal:                            Fish, Dark Spot:
@@ -1170,7 +1170,7 @@ Slowpoke Lv. 40-46 05%
 Fish, Normal:                            Fish, Dark Spot:
 ---------------------------------------- ----------------------------------------
 Corphish Lv. 40-46 70%                   Corphish Lv. 40-46 60%
-Basculin-B Lv. 40-46 30%                 Basculin-R Lv. 40-46 30%
+Basculin-Blue Striped Lv. 40-46 30%                 Basculin-Red Striped Lv. 40-46 30%
 Crawdaunt Lv. 40-46 10%
 
 
@@ -1282,7 +1282,7 @@ Combee Lv. 43-45 20%                     Combee Lv. 44-46 20%
 Beautifly Lv. 43-45 10%                  Beautifly Lv. 44-46 10%
 Dustox Lv. 43-45 10%                     Dustox Lv. 44-46 10%
 Girafarig Lv. 43-45 10%                  Girafarig Lv. 44-46 10%
-Cherubi Lv. 43-45 10%                    Cherrim -S Lv. 44-46 10%
+Cherubi Lv. 43-45 10%                    Cherrim-Sunshine Lv. 44-46 10%
 Heracross Lv. 43-45 05%                  Heracross Lv. 44-46 05%
 Pinsir Lv. 43-45 05%                     Pinsir Lv. 44-46 05%
 Doduo Lv. 43-45 05%                      Dodrio Lv. 44-46 05%
@@ -1324,13 +1324,13 @@ Azumarill Lv. 47-49 05%
 Surf, Normal:                            Surf, Dark Spot:
 ---------------------------------------- ----------------------------------------
 Marill Lv. 42-48 70%                     Swanna Lv. 42-48 60%
-Basculin-B Lv. 42-48 30%                 Lapras Lv. 42-48 30%
+Basculin-Blue Striped Lv. 42-48 30%                 Lapras Lv. 42-48 30%
 Lapras Lv. 42-48 05%                     Azumarill Lv. 42-48 05%
 
 Fish, Normal:                            Fish, Dark Spot:
 ---------------------------------------- ----------------------------------------
-Carvanha Lv. 42-48 70%                   Basculin-R Lv. 42-48 60%
-Basculin-B Lv. 42-48 30%                 Carvanha Lv. 42-48 30%
+Carvanha Lv. 42-48 70%                   Basculin-Red Striped Lv. 42-48 60%
+Basculin-Blue Striped Lv. 42-48 30%                 Carvanha Lv. 42-48 30%
                                          Sharpedo Lv. 42-48 10%
 
 
@@ -1360,13 +1360,13 @@ Azumarill Lv. 48-52 10%
 Surf, Normal:                            Surf, Dark Spot:
 ---------------------------------------- ----------------------------------------
 Buizel Lv. 48-53 60%                     Buizel Lv. 48-53 60%
-Basculin-B Lv. 48-53 30%                 Basculin-R Lv. 48-53 30%
+Basculin-Blue Striped Lv. 48-53 30%                 Basculin-Red Striped Lv. 48-53 30%
 Floatzel Lv. 48-53 10%                   Floatzel Lv. 48-53 10%
 
 Fish, Normal:                            Fish, Dark Spot:
 ---------------------------------------- ----------------------------------------
 Finneon Lv. 48-53 70%                    Finneon Lv. 48-53 60%
-Basculin-B Lv. 48-53 30%                 Basculin-R Lv. 48-53 30%
+Basculin-Blue Striped Lv. 48-53 30%                 Basculin-Red Striped Lv. 48-53 30%
                                          Lumineon Lv. 48-53 10%
 
 
@@ -1403,8 +1403,8 @@ Reuniclus Lv. 53-56 05%
 Surf, Normal, Route 21:                  Surf, Dark Spot, Route 21:
 ---------------------------------------- ----------------------------------------
 Shellder Lv. 50-55 60%                   Shellder Lv. 50-55 60%
-Staryu Lv. 50-55 30%                     Basculin-B Lv. 50-55 30%
-Basculin-B Lv. 50-55 10%                 Cloyster Lv. 50-55 10%
+Staryu Lv. 50-55 30%                     Basculin-Blue Striped Lv. 50-55 30%
+Basculin-Blue Striped Lv. 50-55 10%                 Cloyster Lv. 50-55 10%
 
 Fish, Normal, Route 21:                  Fish, Dark Spot, Route 21:
 ---------------------------------------- ----------------------------------------
@@ -1472,7 +1472,7 @@ Surskit Lv. 50-55 30%                    Masquerain Lv. 50-55 30%
 Fish, Normal:                            Fish, Dark Spot:
 ---------------------------------------- ----------------------------------------
 Goldeen Lv. 50-55 70%                    Goldeen Lv. 50-55 60%
-Basculin-B Lv. 50-55 30%                 Basculin-R Lv. 50-55 30%
+Basculin-Blue Striped Lv. 50-55 30%                 Basculin-Red Striped Lv. 50-55 30%
 Seaking Lv. 50-55 10%
 
 
@@ -1522,14 +1522,14 @@ Lunatone Lv. 53-56 05%
 
 Surf, Normal:                            Surf, Dark Spot:
 ---------------------------------------- ----------------------------------------
-Shellos-E Lv. 50-60 70%                  Seel Lv. 50-60 70%
-Seel Lv. 50-60 30%                       Gastrodon-E Lv. 50-60 30%
+Shellos-East Lv. 50-60 70%                  Seel Lv. 50-60 70%
+Seel Lv. 50-60 30%                       Gastrodon-East Lv. 50-60 30%
 Dewgong Lv. 50-60 10%
 
 Fish, Normal:                            Fish, Dark Spot:
 ---------------------------------------- ----------------------------------------
 Shellder Lv. 50-60 70%                   Cloyster Lv. 50-60 90%
-Shellos-E Lv. 50-60 30%                  Gastrodon-E Lv. 50-60 05%
+Shellos-East Lv. 50-60 30%                  Gastrodon-East Lv. 50-60 05%
 
 
 
@@ -1581,14 +1581,14 @@ Kyurem Lv. 75 --%
 
 Surf, Normal:                            Surf, Dark Spot:
 ---------------------------------------- ----------------------------------------
-Shellos-E Lv. 50-60 70%                  Seel Lv. 50-60 70%
-Seel Lv. 50-60 30%                       Gastrodon-E Lv. 50-60 30%
+Shellos-East Lv. 50-60 70%                  Seel Lv. 50-60 70%
+Seel Lv. 50-60 30%                       Gastrodon-East Lv. 50-60 30%
 Dewgong Lv. 50-60 10%
 
 Fish, Normal:                            Fish, Dark Spot:
 ---------------------------------------- ----------------------------------------
 Shellder Lv. 50-60 70%                   Cloyster Lv. 50-60 90%
-Shellos-E Lv. 50-60 30%                  Gastrodon-E Lv. 50-60 05%
+Shellos-East Lv. 50-60 30%                  Gastrodon-East Lv. 50-60 05%
 
 
 
@@ -1616,15 +1616,15 @@ Emolga Lv. 59-62 15%
 
 Surf, Normal:                            Surf, Dark Spot:
 ---------------------------------------- ----------------------------------------
-Wooper Lv. 55-65 60%                     Shellos-E Lv. 55-65 60%
-Shellos-E Lv. 55-65 30%                  Quagsire Lv. 55-65 30%
-Gastrodon-E Lv. 55-65 05%                Gastrodon-E Lv. 55-65 10%
+Wooper Lv. 55-65 60%                     Shellos-East Lv. 55-65 60%
+Shellos-East Lv. 55-65 30%                  Quagsire Lv. 55-65 30%
+Gastrodon-East Lv. 55-65 05%                Gastrodon-East Lv. 55-65 10%
 Quagsire Lv. 55-65 05%
 
 Fish, Normal:                            Fish, Dark Spot:
 ---------------------------------------- ----------------------------------------
 Krabby Lv. 55-65 60%                     Krabby Lv. 55-65 60%
-Basculin-B Lv. 55-65 30%                 Basculin-R Lv. 55-65 30%
+Basculin-Blue Striped Lv. 55-65 30%                 Basculin-Red Striped Lv. 55-65 30%
 Kingler Lv. 55-65 10%                    Kingler Lv. 55-65 10%
 
 
@@ -1646,14 +1646,14 @@ Duosion Lv. 59-62 05%
 
 Surf, Normal:                            Surf, Dark Spot:
 ---------------------------------------- ----------------------------------------
-Basculin-B Lv. 60-70 70%                 Marill Lv. 60-70 60%
-Marill Lv. 60-70 30%                     Basculin-R Lv. 60-70 30%
+Basculin-Blue Striped Lv. 60-70 70%                 Marill Lv. 60-70 60%
+Marill Lv. 60-70 30%                     Basculin-Red Striped Lv. 60-70 30%
 Azumarill Lv. 60-70 10%
 
 Fish, Normal:                            Fish, Dark Spot:
 ---------------------------------------- ----------------------------------------
 Frillish Lv. 60-70 70%                   Frillish Lv. 60-70 65%
-Basculin-B Lv. 60-70 30%                 Basculin-R Lv. 60-70 30%
+Basculin-Blue Striped Lv. 60-70 30%                 Basculin-Red Striped Lv. 60-70 30%
 
 
 
@@ -1682,13 +1682,13 @@ Unfezant Lv. 57 10%
 Surf, Normal:                            Surf, Dark Spot:
 ---------------------------------------- ----------------------------------------
 Buizel Lv. 60-70 60%                     Buizel Lv. 60-70 60%
-Basculin-B Lv. 60-70 30%                 Basculin-R Lv. 60-70 30%
+Basculin-Blue Striped Lv. 60-70 30%                 Basculin-Red Striped Lv. 60-70 30%
 Floatzel Lv. 60-70 10%                   Floatzel Lv. 60-70 10%
 
 Fish, Normal:                            Fish, Dark Spot:
 ---------------------------------------- ----------------------------------------
 Frillish Lv. 60-70 70%                   Frillish Lv. 60-70 70%
-Basculin-B Lv. 60-70 30%                 Basculin-R Lv. 60-70 30%
+Basculin-Blue Striped Lv. 60-70 30%                 Basculin-Red Striped Lv. 60-70 30%
 
 
 
@@ -1850,15 +1850,15 @@ Shelmet Lv. 63 10%
 Karrablast Lv. 64 05%
 Shelmet Lv. 64 05%
 Toxicroak Lv. 65 04%
-Gastrodon-W Lv. 65 04%
+Gastrodon Lv. 65 04%
 Toxicroak Lv. 66 01%
-Gastrodon-W Lv. 66 01%
+Gastrodon Lv. 66 01%
 
 Surf, Normal:                            Surf, Dark Spot:
 ---------------------------------------- ----------------------------------------
 Stunfisk Lv. 50 60%                      Stunfisk Lv. 60-70 65%
-Stunfisk Lv. 55-65 30%                   Gastrodon-W Lv. 60-70 30%
-Gastrodon-W Lv. 55-65 05%                Seismitoad Lv. 60-70 05%
+Stunfisk Lv. 55-65 30%                   Gastrodon Lv. 60-70 30%
+Gastrodon Lv. 55-65 05%                Seismitoad Lv. 60-70 05%
 
 Fish, Normal:                            Fish, Dark Spot:
 ---------------------------------------- ----------------------------------------
@@ -1880,18 +1880,18 @@ Quagsire Lv. 64 10%
 Quagsire Lv. 66 10%
 Quagsire Lv. 65 10%
 Quagsire Lv. 67 10%
-Gastrodon-W Lv. 64 05%
-Gastrodon-W Lv. 65 05%
-Gastrodon-W Lv. 66 04%
-Gastrodon-W Lv. 67 04%
-Gastrodon-W Lv. 68 01%
-Gastrodon-W Lv. 63 01%
+Gastrodon Lv. 64 05%
+Gastrodon Lv. 65 05%
+Gastrodon Lv. 66 04%
+Gastrodon Lv. 67 04%
+Gastrodon Lv. 68 01%
+Gastrodon Lv. 63 01%
 
 Surf, Normal:                            Surf, Dark Spot:
 ---------------------------------------- ----------------------------------------
 Stunfisk Lv. 45-55 60%                   Stunfisk Lv. 60-70 65%
-Stunfisk Lv. 55-65 35%                   Gastrodon-W Lv. 60-70 30%
-Gastrodon-W Lv. 55-65 05%                Seismitoad Lv. 60-70 10%
+Stunfisk Lv. 55-65 35%                   Gastrodon Lv. 60-70 30%
+Gastrodon Lv. 55-65 05%                Seismitoad Lv. 60-70 10%
 
 Fish, Normal:                            Fish, Dark Spot:
 ---------------------------------------- ----------------------------------------
@@ -1929,14 +1929,14 @@ Unfezant Lv. 68 05%
 
 Surf, Normal:                            Surf, Dark Spot:
 ---------------------------------------- ----------------------------------------
-Basculin-R Lv. 40-60 60%                 Basculin-B Lv. 55-65 66%
-Basculin-R Lv. 45-65 35%                 Lapras Lv. 60-70 30%
+Basculin-Red Striped Lv. 40-60 60%                 Basculin-Blue Striped Lv. 55-65 66%
+Basculin-Red Striped Lv. 45-65 35%                 Lapras Lv. 60-70 30%
 Lapras Lv. 55-65 05%
 
 Fish, Normal:                            Fish, Dark Spot:
 ---------------------------------------- ----------------------------------------
 Dratini Lv. 50-56 60%                    Dragonair Lv. 60-70 65%
-Basculin-R Lv. 51-57 30%                 Basculin-B Lv. 60-70 30%
+Basculin-Red Striped Lv. 51-57 30%                 Basculin-Blue Striped Lv. 60-70 30%
 Dragonair Lv. 50-60 10%                  Dragonite Lv. 65-75 05%
 
 
@@ -1969,14 +1969,14 @@ Vanilluxe Lv. 68 05%
 
 Surf, Normal:                            Surf, Dark Spot:
 ---------------------------------------- ----------------------------------------
-Basculin-R Lv. 40-60 60%                 Basculin-B Lv. 55-65 70%
-Basculin-R Lv. 45-65 35%                 Lapras Lv. 60-70 30%
+Basculin-Red Striped Lv. 40-60 60%                 Basculin-Blue Striped Lv. 55-65 70%
+Basculin-Red Striped Lv. 45-65 35%                 Lapras Lv. 60-70 30%
 Lapras Lv. 55-65 05%
 
 Fish, Normal:                            Fish, Dark Spot:
 ---------------------------------------- ----------------------------------------
 Dratini Lv. 50-56 60%                    Dragonair Lv. 60-70 65%
-Basculin-R Lv. 51-57 30%                 Basculin-B Lv. 60-70 30%
+Basculin-Red Striped Lv. 51-57 30%                 Basculin-Blue Striped Lv. 60-70 30%
 Dragonair Lv. 50-60 10%                  Dragonite Lv. 65-75 05%
 
 
@@ -2127,7 +2127,7 @@ Gliscor Lv. 68 05%
 Grass, Normal:                           Grass, Doubles:
 ---------------------------------------- ----------------------------------------
 Swadloon Lv. 64 20%                      Swadloon Lv. 68 20%
-Whirlipede Lv. 64 20%                    Whiripede Lv. 68 20%
+Whirlipede Lv. 64 20%                    Whirlipede Lv. 68 20%
 Exeggcute Lv. 61 10%                     Heracross Lv. 69 10%
 Shroomish Lv. 61 10%                     Pinsir Lv. 69 10%
 Gloom Lv. 65 10%                         Scyther Lv. 69 10%
@@ -2153,13 +2153,13 @@ Scolipede Lv. 68 05%
 Surf, Normal:                            Surf, Dark Spot:
 ---------------------------------------- ----------------------------------------
 Marill Lv. 50-60 60%                     Marill Lv. 55-65 60%
-Basculin-B Lv. 50-60 30%                 Basculin-R Lv. 60-70 30%
+Basculin-Blue Striped Lv. 50-60 30%                 Basculin-Red Striped Lv. 60-70 30%
 Azumarill Lv. 55-65 10%                  Azumarill Lv. 60-70 10%
 
 Fish, Normal:                            Fish, Dark Spot:
 ---------------------------------------- ----------------------------------------
 Goldeen Lv. 50-60 65%                    Goldeen Lv. 55-65 60%
-Basculin-B Lv. 50-60 30%                 Basculin-R Lv. 60-70 30%
+Basculin-Blue Striped Lv. 50-60 30%                 Basculin-Red Striped Lv. 60-70 30%
 Seaking Lv. 55-65 05%                    Seaking Lv. 60-70 10%
 
 
@@ -2223,13 +2223,13 @@ Arcanine Lv. 68 05%
 Surf, Normal:                            Surf, Dark Spot:
 ---------------------------------------- ----------------------------------------
 Lotad Lv. 50-60 60%                      Lotad Lv. 55-65 60%
-Basculin-B Lv. 50-60 30%                 Basculin-R Lv. 60-70 30%
+Basculin-Blue Striped Lv. 50-60 30%                 Basculin-Red Striped Lv. 60-70 30%
 Lombre Lv. 55-65 10%                     Lombre Lv. 60-70 10%
 
 Fish, Normal:                            Fish, Dark Spot:
 ---------------------------------------- ----------------------------------------
 Corphish Lv. 50-60 65%                   Corphish Lv. 55-65 60%
-Basculin-B Lv. 50-60 30%                 Basculin-R Lv. 65 30%
+Basculin-Blue Striped Lv. 50-60 30%                 Basculin-Red Striped Lv. 65 30%
 Crawdaunt Lv. 55-65 05%                  Crawdaunt Lv. 60-70 10%
 
 
@@ -2256,7 +2256,7 @@ Loudred Lv. 68 01%
 Surf, Normal:                            Surf, Dark Spot:
 ---------------------------------------- ----------------------------------------
 Wooper Lv. 45-55 60%                     Wooper Lv. 55-65 60%
-Basculin-B Lv. 55-65 30%                 Basculin-R Lv. 60-70 35%
+Basculin-Blue Striped Lv. 55-65 30%                 Basculin-Red Striped Lv. 60-70 35%
 Quagsire Lv. 55-65 10%                   Quagsire Lv. 60-70 05%
 
 Fish, Normal:                            Fish, Dark Spot:
@@ -2273,7 +2273,7 @@ Whiscash Lv. 55-65 10%                   Cloyster Lv. 65-75 05%
 
 Surf, Normal:                            Surf, Dark Spot:
 ---------------------------------------- ----------------------------------------
-Basculin-B Lv. 35-65 70%                 Basculin-R Lv. 55-75 90%
+Basculin-Blue Striped Lv. 35-65 70%                 Basculin-Red Striped Lv. 55-75 90%
 Corphish Lv. 35-65 30%                   Crawdaunt Lv. 55-75 10%
 
 Fish, Normal:                            Fish, Dark Spot:
@@ -2378,14 +2378,14 @@ Wigglytuff Lv. 68 05%
 
 Surf, Normal:                            Surf, Dark Spot:
 ---------------------------------------- ----------------------------------------
-Basculin-B Lv. 55 70%                    Basculin-R Lv. 45-60 66%
-Basculin-B Lv. 65 30%                    Basculin-R Lv. 50-60 30%
+Basculin-Blue Striped Lv. 55 70%                    Basculin-Red Striped Lv. 45-60 66%
+Basculin-Blue Striped Lv. 65 30%                    Basculin-Red Striped Lv. 50-60 30%
 
 Fish, Normal:                            Fish, Dark Spot:
 ---------------------------------------- ----------------------------------------
-Basculin-R Lv. 55 60%                    Feebas Lv. 55-65 65%
-Feebas Lv. 40-60 30%                     Basculin-B Lv. 65 30%
-Basculin-R Lv. 60-70 10%                 Milotic Lv. 65-75 05%
+Basculin-Red Striped Lv. 55 60%                    Feebas Lv. 55-65 65%
+Feebas Lv. 40-60 30%                     Basculin-Blue Striped Lv. 65 30%
+Basculin-Red Striped Lv. 60-70 10%                 Milotic Lv. 65-75 05%
 
 
 
@@ -2823,8 +2823,8 @@ Common Encounters:
 
  - Kecleon
  - Farfetch'd
- - Shellos-E
- - Shellos-W
+ - Shellos-East
+ - Shellos
 
 Uncommon Encounters:
 
