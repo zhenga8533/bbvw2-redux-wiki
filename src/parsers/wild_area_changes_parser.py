@@ -124,6 +124,7 @@ class WildAreaChangesParser(BaseParser):
             self._markdown += f'=== "{self._encounter_type}"\n'
             if self._encounter_type != "Guaranteed Encounters":
                 self._markdown += '\n\t<div style="display: flex; justify-content: center; align-items: flex-end; flex-wrap: wrap; gap: 1rem;">'
+        # Match: encounter Pokémon line
         elif line and self._encounter_type:
             if self._encounter_type == "Guaranteed Encounters":
                 self._markdown += f"\t{line}\n"
