@@ -20,7 +20,25 @@ class WildAreaChangesParser(BaseParser):
     def __init__(self, input_file: str, output_dir: str = "docs"):
         """Initialize the Wild Area Changes parser."""
         super().__init__(input_file=input_file, output_dir=output_dir)
+        self._sections = [
+            "General Changes",
+            "Main Story Changes",
+            "Postgame Locations Changes",
+            "Hidden Grotto Guide",
+        ]
 
-    def parse(self) -> None:
-        """Parse the Wild Area Changes documentation file."""
-        raise NotImplementedError("Wild Area Changes parser is not yet implemented")
+    def parse_general_changes(self, line: str) -> None:
+        """Parse the General Changes section."""
+        self.parse_default(line)
+
+    def parse_main_story_changes(self, line: str) -> None:
+        """Parse the Main Story Changes section."""
+        self.parse_default(line)
+
+    def parse_postgame_locations_changes(self, line: str) -> None:
+        """Parse the Postgame Locations Changes section."""
+        self.parse_default(line)
+
+    def parse_hidden_grotto_guide(self, line: str) -> None:
+        """Parse the Hidden Grotto Guide section."""
+        self.parse_default(line)
