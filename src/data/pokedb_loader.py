@@ -21,6 +21,7 @@ from src.models.pokedb import (
     Form,
     Stats,
     PokemonMoves,
+    GameStringMap,
 )
 from src.utils.logger_util import get_logger
 from src.utils.text_util import name_to_id
@@ -955,6 +956,7 @@ class PokeDBLoader:
                     from src.models.pokedb import (
                         GameVersionStringMap,
                         GameVersionIntMap,
+                        GameStringMap,
                         SpriteVersions,
                         PokemonMoves,
                     )
@@ -969,6 +971,7 @@ class PokeDBLoader:
                                 (
                                     GameVersionStringMap,
                                     GameVersionIntMap,
+                                    GameStringMap,
                                     SpriteVersions,
                                     PokemonMoves,
                                 ),

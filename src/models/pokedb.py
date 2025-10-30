@@ -48,6 +48,12 @@ VERSION_GROUP_KEYS: set[str] = {
     "black_white",
     "black_2_white_2",
 }
+GAME_VERSION_KEYS: set[str] = {
+    "black",
+    "white",
+    "black_2",
+    "white_2",
+}
 SPRITE_VERSION_KEY: str = "black_white"
 
 # endregion
@@ -161,6 +167,63 @@ class GameVersionIntMap:
             if value is not None:
                 parts.append(f"{game}={value!r}")
         return f"GameVersionIntMap({', '.join(parts)})"
+
+
+class GameStringMap:
+    """
+    Holds string values keyed by individual game version (not version groups).
+    Used for flavor text which varies by individual game.
+    Attributes are pre-declared for static analysis.
+    """
+
+    # Use slots for efficiency and to define expected attributes
+    __slots__ = tuple(GAME_VERSION_KEYS)
+
+    # Pre-declare attributes for static analysis (mypy/linter)
+    # <-- EDIT HERE when switching generations
+    black: Optional[str]
+    white: Optional[str]
+    black_2: Optional[str]
+    white_2: Optional[str]
+
+    def __init__(self, data: dict[str, Any]):
+        """
+        Initialize the map, dynamically setting attributes.
+        Filters keys against GAME_VERSION_KEYS.
+        """
+        if not isinstance(data, dict):
+            raise ValueError(f"Expected a dict, got {type(data)}")
+
+        for game in GAME_VERSION_KEYS:
+            value = data.get(game)
+            if value is not None and not isinstance(value, str):
+                raise ValueError(
+                    f"Value for '{game}' must be a string or None, got {type(value)}"
+                )
+            setattr(self, game, value)
+
+    @classmethod
+    def from_dict(cls, data: dict[str, Any]) -> "GameStringMap":
+        """Create GameStringMap from a dictionary."""
+        return cls(data)
+
+    def to_dict(self) -> dict[str, str]:
+        """Convert to a dictionary, excluding None values."""
+        result = {}
+        for game in GAME_VERSION_KEYS:
+            value = getattr(self, game, None)
+            if value is not None:
+                result[game] = value
+        return result
+
+    def __repr__(self) -> str:
+        """Provide a clean representation for debugging."""
+        parts = []
+        for game in GAME_VERSION_KEYS:
+            value = getattr(self, game, None)
+            if value is not None:
+                parts.append(f"{game}={value!r}")
+        return f"GameStringMap({', '.join(parts)})"
 
 
 # endregion
@@ -1194,11 +1257,16 @@ class Pokemon:
     is_baby: bool
     is_legendary: bool
     is_mythical: bool
+    forms_switchable: bool
+    order: int
+    growth_rate: str
+    habitat: Optional[str]
+    evolves_from_species: Optional[str]
     pokedex_numbers: dict[str, int]
     color: str
     shape: str
     egg_groups: list[str]
-    flavor_text: GameVersionStringMap
+    flavor_text: GameStringMap
     genus: str
     generation: str
     evolution_chain: EvolutionChain
@@ -1224,7 +1292,7 @@ class Pokemon:
         if isinstance(self.sprites, dict):
             self.sprites = Sprites(**self.sprites)
         if isinstance(self.flavor_text, dict):
-            self.flavor_text = GameVersionStringMap.from_dict(self.flavor_text)
+            self.flavor_text = GameStringMap.from_dict(self.flavor_text)
         if isinstance(self.evolution_chain, dict):
             # Special handling for species_name being in the root of the chain
             if (
@@ -1340,6 +1408,29 @@ class Pokemon:
             raise ValueError(
                 f"is_mythical must be a boolean, got: {type(self.is_mythical)}"
             )
+        if not isinstance(self.forms_switchable, bool):
+            raise ValueError(
+                f"forms_switchable must be a boolean, got: {type(self.forms_switchable)}"
+            )
+        if not isinstance(self.order, int) or self.order <= 0:
+            raise ValueError(f"order must be a positive integer, got: {self.order}")
+        if not isinstance(self.growth_rate, str) or not self.growth_rate.strip():
+            raise ValueError(
+                f"growth_rate must be a non-empty string, got: {self.growth_rate}"
+            )
+        if self.habitat is not None and (
+            not isinstance(self.habitat, str) or not self.habitat.strip()
+        ):
+            raise ValueError(
+                f"habitat must be None or a non-empty string, got: {self.habitat}"
+            )
+        if self.evolves_from_species is not None and (
+            not isinstance(self.evolves_from_species, str)
+            or not self.evolves_from_species.strip()
+        ):
+            raise ValueError(
+                f"evolves_from_species must be None or a non-empty string, got: {self.evolves_from_species}"
+            )
         if not isinstance(self.pokedex_numbers, dict):
             raise ValueError(
                 f"pokedex_numbers must be a dict, got: {type(self.pokedex_numbers)}"
@@ -1352,9 +1443,9 @@ class Pokemon:
             isinstance(eg, str) for eg in self.egg_groups
         ):
             raise ValueError("egg_groups must be a list of strings")
-        if not isinstance(self.flavor_text, GameVersionStringMap):
+        if not isinstance(self.flavor_text, GameStringMap):
             raise ValueError(
-                f"flavor_text must be a GameVersionStringMap, got: {type(self.flavor_text)}"
+                f"flavor_text must be a GameStringMap, got: {type(self.flavor_text)}"
             )
         if not isinstance(self.genus, str):
             raise ValueError(f"genus must be a string, got: {type(self.genus)}")
