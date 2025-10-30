@@ -6,6 +6,7 @@ import argparse
 import sys
 import importlib
 from src.data.pokedb_initializer import PokeDBInitializer
+from src.generators.pokemon_page_generator import PokemonPageGenerator
 from src.utils.logger_util import get_logger
 from src.utils.config_util import get_config
 
@@ -47,6 +48,47 @@ def initialize_data():
     logger.info("Starting PokeDB data initialization...")
     initializer = PokeDBInitializer()
     initializer.run()
+
+
+def generate_pokedex(subfolder: str = "default"):
+    """
+    Generate Pokemon pages and Pokedex index.
+
+    Args:
+        subfolder: Subfolder within pokemon directory to process
+
+    Returns:
+        bool: True if generation succeeded, False if it failed
+    """
+    logger.info("Starting Pokedex generation...")
+    try:
+        generator = PokemonPageGenerator()
+
+        # Generate all Pokemon pages
+        logger.info("Generating individual Pokemon pages...")
+        pokemon_files = generator.generate_all_pokemon_pages(subfolder=subfolder)
+
+        if not pokemon_files:
+            logger.error("No Pokemon pages were generated")
+            return False
+
+        # Generate the Pokedex index
+        logger.info("Generating Pokedex index...")
+        index_path = generator.generate_pokedex_index(subfolder=subfolder)
+
+        # Update mkdocs.yml navigation
+        logger.info("Updating mkdocs.yml navigation...")
+        nav_success = generator.update_mkdocs_navigation(subfolder=subfolder)
+
+        if not nav_success:
+            logger.warning("Failed to update mkdocs.yml navigation, but pages were generated successfully")
+
+        logger.info(f"Successfully generated {len(pokemon_files)} Pokemon pages and index")
+        return True
+
+    except Exception as e:
+        logger.error(f"Failed to generate Pokedex: {e}", exc_info=True)
+        return False
 
 
 def run_parsers(parser_names: list[str]):
@@ -140,6 +182,12 @@ Examples:
         "--list-parsers", action="store_true", help="List all available parsers"
     )
 
+    parser.add_argument(
+        "--generate-pokedex",
+        action="store_true",
+        help="Generate individual Pokemon pages and Pokedex index",
+    )
+
     args = parser.parse_args()
 
     # Show help if no arguments
@@ -163,6 +211,9 @@ Examples:
 
     if args.parsers:
         success = run_parsers(args.parsers)
+
+    if args.generate_pokedex:
+        success = generate_pokedex() and success
 
     if success:
         logger.info("Complete!")

@@ -1,4 +1,3 @@
-# --- Site Information ---
 site_name: Blaze Black 2 & Volt White 2 Redux Wiki
 site_description: A comprehensive wiki and Pokédex for the BBVW2 Redux rom hack.
 site_author: zhenga8533
@@ -7,78 +6,763 @@ edit_uri: edit/main/docs/
 repo_name: zhenga8533/bbvw2-redux-wiki
 repo_url: https://github.com/zhenga8533/bbvw2-redux-wiki
 copyright: Copyright &copy; 2025 Allen Zheng
-
-# --- Extensions ---
 markdown_extensions:
-  - admonition
-  - attr_list
-  - def_list
-  - md_in_html
-  - pymdownx.details
-  - pymdownx.superfences
-  - pymdownx.tabbed:
-      alternate_style: true
-  - toc:
-      permalink: true
-
-# --- Plugins ---
+- admonition
+- attr_list
+- def_list
+- md_in_html
+- pymdownx.details
+- pymdownx.superfences
+- pymdownx.emoji:
+    emoji_index: !!python/name:material.extensions.emoji.twemoji ''
+    emoji_generator: !!python/name:material.extensions.emoji.to_svg ''
+- pymdownx.tabbed:
+    alternate_style: true
+- toc:
+    permalink: true
 plugins:
-  - git-authors
-  - git-committers:
-      enabled: !ENV [CI, false]
-      repository: zhenga8533/bbvw2-redux
-      branch: main
-  - search
-
-# --- Theme Configuration ---
+- git-committers:
+    enabled: !ENV [CI, false]
+    repository: zhenga8533/bbvw2-redux
+    branch: main
+- search
 theme:
   name: material
   features:
-    - content.tabs.link
-    - navigation.footer
-    - navigation.sections
-    - navigation.tabs
-    - navigation.top
-    - navigation.tracking
-    - search.highlight
-    - search.suggest
+  - content.tabs.link
+  - navigation.footer
+  - navigation.sections
+  - navigation.tabs
+  - navigation.top
+  - navigation.tracking
+  - search.highlight
+  - search.suggest
   palette:
-    - scheme: default
-      toggle:
-        icon: material/brightness-7
-        name: Switch to dark mode
-    - scheme: slate
-      toggle:
-        icon: material/brightness-4
-        name: Switch to light mode
-
-# --- Website Navigation Structure ---
+  - scheme: default
+    toggle:
+      icon: material/brightness-7
+      name: Switch to dark mode
+  - scheme: slate
+    toggle:
+      icon: material/brightness-4
+      name: Switch to light mode
 nav:
-  - Getting Started:
-      - Home: index.md
-      - Hardware Info: getting_started/hardware_info.md
-      - Patching Guide: getting_started/patching_guide.md
-      - Changelog: getting_started/changelog.md
-      - Credits: getting_started/credits.md
-      - Known Bugs: getting_started/known_bugs.md
-      - FAQ: getting_started/faq.md
-  - Changes:
-      - Evolution Changes: changes/evolution_changes.md
-      - Pokémon Changes: changes/pokemon_changes.md
-      - Item Changes: changes/item_changes.md
-      - Move Changes: changes/move_changes.md
-      - Trade Changes: changes/trade_changes.md
-      - Trainer Changes: changes/trainer_changes.md
-      - Type Changes: changes/type_changes.md
-      - Wild Area Changes: changes/wild_area_changes.md
-  - Reference:
-      - Action Replay Codes: reference/action_replay_codes.md
-      - Gift Pokémon: reference/gift_pokemon.md
-      - Important NPCs: reference/important_npcs.md
-      - Legendary Locations: reference/legendary_locations.md
-      - Nuzlocke Info: reference/nuzlocke_info.md
-  - Locations:
-      - Unova Region: locations/unova_region.md
-  - Pokédex:
-      - National Pokédex: pokedex/national_pokedex.md
-      - Unova Pokédex: pokedex/unova_pokedex.md
+- Getting Started:
+  - Home: index.md
+  - Hardware Info: getting_started/hardware_info.md
+  - Patching Guide: getting_started/patching_guide.md
+  - Changelog: getting_started/changelog.md
+  - Credits: getting_started/credits.md
+  - Known Bugs: getting_started/known_bugs.md
+  - FAQ: getting_started/faq.md
+- Changes:
+  - Evolution Changes: changes/evolution_changes.md
+  - Pokémon Changes: changes/pokemon_changes.md
+  - Item Changes: changes/item_changes.md
+  - Move Changes: changes/move_changes.md
+  - Trade Changes: changes/trade_changes.md
+  - Trainer Changes: changes/trainer_changes.md
+  - Type Changes: changes/type_changes.md
+  - Wild Area Changes: changes/wild_area_changes.md
+- Reference:
+  - Action Replay Codes: reference/action_replay_codes.md
+  - Gift Pokémon: reference/gift_pokemon.md
+  - Important NPCs: reference/important_npcs.md
+  - Legendary Locations: reference/legendary_locations.md
+  - Nuzlocke Info: reference/nuzlocke_info.md
+- Locations:
+  - Unova Region: locations/unova_region.md
+- Pokédex:
+  - Overview: pokedex/pokedex.md
+  - Gen 1:
+    - '#001 Bulbasaur': pokedex/pokemon/bulbasaur.md
+    - '#002 Ivysaur': pokedex/pokemon/ivysaur.md
+    - '#003 Venusaur': pokedex/pokemon/venusaur.md
+    - '#004 Charmander': pokedex/pokemon/charmander.md
+    - '#005 Charmeleon': pokedex/pokemon/charmeleon.md
+    - '#006 Charizard': pokedex/pokemon/charizard.md
+    - '#007 Squirtle': pokedex/pokemon/squirtle.md
+    - '#008 Wartortle': pokedex/pokemon/wartortle.md
+    - '#009 Blastoise': pokedex/pokemon/blastoise.md
+    - '#010 Caterpie': pokedex/pokemon/caterpie.md
+    - '#011 Metapod': pokedex/pokemon/metapod.md
+    - '#012 Butterfree': pokedex/pokemon/butterfree.md
+    - '#013 Weedle': pokedex/pokemon/weedle.md
+    - '#014 Kakuna': pokedex/pokemon/kakuna.md
+    - '#015 Beedrill': pokedex/pokemon/beedrill.md
+    - '#016 Pidgey': pokedex/pokemon/pidgey.md
+    - '#017 Pidgeotto': pokedex/pokemon/pidgeotto.md
+    - '#018 Pidgeot': pokedex/pokemon/pidgeot.md
+    - '#019 Rattata': pokedex/pokemon/rattata.md
+    - '#020 Raticate': pokedex/pokemon/raticate.md
+    - '#021 Spearow': pokedex/pokemon/spearow.md
+    - '#022 Fearow': pokedex/pokemon/fearow.md
+    - '#023 Ekans': pokedex/pokemon/ekans.md
+    - '#024 Arbok': pokedex/pokemon/arbok.md
+    - '#025 Pikachu': pokedex/pokemon/pikachu.md
+    - '#026 Raichu': pokedex/pokemon/raichu.md
+    - '#027 Sandshrew': pokedex/pokemon/sandshrew.md
+    - '#028 Sandslash': pokedex/pokemon/sandslash.md
+    - '#029 Nidoran♀': pokedex/pokemon/nidoran-f.md
+    - '#030 Nidorina': pokedex/pokemon/nidorina.md
+    - '#031 Nidoqueen': pokedex/pokemon/nidoqueen.md
+    - '#032 Nidoran♂': pokedex/pokemon/nidoran-m.md
+    - '#033 Nidorino': pokedex/pokemon/nidorino.md
+    - '#034 Nidoking': pokedex/pokemon/nidoking.md
+    - '#035 Clefairy': pokedex/pokemon/clefairy.md
+    - '#036 Clefable': pokedex/pokemon/clefable.md
+    - '#037 Vulpix': pokedex/pokemon/vulpix.md
+    - '#038 Ninetales': pokedex/pokemon/ninetales.md
+    - '#039 Jigglypuff': pokedex/pokemon/jigglypuff.md
+    - '#040 Wigglytuff': pokedex/pokemon/wigglytuff.md
+    - '#041 Zubat': pokedex/pokemon/zubat.md
+    - '#042 Golbat': pokedex/pokemon/golbat.md
+    - '#043 Oddish': pokedex/pokemon/oddish.md
+    - '#044 Gloom': pokedex/pokemon/gloom.md
+    - '#045 Vileplume': pokedex/pokemon/vileplume.md
+    - '#046 Paras': pokedex/pokemon/paras.md
+    - '#047 Parasect': pokedex/pokemon/parasect.md
+    - '#048 Venonat': pokedex/pokemon/venonat.md
+    - '#049 Venomoth': pokedex/pokemon/venomoth.md
+    - '#050 Diglett': pokedex/pokemon/diglett.md
+    - '#051 Dugtrio': pokedex/pokemon/dugtrio.md
+    - '#052 Meowth': pokedex/pokemon/meowth.md
+    - '#053 Persian': pokedex/pokemon/persian.md
+    - '#054 Psyduck': pokedex/pokemon/psyduck.md
+    - '#055 Golduck': pokedex/pokemon/golduck.md
+    - '#056 Mankey': pokedex/pokemon/mankey.md
+    - '#057 Primeape': pokedex/pokemon/primeape.md
+    - '#058 Growlithe': pokedex/pokemon/growlithe.md
+    - '#059 Arcanine': pokedex/pokemon/arcanine.md
+    - '#060 Poliwag': pokedex/pokemon/poliwag.md
+    - '#061 Poliwhirl': pokedex/pokemon/poliwhirl.md
+    - '#062 Poliwrath': pokedex/pokemon/poliwrath.md
+    - '#063 Abra': pokedex/pokemon/abra.md
+    - '#064 Kadabra': pokedex/pokemon/kadabra.md
+    - '#065 Alakazam': pokedex/pokemon/alakazam.md
+    - '#066 Machop': pokedex/pokemon/machop.md
+    - '#067 Machoke': pokedex/pokemon/machoke.md
+    - '#068 Machamp': pokedex/pokemon/machamp.md
+    - '#069 Bellsprout': pokedex/pokemon/bellsprout.md
+    - '#070 Weepinbell': pokedex/pokemon/weepinbell.md
+    - '#071 Victreebel': pokedex/pokemon/victreebel.md
+    - '#072 Tentacool': pokedex/pokemon/tentacool.md
+    - '#073 Tentacruel': pokedex/pokemon/tentacruel.md
+    - '#074 Geodude': pokedex/pokemon/geodude.md
+    - '#075 Graveler': pokedex/pokemon/graveler.md
+    - '#076 Golem': pokedex/pokemon/golem.md
+    - '#077 Ponyta': pokedex/pokemon/ponyta.md
+    - '#078 Rapidash': pokedex/pokemon/rapidash.md
+    - '#079 Slowpoke': pokedex/pokemon/slowpoke.md
+    - '#080 Slowbro': pokedex/pokemon/slowbro.md
+    - '#081 Magnemite': pokedex/pokemon/magnemite.md
+    - '#082 Magneton': pokedex/pokemon/magneton.md
+    - '#083 Farfetchd': pokedex/pokemon/farfetchd.md
+    - '#084 Doduo': pokedex/pokemon/doduo.md
+    - '#085 Dodrio': pokedex/pokemon/dodrio.md
+    - '#086 Seel': pokedex/pokemon/seel.md
+    - '#087 Dewgong': pokedex/pokemon/dewgong.md
+    - '#088 Grimer': pokedex/pokemon/grimer.md
+    - '#089 Muk': pokedex/pokemon/muk.md
+    - '#090 Shellder': pokedex/pokemon/shellder.md
+    - '#091 Cloyster': pokedex/pokemon/cloyster.md
+    - '#092 Gastly': pokedex/pokemon/gastly.md
+    - '#093 Haunter': pokedex/pokemon/haunter.md
+    - '#094 Gengar': pokedex/pokemon/gengar.md
+    - '#095 Onix': pokedex/pokemon/onix.md
+    - '#096 Drowzee': pokedex/pokemon/drowzee.md
+    - '#097 Hypno': pokedex/pokemon/hypno.md
+    - '#098 Krabby': pokedex/pokemon/krabby.md
+    - '#099 Kingler': pokedex/pokemon/kingler.md
+    - '#100 Voltorb': pokedex/pokemon/voltorb.md
+    - '#101 Electrode': pokedex/pokemon/electrode.md
+    - '#102 Exeggcute': pokedex/pokemon/exeggcute.md
+    - '#103 Exeggutor': pokedex/pokemon/exeggutor.md
+    - '#104 Cubone': pokedex/pokemon/cubone.md
+    - '#105 Marowak': pokedex/pokemon/marowak.md
+    - '#106 Hitmonlee': pokedex/pokemon/hitmonlee.md
+    - '#107 Hitmonchan': pokedex/pokemon/hitmonchan.md
+    - '#108 Lickitung': pokedex/pokemon/lickitung.md
+    - '#109 Koffing': pokedex/pokemon/koffing.md
+    - '#110 Weezing': pokedex/pokemon/weezing.md
+    - '#111 Rhyhorn': pokedex/pokemon/rhyhorn.md
+    - '#112 Rhydon': pokedex/pokemon/rhydon.md
+    - '#113 Chansey': pokedex/pokemon/chansey.md
+    - '#114 Tangela': pokedex/pokemon/tangela.md
+    - '#115 Kangaskhan': pokedex/pokemon/kangaskhan.md
+    - '#116 Horsea': pokedex/pokemon/horsea.md
+    - '#117 Seadra': pokedex/pokemon/seadra.md
+    - '#118 Goldeen': pokedex/pokemon/goldeen.md
+    - '#119 Seaking': pokedex/pokemon/seaking.md
+    - '#120 Staryu': pokedex/pokemon/staryu.md
+    - '#121 Starmie': pokedex/pokemon/starmie.md
+    - '#122 Mr. Mime': pokedex/pokemon/mr-mime.md
+    - '#123 Scyther': pokedex/pokemon/scyther.md
+    - '#124 Jynx': pokedex/pokemon/jynx.md
+    - '#125 Electabuzz': pokedex/pokemon/electabuzz.md
+    - '#126 Magmar': pokedex/pokemon/magmar.md
+    - '#127 Pinsir': pokedex/pokemon/pinsir.md
+    - '#128 Tauros': pokedex/pokemon/tauros.md
+    - '#129 Magikarp': pokedex/pokemon/magikarp.md
+    - '#130 Gyarados': pokedex/pokemon/gyarados.md
+    - '#131 Lapras': pokedex/pokemon/lapras.md
+    - '#132 Ditto': pokedex/pokemon/ditto.md
+    - '#133 Eevee': pokedex/pokemon/eevee.md
+    - '#134 Vaporeon': pokedex/pokemon/vaporeon.md
+    - '#135 Jolteon': pokedex/pokemon/jolteon.md
+    - '#136 Flareon': pokedex/pokemon/flareon.md
+    - '#137 Porygon': pokedex/pokemon/porygon.md
+    - '#138 Omanyte': pokedex/pokemon/omanyte.md
+    - '#139 Omastar': pokedex/pokemon/omastar.md
+    - '#140 Kabuto': pokedex/pokemon/kabuto.md
+    - '#141 Kabutops': pokedex/pokemon/kabutops.md
+    - '#142 Aerodactyl': pokedex/pokemon/aerodactyl.md
+    - '#143 Snorlax': pokedex/pokemon/snorlax.md
+    - '#144 Articuno': pokedex/pokemon/articuno.md
+    - '#145 Zapdos': pokedex/pokemon/zapdos.md
+    - '#146 Moltres': pokedex/pokemon/moltres.md
+    - '#147 Dratini': pokedex/pokemon/dratini.md
+    - '#148 Dragonair': pokedex/pokemon/dragonair.md
+    - '#149 Dragonite': pokedex/pokemon/dragonite.md
+    - '#150 Mewtwo': pokedex/pokemon/mewtwo.md
+    - '#151 Mew': pokedex/pokemon/mew.md
+  - Gen 2:
+    - '#152 Chikorita': pokedex/pokemon/chikorita.md
+    - '#153 Bayleef': pokedex/pokemon/bayleef.md
+    - '#154 Meganium': pokedex/pokemon/meganium.md
+    - '#155 Cyndaquil': pokedex/pokemon/cyndaquil.md
+    - '#156 Quilava': pokedex/pokemon/quilava.md
+    - '#157 Typhlosion': pokedex/pokemon/typhlosion.md
+    - '#158 Totodile': pokedex/pokemon/totodile.md
+    - '#159 Croconaw': pokedex/pokemon/croconaw.md
+    - '#160 Feraligatr': pokedex/pokemon/feraligatr.md
+    - '#161 Sentret': pokedex/pokemon/sentret.md
+    - '#162 Furret': pokedex/pokemon/furret.md
+    - '#163 Hoothoot': pokedex/pokemon/hoothoot.md
+    - '#164 Noctowl': pokedex/pokemon/noctowl.md
+    - '#165 Ledyba': pokedex/pokemon/ledyba.md
+    - '#166 Ledian': pokedex/pokemon/ledian.md
+    - '#167 Spinarak': pokedex/pokemon/spinarak.md
+    - '#168 Ariados': pokedex/pokemon/ariados.md
+    - '#169 Crobat': pokedex/pokemon/crobat.md
+    - '#170 Chinchou': pokedex/pokemon/chinchou.md
+    - '#171 Lanturn': pokedex/pokemon/lanturn.md
+    - '#172 Pichu': pokedex/pokemon/pichu.md
+    - '#173 Cleffa': pokedex/pokemon/cleffa.md
+    - '#174 Igglybuff': pokedex/pokemon/igglybuff.md
+    - '#175 Togepi': pokedex/pokemon/togepi.md
+    - '#176 Togetic': pokedex/pokemon/togetic.md
+    - '#177 Natu': pokedex/pokemon/natu.md
+    - '#178 Xatu': pokedex/pokemon/xatu.md
+    - '#179 Mareep': pokedex/pokemon/mareep.md
+    - '#180 Flaaffy': pokedex/pokemon/flaaffy.md
+    - '#181 Ampharos': pokedex/pokemon/ampharos.md
+    - '#182 Bellossom': pokedex/pokemon/bellossom.md
+    - '#183 Marill': pokedex/pokemon/marill.md
+    - '#184 Azumarill': pokedex/pokemon/azumarill.md
+    - '#185 Sudowoodo': pokedex/pokemon/sudowoodo.md
+    - '#186 Politoed': pokedex/pokemon/politoed.md
+    - '#187 Hoppip': pokedex/pokemon/hoppip.md
+    - '#188 Skiploom': pokedex/pokemon/skiploom.md
+    - '#189 Jumpluff': pokedex/pokemon/jumpluff.md
+    - '#190 Aipom': pokedex/pokemon/aipom.md
+    - '#191 Sunkern': pokedex/pokemon/sunkern.md
+    - '#192 Sunflora': pokedex/pokemon/sunflora.md
+    - '#193 Yanma': pokedex/pokemon/yanma.md
+    - '#194 Wooper': pokedex/pokemon/wooper.md
+    - '#195 Quagsire': pokedex/pokemon/quagsire.md
+    - '#196 Espeon': pokedex/pokemon/espeon.md
+    - '#197 Umbreon': pokedex/pokemon/umbreon.md
+    - '#198 Murkrow': pokedex/pokemon/murkrow.md
+    - '#199 Slowking': pokedex/pokemon/slowking.md
+    - '#200 Misdreavus': pokedex/pokemon/misdreavus.md
+    - '#201 Unown': pokedex/pokemon/unown.md
+    - '#202 Wobbuffet': pokedex/pokemon/wobbuffet.md
+    - '#203 Girafarig': pokedex/pokemon/girafarig.md
+    - '#204 Pineco': pokedex/pokemon/pineco.md
+    - '#205 Forretress': pokedex/pokemon/forretress.md
+    - '#206 Dunsparce': pokedex/pokemon/dunsparce.md
+    - '#207 Gligar': pokedex/pokemon/gligar.md
+    - '#208 Steelix': pokedex/pokemon/steelix.md
+    - '#209 Snubbull': pokedex/pokemon/snubbull.md
+    - '#210 Granbull': pokedex/pokemon/granbull.md
+    - '#211 Qwilfish': pokedex/pokemon/qwilfish.md
+    - '#212 Scizor': pokedex/pokemon/scizor.md
+    - '#213 Shuckle': pokedex/pokemon/shuckle.md
+    - '#214 Heracross': pokedex/pokemon/heracross.md
+    - '#215 Sneasel': pokedex/pokemon/sneasel.md
+    - '#216 Teddiursa': pokedex/pokemon/teddiursa.md
+    - '#217 Ursaring': pokedex/pokemon/ursaring.md
+    - '#218 Slugma': pokedex/pokemon/slugma.md
+    - '#219 Magcargo': pokedex/pokemon/magcargo.md
+    - '#220 Swinub': pokedex/pokemon/swinub.md
+    - '#221 Piloswine': pokedex/pokemon/piloswine.md
+    - '#222 Corsola': pokedex/pokemon/corsola.md
+    - '#223 Remoraid': pokedex/pokemon/remoraid.md
+    - '#224 Octillery': pokedex/pokemon/octillery.md
+    - '#225 Delibird': pokedex/pokemon/delibird.md
+    - '#226 Mantine': pokedex/pokemon/mantine.md
+    - '#227 Skarmory': pokedex/pokemon/skarmory.md
+    - '#228 Houndour': pokedex/pokemon/houndour.md
+    - '#229 Houndoom': pokedex/pokemon/houndoom.md
+    - '#230 Kingdra': pokedex/pokemon/kingdra.md
+    - '#231 Phanpy': pokedex/pokemon/phanpy.md
+    - '#232 Donphan': pokedex/pokemon/donphan.md
+    - '#233 Porygon2': pokedex/pokemon/porygon2.md
+    - '#234 Stantler': pokedex/pokemon/stantler.md
+    - '#235 Smeargle': pokedex/pokemon/smeargle.md
+    - '#236 Tyrogue': pokedex/pokemon/tyrogue.md
+    - '#237 Hitmontop': pokedex/pokemon/hitmontop.md
+    - '#238 Smoochum': pokedex/pokemon/smoochum.md
+    - '#239 Elekid': pokedex/pokemon/elekid.md
+    - '#240 Magby': pokedex/pokemon/magby.md
+    - '#241 Miltank': pokedex/pokemon/miltank.md
+    - '#242 Blissey': pokedex/pokemon/blissey.md
+    - '#243 Raikou': pokedex/pokemon/raikou.md
+    - '#244 Entei': pokedex/pokemon/entei.md
+    - '#245 Suicune': pokedex/pokemon/suicune.md
+    - '#246 Larvitar': pokedex/pokemon/larvitar.md
+    - '#247 Pupitar': pokedex/pokemon/pupitar.md
+    - '#248 Tyranitar': pokedex/pokemon/tyranitar.md
+    - '#249 Lugia': pokedex/pokemon/lugia.md
+    - '#250 Ho-Oh': pokedex/pokemon/ho-oh.md
+    - '#251 Celebi': pokedex/pokemon/celebi.md
+  - Gen 3:
+    - '#252 Treecko': pokedex/pokemon/treecko.md
+    - '#253 Grovyle': pokedex/pokemon/grovyle.md
+    - '#254 Sceptile': pokedex/pokemon/sceptile.md
+    - '#255 Torchic': pokedex/pokemon/torchic.md
+    - '#256 Combusken': pokedex/pokemon/combusken.md
+    - '#257 Blaziken': pokedex/pokemon/blaziken.md
+    - '#258 Mudkip': pokedex/pokemon/mudkip.md
+    - '#259 Marshtomp': pokedex/pokemon/marshtomp.md
+    - '#260 Swampert': pokedex/pokemon/swampert.md
+    - '#261 Poochyena': pokedex/pokemon/poochyena.md
+    - '#262 Mightyena': pokedex/pokemon/mightyena.md
+    - '#263 Zigzagoon': pokedex/pokemon/zigzagoon.md
+    - '#264 Linoone': pokedex/pokemon/linoone.md
+    - '#265 Wurmple': pokedex/pokemon/wurmple.md
+    - '#266 Silcoon': pokedex/pokemon/silcoon.md
+    - '#267 Beautifly': pokedex/pokemon/beautifly.md
+    - '#268 Cascoon': pokedex/pokemon/cascoon.md
+    - '#269 Dustox': pokedex/pokemon/dustox.md
+    - '#270 Lotad': pokedex/pokemon/lotad.md
+    - '#271 Lombre': pokedex/pokemon/lombre.md
+    - '#272 Ludicolo': pokedex/pokemon/ludicolo.md
+    - '#273 Seedot': pokedex/pokemon/seedot.md
+    - '#274 Nuzleaf': pokedex/pokemon/nuzleaf.md
+    - '#275 Shiftry': pokedex/pokemon/shiftry.md
+    - '#276 Taillow': pokedex/pokemon/taillow.md
+    - '#277 Swellow': pokedex/pokemon/swellow.md
+    - '#278 Wingull': pokedex/pokemon/wingull.md
+    - '#279 Pelipper': pokedex/pokemon/pelipper.md
+    - '#280 Ralts': pokedex/pokemon/ralts.md
+    - '#281 Kirlia': pokedex/pokemon/kirlia.md
+    - '#282 Gardevoir': pokedex/pokemon/gardevoir.md
+    - '#283 Surskit': pokedex/pokemon/surskit.md
+    - '#284 Masquerain': pokedex/pokemon/masquerain.md
+    - '#285 Shroomish': pokedex/pokemon/shroomish.md
+    - '#286 Breloom': pokedex/pokemon/breloom.md
+    - '#287 Slakoth': pokedex/pokemon/slakoth.md
+    - '#288 Vigoroth': pokedex/pokemon/vigoroth.md
+    - '#289 Slaking': pokedex/pokemon/slaking.md
+    - '#290 Nincada': pokedex/pokemon/nincada.md
+    - '#291 Ninjask': pokedex/pokemon/ninjask.md
+    - '#292 Shedinja': pokedex/pokemon/shedinja.md
+    - '#293 Whismur': pokedex/pokemon/whismur.md
+    - '#294 Loudred': pokedex/pokemon/loudred.md
+    - '#295 Exploud': pokedex/pokemon/exploud.md
+    - '#296 Makuhita': pokedex/pokemon/makuhita.md
+    - '#297 Hariyama': pokedex/pokemon/hariyama.md
+    - '#298 Azurill': pokedex/pokemon/azurill.md
+    - '#299 Nosepass': pokedex/pokemon/nosepass.md
+    - '#300 Skitty': pokedex/pokemon/skitty.md
+    - '#301 Delcatty': pokedex/pokemon/delcatty.md
+    - '#302 Sableye': pokedex/pokemon/sableye.md
+    - '#303 Mawile': pokedex/pokemon/mawile.md
+    - '#304 Aron': pokedex/pokemon/aron.md
+    - '#305 Lairon': pokedex/pokemon/lairon.md
+    - '#306 Aggron': pokedex/pokemon/aggron.md
+    - '#307 Meditite': pokedex/pokemon/meditite.md
+    - '#308 Medicham': pokedex/pokemon/medicham.md
+    - '#309 Electrike': pokedex/pokemon/electrike.md
+    - '#310 Manectric': pokedex/pokemon/manectric.md
+    - '#311 Plusle': pokedex/pokemon/plusle.md
+    - '#312 Minun': pokedex/pokemon/minun.md
+    - '#313 Volbeat': pokedex/pokemon/volbeat.md
+    - '#314 Illumise': pokedex/pokemon/illumise.md
+    - '#315 Roselia': pokedex/pokemon/roselia.md
+    - '#316 Gulpin': pokedex/pokemon/gulpin.md
+    - '#317 Swalot': pokedex/pokemon/swalot.md
+    - '#318 Carvanha': pokedex/pokemon/carvanha.md
+    - '#319 Sharpedo': pokedex/pokemon/sharpedo.md
+    - '#320 Wailmer': pokedex/pokemon/wailmer.md
+    - '#321 Wailord': pokedex/pokemon/wailord.md
+    - '#322 Numel': pokedex/pokemon/numel.md
+    - '#323 Camerupt': pokedex/pokemon/camerupt.md
+    - '#324 Torkoal': pokedex/pokemon/torkoal.md
+    - '#325 Spoink': pokedex/pokemon/spoink.md
+    - '#326 Grumpig': pokedex/pokemon/grumpig.md
+    - '#327 Spinda': pokedex/pokemon/spinda.md
+    - '#328 Trapinch': pokedex/pokemon/trapinch.md
+    - '#329 Vibrava': pokedex/pokemon/vibrava.md
+    - '#330 Flygon': pokedex/pokemon/flygon.md
+    - '#331 Cacnea': pokedex/pokemon/cacnea.md
+    - '#332 Cacturne': pokedex/pokemon/cacturne.md
+    - '#333 Swablu': pokedex/pokemon/swablu.md
+    - '#334 Altaria': pokedex/pokemon/altaria.md
+    - '#335 Zangoose': pokedex/pokemon/zangoose.md
+    - '#336 Seviper': pokedex/pokemon/seviper.md
+    - '#337 Lunatone': pokedex/pokemon/lunatone.md
+    - '#338 Solrock': pokedex/pokemon/solrock.md
+    - '#339 Barboach': pokedex/pokemon/barboach.md
+    - '#340 Whiscash': pokedex/pokemon/whiscash.md
+    - '#341 Corphish': pokedex/pokemon/corphish.md
+    - '#342 Crawdaunt': pokedex/pokemon/crawdaunt.md
+    - '#343 Baltoy': pokedex/pokemon/baltoy.md
+    - '#344 Claydol': pokedex/pokemon/claydol.md
+    - '#345 Lileep': pokedex/pokemon/lileep.md
+    - '#346 Cradily': pokedex/pokemon/cradily.md
+    - '#347 Anorith': pokedex/pokemon/anorith.md
+    - '#348 Armaldo': pokedex/pokemon/armaldo.md
+    - '#349 Feebas': pokedex/pokemon/feebas.md
+    - '#350 Milotic': pokedex/pokemon/milotic.md
+    - '#351 Castform':
+      - Default: pokedex/pokemon/castform.md
+      - Rainy: pokedex/pokemon/castform-rainy.md
+      - Snowy: pokedex/pokemon/castform-snowy.md
+      - Sunny: pokedex/pokemon/castform-sunny.md
+    - '#352 Kecleon': pokedex/pokemon/kecleon.md
+    - '#353 Shuppet': pokedex/pokemon/shuppet.md
+    - '#354 Banette': pokedex/pokemon/banette.md
+    - '#355 Duskull': pokedex/pokemon/duskull.md
+    - '#356 Dusclops': pokedex/pokemon/dusclops.md
+    - '#357 Tropius': pokedex/pokemon/tropius.md
+    - '#358 Chimecho': pokedex/pokemon/chimecho.md
+    - '#359 Absol': pokedex/pokemon/absol.md
+    - '#360 Wynaut': pokedex/pokemon/wynaut.md
+    - '#361 Snorunt': pokedex/pokemon/snorunt.md
+    - '#362 Glalie': pokedex/pokemon/glalie.md
+    - '#363 Spheal': pokedex/pokemon/spheal.md
+    - '#364 Sealeo': pokedex/pokemon/sealeo.md
+    - '#365 Walrein': pokedex/pokemon/walrein.md
+    - '#366 Clamperl': pokedex/pokemon/clamperl.md
+    - '#367 Huntail': pokedex/pokemon/huntail.md
+    - '#368 Gorebyss': pokedex/pokemon/gorebyss.md
+    - '#369 Relicanth': pokedex/pokemon/relicanth.md
+    - '#370 Luvdisc': pokedex/pokemon/luvdisc.md
+    - '#371 Bagon': pokedex/pokemon/bagon.md
+    - '#372 Shelgon': pokedex/pokemon/shelgon.md
+    - '#373 Salamence': pokedex/pokemon/salamence.md
+    - '#374 Beldum': pokedex/pokemon/beldum.md
+    - '#375 Metang': pokedex/pokemon/metang.md
+    - '#376 Metagross': pokedex/pokemon/metagross.md
+    - '#377 Regirock': pokedex/pokemon/regirock.md
+    - '#378 Regice': pokedex/pokemon/regice.md
+    - '#379 Registeel': pokedex/pokemon/registeel.md
+    - '#380 Latias': pokedex/pokemon/latias.md
+    - '#381 Latios': pokedex/pokemon/latios.md
+    - '#382 Kyogre': pokedex/pokemon/kyogre.md
+    - '#383 Groudon': pokedex/pokemon/groudon.md
+    - '#384 Rayquaza': pokedex/pokemon/rayquaza.md
+    - '#385 Jirachi': pokedex/pokemon/jirachi.md
+    - '#386 Deoxys':
+      - Normal: pokedex/pokemon/deoxys-normal.md
+      - Attack: pokedex/pokemon/deoxys-attack.md
+      - Defense: pokedex/pokemon/deoxys-defense.md
+      - Speed: pokedex/pokemon/deoxys-speed.md
+  - Gen 4:
+    - '#387 Turtwig': pokedex/pokemon/turtwig.md
+    - '#388 Grotle': pokedex/pokemon/grotle.md
+    - '#389 Torterra': pokedex/pokemon/torterra.md
+    - '#390 Chimchar': pokedex/pokemon/chimchar.md
+    - '#391 Monferno': pokedex/pokemon/monferno.md
+    - '#392 Infernape': pokedex/pokemon/infernape.md
+    - '#393 Piplup': pokedex/pokemon/piplup.md
+    - '#394 Prinplup': pokedex/pokemon/prinplup.md
+    - '#395 Empoleon': pokedex/pokemon/empoleon.md
+    - '#396 Starly': pokedex/pokemon/starly.md
+    - '#397 Staravia': pokedex/pokemon/staravia.md
+    - '#398 Staraptor': pokedex/pokemon/staraptor.md
+    - '#399 Bidoof': pokedex/pokemon/bidoof.md
+    - '#400 Bibarel': pokedex/pokemon/bibarel.md
+    - '#401 Kricketot': pokedex/pokemon/kricketot.md
+    - '#402 Kricketune': pokedex/pokemon/kricketune.md
+    - '#403 Shinx': pokedex/pokemon/shinx.md
+    - '#404 Luxio': pokedex/pokemon/luxio.md
+    - '#405 Luxray': pokedex/pokemon/luxray.md
+    - '#406 Budew': pokedex/pokemon/budew.md
+    - '#407 Roserade': pokedex/pokemon/roserade.md
+    - '#408 Cranidos': pokedex/pokemon/cranidos.md
+    - '#409 Rampardos': pokedex/pokemon/rampardos.md
+    - '#410 Shieldon': pokedex/pokemon/shieldon.md
+    - '#411 Bastiodon': pokedex/pokemon/bastiodon.md
+    - '#412 Burmy': pokedex/pokemon/burmy.md
+    - '#413 Wormadam':
+      - Plant: pokedex/pokemon/wormadam-plant.md
+      - Sandy: pokedex/pokemon/wormadam-sandy.md
+      - Trash: pokedex/pokemon/wormadam-trash.md
+    - '#414 Mothim': pokedex/pokemon/mothim.md
+    - '#415 Combee': pokedex/pokemon/combee.md
+    - '#416 Vespiquen': pokedex/pokemon/vespiquen.md
+    - '#417 Pachirisu': pokedex/pokemon/pachirisu.md
+    - '#418 Buizel': pokedex/pokemon/buizel.md
+    - '#419 Floatzel': pokedex/pokemon/floatzel.md
+    - '#420 Cherubi': pokedex/pokemon/cherubi.md
+    - '#421 Cherrim': pokedex/pokemon/cherrim.md
+    - '#422 Shellos': pokedex/pokemon/shellos.md
+    - '#423 Gastrodon': pokedex/pokemon/gastrodon.md
+    - '#424 Ambipom': pokedex/pokemon/ambipom.md
+    - '#425 Drifloon': pokedex/pokemon/drifloon.md
+    - '#426 Drifblim': pokedex/pokemon/drifblim.md
+    - '#427 Buneary': pokedex/pokemon/buneary.md
+    - '#428 Lopunny': pokedex/pokemon/lopunny.md
+    - '#429 Mismagius': pokedex/pokemon/mismagius.md
+    - '#430 Honchkrow': pokedex/pokemon/honchkrow.md
+    - '#431 Glameow': pokedex/pokemon/glameow.md
+    - '#432 Purugly': pokedex/pokemon/purugly.md
+    - '#433 Chingling': pokedex/pokemon/chingling.md
+    - '#434 Stunky': pokedex/pokemon/stunky.md
+    - '#435 Skuntank': pokedex/pokemon/skuntank.md
+    - '#436 Bronzor': pokedex/pokemon/bronzor.md
+    - '#437 Bronzong': pokedex/pokemon/bronzong.md
+    - '#438 Bonsly': pokedex/pokemon/bonsly.md
+    - '#439 Mime Jr.': pokedex/pokemon/mime-jr.md
+    - '#440 Happiny': pokedex/pokemon/happiny.md
+    - '#441 Chatot': pokedex/pokemon/chatot.md
+    - '#442 Spiritomb': pokedex/pokemon/spiritomb.md
+    - '#443 Gible': pokedex/pokemon/gible.md
+    - '#444 Gabite': pokedex/pokemon/gabite.md
+    - '#445 Garchomp': pokedex/pokemon/garchomp.md
+    - '#446 Munchlax': pokedex/pokemon/munchlax.md
+    - '#447 Riolu': pokedex/pokemon/riolu.md
+    - '#448 Lucario': pokedex/pokemon/lucario.md
+    - '#449 Hippopotas': pokedex/pokemon/hippopotas.md
+    - '#450 Hippowdon': pokedex/pokemon/hippowdon.md
+    - '#451 Skorupi': pokedex/pokemon/skorupi.md
+    - '#452 Drapion': pokedex/pokemon/drapion.md
+    - '#453 Croagunk': pokedex/pokemon/croagunk.md
+    - '#454 Toxicroak': pokedex/pokemon/toxicroak.md
+    - '#455 Carnivine': pokedex/pokemon/carnivine.md
+    - '#456 Finneon': pokedex/pokemon/finneon.md
+    - '#457 Lumineon': pokedex/pokemon/lumineon.md
+    - '#458 Mantyke': pokedex/pokemon/mantyke.md
+    - '#459 Snover': pokedex/pokemon/snover.md
+    - '#460 Abomasnow': pokedex/pokemon/abomasnow.md
+    - '#461 Weavile': pokedex/pokemon/weavile.md
+    - '#462 Magnezone': pokedex/pokemon/magnezone.md
+    - '#463 Lickilicky': pokedex/pokemon/lickilicky.md
+    - '#464 Rhyperior': pokedex/pokemon/rhyperior.md
+    - '#465 Tangrowth': pokedex/pokemon/tangrowth.md
+    - '#466 Electivire': pokedex/pokemon/electivire.md
+    - '#467 Magmortar': pokedex/pokemon/magmortar.md
+    - '#468 Togekiss': pokedex/pokemon/togekiss.md
+    - '#469 Yanmega': pokedex/pokemon/yanmega.md
+    - '#470 Leafeon': pokedex/pokemon/leafeon.md
+    - '#471 Glaceon': pokedex/pokemon/glaceon.md
+    - '#472 Gliscor': pokedex/pokemon/gliscor.md
+    - '#473 Mamoswine': pokedex/pokemon/mamoswine.md
+    - '#474 Porygon Z': pokedex/pokemon/porygon-z.md
+    - '#475 Gallade': pokedex/pokemon/gallade.md
+    - '#476 Probopass': pokedex/pokemon/probopass.md
+    - '#477 Dusknoir': pokedex/pokemon/dusknoir.md
+    - '#478 Froslass': pokedex/pokemon/froslass.md
+    - '#479 Rotom':
+      - Default: pokedex/pokemon/rotom.md
+      - Fan: pokedex/pokemon/rotom-fan.md
+      - Frost: pokedex/pokemon/rotom-frost.md
+      - Heat: pokedex/pokemon/rotom-heat.md
+      - Mow: pokedex/pokemon/rotom-mow.md
+      - Wash: pokedex/pokemon/rotom-wash.md
+    - '#480 Uxie': pokedex/pokemon/uxie.md
+    - '#481 Mesprit': pokedex/pokemon/mesprit.md
+    - '#482 Azelf': pokedex/pokemon/azelf.md
+    - '#483 Dialga': pokedex/pokemon/dialga.md
+    - '#484 Palkia': pokedex/pokemon/palkia.md
+    - '#485 Heatran': pokedex/pokemon/heatran.md
+    - '#486 Regigigas': pokedex/pokemon/regigigas.md
+    - '#487 Giratina':
+      - Altered: pokedex/pokemon/giratina-altered.md
+      - Origin: pokedex/pokemon/giratina-origin.md
+    - '#488 Cresselia': pokedex/pokemon/cresselia.md
+    - '#489 Phione': pokedex/pokemon/phione.md
+    - '#490 Manaphy': pokedex/pokemon/manaphy.md
+    - '#491 Darkrai': pokedex/pokemon/darkrai.md
+    - '#492 Shaymin':
+      - Land: pokedex/pokemon/shaymin-land.md
+      - Sky: pokedex/pokemon/shaymin-sky.md
+    - '#493 Arceus': pokedex/pokemon/arceus.md
+  - Gen 5:
+    - '#494 Victini': pokedex/pokemon/victini.md
+    - '#495 Snivy': pokedex/pokemon/snivy.md
+    - '#496 Servine': pokedex/pokemon/servine.md
+    - '#497 Serperior': pokedex/pokemon/serperior.md
+    - '#498 Tepig': pokedex/pokemon/tepig.md
+    - '#499 Pignite': pokedex/pokemon/pignite.md
+    - '#500 Emboar': pokedex/pokemon/emboar.md
+    - '#501 Oshawott': pokedex/pokemon/oshawott.md
+    - '#502 Dewott': pokedex/pokemon/dewott.md
+    - '#503 Samurott': pokedex/pokemon/samurott.md
+    - '#504 Patrat': pokedex/pokemon/patrat.md
+    - '#505 Watchog': pokedex/pokemon/watchog.md
+    - '#506 Lillipup': pokedex/pokemon/lillipup.md
+    - '#507 Herdier': pokedex/pokemon/herdier.md
+    - '#508 Stoutland': pokedex/pokemon/stoutland.md
+    - '#509 Purrloin': pokedex/pokemon/purrloin.md
+    - '#510 Liepard': pokedex/pokemon/liepard.md
+    - '#511 Pansage': pokedex/pokemon/pansage.md
+    - '#512 Simisage': pokedex/pokemon/simisage.md
+    - '#513 Pansear': pokedex/pokemon/pansear.md
+    - '#514 Simisear': pokedex/pokemon/simisear.md
+    - '#515 Panpour': pokedex/pokemon/panpour.md
+    - '#516 Simipour': pokedex/pokemon/simipour.md
+    - '#517 Munna': pokedex/pokemon/munna.md
+    - '#518 Musharna': pokedex/pokemon/musharna.md
+    - '#519 Pidove': pokedex/pokemon/pidove.md
+    - '#520 Tranquill': pokedex/pokemon/tranquill.md
+    - '#521 Unfezant': pokedex/pokemon/unfezant.md
+    - '#522 Blitzle': pokedex/pokemon/blitzle.md
+    - '#523 Zebstrika': pokedex/pokemon/zebstrika.md
+    - '#524 Roggenrola': pokedex/pokemon/roggenrola.md
+    - '#525 Boldore': pokedex/pokemon/boldore.md
+    - '#526 Gigalith': pokedex/pokemon/gigalith.md
+    - '#527 Woobat': pokedex/pokemon/woobat.md
+    - '#528 Swoobat': pokedex/pokemon/swoobat.md
+    - '#529 Drilbur': pokedex/pokemon/drilbur.md
+    - '#530 Excadrill': pokedex/pokemon/excadrill.md
+    - '#531 Audino': pokedex/pokemon/audino.md
+    - '#532 Timburr': pokedex/pokemon/timburr.md
+    - '#533 Gurdurr': pokedex/pokemon/gurdurr.md
+    - '#534 Conkeldurr': pokedex/pokemon/conkeldurr.md
+    - '#535 Tympole': pokedex/pokemon/tympole.md
+    - '#536 Palpitoad': pokedex/pokemon/palpitoad.md
+    - '#537 Seismitoad': pokedex/pokemon/seismitoad.md
+    - '#538 Throh': pokedex/pokemon/throh.md
+    - '#539 Sawk': pokedex/pokemon/sawk.md
+    - '#540 Sewaddle': pokedex/pokemon/sewaddle.md
+    - '#541 Swadloon': pokedex/pokemon/swadloon.md
+    - '#542 Leavanny': pokedex/pokemon/leavanny.md
+    - '#543 Venipede': pokedex/pokemon/venipede.md
+    - '#544 Whirlipede': pokedex/pokemon/whirlipede.md
+    - '#545 Scolipede': pokedex/pokemon/scolipede.md
+    - '#546 Cottonee': pokedex/pokemon/cottonee.md
+    - '#547 Whimsicott': pokedex/pokemon/whimsicott.md
+    - '#548 Petilil': pokedex/pokemon/petilil.md
+    - '#549 Lilligant': pokedex/pokemon/lilligant.md
+    - '#550 Basculin':
+      - Red Striped: pokedex/pokemon/basculin-red-striped.md
+      - Blue Striped: pokedex/pokemon/basculin-blue-striped.md
+    - '#551 Sandile': pokedex/pokemon/sandile.md
+    - '#552 Krokorok': pokedex/pokemon/krokorok.md
+    - '#553 Krookodile': pokedex/pokemon/krookodile.md
+    - '#554 Darumaka': pokedex/pokemon/darumaka.md
+    - '#555 Darmanitan':
+      - Standard: pokedex/pokemon/darmanitan-standard.md
+      - Zen: pokedex/pokemon/darmanitan-zen.md
+    - '#556 Maractus': pokedex/pokemon/maractus.md
+    - '#557 Dwebble': pokedex/pokemon/dwebble.md
+    - '#558 Crustle': pokedex/pokemon/crustle.md
+    - '#559 Scraggy': pokedex/pokemon/scraggy.md
+    - '#560 Scrafty': pokedex/pokemon/scrafty.md
+    - '#561 Sigilyph': pokedex/pokemon/sigilyph.md
+    - '#562 Yamask': pokedex/pokemon/yamask.md
+    - '#563 Cofagrigus': pokedex/pokemon/cofagrigus.md
+    - '#564 Tirtouga': pokedex/pokemon/tirtouga.md
+    - '#565 Carracosta': pokedex/pokemon/carracosta.md
+    - '#566 Archen': pokedex/pokemon/archen.md
+    - '#567 Archeops': pokedex/pokemon/archeops.md
+    - '#568 Trubbish': pokedex/pokemon/trubbish.md
+    - '#569 Garbodor': pokedex/pokemon/garbodor.md
+    - '#570 Zorua': pokedex/pokemon/zorua.md
+    - '#571 Zoroark': pokedex/pokemon/zoroark.md
+    - '#572 Minccino': pokedex/pokemon/minccino.md
+    - '#573 Cinccino': pokedex/pokemon/cinccino.md
+    - '#574 Gothita': pokedex/pokemon/gothita.md
+    - '#575 Gothorita': pokedex/pokemon/gothorita.md
+    - '#576 Gothitelle': pokedex/pokemon/gothitelle.md
+    - '#577 Solosis': pokedex/pokemon/solosis.md
+    - '#578 Duosion': pokedex/pokemon/duosion.md
+    - '#579 Reuniclus': pokedex/pokemon/reuniclus.md
+    - '#580 Ducklett': pokedex/pokemon/ducklett.md
+    - '#581 Swanna': pokedex/pokemon/swanna.md
+    - '#582 Vanillite': pokedex/pokemon/vanillite.md
+    - '#583 Vanillish': pokedex/pokemon/vanillish.md
+    - '#584 Vanilluxe': pokedex/pokemon/vanilluxe.md
+    - '#585 Deerling': pokedex/pokemon/deerling.md
+    - '#586 Sawsbuck': pokedex/pokemon/sawsbuck.md
+    - '#587 Emolga': pokedex/pokemon/emolga.md
+    - '#588 Karrablast': pokedex/pokemon/karrablast.md
+    - '#589 Escavalier': pokedex/pokemon/escavalier.md
+    - '#590 Foongus': pokedex/pokemon/foongus.md
+    - '#591 Amoonguss': pokedex/pokemon/amoonguss.md
+    - '#592 Frillish': pokedex/pokemon/frillish.md
+    - '#593 Jellicent': pokedex/pokemon/jellicent.md
+    - '#594 Alomomola': pokedex/pokemon/alomomola.md
+    - '#595 Joltik': pokedex/pokemon/joltik.md
+    - '#596 Galvantula': pokedex/pokemon/galvantula.md
+    - '#597 Ferroseed': pokedex/pokemon/ferroseed.md
+    - '#598 Ferrothorn': pokedex/pokemon/ferrothorn.md
+    - '#599 Klink': pokedex/pokemon/klink.md
+    - '#600 Klang': pokedex/pokemon/klang.md
+    - '#601 Klinklang': pokedex/pokemon/klinklang.md
+    - '#602 Tynamo': pokedex/pokemon/tynamo.md
+    - '#603 Eelektrik': pokedex/pokemon/eelektrik.md
+    - '#604 Eelektross': pokedex/pokemon/eelektross.md
+    - '#605 Elgyem': pokedex/pokemon/elgyem.md
+    - '#606 Beheeyem': pokedex/pokemon/beheeyem.md
+    - '#607 Litwick': pokedex/pokemon/litwick.md
+    - '#608 Lampent': pokedex/pokemon/lampent.md
+    - '#609 Chandelure': pokedex/pokemon/chandelure.md
+    - '#610 Axew': pokedex/pokemon/axew.md
+    - '#611 Fraxure': pokedex/pokemon/fraxure.md
+    - '#612 Haxorus': pokedex/pokemon/haxorus.md
+    - '#613 Cubchoo': pokedex/pokemon/cubchoo.md
+    - '#614 Beartic': pokedex/pokemon/beartic.md
+    - '#615 Cryogonal': pokedex/pokemon/cryogonal.md
+    - '#616 Shelmet': pokedex/pokemon/shelmet.md
+    - '#617 Accelgor': pokedex/pokemon/accelgor.md
+    - '#618 Stunfisk': pokedex/pokemon/stunfisk.md
+    - '#619 Mienfoo': pokedex/pokemon/mienfoo.md
+    - '#620 Mienshao': pokedex/pokemon/mienshao.md
+    - '#621 Druddigon': pokedex/pokemon/druddigon.md
+    - '#622 Golett': pokedex/pokemon/golett.md
+    - '#623 Golurk': pokedex/pokemon/golurk.md
+    - '#624 Pawniard': pokedex/pokemon/pawniard.md
+    - '#625 Bisharp': pokedex/pokemon/bisharp.md
+    - '#626 Bouffalant': pokedex/pokemon/bouffalant.md
+    - '#627 Rufflet': pokedex/pokemon/rufflet.md
+    - '#628 Braviary': pokedex/pokemon/braviary.md
+    - '#629 Vullaby': pokedex/pokemon/vullaby.md
+    - '#630 Mandibuzz': pokedex/pokemon/mandibuzz.md
+    - '#631 Heatmor': pokedex/pokemon/heatmor.md
+    - '#632 Durant': pokedex/pokemon/durant.md
+    - '#633 Deino': pokedex/pokemon/deino.md
+    - '#634 Zweilous': pokedex/pokemon/zweilous.md
+    - '#635 Hydreigon': pokedex/pokemon/hydreigon.md
+    - '#636 Larvesta': pokedex/pokemon/larvesta.md
+    - '#637 Volcarona': pokedex/pokemon/volcarona.md
+    - '#638 Cobalion': pokedex/pokemon/cobalion.md
+    - '#639 Terrakion': pokedex/pokemon/terrakion.md
+    - '#640 Virizion': pokedex/pokemon/virizion.md
+    - '#641 Tornadus':
+      - Incarnate: pokedex/pokemon/tornadus-incarnate.md
+      - Therian: pokedex/pokemon/tornadus-therian.md
+    - '#642 Thundurus':
+      - Incarnate: pokedex/pokemon/thundurus-incarnate.md
+      - Therian: pokedex/pokemon/thundurus-therian.md
+    - '#643 Reshiram': pokedex/pokemon/reshiram.md
+    - '#644 Zekrom': pokedex/pokemon/zekrom.md
+    - '#645 Landorus':
+      - Incarnate: pokedex/pokemon/landorus-incarnate.md
+      - Therian: pokedex/pokemon/landorus-therian.md
+    - '#646 Kyurem':
+      - Default: pokedex/pokemon/kyurem.md
+      - Black: pokedex/pokemon/kyurem-black.md
+      - White: pokedex/pokemon/kyurem-white.md
+    - '#647 Keldeo':
+      - Ordinary: pokedex/pokemon/keldeo-ordinary.md
+      - Resolute: pokedex/pokemon/keldeo-resolute.md
+    - '#648 Meloetta':
+      - Aria: pokedex/pokemon/meloetta-aria.md
+      - Pirouette: pokedex/pokemon/meloetta-pirouette.md
+    - '#649 Genesect': pokedex/pokemon/genesect.md

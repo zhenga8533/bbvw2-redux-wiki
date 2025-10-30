@@ -96,3 +96,24 @@ def strip_common_suffix(string1: str, string2: str) -> str:
 
     # 4. Return the remainder of string2
     return string2[:end_index]
+
+
+def extract_form_suffix(pokemon_name: str, base_name: str) -> str:
+    """
+    Extract the form suffix from a Pokemon name.
+
+    Args:
+        pokemon_name: Full Pokemon name (e.g., "giratina-altered")
+        base_name: Base species name (e.g., "giratina")
+
+    Returns:
+        The form suffix, or empty string if no suffix exists.
+        Examples:
+            - ("giratina-altered", "giratina") -> "altered"
+            - ("rotom", "rotom") -> ""
+            - ("darmanitan-zen", "darmanitan") -> "zen"
+    """
+    if pokemon_name.startswith(base_name):
+        suffix = pokemon_name[len(base_name):].lstrip('-')
+        return suffix
+    return ""

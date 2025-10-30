@@ -315,8 +315,13 @@ class Ability:
         """Construct nested objects and validate."""
         if isinstance(self.effect, dict):
             self.effect = GameVersionStringMap.from_dict(self.effect)
+        elif isinstance(self.effect, str):
+            self.effect = GameVersionStringMap({key: self.effect for key in VERSION_GROUP_KEYS})
+
         if isinstance(self.flavor_text, dict):
             self.flavor_text = GameVersionStringMap.from_dict(self.flavor_text)
+        elif isinstance(self.flavor_text, str):
+            self.flavor_text = GameVersionStringMap({key: self.flavor_text for key in VERSION_GROUP_KEYS})
 
         """Validate ability fields."""
         if not isinstance(self.id, int) or self.id <= 0:
