@@ -115,7 +115,9 @@ class PokemonService:
                 return False
 
         except (OSError, IOError, ValueError) as e:
-            logger.error(f"Error updating {attribute_base} of Pokemon '{pokemon}': {e}")
+            logger.warning(
+                f"Error updating {attribute_base} of Pokemon '{pokemon}': {e}"
+            )
             return False
 
     @staticmethod
@@ -134,7 +136,7 @@ class PokemonService:
         # Parse: "80 HP / 82 Atk / 83 Def / 100 SAtk / 100 SDef / 80 Spd / 525 BST"
         parts = value.split(" / ")
         if len(parts) != 7:
-            logger.error(f"Invalid base stats format: {value}")
+            logger.warning(f"Invalid base stats format: {value}")
             return False
 
         try:
@@ -162,7 +164,7 @@ class PokemonService:
             return True
 
         except (ValueError, IndexError) as e:
-            logger.error(f"Error parsing base stats '{value}': {e}")
+            logger.warning(f"Error parsing base stats '{value}': {e}")
             return False
 
     @staticmethod
@@ -207,7 +209,7 @@ class PokemonService:
         abilities = [name_to_id(a.strip()) for a in value.split(" / ")]
 
         if len(abilities) != 3:
-            logger.error(f"Invalid ability format (expected 3 abilities): {value}")
+            logger.warning(f"Invalid ability format (expected 3 abilities): {value}")
             return False
 
         # Build new abilities list
@@ -259,14 +261,14 @@ class PokemonService:
         for part in parts:
             tokens = part.split()
             if len(tokens) != 2:
-                logger.error(f"Invalid EV yield format: {part}")
+                logger.warning(f"Invalid EV yield format: {part}")
                 return False
 
             effort = int(tokens[0])
             stat_short = tokens[1]
 
             if stat_short not in stat_map:
-                logger.error(f"Unknown stat abbreviation: {stat_short}")
+                logger.warning(f"Unknown stat abbreviation: {stat_short}")
                 return False
 
             ev_yields.append({"stat": stat_map[stat_short], "effort": effort})
@@ -304,7 +306,7 @@ class PokemonService:
             return True
 
         except ValueError as e:
-            logger.error(f"Error parsing base happiness '{value}': {e}")
+            logger.warning(f"Error parsing base happiness '{value}': {e}")
             return False
 
     @staticmethod
@@ -334,7 +336,7 @@ class PokemonService:
             return True
 
         except ValueError as e:
-            logger.error(f"Error parsing base experience '{value}': {e}")
+            logger.warning(f"Error parsing base experience '{value}': {e}")
             return False
 
     @staticmethod
@@ -360,7 +362,7 @@ class PokemonService:
             return True
 
         except ValueError as e:
-            logger.error(f"Error parsing catch rate '{value}': {e}")
+            logger.warning(f"Error parsing catch rate '{value}': {e}")
             return False
 
     @staticmethod
@@ -403,7 +405,7 @@ class PokemonService:
             # Extract female percentage
             match = re.search(r"(\d+(?:\.\d+)?)\s*%\s*female", value_lower)
             if not match:
-                logger.error(f"Could not parse gender ratio: {value}")
+                logger.warning(f"Could not parse gender ratio: {value}")
                 return False
 
             female_percent = float(match.group(1))
@@ -422,7 +424,7 @@ class PokemonService:
             }
 
             if female_percent not in gender_rate_map:
-                logger.error(f"Unsupported gender ratio: {female_percent}% female")
+                logger.warning(f"Unsupported gender ratio: {female_percent}% female")
                 return False
 
             gender_rate = gender_rate_map[female_percent]
@@ -488,7 +490,7 @@ class PokemonService:
             return True
 
         except (OSError, IOError, ValueError) as e:
-            logger.error(f"Error updating level-up moves for '{pokemon}': {e}")
+            logger.warning(f"Error updating level-up moves for '{pokemon}': {e}")
             return False
 
     @staticmethod
@@ -555,7 +557,7 @@ class PokemonService:
             return True
 
         except (OSError, IOError, ValueError) as e:
-            logger.error(f"Error updating machine moves for '{pokemon}': {e}")
+            logger.warning(f"Error updating machine moves for '{pokemon}': {e}")
             return False
 
     @staticmethod
@@ -607,5 +609,5 @@ class PokemonService:
             return True
 
         except (OSError, IOError, ValueError) as e:
-            logger.error(f"Error updating held item for '{pokemon}': {e}")
+            logger.warning(f"Error updating held item for '{pokemon}': {e}")
             return False

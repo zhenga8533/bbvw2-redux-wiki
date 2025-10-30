@@ -259,7 +259,7 @@ class EvolutionService:
                         form_name, subfolder=category
                     )
                     if not pokemon_data:
-                        logger.error(
+                        logger.warning(
                             f"Failed to load form file during save: {form_name} in {category}, skipping"
                         )
                         continue

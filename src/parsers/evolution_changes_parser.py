@@ -218,7 +218,7 @@ class EvolutionChangesParser(BaseParser):
 
         pokemon_data = PokeDBLoader.load_pokemon(pokemon_id)
         if pokemon_data is None:
-            self.logger.error(f"Pokemon not found: {pokemon_id}")
+            self.logger.warning(f"Pokemon not found: {pokemon_id}")
             return
 
         evolution_chain: EvolutionChain = pokemon_data.evolution_chain

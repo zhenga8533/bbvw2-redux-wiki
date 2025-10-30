@@ -357,7 +357,7 @@ class PokeDBLoader:
             else:
                 search_location = data_dir / category
             if not silent:
-                logger.error(f"File not found: {name}.json in {search_location}")
+                logger.warning(f"File not found: {name}.json in {search_location}")
             raise FileNotFoundError(
                 f"File not found: {name}.json (searched in {search_location})"
             )

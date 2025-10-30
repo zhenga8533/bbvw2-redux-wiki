@@ -141,7 +141,7 @@ class MoveService:
             logger.info(f"Copied and processed move '{move_name}' from gen8 to parsed")
             return True
         except (OSError, IOError, ValueError) as e:
-            logger.error(f"Error copying move '{move_name}': {e}")
+            logger.warning(f"Error copying move '{move_name}': {e}")
             return False
 
     @staticmethod
@@ -178,7 +178,7 @@ class MoveService:
             logger.info(f"Changed type of move '{move_name}' to '{type_id}'")
             return True
         except (OSError, IOError, ValueError) as e:
-            logger.error(f"Error changing type of move '{move_name}': {e}")
+            logger.warning(f"Error changing type of move '{move_name}': {e}")
             return False
 
     @staticmethod
@@ -262,5 +262,5 @@ class MoveService:
             )
             return True
         except (OSError, IOError, ValueError) as e:
-            logger.error(f"Error updating {attribute} of move '{move_name}': {e}")
+            logger.warning(f"Error updating {attribute} of move '{move_name}': {e}")
             return False
