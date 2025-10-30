@@ -2,6 +2,7 @@
 Generators for creating documentation pages from database content.
 """
 
-from .pokemon_page_generator import PokemonPageGenerator
+from .base_generator import BaseGenerator
+from .pokemon_generator import PokemonGenerator
 
-__all__ = ["PokemonPageGenerator"]
+__all__ = ["BaseGenerator", "PokemonGenerator"]

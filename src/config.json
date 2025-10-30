@@ -81,5 +81,14 @@
   },
   "markdown": {
     "pokedex_base_path": "../pokedex"
+  },
+  "generators": {
+    "registry": {
+      "pokemon": {
+        "module": "src.generators.pokemon_generator",
+        "class": "PokemonGenerator",
+        "output_dir": "docs/pokedex"
+      }
+    }
   }
 }

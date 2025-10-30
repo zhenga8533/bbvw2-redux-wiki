@@ -11,13 +11,13 @@ from pathlib import Path
 from typing import Optional, Dict, List
 from src.data.pokedb_loader import PokeDBLoader
 from src.models.pokedb import Pokemon, Move
-from src.utils.logger_util import get_logger
 from src.utils.text_util import extract_form_suffix
 from src.utils.yaml_util import load_mkdocs_config, save_mkdocs_config
+from .base_generator import BaseGenerator
 import html
 
 
-class PokemonPageGenerator:
+class PokemonGenerator(BaseGenerator):
     """
     Generator for individual Pokemon markdown pages.
 
@@ -39,20 +39,12 @@ class PokemonPageGenerator:
             output_dir: Directory where markdown files will be generated
             project_root: The root directory of the project. If None, it's inferred.
         """
-        self.logger = get_logger(__name__)
+        # Initialize base generator
+        super().__init__(output_dir=output_dir, project_root=project_root)
 
-        # Set up paths
-        if project_root is None:
-            self.project_root = Path(__file__).parent.parent.parent
-        else:
-            self.project_root = project_root
-
-        self.output_dir = self.project_root / output_dir / "pokemon"
+        # Create pokemon subdirectory
+        self.output_dir = self.output_dir / "pokemon"
         self.output_dir.mkdir(parents=True, exist_ok=True)
-
-        self.logger.debug(
-            f"Pokemon page generator initialized. Output: {self.output_dir}"
-        )
 
     def _format_name(self, name: str) -> str:
         """Format a Pokemon name for display (capitalize and handle special cases)."""
@@ -176,7 +168,9 @@ class PokemonPageGenerator:
         }
         return type_colors.get(type_name.lower(), "#777777")
 
-    def _format_move_with_tooltip(self, move_name: str, move_data: Optional[Move]) -> str:
+    def _format_move_with_tooltip(
+        self, move_name: str, move_data: Optional[Move]
+    ) -> str:
         """Format a move name with type color and tooltip."""
         if not move_data:
             return self._format_name(move_name)
@@ -198,24 +192,107 @@ class PokemonPageGenerator:
         """Calculate type effectiveness based on Pokemon's types."""
         # Type effectiveness chart (simplified for Gen 5)
         effectiveness = {
-            "normal": {"weak_to": ["fighting"], "resistant_to": [], "immune_to": ["ghost"]},
-            "fire": {"weak_to": ["water", "ground", "rock"], "resistant_to": ["fire", "grass", "ice", "bug", "steel", "fairy"], "immune_to": []},
-            "water": {"weak_to": ["electric", "grass"], "resistant_to": ["fire", "water", "ice", "steel"], "immune_to": []},
-            "electric": {"weak_to": ["ground"], "resistant_to": ["electric", "flying", "steel"], "immune_to": []},
-            "grass": {"weak_to": ["fire", "ice", "poison", "flying", "bug"], "resistant_to": ["water", "electric", "grass", "ground"], "immune_to": []},
-            "ice": {"weak_to": ["fire", "fighting", "rock", "steel"], "resistant_to": ["ice"], "immune_to": []},
-            "fighting": {"weak_to": ["flying", "psychic", "fairy"], "resistant_to": ["bug", "rock", "dark"], "immune_to": []},
-            "poison": {"weak_to": ["ground", "psychic"], "resistant_to": ["grass", "fighting", "poison", "bug", "fairy"], "immune_to": []},
-            "ground": {"weak_to": ["water", "grass", "ice"], "resistant_to": ["poison", "rock"], "immune_to": ["electric"]},
-            "flying": {"weak_to": ["electric", "ice", "rock"], "resistant_to": ["grass", "fighting", "bug"], "immune_to": ["ground"]},
-            "psychic": {"weak_to": ["bug", "ghost", "dark"], "resistant_to": ["fighting", "psychic"], "immune_to": []},
-            "bug": {"weak_to": ["fire", "flying", "rock"], "resistant_to": ["grass", "fighting", "ground"], "immune_to": []},
-            "rock": {"weak_to": ["water", "grass", "fighting", "ground", "steel"], "resistant_to": ["normal", "fire", "poison", "flying"], "immune_to": []},
-            "ghost": {"weak_to": ["ghost", "dark"], "resistant_to": ["poison", "bug"], "immune_to": ["normal", "fighting"]},
-            "dragon": {"weak_to": ["ice", "dragon", "fairy"], "resistant_to": ["fire", "water", "electric", "grass"], "immune_to": []},
-            "dark": {"weak_to": ["fighting", "bug", "fairy"], "resistant_to": ["ghost", "dark"], "immune_to": ["psychic"]},
-            "steel": {"weak_to": ["fire", "fighting", "ground"], "resistant_to": ["normal", "grass", "ice", "flying", "psychic", "bug", "rock", "dragon", "steel", "fairy"], "immune_to": ["poison"]},
-            "fairy": {"weak_to": ["poison", "steel"], "resistant_to": ["fighting", "bug", "dark"], "immune_to": ["dragon"]},
+            "normal": {
+                "weak_to": ["fighting"],
+                "resistant_to": [],
+                "immune_to": ["ghost"],
+            },
+            "fire": {
+                "weak_to": ["water", "ground", "rock"],
+                "resistant_to": ["fire", "grass", "ice", "bug", "steel", "fairy"],
+                "immune_to": [],
+            },
+            "water": {
+                "weak_to": ["electric", "grass"],
+                "resistant_to": ["fire", "water", "ice", "steel"],
+                "immune_to": [],
+            },
+            "electric": {
+                "weak_to": ["ground"],
+                "resistant_to": ["electric", "flying", "steel"],
+                "immune_to": [],
+            },
+            "grass": {
+                "weak_to": ["fire", "ice", "poison", "flying", "bug"],
+                "resistant_to": ["water", "electric", "grass", "ground"],
+                "immune_to": [],
+            },
+            "ice": {
+                "weak_to": ["fire", "fighting", "rock", "steel"],
+                "resistant_to": ["ice"],
+                "immune_to": [],
+            },
+            "fighting": {
+                "weak_to": ["flying", "psychic", "fairy"],
+                "resistant_to": ["bug", "rock", "dark"],
+                "immune_to": [],
+            },
+            "poison": {
+                "weak_to": ["ground", "psychic"],
+                "resistant_to": ["grass", "fighting", "poison", "bug", "fairy"],
+                "immune_to": [],
+            },
+            "ground": {
+                "weak_to": ["water", "grass", "ice"],
+                "resistant_to": ["poison", "rock"],
+                "immune_to": ["electric"],
+            },
+            "flying": {
+                "weak_to": ["electric", "ice", "rock"],
+                "resistant_to": ["grass", "fighting", "bug"],
+                "immune_to": ["ground"],
+            },
+            "psychic": {
+                "weak_to": ["bug", "ghost", "dark"],
+                "resistant_to": ["fighting", "psychic"],
+                "immune_to": [],
+            },
+            "bug": {
+                "weak_to": ["fire", "flying", "rock"],
+                "resistant_to": ["grass", "fighting", "ground"],
+                "immune_to": [],
+            },
+            "rock": {
+                "weak_to": ["water", "grass", "fighting", "ground", "steel"],
+                "resistant_to": ["normal", "fire", "poison", "flying"],
+                "immune_to": [],
+            },
+            "ghost": {
+                "weak_to": ["ghost", "dark"],
+                "resistant_to": ["poison", "bug"],
+                "immune_to": ["normal", "fighting"],
+            },
+            "dragon": {
+                "weak_to": ["ice", "dragon", "fairy"],
+                "resistant_to": ["fire", "water", "electric", "grass"],
+                "immune_to": [],
+            },
+            "dark": {
+                "weak_to": ["fighting", "bug", "fairy"],
+                "resistant_to": ["ghost", "dark"],
+                "immune_to": ["psychic"],
+            },
+            "steel": {
+                "weak_to": ["fire", "fighting", "ground"],
+                "resistant_to": [
+                    "normal",
+                    "grass",
+                    "ice",
+                    "flying",
+                    "psychic",
+                    "bug",
+                    "rock",
+                    "dragon",
+                    "steel",
+                    "fairy",
+                ],
+                "immune_to": ["poison"],
+            },
+            "fairy": {
+                "weak_to": ["poison", "steel"],
+                "resistant_to": ["fighting", "bug", "dark"],
+                "immune_to": ["dragon"],
+            },
         }
 
         # Calculate combined effectiveness
@@ -228,7 +305,9 @@ class PokemonPageGenerator:
             for weak_type in type_data.get("weak_to", []):
                 weak_multiplier[weak_type] = weak_multiplier.get(weak_type, 1) * 2
             for resist_type in type_data.get("resistant_to", []):
-                resist_multiplier[resist_type] = resist_multiplier.get(resist_type, 1) * 0.5
+                resist_multiplier[resist_type] = (
+                    resist_multiplier.get(resist_type, 1) * 0.5
+                )
             for immune_type in type_data.get("immune_to", []):
                 immune_types.add(immune_type)
 
@@ -353,11 +432,15 @@ class PokemonPageGenerator:
             md += "### Resistances\n\n"
             if effectiveness["0.25x_resist"]:
                 md += "**¼× Damage:** "
-                md += " ".join([self._format_type(t) for t in effectiveness["0.25x_resist"]])
+                md += " ".join(
+                    [self._format_type(t) for t in effectiveness["0.25x_resist"]]
+                )
                 md += "\n\n"
             if effectiveness["0.5x_resist"]:
                 md += "**½× Damage:** "
-                md += " ".join([self._format_type(t) for t in effectiveness["0.5x_resist"]])
+                md += " ".join(
+                    [self._format_type(t) for t in effectiveness["0.5x_resist"]]
+                )
                 md += "\n\n"
 
         # Immunities
@@ -489,7 +572,9 @@ class PokemonPageGenerator:
                 move_data = PokeDBLoader.load_move(move_learn.name)
 
                 level = move_learn.level_learned_at
-                move_name_formatted = self._format_move_with_tooltip(move_learn.name, move_data)
+                move_name_formatted = self._format_move_with_tooltip(
+                    move_learn.name, move_data
+                )
 
                 if move_data:
                     # Get move details
@@ -526,7 +611,9 @@ class PokemonPageGenerator:
             sorted_moves = sorted(pokemon.moves.machine, key=lambda m: m.name)
             for move_learn in sorted_moves:
                 move_data = PokeDBLoader.load_move(move_learn.name)
-                move_name_formatted = self._format_move_with_tooltip(move_learn.name, move_data)
+                move_name_formatted = self._format_move_with_tooltip(
+                    move_learn.name, move_data
+                )
 
                 if move_data:
                     move_type = move_data.type.black_2_white_2 or "???"
@@ -560,7 +647,9 @@ class PokemonPageGenerator:
             sorted_moves = sorted(pokemon.moves.egg, key=lambda m: m.name)
             for move_learn in sorted_moves:
                 move_data = PokeDBLoader.load_move(move_learn.name)
-                move_name_formatted = self._format_move_with_tooltip(move_learn.name, move_data)
+                move_name_formatted = self._format_move_with_tooltip(
+                    move_learn.name, move_data
+                )
 
                 if move_data:
                     move_type = move_data.type.black_2_white_2 or "???"
@@ -594,7 +683,9 @@ class PokemonPageGenerator:
             sorted_moves = sorted(pokemon.moves.tutor, key=lambda m: m.name)
             for move_learn in sorted_moves:
                 move_data = PokeDBLoader.load_move(move_learn.name)
-                move_name_formatted = self._format_move_with_tooltip(move_learn.name, move_data)
+                move_name_formatted = self._format_move_with_tooltip(
+                    move_learn.name, move_data
+                )
 
                 if move_data:
                     move_type = move_data.type.black_2_white_2 or "???"
@@ -1048,4 +1139,46 @@ class PokemonPageGenerator:
 
         except Exception as e:
             self.logger.error(f"Failed to update mkdocs.yml: {e}", exc_info=True)
+            return False
+
+    def generate(self, subfolder: str = "default") -> bool:
+        """
+        Generate Pokemon pages and Pokedex index.
+
+        Args:
+            subfolder: Subfolder within pokemon directory to process
+
+        Returns:
+            bool: True if generation succeeded, False if it failed
+        """
+        self.logger.info("Starting Pokedex generation...")
+        try:
+            # Generate all Pokemon pages
+            self.logger.info("Generating individual Pokemon pages...")
+            pokemon_files = self.generate_all_pokemon_pages(subfolder=subfolder)
+
+            if not pokemon_files:
+                self.logger.error("No Pokemon pages were generated")
+                return False
+
+            # Generate the Pokedex index
+            self.logger.info("Generating Pokedex index...")
+            index_path = self.generate_pokedex_index(subfolder=subfolder)
+
+            # Update mkdocs.yml navigation
+            self.logger.info("Updating mkdocs.yml navigation...")
+            nav_success = self.update_mkdocs_navigation(subfolder=subfolder)
+
+            if not nav_success:
+                self.logger.warning(
+                    "Failed to update mkdocs.yml navigation, but pages were generated successfully"
+                )
+
+            self.logger.info(
+                f"Successfully generated {len(pokemon_files)} Pokemon pages and index"
+            )
+            return True
+
+        except Exception as e:
+            self.logger.error(f"Failed to generate Pokedex: {e}", exc_info=True)
             return False

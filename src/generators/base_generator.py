@@ -1,0 +1,75 @@
+"""
+Base generator class for creating documentation pages from database content.
+"""
+
+from abc import ABC, abstractmethod
+from pathlib import Path
+from typing import Optional
+from ..utils.logger_util import get_logger
+
+
+class BaseGenerator(ABC):
+    """
+    Abstract base class for all documentation generators.
+
+    All generators should:
+    - Read data from data/pokedb/parsed/
+    - Generate markdown files to docs/ (or subdirectories)
+
+    Each generator instance is independent and thread-safe.
+    """
+
+    def __init__(
+        self,
+        output_dir: str = "docs",
+        project_root: Optional[Path] = None,
+    ):
+        """
+        Initialize the generator.
+
+        Args:
+            output_dir: Directory where markdown files will be generated
+            project_root: The root directory of the project. If None, it's inferred.
+        """
+        # Set up logger for this generator instance
+        self.logger = get_logger(self.__class__.__module__)
+
+        # Set up paths
+        if project_root is None:
+            self.project_root = Path(__file__).parent.parent.parent
+        else:
+            self.project_root = project_root
+
+        self.output_dir = self.project_root / output_dir
+        self.output_dir.mkdir(parents=True, exist_ok=True)
+
+        self.logger.debug(
+            f"Initializing generator: {self.__class__.__name__}",
+            extra={"output_dir": str(self.output_dir)},
+        )
+
+    @abstractmethod
+    def generate(self) -> bool:
+        """
+        Generate documentation pages.
+
+        This method should be implemented by subclasses to perform the actual
+        generation logic.
+
+        Returns:
+            bool: True if generation succeeded, False if it failed
+        """
+        raise NotImplementedError("Subclasses must implement generate()")
+
+    def run(self) -> bool:
+        """
+        Execute the full generation pipeline.
+
+        Returns:
+            bool: True if generation succeeded, False if it failed
+        """
+        try:
+            return self.generate()
+        except Exception as e:
+            self.logger.error(f"Generation failed: {e}", exc_info=True)
+            return False
