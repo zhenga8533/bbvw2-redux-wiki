@@ -859,111 +859,141 @@ class PokemonGenerator(BaseGenerator):
         md = "## :material-image-multiple: Sprites\n\n"
 
         sprites = pokemon.sprites
+        has_female_sprites = False
 
-        # Use tabs for different sprite types
+        # Check if this Pokemon has female sprite variants
+        if hasattr(sprites, "versions") and sprites.versions:
+            bw = sprites.versions.black_white
+            if bw.animated and bw.animated.front_female:
+                has_female_sprites = True
 
-        md += '=== "Gen 5 Animated"\n\n'
-        md += '\t<div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap; margin: 20px 0;">\n'
+        # Helper function to create a sprite card
+        def sprite_card(
+            url: str, label: str, is_shiny: bool = False, size: str = "160px"
+        ) -> str:
+            if not url:
+                return ""
+
+            # Choose gradient based on shiny/normal
+            if is_shiny:
+                bg_gradient = "linear-gradient(135deg, #fff9e6 0%, #ffe8a3 100%)"
+                shadow = "0 4px 16px rgba(255, 215, 0, 0.25), 0 2px 4px rgba(0,0,0,0.1)"
+                border = "2px solid rgba(255, 215, 0, 0.3)"
+            else:
+                bg_gradient = "linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%)"
+                shadow = "0 4px 12px rgba(0,0,0,0.08), 0 2px 4px rgba(0,0,0,0.06)"
+                border = "2px solid rgba(0,0,0,0.05)"
+
+            return f'\t\t\t\t<div style="display: flex; flex-direction: column; align-items: center; margin: 8px;"><div style="background: {bg_gradient}; padding: 20px; border-radius: 16px; box-shadow: {shadow}; border: {border}; transition: transform 0.2s ease, box-shadow 0.2s ease; min-width: {size}; min-height: {size}; display: flex; align-items: center; justify-content: center;"><img src="{url}" alt="{label}" style="image-rendering: pixelated; max-width: 100%; height: auto;" /></div><div style="margin-top: 12px; font-size: 13px; font-weight: 600; color: #495057; text-align: center;">{label}</div></div>\n'
+
+        # In-game Sprites Tab
+        md += '=== "In-Game Sprites"\n\n'
+        md += '\t<div style="background: linear-gradient(to bottom, #ffffff, #f8f9fa); padding: 24px; border-radius: 12px; margin: 16px 0;">\n'
 
         if hasattr(sprites, "versions") and sprites.versions:
             bw = sprites.versions.black_white
             if bw.animated:
-                # Front and back sprites in columns
+                # Normal sprites section
+                md += '\t\t<div style="margin-bottom: 32px;">\n'
+                md += '\t\t\t<h4 style="color: #2c3e50; margin-bottom: 16px; font-size: 16px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px;">Normal</h4>\n'
+                md += '\t\t\t<div style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;">\n'
+
                 if bw.animated.front_default:
-                    md += '\t\t<div style="text-align: center;">\n'
-                    md += '\t\t\t<div style="font-size: 12px; color: #666; margin-bottom: 8px;">Front</div>\n'
-                    md += f'\t\t\t<img src="{bw.animated.front_default}" alt="Normal Front" style="image-rendering: pixelated; background: linear-gradient(135deg, #f5f5f5, #e0e0e0); padding: 16px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);" />\n'
-                    md += "\t\t</div>\n"
-
+                    md += sprite_card(bw.animated.front_default, "Front", False)
                 if bw.animated.back_default:
-                    md += '\t\t<div style="text-align: center;">\n'
-                    md += '\t\t\t<div style="font-size: 12px; color: #666; margin-bottom: 8px;">Back</div>\n'
-                    md += f'\t\t\t<img src="{bw.animated.back_default}" alt="Normal Back" style="image-rendering: pixelated; background: linear-gradient(135deg, #f5f5f5, #e0e0e0); padding: 16px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);" />\n'
-                    md += "\t\t</div>\n"
+                    md += sprite_card(bw.animated.back_default, "Back", False)
 
-                md += "\t</div>\n\n"
+                # Female variants if available
+                if has_female_sprites:
+                    if bw.animated.front_female:
+                        md += sprite_card(bw.animated.front_female, "Front ♀", False)
+                    if bw.animated.back_female:
+                        md += sprite_card(bw.animated.back_female, "Back ♀", False)
 
-                md += '=== "Shiny"\n\n'
-                md += '\t<div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap; margin: 20px 0;">\n'
+                md += "\t\t\t</div>\n"
+                md += "\t\t</div>\n"
 
-                if hasattr(sprites, "versions") and sprites.versions:
-                    bw = sprites.versions.black_white
-                    if bw.animated:
-                        if bw.animated.front_shiny:
-                            md += '\t\t<div style="text-align: center;">\n'
-                            md += '\t\t\t<div style="font-size: 12px; color: #666; margin-bottom: 8px;">Front</div>\n'
-                            md += f'\t\t\t<img src="{bw.animated.front_shiny}" alt="Shiny Front" style="image-rendering: pixelated; background: linear-gradient(135deg, #fff8e1, #ffe082); padding: 16px; border-radius: 8px; box-shadow: 0 2px 8px rgba(255,215,0,0.3);" />\n'
-                            md += "\t\t</div>\n"
+                # Shiny sprites section
+                md += "\t\t<div>\n"
+                md += '\t\t\t<h4 style="color: #f39c12; margin-bottom: 16px; font-size: 16px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px;">✨ Shiny</h4>\n'
+                md += '\t\t\t<div style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;">\n'
 
-                        if bw.animated.back_shiny:
-                            md += '\t\t<div style="text-align: center;">\n'
-                            md += '\t\t\t<div style="font-size: 12px; color: #666; margin-bottom: 8px;">Back</div>\n'
-                            md += f'\t\t\t<img src="{bw.animated.back_shiny}" alt="Shiny Back" style="image-rendering: pixelated; background: linear-gradient(135deg, #fff8e1, #ffe082); padding: 16px; border-radius: 8px; box-shadow: 0 2px 8px rgba(255,215,0,0.3);" />\n'
-                            md += "\t\t</div>\n"
+                if bw.animated.front_shiny:
+                    md += sprite_card(bw.animated.front_shiny, "Front", True)
+                if bw.animated.back_shiny:
+                    md += sprite_card(bw.animated.back_shiny, "Back", True)
 
-                md += "\t</div>\n\n"
+                # Female shiny variants if available
+                if has_female_sprites:
+                    if bw.animated.front_shiny_female:
+                        md += sprite_card(
+                            bw.animated.front_shiny_female, "Front ♀", True
+                        )
+                    if bw.animated.back_shiny_female:
+                        md += sprite_card(bw.animated.back_shiny_female, "Back ♀", True)
 
-                # Official Artwork - use the correct path
-                md += '=== "Official Artwork"\n\n'
-                md += '\t<div style="text-align: center; margin: 20px 0;">\n'
+                md += "\t\t\t</div>\n"
+                md += "\t\t</div>\n"
 
-                if (
-                    hasattr(sprites, "other")
-                    and sprites.other
-                    and hasattr(sprites.other, "official_artwork")
-                ):
-                    artwork = sprites.other.official_artwork
-                    if artwork.front_default:
-                        md += f'\t\t<img src="{artwork.front_default}" alt="Official Artwork" style="max-width: 300px; filter: drop-shadow(0 4px 12px rgba(0,0,0,0.15));" />\n'
+        md += "\t</div>\n\n"
 
-                md += "\t</div>\n\n"
+        # Official Artwork Tab
+        md += '=== "Official Artwork"\n\n'
+        md += '\t<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 48px 24px; border-radius: 16px; text-align: center; position: relative; overflow: hidden; margin: 16px 0;">\n'
+        md += '\t\t<div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: repeating-linear-gradient(45deg, transparent, transparent 10px, rgba(255,255,255,.03) 10px, rgba(255,255,255,.03) 20px);"></div>\n'
+        md += '\t\t<div style="position: relative; z-index: 1;">\n'
 
-                # Show HOME sprites if available
-                if (
-                    hasattr(sprites, "other")
-                    and sprites.other
-                    and hasattr(sprites.other, "home")
-                ):
-                    md += '=== "HOME Sprites"\n\n'
-                    md += '\t<div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap; margin: 20px 0;">\n'
-                    home = sprites.other.home
+        if (
+            hasattr(sprites, "other")
+            and sprites.other
+            and hasattr(sprites.other, "official_artwork")
+        ):
+            artwork = sprites.other.official_artwork
 
-                    if home.front_default:
-                        md += '\t\t<div style="text-align: center;">\n'
-                        md += '\t\t\t<div style="font-size: 12px; color: #666; margin-bottom: 8px;">Normal</div>\n'
-                        md += f'\t\t\t<img src="{home.front_default}" alt="HOME Normal" style="max-width: 150px; background: linear-gradient(135deg, #f5f5f5, #e0e0e0); padding: 12px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);" />\n'
-                        md += "\t\t</div>\n"
+            md += '\t\t\t<div style="display: flex; gap: 32px; justify-content: center; flex-wrap: wrap; align-items: flex-start;">\n'
 
-                    if home.front_shiny:
-                        md += '\t\t<div style="text-align: center;">\n'
-                        md += '\t\t\t<div style="font-size: 12px; color: #666; margin-bottom: 8px;">Shiny</div>\n'
-                        md += f'\t\t\t<img src="{home.front_shiny}" alt="HOME Shiny" style="max-width: 150px; background: linear-gradient(135deg, #fff8e1, #ffe082); padding: 12px; border-radius: 8px; box-shadow: 0 2px 8px rgba(255,215,0,0.3);" />\n'
-                        md += "\t\t</div>\n"
+            # Normal artwork
+            if artwork.front_default:
+                md += '\t\t\t\t<div style="background: rgba(255,255,255,0.95); padding: 32px; border-radius: 20px; box-shadow: 0 8px 32px rgba(0,0,0,0.2); backdrop-filter: blur(10px); min-width: 280px;">\n'
+                md += '\t\t\t\t\t<div style="font-size: 14px; font-weight: 700; color: #2c3e50; margin-bottom: 16px; text-transform: uppercase; letter-spacing: 1px;">Normal</div>\n'
+                md += f'\t\t\t\t\t<img src="{artwork.front_default}" alt="Official Artwork" style="max-width: 300px; width: 100%; height: auto; filter: drop-shadow(0 4px 16px rgba(0,0,0,0.15));" />\n'
+                md += "\t\t\t\t</div>\n"
 
-                    md += "\t</div>\n\n"
+            # Shiny artwork
+            if artwork.front_shiny:
+                md += '\t\t\t\t<div style="background: linear-gradient(135deg, rgba(255,249,230,0.98) 0%, rgba(255,232,163,0.98) 100%); padding: 32px; border-radius: 20px; box-shadow: 0 8px 32px rgba(255,215,0,0.3), 0 4px 16px rgba(0,0,0,0.15); backdrop-filter: blur(10px); border: 2px solid rgba(255,215,0,0.4); min-width: 280px;">\n'
+                md += '\t\t\t\t\t<div style="font-size: 14px; font-weight: 700; color: #d4af37; margin-bottom: 16px; text-transform: uppercase; letter-spacing: 1px;">✨ Shiny</div>\n'
+                md += f'\t\t\t\t\t<img src="{artwork.front_shiny}" alt="Shiny Official Artwork" style="max-width: 300px; width: 100%; height: auto; filter: drop-shadow(0 4px 16px rgba(212,175,55,0.3));" />\n'
+                md += "\t\t\t\t</div>\n"
 
-                # Add Pokemon cry audio player OUTSIDE the tabs
-                md += "---\n\n"
-                md += "### :material-volume-high: Cry\n\n"
+            md += "\t\t\t</div>\n"
 
-                if hasattr(pokemon, "cries") and pokemon.cries:
-                    md += '<div style="text-align: center; margin: 20px 0;">\n'
+        md += "\t\t</div>\n"
+        md += "\t</div>\n\n"
 
-                    # Prefer legacy cry, fallback to latest
-                    cry_url = getattr(pokemon.cries, "legacy", None) or getattr(
-                        pokemon.cries, "latest", None
-                    )
+        # Pokemon cry audio player
+        md += "---\n\n"
+        md += "### :material-volume-high: Cry\n\n"
 
-                    if cry_url:
-                        md += f'\t<audio controls style="max-width: 400px; width: 100%;">\n'
-                        md += f'\t\t<source src="{cry_url}" type="audio/ogg">\n'
-                        md += "\t\tYour browser does not support the audio element.\n"
-                        md += "\t</audio>\n"
+        if hasattr(pokemon, "cries") and pokemon.cries:
+            md += '<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 24px; border-radius: 16px; text-align: center; margin: 16px 0;">\n'
 
-                    md += "</div>\n\n"
+            # Prefer legacy cry, fallback to latest
+            cry_url = getattr(pokemon.cries, "legacy", None) or getattr(
+                pokemon.cries, "latest", None
+            )
 
-                else:
-                    md += "*Cry audio not available*\n\n"
+            if cry_url:
+                md += f'\t<audio controls style="max-width: 500px; width: 100%; border-radius: 8px; filter: drop-shadow(0 2px 8px rgba(0,0,0,0.2));">\n'
+                md += f'\t\t<source src="{cry_url}" type="audio/ogg">\n'
+                md += "\t\tYour browser does not support the audio element.\n"
+                md += "\t</audio>\n"
+                md += '\t<div style="color: rgba(255,255,255,0.9); margin-top: 12px; font-size: 13px; font-weight: 500;">Click play to hear this Pokémon\'s cry</div>\n'
+
+            md += "</div>\n\n"
+        else:
+            md += '!!! info "No Audio Available"\n\n'
+            md += "\tCry audio is not currently available for this Pokémon.\n\n"
 
         return md
 
