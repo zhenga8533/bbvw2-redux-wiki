@@ -11,6 +11,7 @@ from pathlib import Path
 from typing import Optional, Dict, List
 from src.data.pokedb_loader import PokeDBLoader
 from src.models.pokedb import Pokemon, Move
+from src.utils.markdown_util import format_item
 from src.utils.text_util import extract_form_suffix
 from src.utils.yaml_util import load_mkdocs_config, save_mkdocs_config
 from .base_generator import BaseGenerator
@@ -28,6 +29,28 @@ class PokemonGenerator(BaseGenerator):
     - Forms and variations
     - Sprites and images
     """
+
+    # Type colors for badges and styling
+    TYPE_COLORS = {
+        "normal": "#A8A878",
+        "fire": "#F08030",
+        "water": "#6890F0",
+        "electric": "#F8D030",
+        "grass": "#78C850",
+        "ice": "#98D8D8",
+        "fighting": "#C03028",
+        "poison": "#A040A0",
+        "ground": "#E0C068",
+        "flying": "#A890F0",
+        "psychic": "#F85888",
+        "bug": "#A8B820",
+        "rock": "#B8A038",
+        "ghost": "#705898",
+        "dragon": "#7038F8",
+        "dark": "#705848",
+        "steel": "#B8B8D0",
+        "fairy": "#EE99AC",
+    }
 
     def __init__(
         self, output_dir: str = "docs/pokedex", project_root: Optional[Path] = None
@@ -69,54 +92,55 @@ class PokemonGenerator(BaseGenerator):
         return name.title()
 
     def _format_type(self, type_name: str) -> str:
-        """Format a type name with color badge."""
-        type_colors = {
-            "normal": "#A8A878",
-            "fire": "#F08030",
-            "water": "#6890F0",
-            "electric": "#F8D030",
-            "grass": "#78C850",
-            "ice": "#98D8D8",
-            "fighting": "#C03028",
-            "poison": "#A040A0",
-            "ground": "#E0C068",
-            "flying": "#A890F0",
-            "psychic": "#F85888",
-            "bug": "#A8B820",
-            "rock": "#B8A038",
-            "ghost": "#705898",
-            "dragon": "#7038F8",
-            "dark": "#705848",
-            "steel": "#B8B8D0",
-            "fairy": "#EE99AC",
-        }
-
-        color = type_colors.get(type_name.lower(), "#777777")
+        """Format a type name with modern color badge."""
+        color = self.TYPE_COLORS.get(type_name.lower(), "#777777")
         formatted_name = type_name.title()
 
-        return f'<span style="display: inline-block; background-color: {color}; color: white; padding: 4px 12px; border-radius: 6px; font-weight: bold; margin: 2px; box-shadow: 0 2px 4px rgba(0,0,0,0.2);">{formatted_name}</span>'
+        # Modern badge with gradient and better shadow
+        return f'<span style="display: inline-block; background: linear-gradient(135deg, {color}, {color}dd); color: white; padding: 6px 16px; border-radius: 20px; font-weight: 600; margin: 4px; box-shadow: 0 4px 8px rgba(0,0,0,0.15), 0 1px 3px rgba(0,0,0,0.1); text-transform: uppercase; font-size: 0.85em; letter-spacing: 0.5px;">{formatted_name}</span>'
 
     def _stat_bar(self, value: int, max_value: int = 255) -> str:
-        """Create a visual progress bar for a stat."""
+        """Create a modern visual progress bar for a stat."""
         percentage = min(100, (value / max_value) * 100)
 
-        # Color based on value
+        # Color based on value with gradients
         if value >= 150:
-            color = "#4CAF50"  # Green for high stats
+            gradient = "linear-gradient(90deg, #4CAF50, #66BB6A)"  # Green gradient
         elif value >= 100:
-            color = "#2196F3"  # Blue for good stats
+            gradient = "linear-gradient(90deg, #2196F3, #42A5F5)"  # Blue gradient
         elif value >= 70:
-            color = "#FF9800"  # Orange for medium stats
+            gradient = "linear-gradient(90deg, #FF9800, #FFA726)"  # Orange gradient
         else:
-            color = "#F44336"  # Red for low stats
+            gradient = "linear-gradient(90deg, #F44336, #EF5350)"  # Red gradient
 
-        return f'<div style="width: 100%; background-color: #e0e0e0; border-radius: 4px; height: 20px; overflow: hidden;"><div style="width: {percentage}%; background-color: {color}; height: 100%; display: flex; align-items: center; justify-content: flex-end; padding-right: 5px; color: white; font-weight: bold; font-size: 12px;">{value}</div></div>'
+        # Return just the bar without the number (number is shown in the Value column)
+        return f'<div style="width: 100%; background: linear-gradient(to right, #e8e8e8, #f5f5f5); border-radius: 10px; height: 24px; overflow: hidden; box-shadow: inset 0 2px 4px rgba(0,0,0,0.1);"><div style="width: {percentage}%; background: {gradient}; height: 100%; transition: width 0.3s ease; box-shadow: 0 2px 4px rgba(0,0,0,0.2);"></div></div>'
 
     def _format_ability(self, ability_name: str, is_hidden: bool = False) -> str:
         """Format an ability name with link and hidden indicator."""
         formatted_name = self._format_name(ability_name)
         hidden_tag = " *(Hidden)*" if is_hidden else ""
         return f"{formatted_name}{hidden_tag}"
+
+    def _generate_status_badges(self, pokemon: Pokemon) -> str:
+        """Generate modern status badges for legendary/mythical/baby Pokemon."""
+        badges = []
+
+        if pokemon.is_legendary:
+            badges.append(
+                '<span style="display: inline-block; background: linear-gradient(135deg, #FFD700 0%, #FFA500 100%); color: white; padding: 6px 16px; border-radius: 20px; font-weight: 700; margin: 4px; box-shadow: 0 4px 12px rgba(255, 215, 0, 0.4), 0 2px 4px rgba(0,0,0,0.2); text-transform: uppercase; font-size: 0.85em; letter-spacing: 0.5px; border: 2px solid rgba(255,255,255,0.3);">⭐ LEGENDARY</span>'
+            )
+        elif pokemon.is_mythical:
+            badges.append(
+                '<span style="display: inline-block; background: linear-gradient(135deg, #9370DB 0%, #8A2BE2 100%); color: white; padding: 6px 16px; border-radius: 20px; font-weight: 700; margin: 4px; box-shadow: 0 4px 12px rgba(147, 112, 219, 0.4), 0 2px 4px rgba(0,0,0,0.2); text-transform: uppercase; font-size: 0.85em; letter-spacing: 0.5px; border: 2px solid rgba(255,255,255,0.3);">✨ MYTHICAL</span>'
+            )
+
+        if pokemon.is_baby:
+            badges.append(
+                '<span style="display: inline-block; background: linear-gradient(135deg, #FFB6C1 0%, #FF69B4 100%); color: white; padding: 6px 16px; border-radius: 20px; font-weight: 700; margin: 4px; box-shadow: 0 4px 12px rgba(255, 182, 193, 0.4), 0 2px 4px rgba(0,0,0,0.2); text-transform: uppercase; font-size: 0.85em; letter-spacing: 0.5px; border: 2px solid rgba(255,255,255,0.3);">🍼 BABY</span>'
+            )
+
+        return " ".join(badges) if badges else ""
 
     def _format_form_name(self, pokemon_name: str, base_name: str) -> str:
         """
@@ -146,27 +170,7 @@ class PokemonGenerator(BaseGenerator):
 
     def _get_type_color(self, type_name: str) -> str:
         """Get the color for a Pokemon type."""
-        type_colors = {
-            "normal": "#A8A878",
-            "fire": "#F08030",
-            "water": "#6890F0",
-            "electric": "#F8D030",
-            "grass": "#78C850",
-            "ice": "#98D8D8",
-            "fighting": "#C03028",
-            "poison": "#A040A0",
-            "ground": "#E0C068",
-            "flying": "#A890F0",
-            "psychic": "#F85888",
-            "bug": "#A8B820",
-            "rock": "#B8A038",
-            "ghost": "#705898",
-            "dragon": "#7038F8",
-            "dark": "#705848",
-            "steel": "#B8B8D0",
-            "fairy": "#EE99AC",
-        }
-        return type_colors.get(type_name.lower(), "#777777")
+        return self.TYPE_COLORS.get(type_name.lower(), "#777777")
 
     def _format_move_with_tooltip(
         self, move_name: str, move_data: Optional[Move]
@@ -341,13 +345,82 @@ class PokemonGenerator(BaseGenerator):
             "immune": list(immune_types),
         }
 
+    def _generate_hero_section(self, pokemon: Pokemon) -> str:
+        """Generate a modern hero section with sprite, types, and badges."""
+        md = ""
+
+        # Get sprite URL
+        sprite_url = None
+        if hasattr(pokemon.sprites, "versions") and pokemon.sprites.versions:
+            bw = pokemon.sprites.versions.black_white
+            if bw.animated and bw.animated.front_default:
+                sprite_url = bw.animated.front_default
+
+        # Get type colors for dynamic gradient
+        color_1 = "#667eea"  # Default
+        color_2 = "#667eea"  # Default
+
+        if pokemon.types:
+            color_1 = self.TYPE_COLORS.get(pokemon.types[0].lower(), "#667eea")
+            # Default color 2 to a faded version of color 1
+            color_2 = f"{color_1}55"
+
+            if len(pokemon.types) > 1:
+                # Get the second type color, but fade it slightly
+                color_2 = f"{self.TYPE_COLORS.get(pokemon.types[1].lower(), color_1)}99"
+
+        # Modern hero container with dynamic gradient based on type(s)
+        md += f'<div style="text-align: center; padding: 32px 24px; background: linear-gradient(135deg, {color_1}dd 0%, {color_2} 100%), linear-gradient(to bottom, rgba(255,255,255,0.1), rgba(0,0,0,0.1)); border-radius: 16px; margin-bottom: 32px; box-shadow: 0 8px 24px rgba(0,0,0,0.2), 0 2px 8px rgba(0,0,0,0.1); position: relative; overflow: hidden;">\n'
+
+        # Subtle pattern overlay
+        md += '  <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; opacity: 0.05; background-image: repeating-linear-gradient(45deg, transparent, transparent 10px, rgba(255,255,255,.1) 10px, rgba(255,255,255,.1) 20px);"></div>\n'
+        md += '  <div style="position: relative; z-index: 1;">\n'
+
+        # Sprite with glow effect (fixed scaling)
+        if sprite_url:
+            md += f'    <div style="margin-bottom: 16px;">\n'
+            md += f'      <img src="{sprite_url}" alt="{pokemon.name}" style="height: 128px; width: auto; image-rendering: pixelated; filter: drop-shadow(0 4px 12px rgba(0,0,0,0.3));" />\n'
+            md += "    </div>\n"
+
+        # Pokedex number with modern styling
+        if "national" in pokemon.pokedex_numbers:
+            dex_num = pokemon.pokedex_numbers["national"]
+            md += f'    <div style="color: white; font-size: 24px; font-weight: 800; margin-bottom: 12px; text-shadow: 0 2px 8px rgba(0,0,0,0.3); letter-spacing: 1px;">#{dex_num:03d}</div>\n'
+
+        # Regional dex numbers with modern badges
+        regional_dex = {
+            k: v
+            for k, v in pokemon.pokedex_numbers.items()
+            if k != "national" and v is not None
+        }
+        if regional_dex:
+            dex_badges = []
+            for region, number in sorted(regional_dex.items()):
+                region_name = self._format_name(region)
+                dex_badges.append(
+                    f'<span style="display: inline-block; background-color: rgba(255,255,255,0.25); backdrop-filter: blur(10px); color: white; padding: 4px 12px; border-radius: 12px; font-size: 11px; margin: 3px; font-weight: 600; border: 1px solid rgba(255,255,255,0.3);">{region_name}: #{number:03d}</span>'
+                )
+            md += (
+                f'    <div style="margin-bottom: 16px;">{" ".join(dex_badges)}</div>\n'
+            )
+
+        # Types with better spacing
+        types_str = " ".join([self._format_type(t) for t in pokemon.types])
+        md += f'    <div style="margin: 16px 0;">{types_str}</div>\n'
+
+        # Status badges
+        status_badges = self._generate_status_badges(pokemon)
+        if status_badges:
+            md += f'    <div style="margin-top: 16px;">{status_badges}</div>\n'
+
+        md += "  </div>\n"  # Close relative div
+        md += "</div>\n\n"
+
+        return md
+
     def _generate_basic_info(self, pokemon: Pokemon) -> str:
         """Generate the basic information section."""
         md = ""
-
-        # Types in a prominent display
-        types_str = " ".join([self._format_type(t) for t in pokemon.types])
-        md += f'<div style="text-align: center; margin: 20px 0;">\n{types_str}\n</div>\n\n'
 
         # Use grid layout for information cards
         md += '<div class="grid cards" markdown>\n\n'
@@ -380,6 +453,7 @@ class PokemonGenerator(BaseGenerator):
         # Card 3: Training Info
         md += "- **:material-book-education: Training**\n\n"
         md += "    ---\n\n"
+        md += f"    **Base Experience:** {pokemon.base_experience}\n\n"
         md += f"    **Base Happiness:** {pokemon.base_happiness}\n\n"
         md += f"    **Capture Rate:** {pokemon.capture_rate}\n\n"
         md += f"    **Growth Rate:** {self._format_name(pokemon.growth_rate)}\n\n"
@@ -403,8 +477,39 @@ class PokemonGenerator(BaseGenerator):
 
         return md
 
+    def _generate_held_items_section(self, pokemon: Pokemon) -> str:
+        """Generate the held items section showing what items this Pokemon can hold in the wild."""
+        if not pokemon.held_items:
+            return ""
+
+        md = "## :material-treasure-chest: Wild Held Items\n\n"
+        md += '!!! tip "Wild Encounters"\n\n'
+        md += "    These items can be found when catching or defeating this Pokémon in the wild:\n\n"
+
+        # Create a modern table
+        md += "    | Item | Black | White | Black 2 | White 2 |\n"
+        md += "    |------|:-----:|:-----:|:-------:|:-------:|\n"
+
+        for item_name, rates in pokemon.held_items.items():
+            item_display = format_item(item_name.replace("_", " ").title())
+
+            # Get rates for each version with better formatting
+            black_rate = f"**{rates.get('black', 0)}%**" if rates.get("black") else "—"
+            white_rate = f"**{rates.get('white', 0)}%**" if rates.get("white") else "—"
+            black_2_rate = (
+                f"**{rates.get('black_2', 0)}%**" if rates.get("black_2") else "—"
+            )
+            white_2_rate = (
+                f"**{rates.get('white_2', 0)}%**" if rates.get("white_2") else "—"
+            )
+
+            md += f"    | **{item_display}** | {black_rate} | {white_rate} | {black_2_rate} | {white_2_rate} |\n"
+
+        md += "\n"
+        return md
+
     def _generate_type_effectiveness(self, pokemon: Pokemon) -> str:
-        """Generate the type effectiveness section."""
+        """Generate the type effectiveness section with enhanced visuals."""
         md = "## :material-shield-half-full: Type Effectiveness\n\n"
 
         effectiveness = self._get_type_effectiveness(pokemon.types)
@@ -415,45 +520,67 @@ class PokemonGenerator(BaseGenerator):
             md += "*No notable type advantages or disadvantages.*\n\n"
             return md
 
-        # Weaknesses
+        # Use grid layout for better organization
+        md += '<div class="grid cards" markdown>\n\n'
+
+        # Weaknesses card
         if effectiveness["4x_weak"] or effectiveness["2x_weak"]:
-            md += "### Weaknesses\n\n"
+            md += "- **:material-alert: Weak To**\n\n"
+            md += "    ---\n\n"
             if effectiveness["4x_weak"]:
-                md += "**4× Damage:** "
-                md += " ".join([self._format_type(t) for t in effectiveness["4x_weak"]])
+                md += "    **4× Damage**\n\n"
+                md += "    "
+                md += " ".join(
+                    [self._format_type(t) for t in sorted(effectiveness["4x_weak"])]
+                )
                 md += "\n\n"
             if effectiveness["2x_weak"]:
-                md += "**2× Damage:** "
-                md += " ".join([self._format_type(t) for t in effectiveness["2x_weak"]])
+                md += "    **2× Damage**\n\n"
+                md += "    "
+                md += " ".join(
+                    [self._format_type(t) for t in sorted(effectiveness["2x_weak"])]
+                )
                 md += "\n\n"
 
-        # Resistances
+        # Resistances card
         if effectiveness["0.25x_resist"] or effectiveness["0.5x_resist"]:
-            md += "### Resistances\n\n"
+            md += "- **:material-shield-check: Resists**\n\n"
+            md += "    ---\n\n"
             if effectiveness["0.25x_resist"]:
-                md += "**¼× Damage:** "
+                md += "    **¼× Damage**\n\n"
+                md += "    "
                 md += " ".join(
-                    [self._format_type(t) for t in effectiveness["0.25x_resist"]]
+                    [
+                        self._format_type(t)
+                        for t in sorted(effectiveness["0.25x_resist"])
+                    ]
                 )
                 md += "\n\n"
             if effectiveness["0.5x_resist"]:
-                md += "**½× Damage:** "
+                md += "    **½× Damage**\n\n"
+                md += "    "
                 md += " ".join(
-                    [self._format_type(t) for t in effectiveness["0.5x_resist"]]
+                    [self._format_type(t) for t in sorted(effectiveness["0.5x_resist"])]
                 )
                 md += "\n\n"
 
-        # Immunities
+        # Immunities card
         if effectiveness["immune"]:
-            md += "### Immunities\n\n"
-            md += "**No Damage:** "
-            md += " ".join([self._format_type(t) for t in effectiveness["immune"]])
+            md += "- **:material-shield: Immune To**\n\n"
+            md += "    ---\n\n"
+            md += "    **No Damage**\n\n"
+            md += "    "
+            md += " ".join(
+                [self._format_type(t) for t in sorted(effectiveness["immune"])]
+            )
             md += "\n\n"
+
+        md += "</div>\n\n"
 
         return md
 
     def _generate_stats_table(self, pokemon: Pokemon) -> str:
-        """Generate the stats table section with visual bars."""
+        """Generate the stats table section with modern visual bars."""
         md = "## :material-chart-bar: Base Stats\n\n"
 
         stats_display = [
@@ -467,22 +594,24 @@ class PokemonGenerator(BaseGenerator):
 
         total = sum([s[1] for s in stats_display])
 
-        # Create a table with stat bars
-        md += "| Stat | Value | Bar |\n"
-        md += "|------|-------|-----|\n"
+        # Create a modern table with stat bars
+        md += "| Stat | Value | Distribution |\n"
+        md += "|------|------:|:-------------|\n"
 
         for stat_name, value in stats_display:
             bar = self._stat_bar(value)
-            md += f"| **{stat_name}** | {value} | {bar} |\n"
+            md += f"| **{stat_name}** | **{value}** | {bar} |\n"
 
-        md += f"| **Total** | **{total}** | |\n\n"
+        # Total with highlight
+        md += f"| **Base Stat Total** | **{total}** | |\n\n"
 
-        # EV Yield in an admonition
+        # EV Yield in a modern admonition
         if pokemon.ev_yield:
             md += '!!! success "EV Yield"\n'
+            md += "    Defeating this Pokémon awards:\n\n"
             for ev in pokemon.ev_yield:
                 stat_name = self._format_name(ev.stat)
-                md += f"    **+{ev.effort}** {stat_name}\n"
+                md += f"    - **+{ev.effort}** {stat_name} EV\n"
             md += "\n"
 
         return md
@@ -492,22 +621,47 @@ class PokemonGenerator(BaseGenerator):
         md = "## :material-swap-horizontal: Evolution Chain\n\n"
 
         if pokemon.evolves_from_species:
-            md += f'!!! info "Evolution"\n'
+            md += f'!!! info "Evolution"\n\n'
             md += f"    Evolves from **{self._format_name(pokemon.evolves_from_species)}**\n\n"
 
-        def format_evolution_node(node, level=0) -> str:
+        def format_evolution_node(node, level=0, evolution_method="") -> str:
             result = ""
             indent = "  " * level
 
             # Format the current Pokemon
             display_name = self._format_name(node.species_name)
-            result += f"{indent}- **{display_name}**"
+
+            # Try to load Pokemon data to get stat total AND actual file name
+            stat_total_str = ""
+            actual_pokemon_name = node.species_name
+            try:
+                # Try to load from different subfolders
+                evo_pokemon = None
+                for subfolder in ["default", "transformation", "variant"]:
+                    try:
+                        evo_pokemon = PokeDBLoader.load_pokemon(
+                            node.species_name, subfolder=subfolder
+                        )
+                        if evo_pokemon:
+                            # Use the actual Pokemon's name for the link (handles forms correctly)
+                            actual_pokemon_name = evo_pokemon.name
+                            break
+                    except:
+                        continue
+            except:
+                pass
+
+            # Create link using the actual Pokemon name (which includes form suffix if needed)
+            pokemon_link = f"[{display_name}]({actual_pokemon_name}.md)"
+
+            # Show evolution method if provided (for non-root Pokemon)
+            method_str = f" — *{evolution_method}*" if evolution_method else ""
+            result += f"{indent}- {pokemon_link}{stat_total_str}{method_str}\n"
 
             # If this has evolutions, show them
             if node.evolves_to:
-                result += "\n"
                 for evo in node.evolves_to:
-                    # Show evolution method
+                    # Collect evolution method details
                     details = []
                     evo_details = evo.evolution_details
 
@@ -534,10 +688,7 @@ class PokemonGenerator(BaseGenerator):
                             )
 
                     detail_str = ", ".join(details) if details else "Unknown method"
-                    result += f"{indent}  → *({detail_str})*\n"
-                    result += format_evolution_node(evo, level + 1)
-            else:
-                result += "\n"
+                    result += format_evolution_node(evo, level + 1, detail_str)
 
             return result
 
@@ -546,57 +697,100 @@ class PokemonGenerator(BaseGenerator):
 
         return md
 
+    def _generate_move_table(
+        self,
+        moves: List,
+        damage_class_icons: Dict[str, str],
+        include_level: bool = False,
+        sort_by_level: bool = False,
+    ) -> str:
+        """
+        Generate a move table with formatted move data.
+
+        Args:
+            moves: List of move learn objects
+            damage_class_icons: Dictionary mapping damage classes to icons
+            include_level: Whether to include the level column
+            sort_by_level: Whether to sort by level learned (otherwise sort by name)
+
+        Returns:
+            Formatted markdown table string
+        """
+        md = ""
+
+        # Generate header
+        if include_level:
+            md += "    | Level | Move | Type | Category | Power | Acc | PP |\n"
+            md += "    |-------|------|------|----------|-------|-----|----|\n"
+        else:
+            md += "    | Move | Type | Category | Power | Acc | PP |\n"
+            md += "    |------|------|----------|-------|-----|----|\n"
+
+        # Sort moves
+        if sort_by_level:
+            sorted_moves = sorted(moves, key=lambda m: m.level_learned_at)
+        else:
+            sorted_moves = sorted(moves, key=lambda m: m.name)
+
+        # Generate rows
+        for move_learn in sorted_moves:
+            move_data = PokeDBLoader.load_move(move_learn.name)
+            move_name_formatted = self._format_move_with_tooltip(
+                move_learn.name, move_data
+            )
+
+            if move_data:
+                # Get move details
+                move_type = move_data.type.black_2_white_2 or "???"
+                type_badge = self._format_type(move_type)
+
+                damage_class = move_data.damage_class
+                category_icon = damage_class_icons.get(damage_class, "")
+
+                power = move_data.power.black_2_white_2
+                power_str = str(power) if power is not None else "—"
+
+                accuracy = move_data.accuracy.black_2_white_2
+                accuracy_str = str(accuracy) if accuracy is not None else "—"
+
+                pp = move_data.pp.black_2_white_2
+                pp_str = str(pp) if pp is not None else "—"
+
+                if include_level:
+                    level = move_learn.level_learned_at
+                    md += f"    | {level} | {move_name_formatted} | {type_badge} | {category_icon} | {power_str} | {accuracy_str} | {pp_str} |\n"
+                else:
+                    md += f"    | {move_name_formatted} | {type_badge} | {category_icon} | {power_str} | {accuracy_str} | {pp_str} |\n"
+            else:
+                # Fallback if move data not available
+                if include_level:
+                    level = move_learn.level_learned_at
+                    md += f"    | {level} | {self._format_name(move_learn.name)} | — | — | — | — | — |\n"
+                else:
+                    md += f"    | {self._format_name(move_learn.name)} | — | — | — | — | — |\n"
+
+        return md
+
     def _generate_moves_section(self, pokemon: Pokemon) -> str:
         """Generate the moves learnset section with detailed move information."""
         md = "## :material-sword-cross: Moves\n\n"
 
-        # Damage class icons
+        # Damage class icons (using valid Material Design icons)
         damage_class_icons = {
-            "physical": ":material-fist:",
-            "special": ":material-star:",
-            "status": ":material-shield:",
+            "physical": ":material-sword:",
+            "special": ":material-auto-fix:",
+            "status": ":material-shield-outline:",
         }
 
         # Use tabs for different move categories
         md += '=== ":material-arrow-up-bold: Level-Up"\n\n'
         if pokemon.moves.level_up:
-            md += "    | Level | Move | Type | Category | Power | Acc | PP |\n"
-            md += "    |-------|------|------|----------|-------|-----|----|\n"
-
-            # Sort by level
-            sorted_moves = sorted(
-                pokemon.moves.level_up, key=lambda m: m.level_learned_at
+            md += self._generate_move_table(
+                pokemon.moves.level_up,
+                damage_class_icons,
+                include_level=True,
+                sort_by_level=True,
             )
-            for move_learn in sorted_moves:
-                # Load move data
-                move_data = PokeDBLoader.load_move(move_learn.name)
-
-                level = move_learn.level_learned_at
-                move_name_formatted = self._format_move_with_tooltip(
-                    move_learn.name, move_data
-                )
-
-                if move_data:
-                    # Get move details
-                    move_type = move_data.type.black_2_white_2 or "???"
-                    type_badge = self._format_type(move_type)
-
-                    damage_class = move_data.damage_class
-                    category_icon = damage_class_icons.get(damage_class, "")
-
-                    power = move_data.power.black_2_white_2
-                    power_str = str(power) if power is not None else "—"
-
-                    accuracy = move_data.accuracy.black_2_white_2
-                    accuracy_str = str(accuracy) if accuracy is not None else "—"
-
-                    pp = move_data.pp.black_2_white_2
-                    pp_str = str(pp) if pp is not None else "—"
-
-                    md += f"    | {level} | {move_name_formatted} | {type_badge} | {category_icon} | {power_str} | {accuracy_str} | {pp_str} |\n"
-                else:
-                    # Fallback if move data not available
-                    md += f"    | {level} | {self._format_name(move_learn.name)} | — | — | — | — | — |\n"
         else:
             md += "    *No level-up moves available*\n"
         md += "\n"
@@ -604,36 +798,9 @@ class PokemonGenerator(BaseGenerator):
         # TM/HM moves
         md += '=== ":material-disc: TM/HM"\n\n'
         if pokemon.moves.machine:
-            md += "    | Move | Type | Category | Power | Acc | PP |\n"
-            md += "    |------|------|----------|-------|-----|----|\n"
-
-            # Sort by move name
-            sorted_moves = sorted(pokemon.moves.machine, key=lambda m: m.name)
-            for move_learn in sorted_moves:
-                move_data = PokeDBLoader.load_move(move_learn.name)
-                move_name_formatted = self._format_move_with_tooltip(
-                    move_learn.name, move_data
-                )
-
-                if move_data:
-                    move_type = move_data.type.black_2_white_2 or "???"
-                    type_badge = self._format_type(move_type)
-
-                    damage_class = move_data.damage_class
-                    category_icon = damage_class_icons.get(damage_class, "")
-
-                    power = move_data.power.black_2_white_2
-                    power_str = str(power) if power is not None else "—"
-
-                    accuracy = move_data.accuracy.black_2_white_2
-                    accuracy_str = str(accuracy) if accuracy is not None else "—"
-
-                    pp = move_data.pp.black_2_white_2
-                    pp_str = str(pp) if pp is not None else "—"
-
-                    md += f"    | {move_name_formatted} | {type_badge} | {category_icon} | {power_str} | {accuracy_str} | {pp_str} |\n"
-                else:
-                    md += f"    | {self._format_name(move_learn.name)} | — | — | — | — | — |\n"
+            md += self._generate_move_table(
+                pokemon.moves.machine, damage_class_icons, include_level=False
+            )
         else:
             md += "    *No TM/HM moves available*\n"
         md += "\n"
@@ -641,35 +808,9 @@ class PokemonGenerator(BaseGenerator):
         # Egg moves
         md += '=== ":material-egg-outline: Egg Moves"\n\n'
         if pokemon.moves.egg:
-            md += "    | Move | Type | Category | Power | Acc | PP |\n"
-            md += "    |------|------|----------|-------|-----|----|\n"
-
-            sorted_moves = sorted(pokemon.moves.egg, key=lambda m: m.name)
-            for move_learn in sorted_moves:
-                move_data = PokeDBLoader.load_move(move_learn.name)
-                move_name_formatted = self._format_move_with_tooltip(
-                    move_learn.name, move_data
-                )
-
-                if move_data:
-                    move_type = move_data.type.black_2_white_2 or "???"
-                    type_badge = self._format_type(move_type)
-
-                    damage_class = move_data.damage_class
-                    category_icon = damage_class_icons.get(damage_class, "")
-
-                    power = move_data.power.black_2_white_2
-                    power_str = str(power) if power is not None else "—"
-
-                    accuracy = move_data.accuracy.black_2_white_2
-                    accuracy_str = str(accuracy) if accuracy is not None else "—"
-
-                    pp = move_data.pp.black_2_white_2
-                    pp_str = str(pp) if pp is not None else "—"
-
-                    md += f"    | {move_name_formatted} | {type_badge} | {category_icon} | {power_str} | {accuracy_str} | {pp_str} |\n"
-                else:
-                    md += f"    | {self._format_name(move_learn.name)} | — | — | — | — | — |\n"
+            md += self._generate_move_table(
+                pokemon.moves.egg, damage_class_icons, include_level=False
+            )
         else:
             md += "    *No egg moves available*\n"
         md += "\n"
@@ -677,35 +818,9 @@ class PokemonGenerator(BaseGenerator):
         # Tutor moves
         md += '=== ":material-school: Tutor"\n\n'
         if pokemon.moves.tutor:
-            md += "    | Move | Type | Category | Power | Acc | PP |\n"
-            md += "    |------|------|----------|-------|-----|----|\n"
-
-            sorted_moves = sorted(pokemon.moves.tutor, key=lambda m: m.name)
-            for move_learn in sorted_moves:
-                move_data = PokeDBLoader.load_move(move_learn.name)
-                move_name_formatted = self._format_move_with_tooltip(
-                    move_learn.name, move_data
-                )
-
-                if move_data:
-                    move_type = move_data.type.black_2_white_2 or "???"
-                    type_badge = self._format_type(move_type)
-
-                    damage_class = move_data.damage_class
-                    category_icon = damage_class_icons.get(damage_class, "")
-
-                    power = move_data.power.black_2_white_2
-                    power_str = str(power) if power is not None else "—"
-
-                    accuracy = move_data.accuracy.black_2_white_2
-                    accuracy_str = str(accuracy) if accuracy is not None else "—"
-
-                    pp = move_data.pp.black_2_white_2
-                    pp_str = str(pp) if pp is not None else "—"
-
-                    md += f"    | {move_name_formatted} | {type_badge} | {category_icon} | {power_str} | {accuracy_str} | {pp_str} |\n"
-                else:
-                    md += f"    | {self._format_name(move_learn.name)} | — | — | — | — | — |\n"
+            md += self._generate_move_table(
+                pokemon.moves.tutor, damage_class_icons, include_level=False
+            )
         else:
             md += "    *No tutor moves available*\n"
         md += "\n"
@@ -740,39 +855,109 @@ class PokemonGenerator(BaseGenerator):
         return md
 
     def _generate_sprites_section(self, pokemon: Pokemon) -> str:
-        """Generate the sprites section."""
+        """Generate the sprites section with multiple sprite versions."""
         md = "## :material-image-multiple: Sprites\n\n"
 
-        # Get the Gen 5 animated sprites
         sprites = pokemon.sprites
 
-        md += "### Normal\n\n"
-        md += '<div style="display: flex; gap: 20px; justify-content: center;">\n'
+        # Use tabs for different sprite types
+        md += '=== "Gen 5 Animated"\n\n'
+        md += '    <div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap; margin: 20px 0;">\n'
 
         if hasattr(sprites, "versions") and sprites.versions:
             bw = sprites.versions.black_white
             if bw.animated:
+                # Front and back sprites in columns
                 if bw.animated.front_default:
-                    md += f'  <img src="{bw.animated.front_default}" alt="Normal Front" />\n'
+                    md += '      <div style="text-align: center;">\n'
+                    md += '        <div style="font-size: 12px; color: #666; margin-bottom: 8px;">Front</div>\n'
+                    md += f'        <img src="{bw.animated.front_default}" alt="Normal Front" style="image-rendering: pixelated; background: linear-gradient(135deg, #f5f5f5, #e0e0e0); padding: 16px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);" />\n'
+                    md += "      </div>\n"
                 if bw.animated.back_default:
-                    md += f'  <img src="{bw.animated.back_default}" alt="Normal Back" />\n'
+                    md += '      <div style="text-align: center;">\n'
+                    md += '        <div style="font-size: 12px; color: #666; margin-bottom: 8px;">Back</div>\n'
+                    md += f'        <img src="{bw.animated.back_default}" alt="Normal Back" style="image-rendering: pixelated; background: linear-gradient(135deg, #f5f5f5, #e0e0e0); padding: 16px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);" />\n'
+                    md += "      </div>\n"
 
-        md += "</div>\n\n"
+        md += "    </div>\n\n"
 
-        md += "### Shiny\n\n"
-        md += '<div style="display: flex; gap: 20px; justify-content: center;">\n'
+        md += '=== "Shiny"\n\n'
+        md += '    <div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap; margin: 20px 0;">\n'
 
         if hasattr(sprites, "versions") and sprites.versions:
             bw = sprites.versions.black_white
             if bw.animated:
                 if bw.animated.front_shiny:
-                    md += (
-                        f'  <img src="{bw.animated.front_shiny}" alt="Shiny Front" />\n'
-                    )
+                    md += '      <div style="text-align: center;">\n'
+                    md += '        <div style="font-size: 12px; color: #666; margin-bottom: 8px;">Front</div>\n'
+                    md += f'        <img src="{bw.animated.front_shiny}" alt="Shiny Front" style="image-rendering: pixelated; background: linear-gradient(135deg, #fff8e1, #ffe082); padding: 16px; border-radius: 8px; box-shadow: 0 2px 8px rgba(255,215,0,0.3);" />\n'
+                    md += "      </div>\n"
                 if bw.animated.back_shiny:
-                    md += f'  <img src="{bw.animated.back_shiny}" alt="Shiny Back" />\n'
+                    md += '      <div style="text-align: center;">\n'
+                    md += '        <div style="font-size: 12px; color: #666; margin-bottom: 8px;">Back</div>\n'
+                    md += f'        <img src="{bw.animated.back_shiny}" alt="Shiny Back" style="image-rendering: pixelated; background: linear-gradient(135deg, #fff8e1, #ffe082); padding: 16px; border-radius: 8px; box-shadow: 0 2px 8px rgba(255,215,0,0.3);" />\n'
+                    md += "      </div>\n"
 
-        md += "</div>\n\n"
+        md += "    </div>\n\n"
+
+        # Official Artwork - use the correct path
+        md += '=== "Official Artwork"\n\n'
+        md += '    <div style="text-align: center; margin: 20px 0;">\n'
+
+        if (
+            hasattr(sprites, "other")
+            and sprites.other
+            and hasattr(sprites.other, "official_artwork")
+        ):
+            artwork = sprites.other.official_artwork
+            if artwork.front_default:
+                md += f'      <img src="{artwork.front_default}" alt="Official Artwork" style="max-width: 300px; filter: drop-shadow(0 4px 12px rgba(0,0,0,0.15));" />\n'
+
+        md += "    </div>\n\n"
+
+        # Show HOME sprites if available
+        if (
+            hasattr(sprites, "other")
+            and sprites.other
+            and hasattr(sprites.other, "home")
+        ):
+            md += '=== "HOME Sprites"\n\n'
+            md += '    <div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap; margin: 20px 0;">\n'
+
+            home = sprites.other.home
+            if home.front_default:
+                md += '      <div style="text-align: center;">\n'
+                md += '        <div style="font-size: 12px; color: #666; margin-bottom: 8px;">Normal</div>\n'
+                md += f'        <img src="{home.front_default}" alt="HOME Normal" style="max-width: 150px; background: linear-gradient(135deg, #f5f5f5, #e0e0e0); padding: 12px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);" />\n'
+                md += "      </div>\n"
+            if home.front_shiny:
+                md += '      <div style="text-align: center;">\n'
+                md += '        <div style="font-size: 12px; color: #666; margin-bottom: 8px;">Shiny</div>\n'
+                md += f'        <img src="{home.front_shiny}" alt="HOME Shiny" style="max-width: 150px; background: linear-gradient(135deg, #fff8e1, #ffe082); padding: 12px; border-radius: 8px; box-shadow: 0 2px 8px rgba(255,215,0,0.3);" />\n'
+                md += "      </div>\n"
+
+            md += "    </div>\n\n"
+
+        # Add Pokemon cry audio player OUTSIDE the tabs
+        md += "---\n\n"
+        md += "### :material-volume-high: Cry\n\n"
+
+        if hasattr(pokemon, "cries") and pokemon.cries:
+            md += '<div style="text-align: center; margin: 20px 0;">\n'
+
+            # Prefer latest cry, fallback to legacy
+            cry_url = getattr(pokemon.cries, "latest", None) or getattr(
+                pokemon.cries, "legacy", None
+            )
+            if cry_url:
+                md += f'  <audio controls style="max-width: 400px; width: 100%;">\n'
+                md += f'    <source src="{cry_url}" type="audio/ogg">\n'
+                md += "    Your browser does not support the audio element.\n"
+                md += "  </audio>\n"
+
+            md += "</div>\n\n"
+        else:
+            md += "*Cry audio not available*\n\n"
 
         return md
 
@@ -794,12 +979,12 @@ class PokemonGenerator(BaseGenerator):
         # Genus (species classification)
         md += f"*{pokemon.genus}*\n\n"
 
-        # Add Pokedex number
-        if "national" in pokemon.pokedex_numbers:
-            md += f"**National Dex**: #{pokemon.pokedex_numbers['national']:03d}\n\n"
+        # Hero section with sprite, types, and badges
+        md += self._generate_hero_section(pokemon)
 
         # Add sections
         md += self._generate_basic_info(pokemon)
+        md += self._generate_held_items_section(pokemon)
         md += self._generate_type_effectiveness(pokemon)
         md += self._generate_stats_table(pokemon)
         md += self._generate_evolution_chain(pokemon)

@@ -1844,8 +1844,8 @@ Old     40 HP / 45 Atk / 35 Def / 40 SAtk / 40 SDef / 90 Spd / 290 BST
 New     45 HP / 60 Atk / 35 Def / 30 SAtk / 40 SDef / 90 Spd / 300 BST
 
 Ability (Complete / Classic):
-Old     Pick Up / Technician / Unnerve
-New     Unnerve / Technician / Pick Up
+Old     Pickup / Technician / Unnerve
+New     Unnerve / Technician / Pickup
 
 Level Up:
 1 - Scratch
@@ -1879,8 +1879,8 @@ Old     65 HP / 70 Atk / 60 Def / 65 SAtk / 65 SDef / 115 Spd / 440 BST
 New     65 HP / 90 Atk / 60 Def / 80 SAtk / 65 SDef / 115 Spd / 475 BST
 
 Ability (Complete / Classic):
-Old     Pick Up / Technician / Unnerve
-New     Unnerve / Technician / Pick Up
+Old     Pickup / Technician / Unnerve
+New     Unnerve / Technician / Pickup
 
 Moves:
 Now compatible with TM60, Quash.
@@ -2202,8 +2202,8 @@ Level Up:
 063 - Abra
 ===================
 Ability (Complete / Classic):
-Old     Synchronise / Inner Focus / Magic Guard
-New     Synchronise / Magic Guard / Inner Focus
+Old     Synchronize / Inner Focus / Magic Guard
+New     Synchronize / Magic Guard / Inner Focus
 
 Moves:
 Now compatible with TM46, Aura Sphere.
@@ -2217,8 +2217,8 @@ Level Up:
 064 - Kadabra
 ===================
 Ability (Complete / Classic):
-Old     Synchronise / Inner Focus / Magic Guard
-New     Synchronise / Magic Guard / Inner Focus
+Old     Synchronize / Inner Focus / Magic Guard
+New     Synchronize / Magic Guard / Inner Focus
 
 Evolution:
 Now able to evolve into Alakazam by using a Link Cable.
@@ -2251,8 +2251,8 @@ Level Up:
 065 - Alakazam
 ===================
 Ability (Complete / Classic):
-Old     Synchronise / Inner Focus / Magic Guard
-New     Synchronise / Magic Guard / Inner Focus
+Old     Synchronize / Inner Focus / Magic Guard
+New     Synchronize / Magic Guard / Inner Focus
 
 Moves:
 Now compatible with TM46, Aura Sphere.
@@ -6034,8 +6034,8 @@ Level Up:
 177 - Natu
 ===================
 Ability (Complete / Classic):
-Old     Synchronise / Early Bird / Magic Bounce
-New     Synchronise / Magic Bounce / Magic Bounce
+Old     Synchronize / Early Bird / Magic Bounce
+New     Synchronize / Magic Bounce / Magic Bounce
 
 Level Up:
 1 - Leer
@@ -6067,8 +6067,8 @@ Old     65 HP / 75 Atk / 70 Def / 95 SAtk / 70 SDef / 95 Spd / 470 BST
 New     65 HP / 65 Atk / 70 Def / 105 SAtk / 80 SDef / 95 Spd / 480 BST
 
 Ability (Complete / Classic):
-Old     Synchronise / Early Bird / Magic Bounce
-New     Synchronise / Magic Bounce / Magic Bounce
+Old     Synchronize / Early Bird / Magic Bounce
+New     Synchronize / Magic Bounce / Magic Bounce
 
 Moves:
 Now compatible with TM46, Aura Sphere.
@@ -6531,8 +6531,8 @@ Level Up:
 190 - Aipom
 ===================
 Ability (Complete / Classic):
-Old     Run Away / Pick Up / Skill Link
-New     Skill Link / Technician / Pick Up
+Old     Run Away / Pickup / Skill Link
+New     Skill Link / Technician / Pickup
 
 Level Up:
 1 - Scratch
@@ -6735,8 +6735,8 @@ Level Up:
 196 - Espeon
 ===================
 Ability (Complete / Classic):
-Old     Synchronise / Synchronise / Magic Bounce
-New     Synchronise / Magic Bounce / Magic Bounce
+Old     Synchronize / Synchronize / Magic Bounce
+New     Synchronize / Magic Bounce / Magic Bounce
 
 Moves:
 Now compatible with TM20, Tri Attack.
@@ -6775,8 +6775,8 @@ Level Up:
 197 - Umbreon
 ===================
 Ability (Complete / Classic):
-Old     Synchronise / Synchronise / Inner Focus
-New     Synchronise / Poison Touch / Poison Touch
+Old     Synchronize / Synchronize / Inner Focus
+New     Synchronize / Poison Touch / Poison Touch
 
 Moves:
 Now compatible with TM20, Tri Attack.
@@ -10439,8 +10439,8 @@ Level Up:
 309 - Electrike
 ===================
 Ability (Complete):
-Old     Static / Lightningrod / Minus
-New     Intimidate / Static / Lightningrod
+Old     Static / Lightning Rod / Minus
+New     Intimidate / Static / Lightning Rod
 
 Level Up:
 1 - Leer
@@ -10469,8 +10469,8 @@ Level Up:
 310 - Manectric
 ===================
 Ability (Complete):
-Old     Static / Lightningrod / Minus
-New     Intimidate / Static / Lightningrod
+Old     Static / Lightning Rod / Minus
+New     Intimidate / Static / Lightning Rod
 
 Moves:
 Now compatible with TM53, Energy Ball.
@@ -14326,8 +14326,8 @@ Old     75 HP / 100 Atk / 66 Def / 60 SAtk / 66 SDef / 115 Spd / 482 BST
 New     75 HP / 105 Atk / 66 Def / 68 SAtk / 66 SDef / 115 Spd / 495 BST
 
 Ability (Complete / Classic):
-Old     Pick Up / Technician / Skill Link
-New     Skill Link / Technician / Pick Up
+Old     Pickup / Technician / Skill Link
+New     Skill Link / Technician / Pickup
 
 Moves:
 Now compatible with TM60, Quash.
@@ -17410,8 +17410,8 @@ Level Up:
 517 - Munna
 ===================
 Ability (Complete):
-Old     Forewarn / Synchronise / Telepathy
-New     Analytic / Synchronise / Telepathy
+Old     Forewarn / Synchronize / Telepathy
+New     Analytic / Synchronize / Telepathy
 
 Type (Complete):
 Old     Psychic
@@ -17446,8 +17446,8 @@ Level Up:
 518 - Musharna
 ===================
 Ability (Complete):
-Old     Forewarn / Synchronise / Telepathy
-New     Analytic / Synchronise / Telepathy
+Old     Forewarn / Synchronize / Telepathy
+New     Analytic / Synchronize / Telepathy
 
 Type (Complete):
 Old     Psychic
@@ -20147,8 +20147,8 @@ Level Up:
 605 - Elgyem
 ===================
 Ability (Complete / Classic):
-Old     Telepathy / Synchronise / Analytic
-New     Analytic / Synchronise / Analytic
+Old     Telepathy / Synchronize / Analytic
+New     Analytic / Synchronize / Analytic
 
 Moves:
 Now compatible with TM20, Tri Attack.
@@ -20191,8 +20191,8 @@ Level Up:
 606 - Beheeyem
 ===================
 Ability (Complete / Classic):
-Old     Telepathy / Synchronise / Analytic
-New     Analytic / Synchronise / Analytic
+Old     Telepathy / Synchronize / Analytic
+New     Analytic / Synchronize / Analytic
 
 Moves:
 Now compatible with TM20, Tri Attack.
