@@ -37,7 +37,7 @@ class EvolutionChangesParser(BaseParser):
 
         # Evolution Changes states
         self._is_table_open: bool = False
-        self._parsed_cache: set[str] = set()
+        self._parsed_cache: set[tuple[str, str]] = set()  # Track (pokemon, evolution) pairs
         self._current_dex_num: str = ""
         self._current_pokemon: str = ""
 
@@ -185,10 +185,11 @@ class EvolutionChangesParser(BaseParser):
         # Determine whether to ADD to existing evolution methods or REPLACE them.
         # Keep existing evolution methods if:
         # 1. The text explicitly says "in addition to its normal evolution method", OR
-        # 2. We've already processed this Pokemon once (handling multiple evolutions)
+        # 2. We've already processed this (Pokemon, Evolution) pair (allows multiple methods to same target)
+        evolution_pair = (self._current_pokemon, evolution)
         keep_existing = (
             "in addition to its normal evolution method" in method_text
-            or self._current_pokemon in self._parsed_cache
+            or evolution_pair in self._parsed_cache
         )
         method_text = method_text.replace(
             " in addition to its normal evolution method", ""
@@ -271,4 +272,4 @@ class EvolutionChangesParser(BaseParser):
             self.logger.info(
                 f"Updated evolution data for {self._current_pokemon} to {evolution} {method_text}"
             )
-            self._parsed_cache.add(self._current_pokemon)
+            self._parsed_cache.add(evolution_pair)

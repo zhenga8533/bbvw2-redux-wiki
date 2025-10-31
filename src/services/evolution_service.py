@@ -87,32 +87,22 @@ class EvolutionService:
         evolution_id: str,
     ) -> None:
         """
-        Clean out existing evolution methods for the target evolution.
+        Clean out ALL existing evolution methods for the target evolution.
 
-        Keeps only one evolution path to the target, removing its details
-        so it can be replaced with new details. This ensures we don't have
-        duplicate evolution paths with old methods.
+        Removes all evolution paths to the target species, so they can be
+        replaced with new evolution details. This ensures we don't have
+        duplicate evolution paths when replacing (not adding) evolution data.
 
         Args:
             evolves_to: List of evolution nodes to clean
             evolution_id: The ID of the evolution target to clean
         """
-        found = False
-
         # Use reverse iteration to safely remove items while iterating
         for i in range(len(evolves_to) - 1, -1, -1):
             evo = evolves_to[i]
-            if evo.species_name != evolution_id:
-                continue
-
-            # Remove all but one existing evolution method
-            if found:
-                # We already kept one, remove this duplicate
+            if evo.species_name == evolution_id:
+                # Remove all existing evolutions to this target
                 evolves_to.pop(i)
-            else:
-                # Keep this one but clear its evolution details for replacement
-                evo.evolution_details = None
-                found = True
 
     @staticmethod
     def _apply_evolution_update(
@@ -123,30 +113,32 @@ class EvolutionService:
         """
         Apply new evolution details to the target evolution.
 
-        If an evolution node without details exists, it fills in the details.
-        If all existing nodes have details, it creates a new node with the
-        new details (for alternate evolution methods).
+        If an evolution node exists for the target (when keep_existing=True),
+        it creates a copy with the new details for alternate evolution methods.
+        If no evolution node exists (after cleaning or for new evolutions),
+        it creates a new node with the details.
 
         Args:
             evolves_to: List of evolution nodes to update
             evolution_id: The ID of the evolution target
             evolution_details: The new evolution details to apply
         """
+        # Check if an evolution to the target already exists
         for evo in evolves_to:
-            # Skip if not the target evolution
-            if evo.species_name != evolution_id:
-                continue
-
-            # Update the evolution details
-            if evo.evolution_details is None:
-                # Fill in the empty slot we created during cleanup
-                evo.evolution_details = evolution_details
-            else:
-                # Add as an alternate evolution method
+            if evo.species_name == evolution_id:
+                # Evolution exists - add as alternate method (keep_existing=True case)
                 node_copy = copy.deepcopy(evo)
                 node_copy.evolution_details = evolution_details
                 evolves_to.append(node_copy)
-            break
+                return
+
+        # No evolution to the target exists - create a new one
+        new_node = EvolutionNode(
+            species_name=evolution_id,
+            evolution_details=evolution_details,
+            evolves_to=[]
+        )
+        evolves_to.append(new_node)
 
     @staticmethod
     def _update_evolution_node(
@@ -186,6 +178,7 @@ class EvolutionService:
             EvolutionService._clean_existing_evolution_methods(evolves_to, evolution_id)
 
         # Process each evolution path
+        update_applied = False
         for evo in evolves_to:
             # If this isn't the target Pokemon, recurse deeper
             if not species_match:
@@ -208,7 +201,15 @@ class EvolutionService:
             EvolutionService._apply_evolution_update(
                 evolves_to, evolution_id, evolution_details
             )
+            update_applied = True
             break
+
+        # If we found the right Pokemon but didn't apply an update
+        # (because the target evolution doesn't exist), apply it now
+        if species_match and not update_applied:
+            EvolutionService._apply_evolution_update(
+                evolves_to, evolution_id, evolution_details
+            )
 
     @staticmethod
     def _collect_all_species(node: EvolutionChain | EvolutionNode) -> set[str]:
