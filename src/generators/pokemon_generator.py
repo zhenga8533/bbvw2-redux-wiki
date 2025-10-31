@@ -373,19 +373,19 @@ class PokemonGenerator(BaseGenerator):
         md += f'<div style="text-align: center; padding: 32px 24px; background: linear-gradient(135deg, {color_1}dd 0%, {color_2} 100%), linear-gradient(to bottom, rgba(255,255,255,0.1), rgba(0,0,0,0.1)); border-radius: 16px; margin-bottom: 32px; box-shadow: 0 8px 24px rgba(0,0,0,0.2), 0 2px 8px rgba(0,0,0,0.1); position: relative; overflow: hidden;">\n'
 
         # Subtle pattern overlay
-        md += '  <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; opacity: 0.05; background-image: repeating-linear-gradient(45deg, transparent, transparent 10px, rgba(255,255,255,.1) 10px, rgba(255,255,255,.1) 20px);"></div>\n'
-        md += '  <div style="position: relative; z-index: 1;">\n'
+        md += '\t<div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; opacity: 0.05; background-image: repeating-linear-gradient(45deg, transparent, transparent 10px, rgba(255,255,255,.1) 10px, rgba(255,255,255,.1) 20px);"></div>\n'
+        md += '\t<div style="position: relative; z-index: 1;">\n'
 
         # Sprite with glow effect (fixed scaling)
         if sprite_url:
-            md += f'    <div style="margin-bottom: 16px;">\n'
-            md += f'      <img src="{sprite_url}" alt="{pokemon.name}" style="height: 128px; width: auto; image-rendering: pixelated; filter: drop-shadow(0 4px 12px rgba(0,0,0,0.3));" />\n'
-            md += "    </div>\n"
+            md += f'\t\t<div style="margin-bottom: 16px;">\n'
+            md += f'\t\t\t<img src="{sprite_url}" alt="{pokemon.name}" style="height: 128px; width: auto; image-rendering: pixelated; filter: drop-shadow(0 4px 12px rgba(0,0,0,0.3));" />\n'
+            md += "\t\t</div>\n"
 
         # Pokedex number with modern styling
         if "national" in pokemon.pokedex_numbers:
             dex_num = pokemon.pokedex_numbers["national"]
-            md += f'    <div style="color: white; font-size: 24px; font-weight: 800; margin-bottom: 12px; text-shadow: 0 2px 8px rgba(0,0,0,0.3); letter-spacing: 1px;">#{dex_num:03d}</div>\n'
+            md += f'\t\t<div style="color: white; font-size: 24px; font-weight: 800; margin-bottom: 12px; text-shadow: 0 2px 8px rgba(0,0,0,0.3); letter-spacing: 1px;">#{dex_num:03d}</div>\n'
 
         # Regional dex numbers with modern badges
         regional_dex = {
@@ -401,19 +401,19 @@ class PokemonGenerator(BaseGenerator):
                     f'<span style="display: inline-block; background-color: rgba(255,255,255,0.25); backdrop-filter: blur(10px); color: white; padding: 4px 12px; border-radius: 12px; font-size: 11px; margin: 3px; font-weight: 600; border: 1px solid rgba(255,255,255,0.3);">{region_name}: #{number:03d}</span>'
                 )
             md += (
-                f'    <div style="margin-bottom: 16px;">{" ".join(dex_badges)}</div>\n'
+                f'\t\t<div style="margin-bottom: 16px;">{" ".join(dex_badges)}</div>\n'
             )
 
         # Types with better spacing
         types_str = " ".join([self._format_type(t) for t in pokemon.types])
-        md += f'    <div style="margin: 16px 0;">{types_str}</div>\n'
+        md += f'\t\t<div style="margin: 16px 0;">{types_str}</div>\n'
 
         # Status badges
         status_badges = self._generate_status_badges(pokemon)
         if status_badges:
-            md += f'    <div style="margin-top: 16px;">{status_badges}</div>\n'
+            md += f'\t\t<div style="margin-top: 16px;">{status_badges}</div>\n'
 
-        md += "  </div>\n"  # Close relative div
+        md += "\t</div>\n"  # Close relative div
         md += "</div>\n\n"
 
         return md
@@ -427,7 +427,7 @@ class PokemonGenerator(BaseGenerator):
 
         # Card 1: Abilities
         md += "- **:material-shield-star: Abilities**\n\n"
-        md += "    ---\n\n"
+        md += "\t---\n\n"
         for ability in pokemon.abilities:
             hidden_emoji = " :material-eye-off:" if ability.is_hidden else ""
             # Load ability data for tooltip
@@ -438,40 +438,40 @@ class PokemonGenerator(BaseGenerator):
                 ability_display = f'<span style="border-bottom: 1px dashed #777; cursor: help;" title="{escaped_flavor}">{self._format_name(ability.name)}</span>{hidden_emoji}'
             else:
                 ability_display = f"{self._format_name(ability.name)}{hidden_emoji}"
-            md += f"    - {ability_display}\n"
+            md += f"\t- {ability_display}\n"
         md += "\n"
 
         # Card 2: Physical Attributes
         height_m = pokemon.height / 10
         weight_kg = pokemon.weight / 10
         md += "- **:material-ruler: Physical Attributes**\n\n"
-        md += "    ---\n\n"
-        md += f"    **Height:** {height_m:.1f} m\n\n"
-        md += f"    **Weight:** {weight_kg:.1f} kg\n\n"
+        md += "\t---\n\n"
+        md += f"\t**Height:** {height_m:.1f} m\n\n"
+        md += f"\t**Weight:** {weight_kg:.1f} kg\n\n"
         md += "\n"
 
         # Card 3: Training Info
         md += "- **:material-book-education: Training**\n\n"
-        md += "    ---\n\n"
-        md += f"    **Base Experience:** {pokemon.base_experience}\n\n"
-        md += f"    **Base Happiness:** {pokemon.base_happiness}\n\n"
-        md += f"    **Capture Rate:** {pokemon.capture_rate}\n\n"
-        md += f"    **Growth Rate:** {self._format_name(pokemon.growth_rate)}\n\n"
+        md += "\t---\n\n"
+        md += f"\t**Base Experience:** {pokemon.base_experience}\n\n"
+        md += f"\t**Base Happiness:** {pokemon.base_happiness}\n\n"
+        md += f"\t**Capture Rate:** {pokemon.capture_rate}\n\n"
+        md += f"\t**Growth Rate:** {self._format_name(pokemon.growth_rate)}\n\n"
         if pokemon.habitat:
-            md += f"    **Habitat:** {self._format_name(pokemon.habitat)}\n\n"
+            md += f"\t**Habitat:** {self._format_name(pokemon.habitat)}\n\n"
         md += "\n"
 
         # Card 4: Breeding Info
         md += "- **:material-egg: Breeding**\n\n"
-        md += "    ---\n\n"
+        md += "\t---\n\n"
         if pokemon.gender_rate == -1:
-            md += "    **Gender:** Genderless\n\n"
+            md += "\t**Gender:** Genderless\n\n"
         else:
             female_pct = (pokemon.gender_rate / 8) * 100
             male_pct = 100 - female_pct
-            md += f"    **Gender Ratio:** {male_pct:.1f}% ♂ / {female_pct:.1f}% ♀\n\n"
-        md += f"    **Egg Groups:** {', '.join([self._format_name(eg) for eg in pokemon.egg_groups])}\n\n"
-        md += f"    **Hatch Counter:** {pokemon.hatch_counter} cycles\n\n"
+            md += f"\t**Gender Ratio:** {male_pct:.1f}% ♂ / {female_pct:.1f}% ♀\n\n"
+        md += f"\t**Egg Groups:** {', '.join([self._format_name(eg) for eg in pokemon.egg_groups])}\n\n"
+        md += f"\t**Hatch Counter:** {pokemon.hatch_counter} cycles\n\n"
 
         md += "</div>\n\n"
 
@@ -484,11 +484,11 @@ class PokemonGenerator(BaseGenerator):
 
         md = "## :material-treasure-chest: Wild Held Items\n\n"
         md += '!!! tip "Wild Encounters"\n\n'
-        md += "    These items can be found when catching or defeating this Pokémon in the wild:\n\n"
+        md += "\tThese items can be found when catching or defeating this Pokémon in the wild:\n\n"
 
         # Create a modern table
-        md += "    | Item | Black | White | Black 2 | White 2 |\n"
-        md += "    |------|:-----:|:-----:|:-------:|:-------:|\n"
+        md += "\t| Item | Black | White | Black 2 | White 2 |\n"
+        md += "\t|------|:-----:|:-----:|:-------:|:-------:|\n"
 
         for item_name, rates in pokemon.held_items.items():
             item_display = format_item(item_name.replace("_", " ").title())
@@ -503,7 +503,7 @@ class PokemonGenerator(BaseGenerator):
                 f"**{rates.get('white_2', 0)}%**" if rates.get("white_2") else "—"
             )
 
-            md += f"    | **{item_display}** | {black_rate} | {white_rate} | {black_2_rate} | {white_2_rate} |\n"
+            md += f"\t| **{item_display}** | {black_rate} | {white_rate} | {black_2_rate} | {white_2_rate} |\n"
 
         md += "\n"
         return md
@@ -526,17 +526,17 @@ class PokemonGenerator(BaseGenerator):
         # Weaknesses card
         if effectiveness["4x_weak"] or effectiveness["2x_weak"]:
             md += "- **:material-alert: Weak To**\n\n"
-            md += "    ---\n\n"
+            md += "\t---\n\n"
             if effectiveness["4x_weak"]:
-                md += "    **4× Damage**\n\n"
-                md += "    "
+                md += "\t**4× Damage**\n\n"
+                md += "\t"
                 md += " ".join(
                     [self._format_type(t) for t in sorted(effectiveness["4x_weak"])]
                 )
                 md += "\n\n"
             if effectiveness["2x_weak"]:
-                md += "    **2× Damage**\n\n"
-                md += "    "
+                md += "\t**2× Damage**\n\n"
+                md += "\t"
                 md += " ".join(
                     [self._format_type(t) for t in sorted(effectiveness["2x_weak"])]
                 )
@@ -545,10 +545,10 @@ class PokemonGenerator(BaseGenerator):
         # Resistances card
         if effectiveness["0.25x_resist"] or effectiveness["0.5x_resist"]:
             md += "- **:material-shield-check: Resists**\n\n"
-            md += "    ---\n\n"
+            md += "\t---\n\n"
             if effectiveness["0.25x_resist"]:
-                md += "    **¼× Damage**\n\n"
-                md += "    "
+                md += "\t**¼× Damage**\n\n"
+                md += "\t"
                 md += " ".join(
                     [
                         self._format_type(t)
@@ -557,8 +557,8 @@ class PokemonGenerator(BaseGenerator):
                 )
                 md += "\n\n"
             if effectiveness["0.5x_resist"]:
-                md += "    **½× Damage**\n\n"
-                md += "    "
+                md += "\t**½× Damage**\n\n"
+                md += "\t"
                 md += " ".join(
                     [self._format_type(t) for t in sorted(effectiveness["0.5x_resist"])]
                 )
@@ -567,9 +567,9 @@ class PokemonGenerator(BaseGenerator):
         # Immunities card
         if effectiveness["immune"]:
             md += "- **:material-shield: Immune To**\n\n"
-            md += "    ---\n\n"
-            md += "    **No Damage**\n\n"
-            md += "    "
+            md += "\t---\n\n"
+            md += "\t**No Damage**\n\n"
+            md += "\t"
             md += " ".join(
                 [self._format_type(t) for t in sorted(effectiveness["immune"])]
             )
@@ -607,11 +607,11 @@ class PokemonGenerator(BaseGenerator):
 
         # EV Yield in a modern admonition
         if pokemon.ev_yield:
-            md += '!!! success "EV Yield"\n'
-            md += "    Defeating this Pokémon awards:\n\n"
+            md += '!!! success "EV Yield"\n\n'
+            md += "\tDefeating this Pokémon awards:\n\n"
             for ev in pokemon.ev_yield:
                 stat_name = self._format_name(ev.stat)
-                md += f"    - **+{ev.effort}** {stat_name} EV\n"
+                md += f"\t- **+{ev.effort}** {stat_name} EV\n"
             md += "\n"
 
         return md
@@ -622,11 +622,11 @@ class PokemonGenerator(BaseGenerator):
 
         if pokemon.evolves_from_species:
             md += f'!!! info "Evolution"\n\n'
-            md += f"    Evolves from **{self._format_name(pokemon.evolves_from_species)}**\n\n"
+            md += f"\tEvolves from **{self._format_name(pokemon.evolves_from_species)}**\n\n"
 
         def format_evolution_node(node, level=0, evolution_method="") -> str:
             result = ""
-            indent = "  " * level
+            indent = "\t" * level
 
             # Format the current Pokemon
             display_name = self._format_name(node.species_name)
@@ -720,11 +720,11 @@ class PokemonGenerator(BaseGenerator):
 
         # Generate header
         if include_level:
-            md += "    | Level | Move | Type | Category | Power | Acc | PP |\n"
-            md += "    |-------|------|------|----------|-------|-----|----|\n"
+            md += "\t| Level | Move | Type | Category | Power | Acc | PP |\n"
+            md += "\t|-------|------|------|----------|-------|-----|----|\n"
         else:
-            md += "    | Move | Type | Category | Power | Acc | PP |\n"
-            md += "    |------|------|----------|-------|-----|----|\n"
+            md += "\t| Move | Type | Category | Power | Acc | PP |\n"
+            md += "\t|------|------|----------|-------|-----|----|\n"
 
         # Sort moves
         if sort_by_level:
@@ -758,16 +758,16 @@ class PokemonGenerator(BaseGenerator):
 
                 if include_level:
                     level = move_learn.level_learned_at
-                    md += f"    | {level} | {move_name_formatted} | {type_badge} | {category_icon} | {power_str} | {accuracy_str} | {pp_str} |\n"
+                    md += f"\t| {level} | {move_name_formatted} | {type_badge} | {category_icon} | {power_str} | {accuracy_str} | {pp_str} |\n"
                 else:
-                    md += f"    | {move_name_formatted} | {type_badge} | {category_icon} | {power_str} | {accuracy_str} | {pp_str} |\n"
+                    md += f"\t| {move_name_formatted} | {type_badge} | {category_icon} | {power_str} | {accuracy_str} | {pp_str} |\n"
             else:
                 # Fallback if move data not available
                 if include_level:
                     level = move_learn.level_learned_at
-                    md += f"    | {level} | {self._format_name(move_learn.name)} | — | — | — | — | — |\n"
+                    md += f"\t| {level} | {self._format_name(move_learn.name)} | — | — | — | — | — |\n"
                 else:
-                    md += f"    | {self._format_name(move_learn.name)} | — | — | — | — | — |\n"
+                    md += f"\t| {self._format_name(move_learn.name)} | — | — | — | — | — |\n"
 
         return md
 
@@ -792,7 +792,7 @@ class PokemonGenerator(BaseGenerator):
                 sort_by_level=True,
             )
         else:
-            md += "    *No level-up moves available*\n"
+            md += "\t*No level-up moves available*\n"
         md += "\n"
 
         # TM/HM moves
@@ -802,7 +802,7 @@ class PokemonGenerator(BaseGenerator):
                 pokemon.moves.machine, damage_class_icons, include_level=False
             )
         else:
-            md += "    *No TM/HM moves available*\n"
+            md += "\t*No TM/HM moves available*\n"
         md += "\n"
 
         # Egg moves
@@ -812,7 +812,7 @@ class PokemonGenerator(BaseGenerator):
                 pokemon.moves.egg, damage_class_icons, include_level=False
             )
         else:
-            md += "    *No egg moves available*\n"
+            md += "\t*No egg moves available*\n"
         md += "\n"
 
         # Tutor moves
@@ -822,7 +822,7 @@ class PokemonGenerator(BaseGenerator):
                 pokemon.moves.tutor, damage_class_icons, include_level=False
             )
         else:
-            md += "    *No tutor moves available*\n"
+            md += "\t*No tutor moves available*\n"
         md += "\n"
 
         return md
@@ -834,23 +834,23 @@ class PokemonGenerator(BaseGenerator):
         # Create tabs for different versions
         md += '=== ":material-circle-outline: Black"\n\n'
         if pokemon.flavor_text.black:
-            md += f'    !!! quote ""\n'
-            md += f"        {pokemon.flavor_text.black}\n\n"
+            md += f'\t!!! quote ""\n\n'
+            md += f"\t\t{pokemon.flavor_text.black}\n\n"
 
         md += '=== ":material-circle: White"\n\n'
         if pokemon.flavor_text.white:
-            md += f'    !!! quote ""\n'
-            md += f"        {pokemon.flavor_text.white}\n\n"
+            md += f'\t!!! quote ""\n\n'
+            md += f"\t\t{pokemon.flavor_text.white}\n\n"
 
         md += '=== ":material-numeric-2-circle-outline: Black 2"\n\n'
         if pokemon.flavor_text.black_2:
-            md += f'    !!! quote ""\n'
-            md += f"        {pokemon.flavor_text.black_2}\n\n"
+            md += f'\t!!! quote ""\n\n'
+            md += f"\t\t{pokemon.flavor_text.black_2}\n\n"
 
         md += '=== ":material-numeric-2-circle: White 2"\n\n'
         if pokemon.flavor_text.white_2:
-            md += f'    !!! quote ""\n'
-            md += f"        {pokemon.flavor_text.white_2}\n\n"
+            md += f'\t!!! quote ""\n\n'
+            md += f"\t\t{pokemon.flavor_text.white_2}\n\n"
 
         return md
 
@@ -861,103 +861,109 @@ class PokemonGenerator(BaseGenerator):
         sprites = pokemon.sprites
 
         # Use tabs for different sprite types
+
         md += '=== "Gen 5 Animated"\n\n'
-        md += '    <div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap; margin: 20px 0;">\n'
+        md += '\t<div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap; margin: 20px 0;">\n'
 
         if hasattr(sprites, "versions") and sprites.versions:
             bw = sprites.versions.black_white
             if bw.animated:
                 # Front and back sprites in columns
                 if bw.animated.front_default:
-                    md += '      <div style="text-align: center;">\n'
-                    md += '        <div style="font-size: 12px; color: #666; margin-bottom: 8px;">Front</div>\n'
-                    md += f'        <img src="{bw.animated.front_default}" alt="Normal Front" style="image-rendering: pixelated; background: linear-gradient(135deg, #f5f5f5, #e0e0e0); padding: 16px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);" />\n'
-                    md += "      </div>\n"
+                    md += '\t\t<div style="text-align: center;">\n'
+                    md += '\t\t\t<div style="font-size: 12px; color: #666; margin-bottom: 8px;">Front</div>\n'
+                    md += f'\t\t\t<img src="{bw.animated.front_default}" alt="Normal Front" style="image-rendering: pixelated; background: linear-gradient(135deg, #f5f5f5, #e0e0e0); padding: 16px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);" />\n'
+                    md += "\t\t</div>\n"
+
                 if bw.animated.back_default:
-                    md += '      <div style="text-align: center;">\n'
-                    md += '        <div style="font-size: 12px; color: #666; margin-bottom: 8px;">Back</div>\n'
-                    md += f'        <img src="{bw.animated.back_default}" alt="Normal Back" style="image-rendering: pixelated; background: linear-gradient(135deg, #f5f5f5, #e0e0e0); padding: 16px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);" />\n'
-                    md += "      </div>\n"
+                    md += '\t\t<div style="text-align: center;">\n'
+                    md += '\t\t\t<div style="font-size: 12px; color: #666; margin-bottom: 8px;">Back</div>\n'
+                    md += f'\t\t\t<img src="{bw.animated.back_default}" alt="Normal Back" style="image-rendering: pixelated; background: linear-gradient(135deg, #f5f5f5, #e0e0e0); padding: 16px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);" />\n'
+                    md += "\t\t</div>\n"
 
-        md += "    </div>\n\n"
+                md += "\t</div>\n\n"
 
-        md += '=== "Shiny"\n\n'
-        md += '    <div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap; margin: 20px 0;">\n'
+                md += '=== "Shiny"\n\n'
+                md += '\t<div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap; margin: 20px 0;">\n'
 
-        if hasattr(sprites, "versions") and sprites.versions:
-            bw = sprites.versions.black_white
-            if bw.animated:
-                if bw.animated.front_shiny:
-                    md += '      <div style="text-align: center;">\n'
-                    md += '        <div style="font-size: 12px; color: #666; margin-bottom: 8px;">Front</div>\n'
-                    md += f'        <img src="{bw.animated.front_shiny}" alt="Shiny Front" style="image-rendering: pixelated; background: linear-gradient(135deg, #fff8e1, #ffe082); padding: 16px; border-radius: 8px; box-shadow: 0 2px 8px rgba(255,215,0,0.3);" />\n'
-                    md += "      </div>\n"
-                if bw.animated.back_shiny:
-                    md += '      <div style="text-align: center;">\n'
-                    md += '        <div style="font-size: 12px; color: #666; margin-bottom: 8px;">Back</div>\n'
-                    md += f'        <img src="{bw.animated.back_shiny}" alt="Shiny Back" style="image-rendering: pixelated; background: linear-gradient(135deg, #fff8e1, #ffe082); padding: 16px; border-radius: 8px; box-shadow: 0 2px 8px rgba(255,215,0,0.3);" />\n'
-                    md += "      </div>\n"
+                if hasattr(sprites, "versions") and sprites.versions:
+                    bw = sprites.versions.black_white
+                    if bw.animated:
+                        if bw.animated.front_shiny:
+                            md += '\t\t<div style="text-align: center;">\n'
+                            md += '\t\t\t<div style="font-size: 12px; color: #666; margin-bottom: 8px;">Front</div>\n'
+                            md += f'\t\t\t<img src="{bw.animated.front_shiny}" alt="Shiny Front" style="image-rendering: pixelated; background: linear-gradient(135deg, #fff8e1, #ffe082); padding: 16px; border-radius: 8px; box-shadow: 0 2px 8px rgba(255,215,0,0.3);" />\n'
+                            md += "\t\t</div>\n"
 
-        md += "    </div>\n\n"
+                        if bw.animated.back_shiny:
+                            md += '\t\t<div style="text-align: center;">\n'
+                            md += '\t\t\t<div style="font-size: 12px; color: #666; margin-bottom: 8px;">Back</div>\n'
+                            md += f'\t\t\t<img src="{bw.animated.back_shiny}" alt="Shiny Back" style="image-rendering: pixelated; background: linear-gradient(135deg, #fff8e1, #ffe082); padding: 16px; border-radius: 8px; box-shadow: 0 2px 8px rgba(255,215,0,0.3);" />\n'
+                            md += "\t\t</div>\n"
 
-        # Official Artwork - use the correct path
-        md += '=== "Official Artwork"\n\n'
-        md += '    <div style="text-align: center; margin: 20px 0;">\n'
+                md += "\t</div>\n\n"
 
-        if (
-            hasattr(sprites, "other")
-            and sprites.other
-            and hasattr(sprites.other, "official_artwork")
-        ):
-            artwork = sprites.other.official_artwork
-            if artwork.front_default:
-                md += f'      <img src="{artwork.front_default}" alt="Official Artwork" style="max-width: 300px; filter: drop-shadow(0 4px 12px rgba(0,0,0,0.15));" />\n'
+                # Official Artwork - use the correct path
+                md += '=== "Official Artwork"\n\n'
+                md += '\t<div style="text-align: center; margin: 20px 0;">\n'
 
-        md += "    </div>\n\n"
+                if (
+                    hasattr(sprites, "other")
+                    and sprites.other
+                    and hasattr(sprites.other, "official_artwork")
+                ):
+                    artwork = sprites.other.official_artwork
+                    if artwork.front_default:
+                        md += f'\t\t<img src="{artwork.front_default}" alt="Official Artwork" style="max-width: 300px; filter: drop-shadow(0 4px 12px rgba(0,0,0,0.15));" />\n'
 
-        # Show HOME sprites if available
-        if (
-            hasattr(sprites, "other")
-            and sprites.other
-            and hasattr(sprites.other, "home")
-        ):
-            md += '=== "HOME Sprites"\n\n'
-            md += '    <div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap; margin: 20px 0;">\n'
+                md += "\t</div>\n\n"
 
-            home = sprites.other.home
-            if home.front_default:
-                md += '      <div style="text-align: center;">\n'
-                md += '        <div style="font-size: 12px; color: #666; margin-bottom: 8px;">Normal</div>\n'
-                md += f'        <img src="{home.front_default}" alt="HOME Normal" style="max-width: 150px; background: linear-gradient(135deg, #f5f5f5, #e0e0e0); padding: 12px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);" />\n'
-                md += "      </div>\n"
-            if home.front_shiny:
-                md += '      <div style="text-align: center;">\n'
-                md += '        <div style="font-size: 12px; color: #666; margin-bottom: 8px;">Shiny</div>\n'
-                md += f'        <img src="{home.front_shiny}" alt="HOME Shiny" style="max-width: 150px; background: linear-gradient(135deg, #fff8e1, #ffe082); padding: 12px; border-radius: 8px; box-shadow: 0 2px 8px rgba(255,215,0,0.3);" />\n'
-                md += "      </div>\n"
+                # Show HOME sprites if available
+                if (
+                    hasattr(sprites, "other")
+                    and sprites.other
+                    and hasattr(sprites.other, "home")
+                ):
+                    md += '=== "HOME Sprites"\n\n'
+                    md += '\t<div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap; margin: 20px 0;">\n'
+                    home = sprites.other.home
 
-            md += "    </div>\n\n"
+                    if home.front_default:
+                        md += '\t\t<div style="text-align: center;">\n'
+                        md += '\t\t\t<div style="font-size: 12px; color: #666; margin-bottom: 8px;">Normal</div>\n'
+                        md += f'\t\t\t<img src="{home.front_default}" alt="HOME Normal" style="max-width: 150px; background: linear-gradient(135deg, #f5f5f5, #e0e0e0); padding: 12px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);" />\n'
+                        md += "\t\t</div>\n"
 
-        # Add Pokemon cry audio player OUTSIDE the tabs
-        md += "---\n\n"
-        md += "### :material-volume-high: Cry\n\n"
+                    if home.front_shiny:
+                        md += '\t\t<div style="text-align: center;">\n'
+                        md += '\t\t\t<div style="font-size: 12px; color: #666; margin-bottom: 8px;">Shiny</div>\n'
+                        md += f'\t\t\t<img src="{home.front_shiny}" alt="HOME Shiny" style="max-width: 150px; background: linear-gradient(135deg, #fff8e1, #ffe082); padding: 12px; border-radius: 8px; box-shadow: 0 2px 8px rgba(255,215,0,0.3);" />\n'
+                        md += "\t\t</div>\n"
 
-        if hasattr(pokemon, "cries") and pokemon.cries:
-            md += '<div style="text-align: center; margin: 20px 0;">\n'
+                    md += "\t</div>\n\n"
 
-            # Prefer latest cry, fallback to legacy
-            cry_url = getattr(pokemon.cries, "latest", None) or getattr(
-                pokemon.cries, "legacy", None
-            )
-            if cry_url:
-                md += f'  <audio controls style="max-width: 400px; width: 100%;">\n'
-                md += f'    <source src="{cry_url}" type="audio/ogg">\n'
-                md += "    Your browser does not support the audio element.\n"
-                md += "  </audio>\n"
+                # Add Pokemon cry audio player OUTSIDE the tabs
+                md += "---\n\n"
+                md += "### :material-volume-high: Cry\n\n"
 
-            md += "</div>\n\n"
-        else:
-            md += "*Cry audio not available*\n\n"
+                if hasattr(pokemon, "cries") and pokemon.cries:
+                    md += '<div style="text-align: center; margin: 20px 0;">\n'
+
+                    # Prefer legacy cry, fallback to latest
+                    cry_url = getattr(pokemon.cries, "legacy", None) or getattr(
+                        pokemon.cries, "latest", None
+                    )
+
+                    if cry_url:
+                        md += f'\t<audio controls style="max-width: 400px; width: 100%;">\n'
+                        md += f'\t\t<source src="{cry_url}" type="audio/ogg">\n'
+                        md += "\t\tYour browser does not support the audio element.\n"
+                        md += "\t</audio>\n"
+
+                    md += "</div>\n\n"
+
+                else:
+                    md += "*Cry audio not available*\n\n"
 
         return md
 
