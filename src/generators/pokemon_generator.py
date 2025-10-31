@@ -5,6 +5,22 @@ This generator:
 1. Reads Pokemon data from data/pokedb/parsed/pokemon/
 2. Generates individual markdown files for each Pokemon to docs/pokedex/pokemon/
 3. Handles Pokemon forms and variations
+
+CSS Styling:
+This generator uses CSS classes defined in docs/stylesheets/pokemon.css.
+Keep the CSS file in sync when adding new HTML elements or classes.
+
+Key CSS classes used:
+- .pokemon-type-badge, .type-{type} - Type badges (see _format_type)
+- .pokemon-stat-bar-container, .pokemon-stat-bar-fill - Stat bars (see _stat_bar)
+- .pokemon-hero, .pokemon-hero-* - Hero section components (see _generate_hero_section)
+- .pokemon-status-badge-* - Legendary/Mythical/Baby badges (see _generate_status_badges)
+- .pokemon-tooltip, .pokemon-move-tooltip - Tooltips (see _format_move_with_tooltip)
+- .pokemon-sprite-img - Sprite images (see _generate_sprites_section)
+
+Note: Some styles are applied inline when they depend on dynamic data:
+- Hero gradient colors (based on Pokemon types)
+- Move tooltip colors (based on move types)
 """
 
 from pathlib import Path
@@ -92,29 +108,42 @@ class PokemonGenerator(BaseGenerator):
         return name.title()
 
     def _format_type(self, type_name: str) -> str:
-        """Format a type name with modern color badge."""
-        color = self.TYPE_COLORS.get(type_name.lower(), "#777777")
-        formatted_name = type_name.title()
+        """
+        Format a type name with modern color badge.
 
-        # Modern badge with gradient and better shadow
-        return f'<span style="display: inline-block; background: linear-gradient(135deg, {color}, {color}dd); color: white; padding: 6px 16px; border-radius: 20px; font-weight: 600; margin: 4px; box-shadow: 0 4px 8px rgba(0,0,0,0.15), 0 1px 3px rgba(0,0,0,0.1); text-transform: uppercase; font-size: 0.85em; letter-spacing: 0.5px;">{formatted_name}</span>'
+        CSS classes used:
+        - .pokemon-type-badge: Base badge styling
+        - .type-{type}: Type-specific colors (e.g., .type-fire, .type-water)
+        """
+        formatted_name = type_name.title()
+        type_class = f"type-{type_name.lower()}"
+
+        # Use CSS classes for consistent styling
+        return f'<span class="pokemon-type-badge {type_class}">{formatted_name}</span>'
 
     def _stat_bar(self, value: int, max_value: int = 255) -> str:
-        """Create a modern visual progress bar for a stat."""
+        """
+        Create a modern visual progress bar for a stat.
+
+        CSS classes used:
+        - .pokemon-stat-bar-container: Outer container for the bar
+        - .pokemon-stat-bar-fill: Inner fill element
+        - .stat-bar-{quality}: Color based on value (high/good/medium/low)
+        """
         percentage = min(100, (value / max_value) * 100)
 
-        # Color based on value with gradients
+        # Determine stat bar class based on value
         if value >= 150:
-            gradient = "linear-gradient(90deg, #4CAF50, #66BB6A)"  # Green gradient
+            bar_class = "stat-bar-high"
         elif value >= 100:
-            gradient = "linear-gradient(90deg, #2196F3, #42A5F5)"  # Blue gradient
+            bar_class = "stat-bar-good"
         elif value >= 70:
-            gradient = "linear-gradient(90deg, #FF9800, #FFA726)"  # Orange gradient
+            bar_class = "stat-bar-medium"
         else:
-            gradient = "linear-gradient(90deg, #F44336, #EF5350)"  # Red gradient
+            bar_class = "stat-bar-low"
 
         # Return just the bar without the number (number is shown in the Value column)
-        return f'<div style="width: 100%; background: linear-gradient(to right, #e8e8e8, #f5f5f5); border-radius: 10px; height: 24px; overflow: hidden; box-shadow: inset 0 2px 4px rgba(0,0,0,0.1);"><div style="width: {percentage}%; background: {gradient}; height: 100%; transition: width 0.3s ease; box-shadow: 0 2px 4px rgba(0,0,0,0.2);"></div></div>'
+        return f'<div class="pokemon-stat-bar-container"><div class="pokemon-stat-bar-fill {bar_class}" style="width: {percentage}%;"></div></div>'
 
     def _format_ability(self, ability_name: str, is_hidden: bool = False) -> str:
         """Format an ability name with link and hidden indicator."""
@@ -123,22 +152,27 @@ class PokemonGenerator(BaseGenerator):
         return f"{formatted_name}{hidden_tag}"
 
     def _generate_status_badges(self, pokemon: Pokemon) -> str:
-        """Generate modern status badges for legendary/mythical/baby Pokemon."""
+        """
+        Generate modern status badges for legendary/mythical/baby Pokemon.
+
+        CSS classes used:
+        - .pokemon-status-badge-legendary: Gold gradient for legendary Pokemon
+        - .pokemon-status-badge-mythical: Purple gradient for mythical Pokemon
+        - .pokemon-status-badge-baby: Pink gradient for baby Pokemon
+        """
         badges = []
 
         if pokemon.is_legendary:
             badges.append(
-                '<span style="display: inline-block; background: linear-gradient(135deg, #FFD700 0%, #FFA500 100%); color: white; padding: 6px 16px; border-radius: 20px; font-weight: 700; margin: 4px; box-shadow: 0 4px 12px rgba(255, 215, 0, 0.4), 0 2px 4px rgba(0,0,0,0.2); text-transform: uppercase; font-size: 0.85em; letter-spacing: 0.5px; border: 2px solid rgba(255,255,255,0.3);">⭐ LEGENDARY</span>'
+                '<span class="pokemon-status-badge-legendary">⭐ LEGENDARY</span>'
             )
         elif pokemon.is_mythical:
             badges.append(
-                '<span style="display: inline-block; background: linear-gradient(135deg, #9370DB 0%, #8A2BE2 100%); color: white; padding: 6px 16px; border-radius: 20px; font-weight: 700; margin: 4px; box-shadow: 0 4px 12px rgba(147, 112, 219, 0.4), 0 2px 4px rgba(0,0,0,0.2); text-transform: uppercase; font-size: 0.85em; letter-spacing: 0.5px; border: 2px solid rgba(255,255,255,0.3);">✨ MYTHICAL</span>'
+                '<span class="pokemon-status-badge-mythical">✨ MYTHICAL</span>'
             )
 
         if pokemon.is_baby:
-            badges.append(
-                '<span style="display: inline-block; background: linear-gradient(135deg, #FFB6C1 0%, #FF69B4 100%); color: white; padding: 6px 16px; border-radius: 20px; font-weight: 700; margin: 4px; box-shadow: 0 4px 12px rgba(255, 182, 193, 0.4), 0 2px 4px rgba(0,0,0,0.2); text-transform: uppercase; font-size: 0.85em; letter-spacing: 0.5px; border: 2px solid rgba(255,255,255,0.3);">🍼 BABY</span>'
-            )
+            badges.append('<span class="pokemon-status-badge-baby">🍼 BABY</span>')
 
         return " ".join(badges) if badges else ""
 
@@ -175,22 +209,30 @@ class PokemonGenerator(BaseGenerator):
     def _format_move_with_tooltip(
         self, move_name: str, move_data: Optional[Move]
     ) -> str:
-        """Format a move name with type color and tooltip."""
+        """
+        Format a move name with type color and tooltip.
+
+        CSS classes used:
+        - .pokemon-move-tooltip: Base tooltip styling with dashed underline
+
+        Note: Border and text colors are applied inline because they're based on
+        the move's type color (dynamically determined from move data).
+        """
         if not move_data:
             return self._format_name(move_name)
 
         # Get move type and color
         move_type = move_data.type.black_2_white_2
-        type_color = self._get_type_color(move_type) if move_type else "#777"
+        type_color = self._get_type_color(move_type) if move_type else "#999"
 
         # Get flavor text for tooltip
         flavor = move_data.flavor_text.black_2_white_2
         if flavor:
             escaped_flavor = html.escape(flavor)
-            style = f"border-bottom: 1px dashed {type_color}; cursor: help; color: {type_color};"
-            return f'<span style="{style}" title="{escaped_flavor}">{self._format_name(move_name)}</span>'
+            # Use CSS class with inline color for type-specific styling
+            return f'<span class="pokemon-move-tooltip" style="border-color: {type_color}; color: {type_color};" title="{escaped_flavor}">{self._format_name(move_name)}</span>'
         else:
-            return f'<span style="color: {type_color};">{self._format_name(move_name)}</span>'
+            return f'<span style="color: {type_color}; opacity: 0.9;">{self._format_name(move_name)}</span>'
 
     def _get_type_effectiveness(self, types: List[str]) -> Dict[str, List[str]]:
         """Calculate type effectiveness based on Pokemon's types."""
@@ -346,7 +388,22 @@ class PokemonGenerator(BaseGenerator):
         }
 
     def _generate_hero_section(self, pokemon: Pokemon) -> str:
-        """Generate a modern hero section with sprite, types, and badges."""
+        """
+        Generate a modern hero section with sprite, types, and badges.
+
+        CSS classes used:
+        - .pokemon-hero: Main hero container with dynamic gradient (inline style)
+        - .pokemon-hero-pattern: Decorative pattern overlay
+        - .pokemon-hero-content: Content wrapper
+        - .pokemon-hero-sprite: Sprite image container
+        - .pokemon-dex-number: National dex number display
+        - .pokemon-hero-regional-dex: Regional dex badges container (replaces inline style)
+        - .pokemon-regional-badge: Individual regional dex badge
+        - .pokemon-hero-types: Types container (replaces inline style)
+        - .pokemon-hero-status-badges: Status badges container (replaces inline style)
+
+        Note: Hero gradient is applied inline because it's based on the Pokemon's types.
+        """
         md = ""
 
         # Get sprite URL
@@ -370,22 +427,22 @@ class PokemonGenerator(BaseGenerator):
                 color_2 = f"{self.TYPE_COLORS.get(pokemon.types[1].lower(), color_1)}99"
 
         # Modern hero container with dynamic gradient based on type(s)
-        md += f'<div style="text-align: center; padding: 32px 24px; background: linear-gradient(135deg, {color_1}dd 0%, {color_2} 100%), linear-gradient(to bottom, rgba(255,255,255,0.1), rgba(0,0,0,0.1)); border-radius: 16px; margin-bottom: 32px; box-shadow: 0 8px 24px rgba(0,0,0,0.2), 0 2px 8px rgba(0,0,0,0.1); position: relative; overflow: hidden;">\n'
+        md += f'<div class="pokemon-hero" style="background: linear-gradient(135deg, {color_1}dd 0%, {color_2} 100%), linear-gradient(to bottom, rgba(255,255,255,0.1), rgba(0,0,0,0.1));">\n'
 
         # Subtle pattern overlay
-        md += '\t<div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; opacity: 0.05; background-image: repeating-linear-gradient(45deg, transparent, transparent 10px, rgba(255,255,255,.1) 10px, rgba(255,255,255,.1) 20px);"></div>\n'
-        md += '\t<div style="position: relative; z-index: 1;">\n'
+        md += '\t<div class="pokemon-hero-pattern"></div>\n'
+        md += '\t<div class="pokemon-hero-content">\n'
 
         # Sprite with glow effect (fixed scaling)
         if sprite_url:
-            md += f'\t\t<div style="margin-bottom: 16px;">\n'
-            md += f'\t\t\t<img src="{sprite_url}" alt="{pokemon.name}" style="height: 128px; width: auto; image-rendering: pixelated; filter: drop-shadow(0 4px 12px rgba(0,0,0,0.3));" />\n'
+            md += f'\t\t<div class="pokemon-hero-sprite">\n'
+            md += f'\t\t\t<img src="{sprite_url}" alt="{pokemon.name}" />\n'
             md += "\t\t</div>\n"
 
         # Pokedex number with modern styling
         if "national" in pokemon.pokedex_numbers:
             dex_num = pokemon.pokedex_numbers["national"]
-            md += f'\t\t<div style="color: white; font-size: 24px; font-weight: 800; margin-bottom: 12px; text-shadow: 0 2px 8px rgba(0,0,0,0.3); letter-spacing: 1px;">#{dex_num:03d}</div>\n'
+            md += f'\t\t<div class="pokemon-dex-number">#{dex_num:03d}</div>\n'
 
         # Regional dex numbers with modern badges
         regional_dex = {
@@ -398,20 +455,20 @@ class PokemonGenerator(BaseGenerator):
             for region, number in sorted(regional_dex.items()):
                 region_name = self._format_name(region)
                 dex_badges.append(
-                    f'<span style="display: inline-block; background-color: rgba(255,255,255,0.25); backdrop-filter: blur(10px); color: white; padding: 4px 12px; border-radius: 12px; font-size: 11px; margin: 3px; font-weight: 600; border: 1px solid rgba(255,255,255,0.3);">{region_name}: #{number:03d}</span>'
+                    f'<span class="pokemon-regional-badge">{region_name}: #{number:03d}</span>'
                 )
             md += (
-                f'\t\t<div style="margin-bottom: 16px;">{" ".join(dex_badges)}</div>\n'
+                f'\t\t<div class="pokemon-hero-regional-dex">{" ".join(dex_badges)}</div>\n'
             )
 
         # Types with better spacing
         types_str = " ".join([self._format_type(t) for t in pokemon.types])
-        md += f'\t\t<div style="margin: 16px 0;">{types_str}</div>\n'
+        md += f'\t\t<div class="pokemon-hero-types">{types_str}</div>\n'
 
         # Status badges
         status_badges = self._generate_status_badges(pokemon)
         if status_badges:
-            md += f'\t\t<div style="margin-top: 16px;">{status_badges}</div>\n'
+            md += f'\t\t<div class="pokemon-hero-status-badges">{status_badges}</div>\n'
 
         md += "\t</div>\n"  # Close relative div
         md += "</div>\n\n"
@@ -435,7 +492,7 @@ class PokemonGenerator(BaseGenerator):
             if ability_data and ability_data.flavor_text.black_2_white_2:
                 flavor = ability_data.flavor_text.black_2_white_2
                 escaped_flavor = html.escape(flavor)
-                ability_display = f'<span style="border-bottom: 1px dashed #777; cursor: help;" title="{escaped_flavor}">{self._format_name(ability.name)}</span>{hidden_emoji}'
+                ability_display = f'<span class="pokemon-tooltip" title="{escaped_flavor}">{self._format_name(ability.name)}</span>{hidden_emoji}'
             else:
                 ability_display = f"{self._format_name(ability.name)}{hidden_emoji}"
             md += f"\t- {ability_display}\n"
@@ -483,27 +540,26 @@ class PokemonGenerator(BaseGenerator):
             return ""
 
         md = "## :material-treasure-chest: Wild Held Items\n\n"
-        md += '!!! tip "Wild Encounters"\n\n'
-        md += "\tThese items can be found when catching or defeating this Pokémon in the wild:\n\n"
+        md += "These items can be found when catching or defeating this Pokémon in the wild:\n\n"
 
-        # Create a modern table
-        md += "\t| Item | Black | White | Black 2 | White 2 |\n"
-        md += "\t|------|:-----:|:-----:|:-------:|:-------:|\n"
+        # Create a simple table
+        md += "| Item | Black | White | Black 2 | White 2 |\n"
+        md += "|------|:-----:|:-----:|:-------:|:-------:|\n"
 
         for item_name, rates in pokemon.held_items.items():
             item_display = format_item(item_name.replace("_", " ").title())
 
-            # Get rates for each version with better formatting
-            black_rate = f"**{rates.get('black', 0)}%**" if rates.get("black") else "—"
-            white_rate = f"**{rates.get('white', 0)}%**" if rates.get("white") else "—"
+            # Get rates for each version
+            black_rate = f"{rates.get('black', 0)}%" if rates.get("black") else "—"
+            white_rate = f"{rates.get('white', 0)}%" if rates.get("white") else "—"
             black_2_rate = (
-                f"**{rates.get('black_2', 0)}%**" if rates.get("black_2") else "—"
+                f"{rates.get('black_2', 0)}%" if rates.get("black_2") else "—"
             )
             white_2_rate = (
-                f"**{rates.get('white_2', 0)}%**" if rates.get("white_2") else "—"
+                f"{rates.get('white_2', 0)}%" if rates.get("white_2") else "—"
             )
 
-            md += f"\t| **{item_display}** | {black_rate} | {white_rate} | {black_2_rate} | {white_2_rate} |\n"
+            md += f"| {item_display} | {black_rate} | {white_rate} | {black_2_rate} | {white_2_rate} |\n"
 
         md += "\n"
         return md
@@ -594,7 +650,7 @@ class PokemonGenerator(BaseGenerator):
 
         total = sum([s[1] for s in stats_display])
 
-        # Create a modern table with stat bars
+        # Create a table with stat bars
         md += "| Stat | Value | Distribution |\n"
         md += "|------|------:|:-------------|\n"
 
@@ -602,98 +658,269 @@ class PokemonGenerator(BaseGenerator):
             bar = self._stat_bar(value)
             md += f"| **{stat_name}** | **{value}** | {bar} |\n"
 
-        # Total with highlight
+        # Total
         md += f"| **Base Stat Total** | **{total}** | |\n\n"
 
-        # EV Yield in a modern admonition
+        # EV Yield
         if pokemon.ev_yield:
-            md += '!!! success "EV Yield"\n\n'
-            md += "\tDefeating this Pokémon awards:\n\n"
+            md += "**EV Yield:** "
+            ev_parts = []
             for ev in pokemon.ev_yield:
                 stat_name = self._format_name(ev.stat)
-                md += f"\t- **+{ev.effort}** {stat_name} EV\n"
-            md += "\n"
+                ev_parts.append(f"+{ev.effort} {stat_name}")
+            md += ", ".join(ev_parts) + "\n\n"
 
         return md
 
+    def _get_sprite_url(self, pokemon_name: str) -> Optional[str]:
+        """
+        Get the sprite URL for a Pokemon by loading its data.
+
+        Args:
+            pokemon_name: The Pokemon's species name
+
+        Returns:
+            Sprite URL if found, None otherwise
+        """
+        try:
+            # Try to load from different subfolders
+            for subfolder in ["default", "transformation", "variant"]:
+                try:
+                    poke = PokeDBLoader.load_pokemon(pokemon_name, subfolder=subfolder)
+                    if poke and hasattr(poke.sprites, "versions") and poke.sprites.versions:
+                        bw = poke.sprites.versions.black_white
+                        if bw.animated and bw.animated.front_default:
+                            return bw.animated.front_default
+                except:
+                    continue
+        except:
+            pass
+        return None
+
+    def _create_evo_card(self, species_name: str, actual_name: str) -> str:
+        """
+        Create an evolution card with sprite and name.
+
+        Args:
+            species_name: The species name for display
+            actual_name: The actual Pokemon name for linking (handles forms)
+
+        Returns:
+            HTML string for the evolution card
+        """
+        display_name = self._format_name(species_name)
+        link_name = actual_name or species_name
+        sprite_url = self._get_sprite_url(species_name)
+
+        card_html = f'<a href="{link_name}.md" class="pokemon-evo-card">\n'
+        if sprite_url:
+            card_html += f'\t<img src="{sprite_url}" alt="{display_name}" class="pokemon-evo-sprite" />\n'
+        card_html += f'\t<div class="pokemon-evo-name">{display_name}</div>\n'
+        card_html += '</a>'
+
+        return card_html
+
+    def _format_evo_method(self, evo_details) -> str:
+        """
+        Format evolution method details into readable text.
+
+        Args:
+            evo_details: Evolution details object
+
+        Returns:
+            Formatted evolution method string
+        """
+        if not evo_details:
+            return ""
+
+        details = []
+        if evo_details.min_level:
+            details.append(f"Level {evo_details.min_level}")
+        if evo_details.item:
+            details.append(f"Use {self._format_name(evo_details.item)}")
+        if evo_details.held_item:
+            details.append(f"Hold {self._format_name(evo_details.held_item)}")
+        if evo_details.known_move:
+            details.append(f"Know {self._format_name(evo_details.known_move)}")
+        if evo_details.min_happiness:
+            details.append(f"Happiness {evo_details.min_happiness}+")
+        if evo_details.time_of_day:
+            details.append(f"During {evo_details.time_of_day}")
+        if evo_details.location:
+            details.append(f"At {self._format_name(evo_details.location)}")
+
+        return "<br>".join(details) if details else "Unknown"
+
     def _generate_evolution_chain(self, pokemon: Pokemon) -> str:
-        """Generate the evolution chain section."""
+        """
+        Generate the evolution chain section with branching structure.
+
+        Branches only split into separate paths when Pokemon differ.
+        Evolution methods are shown under the target Pokemon (the one being evolved TO).
+        Branches are organized into columns with max 3 branches per column.
+
+        CSS classes used:
+        - .pokemon-evo-chain: Main container
+        - .pokemon-evo-path: Horizontal evolution path container
+        - .pokemon-evo-branches: Container for all branch columns
+        - .pokemon-evo-column: Column of branches (max 3 per column, stacked vertically)
+        - .pokemon-evo-branch: A single branch within a column (flows horizontally)
+        - .pokemon-evo-item: Container for Pokemon card + evolution method
+        - .pokemon-evo-card: Individual Pokemon card with sprite
+        - .pokemon-evo-method: Evolution method text (shown under sprite)
+        - .pokemon-evo-arrow: Horizontal arrow connector (→)
+        """
         md = "## :material-swap-horizontal: Evolution Chain\n\n"
 
         if pokemon.evolves_from_species:
-            md += f'!!! info "Evolution"\n\n'
-            md += f"\tEvolves from **{self._format_name(pokemon.evolves_from_species)}**\n\n"
+            md += (
+                f"*Evolves from {self._format_name(pokemon.evolves_from_species)}*\n\n"
+            )
 
-        def format_evolution_node(node, level=0, evolution_method="") -> str:
-            result = ""
-            indent = "\t" * level
-
-            # Format the current Pokemon
-            display_name = self._format_name(node.species_name)
-
-            # Try to load Pokemon data to get stat total AND actual file name
-            stat_total_str = ""
-            actual_pokemon_name = node.species_name
+        def extract_all_paths(node, evolution_method=None) -> list:
+            """
+            Extract all evolution paths from root to leaves.
+            evolution_method is the method used to get TO this node.
+            """
+            # Get actual Pokemon name
+            actual_name = node.species_name
             try:
-                # Try to load from different subfolders
-                evo_pokemon = None
                 for subfolder in ["default", "transformation", "variant"]:
                     try:
-                        evo_pokemon = PokeDBLoader.load_pokemon(
-                            node.species_name, subfolder=subfolder
-                        )
-                        if evo_pokemon:
-                            # Use the actual Pokemon's name for the link (handles forms correctly)
-                            actual_pokemon_name = evo_pokemon.name
+                        poke = PokeDBLoader.load_pokemon(node.species_name, subfolder=subfolder)
+                        if poke:
+                            actual_name = poke.name
                             break
                     except:
                         continue
             except:
                 pass
 
-            # Create link using the actual Pokemon name (which includes form suffix if needed)
-            pokemon_link = f"[{display_name}]({actual_pokemon_name}.md)"
+            # Create current Pokemon entry with method to GET TO it
+            current_entry = {
+                'species_name': node.species_name,
+                'actual_name': actual_name,
+                'evolution_method': evolution_method
+            }
 
-            # Show evolution method if provided (for non-root Pokemon)
-            method_str = f" — *{evolution_method}*" if evolution_method else ""
-            result += f"{indent}- {pokemon_link}{stat_total_str}{method_str}\n"
+            # If this is a leaf node (no evolutions), return a path with just this Pokemon
+            if not node.evolves_to:
+                return [[current_entry]]
 
-            # If this has evolutions, show them
-            if node.evolves_to:
-                for evo in node.evolves_to:
-                    # Collect evolution method details
-                    details = []
-                    evo_details = evo.evolution_details
+            # If has evolutions, recurse for each branch
+            all_paths = []
+            for evo in node.evolves_to:
+                # Get evolution method for this evolution
+                method = self._format_evo_method(evo.evolution_details)
 
-                    if evo_details:
-                        if evo_details.min_level:
-                            details.append(f"Level {evo_details.min_level}")
-                        if evo_details.item:
-                            details.append(f"Use {self._format_name(evo_details.item)}")
-                        if evo_details.held_item:
-                            details.append(
-                                f"Hold {self._format_name(evo_details.held_item)}"
-                            )
-                        if evo_details.known_move:
-                            details.append(
-                                f"Know {self._format_name(evo_details.known_move)}"
-                            )
-                        if evo_details.min_happiness:
-                            details.append(f"Happiness {evo_details.min_happiness}+")
-                        if evo_details.time_of_day:
-                            details.append(f"During {evo_details.time_of_day}")
-                        if evo_details.location:
-                            details.append(
-                                f"At {self._format_name(evo_details.location)}"
-                            )
+                # Get paths from this evolution (with method to get TO that Pokemon)
+                branch_paths = extract_all_paths(evo, method)
 
-                    detail_str = ", ".join(details) if details else "Unknown method"
-                    result += format_evolution_node(evo, level + 1, detail_str)
+                # Prepend current Pokemon to each path
+                for path in branch_paths:
+                    all_paths.append([current_entry] + path)
 
-            return result
+            return all_paths
 
-        md += format_evolution_node(pokemon.evolution_chain)
-        md += "\n"
+        # Extract all evolution paths
+        paths = extract_all_paths(pokemon.evolution_chain)
+
+        if not paths:
+            return md
+
+        # Find common prefix across all paths
+        def find_common_prefix(paths):
+            """Find the longest common prefix across all paths by species_name."""
+            if not paths:
+                return []
+
+            prefix = []
+            min_length = min(len(path) for path in paths)
+
+            for i in range(min_length):
+                # Check if all paths have the same Pokemon at position i
+                first_species = paths[0][i]['species_name']
+                if all(path[i]['species_name'] == first_species for path in paths):
+                    prefix.append(paths[0][i])
+                else:
+                    break
+
+            return prefix
+
+        # Split paths into common prefix and branches
+        common_prefix = find_common_prefix(paths)
+        prefix_length = len(common_prefix)
+
+        # Get remaining parts after common prefix
+        branches = []
+        for path in paths:
+            if len(path) > prefix_length:
+                branches.append(path[prefix_length:])
+
+        # Generate HTML
+        md += '<div class="pokemon-evo-chain">\n'
+        md += '\t<div class="pokemon-evo-path">\n'
+
+        # Render common prefix horizontally
+        for i, poke_data in enumerate(common_prefix):
+            md += '\t\t<div class="pokemon-evo-item">\n'
+            md += '\t\t\t' + self._create_evo_card(poke_data['species_name'], poke_data['actual_name']) + '\n'
+
+            # Show evolution method (how to get TO this Pokemon)
+            if poke_data['evolution_method']:
+                md += f'\t\t\t<div class="pokemon-evo-method">{poke_data["evolution_method"]}</div>\n'
+            else:
+                md += '\t\t\t<div class="pokemon-evo-method"></div>\n'
+
+            md += '\t\t</div>\n'
+
+            # Add arrow after if not last in prefix or if there are branches
+            if i < len(common_prefix) - 1 or branches:
+                md += '\t\t<div class="pokemon-evo-arrow">→</div>\n'
+
+        # Render branches (if any)
+        if branches:
+            md += '\t\t<div class="pokemon-evo-branches">\n'
+
+            # Organize branches into columns (max 3 per column)
+            max_per_column = 3
+            num_columns = (len(branches) + max_per_column - 1) // max_per_column
+
+            for col_idx in range(num_columns):
+                md += '\t\t\t<div class="pokemon-evo-column">\n'
+
+                # Get branches for this column
+                start_idx = col_idx * max_per_column
+                end_idx = min(start_idx + max_per_column, len(branches))
+                column_branches = branches[start_idx:end_idx]
+
+                for branch in column_branches:
+                    md += '\t\t\t\t<div class="pokemon-evo-branch">\n'
+
+                    for i, poke_data in enumerate(branch):
+                        md += '\t\t\t\t\t<div class="pokemon-evo-item">\n'
+                        md += '\t\t\t\t\t\t' + self._create_evo_card(poke_data['species_name'], poke_data['actual_name']) + '\n'
+
+                        # Show evolution method
+                        if poke_data['evolution_method']:
+                            md += f'\t\t\t\t\t\t<div class="pokemon-evo-method">{poke_data["evolution_method"]}</div>\n'
+                        else:
+                            md += '\t\t\t\t\t\t<div class="pokemon-evo-method"></div>\n'
+
+                        md += '\t\t\t\t\t</div>\n'
+
+                        # Add arrow if not last in branch
+                        if i < len(branch) - 1:
+                            md += '\t\t\t\t\t<div class="pokemon-evo-arrow">→</div>\n'
+
+                    md += '\t\t\t\t</div>\n'
+
+                md += '\t\t\t</div>\n'
+
+            md += '\t\t</div>\n'
+
+        md += '\t</div>\n'
+        md += '</div>\n\n'
 
         return md
 
@@ -768,6 +995,7 @@ class PokemonGenerator(BaseGenerator):
                     md += f"\t| {level} | {self._format_name(move_learn.name)} | — | — | — | — | — |\n"
                 else:
                     md += f"\t| {self._format_name(move_learn.name)} | — | — | — | — | — |\n"
+        md += "\n"
 
         return md
 
@@ -792,8 +1020,7 @@ class PokemonGenerator(BaseGenerator):
                 sort_by_level=True,
             )
         else:
-            md += "\t*No level-up moves available*\n"
-        md += "\n"
+            md += "\t*No level-up moves available*\n\n"
 
         # TM/HM moves
         md += '=== ":material-disc: TM/HM"\n\n'
@@ -802,8 +1029,7 @@ class PokemonGenerator(BaseGenerator):
                 pokemon.moves.machine, damage_class_icons, include_level=False
             )
         else:
-            md += "\t*No TM/HM moves available*\n"
-        md += "\n"
+            md += "\t*No TM/HM moves available*\n\n"
 
         # Egg moves
         md += '=== ":material-egg-outline: Egg Moves"\n\n'
@@ -812,8 +1038,7 @@ class PokemonGenerator(BaseGenerator):
                 pokemon.moves.egg, damage_class_icons, include_level=False
             )
         else:
-            md += "\t*No egg moves available*\n"
-        md += "\n"
+            md += "\t*No egg moves available*\n\n"
 
         # Tutor moves
         md += '=== ":material-school: Tutor"\n\n'
@@ -822,8 +1047,7 @@ class PokemonGenerator(BaseGenerator):
                 pokemon.moves.tutor, damage_class_icons, include_level=False
             )
         else:
-            md += "\t*No tutor moves available*\n"
-        md += "\n"
+            md += "\t*No tutor moves available*\n\n"
 
         return md
 
@@ -867,81 +1091,66 @@ class PokemonGenerator(BaseGenerator):
             if bw.animated and bw.animated.front_female:
                 has_female_sprites = True
 
-        # Helper function to create a sprite card
-        def sprite_card(
-            url: str, label: str, is_shiny: bool = False, size: str = "160px"
-        ) -> str:
-            if not url:
-                return ""
-
-            # Choose gradient based on shiny/normal
-            if is_shiny:
-                bg_gradient = "linear-gradient(135deg, #fff9e6 0%, #ffe8a3 100%)"
-                shadow = "0 4px 16px rgba(255, 215, 0, 0.25), 0 2px 4px rgba(0,0,0,0.1)"
-                border = "2px solid rgba(255, 215, 0, 0.3)"
-            else:
-                bg_gradient = "linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%)"
-                shadow = "0 4px 12px rgba(0,0,0,0.08), 0 2px 4px rgba(0,0,0,0.06)"
-                border = "2px solid rgba(0,0,0,0.05)"
-
-            return f'\t\t\t\t<div style="display: flex; flex-direction: column; align-items: center; margin: 8px;"><div style="background: {bg_gradient}; padding: 20px; border-radius: 16px; box-shadow: {shadow}; border: {border}; transition: transform 0.2s ease, box-shadow 0.2s ease; min-width: {size}; min-height: {size}; display: flex; align-items: center; justify-content: center;"><img src="{url}" alt="{label}" style="image-rendering: pixelated; max-width: 100%; height: auto;" /></div><div style="margin-top: 12px; font-size: 13px; font-weight: 600; color: #495057; text-align: center;">{label}</div></div>\n'
-
         # In-game Sprites Tab
         md += '=== "In-Game Sprites"\n\n'
-        md += '\t<div style="background: linear-gradient(to bottom, #ffffff, #f8f9fa); padding: 24px; border-radius: 12px; margin: 16px 0;">\n'
 
         if hasattr(sprites, "versions") and sprites.versions:
             bw = sprites.versions.black_white
             if bw.animated:
-                # Normal sprites section
-                md += '\t\t<div style="margin-bottom: 32px;">\n'
-                md += '\t\t\t<h4 style="color: #2c3e50; margin-bottom: 16px; font-size: 16px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px;">Normal</h4>\n'
-                md += '\t\t\t<div style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;">\n'
+                # Normal sprites
+                md += '\t**Normal**\n\n'
+                md += '\t<div class="grid cards" markdown>\n\n'
 
                 if bw.animated.front_default:
-                    md += sprite_card(bw.animated.front_default, "Front", False)
+                    md += f'\t- ![Front]({bw.animated.front_default}){{: .pokemon-sprite-img }}\n\n'
+                    md += '\t\t---\n\n'
+                    md += '\t\tFront\n\n'
                 if bw.animated.back_default:
-                    md += sprite_card(bw.animated.back_default, "Back", False)
+                    md += f'\t- ![Back]({bw.animated.back_default}){{: .pokemon-sprite-img }}\n\n'
+                    md += '\t\t---\n\n'
+                    md += '\t\tBack\n\n'
 
                 # Female variants if available
                 if has_female_sprites:
                     if bw.animated.front_female:
-                        md += sprite_card(bw.animated.front_female, "Front ♀", False)
+                        md += f'\t- ![Front ♀]({bw.animated.front_female}){{: .pokemon-sprite-img }}\n\n'
+                        md += '\t\t---\n\n'
+                        md += '\t\tFront ♀\n\n'
                     if bw.animated.back_female:
-                        md += sprite_card(bw.animated.back_female, "Back ♀", False)
+                        md += f'\t- ![Back ♀]({bw.animated.back_female}){{: .pokemon-sprite-img }}\n\n'
+                        md += '\t\t---\n\n'
+                        md += '\t\tBack ♀\n\n'
 
-                md += "\t\t\t</div>\n"
-                md += "\t\t</div>\n"
+                md += '\t</div>\n\n'
 
-                # Shiny sprites section
-                md += "\t\t<div>\n"
-                md += '\t\t\t<h4 style="color: #f39c12; margin-bottom: 16px; font-size: 16px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px;">✨ Shiny</h4>\n'
-                md += '\t\t\t<div style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;">\n'
+                # Shiny sprites
+                md += '\t**✨ Shiny**\n\n'
+                md += '\t<div class="grid cards" markdown>\n\n'
 
                 if bw.animated.front_shiny:
-                    md += sprite_card(bw.animated.front_shiny, "Front", True)
+                    md += f'\t- ![Front Shiny]({bw.animated.front_shiny}){{: .pokemon-sprite-img }}\n\n'
+                    md += '\t\t---\n\n'
+                    md += '\t\tFront\n\n'
                 if bw.animated.back_shiny:
-                    md += sprite_card(bw.animated.back_shiny, "Back", True)
+                    md += f'\t- ![Back Shiny]({bw.animated.back_shiny}){{: .pokemon-sprite-img }}\n\n'
+                    md += '\t\t---\n\n'
+                    md += '\t\tBack\n\n'
 
                 # Female shiny variants if available
                 if has_female_sprites:
                     if bw.animated.front_shiny_female:
-                        md += sprite_card(
-                            bw.animated.front_shiny_female, "Front ♀", True
-                        )
+                        md += f'\t- ![Front Shiny ♀]({bw.animated.front_shiny_female}){{: .pokemon-sprite-img }}\n\n'
+                        md += '\t\t---\n\n'
+                        md += '\t\tFront ♀\n\n'
                     if bw.animated.back_shiny_female:
-                        md += sprite_card(bw.animated.back_shiny_female, "Back ♀", True)
+                        md += f'\t- ![Back Shiny ♀]({bw.animated.back_shiny_female}){{: .pokemon-sprite-img }}\n\n'
+                        md += '\t\t---\n\n'
+                        md += '\t\tBack ♀\n\n'
 
-                md += "\t\t\t</div>\n"
-                md += "\t\t</div>\n"
-
-        md += "\t</div>\n\n"
+                md += '\t</div>\n\n'
 
         # Official Artwork Tab
         md += '=== "Official Artwork"\n\n'
-        md += '\t<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 48px 24px; border-radius: 16px; text-align: center; position: relative; overflow: hidden; margin: 16px 0;">\n'
-        md += '\t\t<div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: repeating-linear-gradient(45deg, transparent, transparent 10px, rgba(255,255,255,.03) 10px, rgba(255,255,255,.03) 20px);"></div>\n'
-        md += '\t\t<div style="position: relative; z-index: 1;">\n'
 
         if (
             hasattr(sprites, "other")
@@ -950,50 +1159,39 @@ class PokemonGenerator(BaseGenerator):
         ):
             artwork = sprites.other.official_artwork
 
-            md += '\t\t\t<div style="display: flex; gap: 32px; justify-content: center; flex-wrap: wrap; align-items: flex-start;">\n'
+            md += '\t<div class="grid cards" markdown>\n\n'
 
             # Normal artwork
             if artwork.front_default:
-                md += '\t\t\t\t<div style="background: rgba(255,255,255,0.95); padding: 32px; border-radius: 20px; box-shadow: 0 8px 32px rgba(0,0,0,0.2); backdrop-filter: blur(10px); min-width: 280px;">\n'
-                md += '\t\t\t\t\t<div style="font-size: 14px; font-weight: 700; color: #2c3e50; margin-bottom: 16px; text-transform: uppercase; letter-spacing: 1px;">Normal</div>\n'
-                md += f'\t\t\t\t\t<img src="{artwork.front_default}" alt="Official Artwork" style="max-width: 300px; width: 100%; height: auto; filter: drop-shadow(0 4px 16px rgba(0,0,0,0.15));" />\n'
-                md += "\t\t\t\t</div>\n"
+                md += f'\t- ![Official Artwork]({artwork.front_default})\n\n'
+                md += '\t\t---\n\n'
+                md += '\t\tNormal\n\n'
 
             # Shiny artwork
             if artwork.front_shiny:
-                md += '\t\t\t\t<div style="background: linear-gradient(135deg, rgba(255,249,230,0.98) 0%, rgba(255,232,163,0.98) 100%); padding: 32px; border-radius: 20px; box-shadow: 0 8px 32px rgba(255,215,0,0.3), 0 4px 16px rgba(0,0,0,0.15); backdrop-filter: blur(10px); border: 2px solid rgba(255,215,0,0.4); min-width: 280px;">\n'
-                md += '\t\t\t\t\t<div style="font-size: 14px; font-weight: 700; color: #d4af37; margin-bottom: 16px; text-transform: uppercase; letter-spacing: 1px;">✨ Shiny</div>\n'
-                md += f'\t\t\t\t\t<img src="{artwork.front_shiny}" alt="Shiny Official Artwork" style="max-width: 300px; width: 100%; height: auto; filter: drop-shadow(0 4px 16px rgba(212,175,55,0.3));" />\n'
-                md += "\t\t\t\t</div>\n"
+                md += f'\t- ![Shiny Official Artwork]({artwork.front_shiny})\n\n'
+                md += '\t\t---\n\n'
+                md += '\t\t✨ Shiny\n\n'
 
-            md += "\t\t\t</div>\n"
-
-        md += "\t\t</div>\n"
-        md += "\t</div>\n\n"
+            md += '\t</div>\n\n'
 
         # Pokemon cry audio player
         md += "---\n\n"
         md += "### :material-volume-high: Cry\n\n"
 
         if hasattr(pokemon, "cries") and pokemon.cries:
-            md += '<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 24px; border-radius: 16px; text-align: center; margin: 16px 0;">\n'
-
             # Prefer legacy cry, fallback to latest
             cry_url = getattr(pokemon.cries, "legacy", None) or getattr(
                 pokemon.cries, "latest", None
             )
 
             if cry_url:
-                md += f'\t<audio controls style="max-width: 500px; width: 100%; border-radius: 8px; filter: drop-shadow(0 2px 8px rgba(0,0,0,0.2));">\n'
-                md += f'\t\t<source src="{cry_url}" type="audio/ogg">\n'
-                md += "\t\tYour browser does not support the audio element.\n"
-                md += "\t</audio>\n"
-                md += '\t<div style="color: rgba(255,255,255,0.9); margin-top: 12px; font-size: 13px; font-weight: 500;">Click play to hear this Pokémon\'s cry</div>\n'
-
-            md += "</div>\n\n"
+                md += f'<audio controls style="width: 100%; max-width: 500px;">\n'
+                md += f'\t<source src="{cry_url}" type="audio/ogg">\n'
+                md += "\tYour browser does not support the audio element.\n"
+                md += "</audio>\n\n"
         else:
-            md += '!!! info "No Audio Available"\n\n'
-            md += "\tCry audio is not currently available for this Pokémon.\n\n"
+            md += "*Cry audio is not currently available for this Pokémon.*\n\n"
 
         return md
 

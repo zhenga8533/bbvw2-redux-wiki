@@ -46,6 +46,8 @@ theme:
     toggle:
       icon: material/brightness-4
       name: Switch to light mode
+extra_css:
+- stylesheets/pokemon.css
 nav:
 - Getting Started:
   - Home: index.md
