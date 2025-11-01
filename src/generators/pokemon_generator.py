@@ -516,6 +516,14 @@ class PokemonGenerator(BaseGenerator):
         md += f"\t**Growth Rate:** {self._format_name(pokemon.growth_rate)}\n\n"
         if pokemon.habitat:
             md += f"\t**Habitat:** {self._format_name(pokemon.habitat)}\n\n"
+        # EV Yield
+        if pokemon.ev_yield:
+            md += "\t**EV Yield:** "
+            ev_parts = []
+            for ev in pokemon.ev_yield:
+                stat_name = self._format_name(ev.stat)
+                ev_parts.append(f"+{ev.effort} {stat_name}")
+            md += ", ".join(ev_parts) + "\n\n"
         md += "\n"
 
         # Card 4: Breeding Info
@@ -527,8 +535,18 @@ class PokemonGenerator(BaseGenerator):
             female_pct = (pokemon.gender_rate / 8) * 100
             male_pct = 100 - female_pct
             md += f"\t**Gender Ratio:** {male_pct:.1f}% ♂ / {female_pct:.1f}% ♀\n\n"
+            if pokemon.has_gender_differences:
+                md += "\t**Gender Differences:** Yes (♂/♀ sprites differ)\n\n"
         md += f"\t**Egg Groups:** {', '.join([self._format_name(eg) for eg in pokemon.egg_groups])}\n\n"
         md += f"\t**Hatch Counter:** {pokemon.hatch_counter} cycles\n\n"
+
+        # Card 5: Classification
+        md += "- **:material-star-four-points: Classification**\n\n"
+        md += "\t---\n\n"
+        md += f"\t**Generation:** {self._format_name(pokemon.generation)}\n\n"
+        md += f"\t**Color:** {self._format_name(pokemon.color)}\n\n"
+        md += f"\t**Shape:** {self._format_name(pokemon.shape)}\n\n"
+        md += "\n"
 
         md += "</div>\n\n"
 
@@ -660,15 +678,6 @@ class PokemonGenerator(BaseGenerator):
 
         # Total
         md += f"| **Base Stat Total** | **{total}** | |\n\n"
-
-        # EV Yield
-        if pokemon.ev_yield:
-            md += "**EV Yield:** "
-            ev_parts = []
-            for ev in pokemon.ev_yield:
-                stat_name = self._format_name(ev.stat)
-                ev_parts.append(f"+{ev.effort} {stat_name}")
-            md += ", ".join(ev_parts) + "\n\n"
 
         return md
 
@@ -921,6 +930,43 @@ class PokemonGenerator(BaseGenerator):
 
         md += '\t</div>\n'
         md += '</div>\n\n'
+
+        return md
+
+    def _generate_forms_section(self, pokemon: Pokemon) -> str:
+        """
+        Generate section showing available forms for this Pokemon.
+
+        Only displays if the Pokemon has multiple forms or if forms are switchable.
+        """
+        # Don't show if only one form and not switchable
+        if len(pokemon.forms) <= 1 and not pokemon.forms_switchable:
+            return ""
+
+        md = "## :material-shape: Available Forms\n\n"
+
+        if len(pokemon.forms) > 1:
+            md += "This Pokémon has the following forms:\n\n"
+
+            for form in pokemon.forms:
+                form_display = self._format_name(form.name)
+                category_display = form.category.title()
+
+                # Add icon based on category
+                if form.category == "default":
+                    icon = ":material-star:"
+                elif form.category == "transformation":
+                    icon = ":material-swap-horizontal:"
+                elif form.category == "variant":
+                    icon = ":material-palette:"
+                else:  # cosmetic
+                    icon = ":material-eye:"
+
+                md += f"- {icon} **{form_display}** ({category_display})\n"
+            md += "\n"
+
+        if pokemon.forms_switchable:
+            md += "> :material-information: Forms are switchable during gameplay.\n\n"
 
         return md
 
@@ -1222,6 +1268,7 @@ class PokemonGenerator(BaseGenerator):
         md += self._generate_type_effectiveness(pokemon)
         md += self._generate_stats_table(pokemon)
         md += self._generate_evolution_chain(pokemon)
+        md += self._generate_forms_section(pokemon)
         md += self._generate_flavor_text(pokemon)
         md += self._generate_moves_section(pokemon)
         md += self._generate_sprites_section(pokemon)
@@ -1341,25 +1388,61 @@ class PokemonGenerator(BaseGenerator):
         md = "# Pokédex\n\n"
         md += "Complete list of all Pokémon in Blaze Black 2 & Volt White 2 Redux.\n\n"
 
-        # Generate table
-        md += "| # | Pokémon | Types | Abilities |\n"
-        md += "|---|---------|-------|----------|\n"
+        # Group Pokemon by generation
+        gen_definitions = [
+            ("Generation I", 1, 151, ":material-numeric-1-circle:"),
+            ("Generation II", 152, 251, ":material-numeric-2-circle:"),
+            ("Generation III", 252, 386, ":material-numeric-3-circle:"),
+            ("Generation IV", 387, 493, ":material-numeric-4-circle:"),
+            ("Generation V", 494, 649, ":material-numeric-5-circle:"),
+        ]
 
-        for pokemon in pokemon_list:
-            dex_num = pokemon.pokedex_numbers.get("national", "???")
-            name = self._format_name(pokemon.name)
-            link = f"[{name}](pokemon/{pokemon.name}.md)"
-            types = " / ".join([self._format_type(t) for t in pokemon.types])
+        for gen_name, start, end, icon in gen_definitions:
+            # Filter Pokemon for this generation
+            gen_pokemon = [
+                p for p in pokemon_list
+                if start <= p.pokedex_numbers.get("national", 0) <= end
+            ]
 
-            # Get non-hidden abilities
-            abilities = [a.name for a in pokemon.abilities if not a.is_hidden]
-            abilities_str = ", ".join(
-                [self._format_name(a) for a in abilities[:2]]
-            )  # Show max 2
+            if not gen_pokemon:
+                continue
 
-            md += f"| {dex_num:03d} | {link} | {types} | {abilities_str} |\n"
+            # Add generation header
+            md += f"## {icon} {gen_name}\n\n"
+            md += f"*National Dex #{start:03d} - #{end:03d}*\n\n"
 
-        md += "\n"
+            # Generate table for this generation
+            md += "| # | Sprite | Pokémon | Types | Abilities |\n"
+            md += "|:---:|:---:|---------|-------|----------|\n"
+
+            for pokemon in gen_pokemon:
+                dex_num = pokemon.pokedex_numbers.get("national", "???")
+                name = self._format_name(pokemon.name)
+                link = f"[{name}](pokemon/{pokemon.name}.md)"
+                types = " ".join([self._format_type(t) for t in pokemon.types])
+
+                # Get sprite URL
+                sprite_url = None
+                if hasattr(pokemon.sprites, "versions") and pokemon.sprites.versions:
+                    bw = pokemon.sprites.versions.black_white
+                    if bw.animated and bw.animated.front_default:
+                        sprite_url = bw.animated.front_default
+
+                # Create sprite cell
+                if sprite_url:
+                    sprite_cell = f'<img src="{sprite_url}" alt="{name}" class="pokemon-sprite-img" style="max-width: 80px; image-rendering: pixelated;" />'
+                else:
+                    sprite_cell = "—"
+
+                # Get non-hidden abilities
+                abilities = [a.name for a in pokemon.abilities if not a.is_hidden]
+                abilities_str = ", ".join(
+                    [self._format_name(a) for a in abilities[:2]]
+                )  # Show max 2
+
+                md += f"| **{dex_num:03d}** | {sprite_cell} | {link} | {types} | {abilities_str} |\n"
+
+            md += "\n"
 
         # Write to file
         output_file = self.output_dir.parent / "pokedex.md"
