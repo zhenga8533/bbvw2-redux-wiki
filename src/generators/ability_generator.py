@@ -29,7 +29,7 @@ class AbilityGenerator(BaseGenerator):
     - Pokemon that have this ability
     """
 
-    def __init__(self, output_dir: str = "docs", project_root: Optional[Path] = None):
+    def __init__(self, output_dir: str = "docs/abidex", project_root: Optional[Path] = None):
         """
         Initialize the Ability page generator.
 
@@ -219,7 +219,7 @@ class AbilityGenerator(BaseGenerator):
             for pokemon in normal:
                 dex_num = pokemon.pokedex_numbers.get("national", "???")
                 name = self._format_name(pokemon.name)
-                link = f"../pokedex/pokemon/{pokemon.name}.md"
+                link = f"../../pokedex/pokemon/{pokemon.name}.md"
 
                 # Get sprite URL
                 sprite_url = None
@@ -248,7 +248,7 @@ class AbilityGenerator(BaseGenerator):
             for pokemon in hidden:
                 dex_num = pokemon.pokedex_numbers.get("national", "???")
                 name = self._format_name(pokemon.name)
-                link = f"../pokedex/pokemon/{pokemon.name}.md"
+                link = f"../../pokedex/pokemon/{pokemon.name}.md"
 
                 # Get sprite URL
                 sprite_url = None
@@ -440,7 +440,7 @@ class AbilityGenerator(BaseGenerator):
         md += "\n"
 
         # Write to file
-        output_file = self.output_dir.parent / "abilities.md"
+        output_file = self.output_dir.parent / "abidex.md"
         output_file.write_text(md, encoding="utf-8")
 
         self.logger.info(f"Generated abilities index: {output_file}")
@@ -491,14 +491,14 @@ class AbilityGenerator(BaseGenerator):
 
             # Create navigation structure with alphabetical subsections
             abilities_nav = {
-                "Abilities": [{"Overview": "abilities.md"}]
+                "Abilities": [{"Overview": "abidex/abidex.md"}]
             }
 
             # Add subsections for each letter
             for letter in sorted(abilities_by_letter.keys()):
                 letter_abilities = abilities_by_letter[letter]
                 letter_nav = [
-                    {self._format_name(a.name): f"abilities/{a.name}.md"}
+                    {self._format_name(a.name): f"abidex/abilities/{a.name}.md"}
                     for a in letter_abilities
                 ]
                 abilities_nav["Abilities"].append({letter: letter_nav})

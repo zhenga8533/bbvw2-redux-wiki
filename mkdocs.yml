@@ -49,6 +49,7 @@ theme:
 extra_css:
 - stylesheets/pokemon.css
 - stylesheets/ability.css
+- stylesheets/item.css
 nav:
 - Getting Started:
   - Home: index.md
@@ -770,192 +771,836 @@ nav:
       - Pirouette: pokedex/pokemon/meloetta-pirouette.md
     - '#649 Genesect': pokedex/pokemon/genesect.md
 - Abilities:
-  - Overview: abilities.md
+  - Overview: abidex/abidex.md
   - A:
-    - Adaptability: abilities/adaptability.md
-    - Aftermath: abilities/aftermath.md
-    - Air Lock: abilities/air-lock.md
-    - Analytic: abilities/analytic.md
-    - Anger Point: abilities/anger-point.md
-    - Anticipation: abilities/anticipation.md
-    - Arena Trap: abilities/arena-trap.md
+    - Adaptability: abidex/abilities/adaptability.md
+    - Aftermath: abidex/abilities/aftermath.md
+    - Air Lock: abidex/abilities/air-lock.md
+    - Analytic: abidex/abilities/analytic.md
+    - Anger Point: abidex/abilities/anger-point.md
+    - Anticipation: abidex/abilities/anticipation.md
+    - Arena Trap: abidex/abilities/arena-trap.md
   - B:
-    - Bad Dreams: abilities/bad-dreams.md
-    - Battle Armor: abilities/battle-armor.md
-    - Big Pecks: abilities/big-pecks.md
-    - Blaze: abilities/blaze.md
+    - Bad Dreams: abidex/abilities/bad-dreams.md
+    - Battle Armor: abidex/abilities/battle-armor.md
+    - Big Pecks: abidex/abilities/big-pecks.md
+    - Blaze: abidex/abilities/blaze.md
   - C:
-    - Chlorophyll: abilities/chlorophyll.md
-    - Clear Body: abilities/clear-body.md
-    - Cloud Nine: abilities/cloud-nine.md
-    - Color Change: abilities/color-change.md
-    - Compound Eyes: abilities/compound-eyes.md
-    - Contrary: abilities/contrary.md
-    - Cursed Body: abilities/cursed-body.md
-    - Cute Charm: abilities/cute-charm.md
+    - Chlorophyll: abidex/abilities/chlorophyll.md
+    - Clear Body: abidex/abilities/clear-body.md
+    - Cloud Nine: abidex/abilities/cloud-nine.md
+    - Color Change: abidex/abilities/color-change.md
+    - Compound Eyes: abidex/abilities/compound-eyes.md
+    - Contrary: abidex/abilities/contrary.md
+    - Cursed Body: abidex/abilities/cursed-body.md
+    - Cute Charm: abidex/abilities/cute-charm.md
   - D:
-    - Damp: abilities/damp.md
-    - Defeatist: abilities/defeatist.md
-    - Defiant: abilities/defiant.md
-    - Download: abilities/download.md
-    - Drizzle: abilities/drizzle.md
-    - Drought: abilities/drought.md
-    - Dry Skin: abilities/dry-skin.md
+    - Damp: abidex/abilities/damp.md
+    - Defeatist: abidex/abilities/defeatist.md
+    - Defiant: abidex/abilities/defiant.md
+    - Download: abidex/abilities/download.md
+    - Drizzle: abidex/abilities/drizzle.md
+    - Drought: abidex/abilities/drought.md
+    - Dry Skin: abidex/abilities/dry-skin.md
   - E:
-    - Early Bird: abilities/early-bird.md
-    - Effect Spore: abilities/effect-spore.md
+    - Early Bird: abidex/abilities/early-bird.md
+    - Effect Spore: abidex/abilities/effect-spore.md
   - F:
-    - Filter: abilities/filter.md
-    - Flame Body: abilities/flame-body.md
-    - Flare Boost: abilities/flare-boost.md
-    - Flash Fire: abilities/flash-fire.md
-    - Flower Gift: abilities/flower-gift.md
-    - Forecast: abilities/forecast.md
-    - Forewarn: abilities/forewarn.md
-    - Friend Guard: abilities/friend-guard.md
-    - Frisk: abilities/frisk.md
+    - Filter: abidex/abilities/filter.md
+    - Flame Body: abidex/abilities/flame-body.md
+    - Flare Boost: abidex/abilities/flare-boost.md
+    - Flash Fire: abidex/abilities/flash-fire.md
+    - Flower Gift: abidex/abilities/flower-gift.md
+    - Forecast: abidex/abilities/forecast.md
+    - Forewarn: abidex/abilities/forewarn.md
+    - Friend Guard: abidex/abilities/friend-guard.md
+    - Frisk: abidex/abilities/frisk.md
   - G:
-    - Gluttony: abilities/gluttony.md
-    - Guts: abilities/guts.md
+    - Gluttony: abidex/abilities/gluttony.md
+    - Guts: abidex/abilities/guts.md
   - H:
-    - Harvest: abilities/harvest.md
-    - Healer: abilities/healer.md
-    - Heatproof: abilities/heatproof.md
-    - Heavy Metal: abilities/heavy-metal.md
-    - Honey Gather: abilities/honey-gather.md
-    - Huge Power: abilities/huge-power.md
-    - Hustle: abilities/hustle.md
-    - Hydration: abilities/hydration.md
-    - Hyper Cutter: abilities/hyper-cutter.md
+    - Harvest: abidex/abilities/harvest.md
+    - Healer: abidex/abilities/healer.md
+    - Heatproof: abidex/abilities/heatproof.md
+    - Heavy Metal: abidex/abilities/heavy-metal.md
+    - Honey Gather: abidex/abilities/honey-gather.md
+    - Huge Power: abidex/abilities/huge-power.md
+    - Hustle: abidex/abilities/hustle.md
+    - Hydration: abidex/abilities/hydration.md
+    - Hyper Cutter: abidex/abilities/hyper-cutter.md
   - I:
-    - Ice Body: abilities/ice-body.md
-    - Illuminate: abilities/illuminate.md
-    - Illusion: abilities/illusion.md
-    - Immunity: abilities/immunity.md
-    - Imposter: abilities/imposter.md
-    - Infiltrator: abilities/infiltrator.md
-    - Inner Focus: abilities/inner-focus.md
-    - Insomnia: abilities/insomnia.md
-    - Intimidate: abilities/intimidate.md
-    - Iron Barbs: abilities/iron-barbs.md
-    - Iron Fist: abilities/iron-fist.md
+    - Ice Body: abidex/abilities/ice-body.md
+    - Illuminate: abidex/abilities/illuminate.md
+    - Illusion: abidex/abilities/illusion.md
+    - Immunity: abidex/abilities/immunity.md
+    - Imposter: abidex/abilities/imposter.md
+    - Infiltrator: abidex/abilities/infiltrator.md
+    - Inner Focus: abidex/abilities/inner-focus.md
+    - Insomnia: abidex/abilities/insomnia.md
+    - Intimidate: abidex/abilities/intimidate.md
+    - Iron Barbs: abidex/abilities/iron-barbs.md
+    - Iron Fist: abidex/abilities/iron-fist.md
   - J:
-    - Justified: abilities/justified.md
+    - Justified: abidex/abilities/justified.md
   - K:
-    - Keen Eye: abilities/keen-eye.md
-    - Klutz: abilities/klutz.md
+    - Keen Eye: abidex/abilities/keen-eye.md
+    - Klutz: abidex/abilities/klutz.md
   - L:
-    - Leaf Guard: abilities/leaf-guard.md
-    - Levitate: abilities/levitate.md
-    - Light Metal: abilities/light-metal.md
-    - Lightning Rod: abilities/lightning-rod.md
-    - Limber: abilities/limber.md
-    - Liquid Ooze: abilities/liquid-ooze.md
+    - Leaf Guard: abidex/abilities/leaf-guard.md
+    - Levitate: abidex/abilities/levitate.md
+    - Light Metal: abidex/abilities/light-metal.md
+    - Lightning Rod: abidex/abilities/lightning-rod.md
+    - Limber: abidex/abilities/limber.md
+    - Liquid Ooze: abidex/abilities/liquid-ooze.md
   - M:
-    - Magic Bounce: abilities/magic-bounce.md
-    - Magic Guard: abilities/magic-guard.md
-    - Magma Armor: abilities/magma-armor.md
-    - Magnet Pull: abilities/magnet-pull.md
-    - Marvel Scale: abilities/marvel-scale.md
-    - Minus: abilities/minus.md
-    - Mold Breaker: abilities/mold-breaker.md
-    - Moody: abilities/moody.md
-    - Motor Drive: abilities/motor-drive.md
-    - Moxie: abilities/moxie.md
-    - Multiscale: abilities/multiscale.md
-    - Multitype: abilities/multitype.md
-    - Mummy: abilities/mummy.md
+    - Magic Bounce: abidex/abilities/magic-bounce.md
+    - Magic Guard: abidex/abilities/magic-guard.md
+    - Magma Armor: abidex/abilities/magma-armor.md
+    - Magnet Pull: abidex/abilities/magnet-pull.md
+    - Marvel Scale: abidex/abilities/marvel-scale.md
+    - Minus: abidex/abilities/minus.md
+    - Mold Breaker: abidex/abilities/mold-breaker.md
+    - Moody: abidex/abilities/moody.md
+    - Motor Drive: abidex/abilities/motor-drive.md
+    - Moxie: abidex/abilities/moxie.md
+    - Multiscale: abidex/abilities/multiscale.md
+    - Multitype: abidex/abilities/multitype.md
+    - Mummy: abidex/abilities/mummy.md
   - N:
-    - Natural Cure: abilities/natural-cure.md
-    - No Guard: abilities/no-guard.md
-    - Normalize: abilities/normalize.md
+    - Natural Cure: abidex/abilities/natural-cure.md
+    - No Guard: abidex/abilities/no-guard.md
+    - Normalize: abidex/abilities/normalize.md
   - O:
-    - Oblivious: abilities/oblivious.md
-    - Overcoat: abilities/overcoat.md
-    - Overgrow: abilities/overgrow.md
-    - Own Tempo: abilities/own-tempo.md
+    - Oblivious: abidex/abilities/oblivious.md
+    - Overcoat: abidex/abilities/overcoat.md
+    - Overgrow: abidex/abilities/overgrow.md
+    - Own Tempo: abidex/abilities/own-tempo.md
   - P:
-    - Pickpocket: abilities/pickpocket.md
-    - Pickup: abilities/pickup.md
-    - Plus: abilities/plus.md
-    - Poison Heal: abilities/poison-heal.md
-    - Poison Point: abilities/poison-point.md
-    - Poison Touch: abilities/poison-touch.md
-    - Prankster: abilities/prankster.md
-    - Pressure: abilities/pressure.md
-    - Pure Power: abilities/pure-power.md
+    - Pickpocket: abidex/abilities/pickpocket.md
+    - Pickup: abidex/abilities/pickup.md
+    - Plus: abidex/abilities/plus.md
+    - Poison Heal: abidex/abilities/poison-heal.md
+    - Poison Point: abidex/abilities/poison-point.md
+    - Poison Touch: abidex/abilities/poison-touch.md
+    - Prankster: abidex/abilities/prankster.md
+    - Pressure: abidex/abilities/pressure.md
+    - Pure Power: abidex/abilities/pure-power.md
   - Q:
-    - Quick Feet: abilities/quick-feet.md
+    - Quick Feet: abidex/abilities/quick-feet.md
   - R:
-    - Rain Dish: abilities/rain-dish.md
-    - Rattled: abilities/rattled.md
-    - Reckless: abilities/reckless.md
-    - Regenerator: abilities/regenerator.md
-    - Rivalry: abilities/rivalry.md
-    - Rock Head: abilities/rock-head.md
-    - Rough Skin: abilities/rough-skin.md
-    - Run Away: abilities/run-away.md
+    - Rain Dish: abidex/abilities/rain-dish.md
+    - Rattled: abidex/abilities/rattled.md
+    - Reckless: abidex/abilities/reckless.md
+    - Regenerator: abidex/abilities/regenerator.md
+    - Rivalry: abidex/abilities/rivalry.md
+    - Rock Head: abidex/abilities/rock-head.md
+    - Rough Skin: abidex/abilities/rough-skin.md
+    - Run Away: abidex/abilities/run-away.md
   - S:
-    - Sand Force: abilities/sand-force.md
-    - Sand Rush: abilities/sand-rush.md
-    - Sand Stream: abilities/sand-stream.md
-    - Sand Veil: abilities/sand-veil.md
-    - Sap Sipper: abilities/sap-sipper.md
-    - Scrappy: abilities/scrappy.md
-    - Serene Grace: abilities/serene-grace.md
-    - Shadow Tag: abilities/shadow-tag.md
-    - Shed Skin: abilities/shed-skin.md
-    - Sheer Force: abilities/sheer-force.md
-    - Shell Armor: abilities/shell-armor.md
-    - Shield Dust: abilities/shield-dust.md
-    - Simple: abilities/simple.md
-    - Skill Link: abilities/skill-link.md
-    - Slow Start: abilities/slow-start.md
-    - Sniper: abilities/sniper.md
-    - Snow Cloak: abilities/snow-cloak.md
-    - Snow Warning: abilities/snow-warning.md
-    - Solar Power: abilities/solar-power.md
-    - Solid Rock: abilities/solid-rock.md
-    - Soundproof: abilities/soundproof.md
-    - Speed Boost: abilities/speed-boost.md
-    - Stall: abilities/stall.md
-    - Static: abilities/static.md
-    - Steadfast: abilities/steadfast.md
-    - Stench: abilities/stench.md
-    - Sticky Hold: abilities/sticky-hold.md
-    - Storm Drain: abilities/storm-drain.md
-    - Sturdy: abilities/sturdy.md
-    - Suction Cups: abilities/suction-cups.md
-    - Super Luck: abilities/super-luck.md
-    - Swarm: abilities/swarm.md
-    - Swift Swim: abilities/swift-swim.md
-    - Synchronize: abilities/synchronize.md
+    - Sand Force: abidex/abilities/sand-force.md
+    - Sand Rush: abidex/abilities/sand-rush.md
+    - Sand Stream: abidex/abilities/sand-stream.md
+    - Sand Veil: abidex/abilities/sand-veil.md
+    - Sap Sipper: abidex/abilities/sap-sipper.md
+    - Scrappy: abidex/abilities/scrappy.md
+    - Serene Grace: abidex/abilities/serene-grace.md
+    - Shadow Tag: abidex/abilities/shadow-tag.md
+    - Shed Skin: abidex/abilities/shed-skin.md
+    - Sheer Force: abidex/abilities/sheer-force.md
+    - Shell Armor: abidex/abilities/shell-armor.md
+    - Shield Dust: abidex/abilities/shield-dust.md
+    - Simple: abidex/abilities/simple.md
+    - Skill Link: abidex/abilities/skill-link.md
+    - Slow Start: abidex/abilities/slow-start.md
+    - Sniper: abidex/abilities/sniper.md
+    - Snow Cloak: abidex/abilities/snow-cloak.md
+    - Snow Warning: abidex/abilities/snow-warning.md
+    - Solar Power: abidex/abilities/solar-power.md
+    - Solid Rock: abidex/abilities/solid-rock.md
+    - Soundproof: abidex/abilities/soundproof.md
+    - Speed Boost: abidex/abilities/speed-boost.md
+    - Stall: abidex/abilities/stall.md
+    - Static: abidex/abilities/static.md
+    - Steadfast: abidex/abilities/steadfast.md
+    - Stench: abidex/abilities/stench.md
+    - Sticky Hold: abidex/abilities/sticky-hold.md
+    - Storm Drain: abidex/abilities/storm-drain.md
+    - Sturdy: abidex/abilities/sturdy.md
+    - Suction Cups: abidex/abilities/suction-cups.md
+    - Super Luck: abidex/abilities/super-luck.md
+    - Swarm: abidex/abilities/swarm.md
+    - Swift Swim: abidex/abilities/swift-swim.md
+    - Synchronize: abidex/abilities/synchronize.md
   - T:
-    - Tangled Feet: abilities/tangled-feet.md
-    - Technician: abilities/technician.md
-    - Telepathy: abilities/telepathy.md
-    - Teravolt: abilities/teravolt.md
-    - Thick Fat: abilities/thick-fat.md
-    - Tinted Lens: abilities/tinted-lens.md
-    - Torrent: abilities/torrent.md
-    - Toxic Boost: abilities/toxic-boost.md
-    - Trace: abilities/trace.md
-    - Truant: abilities/truant.md
-    - Turboblaze: abilities/turboblaze.md
+    - Tangled Feet: abidex/abilities/tangled-feet.md
+    - Technician: abidex/abilities/technician.md
+    - Telepathy: abidex/abilities/telepathy.md
+    - Teravolt: abidex/abilities/teravolt.md
+    - Thick Fat: abidex/abilities/thick-fat.md
+    - Tinted Lens: abidex/abilities/tinted-lens.md
+    - Torrent: abidex/abilities/torrent.md
+    - Toxic Boost: abidex/abilities/toxic-boost.md
+    - Trace: abidex/abilities/trace.md
+    - Truant: abidex/abilities/truant.md
+    - Turboblaze: abidex/abilities/turboblaze.md
   - U:
-    - Unaware: abilities/unaware.md
-    - Unburden: abilities/unburden.md
-    - Unnerve: abilities/unnerve.md
+    - Unaware: abidex/abilities/unaware.md
+    - Unburden: abidex/abilities/unburden.md
+    - Unnerve: abidex/abilities/unnerve.md
   - V:
-    - Victory Star: abilities/victory-star.md
-    - Vital Spirit: abilities/vital-spirit.md
-    - Volt Absorb: abilities/volt-absorb.md
+    - Victory Star: abidex/abilities/victory-star.md
+    - Vital Spirit: abidex/abilities/vital-spirit.md
+    - Volt Absorb: abidex/abilities/volt-absorb.md
   - W:
-    - Water Absorb: abilities/water-absorb.md
-    - Water Veil: abilities/water-veil.md
-    - Weak Armor: abilities/weak-armor.md
-    - White Smoke: abilities/white-smoke.md
-    - Wonder Guard: abilities/wonder-guard.md
-    - Wonder Skin: abilities/wonder-skin.md
+    - Water Absorb: abidex/abilities/water-absorb.md
+    - Water Veil: abidex/abilities/water-veil.md
+    - Weak Armor: abidex/abilities/weak-armor.md
+    - White Smoke: abidex/abilities/white-smoke.md
+    - Wonder Guard: abidex/abilities/wonder-guard.md
+    - Wonder Skin: abidex/abilities/wonder-skin.md
   - Z:
-    - Zen Mode: abilities/zen-mode.md
+    - Zen Mode: abidex/abilities/zen-mode.md
+- Items:
+  - Overview: itemdex/itemdex.md
+  - A:
+    - Ability Urge: itemdex/items/ability-urge.md
+    - Absorb Bulb: itemdex/items/absorb-bulb.md
+    - Adamant Orb: itemdex/items/adamant-orb.md
+    - Aguav Berry: itemdex/items/aguav-berry.md
+    - Air Balloon: itemdex/items/air-balloon.md
+    - Amulet Coin: itemdex/items/amulet-coin.md
+    - Antidote: itemdex/items/antidote.md
+    - Apicot Berry: itemdex/items/apicot-berry.md
+    - Apricorn Box: itemdex/items/apricorn-box.md
+    - Armor Fossil: itemdex/items/armor-fossil.md
+    - Aspear Berry: itemdex/items/aspear-berry.md
+    - Awakening: itemdex/items/awakening.md
+    - Azure Flute: itemdex/items/azure-flute.md
+  - B:
+    - Babiri Berry: itemdex/items/babiri-berry.md
+    - Balm Mushroom: itemdex/items/balm-mushroom.md
+    - Basement Key: itemdex/items/basement-key.md
+    - Belue Berry: itemdex/items/belue-berry.md
+    - Berry Juice: itemdex/items/berry-juice.md
+    - Berry Pots: itemdex/items/berry-pots.md
+    - Bicycle: itemdex/items/bicycle.md
+    - Big Mushroom: itemdex/items/big-mushroom.md
+    - Big Nugget: itemdex/items/big-nugget.md
+    - Big Pearl: itemdex/items/big-pearl.md
+    - Big Root: itemdex/items/big-root.md
+    - Binding Band: itemdex/items/binding-band.md
+    - Black Apricorn: itemdex/items/black-apricorn.md
+    - Black Belt: itemdex/items/black-belt.md
+    - Black Flute: itemdex/items/black-flute.md
+    - Black Glasses: itemdex/items/black-glasses.md
+    - Black Sludge: itemdex/items/black-sludge.md
+    - Blue Apricorn: itemdex/items/blue-apricorn.md
+    - Blue Card: itemdex/items/blue-card.md
+    - Blue Flute: itemdex/items/blue-flute.md
+    - Blue Orb: itemdex/items/blue-orb.md
+    - Blue Scarf: itemdex/items/blue-scarf.md
+    - Blue Shard: itemdex/items/blue-shard.md
+    - Bluk Berry: itemdex/items/bluk-berry.md
+    - Bridge Mail D: itemdex/items/bridge-mail-d.md
+    - Bridge Mail M: itemdex/items/bridge-mail-m.md
+    - Bridge Mail S: itemdex/items/bridge-mail-s.md
+    - Bridge Mail T: itemdex/items/bridge-mail-t.md
+    - Bridge Mail V: itemdex/items/bridge-mail-v.md
+    - Bright Powder: itemdex/items/bright-powder.md
+    - Bug Gem: itemdex/items/bug-gem.md
+    - Burn Drive: itemdex/items/burn-drive.md
+    - Burn Heal: itemdex/items/burn-heal.md
+  - C:
+    - Calcium: itemdex/items/calcium.md
+    - Carbos: itemdex/items/carbos.md
+    - Card Key: itemdex/items/card-key.md
+    - Casteliacone: itemdex/items/casteliacone.md
+    - Cell Battery: itemdex/items/cell-battery.md
+    - Charcoal: itemdex/items/charcoal.md
+    - Charti Berry: itemdex/items/charti-berry.md
+    - Cheri Berry: itemdex/items/cheri-berry.md
+    - Cherish Ball: itemdex/items/cherish-ball.md
+    - Chesto Berry: itemdex/items/chesto-berry.md
+    - Chilan Berry: itemdex/items/chilan-berry.md
+    - Chill Drive: itemdex/items/chill-drive.md
+    - Choice Band: itemdex/items/choice-band.md
+    - Choice Scarf: itemdex/items/choice-scarf.md
+    - Choice Specs: itemdex/items/choice-specs.md
+    - Chople Berry: itemdex/items/chople-berry.md
+    - Claw Fossil: itemdex/items/claw-fossil.md
+    - Cleanse Tag: itemdex/items/cleanse-tag.md
+    - Clear Bell: itemdex/items/clear-bell.md
+    - Clever Wing: itemdex/items/clever-wing.md
+    - Coba Berry: itemdex/items/coba-berry.md
+    - Coin Case: itemdex/items/coin-case.md
+    - Colbur Berry: itemdex/items/colbur-berry.md
+    - Colress Machine: itemdex/items/colress-machine.md
+    - Comet Shard: itemdex/items/comet-shard.md
+    - Contest Pass: itemdex/items/contest-pass.md
+    - Cornn Berry: itemdex/items/cornn-berry.md
+    - Coupon 1: itemdex/items/coupon-1.md
+    - Coupon 2: itemdex/items/coupon-2.md
+    - Coupon 3: itemdex/items/coupon-3.md
+    - Cover Fossil: itemdex/items/cover-fossil.md
+    - Custap Berry: itemdex/items/custap-berry.md
+  - D:
+    - Damp Mulch: itemdex/items/damp-mulch.md
+    - Damp Rock: itemdex/items/damp-rock.md
+    - Dark Gem: itemdex/items/dark-gem.md
+    - Dark Stone: itemdex/items/dark-stone.md
+    - Data Card 01: itemdex/items/data-card-01.md
+    - Data Card 02: itemdex/items/data-card-02.md
+    - Data Card 03: itemdex/items/data-card-03.md
+    - Data Card 04: itemdex/items/data-card-04.md
+    - Data Card 05: itemdex/items/data-card-05.md
+    - Data Card 06: itemdex/items/data-card-06.md
+    - Data Card 07: itemdex/items/data-card-07.md
+    - Data Card 08: itemdex/items/data-card-08.md
+    - Data Card 09: itemdex/items/data-card-09.md
+    - Data Card 10: itemdex/items/data-card-10.md
+    - Data Card 11: itemdex/items/data-card-11.md
+    - Data Card 12: itemdex/items/data-card-12.md
+    - Data Card 13: itemdex/items/data-card-13.md
+    - Data Card 14: itemdex/items/data-card-14.md
+    - Data Card 15: itemdex/items/data-card-15.md
+    - Data Card 16: itemdex/items/data-card-16.md
+    - Data Card 17: itemdex/items/data-card-17.md
+    - Data Card 18: itemdex/items/data-card-18.md
+    - Data Card 19: itemdex/items/data-card-19.md
+    - Data Card 20: itemdex/items/data-card-20.md
+    - Data Card 21: itemdex/items/data-card-21.md
+    - Data Card 22: itemdex/items/data-card-22.md
+    - Data Card 23: itemdex/items/data-card-23.md
+    - Data Card 24: itemdex/items/data-card-24.md
+    - Data Card 25: itemdex/items/data-card-25.md
+    - Data Card 26: itemdex/items/data-card-26.md
+    - Data Card 27: itemdex/items/data-card-27.md
+    - Dawn Stone: itemdex/items/dawn-stone.md
+    - Deep Sea Scale: itemdex/items/deep-sea-scale.md
+    - Deep Sea Tooth: itemdex/items/deep-sea-tooth.md
+    - Destiny Knot: itemdex/items/destiny-knot.md
+    - Dire Hit: itemdex/items/dire-hit.md
+    - Dire Hit 2: itemdex/items/dire-hit-2.md
+    - Dire Hit 3: itemdex/items/dire-hit-3.md
+    - Dive Ball: itemdex/items/dive-ball.md
+    - Dna Splicers: itemdex/items/dna-splicers.md
+    - Dome Fossil: itemdex/items/dome-fossil.md
+    - Douse Drive: itemdex/items/douse-drive.md
+    - Dowsing Machine: itemdex/items/dowsing-machine.md
+    - Draco Plate: itemdex/items/draco-plate.md
+    - Dragon Fang: itemdex/items/dragon-fang.md
+    - Dragon Gem: itemdex/items/dragon-gem.md
+    - Dragon Scale: itemdex/items/dragon-scale.md
+    - Dragon Skull: itemdex/items/dragon-skull.md
+    - Dread Plate: itemdex/items/dread-plate.md
+    - Dream Ball: itemdex/items/dream-ball.md
+    - Dropped Item: itemdex/items/dropped-item.md
+    - Dubious Disc: itemdex/items/dubious-disc.md
+    - Durin Berry: itemdex/items/durin-berry.md
+    - Dusk Ball: itemdex/items/dusk-ball.md
+    - Dusk Stone: itemdex/items/dusk-stone.md
+  - E:
+    - Earth Plate: itemdex/items/earth-plate.md
+    - Eject Button: itemdex/items/eject-button.md
+    - Electirizer: itemdex/items/electirizer.md
+    - Electric Gem: itemdex/items/electric-gem.md
+    - Elixir: itemdex/items/elixir.md
+    - Energy Powder: itemdex/items/energy-powder.md
+    - Energy Root: itemdex/items/energy-root.md
+    - Enigma Berry: itemdex/items/enigma-berry.md
+    - Enigma Stone: itemdex/items/enigma-stone.md
+    - Escape Rope: itemdex/items/escape-rope.md
+    - Ether: itemdex/items/ether.md
+    - Everstone: itemdex/items/everstone.md
+    - Eviolite: itemdex/items/eviolite.md
+    - Exp Share: itemdex/items/exp-share.md
+    - Expert Belt: itemdex/items/expert-belt.md
+    - Explorer Kit: itemdex/items/explorer-kit.md
+  - F:
+    - Fashion Case: itemdex/items/fashion-case.md
+    - Fast Ball: itemdex/items/fast-ball.md
+    - Favored Mail: itemdex/items/favored-mail.md
+    - Fighting Gem: itemdex/items/fighting-gem.md
+    - Figy Berry: itemdex/items/figy-berry.md
+    - Fire Gem: itemdex/items/fire-gem.md
+    - Fire Stone: itemdex/items/fire-stone.md
+    - Fist Plate: itemdex/items/fist-plate.md
+    - Flame Orb: itemdex/items/flame-orb.md
+    - Flame Plate: itemdex/items/flame-plate.md
+    - Float Stone: itemdex/items/float-stone.md
+    - Fluffy Tail: itemdex/items/fluffy-tail.md
+    - Flying Gem: itemdex/items/flying-gem.md
+    - Focus Band: itemdex/items/focus-band.md
+    - Focus Sash: itemdex/items/focus-sash.md
+    - Fresh Water: itemdex/items/fresh-water.md
+    - Friend Ball: itemdex/items/friend-ball.md
+    - Full Heal: itemdex/items/full-heal.md
+    - Full Incense: itemdex/items/full-incense.md
+    - Full Restore: itemdex/items/full-restore.md
+  - G:
+    - Galactic Key: itemdex/items/galactic-key.md
+    - Ganlon Berry: itemdex/items/ganlon-berry.md
+    - Gb Sounds: itemdex/items/gb-sounds.md
+    - Genius Wing: itemdex/items/genius-wing.md
+    - Ghost Gem: itemdex/items/ghost-gem.md
+    - God Stone: itemdex/items/god-stone.md
+    - Good Rod: itemdex/items/good-rod.md
+    - Gooey Mulch: itemdex/items/gooey-mulch.md
+    - Gracidea: itemdex/items/gracidea.md
+    - Gram 1: itemdex/items/gram-1.md
+    - Gram 2: itemdex/items/gram-2.md
+    - Gram 3: itemdex/items/gram-3.md
+    - Grass Gem: itemdex/items/grass-gem.md
+    - Great Ball: itemdex/items/great-ball.md
+    - Green Apricorn: itemdex/items/green-apricorn.md
+    - Green Scarf: itemdex/items/green-scarf.md
+    - Green Shard: itemdex/items/green-shard.md
+    - Greet Mail: itemdex/items/greet-mail.md
+    - Grepa Berry: itemdex/items/grepa-berry.md
+    - Grip Claw: itemdex/items/grip-claw.md
+    - Griseous Orb: itemdex/items/griseous-orb.md
+    - Ground Gem: itemdex/items/ground-gem.md
+    - Growth Mulch: itemdex/items/growth-mulch.md
+    - Grubby Hanky: itemdex/items/grubby-hanky.md
+    - Guard Spec: itemdex/items/guard-spec.md
+  - H:
+    - Haban Berry: itemdex/items/haban-berry.md
+    - Hard Stone: itemdex/items/hard-stone.md
+    - Heal Ball: itemdex/items/heal-ball.md
+    - Heal Powder: itemdex/items/heal-powder.md
+    - Health Wing: itemdex/items/health-wing.md
+    - Heart Scale: itemdex/items/heart-scale.md
+    - Heat Rock: itemdex/items/heat-rock.md
+    - Heavy Ball: itemdex/items/heavy-ball.md
+    - Helix Fossil: itemdex/items/helix-fossil.md
+    - Hm01: itemdex/items/hm01.md
+    - Hm02: itemdex/items/hm02.md
+    - Hm03: itemdex/items/hm03.md
+    - Hm04: itemdex/items/hm04.md
+    - Hm05: itemdex/items/hm05.md
+    - Hm06: itemdex/items/hm06.md
+    - Hondew Berry: itemdex/items/hondew-berry.md
+    - Honey: itemdex/items/honey.md
+    - HP Up: itemdex/items/hp-up.md
+    - Hyper Potion: itemdex/items/hyper-potion.md
+  - I:
+    - Iapapa Berry: itemdex/items/iapapa-berry.md
+    - Ice Gem: itemdex/items/ice-gem.md
+    - Ice Heal: itemdex/items/ice-heal.md
+    - Icicle Plate: itemdex/items/icicle-plate.md
+    - Icy Rock: itemdex/items/icy-rock.md
+    - Inquiry Mail: itemdex/items/inquiry-mail.md
+    - Insect Plate: itemdex/items/insect-plate.md
+    - Iron: itemdex/items/iron.md
+    - Iron Ball: itemdex/items/iron-ball.md
+    - Iron Plate: itemdex/items/iron-plate.md
+    - Item Drop: itemdex/items/item-drop.md
+    - Item Urge: itemdex/items/item-urge.md
+  - J:
+    - Jaboca Berry: itemdex/items/jaboca-berry.md
+    - Jade Orb: itemdex/items/jade-orb.md
+    - Journal: itemdex/items/journal.md
+  - K:
+    - Kasib Berry: itemdex/items/kasib-berry.md
+    - Kebia Berry: itemdex/items/kebia-berry.md
+    - Kelpsy Berry: itemdex/items/kelpsy-berry.md
+    - Kings Rock: itemdex/items/kings-rock.md
+  - L:
+    - Lagging Tail: itemdex/items/lagging-tail.md
+    - Lansat Berry: itemdex/items/lansat-berry.md
+    - Lava Cookie: itemdex/items/lava-cookie.md
+    - Lax Incense: itemdex/items/lax-incense.md
+    - Leaf Stone: itemdex/items/leaf-stone.md
+    - Leftovers: itemdex/items/leftovers.md
+    - Lemonade: itemdex/items/lemonade.md
+    - Leppa Berry: itemdex/items/leppa-berry.md
+    - Level Ball: itemdex/items/level-ball.md
+    - Liberty Pass: itemdex/items/liberty-pass.md
+    - Liechi Berry: itemdex/items/liechi-berry.md
+    - Life Orb: itemdex/items/life-orb.md
+    - Light Ball: itemdex/items/light-ball.md
+    - Light Clay: itemdex/items/light-clay.md
+    - Light Stone: itemdex/items/light-stone.md
+    - Like Mail: itemdex/items/like-mail.md
+    - Lock Capsule: itemdex/items/lock-capsule.md
+    - Loot Sack: itemdex/items/loot-sack.md
+    - Lost Item: itemdex/items/lost-item.md
+    - Love Ball: itemdex/items/love-ball.md
+    - Luck Incense: itemdex/items/luck-incense.md
+    - Lucky Egg: itemdex/items/lucky-egg.md
+    - Lucky Punch: itemdex/items/lucky-punch.md
+    - Lum Berry: itemdex/items/lum-berry.md
+    - Lunar Wing: itemdex/items/lunar-wing.md
+    - Lure Ball: itemdex/items/lure-ball.md
+    - Lustrous Orb: itemdex/items/lustrous-orb.md
+    - Luxury Ball: itemdex/items/luxury-ball.md
+  - M:
+    - Machine Part: itemdex/items/machine-part.md
+    - Macho Brace: itemdex/items/macho-brace.md
+    - Magma Stone: itemdex/items/magma-stone.md
+    - Magmarizer: itemdex/items/magmarizer.md
+    - Magnet: itemdex/items/magnet.md
+    - Mago Berry: itemdex/items/mago-berry.md
+    - Magost Berry: itemdex/items/magost-berry.md
+    - Master Ball: itemdex/items/master-ball.md
+    - Max Elixir: itemdex/items/max-elixir.md
+    - Max Ether: itemdex/items/max-ether.md
+    - Max Potion: itemdex/items/max-potion.md
+    - Max Repel: itemdex/items/max-repel.md
+    - Max Revive: itemdex/items/max-revive.md
+    - Meadow Plate: itemdex/items/meadow-plate.md
+    - Medal Box: itemdex/items/medal-box.md
+    - Member Card: itemdex/items/member-card.md
+    - Mental Herb: itemdex/items/mental-herb.md
+    - Metal Coat: itemdex/items/metal-coat.md
+    - Metal Powder: itemdex/items/metal-powder.md
+    - Metronome: itemdex/items/metronome.md
+    - Micle Berry: itemdex/items/micle-berry.md
+    - Mind Plate: itemdex/items/mind-plate.md
+    - Miracle Seed: itemdex/items/miracle-seed.md
+    - Moomoo Milk: itemdex/items/moomoo-milk.md
+    - Moon Ball: itemdex/items/moon-ball.md
+    - Moon Stone: itemdex/items/moon-stone.md
+    - Muscle Band: itemdex/items/muscle-band.md
+    - Muscle Wing: itemdex/items/muscle-wing.md
+    - Mystery Egg: itemdex/items/mystery-egg.md
+    - Mystic Water: itemdex/items/mystic-water.md
+  - N:
+    - Nanab Berry: itemdex/items/nanab-berry.md
+    - Nest Ball: itemdex/items/nest-ball.md
+    - Net Ball: itemdex/items/net-ball.md
+    - Never Melt Ice: itemdex/items/never-melt-ice.md
+    - Nomel Berry: itemdex/items/nomel-berry.md
+    - Normal Gem: itemdex/items/normal-gem.md
+    - Nugget: itemdex/items/nugget.md
+  - O:
+    - Oaks Letter: itemdex/items/oaks-letter.md
+    - Occa Berry: itemdex/items/occa-berry.md
+    - Odd Incense: itemdex/items/odd-incense.md
+    - Odd Keystone: itemdex/items/odd-keystone.md
+    - Old Amber: itemdex/items/old-amber.md
+    - Old Charm: itemdex/items/old-charm.md
+    - Old Gateau: itemdex/items/old-gateau.md
+    - Old Rod: itemdex/items/old-rod.md
+    - Oran Berry: itemdex/items/oran-berry.md
+    - Oval Charm: itemdex/items/oval-charm.md
+    - Oval Stone: itemdex/items/oval-stone.md
+  - P:
+    - Pal Pad: itemdex/items/pal-pad.md
+    - Pamtre Berry: itemdex/items/pamtre-berry.md
+    - Paralyze Heal: itemdex/items/paralyze-heal.md
+    - Parcel: itemdex/items/parcel.md
+    - Park Ball: itemdex/items/park-ball.md
+    - Pass: itemdex/items/pass.md
+    - Pass Orb: itemdex/items/pass-orb.md
+    - Passho Berry: itemdex/items/passho-berry.md
+    - Payapa Berry: itemdex/items/payapa-berry.md
+    - Pearl: itemdex/items/pearl.md
+    - Pearl String: itemdex/items/pearl-string.md
+    - Pecha Berry: itemdex/items/pecha-berry.md
+    - Permit: itemdex/items/permit.md
+    - Persim Berry: itemdex/items/persim-berry.md
+    - Petaya Berry: itemdex/items/petaya-berry.md
+    - Photo Album: itemdex/items/photo-album.md
+    - Pinap Berry: itemdex/items/pinap-berry.md
+    - Pink Apricorn: itemdex/items/pink-apricorn.md
+    - Pink Scarf: itemdex/items/pink-scarf.md
+    - Plasma Card: itemdex/items/plasma-card.md
+    - Plume Fossil: itemdex/items/plume-fossil.md
+    - Poffin Case: itemdex/items/poffin-case.md
+    - Point Card: itemdex/items/point-card.md
+    - Poison Barb: itemdex/items/poison-barb.md
+    - Poison Gem: itemdex/items/poison-gem.md
+    - Poke Ball: itemdex/items/poke-ball.md
+    - Poke Doll: itemdex/items/poke-doll.md
+    - Poke Radar: itemdex/items/poke-radar.md
+    - Poke Toy: itemdex/items/poke-toy.md
+    - Pomeg Berry: itemdex/items/pomeg-berry.md
+    - Potion: itemdex/items/potion.md
+    - Power Anklet: itemdex/items/power-anklet.md
+    - Power Band: itemdex/items/power-band.md
+    - Power Belt: itemdex/items/power-belt.md
+    - Power Bracer: itemdex/items/power-bracer.md
+    - Power Herb: itemdex/items/power-herb.md
+    - Power Lens: itemdex/items/power-lens.md
+    - Power Weight: itemdex/items/power-weight.md
+    - PP Max: itemdex/items/pp-max.md
+    - PP Up: itemdex/items/pp-up.md
+    - Premier Ball: itemdex/items/premier-ball.md
+    - Pretty Wing: itemdex/items/pretty-wing.md
+    - Prism Scale: itemdex/items/prism-scale.md
+    - Prop Case: itemdex/items/prop-case.md
+    - Protector: itemdex/items/protector.md
+    - Protein: itemdex/items/protein.md
+    - Psychic Gem: itemdex/items/psychic-gem.md
+    - Pure Incense: itemdex/items/pure-incense.md
+  - Q:
+    - Qualot Berry: itemdex/items/qualot-berry.md
+    - Quick Ball: itemdex/items/quick-ball.md
+    - Quick Claw: itemdex/items/quick-claw.md
+    - Quick Powder: itemdex/items/quick-powder.md
+  - R:
+    - Rabuta Berry: itemdex/items/rabuta-berry.md
+    - Rage Candy Bar: itemdex/items/rage-candy-bar.md
+    - Rainbow Wing: itemdex/items/rainbow-wing.md
+    - Rare Bone: itemdex/items/rare-bone.md
+    - Rare Candy: itemdex/items/rare-candy.md
+    - Rawst Berry: itemdex/items/rawst-berry.md
+    - Razor Claw: itemdex/items/razor-claw.md
+    - Razor Fang: itemdex/items/razor-fang.md
+    - Razz Berry: itemdex/items/razz-berry.md
+    - Reaper Cloth: itemdex/items/reaper-cloth.md
+    - Red Apricorn: itemdex/items/red-apricorn.md
+    - Red Card: itemdex/items/red-card.md
+    - Red Chain: itemdex/items/red-chain.md
+    - Red Flute: itemdex/items/red-flute.md
+    - Red Orb: itemdex/items/red-orb.md
+    - Red Scale: itemdex/items/red-scale.md
+    - Red Scarf: itemdex/items/red-scarf.md
+    - Red Shard: itemdex/items/red-shard.md
+    - Relic Band: itemdex/items/relic-band.md
+    - Relic Copper: itemdex/items/relic-copper.md
+    - Relic Crown: itemdex/items/relic-crown.md
+    - Relic Gold: itemdex/items/relic-gold.md
+    - Relic Silver: itemdex/items/relic-silver.md
+    - Relic Statue: itemdex/items/relic-statue.md
+    - Relic Vase: itemdex/items/relic-vase.md
+    - Repeat Ball: itemdex/items/repeat-ball.md
+    - Repel: itemdex/items/repel.md
+    - Reply Mail: itemdex/items/reply-mail.md
+    - Reset Urge: itemdex/items/reset-urge.md
+    - Resist Wing: itemdex/items/resist-wing.md
+    - Reveal Glass: itemdex/items/reveal-glass.md
+    - Revival Herb: itemdex/items/revival-herb.md
+    - Revive: itemdex/items/revive.md
+    - Rindo Berry: itemdex/items/rindo-berry.md
+    - Ring Target: itemdex/items/ring-target.md
+    - Rock Gem: itemdex/items/rock-gem.md
+    - Rock Incense: itemdex/items/rock-incense.md
+    - Rocky Helmet: itemdex/items/rocky-helmet.md
+    - Root Fossil: itemdex/items/root-fossil.md
+    - Rose Incense: itemdex/items/rose-incense.md
+    - Rowap Berry: itemdex/items/rowap-berry.md
+    - Rsvp Mail: itemdex/items/rsvp-mail.md
+    - Rule Book: itemdex/items/rule-book.md
+  - S:
+    - Sacred Ash: itemdex/items/sacred-ash.md
+    - Safari Ball: itemdex/items/safari-ball.md
+    - Salac Berry: itemdex/items/salac-berry.md
+    - Scope Lens: itemdex/items/scope-lens.md
+    - Sea Incense: itemdex/items/sea-incense.md
+    - Seal Bag: itemdex/items/seal-bag.md
+    - Seal Case: itemdex/items/seal-case.md
+    - Secret Key: itemdex/items/secret-key.md
+    - Secret Potion: itemdex/items/secret-potion.md
+    - Sharp Beak: itemdex/items/sharp-beak.md
+    - Shed Shell: itemdex/items/shed-shell.md
+    - Shell Bell: itemdex/items/shell-bell.md
+    - Shiny Charm: itemdex/items/shiny-charm.md
+    - Shiny Stone: itemdex/items/shiny-stone.md
+    - Shoal Salt: itemdex/items/shoal-salt.md
+    - Shoal Shell: itemdex/items/shoal-shell.md
+    - Shock Drive: itemdex/items/shock-drive.md
+    - Shuca Berry: itemdex/items/shuca-berry.md
+    - Silk Scarf: itemdex/items/silk-scarf.md
+    - Silver Powder: itemdex/items/silver-powder.md
+    - Silver Wing: itemdex/items/silver-wing.md
+    - Sitrus Berry: itemdex/items/sitrus-berry.md
+    - Skull Fossil: itemdex/items/skull-fossil.md
+    - Sky Plate: itemdex/items/sky-plate.md
+    - Slowpoke Tail: itemdex/items/slowpoke-tail.md
+    - Smoke Ball: itemdex/items/smoke-ball.md
+    - Smooth Rock: itemdex/items/smooth-rock.md
+    - Soda Pop: itemdex/items/soda-pop.md
+    - Soft Sand: itemdex/items/soft-sand.md
+    - Soothe Bell: itemdex/items/soothe-bell.md
+    - Soul Dew: itemdex/items/soul-dew.md
+    - Spell Tag: itemdex/items/spell-tag.md
+    - Spelon Berry: itemdex/items/spelon-berry.md
+    - Splash Plate: itemdex/items/splash-plate.md
+    - Spooky Plate: itemdex/items/spooky-plate.md
+    - Sport Ball: itemdex/items/sport-ball.md
+    - Sprayduck: itemdex/items/sprayduck.md
+    - Squirt Bottle: itemdex/items/squirt-bottle.md
+    - Ss Ticket: itemdex/items/ss-ticket.md
+    - Stable Mulch: itemdex/items/stable-mulch.md
+    - Star Piece: itemdex/items/star-piece.md
+    - Stardust: itemdex/items/stardust.md
+    - Starf Berry: itemdex/items/starf-berry.md
+    - Steel Gem: itemdex/items/steel-gem.md
+    - Stick: itemdex/items/stick.md
+    - Sticky Barb: itemdex/items/sticky-barb.md
+    - Stone Plate: itemdex/items/stone-plate.md
+    - Storage Key: itemdex/items/storage-key.md
+    - Suite Key: itemdex/items/suite-key.md
+    - Sun Stone: itemdex/items/sun-stone.md
+    - Super Potion: itemdex/items/super-potion.md
+    - Super Repel: itemdex/items/super-repel.md
+    - Super Rod: itemdex/items/super-rod.md
+    - Sweet Heart: itemdex/items/sweet-heart.md
+    - Swift Wing: itemdex/items/swift-wing.md
+  - T:
+    - Tamato Berry: itemdex/items/tamato-berry.md
+    - Tanga Berry: itemdex/items/tanga-berry.md
+    - Thanks Mail: itemdex/items/thanks-mail.md
+    - Thick Club: itemdex/items/thick-club.md
+    - Thunder Stone: itemdex/items/thunder-stone.md
+    - Tidal Bell: itemdex/items/tidal-bell.md
+    - Timer Ball: itemdex/items/timer-ball.md
+    - Tiny Mushroom: itemdex/items/tiny-mushroom.md
+    - Tm01: itemdex/items/tm01.md
+    - Tm02: itemdex/items/tm02.md
+    - Tm03: itemdex/items/tm03.md
+    - Tm04: itemdex/items/tm04.md
+    - Tm05: itemdex/items/tm05.md
+    - Tm06: itemdex/items/tm06.md
+    - Tm07: itemdex/items/tm07.md
+    - Tm08: itemdex/items/tm08.md
+    - Tm09: itemdex/items/tm09.md
+    - Tm10: itemdex/items/tm10.md
+    - Tm11: itemdex/items/tm11.md
+    - Tm12: itemdex/items/tm12.md
+    - Tm13: itemdex/items/tm13.md
+    - Tm14: itemdex/items/tm14.md
+    - Tm15: itemdex/items/tm15.md
+    - Tm16: itemdex/items/tm16.md
+    - Tm17: itemdex/items/tm17.md
+    - Tm18: itemdex/items/tm18.md
+    - Tm19: itemdex/items/tm19.md
+    - Tm20: itemdex/items/tm20.md
+    - Tm21: itemdex/items/tm21.md
+    - Tm22: itemdex/items/tm22.md
+    - Tm23: itemdex/items/tm23.md
+    - Tm24: itemdex/items/tm24.md
+    - Tm25: itemdex/items/tm25.md
+    - Tm26: itemdex/items/tm26.md
+    - Tm27: itemdex/items/tm27.md
+    - Tm28: itemdex/items/tm28.md
+    - Tm29: itemdex/items/tm29.md
+    - Tm30: itemdex/items/tm30.md
+    - Tm31: itemdex/items/tm31.md
+    - Tm32: itemdex/items/tm32.md
+    - Tm33: itemdex/items/tm33.md
+    - Tm34: itemdex/items/tm34.md
+    - Tm35: itemdex/items/tm35.md
+    - Tm36: itemdex/items/tm36.md
+    - Tm37: itemdex/items/tm37.md
+    - Tm38: itemdex/items/tm38.md
+    - Tm39: itemdex/items/tm39.md
+    - Tm40: itemdex/items/tm40.md
+    - Tm41: itemdex/items/tm41.md
+    - Tm42: itemdex/items/tm42.md
+    - Tm43: itemdex/items/tm43.md
+    - Tm44: itemdex/items/tm44.md
+    - Tm45: itemdex/items/tm45.md
+    - Tm46: itemdex/items/tm46.md
+    - Tm47: itemdex/items/tm47.md
+    - Tm48: itemdex/items/tm48.md
+    - Tm49: itemdex/items/tm49.md
+    - Tm50: itemdex/items/tm50.md
+    - Tm51: itemdex/items/tm51.md
+    - Tm52: itemdex/items/tm52.md
+    - Tm53: itemdex/items/tm53.md
+    - Tm54: itemdex/items/tm54.md
+    - Tm55: itemdex/items/tm55.md
+    - Tm56: itemdex/items/tm56.md
+    - Tm57: itemdex/items/tm57.md
+    - Tm58: itemdex/items/tm58.md
+    - Tm59: itemdex/items/tm59.md
+    - Tm60: itemdex/items/tm60.md
+    - Tm61: itemdex/items/tm61.md
+    - Tm62: itemdex/items/tm62.md
+    - Tm63: itemdex/items/tm63.md
+    - Tm64: itemdex/items/tm64.md
+    - Tm65: itemdex/items/tm65.md
+    - Tm66: itemdex/items/tm66.md
+    - Tm67: itemdex/items/tm67.md
+    - Tm68: itemdex/items/tm68.md
+    - Tm69: itemdex/items/tm69.md
+    - Tm70: itemdex/items/tm70.md
+    - Tm71: itemdex/items/tm71.md
+    - Tm72: itemdex/items/tm72.md
+    - Tm73: itemdex/items/tm73.md
+    - Tm74: itemdex/items/tm74.md
+    - Tm75: itemdex/items/tm75.md
+    - Tm76: itemdex/items/tm76.md
+    - Tm77: itemdex/items/tm77.md
+    - Tm78: itemdex/items/tm78.md
+    - Tm79: itemdex/items/tm79.md
+    - Tm80: itemdex/items/tm80.md
+    - Tm81: itemdex/items/tm81.md
+    - Tm82: itemdex/items/tm82.md
+    - Tm83: itemdex/items/tm83.md
+    - Tm84: itemdex/items/tm84.md
+    - Tm85: itemdex/items/tm85.md
+    - Tm86: itemdex/items/tm86.md
+    - Tm87: itemdex/items/tm87.md
+    - Tm88: itemdex/items/tm88.md
+    - Tm89: itemdex/items/tm89.md
+    - Tm90: itemdex/items/tm90.md
+    - Tm91: itemdex/items/tm91.md
+    - Tm92: itemdex/items/tm92.md
+    - Tm93: itemdex/items/tm93.md
+    - Tm94: itemdex/items/tm94.md
+    - Tm95: itemdex/items/tm95.md
+    - Town Map: itemdex/items/town-map.md
+    - Toxic Orb: itemdex/items/toxic-orb.md
+    - Toxic Plate: itemdex/items/toxic-plate.md
+    - Twisted Spoon: itemdex/items/twisted-spoon.md
+  - U:
+    - Ultra Ball: itemdex/items/ultra-ball.md
+    - Unown Report: itemdex/items/unown-report.md
+    - Up Grade: itemdex/items/up-grade.md
+  - V:
+    - Vs Recorder: itemdex/items/vs-recorder.md
+    - Vs Seeker: itemdex/items/vs-seeker.md
+  - W:
+    - Wacan Berry: itemdex/items/wacan-berry.md
+    - Water Gem: itemdex/items/water-gem.md
+    - Water Stone: itemdex/items/water-stone.md
+    - Watmel Berry: itemdex/items/watmel-berry.md
+    - Wave Incense: itemdex/items/wave-incense.md
+    - Wepear Berry: itemdex/items/wepear-berry.md
+    - White Apricorn: itemdex/items/white-apricorn.md
+    - White Flute: itemdex/items/white-flute.md
+    - White Herb: itemdex/items/white-herb.md
+    - Wide Lens: itemdex/items/wide-lens.md
+    - Wiki Berry: itemdex/items/wiki-berry.md
+    - Wise Glasses: itemdex/items/wise-glasses.md
+    - Works Key: itemdex/items/works-key.md
+  - X:
+    - X Accuracy: itemdex/items/x-accuracy.md
+    - X Accuracy 2: itemdex/items/x-accuracy-2.md
+    - X Accuracy 3: itemdex/items/x-accuracy-3.md
+    - X Accuracy 6: itemdex/items/x-accuracy-6.md
+    - X Attack: itemdex/items/x-attack.md
+    - X Attack 2: itemdex/items/x-attack-2.md
+    - X Attack 3: itemdex/items/x-attack-3.md
+    - X Attack 6: itemdex/items/x-attack-6.md
+    - X Defense: itemdex/items/x-defense.md
+    - X Defense 2: itemdex/items/x-defense-2.md
+    - X Defense 3: itemdex/items/x-defense-3.md
+    - X Defense 6: itemdex/items/x-defense-6.md
+    - X Sp Atk: itemdex/items/x-sp-atk.md
+    - X Sp Atk 2: itemdex/items/x-sp-atk-2.md
+    - X Sp Atk 3: itemdex/items/x-sp-atk-3.md
+    - X Sp Atk 6: itemdex/items/x-sp-atk-6.md
+    - X Sp Def: itemdex/items/x-sp-def.md
+    - X Sp Def 2: itemdex/items/x-sp-def-2.md
+    - X Sp Def 3: itemdex/items/x-sp-def-3.md
+    - X Sp Def 6: itemdex/items/x-sp-def-6.md
+    - X Speed: itemdex/items/x-speed.md
+    - X Speed 2: itemdex/items/x-speed-2.md
+    - X Speed 3: itemdex/items/x-speed-3.md
+    - X Speed 6: itemdex/items/x-speed-6.md
+    - Xtransceiver: itemdex/items/xtransceiver.md
+  - Y:
+    - Yache Berry: itemdex/items/yache-berry.md
+    - Yellow Apricorn: itemdex/items/yellow-apricorn.md
+    - Yellow Flute: itemdex/items/yellow-flute.md
+    - Yellow Scarf: itemdex/items/yellow-scarf.md
+    - Yellow Shard: itemdex/items/yellow-shard.md
+  - Z:
+    - Zap Plate: itemdex/items/zap-plate.md
+    - Zinc: itemdex/items/zinc.md
+    - Zoom Lens: itemdex/items/zoom-lens.md
