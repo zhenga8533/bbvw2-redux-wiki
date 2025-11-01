@@ -307,8 +307,8 @@ class Ability:
     name: str
     source_url: str
     is_main_series: bool
-    effect: GameVersionStringMap
-    short_effect: str
+    effect: Optional[GameVersionStringMap]
+    short_effect: Optional[str]
     flavor_text: GameVersionStringMap
 
     def __post_init__(self):
@@ -317,6 +317,7 @@ class Ability:
             self.effect = GameVersionStringMap.from_dict(self.effect)
         elif isinstance(self.effect, str):
             self.effect = GameVersionStringMap({key: self.effect for key in VERSION_GROUP_KEYS})
+        # else: effect is None, which is valid
 
         if isinstance(self.flavor_text, dict):
             self.flavor_text = GameVersionStringMap.from_dict(self.flavor_text)
@@ -336,13 +337,13 @@ class Ability:
             raise ValueError(
                 f"is_main_series must be a boolean, got: {type(self.is_main_series)}"
             )
-        if not isinstance(self.effect, GameVersionStringMap):
+        if self.effect is not None and not isinstance(self.effect, GameVersionStringMap):
             raise ValueError(
-                f"effect must be a GameVersionStringMap, got: {type(self.effect)}"
+                f"effect must be a GameVersionStringMap or None, got: {type(self.effect)}"
             )
-        if not isinstance(self.short_effect, str):
+        if self.short_effect is not None and not isinstance(self.short_effect, str):
             raise ValueError(
-                f"short_effect must be a string, got: {type(self.short_effect)}"
+                f"short_effect must be a string or None, got: {type(self.short_effect)}"
             )
         if not isinstance(self.flavor_text, GameVersionStringMap):
             raise ValueError(

@@ -88,6 +88,11 @@
         "module": "src.generators.pokemon_generator",
         "class": "PokemonGenerator",
         "output_dir": "docs/pokedex"
+      },
+      "abilities": {
+        "module": "src.generators.ability_generator",
+        "class": "AbilityGenerator",
+        "output_dir": "docs"
       }
     }
   }

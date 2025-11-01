@@ -48,6 +48,7 @@ theme:
       name: Switch to light mode
 extra_css:
 - stylesheets/pokemon.css
+- stylesheets/ability.css
 nav:
 - Getting Started:
   - Home: index.md
@@ -768,3 +769,193 @@ nav:
       - Aria: pokedex/pokemon/meloetta-aria.md
       - Pirouette: pokedex/pokemon/meloetta-pirouette.md
     - '#649 Genesect': pokedex/pokemon/genesect.md
+- Abilities:
+  - Overview: abilities.md
+  - A:
+    - Adaptability: abilities/adaptability.md
+    - Aftermath: abilities/aftermath.md
+    - Air Lock: abilities/air-lock.md
+    - Analytic: abilities/analytic.md
+    - Anger Point: abilities/anger-point.md
+    - Anticipation: abilities/anticipation.md
+    - Arena Trap: abilities/arena-trap.md
+  - B:
+    - Bad Dreams: abilities/bad-dreams.md
+    - Battle Armor: abilities/battle-armor.md
+    - Big Pecks: abilities/big-pecks.md
+    - Blaze: abilities/blaze.md
+  - C:
+    - Chlorophyll: abilities/chlorophyll.md
+    - Clear Body: abilities/clear-body.md
+    - Cloud Nine: abilities/cloud-nine.md
+    - Color Change: abilities/color-change.md
+    - Compound Eyes: abilities/compound-eyes.md
+    - Contrary: abilities/contrary.md
+    - Cursed Body: abilities/cursed-body.md
+    - Cute Charm: abilities/cute-charm.md
+  - D:
+    - Damp: abilities/damp.md
+    - Defeatist: abilities/defeatist.md
+    - Defiant: abilities/defiant.md
+    - Download: abilities/download.md
+    - Drizzle: abilities/drizzle.md
+    - Drought: abilities/drought.md
+    - Dry Skin: abilities/dry-skin.md
+  - E:
+    - Early Bird: abilities/early-bird.md
+    - Effect Spore: abilities/effect-spore.md
+  - F:
+    - Filter: abilities/filter.md
+    - Flame Body: abilities/flame-body.md
+    - Flare Boost: abilities/flare-boost.md
+    - Flash Fire: abilities/flash-fire.md
+    - Flower Gift: abilities/flower-gift.md
+    - Forecast: abilities/forecast.md
+    - Forewarn: abilities/forewarn.md
+    - Friend Guard: abilities/friend-guard.md
+    - Frisk: abilities/frisk.md
+  - G:
+    - Gluttony: abilities/gluttony.md
+    - Guts: abilities/guts.md
+  - H:
+    - Harvest: abilities/harvest.md
+    - Healer: abilities/healer.md
+    - Heatproof: abilities/heatproof.md
+    - Heavy Metal: abilities/heavy-metal.md
+    - Honey Gather: abilities/honey-gather.md
+    - Huge Power: abilities/huge-power.md
+    - Hustle: abilities/hustle.md
+    - Hydration: abilities/hydration.md
+    - Hyper Cutter: abilities/hyper-cutter.md
+  - I:
+    - Ice Body: abilities/ice-body.md
+    - Illuminate: abilities/illuminate.md
+    - Illusion: abilities/illusion.md
+    - Immunity: abilities/immunity.md
+    - Imposter: abilities/imposter.md
+    - Infiltrator: abilities/infiltrator.md
+    - Inner Focus: abilities/inner-focus.md
+    - Insomnia: abilities/insomnia.md
+    - Intimidate: abilities/intimidate.md
+    - Iron Barbs: abilities/iron-barbs.md
+    - Iron Fist: abilities/iron-fist.md
+  - J:
+    - Justified: abilities/justified.md
+  - K:
+    - Keen Eye: abilities/keen-eye.md
+    - Klutz: abilities/klutz.md
+  - L:
+    - Leaf Guard: abilities/leaf-guard.md
+    - Levitate: abilities/levitate.md
+    - Light Metal: abilities/light-metal.md
+    - Lightning Rod: abilities/lightning-rod.md
+    - Limber: abilities/limber.md
+    - Liquid Ooze: abilities/liquid-ooze.md
+  - M:
+    - Magic Bounce: abilities/magic-bounce.md
+    - Magic Guard: abilities/magic-guard.md
+    - Magma Armor: abilities/magma-armor.md
+    - Magnet Pull: abilities/magnet-pull.md
+    - Marvel Scale: abilities/marvel-scale.md
+    - Minus: abilities/minus.md
+    - Mold Breaker: abilities/mold-breaker.md
+    - Moody: abilities/moody.md
+    - Motor Drive: abilities/motor-drive.md
+    - Moxie: abilities/moxie.md
+    - Multiscale: abilities/multiscale.md
+    - Multitype: abilities/multitype.md
+    - Mummy: abilities/mummy.md
+  - N:
+    - Natural Cure: abilities/natural-cure.md
+    - No Guard: abilities/no-guard.md
+    - Normalize: abilities/normalize.md
+  - O:
+    - Oblivious: abilities/oblivious.md
+    - Overcoat: abilities/overcoat.md
+    - Overgrow: abilities/overgrow.md
+    - Own Tempo: abilities/own-tempo.md
+  - P:
+    - Pickpocket: abilities/pickpocket.md
+    - Pickup: abilities/pickup.md
+    - Plus: abilities/plus.md
+    - Poison Heal: abilities/poison-heal.md
+    - Poison Point: abilities/poison-point.md
+    - Poison Touch: abilities/poison-touch.md
+    - Prankster: abilities/prankster.md
+    - Pressure: abilities/pressure.md
+    - Pure Power: abilities/pure-power.md
+  - Q:
+    - Quick Feet: abilities/quick-feet.md
+  - R:
+    - Rain Dish: abilities/rain-dish.md
+    - Rattled: abilities/rattled.md
+    - Reckless: abilities/reckless.md
+    - Regenerator: abilities/regenerator.md
+    - Rivalry: abilities/rivalry.md
+    - Rock Head: abilities/rock-head.md
+    - Rough Skin: abilities/rough-skin.md
+    - Run Away: abilities/run-away.md
+  - S:
+    - Sand Force: abilities/sand-force.md
+    - Sand Rush: abilities/sand-rush.md
+    - Sand Stream: abilities/sand-stream.md
+    - Sand Veil: abilities/sand-veil.md
+    - Sap Sipper: abilities/sap-sipper.md
+    - Scrappy: abilities/scrappy.md
+    - Serene Grace: abilities/serene-grace.md
+    - Shadow Tag: abilities/shadow-tag.md
+    - Shed Skin: abilities/shed-skin.md
+    - Sheer Force: abilities/sheer-force.md
+    - Shell Armor: abilities/shell-armor.md
+    - Shield Dust: abilities/shield-dust.md
+    - Simple: abilities/simple.md
+    - Skill Link: abilities/skill-link.md
+    - Slow Start: abilities/slow-start.md
+    - Sniper: abilities/sniper.md
+    - Snow Cloak: abilities/snow-cloak.md
+    - Snow Warning: abilities/snow-warning.md
+    - Solar Power: abilities/solar-power.md
+    - Solid Rock: abilities/solid-rock.md
+    - Soundproof: abilities/soundproof.md
+    - Speed Boost: abilities/speed-boost.md
+    - Stall: abilities/stall.md
+    - Static: abilities/static.md
+    - Steadfast: abilities/steadfast.md
+    - Stench: abilities/stench.md
+    - Sticky Hold: abilities/sticky-hold.md
+    - Storm Drain: abilities/storm-drain.md
+    - Sturdy: abilities/sturdy.md
+    - Suction Cups: abilities/suction-cups.md
+    - Super Luck: abilities/super-luck.md
+    - Swarm: abilities/swarm.md
+    - Swift Swim: abilities/swift-swim.md
+    - Synchronize: abilities/synchronize.md
+  - T:
+    - Tangled Feet: abilities/tangled-feet.md
+    - Technician: abilities/technician.md
+    - Telepathy: abilities/telepathy.md
+    - Teravolt: abilities/teravolt.md
+    - Thick Fat: abilities/thick-fat.md
+    - Tinted Lens: abilities/tinted-lens.md
+    - Torrent: abilities/torrent.md
+    - Toxic Boost: abilities/toxic-boost.md
+    - Trace: abilities/trace.md
+    - Truant: abilities/truant.md
+    - Turboblaze: abilities/turboblaze.md
+  - U:
+    - Unaware: abilities/unaware.md
+    - Unburden: abilities/unburden.md
+    - Unnerve: abilities/unnerve.md
+  - V:
+    - Victory Star: abilities/victory-star.md
+    - Vital Spirit: abilities/vital-spirit.md
+    - Volt Absorb: abilities/volt-absorb.md
+  - W:
+    - Water Absorb: abilities/water-absorb.md
+    - Water Veil: abilities/water-veil.md
+    - Weak Armor: abilities/weak-armor.md
+    - White Smoke: abilities/white-smoke.md
+    - Wonder Guard: abilities/wonder-guard.md
+    - Wonder Skin: abilities/wonder-skin.md
+  - Z:
+    - Zen Mode: abilities/zen-mode.md

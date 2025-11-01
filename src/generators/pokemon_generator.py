@@ -1,10 +1,14 @@
 """
 Generator for individual Pokemon markdown pages.
 
+This generator is specifically designed for Blaze Black 2 & Volt White 2 Redux,
+with content prioritizing Black 2 & White 2 data.
+
 This generator:
 1. Reads Pokemon data from data/pokedb/parsed/pokemon/
 2. Generates individual markdown files for each Pokemon to docs/pokedex/pokemon/
 3. Handles Pokemon forms and variations
+4. Prioritizes Black 2 & White 2 content (flavor text, etc.)
 
 CSS Styling:
 This generator uses CSS classes defined in docs/stylesheets/pokemon.css.
@@ -553,23 +557,25 @@ class PokemonGenerator(BaseGenerator):
         return md
 
     def _generate_held_items_section(self, pokemon: Pokemon) -> str:
-        """Generate the held items section showing what items this Pokemon can hold in the wild."""
+        """
+        Generate the held items section showing what items this Pokemon can hold in the wild.
+
+        Prioritizes Black 2 & White 2 data (the focus of this wiki).
+        """
         if not pokemon.held_items:
             return ""
 
         md = "## :material-treasure-chest: Wild Held Items\n\n"
         md += "These items can be found when catching or defeating this Pokémon in the wild:\n\n"
 
-        # Create a simple table
-        md += "| Item | Black | White | Black 2 | White 2 |\n"
-        md += "|------|:-----:|:-----:|:-------:|:-------:|\n"
+        # Prioritize Black 2 & White 2 (main focus)
+        md += "| Item | Black 2 | White 2 |\n"
+        md += "|------|:-------:|:-------:|\n"
 
         for item_name, rates in pokemon.held_items.items():
             item_display = format_item(item_name.replace("_", " ").title())
 
-            # Get rates for each version
-            black_rate = f"{rates.get('black', 0)}%" if rates.get("black") else "—"
-            white_rate = f"{rates.get('white', 0)}%" if rates.get("white") else "—"
+            # Get rates for Black 2 & White 2
             black_2_rate = (
                 f"{rates.get('black_2', 0)}%" if rates.get("black_2") else "—"
             )
@@ -577,7 +583,7 @@ class PokemonGenerator(BaseGenerator):
                 f"{rates.get('white_2', 0)}%" if rates.get("white_2") else "—"
             )
 
-            md += f"| {item_display} | {black_rate} | {white_rate} | {black_2_rate} | {white_2_rate} |\n"
+            md += f"| {item_display} | {black_2_rate} | {white_2_rate} |\n"
 
         md += "\n"
         return md
@@ -1098,29 +1104,67 @@ class PokemonGenerator(BaseGenerator):
         return md
 
     def _generate_flavor_text(self, pokemon: Pokemon) -> str:
-        """Generate the Pokedex flavor text section."""
+        """
+        Generate the Pokédex flavor text section.
+
+        Focuses on Black 2 & White 2 (the main focus of this wiki).
+        """
         md = "## :material-book-open: Pokédex Entries\n\n"
 
-        # Create tabs for different versions
-        md += '=== ":material-circle-outline: Black"\n\n'
-        if pokemon.flavor_text.black:
-            md += f'\t!!! quote ""\n\n'
-            md += f"\t\t{pokemon.flavor_text.black}\n\n"
+        # Pokemon flavor_text uses GameStringMap (individual game versions)
+        # Prioritize Black 2 & White 2 since this is a B2W2 Redux wiki
+        has_b2w2 = pokemon.flavor_text.black_2 or pokemon.flavor_text.white_2
+        has_bw = pokemon.flavor_text.black or pokemon.flavor_text.white
 
-        md += '=== ":material-circle: White"\n\n'
-        if pokemon.flavor_text.white:
-            md += f'\t!!! quote ""\n\n'
-            md += f"\t\t{pokemon.flavor_text.white}\n\n"
+        if has_b2w2:
+            # Show Black 2 & White 2 (main focus)
+            md += '=== ":material-numeric-2-circle-outline: Black 2"\n\n'
+            if pokemon.flavor_text.black_2:
+                md += f'\t!!! quote ""\n\n'
+                md += f"\t\t{pokemon.flavor_text.black_2}\n\n"
+            else:
+                md += "\t*No entry available*\n\n"
 
-        md += '=== ":material-numeric-2-circle-outline: Black 2"\n\n'
-        if pokemon.flavor_text.black_2:
-            md += f'\t!!! quote ""\n\n'
-            md += f"\t\t{pokemon.flavor_text.black_2}\n\n"
+            md += '=== ":material-numeric-2-circle: White 2"\n\n'
+            if pokemon.flavor_text.white_2:
+                md += f'\t!!! quote ""\n\n'
+                md += f"\t\t{pokemon.flavor_text.white_2}\n\n"
+            else:
+                md += "\t*No entry available*\n\n"
 
-        md += '=== ":material-numeric-2-circle: White 2"\n\n'
-        if pokemon.flavor_text.white_2:
-            md += f'\t!!! quote ""\n\n'
-            md += f"\t\t{pokemon.flavor_text.white_2}\n\n"
+            # Show original Black & White as additional reference if available
+            if has_bw:
+                md += '=== ":material-circle-outline: Black (Original)"\n\n'
+                if pokemon.flavor_text.black:
+                    md += f'\t!!! quote ""\n\n'
+                    md += f"\t\t{pokemon.flavor_text.black}\n\n"
+                else:
+                    md += "\t*No entry available*\n\n"
+
+                md += '=== ":material-circle: White (Original)"\n\n'
+                if pokemon.flavor_text.white:
+                    md += f'\t!!! quote ""\n\n'
+                    md += f"\t\t{pokemon.flavor_text.white}\n\n"
+                else:
+                    md += "\t*No entry available*\n\n"
+
+        elif has_bw:
+            # Fallback to Black & White if B2W2 entries don't exist
+            md += '=== ":material-circle-outline: Black"\n\n'
+            if pokemon.flavor_text.black:
+                md += f'\t!!! quote ""\n\n'
+                md += f"\t\t{pokemon.flavor_text.black}\n\n"
+            else:
+                md += "\t*No entry available*\n\n"
+
+            md += '=== ":material-circle: White"\n\n'
+            if pokemon.flavor_text.white:
+                md += f'\t!!! quote ""\n\n'
+                md += f"\t\t{pokemon.flavor_text.white}\n\n"
+            else:
+                md += "\t*No entry available*\n\n"
+        else:
+            md += "*No Pokédex entries available.*\n\n"
 
         return md
 
@@ -1386,7 +1430,8 @@ class PokemonGenerator(BaseGenerator):
 
         # Generate markdown
         md = "# Pokédex\n\n"
-        md += "Complete list of all Pokémon in Blaze Black 2 & Volt White 2 Redux.\n\n"
+        md += "Complete list of all Pokémon in **Blaze Black 2 & Volt White 2 Redux**.\n\n"
+        md += "> Click on any Pokémon to see detailed stats, moves, evolutions, and more.\n\n"
 
         # Group Pokemon by generation
         gen_definitions = [

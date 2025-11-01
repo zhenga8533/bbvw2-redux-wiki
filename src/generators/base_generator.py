@@ -48,6 +48,28 @@ class BaseGenerator(ABC):
             extra={"output_dir": str(self.output_dir)},
         )
 
+    def _cleanup_output_dir(self, pattern: str = "*.md") -> int:
+        """
+        Clean up old files in the output directory.
+
+        Args:
+            pattern: Glob pattern for files to delete (default: "*.md")
+
+        Returns:
+            int: Number of files deleted
+        """
+        deleted_count = 0
+        if self.output_dir.exists():
+            for old_file in self.output_dir.glob(pattern):
+                old_file.unlink()
+                self.logger.debug(f"Deleted old file: {old_file}")
+                deleted_count += 1
+
+        if deleted_count > 0:
+            self.logger.info(f"Cleaned up {deleted_count} old files from {self.output_dir}")
+
+        return deleted_count
+
     @abstractmethod
     def generate(self) -> bool:
         """
