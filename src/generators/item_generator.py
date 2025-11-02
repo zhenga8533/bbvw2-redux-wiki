@@ -365,6 +365,11 @@ class ItemGenerator(BaseGenerator):
                 item = PokeDBLoader.load_item(item_name)
 
                 if item:
+                    # Skip miracle-shooter category items
+                    if item.category == "miracle-shooter":
+                        self.logger.debug(f"Skipping miracle-shooter item: {item_name}")
+                        continue
+
                     output_path = self.generate_item_page(item, cache=pokemon_cache)
                     generated_files.append(output_path)
                 else:
@@ -398,6 +403,9 @@ class ItemGenerator(BaseGenerator):
             try:
                 item = PokeDBLoader.load_item(item_file.stem)
                 if item:
+                    # Skip miracle-shooter category items
+                    if item.category == "miracle-shooter":
+                        continue
                     items.append(item)
             except Exception as e:
                 self.logger.error(f"Error loading {item_file.stem}: {e}")
@@ -470,6 +478,9 @@ class ItemGenerator(BaseGenerator):
                 try:
                     item = PokeDBLoader.load_item(item_file.stem)
                     if item:
+                        # Skip miracle-shooter category items
+                        if item.category == "miracle-shooter":
+                            continue
                         items.append(item)
                 except Exception as e:
                     self.logger.warning(f"Could not load {item_file.stem}: {e}")
@@ -504,6 +515,12 @@ class ItemGenerator(BaseGenerator):
                 # Then check key items
                 elif category == "gameplay":
                     context = "key-items"
+                # Then check for machines
+                elif category == "all-machines":
+                    context = "machines"
+                # Then check for evolution items
+                elif category == "evolution":
+                    context = "evolution"
                 # Default: miscellaneous
                 else:
                     context = "miscellaneous"
@@ -518,9 +535,16 @@ class ItemGenerator(BaseGenerator):
                 "consumable": "Consumable",
                 "holdable": "Holdable",
                 "key-items": "Key Items",
+                "machines": "Machines",
                 "miscellaneous": "Miscellaneous",
             }
-            context_order = ["consumable", "holdable", "key-items", "miscellaneous"]
+            context_order = [
+                "consumable",
+                "holdable",
+                "key-items",
+                "machines",
+                "miscellaneous",
+            ]
 
             # Add subsections for each usage context
             for context_key in context_order:

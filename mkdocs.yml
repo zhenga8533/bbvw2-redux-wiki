@@ -1213,234 +1213,13 @@ nav:
       - Vs Recorder: pokedex/items/vs-recorder.md
       - Vs Seeker: pokedex/items/vs-seeker.md
       - Xtransceiver: pokedex/items/xtransceiver.md
-    - Miscellaneous:
-      - Ability Urge: pokedex/items/ability-urge.md
-      - Armor Fossil: pokedex/items/armor-fossil.md
-      - Azure Flute: pokedex/items/azure-flute.md
-      - Balm Mushroom: pokedex/items/balm-mushroom.md
-      - Basement Key: pokedex/items/basement-key.md
-      - Belue Berry: pokedex/items/belue-berry.md
-      - Big Mushroom: pokedex/items/big-mushroom.md
-      - Big Nugget: pokedex/items/big-nugget.md
-      - Big Pearl: pokedex/items/big-pearl.md
-      - Black Apricorn: pokedex/items/black-apricorn.md
-      - Blue Apricorn: pokedex/items/blue-apricorn.md
-      - Blue Orb: pokedex/items/blue-orb.md
-      - Blue Shard: pokedex/items/blue-shard.md
-      - Bluk Berry: pokedex/items/bluk-berry.md
-      - Bridge Mail D: pokedex/items/bridge-mail-d.md
-      - Bridge Mail M: pokedex/items/bridge-mail-m.md
-      - Bridge Mail S: pokedex/items/bridge-mail-s.md
-      - Bridge Mail T: pokedex/items/bridge-mail-t.md
-      - Bridge Mail V: pokedex/items/bridge-mail-v.md
-      - Bug Gem: pokedex/items/bug-gem.md
-      - Burn Drive: pokedex/items/burn-drive.md
-      - Card Key: pokedex/items/card-key.md
-      - Casteliacone: pokedex/items/casteliacone.md
-      - Chill Drive: pokedex/items/chill-drive.md
-      - Claw Fossil: pokedex/items/claw-fossil.md
-      - Clear Bell: pokedex/items/clear-bell.md
-      - Clever Wing: pokedex/items/clever-wing.md
-      - Colress Machine: pokedex/items/colress-machine.md
-      - Comet Shard: pokedex/items/comet-shard.md
-      - Cornn Berry: pokedex/items/cornn-berry.md
-      - Coupon 1: pokedex/items/coupon-1.md
-      - Coupon 2: pokedex/items/coupon-2.md
-      - Coupon 3: pokedex/items/coupon-3.md
-      - Cover Fossil: pokedex/items/cover-fossil.md
-      - Damp Mulch: pokedex/items/damp-mulch.md
-      - Dark Gem: pokedex/items/dark-gem.md
-      - Dark Stone: pokedex/items/dark-stone.md
-      - Data Card 01: pokedex/items/data-card-01.md
-      - Data Card 02: pokedex/items/data-card-02.md
-      - Data Card 03: pokedex/items/data-card-03.md
-      - Data Card 04: pokedex/items/data-card-04.md
-      - Data Card 05: pokedex/items/data-card-05.md
-      - Data Card 06: pokedex/items/data-card-06.md
-      - Data Card 07: pokedex/items/data-card-07.md
-      - Data Card 08: pokedex/items/data-card-08.md
-      - Data Card 09: pokedex/items/data-card-09.md
-      - Data Card 10: pokedex/items/data-card-10.md
-      - Data Card 11: pokedex/items/data-card-11.md
-      - Data Card 12: pokedex/items/data-card-12.md
-      - Data Card 13: pokedex/items/data-card-13.md
-      - Data Card 14: pokedex/items/data-card-14.md
-      - Data Card 15: pokedex/items/data-card-15.md
-      - Data Card 16: pokedex/items/data-card-16.md
-      - Data Card 17: pokedex/items/data-card-17.md
-      - Data Card 18: pokedex/items/data-card-18.md
-      - Data Card 19: pokedex/items/data-card-19.md
-      - Data Card 20: pokedex/items/data-card-20.md
-      - Data Card 21: pokedex/items/data-card-21.md
-      - Data Card 22: pokedex/items/data-card-22.md
-      - Data Card 23: pokedex/items/data-card-23.md
-      - Data Card 24: pokedex/items/data-card-24.md
-      - Data Card 25: pokedex/items/data-card-25.md
-      - Data Card 26: pokedex/items/data-card-26.md
-      - Data Card 27: pokedex/items/data-card-27.md
-      - Dawn Stone: pokedex/items/dawn-stone.md
-      - Dire Hit 2: pokedex/items/dire-hit-2.md
-      - Dire Hit 3: pokedex/items/dire-hit-3.md
-      - Dome Fossil: pokedex/items/dome-fossil.md
-      - Douse Drive: pokedex/items/douse-drive.md
-      - Dragon Gem: pokedex/items/dragon-gem.md
-      - Dragon Scale: pokedex/items/dragon-scale.md
-      - Dragon Skull: pokedex/items/dragon-skull.md
-      - Dream Ball: pokedex/items/dream-ball.md
-      - Dropped Item: pokedex/items/dropped-item.md
-      - Dubious Disc: pokedex/items/dubious-disc.md
-      - Durin Berry: pokedex/items/durin-berry.md
-      - Dusk Stone: pokedex/items/dusk-stone.md
-      - Electirizer: pokedex/items/electirizer.md
-      - Electric Gem: pokedex/items/electric-gem.md
-      - Enigma Stone: pokedex/items/enigma-stone.md
-      - Escape Rope: pokedex/items/escape-rope.md
-      - Fast Ball: pokedex/items/fast-ball.md
-      - Favored Mail: pokedex/items/favored-mail.md
-      - Fighting Gem: pokedex/items/fighting-gem.md
-      - Fire Gem: pokedex/items/fire-gem.md
-      - Fire Stone: pokedex/items/fire-stone.md
-      - Flying Gem: pokedex/items/flying-gem.md
-      - Friend Ball: pokedex/items/friend-ball.md
-      - Galactic Key: pokedex/items/galactic-key.md
-      - Genius Wing: pokedex/items/genius-wing.md
-      - Ghost Gem: pokedex/items/ghost-gem.md
-      - God Stone: pokedex/items/god-stone.md
-      - Gooey Mulch: pokedex/items/gooey-mulch.md
-      - Gracidea: pokedex/items/gracidea.md
-      - Gram 1: pokedex/items/gram-1.md
-      - Gram 2: pokedex/items/gram-2.md
-      - Gram 3: pokedex/items/gram-3.md
-      - Grass Gem: pokedex/items/grass-gem.md
-      - Green Apricorn: pokedex/items/green-apricorn.md
-      - Green Shard: pokedex/items/green-shard.md
-      - Greet Mail: pokedex/items/greet-mail.md
-      - Grepa Berry: pokedex/items/grepa-berry.md
-      - Griseous Orb: pokedex/items/griseous-orb.md
-      - Ground Gem: pokedex/items/ground-gem.md
-      - Growth Mulch: pokedex/items/growth-mulch.md
-      - Grubby Hanky: pokedex/items/grubby-hanky.md
-      - Health Wing: pokedex/items/health-wing.md
-      - Heart Scale: pokedex/items/heart-scale.md
-      - Heavy Ball: pokedex/items/heavy-ball.md
-      - Helix Fossil: pokedex/items/helix-fossil.md
+    - Machines:
       - Hm01: pokedex/items/hm01.md
       - Hm02: pokedex/items/hm02.md
       - Hm03: pokedex/items/hm03.md
       - Hm04: pokedex/items/hm04.md
       - Hm05: pokedex/items/hm05.md
       - Hm06: pokedex/items/hm06.md
-      - Hondew Berry: pokedex/items/hondew-berry.md
-      - Honey: pokedex/items/honey.md
-      - Ice Gem: pokedex/items/ice-gem.md
-      - Inquiry Mail: pokedex/items/inquiry-mail.md
-      - Item Drop: pokedex/items/item-drop.md
-      - Item Urge: pokedex/items/item-urge.md
-      - Jade Orb: pokedex/items/jade-orb.md
-      - Kelpsy Berry: pokedex/items/kelpsy-berry.md
-      - Leaf Stone: pokedex/items/leaf-stone.md
-      - Level Ball: pokedex/items/level-ball.md
-      - Liberty Pass: pokedex/items/liberty-pass.md
-      - Light Stone: pokedex/items/light-stone.md
-      - Like Mail: pokedex/items/like-mail.md
-      - Lock Capsule: pokedex/items/lock-capsule.md
-      - Loot Sack: pokedex/items/loot-sack.md
-      - Lost Item: pokedex/items/lost-item.md
-      - Love Ball: pokedex/items/love-ball.md
-      - Lunar Wing: pokedex/items/lunar-wing.md
-      - Lure Ball: pokedex/items/lure-ball.md
-      - Machine Part: pokedex/items/machine-part.md
-      - Magma Stone: pokedex/items/magma-stone.md
-      - Magmarizer: pokedex/items/magmarizer.md
-      - Magost Berry: pokedex/items/magost-berry.md
-      - Max Repel: pokedex/items/max-repel.md
-      - Member Card: pokedex/items/member-card.md
-      - Moon Ball: pokedex/items/moon-ball.md
-      - Moon Stone: pokedex/items/moon-stone.md
-      - Muscle Wing: pokedex/items/muscle-wing.md
-      - Mystery Egg: pokedex/items/mystery-egg.md
-      - Nanab Berry: pokedex/items/nanab-berry.md
-      - Nomel Berry: pokedex/items/nomel-berry.md
-      - Normal Gem: pokedex/items/normal-gem.md
-      - Nugget: pokedex/items/nugget.md
-      - Oaks Letter: pokedex/items/oaks-letter.md
-      - Odd Keystone: pokedex/items/odd-keystone.md
-      - Old Amber: pokedex/items/old-amber.md
-      - Old Charm: pokedex/items/old-charm.md
-      - Oval Stone: pokedex/items/oval-stone.md
-      - Pamtre Berry: pokedex/items/pamtre-berry.md
-      - Parcel: pokedex/items/parcel.md
-      - Park Ball: pokedex/items/park-ball.md
-      - Pass: pokedex/items/pass.md
-      - Pearl: pokedex/items/pearl.md
-      - Pearl String: pokedex/items/pearl-string.md
-      - Photo Album: pokedex/items/photo-album.md
-      - Pinap Berry: pokedex/items/pinap-berry.md
-      - Pink Apricorn: pokedex/items/pink-apricorn.md
-      - Plasma Card: pokedex/items/plasma-card.md
-      - Plume Fossil: pokedex/items/plume-fossil.md
-      - Poison Gem: pokedex/items/poison-gem.md
-      - Poke Toy: pokedex/items/poke-toy.md
-      - Pomeg Berry: pokedex/items/pomeg-berry.md
-      - Pretty Wing: pokedex/items/pretty-wing.md
-      - Prism Scale: pokedex/items/prism-scale.md
-      - Protector: pokedex/items/protector.md
-      - Psychic Gem: pokedex/items/psychic-gem.md
-      - Qualot Berry: pokedex/items/qualot-berry.md
-      - Rabuta Berry: pokedex/items/rabuta-berry.md
-      - Rainbow Wing: pokedex/items/rainbow-wing.md
-      - Rare Bone: pokedex/items/rare-bone.md
-      - Razz Berry: pokedex/items/razz-berry.md
-      - Reaper Cloth: pokedex/items/reaper-cloth.md
-      - Red Apricorn: pokedex/items/red-apricorn.md
-      - Red Chain: pokedex/items/red-chain.md
-      - Red Orb: pokedex/items/red-orb.md
-      - Red Scale: pokedex/items/red-scale.md
-      - Red Shard: pokedex/items/red-shard.md
-      - Relic Band: pokedex/items/relic-band.md
-      - Relic Copper: pokedex/items/relic-copper.md
-      - Relic Crown: pokedex/items/relic-crown.md
-      - Relic Gold: pokedex/items/relic-gold.md
-      - Relic Silver: pokedex/items/relic-silver.md
-      - Relic Statue: pokedex/items/relic-statue.md
-      - Relic Vase: pokedex/items/relic-vase.md
-      - Repel: pokedex/items/repel.md
-      - Reply Mail: pokedex/items/reply-mail.md
-      - Reset Urge: pokedex/items/reset-urge.md
-      - Resist Wing: pokedex/items/resist-wing.md
-      - Rock Gem: pokedex/items/rock-gem.md
-      - Root Fossil: pokedex/items/root-fossil.md
-      - Rsvp Mail: pokedex/items/rsvp-mail.md
-      - Rule Book: pokedex/items/rule-book.md
-      - Seal Bag: pokedex/items/seal-bag.md
-      - Secret Key: pokedex/items/secret-key.md
-      - Secret Potion: pokedex/items/secret-potion.md
-      - Shiny Stone: pokedex/items/shiny-stone.md
-      - Shoal Salt: pokedex/items/shoal-salt.md
-      - Shoal Shell: pokedex/items/shoal-shell.md
-      - Shock Drive: pokedex/items/shock-drive.md
-      - Silver Wing: pokedex/items/silver-wing.md
-      - Skull Fossil: pokedex/items/skull-fossil.md
-      - Slowpoke Tail: pokedex/items/slowpoke-tail.md
-      - Spelon Berry: pokedex/items/spelon-berry.md
-      - Sport Ball: pokedex/items/sport-ball.md
-      - Squirt Bottle: pokedex/items/squirt-bottle.md
-      - Ss Ticket: pokedex/items/ss-ticket.md
-      - Stable Mulch: pokedex/items/stable-mulch.md
-      - Star Piece: pokedex/items/star-piece.md
-      - Stardust: pokedex/items/stardust.md
-      - Steel Gem: pokedex/items/steel-gem.md
-      - Storage Key: pokedex/items/storage-key.md
-      - Suite Key: pokedex/items/suite-key.md
-      - Sun Stone: pokedex/items/sun-stone.md
-      - Super Repel: pokedex/items/super-repel.md
-      - Sweet Heart: pokedex/items/sweet-heart.md
-      - Swift Wing: pokedex/items/swift-wing.md
-      - Tamato Berry: pokedex/items/tamato-berry.md
-      - Thanks Mail: pokedex/items/thanks-mail.md
-      - Thunder Stone: pokedex/items/thunder-stone.md
-      - Tidal Bell: pokedex/items/tidal-bell.md
-      - Tiny Mushroom: pokedex/items/tiny-mushroom.md
       - Tm01: pokedex/items/tm01.md
       - Tm02: pokedex/items/tm02.md
       - Tm03: pokedex/items/tm03.md
@@ -1536,31 +1315,211 @@ nav:
       - Tm93: pokedex/items/tm93.md
       - Tm94: pokedex/items/tm94.md
       - Tm95: pokedex/items/tm95.md
-      - Up Grade: pokedex/items/up-grade.md
+    - Miscellaneous:
+      - Armor Fossil: pokedex/items/armor-fossil.md
+      - Azure Flute: pokedex/items/azure-flute.md
+      - Balm Mushroom: pokedex/items/balm-mushroom.md
+      - Basement Key: pokedex/items/basement-key.md
+      - Belue Berry: pokedex/items/belue-berry.md
+      - Big Mushroom: pokedex/items/big-mushroom.md
+      - Big Nugget: pokedex/items/big-nugget.md
+      - Big Pearl: pokedex/items/big-pearl.md
+      - Black Apricorn: pokedex/items/black-apricorn.md
+      - Blue Apricorn: pokedex/items/blue-apricorn.md
+      - Blue Orb: pokedex/items/blue-orb.md
+      - Blue Shard: pokedex/items/blue-shard.md
+      - Bluk Berry: pokedex/items/bluk-berry.md
+      - Bridge Mail D: pokedex/items/bridge-mail-d.md
+      - Bridge Mail M: pokedex/items/bridge-mail-m.md
+      - Bridge Mail S: pokedex/items/bridge-mail-s.md
+      - Bridge Mail T: pokedex/items/bridge-mail-t.md
+      - Bridge Mail V: pokedex/items/bridge-mail-v.md
+      - Bug Gem: pokedex/items/bug-gem.md
+      - Burn Drive: pokedex/items/burn-drive.md
+      - Card Key: pokedex/items/card-key.md
+      - Casteliacone: pokedex/items/casteliacone.md
+      - Chill Drive: pokedex/items/chill-drive.md
+      - Claw Fossil: pokedex/items/claw-fossil.md
+      - Clear Bell: pokedex/items/clear-bell.md
+      - Clever Wing: pokedex/items/clever-wing.md
+      - Colress Machine: pokedex/items/colress-machine.md
+      - Comet Shard: pokedex/items/comet-shard.md
+      - Cornn Berry: pokedex/items/cornn-berry.md
+      - Coupon 1: pokedex/items/coupon-1.md
+      - Coupon 2: pokedex/items/coupon-2.md
+      - Coupon 3: pokedex/items/coupon-3.md
+      - Cover Fossil: pokedex/items/cover-fossil.md
+      - Damp Mulch: pokedex/items/damp-mulch.md
+      - Dark Gem: pokedex/items/dark-gem.md
+      - Dark Stone: pokedex/items/dark-stone.md
+      - Data Card 01: pokedex/items/data-card-01.md
+      - Data Card 02: pokedex/items/data-card-02.md
+      - Data Card 03: pokedex/items/data-card-03.md
+      - Data Card 04: pokedex/items/data-card-04.md
+      - Data Card 05: pokedex/items/data-card-05.md
+      - Data Card 06: pokedex/items/data-card-06.md
+      - Data Card 07: pokedex/items/data-card-07.md
+      - Data Card 08: pokedex/items/data-card-08.md
+      - Data Card 09: pokedex/items/data-card-09.md
+      - Data Card 10: pokedex/items/data-card-10.md
+      - Data Card 11: pokedex/items/data-card-11.md
+      - Data Card 12: pokedex/items/data-card-12.md
+      - Data Card 13: pokedex/items/data-card-13.md
+      - Data Card 14: pokedex/items/data-card-14.md
+      - Data Card 15: pokedex/items/data-card-15.md
+      - Data Card 16: pokedex/items/data-card-16.md
+      - Data Card 17: pokedex/items/data-card-17.md
+      - Data Card 18: pokedex/items/data-card-18.md
+      - Data Card 19: pokedex/items/data-card-19.md
+      - Data Card 20: pokedex/items/data-card-20.md
+      - Data Card 21: pokedex/items/data-card-21.md
+      - Data Card 22: pokedex/items/data-card-22.md
+      - Data Card 23: pokedex/items/data-card-23.md
+      - Data Card 24: pokedex/items/data-card-24.md
+      - Data Card 25: pokedex/items/data-card-25.md
+      - Data Card 26: pokedex/items/data-card-26.md
+      - Data Card 27: pokedex/items/data-card-27.md
+      - Dome Fossil: pokedex/items/dome-fossil.md
+      - Douse Drive: pokedex/items/douse-drive.md
+      - Dragon Gem: pokedex/items/dragon-gem.md
+      - Dragon Skull: pokedex/items/dragon-skull.md
+      - Dream Ball: pokedex/items/dream-ball.md
+      - Dropped Item: pokedex/items/dropped-item.md
+      - Durin Berry: pokedex/items/durin-berry.md
+      - Electric Gem: pokedex/items/electric-gem.md
+      - Enigma Stone: pokedex/items/enigma-stone.md
+      - Escape Rope: pokedex/items/escape-rope.md
+      - Fast Ball: pokedex/items/fast-ball.md
+      - Favored Mail: pokedex/items/favored-mail.md
+      - Fighting Gem: pokedex/items/fighting-gem.md
+      - Fire Gem: pokedex/items/fire-gem.md
+      - Flying Gem: pokedex/items/flying-gem.md
+      - Friend Ball: pokedex/items/friend-ball.md
+      - Galactic Key: pokedex/items/galactic-key.md
+      - Genius Wing: pokedex/items/genius-wing.md
+      - Ghost Gem: pokedex/items/ghost-gem.md
+      - God Stone: pokedex/items/god-stone.md
+      - Gooey Mulch: pokedex/items/gooey-mulch.md
+      - Gracidea: pokedex/items/gracidea.md
+      - Gram 1: pokedex/items/gram-1.md
+      - Gram 2: pokedex/items/gram-2.md
+      - Gram 3: pokedex/items/gram-3.md
+      - Grass Gem: pokedex/items/grass-gem.md
+      - Green Apricorn: pokedex/items/green-apricorn.md
+      - Green Shard: pokedex/items/green-shard.md
+      - Greet Mail: pokedex/items/greet-mail.md
+      - Grepa Berry: pokedex/items/grepa-berry.md
+      - Griseous Orb: pokedex/items/griseous-orb.md
+      - Ground Gem: pokedex/items/ground-gem.md
+      - Growth Mulch: pokedex/items/growth-mulch.md
+      - Grubby Hanky: pokedex/items/grubby-hanky.md
+      - Health Wing: pokedex/items/health-wing.md
+      - Heart Scale: pokedex/items/heart-scale.md
+      - Heavy Ball: pokedex/items/heavy-ball.md
+      - Helix Fossil: pokedex/items/helix-fossil.md
+      - Hondew Berry: pokedex/items/hondew-berry.md
+      - Honey: pokedex/items/honey.md
+      - Ice Gem: pokedex/items/ice-gem.md
+      - Inquiry Mail: pokedex/items/inquiry-mail.md
+      - Jade Orb: pokedex/items/jade-orb.md
+      - Kelpsy Berry: pokedex/items/kelpsy-berry.md
+      - Level Ball: pokedex/items/level-ball.md
+      - Liberty Pass: pokedex/items/liberty-pass.md
+      - Light Stone: pokedex/items/light-stone.md
+      - Like Mail: pokedex/items/like-mail.md
+      - Lock Capsule: pokedex/items/lock-capsule.md
+      - Loot Sack: pokedex/items/loot-sack.md
+      - Lost Item: pokedex/items/lost-item.md
+      - Love Ball: pokedex/items/love-ball.md
+      - Lunar Wing: pokedex/items/lunar-wing.md
+      - Lure Ball: pokedex/items/lure-ball.md
+      - Machine Part: pokedex/items/machine-part.md
+      - Magma Stone: pokedex/items/magma-stone.md
+      - Magost Berry: pokedex/items/magost-berry.md
+      - Max Repel: pokedex/items/max-repel.md
+      - Member Card: pokedex/items/member-card.md
+      - Moon Ball: pokedex/items/moon-ball.md
+      - Muscle Wing: pokedex/items/muscle-wing.md
+      - Mystery Egg: pokedex/items/mystery-egg.md
+      - Nanab Berry: pokedex/items/nanab-berry.md
+      - Nomel Berry: pokedex/items/nomel-berry.md
+      - Normal Gem: pokedex/items/normal-gem.md
+      - Nugget: pokedex/items/nugget.md
+      - Oaks Letter: pokedex/items/oaks-letter.md
+      - Odd Keystone: pokedex/items/odd-keystone.md
+      - Old Amber: pokedex/items/old-amber.md
+      - Old Charm: pokedex/items/old-charm.md
+      - Pamtre Berry: pokedex/items/pamtre-berry.md
+      - Parcel: pokedex/items/parcel.md
+      - Park Ball: pokedex/items/park-ball.md
+      - Pass: pokedex/items/pass.md
+      - Pearl: pokedex/items/pearl.md
+      - Pearl String: pokedex/items/pearl-string.md
+      - Photo Album: pokedex/items/photo-album.md
+      - Pinap Berry: pokedex/items/pinap-berry.md
+      - Pink Apricorn: pokedex/items/pink-apricorn.md
+      - Plasma Card: pokedex/items/plasma-card.md
+      - Plume Fossil: pokedex/items/plume-fossil.md
+      - Poison Gem: pokedex/items/poison-gem.md
+      - Poke Toy: pokedex/items/poke-toy.md
+      - Pomeg Berry: pokedex/items/pomeg-berry.md
+      - Pretty Wing: pokedex/items/pretty-wing.md
+      - Psychic Gem: pokedex/items/psychic-gem.md
+      - Qualot Berry: pokedex/items/qualot-berry.md
+      - Rabuta Berry: pokedex/items/rabuta-berry.md
+      - Rainbow Wing: pokedex/items/rainbow-wing.md
+      - Rare Bone: pokedex/items/rare-bone.md
+      - Razz Berry: pokedex/items/razz-berry.md
+      - Red Apricorn: pokedex/items/red-apricorn.md
+      - Red Chain: pokedex/items/red-chain.md
+      - Red Orb: pokedex/items/red-orb.md
+      - Red Scale: pokedex/items/red-scale.md
+      - Red Shard: pokedex/items/red-shard.md
+      - Relic Band: pokedex/items/relic-band.md
+      - Relic Copper: pokedex/items/relic-copper.md
+      - Relic Crown: pokedex/items/relic-crown.md
+      - Relic Gold: pokedex/items/relic-gold.md
+      - Relic Silver: pokedex/items/relic-silver.md
+      - Relic Statue: pokedex/items/relic-statue.md
+      - Relic Vase: pokedex/items/relic-vase.md
+      - Repel: pokedex/items/repel.md
+      - Reply Mail: pokedex/items/reply-mail.md
+      - Resist Wing: pokedex/items/resist-wing.md
+      - Rock Gem: pokedex/items/rock-gem.md
+      - Root Fossil: pokedex/items/root-fossil.md
+      - Rsvp Mail: pokedex/items/rsvp-mail.md
+      - Rule Book: pokedex/items/rule-book.md
+      - Seal Bag: pokedex/items/seal-bag.md
+      - Secret Key: pokedex/items/secret-key.md
+      - Secret Potion: pokedex/items/secret-potion.md
+      - Shoal Salt: pokedex/items/shoal-salt.md
+      - Shoal Shell: pokedex/items/shoal-shell.md
+      - Shock Drive: pokedex/items/shock-drive.md
+      - Silver Wing: pokedex/items/silver-wing.md
+      - Skull Fossil: pokedex/items/skull-fossil.md
+      - Slowpoke Tail: pokedex/items/slowpoke-tail.md
+      - Spelon Berry: pokedex/items/spelon-berry.md
+      - Sport Ball: pokedex/items/sport-ball.md
+      - Squirt Bottle: pokedex/items/squirt-bottle.md
+      - Ss Ticket: pokedex/items/ss-ticket.md
+      - Stable Mulch: pokedex/items/stable-mulch.md
+      - Star Piece: pokedex/items/star-piece.md
+      - Stardust: pokedex/items/stardust.md
+      - Steel Gem: pokedex/items/steel-gem.md
+      - Storage Key: pokedex/items/storage-key.md
+      - Suite Key: pokedex/items/suite-key.md
+      - Super Repel: pokedex/items/super-repel.md
+      - Sweet Heart: pokedex/items/sweet-heart.md
+      - Swift Wing: pokedex/items/swift-wing.md
+      - Tamato Berry: pokedex/items/tamato-berry.md
+      - Thanks Mail: pokedex/items/thanks-mail.md
+      - Tidal Bell: pokedex/items/tidal-bell.md
+      - Tiny Mushroom: pokedex/items/tiny-mushroom.md
       - Water Gem: pokedex/items/water-gem.md
-      - Water Stone: pokedex/items/water-stone.md
       - Watmel Berry: pokedex/items/watmel-berry.md
       - Wepear Berry: pokedex/items/wepear-berry.md
       - White Apricorn: pokedex/items/white-apricorn.md
       - Works Key: pokedex/items/works-key.md
-      - X Accuracy 2: pokedex/items/x-accuracy-2.md
-      - X Accuracy 3: pokedex/items/x-accuracy-3.md
-      - X Accuracy 6: pokedex/items/x-accuracy-6.md
-      - X Attack 2: pokedex/items/x-attack-2.md
-      - X Attack 3: pokedex/items/x-attack-3.md
-      - X Attack 6: pokedex/items/x-attack-6.md
-      - X Defense 2: pokedex/items/x-defense-2.md
-      - X Defense 3: pokedex/items/x-defense-3.md
-      - X Defense 6: pokedex/items/x-defense-6.md
-      - X Sp Atk 2: pokedex/items/x-sp-atk-2.md
-      - X Sp Atk 3: pokedex/items/x-sp-atk-3.md
-      - X Sp Atk 6: pokedex/items/x-sp-atk-6.md
-      - X Sp Def 2: pokedex/items/x-sp-def-2.md
-      - X Sp Def 3: pokedex/items/x-sp-def-3.md
-      - X Sp Def 6: pokedex/items/x-sp-def-6.md
-      - X Speed 2: pokedex/items/x-speed-2.md
-      - X Speed 3: pokedex/items/x-speed-3.md
-      - X Speed 6: pokedex/items/x-speed-6.md
       - Yellow Apricorn: pokedex/items/yellow-apricorn.md
       - Yellow Shard: pokedex/items/yellow-shard.md
   - Moves:
