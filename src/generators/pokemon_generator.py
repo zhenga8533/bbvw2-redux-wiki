@@ -1581,9 +1581,7 @@ class PokemonGenerator(BaseGenerator):
             ]
 
             # Create navigation structure
-            pokedex_nav: Dict[str, List[Dict[str, object]]] = {
-                "Pokédex": [{"Overview": "pokedex/pokedex.md"}]
-            }
+            pokedex_nav_items = [{"Overview": "pokedex/pokedex.md"}]
 
             # Build navigation for each generation
             for gen_name, start, end in gen_names:
@@ -1653,26 +1651,31 @@ class PokemonGenerator(BaseGenerator):
 
                         gen_nav.append(main_entry)
 
-                    pokedex_nav["Pokédex"].append({gen_name: gen_nav})
+                    # Using type: ignore because mkdocs nav allows mixed dict value types
+                    pokedex_nav_items.append({gen_name: gen_nav})  # type: ignore
+
+            pokedex_nav = {"Pokédex": pokedex_nav_items}
 
             # Find and replace Pokédex section in nav
-            if "nav" in config:
-                # Find the Pokédex entry and replace it
-                nav_list = config["nav"]
-                pokedex_index = None
+            if "nav" not in config:
+                raise ValueError("mkdocs.yml does not contain a 'nav' section")
 
-                for i, item in enumerate(nav_list):
-                    if isinstance(item, dict) and "Pokédex" in item:
-                        pokedex_index = i
-                        break
+            nav_list = config["nav"]
+            pokedex_index = None
 
-                if pokedex_index is not None:
-                    nav_list[pokedex_index] = pokedex_nav
-                else:
-                    # Add Pokédex section if it doesn't exist
-                    nav_list.append(pokedex_nav)
+            for i, item in enumerate(nav_list):
+                if isinstance(item, dict) and "Pokédex" in item:
+                    pokedex_index = i
+                    break
 
-                config["nav"] = nav_list
+            if pokedex_index is None:
+                raise ValueError(
+                    "mkdocs.yml nav section does not contain 'Pokédex'. "
+                    "Please add a 'Pokédex' section to the navigation first."
+                )
+
+            nav_list[pokedex_index] = pokedex_nav
+            config["nav"] = nav_list
 
             # Write updated mkdocs.yml using utility
             save_mkdocs_config(mkdocs_path, config)

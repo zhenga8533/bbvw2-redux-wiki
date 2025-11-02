@@ -474,9 +474,7 @@ class ItemGenerator(BaseGenerator):
                 items_by_letter[first_letter].append(item)
 
             # Create navigation structure with alphabetical subsections
-            items_nav = {
-                "Items": [{"Overview": "itemdex/itemdex.md"}]
-            }
+            items_nav_items = [{"Overview": "itemdex/itemdex.md"}]
 
             # Add subsections for each letter
             for letter in sorted(items_by_letter.keys()):
@@ -485,34 +483,31 @@ class ItemGenerator(BaseGenerator):
                     {self._format_name(i.name): f"itemdex/items/{i.name}.md"}
                     for i in letter_items
                 ]
-                items_nav["Items"].append({letter: letter_nav})
+                # Using type: ignore because mkdocs nav allows mixed dict value types
+                items_nav_items.append({letter: letter_nav})  # type: ignore
 
-            # Find and replace or add Items section in nav
-            if "nav" in config:
-                nav_list = config["nav"]
-                items_index = None
+            items_nav = {"Itemdex": items_nav_items}
 
-                for i, item in enumerate(nav_list):
-                    if isinstance(item, dict) and "Items" in item:
-                        items_index = i
-                        break
+            # Find and replace Itemdex section in nav
+            if "nav" not in config:
+                raise ValueError("mkdocs.yml does not contain a 'nav' section")
 
-                if items_index is not None:
-                    nav_list[items_index] = items_nav
-                else:
-                    # Add after Abilities if it exists, otherwise at the end
-                    abilities_index = None
-                    for i, item in enumerate(nav_list):
-                        if isinstance(item, dict) and "Abilities" in item:
-                            abilities_index = i
-                            break
+            nav_list = config["nav"]
+            items_index = None
 
-                    if abilities_index is not None:
-                        nav_list.insert(abilities_index + 1, items_nav)
-                    else:
-                        nav_list.append(items_nav)
+            for i, item in enumerate(nav_list):
+                if isinstance(item, dict) and "Itemdex" in item:
+                    items_index = i
+                    break
 
-                config["nav"] = nav_list
+            if items_index is None:
+                raise ValueError(
+                    "mkdocs.yml nav section does not contain 'Itemdex'. "
+                    "Please add an 'Itemdex' section to the navigation first."
+                )
+
+            nav_list[items_index] = items_nav
+            config["nav"] = nav_list
 
             # Write updated mkdocs.yml
             save_mkdocs_config(mkdocs_path, config)

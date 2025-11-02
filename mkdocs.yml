@@ -770,7 +770,7 @@ nav:
       - Aria: pokedex/pokemon/meloetta-aria.md
       - Pirouette: pokedex/pokemon/meloetta-pirouette.md
     - '#649 Genesect': pokedex/pokemon/genesect.md
-- Abilities:
+- Abidex:
   - Overview: abidex/abidex.md
   - A:
     - Adaptability: abidex/abilities/adaptability.md
@@ -960,7 +960,7 @@ nav:
     - Wonder Skin: abidex/abilities/wonder-skin.md
   - Z:
     - Zen Mode: abidex/abilities/zen-mode.md
-- Items:
+- Itemdex:
   - Overview: itemdex/itemdex.md
   - A:
     - Ability Urge: itemdex/items/ability-urge.md

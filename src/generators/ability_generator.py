@@ -29,7 +29,9 @@ class AbilityGenerator(BaseGenerator):
     - Pokemon that have this ability
     """
 
-    def __init__(self, output_dir: str = "docs/abidex", project_root: Optional[Path] = None):
+    def __init__(
+        self, output_dir: str = "docs/abidex", project_root: Optional[Path] = None
+    ):
         """
         Initialize the Ability page generator.
 
@@ -108,7 +110,10 @@ class AbilityGenerator(BaseGenerator):
                     # Add this Pokemon to each ability it has
                     for poke_ability in pokemon.abilities:
                         if poke_ability.name not in ability_cache:
-                            ability_cache[poke_ability.name] = {"normal": [], "hidden": []}
+                            ability_cache[poke_ability.name] = {
+                                "normal": [],
+                                "hidden": [],
+                            }
 
                         if poke_ability.is_hidden:
                             ability_cache[poke_ability.name]["hidden"].append(pokemon)
@@ -122,13 +127,19 @@ class AbilityGenerator(BaseGenerator):
 
         # Sort all lists by national dex number
         for ability_data in ability_cache.values():
-            ability_data["normal"].sort(key=lambda p: p.pokedex_numbers.get("national", 9999))
-            ability_data["hidden"].sort(key=lambda p: p.pokedex_numbers.get("national", 9999))
+            ability_data["normal"].sort(
+                key=lambda p: p.pokedex_numbers.get("national", 9999)
+            )
+            ability_data["hidden"].sort(
+                key=lambda p: p.pokedex_numbers.get("national", 9999)
+            )
 
         return ability_cache
 
     def _get_pokemon_with_ability(
-        self, ability_name: str, cache: Optional[Dict[str, Dict[str, List[Pokemon]]]] = None
+        self,
+        ability_name: str,
+        cache: Optional[Dict[str, Dict[str, List[Pokemon]]]] = None,
     ) -> Dict[str, List[Pokemon]]:
         """
         Get all Pokemon that have this ability.
@@ -231,7 +242,7 @@ class AbilityGenerator(BaseGenerator):
                 # Card structure: sprite first, then separator, then info
                 md += "- "
                 if sprite_url:
-                    md += f'[![{name}]({sprite_url}){{: .pokemon-sprite-img }}]({link})\n\n'
+                    md += f"[![{name}]({sprite_url}){{: .pokemon-sprite-img }}]({link})\n\n"
                 else:
                     md += f"[{name}]({link})\n\n"
 
@@ -260,7 +271,7 @@ class AbilityGenerator(BaseGenerator):
                 # Card structure: sprite first, then separator, then info
                 md += "- "
                 if sprite_url:
-                    md += f'[![{name}]({sprite_url}){{: .pokemon-sprite-img }}]({link})\n\n'
+                    md += f"[![{name}]({sprite_url}){{: .pokemon-sprite-img }}]({link})\n\n"
                 else:
                     md += f"[{name}]({link})\n\n"
 
@@ -313,7 +324,9 @@ class AbilityGenerator(BaseGenerator):
         return md
 
     def generate_ability_page(
-        self, ability: Ability, cache: Optional[Dict[str, Dict[str, List[Pokemon]]]] = None
+        self,
+        ability: Ability,
+        cache: Optional[Dict[str, Dict[str, List[Pokemon]]]] = None,
     ) -> Path:
         """
         Generate a markdown page for a single ability.
@@ -377,10 +390,14 @@ class AbilityGenerator(BaseGenerator):
                 ability = PokeDBLoader.load_ability(ability_name)
 
                 if ability and ability.is_main_series:
-                    output_path = self.generate_ability_page(ability, cache=pokemon_cache)
+                    output_path = self.generate_ability_page(
+                        ability, cache=pokemon_cache
+                    )
                     generated_files.append(output_path)
                 elif ability:
-                    self.logger.debug(f"Skipping non-main-series ability: {ability_name}")
+                    self.logger.debug(
+                        f"Skipping non-main-series ability: {ability_name}"
+                    )
                 else:
                     self.logger.warning(f"Could not load ability: {ability_name}")
 
@@ -483,6 +500,7 @@ class AbilityGenerator(BaseGenerator):
 
             # Group abilities by first letter
             from collections import defaultdict
+
             abilities_by_letter = defaultdict(list)
 
             for ability in abilities:
@@ -490,9 +508,7 @@ class AbilityGenerator(BaseGenerator):
                 abilities_by_letter[first_letter].append(ability)
 
             # Create navigation structure with alphabetical subsections
-            abilities_nav = {
-                "Abilities": [{"Overview": "abidex/abidex.md"}]
-            }
+            abilities_nav_items = [{"Overview": "abidex/abidex.md"}]
 
             # Add subsections for each letter
             for letter in sorted(abilities_by_letter.keys()):
@@ -501,39 +517,38 @@ class AbilityGenerator(BaseGenerator):
                     {self._format_name(a.name): f"abidex/abilities/{a.name}.md"}
                     for a in letter_abilities
                 ]
-                abilities_nav["Abilities"].append({letter: letter_nav})
+                # Using type: ignore because mkdocs nav allows mixed dict value types
+                abilities_nav_items.append({letter: letter_nav})  # type: ignore
 
-            # Find and replace or add Abilities section in nav
-            if "nav" in config:
-                nav_list = config["nav"]
-                abilities_index = None
+            abilities_nav = {"Abidex": abilities_nav_items}
 
-                for i, item in enumerate(nav_list):
-                    if isinstance(item, dict) and "Abilities" in item:
-                        abilities_index = i
-                        break
+            # Find and replace Abidex section in nav
+            if "nav" not in config:
+                raise ValueError("mkdocs.yml does not contain a 'nav' section")
 
-                if abilities_index is not None:
-                    nav_list[abilities_index] = abilities_nav
-                else:
-                    # Add after Pokédex if it exists, otherwise at the end
-                    pokedex_index = None
-                    for i, item in enumerate(nav_list):
-                        if isinstance(item, dict) and "Pokédex" in item:
-                            pokedex_index = i
-                            break
+            nav_list = config["nav"]
+            abilities_index = None
 
-                    if pokedex_index is not None:
-                        nav_list.insert(pokedex_index + 1, abilities_nav)
-                    else:
-                        nav_list.append(abilities_nav)
+            for i, item in enumerate(nav_list):
+                if isinstance(item, dict) and "Abidex" in item:
+                    abilities_index = i
+                    break
 
-                config["nav"] = nav_list
+            if abilities_index is None:
+                raise ValueError(
+                    "mkdocs.yml nav section does not contain 'Abidex'. "
+                    "Please add an 'Abidex' section to the navigation first."
+                )
+
+            nav_list[abilities_index] = abilities_nav
+            config["nav"] = nav_list
 
             # Write updated mkdocs.yml
             save_mkdocs_config(mkdocs_path, config)
 
-            self.logger.info(f"Updated mkdocs.yml with {len(abilities)} abilities organized into {len(abilities_by_letter)} alphabetical sections")
+            self.logger.info(
+                f"Updated mkdocs.yml with {len(abilities)} abilities organized into {len(abilities_by_letter)} alphabetical sections"
+            )
             return True
 
         except Exception as e:
