@@ -50,6 +50,7 @@ extra_css:
 - stylesheets/pokemon.css
 - stylesheets/ability.css
 - stylesheets/item.css
+- stylesheets/move.css
 nav:
 - Getting Started:
   - Home: index.md
@@ -960,6 +961,637 @@ nav:
     - Wonder Skin: abidex/abilities/wonder-skin.md
   - Z:
     - Zen Mode: abidex/abilities/zen-mode.md
+- Movedex:
+  - Overview: movedex/movedex.md
+  - A:
+    - Absorb: movedex/moves/absorb.md
+    - Accelerock: movedex/moves/accelerock.md
+    - Acid: movedex/moves/acid.md
+    - Acid Armor: movedex/moves/acid-armor.md
+    - Acid Spray: movedex/moves/acid-spray.md
+    - Acrobatics: movedex/moves/acrobatics.md
+    - Acupressure: movedex/moves/acupressure.md
+    - Aerial Ace: movedex/moves/aerial-ace.md
+    - Aeroblast: movedex/moves/aeroblast.md
+    - After You: movedex/moves/after-you.md
+    - Agility: movedex/moves/agility.md
+    - Air Cutter: movedex/moves/air-cutter.md
+    - Air Slash: movedex/moves/air-slash.md
+    - Ally Switch: movedex/moves/ally-switch.md
+    - Amnesia: movedex/moves/amnesia.md
+    - Ancient Power: movedex/moves/ancient-power.md
+    - Aqua Jet: movedex/moves/aqua-jet.md
+    - Aqua Ring: movedex/moves/aqua-ring.md
+    - Aqua Tail: movedex/moves/aqua-tail.md
+    - Arm Thrust: movedex/moves/arm-thrust.md
+    - Aromatherapy: movedex/moves/aromatherapy.md
+    - Assist: movedex/moves/assist.md
+    - Assurance: movedex/moves/assurance.md
+    - Astonish: movedex/moves/astonish.md
+    - Attack Order: movedex/moves/attack-order.md
+    - Attract: movedex/moves/attract.md
+    - Aura Sphere: movedex/moves/aura-sphere.md
+    - Aurora Beam: movedex/moves/aurora-beam.md
+    - Autotomize: movedex/moves/autotomize.md
+    - Avalanche: movedex/moves/avalanche.md
+  - B:
+    - Barrage: movedex/moves/barrage.md
+    - Barrier: movedex/moves/barrier.md
+    - Baton Pass: movedex/moves/baton-pass.md
+    - Beat Up: movedex/moves/beat-up.md
+    - Belly Drum: movedex/moves/belly-drum.md
+    - Bestow: movedex/moves/bestow.md
+    - Bide: movedex/moves/bide.md
+    - Bind: movedex/moves/bind.md
+    - Bite: movedex/moves/bite.md
+    - Blast Burn: movedex/moves/blast-burn.md
+    - Blaze Kick: movedex/moves/blaze-kick.md
+    - Blizzard: movedex/moves/blizzard.md
+    - Block: movedex/moves/block.md
+    - Blue Flare: movedex/moves/blue-flare.md
+    - Body Slam: movedex/moves/body-slam.md
+    - Bolt Strike: movedex/moves/bolt-strike.md
+    - Bone Club: movedex/moves/bone-club.md
+    - Bone Rush: movedex/moves/bone-rush.md
+    - Bonemerang: movedex/moves/bonemerang.md
+    - Boomburst: movedex/moves/boomburst.md
+    - Bounce: movedex/moves/bounce.md
+    - Brave Bird: movedex/moves/brave-bird.md
+    - Breaking Swipe: movedex/moves/breaking-swipe.md
+    - Brick Break: movedex/moves/brick-break.md
+    - Brine: movedex/moves/brine.md
+    - Brutal Swing: movedex/moves/brutal-swing.md
+    - Bubble: movedex/moves/bubble.md
+    - Bubble Beam: movedex/moves/bubble-beam.md
+    - Bug Bite: movedex/moves/bug-bite.md
+    - Bug Buzz: movedex/moves/bug-buzz.md
+    - Bulk Up: movedex/moves/bulk-up.md
+    - Bulldoze: movedex/moves/bulldoze.md
+    - Bullet Punch: movedex/moves/bullet-punch.md
+    - Bullet Seed: movedex/moves/bullet-seed.md
+  - C:
+    - Calm Mind: movedex/moves/calm-mind.md
+    - Camouflage: movedex/moves/camouflage.md
+    - Captivate: movedex/moves/captivate.md
+    - Charge: movedex/moves/charge.md
+    - Charge Beam: movedex/moves/charge-beam.md
+    - Charm: movedex/moves/charm.md
+    - Chatter: movedex/moves/chatter.md
+    - Chip Away: movedex/moves/chip-away.md
+    - Circle Throw: movedex/moves/circle-throw.md
+    - Clamp: movedex/moves/clamp.md
+    - Clear Smog: movedex/moves/clear-smog.md
+    - Close Combat: movedex/moves/close-combat.md
+    - Coil: movedex/moves/coil.md
+    - Comet Punch: movedex/moves/comet-punch.md
+    - Confuse Ray: movedex/moves/confuse-ray.md
+    - Confusion: movedex/moves/confusion.md
+    - Constrict: movedex/moves/constrict.md
+    - Conversion: movedex/moves/conversion.md
+    - Conversion 2: movedex/moves/conversion-2.md
+    - Copycat: movedex/moves/copycat.md
+    - Cosmic Power: movedex/moves/cosmic-power.md
+    - Cotton Guard: movedex/moves/cotton-guard.md
+    - Cotton Spore: movedex/moves/cotton-spore.md
+    - Counter: movedex/moves/counter.md
+    - Covet: movedex/moves/covet.md
+    - Crabhammer: movedex/moves/crabhammer.md
+    - Cross Chop: movedex/moves/cross-chop.md
+    - Cross Poison: movedex/moves/cross-poison.md
+    - Crunch: movedex/moves/crunch.md
+    - Crush Claw: movedex/moves/crush-claw.md
+    - Crush Grip: movedex/moves/crush-grip.md
+    - Curse: movedex/moves/curse.md
+    - Cut: movedex/moves/cut.md
+  - D:
+    - Dark Pulse: movedex/moves/dark-pulse.md
+    - Dark Void: movedex/moves/dark-void.md
+    - Dazzling Gleam: movedex/moves/dazzling-gleam.md
+    - Defend Order: movedex/moves/defend-order.md
+    - Defense Curl: movedex/moves/defense-curl.md
+    - Defog: movedex/moves/defog.md
+    - Destiny Bond: movedex/moves/destiny-bond.md
+    - Detect: movedex/moves/detect.md
+    - Dig: movedex/moves/dig.md
+    - Disable: movedex/moves/disable.md
+    - Disarming Voice: movedex/moves/disarming-voice.md
+    - Discharge: movedex/moves/discharge.md
+    - Dive: movedex/moves/dive.md
+    - Dizzy Punch: movedex/moves/dizzy-punch.md
+    - Doom Desire: movedex/moves/doom-desire.md
+    - Double Edge: movedex/moves/double-edge.md
+    - Double Hit: movedex/moves/double-hit.md
+    - Double Kick: movedex/moves/double-kick.md
+    - Double Slap: movedex/moves/double-slap.md
+    - Double Team: movedex/moves/double-team.md
+    - Draco Meteor: movedex/moves/draco-meteor.md
+    - Dragon Breath: movedex/moves/dragon-breath.md
+    - Dragon Claw: movedex/moves/dragon-claw.md
+    - Dragon Dance: movedex/moves/dragon-dance.md
+    - Dragon Pulse: movedex/moves/dragon-pulse.md
+    - Dragon Rage: movedex/moves/dragon-rage.md
+    - Dragon Rush: movedex/moves/dragon-rush.md
+    - Dragon Tail: movedex/moves/dragon-tail.md
+    - Drain Punch: movedex/moves/drain-punch.md
+    - Draining Kiss: movedex/moves/draining-kiss.md
+    - Dream Eater: movedex/moves/dream-eater.md
+    - Drill Peck: movedex/moves/drill-peck.md
+    - Drill Run: movedex/moves/drill-run.md
+    - Dual Chop: movedex/moves/dual-chop.md
+    - Dual Wingbeat: movedex/moves/dual-wingbeat.md
+    - Dynamic Punch: movedex/moves/dynamic-punch.md
+  - E:
+    - Earth Power: movedex/moves/earth-power.md
+    - Earthquake: movedex/moves/earthquake.md
+    - Echoed Voice: movedex/moves/echoed-voice.md
+    - Egg Bomb: movedex/moves/egg-bomb.md
+    - Electro Ball: movedex/moves/electro-ball.md
+    - Electroweb: movedex/moves/electroweb.md
+    - Embargo: movedex/moves/embargo.md
+    - Ember: movedex/moves/ember.md
+    - Encore: movedex/moves/encore.md
+    - Endeavor: movedex/moves/endeavor.md
+    - Endure: movedex/moves/endure.md
+    - Energy Ball: movedex/moves/energy-ball.md
+    - Entrainment: movedex/moves/entrainment.md
+    - Eruption: movedex/moves/eruption.md
+    - Esper Wing: movedex/moves/esper-wing.md
+    - Explosion: movedex/moves/explosion.md
+    - Extrasensory: movedex/moves/extrasensory.md
+    - Extreme Speed: movedex/moves/extreme-speed.md
+  - F:
+    - Facade: movedex/moves/facade.md
+    - Fake Out: movedex/moves/fake-out.md
+    - Fake Tears: movedex/moves/fake-tears.md
+    - False Swipe: movedex/moves/false-swipe.md
+    - Feather Dance: movedex/moves/feather-dance.md
+    - Feint: movedex/moves/feint.md
+    - Feint Attack: movedex/moves/feint-attack.md
+    - Fiery Dance: movedex/moves/fiery-dance.md
+    - Final Gambit: movedex/moves/final-gambit.md
+    - Fire Blast: movedex/moves/fire-blast.md
+    - Fire Fang: movedex/moves/fire-fang.md
+    - Fire Lash: movedex/moves/fire-lash.md
+    - Fire Pledge: movedex/moves/fire-pledge.md
+    - Fire Punch: movedex/moves/fire-punch.md
+    - Fire Spin: movedex/moves/fire-spin.md
+    - Fissure: movedex/moves/fissure.md
+    - Flail: movedex/moves/flail.md
+    - Flame Burst: movedex/moves/flame-burst.md
+    - Flame Charge: movedex/moves/flame-charge.md
+    - Flame Wheel: movedex/moves/flame-wheel.md
+    - Flamethrower: movedex/moves/flamethrower.md
+    - Flare Blitz: movedex/moves/flare-blitz.md
+    - Flash: movedex/moves/flash.md
+    - Flash Cannon: movedex/moves/flash-cannon.md
+    - Flatter: movedex/moves/flatter.md
+    - Fling: movedex/moves/fling.md
+    - Fly: movedex/moves/fly.md
+    - Focus Blast: movedex/moves/focus-blast.md
+    - Focus Energy: movedex/moves/focus-energy.md
+    - Focus Punch: movedex/moves/focus-punch.md
+    - Follow Me: movedex/moves/follow-me.md
+    - Force Palm: movedex/moves/force-palm.md
+    - Foresight: movedex/moves/foresight.md
+    - Foul Play: movedex/moves/foul-play.md
+    - Freeze Shock: movedex/moves/freeze-shock.md
+    - Frenzy Plant: movedex/moves/frenzy-plant.md
+    - Frost Breath: movedex/moves/frost-breath.md
+    - Frustration: movedex/moves/frustration.md
+    - Fury Attack: movedex/moves/fury-attack.md
+    - Fury Cutter: movedex/moves/fury-cutter.md
+    - Fury Swipes: movedex/moves/fury-swipes.md
+    - Fusion Bolt: movedex/moves/fusion-bolt.md
+    - Fusion Flare: movedex/moves/fusion-flare.md
+    - Future Sight: movedex/moves/future-sight.md
+  - G:
+    - Gastro Acid: movedex/moves/gastro-acid.md
+    - Gear Grind: movedex/moves/gear-grind.md
+    - Giga Drain: movedex/moves/giga-drain.md
+    - Giga Impact: movedex/moves/giga-impact.md
+    - Glaciate: movedex/moves/glaciate.md
+    - Glare: movedex/moves/glare.md
+    - Grass Knot: movedex/moves/grass-knot.md
+    - Grass Pledge: movedex/moves/grass-pledge.md
+    - Grass Whistle: movedex/moves/grass-whistle.md
+    - Gravity: movedex/moves/gravity.md
+    - Growl: movedex/moves/growl.md
+    - Growth: movedex/moves/growth.md
+    - Grudge: movedex/moves/grudge.md
+    - Guard Split: movedex/moves/guard-split.md
+    - Guard Swap: movedex/moves/guard-swap.md
+    - Guillotine: movedex/moves/guillotine.md
+    - Gunk Shot: movedex/moves/gunk-shot.md
+    - Gust: movedex/moves/gust.md
+    - Gyro Ball: movedex/moves/gyro-ball.md
+  - H:
+    - Hail: movedex/moves/hail.md
+    - Hammer Arm: movedex/moves/hammer-arm.md
+    - Harden: movedex/moves/harden.md
+    - Haze: movedex/moves/haze.md
+    - Head Charge: movedex/moves/head-charge.md
+    - Head Smash: movedex/moves/head-smash.md
+    - Headbutt: movedex/moves/headbutt.md
+    - Headlong Rush: movedex/moves/headlong-rush.md
+    - Heal Bell: movedex/moves/heal-bell.md
+    - Heal Block: movedex/moves/heal-block.md
+    - Heal Order: movedex/moves/heal-order.md
+    - Heal Pulse: movedex/moves/heal-pulse.md
+    - Healing Wish: movedex/moves/healing-wish.md
+    - Heart Stamp: movedex/moves/heart-stamp.md
+    - Heart Swap: movedex/moves/heart-swap.md
+    - Heat Crash: movedex/moves/heat-crash.md
+    - Heat Wave: movedex/moves/heat-wave.md
+    - Heavy Slam: movedex/moves/heavy-slam.md
+    - Helping Hand: movedex/moves/helping-hand.md
+    - Hex: movedex/moves/hex.md
+    - Hidden Power: movedex/moves/hidden-power.md
+    - High Horsepower: movedex/moves/high-horsepower.md
+    - High Jump Kick: movedex/moves/high-jump-kick.md
+    - Hone Claws: movedex/moves/hone-claws.md
+    - Horn Attack: movedex/moves/horn-attack.md
+    - Horn Drill: movedex/moves/horn-drill.md
+    - Horn Leech: movedex/moves/horn-leech.md
+    - Howl: movedex/moves/howl.md
+    - Hurricane: movedex/moves/hurricane.md
+    - Hydro Cannon: movedex/moves/hydro-cannon.md
+    - Hydro Pump: movedex/moves/hydro-pump.md
+    - Hyper Beam: movedex/moves/hyper-beam.md
+    - Hyper Fang: movedex/moves/hyper-fang.md
+    - Hyper Voice: movedex/moves/hyper-voice.md
+    - Hypnosis: movedex/moves/hypnosis.md
+  - I:
+    - Ice Ball: movedex/moves/ice-ball.md
+    - Ice Beam: movedex/moves/ice-beam.md
+    - Ice Burn: movedex/moves/ice-burn.md
+    - Ice Fang: movedex/moves/ice-fang.md
+    - Ice Punch: movedex/moves/ice-punch.md
+    - Ice Shard: movedex/moves/ice-shard.md
+    - Icicle Crash: movedex/moves/icicle-crash.md
+    - Icicle Spear: movedex/moves/icicle-spear.md
+    - Icy Wind: movedex/moves/icy-wind.md
+    - Imprison: movedex/moves/imprison.md
+    - Incinerate: movedex/moves/incinerate.md
+    - Inferno: movedex/moves/inferno.md
+    - Infestation: movedex/moves/infestation.md
+    - Ingrain: movedex/moves/ingrain.md
+    - Iron Defense: movedex/moves/iron-defense.md
+    - Iron Head: movedex/moves/iron-head.md
+    - Iron Tail: movedex/moves/iron-tail.md
+  - J:
+    - Judgment: movedex/moves/judgment.md
+    - Jump Kick: movedex/moves/jump-kick.md
+  - K:
+    - Karate Chop: movedex/moves/karate-chop.md
+    - Kinesis: movedex/moves/kinesis.md
+    - Knock Off: movedex/moves/knock-off.md
+  - L:
+    - Last Resort: movedex/moves/last-resort.md
+    - Lava Plume: movedex/moves/lava-plume.md
+    - Leaf Blade: movedex/moves/leaf-blade.md
+    - Leaf Storm: movedex/moves/leaf-storm.md
+    - Leaf Tornado: movedex/moves/leaf-tornado.md
+    - Leech Life: movedex/moves/leech-life.md
+    - Leech Seed: movedex/moves/leech-seed.md
+    - Leer: movedex/moves/leer.md
+    - Lick: movedex/moves/lick.md
+    - Light Screen: movedex/moves/light-screen.md
+    - Lock On: movedex/moves/lock-on.md
+    - Lovely Kiss: movedex/moves/lovely-kiss.md
+    - Low Kick: movedex/moves/low-kick.md
+    - Low Sweep: movedex/moves/low-sweep.md
+    - Lucky Chant: movedex/moves/lucky-chant.md
+    - Lunar Dance: movedex/moves/lunar-dance.md
+    - Lunge: movedex/moves/lunge.md
+    - Luster Purge: movedex/moves/luster-purge.md
+  - M:
+    - Mach Punch: movedex/moves/mach-punch.md
+    - Magic Coat: movedex/moves/magic-coat.md
+    - Magic Room: movedex/moves/magic-room.md
+    - Magical Leaf: movedex/moves/magical-leaf.md
+    - Magma Storm: movedex/moves/magma-storm.md
+    - Magnet Bomb: movedex/moves/magnet-bomb.md
+    - Magnet Rise: movedex/moves/magnet-rise.md
+    - Magnitude: movedex/moves/magnitude.md
+    - Me First: movedex/moves/me-first.md
+    - Mean Look: movedex/moves/mean-look.md
+    - Meditate: movedex/moves/meditate.md
+    - Mega Drain: movedex/moves/mega-drain.md
+    - Mega Kick: movedex/moves/mega-kick.md
+    - Mega Punch: movedex/moves/mega-punch.md
+    - Megahorn: movedex/moves/megahorn.md
+    - Memento: movedex/moves/memento.md
+    - Metal Burst: movedex/moves/metal-burst.md
+    - Metal Claw: movedex/moves/metal-claw.md
+    - Metal Sound: movedex/moves/metal-sound.md
+    - Meteor Mash: movedex/moves/meteor-mash.md
+    - Metronome: movedex/moves/metronome.md
+    - Milk Drink: movedex/moves/milk-drink.md
+    - Mimic: movedex/moves/mimic.md
+    - Mind Reader: movedex/moves/mind-reader.md
+    - Minimize: movedex/moves/minimize.md
+    - Miracle Eye: movedex/moves/miracle-eye.md
+    - Mirror Coat: movedex/moves/mirror-coat.md
+    - Mirror Move: movedex/moves/mirror-move.md
+    - Mirror Shot: movedex/moves/mirror-shot.md
+    - Mist: movedex/moves/mist.md
+    - Mist Ball: movedex/moves/mist-ball.md
+    - Moonblast: movedex/moves/moonblast.md
+    - Moonlight: movedex/moves/moonlight.md
+    - Morning Sun: movedex/moves/morning-sun.md
+    - Mud Bomb: movedex/moves/mud-bomb.md
+    - Mud Shot: movedex/moves/mud-shot.md
+    - Mud Slap: movedex/moves/mud-slap.md
+    - Mud Sport: movedex/moves/mud-sport.md
+    - Muddy Water: movedex/moves/muddy-water.md
+    - Mystical Fire: movedex/moves/mystical-fire.md
+  - N:
+    - Nasty Plot: movedex/moves/nasty-plot.md
+    - Natural Gift: movedex/moves/natural-gift.md
+    - Nature Power: movedex/moves/nature-power.md
+    - Needle Arm: movedex/moves/needle-arm.md
+    - Night Daze: movedex/moves/night-daze.md
+    - Night Shade: movedex/moves/night-shade.md
+    - Night Slash: movedex/moves/night-slash.md
+    - Nightmare: movedex/moves/nightmare.md
+    - Nuzzle: movedex/moves/nuzzle.md
+  - O:
+    - Octazooka: movedex/moves/octazooka.md
+    - Odor Sleuth: movedex/moves/odor-sleuth.md
+    - Ominous Wind: movedex/moves/ominous-wind.md
+    - Outrage: movedex/moves/outrage.md
+    - Overheat: movedex/moves/overheat.md
+  - P:
+    - Pain Split: movedex/moves/pain-split.md
+    - Pay Day: movedex/moves/pay-day.md
+    - Payback: movedex/moves/payback.md
+    - Peck: movedex/moves/peck.md
+    - Perish Song: movedex/moves/perish-song.md
+    - Petal Dance: movedex/moves/petal-dance.md
+    - Pin Missile: movedex/moves/pin-missile.md
+    - Play Rough: movedex/moves/play-rough.md
+    - Pluck: movedex/moves/pluck.md
+    - Poison Fang: movedex/moves/poison-fang.md
+    - Poison Gas: movedex/moves/poison-gas.md
+    - Poison Jab: movedex/moves/poison-jab.md
+    - Poison Powder: movedex/moves/poison-powder.md
+    - Poison Sting: movedex/moves/poison-sting.md
+    - Poison Tail: movedex/moves/poison-tail.md
+    - Pound: movedex/moves/pound.md
+    - Powder Snow: movedex/moves/powder-snow.md
+    - Power Gem: movedex/moves/power-gem.md
+    - Power Split: movedex/moves/power-split.md
+    - Power Swap: movedex/moves/power-swap.md
+    - Power Trick: movedex/moves/power-trick.md
+    - Power Up Punch: movedex/moves/power-up-punch.md
+    - Power Whip: movedex/moves/power-whip.md
+    - Present: movedex/moves/present.md
+    - Protect: movedex/moves/protect.md
+    - Psybeam: movedex/moves/psybeam.md
+    - Psych Up: movedex/moves/psych-up.md
+    - Psychic: movedex/moves/psychic.md
+    - Psychic Fangs: movedex/moves/psychic-fangs.md
+    - Psycho Boost: movedex/moves/psycho-boost.md
+    - Psycho Cut: movedex/moves/psycho-cut.md
+    - Psycho Shift: movedex/moves/psycho-shift.md
+    - Psyshield Bash: movedex/moves/psyshield-bash.md
+    - Psyshock: movedex/moves/psyshock.md
+    - Psystrike: movedex/moves/psystrike.md
+    - Psywave: movedex/moves/psywave.md
+    - Punishment: movedex/moves/punishment.md
+    - Pursuit: movedex/moves/pursuit.md
+  - Q:
+    - Quash: movedex/moves/quash.md
+    - Quick Attack: movedex/moves/quick-attack.md
+    - Quick Guard: movedex/moves/quick-guard.md
+    - Quiver Dance: movedex/moves/quiver-dance.md
+  - R:
+    - Rage: movedex/moves/rage.md
+    - Rage Powder: movedex/moves/rage-powder.md
+    - Raging Fury: movedex/moves/raging-fury.md
+    - Rain Dance: movedex/moves/rain-dance.md
+    - Rapid Spin: movedex/moves/rapid-spin.md
+    - Razor Leaf: movedex/moves/razor-leaf.md
+    - Razor Shell: movedex/moves/razor-shell.md
+    - Razor Wind: movedex/moves/razor-wind.md
+    - Recover: movedex/moves/recover.md
+    - Recycle: movedex/moves/recycle.md
+    - Reflect: movedex/moves/reflect.md
+    - Reflect Type: movedex/moves/reflect-type.md
+    - Refresh: movedex/moves/refresh.md
+    - Relic Song: movedex/moves/relic-song.md
+    - Rest: movedex/moves/rest.md
+    - Retaliate: movedex/moves/retaliate.md
+    - Return: movedex/moves/return.md
+    - Revenge: movedex/moves/revenge.md
+    - Reversal: movedex/moves/reversal.md
+    - Roar: movedex/moves/roar.md
+    - Roar Of Time: movedex/moves/roar-of-time.md
+    - Rock Blast: movedex/moves/rock-blast.md
+    - Rock Climb: movedex/moves/rock-climb.md
+    - Rock Polish: movedex/moves/rock-polish.md
+    - Rock Slide: movedex/moves/rock-slide.md
+    - Rock Smash: movedex/moves/rock-smash.md
+    - Rock Throw: movedex/moves/rock-throw.md
+    - Rock Tomb: movedex/moves/rock-tomb.md
+    - Rock Wrecker: movedex/moves/rock-wrecker.md
+    - Role Play: movedex/moves/role-play.md
+    - Rolling Kick: movedex/moves/rolling-kick.md
+    - Rollout: movedex/moves/rollout.md
+    - Roost: movedex/moves/roost.md
+    - Round: movedex/moves/round.md
+  - S:
+    - Sacred Fire: movedex/moves/sacred-fire.md
+    - Sacred Sword: movedex/moves/sacred-sword.md
+    - Safeguard: movedex/moves/safeguard.md
+    - Sand Attack: movedex/moves/sand-attack.md
+    - Sand Tomb: movedex/moves/sand-tomb.md
+    - Sandstorm: movedex/moves/sandstorm.md
+    - Scald: movedex/moves/scald.md
+    - Scary Face: movedex/moves/scary-face.md
+    - Scorching Sands: movedex/moves/scorching-sands.md
+    - Scratch: movedex/moves/scratch.md
+    - Screech: movedex/moves/screech.md
+    - Searing Shot: movedex/moves/searing-shot.md
+    - Secret Power: movedex/moves/secret-power.md
+    - Secret Sword: movedex/moves/secret-sword.md
+    - Seed Bomb: movedex/moves/seed-bomb.md
+    - Seed Flare: movedex/moves/seed-flare.md
+    - Seismic Toss: movedex/moves/seismic-toss.md
+    - Self Destruct: movedex/moves/self-destruct.md
+    - Shadow Ball: movedex/moves/shadow-ball.md
+    - Shadow Blast: movedex/moves/shadow-blast.md
+    - Shadow Blitz: movedex/moves/shadow-blitz.md
+    - Shadow Bolt: movedex/moves/shadow-bolt.md
+    - Shadow Break: movedex/moves/shadow-break.md
+    - Shadow Chill: movedex/moves/shadow-chill.md
+    - Shadow Claw: movedex/moves/shadow-claw.md
+    - Shadow Down: movedex/moves/shadow-down.md
+    - Shadow End: movedex/moves/shadow-end.md
+    - Shadow Fire: movedex/moves/shadow-fire.md
+    - Shadow Force: movedex/moves/shadow-force.md
+    - Shadow Half: movedex/moves/shadow-half.md
+    - Shadow Hold: movedex/moves/shadow-hold.md
+    - Shadow Mist: movedex/moves/shadow-mist.md
+    - Shadow Panic: movedex/moves/shadow-panic.md
+    - Shadow Punch: movedex/moves/shadow-punch.md
+    - Shadow Rave: movedex/moves/shadow-rave.md
+    - Shadow Rush: movedex/moves/shadow-rush.md
+    - Shadow Shed: movedex/moves/shadow-shed.md
+    - Shadow Sky: movedex/moves/shadow-sky.md
+    - Shadow Sneak: movedex/moves/shadow-sneak.md
+    - Shadow Storm: movedex/moves/shadow-storm.md
+    - Shadow Wave: movedex/moves/shadow-wave.md
+    - Sharpen: movedex/moves/sharpen.md
+    - Sheer Cold: movedex/moves/sheer-cold.md
+    - Shell Smash: movedex/moves/shell-smash.md
+    - Shift Gear: movedex/moves/shift-gear.md
+    - Shock Wave: movedex/moves/shock-wave.md
+    - Signal Beam: movedex/moves/signal-beam.md
+    - Silver Wind: movedex/moves/silver-wind.md
+    - Simple Beam: movedex/moves/simple-beam.md
+    - Sing: movedex/moves/sing.md
+    - Sketch: movedex/moves/sketch.md
+    - Skill Swap: movedex/moves/skill-swap.md
+    - Skull Bash: movedex/moves/skull-bash.md
+    - Sky Attack: movedex/moves/sky-attack.md
+    - Sky Drop: movedex/moves/sky-drop.md
+    - Sky Uppercut: movedex/moves/sky-uppercut.md
+    - Slack Off: movedex/moves/slack-off.md
+    - Slam: movedex/moves/slam.md
+    - Slash: movedex/moves/slash.md
+    - Sleep Powder: movedex/moves/sleep-powder.md
+    - Sleep Talk: movedex/moves/sleep-talk.md
+    - Sludge: movedex/moves/sludge.md
+    - Sludge Bomb: movedex/moves/sludge-bomb.md
+    - Sludge Wave: movedex/moves/sludge-wave.md
+    - Smack Down: movedex/moves/smack-down.md
+    - Smart Strike: movedex/moves/smart-strike.md
+    - Smelling Salts: movedex/moves/smelling-salts.md
+    - Smog: movedex/moves/smog.md
+    - Smokescreen: movedex/moves/smokescreen.md
+    - Snarl: movedex/moves/snarl.md
+    - Snatch: movedex/moves/snatch.md
+    - Snore: movedex/moves/snore.md
+    - Soak: movedex/moves/soak.md
+    - Soft Boiled: movedex/moves/soft-boiled.md
+    - Solar Beam: movedex/moves/solar-beam.md
+    - Sonic Boom: movedex/moves/sonic-boom.md
+    - Spacial Rend: movedex/moves/spacial-rend.md
+    - Spark: movedex/moves/spark.md
+    - Spider Web: movedex/moves/spider-web.md
+    - Spike Cannon: movedex/moves/spike-cannon.md
+    - Spikes: movedex/moves/spikes.md
+    - Spit Up: movedex/moves/spit-up.md
+    - Spite: movedex/moves/spite.md
+    - Splash: movedex/moves/splash.md
+    - Spore: movedex/moves/spore.md
+    - Stealth Rock: movedex/moves/stealth-rock.md
+    - Steamroller: movedex/moves/steamroller.md
+    - Steel Wing: movedex/moves/steel-wing.md
+    - Stockpile: movedex/moves/stockpile.md
+    - Stomp: movedex/moves/stomp.md
+    - Stone Edge: movedex/moves/stone-edge.md
+    - Stored Power: movedex/moves/stored-power.md
+    - Storm Throw: movedex/moves/storm-throw.md
+    - Strength: movedex/moves/strength.md
+    - String Shot: movedex/moves/string-shot.md
+    - Struggle: movedex/moves/struggle.md
+    - Struggle Bug: movedex/moves/struggle-bug.md
+    - Stun Spore: movedex/moves/stun-spore.md
+    - Submission: movedex/moves/submission.md
+    - Substitute: movedex/moves/substitute.md
+    - Sucker Punch: movedex/moves/sucker-punch.md
+    - Sunny Day: movedex/moves/sunny-day.md
+    - Super Fang: movedex/moves/super-fang.md
+    - Superpower: movedex/moves/superpower.md
+    - Supersonic: movedex/moves/supersonic.md
+    - Surf: movedex/moves/surf.md
+    - Swagger: movedex/moves/swagger.md
+    - Swallow: movedex/moves/swallow.md
+    - Sweet Kiss: movedex/moves/sweet-kiss.md
+    - Sweet Scent: movedex/moves/sweet-scent.md
+    - Swift: movedex/moves/swift.md
+    - Switcheroo: movedex/moves/switcheroo.md
+    - Swords Dance: movedex/moves/swords-dance.md
+    - Synchronoise: movedex/moves/synchronoise.md
+    - Synthesis: movedex/moves/synthesis.md
+  - T:
+    - Tackle: movedex/moves/tackle.md
+    - Tail Glow: movedex/moves/tail-glow.md
+    - Tail Slap: movedex/moves/tail-slap.md
+    - Tail Whip: movedex/moves/tail-whip.md
+    - Tailwind: movedex/moves/tailwind.md
+    - Take Down: movedex/moves/take-down.md
+    - Taunt: movedex/moves/taunt.md
+    - Techno Blast: movedex/moves/techno-blast.md
+    - Teeter Dance: movedex/moves/teeter-dance.md
+    - Telekinesis: movedex/moves/telekinesis.md
+    - Teleport: movedex/moves/teleport.md
+    - Thief: movedex/moves/thief.md
+    - Thrash: movedex/moves/thrash.md
+    - Thunder: movedex/moves/thunder.md
+    - Thunder Fang: movedex/moves/thunder-fang.md
+    - Thunder Punch: movedex/moves/thunder-punch.md
+    - Thunder Shock: movedex/moves/thunder-shock.md
+    - Thunder Wave: movedex/moves/thunder-wave.md
+    - Thunderbolt: movedex/moves/thunderbolt.md
+    - Tickle: movedex/moves/tickle.md
+    - Torment: movedex/moves/torment.md
+    - Toxic: movedex/moves/toxic.md
+    - Toxic Spikes: movedex/moves/toxic-spikes.md
+    - Transform: movedex/moves/transform.md
+    - Tri Attack: movedex/moves/tri-attack.md
+    - Trick: movedex/moves/trick.md
+    - Trick Room: movedex/moves/trick-room.md
+    - Triple Axel: movedex/moves/triple-axel.md
+    - Triple Kick: movedex/moves/triple-kick.md
+    - Trump Card: movedex/moves/trump-card.md
+    - Twineedle: movedex/moves/twineedle.md
+    - Twister: movedex/moves/twister.md
+  - U:
+    - U-turn: movedex/moves/u-turn.md
+    - Uproar: movedex/moves/uproar.md
+  - V:
+    - V-create: movedex/moves/v-create.md
+    - Vacuum Wave: movedex/moves/vacuum-wave.md
+    - Venoshock: movedex/moves/venoshock.md
+    - Vice Grip: movedex/moves/vice-grip.md
+    - Vine Whip: movedex/moves/vine-whip.md
+    - Vital Throw: movedex/moves/vital-throw.md
+    - Volt Switch: movedex/moves/volt-switch.md
+    - Volt Tackle: movedex/moves/volt-tackle.md
+  - W:
+    - Wake Up Slap: movedex/moves/wake-up-slap.md
+    - Water Gun: movedex/moves/water-gun.md
+    - Water Pledge: movedex/moves/water-pledge.md
+    - Water Pulse: movedex/moves/water-pulse.md
+    - Water Sport: movedex/moves/water-sport.md
+    - Water Spout: movedex/moves/water-spout.md
+    - Waterfall: movedex/moves/waterfall.md
+    - Wave Crash: movedex/moves/wave-crash.md
+    - Weather Ball: movedex/moves/weather-ball.md
+    - Whirlpool: movedex/moves/whirlpool.md
+    - Whirlwind: movedex/moves/whirlwind.md
+    - Wide Guard: movedex/moves/wide-guard.md
+    - Wild Charge: movedex/moves/wild-charge.md
+    - Will O Wisp: movedex/moves/will-o-wisp.md
+    - Wing Attack: movedex/moves/wing-attack.md
+    - Wish: movedex/moves/wish.md
+    - Withdraw: movedex/moves/withdraw.md
+    - Wonder Room: movedex/moves/wonder-room.md
+    - Wood Hammer: movedex/moves/wood-hammer.md
+    - Work Up: movedex/moves/work-up.md
+    - Worry Seed: movedex/moves/worry-seed.md
+    - Wrap: movedex/moves/wrap.md
+    - Wring Out: movedex/moves/wring-out.md
+  - X:
+    - X Scissor: movedex/moves/x-scissor.md
+  - Y:
+    - Yawn: movedex/moves/yawn.md
+  - Z:
+    - Zap Cannon: movedex/moves/zap-cannon.md
+    - Zen Headbutt: movedex/moves/zen-headbutt.md
 - Itemdex:
   - Overview: itemdex/itemdex.md
   - A:

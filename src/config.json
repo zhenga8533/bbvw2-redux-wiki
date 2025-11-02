@@ -98,6 +98,11 @@
         "module": "src.generators.item_generator",
         "class": "ItemGenerator",
         "output_dir": "docs/itemdex"
+      },
+      "moves": {
+        "module": "src.generators.move_generator",
+        "class": "MoveGenerator",
+        "output_dir": "docs/movedex"
       }
     }
   }
