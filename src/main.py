@@ -282,6 +282,12 @@ Examples:
     if args.parsers:
         success = run_parsers(args.parsers)
 
+        # Clear cache after parsers to ensure generators load fresh data
+        if args.generators:
+            from src.data.pokedb_loader import PokeDBLoader
+            logger.info("Clearing cache before running generators...")
+            PokeDBLoader.clear_cache()
+
     if args.generators:
         success = run_generators(args.generators) and success
 

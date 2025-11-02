@@ -6,7 +6,7 @@ with content prioritizing Black 2 & White 2 data.
 
 This generator:
 1. Reads item data from data/pokedb/parsed/item/
-2. Generates individual markdown files for each item to docs/items/
+2. Generates individual markdown files for each item to docs/pokedex/items/
 3. Lists Pokemon that can hold each item in the wild
 4. Prioritizes Black 2 & White 2 content (flavor text, etc.)
 
@@ -40,7 +40,9 @@ class ItemGenerator(BaseGenerator):
     - Pokemon that can hold this item in the wild
     """
 
-    def __init__(self, output_dir: str = "docs/itemdex", project_root: Optional[Path] = None):
+    def __init__(
+        self, output_dir: str = "docs/pokedex", project_root: Optional[Path] = None
+    ):
         """
         Initialize the Item page generator.
 
@@ -82,7 +84,7 @@ class ItemGenerator(BaseGenerator):
             formatted = formatted.replace(f" {abbr.title()} ", f" {replacement} ")
             formatted = formatted.replace(f" {abbr.title()}", f" {replacement}")
             if formatted.lower().startswith(abbr + " "):
-                formatted = replacement + formatted[len(abbr):]
+                formatted = replacement + formatted[len(abbr) :]
 
         return formatted
 
@@ -133,11 +135,13 @@ class ItemGenerator(BaseGenerator):
                             if item_name not in item_cache:
                                 item_cache[item_name] = []
 
-                            item_cache[item_name].append({
-                                "pokemon": pokemon,
-                                "black_2": rates.get("black_2", 0),
-                                "white_2": rates.get("white_2", 0),
-                            })
+                            item_cache[item_name].append(
+                                {
+                                    "pokemon": pokemon,
+                                    "black_2": rates.get("black_2", 0),
+                                    "white_2": rates.get("white_2", 0),
+                                }
+                            )
 
                 except Exception as e:
                     self.logger.warning(
@@ -146,7 +150,9 @@ class ItemGenerator(BaseGenerator):
 
         # Sort all lists by national dex number
         for item_data in item_cache.values():
-            item_data.sort(key=lambda p: p["pokemon"].pokedex_numbers.get("national", 9999))
+            item_data.sort(
+                key=lambda p: p["pokemon"].pokedex_numbers.get("national", 9999)
+            )
 
         return item_cache
 
@@ -165,7 +171,9 @@ class ItemGenerator(BaseGenerator):
             md += "*This item is not found on wild Pokémon.*\n\n"
             return md
 
-        md += "The following Pokémon may hold this item when encountered in the wild:\n\n"
+        md += (
+            "The following Pokémon may hold this item when encountered in the wild:\n\n"
+        )
 
         # Create table
         md += "| Pokémon | Black 2 | White 2 |\n"
@@ -175,10 +183,10 @@ class ItemGenerator(BaseGenerator):
             pokemon = entry["pokemon"]
             dex_num = pokemon.pokedex_numbers.get("national", "???")
             name = self._format_name(pokemon.name)
-            link = f"[**#{dex_num:03d} {name}**](../../pokedex/pokemon/{pokemon.name}.md)"
+            link = f"[**#{dex_num:03d} {name}**](../pokemon/{pokemon.name}.md)"
 
-            black_2_rate = f"{entry['black_2']}%" if entry['black_2'] else "—"
-            white_2_rate = f"{entry['white_2']}%" if entry['white_2'] else "—"
+            black_2_rate = f"{entry['black_2']}%" if entry["black_2"] else "—"
+            white_2_rate = f"{entry['white_2']}%" if entry["white_2"] else "—"
 
             md += f"| {link} | {black_2_rate} | {white_2_rate} |\n"
 
@@ -277,15 +285,15 @@ class ItemGenerator(BaseGenerator):
         if hasattr(item, "sprite") and item.sprite:
             md += '\t<div class="item-header-sprite">\n'
             md += f'\t\t<img src="{item.sprite}" alt="{display_name}" />\n'
-            md += '\t</div>\n'
+            md += "\t</div>\n"
 
         # Content section
         md += '\t<div class="item-header-content">\n'
         md += f'\t\t<div class="item-header-name">{display_name}</div>\n'
         md += f'\t\t<div class="item-header-category">{category}</div>\n'
-        md += '\t</div>\n'
+        md += "\t</div>\n"
 
-        md += '</div>\n\n'
+        md += "</div>\n\n"
 
         return md
 
@@ -399,8 +407,12 @@ class ItemGenerator(BaseGenerator):
 
         # Generate markdown
         md = "# Items\n\n"
-        md += "Complete list of all items in **Blaze Black 2 & Volt White 2 Redux**.\n\n"
-        md += "> Click on any item to see its full description and where to find it.\n\n"
+        md += (
+            "Complete list of all items in **Blaze Black 2 & Volt White 2 Redux**.\n\n"
+        )
+        md += (
+            "> Click on any item to see its full description and where to find it.\n\n"
+        )
 
         # Generate table with sprite column
         md += "| Sprite | Item | Category | Effect |\n"
@@ -424,7 +436,7 @@ class ItemGenerator(BaseGenerator):
         md += "\n"
 
         # Write to file
-        output_file = self.output_dir.parent / "itemdex.md"
+        output_file = self.output_dir.parent / "items.md"
         output_file.write_text(md, encoding="utf-8")
 
         self.logger.info(f"Generated items index: {output_file}")
@@ -462,57 +474,114 @@ class ItemGenerator(BaseGenerator):
                 except Exception as e:
                     self.logger.warning(f"Could not load {item_file.stem}: {e}")
 
-            # Sort alphabetically
+            # Sort alphabetically within each group
             items.sort(key=lambda i: i.name)
 
-            # Group items by first letter
+            # Group items by usage context
             from collections import defaultdict
-            items_by_letter = defaultdict(list)
+
+            items_by_context = defaultdict(list)
 
             for item in items:
-                first_letter = item.name[0].upper()
-                items_by_letter[first_letter].append(item)
+                # Determine usage context based on attributes and category
+                attributes = (
+                    item.attributes
+                    if hasattr(item, "attributes") and item.attributes
+                    else []
+                )
+                category = item.category if hasattr(item, "category") else None
 
-            # Create navigation structure with alphabetical subsections
-            items_nav_items = [{"Overview": "itemdex/itemdex.md"}]
+                # Check consumable first (highest priority for items that can be used up)
+                if "consumable" in attributes:
+                    context = "consumable"
+                # Then check holdable (items that Pokemon can hold)
+                elif (
+                    "holdable" in attributes
+                    or "holdable-active" in attributes
+                    or category == "held-items"
+                ):
+                    context = "holdable"
+                # Then check key items
+                elif category == "gameplay":
+                    context = "key-items"
+                # Default: miscellaneous
+                else:
+                    context = "miscellaneous"
 
-            # Add subsections for each letter
-            for letter in sorted(items_by_letter.keys()):
-                letter_items = items_by_letter[letter]
-                letter_nav = [
-                    {self._format_name(i.name): f"itemdex/items/{i.name}.md"}
-                    for i in letter_items
-                ]
-                # Using type: ignore because mkdocs nav allows mixed dict value types
-                items_nav_items.append({letter: letter_nav})  # type: ignore
+                items_by_context[context].append(item)
 
-            items_nav = {"Itemdex": items_nav_items}
+            # Create navigation structure with usage context subsections
+            items_nav_items = [{"Overview": "pokedex/items.md"}]
 
-            # Find and replace Itemdex section in nav
+            # Usage context display names and order
+            context_display = {
+                "consumable": "Consumable",
+                "holdable": "Holdable",
+                "key-items": "Key Items",
+                "miscellaneous": "Miscellaneous",
+            }
+            context_order = ["consumable", "holdable", "key-items", "miscellaneous"]
+
+            # Add subsections for each usage context
+            for context_key in context_order:
+                if context_key in items_by_context:
+                    context_items = items_by_context[context_key]
+                    display_name = context_display.get(context_key, context_key.title())
+                    context_nav = [
+                        {self._format_name(i.name): f"pokedex/items/{i.name}.md"}
+                        for i in context_items
+                    ]
+                    # Using type: ignore because mkdocs nav allows mixed dict value types
+                    items_nav_items.append({display_name: context_nav})  # type: ignore
+
+            # Find and update Pokédex section in nav
             if "nav" not in config:
                 raise ValueError("mkdocs.yml does not contain a 'nav' section")
 
             nav_list = config["nav"]
-            items_index = None
+            pokedex_index = None
 
+            # Find the Pokédex section
             for i, item in enumerate(nav_list):
-                if isinstance(item, dict) and "Itemdex" in item:
-                    items_index = i
+                if isinstance(item, dict) and "Pokédex" in item:
+                    pokedex_index = i
                     break
 
-            if items_index is None:
+            if pokedex_index is None:
                 raise ValueError(
-                    "mkdocs.yml nav section does not contain 'Itemdex'. "
-                    "Please add an 'Itemdex' section to the navigation first."
+                    "mkdocs.yml nav section does not contain 'Pokédex'. "
+                    "Please add a 'Pokédex' section to the navigation first."
                 )
 
-            nav_list[items_index] = items_nav
+            # Get the Pokédex navigation items
+            pokedex_nav = nav_list[pokedex_index]["Pokédex"]
+            if not isinstance(pokedex_nav, list):
+                pokedex_nav = []
+
+            # Find or create Items subsection within Pokédex
+            items_subsection_index = None
+            for i, item in enumerate(pokedex_nav):
+                if isinstance(item, dict) and "Items" in item:
+                    items_subsection_index = i
+                    break
+
+            # Update or append Items subsection
+            items_subsection = {"Items": items_nav_items}
+            if items_subsection_index is not None:
+                pokedex_nav[items_subsection_index] = items_subsection
+            else:
+                pokedex_nav.append(items_subsection)
+
+            # Update the config
+            nav_list[pokedex_index] = {"Pokédex": pokedex_nav}
             config["nav"] = nav_list
 
             # Write updated mkdocs.yml
             save_mkdocs_config(mkdocs_path, config)
 
-            self.logger.info(f"Updated mkdocs.yml with {len(items)} items organized into {len(items_by_letter)} alphabetical sections")
+            self.logger.info(
+                f"Updated mkdocs.yml with {len(items)} items organized into {len(items_by_context)} usage context sections"
+            )
             return True
 
         except Exception as e:

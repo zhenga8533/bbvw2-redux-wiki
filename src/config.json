@@ -92,17 +92,17 @@
       "abilities": {
         "module": "src.generators.ability_generator",
         "class": "AbilityGenerator",
-        "output_dir": "docs/abidex"
+        "output_dir": "docs/pokedex"
       },
       "items": {
         "module": "src.generators.item_generator",
         "class": "ItemGenerator",
-        "output_dir": "docs/itemdex"
+        "output_dir": "docs/pokedex"
       },
       "moves": {
         "module": "src.generators.move_generator",
         "class": "MoveGenerator",
-        "output_dir": "docs/movedex"
+        "output_dir": "docs/pokedex"
       }
     }
   }

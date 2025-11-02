@@ -6,7 +6,7 @@ with content prioritizing Black 2 & White 2 data.
 
 This generator:
 1. Reads ability data from data/pokedb/parsed/ability/
-2. Generates individual markdown files for each ability to docs/abilities/
+2. Generates individual markdown files for each ability to docs/pokedex/abilities/
 3. Lists Pokemon that have each ability (standard and hidden)
 4. Prioritizes Black 2 & White 2 content (flavor text, etc.)
 """
@@ -30,7 +30,7 @@ class AbilityGenerator(BaseGenerator):
     """
 
     def __init__(
-        self, output_dir: str = "docs/abidex", project_root: Optional[Path] = None
+        self, output_dir: str = "docs/pokedex", project_root: Optional[Path] = None
     ):
         """
         Initialize the Ability page generator.
@@ -230,7 +230,7 @@ class AbilityGenerator(BaseGenerator):
             for pokemon in normal:
                 dex_num = pokemon.pokedex_numbers.get("national", "???")
                 name = self._format_name(pokemon.name)
-                link = f"../../pokedex/pokemon/{pokemon.name}.md"
+                link = f"../pokemon/{pokemon.name}.md"
 
                 # Get sprite URL
                 sprite_url = None
@@ -259,7 +259,7 @@ class AbilityGenerator(BaseGenerator):
             for pokemon in hidden:
                 dex_num = pokemon.pokedex_numbers.get("national", "???")
                 name = self._format_name(pokemon.name)
-                link = f"../../pokedex/pokemon/{pokemon.name}.md"
+                link = f"../pokemon/{pokemon.name}.md"
 
                 # Get sprite URL
                 sprite_url = None
@@ -457,7 +457,7 @@ class AbilityGenerator(BaseGenerator):
         md += "\n"
 
         # Write to file
-        output_file = self.output_dir.parent / "abidex.md"
+        output_file = self.output_dir.parent / "abilities.md"
         output_file.write_text(md, encoding="utf-8")
 
         self.logger.info(f"Generated abilities index: {output_file}")
@@ -498,56 +498,94 @@ class AbilityGenerator(BaseGenerator):
             # Sort alphabetically
             abilities.sort(key=lambda a: a.name)
 
-            # Group abilities by first letter
+            # Group abilities by generation
             from collections import defaultdict
 
-            abilities_by_letter = defaultdict(list)
+            abilities_by_generation = defaultdict(list)
+
+            # Generation display name mapping
+            generation_display_names = {
+                "generation-iii": "Gen III",
+                "generation-iv": "Gen IV",
+                "generation-v": "Gen V",
+            }
 
             for ability in abilities:
-                first_letter = ability.name[0].upper()
-                abilities_by_letter[first_letter].append(ability)
+                gen = ability.generation if ability.generation else "unknown"
+                abilities_by_generation[gen].append(ability)
 
-            # Create navigation structure with alphabetical subsections
-            abilities_nav_items = [{"Overview": "abidex/abidex.md"}]
+            # Create navigation structure with generation subsections
+            abilities_nav_items = [{"Overview": "pokedex/abilities.md"}]
 
-            # Add subsections for each letter
-            for letter in sorted(abilities_by_letter.keys()):
-                letter_abilities = abilities_by_letter[letter]
-                letter_nav = [
-                    {self._format_name(a.name): f"abidex/abilities/{a.name}.md"}
-                    for a in letter_abilities
+            # Add subsections for each generation in order (III, IV, V)
+            generation_order = ["generation-iii", "generation-iv", "generation-v"]
+            for gen_key in generation_order:
+                if gen_key in abilities_by_generation:
+                    gen_abilities = abilities_by_generation[gen_key]
+                    display_name = generation_display_names.get(gen_key, gen_key)
+                    gen_nav = [
+                        {self._format_name(a.name): f"pokedex/abilities/{a.name}.md"}
+                        for a in gen_abilities
+                    ]
+                    # Using type: ignore because mkdocs nav allows mixed dict value types
+                    abilities_nav_items.append({display_name: gen_nav})  # type: ignore
+
+            # Add unknown generation abilities if any exist
+            if "unknown" in abilities_by_generation:
+                unknown_abilities = abilities_by_generation["unknown"]
+                unknown_nav = [
+                    {self._format_name(a.name): f"pokedex/abilities/{a.name}.md"}
+                    for a in unknown_abilities
                 ]
-                # Using type: ignore because mkdocs nav allows mixed dict value types
-                abilities_nav_items.append({letter: letter_nav})  # type: ignore
+                abilities_nav_items.append({"Unknown": unknown_nav})  # type: ignore
 
-            abilities_nav = {"Abidex": abilities_nav_items}
-
-            # Find and replace Abidex section in nav
+            # Find and update Pokédex section in nav
             if "nav" not in config:
                 raise ValueError("mkdocs.yml does not contain a 'nav' section")
 
             nav_list = config["nav"]
-            abilities_index = None
+            pokedex_index = None
 
+            # Find the Pokédex section
             for i, item in enumerate(nav_list):
-                if isinstance(item, dict) and "Abidex" in item:
-                    abilities_index = i
+                if isinstance(item, dict) and "Pokédex" in item:
+                    pokedex_index = i
                     break
 
-            if abilities_index is None:
+            if pokedex_index is None:
                 raise ValueError(
-                    "mkdocs.yml nav section does not contain 'Abidex'. "
-                    "Please add an 'Abidex' section to the navigation first."
+                    "mkdocs.yml nav section does not contain 'Pokédex'. "
+                    "Please add a 'Pokédex' section to the navigation first."
                 )
 
-            nav_list[abilities_index] = abilities_nav
+            # Get the Pokédex navigation items
+            pokedex_nav = nav_list[pokedex_index]["Pokédex"]
+            if not isinstance(pokedex_nav, list):
+                pokedex_nav = []
+
+            # Find or create Abilities subsection within Pokédex
+            abilities_subsection_index = None
+            for i, item in enumerate(pokedex_nav):
+                if isinstance(item, dict) and "Abilities" in item:
+                    abilities_subsection_index = i
+                    break
+
+            # Update or append Abilities subsection
+            abilities_subsection = {"Abilities": abilities_nav_items}
+            if abilities_subsection_index is not None:
+                pokedex_nav[abilities_subsection_index] = abilities_subsection
+            else:
+                pokedex_nav.append(abilities_subsection)
+
+            # Update the config
+            nav_list[pokedex_index] = {"Pokédex": pokedex_nav}
             config["nav"] = nav_list
 
             # Write updated mkdocs.yml
             save_mkdocs_config(mkdocs_path, config)
 
             self.logger.info(
-                f"Updated mkdocs.yml with {len(abilities)} abilities organized into {len(abilities_by_letter)} alphabetical sections"
+                f"Updated mkdocs.yml with {len(abilities)} abilities organized into {len(abilities_by_generation)} generation sections"
             )
             return True
 

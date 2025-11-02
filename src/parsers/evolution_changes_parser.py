@@ -135,9 +135,9 @@ class EvolutionChangesParser(BaseParser):
         def replace_item(match: re.Match[str]) -> str:
             """Replace item text with formatted item display."""
             item_name = match.group(1).strip()
-            formatted = format_item(
-                item_name, has_sprite=True, has_name=True, has_flavor_text=True
-            )
+            # Convert item name to ID format (replace spaces with hyphens)
+            item_id = item_name.lower().replace(" ", "-")
+            formatted = format_item(item_id, has_sprite=True, is_linked=True, relative_path="..")
             return f"via the use of {formatted}"
 
         formatted_text = re.sub(

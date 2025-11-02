@@ -307,6 +307,7 @@ class Ability:
     name: str
     source_url: str
     is_main_series: bool
+    generation: Optional[str]
     effect: Optional[GameVersionStringMap]
     short_effect: Optional[str]
     flavor_text: GameVersionStringMap

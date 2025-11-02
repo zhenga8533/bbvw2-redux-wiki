@@ -207,7 +207,7 @@ class PokemonChangesParser(BaseParser):
         self._levelup_moves.append((int(level), move))
 
         # Format move name
-        move_html = format_move(move)
+        move_html = format_move(move, relative_path="..")
 
         # Load move data from PokeDB
         move_data = PokeDBLoader.load_move(move)

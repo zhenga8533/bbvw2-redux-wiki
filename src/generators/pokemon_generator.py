@@ -19,23 +19,20 @@ Key CSS classes used:
 - .pokemon-stat-bar-container, .pokemon-stat-bar-fill - Stat bars (see _stat_bar)
 - .pokemon-hero, .pokemon-hero-* - Hero section components (see _generate_hero_section)
 - .pokemon-status-badge-* - Legendary/Mythical/Baby badges (see _generate_status_badges)
-- .pokemon-tooltip, .pokemon-move-tooltip - Tooltips (see _format_move_with_tooltip)
 - .pokemon-sprite-img - Sprite images (see _generate_sprites_section)
 
 Note: Some styles are applied inline when they depend on dynamic data:
 - Hero gradient colors (based on Pokemon types)
-- Move tooltip colors (based on move types)
 """
 
 from pathlib import Path
-from typing import Optional, Dict, List
+from typing import Optional, Dict, List, Any, cast
 from src.data.pokedb_loader import PokeDBLoader
 from src.models.pokedb import Pokemon, Move
 from src.utils.markdown_util import format_item
 from src.utils.text_util import extract_form_suffix
 from src.utils.yaml_util import load_mkdocs_config, save_mkdocs_config
 from .base_generator import BaseGenerator
-import html
 
 
 class PokemonGenerator(BaseGenerator):
@@ -210,33 +207,28 @@ class PokemonGenerator(BaseGenerator):
         """Get the color for a Pokemon type."""
         return self.TYPE_COLORS.get(type_name.lower(), "#777777")
 
-    def _format_move_with_tooltip(
-        self, move_name: str, move_data: Optional[Move]
-    ) -> str:
+    def _format_move_link(self, move_name: str, move_data: Optional[Move]) -> str:
         """
-        Format a move name with type color and tooltip.
+        Format a move name as a link to its page.
 
-        CSS classes used:
-        - .pokemon-move-tooltip: Base tooltip styling with dashed underline
+        Args:
+            move_name: The move identifier (e.g., "thunderbolt")
+            move_data: Optional move data (if None, returns plain text)
 
-        Note: Border and text colors are applied inline because they're based on
-        the move's type color (dynamically determined from move data).
+        Returns:
+            Markdown link to move page or plain text if move data unavailable
         """
         if not move_data:
             return self._format_name(move_name)
 
-        # Get move type and color
-        move_type = move_data.type.black_2_white_2
-        type_color = self._get_type_color(move_type) if move_type else "#999"
+        # Format display name
+        display_name = self._format_name(move_name)
 
-        # Get flavor text for tooltip
-        flavor = move_data.flavor_text.black_2_white_2
-        if flavor:
-            escaped_flavor = html.escape(flavor)
-            # Use CSS class with inline color for type-specific styling
-            return f'<span class="pokemon-move-tooltip" style="border-color: {type_color}; color: {type_color};" title="{escaped_flavor}">{self._format_name(move_name)}</span>'
-        else:
-            return f'<span style="color: {type_color}; opacity: 0.9;">{self._format_name(move_name)}</span>'
+        # Use normalized name from move data for the link
+        normalized_name = move_data.name
+
+        # Create link to move page using normalized name (relative from pokemon pages)
+        return f"[{display_name}](../moves/{normalized_name}.md)"
 
     def _get_type_effectiveness(self, types: List[str]) -> Dict[str, List[str]]:
         """Calculate type effectiveness based on Pokemon's types."""
@@ -457,13 +449,11 @@ class PokemonGenerator(BaseGenerator):
         if regional_dex:
             dex_badges = []
             for region, number in sorted(regional_dex.items()):
-                region_name = self._format_name(region)
+                region_name = self._format_name(region).replace("_", " ")
                 dex_badges.append(
                     f'<span class="pokemon-regional-badge">{region_name}: #{number:03d}</span>'
                 )
-            md += (
-                f'\t\t<div class="pokemon-hero-regional-dex">{" ".join(dex_badges)}</div>\n'
-            )
+            md += f'\t\t<div class="pokemon-hero-regional-dex">{" ".join(dex_badges)}</div>\n'
 
         # Types with better spacing
         types_str = " ".join([self._format_type(t) for t in pokemon.types])
@@ -491,12 +481,13 @@ class PokemonGenerator(BaseGenerator):
         md += "\t---\n\n"
         for ability in pokemon.abilities:
             hidden_emoji = " :material-eye-off:" if ability.is_hidden else ""
-            # Load ability data for tooltip
+            # Load ability data to check if it exists and create link
             ability_data = PokeDBLoader.load_ability(ability.name)
-            if ability_data and ability_data.flavor_text.black_2_white_2:
-                flavor = ability_data.flavor_text.black_2_white_2
-                escaped_flavor = html.escape(flavor)
-                ability_display = f'<span class="pokemon-tooltip" title="{escaped_flavor}">{self._format_name(ability.name)}</span>{hidden_emoji}'
+            if ability_data:
+                display_name = self._format_name(ability.name)
+                # Use normalized name from ability_data for the link
+                normalized_name = ability_data.name
+                ability_display = f"[{display_name}](../abilities/{normalized_name}.md){hidden_emoji}"
             else:
                 ability_display = f"{self._format_name(ability.name)}{hidden_emoji}"
             md += f"\t- {ability_display}\n"
@@ -540,7 +531,7 @@ class PokemonGenerator(BaseGenerator):
             male_pct = 100 - female_pct
             md += f"\t**Gender Ratio:** {male_pct:.1f}% ♂ / {female_pct:.1f}% ♀\n\n"
             if pokemon.has_gender_differences:
-                md += "\t**Gender Differences:** Yes (♂/♀ sprites differ)\n\n"
+                md += "\t**Gender Differences:** Yes\n\n"
         md += f"\t**Egg Groups:** {', '.join([self._format_name(eg) for eg in pokemon.egg_groups])}\n\n"
         md += f"\t**Hatch Counter:** {pokemon.hatch_counter} cycles\n\n"
 
@@ -573,7 +564,9 @@ class PokemonGenerator(BaseGenerator):
         md += "|------|:-------:|:-------:|\n"
 
         for item_name, rates in pokemon.held_items.items():
-            item_display = format_item(item_name.replace("_", " ").title())
+            # Convert underscores to hyphens for item identifier
+            item_id = item_name.replace("_", "-")
+            item_display = format_item(item_id)
 
             # Get rates for Black 2 & White 2
             black_2_rate = (
@@ -702,7 +695,11 @@ class PokemonGenerator(BaseGenerator):
             for subfolder in ["default", "transformation", "variant"]:
                 try:
                     poke = PokeDBLoader.load_pokemon(pokemon_name, subfolder=subfolder)
-                    if poke and hasattr(poke.sprites, "versions") and poke.sprites.versions:
+                    if (
+                        poke
+                        and hasattr(poke.sprites, "versions")
+                        and poke.sprites.versions
+                    ):
                         bw = poke.sprites.versions.black_white
                         if bw.animated and bw.animated.front_default:
                             return bw.animated.front_default
@@ -731,7 +728,7 @@ class PokemonGenerator(BaseGenerator):
         if sprite_url:
             card_html += f'\t<img src="{sprite_url}" alt="{display_name}" class="pokemon-evo-sprite" />\n'
         card_html += f'\t<div class="pokemon-evo-name">{display_name}</div>\n'
-        card_html += '</a>'
+        card_html += "</a>"
 
         return card_html
 
@@ -802,7 +799,9 @@ class PokemonGenerator(BaseGenerator):
             try:
                 for subfolder in ["default", "transformation", "variant"]:
                     try:
-                        poke = PokeDBLoader.load_pokemon(node.species_name, subfolder=subfolder)
+                        poke = PokeDBLoader.load_pokemon(
+                            node.species_name, subfolder=subfolder
+                        )
                         if poke:
                             actual_name = poke.name
                             break
@@ -813,9 +812,9 @@ class PokemonGenerator(BaseGenerator):
 
             # Create current Pokemon entry with method to GET TO it
             current_entry = {
-                'species_name': node.species_name,
-                'actual_name': actual_name,
-                'evolution_method': evolution_method
+                "species_name": node.species_name,
+                "actual_name": actual_name,
+                "evolution_method": evolution_method,
             }
 
             # If this is a leaf node (no evolutions), return a path with just this Pokemon
@@ -854,8 +853,8 @@ class PokemonGenerator(BaseGenerator):
 
             for i in range(min_length):
                 # Check if all paths have the same Pokemon at position i
-                first_species = paths[0][i]['species_name']
-                if all(path[i]['species_name'] == first_species for path in paths):
+                first_species = paths[0][i]["species_name"]
+                if all(path[i]["species_name"] == first_species for path in paths):
                     prefix.append(paths[0][i])
                 else:
                     break
@@ -879,15 +878,24 @@ class PokemonGenerator(BaseGenerator):
         # Render common prefix horizontally
         for i, poke_data in enumerate(common_prefix):
             md += '\t\t<div class="pokemon-evo-item">\n'
-            md += '\t\t\t' + self._create_evo_card(poke_data['species_name'], poke_data['actual_name']) + '\n'
+            md += (
+                "\t\t\t"
+                + self._create_evo_card(
+                    poke_data["species_name"], poke_data["actual_name"]
+                )
+                + "\n"
+            )
 
             # Show evolution method (how to get TO this Pokemon)
-            if poke_data['evolution_method']:
+            if poke_data["evolution_method"]:
                 md += f'\t\t\t<div class="pokemon-evo-method">{poke_data["evolution_method"]}</div>\n'
+            elif i == 0:
+                # First Pokemon in chain - show "Base"
+                md += '\t\t\t<div class="pokemon-evo-method">Base</div>\n'
             else:
                 md += '\t\t\t<div class="pokemon-evo-method"></div>\n'
 
-            md += '\t\t</div>\n'
+            md += "\t\t</div>\n"
 
             # Add arrow after if not last in prefix or if there are branches
             if i < len(common_prefix) - 1 or branches:
@@ -914,28 +922,37 @@ class PokemonGenerator(BaseGenerator):
 
                     for i, poke_data in enumerate(branch):
                         md += '\t\t\t\t\t<div class="pokemon-evo-item">\n'
-                        md += '\t\t\t\t\t\t' + self._create_evo_card(poke_data['species_name'], poke_data['actual_name']) + '\n'
+                        md += (
+                            "\t\t\t\t\t\t"
+                            + self._create_evo_card(
+                                poke_data["species_name"], poke_data["actual_name"]
+                            )
+                            + "\n"
+                        )
 
                         # Show evolution method
-                        if poke_data['evolution_method']:
+                        if poke_data["evolution_method"]:
                             md += f'\t\t\t\t\t\t<div class="pokemon-evo-method">{poke_data["evolution_method"]}</div>\n'
+                        elif i == 0 and len(common_prefix) == 0:
+                            # First Pokemon in branch and no common prefix - show "Base"
+                            md += '\t\t\t\t\t\t<div class="pokemon-evo-method">Base</div>\n'
                         else:
                             md += '\t\t\t\t\t\t<div class="pokemon-evo-method"></div>\n'
 
-                        md += '\t\t\t\t\t</div>\n'
+                        md += "\t\t\t\t\t</div>\n"
 
                         # Add arrow if not last in branch
                         if i < len(branch) - 1:
                             md += '\t\t\t\t\t<div class="pokemon-evo-arrow">→</div>\n'
 
-                    md += '\t\t\t\t</div>\n'
+                    md += "\t\t\t\t</div>\n"
 
-                md += '\t\t\t</div>\n'
+                md += "\t\t\t</div>\n"
 
-            md += '\t\t</div>\n'
+            md += "\t\t</div>\n"
 
-        md += '\t</div>\n'
-        md += '</div>\n\n'
+        md += "\t</div>\n"
+        md += "</div>\n\n"
 
         return md
 
@@ -1014,9 +1031,7 @@ class PokemonGenerator(BaseGenerator):
         # Generate rows
         for move_learn in sorted_moves:
             move_data = PokeDBLoader.load_move(move_learn.name)
-            move_name_formatted = self._format_move_with_tooltip(
-                move_learn.name, move_data
-            )
+            move_name_formatted = self._format_move_link(move_learn.name, move_data)
 
             if move_data:
                 # Get move details
@@ -1131,38 +1146,6 @@ class PokemonGenerator(BaseGenerator):
                 md += f"\t\t{pokemon.flavor_text.white_2}\n\n"
             else:
                 md += "\t*No entry available*\n\n"
-
-            # Show original Black & White as additional reference if available
-            if has_bw:
-                md += '=== ":material-circle-outline: Black (Original)"\n\n'
-                if pokemon.flavor_text.black:
-                    md += f'\t!!! quote ""\n\n'
-                    md += f"\t\t{pokemon.flavor_text.black}\n\n"
-                else:
-                    md += "\t*No entry available*\n\n"
-
-                md += '=== ":material-circle: White (Original)"\n\n'
-                if pokemon.flavor_text.white:
-                    md += f'\t!!! quote ""\n\n'
-                    md += f"\t\t{pokemon.flavor_text.white}\n\n"
-                else:
-                    md += "\t*No entry available*\n\n"
-
-        elif has_bw:
-            # Fallback to Black & White if B2W2 entries don't exist
-            md += '=== ":material-circle-outline: Black"\n\n'
-            if pokemon.flavor_text.black:
-                md += f'\t!!! quote ""\n\n'
-                md += f"\t\t{pokemon.flavor_text.black}\n\n"
-            else:
-                md += "\t*No entry available*\n\n"
-
-            md += '=== ":material-circle: White"\n\n'
-            if pokemon.flavor_text.white:
-                md += f'\t!!! quote ""\n\n'
-                md += f"\t\t{pokemon.flavor_text.white}\n\n"
-            else:
-                md += "\t*No entry available*\n\n"
         else:
             md += "*No Pokédex entries available.*\n\n"
 
@@ -1188,56 +1171,56 @@ class PokemonGenerator(BaseGenerator):
             bw = sprites.versions.black_white
             if bw.animated:
                 # Normal sprites
-                md += '\t**Normal**\n\n'
+                md += "\t**Normal**\n\n"
                 md += '\t<div class="grid cards" markdown>\n\n'
 
                 if bw.animated.front_default:
-                    md += f'\t- ![Front]({bw.animated.front_default}){{: .pokemon-sprite-img }}\n\n'
-                    md += '\t\t---\n\n'
-                    md += '\t\tFront\n\n'
+                    md += f"\t- ![Front]({bw.animated.front_default}){{: .pokemon-sprite-img }}\n\n"
+                    md += "\t\t---\n\n"
+                    md += "\t\tFront\n\n"
                 if bw.animated.back_default:
-                    md += f'\t- ![Back]({bw.animated.back_default}){{: .pokemon-sprite-img }}\n\n'
-                    md += '\t\t---\n\n'
-                    md += '\t\tBack\n\n'
+                    md += f"\t- ![Back]({bw.animated.back_default}){{: .pokemon-sprite-img }}\n\n"
+                    md += "\t\t---\n\n"
+                    md += "\t\tBack\n\n"
 
                 # Female variants if available
                 if has_female_sprites:
                     if bw.animated.front_female:
-                        md += f'\t- ![Front ♀]({bw.animated.front_female}){{: .pokemon-sprite-img }}\n\n'
-                        md += '\t\t---\n\n'
-                        md += '\t\tFront ♀\n\n'
+                        md += f"\t- ![Front ♀]({bw.animated.front_female}){{: .pokemon-sprite-img }}\n\n"
+                        md += "\t\t---\n\n"
+                        md += "\t\tFront ♀\n\n"
                     if bw.animated.back_female:
-                        md += f'\t- ![Back ♀]({bw.animated.back_female}){{: .pokemon-sprite-img }}\n\n'
-                        md += '\t\t---\n\n'
-                        md += '\t\tBack ♀\n\n'
+                        md += f"\t- ![Back ♀]({bw.animated.back_female}){{: .pokemon-sprite-img }}\n\n"
+                        md += "\t\t---\n\n"
+                        md += "\t\tBack ♀\n\n"
 
-                md += '\t</div>\n\n'
+                md += "\t</div>\n\n"
 
                 # Shiny sprites
-                md += '\t**✨ Shiny**\n\n'
+                md += "\t**✨ Shiny**\n\n"
                 md += '\t<div class="grid cards" markdown>\n\n'
 
                 if bw.animated.front_shiny:
-                    md += f'\t- ![Front Shiny]({bw.animated.front_shiny}){{: .pokemon-sprite-img }}\n\n'
-                    md += '\t\t---\n\n'
-                    md += '\t\tFront\n\n'
+                    md += f"\t- ![Front Shiny]({bw.animated.front_shiny}){{: .pokemon-sprite-img }}\n\n"
+                    md += "\t\t---\n\n"
+                    md += "\t\tFront\n\n"
                 if bw.animated.back_shiny:
-                    md += f'\t- ![Back Shiny]({bw.animated.back_shiny}){{: .pokemon-sprite-img }}\n\n'
-                    md += '\t\t---\n\n'
-                    md += '\t\tBack\n\n'
+                    md += f"\t- ![Back Shiny]({bw.animated.back_shiny}){{: .pokemon-sprite-img }}\n\n"
+                    md += "\t\t---\n\n"
+                    md += "\t\tBack\n\n"
 
                 # Female shiny variants if available
                 if has_female_sprites:
                     if bw.animated.front_shiny_female:
-                        md += f'\t- ![Front Shiny ♀]({bw.animated.front_shiny_female}){{: .pokemon-sprite-img }}\n\n'
-                        md += '\t\t---\n\n'
-                        md += '\t\tFront ♀\n\n'
+                        md += f"\t- ![Front Shiny ♀]({bw.animated.front_shiny_female}){{: .pokemon-sprite-img }}\n\n"
+                        md += "\t\t---\n\n"
+                        md += "\t\tFront ♀\n\n"
                     if bw.animated.back_shiny_female:
-                        md += f'\t- ![Back Shiny ♀]({bw.animated.back_shiny_female}){{: .pokemon-sprite-img }}\n\n'
-                        md += '\t\t---\n\n'
-                        md += '\t\tBack ♀\n\n'
+                        md += f"\t- ![Back Shiny ♀]({bw.animated.back_shiny_female}){{: .pokemon-sprite-img }}\n\n"
+                        md += "\t\t---\n\n"
+                        md += "\t\tBack ♀\n\n"
 
-                md += '\t</div>\n\n'
+                md += "\t</div>\n\n"
 
         # Official Artwork Tab
         md += '=== "Official Artwork"\n\n'
@@ -1253,17 +1236,17 @@ class PokemonGenerator(BaseGenerator):
 
             # Normal artwork
             if artwork.front_default:
-                md += f'\t- ![Official Artwork]({artwork.front_default})\n\n'
-                md += '\t\t---\n\n'
-                md += '\t\tNormal\n\n'
+                md += f"\t- ![Official Artwork]({artwork.front_default})\n\n"
+                md += "\t\t---\n\n"
+                md += "\t\tNormal\n\n"
 
             # Shiny artwork
             if artwork.front_shiny:
-                md += f'\t- ![Shiny Official Artwork]({artwork.front_shiny})\n\n'
-                md += '\t\t---\n\n'
-                md += '\t\t✨ Shiny\n\n'
+                md += f"\t- ![Shiny Official Artwork]({artwork.front_shiny})\n\n"
+                md += "\t\t---\n\n"
+                md += "\t\t✨ Shiny\n\n"
 
-            md += '\t</div>\n\n'
+            md += "\t</div>\n\n"
 
         # Pokemon cry audio player
         md += "---\n\n"
@@ -1445,7 +1428,8 @@ class PokemonGenerator(BaseGenerator):
         for gen_name, start, end, icon in gen_definitions:
             # Filter Pokemon for this generation
             gen_pokemon = [
-                p for p in pokemon_list
+                p
+                for p in pokemon_list
                 if start <= p.pokedex_numbers.get("national", 0) <= end
             ]
 
@@ -1464,7 +1448,8 @@ class PokemonGenerator(BaseGenerator):
                 dex_num = pokemon.pokedex_numbers.get("national", "???")
                 name = self._format_name(pokemon.name)
                 link = f"[{name}](pokemon/{pokemon.name}.md)"
-                types = " ".join([self._format_type(t) for t in pokemon.types])
+                # Stack types vertically if multiple types
+                types = "<br>".join([self._format_type(t) for t in pokemon.types])
 
                 # Get sprite URL
                 sprite_url = None
@@ -1490,10 +1475,10 @@ class PokemonGenerator(BaseGenerator):
             md += "\n"
 
         # Write to file
-        output_file = self.output_dir.parent / "pokedex.md"
+        output_file = self.output_dir.parent / "pokemon.md"
         output_file.write_text(md, encoding="utf-8")
 
-        self.logger.info(f"Generated Pokedex index: {output_file}")
+        self.logger.info(f"Generated Pokemon index: {output_file}")
         return output_file
 
     def update_mkdocs_navigation(self, subfolder: str = "default") -> bool:
@@ -1554,7 +1539,7 @@ class PokemonGenerator(BaseGenerator):
                             f"Could not load {pokemon_file.stem} from {folder}: {e}"
                         )
 
-            # Group Pokemon by national dex number
+            # Group Pokemon by national dex number first for form handling
             from collections import defaultdict
 
             pokemon_by_dex: Dict[int, List[Pokemon]] = defaultdict(list)
@@ -1568,101 +1553,122 @@ class PokemonGenerator(BaseGenerator):
             for dex_num in pokemon_by_dex:
                 pokemon_by_dex[dex_num].sort(key=lambda p: (not p.is_default, p.name))
 
-            # Get sorted list of dex numbers
-            sorted_dex_numbers = sorted(pokemon_by_dex.keys())
+            # Group Pokemon by generation attribute
+            pokemon_by_generation: Dict[str, Dict[int, List[Pokemon]]] = defaultdict(lambda: defaultdict(list))
 
-            # Group Pokemon by generation
-            gen_names = [
-                ("Gen 1", 1, 151),
-                ("Gen 2", 152, 251),
-                ("Gen 3", 252, 386),
-                ("Gen 4", 387, 493),
-                ("Gen 5", 494, 649),
-            ]
+            for dex_num, pokemon_forms in pokemon_by_dex.items():
+                # Use the generation from the default form
+                default_form = pokemon_forms[0]
+                gen = default_form.generation if default_form.generation else "unknown"
+                pokemon_by_generation[gen][dex_num] = pokemon_forms
 
-            # Create navigation structure
-            pokedex_nav_items = [{"Overview": "pokedex/pokedex.md"}]
+            # Generation display name mapping and order
+            generation_display_names = {
+                "generation-i": "Gen I",
+                "generation-ii": "Gen II",
+                "generation-iii": "Gen III",
+                "generation-iv": "Gen IV",
+                "generation-v": "Gen V",
+            }
+            generation_order = ["generation-i", "generation-ii", "generation-iii", "generation-iv", "generation-v"]
+
+            # Create navigation structure for Pokémon subsection
+            pokemon_nav_items = [{"Overview": "pokedex/pokemon.md"}]
 
             # Build navigation for each generation
-            for gen_name, start, end in gen_names:
-                gen_dex_numbers = [
-                    dex for dex in sorted_dex_numbers if start <= dex <= end
-                ]
+            for gen_key in generation_order:
+                if gen_key not in pokemon_by_generation:
+                    continue
 
-                if gen_dex_numbers:
-                    gen_nav = []
-                    for dex_num in gen_dex_numbers:
-                        pokemon_forms = pokemon_by_dex[dex_num]
+                display_name = generation_display_names.get(gen_key, gen_key)
+                gen_pokemon_by_dex = pokemon_by_generation[gen_key]
+                sorted_dex_numbers = sorted(gen_pokemon_by_dex.keys())
 
-                        # Get the default form (should be first after sorting)
-                        default_form = pokemon_forms[0]
-                        base_name = default_form.species
+                gen_nav = []
+                for dex_num in sorted_dex_numbers:
+                    pokemon_forms = gen_pokemon_by_dex[dex_num]
 
-                        # Check if default form has a suffix
-                        default_form_suffix = extract_form_suffix(
-                            default_form.name, base_name
-                        )
+                    # Get the default form (should be first after sorting)
+                    default_form = pokemon_forms[0]
+                    base_name = default_form.species
 
-                        # Create main entry for default form
-                        main_entry = {
-                            f"#{dex_num:03d} {self._format_name(default_form.name)}": f"pokedex/pokemon/{default_form.name}.md"
-                        }
+                    # Check if default form has a suffix
+                    default_form_suffix = extract_form_suffix(
+                        default_form.name, base_name
+                    )
 
-                        # If there are alternate forms, add them as nested entries
-                        if len(pokemon_forms) > 1:
-                            # If default form has a suffix, use base species name for main entry
-                            # and show all forms (including default) with their suffixes
-                            if default_form_suffix:
-                                all_forms = []
-                                for form in pokemon_forms:
-                                    form_display = self._format_form_name(
-                                        form.name, base_name
-                                    )
-                                    all_forms.append(
-                                        {
-                                            form_display: f"pokedex/pokemon/{form.name}.md"
-                                        }
-                                    )
+                    # Create main entry for default form
+                    main_entry = {
+                        f"#{dex_num:03d} {self._format_name(default_form.name)}": f"pokedex/pokemon/{default_form.name}.md"
+                    }
 
-                                main_entry = {
-                                    f"#{dex_num:03d} {self._format_name(base_name)}": all_forms
-                                }
-                            else:
-                                # Default has no suffix, keep current behavior
-                                alternate_forms = []
-                                for alt_form in pokemon_forms[1:]:
-                                    form_display = self._format_form_name(
-                                        alt_form.name, base_name
-                                    )
-                                    alternate_forms.append(
-                                        {
-                                            form_display: f"pokedex/pokemon/{alt_form.name}.md"
-                                        }
-                                    )
+                    # If there are alternate forms, add them as nested entries
+                    if len(pokemon_forms) > 1:
+                        # If default form has a suffix, use base species name for main entry
+                        # and show all forms (including default) with their suffixes
+                        if default_form_suffix:
+                            all_forms = []
+                            for form in pokemon_forms:
+                                form_display = self._format_form_name(
+                                    form.name, base_name
+                                )
+                                all_forms.append(
+                                    {
+                                        form_display: f"pokedex/pokemon/{form.name}.md"
+                                    }
+                                )
 
-                                main_entry = {
-                                    f"#{dex_num:03d} {self._format_name(default_form.name)}": [
-                                        {
-                                            "Default": f"pokedex/pokemon/{default_form.name}.md"
-                                        }
-                                    ]
-                                    + alternate_forms
-                                }
+                            main_entry = {
+                                f"#{dex_num:03d} {self._format_name(base_name)}": all_forms
+                            }
+                        else:
+                            # Default has no suffix, keep current behavior
+                            alternate_forms = []
+                            for alt_form in pokemon_forms[1:]:
+                                form_display = self._format_form_name(
+                                    alt_form.name, base_name
+                                )
+                                alternate_forms.append(
+                                    {
+                                        form_display: f"pokedex/pokemon/{alt_form.name}.md"
+                                    }
+                                )
 
-                        gen_nav.append(main_entry)
+                            main_entry = {
+                                f"#{dex_num:03d} {self._format_name(default_form.name)}": [
+                                    {
+                                        "Default": f"pokedex/pokemon/{default_form.name}.md"
+                                    }
+                                ]
+                                + alternate_forms
+                            }
 
-                    # Using type: ignore because mkdocs nav allows mixed dict value types
-                    pokedex_nav_items.append({gen_name: gen_nav})  # type: ignore
+                    gen_nav.append(main_entry)
 
-            pokedex_nav = {"Pokédex": pokedex_nav_items}
+                # Using type: ignore because mkdocs nav allows mixed dict value types
+                pokemon_nav_items.append({display_name: gen_nav})  # type: ignore
 
-            # Find and replace Pokédex section in nav
+            # Add unknown generation Pokemon if any exist
+            if "unknown" in pokemon_by_generation:
+                unknown_pokemon_by_dex = pokemon_by_generation["unknown"]
+                sorted_unknown_dex = sorted(unknown_pokemon_by_dex.keys())
+                unknown_nav = []
+                for dex_num in sorted_unknown_dex:
+                    pokemon_forms = unknown_pokemon_by_dex[dex_num]
+                    default_form = pokemon_forms[0]
+                    unknown_nav.append({
+                        f"#{dex_num:03d} {self._format_name(default_form.name)}": f"pokedex/pokemon/{default_form.name}.md"
+                    })
+                pokemon_nav_items.append({"Unknown": unknown_nav})  # type: ignore
+
+            # Find and update Pokédex section in nav
             if "nav" not in config:
                 raise ValueError("mkdocs.yml does not contain a 'nav' section")
 
             nav_list = config["nav"]
             pokedex_index = None
 
+            # Find the Pokédex section
             for i, item in enumerate(nav_list):
                 if isinstance(item, dict) and "Pokédex" in item:
                     pokedex_index = i
@@ -1674,16 +1680,41 @@ class PokemonGenerator(BaseGenerator):
                     "Please add a 'Pokédex' section to the navigation first."
                 )
 
-            nav_list[pokedex_index] = pokedex_nav
+            # Get the Pokédex navigation items
+            pokedex_nav = nav_list[pokedex_index]["Pokédex"]
+            if not isinstance(pokedex_nav, list):
+                pokedex_nav = []
+
+            # Ensure typing is flexible for mixed nav entry value types
+            pokedex_nav = cast(List[Dict[str, Any]], pokedex_nav)
+
+            # Find or create Pokémon subsection within Pokédex
+            pokemon_subsection_index = None
+            for i, item in enumerate(pokedex_nav):
+                if isinstance(item, dict) and "Pokémon" in item:
+                    pokemon_subsection_index = i
+                    break
+
+            # Update or append Pokémon subsection
+            pokemon_subsection = {"Pokémon": pokemon_nav_items}
+            if pokemon_subsection_index is not None:
+                pokedex_nav[pokemon_subsection_index] = pokemon_subsection
+            else:
+                # Prepend Pokémon subsection as the first item
+                pokedex_nav.insert(0, pokemon_subsection)
+
+            # Update the config
+            nav_list[pokedex_index] = {"Pokédex": pokedex_nav}
             config["nav"] = nav_list
 
             # Write updated mkdocs.yml using utility
             save_mkdocs_config(mkdocs_path, config)
 
-            total_pokemon = len(sorted_dex_numbers)
+            total_pokemon = len(pokemon_by_dex)
             total_forms = len(all_pokemon)
+            total_generations = len([g for g in generation_order if g in pokemon_by_generation])
             self.logger.info(
-                f"Updated mkdocs.yml with {total_pokemon} Pokemon ({total_forms} total forms including alternates)"
+                f"Updated mkdocs.yml with {total_pokemon} Pokemon ({total_forms} total forms including alternates) organized into {total_generations} generations"
             )
             return True
 

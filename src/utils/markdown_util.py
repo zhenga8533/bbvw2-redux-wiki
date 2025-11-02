@@ -5,8 +5,6 @@ This module provides helpers for creating consistent markdown elements
 like Pokemon displays with sprites and links.
 """
 
-import html
-import re
 from typing import Optional
 
 from src.data.pokedb_loader import PokeDBLoader
@@ -27,49 +25,41 @@ def format_checkbox(checked: bool) -> str:
     return f'<input type="checkbox" disabled{" checked" if checked else ""} />'
 
 
-def format_flavor_text(name: str, title: Optional[str], color: str = "") -> str:
+def format_ability(ability_name: str, is_linked: bool = True, relative_path: str = "../..") -> str:
     """
-    Format flavor text with a tooltip.
+    Format an ability name with optional link to its page.
 
     Args:
-        text: The flavor text to display as a tooltip.
-        title: The main text to display.
-
+        ability_name: The ability identifier (e.g., "overgrow" or "Overgrow")
+        is_linked: Whether to create a link to the ability's page
+        relative_path: Path to docs root (default: "../.." for pokemon pages, use ".." for changes pages)
     Returns:
-        Formatted HTML string with tooltip.
+        Formatted markdown string for the ability (link or plain text)
     """
-    if not title:
-        return f"<span>{name}</span>"
-
-    style = f"border-bottom: 1px dashed #777; cursor: help;"
-    if color:
-        style += f" color: {color};"
-
-    escaped_flavor = html.escape(title)
-    return f'<span style="{style}" title="{escaped_flavor}">{name}</span>'
-
-
-def format_ability(ability_name: str, has_flavor_text: bool = True) -> str:
-    """
-    Format an ability name with optional flavor text as tooltip.
-
-    Args:
-        ability_name: The display name of the ability (e.g., "Overgrow")
-        has_flavor_text: Whether to include the ability's flavor text as a tooltip
-    Returns:
-        Formatted HTML string for the ability
-    """
-    if not has_flavor_text:
-        return ability_name
-
-    # Try to load ability data
+    # Try to load ability data to check if it exists
     ability_data = PokeDBLoader.load_ability(ability_name)
     if not ability_data:
-        return ability_name
+        # If data doesn't exist, return plain text with formatted name
+        return ability_name.replace("-", " ").title()
 
-    # Add flavor text as tooltip if available
-    flavor = ability_data.flavor_text.black_2_white_2
-    return format_flavor_text(ability_name, flavor)
+    # Use the normalized name from the loaded data for the link
+    normalized_name = ability_data.name
+
+    # Format the display name
+    display_name = ability_name.replace("-", " ").title()
+
+    # Special cases for proper capitalization
+    special_cases = {
+        "rks system": "RKS System",
+    }
+    if ability_name.lower().replace("-", " ") in special_cases:
+        display_name = special_cases[ability_name.lower().replace("-", " ")]
+
+    if is_linked:
+        # Create link to ability page using normalized name
+        return f"[{display_name}]({relative_path}/pokedex/abilities/{normalized_name}.md)"
+    else:
+        return display_name
 
 
 def format_pokemon(
@@ -137,111 +127,98 @@ def format_pokemon(
     return pokemon_html
 
 
-def format_item(
-    item_name: str,
-    has_sprite: bool = True,
-    has_name: bool = True,
-    has_flavor_text: bool = True,
-) -> str:
+def format_item(item_name: str, has_sprite: bool = True, is_linked: bool = True, relative_path: str = "../..") -> str:
     """
-    Format an item with optional sprite, name, and flavor text.
+    Format an item with optional sprite and link to its page.
 
     Args:
-        item_name: The display name of the item (e.g., "Potion")
+        item_name: The item identifier (e.g., "potion" or "Potion")
         has_sprite: Whether to include the item's sprite image
-        has_name: Whether to include the item's name text
-        has_flavor_text: Whether to include the item's flavor text below the name
+        is_linked: Whether to create a link to the item's page
+        relative_path: Path to docs root (default: "../.." for pokemon pages, use ".." for changes pages)
 
     Returns:
-        Markdown string with item sprite, name, and optional flavor text
-
-    Example output:
-        <div align="center"><img src="sprite.png"><br><strong>Potion</strong><br>Restores 20 HP.</div>
+        HTML/markdown string with sprite and/or link
     """
-    item_html = ""
-
-    # Handle special case for TMs/HMs with numbers
-    item_extra = ""
-    if re.match(r"^(?:tm|hm)[\d]+$", item_name.lower().split(" ", 1)[0]):
-        item_name, item_extra = (
-            item_name.split(" ", 1) if " " in item_name else (item_name, "")
-        )
-    if match := re.match(r"^(.+?) x(\d+)$", item_name):
-        item_name, item_quantity = match.groups()
-        item_extra += f" x{item_quantity}"
-
-    # Try to load item data
+    # Try to load item data to check if it exists
     item_data = PokeDBLoader.load_item(item_name)
     if not item_data:
-        return item_name
+        # If data doesn't exist, return plain text with formatted name
+        return item_name.replace("-", " ").title()
 
-    # Add extra text for TMs/HMs
-    if item_extra:
-        item_name += f" {item_extra}"
+    # Use the normalized name from the loaded data for the link
+    normalized_name = item_data.name
 
-    # Build item HTML
-    if has_sprite:
-        item_sprite_url = item_data.sprite
-        item_html += f'<img src="{item_sprite_url}" alt="{item_name}" style="vertical-align: middle;">'
+    # Format the display name
+    display_name = item_name.replace("-", " ").title()
 
-    if has_name:
-        # Show flavor text as tooltip on hover
-        if has_flavor_text and item_data.flavor_text:
-            flavor = item_data.flavor_text.black_2_white_2
-            item_html += format_flavor_text(item_name, flavor)
-        else:
-            item_html += f"<span>{item_name}</span>"
+    # Special cases for proper capitalization
+    special_cases = {
+        "tm": "TM",
+        "hm": "HM",
+        "hp": "HP",
+        "pp": "PP",
+        "exp": "Exp",
+    }
+
+    # Replace special abbreviations within the name
+    for abbr, replacement in special_cases.items():
+        display_name = display_name.replace(f" {abbr.title()} ", f" {replacement} ")
+        display_name = display_name.replace(f" {abbr.title()}", f" {replacement}")
+        if display_name.lower().startswith(abbr + " "):
+            display_name = replacement + display_name[len(abbr):]
+
+    # Build HTML output
+    item_html = ""
+
+    # Add sprite if requested
+    if has_sprite and item_data.sprite:
+        item_html += f'<img src="{item_data.sprite}" alt="{display_name}" style="vertical-align: middle; margin-right: 4px;">'
+
+    # Add linked or plain name
+    if is_linked:
+        # Create link to item page using normalized name
+        item_html += f'[{display_name}]({relative_path}/pokedex/items/{normalized_name}.md)'
+    else:
+        item_html += display_name
 
     return item_html
 
 
-def format_move(
-    move_name: str, has_flavor_text: bool = True, has_color: bool = True
-) -> str:
+def format_move(move_name: str, is_linked: bool = True, relative_path: str = "../..") -> str:
     """
-    Format a move name with optional flavor text as tooltip.
+    Format a move name with optional link to its page.
 
     Args:
-        move_name: The display name of the move (e.g., "Thunderbolt")
-        has_flavor_text: Whether to include the move's flavor text as a tooltip
+        move_name: The move identifier (e.g., "thunderbolt" or "Thunderbolt")
+        is_linked: Whether to create a link to the move's page
+        relative_path: Path to docs root (default: "../.." for pokemon pages, use ".." for changes pages)
 
     Returns:
-        Formatted HTML string for the move
+        Formatted markdown string for the move (link or plain text)
     """
-    # Type color mapping
-    TYPE_COLORS = {
-        None: "#777",
-        "normal": "#A8A878",
-        "fire": "#F08030",
-        "water": "#6890F0",
-        "electric": "#F8D030",
-        "grass": "#78C850",
-        "ice": "#98D8D8",
-        "fighting": "#C03028",
-        "poison": "#A040A0",
-        "ground": "#E0C068",
-        "flying": "#A890F0",
-        "psychic": "#F85888",
-        "bug": "#A8B820",
-        "rock": "#B8A038",
-        "ghost": "#705898",
-        "dragon": "#7038F8",
-        "dark": "#705848",
-        "steel": "#B8B8D0",
-        "fairy": "#EE99AC",
-    }
-
-    if not has_flavor_text:
-        return move_name
-
-    # Try to load move data
+    # Try to load move data to check if it exists
     move_data = PokeDBLoader.load_move(move_name)
     if not move_data:
-        return move_name
+        # If data doesn't exist, return plain text with formatted name
+        return move_name.replace("-", " ").title()
 
-    move_type = move_data.type.black_2_white_2
-    type_color = TYPE_COLORS.get(move_type, "#777") if has_color else "#777"
+    # Use the normalized name from the loaded data for the link
+    normalized_name = move_data.name
 
-    # Add flavor text as tooltip if available
-    flavor = move_data.flavor_text.black_2_white_2
-    return format_flavor_text(move_name, flavor, type_color)
+    # Format the display name
+    display_name = move_name.replace("-", " ").title()
+
+    # Special cases for proper capitalization
+    special_cases = {
+        "u turn": "U-turn",
+        "v create": "V-create",
+    }
+    if move_name.lower().replace("-", " ") in special_cases:
+        display_name = special_cases[move_name.lower().replace("-", " ")]
+
+    if is_linked:
+        # Create link to move page using normalized name
+        return f"[{display_name}]({relative_path}/pokedex/moves/{normalized_name}.md)"
+    else:
+        return display_name

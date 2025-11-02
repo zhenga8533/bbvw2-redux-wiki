@@ -67,8 +67,8 @@ class ItemChangesParser(BaseParser):
                 self._in_replace = True
 
             old_item, new_item = match.groups()
-            old_item_md = format_item(old_item)
-            new_item_md = format_item(new_item)
+            old_item_md = format_item(old_item, relative_path="..")
+            new_item_md = format_item(new_item, relative_path="..")
 
             self._markdown += f"| {old_item_md} | {new_item_md} |\n"
         # Match: " - <item> ($<old_cost> -> $<new_cost>)"
@@ -80,13 +80,13 @@ class ItemChangesParser(BaseParser):
                 self._in_adjust_cost = True
 
             item, old_cost, new_cost = match.groups()
-            item_md = format_item(item)
+            item_md = format_item(item, relative_path="..")
 
             self._markdown += f"| {item_md} | ${old_cost} | ${new_cost} |\n"
         # Match: " - <item>"
         elif match := re.match(r"^ - (.*)$", line):
             item = match.group(1)
-            item_md = format_item(item)
+            item_md = format_item(item, relative_path="..")
 
             self._markdown += f"- {item_md}\n"
         # Default: regular text line
@@ -101,8 +101,8 @@ class ItemChangesParser(BaseParser):
             line,
         ):
             old_item, new_item = match.groups()
-            old_item_md = format_item(old_item)
-            new_item_md = format_item(new_item)
+            old_item_md = format_item(old_item, relative_path="..")
+            new_item_md = format_item(new_item, relative_path="..")
 
             self._markdown += f"- All instances of a {old_item_md} have been replaced with a {new_item_md}.\n"
         # Default: regular text line
@@ -169,7 +169,7 @@ class ItemChangesParser(BaseParser):
             quantity = quantities[i]
 
             # Format the base item name
-            item_md = format_item(item)
+            item_md = format_item(item, relative_path="..")
 
             # Add quantity if it exists
             if quantity:
@@ -230,7 +230,7 @@ class ItemChangesParser(BaseParser):
         # Match: " - <item>"
         elif line.startswith(" - "):
             item = line[3:].strip()
-            item_md = format_item(item)
+            item_md = format_item(item, relative_path="..")
             self._markdown += f"- {item_md}\n"
         # Default: regular text line
         else:
@@ -251,7 +251,7 @@ class ItemChangesParser(BaseParser):
             parts = re.split(r"\s{3,}", line)
             if len(parts) == 3:
                 tm_number, move_name, location = parts
-                tm_html = format_item(tm_number)
+                tm_html = format_item(tm_number, relative_path="..")
                 self._markdown += f"| {tm_html} | {move_name} | {location} |\n"
             else:
                 self.logger.warning(f"Unexpected TM table row format: '{line}'")

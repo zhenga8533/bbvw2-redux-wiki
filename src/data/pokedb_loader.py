@@ -15,6 +15,7 @@ from dacite import from_dict, Config, DaciteError
 
 from src.models.pokedb import (
     Pokemon,
+    PokemonAbility,
     Move,
     Ability,
     Item,

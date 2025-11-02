@@ -6,7 +6,7 @@ with content prioritizing Black 2 & White 2 data.
 
 This generator:
 1. Reads move data from data/pokedb/parsed/move/
-2. Generates individual markdown files for each move to docs/movedex/moves/
+2. Generates individual markdown files for each move to docs/pokedex/moves/
 3. Lists Pokemon that can learn each move (level-up, TM/HM, egg, tutor)
 4. Prioritizes Black 2 & White 2 content (flavor text, stats, etc.)
 
@@ -67,7 +67,7 @@ class MoveGenerator(BaseGenerator):
     }
 
     def __init__(
-        self, output_dir: str = "docs/movedex", project_root: Optional[Path] = None
+        self, output_dir: str = "docs/pokedex", project_root: Optional[Path] = None
     ):
         """
         Initialize the Move page generator.
@@ -374,7 +374,7 @@ class MoveGenerator(BaseGenerator):
                 level = entry.get("level", "—")
                 dex_num = pokemon.pokedex_numbers.get("national", "???")
                 name = self._format_name(pokemon.name)
-                link = f"../../pokedex/pokemon/{pokemon.name}.md"
+                link = f"../pokemon/{pokemon.name}.md"
 
                 # Get sprite URL
                 sprite_url = None
@@ -405,7 +405,7 @@ class MoveGenerator(BaseGenerator):
                 pokemon = entry["pokemon"]
                 dex_num = pokemon.pokedex_numbers.get("national", "???")
                 name = self._format_name(pokemon.name)
-                link = f"../../pokedex/pokemon/{pokemon.name}.md"
+                link = f"../pokemon/{pokemon.name}.md"
 
                 # Get sprite URL
                 sprite_url = None
@@ -435,7 +435,7 @@ class MoveGenerator(BaseGenerator):
                 pokemon = entry["pokemon"]
                 dex_num = pokemon.pokedex_numbers.get("national", "???")
                 name = self._format_name(pokemon.name)
-                link = f"../../pokedex/pokemon/{pokemon.name}.md"
+                link = f"../pokemon/{pokemon.name}.md"
 
                 # Get sprite URL
                 sprite_url = None
@@ -465,7 +465,7 @@ class MoveGenerator(BaseGenerator):
                 pokemon = entry["pokemon"]
                 dex_num = pokemon.pokedex_numbers.get("national", "???")
                 name = self._format_name(pokemon.name)
-                link = f"../../pokedex/pokemon/{pokemon.name}.md"
+                link = f"../pokemon/{pokemon.name}.md"
 
                 # Get sprite URL
                 sprite_url = None
@@ -602,7 +602,7 @@ class MoveGenerator(BaseGenerator):
 
         # Generate table
         md += "| Move | Type | Category | Power | Acc | PP |\n"
-        md += "|------|------|----------|-------|-----|----|" + "\n"
+        md += "|------|------|----------|-------|-----|----|\n"
 
         # Category icons
         category_icons = {
@@ -636,7 +636,7 @@ class MoveGenerator(BaseGenerator):
         md += "\n"
 
         # Write to file
-        output_file = self.output_dir.parent / "movedex.md"
+        output_file = self.output_dir.parent / "moves.md"
         output_file.write_text(md, encoding="utf-8")
 
         self.logger.info(f"Generated moves index: {output_file}")
@@ -674,57 +674,95 @@ class MoveGenerator(BaseGenerator):
                 except Exception as e:
                     self.logger.warning(f"Could not load {move_file.stem}: {e}")
 
-            # Sort alphabetically
+            # Sort alphabetically within each group
             moves.sort(key=lambda m: m.name)
 
-            # Group moves by first letter
-            moves_by_letter = defaultdict(list)
+            # Group moves by damage class
+            moves_by_damage_class = defaultdict(list)
+
+            # Damage class display name mapping
+            damage_class_display = {
+                "physical": "Physical",
+                "special": "Special",
+                "status": "Status",
+            }
 
             for move in moves:
-                first_letter = move.name[0].upper()
-                moves_by_letter[first_letter].append(move)
+                damage_class = move.damage_class if move.damage_class else "unknown"
+                moves_by_damage_class[damage_class].append(move)
 
-            # Create navigation structure with alphabetical subsections
-            moves_nav_items = [{"Overview": "movedex/movedex.md"}]
+            # Create navigation structure with damage class subsections
+            moves_nav_items = [{"Overview": "pokedex/moves.md"}]
 
-            # Add subsections for each letter
-            for letter in sorted(moves_by_letter.keys()):
-                letter_moves = moves_by_letter[letter]
-                letter_nav = [
-                    {self._format_name(m.name): f"movedex/moves/{m.name}.md"}
-                    for m in letter_moves
+            # Add subsections for each damage class in order (Physical, Special, Status)
+            damage_class_order = ["physical", "special", "status"]
+            for class_key in damage_class_order:
+                if class_key in moves_by_damage_class:
+                    class_moves = moves_by_damage_class[class_key]
+                    display_name = damage_class_display.get(class_key, class_key.title())
+                    class_nav = [
+                        {self._format_name(m.name): f"pokedex/moves/{m.name}.md"}
+                        for m in class_moves
+                    ]
+                    # Using type: ignore because mkdocs nav allows mixed dict value types
+                    moves_nav_items.append({display_name: class_nav})  # type: ignore
+
+            # Add unknown damage class moves if any exist
+            if "unknown" in moves_by_damage_class:
+                unknown_moves = moves_by_damage_class["unknown"]
+                unknown_nav = [
+                    {self._format_name(m.name): f"pokedex/moves/{m.name}.md"}
+                    for m in unknown_moves
                 ]
-                # Using type: ignore because mkdocs nav allows mixed dict value types
-                moves_nav_items.append({letter: letter_nav})  # type: ignore
+                moves_nav_items.append({"Unknown": unknown_nav})  # type: ignore
 
-            moves_nav = {"Movedex": moves_nav_items}
-
-            # Find and replace Movedex section in nav
+            # Find and update Pokédex section in nav
             if "nav" not in config:
                 raise ValueError("mkdocs.yml does not contain a 'nav' section")
 
             nav_list = config["nav"]
-            moves_index = None
+            pokedex_index = None
 
+            # Find the Pokédex section
             for i, item in enumerate(nav_list):
-                if isinstance(item, dict) and "Movedex" in item:
-                    moves_index = i
+                if isinstance(item, dict) and "Pokédex" in item:
+                    pokedex_index = i
                     break
 
-            if moves_index is None:
+            if pokedex_index is None:
                 raise ValueError(
-                    "mkdocs.yml nav section does not contain 'Movedex'. "
-                    "Please add a 'Movedex' section to the navigation first."
+                    "mkdocs.yml nav section does not contain 'Pokédex'. "
+                    "Please add a 'Pokédex' section to the navigation first."
                 )
 
-            nav_list[moves_index] = moves_nav
+            # Get the Pokédex navigation items
+            pokedex_nav = nav_list[pokedex_index]["Pokédex"]
+            if not isinstance(pokedex_nav, list):
+                pokedex_nav = []
+
+            # Find or create Moves subsection within Pokédex
+            moves_subsection_index = None
+            for i, item in enumerate(pokedex_nav):
+                if isinstance(item, dict) and "Moves" in item:
+                    moves_subsection_index = i
+                    break
+
+            # Update or append Moves subsection
+            moves_subsection = {"Moves": moves_nav_items}
+            if moves_subsection_index is not None:
+                pokedex_nav[moves_subsection_index] = moves_subsection
+            else:
+                pokedex_nav.append(moves_subsection)
+
+            # Update the config
+            nav_list[pokedex_index] = {"Pokédex": pokedex_nav}
             config["nav"] = nav_list
 
             # Write updated mkdocs.yml
             save_mkdocs_config(mkdocs_path, config)
 
             self.logger.info(
-                f"Updated mkdocs.yml with {len(moves)} moves organized into {len(moves_by_letter)} alphabetical sections"
+                f"Updated mkdocs.yml with {len(moves)} moves organized into {len(moves_by_damage_class)} damage class sections"
             )
             return True
 

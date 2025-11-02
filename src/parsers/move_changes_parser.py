@@ -71,8 +71,8 @@ class MoveChangesParser(BaseParser):
             # Copy the new move from gen8 to parsed data
             MoveService.copy_new_move(new_move)
 
-            old_move_html = format_move(old_move)
-            new_move_html = format_move(new_move)
+            old_move_html = format_move(old_move, relative_path="..")
+            new_move_html = format_move(new_move, relative_path="..")
             self._markdown += f"| {old_move_html} | {new_move_html} |\n"
         # Default: regular text line
         else:
@@ -88,7 +88,7 @@ class MoveChangesParser(BaseParser):
                 self._is_table_open = True
                 self._markdown += "| Move | Old Type | New Type | Custom |\n"
                 self._markdown += "|:-----|:---------|:---------|:------:|\n"
-            self._markdown += f"| {format_move(self._current_move)} "
+            self._markdown += f"| {format_move(self._current_move, relative_path="..")} "
         # Match: " - <old_type> -> <new_type>"
         elif line.startswith(" - "):
             old_type, new_type = line[3:].split(" -> ")
@@ -156,7 +156,7 @@ class MoveChangesParser(BaseParser):
         # Add to markdown table
         move_html = ""
         if not self._is_move_open:
-            move_html = format_move(self._current_move)
+            move_html = format_move(self._current_move, relative_path="..")
             self._is_move_open = True
         self._markdown += f"| {move_html} | {attribute} | {old_field} | {new_field} | {format_checkbox(custom)} | {format_checkbox(la)} |\n"
 

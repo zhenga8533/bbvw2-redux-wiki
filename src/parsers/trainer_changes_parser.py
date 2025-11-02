@@ -191,7 +191,7 @@ class TrainerChangesParser(BaseParser):
         if fields["reward"]:
             self._markdown += "**Reward:** "
             self._markdown += ", ".join(
-                format_item(item.strip()) for item in fields["reward"].split(",")
+                format_item(item.strip(), relative_path="..") for item in fields["reward"].split(",")
             )
             self._markdown += "\n\n"
         if fields["mode"]:
@@ -215,15 +215,15 @@ class TrainerChangesParser(BaseParser):
         row = f"| {format_pokemon(pokemon)} | "
 
         row += f"**Level:** {level}"
-        row += f"<br>**Ability:** {format_ability(ability)}"
+        row += f"<br>**Ability:** {format_ability(ability, relative_path="..")}"
         if item:
-            row += f"<br>**Item:** {format_item(item)}"
+            row += f"<br>**Item:** {format_item(item, relative_path="..")}"
         row += " | "
 
         for i, move in enumerate(re.split(r",\s*", moves)):
             if i > 0:
                 row += "<br>"
-            row += f"{i + 1}. {format_move(move)}"
+            row += f"{i + 1}. {format_move(move, relative_path="..")}"
 
         self._markdown += "\t" * self._indent_level + row + "\n"
 

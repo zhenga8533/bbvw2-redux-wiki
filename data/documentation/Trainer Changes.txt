@@ -3769,7 +3769,7 @@ Wellspring Cave
 Pidgeot [No Guard*], lv.85 @Life Orb: Hyper Voice, Hurricane, U-Turn, Heat Wave
 Arcanine [Intimidate], lv.85 @Passho Berry: Close Combat, Extreme Speed, Wild Charge, Flare Blitz
 Rhyperior [Solid Rock], lv.85 @Leftovers: Heat Crash, Heavy Slam, Stone Edge, Earthquake
-Exeggcutor [Harvest], lv.85 @Sitrus Berry: Giga Drain, Psyshock, Sleep Powder, Trick Room
+Exeggutor [Harvest], lv.85 @Sitrus Berry: Giga Drain, Psyshock, Sleep Powder, Trick Room
 Gyarados [Moxie], lv.85 @Focus Sash: Power Whip, Waterfall, Dragon Dance, Earthquake
 Machamp [No Guard], lv.85 @Fighting Gem: Dynamic Punch, Stone Edge, Thunder Punch
 
