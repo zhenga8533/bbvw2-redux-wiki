@@ -520,7 +520,7 @@ class ItemGenerator(BaseGenerator):
                     context = "machines"
                 # Then check for evolution items
                 elif category == "evolution":
-                    context = "evolution"
+                    context = "evolution-items"
                 # Default: miscellaneous
                 else:
                     context = "miscellaneous"
@@ -537,6 +537,7 @@ class ItemGenerator(BaseGenerator):
                 "key-items": "Key Items",
                 "machines": "Machines",
                 "miscellaneous": "Miscellaneous",
+                "evolution-items": "Evolution Items",
             }
             context_order = [
                 "consumable",
@@ -544,6 +545,7 @@ class ItemGenerator(BaseGenerator):
                 "key-items",
                 "machines",
                 "miscellaneous",
+                "evolution-items",
             ]
 
             # Add subsections for each usage context

@@ -1522,6 +1522,25 @@ nav:
       - Works Key: pokedex/items/works-key.md
       - Yellow Apricorn: pokedex/items/yellow-apricorn.md
       - Yellow Shard: pokedex/items/yellow-shard.md
+    - Evolution Items:
+      - Dawn Stone: pokedex/items/dawn-stone.md
+      - Dragon Scale: pokedex/items/dragon-scale.md
+      - Dubious Disc: pokedex/items/dubious-disc.md
+      - Dusk Stone: pokedex/items/dusk-stone.md
+      - Electirizer: pokedex/items/electirizer.md
+      - Fire Stone: pokedex/items/fire-stone.md
+      - Leaf Stone: pokedex/items/leaf-stone.md
+      - Magmarizer: pokedex/items/magmarizer.md
+      - Moon Stone: pokedex/items/moon-stone.md
+      - Oval Stone: pokedex/items/oval-stone.md
+      - Prism Scale: pokedex/items/prism-scale.md
+      - Protector: pokedex/items/protector.md
+      - Reaper Cloth: pokedex/items/reaper-cloth.md
+      - Shiny Stone: pokedex/items/shiny-stone.md
+      - Sun Stone: pokedex/items/sun-stone.md
+      - Thunder Stone: pokedex/items/thunder-stone.md
+      - Up Grade: pokedex/items/up-grade.md
+      - Water Stone: pokedex/items/water-stone.md
   - Moves:
     - Overview: pokedex/moves.md
     - Physical:
