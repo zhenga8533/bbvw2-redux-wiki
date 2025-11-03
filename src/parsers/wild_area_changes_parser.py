@@ -6,10 +6,12 @@ This parser:
 2. Generates a markdown file to docs/wild_area_changes.md
 """
 
-from src.utils.markdown_util import format_pokemon
-from src.utils.text_util import strip_common_prefix, strip_common_suffix
-from .base_parser import BaseParser
 import re
+
+from src.utils.formatters.markdown_util import format_pokemon
+from src.utils.text.text_util import strip_common_prefix, strip_common_suffix
+
+from .base_parser import BaseParser
 
 
 class WildAreaChangesParser(BaseParser):
@@ -41,7 +43,27 @@ class WildAreaChangesParser(BaseParser):
         self.parse_default(line)
 
     def parse_main_story_changes(self, line: str) -> None:
-        """Parse the Main Story Changes section."""
+        """
+        Parse the Main Story Changes section for wild encounter tables.
+
+        This method handles complex parsing logic for wild encounter data that may include:
+        - Location headers marked with tildes: "~ Route 1 ~"
+        - Multiple encounter methods side-by-side: "Grass:   Water:"
+        - Pokemon encounter rows: "Pidgey Lv. 5-7 30%"
+        - Dual-column tables for comparing two encounter methods
+        - Tabbed sections using Material for MkDocs tabs
+
+        The parser maintains state using self._tab_markdown to buffer the second
+        column when processing dual-method tables, then emits both columns together.
+
+        Args:
+            line: A single line from the Wild Area Changes documentation file
+
+        Side Effects:
+            - Updates self._current_location when encountering location headers
+            - Accumulates markdown in self._tab_markdown for dual-column tables
+            - Appends formatted content to self._markdown
+        """
         pokemon_row_pattern = r"(.+?) Lv\. (.+?) (.+?)%"
         table_header = "| Pokémon | Level(s) | Chance |"
         table_seperator = "|:-------:|:---------|:-------|"
@@ -105,7 +127,18 @@ class WildAreaChangesParser(BaseParser):
             self.parse_default(line)
 
     def _format_pokemon_row(self, pokemon: str, level: str, chance: str) -> str:
-        """Format a Pokémon row for the markdown table."""
+        """
+        Format a Pokemon wild encounter as a markdown table row.
+
+        Args:
+            pokemon: Pokemon name (e.g., "Pidgey", "Rattata")
+            level: Level range string (e.g., "5-7", "10", "15-20")
+            chance: Encounter rate percentage (e.g., "30", "15")
+
+        Returns:
+            str: Formatted markdown table row with Pokemon name (linked), level, and chance
+                 Example: "| [Pidgey](pokedex/pokemon/pidgey.md) | 5-7 | 30% |"
+        """
         return f"| {format_pokemon(pokemon)} | {level} | {chance}% |"
 
     def parse_postgame_location_changes(self, line: str) -> None:

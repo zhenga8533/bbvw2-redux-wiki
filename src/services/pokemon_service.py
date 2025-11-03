@@ -2,11 +2,12 @@
 Service for updating Pokemon attributes in parsed data folder.
 """
 
+import re
+
 from src.data.pokedb_loader import PokeDBLoader
 from src.models.pokedb import MoveLearn, Pokemon
-from src.utils.logger_util import get_logger
-from src.utils.text_util import name_to_id
-import re
+from src.utils.core.logger_util import get_logger
+from src.utils.text.text_util import name_to_id
 
 logger = get_logger(__name__)
 

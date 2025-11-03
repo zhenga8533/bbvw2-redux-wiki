@@ -1,5 +1,13 @@
+"""
+Text utility functions for name formatting, ID generation, and string manipulation.
+
+This module provides common text processing utilities used throughout the codebase,
+including name formatting with special cases, ID generation, and string comparison operations.
+"""
+
 import re
 import itertools
+from typing import Dict, Optional
 
 
 def name_to_id(name: str) -> str:
@@ -37,6 +45,70 @@ def name_to_id(name: str) -> str:
     id_str = re.sub(r"\s+", "-", id_str)
     id_str = id_str.strip("-")
     return id_str
+
+
+def format_display_name(
+    name: str,
+    special_cases: Optional[Dict[str, str]] = None,
+    special_abbreviations: Optional[Dict[str, str]] = None,
+) -> str:
+    """
+    Format a name for display with proper capitalization and special case handling.
+
+    This function consolidates the name formatting logic previously duplicated across
+    multiple generators (_format_name methods in pokemon_generator, move_generator, etc.).
+    It handles special characters, applies title case, and processes both whole-name
+    special cases and abbreviation replacements within names.
+
+    Args:
+        name: The name to format (e.g., "nidoran-f", "u-turn", "exp-share")
+        special_cases: Optional dict mapping lowercase names to their special-cased versions
+                      (e.g., {"nidoran f": "Nidoran♀", "u turn": "U-turn"})
+        special_abbreviations: Optional dict mapping abbreviations to their replacements
+                              (e.g., {"tm": "TM", "hp": "HP", "pp": "PP"})
+                              These are applied within the name after title casing
+
+    Returns:
+        The formatted display name with proper capitalization
+
+    Examples:
+        >>> # Pokemon special cases
+        >>> format_display_name("nidoran-f", {"nidoran f": "Nidoran♀"})
+        'Nidoran♀'
+        >>> # Move special cases
+        >>> format_display_name("u-turn", {"u turn": "U-turn"})
+        'U-turn'
+        >>> # Item with abbreviations
+        >>> format_display_name("exp-share", special_abbreviations={"exp": "Exp"})
+        'Exp Share'
+        >>> # Default title case
+        >>> format_display_name("pikachu")
+        'Pikachu'
+    """
+    # Handle special characters and formatting
+    formatted_name = name.replace("-", " ")
+
+    # Check for whole-name special cases first
+    if special_cases:
+        lower_name = formatted_name.lower()
+        if lower_name in special_cases:
+            return special_cases[lower_name]
+
+    # Default: title case
+    formatted_name = formatted_name.title()
+
+    # Apply special abbreviation replacements within the name
+    if special_abbreviations:
+        for abbr, replacement in special_abbreviations.items():
+            # Replace " Abbr " -> " REPLACEMENT "
+            formatted_name = formatted_name.replace(f" {abbr.title()} ", f" {replacement} ")
+            # Replace " Abbr" at end -> " REPLACEMENT"
+            formatted_name = formatted_name.replace(f" {abbr.title()}", f" {replacement}")
+            # Replace "Abbr " at start -> "REPLACEMENT "
+            if formatted_name.lower().startswith(abbr + " "):
+                formatted_name = replacement + formatted_name[len(abbr) :]
+
+    return formatted_name
 
 
 def strip_common_prefix(string1: str, string2: str) -> str:

@@ -6,7 +6,8 @@ like Pokemon displays with sprites and links.
 """
 
 from src.data.pokedb_loader import PokeDBLoader
-from src.utils.text_util import name_to_id
+from src.utils.text.text_util import format_display_name, name_to_id
+from src.utils.pokemon.constants import ITEM_NAME_SPECIAL_CASES, DEFAULT_RELATIVE_PATH
 
 
 def format_checkbox(checked: bool) -> str:
@@ -22,8 +23,36 @@ def format_checkbox(checked: bool) -> str:
     return f'<input type="checkbox" disabled{" checked" if checked else ""} />'
 
 
+def format_type_badge(type_name: str) -> str:
+    """
+    Format a Pokemon type name with a colored badge using HTML span element.
+
+    This function consolidates the type badge formatting logic previously
+    duplicated in pokemon_generator and move_generator (_format_type methods).
+
+    Args:
+        type_name: The type name to format (e.g., "fire", "water", "grass")
+
+    Returns:
+        HTML span element with appropriate CSS classes and styled badge
+
+    Example:
+        >>> format_type_badge("fire")
+        '<span class="pokemon-type-badge type-fire">Fire</span>'
+
+    CSS classes used:
+        - .pokemon-type-badge: Base badge styling
+        - .type-{type}: Type-specific colors (e.g., .type-fire, .type-water)
+    """
+    formatted_name = type_name.title()
+    type_class = f"type-{type_name.lower()}"
+    return f'<span class="pokemon-type-badge {type_class}">{formatted_name}</span>'
+
+
 def format_ability(
-    ability_name: str, is_linked: bool = True, relative_path: str = "../.."
+    ability_name: str,
+    is_linked: bool = True,
+    relative_path: str = DEFAULT_RELATIVE_PATH,
 ) -> str:
     """
     Format an ability name with optional link to its page.
@@ -47,13 +76,6 @@ def format_ability(
     # Format the display name
     display_name = ability_name.replace("-", " ").title()
 
-    # Special cases for proper capitalization
-    special_cases = {
-        "rks system": "RKS System",
-    }
-    if ability_name.lower().replace("-", " ") in special_cases:
-        display_name = special_cases[ability_name.lower().replace("-", " ")]
-
     if is_linked:
         # Create link to ability page using normalized name
         return (
@@ -68,7 +90,7 @@ def format_pokemon(
     has_sprite: bool = True,
     is_animated: bool = True,
     is_linked: bool = True,
-    relative_path: str = "../..",
+    relative_path: str = DEFAULT_RELATIVE_PATH,
 ) -> str:
     """
     Format a Pokemon name with its sprite stacked on top, optionally has_link to its Pokedex page.
@@ -129,7 +151,7 @@ def format_item(
     item_name: str,
     has_sprite: bool = True,
     is_linked: bool = True,
-    relative_path: str = "../..",
+    relative_path: str = DEFAULT_RELATIVE_PATH,
     html_mode: bool = False,
 ) -> str:
     """
@@ -157,21 +179,8 @@ def format_item(
     # Format the display name
     display_name = item_name.replace("-", " ").title()
 
-    # Special cases for proper capitalization
-    special_cases = {
-        "tm": "TM",
-        "hm": "HM",
-        "hp": "HP",
-        "pp": "PP",
-        "exp": "Exp",
-    }
-
-    # Replace special abbreviations within the name
-    for abbr, replacement in special_cases.items():
-        display_name = display_name.replace(f" {abbr.title()} ", f" {replacement} ")
-        display_name = display_name.replace(f" {abbr.title()}", f" {replacement}")
-        if display_name.lower().startswith(abbr + " "):
-            display_name = replacement + display_name[len(abbr) :]
+    # Replace special abbreviations within the name (using imported constants)
+    display_name = format_display_name(display_name)
 
     # Build HTML output
     item_html = ""
@@ -197,7 +206,10 @@ def format_item(
 
 
 def format_move(
-    move_name: str, is_linked: bool = True, relative_path: str = "../..", html_mode: bool = False
+    move_name: str,
+    is_linked: bool = True,
+    relative_path: str = DEFAULT_RELATIVE_PATH,
+    html_mode: bool = False,
 ) -> str:
     """
     Format a move name with optional link to its page.
@@ -222,14 +234,6 @@ def format_move(
 
     # Format the display name
     display_name = move_name.replace("-", " ").title()
-
-    # Special cases for proper capitalization
-    special_cases = {
-        "u turn": "U-turn",
-        "v create": "V-create",
-    }
-    if move_name.lower().replace("-", " ") in special_cases:
-        display_name = special_cases[move_name.lower().replace("-", " ")]
 
     if is_linked:
         # Create link to move page using normalized name

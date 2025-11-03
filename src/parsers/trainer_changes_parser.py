@@ -9,13 +9,14 @@ This parser:
 import re
 from typing import Any, Dict, Optional
 
-from src.utils.markdown_util import (
+from src.utils.formatters.markdown_util import (
     format_ability,
+    format_checkbox,
     format_item,
     format_move,
     format_pokemon,
-    format_checkbox,
 )
+
 from .base_parser import BaseParser
 
 
@@ -164,7 +165,27 @@ class TrainerChangesParser(BaseParser):
             self.parse_default(line)
 
     def _format_trainer(self, trainer: str) -> None:
-        """Format a trainer name."""
+        """
+        Format a trainer name and extract optional metadata.
+
+        Parses trainer names that may contain:
+        - Reward information in curly braces: {Rare Candy, Full Restore}
+        - Battle mode in square brackets: [Normal Mode] or [Challenge Mode]
+        - Battle type in parentheses: (Double Battle) or (Rotation Battle)
+
+        Examples:
+            "Youngster Joey" -> **Youngster Joey**
+            "Gym Leader Elesa {Bolt Badge}" -> **Gym Leader Elesa**\n**Reward:** Bolt Badge
+            "Ace Trainer Bob [Challenge Mode] (Double)" -> **Ace Trainer Bob**\n**Mode:** Challenge Mode\n**Battle Type:** Double
+            "Partner Side" -> === "Partner Side"
+
+        Args:
+            trainer: The raw trainer name string with optional metadata
+
+        Side Effects:
+            - Appends formatted markdown to self._markdown
+            - Sets self._indent_level for side battles and partner battles
+        """
         if " Side" in trainer or trainer.startswith("Partner"):
             self._markdown += f'=== "{trainer}"\n\n'
             self._indent_level = 1
@@ -202,7 +223,29 @@ class TrainerChangesParser(BaseParser):
     def _format_pokemon_row(
         self, pokemon: str, ability: str, level: str, item: Optional[str], moves: str
     ) -> None:
-        """Format a Pokémon row for the markdown table."""
+        """
+        Format a Pokémon team member as a row in the trainer's markdown table.
+
+        Creates a three-column table row with:
+        1. Pokemon sprite and name (linked to Pokedex)
+        2. Attributes: level, ability, and optional held item
+        3. Moveset: numbered list of 1-4 moves
+
+        The table is automatically opened on first call and respects the current
+        indent level for nested content (e.g., starter-dependent teams).
+
+        Args:
+            pokemon: Pokemon name (e.g., "Pikachu", "Charizard")
+            ability: Ability name (e.g., "Static", "Blaze")
+            level: Pokemon level as string (e.g., "50", "100")
+            item: Optional held item name (e.g., "Sitrus Berry", None)
+            moves: Comma-separated move list (e.g., "Thunderbolt, Quick Attack")
+
+        Side Effects:
+            - Opens markdown table on first call (sets self._is_table_open = True)
+            - Appends formatted table row to self._markdown
+            - Respects self._indent_level for tabbed content
+        """
         if not self._is_table_open:
             self._markdown += (
                 "\t" * self._indent_level + "| Pokémon | Attributes | Moves |\n"

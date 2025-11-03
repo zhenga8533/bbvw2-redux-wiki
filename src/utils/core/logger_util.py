@@ -17,7 +17,7 @@ from pathlib import Path
 from typing import Optional
 from logging.handlers import RotatingFileHandler
 from datetime import datetime
-from src.utils.config_util import get_config
+from src.utils.core.config_util import get_config
 
 
 def _load_config():

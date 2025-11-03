@@ -11,12 +11,25 @@ This generator:
 4. Prioritizes Black 2 & White 2 content (flavor text, etc.)
 """
 
+from collections import defaultdict
 from pathlib import Path
-from typing import Optional, List, Dict
+from typing import Dict, List, Optional
+
 from src.data.pokedb_loader import PokeDBLoader
 from src.models.pokedb import Ability, Pokemon
-from src.utils.yaml_util import load_mkdocs_config, save_mkdocs_config
-from src.utils.table_util import create_ability_index_table
+from src.utils.pokemon.constants import (
+    GENERATION_DISPLAY_NAMES,
+    POKEMON_FORM_SUBFOLDERS_STANDARD,
+)
+from src.utils.pokemon.pokemon_util import iterate_pokemon
+from src.utils.formatters.table_util import create_ability_index_table
+from src.utils.text.text_util import format_display_name
+from src.utils.formatters.yaml_util import (
+    load_mkdocs_config,
+    save_mkdocs_config,
+    update_pokedex_subsection,
+)
+
 from .base_generator import BaseGenerator
 
 
@@ -47,23 +60,6 @@ class AbilityGenerator(BaseGenerator):
         self.output_dir = self.output_dir / "abilities"
         self.output_dir.mkdir(parents=True, exist_ok=True)
 
-    def _format_name(self, name: str) -> str:
-        """Format an ability name for display (capitalize and handle special cases)."""
-        # Handle special characters and formatting
-        name = name.replace("-", " ")
-
-        # Special cases for proper capitalization
-        special_cases = {
-            "rks system": "RKS System",
-        }
-
-        lower_name = name.lower()
-        if lower_name in special_cases:
-            return special_cases[lower_name]
-
-        # Default: title case
-        return name.title()
-
     def _build_pokemon_ability_cache(self) -> Dict[str, Dict[str, List[Pokemon]]]:
         """
         Build a cache mapping ability names to Pokemon that have them.
@@ -75,56 +71,29 @@ class AbilityGenerator(BaseGenerator):
             Dict with ability names as keys, values are dicts with 'normal' and 'hidden' lists
         """
         pokemon_base_dir = self.project_root / "data" / "pokedb" / "parsed" / "pokemon"
-        subfolders = ["default", "transformation", "variant"]
 
         # Map: ability_name -> {"normal": [...], "hidden": [...]}
         ability_cache = {}
-        seen_pokemon = set()
 
-        for subfolder in subfolders:
-            pokemon_dir = pokemon_base_dir / subfolder
-            if not pokemon_dir.exists():
-                continue
+        # Use shared Pokemon iteration utility (handles deduplication and filtering)
+        for pokemon in iterate_pokemon(
+            pokemon_base_dir,
+            subfolders=POKEMON_FORM_SUBFOLDERS_STANDARD,
+            include_non_default=False,
+            deduplicate=True,
+        ):
+            # Add this Pokemon to each ability it has
+            for poke_ability in pokemon.abilities:
+                if poke_ability.name not in ability_cache:
+                    ability_cache[poke_ability.name] = {
+                        "normal": [],
+                        "hidden": [],
+                    }
 
-            pokemon_files = sorted(pokemon_dir.glob("*.json"))
-
-            for pokemon_file in pokemon_files:
-                try:
-                    pokemon = PokeDBLoader.load_pokemon(
-                        pokemon_file.stem, subfolder=subfolder
-                    )
-
-                    if not pokemon or not pokemon.is_default:
-                        continue
-
-                    # Create unique key to prevent duplicates
-                    pokemon_key = (
-                        pokemon.name,
-                        pokemon.pokedex_numbers.get("national"),
-                    )
-
-                    if pokemon_key in seen_pokemon:
-                        continue
-
-                    seen_pokemon.add(pokemon_key)
-
-                    # Add this Pokemon to each ability it has
-                    for poke_ability in pokemon.abilities:
-                        if poke_ability.name not in ability_cache:
-                            ability_cache[poke_ability.name] = {
-                                "normal": [],
-                                "hidden": [],
-                            }
-
-                        if poke_ability.is_hidden:
-                            ability_cache[poke_ability.name]["hidden"].append(pokemon)
-                        else:
-                            ability_cache[poke_ability.name]["normal"].append(pokemon)
-
-                except Exception as e:
-                    self.logger.warning(
-                        f"Error loading Pokemon {pokemon_file.stem}: {e}"
-                    )
+                if poke_ability.is_hidden:
+                    ability_cache[poke_ability.name]["hidden"].append(pokemon)
+                else:
+                    ability_cache[poke_ability.name]["normal"].append(pokemon)
 
         # Sort all lists by national dex number
         for ability_data in ability_cache.values():
@@ -230,7 +199,7 @@ class AbilityGenerator(BaseGenerator):
 
             for pokemon in normal:
                 dex_num = pokemon.pokedex_numbers.get("national", "???")
-                name = self._format_name(pokemon.name)
+                name = format_display_name(pokemon.name)
                 link = f"../pokemon/{pokemon.name}.md"
 
                 # Get sprite URL
@@ -259,7 +228,7 @@ class AbilityGenerator(BaseGenerator):
 
             for pokemon in hidden:
                 dex_num = pokemon.pokedex_numbers.get("national", "???")
-                name = self._format_name(pokemon.name)
+                name = format_display_name(pokemon.name)
                 link = f"../pokemon/{pokemon.name}.md"
 
                 # Get sprite URL
@@ -339,7 +308,7 @@ class AbilityGenerator(BaseGenerator):
         Returns:
             Path to the generated markdown file
         """
-        display_name = self._format_name(ability.name)
+        display_name = format_display_name(ability.name)
 
         # Start building the markdown
         md = f"# {display_name}\n\n"
@@ -445,7 +414,7 @@ class AbilityGenerator(BaseGenerator):
         # Build table rows
         rows = []
         for ability in abilities:
-            name = self._format_name(ability.name)
+            name = format_display_name(ability.name)
             link = f"[{name}](abilities/{ability.name}.md)"
             short_effect = (
                 ability.short_effect if ability.short_effect else "*No description*"
@@ -500,16 +469,7 @@ class AbilityGenerator(BaseGenerator):
             abilities.sort(key=lambda a: a.name)
 
             # Group abilities by generation
-            from collections import defaultdict
-
             abilities_by_generation = defaultdict(list)
-
-            # Generation display name mapping
-            generation_display_names = {
-                "generation-iii": "Gen III",
-                "generation-iv": "Gen IV",
-                "generation-v": "Gen V",
-            }
 
             for ability in abilities:
                 gen = ability.generation if ability.generation else "unknown"
@@ -523,9 +483,9 @@ class AbilityGenerator(BaseGenerator):
             for gen_key in generation_order:
                 if gen_key in abilities_by_generation:
                     gen_abilities = abilities_by_generation[gen_key]
-                    display_name = generation_display_names.get(gen_key, gen_key)
+                    display_name = GENERATION_DISPLAY_NAMES.get(gen_key, gen_key)
                     gen_nav = [
-                        {self._format_name(a.name): f"pokedex/abilities/{a.name}.md"}
+                        {format_display_name(a.name): f"pokedex/abilities/{a.name}.md"}
                         for a in gen_abilities
                     ]
                     # Using type: ignore because mkdocs nav allows mixed dict value types
@@ -535,7 +495,7 @@ class AbilityGenerator(BaseGenerator):
             if "unknown" in abilities_by_generation:
                 unknown_abilities = abilities_by_generation["unknown"]
                 unknown_nav = [
-                    {self._format_name(a.name): f"pokedex/abilities/{a.name}.md"}
+                    {format_display_name(a.name): f"pokedex/abilities/{a.name}.md"}
                     for a in unknown_abilities
                 ]
                 abilities_nav_items.append({"Unknown": unknown_nav})  # type: ignore

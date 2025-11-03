@@ -6,9 +6,11 @@ This parser:
 2. Generates a markdown file to docs/gift_pokemon.md
 """
 
-from src.utils.markdown_util import format_pokemon
-from .base_parser import BaseParser
 import re
+
+from src.utils.formatters.markdown_util import format_pokemon
+
+from .base_parser import BaseParser
 
 
 class GiftPokemonParser(BaseParser):

@@ -9,12 +9,8 @@ import copy
 from typing import Optional
 
 from src.data.pokedb_loader import PokeDBLoader
-from src.models.pokedb import (
-    EvolutionChain,
-    EvolutionNode,
-    EvolutionDetails,
-)
-from src.utils.logger_util import get_logger
+from src.models.pokedb import EvolutionChain, EvolutionDetails, EvolutionNode
+from src.utils.core.logger_util import get_logger
 
 logger = get_logger(__name__)
 

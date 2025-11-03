@@ -50,12 +50,6 @@ theme:
     toggle:
       icon: material/brightness-4
       name: Switch to light mode
-extra_css:
-- stylesheets/style.css
-- stylesheets/pokemon.css
-- stylesheets/ability.css
-- stylesheets/item.css
-- stylesheets/move.css
 nav:
 - Getting Started:
   - Home: index.md
@@ -114,10 +108,10 @@ nav:
       - '#026 Raichu': pokedex/pokemon/raichu.md
       - '#027 Sandshrew': pokedex/pokemon/sandshrew.md
       - '#028 Sandslash': pokedex/pokemon/sandslash.md
-      - '#029 Nidoran♀': pokedex/pokemon/nidoran-f.md
+      - '#029 Nidoran F': pokedex/pokemon/nidoran-f.md
       - '#030 Nidorina': pokedex/pokemon/nidorina.md
       - '#031 Nidoqueen': pokedex/pokemon/nidoqueen.md
-      - '#032 Nidoran♂': pokedex/pokemon/nidoran-m.md
+      - '#032 Nidoran M': pokedex/pokemon/nidoran-m.md
       - '#033 Nidorino': pokedex/pokemon/nidorino.md
       - '#034 Nidoking': pokedex/pokemon/nidoking.md
       - '#035 Clefairy': pokedex/pokemon/clefairy.md
@@ -207,7 +201,7 @@ nav:
       - '#119 Seaking': pokedex/pokemon/seaking.md
       - '#120 Staryu': pokedex/pokemon/staryu.md
       - '#121 Starmie': pokedex/pokemon/starmie.md
-      - '#122 Mr. Mime': pokedex/pokemon/mr-mime.md
+      - '#122 Mr Mime': pokedex/pokemon/mr-mime.md
       - '#123 Scyther': pokedex/pokemon/scyther.md
       - '#124 Jynx': pokedex/pokemon/jynx.md
       - '#125 Electabuzz': pokedex/pokemon/electabuzz.md
@@ -366,7 +360,7 @@ nav:
       - '#247 Pupitar': pokedex/pokemon/pupitar.md
       - '#248 Tyranitar': pokedex/pokemon/tyranitar.md
       - '#249 Lugia': pokedex/pokemon/lugia.md
-      - '#250 Ho-Oh': pokedex/pokemon/ho-oh.md
+      - '#250 Ho Oh': pokedex/pokemon/ho-oh.md
       - '#251 Celebi': pokedex/pokemon/celebi.md
     - Gen III:
       - '#252 Treecko': pokedex/pokemon/treecko.md
@@ -577,7 +571,7 @@ nav:
       - '#436 Bronzor': pokedex/pokemon/bronzor.md
       - '#437 Bronzong': pokedex/pokemon/bronzong.md
       - '#438 Bonsly': pokedex/pokemon/bonsly.md
-      - '#439 Mime Jr.': pokedex/pokemon/mime-jr.md
+      - '#439 Mime Jr': pokedex/pokemon/mime-jr.md
       - '#440 Happiny': pokedex/pokemon/happiny.md
       - '#441 Chatot': pokedex/pokemon/chatot.md
       - '#442 Spiritomb': pokedex/pokemon/spiritomb.md
@@ -1043,7 +1037,7 @@ nav:
       - Guard Spec: pokedex/items/guard-spec.md
       - Heal Ball: pokedex/items/heal-ball.md
       - Heal Powder: pokedex/items/heal-powder.md
-      - HP Up: pokedex/items/hp-up.md
+      - Hp Up: pokedex/items/hp-up.md
       - Hyper Potion: pokedex/items/hyper-potion.md
       - Ice Heal: pokedex/items/ice-heal.md
       - Iron: pokedex/items/iron.md
@@ -1063,8 +1057,8 @@ nav:
       - Poke Ball: pokedex/items/poke-ball.md
       - Poke Doll: pokedex/items/poke-doll.md
       - Potion: pokedex/items/potion.md
-      - PP Max: pokedex/items/pp-max.md
-      - PP Up: pokedex/items/pp-up.md
+      - Pp Max: pokedex/items/pp-max.md
+      - Pp Up: pokedex/items/pp-up.md
       - Premier Ball: pokedex/items/premier-ball.md
       - Protein: pokedex/items/protein.md
       - Quick Ball: pokedex/items/quick-ball.md
@@ -1847,8 +1841,8 @@ nav:
       - Triple Axel: pokedex/moves/triple-axel.md
       - Triple Kick: pokedex/moves/triple-kick.md
       - Twineedle: pokedex/moves/twineedle.md
-      - U-turn: pokedex/moves/u-turn.md
-      - V-create: pokedex/moves/v-create.md
+      - U Turn: pokedex/moves/u-turn.md
+      - V Create: pokedex/moves/v-create.md
       - Vice Grip: pokedex/moves/vice-grip.md
       - Vine Whip: pokedex/moves/vine-whip.md
       - Vital Throw: pokedex/moves/vital-throw.md

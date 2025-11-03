@@ -4,7 +4,10 @@
     "repo_url": "https://github.com/zhenga8533/pokedb",
     "branch": "data",
     "data_dir": "data/pokedb",
-    "generations": ["gen5", "gen8"]
+    "generations": ["gen5", "gen8"],
+    "version_groups": ["black_white", "black_2_white_2"],
+    "game_versions": ["black", "white", "black_2", "white_2"],
+    "sprite_version": "black_white"
   },
   "logging": {
     "level": "DEBUG",

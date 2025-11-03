@@ -15,7 +15,7 @@ This generator uses CSS classes defined in docs/stylesheets/pokemon.css.
 Keep the CSS file in sync when adding new HTML elements or classes.
 
 Key CSS classes used:
-- .pokemon-type-badge, .type-{type} - Type badges (see _format_type)
+- .pokemon-type-badge, .type-{type} - Type badges (see format_type_badge in markdown_util)
 - .pokemon-stat-bar-container, .pokemon-stat-bar-fill - Stat bars (see _stat_bar)
 - .pokemon-hero, .pokemon-hero-* - Hero section components (see _generate_hero_section)
 - .pokemon-status-badge-* - Legendary/Mythical/Baby badges (see _generate_status_badges)
@@ -23,16 +23,35 @@ Key CSS classes used:
 
 Note: Some styles are applied inline when they depend on dynamic data:
 - Hero gradient colors (based on Pokemon types)
+- Type badges use format_type_badge() from markdown_util
+- Name formatting uses format_display_name() from text_util
 """
 
 from pathlib import Path
-from typing import Optional, Dict, List, Any, cast
+from typing import Any, Dict, List, Optional, cast
+
 from src.data.pokedb_loader import PokeDBLoader
-from src.models.pokedb import Pokemon, Move
-from src.utils.markdown_util import format_item
-from src.utils.text_util import extract_form_suffix
-from src.utils.yaml_util import load_mkdocs_config, save_mkdocs_config
-from src.utils.table_util import create_held_items_table, create_move_learnset_table, create_table_row, create_pokemon_index_table
+from src.models.pokedb import Move, Pokemon
+from src.utils.formatters.markdown_util import format_item, format_type_badge
+from src.utils.pokemon.constants import (
+    DAMAGE_CLASS_ICONS,
+    GENERATION_DISPLAY_NAMES,
+    GENERATION_ORDER,
+    POKEMON_FORM_SUBFOLDERS_ALL,
+    TYPE_COLORS,
+)
+from src.utils.formatters.table_util import (
+    create_held_items_table,
+    create_move_learnset_table,
+    create_pokemon_index_table,
+)
+from src.utils.text.text_util import extract_form_suffix, format_display_name
+from src.utils.pokemon.type_effectiveness import calculate_type_effectiveness
+from src.utils.formatters.yaml_util import (
+    load_mkdocs_config,
+    save_mkdocs_config,
+)
+
 from .base_generator import BaseGenerator
 
 
@@ -47,28 +66,6 @@ class PokemonGenerator(BaseGenerator):
     - Forms and variations
     - Sprites and images
     """
-
-    # Type colors for badges and styling
-    TYPE_COLORS = {
-        "normal": "#A8A878",
-        "fire": "#F08030",
-        "water": "#6890F0",
-        "electric": "#F8D030",
-        "grass": "#78C850",
-        "ice": "#98D8D8",
-        "fighting": "#C03028",
-        "poison": "#A040A0",
-        "ground": "#E0C068",
-        "flying": "#A890F0",
-        "psychic": "#F85888",
-        "bug": "#A8B820",
-        "rock": "#B8A038",
-        "ghost": "#705898",
-        "dragon": "#7038F8",
-        "dark": "#705848",
-        "steel": "#B8B8D0",
-        "fairy": "#EE99AC",
-    }
 
     def __init__(
         self, output_dir: str = "docs/pokedex", project_root: Optional[Path] = None
@@ -86,42 +83,6 @@ class PokemonGenerator(BaseGenerator):
         # Create pokemon subdirectory
         self.output_dir = self.output_dir / "pokemon"
         self.output_dir.mkdir(parents=True, exist_ok=True)
-
-    def _format_name(self, name: str) -> str:
-        """Format a Pokemon name for display (capitalize and handle special cases)."""
-        # Handle special characters and formatting
-        name = name.replace("-", " ")
-
-        # Special cases for proper capitalization
-        special_cases = {
-            "nidoran f": "Nidoran♀",
-            "nidoran m": "Nidoran♂",
-            "mr mime": "Mr. Mime",
-            "mime jr": "Mime Jr.",
-            "type null": "Type: Null",
-            "ho oh": "Ho-Oh",
-        }
-
-        lower_name = name.lower()
-        if lower_name in special_cases:
-            return special_cases[lower_name]
-
-        # Default: title case
-        return name.title()
-
-    def _format_type(self, type_name: str) -> str:
-        """
-        Format a type name with modern color badge.
-
-        CSS classes used:
-        - .pokemon-type-badge: Base badge styling
-        - .type-{type}: Type-specific colors (e.g., .type-fire, .type-water)
-        """
-        formatted_name = type_name.title()
-        type_class = f"type-{type_name.lower()}"
-
-        # Use CSS classes for consistent styling
-        return f'<span class="pokemon-type-badge {type_class}">{formatted_name}</span>'
 
     def _stat_bar(self, value: int, max_value: int = 255) -> str:
         """
@@ -149,7 +110,7 @@ class PokemonGenerator(BaseGenerator):
 
     def _format_ability(self, ability_name: str, is_hidden: bool = False) -> str:
         """Format an ability name with link and hidden indicator."""
-        formatted_name = self._format_name(ability_name)
+        formatted_name = format_display_name(ability_name)
         hidden_tag = " *(Hidden)*" if is_hidden else ""
         return f"{formatted_name}{hidden_tag}"
 
@@ -206,7 +167,7 @@ class PokemonGenerator(BaseGenerator):
 
     def _get_type_color(self, type_name: str) -> str:
         """Get the color for a Pokemon type."""
-        return self.TYPE_COLORS.get(type_name.lower(), "#777777")
+        return TYPE_COLORS.get(type_name.lower(), "#777777")
 
     def _format_move_link(self, move_name: str, move_data: Optional[Move]) -> str:
         """
@@ -220,10 +181,10 @@ class PokemonGenerator(BaseGenerator):
             Markdown link to move page or plain text if move data unavailable
         """
         if not move_data:
-            return self._format_name(move_name)
+            return format_display_name(move_name)
 
         # Format display name
-        display_name = self._format_name(move_name)
+        display_name = format_display_name(move_name)
 
         # Use normalized name from move data for the link
         normalized_name = move_data.name
@@ -232,157 +193,19 @@ class PokemonGenerator(BaseGenerator):
         return f"[{display_name}](../moves/{normalized_name}.md)"
 
     def _get_type_effectiveness(self, types: List[str]) -> Dict[str, List[str]]:
-        """Calculate type effectiveness based on Pokemon's types."""
-        # Type effectiveness chart (simplified for Gen 5)
-        effectiveness = {
-            "normal": {
-                "weak_to": ["fighting"],
-                "resistant_to": [],
-                "immune_to": ["ghost"],
-            },
-            "fire": {
-                "weak_to": ["water", "ground", "rock"],
-                "resistant_to": ["fire", "grass", "ice", "bug", "steel", "fairy"],
-                "immune_to": [],
-            },
-            "water": {
-                "weak_to": ["electric", "grass"],
-                "resistant_to": ["fire", "water", "ice", "steel"],
-                "immune_to": [],
-            },
-            "electric": {
-                "weak_to": ["ground"],
-                "resistant_to": ["electric", "flying", "steel"],
-                "immune_to": [],
-            },
-            "grass": {
-                "weak_to": ["fire", "ice", "poison", "flying", "bug"],
-                "resistant_to": ["water", "electric", "grass", "ground"],
-                "immune_to": [],
-            },
-            "ice": {
-                "weak_to": ["fire", "fighting", "rock", "steel"],
-                "resistant_to": ["ice"],
-                "immune_to": [],
-            },
-            "fighting": {
-                "weak_to": ["flying", "psychic", "fairy"],
-                "resistant_to": ["bug", "rock", "dark"],
-                "immune_to": [],
-            },
-            "poison": {
-                "weak_to": ["ground", "psychic"],
-                "resistant_to": ["grass", "fighting", "poison", "bug", "fairy"],
-                "immune_to": [],
-            },
-            "ground": {
-                "weak_to": ["water", "grass", "ice"],
-                "resistant_to": ["poison", "rock"],
-                "immune_to": ["electric"],
-            },
-            "flying": {
-                "weak_to": ["electric", "ice", "rock"],
-                "resistant_to": ["grass", "fighting", "bug"],
-                "immune_to": ["ground"],
-            },
-            "psychic": {
-                "weak_to": ["bug", "ghost", "dark"],
-                "resistant_to": ["fighting", "psychic"],
-                "immune_to": [],
-            },
-            "bug": {
-                "weak_to": ["fire", "flying", "rock"],
-                "resistant_to": ["grass", "fighting", "ground"],
-                "immune_to": [],
-            },
-            "rock": {
-                "weak_to": ["water", "grass", "fighting", "ground", "steel"],
-                "resistant_to": ["normal", "fire", "poison", "flying"],
-                "immune_to": [],
-            },
-            "ghost": {
-                "weak_to": ["ghost", "dark"],
-                "resistant_to": ["poison", "bug"],
-                "immune_to": ["normal", "fighting"],
-            },
-            "dragon": {
-                "weak_to": ["ice", "dragon", "fairy"],
-                "resistant_to": ["fire", "water", "electric", "grass"],
-                "immune_to": [],
-            },
-            "dark": {
-                "weak_to": ["fighting", "bug", "fairy"],
-                "resistant_to": ["ghost", "dark"],
-                "immune_to": ["psychic"],
-            },
-            "steel": {
-                "weak_to": ["fire", "fighting", "ground"],
-                "resistant_to": [
-                    "normal",
-                    "grass",
-                    "ice",
-                    "flying",
-                    "psychic",
-                    "bug",
-                    "rock",
-                    "dragon",
-                    "steel",
-                    "fairy",
-                ],
-                "immune_to": ["poison"],
-            },
-            "fairy": {
-                "weak_to": ["poison", "steel"],
-                "resistant_to": ["fighting", "bug", "dark"],
-                "immune_to": ["dragon"],
-            },
-        }
+        """
+        Calculate type effectiveness based on Pokemon's types.
 
-        # Calculate combined effectiveness
-        weak_multiplier = {}
-        resist_multiplier = {}
-        immune_types = set()
+        This method delegates to the type_effectiveness utility module,
+        which contains the full type chart data for Generation 5.
 
-        for poke_type in types:
-            type_data = effectiveness.get(poke_type.lower(), {})
-            for weak_type in type_data.get("weak_to", []):
-                weak_multiplier[weak_type] = weak_multiplier.get(weak_type, 1) * 2
-            for resist_type in type_data.get("resistant_to", []):
-                resist_multiplier[resist_type] = (
-                    resist_multiplier.get(resist_type, 1) * 0.5
-                )
-            for immune_type in type_data.get("immune_to", []):
-                immune_types.add(immune_type)
+        Args:
+            types: List of Pokemon types (e.g., ["fire", "flying"])
 
-        # Process resistances (some might be neutralized by weaknesses)
-        for resist_type, mult in list(resist_multiplier.items()):
-            if resist_type in weak_multiplier:
-                # Combine multipliers
-                combined = weak_multiplier[resist_type] * mult
-                if combined > 1:
-                    weak_multiplier[resist_type] = combined
-                elif combined < 1:
-                    resist_multiplier[resist_type] = combined
-                else:
-                    # Neutral - remove from both
-                    weak_multiplier.pop(resist_type, None)
-                    resist_multiplier.pop(resist_type, None)
-                # Remove from weak since we've combined
-                if resist_type in weak_multiplier and resist_type in resist_multiplier:
-                    weak_multiplier.pop(resist_type, None)
-
-        # Filter out immunities from weaknesses and resistances
-        for immune in immune_types:
-            weak_multiplier.pop(immune, None)
-            resist_multiplier.pop(immune, None)
-
-        return {
-            "4x_weak": [t for t, m in weak_multiplier.items() if m >= 4],
-            "2x_weak": [t for t, m in weak_multiplier.items() if m == 2],
-            "0.5x_resist": [t for t, m in resist_multiplier.items() if m == 0.5],
-            "0.25x_resist": [t for t, m in resist_multiplier.items() if m <= 0.25],
-            "immune": list(immune_types),
-        }
+        Returns:
+            Dictionary with damage multipliers categorized by strength
+        """
+        return calculate_type_effectiveness(types)
 
     def _generate_hero_section(self, pokemon: Pokemon) -> str:
         """
@@ -427,13 +250,13 @@ class PokemonGenerator(BaseGenerator):
         color_2 = "#667eea"  # Default
 
         if pokemon.types:
-            color_1 = self.TYPE_COLORS.get(pokemon.types[0].lower(), "#667eea")
+            color_1 = TYPE_COLORS.get(pokemon.types[0].lower(), "#667eea")
             # Default color 2 to a faded version of color 1
             color_2 = f"{color_1}55"
 
             if len(pokemon.types) > 1:
                 # Get the second type color, but fade it slightly
-                color_2 = f"{self.TYPE_COLORS.get(pokemon.types[1].lower(), color_1)}99"
+                color_2 = f"{TYPE_COLORS.get(pokemon.types[1].lower(), color_1)}99"
 
         # Modern hero container with dynamic gradient based on type(s)
         md += f'<div class="pokemon-hero" style="background: linear-gradient(135deg, {color_1}dd 0%, {color_2} 100%), linear-gradient(to bottom, rgba(255,255,255,0.1), rgba(0,0,0,0.1));">\n'
@@ -462,14 +285,14 @@ class PokemonGenerator(BaseGenerator):
         if regional_dex:
             dex_badges = []
             for region, number in sorted(regional_dex.items()):
-                region_name = self._format_name(region).replace("_", " ")
+                region_name = format_display_name(region).replace("_", " ")
                 dex_badges.append(
                     f'<span class="pokemon-regional-badge">{region_name}: #{number:03d}</span>'
                 )
             md += f'\t\t<div class="pokemon-hero-regional-dex">{" ".join(dex_badges)}</div>\n'
 
         # Types with better spacing
-        types_str = " ".join([self._format_type(t) for t in pokemon.types])
+        types_str = " ".join([format_type_badge(t) for t in pokemon.types])
         md += f'\t\t<div class="pokemon-hero-types">{types_str}</div>\n'
 
         # Status badges
@@ -497,14 +320,14 @@ class PokemonGenerator(BaseGenerator):
             # Load ability data to check if it exists and create link
             ability_data = PokeDBLoader.load_ability(ability.name)
             if ability_data:
-                display_name = self._format_name(ability.name)
+                display_name = format_display_name(ability.name)
                 # Use normalized name from ability_data for the link
                 normalized_name = ability_data.name
                 ability_display = (
                     f"[{display_name}](../abilities/{normalized_name}.md){hidden_emoji}"
                 )
             else:
-                ability_display = f"{self._format_name(ability.name)}{hidden_emoji}"
+                ability_display = f"{format_display_name(ability.name)}{hidden_emoji}"
             md += f"\t- {ability_display}\n"
         md += "\n"
 
@@ -523,15 +346,15 @@ class PokemonGenerator(BaseGenerator):
         md += f"\t**Base Experience:** {pokemon.base_experience}\n\n"
         md += f"\t**Base Happiness:** {pokemon.base_happiness}\n\n"
         md += f"\t**Capture Rate:** {pokemon.capture_rate}\n\n"
-        md += f"\t**Growth Rate:** {self._format_name(pokemon.growth_rate)}\n\n"
+        md += f"\t**Growth Rate:** {format_display_name(pokemon.growth_rate)}\n\n"
         if pokemon.habitat:
-            md += f"\t**Habitat:** {self._format_name(pokemon.habitat)}\n\n"
+            md += f"\t**Habitat:** {format_display_name(pokemon.habitat)}\n\n"
         # EV Yield
         if pokemon.ev_yield:
             md += "\t**EV Yield:** "
             ev_parts = []
             for ev in pokemon.ev_yield:
-                stat_name = self._format_name(ev.stat)
+                stat_name = format_display_name(ev.stat)
                 ev_parts.append(f"+{ev.effort} {stat_name}")
             md += ", ".join(ev_parts) + "\n\n"
         md += "\n"
@@ -547,15 +370,15 @@ class PokemonGenerator(BaseGenerator):
             md += f"\t**Gender Ratio:** {male_pct:.1f}% ♂ / {female_pct:.1f}% ♀\n\n"
             if pokemon.has_gender_differences:
                 md += "\t**Gender Differences:** Yes\n\n"
-        md += f"\t**Egg Groups:** {', '.join([self._format_name(eg) for eg in pokemon.egg_groups])}\n\n"
+        md += f"\t**Egg Groups:** {', '.join([format_display_name(eg) for eg in pokemon.egg_groups])}\n\n"
         md += f"\t**Hatch Counter:** {pokemon.hatch_counter} cycles\n\n"
 
         # Card 5: Classification
         md += "- **:material-star-four-points: Classification**\n\n"
         md += "\t---\n\n"
-        md += f"\t**Generation:** {self._format_name(pokemon.generation)}\n\n"
-        md += f"\t**Color:** {self._format_name(pokemon.color)}\n\n"
-        md += f"\t**Shape:** {self._format_name(pokemon.shape)}\n\n"
+        md += f"\t**Generation:** {format_display_name(pokemon.generation)}\n\n"
+        md += f"\t**Color:** {format_display_name(pokemon.color)}\n\n"
+        md += f"\t**Shape:** {format_display_name(pokemon.shape)}\n\n"
         md += "\n"
 
         md += "</div>\n\n"
@@ -619,14 +442,14 @@ class PokemonGenerator(BaseGenerator):
                 md += "\t**4× Damage**\n\n"
                 md += "\t"
                 md += " ".join(
-                    [self._format_type(t) for t in sorted(effectiveness["4x_weak"])]
+                    [format_type_badge(t) for t in sorted(effectiveness["4x_weak"])]
                 )
                 md += "\n\n"
             if effectiveness["2x_weak"]:
                 md += "\t**2× Damage**\n\n"
                 md += "\t"
                 md += " ".join(
-                    [self._format_type(t) for t in sorted(effectiveness["2x_weak"])]
+                    [format_type_badge(t) for t in sorted(effectiveness["2x_weak"])]
                 )
                 md += "\n\n"
 
@@ -639,7 +462,7 @@ class PokemonGenerator(BaseGenerator):
                 md += "\t"
                 md += " ".join(
                     [
-                        self._format_type(t)
+                        format_type_badge(t)
                         for t in sorted(effectiveness["0.25x_resist"])
                     ]
                 )
@@ -648,7 +471,7 @@ class PokemonGenerator(BaseGenerator):
                 md += "\t**½× Damage**\n\n"
                 md += "\t"
                 md += " ".join(
-                    [self._format_type(t) for t in sorted(effectiveness["0.5x_resist"])]
+                    [format_type_badge(t) for t in sorted(effectiveness["0.5x_resist"])]
                 )
                 md += "\n\n"
 
@@ -659,7 +482,7 @@ class PokemonGenerator(BaseGenerator):
             md += "\t**No Damage**\n\n"
             md += "\t"
             md += " ".join(
-                [self._format_type(t) for t in sorted(effectiveness["immune"])]
+                [format_type_badge(t) for t in sorted(effectiveness["immune"])]
             )
             md += "\n\n"
 
@@ -732,9 +555,9 @@ class PokemonGenerator(BaseGenerator):
                             # Fall back to PNG if animated not available
                             if poke.sprites.front_default:
                                 return poke.sprites.front_default
-                except:
+                except Exception:
                     continue
-        except:
+        except Exception:
             pass
         return None
 
@@ -749,7 +572,7 @@ class PokemonGenerator(BaseGenerator):
         Returns:
             HTML string for the evolution card
         """
-        display_name = self._format_name(species_name)
+        display_name = format_display_name(species_name)
         link_name = actual_name or species_name
         sprite_url = self._get_sprite_url(species_name)
 
@@ -783,11 +606,11 @@ class PokemonGenerator(BaseGenerator):
         if trigger == "trade":
             if evo_details.held_item:
                 details.append(
-                    f"Trade holding {self._format_name(evo_details.held_item)}"
+                    f"Trade holding {format_display_name(evo_details.held_item)}"
                 )
             elif evo_details.trade_species:
                 details.append(
-                    f"Trade for {self._format_name(evo_details.trade_species)}"
+                    f"Trade for {format_display_name(evo_details.trade_species)}"
                 )
             else:
                 details.append("Trade")
@@ -798,24 +621,24 @@ class PokemonGenerator(BaseGenerator):
 
         # Item-based evolutions
         if evo_details.item and trigger != "trade":
-            details.append(f"Use {self._format_name(evo_details.item)}")
+            details.append(f"Use {format_display_name(evo_details.item)}")
 
         # Party requirements
         if evo_details.party_species:
             details.append(
-                f"With {self._format_name(evo_details.party_species)} in party"
+                f"With {format_display_name(evo_details.party_species)} in party"
             )
         if evo_details.party_type:
             details.append(
-                f"With {self._format_name(evo_details.party_type)}-type in party"
+                f"With {format_display_name(evo_details.party_type)}-type in party"
             )
 
         # Move requirements
         if evo_details.known_move:
-            details.append(f"Know {self._format_name(evo_details.known_move)}")
+            details.append(f"Know {format_display_name(evo_details.known_move)}")
         if evo_details.known_move_type:
             details.append(
-                f"Know {self._format_name(evo_details.known_move_type)}-type move"
+                f"Know {format_display_name(evo_details.known_move_type)}-type move"
             )
 
         # Happiness/Affection
@@ -834,7 +657,7 @@ class PokemonGenerator(BaseGenerator):
 
         # Location
         if evo_details.location:
-            details.append(f"At {self._format_name(evo_details.location)}")
+            details.append(f"At {format_display_name(evo_details.location)}")
 
         # Gender requirement
         if evo_details.gender is not None:
@@ -887,9 +710,7 @@ class PokemonGenerator(BaseGenerator):
             md += "> :material-information: This Pokémon does not evolve.\n\n"
 
         if pokemon.evolves_from_species:
-            md += (
-                f"*Evolves from {self._format_name(pokemon.evolves_from_species)}*\n\n"
-            )
+            md += f"*Evolves from {format_display_name(pokemon.evolves_from_species)}*\n\n"
 
         def extract_all_paths(node, evolution_method=None) -> list:
             """
@@ -907,9 +728,9 @@ class PokemonGenerator(BaseGenerator):
                         if poke:
                             actual_name = poke.name
                             break
-                    except:
+                    except Exception:
                         continue
-            except:
+            except Exception:
                 pass
 
             # Create current Pokemon entry with method to GET TO it
@@ -1077,7 +898,7 @@ class PokemonGenerator(BaseGenerator):
             md += '<div class="grid cards ability-pokemon-cards" markdown>\n\n'
 
             for form in pokemon.forms:
-                form_display = self._format_name(form.name)
+                form_display = format_display_name(form.name)
                 category_display = form.category.title()
 
                 # Add icon based on category
@@ -1096,7 +917,7 @@ class PokemonGenerator(BaseGenerator):
                     form_pokemon = PokeDBLoader.load_pokemon(
                         form.name, subfolder=form.category
                     )
-                except:
+                except Exception:
                     pass
 
                 # Get sprite URL (cosmetic forms use PNG, others use GIF)
@@ -1171,7 +992,7 @@ class PokemonGenerator(BaseGenerator):
             if move_data:
                 # Get move details
                 move_type = move_data.type.black_2_white_2 or "???"
-                type_badge = self._format_type(move_type)
+                type_badge = format_type_badge(move_type)
 
                 damage_class = move_data.damage_class
                 category_icon = damage_class_icons.get(damage_class, "")
@@ -1187,16 +1008,47 @@ class PokemonGenerator(BaseGenerator):
 
                 if include_level:
                     level = str(move_learn.level_learned_at)
-                    rows.append([level, move_name_formatted, type_badge, category_icon, power_str, accuracy_str, pp_str])
+                    rows.append(
+                        [
+                            level,
+                            move_name_formatted,
+                            type_badge,
+                            category_icon,
+                            power_str,
+                            accuracy_str,
+                            pp_str,
+                        ]
+                    )
                 else:
-                    rows.append([move_name_formatted, type_badge, category_icon, power_str, accuracy_str, pp_str])
+                    rows.append(
+                        [
+                            move_name_formatted,
+                            type_badge,
+                            category_icon,
+                            power_str,
+                            accuracy_str,
+                            pp_str,
+                        ]
+                    )
             else:
                 # Fallback if move data not available
                 if include_level:
                     level = str(move_learn.level_learned_at)
-                    rows.append([level, self._format_name(move_learn.name), "—", "—", "—", "—", "—"])
+                    rows.append(
+                        [
+                            level,
+                            format_display_name(move_learn.name),
+                            "—",
+                            "—",
+                            "—",
+                            "—",
+                            "—",
+                        ]
+                    )
                 else:
-                    rows.append([self._format_name(move_learn.name), "—", "—", "—", "—", "—"])
+                    rows.append(
+                        [format_display_name(move_learn.name), "—", "—", "—", "—", "—"]
+                    )
 
         # Use standardized table utility
         table_md = create_move_learnset_table(rows, include_level=include_level)
@@ -1210,19 +1062,12 @@ class PokemonGenerator(BaseGenerator):
         """Generate the moves learnset section with detailed move information."""
         md = "## :material-sword-cross: Moves\n\n"
 
-        # Damage class icons (using valid Material Design icons)
-        damage_class_icons = {
-            "physical": ":material-sword:",
-            "special": ":material-auto-fix:",
-            "status": ":material-shield-outline:",
-        }
-
         # Use tabs for different move categories
         md += '=== ":material-arrow-up-bold: Level-Up"\n\n'
         if pokemon.moves.level_up:
             md += self._generate_move_table(
                 pokemon.moves.level_up,
-                damage_class_icons,
+                DAMAGE_CLASS_ICONS,
                 include_level=True,
                 sort_by_level=True,
             )
@@ -1233,7 +1078,7 @@ class PokemonGenerator(BaseGenerator):
         md += '=== ":material-disc: TM/HM"\n\n'
         if pokemon.moves.machine:
             md += self._generate_move_table(
-                pokemon.moves.machine, damage_class_icons, include_level=False
+                pokemon.moves.machine, DAMAGE_CLASS_ICONS, include_level=False
             )
         else:
             md += "\t*No TM/HM moves available*\n\n"
@@ -1242,7 +1087,7 @@ class PokemonGenerator(BaseGenerator):
         md += '=== ":material-egg-outline: Egg Moves"\n\n'
         if pokemon.moves.egg:
             md += self._generate_move_table(
-                pokemon.moves.egg, damage_class_icons, include_level=False
+                pokemon.moves.egg, DAMAGE_CLASS_ICONS, include_level=False
             )
         else:
             md += "\t*No egg moves available*\n\n"
@@ -1251,7 +1096,7 @@ class PokemonGenerator(BaseGenerator):
         md += '=== ":material-school: Tutor"\n\n'
         if pokemon.moves.tutor:
             md += self._generate_move_table(
-                pokemon.moves.tutor, damage_class_icons, include_level=False
+                pokemon.moves.tutor, DAMAGE_CLASS_ICONS, include_level=False
             )
         else:
             md += "\t*No tutor moves available*\n\n"
@@ -1503,7 +1348,7 @@ class PokemonGenerator(BaseGenerator):
         Returns:
             Path to the generated markdown file
         """
-        display_name = self._format_name(pokemon.name)
+        display_name = format_display_name(pokemon.name)
 
         # Start building the markdown
         md = f"# {display_name}\n\n"
@@ -1550,12 +1395,10 @@ class PokemonGenerator(BaseGenerator):
         pokemon_base_dir = self.project_root / "data" / "pokedb" / "parsed" / "pokemon"
 
         # Subfolders to scan for forms (all form categories)
-        subfolders_to_scan = ["default", "transformation", "variant", "cosmetic"]
-
         generated_files = []
         total_pokemon = 0
 
-        for folder in subfolders_to_scan:
+        for folder in POKEMON_FORM_SUBFOLDERS_ALL:
             pokemon_dir = pokemon_base_dir / folder
 
             if not pokemon_dir.exists():
@@ -1670,10 +1513,10 @@ class PokemonGenerator(BaseGenerator):
             rows = []
             for pokemon in gen_pokemon:
                 dex_num = pokemon.pokedex_numbers.get("national", "???")
-                name = self._format_name(pokemon.name)
+                name = format_display_name(pokemon.name)
                 link = f"[{name}](pokemon/{pokemon.name}.md)"
                 # Stack types vertically if multiple types
-                types = "<br>".join([self._format_type(t) for t in pokemon.types])
+                types = "<br>".join([format_type_badge(t) for t in pokemon.types])
 
                 # Get sprite URL (cosmetic forms use PNG, others use GIF)
                 sprite_url = None
@@ -1705,10 +1548,12 @@ class PokemonGenerator(BaseGenerator):
                 # Get non-hidden abilities
                 abilities = [a.name for a in pokemon.abilities if not a.is_hidden]
                 abilities_str = ", ".join(
-                    [self._format_name(a) for a in abilities[:2]]
+                    [format_display_name(a) for a in abilities[:2]]
                 )  # Show max 2
 
-                rows.append([f"**{dex_num:03d}**", sprite_cell, link, types, abilities_str])
+                rows.append(
+                    [f"**{dex_num:03d}**", sprite_cell, link, types, abilities_str]
+                )
 
             # Use standardized table utility
             md += create_pokemon_index_table(rows)
@@ -1746,14 +1591,11 @@ class PokemonGenerator(BaseGenerator):
                 self.project_root / "data" / "pokedb" / "parsed" / "pokemon"
             )
 
-            # Subfolders to scan for forms (in priority order)
-            subfolders_to_scan = ["default", "transformation", "variant", "cosmetic"]
-
             # Load all Pokemon and group by national dex number
             all_pokemon = []
             seen_pokemon = set()  # Track (dex_number, name) to prevent duplicates
 
-            for folder in subfolders_to_scan:
+            for folder in POKEMON_FORM_SUBFOLDERS_ALL:
                 folder_path = pokemon_base_dir / folder
                 if not folder_path.exists():
                     continue
@@ -1804,31 +1646,15 @@ class PokemonGenerator(BaseGenerator):
                 gen = default_form.generation if default_form.generation else "unknown"
                 pokemon_by_generation[gen][dex_num] = pokemon_forms
 
-            # Generation display name mapping and order
-            generation_display_names = {
-                "generation-i": "Gen I",
-                "generation-ii": "Gen II",
-                "generation-iii": "Gen III",
-                "generation-iv": "Gen IV",
-                "generation-v": "Gen V",
-            }
-            generation_order = [
-                "generation-i",
-                "generation-ii",
-                "generation-iii",
-                "generation-iv",
-                "generation-v",
-            ]
-
             # Create navigation structure for Pokémon subsection
             pokemon_nav_items = [{"Overview": "pokedex/pokemon.md"}]
 
             # Build navigation for each generation
-            for gen_key in generation_order:
+            for gen_key in GENERATION_ORDER:
                 if gen_key not in pokemon_by_generation:
                     continue
 
-                display_name = generation_display_names.get(gen_key, gen_key)
+                display_name = GENERATION_DISPLAY_NAMES.get(gen_key, gen_key)
                 gen_pokemon_by_dex = pokemon_by_generation[gen_key]
                 sorted_dex_numbers = sorted(gen_pokemon_by_dex.keys())
 
@@ -1847,7 +1673,7 @@ class PokemonGenerator(BaseGenerator):
 
                     # Create main entry for default form
                     main_entry = {
-                        f"#{dex_num:03d} {self._format_name(default_form.name)}": f"pokedex/pokemon/{default_form.name}.md"
+                        f"#{dex_num:03d} {format_display_name(default_form.name)}": f"pokedex/pokemon/{default_form.name}.md"
                     }
 
                     # If there are alternate forms, add them as nested entries
@@ -1865,7 +1691,7 @@ class PokemonGenerator(BaseGenerator):
                                 )
 
                             main_entry = {
-                                f"#{dex_num:03d} {self._format_name(base_name)}": all_forms
+                                f"#{dex_num:03d} {format_display_name(base_name)}": all_forms
                             }
                         else:
                             # Default has no suffix, keep current behavior
@@ -1881,7 +1707,7 @@ class PokemonGenerator(BaseGenerator):
                                 )
 
                             main_entry = {
-                                f"#{dex_num:03d} {self._format_name(default_form.name)}": [
+                                f"#{dex_num:03d} {format_display_name(default_form.name)}": [
                                     {
                                         "Default": f"pokedex/pokemon/{default_form.name}.md"
                                     }
@@ -1904,7 +1730,7 @@ class PokemonGenerator(BaseGenerator):
                     default_form = pokemon_forms[0]
                     unknown_nav.append(
                         {
-                            f"#{dex_num:03d} {self._format_name(default_form.name)}": f"pokedex/pokemon/{default_form.name}.md"
+                            f"#{dex_num:03d} {format_display_name(default_form.name)}": f"pokedex/pokemon/{default_form.name}.md"
                         }
                     )
                 pokemon_nav_items.append({"Unknown": unknown_nav})  # type: ignore
@@ -1961,7 +1787,7 @@ class PokemonGenerator(BaseGenerator):
             total_pokemon = len(pokemon_by_dex)
             total_forms = len(all_pokemon)
             total_generations = len(
-                [g for g in generation_order if g in pokemon_by_generation]
+                [g for g in GENERATION_ORDER if g in pokemon_by_generation]
             )
             self.logger.info(
                 f"Updated mkdocs.yml with {total_pokemon} Pokemon ({total_forms} total forms including alternates) organized into {total_generations} generations"

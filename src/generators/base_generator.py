@@ -5,7 +5,8 @@ Base generator class for creating documentation pages from database content.
 from abc import ABC, abstractmethod
 from pathlib import Path
 from typing import Optional
-from ..utils.logger_util import get_logger
+
+from src.utils.core.logger_util import get_logger
 
 
 class BaseGenerator(ABC):

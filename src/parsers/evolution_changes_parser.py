@@ -10,15 +10,11 @@ This parser:
 import re
 from typing import Optional
 
-from src.utils.text_util import name_to_id
-from src.utils.markdown_util import format_pokemon, format_item
-from src.models.pokedb import (
-    EvolutionChain,
-    EvolutionDetails,
-    Gender,
-)
 from src.data.pokedb_loader import PokeDBLoader
+from src.models.pokedb import EvolutionChain, EvolutionDetails, Gender
 from src.services.evolution_service import EvolutionService
+from src.utils.formatters.markdown_util import format_item, format_pokemon
+from src.utils.text.text_util import name_to_id
 
 from .base_parser import BaseParser
 
@@ -37,7 +33,9 @@ class EvolutionChangesParser(BaseParser):
 
         # Evolution Changes states
         self._is_table_open: bool = False
-        self._parsed_cache: set[tuple[str, str]] = set()  # Track (pokemon, evolution) pairs
+        self._parsed_cache: set[tuple[str, str]] = (
+            set()
+        )  # Track (pokemon, evolution) pairs
         self._current_dex_num: str = ""
         self._current_pokemon: str = ""
 
@@ -50,10 +48,19 @@ class EvolutionChangesParser(BaseParser):
         # Match: table header "Pokémon              New Method"
         if line == "Pokémon              New Method":
             self._is_table_open = True
-            self._markdown += "| Dex # | Pokémon | Evolution | New Method |\n"
+            self._markdown += '<table class="evolution-changes-table">\n'
+            self._markdown += "  <thead>\n"
+            self._markdown += "    <tr>\n"
+            self._markdown += '      <th style="text-align: left;">Dex #</th>\n'
+            self._markdown += '      <th style="text-align: center;">Pokémon</th>\n'
+            self._markdown += '      <th style="text-align: center;">Evolution</th>\n'
+            self._markdown += '      <th style="text-align: left;">New Method</th>\n'
+            self._markdown += "    </tr>\n"
+            self._markdown += "  </thead>\n"
+            self._markdown += "  <tbody>\n"
         # Match: table separator "---                  ---"
         elif line == "---                  ---":
-            self._markdown += "|:-----:|:-------:|:---------:|:-----------|\n"
+            pass  # Skip separator line for HTML tables
         # Match: "dex_num name (spaces) evolution_text"
         elif match := re.match(
             rf"^(\d+) ([A-Z][\w':.-]*(?:\s[A-Z][\w':.-]*)*)\s+(.*)", line
@@ -76,12 +83,13 @@ class EvolutionChangesParser(BaseParser):
             self.logger.warning(f"Unrecognized line format: '{line}'")
         # Match: empty line indicates end of table
         elif self._is_table_open:
-            self._markdown += "{ .evolution-changes-table }\n\n"
+            self._markdown += "  </tbody>\n"
+            self._markdown += "</table>\n\n"
             self._is_table_open = False
 
     def _add_evolution_row(self, evolution: str, evolution_text: str) -> None:
         """
-        Add a markdown table row to the evolution table.
+        Add an HTML table row to the evolution table.
 
         Args:
             evolution: Name of the evolution target Pokemon
@@ -98,8 +106,13 @@ class EvolutionChangesParser(BaseParser):
         # Format the evolution method text
         formatted_text = self._format_evolution_text(evolution_text)
 
-        # Add markdown table row
-        self._markdown += f"| {self._current_dex_num} | {from_pokemon_md} | {to_pokemon_md} | {formatted_text} |\n"
+        # Add HTML table row with vertical alignment at bottom for Pokémon and Evolution columns
+        self._markdown += "    <tr>\n"
+        self._markdown += f'      <td style="text-align: left;">{self._current_dex_num}</td>\n'
+        self._markdown += f'      <td style="text-align: center; vertical-align: bottom;">{from_pokemon_md}</td>\n'
+        self._markdown += f'      <td style="text-align: center; vertical-align: bottom;">{to_pokemon_md}</td>\n'
+        self._markdown += f'      <td style="text-align: left;">{formatted_text}</td>\n'
+        self._markdown += "    </tr>\n"
 
     def _format_evolution_text(self, text: str) -> str:
         """
@@ -117,7 +130,9 @@ class EvolutionChangesParser(BaseParser):
             item_name = match.group(1).strip()
             # Convert item name to ID format (replace spaces with hyphens)
             item_id = item_name.lower().replace(" ", "-")
-            formatted = format_item(item_id, has_sprite=True, is_linked=True, relative_path="..")
+            formatted = format_item(
+                item_id, has_sprite=True, is_linked=True, relative_path=".."
+            )
             return f"via the use of {formatted}"
 
         formatted_text = re.sub(

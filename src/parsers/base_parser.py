@@ -2,12 +2,13 @@
 Base parser class for processing documentation files and generating markdown output.
 """
 
+import re
+import unicodedata
 from abc import ABC
 from pathlib import Path
 from typing import Optional
-from ..utils.logger_util import get_logger
-import re
-import unicodedata
+
+from src.utils.core.logger_util import get_logger
 
 
 class BaseParser(ABC):

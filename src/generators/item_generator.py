@@ -23,11 +23,23 @@ Key CSS classes used:
 """
 
 from pathlib import Path
-from typing import Optional, List, Dict
+from typing import Dict, List, Optional
+
 from src.data.pokedb_loader import PokeDBLoader
 from src.models.pokedb import Item, Pokemon
-from src.utils.yaml_util import load_mkdocs_config, save_mkdocs_config
-from src.utils.table_util import create_item_index_table, create_pokemon_with_item_table
+from src.utils.pokemon.constants import (
+    ITEM_NAME_SPECIAL_CASES,
+    POKEMON_FORM_SUBFOLDERS_STANDARD,
+)
+from src.utils.pokemon.pokemon_util import iterate_pokemon
+from src.utils.formatters.table_util import create_item_index_table, create_pokemon_with_item_table
+from src.utils.text.text_util import format_display_name
+from src.utils.formatters.yaml_util import (
+    load_mkdocs_config,
+    save_mkdocs_config,
+    update_pokedex_subsection,
+)
+
 from .base_generator import BaseGenerator
 
 
@@ -58,37 +70,6 @@ class ItemGenerator(BaseGenerator):
         self.output_dir = self.output_dir / "items"
         self.output_dir.mkdir(parents=True, exist_ok=True)
 
-    def _format_name(self, name: str) -> str:
-        """Format an item name for display (capitalize and handle special cases)."""
-        # Handle special characters and formatting
-        name = name.replace("-", " ")
-
-        # Special cases for proper capitalization
-        special_cases = {
-            "tm": "TM",
-            "hm": "HM",
-            "hp": "HP",
-            "pp": "PP",
-            "exp": "Exp",
-        }
-
-        # Check if the whole name is a special case
-        lower_name = name.lower()
-        if lower_name in special_cases:
-            return special_cases[lower_name]
-
-        # Default: title case
-        formatted = name.title()
-
-        # Replace special abbreviations within the name
-        for abbr, replacement in special_cases.items():
-            formatted = formatted.replace(f" {abbr.title()} ", f" {replacement} ")
-            formatted = formatted.replace(f" {abbr.title()}", f" {replacement}")
-            if formatted.lower().startswith(abbr + " "):
-                formatted = replacement + formatted[len(abbr) :]
-
-        return formatted
-
     def _build_pokemon_item_cache(self) -> Dict[str, List[Dict]]:
         """
         Build a cache mapping item names to Pokemon that can hold them in the wild.
@@ -97,56 +78,29 @@ class ItemGenerator(BaseGenerator):
             Dict with item names as keys, values are lists of dicts with pokemon and rates
         """
         pokemon_base_dir = self.project_root / "data" / "pokedb" / "parsed" / "pokemon"
-        subfolders = ["default", "transformation", "variant"]
 
         # Map: item_name -> [{"pokemon": Pokemon, "black_2": rate, "white_2": rate}, ...]
         item_cache = {}
-        seen_pokemon = set()
 
-        for subfolder in subfolders:
-            pokemon_dir = pokemon_base_dir / subfolder
-            if not pokemon_dir.exists():
-                continue
+        # Use shared Pokemon iteration utility (handles deduplication and filtering)
+        for pokemon in iterate_pokemon(
+            pokemon_base_dir,
+            subfolders=POKEMON_FORM_SUBFOLDERS_STANDARD,
+            include_non_default=False,
+            deduplicate=True,
+        ):
+            # Add this Pokemon to each item it can hold
+            if pokemon.held_items:
+                for item_name, rates in pokemon.held_items.items():
+                    if item_name not in item_cache:
+                        item_cache[item_name] = []
 
-            pokemon_files = sorted(pokemon_dir.glob("*.json"))
-
-            for pokemon_file in pokemon_files:
-                try:
-                    pokemon = PokeDBLoader.load_pokemon(
-                        pokemon_file.stem, subfolder=subfolder
-                    )
-
-                    if not pokemon or not pokemon.is_default:
-                        continue
-
-                    # Create unique key to prevent duplicates
-                    pokemon_key = (
-                        pokemon.name,
-                        pokemon.pokedex_numbers.get("national"),
-                    )
-
-                    if pokemon_key in seen_pokemon:
-                        continue
-
-                    seen_pokemon.add(pokemon_key)
-
-                    # Add this Pokemon to each item it can hold
-                    if pokemon.held_items:
-                        for item_name, rates in pokemon.held_items.items():
-                            if item_name not in item_cache:
-                                item_cache[item_name] = []
-
-                            item_cache[item_name].append(
-                                {
-                                    "pokemon": pokemon,
-                                    "black_2": rates.get("black_2", 0),
-                                    "white_2": rates.get("white_2", 0),
-                                }
-                            )
-
-                except Exception as e:
-                    self.logger.warning(
-                        f"Error loading Pokemon {pokemon_file.stem}: {e}"
+                    item_cache[item_name].append(
+                        {
+                            "pokemon": pokemon,
+                            "black_2": rates.get("black_2", 0),
+                            "white_2": rates.get("white_2", 0),
+                        }
                     )
 
         # Sort all lists by national dex number
@@ -181,7 +135,7 @@ class ItemGenerator(BaseGenerator):
         for entry in pokemon_list:
             pokemon = entry["pokemon"]
             dex_num = pokemon.pokedex_numbers.get("national", "???")
-            name = self._format_name(pokemon.name)
+            name = format_display_name(pokemon.name, ITEM_NAME_SPECIAL_CASES)
             link = f"[**#{dex_num:03d} {name}**](../pokemon/{pokemon.name}.md)"
 
             black_2_rate = f"{entry['black_2']}%" if entry["black_2"] else "—"
@@ -244,7 +198,7 @@ class ItemGenerator(BaseGenerator):
         # Card 1: Category
         md += "- **:material-shape: Category**\n\n"
         md += "\t---\n\n"
-        md += f"\t{self._format_name(item.category)}\n\n"
+        md += f"\t{format_display_name(item.category, ITEM_NAME_SPECIAL_CASES)}\n\n"
 
         # Card 2: Cost
         md += "- **:material-currency-usd: Cost**\n\n"
@@ -277,8 +231,8 @@ class ItemGenerator(BaseGenerator):
         """
         md = ""
 
-        display_name = self._format_name(item.name)
-        category = self._format_name(item.category)
+        display_name = format_display_name(item.name, ITEM_NAME_SPECIAL_CASES)
+        category = format_display_name(item.category, ITEM_NAME_SPECIAL_CASES)
 
         md += '<div class="item-header">\n'
 
@@ -311,7 +265,7 @@ class ItemGenerator(BaseGenerator):
         Returns:
             Path to the generated markdown file
         """
-        display_name = self._format_name(item.name)
+        display_name = format_display_name(item.name, ITEM_NAME_SPECIAL_CASES)
 
         # Start building the markdown with title
         md = f"# {display_name}\n\n"
@@ -426,9 +380,9 @@ class ItemGenerator(BaseGenerator):
         # Build table rows
         rows = []
         for item in items:
-            name = self._format_name(item.name)
+            name = format_display_name(item.name, ITEM_NAME_SPECIAL_CASES)
             link = f"[{name}](items/{item.name}.md)"
-            category = self._format_name(item.category)
+            category = format_display_name(item.category, ITEM_NAME_SPECIAL_CASES)
             short_effect = (
                 item.short_effect if item.short_effect else "*No description*"
             )
@@ -555,7 +509,7 @@ class ItemGenerator(BaseGenerator):
                     context_items = items_by_context[context_key]
                     display_name = context_display.get(context_key, context_key.title())
                     context_nav = [
-                        {self._format_name(i.name): f"pokedex/items/{i.name}.md"}
+                        {format_display_name(i.name, ITEM_NAME_SPECIAL_CASES): f"pokedex/items/{i.name}.md"}
                         for i in context_items
                     ]
                     # Using type: ignore because mkdocs nav allows mixed dict value types

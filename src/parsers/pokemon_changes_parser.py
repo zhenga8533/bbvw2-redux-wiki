@@ -7,11 +7,13 @@ This parser:
 3. Generates a markdown file to docs/pokemon_changes.md
 """
 
+import re
+
 from src.data.pokedb_loader import PokeDBLoader
 from src.services.pokemon_service import PokemonService
-from src.utils.markdown_util import format_move, format_pokemon, format_checkbox
+from src.utils.formatters.markdown_util import format_checkbox, format_move, format_pokemon
+
 from .base_parser import BaseParser
-import re
 
 
 class PokemonChangesParser(BaseParser):

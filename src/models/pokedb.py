@@ -4,10 +4,15 @@ PokeDB data structures for parsing JSON files from the PokeDB repository.
 This module defines dataclasses that correspond to the JSON structure of
 Pokémon, items, moves, and abilities data.
 
-To change the target generation, edit the 'Generation-Specific Configuration'
-constants below, AND update the hardcoded attributes in:
+To change the target generation, edit src/config.json under "pokedb":
+  - version_groups: List of version group keys (e.g., ["black_white", "black_2_white_2"])
+  - game_versions: List of individual game version keys (e.g., ["black", "white", "black_2", "white_2"])
+  - sprite_version: The sprite version key to use (e.g., "black_white")
+
+Then update the hardcoded attributes in:
   - GameVersionStringMap
   - GameVersionIntMap
+  - GameStringMap
   - SpriteVersions
 """
 
@@ -44,17 +49,31 @@ MIN_DRAIN_HEALING = -100
 MAX_DRAIN_HEALING = 100
 
 # Generation-Specific Configuration
-VERSION_GROUP_KEYS: set[str] = {
-    "black_white",
-    "black_2_white_2",
-}
-GAME_VERSION_KEYS: set[str] = {
-    "black",
-    "white",
-    "black_2",
-    "white_2",
-}
-SPRITE_VERSION_KEY: str = "black_white"
+# These are loaded from config.json at module import time
+def _load_generation_config():
+    """Load generation-specific configuration from config.json."""
+    try:
+        from src.utils.core.config_util import get_config
+        config = get_config()
+        pokedb_config = config.get("pokedb", {})
+
+        return {
+            "version_groups": set(pokedb_config.get("version_groups", ["black_white", "black_2_white_2"])),
+            "game_versions": set(pokedb_config.get("game_versions", ["black", "white", "black_2", "white_2"])),
+            "sprite_version": pokedb_config.get("sprite_version", "black_white"),
+        }
+    except Exception:
+        # Fallback to defaults if config cannot be loaded
+        return {
+            "version_groups": {"black_white", "black_2_white_2"},
+            "game_versions": {"black", "white", "black_2", "white_2"},
+            "sprite_version": "black_white",
+        }
+
+_gen_config = _load_generation_config()
+VERSION_GROUP_KEYS: set[str] = _gen_config["version_groups"]
+GAME_VERSION_KEYS: set[str] = _gen_config["game_versions"]
+SPRITE_VERSION_KEY: str = _gen_config["sprite_version"]
 
 # endregion
 

@@ -6,9 +6,11 @@ This parser:
 2. Generates a markdown file to docs/trade_changes.md
 """
 
-from .base_parser import BaseParser
 import re
-from src.utils.markdown_util import format_pokemon
+
+from src.utils.formatters.markdown_util import format_pokemon
+
+from .base_parser import BaseParser
 
 
 class TradeChangesParser(BaseParser):

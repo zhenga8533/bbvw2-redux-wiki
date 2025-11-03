@@ -215,3 +215,101 @@ def update_mkdocs_nav(mkdocs_path: Path, nav_section: Dict[str, Any]) -> bool:
 
     except Exception as e:
         return False
+
+
+def update_pokedex_subsection(
+    mkdocs_path: Path,
+    subsection_name: str,
+    nav_items: list,
+    logger = None
+) -> bool:
+    """
+    Update or create a subsection within the Pokédex navigation section.
+
+    This function consolidates the common pattern used by all generators to update
+    their respective subsections (Pokémon, Moves, Items, Abilities) within the
+    Pokédex section of mkdocs.yml navigation.
+
+    Args:
+        mkdocs_path: Path to mkdocs.yml file
+        subsection_name: Name of the subsection to update (e.g., "Pokémon", "Moves", "Items", "Abilities")
+        nav_items: List of navigation items for the subsection
+        logger: Optional logger for logging messages
+
+    Returns:
+        bool: True if update succeeded, False if it failed
+
+    Raises:
+        ValueError: If mkdocs.yml doesn't have nav section or Pokédex section
+
+    Example:
+        >>> abilities_nav = [
+        ...     {"Overview": "pokedex/abilities.md"},
+        ...     {"Gen III": [
+        ...         {"Soundproof": "pokedex/abilities/soundproof.md"}
+        ...     ]}
+        ... ]
+        >>> update_pokedex_subsection(Path("mkdocs.yml"), "Abilities", abilities_nav)
+    """
+    try:
+        if not mkdocs_path.exists():
+            if logger:
+                logger.error(f"mkdocs.yml not found at {mkdocs_path}")
+            return False
+
+        # Load current mkdocs.yml
+        config = load_mkdocs_config(mkdocs_path)
+
+        # Find the Pokédex section in nav
+        if "nav" not in config:
+            raise ValueError("mkdocs.yml does not contain a 'nav' section")
+
+        nav_list = config["nav"]
+        pokedex_index = None
+
+        # Find the Pokédex section
+        for i, item in enumerate(nav_list):
+            if isinstance(item, dict) and "Pokédex" in item:
+                pokedex_index = i
+                break
+
+        if pokedex_index is None:
+            raise ValueError(
+                "mkdocs.yml nav section does not contain 'Pokédex'. "
+                "Please add a 'Pokédex' section to the navigation first."
+            )
+
+        # Get the Pokédex navigation items
+        pokedex_nav = nav_list[pokedex_index]["Pokédex"]
+        if not isinstance(pokedex_nav, list):
+            pokedex_nav = []
+
+        # Find or create subsection within Pokédex
+        subsection_index = None
+        for i, item in enumerate(pokedex_nav):
+            if isinstance(item, dict) and subsection_name in item:
+                subsection_index = i
+                break
+
+        # Update or append subsection
+        subsection = {subsection_name: nav_items}
+        if subsection_index is not None:
+            pokedex_nav[subsection_index] = subsection
+        else:
+            pokedex_nav.append(subsection)
+
+        # Update the config
+        nav_list[pokedex_index] = {"Pokédex": pokedex_nav}
+        config["nav"] = nav_list
+
+        # Write updated mkdocs.yml
+        save_mkdocs_config(mkdocs_path, config)
+
+        if logger:
+            logger.info(f"Updated mkdocs.yml with {subsection_name} subsection")
+        return True
+
+    except Exception as e:
+        if logger:
+            logger.error(f"Failed to update mkdocs.yml: {e}", exc_info=True)
+        return False

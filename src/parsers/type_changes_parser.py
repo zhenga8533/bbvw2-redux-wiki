@@ -9,7 +9,8 @@ This parser:
 
 import re
 
-from src.utils.markdown_util import format_pokemon
+from src.utils.formatters.markdown_util import format_pokemon
+
 from .base_parser import BaseParser
 
 
@@ -30,7 +31,24 @@ class TypeChangesParser(BaseParser):
         self.parse_default(line)
 
     def parse_pokemon_type_changes(self, line: str) -> None:
-        """Parse the Pokémon Type Changes section."""
+        """
+        Parse the Pokémon Type Changes section containing the type change table.
+
+        Processes lines that describe Pokemon type modifications in the hack, including:
+        - Table headers showing column names
+        - Table separator rows with dashes
+        - Data rows: "#<number> <pokemon>   <old type>   <new type>   <justification>"
+
+        The parser generates a markdown table with columns for:
+        - Pokedex number
+        - Pokemon name (with sprite and link)
+        - Old type combination
+        - New type combination
+        - Justification for the change
+
+        Args:
+            line: A single line from the Type Changes documentation file
+        """
         # Match: "Pokémon                 Old Type            New Type                Justification"
         if (
             line

@@ -6,11 +6,12 @@ This parser:
 2. Generates a markdown file to docs/item_changes.md
 """
 
+import re
 from typing import Any, Dict
 
-from src.utils.markdown_util import format_item, format_checkbox
+from src.utils.formatters.markdown_util import format_checkbox, format_item
+
 from .base_parser import BaseParser
-import re
 
 
 class ItemChangesParser(BaseParser):

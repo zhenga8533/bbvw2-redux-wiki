@@ -7,10 +7,12 @@ This parser:
 3. Generates a markdown file to docs/move_changes.md
 """
 
-from src.utils.markdown_util import format_move, format_checkbox
-from src.services.move_service import MoveService
-from .base_parser import BaseParser
 import re
+
+from src.services.move_service import MoveService
+from src.utils.formatters.markdown_util import format_checkbox, format_move
+
+from .base_parser import BaseParser
 
 
 class MoveChangesParser(BaseParser):

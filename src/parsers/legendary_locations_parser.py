@@ -6,11 +6,12 @@ This parser:
 2. Generates a markdown file to docs/legendary_locations.md
 """
 
+import re
 from typing import Any, Dict
 
-from src.utils.markdown_util import format_pokemon
+from src.utils.formatters.markdown_util import format_pokemon
+
 from .base_parser import BaseParser
-import re
 
 
 class LegendaryLocationsParser(BaseParser):
@@ -34,7 +35,33 @@ class LegendaryLocationsParser(BaseParser):
         self.parse_default(line)
 
     def parse_legendary_encounters(self, line: str) -> None:
-        """Parse lines under the Legendary Encounters section."""
+        """
+        Parse the Legendary Encounters section containing location data.
+
+        Processes lines describing where legendary Pokemon can be found, organized by epitaph.
+        Each epitaph groups several legendary encounters together, followed by detailed
+        location information for each Pokemon.
+
+        Format expected:
+            Epitaph Name: Pokemon1, Pokemon2, and Pokemon3.
+            Pokemon1
+             - Location detail line
+            Pokemon2
+             - Location detail line
+            Pokemon3
+             - Location detail line
+
+        The parser generates a markdown table for each epitaph group with columns:
+        - Pokemon name (with sprite and link)
+        - Encounter details (location, level, conditions)
+
+        Args:
+            line: A single line from the Legendary Locations documentation file
+
+        Side Effects:
+            - Updates self._encounters set to track Pokemon names in current epitaph
+            - Sets self.in_encounter flag when processing an encounter table
+        """
         # Match: "Epitaph: encounter1, encounter2, and encounter3."
         if match := re.match(r"^([^:]+):\s*([^.]+)\.$", line):
             epitaph, encounters = match.groups()

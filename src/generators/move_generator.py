@@ -23,13 +23,27 @@ Key CSS classes used:
 - .move-learning-method - Learning method annotations
 """
 
-from pathlib import Path
-from typing import Optional, List, Dict
 from collections import defaultdict
+from pathlib import Path
+from typing import Dict, List, Optional
+
 from src.data.pokedb_loader import PokeDBLoader
 from src.models.pokedb import Move, Pokemon
-from src.utils.yaml_util import load_mkdocs_config, save_mkdocs_config
-from src.utils.table_util import create_move_index_table
+from src.utils.formatters.markdown_util import format_type_badge
+from src.utils.pokemon.constants import (
+    DAMAGE_CLASS_ICONS,
+    POKEMON_FORM_SUBFOLDERS_STANDARD,
+    TYPE_COLORS,
+)
+from src.utils.pokemon.pokemon_util import iterate_pokemon
+from src.utils.formatters.table_util import create_move_index_table
+from src.utils.text.text_util import format_display_name
+from src.utils.formatters.yaml_util import (
+    load_mkdocs_config,
+    save_mkdocs_config,
+    update_pokedex_subsection,
+)
+
 from .base_generator import BaseGenerator
 
 
@@ -44,28 +58,6 @@ class MoveGenerator(BaseGenerator):
     - Flavor text
     - Learning Pokemon (level-up, TM/HM, egg, tutor)
     """
-
-    # Type colors (same as Pokemon generator)
-    TYPE_COLORS = {
-        "normal": "#A8A878",
-        "fire": "#F08030",
-        "water": "#6890F0",
-        "electric": "#F8D030",
-        "grass": "#78C850",
-        "ice": "#98D8D8",
-        "fighting": "#C03028",
-        "poison": "#A040A0",
-        "ground": "#E0C068",
-        "flying": "#A890F0",
-        "psychic": "#F85888",
-        "bug": "#A8B820",
-        "rock": "#B8A038",
-        "ghost": "#705898",
-        "dragon": "#7038F8",
-        "dark": "#705848",
-        "steel": "#B8B8D0",
-        "fairy": "#EE99AC",
-    }
 
     def __init__(
         self, output_dir: str = "docs/pokedex", project_root: Optional[Path] = None
@@ -84,34 +76,6 @@ class MoveGenerator(BaseGenerator):
         self.output_dir = self.output_dir / "moves"
         self.output_dir.mkdir(parents=True, exist_ok=True)
 
-    def _format_name(self, name: str) -> str:
-        """Format a move name for display (capitalize and handle special cases)."""
-        # Handle special characters and formatting
-        name = name.replace("-", " ")
-
-        # Special cases for proper capitalization
-        special_cases = {
-            "tm": "TM",
-            "hm": "HM",
-            "hp": "HP",
-            "u turn": "U-turn",
-            "v create": "V-create",
-        }
-
-        # Check if the whole name is a special case
-        lower_name = name.lower()
-        if lower_name in special_cases:
-            return special_cases[lower_name]
-
-        # Default: title case
-        return name.title()
-
-    def _format_type(self, type_name: str) -> str:
-        """Format a type name with color badge (same as Pokemon generator)."""
-        formatted_name = type_name.title()
-        type_class = f"type-{type_name.lower()}"
-        return f'<span class="pokemon-type-badge {type_class}">{formatted_name}</span>'
-
     def _build_pokemon_move_cache(self) -> Dict[str, Dict[str, List[Dict]]]:
         """
         Build a cache mapping move names to Pokemon that can learn them.
@@ -121,79 +85,52 @@ class MoveGenerator(BaseGenerator):
             {'move-name': {'level_up': [{pokemon, level}, ...], 'machine': [...], ...}}
         """
         pokemon_base_dir = self.project_root / "data" / "pokedb" / "parsed" / "pokemon"
-        subfolders = ["default", "transformation", "variant"]
 
         # Map: move_name -> {method: [{pokemon, level}, ...]}
         move_cache = defaultdict(
             lambda: {"level_up": [], "machine": [], "egg": [], "tutor": []}
         )
-        seen_pokemon = set()
 
-        for subfolder in subfolders:
-            pokemon_dir = pokemon_base_dir / subfolder
-            if not pokemon_dir.exists():
-                continue
-
-            pokemon_files = sorted(pokemon_dir.glob("*.json"))
-
-            for pokemon_file in pokemon_files:
-                try:
-                    pokemon = PokeDBLoader.load_pokemon(
-                        pokemon_file.stem, subfolder=subfolder
+        # Use shared Pokemon iteration utility (handles deduplication and filtering)
+        for pokemon in iterate_pokemon(
+            pokemon_base_dir,
+            subfolders=POKEMON_FORM_SUBFOLDERS_STANDARD,
+            include_non_default=False,
+            deduplicate=True,
+        ):
+            # Add this Pokemon to each move it can learn
+            if pokemon.moves:
+                # Level-up moves
+                for move in pokemon.moves.level_up or []:
+                    move_cache[move.name]["level_up"].append(
+                        {
+                            "pokemon": pokemon,
+                            "level": move.level_learned_at,
+                        }
                     )
 
-                    if not pokemon or not pokemon.is_default:
-                        continue
-
-                    # Create unique key to prevent duplicates
-                    pokemon_key = (
-                        pokemon.name,
-                        pokemon.pokedex_numbers.get("national"),
+                # TM/HM moves
+                for move in pokemon.moves.machine or []:
+                    move_cache[move.name]["machine"].append(
+                        {
+                            "pokemon": pokemon,
+                        }
                     )
 
-                    if pokemon_key in seen_pokemon:
-                        continue
+                # Egg moves
+                for move in pokemon.moves.egg or []:
+                    move_cache[move.name]["egg"].append(
+                        {
+                            "pokemon": pokemon,
+                        }
+                    )
 
-                    seen_pokemon.add(pokemon_key)
-
-                    # Add this Pokemon to each move it can learn
-                    if pokemon.moves:
-                        # Level-up moves
-                        for move in pokemon.moves.level_up or []:
-                            move_cache[move.name]["level_up"].append(
-                                {
-                                    "pokemon": pokemon,
-                                    "level": move.level_learned_at,
-                                }
-                            )
-
-                        # TM/HM moves
-                        for move in pokemon.moves.machine or []:
-                            move_cache[move.name]["machine"].append(
-                                {
-                                    "pokemon": pokemon,
-                                }
-                            )
-
-                        # Egg moves
-                        for move in pokemon.moves.egg or []:
-                            move_cache[move.name]["egg"].append(
-                                {
-                                    "pokemon": pokemon,
-                                }
-                            )
-
-                        # Tutor moves
-                        for move in pokemon.moves.tutor or []:
-                            move_cache[move.name]["tutor"].append(
-                                {
-                                    "pokemon": pokemon,
-                                }
-                            )
-
-                except Exception as e:
-                    self.logger.warning(
-                        f"Error loading Pokemon {pokemon_file.stem}: {e}"
+                # Tutor moves
+                for move in pokemon.moves.tutor or []:
+                    move_cache[move.name]["tutor"].append(
+                        {
+                            "pokemon": pokemon,
+                        }
                     )
 
         # Sort all lists by national dex number
@@ -219,7 +156,7 @@ class MoveGenerator(BaseGenerator):
         """
         md = ""
 
-        display_name = self._format_name(move.name)
+        display_name = format_display_name(move.name)
         move_type = move.type.black_2_white_2 or "???"
         category = move.damage_class.title() if move.damage_class else "Unknown"
 
@@ -227,7 +164,7 @@ class MoveGenerator(BaseGenerator):
         md += '\t<div class="move-header-content">\n'
         md += f'\t\t<div class="move-header-name">{display_name}</div>\n'
         md += '\t\t<div class="move-header-meta">\n'
-        md += f'\t\t\t<div class="move-header-type">{self._format_type(move_type)}</div>\n'
+        md += f'\t\t\t<div class="move-header-type">{format_type_badge(move_type)}</div>\n'
         md += f'\t\t\t<div class="move-header-category">{category}</div>\n'
         md += "\t\t</div>\n"
         md += "\t</div>\n"
@@ -253,7 +190,7 @@ class MoveGenerator(BaseGenerator):
         # Card 1: Type
         md += "- **:material-tag: Type**\n\n"
         md += "\t---\n\n"
-        md += f"\t{self._format_type(move_type)}\n\n"
+        md += f"\t{format_type_badge(move_type)}\n\n"
 
         # Card 2: Category
         md += "- **:material-shape: Category**\n\n"
@@ -374,7 +311,7 @@ class MoveGenerator(BaseGenerator):
                 pokemon = entry["pokemon"]
                 level = entry.get("level", "—")
                 dex_num = pokemon.pokedex_numbers.get("national", "???")
-                name = self._format_name(pokemon.name)
+                name = format_display_name(pokemon.name)
                 link = f"../pokemon/{pokemon.name}.md"
 
                 # Get sprite URL
@@ -405,7 +342,7 @@ class MoveGenerator(BaseGenerator):
             for entry in move_data["machine"]:
                 pokemon = entry["pokemon"]
                 dex_num = pokemon.pokedex_numbers.get("national", "???")
-                name = self._format_name(pokemon.name)
+                name = format_display_name(pokemon.name)
                 link = f"../pokemon/{pokemon.name}.md"
 
                 # Get sprite URL
@@ -435,7 +372,7 @@ class MoveGenerator(BaseGenerator):
             for entry in move_data["egg"]:
                 pokemon = entry["pokemon"]
                 dex_num = pokemon.pokedex_numbers.get("national", "???")
-                name = self._format_name(pokemon.name)
+                name = format_display_name(pokemon.name)
                 link = f"../pokemon/{pokemon.name}.md"
 
                 # Get sprite URL
@@ -465,7 +402,7 @@ class MoveGenerator(BaseGenerator):
             for entry in move_data["tutor"]:
                 pokemon = entry["pokemon"]
                 dex_num = pokemon.pokedex_numbers.get("national", "???")
-                name = self._format_name(pokemon.name)
+                name = format_display_name(pokemon.name)
                 link = f"../pokemon/{pokemon.name}.md"
 
                 # Get sprite URL
@@ -502,7 +439,7 @@ class MoveGenerator(BaseGenerator):
         Returns:
             Path to the generated markdown file
         """
-        display_name = self._format_name(move.name)
+        display_name = format_display_name(move.name)
 
         # Start building the markdown with title
         md = f"# {display_name}\n\n"
@@ -601,23 +538,16 @@ class MoveGenerator(BaseGenerator):
         )
         md += "> Click on any move to see its full description and which Pokémon can learn it.\n\n"
 
-        # Category icons
-        category_icons = {
-            "physical": ":material-sword:",
-            "special": ":material-auto-fix:",
-            "status": ":material-shield-outline:",
-        }
-
         # Build table rows
         rows = []
         for move in moves:
-            name = self._format_name(move.name)
+            name = format_display_name(move.name)
             link = f"[{name}](moves/{move.name}.md)"
 
             move_type = move.type.black_2_white_2 or "???"
-            type_badge = self._format_type(move_type)
+            type_badge = format_type_badge(move_type)
 
-            category_icon = category_icons.get(move.damage_class, "")
+            category_icon = DAMAGE_CLASS_ICONS.get(move.damage_class, "")
 
             power = move.power.black_2_white_2
             power_str = str(power) if power is not None and power > 0 else "—"
@@ -630,7 +560,9 @@ class MoveGenerator(BaseGenerator):
             pp = move.pp.black_2_white_2
             pp_str = str(pp) if pp is not None and pp > 0 else "—"
 
-            rows.append([link, type_badge, category_icon, power_str, accuracy_str, pp_str])
+            rows.append(
+                [link, type_badge, category_icon, power_str, accuracy_str, pp_str]
+            )
 
         # Use standardized table utility
         md += create_move_index_table(rows)
@@ -704,7 +636,7 @@ class MoveGenerator(BaseGenerator):
                         class_key, class_key.title()
                     )
                     class_nav = [
-                        {self._format_name(m.name): f"pokedex/moves/{m.name}.md"}
+                        {format_display_name(m.name): f"pokedex/moves/{m.name}.md"}
                         for m in class_moves
                     ]
                     # Using type: ignore because mkdocs nav allows mixed dict value types
@@ -714,7 +646,7 @@ class MoveGenerator(BaseGenerator):
             if "unknown" in moves_by_damage_class:
                 unknown_moves = moves_by_damage_class["unknown"]
                 unknown_nav = [
-                    {self._format_name(m.name): f"pokedex/moves/{m.name}.md"}
+                    {format_display_name(m.name): f"pokedex/moves/{m.name}.md"}
                     for m in unknown_moves
                 ]
                 moves_nav_items.append({"Unknown": unknown_nav})  # type: ignore
