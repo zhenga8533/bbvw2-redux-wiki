@@ -28,6 +28,9 @@ plugins:
 - search
 theme:
   name: material
+  font:
+    text: Roboto Mono
+    code: Roboto Mono
   features:
   - content.tabs.link
   - navigation.footer
