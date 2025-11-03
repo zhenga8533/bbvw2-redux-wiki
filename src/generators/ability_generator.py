@@ -16,6 +16,7 @@ from typing import Optional, List, Dict
 from src.data.pokedb_loader import PokeDBLoader
 from src.models.pokedb import Ability, Pokemon
 from src.utils.yaml_util import load_mkdocs_config, save_mkdocs_config
+from src.utils.table_util import create_ability_index_table
 from .base_generator import BaseGenerator
 
 
@@ -441,10 +442,8 @@ class AbilityGenerator(BaseGenerator):
         md += "Complete list of all Pokémon abilities in **Blaze Black 2 & Volt White 2 Redux**.\n\n"
         md += "> Click on any ability to see its full description and which Pokémon can learn it.\n\n"
 
-        # Generate table
-        md += "| Ability | Effect |\n"
-        md += "|---------|--------|\n"
-
+        # Build table rows
+        rows = []
         for ability in abilities:
             name = self._format_name(ability.name)
             link = f"[{name}](abilities/{ability.name}.md)"
@@ -452,8 +451,10 @@ class AbilityGenerator(BaseGenerator):
                 ability.short_effect if ability.short_effect else "*No description*"
             )
 
-            md += f"| {link} | {short_effect} |\n"
+            rows.append([link, short_effect])
 
+        # Use standardized table utility
+        md += create_ability_index_table(rows)
         md += "\n"
 
         # Write to file

@@ -105,6 +105,43 @@ class EvolutionService:
                 evolves_to.pop(i)
 
     @staticmethod
+    def _evolution_details_equal(
+        details1: EvolutionDetails,
+        details2: EvolutionDetails,
+    ) -> bool:
+        """
+        Compare two evolution details objects for equality.
+
+        Args:
+            details1: First evolution details object
+            details2: Second evolution details object
+
+        Returns:
+            True if the evolution details are equivalent, False otherwise
+        """
+        # Compare all relevant fields
+        return (
+            details1.trigger == details2.trigger
+            and details1.min_level == details2.min_level
+            and details1.item == details2.item
+            and details1.held_item == details2.held_item
+            and details1.known_move == details2.known_move
+            and details1.known_move_type == details2.known_move_type
+            and details1.min_happiness == details2.min_happiness
+            and details1.min_affection == details2.min_affection
+            and details1.min_beauty == details2.min_beauty
+            and details1.time_of_day == details2.time_of_day
+            and details1.location == details2.location
+            and details1.party_species == details2.party_species
+            and details1.party_type == details2.party_type
+            and details1.trade_species == details2.trade_species
+            and details1.gender == details2.gender
+            and details1.relative_physical_stats == details2.relative_physical_stats
+            and details1.needs_overworld_rain == details2.needs_overworld_rain
+            and details1.turn_upside_down == details2.turn_upside_down
+        )
+
+    @staticmethod
     def _apply_evolution_update(
         evolves_to: list[EvolutionNode],
         evolution_id: str,
@@ -118,18 +155,34 @@ class EvolutionService:
         If no evolution node exists (after cleaning or for new evolutions),
         it creates a new node with the details.
 
+        This method now checks for duplicate evolution methods before adding them.
+
         Args:
             evolves_to: List of evolution nodes to update
             evolution_id: The ID of the evolution target
             evolution_details: The new evolution details to apply
         """
-        # Check if an evolution to the target already exists
+        # Check if this exact evolution method already exists
+        for evo in evolves_to:
+            if evo.species_name == evolution_id and evo.evolution_details:
+                if EvolutionService._evolution_details_equal(
+                    evo.evolution_details, evolution_details
+                ):
+                    logger.debug(
+                        f"Evolution method already exists for {evolution_id}, skipping duplicate"
+                    )
+                    return
+
+        # Check if an evolution to the target already exists (with different method)
         for evo in evolves_to:
             if evo.species_name == evolution_id:
                 # Evolution exists - add as alternate method (keep_existing=True case)
                 node_copy = copy.deepcopy(evo)
                 node_copy.evolution_details = evolution_details
                 evolves_to.append(node_copy)
+                logger.debug(
+                    f"Added alternate evolution method for {evolution_id}"
+                )
                 return
 
         # No evolution to the target exists - create a new one
@@ -139,6 +192,7 @@ class EvolutionService:
             evolves_to=[]
         )
         evolves_to.append(new_node)
+        logger.debug(f"Created new evolution node for {evolution_id}")
 
     @staticmethod
     def _update_evolution_node(

@@ -32,6 +32,7 @@ from src.models.pokedb import Pokemon, Move
 from src.utils.markdown_util import format_item
 from src.utils.text_util import extract_form_suffix
 from src.utils.yaml_util import load_mkdocs_config, save_mkdocs_config
+from src.utils.table_util import create_held_items_table, create_move_learnset_table, create_table_row, create_pokemon_index_table
 from .base_generator import BaseGenerator
 
 
@@ -403,11 +404,23 @@ class PokemonGenerator(BaseGenerator):
         md = ""
 
         # Get sprite URL
+        # Cosmetic forms don't have animated GIFs, use PNG instead
         sprite_url = None
-        if hasattr(pokemon.sprites, "versions") and pokemon.sprites.versions:
-            bw = pokemon.sprites.versions.black_white
-            if bw.animated and bw.animated.front_default:
-                sprite_url = bw.animated.front_default
+        is_cosmetic = any(form.category == "cosmetic" for form in pokemon.forms)
+
+        if is_cosmetic:
+            # Use PNG sprite for cosmetic forms
+            sprite_url = pokemon.sprites.front_default
+        else:
+            # Use animated GIF for default/variant/transformation forms
+            if hasattr(pokemon.sprites, "versions") and pokemon.sprites.versions:
+                bw = pokemon.sprites.versions.black_white
+                if bw.animated and bw.animated.front_default:
+                    sprite_url = bw.animated.front_default
+
+            # Fall back to PNG if animated not available
+            if not sprite_url:
+                sprite_url = pokemon.sprites.front_default
 
         # Get type colors for dynamic gradient
         color_1 = "#667eea"  # Default
@@ -487,7 +500,9 @@ class PokemonGenerator(BaseGenerator):
                 display_name = self._format_name(ability.name)
                 # Use normalized name from ability_data for the link
                 normalized_name = ability_data.name
-                ability_display = f"[{display_name}](../abilities/{normalized_name}.md){hidden_emoji}"
+                ability_display = (
+                    f"[{display_name}](../abilities/{normalized_name}.md){hidden_emoji}"
+                )
             else:
                 ability_display = f"{self._format_name(ability.name)}{hidden_emoji}"
             md += f"\t- {ability_display}\n"
@@ -559,10 +574,8 @@ class PokemonGenerator(BaseGenerator):
         md = "## :material-treasure-chest: Wild Held Items\n\n"
         md += "These items can be found when catching or defeating this Pokémon in the wild:\n\n"
 
-        # Prioritize Black 2 & White 2 (main focus)
-        md += "| Item | Black 2 | White 2 |\n"
-        md += "|------|:-------:|:-------:|\n"
-
+        # Build table rows
+        rows = []
         for item_name, rates in pokemon.held_items.items():
             # Convert underscores to hyphens for item identifier
             item_id = item_name.replace("_", "-")
@@ -576,8 +589,10 @@ class PokemonGenerator(BaseGenerator):
                 f"{rates.get('white_2', 0)}%" if rates.get("white_2") else "—"
             )
 
-            md += f"| {item_display} | {black_2_rate} | {white_2_rate} |\n"
+            rows.append([item_display, black_2_rate, white_2_rate])
 
+        # Use standardized table utility
+        md += create_held_items_table(rows)
         md += "\n"
         return md
 
@@ -692,17 +707,31 @@ class PokemonGenerator(BaseGenerator):
         """
         try:
             # Try to load from different subfolders
-            for subfolder in ["default", "transformation", "variant"]:
+            for subfolder in ["default", "transformation", "variant", "cosmetic"]:
                 try:
                     poke = PokeDBLoader.load_pokemon(pokemon_name, subfolder=subfolder)
-                    if (
-                        poke
-                        and hasattr(poke.sprites, "versions")
-                        and poke.sprites.versions
-                    ):
-                        bw = poke.sprites.versions.black_white
-                        if bw.animated and bw.animated.front_default:
-                            return bw.animated.front_default
+                    if poke:
+                        # Check if this is a cosmetic form
+                        is_cosmetic = any(
+                            form.category == "cosmetic" for form in poke.forms
+                        )
+
+                        if is_cosmetic:
+                            # Cosmetic forms don't have animated GIFs
+                            return poke.sprites.front_default
+                        else:
+                            # Use animated sprite for default/variant/transformation
+                            if (
+                                hasattr(poke.sprites, "versions")
+                                and poke.sprites.versions
+                            ):
+                                bw = poke.sprites.versions.black_white
+                                if bw.animated and bw.animated.front_default:
+                                    return bw.animated.front_default
+
+                            # Fall back to PNG if animated not available
+                            if poke.sprites.front_default:
+                                return poke.sprites.front_default
                 except:
                     continue
         except:
@@ -724,7 +753,7 @@ class PokemonGenerator(BaseGenerator):
         link_name = actual_name or species_name
         sprite_url = self._get_sprite_url(species_name)
 
-        card_html = f'<a href="{link_name}.md" class="pokemon-evo-card">\n'
+        card_html = f'<a href="{link_name}/" class="pokemon-evo-card">\n'
         if sprite_url:
             card_html += f'\t<img src="{sprite_url}" alt="{display_name}" class="pokemon-evo-sprite" />\n'
         card_html += f'\t<div class="pokemon-evo-name">{display_name}</div>\n'
@@ -746,20 +775,86 @@ class PokemonGenerator(BaseGenerator):
             return ""
 
         details = []
+
+        # Check trigger type first for special cases
+        trigger = getattr(evo_details, "trigger", None)
+
+        # Trade evolutions
+        if trigger == "trade":
+            if evo_details.held_item:
+                details.append(
+                    f"Trade holding {self._format_name(evo_details.held_item)}"
+                )
+            elif evo_details.trade_species:
+                details.append(
+                    f"Trade for {self._format_name(evo_details.trade_species)}"
+                )
+            else:
+                details.append("Trade")
+
+        # Level-up conditions
         if evo_details.min_level:
             details.append(f"Level {evo_details.min_level}")
-        if evo_details.item:
+
+        # Item-based evolutions
+        if evo_details.item and trigger != "trade":
             details.append(f"Use {self._format_name(evo_details.item)}")
-        if evo_details.held_item:
-            details.append(f"Hold {self._format_name(evo_details.held_item)}")
+
+        # Party requirements
+        if evo_details.party_species:
+            details.append(
+                f"With {self._format_name(evo_details.party_species)} in party"
+            )
+        if evo_details.party_type:
+            details.append(
+                f"With {self._format_name(evo_details.party_type)}-type in party"
+            )
+
+        # Move requirements
         if evo_details.known_move:
             details.append(f"Know {self._format_name(evo_details.known_move)}")
+        if evo_details.known_move_type:
+            details.append(
+                f"Know {self._format_name(evo_details.known_move_type)}-type move"
+            )
+
+        # Happiness/Affection
         if evo_details.min_happiness:
             details.append(f"Happiness {evo_details.min_happiness}+")
+        if evo_details.min_affection:
+            details.append(f"Affection {evo_details.min_affection}+")
+
+        # Beauty
+        if evo_details.min_beauty:
+            details.append(f"Beauty {evo_details.min_beauty}+")
+
+        # Time of day
         if evo_details.time_of_day:
             details.append(f"During {evo_details.time_of_day}")
+
+        # Location
         if evo_details.location:
             details.append(f"At {self._format_name(evo_details.location)}")
+
+        # Gender requirement
+        if evo_details.gender is not None:
+            gender_text = "♀" if evo_details.gender == 1 else "♂"
+            details.append(f"Gender: {gender_text}")
+
+        # Physical stats comparison
+        if evo_details.relative_physical_stats:
+            if evo_details.relative_physical_stats == 1:
+                details.append("Attack > Defense")
+            elif evo_details.relative_physical_stats == -1:
+                details.append("Attack < Defense")
+            elif evo_details.relative_physical_stats == 0:
+                details.append("Attack = Defense")
+
+        # Weather/Special conditions
+        if evo_details.needs_overworld_rain:
+            details.append("During rain")
+        if evo_details.turn_upside_down:
+            details.append("Turn console upside down")
 
         return "<br>".join(details) if details else "Unknown"
 
@@ -783,6 +878,13 @@ class PokemonGenerator(BaseGenerator):
         - .pokemon-evo-arrow: Horizontal arrow connector (→)
         """
         md = "## :material-swap-horizontal: Evolution Chain\n\n"
+
+        # Check if this Pokemon doesn't evolve at all
+        has_evolutions = bool(pokemon.evolution_chain.evolves_to)
+        has_pre_evolution = bool(pokemon.evolves_from_species)
+
+        if not has_evolutions and not has_pre_evolution:
+            md += "> :material-information: This Pokémon does not evolve.\n\n"
 
         if pokemon.evolves_from_species:
             md += (
@@ -958,7 +1060,7 @@ class PokemonGenerator(BaseGenerator):
 
     def _generate_forms_section(self, pokemon: Pokemon) -> str:
         """
-        Generate section showing available forms for this Pokemon.
+        Generate section showing available forms for this Pokemon with Pokemon cards.
 
         Only displays if the Pokemon has multiple forms or if forms are switchable.
         """
@@ -968,8 +1070,11 @@ class PokemonGenerator(BaseGenerator):
 
         md = "## :material-shape: Available Forms\n\n"
 
+        if pokemon.forms_switchable:
+            md += "> :material-information: Forms are switchable during gameplay.\n\n"
+
         if len(pokemon.forms) > 1:
-            md += "This Pokémon has the following forms:\n\n"
+            md += '<div class="grid cards ability-pokemon-cards" markdown>\n\n'
 
             for form in pokemon.forms:
                 form_display = self._format_name(form.name)
@@ -985,11 +1090,50 @@ class PokemonGenerator(BaseGenerator):
                 else:  # cosmetic
                     icon = ":material-eye:"
 
-                md += f"- {icon} **{form_display}** ({category_display})\n"
-            md += "\n"
+                # Try to load the form's Pokemon data to get sprite and link
+                form_pokemon = None
+                try:
+                    form_pokemon = PokeDBLoader.load_pokemon(
+                        form.name, subfolder=form.category
+                    )
+                except:
+                    pass
 
-        if pokemon.forms_switchable:
-            md += "> :material-information: Forms are switchable during gameplay.\n\n"
+                # Get sprite URL (cosmetic forms use PNG, others use GIF)
+                sprite_url = None
+                if form_pokemon:
+                    if form.category == "cosmetic":
+                        # Cosmetic forms don't have animated GIFs
+                        sprite_url = form_pokemon.sprites.front_default
+                    else:
+                        # Use animated sprite for default/variant/transformation
+                        if (
+                            hasattr(form_pokemon.sprites, "versions")
+                            and form_pokemon.sprites.versions
+                        ):
+                            bw = form_pokemon.sprites.versions.black_white
+                            if bw.animated and bw.animated.front_default:
+                                sprite_url = bw.animated.front_default
+
+                        # Fall back to PNG if animated not available
+                        if not sprite_url and form_pokemon.sprites.front_default:
+                            sprite_url = form_pokemon.sprites.front_default
+
+                # Determine link path (form may be in different subfolder)
+                link = f"{form.name}.md"
+
+                # Card structure: sprite first, then separator, then info
+                md += "- "
+                if sprite_url:
+                    md += f"[![{form_display}]({sprite_url}){{: .pokemon-sprite-img }}]({link})\n\n"
+                else:
+                    md += f"[{form_display}]({link})\n\n"
+
+                md += "\t---\n\n"
+                md += f"\t{icon} **[{form_display}]({link})**\n\n"
+                md += f"\t*{category_display}*\n\n"
+
+            md += "</div>\n\n"
 
         return md
 
@@ -1012,23 +1156,14 @@ class PokemonGenerator(BaseGenerator):
         Returns:
             Formatted markdown table string
         """
-        md = ""
-
-        # Generate header
-        if include_level:
-            md += "\t| Level | Move | Type | Category | Power | Acc | PP |\n"
-            md += "\t|-------|------|------|----------|-------|-----|----|\n"
-        else:
-            md += "\t| Move | Type | Category | Power | Acc | PP |\n"
-            md += "\t|------|------|----------|-------|-----|----|\n"
-
         # Sort moves
         if sort_by_level:
             sorted_moves = sorted(moves, key=lambda m: m.level_learned_at)
         else:
             sorted_moves = sorted(moves, key=lambda m: m.name)
 
-        # Generate rows
+        # Build table rows
+        rows = []
         for move_learn in sorted_moves:
             move_data = PokeDBLoader.load_move(move_learn.name)
             move_name_formatted = self._format_move_link(move_learn.name, move_data)
@@ -1051,20 +1186,25 @@ class PokemonGenerator(BaseGenerator):
                 pp_str = str(pp) if pp is not None else "—"
 
                 if include_level:
-                    level = move_learn.level_learned_at
-                    md += f"\t| {level} | {move_name_formatted} | {type_badge} | {category_icon} | {power_str} | {accuracy_str} | {pp_str} |\n"
+                    level = str(move_learn.level_learned_at)
+                    rows.append([level, move_name_formatted, type_badge, category_icon, power_str, accuracy_str, pp_str])
                 else:
-                    md += f"\t| {move_name_formatted} | {type_badge} | {category_icon} | {power_str} | {accuracy_str} | {pp_str} |\n"
+                    rows.append([move_name_formatted, type_badge, category_icon, power_str, accuracy_str, pp_str])
             else:
                 # Fallback if move data not available
                 if include_level:
-                    level = move_learn.level_learned_at
-                    md += f"\t| {level} | {self._format_name(move_learn.name)} | — | — | — | — | — |\n"
+                    level = str(move_learn.level_learned_at)
+                    rows.append([level, self._format_name(move_learn.name), "—", "—", "—", "—", "—"])
                 else:
-                    md += f"\t| {self._format_name(move_learn.name)} | — | — | — | — | — |\n"
-        md += "\n"
+                    rows.append([self._format_name(move_learn.name), "—", "—", "—", "—", "—"])
 
-        return md
+        # Use standardized table utility
+        table_md = create_move_learnset_table(rows, include_level=include_level)
+
+        # Add tab indentation for nested table (in card grids)
+        indented_table = "\n".join("\t" + line for line in table_md.split("\n"))
+
+        return indented_table + "\n"
 
     def _generate_moves_section(self, pokemon: Pokemon) -> str:
         """Generate the moves learnset section with detailed move information."""
@@ -1158,69 +1298,132 @@ class PokemonGenerator(BaseGenerator):
         sprites = pokemon.sprites
         has_female_sprites = False
 
-        # Check if this Pokemon has female sprite variants
-        if hasattr(sprites, "versions") and sprites.versions:
+        # Check if this is a cosmetic form (no animated GIFs available)
+        is_cosmetic = any(form.category == "cosmetic" for form in pokemon.forms)
+
+        # Check if this Pokemon has animated sprites
+        has_animated = False
+        if not is_cosmetic and hasattr(sprites, "versions") and sprites.versions:
             bw = sprites.versions.black_white
-            if bw.animated and bw.animated.front_female:
-                has_female_sprites = True
+            if bw.animated and bw.animated.front_default:
+                has_animated = True
+                if bw.animated.front_female:
+                    has_female_sprites = True
 
         # In-game Sprites Tab
         md += '=== "In-Game Sprites"\n\n'
 
-        if hasattr(sprites, "versions") and sprites.versions:
+        # Use animated sprites for default/variant/transformation, PNG for cosmetic
+        if has_animated:
             bw = sprites.versions.black_white
-            if bw.animated:
-                # Normal sprites
-                md += "\t**Normal**\n\n"
-                md += '\t<div class="grid cards" markdown>\n\n'
+            # Normal sprites
+            md += "\t**Normal**\n\n"
+            md += '\t<div class="grid cards" markdown>\n\n'
 
-                if bw.animated.front_default:
-                    md += f"\t- ![Front]({bw.animated.front_default}){{: .pokemon-sprite-img }}\n\n"
+            if bw.animated.front_default:
+                md += f"\t- ![Front]({bw.animated.front_default}){{: .pokemon-sprite-img }}\n\n"
+                md += "\t\t---\n\n"
+                md += "\t\tFront\n\n"
+            if bw.animated.back_default:
+                md += f"\t- ![Back]({bw.animated.back_default}){{: .pokemon-sprite-img }}\n\n"
+                md += "\t\t---\n\n"
+                md += "\t\tBack\n\n"
+
+            # Female variants if available
+            if has_female_sprites:
+                if bw.animated.front_female:
+                    md += f"\t- ![Front ♀]({bw.animated.front_female}){{: .pokemon-sprite-img }}\n\n"
                     md += "\t\t---\n\n"
-                    md += "\t\tFront\n\n"
-                if bw.animated.back_default:
-                    md += f"\t- ![Back]({bw.animated.back_default}){{: .pokemon-sprite-img }}\n\n"
+                    md += "\t\tFront ♀\n\n"
+                if bw.animated.back_female:
+                    md += f"\t- ![Back ♀]({bw.animated.back_female}){{: .pokemon-sprite-img }}\n\n"
                     md += "\t\t---\n\n"
-                    md += "\t\tBack\n\n"
+                    md += "\t\tBack ♀\n\n"
 
-                # Female variants if available
-                if has_female_sprites:
-                    if bw.animated.front_female:
-                        md += f"\t- ![Front ♀]({bw.animated.front_female}){{: .pokemon-sprite-img }}\n\n"
-                        md += "\t\t---\n\n"
-                        md += "\t\tFront ♀\n\n"
-                    if bw.animated.back_female:
-                        md += f"\t- ![Back ♀]({bw.animated.back_female}){{: .pokemon-sprite-img }}\n\n"
-                        md += "\t\t---\n\n"
-                        md += "\t\tBack ♀\n\n"
+            md += "\t</div>\n\n"
 
-                md += "\t</div>\n\n"
+            # Shiny sprites
+            md += "\t**✨ Shiny**\n\n"
+            md += '\t<div class="grid cards" markdown>\n\n'
 
-                # Shiny sprites
-                md += "\t**✨ Shiny**\n\n"
-                md += '\t<div class="grid cards" markdown>\n\n'
+            if bw.animated.front_shiny:
+                md += f"\t- ![Front Shiny]({bw.animated.front_shiny}){{: .pokemon-sprite-img }}\n\n"
+                md += "\t\t---\n\n"
+                md += "\t\tFront\n\n"
+            if bw.animated.back_shiny:
+                md += f"\t- ![Back Shiny]({bw.animated.back_shiny}){{: .pokemon-sprite-img }}\n\n"
+                md += "\t\t---\n\n"
+                md += "\t\tBack\n\n"
 
-                if bw.animated.front_shiny:
-                    md += f"\t- ![Front Shiny]({bw.animated.front_shiny}){{: .pokemon-sprite-img }}\n\n"
+            # Female shiny variants if available
+            if has_female_sprites:
+                if bw.animated.front_shiny_female:
+                    md += f"\t- ![Front Shiny ♀]({bw.animated.front_shiny_female}){{: .pokemon-sprite-img }}\n\n"
                     md += "\t\t---\n\n"
-                    md += "\t\tFront\n\n"
-                if bw.animated.back_shiny:
-                    md += f"\t- ![Back Shiny]({bw.animated.back_shiny}){{: .pokemon-sprite-img }}\n\n"
+                    md += "\t\tFront ♀\n\n"
+                if bw.animated.back_shiny_female:
+                    md += f"\t- ![Back Shiny ♀]({bw.animated.back_shiny_female}){{: .pokemon-sprite-img }}\n\n"
                     md += "\t\t---\n\n"
-                    md += "\t\tBack\n\n"
+                    md += "\t\tBack ♀\n\n"
 
-                # Female shiny variants if available
-                if has_female_sprites:
-                    if bw.animated.front_shiny_female:
-                        md += f"\t- ![Front Shiny ♀]({bw.animated.front_shiny_female}){{: .pokemon-sprite-img }}\n\n"
-                        md += "\t\t---\n\n"
-                        md += "\t\tFront ♀\n\n"
-                    if bw.animated.back_shiny_female:
-                        md += f"\t- ![Back Shiny ♀]({bw.animated.back_shiny_female}){{: .pokemon-sprite-img }}\n\n"
-                        md += "\t\t---\n\n"
-                        md += "\t\tBack ♀\n\n"
+            md += "\t</div>\n\n"
+        else:
+            # Fall back to default PNG sprites for cosmetic forms
+            # Check if female sprites are available
+            has_png_female_sprites = sprites.front_female or sprites.back_female
 
-                md += "\t</div>\n\n"
+            md += "\t**Normal**\n\n"
+            md += '\t<div class="grid cards" markdown>\n\n'
+
+            if sprites.front_default:
+                md += f"\t- ![Front]({sprites.front_default}){{: .pokemon-sprite-img }}\n\n"
+                md += "\t\t---\n\n"
+                md += "\t\tFront\n\n"
+            if sprites.back_default:
+                md += (
+                    f"\t- ![Back]({sprites.back_default}){{: .pokemon-sprite-img }}\n\n"
+                )
+                md += "\t\t---\n\n"
+                md += "\t\tBack\n\n"
+
+            # Female variants if available
+            if has_png_female_sprites:
+                if sprites.front_female:
+                    md += f"\t- ![Front ♀]({sprites.front_female}){{: .pokemon-sprite-img }}\n\n"
+                    md += "\t\t---\n\n"
+                    md += "\t\tFront ♀\n\n"
+                if sprites.back_female:
+                    md += f"\t- ![Back ♀]({sprites.back_female}){{: .pokemon-sprite-img }}\n\n"
+                    md += "\t\t---\n\n"
+                    md += "\t\tBack ♀\n\n"
+
+            md += "\t</div>\n\n"
+
+            # Shiny sprites
+            md += "\t**✨ Shiny**\n\n"
+            md += '\t<div class="grid cards" markdown>\n\n'
+
+            if sprites.front_shiny:
+                md += f"\t- ![Front Shiny]({sprites.front_shiny}){{: .pokemon-sprite-img }}\n\n"
+                md += "\t\t---\n\n"
+                md += "\t\tFront\n\n"
+            if sprites.back_shiny:
+                md += f"\t- ![Back Shiny]({sprites.back_shiny}){{: .pokemon-sprite-img }}\n\n"
+                md += "\t\t---\n\n"
+                md += "\t\tBack\n\n"
+
+            # Female shiny variants if available
+            if has_png_female_sprites:
+                if sprites.front_shiny_female:
+                    md += f"\t- ![Front Shiny ♀]({sprites.front_shiny_female}){{: .pokemon-sprite-img }}\n\n"
+                    md += "\t\t---\n\n"
+                    md += "\t\tFront ♀\n\n"
+                if sprites.back_shiny_female:
+                    md += f"\t- ![Back Shiny ♀]({sprites.back_shiny_female}){{: .pokemon-sprite-img }}\n\n"
+                    md += "\t\t---\n\n"
+                    md += "\t\tBack ♀\n\n"
+
+            md += "\t</div>\n\n"
 
         # Official Artwork Tab
         md += '=== "Official Artwork"\n\n'
@@ -1248,21 +1451,43 @@ class PokemonGenerator(BaseGenerator):
 
             md += "\t</div>\n\n"
 
-        # Pokemon cry audio player
-        md += "---\n\n"
-        md += "### :material-volume-high: Cry\n\n"
+        return md
+
+    def _generate_cries_section(self, pokemon: Pokemon) -> str:
+        """Generate the cries section with audio players for both legacy and latest cries."""
+        md = "## :material-volume-high: Cries\n\n"
 
         if hasattr(pokemon, "cries") and pokemon.cries:
-            # Prefer legacy cry, fallback to latest
-            cry_url = getattr(pokemon.cries, "legacy", None) or getattr(
-                pokemon.cries, "latest", None
-            )
+            legacy_cry = getattr(pokemon.cries, "legacy", None)
+            latest_cry = getattr(pokemon.cries, "latest", None)
 
-            if cry_url:
-                md += f'<audio controls style="width: 100%; max-width: 500px;">\n'
-                md += f'\t<source src="{cry_url}" type="audio/ogg">\n'
-                md += "\tYour browser does not support the audio element.\n"
-                md += "</audio>\n\n"
+            # Check if we have any cries
+            if legacy_cry or latest_cry:
+                md += '<div class="grid cards" markdown>\n\n'
+
+                # Legacy cry (Gen 5 era)
+                if legacy_cry:
+                    md += "- **:material-history: Legacy Cry**\n\n"
+                    md += "\t---\n\n"
+                    md += f'\t<audio controls style="width: 100%;">\n'
+                    md += f'\t\t<source src="{legacy_cry}" type="audio/ogg">\n'
+                    md += "\t\tYour browser does not support the audio element.\n"
+                    md += "\t</audio>\n\n"
+                    md += "\t*Original cry from Gen 5*\n\n"
+
+                # Latest cry (modern)
+                if latest_cry:
+                    md += "- **:material-new-box: Latest Cry**\n\n"
+                    md += "\t---\n\n"
+                    md += f'\t<audio controls style="width: 100%;">\n'
+                    md += f'\t\t<source src="{latest_cry}" type="audio/ogg">\n'
+                    md += "\t\tYour browser does not support the audio element.\n"
+                    md += "\t</audio>\n\n"
+                    md += "\t*Updated cry from recent games*\n\n"
+
+                md += "</div>\n\n"
+            else:
+                md += "*Cry audio is not currently available for this Pokémon.*\n\n"
         else:
             md += "*Cry audio is not currently available for this Pokémon.*\n\n"
 
@@ -1299,6 +1524,7 @@ class PokemonGenerator(BaseGenerator):
         md += self._generate_flavor_text(pokemon)
         md += self._generate_moves_section(pokemon)
         md += self._generate_sprites_section(pokemon)
+        md += self._generate_cries_section(pokemon)
 
         # Write to file
         output_file = self.output_dir / f"{pokemon.name}.md"
@@ -1323,8 +1549,8 @@ class PokemonGenerator(BaseGenerator):
         # Get base Pokemon directory
         pokemon_base_dir = self.project_root / "data" / "pokedb" / "parsed" / "pokemon"
 
-        # Subfolders to scan for forms (same as navigation)
-        subfolders_to_scan = ["default", "transformation", "variant"]
+        # Subfolders to scan for forms (all form categories)
+        subfolders_to_scan = ["default", "transformation", "variant", "cosmetic"]
 
         generated_files = []
         total_pokemon = 0
@@ -1440,10 +1666,8 @@ class PokemonGenerator(BaseGenerator):
             md += f"## {icon} {gen_name}\n\n"
             md += f"*National Dex #{start:03d} - #{end:03d}*\n\n"
 
-            # Generate table for this generation
-            md += "| # | Sprite | Pokémon | Types | Abilities |\n"
-            md += "|:---:|:---:|---------|-------|----------|\n"
-
+            # Build table rows for this generation
+            rows = []
             for pokemon in gen_pokemon:
                 dex_num = pokemon.pokedex_numbers.get("national", "???")
                 name = self._format_name(pokemon.name)
@@ -1451,12 +1675,26 @@ class PokemonGenerator(BaseGenerator):
                 # Stack types vertically if multiple types
                 types = "<br>".join([self._format_type(t) for t in pokemon.types])
 
-                # Get sprite URL
+                # Get sprite URL (cosmetic forms use PNG, others use GIF)
                 sprite_url = None
-                if hasattr(pokemon.sprites, "versions") and pokemon.sprites.versions:
-                    bw = pokemon.sprites.versions.black_white
-                    if bw.animated and bw.animated.front_default:
-                        sprite_url = bw.animated.front_default
+                is_cosmetic = any(form.category == "cosmetic" for form in pokemon.forms)
+
+                if is_cosmetic:
+                    # Cosmetic forms don't have animated GIFs
+                    sprite_url = pokemon.sprites.front_default
+                else:
+                    # Use animated sprite for default/variant/transformation
+                    if (
+                        hasattr(pokemon.sprites, "versions")
+                        and pokemon.sprites.versions
+                    ):
+                        bw = pokemon.sprites.versions.black_white
+                        if bw.animated and bw.animated.front_default:
+                            sprite_url = bw.animated.front_default
+
+                    # Fall back to PNG if animated not available
+                    if not sprite_url and pokemon.sprites.front_default:
+                        sprite_url = pokemon.sprites.front_default
 
                 # Create sprite cell
                 if sprite_url:
@@ -1470,8 +1708,10 @@ class PokemonGenerator(BaseGenerator):
                     [self._format_name(a) for a in abilities[:2]]
                 )  # Show max 2
 
-                md += f"| **{dex_num:03d}** | {sprite_cell} | {link} | {types} | {abilities_str} |\n"
+                rows.append([f"**{dex_num:03d}**", sprite_cell, link, types, abilities_str])
 
+            # Use standardized table utility
+            md += create_pokemon_index_table(rows)
             md += "\n"
 
         # Write to file
@@ -1507,7 +1747,7 @@ class PokemonGenerator(BaseGenerator):
             )
 
             # Subfolders to scan for forms (in priority order)
-            subfolders_to_scan = ["default", "transformation", "variant"]
+            subfolders_to_scan = ["default", "transformation", "variant", "cosmetic"]
 
             # Load all Pokemon and group by national dex number
             all_pokemon = []
@@ -1554,7 +1794,9 @@ class PokemonGenerator(BaseGenerator):
                 pokemon_by_dex[dex_num].sort(key=lambda p: (not p.is_default, p.name))
 
             # Group Pokemon by generation attribute
-            pokemon_by_generation: Dict[str, Dict[int, List[Pokemon]]] = defaultdict(lambda: defaultdict(list))
+            pokemon_by_generation: Dict[str, Dict[int, List[Pokemon]]] = defaultdict(
+                lambda: defaultdict(list)
+            )
 
             for dex_num, pokemon_forms in pokemon_by_dex.items():
                 # Use the generation from the default form
@@ -1570,7 +1812,13 @@ class PokemonGenerator(BaseGenerator):
                 "generation-iv": "Gen IV",
                 "generation-v": "Gen V",
             }
-            generation_order = ["generation-i", "generation-ii", "generation-iii", "generation-iv", "generation-v"]
+            generation_order = [
+                "generation-i",
+                "generation-ii",
+                "generation-iii",
+                "generation-iv",
+                "generation-v",
+            ]
 
             # Create navigation structure for Pokémon subsection
             pokemon_nav_items = [{"Overview": "pokedex/pokemon.md"}]
@@ -1613,9 +1861,7 @@ class PokemonGenerator(BaseGenerator):
                                     form.name, base_name
                                 )
                                 all_forms.append(
-                                    {
-                                        form_display: f"pokedex/pokemon/{form.name}.md"
-                                    }
+                                    {form_display: f"pokedex/pokemon/{form.name}.md"}
                                 )
 
                             main_entry = {
@@ -1656,9 +1902,11 @@ class PokemonGenerator(BaseGenerator):
                 for dex_num in sorted_unknown_dex:
                     pokemon_forms = unknown_pokemon_by_dex[dex_num]
                     default_form = pokemon_forms[0]
-                    unknown_nav.append({
-                        f"#{dex_num:03d} {self._format_name(default_form.name)}": f"pokedex/pokemon/{default_form.name}.md"
-                    })
+                    unknown_nav.append(
+                        {
+                            f"#{dex_num:03d} {self._format_name(default_form.name)}": f"pokedex/pokemon/{default_form.name}.md"
+                        }
+                    )
                 pokemon_nav_items.append({"Unknown": unknown_nav})  # type: ignore
 
             # Find and update Pokédex section in nav
@@ -1712,7 +1960,9 @@ class PokemonGenerator(BaseGenerator):
 
             total_pokemon = len(pokemon_by_dex)
             total_forms = len(all_pokemon)
-            total_generations = len([g for g in generation_order if g in pokemon_by_generation])
+            total_generations = len(
+                [g for g in generation_order if g in pokemon_by_generation]
+            )
             self.logger.info(
                 f"Updated mkdocs.yml with {total_pokemon} Pokemon ({total_forms} total forms including alternates) organized into {total_generations} generations"
             )

@@ -50,32 +50,65 @@ class GiftPokemonParser(BaseParser):
             self.parse_default(line)
 
     def _format_gift_pokemon(self, header: str) -> None:
-        """Format gift Pokemon section with sprite table."""
+        """Format gift Pokemon section with grid cards."""
+        from src.data.pokedb_loader import PokeDBLoader
+
         # Clean up header
         header = header.removesuffix(".")
-        gift_pokemon = re.split(r", | or ", header.removesuffix(" Egg"))
+        gift_pokemon_names = re.split(r", | or ", header.removesuffix(" Egg"))
 
         self._markdown += f"### {header}\n\n"
+        self._markdown += '<div class="grid cards" markdown>\n\n'
 
-        # Build table rows in chunks of 3, centering if fewer than 3
-        table = "|   |   |   |\n|:-:|:-:|:-:|\n"
-        rows = [
-            [format_pokemon(p) for p in gift_pokemon[i : i + 3]]
-            for i in range(0, len(gift_pokemon), 3)
-        ]
-
-        for row in rows:
-            # Pad row to always have 3 columns
-            row_len = len(row)
-            row += [""] * (3 - row_len)
-            # If only one cell, center it in the middle column
-            if row_len == 1:
-                row = ["", row[0], ""]
-            table += (
-                "|" + "|".join(f" {cell} " if cell else "   " for cell in row) + "|\n"
+        for pokemon_name in gift_pokemon_names:
+            # Load Pokemon data to get sprite and dex number
+            pokemon_data = PokeDBLoader.load_pokemon(
+                pokemon_name.lower().replace(" ", "-")
             )
 
-        self._markdown += f"{table}\n\n"
+            if pokemon_data:
+                dex_num = pokemon_data.pokedex_numbers.get("national", "???")
+
+                # Get sprite URL
+                sprite_url = None
+                if (
+                    hasattr(pokemon_data.sprites, "versions")
+                    and pokemon_data.sprites.versions
+                ):
+                    bw = pokemon_data.sprites.versions.black_white
+                    if bw.animated and bw.animated.front_default:
+                        sprite_url = bw.animated.front_default
+
+                # Format name for display
+                display_name = pokemon_name.replace("-", " ").title()
+                # Handle special cases
+                if "nidoran" in pokemon_name.lower():
+                    if "f" in pokemon_name.lower():
+                        display_name = "Nidoran♀"
+                    elif "m" in pokemon_name.lower():
+                        display_name = "Nidoran♂"
+                elif pokemon_name.lower() == "mr mime":
+                    display_name = "Mr. Mime"
+                elif pokemon_name.lower() == "mime jr":
+                    display_name = "Mime Jr."
+
+                # Create link
+                link = f"../pokedex/pokemon/{pokemon_data.name}.md"
+
+                # Card structure: sprite first, then separator, then info
+                self._markdown += "- "
+                if sprite_url:
+                    self._markdown += f"[![{display_name}]({sprite_url}){{: .pokemon-sprite-img }}]({link})\n\n"
+                else:
+                    self._markdown += f"[{display_name}]({link})\n\n"
+
+                self._markdown += "\t---\n\n"
+                self._markdown += f"\t**#{dex_num:03d} [{display_name}]({link})**\n\n"
+            else:
+                # Fallback if Pokemon data not found
+                self._markdown += f"- {pokemon_name}\n\n"
+
+        self._markdown += "</div>\n\n"
 
     def parse_special_encounters(self, line: str) -> None:
         """Parse lines under the Special Encounters section."""

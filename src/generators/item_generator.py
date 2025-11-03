@@ -27,6 +27,7 @@ from typing import Optional, List, Dict
 from src.data.pokedb_loader import PokeDBLoader
 from src.models.pokedb import Item, Pokemon
 from src.utils.yaml_util import load_mkdocs_config, save_mkdocs_config
+from src.utils.table_util import create_item_index_table, create_pokemon_with_item_table
 from .base_generator import BaseGenerator
 
 
@@ -175,10 +176,8 @@ class ItemGenerator(BaseGenerator):
             "The following Pokémon may hold this item when encountered in the wild:\n\n"
         )
 
-        # Create table
-        md += "| Pokémon | Black 2 | White 2 |\n"
-        md += "|---------|:-------:|:-------:|\n"
-
+        # Build table rows
+        rows = []
         for entry in pokemon_list:
             pokemon = entry["pokemon"]
             dex_num = pokemon.pokedex_numbers.get("national", "???")
@@ -188,8 +187,10 @@ class ItemGenerator(BaseGenerator):
             black_2_rate = f"{entry['black_2']}%" if entry["black_2"] else "—"
             white_2_rate = f"{entry['white_2']}%" if entry["white_2"] else "—"
 
-            md += f"| {link} | {black_2_rate} | {white_2_rate} |\n"
+            rows.append([link, black_2_rate, white_2_rate])
 
+        # Use standardized table utility
+        md += create_pokemon_with_item_table(rows)
         md += "\n"
         return md
 
@@ -422,10 +423,8 @@ class ItemGenerator(BaseGenerator):
             "> Click on any item to see its full description and where to find it.\n\n"
         )
 
-        # Generate table with sprite column
-        md += "| Sprite | Item | Category | Effect |\n"
-        md += "|:------:|------|----------|--------|\n"
-
+        # Build table rows
+        rows = []
         for item in items:
             name = self._format_name(item.name)
             link = f"[{name}](items/{item.name}.md)"
@@ -439,8 +438,10 @@ class ItemGenerator(BaseGenerator):
             if hasattr(item, "sprite") and item.sprite:
                 sprite_cell = f'<img src="{item.sprite}" alt="{name}" class="item-index-sprite" />'
 
-            md += f"| {sprite_cell} | {link} | {category} | {short_effect} |\n"
+            rows.append([sprite_cell, link, category, short_effect])
 
+        # Use standardized table utility
+        md += create_item_index_table(rows)
         md += "\n"
 
         # Write to file

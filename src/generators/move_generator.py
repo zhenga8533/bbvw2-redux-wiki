@@ -29,6 +29,7 @@ from collections import defaultdict
 from src.data.pokedb_loader import PokeDBLoader
 from src.models.pokedb import Move, Pokemon
 from src.utils.yaml_util import load_mkdocs_config, save_mkdocs_config
+from src.utils.table_util import create_move_index_table
 from .base_generator import BaseGenerator
 
 
@@ -600,10 +601,6 @@ class MoveGenerator(BaseGenerator):
         )
         md += "> Click on any move to see its full description and which Pokémon can learn it.\n\n"
 
-        # Generate table
-        md += "| Move | Type | Category | Power | Acc | PP |\n"
-        md += "|------|------|----------|-------|-----|----|\n"
-
         # Category icons
         category_icons = {
             "physical": ":material-sword:",
@@ -611,6 +608,8 @@ class MoveGenerator(BaseGenerator):
             "status": ":material-shield-outline:",
         }
 
+        # Build table rows
+        rows = []
         for move in moves:
             name = self._format_name(move.name)
             link = f"[{name}](moves/{move.name}.md)"
@@ -631,8 +630,10 @@ class MoveGenerator(BaseGenerator):
             pp = move.pp.black_2_white_2
             pp_str = str(pp) if pp is not None and pp > 0 else "—"
 
-            md += f"| {link} | {type_badge} | {category_icon} | {power_str} | {accuracy_str} | {pp_str} |\n"
+            rows.append([link, type_badge, category_icon, power_str, accuracy_str, pp_str])
 
+        # Use standardized table utility
+        md += create_move_index_table(rows)
         md += "\n"
 
         # Write to file
@@ -699,7 +700,9 @@ class MoveGenerator(BaseGenerator):
             for class_key in damage_class_order:
                 if class_key in moves_by_damage_class:
                     class_moves = moves_by_damage_class[class_key]
-                    display_name = damage_class_display.get(class_key, class_key.title())
+                    display_name = damage_class_display.get(
+                        class_key, class_key.title()
+                    )
                     class_nav = [
                         {self._format_name(m.name): f"pokedex/moves/{m.name}.md"}
                         for m in class_moves

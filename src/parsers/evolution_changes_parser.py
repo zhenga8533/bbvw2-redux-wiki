@@ -50,15 +50,10 @@ class EvolutionChangesParser(BaseParser):
         # Match: table header "Pokémon              New Method"
         if line == "Pokémon              New Method":
             self._is_table_open = True
-            self._markdown += "<table>\n  <thead>\n    <tr>\n"
-            self._markdown += '      <th align="center">Dex #</th>\n'
-            self._markdown += '      <th align="center">Pokémon</th>\n'
-            self._markdown += '      <th align="center">Evolution</th>\n'
-            self._markdown += '      <th align="left">New Method</th>\n'
-            self._markdown += "    </tr>\n  </thead>\n"
+            self._markdown += "| Dex # | Pokémon | Evolution | New Method |\n"
         # Match: table separator "---                  ---"
         elif line == "---                  ---":
-            self._markdown += "  <tbody>\n"
+            self._markdown += "|:-----:|:-------:|:---------:|:-----------|\n"
         # Match: "dex_num name (spaces) evolution_text"
         elif match := re.match(
             rf"^(\d+) ([A-Z][\w':.-]*(?:\s[A-Z][\w':.-]*)*)\s+(.*)", line
@@ -81,12 +76,12 @@ class EvolutionChangesParser(BaseParser):
             self.logger.warning(f"Unrecognized line format: '{line}'")
         # Match: empty line indicates end of table
         elif self._is_table_open:
-            self._markdown += "  </tbody>\n</table>\n"
+            self._markdown += "{ .evolution-changes-table }\n\n"
             self._is_table_open = False
 
     def _add_evolution_row(self, evolution: str, evolution_text: str) -> None:
         """
-        Add an HTML table row to the evolution table.
+        Add a markdown table row to the evolution table.
 
         Args:
             evolution: Name of the evolution target Pokemon
@@ -100,26 +95,11 @@ class EvolutionChangesParser(BaseParser):
         else:
             to_pokemon_md = ""
 
-        # Add HTML table row
-        self._markdown += "    <tr>\n"
-        # Dex # cell: center-aligned horizontally, middle-aligned vertically
-        self._markdown += f'      <td align="center" style="vertical-align: middle;">{self._current_dex_num}</td>\n'
-
-        # Pokémon cell: vertical-align: bottom (as requested)
-        # format_pokemon() handles the inner div align="center"
-        self._markdown += (
-            f'      <td style="vertical-align: bottom;">{from_pokemon_md}</td>\n'
-        )
-
-        # Evolution cell: vertical-align: bottom (as requested)
-        self._markdown += (
-            f'      <td style="vertical-align: bottom;">{to_pokemon_md}</td>\n'
-        )
-
-        # New Method cell: left-aligned horizontally, middle-aligned vertically
+        # Format the evolution method text
         formatted_text = self._format_evolution_text(evolution_text)
-        self._markdown += f'      <td align="left" style="vertical-align: middle;">{formatted_text}</td>\n'
-        self._markdown += "    </tr>\n"
+
+        # Add markdown table row
+        self._markdown += f"| {self._current_dex_num} | {from_pokemon_md} | {to_pokemon_md} | {formatted_text} |\n"
 
     def _format_evolution_text(self, text: str) -> str:
         """

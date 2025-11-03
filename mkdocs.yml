@@ -31,6 +31,7 @@ theme:
   features:
   - content.tabs.link
   - navigation.footer
+  - navigation.instant
   - navigation.sections
   - navigation.tabs
   - navigation.top
@@ -47,6 +48,7 @@ theme:
       icon: material/brightness-4
       name: Switch to light mode
 extra_css:
+- stylesheets/style.css
 - stylesheets/pokemon.css
 - stylesheets/ability.css
 - stylesheets/item.css
@@ -253,7 +255,9 @@ nav:
       - '#169 Crobat': pokedex/pokemon/crobat.md
       - '#170 Chinchou': pokedex/pokemon/chinchou.md
       - '#171 Lanturn': pokedex/pokemon/lanturn.md
-      - '#172 Pichu': pokedex/pokemon/pichu.md
+      - '#172 Pichu':
+        - Default: pokedex/pokemon/pichu.md
+        - Spiky Eared: pokedex/pokemon/pichu-spiky-eared.md
       - '#173 Cleffa': pokedex/pokemon/cleffa.md
       - '#174 Igglybuff': pokedex/pokemon/igglybuff.md
       - '#175 Togepi': pokedex/pokemon/togepi.md
@@ -282,7 +286,35 @@ nav:
       - '#198 Murkrow': pokedex/pokemon/murkrow.md
       - '#199 Slowking': pokedex/pokemon/slowking.md
       - '#200 Misdreavus': pokedex/pokemon/misdreavus.md
-      - '#201 Unown': pokedex/pokemon/unown.md
+      - '#201 Unown':
+        - Default: pokedex/pokemon/unown.md
+        - B: pokedex/pokemon/unown-b.md
+        - C: pokedex/pokemon/unown-c.md
+        - D: pokedex/pokemon/unown-d.md
+        - E: pokedex/pokemon/unown-e.md
+        - Exclamation: pokedex/pokemon/unown-exclamation.md
+        - F: pokedex/pokemon/unown-f.md
+        - G: pokedex/pokemon/unown-g.md
+        - H: pokedex/pokemon/unown-h.md
+        - I: pokedex/pokemon/unown-i.md
+        - J: pokedex/pokemon/unown-j.md
+        - K: pokedex/pokemon/unown-k.md
+        - L: pokedex/pokemon/unown-l.md
+        - M: pokedex/pokemon/unown-m.md
+        - N: pokedex/pokemon/unown-n.md
+        - O: pokedex/pokemon/unown-o.md
+        - P: pokedex/pokemon/unown-p.md
+        - Q: pokedex/pokemon/unown-q.md
+        - Question: pokedex/pokemon/unown-question.md
+        - R: pokedex/pokemon/unown-r.md
+        - S: pokedex/pokemon/unown-s.md
+        - T: pokedex/pokemon/unown-t.md
+        - U: pokedex/pokemon/unown-u.md
+        - V: pokedex/pokemon/unown-v.md
+        - W: pokedex/pokemon/unown-w.md
+        - X: pokedex/pokemon/unown-x.md
+        - Y: pokedex/pokemon/unown-y.md
+        - Z: pokedex/pokemon/unown-z.md
       - '#202 Wobbuffet': pokedex/pokemon/wobbuffet.md
       - '#203 Girafarig': pokedex/pokemon/girafarig.md
       - '#204 Pineco': pokedex/pokemon/pineco.md
@@ -503,7 +535,10 @@ nav:
       - '#409 Rampardos': pokedex/pokemon/rampardos.md
       - '#410 Shieldon': pokedex/pokemon/shieldon.md
       - '#411 Bastiodon': pokedex/pokemon/bastiodon.md
-      - '#412 Burmy': pokedex/pokemon/burmy.md
+      - '#412 Burmy':
+        - Default: pokedex/pokemon/burmy.md
+        - Sandy: pokedex/pokemon/burmy-sandy.md
+        - Trash: pokedex/pokemon/burmy-trash.md
       - '#413 Wormadam':
         - Plant: pokedex/pokemon/wormadam-plant.md
         - Sandy: pokedex/pokemon/wormadam-sandy.md
@@ -515,9 +550,15 @@ nav:
       - '#418 Buizel': pokedex/pokemon/buizel.md
       - '#419 Floatzel': pokedex/pokemon/floatzel.md
       - '#420 Cherubi': pokedex/pokemon/cherubi.md
-      - '#421 Cherrim': pokedex/pokemon/cherrim.md
-      - '#422 Shellos': pokedex/pokemon/shellos.md
-      - '#423 Gastrodon': pokedex/pokemon/gastrodon.md
+      - '#421 Cherrim':
+        - Default: pokedex/pokemon/cherrim.md
+        - Sunshine: pokedex/pokemon/cherrim-sunshine.md
+      - '#422 Shellos':
+        - Default: pokedex/pokemon/shellos.md
+        - East: pokedex/pokemon/shellos-east.md
+      - '#423 Gastrodon':
+        - Default: pokedex/pokemon/gastrodon.md
+        - East: pokedex/pokemon/gastrodon-east.md
       - '#424 Ambipom': pokedex/pokemon/ambipom.md
       - '#425 Drifloon': pokedex/pokemon/drifloon.md
       - '#426 Drifblim': pokedex/pokemon/drifblim.md
@@ -597,7 +638,25 @@ nav:
       - '#492 Shaymin':
         - Land: pokedex/pokemon/shaymin-land.md
         - Sky: pokedex/pokemon/shaymin-sky.md
-      - '#493 Arceus': pokedex/pokemon/arceus.md
+      - '#493 Arceus':
+        - Default: pokedex/pokemon/arceus.md
+        - Bug: pokedex/pokemon/arceus-bug.md
+        - Dark: pokedex/pokemon/arceus-dark.md
+        - Dragon: pokedex/pokemon/arceus-dragon.md
+        - Electric: pokedex/pokemon/arceus-electric.md
+        - Fighting: pokedex/pokemon/arceus-fighting.md
+        - Fire: pokedex/pokemon/arceus-fire.md
+        - Flying: pokedex/pokemon/arceus-flying.md
+        - Ghost: pokedex/pokemon/arceus-ghost.md
+        - Grass: pokedex/pokemon/arceus-grass.md
+        - Ground: pokedex/pokemon/arceus-ground.md
+        - Ice: pokedex/pokemon/arceus-ice.md
+        - Poison: pokedex/pokemon/arceus-poison.md
+        - Psychic: pokedex/pokemon/arceus-psychic.md
+        - Rock: pokedex/pokemon/arceus-rock.md
+        - Steel: pokedex/pokemon/arceus-steel.md
+        - Unknown: pokedex/pokemon/arceus-unknown.md
+        - Water: pokedex/pokemon/arceus-water.md
     - Gen V:
       - '#494 Victini': pokedex/pokemon/victini.md
       - '#495 Snivy': pokedex/pokemon/snivy.md
@@ -694,8 +753,16 @@ nav:
       - '#582 Vanillite': pokedex/pokemon/vanillite.md
       - '#583 Vanillish': pokedex/pokemon/vanillish.md
       - '#584 Vanilluxe': pokedex/pokemon/vanilluxe.md
-      - '#585 Deerling': pokedex/pokemon/deerling.md
-      - '#586 Sawsbuck': pokedex/pokemon/sawsbuck.md
+      - '#585 Deerling':
+        - Default: pokedex/pokemon/deerling.md
+        - Autumn: pokedex/pokemon/deerling-autumn.md
+        - Summer: pokedex/pokemon/deerling-summer.md
+        - Winter: pokedex/pokemon/deerling-winter.md
+      - '#586 Sawsbuck':
+        - Default: pokedex/pokemon/sawsbuck.md
+        - Autumn: pokedex/pokemon/sawsbuck-autumn.md
+        - Summer: pokedex/pokemon/sawsbuck-summer.md
+        - Winter: pokedex/pokemon/sawsbuck-winter.md
       - '#587 Emolga': pokedex/pokemon/emolga.md
       - '#588 Karrablast': pokedex/pokemon/karrablast.md
       - '#589 Escavalier': pokedex/pokemon/escavalier.md
@@ -771,7 +838,12 @@ nav:
       - '#648 Meloetta':
         - Aria: pokedex/pokemon/meloetta-aria.md
         - Pirouette: pokedex/pokemon/meloetta-pirouette.md
-      - '#649 Genesect': pokedex/pokemon/genesect.md
+      - '#649 Genesect':
+        - Default: pokedex/pokemon/genesect.md
+        - Burn: pokedex/pokemon/genesect-burn.md
+        - Chill: pokedex/pokemon/genesect-chill.md
+        - Douse: pokedex/pokemon/genesect-douse.md
+        - Shock: pokedex/pokemon/genesect-shock.md
   - Abilities:
     - Overview: pokedex/abilities.md
     - Gen III:

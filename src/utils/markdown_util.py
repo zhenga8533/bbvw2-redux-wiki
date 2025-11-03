@@ -5,10 +5,7 @@ This module provides helpers for creating consistent markdown elements
 like Pokemon displays with sprites and links.
 """
 
-from typing import Optional
-
 from src.data.pokedb_loader import PokeDBLoader
-from src.utils.config_util import get_config
 from src.utils.text_util import name_to_id
 
 
@@ -25,7 +22,9 @@ def format_checkbox(checked: bool) -> str:
     return f'<input type="checkbox" disabled{" checked" if checked else ""} />'
 
 
-def format_ability(ability_name: str, is_linked: bool = True, relative_path: str = "../..") -> str:
+def format_ability(
+    ability_name: str, is_linked: bool = True, relative_path: str = "../.."
+) -> str:
     """
     Format an ability name with optional link to its page.
 
@@ -57,7 +56,9 @@ def format_ability(ability_name: str, is_linked: bool = True, relative_path: str
 
     if is_linked:
         # Create link to ability page using normalized name
-        return f"[{display_name}]({relative_path}/pokedex/abilities/{normalized_name}.md)"
+        return (
+            f"[{display_name}]({relative_path}/pokedex/abilities/{normalized_name}.md)"
+        )
     else:
         return display_name
 
@@ -67,6 +68,7 @@ def format_pokemon(
     has_sprite: bool = True,
     is_animated: bool = True,
     is_linked: bool = True,
+    relative_path: str = "../..",
 ) -> str:
     """
     Format a Pokemon name with its sprite stacked on top, optionally has_link to its Pokedex page.
@@ -79,19 +81,15 @@ def format_pokemon(
         has_sprite: Whether to include the sprite image
         is_animated: Whether to use the animated sprite if available
         is_linked: Whether to link the name to its Pokedex entry
+        relative_path: Path to docs root (default: "../.." for pages in subdirectories when use_directory_urls is true)
 
     Returns:
         Markdown string with sprite and name
 
     Example output:
-        <div align="center"><img src="sprite.png" width="96"><br><a href="../pokedex/pikachu">Pikachu</a></div>
+        <div align="center"><img src="sprite.png" width="96"><br><a href="../../pokedex/pokemon/pikachu/">Pikachu</a></div>
     """
     pokemon_html = '<div align="center">'
-
-    config = get_config()
-    pokedex_base_path = config.get("markdown", {}).get(
-        "pokedex_base_path", "../pokedex"
-    )
 
     # Try to load Pokemon data
     pokemon_data = PokeDBLoader.load_pokemon(pokemon_name)
@@ -116,9 +114,9 @@ def format_pokemon(
     if has_sprite and is_linked:
         pokemon_html += "<br>"
 
-    # Add linked or plain name
+    # Add linked or plain name (HTML link - no .md extension)
     if is_linked:
-        pokemon_html += f'<a href="{pokedex_base_path}/{pokemon_id}">{pokemon_name}</a>'
+        pokemon_html += f'<a href="{relative_path}/pokedex/pokemon/{pokemon_id}/">{pokemon_name}</a>'
     else:
         pokemon_html += pokemon_name
 
@@ -127,7 +125,13 @@ def format_pokemon(
     return pokemon_html
 
 
-def format_item(item_name: str, has_sprite: bool = True, is_linked: bool = True, relative_path: str = "../..") -> str:
+def format_item(
+    item_name: str,
+    has_sprite: bool = True,
+    is_linked: bool = True,
+    relative_path: str = "../..",
+    html_mode: bool = False,
+) -> str:
     """
     Format an item with optional sprite and link to its page.
 
@@ -136,6 +140,7 @@ def format_item(item_name: str, has_sprite: bool = True, is_linked: bool = True,
         has_sprite: Whether to include the item's sprite image
         is_linked: Whether to create a link to the item's page
         relative_path: Path to docs root (default: "../.." for pokemon pages, use ".." for changes pages)
+        html_mode: If True, output HTML <a> tags instead of markdown links (for use inside HTML tables)
 
     Returns:
         HTML/markdown string with sprite and/or link
@@ -166,26 +171,34 @@ def format_item(item_name: str, has_sprite: bool = True, is_linked: bool = True,
         display_name = display_name.replace(f" {abbr.title()} ", f" {replacement} ")
         display_name = display_name.replace(f" {abbr.title()}", f" {replacement}")
         if display_name.lower().startswith(abbr + " "):
-            display_name = replacement + display_name[len(abbr):]
+            display_name = replacement + display_name[len(abbr) :]
 
     # Build HTML output
     item_html = ""
 
     # Add sprite if requested
     if has_sprite and item_data.sprite:
-        item_html += f'<img src="{item_data.sprite}" alt="{display_name}" style="vertical-align: middle; margin-right: 4px;">'
+        item_html += f'<img src="{item_data.sprite}" alt="{display_name}" class="item-sprite-inline">'
 
     # Add linked or plain name
     if is_linked:
         # Create link to item page using normalized name
-        item_html += f'[{display_name}]({relative_path}/pokedex/items/{normalized_name}.md)'
+        link_path = f"{relative_path}/pokedex/items/{normalized_name}.md"
+        if html_mode:
+            # Use HTML <a> tag for HTML tables
+            item_html += f'<a href="{link_path}">{display_name}</a>'
+        else:
+            # Use markdown syntax for regular markdown content
+            item_html += f"[{display_name}]({link_path})"
     else:
         item_html += display_name
 
     return item_html
 
 
-def format_move(move_name: str, is_linked: bool = True, relative_path: str = "../..") -> str:
+def format_move(
+    move_name: str, is_linked: bool = True, relative_path: str = "../..", html_mode: bool = False
+) -> str:
     """
     Format a move name with optional link to its page.
 
@@ -193,9 +206,10 @@ def format_move(move_name: str, is_linked: bool = True, relative_path: str = "..
         move_name: The move identifier (e.g., "thunderbolt" or "Thunderbolt")
         is_linked: Whether to create a link to the move's page
         relative_path: Path to docs root (default: "../.." for pokemon pages, use ".." for changes pages)
+        html_mode: If True, output HTML <a> tags instead of markdown links (for use inside HTML tables)
 
     Returns:
-        Formatted markdown string for the move (link or plain text)
+        Formatted markdown/HTML string for the move (link or plain text)
     """
     # Try to load move data to check if it exists
     move_data = PokeDBLoader.load_move(move_name)
@@ -219,6 +233,12 @@ def format_move(move_name: str, is_linked: bool = True, relative_path: str = "..
 
     if is_linked:
         # Create link to move page using normalized name
-        return f"[{display_name}]({relative_path}/pokedex/moves/{normalized_name}.md)"
+        link_path = f"{relative_path}/pokedex/moves/{normalized_name}.md"
+        if html_mode:
+            # Use HTML <a> tag for HTML tables
+            return f'<a href="{link_path}">{display_name}</a>'
+        else:
+            # Use markdown syntax for regular markdown content
+            return f"[{display_name}]({link_path})"
     else:
         return display_name
