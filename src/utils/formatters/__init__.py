@@ -1,6 +1,6 @@
 """Output formatting utilities."""
 
-from .table_util import (
+from .table_formatter import (
     create_ability_index_table,
     create_item_index_table,
     create_move_index_table,

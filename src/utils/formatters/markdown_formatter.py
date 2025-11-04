@@ -10,7 +10,7 @@ from typing import Optional, Union
 from src.data.pokedb_loader import PokeDBLoader
 from src.models.pokedb import Pokemon
 from src.utils.text.text_util import format_display_name, name_to_id
-from src.utils.pokemon.constants import (
+from src.utils.data.constants import (
     ITEM_NAME_SPECIAL_CASES,
     DEFAULT_RELATIVE_PATH,
     TYPE_COLORS,

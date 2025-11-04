@@ -9,7 +9,7 @@ import orjson
 from src.data.pokedb_loader import PokeDBLoader
 from src.models.pokedb import GameVersionStringMap
 from src.utils.text.dict_util import get_most_common_value
-from src.utils.core.logger_util import get_logger
+from src.utils.core.logger import get_logger
 from src.utils.text.text_util import name_to_id
 
 logger = get_logger(__name__)

@@ -17,16 +17,16 @@ from typing import Dict, List, Optional
 
 from src.data.pokedb_loader import PokeDBLoader
 from src.models.pokedb import Move, Pokemon
-from src.utils.formatters.markdown_util import format_type_badge
-from src.utils.pokemon.constants import (
+from src.utils.formatters.markdown_formatter import format_type_badge
+from src.utils.data.constants import (
     DAMAGE_CLASS_ICONS,
     POKEMON_FORM_SUBFOLDERS_STANDARD,
     TYPE_COLORS,
 )
-from src.utils.pokemon.pokemon_util import iterate_pokemon
-from src.utils.formatters.table_util import create_move_index_table
+from src.utils.data.pokemon_util import iterate_pokemon
+from src.utils.formatters.table_formatter import create_move_index_table
 from src.utils.text.text_util import format_display_name
-from src.utils.formatters.yaml_util import (
+from src.utils.formatters.yaml_formatter import (
     load_mkdocs_config,
     save_mkdocs_config,
     update_pokedex_subsection,
@@ -520,6 +520,7 @@ class MoveGenerator(BaseGenerator):
 
         # Group moves by damage class
         from collections import defaultdict
+
         moves_by_damage_class = defaultdict(list)
 
         for move in moves:

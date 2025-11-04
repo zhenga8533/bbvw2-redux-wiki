@@ -10,7 +10,7 @@ from typing import Optional
 
 from src.data.pokedb_loader import PokeDBLoader
 from src.models.pokedb import EvolutionChain, EvolutionDetails, EvolutionNode
-from src.utils.core.logger_util import get_logger
+from src.utils.core.logger import get_logger
 
 logger = get_logger(__name__)
 
@@ -176,16 +176,14 @@ class EvolutionService:
                 node_copy = copy.deepcopy(evo)
                 node_copy.evolution_details = evolution_details
                 evolves_to.append(node_copy)
-                logger.debug(
-                    f"Added alternate evolution method for {evolution_id}"
-                )
+                logger.debug(f"Added alternate evolution method for {evolution_id}")
                 return
 
         # No evolution to the target exists - create a new one
         new_node = EvolutionNode(
             species_name=evolution_id,
             evolution_details=evolution_details,
-            evolves_to=[]
+            evolves_to=[],
         )
         evolves_to.append(new_node)
         logger.debug(f"Created new evolution node for {evolution_id}")

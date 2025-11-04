@@ -8,7 +8,7 @@ from abc import ABC
 from pathlib import Path
 from typing import Optional
 
-from src.utils.core.logger_util import get_logger
+from src.utils.core.logger import get_logger
 
 
 class BaseParser(ABC):

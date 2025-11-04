@@ -12,8 +12,8 @@ from typing import Optional
 
 from src.data.pokedb_loader import PokeDBLoader
 from src.models.pokedb import EvolutionChain, EvolutionDetails, Gender
-from src.services.evolution_service import EvolutionService
-from src.utils.formatters.markdown_util import format_item, format_pokemon
+from src.utils.services.evolution_service import EvolutionService
+from src.utils.formatters.markdown_formatter import format_item, format_pokemon
 from src.utils.text.text_util import name_to_id
 
 from .base_parser import BaseParser

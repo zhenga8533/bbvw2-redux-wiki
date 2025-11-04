@@ -9,7 +9,7 @@ This parser:
 
 import re
 
-from src.utils.formatters.markdown_util import format_pokemon
+from src.utils.formatters.markdown_formatter import format_pokemon
 
 from .base_parser import BaseParser
 

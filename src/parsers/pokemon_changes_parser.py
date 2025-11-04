@@ -10,8 +10,12 @@ This parser:
 import re
 
 from src.data.pokedb_loader import PokeDBLoader
-from src.services.pokemon_service import PokemonService
-from src.utils.formatters.markdown_util import format_checkbox, format_move, format_pokemon
+from src.utils.services.pokemon_service import PokemonService
+from src.utils.formatters.markdown_formatter import (
+    format_checkbox,
+    format_move,
+    format_pokemon,
+)
 
 from .base_parser import BaseParser
 

@@ -8,7 +8,7 @@ This parser:
 
 import re
 
-from src.utils.formatters.markdown_util import format_pokemon
+from src.utils.formatters.markdown_formatter import format_pokemon
 from src.utils.text.text_util import strip_common_prefix, strip_common_suffix
 
 from .base_parser import BaseParser

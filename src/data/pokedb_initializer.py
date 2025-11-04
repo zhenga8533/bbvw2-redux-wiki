@@ -9,8 +9,8 @@ import traceback
 import zipfile
 import io
 from pathlib import Path
-from src.utils.core.logger_util import get_logger
-from src.utils.core.config_util import get_config
+from src.utils.core.logger import get_logger
+from src.utils.core.config import get_config
 
 logger = get_logger(__name__)
 

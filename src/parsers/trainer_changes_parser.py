@@ -9,7 +9,7 @@ This parser:
 import re
 from typing import Any, Dict, Optional
 
-from src.utils.formatters.markdown_util import (
+from src.utils.formatters.markdown_formatter import (
     format_ability,
     format_checkbox,
     format_item,
@@ -212,7 +212,8 @@ class TrainerChangesParser(BaseParser):
         if fields["reward"]:
             self._markdown += "**Reward:** "
             self._markdown += ", ".join(
-                format_item(item.strip(), relative_path="..") for item in fields["reward"].split(",")
+                format_item(item.strip(), relative_path="..")
+                for item in fields["reward"].split(",")
             )
             self._markdown += "\n\n"
         if fields["mode"]:

@@ -48,18 +48,26 @@ MAX_PERCENTAGE = 100
 MIN_DRAIN_HEALING = -100
 MAX_DRAIN_HEALING = 100
 
+
 # Generation-Specific Configuration
 # These are loaded from config.json at module import time
 def _load_generation_config():
     """Load generation-specific configuration from config.json."""
     try:
-        from src.utils.core.config_util import get_config
+        from src.utils.core.config import get_config
+
         config = get_config()
         pokedb_config = config.get("pokedb", {})
 
         return {
-            "version_groups": set(pokedb_config.get("version_groups", ["black_white", "black_2_white_2"])),
-            "game_versions": set(pokedb_config.get("game_versions", ["black", "white", "black_2", "white_2"])),
+            "version_groups": set(
+                pokedb_config.get("version_groups", ["black_white", "black_2_white_2"])
+            ),
+            "game_versions": set(
+                pokedb_config.get(
+                    "game_versions", ["black", "white", "black_2", "white_2"]
+                )
+            ),
             "sprite_version": pokedb_config.get("sprite_version", "black_white"),
         }
     except Exception:
@@ -69,6 +77,7 @@ def _load_generation_config():
             "game_versions": {"black", "white", "black_2", "white_2"},
             "sprite_version": "black_white",
         }
+
 
 _gen_config = _load_generation_config()
 VERSION_GROUP_KEYS: set[str] = _gen_config["version_groups"]
@@ -336,13 +345,17 @@ class Ability:
         if isinstance(self.effect, dict):
             self.effect = GameVersionStringMap.from_dict(self.effect)
         elif isinstance(self.effect, str):
-            self.effect = GameVersionStringMap({key: self.effect for key in VERSION_GROUP_KEYS})
+            self.effect = GameVersionStringMap(
+                {key: self.effect for key in VERSION_GROUP_KEYS}
+            )
         # else: effect is None, which is valid
 
         if isinstance(self.flavor_text, dict):
             self.flavor_text = GameVersionStringMap.from_dict(self.flavor_text)
         elif isinstance(self.flavor_text, str):
-            self.flavor_text = GameVersionStringMap({key: self.flavor_text for key in VERSION_GROUP_KEYS})
+            self.flavor_text = GameVersionStringMap(
+                {key: self.flavor_text for key in VERSION_GROUP_KEYS}
+            )
 
         """Validate ability fields."""
         if not isinstance(self.id, int) or self.id <= 0:
@@ -357,7 +370,9 @@ class Ability:
             raise ValueError(
                 f"is_main_series must be a boolean, got: {type(self.is_main_series)}"
             )
-        if self.effect is not None and not isinstance(self.effect, GameVersionStringMap):
+        if self.effect is not None and not isinstance(
+            self.effect, GameVersionStringMap
+        ):
             raise ValueError(
                 f"effect must be a GameVersionStringMap or None, got: {type(self.effect)}"
             )
@@ -393,9 +408,13 @@ class MoveMetadata:
     def __post_init__(self):
         """Validate move metadata fields."""
         if self.ailment is not None and not isinstance(self.ailment, str):
-            raise ValueError(f"ailment must be None or a string, got: {type(self.ailment)}")
+            raise ValueError(
+                f"ailment must be None or a string, got: {type(self.ailment)}"
+            )
         if self.category is not None and not isinstance(self.category, str):
-            raise ValueError(f"category must be None or a string, got: {type(self.category)}")
+            raise ValueError(
+                f"category must be None or a string, got: {type(self.category)}"
+            )
 
         # Validate optional integer fields
         for field_name in ["min_hits", "max_hits", "min_turns", "max_turns"]:
@@ -491,7 +510,9 @@ class Move:
             self.accuracy = GameVersionIntMap.from_dict(self.accuracy)
         elif isinstance(self.accuracy, int):
             # Wrap plain int in GameVersionIntMap for all version groups
-            self.accuracy = GameVersionIntMap({key: self.accuracy for key in VERSION_GROUP_KEYS})
+            self.accuracy = GameVersionIntMap(
+                {key: self.accuracy for key in VERSION_GROUP_KEYS}
+            )
         elif self.accuracy is None:
             # None means no accuracy (always hits) - store as None for all versions
             self.accuracy = GameVersionIntMap({key: None for key in VERSION_GROUP_KEYS})
@@ -500,7 +521,9 @@ class Move:
         if isinstance(self.power, dict):
             self.power = GameVersionIntMap.from_dict(self.power)
         elif isinstance(self.power, int):
-            self.power = GameVersionIntMap({key: self.power for key in VERSION_GROUP_KEYS})
+            self.power = GameVersionIntMap(
+                {key: self.power for key in VERSION_GROUP_KEYS}
+            )
         elif self.power is None:
             # None means no damage (status move)
             self.power = GameVersionIntMap({key: None for key in VERSION_GROUP_KEYS})
@@ -515,34 +538,46 @@ class Move:
         if isinstance(self.type, dict):
             self.type = GameVersionStringMap.from_dict(self.type)
         elif isinstance(self.type, str):
-            self.type = GameVersionStringMap({key: self.type for key in VERSION_GROUP_KEYS})
+            self.type = GameVersionStringMap(
+                {key: self.type for key in VERSION_GROUP_KEYS}
+            )
 
         # Convert effect_chance to GameVersionIntMap
         if isinstance(self.effect_chance, dict):
             self.effect_chance = GameVersionIntMap.from_dict(self.effect_chance)
         elif isinstance(self.effect_chance, int):
-            self.effect_chance = GameVersionIntMap({key: self.effect_chance for key in VERSION_GROUP_KEYS})
+            self.effect_chance = GameVersionIntMap(
+                {key: self.effect_chance for key in VERSION_GROUP_KEYS}
+            )
         elif self.effect_chance is None:
             # None means no additional effect chance
-            self.effect_chance = GameVersionIntMap({key: None for key in VERSION_GROUP_KEYS})
+            self.effect_chance = GameVersionIntMap(
+                {key: None for key in VERSION_GROUP_KEYS}
+            )
 
         # Convert effect to GameVersionStringMap
         if isinstance(self.effect, dict):
             self.effect = GameVersionStringMap.from_dict(self.effect)
         elif isinstance(self.effect, str):
-            self.effect = GameVersionStringMap({key: self.effect for key in VERSION_GROUP_KEYS})
+            self.effect = GameVersionStringMap(
+                {key: self.effect for key in VERSION_GROUP_KEYS}
+            )
 
         # Convert short_effect to GameVersionStringMap
         if isinstance(self.short_effect, dict):
             self.short_effect = GameVersionStringMap.from_dict(self.short_effect)
         elif isinstance(self.short_effect, str):
-            self.short_effect = GameVersionStringMap({key: self.short_effect for key in VERSION_GROUP_KEYS})
+            self.short_effect = GameVersionStringMap(
+                {key: self.short_effect for key in VERSION_GROUP_KEYS}
+            )
 
         # Convert flavor_text to GameVersionStringMap
         if isinstance(self.flavor_text, dict):
             self.flavor_text = GameVersionStringMap.from_dict(self.flavor_text)
         elif isinstance(self.flavor_text, str):
-            self.flavor_text = GameVersionStringMap({key: self.flavor_text for key in VERSION_GROUP_KEYS})
+            self.flavor_text = GameVersionStringMap(
+                {key: self.flavor_text for key in VERSION_GROUP_KEYS}
+            )
 
         if isinstance(self.stat_changes, list):
             self.stat_changes = [
@@ -1194,6 +1229,7 @@ class SpriteVersions:
         if value is not None:
             # Convert GenerationSprites dataclass to dict
             from dataclasses import asdict
+
             return {key: asdict(value)}
         return {}
 

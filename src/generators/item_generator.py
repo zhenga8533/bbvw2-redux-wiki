@@ -16,17 +16,17 @@ from typing import Dict, List, Optional
 
 from src.data.pokedb_loader import PokeDBLoader
 from src.models.pokedb import Item, Pokemon
-from src.utils.pokemon.constants import (
+from src.utils.data.constants import (
     ITEM_NAME_SPECIAL_CASES,
     POKEMON_FORM_SUBFOLDERS_STANDARD,
 )
-from src.utils.pokemon.pokemon_util import iterate_pokemon
-from src.utils.formatters.table_util import (
+from src.utils.data.pokemon_util import iterate_pokemon
+from src.utils.formatters.table_formatter import (
     create_item_index_table,
     create_pokemon_with_item_table,
 )
 from src.utils.text.text_util import format_display_name
-from src.utils.formatters.yaml_util import (
+from src.utils.formatters.yaml_formatter import (
     load_mkdocs_config,
     save_mkdocs_config,
     update_pokedex_subsection,
@@ -364,6 +364,7 @@ class ItemGenerator(BaseGenerator):
 
         # Group items by usage context
         from collections import defaultdict
+
         items_by_context = defaultdict(list)
 
         for item in items:

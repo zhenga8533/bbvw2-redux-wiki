@@ -8,7 +8,7 @@ between run_parsers() and run_generators() in main.py.
 import sys
 from typing import Any, Callable, Dict, List, Tuple
 
-from src.utils.core.logger_util import get_logger
+from src.utils.core.logger import get_logger
 
 logger = get_logger(__name__)
 
@@ -110,7 +110,9 @@ def run_components(
         return True
 
 
-def run_parsers(parser_names: List[str], parser_registry: Dict[str, Tuple[Any, str, str]]) -> bool:
+def run_parsers(
+    parser_names: List[str], parser_registry: Dict[str, Tuple[Any, str, str]]
+) -> bool:
     """
     Run specified parsers.
 

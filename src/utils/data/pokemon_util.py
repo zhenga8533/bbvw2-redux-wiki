@@ -10,8 +10,8 @@ from typing import Generator, List, Optional, Set, Tuple
 
 from src.data.pokedb_loader import PokeDBLoader
 from src.models.pokedb import Pokemon
-from src.utils.pokemon.constants import POKEMON_FORM_SUBFOLDERS_STANDARD
-from src.utils.core.logger_util import get_logger
+from src.utils.data.constants import POKEMON_FORM_SUBFOLDERS_STANDARD
+from src.utils.core.logger import get_logger
 
 logger = get_logger(__name__)
 
@@ -65,7 +65,11 @@ def get_pokemon_sprite_url(
         return sprite_url
 
     # For non-cosmetic forms, prefer animated GIF if requested
-    if prefer_animated and hasattr(pokemon.sprites, "versions") and pokemon.sprites.versions:
+    if (
+        prefer_animated
+        and hasattr(pokemon.sprites, "versions")
+        and pokemon.sprites.versions
+    ):
         bw = pokemon.sprites.versions.black_white
         if bw.animated:
             sprite_url = getattr(bw.animated, sprite_type, None)

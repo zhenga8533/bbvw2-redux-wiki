@@ -17,15 +17,15 @@ from typing import Dict, List, Optional
 
 from src.data.pokedb_loader import PokeDBLoader
 from src.models.pokedb import Ability, Pokemon
-from src.utils.pokemon.constants import (
+from src.utils.data.constants import (
     GENERATION_DISPLAY_NAMES,
     POKEMON_FORM_SUBFOLDERS_STANDARD,
 )
-from src.utils.pokemon.pokemon_util import iterate_pokemon
-from src.utils.formatters.table_util import create_ability_index_table
-from src.utils.formatters.markdown_util import format_pokemon_card
+from src.utils.data.pokemon_util import iterate_pokemon
+from src.utils.formatters.table_formatter import create_ability_index_table
+from src.utils.formatters.markdown_formatter import format_pokemon_card
 from src.utils.text.text_util import format_display_name
-from src.utils.formatters.yaml_util import (
+from src.utils.formatters.yaml_formatter import (
     load_mkdocs_config,
     save_mkdocs_config,
     update_pokedex_subsection,
@@ -382,6 +382,7 @@ class AbilityGenerator(BaseGenerator):
 
         # Group abilities by generation
         from collections import defaultdict
+
         abilities_by_generation = defaultdict(list)
 
         for ability in abilities:

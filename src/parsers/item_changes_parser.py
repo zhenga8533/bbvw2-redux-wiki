@@ -9,7 +9,7 @@ This parser:
 import re
 from typing import Any, Dict
 
-from src.utils.formatters.markdown_util import format_checkbox, format_item
+from src.utils.formatters.markdown_formatter import format_checkbox, format_item
 
 from .base_parser import BaseParser
 

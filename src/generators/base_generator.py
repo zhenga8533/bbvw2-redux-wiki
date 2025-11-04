@@ -6,7 +6,7 @@ from abc import ABC, abstractmethod
 from pathlib import Path
 from typing import Optional
 
-from src.utils.core.logger_util import get_logger
+from src.utils.core.logger import get_logger
 
 
 class BaseGenerator(ABC):
@@ -67,7 +67,9 @@ class BaseGenerator(ABC):
                 deleted_count += 1
 
         if deleted_count > 0:
-            self.logger.info(f"Cleaned up {deleted_count} old files from {self.output_dir}")
+            self.logger.info(
+                f"Cleaned up {deleted_count} old files from {self.output_dir}"
+            )
 
         return deleted_count
 

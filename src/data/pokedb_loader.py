@@ -24,7 +24,7 @@ from src.models.pokedb import (
     PokemonMoves,
     Stats,
 )
-from src.utils.core.logger_util import get_logger
+from src.utils.core.logger import get_logger
 from src.utils.text.text_util import name_to_id
 
 logger = get_logger(__name__)

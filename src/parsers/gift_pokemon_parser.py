@@ -8,7 +8,7 @@ This parser:
 
 import re
 
-from src.utils.formatters.markdown_util import format_pokemon_card
+from src.utils.formatters.markdown_formatter import format_pokemon_card
 
 from .base_parser import BaseParser
 
@@ -63,7 +63,9 @@ class GiftPokemonParser(BaseParser):
         for pokemon_name in gift_pokemon_names:
             # Use utility function to create card (must be in a list item)
             self._markdown += "-   "
-            self._markdown += format_pokemon_card(pokemon_name, relative_path="../pokedex/pokemon")
+            self._markdown += format_pokemon_card(
+                pokemon_name, relative_path="../pokedex/pokemon"
+            )
             self._markdown += "\n\n"
 
         self._markdown += "</div>\n\n"

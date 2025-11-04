@@ -9,8 +9,8 @@ This parser:
 
 import re
 
-from src.services.move_service import MoveService
-from src.utils.formatters.markdown_util import format_checkbox, format_move
+from src.utils.services.move_service import MoveService
+from src.utils.formatters.markdown_formatter import format_checkbox, format_move
 
 from .base_parser import BaseParser
 

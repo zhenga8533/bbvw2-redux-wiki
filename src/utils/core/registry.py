@@ -8,14 +8,14 @@ duplication between parser and generator registry loading in main.py.
 import importlib
 from typing import Any, Dict, Tuple
 
-from src.utils.core.config_util import get_config
-from src.utils.core.logger_util import get_logger
+from src.utils.core.config import get_config
+from src.utils.core.logger import get_logger
 
 logger = get_logger(__name__)
 
 
 def get_component_registry(
-    component_type: str, config_keys: Tuple[str, ...] = None
+    component_type: str, config_keys: Tuple[str, ...]
 ) -> Dict[str, Tuple[Any, ...]]:
     """
     Get the registry of available components by dynamically loading them from the config.

@@ -21,28 +21,28 @@ from typing import Any, Dict, List, Optional, cast
 
 from src.data.pokedb_loader import PokeDBLoader
 from src.models.pokedb import Move, Pokemon
-from src.utils.formatters.markdown_util import (
+from src.utils.formatters.markdown_formatter import (
     format_ability,
     format_item,
     format_move,
     format_type_badge,
 )
-from src.utils.pokemon.constants import (
+from src.utils.data.constants import (
     DAMAGE_CLASS_ICONS,
     GENERATION_DISPLAY_NAMES,
     GENERATION_ORDER,
     POKEMON_FORM_SUBFOLDERS_ALL,
     TYPE_COLORS,
 )
-from src.utils.formatters.table_util import (
+from src.utils.formatters.table_formatter import (
     create_held_items_table,
     create_move_learnset_table,
     create_pokemon_index_table,
 )
 from src.utils.text.text_util import extract_form_suffix, format_display_name
-from src.utils.pokemon.type_effectiveness import calculate_type_effectiveness
-from src.utils.pokemon.pokemon_util import get_pokemon_sprite_url
-from src.utils.formatters.yaml_util import (
+from src.utils.data.type_effectiveness import calculate_type_effectiveness
+from src.utils.data.pokemon_util import get_pokemon_sprite_url
+from src.utils.formatters.yaml_formatter import (
     load_mkdocs_config,
     save_mkdocs_config,
 )
@@ -251,7 +251,9 @@ class PokemonGenerator(BaseGenerator):
         md += "\t---\n\n"
         for ability in pokemon.abilities:
             # Use format_ability() utility (relative_path="../.." to navigate to docs root, then to pokedex/abilities)
-            ability_display = format_ability(ability.name, is_linked=True, relative_path="../..")
+            ability_display = format_ability(
+                ability.name, is_linked=True, relative_path="../.."
+            )
             # Add hidden indicator if applicable
             if ability.is_hidden:
                 ability_display += " :material-eye-off:"
@@ -735,7 +737,10 @@ class PokemonGenerator(BaseGenerator):
         for path in paths:
             for stage_idx, poke_data in enumerate(path):
                 # Check if this Pokemon is already in this stage (avoid duplicates)
-                if not any(p["species_name"] == poke_data["species_name"] for p in stages[stage_idx]):
+                if not any(
+                    p["species_name"] == poke_data["species_name"]
+                    for p in stages[stage_idx]
+                ):
                     stages[stage_idx].append(poke_data)
 
         # Determine evolution pattern for better layout
@@ -745,7 +750,9 @@ class PokemonGenerator(BaseGenerator):
         # Pattern detection:
         # - "multi_leaf": Many final evolutions (4+) with only 2 stages (like Eevee)
         # - "complex": Multiple stages or branching at stage 2 (like Wurmple)
-        is_multi_leaf = num_final_evolutions >= MULTI_EVOLUTION_THRESHOLD and max_depth == 2
+        is_multi_leaf = (
+            num_final_evolutions >= MULTI_EVOLUTION_THRESHOLD and max_depth == 2
+        )
 
         # Generate HTML container
         md += '<div style="background: var(--md-code-bg-color); border-radius: 8px; padding: 2rem; margin: 1.5rem 0; overflow-x: auto;">\n'
@@ -766,7 +773,7 @@ class PokemonGenerator(BaseGenerator):
                     + "\n"
                 )
                 md += '\t\t\t<div style="font-size: 0.75rem; text-align: center; padding: 0.25rem; color: var(--md-default-fg-color--light);">Base</div>\n'
-                md += '\t\t</div>\n'
+                md += "\t\t</div>\n"
 
                 # Arrow pointing to evolutions
                 md += '\t\t<div style="font-size: 3rem; color: var(--md-primary-fg-color); padding: 0 1rem;">→</div>\n'
@@ -863,9 +870,9 @@ class PokemonGenerator(BaseGenerator):
                         md += '\t\t\t<div style="display: flex; flex-direction: column; align-items: center;">\n'
                         md += '\t\t\t\t<div style="min-height: 3rem; margin-bottom: 0.5rem; display: flex; align-items: center;"></div>\n'
                         md += '\t\t\t\t<div style="font-size: 2rem; color: var(--md-primary-fg-color); padding: 0 0.5rem;">→</div>\n'
-                        md += '\t\t\t</div>\n'
+                        md += "\t\t\t</div>\n"
 
-                    md += '\t\t</div>\n'
+                    md += "\t\t</div>\n"
 
             md += "\t</div>\n"
 
@@ -965,7 +972,9 @@ class PokemonGenerator(BaseGenerator):
         for move_learn in sorted_moves:
             move_data = PokeDBLoader.load_move(move_learn.name)
             # Use format_move() utility (relative_path="../.." to navigate to docs root, then to pokedex/moves)
-            move_name_formatted = format_move(move_learn.name, is_linked=True, relative_path="../..")
+            move_name_formatted = format_move(
+                move_learn.name, is_linked=True, relative_path="../.."
+            )
 
             if move_data:
                 # Get move details

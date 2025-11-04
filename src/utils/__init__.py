@@ -18,18 +18,18 @@ Note: Some utilities are excluded from __init__.py:
 """
 
 # Core utilities
-from .core.config_util import get_config
-from .core.logger_util import get_logger, LogContext
+from .core.config import get_config
+from .core.logger import get_logger, LogContext
 
 # Text utilities
 from .text.dict_util import get_most_common_value
 from .text.text_util import name_to_id, format_display_name, extract_form_suffix
 
 # Pokemon utilities
-from .pokemon.type_effectiveness import calculate_type_effectiveness, TYPE_CHART
+from .data.type_effectiveness import calculate_type_effectiveness, TYPE_CHART
 
 # Re-export commonly used constants
-from .pokemon.constants import (
+from .data.constants import (
     TYPE_COLORS,
     ITEM_NAME_SPECIAL_CASES,
     DAMAGE_CLASS_ICONS,
