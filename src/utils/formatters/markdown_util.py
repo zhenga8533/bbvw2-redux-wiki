@@ -5,9 +5,16 @@ This module provides helpers for creating consistent markdown elements
 like Pokemon displays with sprites and links.
 """
 
+from typing import Optional, Union
+
 from src.data.pokedb_loader import PokeDBLoader
+from src.models.pokedb import Pokemon
 from src.utils.text.text_util import format_display_name, name_to_id
-from src.utils.pokemon.constants import ITEM_NAME_SPECIAL_CASES, DEFAULT_RELATIVE_PATH
+from src.utils.pokemon.constants import (
+    ITEM_NAME_SPECIAL_CASES,
+    DEFAULT_RELATIVE_PATH,
+    TYPE_COLORS,
+)
 
 
 def format_checkbox(checked: bool) -> str:
@@ -34,19 +41,31 @@ def format_type_badge(type_name: str) -> str:
         type_name: The type name to format (e.g., "fire", "water", "grass")
 
     Returns:
-        HTML span element with appropriate CSS classes and styled badge
+        HTML span element with styled badge
 
     Example:
         >>> format_type_badge("fire")
-        '<span class="pokemon-type-badge type-fire">Fire</span>'
-
-    CSS classes used:
-        - .pokemon-type-badge: Base badge styling
-        - .type-{type}: Type-specific colors (e.g., .type-fire, .type-water)
+        '<span style="...">Fire</span>'
     """
     formatted_name = type_name.title()
-    type_class = f"type-{type_name.lower()}"
-    return f'<span class="pokemon-type-badge {type_class}">{formatted_name}</span>'
+    type_color = TYPE_COLORS.get(type_name.lower(), "#777777")
+
+    # Create a styled badge with gradient background, padding, and rounded corners
+    badge_style = (
+        f"background: linear-gradient(135deg, {type_color} 0%, {type_color}dd 100%);"
+        f"color: white;"
+        f"padding: 0.25rem 0.75rem;"
+        f"border-radius: 12px;"
+        f"font-size: 0.75rem;"
+        f"font-weight: 600;"
+        f"text-transform: uppercase;"
+        f"display: inline-block;"
+        f"text-align: center;"
+        f"text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);"
+        f"box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);"
+    )
+
+    return f'<span style="{badge_style}">{formatted_name}</span>'
 
 
 def format_ability(
@@ -183,11 +202,11 @@ def format_item(
     display_name = format_display_name(display_name)
 
     # Build HTML output
-    item_html = ""
+    item_html = "<span>"
 
     # Add sprite if requested
     if has_sprite and item_data.sprite:
-        item_html += f'<img src="{item_data.sprite}" alt="{display_name}" class="item-sprite-inline">'
+        item_html += f'<img src="{item_data.sprite}" alt="{display_name}" style="vertical-align: middle;">'
 
     # Add linked or plain name
     if is_linked:
@@ -202,6 +221,7 @@ def format_item(
     else:
         item_html += display_name
 
+    item_html += "</span>"
     return item_html
 
 
@@ -246,3 +266,80 @@ def format_move(
             return f"[{display_name}]({link_path})"
     else:
         return display_name
+
+
+def format_pokemon_card(
+    pokemon: Union[str, Pokemon],
+    relative_path: str = "../pokemon",
+) -> str:
+    """
+    Format a Pokemon as markdown content for MkDocs Material grid cards.
+
+    Args:
+        pokemon: Pokemon name (str) or Pokemon object
+        relative_path: Relative path to the pokemon directory
+            - From pokedex/abilities/ or pokedex/items/: "../pokemon"
+            - From docs/ (parsers): "../pokedex/pokemon"
+
+    Returns:
+        Markdown string for card content (to be used inside a list item)
+
+    Example usage:
+        # In your generator/parser:
+        md += '<div class="grid cards" markdown>\n\n'
+        md += "-   "
+        md += format_pokemon_card("pikachu")
+        md += "\n\n"
+        md += "</div>\n\n"
+
+    Example output:
+        [![Pikachu](sprite.gif)](../pokemon/pikachu.md)
+
+        ***
+
+        **#025 [Pikachu](../pokemon/pikachu.md)**
+    """
+    # Load Pokemon data if string is provided
+    if isinstance(pokemon, str):
+        pokemon_data = PokeDBLoader.load_pokemon(pokemon.lower().replace(" ", "-"))
+        if not pokemon_data:
+            # Fallback if Pokemon data not found
+            return pokemon
+    else:
+        pokemon_data = pokemon
+
+    # Get dex number
+    dex_num = pokemon_data.pokedex_numbers.get("national", "???")
+
+    # Get sprite URL (prefer animated)
+    sprite_url = None
+    if hasattr(pokemon_data.sprites, "versions") and pokemon_data.sprites.versions:
+        bw = pokemon_data.sprites.versions.black_white
+        if bw.animated and bw.animated.front_default:
+            sprite_url = bw.animated.front_default
+
+    # Fallback to static sprite
+    if not sprite_url:
+        sprite_url = pokemon_data.sprites.front_default
+
+    # Format name for display
+    display_name = format_display_name(pokemon_data.name)
+
+    # Create link (relative_path should include the full path to pokemon dir)
+    link = f"{relative_path}/{pokemon_data.name}.md"
+
+    # Build card content using pure markdown (centering handled by CSS)
+    card = ""
+
+    # Sprite with link
+    if sprite_url:
+        card += f"\t[![{display_name}]({sprite_url})]({link})"
+    else:
+        card += f"\t[{display_name}]({link})"
+
+    card += "\n\n\t***\n\n"
+
+    # Dex number and name
+    card += f"\t**#{dex_num:03d} [{display_name}]({link})**"
+
+    return card

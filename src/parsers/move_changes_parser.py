@@ -90,7 +90,9 @@ class MoveChangesParser(BaseParser):
                 self._is_table_open = True
                 self._markdown += "| Move | Old Type | New Type | Custom |\n"
                 self._markdown += "|:-----|:---------|:---------|:------:|\n"
-            self._markdown += f"| {format_move(self._current_move, relative_path="..")} "
+            self._markdown += (
+                f"| {format_move(self._current_move, relative_path="..")} "
+            )
         # Match: " - <old_type> -> <new_type>"
         elif line.startswith(" - "):
             old_type, new_type = line[3:].split(" -> ")
@@ -156,7 +158,7 @@ class MoveChangesParser(BaseParser):
             )
 
         # Add to markdown table
-        move_html = ""
+        move_html = "└──"
         if not self._is_move_open:
             move_html = format_move(self._current_move, relative_path="..")
             self._is_move_open = True

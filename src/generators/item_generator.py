@@ -9,17 +9,6 @@ This generator:
 2. Generates individual markdown files for each item to docs/pokedex/items/
 3. Lists Pokemon that can hold each item in the wild
 4. Prioritizes Black 2 & White 2 content (flavor text, etc.)
-
-CSS Styling:
-This generator uses CSS classes defined in docs/stylesheets/item.css.
-Keep the CSS file in sync when adding new HTML elements or classes.
-
-Key CSS classes used:
-- .item-header, .item-header-sprite, .item-header-content - Item header section (see _generate_item_header)
-- .item-header-name, .item-header-category - Header text elements
-- .item-sprite-img, .item-sprite-large - Item sprite styling
-- .item-index-sprite - Sprites in the index table (see generate_items_index)
-- .item-tooltip - Tooltips for item descriptions
 """
 
 from pathlib import Path
@@ -32,7 +21,10 @@ from src.utils.pokemon.constants import (
     POKEMON_FORM_SUBFOLDERS_STANDARD,
 )
 from src.utils.pokemon.pokemon_util import iterate_pokemon
-from src.utils.formatters.table_util import create_item_index_table, create_pokemon_with_item_table
+from src.utils.formatters.table_util import (
+    create_item_index_table,
+    create_pokemon_with_item_table,
+)
 from src.utils.text.text_util import format_display_name
 from src.utils.formatters.yaml_util import (
     load_mkdocs_config,
@@ -221,31 +213,24 @@ class ItemGenerator(BaseGenerator):
     def _generate_item_header(self, item: Item) -> str:
         """
         Generate an item header section with sprite and basic info.
-
-        CSS classes used:
-        - .item-header: Main header container
-        - .item-header-sprite: Sprite container with background
-        - .item-header-content: Text content container
-        - .item-header-name: Item name display
-        - .item-header-category: Category display
         """
         md = ""
 
         display_name = format_display_name(item.name, ITEM_NAME_SPECIAL_CASES)
         category = format_display_name(item.category, ITEM_NAME_SPECIAL_CASES)
 
-        md += '<div class="item-header">\n'
+        md += '<div style="display: flex; align-items: center; gap: 1.5rem; background: var(--md-code-bg-color); padding: 1.5rem; border-radius: 8px; margin-bottom: 2rem;">\n'
 
         # Sprite section
         if hasattr(item, "sprite") and item.sprite:
-            md += '\t<div class="item-header-sprite">\n'
-            md += f'\t\t<img src="{item.sprite}" alt="{display_name}" />\n'
+            md += '\t<div style="flex-shrink: 0;">\n'
+            md += f'\t\t<img src="{item.sprite}" alt="{display_name}" style="width: 64px; height: 64px; image-rendering: pixelated;" />\n'
             md += "\t</div>\n"
 
         # Content section
-        md += '\t<div class="item-header-content">\n'
-        md += f'\t\t<div class="item-header-name">{display_name}</div>\n'
-        md += f'\t\t<div class="item-header-category">{category}</div>\n'
+        md += '\t<div style="display: flex; flex-direction: column; gap: 0.25rem;">\n'
+        md += f'\t\t<div style="font-size: 1.25rem; font-weight: 600;">{display_name}</div>\n'
+        md += f'\t\t<div style="font-size: 0.875rem; opacity: 0.7;">{category}</div>\n'
         md += "\t</div>\n"
 
         md += "</div>\n\n"
@@ -377,26 +362,93 @@ class ItemGenerator(BaseGenerator):
             "> Click on any item to see its full description and where to find it.\n\n"
         )
 
-        # Build table rows
-        rows = []
+        # Group items by usage context
+        from collections import defaultdict
+        items_by_context = defaultdict(list)
+
         for item in items:
-            name = format_display_name(item.name, ITEM_NAME_SPECIAL_CASES)
-            link = f"[{name}](items/{item.name}.md)"
-            category = format_display_name(item.category, ITEM_NAME_SPECIAL_CASES)
-            short_effect = (
-                item.short_effect if item.short_effect else "*No description*"
+            # Determine usage context based on attributes and category
+            attributes = (
+                item.attributes
+                if hasattr(item, "attributes") and item.attributes
+                else []
             )
+            category = item.category if hasattr(item, "category") else None
 
-            # Get sprite URL
-            sprite_cell = "—"
-            if hasattr(item, "sprite") and item.sprite:
-                sprite_cell = f'<img src="{item.sprite}" alt="{name}" class="item-index-sprite" />'
+            # Check consumable first (highest priority for items that can be used up)
+            if "consumable" in attributes:
+                context = "consumable"
+            # Then check holdable (items that Pokemon can hold)
+            elif (
+                "holdable" in attributes
+                or "holdable-active" in attributes
+                or category == "held-items"
+            ):
+                context = "holdable"
+            # Then check key items
+            elif category == "gameplay":
+                context = "key-items"
+            # Then check for machines
+            elif category == "all-machines":
+                context = "machines"
+            # Then check for evolution items
+            elif category == "evolution":
+                context = "evolution-items"
+            # Default: miscellaneous
+            else:
+                context = "miscellaneous"
 
-            rows.append([sprite_cell, link, category, short_effect])
+            items_by_context[context].append(item)
 
-        # Use standardized table utility
-        md += create_item_index_table(rows)
-        md += "\n"
+        # Usage context display names and order
+        context_display = {
+            "consumable": "Consumable Items",
+            "holdable": "Holdable Items",
+            "key-items": "Key Items",
+            "machines": "Machines (TMs/HMs)",
+            "evolution-items": "Evolution Items",
+            "miscellaneous": "Miscellaneous",
+        }
+        context_order = [
+            "consumable",
+            "holdable",
+            "key-items",
+            "machines",
+            "evolution-items",
+            "miscellaneous",
+        ]
+
+        # Generate sections for each usage context
+        for context_key in context_order:
+            if context_key not in items_by_context:
+                continue
+
+            context_items = items_by_context[context_key]
+            display_name = context_display.get(context_key, context_key.title())
+
+            # Add usage context header
+            md += f"## {display_name}\n\n"
+
+            # Build table rows for this usage context
+            rows = []
+            for item in context_items:
+                name = format_display_name(item.name, ITEM_NAME_SPECIAL_CASES)
+                link = f"[{name}](items/{item.name}.md)"
+                category = format_display_name(item.category, ITEM_NAME_SPECIAL_CASES)
+                short_effect = (
+                    item.short_effect if item.short_effect else "*No description*"
+                )
+
+                # Get sprite URL
+                sprite_cell = "—"
+                if hasattr(item, "sprite") and item.sprite:
+                    sprite_cell = f'<img src="{item.sprite}" alt="{name}" />'
+
+                rows.append([sprite_cell, link, category, short_effect])
+
+            # Use standardized table utility
+            md += create_item_index_table(rows)
+            md += "\n"
 
         # Write to file
         output_file = self.output_dir.parent / "items.md"
@@ -509,7 +561,11 @@ class ItemGenerator(BaseGenerator):
                     context_items = items_by_context[context_key]
                     display_name = context_display.get(context_key, context_key.title())
                     context_nav = [
-                        {format_display_name(i.name, ITEM_NAME_SPECIAL_CASES): f"pokedex/items/{i.name}.md"}
+                        {
+                            format_display_name(
+                                i.name, ITEM_NAME_SPECIAL_CASES
+                            ): f"pokedex/items/{i.name}.md"
+                        }
                         for i in context_items
                     ]
                     # Using type: ignore because mkdocs nav allows mixed dict value types

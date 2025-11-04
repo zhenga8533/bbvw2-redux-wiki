@@ -16,6 +16,67 @@ from src.utils.core.logger_util import get_logger
 logger = get_logger(__name__)
 
 
+def get_pokemon_sprite_url(
+    pokemon: Pokemon,
+    prefer_animated: bool = True,
+    sprite_type: str = "front_default",
+) -> Optional[str]:
+    """
+    Get the appropriate sprite URL for a Pokemon.
+
+    This function consolidates the sprite selection logic used throughout the codebase.
+    It handles:
+    - Cosmetic forms (which don't have animated GIFs)
+    - Animated sprite preference for default/variant/transformation forms
+    - Fallback to PNG sprites when animated not available
+    - Support for different sprite types (front/back, default/shiny, male/female)
+
+    Args:
+        pokemon: Pokemon object containing sprite data
+        prefer_animated: If True, prefer animated GIF over PNG for non-cosmetic forms
+        sprite_type: Type of sprite to retrieve. Options:
+                    - 'front_default', 'back_default'
+                    - 'front_shiny', 'back_shiny'
+                    - 'front_female', 'back_female'
+                    - 'front_shiny_female', 'back_shiny_female'
+
+    Returns:
+        Sprite URL if found, None otherwise
+
+    Example:
+        >>> from src.data.pokedb_loader import PokeDBLoader
+        >>> pokemon = PokeDBLoader.load_pokemon("pikachu")
+        >>> sprite_url = get_pokemon_sprite_url(pokemon)
+        >>> # Returns animated GIF URL for Pikachu
+        >>> sprite_url = get_pokemon_sprite_url(pokemon, prefer_animated=False)
+        >>> # Returns PNG URL for Pikachu
+    """
+    if not pokemon or not pokemon.sprites:
+        return None
+
+    # Check if this is a cosmetic form (cosmetic forms don't have animated GIFs)
+    is_cosmetic = any(form.category == "cosmetic" for form in pokemon.forms)
+
+    sprite_url = None
+
+    # For cosmetic forms, use PNG sprites only
+    if is_cosmetic:
+        sprite_url = getattr(pokemon.sprites, sprite_type, None)
+        return sprite_url
+
+    # For non-cosmetic forms, prefer animated GIF if requested
+    if prefer_animated and hasattr(pokemon.sprites, "versions") and pokemon.sprites.versions:
+        bw = pokemon.sprites.versions.black_white
+        if bw.animated:
+            sprite_url = getattr(bw.animated, sprite_type, None)
+
+    # Fall back to PNG sprite if animated not available or not preferred
+    if not sprite_url:
+        sprite_url = getattr(pokemon.sprites, sprite_type, None)
+
+    return sprite_url
+
+
 def iterate_pokemon(
     pokemon_base_dir: Path,
     subfolders: Optional[List[str]] = None,

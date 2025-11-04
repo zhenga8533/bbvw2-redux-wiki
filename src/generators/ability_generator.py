@@ -23,6 +23,7 @@ from src.utils.pokemon.constants import (
 )
 from src.utils.pokemon.pokemon_util import iterate_pokemon
 from src.utils.formatters.table_util import create_ability_index_table
+from src.utils.formatters.markdown_util import format_pokemon_card
 from src.utils.text.text_util import format_display_name
 from src.utils.formatters.yaml_util import (
     load_mkdocs_config,
@@ -195,58 +196,26 @@ class AbilityGenerator(BaseGenerator):
         # Normal ability section
         if normal:
             md += "### :material-star: Standard Ability\n\n"
-            md += '<div class="grid cards ability-pokemon-cards" markdown>\n\n'
+            md += '<div class="grid cards" markdown>\n\n'
 
             for pokemon in normal:
-                dex_num = pokemon.pokedex_numbers.get("national", "???")
-                name = format_display_name(pokemon.name)
-                link = f"../pokemon/{pokemon.name}.md"
-
-                # Get sprite URL
-                sprite_url = None
-                if hasattr(pokemon.sprites, "versions") and pokemon.sprites.versions:
-                    bw = pokemon.sprites.versions.black_white
-                    if bw.animated and bw.animated.front_default:
-                        sprite_url = bw.animated.front_default
-
-                # Card structure: sprite first, then separator, then info
-                md += "- "
-                if sprite_url:
-                    md += f"[![{name}]({sprite_url}){{: .pokemon-sprite-img }}]({link})\n\n"
-                else:
-                    md += f"[{name}]({link})\n\n"
-
-                md += "\t---\n\n"
-                md += f"\t**#{dex_num:03d} [{name}]({link})**\n\n"
+                # Use utility function to create card (must be in a list item)
+                md += "-   "
+                md += format_pokemon_card(pokemon)
+                md += "\n\n"
 
             md += "</div>\n\n"
 
         # Hidden ability section
         if hidden:
             md += "### :material-eye-off: Hidden Ability\n\n"
-            md += '<div class="grid cards ability-pokemon-cards" markdown>\n\n'
+            md += '<div class="grid cards" markdown>\n\n'
 
             for pokemon in hidden:
-                dex_num = pokemon.pokedex_numbers.get("national", "???")
-                name = format_display_name(pokemon.name)
-                link = f"../pokemon/{pokemon.name}.md"
-
-                # Get sprite URL
-                sprite_url = None
-                if hasattr(pokemon.sprites, "versions") and pokemon.sprites.versions:
-                    bw = pokemon.sprites.versions.black_white
-                    if bw.animated and bw.animated.front_default:
-                        sprite_url = bw.animated.front_default
-
-                # Card structure: sprite first, then separator, then info
-                md += "- "
-                if sprite_url:
-                    md += f"[![{name}]({sprite_url}){{: .pokemon-sprite-img }}]({link})\n\n"
-                else:
-                    md += f"[{name}]({link})\n\n"
-
-                md += "\t---\n\n"
-                md += f"\t**#{dex_num:03d} [{name}]({link})**\n\n"
+                # Use utility function to create card (must be in a list item)
+                md += "-   "
+                md += format_pokemon_card(pokemon)
+                md += "\n\n"
 
             md += "</div>\n\n"
 
@@ -411,20 +380,56 @@ class AbilityGenerator(BaseGenerator):
         md += "Complete list of all Pokémon abilities in **Blaze Black 2 & Volt White 2 Redux**.\n\n"
         md += "> Click on any ability to see its full description and which Pokémon can learn it.\n\n"
 
-        # Build table rows
-        rows = []
+        # Group abilities by generation
+        from collections import defaultdict
+        abilities_by_generation = defaultdict(list)
+
         for ability in abilities:
-            name = format_display_name(ability.name)
-            link = f"[{name}](abilities/{ability.name}.md)"
-            short_effect = (
-                ability.short_effect if ability.short_effect else "*No description*"
-            )
+            gen = ability.generation if ability.generation else "unknown"
+            abilities_by_generation[gen].append(ability)
 
-            rows.append([link, short_effect])
+        # Generation order and display names
+        generation_order = ["generation-iii", "generation-iv", "generation-v"]
 
-        # Use standardized table utility
-        md += create_ability_index_table(rows)
-        md += "\n"
+        # Generate sections for each generation
+        for gen_key in generation_order:
+            if gen_key not in abilities_by_generation:
+                continue
+
+            gen_abilities = abilities_by_generation[gen_key]
+            display_name = GENERATION_DISPLAY_NAMES.get(gen_key, gen_key)
+
+            # Add generation header
+            md += f"## {display_name}\n\n"
+
+            # Build table rows for this generation
+            rows = []
+            for ability in gen_abilities:
+                name = format_display_name(ability.name)
+                link = f"[{name}](abilities/{ability.name}.md)"
+                short_effect = (
+                    ability.short_effect if ability.short_effect else "*No description*"
+                )
+                rows.append([link, short_effect])
+
+            # Use standardized table utility
+            md += create_ability_index_table(rows)
+            md += "\n"
+
+        # Add unknown generation abilities if any
+        if "unknown" in abilities_by_generation:
+            md += "## Unknown Generation\n\n"
+            rows = []
+            for ability in abilities_by_generation["unknown"]:
+                name = format_display_name(ability.name)
+                link = f"[{name}](abilities/{ability.name}.md)"
+                short_effect = (
+                    ability.short_effect if ability.short_effect else "*No description*"
+                )
+                rows.append([link, short_effect])
+
+            md += create_ability_index_table(rows)
+            md += "\n"
 
         # Write to file
         output_file = self.output_dir.parent / "abilities.md"

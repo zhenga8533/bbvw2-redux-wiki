@@ -8,7 +8,7 @@ This parser:
 
 import re
 
-from src.utils.formatters.markdown_util import format_pokemon
+from src.utils.formatters.markdown_util import format_pokemon_card
 
 from .base_parser import BaseParser
 
@@ -53,8 +53,6 @@ class GiftPokemonParser(BaseParser):
 
     def _format_gift_pokemon(self, header: str) -> None:
         """Format gift Pokemon section with grid cards."""
-        from src.data.pokedb_loader import PokeDBLoader
-
         # Clean up header
         header = header.removesuffix(".")
         gift_pokemon_names = re.split(r", | or ", header.removesuffix(" Egg"))
@@ -63,52 +61,10 @@ class GiftPokemonParser(BaseParser):
         self._markdown += '<div class="grid cards" markdown>\n\n'
 
         for pokemon_name in gift_pokemon_names:
-            # Load Pokemon data to get sprite and dex number
-            pokemon_data = PokeDBLoader.load_pokemon(
-                pokemon_name.lower().replace(" ", "-")
-            )
-
-            if pokemon_data:
-                dex_num = pokemon_data.pokedex_numbers.get("national", "???")
-
-                # Get sprite URL
-                sprite_url = None
-                if (
-                    hasattr(pokemon_data.sprites, "versions")
-                    and pokemon_data.sprites.versions
-                ):
-                    bw = pokemon_data.sprites.versions.black_white
-                    if bw.animated and bw.animated.front_default:
-                        sprite_url = bw.animated.front_default
-
-                # Format name for display
-                display_name = pokemon_name.replace("-", " ").title()
-                # Handle special cases
-                if "nidoran" in pokemon_name.lower():
-                    if "f" in pokemon_name.lower():
-                        display_name = "Nidoran♀"
-                    elif "m" in pokemon_name.lower():
-                        display_name = "Nidoran♂"
-                elif pokemon_name.lower() == "mr mime":
-                    display_name = "Mr. Mime"
-                elif pokemon_name.lower() == "mime jr":
-                    display_name = "Mime Jr."
-
-                # Create link
-                link = f"../pokedex/pokemon/{pokemon_data.name}.md"
-
-                # Card structure: sprite first, then separator, then info
-                self._markdown += "- "
-                if sprite_url:
-                    self._markdown += f"[![{display_name}]({sprite_url}){{: .pokemon-sprite-img }}]({link})\n\n"
-                else:
-                    self._markdown += f"[{display_name}]({link})\n\n"
-
-                self._markdown += "\t---\n\n"
-                self._markdown += f"\t**#{dex_num:03d} [{display_name}]({link})**\n\n"
-            else:
-                # Fallback if Pokemon data not found
-                self._markdown += f"- {pokemon_name}\n\n"
+            # Use utility function to create card (must be in a list item)
+            self._markdown += "-   "
+            self._markdown += format_pokemon_card(pokemon_name, relative_path="../pokedex/pokemon")
+            self._markdown += "\n\n"
 
         self._markdown += "</div>\n\n"
 

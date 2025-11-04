@@ -9,18 +9,6 @@ This generator:
 2. Generates individual markdown files for each move to docs/pokedex/moves/
 3. Lists Pokemon that can learn each move (level-up, TM/HM, egg, tutor)
 4. Prioritizes Black 2 & White 2 content (flavor text, stats, etc.)
-
-CSS Styling:
-This generator uses CSS classes defined in docs/stylesheets/move.css.
-Keep the CSS file in sync when adding new HTML elements or classes.
-
-Key CSS classes used:
-- .move-header, .move-header-content - Move header section (see _generate_move_header)
-- .move-header-name, .move-header-meta - Header text elements
-- .move-header-type, .move-header-category - Type and category displays
-- .move-stats-grid, .move-stat-card - Stats display grid
-- .move-stat-label, .move-stat-value - Individual stat elements
-- .move-learning-method - Learning method annotations
 """
 
 from collections import defaultdict
@@ -145,14 +133,6 @@ class MoveGenerator(BaseGenerator):
     def _generate_move_header(self, move: Move) -> str:
         """
         Generate a move header section with type and category.
-
-        CSS classes used:
-        - .move-header: Main header container
-        - .move-header-content: Text content container
-        - .move-header-name: Move name display
-        - .move-header-meta: Type and category container
-        - .move-header-type: Type badge
-        - .move-header-category: Category display
         """
         md = ""
 
@@ -160,12 +140,12 @@ class MoveGenerator(BaseGenerator):
         move_type = move.type.black_2_white_2 or "???"
         category = move.damage_class.title() if move.damage_class else "Unknown"
 
-        md += '<div class="move-header">\n'
-        md += '\t<div class="move-header-content">\n'
-        md += f'\t\t<div class="move-header-name">{display_name}</div>\n'
-        md += '\t\t<div class="move-header-meta">\n'
-        md += f'\t\t\t<div class="move-header-type">{format_type_badge(move_type)}</div>\n'
-        md += f'\t\t\t<div class="move-header-category">{category}</div>\n'
+        md += "<div>\n"
+        md += "\t<div>\n"
+        md += f"\t\t<div>{display_name}</div>\n"
+        md += "\t\t<div>\n"
+        md += f"\t\t\t<div>{format_type_badge(move_type)}</div>\n"
+        md += f"\t\t\t<div>{category}</div>\n"
         md += "\t\t</div>\n"
         md += "\t</div>\n"
         md += "</div>\n\n"
@@ -305,7 +285,7 @@ class MoveGenerator(BaseGenerator):
         # Level-up
         if move_data.get("level_up"):
             md += "### :material-arrow-up-bold: Level-Up\n\n"
-            md += '<div class="grid cards ability-pokemon-cards" markdown>\n\n'
+            md += '<div class="grid cards" markdown>\n\n'
 
             for entry in move_data["level_up"]:
                 pokemon = entry["pokemon"]
@@ -337,7 +317,7 @@ class MoveGenerator(BaseGenerator):
         # TM/HM
         if move_data.get("machine"):
             md += "### :material-disc: TM/HM\n\n"
-            md += '<div class="grid cards ability-pokemon-cards" markdown>\n\n'
+            md += '<div class="grid cards" markdown>\n\n'
 
             for entry in move_data["machine"]:
                 pokemon = entry["pokemon"]
@@ -367,7 +347,7 @@ class MoveGenerator(BaseGenerator):
         # Egg moves
         if move_data.get("egg"):
             md += "### :material-egg-outline: Egg Moves\n\n"
-            md += '<div class="grid cards ability-pokemon-cards" markdown>\n\n'
+            md += '<div class="grid cards" markdown>\n\n'
 
             for entry in move_data["egg"]:
                 pokemon = entry["pokemon"]
@@ -397,7 +377,7 @@ class MoveGenerator(BaseGenerator):
         # Tutor moves
         if move_data.get("tutor"):
             md += "### :material-school: Tutor\n\n"
-            md += '<div class="grid cards ability-pokemon-cards" markdown>\n\n'
+            md += '<div class="grid cards" markdown>\n\n'
 
             for entry in move_data["tutor"]:
                 pokemon = entry["pokemon"]
@@ -538,35 +518,93 @@ class MoveGenerator(BaseGenerator):
         )
         md += "> Click on any move to see its full description and which Pokémon can learn it.\n\n"
 
-        # Build table rows
-        rows = []
+        # Group moves by damage class
+        from collections import defaultdict
+        moves_by_damage_class = defaultdict(list)
+
         for move in moves:
-            name = format_display_name(move.name)
-            link = f"[{name}](moves/{move.name}.md)"
+            damage_class = move.damage_class if move.damage_class else "unknown"
+            moves_by_damage_class[damage_class].append(move)
 
-            move_type = move.type.black_2_white_2 or "???"
-            type_badge = format_type_badge(move_type)
+        # Damage class order and display names
+        damage_class_order = ["physical", "special", "status"]
+        damage_class_display = {
+            "physical": "Physical Moves",
+            "special": "Special Moves",
+            "status": "Status Moves",
+        }
 
-            category_icon = DAMAGE_CLASS_ICONS.get(move.damage_class, "")
+        # Generate sections for each damage class
+        for class_key in damage_class_order:
+            if class_key not in moves_by_damage_class:
+                continue
 
-            power = move.power.black_2_white_2
-            power_str = str(power) if power is not None and power > 0 else "—"
+            class_moves = moves_by_damage_class[class_key]
+            display_name = damage_class_display.get(class_key, class_key.title())
 
-            accuracy = move.accuracy.black_2_white_2
-            accuracy_str = (
-                str(accuracy) if accuracy is not None and accuracy > 0 else "—"
-            )
+            # Add damage class header
+            md += f"## {display_name}\n\n"
 
-            pp = move.pp.black_2_white_2
-            pp_str = str(pp) if pp is not None and pp > 0 else "—"
+            # Build table rows for this damage class
+            rows = []
+            for move in class_moves:
+                name = format_display_name(move.name)
+                link = f"[{name}](moves/{move.name}.md)"
 
-            rows.append(
-                [link, type_badge, category_icon, power_str, accuracy_str, pp_str]
-            )
+                move_type = move.type.black_2_white_2 or "???"
+                type_badge = format_type_badge(move_type)
 
-        # Use standardized table utility
-        md += create_move_index_table(rows)
-        md += "\n"
+                category_icon = DAMAGE_CLASS_ICONS.get(move.damage_class, "")
+
+                power = move.power.black_2_white_2
+                power_str = str(power) if power is not None and power > 0 else "—"
+
+                accuracy = move.accuracy.black_2_white_2
+                accuracy_str = (
+                    str(accuracy) if accuracy is not None and accuracy > 0 else "—"
+                )
+
+                pp = move.pp.black_2_white_2
+                pp_str = str(pp) if pp is not None and pp > 0 else "—"
+
+                rows.append(
+                    [link, type_badge, category_icon, power_str, accuracy_str, pp_str]
+                )
+
+            # Use standardized table utility
+            md += create_move_index_table(rows)
+            md += "\n"
+
+        # Add unknown damage class moves if any
+        if "unknown" in moves_by_damage_class:
+            md += "## Unknown Category\n\n"
+            rows = []
+            for move in moves_by_damage_class["unknown"]:
+                name = format_display_name(move.name)
+                link = f"[{name}](moves/{move.name}.md)"
+
+                move_type = move.type.black_2_white_2 or "???"
+                type_badge = format_type_badge(move_type)
+
+                category_icon = DAMAGE_CLASS_ICONS.get(move.damage_class, "")
+
+                power = move.power.black_2_white_2
+                power_str = str(power) if power is not None and power > 0 else "—"
+
+                accuracy = move.accuracy.black_2_white_2
+                accuracy_str = (
+                    str(accuracy) if accuracy is not None and accuracy > 0 else "—"
+                )
+
+                pp = move.pp.black_2_white_2
+                pp_str = str(pp) if pp is not None and pp > 0 else "—"
+
+                rows.append(
+                    [link, type_badge, category_icon, power_str, accuracy_str, pp_str]
+                )
+
+            md += create_move_index_table(rows)
+            md += "\n"
 
         # Write to file
         output_file = self.output_dir.parent / "moves.md"

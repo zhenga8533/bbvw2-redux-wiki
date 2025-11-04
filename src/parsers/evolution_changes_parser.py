@@ -48,16 +48,16 @@ class EvolutionChangesParser(BaseParser):
         # Match: table header "Pokémon              New Method"
         if line == "Pokémon              New Method":
             self._is_table_open = True
-            self._markdown += '<table class="evolution-changes-table">\n'
-            self._markdown += "  <thead>\n"
-            self._markdown += "    <tr>\n"
-            self._markdown += '      <th style="text-align: left;">Dex #</th>\n'
-            self._markdown += '      <th style="text-align: center;">Pokémon</th>\n'
-            self._markdown += '      <th style="text-align: center;">Evolution</th>\n'
-            self._markdown += '      <th style="text-align: left;">New Method</th>\n'
-            self._markdown += "    </tr>\n"
-            self._markdown += "  </thead>\n"
-            self._markdown += "  <tbody>\n"
+            self._markdown += "<table>\n"
+            self._markdown += "\t<thead>\n"
+            self._markdown += "\t\t<tr>\n"
+            self._markdown += '\t\t\t<th style="text-align: left;">Dex #</th>\n'
+            self._markdown += '\t\t\t<th style="text-align: center;">Pokémon</th>\n'
+            self._markdown += '\t\t\t<th style="text-align: center;">Evolution</th>\n'
+            self._markdown += '\t\t\t<th style="text-align: left;">New Method</th>\n'
+            self._markdown += "\t\t</tr>\n"
+            self._markdown += "\t</thead>\n"
+            self._markdown += "\t<tbody>\n"
         # Match: table separator "---                  ---"
         elif line == "---                  ---":
             pass  # Skip separator line for HTML tables
@@ -83,7 +83,7 @@ class EvolutionChangesParser(BaseParser):
             self.logger.warning(f"Unrecognized line format: '{line}'")
         # Match: empty line indicates end of table
         elif self._is_table_open:
-            self._markdown += "  </tbody>\n"
+            self._markdown += "\t</tbody>\n"
             self._markdown += "</table>\n\n"
             self._is_table_open = False
 
@@ -107,12 +107,12 @@ class EvolutionChangesParser(BaseParser):
         formatted_text = self._format_evolution_text(evolution_text)
 
         # Add HTML table row with vertical alignment at bottom for Pokémon and Evolution columns
-        self._markdown += "    <tr>\n"
-        self._markdown += f'      <td style="text-align: left;">{self._current_dex_num}</td>\n'
-        self._markdown += f'      <td style="text-align: center; vertical-align: bottom;">{from_pokemon_md}</td>\n'
-        self._markdown += f'      <td style="text-align: center; vertical-align: bottom;">{to_pokemon_md}</td>\n'
-        self._markdown += f'      <td style="text-align: left;">{formatted_text}</td>\n'
-        self._markdown += "    </tr>\n"
+        self._markdown += "\t\t<tr>\n"
+        self._markdown += f'\t\t\t<td style="text-align: left; vertical-align: middle;">{self._current_dex_num}</td>\n'
+        self._markdown += f'\t\t\t<td style="text-align: center; vertical-align: bottom;">{from_pokemon_md}</td>\n'
+        self._markdown += f'\t\t\t<td style="text-align: center; vertical-align: bottom;">{to_pokemon_md}</td>\n'
+        self._markdown += f'\t\t\t<td style="text-align: left; vertical-align: middle;">{formatted_text}</td>\n'
+        self._markdown += "\t\t</tr>\n"
 
     def _format_evolution_text(self, text: str) -> str:
         """
@@ -131,7 +131,11 @@ class EvolutionChangesParser(BaseParser):
             # Convert item name to ID format (replace spaces with hyphens)
             item_id = item_name.lower().replace(" ", "-")
             formatted = format_item(
-                item_id, has_sprite=True, is_linked=True, relative_path=".."
+                item_id,
+                has_sprite=True,
+                is_linked=True,
+                relative_path="..",
+                html_mode=True,
             )
             return f"via the use of {formatted}"
 
