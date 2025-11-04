@@ -228,12 +228,12 @@ class PokemonGenerator(BaseGenerator):
 
         # Types
         types_str = " ".join([format_type_badge(t) for t in pokemon.types])
-        md += f'\t\t<div style="display: flex; gap: 0.5rem; flex-wrap: wrap; justify-content: center;">{types_str}</div>\n'
+        md += f'\t\t<div class="badges-hstack">{types_str}</div>\n'
 
         # Status badges
         status_badges = self._generate_status_badges(pokemon)
         if status_badges:
-            md += f'\t\t<div style="display: flex; gap: 0.5rem; flex-wrap: wrap; justify-content: center;">{status_badges}</div>\n'
+            md += f'\t\t<div class="badges-hstack">{status_badges}</div>\n'
 
         md += "\t</div>\n"
         md += "</div>\n\n"
@@ -374,14 +374,14 @@ class PokemonGenerator(BaseGenerator):
                 md += " ".join(
                     [format_type_badge(t) for t in sorted(effectiveness["4x_weak"])]
                 )
-                md += '\n\t{ style="display: flex; flex-wrap: wrap; gap: 0.5rem;" }\n\n'
+                md += "\n\t{: .badges-hstack }\n\n"
             if effectiveness["2x_weak"]:
                 md += "\t**2× Damage**\n\n"
                 md += "\t"
                 md += " ".join(
                     [format_type_badge(t) for t in sorted(effectiveness["2x_weak"])]
                 )
-                md += '\n\t{ style="display: flex; flex-wrap: wrap; gap: 0.5rem;" }\n\n'
+                md += "\n\t{: .badges-hstack }\n\n"
 
         # Resistances card
         if effectiveness["0.25x_resist"] or effectiveness["0.5x_resist"]:
@@ -396,14 +396,14 @@ class PokemonGenerator(BaseGenerator):
                         for t in sorted(effectiveness["0.25x_resist"])
                     ]
                 )
-                md += '\n\t{ style="display: flex; flex-wrap: wrap; gap: 0.5rem;" }\n\n'
+                md += "\n\t{: .badges-hstack }\n\n"
             if effectiveness["0.5x_resist"]:
                 md += "\t**½× Damage**\n\n"
                 md += "\t"
                 md += " ".join(
                     [format_type_badge(t) for t in sorted(effectiveness["0.5x_resist"])]
                 )
-                md += '\n\t{ style="display: flex; flex-wrap: wrap; gap: 0.5rem;" }\n\n'
+                md += "\n\t{: .badges-hstack }\n\n"
 
         # Immunities card
         if effectiveness["immune"]:
@@ -1463,7 +1463,7 @@ class PokemonGenerator(BaseGenerator):
                 link = f"[{name}](pokemon/{pokemon.name}.md)"
                 # Stack types vertically with spacing
                 type_badges = " ".join([format_type_badge(t) for t in pokemon.types])
-                types = f'<div style="display: flex; flex-direction: column; gap: 0.25rem;">{type_badges}</div>'
+                types = f'<div class="badges-vstack">{type_badges}</div>'
 
                 # Get sprite URL using utility function
                 sprite_url = get_pokemon_sprite_url(pokemon)

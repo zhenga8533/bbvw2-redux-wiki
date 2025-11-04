@@ -9,7 +9,7 @@ This parser:
 
 import re
 
-from src.utils.formatters.markdown_formatter import format_pokemon
+from src.utils.formatters.markdown_formatter import format_pokemon, format_type_badge
 
 from .base_parser import BaseParser
 
@@ -67,11 +67,35 @@ class TypeChangesParser(BaseParser):
             )
         # Match: "#<number> <pokemon>   <old type>   <new type>   <justification>"
         elif line.startswith("#"):
-            pokemon, old_type, new_type, justification = re.split(r"\s{3,}", line)
-            number, pokemon = pokemon.split(" ", 1)
-            pokemon_html = format_pokemon(pokemon)
-
-            self._markdown += f"| {number} | {pokemon_html} | {old_type} | {new_type} | {justification} |\n"
+            self._format_type_change_row(line)
         # Default: regular text line
         else:
             self.parse_default(line)
+
+    def _format_type_change_row(self, line: str) -> None:
+        """Format a row in the type change table.
+
+        Args:
+            line (str): A line from the type change table.
+        """
+        pokemon, old_type, new_type, justification = re.split(r"\s{3,}", line)
+        number, pokemon = pokemon.split(" ", 1)
+        pokemon_html = format_pokemon(pokemon)
+
+        # Format old and new types with badges
+        old_types = old_type.split(" / ")
+        new_types = new_type.split(" / ")
+        old_type_badges = " ".join([format_type_badge(t) for t in old_types])
+        new_type_badges = " ".join([format_type_badge(t) for t in new_types])
+        old_type_html = f"<div class='badges-vstack'>{old_type_badges}</div>"
+        new_type_html = f"<div class='badges-vstack'>{new_type_badges}</div>"
+
+        # Format justification with line breaks
+        justification_lines = "<br>".join(
+            [
+                f"{idx+1}. {line.strip()}"
+                for idx, line in enumerate(justification.split("; "))
+            ]
+        )
+
+        self._markdown += f"| {number} | {pokemon_html} | {old_type_html} | {new_type_html} | {justification_lines} |\n"
