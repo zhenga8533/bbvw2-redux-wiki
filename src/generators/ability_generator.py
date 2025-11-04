@@ -17,11 +17,10 @@ from typing import Optional
 
 from src.data.pokedb_loader import PokeDBLoader
 from src.models.pokedb import Ability, Pokemon
+from src.utils.core.config import VERSION_GROUP
 from src.utils.data.constants import (
     GENERATION_DISPLAY_NAMES,
     POKEMON_FORM_SUBFOLDERS_STANDARD,
-    PRIMARY_VERSION,
-    FALLBACK_VERSION,
 )
 from src.utils.data.pokemon_util import iterate_pokemon
 from src.utils.formatters.table_formatter import create_ability_index_table
@@ -216,9 +215,7 @@ class AbilityGenerator(BaseGenerator):
         # Full effect
         if ability.effect:
             # Try to get version-specific effect, fallback to first available
-            effect_text = getattr(ability.effect, PRIMARY_VERSION, None) or getattr(
-                ability.effect, FALLBACK_VERSION, None
-            )
+            effect_text = getattr(ability.effect, VERSION_GROUP, None)
 
             if effect_text:
                 md += f'!!! info "Full Description"\n\n'
@@ -239,7 +236,7 @@ class AbilityGenerator(BaseGenerator):
         """Generate the flavor text section."""
         md = "## :material-book-open: In-Game Description\n\n"
 
-        flavor_text = getattr(ability.flavor_text, PRIMARY_VERSION, None)
+        flavor_text = getattr(ability.flavor_text, VERSION_GROUP, None)
         version = "Black 2 & White 2"
 
         if flavor_text:

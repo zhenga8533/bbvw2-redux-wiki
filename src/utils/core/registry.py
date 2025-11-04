@@ -8,14 +8,14 @@ duplication between parser and generator registry loading in main.py.
 import importlib
 from typing import Any, Dict, Tuple
 
-from src.utils.core.config import get_config
+from src.utils.core import config
 from src.utils.core.logger import get_logger
 
 logger = get_logger(__name__)
 
 
 def get_component_registry(
-    component_type: str, config_keys: Tuple[str, ...]
+    component_config: Dict[str, Dict[str, Any]], config_keys: Tuple[str, ...]
 ) -> Dict[str, Tuple[Any, ...]]:
     """
     Get the registry of available components by dynamically loading them from the config.
@@ -25,7 +25,7 @@ def get_component_registry(
     building a registry dictionary.
 
     Args:
-        component_type: The type of component to load ('parsers' or 'generators')
+        component_config: The configuration dictionary for the components
         config_keys: Optional tuple of additional config keys to extract for each component
                     (e.g., ('input_file', 'output_dir') for parsers)
 
@@ -36,12 +36,10 @@ def get_component_registry(
 
     Example:
         >>> # Load parser registry
-        >>> parser_registry = get_component_registry('parsers', ('input_file', 'output_dir'))
+        >>> parser_registry = get_component_registry(config.PARSERS_REGISTRY, ('input_file', 'output_dir'))
         >>> # Load generator registry
-        >>> generator_registry = get_component_registry('generators', ('output_dir',))
+        >>> generator_registry = get_component_registry(config.GENERATORS_REGISTRY, ('output_dir',))
     """
-    config = get_config()
-    component_config = config.get(component_type, {}).get("registry", {})
     registry = {}
 
     if config_keys is None:
@@ -64,9 +62,7 @@ def get_component_registry(
             registry[name] = (ComponentClass, *additional_values)
 
         except (KeyError, ImportError, AttributeError) as e:
-            logger.error(
-                f"Failed to load {component_type[:-1]} '{name}': {e}", exc_info=True
-            )
+            logger.error(f"Failed to load component '{name}': {e}", exc_info=True)
             continue
 
     return registry
@@ -79,7 +75,7 @@ def get_parser_registry() -> Dict[str, Tuple[Any, str, str]]:
     Returns:
         dict: Registry mapping parser names to (ParserClass, input_file, output_dir) tuples
     """
-    return get_component_registry("parsers", ("input_file", "output_dir"))
+    return get_component_registry(config.PARSERS_REGISTRY, ("input_file", "output_dir"))
 
 
 def get_generator_registry() -> Dict[str, Tuple[Any, str]]:
@@ -89,4 +85,4 @@ def get_generator_registry() -> Dict[str, Tuple[Any, str]]:
     Returns:
         dict: Registry mapping generator names to (GeneratorClass, output_dir) tuples
     """
-    return get_component_registry("generators", ("output_dir",))
+    return get_component_registry(config.GENERATORS_REGISTRY, ("output_dir",))

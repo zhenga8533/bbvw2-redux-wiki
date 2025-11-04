@@ -10,7 +10,7 @@ import zipfile
 import io
 from pathlib import Path
 from src.utils.core.logger import get_logger
-from src.utils.core.config import get_config
+from src.utils.core import config
 
 logger = get_logger(__name__)
 
@@ -20,13 +20,11 @@ class PokeDBInitializer:
 
     def __init__(self):
         """Initialize the PokeDB initializer with configuration."""
-        self._config = get_config()
-        pokedb_config = self._config.get("pokedb", {})
-        self.repo_url = pokedb_config.get("repo_url")
-        self.branch = pokedb_config.get("branch")
-        self.data_dir = Path(pokedb_config.get("data_dir", "data/pokedb"))
+        self.repo_url = config.POKEDB_REPO_URL
+        self.branch = config.POKEDB_BRANCH
+        self.data_dir = Path(config.POKEDB_DATA_DIR)
         self.parsed_dir = self.data_dir / "parsed"
-        self.generations: list[str] = pokedb_config.get("generations", [])
+        self.generations = config.POKEDB_GENERATIONS
         self.repo_owner, self.repo_name = self._parse_repo_url()
 
     def _parse_repo_url(self) -> tuple[str, str]:

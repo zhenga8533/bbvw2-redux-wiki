@@ -18,7 +18,6 @@ Note: Some utilities are excluded from __init__.py:
 """
 
 # Core utilities
-from .core.config import get_config
 from .core.logger import get_logger, LogContext
 
 # Text utilities
@@ -40,8 +39,6 @@ from .data.constants import (
 )
 
 __all__ = [
-    # Config utilities
-    "get_config",
     # Logging utilities
     "get_logger",
     "LogContext",

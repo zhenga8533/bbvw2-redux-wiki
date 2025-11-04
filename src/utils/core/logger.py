@@ -6,7 +6,7 @@ Provides structured logging with:
 - Rich console output with colors and formatting
 - Rotating file handlers to prevent unbounded growth
 - JSON structured logging support
-- Configuration via config.json (loaded through config_util)
+- Configuration via config constants
 - Context managers for operation tracking
 """
 
@@ -17,43 +17,16 @@ from pathlib import Path
 from typing import Optional
 from logging.handlers import RotatingFileHandler
 from datetime import datetime
-from src.utils.core.config import get_config
+from src.utils.core import config
 
-
-def _load_config():
-    """Load configuration from config.json via config_util."""
-    defaults = {
-        "level": "INFO",
-        "format": "text",
-        "log_dir": "logs",
-        "max_log_size_mb": 10,
-        "backup_count": 5,
-        "console_colors": True,
-        "clear_on_run": False,
-    }
-
-    # Load from config file
-    try:
-        config = get_config()
-        logging_config = config.get("logging", {})
-        # Merge config values with defaults
-        for key, value in logging_config.items():
-            defaults[key] = value
-    except Exception:
-        pass  # Fall back to defaults
-
-    return defaults
-
-
-# Global configuration (loaded once)
-_config = _load_config()
-LOG_DIR = Path(_config["log_dir"])
-LOG_LEVEL = _config["level"]
-LOG_FORMAT_JSON = _config["format"] == "json"
-MAX_LOG_SIZE = _config["max_log_size_mb"] * 1024 * 1024  # Convert MB to bytes
-BACKUP_COUNT = _config["backup_count"]
-CONSOLE_COLORS = _config["console_colors"]
-CLEAR_ON_RUN = _config["clear_on_run"]
+# Global configuration (loaded from config constants)
+LOG_DIR = Path(config.LOGGING_LOG_DIR)
+LOG_LEVEL = config.LOGGING_LEVEL
+LOG_FORMAT_JSON = config.LOGGING_FORMAT == "json"
+MAX_LOG_SIZE = config.LOGGING_MAX_LOG_SIZE_MB * 1024 * 1024  # Convert MB to bytes
+BACKUP_COUNT = config.LOGGING_BACKUP_COUNT
+CONSOLE_COLORS = config.LOGGING_CONSOLE_COLORS
+CLEAR_ON_RUN = config.LOGGING_CLEAR_ON_RUN
 
 # Clear entire logs directory if configured (before any loggers are initialized)
 if CLEAR_ON_RUN and LOG_DIR.exists():

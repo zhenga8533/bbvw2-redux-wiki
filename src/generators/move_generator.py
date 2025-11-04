@@ -16,7 +16,8 @@ from pathlib import Path
 from typing import Optional
 
 from src.data.pokedb_loader import PokeDBLoader
-from src.models.pokedb import Move, Pokemon
+from src.models.pokedb import Move
+from src.utils.core.config import VERSION_GROUP
 from src.utils.formatters.markdown_formatter import (
     format_pokemon_card_grid,
     format_type_badge,
@@ -24,16 +25,11 @@ from src.utils.formatters.markdown_formatter import (
 from src.utils.data.constants import (
     DAMAGE_CLASS_ICONS,
     POKEMON_FORM_SUBFOLDERS_STANDARD,
-    TYPE_COLORS,
-    PRIMARY_VERSION,
-    FALLBACK_VERSION,
 )
 from src.utils.data.pokemon_util import iterate_pokemon
 from src.utils.formatters.table_formatter import create_move_index_table
 from src.utils.text.text_util import format_display_name
 from src.utils.formatters.yaml_formatter import (
-    load_mkdocs_config,
-    save_mkdocs_config,
     update_pokedex_subsection,
 )
 
@@ -142,7 +138,7 @@ class MoveGenerator(BaseGenerator):
         md = ""
 
         display_name = format_display_name(move.name)
-        move_type = getattr(move.type, PRIMARY_VERSION, None) or "???"
+        move_type = getattr(move.type, VERSION_GROUP, None) or "???"
         category = move.damage_class.title() if move.damage_class else "Unknown"
 
         md += "<div>\n"
@@ -161,12 +157,12 @@ class MoveGenerator(BaseGenerator):
         """Generate the move stats section with type, category, power, accuracy, PP, etc."""
         md = "## :material-chart-box: Stats\n\n"
 
-        # Get stats (prioritize Black 2 & White 2)
-        move_type = getattr(move.type, PRIMARY_VERSION, None) or "???"
+        # Get stats
+        move_type = getattr(move.type, VERSION_GROUP, None) or "???"
         category = move.damage_class.title() if move.damage_class else "Unknown"
-        power = getattr(move.power, PRIMARY_VERSION, None)
-        accuracy = getattr(move.accuracy, PRIMARY_VERSION, None)
-        pp = getattr(move.pp, PRIMARY_VERSION, None)
+        power = getattr(move.power, VERSION_GROUP, None)
+        accuracy = getattr(move.accuracy, VERSION_GROUP, None)
+        pp = getattr(move.pp, VERSION_GROUP, None)
         priority = move.priority
 
         # Use grid cards for a cleaner layout
@@ -226,9 +222,7 @@ class MoveGenerator(BaseGenerator):
         # Full effect
         if move.effect:
             # Try to get version-specific effect, fallback to first available
-            effect_text = getattr(move.effect, PRIMARY_VERSION, None) or getattr(
-                move.effect, FALLBACK_VERSION, None
-            )
+            effect_text = getattr(move.effect, VERSION_GROUP, None)
 
             if effect_text:
                 md += f'!!! info "Description"\n\n'
@@ -237,11 +231,8 @@ class MoveGenerator(BaseGenerator):
         # Short effect (handle GameVersionStringMap object)
         if move.short_effect:
             short_effect_text = None
-            if hasattr(move.short_effect, PRIMARY_VERSION):
-                short_effect_text = (
-                    getattr(move.short_effect, PRIMARY_VERSION, None) or
-                    getattr(move.short_effect, FALLBACK_VERSION, None)
-                )
+            if hasattr(move.short_effect, VERSION_GROUP):
+                short_effect_text = getattr(move.short_effect, VERSION_GROUP, None)
             else:
                 short_effect_text = str(move.short_effect)
 
@@ -259,7 +250,7 @@ class MoveGenerator(BaseGenerator):
         """Generate the flavor text section."""
         md = "## :material-book-open: In-Game Description\n\n"
 
-        flavor_text = getattr(move.flavor_text, PRIMARY_VERSION, None)
+        flavor_text = getattr(move.flavor_text, VERSION_GROUP, None)
         version = "Black 2 & White 2"
 
         if flavor_text:
@@ -467,20 +458,20 @@ class MoveGenerator(BaseGenerator):
                 name = format_display_name(move.name)
                 link = f"[{name}](moves/{move.name}.md)"
 
-                move_type = getattr(move.type, PRIMARY_VERSION, None) or "???"
+                move_type = getattr(move.type, VERSION_GROUP, None) or "???"
                 type_badge = format_type_badge(move_type)
 
                 category_icon = DAMAGE_CLASS_ICONS.get(move.damage_class, "")
 
-                power = getattr(move.power, PRIMARY_VERSION, None)
+                power = getattr(move.power, VERSION_GROUP, None)
                 power_str = str(power) if power is not None and power > 0 else "—"
 
-                accuracy = getattr(move.accuracy, PRIMARY_VERSION, None)
+                accuracy = getattr(move.accuracy, VERSION_GROUP, None)
                 accuracy_str = (
                     str(accuracy) if accuracy is not None and accuracy > 0 else "—"
                 )
 
-                pp = getattr(move.pp, PRIMARY_VERSION, None)
+                pp = getattr(move.pp, VERSION_GROUP, None)
                 pp_str = str(pp) if pp is not None and pp > 0 else "—"
 
                 rows.append(
@@ -499,20 +490,20 @@ class MoveGenerator(BaseGenerator):
                 name = format_display_name(move.name)
                 link = f"[{name}](moves/{move.name}.md)"
 
-                move_type = getattr(move.type, PRIMARY_VERSION, None) or "???"
+                move_type = getattr(move.type, VERSION_GROUP, None) or "???"
                 type_badge = format_type_badge(move_type)
 
                 category_icon = DAMAGE_CLASS_ICONS.get(move.damage_class, "")
 
-                power = getattr(move.power, PRIMARY_VERSION, None)
+                power = getattr(move.power, VERSION_GROUP, None)
                 power_str = str(power) if power is not None and power > 0 else "—"
 
-                accuracy = getattr(move.accuracy, PRIMARY_VERSION, None)
+                accuracy = getattr(move.accuracy, VERSION_GROUP, None)
                 accuracy_str = (
                     str(accuracy) if accuracy is not None and accuracy > 0 else "—"
                 )
 
-                pp = getattr(move.pp, PRIMARY_VERSION, None)
+                pp = getattr(move.pp, VERSION_GROUP, None)
                 pp_str = str(pp) if pp is not None and pp > 0 else "—"
 
                 rows.append(

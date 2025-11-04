@@ -4,10 +4,10 @@ PokeDB data structures for parsing JSON files from the PokeDB repository.
 This module defines dataclasses that correspond to the JSON structure of
 Pokémon, items, moves, and abilities data.
 
-To change the target generation, edit src/config.json under "pokedb":
-  - version_groups: List of version group keys (e.g., ["black_white", "black_2_white_2"])
-  - game_versions: List of individual game version keys (e.g., ["black", "white", "black_2", "white_2"])
-  - sprite_version: The sprite version key to use (e.g., "black_white")
+To change the target generation, edit src/utils/core/config.py:
+  - POKEDB_VERSION_GROUPS: List of version group keys (e.g., ["black_white", "black_2_white_2"])
+  - POKEDB_GAME_VERSIONS: List of individual game version keys (e.g., ["black", "white", "black_2", "white_2"])
+  - POKEDB_SPRITE_VERSION: The sprite version key to use (e.g., "black_white")
 
 Then update the hardcoded attributes in:
   - GameVersionStringMap
@@ -50,28 +50,23 @@ MAX_DRAIN_HEALING = 100
 
 
 # Generation-Specific Configuration
-# These are loaded from config.json at module import time
+# These are loaded from config at module import time
 def _load_generation_config():
-    """Load generation-specific configuration from config.json."""
+    """Load generation-specific configuration from config constants."""
     try:
-        from src.utils.core.config import get_config
-
-        config = get_config()
-        pokedb_config = config.get("pokedb", {})
+        from src.utils.core.config import (
+            POKEDB_VERSION_GROUPS,
+            POKEDB_GAME_VERSIONS,
+            POKEDB_SPRITE_VERSION,
+        )
 
         return {
-            "version_groups": set(
-                pokedb_config.get("version_groups", ["black_white", "black_2_white_2"])
-            ),
-            "game_versions": set(
-                pokedb_config.get(
-                    "game_versions", ["black", "white", "black_2", "white_2"]
-                )
-            ),
-            "sprite_version": pokedb_config.get("sprite_version", "black_white"),
+            "version_groups": set(POKEDB_VERSION_GROUPS),
+            "game_versions": set(POKEDB_GAME_VERSIONS),
+            "sprite_version": POKEDB_SPRITE_VERSION,
         }
-    except Exception:
-        # Fallback to defaults if config cannot be loaded
+    except ImportError:
+        # Fallback to defaults if circular import occurs during package initialization
         return {
             "version_groups": {"black_white", "black_2_white_2"},
             "game_versions": {"black", "white", "black_2", "white_2"},

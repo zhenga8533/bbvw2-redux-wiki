@@ -12,20 +12,7 @@ from typing import Dict
 # Type-Related Constants
 # ============================================================================
 
-# IMPORTANT: These colors MUST match the CSS type badge colors defined in:
-#   docs/stylesheets/pokemon.css (lines 45-62)
-#
-# When updating these colors:
-# 1. Update both this dict AND the corresponding CSS classes (.type-{type})
-# 2. Run: grep -n "type-{type}" docs/stylesheets/pokemon.css to find the CSS rule
-# 3. Ensure color consistency across Python badge generation and CSS styling
-#
-# The CSS uses these colors with a gradient effect:
-#   background: linear-gradient(135deg, {COLOR}, {COLOR}dd);
-# where 'dd' adds transparency to create depth.
-
 TYPE_COLORS: Dict[str, str] = {
-    # Hex color codes for Pokemon type badges
     "normal": "#A8A878",
     "fire": "#F08030",
     "water": "#6890F0",
@@ -100,26 +87,3 @@ DAMAGE_CLASS_ICONS: Dict[str, str] = {
     "special": ":material-auto-fix:",
     "status": ":material-shield-outline:",
 }
-
-# ============================================================================
-# Game Version Constants
-# ============================================================================
-
-# Primary game version for this wiki (Blaze Black 2 & Volt White 2 Redux)
-PRIMARY_VERSION = "black_2_white_2"
-
-# Fallback game version when primary data is not available
-FALLBACK_VERSION = "black_white"
-
-# Individual game version keys (for GameStringMap access)
-GAME_VERSION_BLACK_2 = "black_2"
-GAME_VERSION_WHITE_2 = "white_2"
-GAME_VERSION_BLACK = "black"
-GAME_VERSION_WHITE = "white"
-
-# ============================================================================
-# Path Constants
-# ============================================================================
-
-# Default relative path from subdirectory pages to docs root (for use_directory_urls: true)
-DEFAULT_RELATIVE_PATH = "../.."

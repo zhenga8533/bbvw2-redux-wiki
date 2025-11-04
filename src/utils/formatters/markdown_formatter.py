@@ -9,7 +9,6 @@ from src.data.pokedb_loader import PokeDBLoader
 from src.models.pokedb import Pokemon
 from src.utils.text.text_util import format_display_name, name_to_id
 from src.utils.data.constants import (
-    DEFAULT_RELATIVE_PATH,
     TYPE_COLORS,
 )
 
@@ -63,7 +62,7 @@ def format_type_badge(type_name: str) -> str:
 def format_ability(
     ability_name: str,
     is_linked: bool = True,
-    relative_path: str = DEFAULT_RELATIVE_PATH,
+    relative_path: str = "../..",
 ) -> str:
     """
     Format an ability name with optional link to its page.
@@ -101,7 +100,7 @@ def format_pokemon(
     has_sprite: bool = True,
     is_animated: bool = True,
     is_linked: bool = True,
-    relative_path: str = DEFAULT_RELATIVE_PATH,
+    relative_path: str = "../..",
 ) -> str:
     """
     Format a Pokemon name with its sprite stacked on top, optionally has_link to its Pokedex page.
@@ -162,7 +161,7 @@ def format_item(
     item_name: str,
     has_sprite: bool = True,
     is_linked: bool = True,
-    relative_path: str = DEFAULT_RELATIVE_PATH,
+    relative_path: str = "../..",
     html_mode: bool = False,
 ) -> str:
     """
@@ -220,7 +219,7 @@ def format_item(
 def format_move(
     move_name: str,
     is_linked: bool = True,
-    relative_path: str = DEFAULT_RELATIVE_PATH,
+    relative_path: str = "../..",
     html_mode: bool = False,
 ) -> str:
     """

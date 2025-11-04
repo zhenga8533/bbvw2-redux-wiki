@@ -21,6 +21,7 @@ from typing import Any, Optional, cast
 
 from src.data.pokedb_loader import PokeDBLoader
 from src.models.pokedb import Move, Pokemon
+from src.utils.core.config import GAME_VERSION_1, GAME_VERSION_2, VERSION_GROUP
 from src.utils.formatters.markdown_formatter import (
     format_ability,
     format_item,
@@ -34,10 +35,6 @@ from src.utils.data.constants import (
     GENERATION_ORDER,
     POKEMON_FORM_SUBFOLDERS_ALL,
     TYPE_COLORS,
-    PRIMARY_VERSION,
-    FALLBACK_VERSION,
-    GAME_VERSION_BLACK_2,
-    GAME_VERSION_WHITE_2,
 )
 from src.utils.formatters.table_formatter import (
     create_held_items_table,
@@ -943,19 +940,19 @@ class PokemonGenerator(BaseGenerator):
 
             if move_data:
                 # Get move details
-                move_type = getattr(move_data.type, PRIMARY_VERSION, None) or "???"
+                move_type = getattr(move_data.type, VERSION_GROUP, None) or "???"
                 type_badge = format_type_badge(move_type)
 
                 damage_class = move_data.damage_class
                 category_icon = damage_class_icons.get(damage_class, "")
 
-                power = getattr(move_data.power, PRIMARY_VERSION, None)
+                power = getattr(move_data.power, VERSION_GROUP, None)
                 power_str = str(power) if power is not None else "—"
 
-                accuracy = getattr(move_data.accuracy, PRIMARY_VERSION, None)
+                accuracy = getattr(move_data.accuracy, VERSION_GROUP, None)
                 accuracy_str = str(accuracy) if accuracy is not None else "—"
 
-                pp = getattr(move_data.pp, PRIMARY_VERSION, None)
+                pp = getattr(move_data.pp, VERSION_GROUP, None)
                 pp_str = str(pp) if pp is not None else "—"
 
                 if include_level:
@@ -1065,13 +1062,14 @@ class PokemonGenerator(BaseGenerator):
 
         # Pokemon flavor_text uses GameStringMap (individual game versions)
         # Prioritize Black 2 & White 2 since this is a B2W2 Redux wiki
-        has_b2w2 = getattr(pokemon.flavor_text, GAME_VERSION_BLACK_2, None) or getattr(pokemon.flavor_text, GAME_VERSION_WHITE_2, None)
-        has_bw = pokemon.flavor_text.black or pokemon.flavor_text.white
+        has_b2w2 = getattr(pokemon.flavor_text, GAME_VERSION_1, None) or getattr(
+            pokemon.flavor_text, GAME_VERSION_2, None
+        )
 
         if has_b2w2:
             # Show Black 2 & White 2 (main focus)
             md += '=== ":material-numeric-2-circle-outline: Black 2"\n\n'
-            black_2_text = getattr(pokemon.flavor_text, GAME_VERSION_BLACK_2, None)
+            black_2_text = getattr(pokemon.flavor_text, GAME_VERSION_1, None)
             if black_2_text:
                 md += f'\t!!! quote ""\n\n'
                 md += f"\t\t{black_2_text}\n\n"
@@ -1079,7 +1077,7 @@ class PokemonGenerator(BaseGenerator):
                 md += "\t*No entry available*\n\n"
 
             md += '=== ":material-numeric-2-circle: White 2"\n\n'
-            white_2_text = getattr(pokemon.flavor_text, GAME_VERSION_WHITE_2, None)
+            white_2_text = getattr(pokemon.flavor_text, GAME_VERSION_2, None)
             if white_2_text:
                 md += f'\t!!! quote ""\n\n'
                 md += f"\t\t{white_2_text}\n\n"

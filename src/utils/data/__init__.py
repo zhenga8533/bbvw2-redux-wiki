@@ -8,7 +8,6 @@ from .constants import (
     GENERATION_ORDER,
     POKEMON_FORM_SUBFOLDERS_ALL,
     POKEMON_FORM_SUBFOLDERS_STANDARD,
-    DEFAULT_RELATIVE_PATH,
 )
 from .type_effectiveness import calculate_type_effectiveness, TYPE_CHART
 from .pokemon_util import iterate_pokemon
@@ -22,7 +21,6 @@ __all__ = [
     "GENERATION_ORDER",
     "POKEMON_FORM_SUBFOLDERS_ALL",
     "POKEMON_FORM_SUBFOLDERS_STANDARD",
-    "DEFAULT_RELATIVE_PATH",
     # Type effectiveness
     "calculate_type_effectiveness",
     "TYPE_CHART",

@@ -15,12 +15,11 @@ from pathlib import Path
 from typing import Optional
 
 from src.data.pokedb_loader import PokeDBLoader
-from src.models.pokedb import Item, Pokemon
+from src.models.pokedb import Item
+from src.utils.core.config import VERSION_GROUP
 from src.utils.data.constants import (
     ITEM_NAME_SPECIAL_CASES,
     POKEMON_FORM_SUBFOLDERS_STANDARD,
-    PRIMARY_VERSION,
-    FALLBACK_VERSION,
 )
 from src.utils.data.pokemon_util import iterate_pokemon
 from src.utils.formatters.table_formatter import (
@@ -149,9 +148,7 @@ class ItemGenerator(BaseGenerator):
         # Full effect
         if item.effect:
             # Try to get version-specific effect, fallback to first available
-            effect_text = getattr(item.effect, PRIMARY_VERSION, None) or getattr(
-                item.effect, FALLBACK_VERSION, None
-            )
+            effect_text = getattr(item.effect, VERSION_GROUP, None)
 
             if effect_text:
                 md += f'!!! info "Description"\n\n'
@@ -172,7 +169,7 @@ class ItemGenerator(BaseGenerator):
         """Generate the flavor text section."""
         md = "## :material-book-open: In-Game Description\n\n"
 
-        flavor_text = getattr(item.flavor_text, PRIMARY_VERSION, None)
+        flavor_text = getattr(item.flavor_text, VERSION_GROUP, None)
         version = "Black 2 & White 2"
 
         if flavor_text:
