@@ -5,13 +5,12 @@ This module provides helpers for creating consistent markdown elements
 like Pokemon displays with sprites and links.
 """
 
-from typing import Optional, Union
+from typing import Union
 
 from src.data.pokedb_loader import PokeDBLoader
 from src.models.pokedb import Pokemon
 from src.utils.text.text_util import format_display_name, name_to_id
 from src.utils.data.constants import (
-    ITEM_NAME_SPECIAL_CASES,
     DEFAULT_RELATIVE_PATH,
     TYPE_COLORS,
 )
@@ -37,6 +36,9 @@ def format_type_badge(type_name: str) -> str:
     This function consolidates the type badge formatting logic previously
     duplicated in pokemon_generator and move_generator (_format_type methods).
 
+    The badge styling is defined in docs/stylesheets/extra.css (.type-badge class),
+    with only the dynamic background gradient applied as inline style.
+
     Args:
         type_name: The type name to format (e.g., "fire", "water", "grass")
 
@@ -45,27 +47,19 @@ def format_type_badge(type_name: str) -> str:
 
     Example:
         >>> format_type_badge("fire")
-        '<span style="...">Fire</span>'
+        '<span class="type-badge" style="background: ...">Fire</span>'
     """
     formatted_name = type_name.title()
     type_color = TYPE_COLORS.get(type_name.lower(), "#777777")
 
-    # Create a styled badge with gradient background, padding, and rounded corners
-    badge_style = (
+    # Apply only the dynamic background gradient as inline style
+    background_style = (
         f"background: linear-gradient(135deg, {type_color} 0%, {type_color}dd 100%);"
-        f"color: white;"
-        f"padding: 0.25rem 0.75rem;"
-        f"border-radius: 12px;"
-        f"font-size: 0.75rem;"
-        f"font-weight: 600;"
-        f"text-transform: uppercase;"
-        f"display: inline-block;"
-        f"text-align: center;"
-        f"text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);"
-        f"box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);"
     )
 
-    return f'<span style="{badge_style}">{formatted_name}</span>'
+    return (
+        f'<span class="type-badge" style="{background_style}">{formatted_name}</span>'
+    )
 
 
 def format_ability(
