@@ -102,6 +102,22 @@ DAMAGE_CLASS_ICONS: Dict[str, str] = {
 }
 
 # ============================================================================
+# Game Version Constants
+# ============================================================================
+
+# Primary game version for this wiki (Blaze Black 2 & Volt White 2 Redux)
+PRIMARY_VERSION = "black_2_white_2"
+
+# Fallback game version when primary data is not available
+FALLBACK_VERSION = "black_white"
+
+# Individual game version keys (for GameStringMap access)
+GAME_VERSION_BLACK_2 = "black_2"
+GAME_VERSION_WHITE_2 = "white_2"
+GAME_VERSION_BLACK = "black"
+GAME_VERSION_WHITE = "white"
+
+# ============================================================================
 # Path Constants
 # ============================================================================
 

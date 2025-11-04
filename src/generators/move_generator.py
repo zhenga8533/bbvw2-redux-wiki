@@ -13,7 +13,7 @@ This generator:
 
 from collections import defaultdict
 from pathlib import Path
-from typing import Dict, List, Optional
+from typing import Optional
 
 from src.data.pokedb_loader import PokeDBLoader
 from src.models.pokedb import Move, Pokemon
@@ -25,6 +25,8 @@ from src.utils.data.constants import (
     DAMAGE_CLASS_ICONS,
     POKEMON_FORM_SUBFOLDERS_STANDARD,
     TYPE_COLORS,
+    PRIMARY_VERSION,
+    FALLBACK_VERSION,
 )
 from src.utils.data.pokemon_util import iterate_pokemon
 from src.utils.formatters.table_formatter import create_move_index_table
@@ -67,7 +69,7 @@ class MoveGenerator(BaseGenerator):
         self.output_dir = self.output_dir / "moves"
         self.output_dir.mkdir(parents=True, exist_ok=True)
 
-    def _build_pokemon_move_cache(self) -> Dict[str, Dict[str, List[Dict]]]:
+    def _build_pokemon_move_cache(self) -> dict[str, dict[str, list[dict]]]:
         """
         Build a cache mapping move names to Pokemon that can learn them.
 
@@ -140,7 +142,7 @@ class MoveGenerator(BaseGenerator):
         md = ""
 
         display_name = format_display_name(move.name)
-        move_type = move.type.black_2_white_2 or "???"
+        move_type = getattr(move.type, PRIMARY_VERSION, None) or "???"
         category = move.damage_class.title() if move.damage_class else "Unknown"
 
         md += "<div>\n"
@@ -160,11 +162,11 @@ class MoveGenerator(BaseGenerator):
         md = "## :material-chart-box: Stats\n\n"
 
         # Get stats (prioritize Black 2 & White 2)
-        move_type = move.type.black_2_white_2 or "???"
+        move_type = getattr(move.type, PRIMARY_VERSION, None) or "???"
         category = move.damage_class.title() if move.damage_class else "Unknown"
-        power = move.power.black_2_white_2
-        accuracy = move.accuracy.black_2_white_2
-        pp = move.pp.black_2_white_2
+        power = getattr(move.power, PRIMARY_VERSION, None)
+        accuracy = getattr(move.accuracy, PRIMARY_VERSION, None)
+        pp = getattr(move.pp, PRIMARY_VERSION, None)
         priority = move.priority
 
         # Use grid cards for a cleaner layout
@@ -224,8 +226,8 @@ class MoveGenerator(BaseGenerator):
         # Full effect
         if move.effect:
             # Try to get version-specific effect, fallback to first available
-            effect_text = getattr(move.effect, "black_2_white_2", None) or getattr(
-                move.effect, "black_white", None
+            effect_text = getattr(move.effect, PRIMARY_VERSION, None) or getattr(
+                move.effect, FALLBACK_VERSION, None
             )
 
             if effect_text:
@@ -235,9 +237,10 @@ class MoveGenerator(BaseGenerator):
         # Short effect (handle GameVersionStringMap object)
         if move.short_effect:
             short_effect_text = None
-            if hasattr(move.short_effect, "black_2_white_2"):
+            if hasattr(move.short_effect, PRIMARY_VERSION):
                 short_effect_text = (
-                    move.short_effect.black_2_white_2 or move.short_effect.black_white
+                    getattr(move.short_effect, PRIMARY_VERSION, None) or
+                    getattr(move.short_effect, FALLBACK_VERSION, None)
                 )
             else:
                 short_effect_text = str(move.short_effect)
@@ -256,7 +259,7 @@ class MoveGenerator(BaseGenerator):
         """Generate the flavor text section."""
         md = "## :material-book-open: In-Game Description\n\n"
 
-        flavor_text = move.flavor_text.black_2_white_2
+        flavor_text = getattr(move.flavor_text, PRIMARY_VERSION, None)
         version = "Black 2 & White 2"
 
         if flavor_text:
@@ -268,7 +271,7 @@ class MoveGenerator(BaseGenerator):
         return md
 
     def _generate_pokemon_section(
-        self, move_name: str, cache: Optional[Dict[str, Dict[str, List[Dict]]]] = None
+        self, move_name: str, cache: Optional[dict[str, dict[str, list[dict]]]] = None
     ) -> str:
         """Generate the section showing which Pokemon can learn this move."""
         md = "## :material-pokeball: Learning Pokémon\n\n"
@@ -319,7 +322,7 @@ class MoveGenerator(BaseGenerator):
         return md
 
     def generate_move_page(
-        self, move: Move, cache: Optional[Dict[str, Dict[str, List[Dict]]]] = None
+        self, move: Move, cache: Optional[dict[str, dict[str, list[dict]]]] = None
     ) -> Path:
         """
         Generate a markdown page for a single move.
@@ -351,7 +354,7 @@ class MoveGenerator(BaseGenerator):
         self.logger.info(f"Generated page for {display_name}: {output_file}")
         return output_file
 
-    def generate_all_move_pages(self) -> List[Path]:
+    def generate_all_move_pages(self) -> list[Path]:
         """
         Generate markdown pages for all moves in the database.
 
@@ -464,20 +467,20 @@ class MoveGenerator(BaseGenerator):
                 name = format_display_name(move.name)
                 link = f"[{name}](moves/{move.name}.md)"
 
-                move_type = move.type.black_2_white_2 or "???"
+                move_type = getattr(move.type, PRIMARY_VERSION, None) or "???"
                 type_badge = format_type_badge(move_type)
 
                 category_icon = DAMAGE_CLASS_ICONS.get(move.damage_class, "")
 
-                power = move.power.black_2_white_2
+                power = getattr(move.power, PRIMARY_VERSION, None)
                 power_str = str(power) if power is not None and power > 0 else "—"
 
-                accuracy = move.accuracy.black_2_white_2
+                accuracy = getattr(move.accuracy, PRIMARY_VERSION, None)
                 accuracy_str = (
                     str(accuracy) if accuracy is not None and accuracy > 0 else "—"
                 )
 
-                pp = move.pp.black_2_white_2
+                pp = getattr(move.pp, PRIMARY_VERSION, None)
                 pp_str = str(pp) if pp is not None and pp > 0 else "—"
 
                 rows.append(
@@ -496,20 +499,20 @@ class MoveGenerator(BaseGenerator):
                 name = format_display_name(move.name)
                 link = f"[{name}](moves/{move.name}.md)"
 
-                move_type = move.type.black_2_white_2 or "???"
+                move_type = getattr(move.type, PRIMARY_VERSION, None) or "???"
                 type_badge = format_type_badge(move_type)
 
                 category_icon = DAMAGE_CLASS_ICONS.get(move.damage_class, "")
 
-                power = move.power.black_2_white_2
+                power = getattr(move.power, PRIMARY_VERSION, None)
                 power_str = str(power) if power is not None and power > 0 else "—"
 
-                accuracy = move.accuracy.black_2_white_2
+                accuracy = getattr(move.accuracy, PRIMARY_VERSION, None)
                 accuracy_str = (
                     str(accuracy) if accuracy is not None and accuracy > 0 else "—"
                 )
 
-                pp = move.pp.black_2_white_2
+                pp = getattr(move.pp, PRIMARY_VERSION, None)
                 pp_str = str(pp) if pp is not None and pp > 0 else "—"
 
                 rows.append(
@@ -536,13 +539,6 @@ class MoveGenerator(BaseGenerator):
         """
         try:
             mkdocs_path = self.project_root / "mkdocs.yml"
-
-            if not mkdocs_path.exists():
-                self.logger.error(f"mkdocs.yml not found at {mkdocs_path}")
-                return False
-
-            # Load current mkdocs.yml
-            config = load_mkdocs_config(mkdocs_path)
 
             # Get all moves
             move_dir = self.project_root / "data" / "pokedb" / "parsed" / "move"
@@ -602,55 +598,17 @@ class MoveGenerator(BaseGenerator):
                 ]
                 moves_nav_items.append({"Unknown": unknown_nav})  # type: ignore
 
-            # Find and update Pokédex section in nav
-            if "nav" not in config:
-                raise ValueError("mkdocs.yml does not contain a 'nav' section")
+            # Use shared utility to update mkdocs navigation
+            success = update_pokedex_subsection(
+                mkdocs_path, "Moves", moves_nav_items, self.logger
+            )
 
-            nav_list = config["nav"]
-            pokedex_index = None
-
-            # Find the Pokédex section
-            for i, item in enumerate(nav_list):
-                if isinstance(item, dict) and "Pokédex" in item:
-                    pokedex_index = i
-                    break
-
-            if pokedex_index is None:
-                raise ValueError(
-                    "mkdocs.yml nav section does not contain 'Pokédex'. "
-                    "Please add a 'Pokédex' section to the navigation first."
+            if success:
+                self.logger.info(
+                    f"Updated mkdocs.yml with {len(moves)} moves organized into {len(moves_by_damage_class)} damage class sections"
                 )
 
-            # Get the Pokédex navigation items
-            pokedex_nav = nav_list[pokedex_index]["Pokédex"]
-            if not isinstance(pokedex_nav, list):
-                pokedex_nav = []
-
-            # Find or create Moves subsection within Pokédex
-            moves_subsection_index = None
-            for i, item in enumerate(pokedex_nav):
-                if isinstance(item, dict) and "Moves" in item:
-                    moves_subsection_index = i
-                    break
-
-            # Update or append Moves subsection
-            moves_subsection = {"Moves": moves_nav_items}
-            if moves_subsection_index is not None:
-                pokedex_nav[moves_subsection_index] = moves_subsection
-            else:
-                pokedex_nav.append(moves_subsection)
-
-            # Update the config
-            nav_list[pokedex_index] = {"Pokédex": pokedex_nav}
-            config["nav"] = nav_list
-
-            # Write updated mkdocs.yml
-            save_mkdocs_config(mkdocs_path, config)
-
-            self.logger.info(
-                f"Updated mkdocs.yml with {len(moves)} moves organized into {len(moves_by_damage_class)} damage class sections"
-            )
-            return True
+            return success
 
         except Exception as e:
             self.logger.error(f"Failed to update mkdocs.yml: {e}", exc_info=True)

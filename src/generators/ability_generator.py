@@ -13,13 +13,15 @@ This generator:
 
 from collections import defaultdict
 from pathlib import Path
-from typing import Dict, List, Optional, Union
+from typing import Optional
 
 from src.data.pokedb_loader import PokeDBLoader
 from src.models.pokedb import Ability, Pokemon
 from src.utils.data.constants import (
     GENERATION_DISPLAY_NAMES,
     POKEMON_FORM_SUBFOLDERS_STANDARD,
+    PRIMARY_VERSION,
+    FALLBACK_VERSION,
 )
 from src.utils.data.pokemon_util import iterate_pokemon
 from src.utils.formatters.table_formatter import create_ability_index_table
@@ -61,7 +63,7 @@ class AbilityGenerator(BaseGenerator):
         self.output_dir = self.output_dir / "abilities"
         self.output_dir.mkdir(parents=True, exist_ok=True)
 
-    def _build_pokemon_ability_cache(self) -> Dict[str, Dict[str, list[Pokemon]]]:
+    def _build_pokemon_ability_cache(self) -> dict[str, dict[str, list[Pokemon]]]:
         """
         Build a cache mapping ability names to Pokemon that have them.
 
@@ -110,8 +112,8 @@ class AbilityGenerator(BaseGenerator):
     def _get_pokemon_with_ability(
         self,
         ability_name: str,
-        cache: Optional[Dict[str, Dict[str, list[Pokemon]]]] = None,
-    ) -> Dict[str, list[Pokemon]]:
+        cache: Optional[dict[str, dict[str, list[Pokemon]]]] = None,
+    ) -> dict[str, list[Pokemon]]:
         """
         Get all Pokemon that have this ability.
 
@@ -181,7 +183,7 @@ class AbilityGenerator(BaseGenerator):
         return {"normal": normal_pokemon, "hidden": hidden_pokemon}
 
     def _generate_pokemon_section(
-        self, pokemon_with_ability: Dict[str, list[Pokemon]]
+        self, pokemon_with_ability: dict[str, list[Pokemon]]
     ) -> str:
         """Generate the Pokemon list section showing which Pokemon have this ability."""
         md = "## :material-pokeball: Pokémon with this Ability\n\n"
@@ -214,8 +216,8 @@ class AbilityGenerator(BaseGenerator):
         # Full effect
         if ability.effect:
             # Try to get version-specific effect, fallback to first available
-            effect_text = getattr(ability.effect, "black_2_white_2", None) or getattr(
-                ability.effect, "black_white", None
+            effect_text = getattr(ability.effect, PRIMARY_VERSION, None) or getattr(
+                ability.effect, FALLBACK_VERSION, None
             )
 
             if effect_text:
@@ -237,7 +239,7 @@ class AbilityGenerator(BaseGenerator):
         """Generate the flavor text section."""
         md = "## :material-book-open: In-Game Description\n\n"
 
-        flavor_text = ability.flavor_text.black_2_white_2
+        flavor_text = getattr(ability.flavor_text, PRIMARY_VERSION, None)
         version = "Black 2 & White 2"
 
         if flavor_text:
@@ -251,7 +253,7 @@ class AbilityGenerator(BaseGenerator):
     def generate_ability_page(
         self,
         ability: Ability,
-        cache: Optional[Dict[str, Dict[str, list[Pokemon]]]] = None,
+        cache: Optional[dict[str, dict[str, list[Pokemon]]]] = None,
     ) -> Path:
         """
         Generate a markdown page for a single ability.
@@ -436,13 +438,6 @@ class AbilityGenerator(BaseGenerator):
         try:
             mkdocs_path = self.project_root / "mkdocs.yml"
 
-            if not mkdocs_path.exists():
-                self.logger.error(f"mkdocs.yml not found at {mkdocs_path}")
-                return False
-
-            # Load current mkdocs.yml
-            config = load_mkdocs_config(mkdocs_path)
-
             # Get all abilities
             ability_dir = self.project_root / "data" / "pokedb" / "parsed" / "ability"
             ability_files = sorted(ability_dir.glob("*.json"))
@@ -492,55 +487,17 @@ class AbilityGenerator(BaseGenerator):
                 ]
                 abilities_nav_items.append({"Unknown": unknown_nav})  # type: ignore
 
-            # Find and update Pokédex section in nav
-            if "nav" not in config:
-                raise ValueError("mkdocs.yml does not contain a 'nav' section")
+            # Use shared utility to update mkdocs navigation
+            success = update_pokedex_subsection(
+                mkdocs_path, "Abilities", abilities_nav_items, self.logger
+            )
 
-            nav_list = config["nav"]
-            pokedex_index = None
-
-            # Find the Pokédex section
-            for i, item in enumerate(nav_list):
-                if isinstance(item, dict) and "Pokédex" in item:
-                    pokedex_index = i
-                    break
-
-            if pokedex_index is None:
-                raise ValueError(
-                    "mkdocs.yml nav section does not contain 'Pokédex'. "
-                    "Please add a 'Pokédex' section to the navigation first."
+            if success:
+                self.logger.info(
+                    f"Updated mkdocs.yml with {len(abilities)} abilities organized into {len(abilities_by_generation)} generation sections"
                 )
 
-            # Get the Pokédex navigation items
-            pokedex_nav = nav_list[pokedex_index]["Pokédex"]
-            if not isinstance(pokedex_nav, list):
-                pokedex_nav = []
-
-            # Find or create Abilities subsection within Pokédex
-            abilities_subsection_index = None
-            for i, item in enumerate(pokedex_nav):
-                if isinstance(item, dict) and "Abilities" in item:
-                    abilities_subsection_index = i
-                    break
-
-            # Update or append Abilities subsection
-            abilities_subsection = {"Abilities": abilities_nav_items}
-            if abilities_subsection_index is not None:
-                pokedex_nav[abilities_subsection_index] = abilities_subsection
-            else:
-                pokedex_nav.append(abilities_subsection)
-
-            # Update the config
-            nav_list[pokedex_index] = {"Pokédex": pokedex_nav}
-            config["nav"] = nav_list
-
-            # Write updated mkdocs.yml
-            save_mkdocs_config(mkdocs_path, config)
-
-            self.logger.info(
-                f"Updated mkdocs.yml with {len(abilities)} abilities organized into {len(abilities_by_generation)} generation sections"
-            )
-            return True
+            return success
 
         except Exception as e:
             self.logger.error(f"Failed to update mkdocs.yml: {e}", exc_info=True)

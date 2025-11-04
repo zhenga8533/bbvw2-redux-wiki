@@ -12,13 +12,15 @@ This generator:
 """
 
 from pathlib import Path
-from typing import Dict, List, Optional
+from typing import Optional
 
 from src.data.pokedb_loader import PokeDBLoader
 from src.models.pokedb import Item, Pokemon
 from src.utils.data.constants import (
     ITEM_NAME_SPECIAL_CASES,
     POKEMON_FORM_SUBFOLDERS_STANDARD,
+    PRIMARY_VERSION,
+    FALLBACK_VERSION,
 )
 from src.utils.data.pokemon_util import iterate_pokemon
 from src.utils.formatters.table_formatter import (
@@ -62,7 +64,7 @@ class ItemGenerator(BaseGenerator):
         self.output_dir = self.output_dir / "items"
         self.output_dir.mkdir(parents=True, exist_ok=True)
 
-    def _build_pokemon_item_cache(self) -> Dict[str, List[Dict]]:
+    def _build_pokemon_item_cache(self) -> dict[str, list[dict]]:
         """
         Build a cache mapping item names to Pokemon that can hold them in the wild.
 
@@ -104,7 +106,7 @@ class ItemGenerator(BaseGenerator):
         return item_cache
 
     def _generate_pokemon_with_item_section(
-        self, item_name: str, cache: Optional[Dict[str, List[Dict]]] = None
+        self, item_name: str, cache: Optional[dict[str, list[dict]]] = None
     ) -> str:
         """Generate the section showing which Pokemon can hold this item in the wild."""
         md = "## :material-pokeball: Wild Pokémon Encounters\n\n"
@@ -147,8 +149,8 @@ class ItemGenerator(BaseGenerator):
         # Full effect
         if item.effect:
             # Try to get version-specific effect, fallback to first available
-            effect_text = getattr(item.effect, "black_2_white_2", None) or getattr(
-                item.effect, "black_white", None
+            effect_text = getattr(item.effect, PRIMARY_VERSION, None) or getattr(
+                item.effect, FALLBACK_VERSION, None
             )
 
             if effect_text:
@@ -170,7 +172,7 @@ class ItemGenerator(BaseGenerator):
         """Generate the flavor text section."""
         md = "## :material-book-open: In-Game Description\n\n"
 
-        flavor_text = item.flavor_text.black_2_white_2
+        flavor_text = getattr(item.flavor_text, PRIMARY_VERSION, None)
         version = "Black 2 & White 2"
 
         if flavor_text:
@@ -238,7 +240,7 @@ class ItemGenerator(BaseGenerator):
         return md
 
     def generate_item_page(
-        self, item: Item, cache: Optional[Dict[str, List[Dict]]] = None
+        self, item: Item, cache: Optional[dict[str, list[dict]]] = None
     ) -> Path:
         """
         Generate a markdown page for a single item.
@@ -273,7 +275,7 @@ class ItemGenerator(BaseGenerator):
         self.logger.info(f"Generated page for {display_name}: {output_file}")
         return output_file
 
-    def generate_all_item_pages(self) -> List[Path]:
+    def generate_all_item_pages(self) -> list[Path]:
         """
         Generate markdown pages for all items in the database.
 
@@ -469,13 +471,6 @@ class ItemGenerator(BaseGenerator):
         try:
             mkdocs_path = self.project_root / "mkdocs.yml"
 
-            if not mkdocs_path.exists():
-                self.logger.error(f"mkdocs.yml not found at {mkdocs_path}")
-                return False
-
-            # Load current mkdocs.yml
-            config = load_mkdocs_config(mkdocs_path)
-
             # Get all items
             item_dir = self.project_root / "data" / "pokedb" / "parsed" / "item"
             item_files = sorted(item_dir.glob("*.json"))
@@ -572,55 +567,17 @@ class ItemGenerator(BaseGenerator):
                     # Using type: ignore because mkdocs nav allows mixed dict value types
                     items_nav_items.append({display_name: context_nav})  # type: ignore
 
-            # Find and update Pokédex section in nav
-            if "nav" not in config:
-                raise ValueError("mkdocs.yml does not contain a 'nav' section")
+            # Use shared utility to update mkdocs navigation
+            success = update_pokedex_subsection(
+                mkdocs_path, "Items", items_nav_items, self.logger
+            )
 
-            nav_list = config["nav"]
-            pokedex_index = None
-
-            # Find the Pokédex section
-            for i, item in enumerate(nav_list):
-                if isinstance(item, dict) and "Pokédex" in item:
-                    pokedex_index = i
-                    break
-
-            if pokedex_index is None:
-                raise ValueError(
-                    "mkdocs.yml nav section does not contain 'Pokédex'. "
-                    "Please add a 'Pokédex' section to the navigation first."
+            if success:
+                self.logger.info(
+                    f"Updated mkdocs.yml with {len(items)} items organized into {len(items_by_context)} usage context sections"
                 )
 
-            # Get the Pokédex navigation items
-            pokedex_nav = nav_list[pokedex_index]["Pokédex"]
-            if not isinstance(pokedex_nav, list):
-                pokedex_nav = []
-
-            # Find or create Items subsection within Pokédex
-            items_subsection_index = None
-            for i, item in enumerate(pokedex_nav):
-                if isinstance(item, dict) and "Items" in item:
-                    items_subsection_index = i
-                    break
-
-            # Update or append Items subsection
-            items_subsection = {"Items": items_nav_items}
-            if items_subsection_index is not None:
-                pokedex_nav[items_subsection_index] = items_subsection
-            else:
-                pokedex_nav.append(items_subsection)
-
-            # Update the config
-            nav_list[pokedex_index] = {"Pokédex": pokedex_nav}
-            config["nav"] = nav_list
-
-            # Write updated mkdocs.yml
-            save_mkdocs_config(mkdocs_path, config)
-
-            self.logger.info(
-                f"Updated mkdocs.yml with {len(items)} items organized into {len(items_by_context)} usage context sections"
-            )
-            return True
+            return success
 
         except Exception as e:
             self.logger.error(f"Failed to update mkdocs.yml: {e}", exc_info=True)

@@ -17,7 +17,7 @@ Note: Styles are applied inline when they depend on dynamic data:
 """
 
 from pathlib import Path
-from typing import Any, Dict, List, Optional, cast
+from typing import Any, Optional, cast
 
 from src.data.pokedb_loader import PokeDBLoader
 from src.models.pokedb import Move, Pokemon
@@ -34,6 +34,10 @@ from src.utils.data.constants import (
     GENERATION_ORDER,
     POKEMON_FORM_SUBFOLDERS_ALL,
     TYPE_COLORS,
+    PRIMARY_VERSION,
+    FALLBACK_VERSION,
+    GAME_VERSION_BLACK_2,
+    GAME_VERSION_WHITE_2,
 )
 from src.utils.formatters.table_formatter import (
     create_held_items_table,
@@ -159,7 +163,7 @@ class PokemonGenerator(BaseGenerator):
         """Get the color for a Pokemon type."""
         return TYPE_COLORS.get(type_name.lower(), "#777777")
 
-    def _get_type_effectiveness(self, types: List[str]) -> Dict[str, List[str]]:
+    def _get_type_effectiveness(self, types: list[str]) -> dict[str, list[str]]:
         """
         Calculate type effectiveness based on Pokemon's types.
 
@@ -905,8 +909,8 @@ class PokemonGenerator(BaseGenerator):
 
     def _generate_move_table(
         self,
-        moves: List,
-        damage_class_icons: Dict[str, str],
+        moves: list,
+        damage_class_icons: dict[str, str],
         include_level: bool = False,
         sort_by_level: bool = False,
     ) -> str:
@@ -939,19 +943,19 @@ class PokemonGenerator(BaseGenerator):
 
             if move_data:
                 # Get move details
-                move_type = move_data.type.black_2_white_2 or "???"
+                move_type = getattr(move_data.type, PRIMARY_VERSION, None) or "???"
                 type_badge = format_type_badge(move_type)
 
                 damage_class = move_data.damage_class
                 category_icon = damage_class_icons.get(damage_class, "")
 
-                power = move_data.power.black_2_white_2
+                power = getattr(move_data.power, PRIMARY_VERSION, None)
                 power_str = str(power) if power is not None else "—"
 
-                accuracy = move_data.accuracy.black_2_white_2
+                accuracy = getattr(move_data.accuracy, PRIMARY_VERSION, None)
                 accuracy_str = str(accuracy) if accuracy is not None else "—"
 
-                pp = move_data.pp.black_2_white_2
+                pp = getattr(move_data.pp, PRIMARY_VERSION, None)
                 pp_str = str(pp) if pp is not None else "—"
 
                 if include_level:
@@ -1061,22 +1065,24 @@ class PokemonGenerator(BaseGenerator):
 
         # Pokemon flavor_text uses GameStringMap (individual game versions)
         # Prioritize Black 2 & White 2 since this is a B2W2 Redux wiki
-        has_b2w2 = pokemon.flavor_text.black_2 or pokemon.flavor_text.white_2
+        has_b2w2 = getattr(pokemon.flavor_text, GAME_VERSION_BLACK_2, None) or getattr(pokemon.flavor_text, GAME_VERSION_WHITE_2, None)
         has_bw = pokemon.flavor_text.black or pokemon.flavor_text.white
 
         if has_b2w2:
             # Show Black 2 & White 2 (main focus)
             md += '=== ":material-numeric-2-circle-outline: Black 2"\n\n'
-            if pokemon.flavor_text.black_2:
+            black_2_text = getattr(pokemon.flavor_text, GAME_VERSION_BLACK_2, None)
+            if black_2_text:
                 md += f'\t!!! quote ""\n\n'
-                md += f"\t\t{pokemon.flavor_text.black_2}\n\n"
+                md += f"\t\t{black_2_text}\n\n"
             else:
                 md += "\t*No entry available*\n\n"
 
             md += '=== ":material-numeric-2-circle: White 2"\n\n'
-            if pokemon.flavor_text.white_2:
+            white_2_text = getattr(pokemon.flavor_text, GAME_VERSION_WHITE_2, None)
+            if white_2_text:
                 md += f'\t!!! quote ""\n\n'
-                md += f"\t\t{pokemon.flavor_text.white_2}\n\n"
+                md += f"\t\t{white_2_text}\n\n"
             else:
                 md += "\t*No entry available*\n\n"
         else:
@@ -1324,7 +1330,7 @@ class PokemonGenerator(BaseGenerator):
         self.logger.info(f"Generated page for {display_name}: {output_file}")
         return output_file
 
-    def generate_all_pokemon_pages(self, subfolder: str = "default") -> List[Path]:
+    def generate_all_pokemon_pages(self, subfolder: str = "default") -> list[Path]:
         """
         Generate markdown pages for all Pokemon in the database, including all forms.
 
@@ -1553,7 +1559,7 @@ class PokemonGenerator(BaseGenerator):
             # Group Pokemon by national dex number first for form handling
             from collections import defaultdict
 
-            pokemon_by_dex: Dict[int, List[Pokemon]] = defaultdict(list)
+            pokemon_by_dex: dict[int, list[Pokemon]] = defaultdict(list)
 
             for pokemon in all_pokemon:
                 dex_num = pokemon.pokedex_numbers.get("national")
@@ -1565,7 +1571,7 @@ class PokemonGenerator(BaseGenerator):
                 pokemon_by_dex[dex_num].sort(key=lambda p: (not p.is_default, p.name))
 
             # Group Pokemon by generation attribute
-            pokemon_by_generation: Dict[str, Dict[int, List[Pokemon]]] = defaultdict(
+            pokemon_by_generation: dict[str, dict[int, list[Pokemon]]] = defaultdict(
                 lambda: defaultdict(list)
             )
 
@@ -1689,7 +1695,7 @@ class PokemonGenerator(BaseGenerator):
                 pokedex_nav = []
 
             # Ensure typing is flexible for mixed nav entry value types
-            pokedex_nav = cast(List[Dict[str, Any]], pokedex_nav)
+            pokedex_nav = cast(list[dict[str, Any]], pokedex_nav)
 
             # Find or create Pokémon subsection within Pokédex
             pokemon_subsection_index = None
