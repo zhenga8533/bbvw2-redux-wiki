@@ -13,7 +13,7 @@ This generator:
 
 from collections import defaultdict
 from pathlib import Path
-from typing import Dict, List, Optional
+from typing import Dict, List, Optional, Union
 
 from src.data.pokedb_loader import PokeDBLoader
 from src.models.pokedb import Ability, Pokemon
@@ -23,7 +23,7 @@ from src.utils.data.constants import (
 )
 from src.utils.data.pokemon_util import iterate_pokemon
 from src.utils.formatters.table_formatter import create_ability_index_table
-from src.utils.formatters.markdown_formatter import format_pokemon_card
+from src.utils.formatters.markdown_formatter import format_pokemon_card_grid
 from src.utils.text.text_util import format_display_name
 from src.utils.formatters.yaml_formatter import (
     load_mkdocs_config,
@@ -61,7 +61,7 @@ class AbilityGenerator(BaseGenerator):
         self.output_dir = self.output_dir / "abilities"
         self.output_dir.mkdir(parents=True, exist_ok=True)
 
-    def _build_pokemon_ability_cache(self) -> Dict[str, Dict[str, List[Pokemon]]]:
+    def _build_pokemon_ability_cache(self) -> Dict[str, Dict[str, list[Pokemon]]]:
         """
         Build a cache mapping ability names to Pokemon that have them.
 
@@ -110,8 +110,8 @@ class AbilityGenerator(BaseGenerator):
     def _get_pokemon_with_ability(
         self,
         ability_name: str,
-        cache: Optional[Dict[str, Dict[str, List[Pokemon]]]] = None,
-    ) -> Dict[str, List[Pokemon]]:
+        cache: Optional[Dict[str, Dict[str, list[Pokemon]]]] = None,
+    ) -> Dict[str, list[Pokemon]]:
         """
         Get all Pokemon that have this ability.
 
@@ -180,8 +180,8 @@ class AbilityGenerator(BaseGenerator):
 
         return {"normal": normal_pokemon, "hidden": hidden_pokemon}
 
-    def _generate_pokemon_list_section(
-        self, pokemon_with_ability: Dict[str, List[Pokemon]]
+    def _generate_pokemon_section(
+        self, pokemon_with_ability: Dict[str, list[Pokemon]]
     ) -> str:
         """Generate the Pokemon list section showing which Pokemon have this ability."""
         md = "## :material-pokeball: Pokémon with this Ability\n\n"
@@ -196,28 +196,14 @@ class AbilityGenerator(BaseGenerator):
         # Normal ability section
         if normal:
             md += "### :material-star: Standard Ability\n\n"
-            md += '<div class="grid cards" markdown>\n\n'
-
-            for pokemon in normal:
-                # Use utility function to create card (must be in a list item)
-                md += "-   "
-                md += format_pokemon_card(pokemon)
-                md += "\n\n"
-
-            md += "</div>\n\n"
+            md += format_pokemon_card_grid(normal)  # type: ignore
+            md += "\n\n"
 
         # Hidden ability section
         if hidden:
             md += "### :material-eye-off: Hidden Ability\n\n"
-            md += '<div class="grid cards" markdown>\n\n'
-
-            for pokemon in hidden:
-                # Use utility function to create card (must be in a list item)
-                md += "-   "
-                md += format_pokemon_card(pokemon)
-                md += "\n\n"
-
-            md += "</div>\n\n"
+            md += format_pokemon_card_grid(hidden)  # type: ignore
+            md += "\n\n"
 
         return md
 
@@ -265,7 +251,7 @@ class AbilityGenerator(BaseGenerator):
     def generate_ability_page(
         self,
         ability: Ability,
-        cache: Optional[Dict[str, Dict[str, List[Pokemon]]]] = None,
+        cache: Optional[Dict[str, Dict[str, list[Pokemon]]]] = None,
     ) -> Path:
         """
         Generate a markdown page for a single ability.
@@ -288,7 +274,7 @@ class AbilityGenerator(BaseGenerator):
 
         # Get Pokemon with this ability (using cache if available)
         pokemon_with_ability = self._get_pokemon_with_ability(ability.name, cache=cache)
-        md += self._generate_pokemon_list_section(pokemon_with_ability)
+        md += self._generate_pokemon_section(pokemon_with_ability)
 
         # Write to file
         output_file = self.output_dir / f"{ability.name}.md"
@@ -297,7 +283,7 @@ class AbilityGenerator(BaseGenerator):
         self.logger.info(f"Generated page for {display_name}: {output_file}")
         return output_file
 
-    def generate_all_ability_pages(self) -> List[Path]:
+    def generate_all_ability_pages(self) -> list[Path]:
         """
         Generate markdown pages for all abilities in the database.
 

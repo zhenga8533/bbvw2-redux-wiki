@@ -17,7 +17,10 @@ from typing import Dict, List, Optional
 
 from src.data.pokedb_loader import PokeDBLoader
 from src.models.pokedb import Move, Pokemon
-from src.utils.formatters.markdown_formatter import format_type_badge
+from src.utils.formatters.markdown_formatter import (
+    format_pokemon_card_grid,
+    format_type_badge,
+)
 from src.utils.data.constants import (
     DAMAGE_CLASS_ICONS,
     POKEMON_FORM_SUBFOLDERS_STANDARD,
@@ -285,124 +288,33 @@ class MoveGenerator(BaseGenerator):
         # Level-up
         if move_data.get("level_up"):
             md += "### :material-arrow-up-bold: Level-Up\n\n"
-            md += '<div class="grid cards" markdown>\n\n'
-
-            for entry in move_data["level_up"]:
-                pokemon = entry["pokemon"]
-                level = entry.get("level", "—")
-                dex_num = pokemon.pokedex_numbers.get("national", "???")
-                name = format_display_name(pokemon.name)
-                link = f"../pokemon/{pokemon.name}.md"
-
-                # Get sprite URL
-                sprite_url = None
-                if hasattr(pokemon.sprites, "versions") and pokemon.sprites.versions:
-                    bw = pokemon.sprites.versions.black_white
-                    if bw.animated and bw.animated.front_default:
-                        sprite_url = bw.animated.front_default
-
-                # Card structure: sprite first, then separator, then info
-                md += "- "
-                if sprite_url:
-                    md += f"[![{name}]({sprite_url}){{: .pokemon-sprite-img }}]({link})\n\n"
-                else:
-                    md += f"[{name}]({link})\n\n"
-
-                md += "\t---\n\n"
-                md += f"\t**#{dex_num:03d} [{name}]({link})**\n\n"
-                md += f"\tLevel {level}\n\n"
-
-            md += "</div>\n\n"
+            pokemon = [entry["pokemon"] for entry in move_data["level_up"]]
+            level = [
+                f"Level {entry.get('level', '—')}" for entry in move_data["level_up"]
+            ]
+            md += format_pokemon_card_grid(pokemon, extra_info=level)
+            md += "\n\n"
 
         # TM/HM
         if move_data.get("machine"):
             md += "### :material-disc: TM/HM\n\n"
-            md += '<div class="grid cards" markdown>\n\n'
-
-            for entry in move_data["machine"]:
-                pokemon = entry["pokemon"]
-                dex_num = pokemon.pokedex_numbers.get("national", "???")
-                name = format_display_name(pokemon.name)
-                link = f"../pokemon/{pokemon.name}.md"
-
-                # Get sprite URL
-                sprite_url = None
-                if hasattr(pokemon.sprites, "versions") and pokemon.sprites.versions:
-                    bw = pokemon.sprites.versions.black_white
-                    if bw.animated and bw.animated.front_default:
-                        sprite_url = bw.animated.front_default
-
-                # Card structure: sprite first, then separator, then info
-                md += "- "
-                if sprite_url:
-                    md += f"[![{name}]({sprite_url}){{: .pokemon-sprite-img }}]({link})\n\n"
-                else:
-                    md += f"[{name}]({link})\n\n"
-
-                md += "\t---\n\n"
-                md += f"\t**#{dex_num:03d} [{name}]({link})**\n\n"
-
-            md += "</div>\n\n"
+            pokemon = [entry["pokemon"] for entry in move_data["machine"]]
+            md += format_pokemon_card_grid(pokemon)
+            md += "\n\n"
 
         # Egg moves
         if move_data.get("egg"):
             md += "### :material-egg-outline: Egg Moves\n\n"
-            md += '<div class="grid cards" markdown>\n\n'
-
-            for entry in move_data["egg"]:
-                pokemon = entry["pokemon"]
-                dex_num = pokemon.pokedex_numbers.get("national", "???")
-                name = format_display_name(pokemon.name)
-                link = f"../pokemon/{pokemon.name}.md"
-
-                # Get sprite URL
-                sprite_url = None
-                if hasattr(pokemon.sprites, "versions") and pokemon.sprites.versions:
-                    bw = pokemon.sprites.versions.black_white
-                    if bw.animated and bw.animated.front_default:
-                        sprite_url = bw.animated.front_default
-
-                # Card structure: sprite first, then separator, then info
-                md += "- "
-                if sprite_url:
-                    md += f"[![{name}]({sprite_url}){{: .pokemon-sprite-img }}]({link})\n\n"
-                else:
-                    md += f"[{name}]({link})\n\n"
-
-                md += "\t---\n\n"
-                md += f"\t**#{dex_num:03d} [{name}]({link})**\n\n"
-
-            md += "</div>\n\n"
+            pokemon = [entry["pokemon"] for entry in move_data["egg"]]
+            md += format_pokemon_card_grid(pokemon)
+            md += "\n\n"
 
         # Tutor moves
         if move_data.get("tutor"):
             md += "### :material-school: Tutor\n\n"
-            md += '<div class="grid cards" markdown>\n\n'
-
-            for entry in move_data["tutor"]:
-                pokemon = entry["pokemon"]
-                dex_num = pokemon.pokedex_numbers.get("national", "???")
-                name = format_display_name(pokemon.name)
-                link = f"../pokemon/{pokemon.name}.md"
-
-                # Get sprite URL
-                sprite_url = None
-                if hasattr(pokemon.sprites, "versions") and pokemon.sprites.versions:
-                    bw = pokemon.sprites.versions.black_white
-                    if bw.animated and bw.animated.front_default:
-                        sprite_url = bw.animated.front_default
-
-                # Card structure: sprite first, then separator, then info
-                md += "- "
-                if sprite_url:
-                    md += f"[![{name}]({sprite_url}){{: .pokemon-sprite-img }}]({link})\n\n"
-                else:
-                    md += f"[{name}]({link})\n\n"
-
-                md += "\t---\n\n"
-                md += f"\t**#{dex_num:03d} [{name}]({link})**\n\n"
-
-            md += "</div>\n\n"
+            pokemon = [entry["pokemon"] for entry in move_data["tutor"]]
+            md += format_pokemon_card_grid(pokemon)
+            md += "\n\n"
 
         return md
 

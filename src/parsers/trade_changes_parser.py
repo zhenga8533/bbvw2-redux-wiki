@@ -8,7 +8,7 @@ This parser:
 
 import re
 
-from src.utils.formatters.markdown_formatter import format_pokemon_card
+from src.utils.formatters.markdown_formatter import format_pokemon_card_grid
 
 from .base_parser import BaseParser
 
@@ -41,7 +41,10 @@ class TradeChangesParser(BaseParser):
             self._current_pokemon = pokemon
 
             self._markdown += f"### {pokemon} Trade\n\n"
-            self._format_trade_pokemon(pokemon)
+            self._markdown += format_pokemon_card_grid(
+                [pokemon], relative_path="../pokedex/pokemon"
+            )
+            self._markdown += "\n\n"
 
             self._in_details = False
         # Match: "Key: Value"
@@ -57,17 +60,6 @@ class TradeChangesParser(BaseParser):
                 self._markdown += "**Details**:\n"
                 self._in_details = True
             self.parse_default(line)
-
-    def _format_trade_pokemon(self, pokemon_name: str) -> None:
-        """Format trade Pokemon with card display."""
-        # Card structure with grid
-        self._markdown += '<div class="grid cards" markdown>\n\n'
-        # Use utility function to create card (must be in a list item)
-        self._markdown += "-   "
-        self._markdown += format_pokemon_card(
-            pokemon_name, relative_path="../pokedex/pokemon"
-        )
-        self._markdown += "\n\n</div>\n\n"
 
     def parse_trade_items(self, line: str) -> None:
         """Parse a line in the Trade Items section."""

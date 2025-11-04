@@ -8,7 +8,7 @@ This parser:
 
 import re
 
-from src.utils.formatters.markdown_formatter import format_pokemon_card
+from src.utils.formatters.markdown_formatter import format_pokemon_card_grid
 
 from .base_parser import BaseParser
 
@@ -58,17 +58,10 @@ class GiftPokemonParser(BaseParser):
         gift_pokemon_names = re.split(r", | or ", header.removesuffix(" Egg"))
 
         self._markdown += f"### {header}\n\n"
-        self._markdown += '<div class="grid cards" markdown>\n\n'
-
-        for pokemon_name in gift_pokemon_names:
-            # Use utility function to create card (must be in a list item)
-            self._markdown += "-   "
-            self._markdown += format_pokemon_card(
-                pokemon_name, relative_path="../pokedex/pokemon"
-            )
-            self._markdown += "\n\n"
-
-        self._markdown += "</div>\n\n"
+        self._markdown += format_pokemon_card_grid(
+            gift_pokemon_names, relative_path="../pokedex/pokemon"
+        )
+        self._markdown += "\n\n"
 
     def parse_special_encounters(self, line: str) -> None:
         """Parse lines under the Special Encounters section."""

@@ -5,8 +5,6 @@ This module provides helpers for creating consistent markdown elements
 like Pokemon displays with sprites and links.
 """
 
-from typing import Union
-
 from src.data.pokedb_loader import PokeDBLoader
 from src.models.pokedb import Pokemon
 from src.utils.text.text_util import format_display_name, name_to_id
@@ -262,78 +260,81 @@ def format_move(
         return display_name
 
 
-def format_pokemon_card(
-    pokemon: Union[str, Pokemon],
+def format_pokemon_card_grid(
+    pokemon: list[str | Pokemon],
     relative_path: str = "../pokemon",
+    extra_info: list[str] | None = None,
 ) -> str:
     """
-    Format a Pokemon as markdown content for MkDocs Material grid cards.
+    Format one or more Pokemon as markdown content for MkDocs Material grid cards.
 
     Args:
-        pokemon: Pokemon name (str) or Pokemon object
+        pokemon: List of Pokemon names (str) or Pokemon objects
         relative_path: Relative path to the pokemon directory
-            - From pokedex/abilities/ or pokedex/items/: "../pokemon"
-            - From docs/ (parsers): "../pokedex/pokemon"
 
     Returns:
-        Markdown string for card content (to be used inside a list item)
-
-    Example usage:
-        # In your generator/parser:
-        md += '<div class="grid cards" markdown>\n\n'
-        md += "-   "
-        md += format_pokemon_card("pikachu")
-        md += "\n\n"
-        md += "</div>\n\n"
-
-    Example output:
-        [![Pikachu](sprite.gif)](../pokemon/pikachu.md)
-
-        ***
-
-        **#025 [Pikachu](../pokemon/pikachu.md)**
+        Concatenated markdown string for card content (each item suitable to be used inside a list item)
     """
-    # Load Pokemon data if string is provided
-    if isinstance(pokemon, str):
-        pokemon_data = PokeDBLoader.load_pokemon(pokemon.lower().replace(" ", "-"))
-        if not pokemon_data:
-            # Fallback if Pokemon data not found
-            return pokemon
-    else:
-        pokemon_data = pokemon
+    cards = []
 
-    # Get dex number
-    dex_num = pokemon_data.pokedex_numbers.get("national", "???")
+    for idx, p in enumerate(pokemon):
+        # Load Pokemon data if string is provided
+        if isinstance(p, str):
+            pokemon_data = PokeDBLoader.load_pokemon(p.lower().replace(" ", "-"))
+            if not pokemon_data:
+                # Fallback if Pokemon data not found
+                cards.append(p)
+                continue
+        else:
+            pokemon_data = p
 
-    # Get sprite URL (prefer animated)
-    sprite_url = None
-    if hasattr(pokemon_data.sprites, "versions") and pokemon_data.sprites.versions:
-        bw = pokemon_data.sprites.versions.black_white
-        if bw.animated and bw.animated.front_default:
-            sprite_url = bw.animated.front_default
+        # Get dex number
+        dex_num = pokemon_data.pokedex_numbers.get("national", "???")
 
-    # Fallback to static sprite
-    if not sprite_url:
-        sprite_url = pokemon_data.sprites.front_default
+        # Get sprite URL
+        sprite_url = None
+        bw_sprites = pokemon_data.sprites.versions.black_white
+        animated_sprite = bw_sprites.animated.front_default
+        default_sprite = pokemon_data.sprites.front_default
 
-    # Format name for display
-    display_name = format_display_name(pokemon_data.name)
+        form_category = next(
+            (f.category for f in pokemon_data.forms if f.name == pokemon_data.name),
+            "default",
+        )
+        sprite_url = animated_sprite if form_category != "cosmetic" else default_sprite
 
-    # Create link (relative_path should include the full path to pokemon dir)
-    link = f"{relative_path}/{pokemon_data.name}.md"
+        if sprite_url is None:
+            sprite_url = default_sprite
 
-    # Build card content using pure markdown (centering handled by CSS)
-    card = ""
+        # Format display name and link
+        display_name = format_display_name(pokemon_data.name)
+        link = f"{relative_path}/{pokemon_data.name}.md"
 
-    # Sprite with link
-    if sprite_url:
-        card += f"\t[![{display_name}]({sprite_url})]({link})"
-    else:
-        card += f"\t[{display_name}]({link})"
+        # Build card content using pure markdown
+        card = ""
 
-    card += "\n\n\t***\n\n"
+        # Sprite with link
+        if sprite_url:
+            card += f"-\t[![{display_name}]({sprite_url}){{: .pokemon-sprite-img }}]({link})"
+        else:
+            card += f"\t[{display_name}]({link})"
 
-    # Dex number and name
-    card += f"\t**#{dex_num:03d} [{display_name}]({link})**"
+        card += "\n\n\t***\n\n"
 
-    return card
+        # Dex number and name
+        card += f"\t**#{dex_num:03d} [{display_name}]({link})**"
+
+        # Extra info lines
+        if extra_info:
+            info = extra_info[idx] if idx < len(extra_info) else ""
+            if info:
+                card += f"\n\n\t{info}"
+
+        cards.append(card)
+
+    # Combine all cards into a grid container
+    markdown = '<div class="grid cards" markdown>\n\n'
+    markdown += "\n\n".join(cards)
+    markdown += "\n\n</div>"
+
+    return markdown

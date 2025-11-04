@@ -25,6 +25,7 @@ from src.utils.formatters.markdown_formatter import (
     format_ability,
     format_item,
     format_move,
+    format_pokemon_card_grid,
     format_type_badge,
 )
 from src.utils.data.constants import (
@@ -896,49 +897,9 @@ class PokemonGenerator(BaseGenerator):
             md += "> :material-information: Forms are switchable during gameplay.\n\n"
 
         if len(pokemon.forms) > 1:
-            md += '<div class="grid cards" markdown>\n\n'
-
-            for form in pokemon.forms:
-                form_display = format_display_name(form.name)
-                category_display = form.category.title()
-
-                # Add icon based on category
-                if form.category == "default":
-                    icon = ":material-star:"
-                elif form.category == "transformation":
-                    icon = ":material-swap-horizontal:"
-                elif form.category == "variant":
-                    icon = ":material-palette:"
-                else:  # cosmetic
-                    icon = ":material-eye:"
-
-                # Try to load the form's Pokemon data to get sprite and link
-                form_pokemon = None
-                sprite_url = None
-                try:
-                    form_pokemon = PokeDBLoader.load_pokemon(
-                        form.name, subfolder=form.category
-                    )
-                    if form_pokemon:
-                        sprite_url = get_pokemon_sprite_url(form_pokemon)
-                except Exception:
-                    pass
-
-                # Determine link path (form may be in different subfolder)
-                link = f"{form.name}.md"
-
-                # Card structure: sprite first, then separator, then info
-                md += "- "
-                if sprite_url:
-                    md += f"[![{form_display}]({sprite_url})]({link})\n\n"
-                else:
-                    md += f"[{form_display}]({link})\n\n"
-
-                md += "\t---\n\n"
-                md += f"\t{icon} **[{form_display}]({link})**\n\n"
-                md += f"\t*{category_display}*\n\n"
-
-            md += "</div>\n\n"
+            forms = [f.name for f in pokemon.forms]
+            md += format_pokemon_card_grid(forms)  # type: ignore
+            md += "\n\n"
 
         return md
 
