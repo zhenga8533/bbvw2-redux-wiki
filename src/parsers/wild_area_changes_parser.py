@@ -119,8 +119,9 @@ class WildAreaChangesParser(BaseParser):
             self._markdown += f"{self._format_pokemon_row(pkmn, level, chance)}\n"
         # Match: empty line
         elif line == "":
-            self._markdown += f"\n{self._tab_markdown}"
-            self._tab_markdown = ""
+            if self._tab_markdown:
+                self._markdown += f"\n{self._tab_markdown}"
+                self._tab_markdown = ""
             self.parse_default(line)
         # Default: regular text line
         else:

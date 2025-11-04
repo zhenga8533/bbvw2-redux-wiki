@@ -43,6 +43,7 @@ class BaseParser(ABC):
         self._current_section = ""
         self._lines = []
         self._line_index = 0
+        self._last_line = ""
 
         # Set up logger for this parser instance
         self.logger = get_logger(self.__class__.__module__)
@@ -158,6 +159,7 @@ class BaseParser(ABC):
                 else:
                     method(line)
 
+            self._last_line = line
             self._line_index += 1
 
     def parse_default(self, line: str) -> None:
@@ -169,6 +171,9 @@ class BaseParser(ABC):
         Args:
             line: The line to parse
         """
+
+        if line == "" and self._last_line == "":
+            return
         self._markdown += f"{line}\n"
 
     def peek_line(self, offset: int) -> Optional[str]:
