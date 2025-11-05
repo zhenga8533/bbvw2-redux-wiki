@@ -27,7 +27,6 @@ from src.utils.data.constants import (
     POKEMON_FORM_SUBFOLDERS_STANDARD,
 )
 from src.utils.data.pokemon_util import iterate_pokemon
-from src.utils.formatters.table_formatter import create_move_index_table
 from src.utils.text.text_util import format_display_name
 from src.utils.formatters.yaml_formatter import (
     update_pokedex_subsection,
@@ -60,6 +59,16 @@ class MoveGenerator(BaseGenerator):
         """
         # Initialize base generator
         super().__init__(output_dir=output_dir, project_root=project_root)
+
+        self.category = "moves"
+        self.subcategory_order = ["physical", "special", "status"]
+        self.subcategory_names = {
+            "physical": "Physical Moves",
+            "special": "Special Moves",
+            "status": "Status Moves",
+        }
+        self.index_table_headers = ["Move", "Type", "Category", "Power", "Acc", "PP"]
+        self.index_table_alignments = ["left", "left", "left", "left", "left", "left"]
 
         # Create moves subdirectory
         self.output_dir = self.output_dir / "moves"
@@ -131,7 +140,7 @@ class MoveGenerator(BaseGenerator):
 
         return dict(move_cache)
 
-    def _load_all_moves(self) -> list[Move]:
+    def load_all_data(self) -> list[Move]:
         """
         Load all moves from the database once.
 
@@ -156,15 +165,60 @@ class MoveGenerator(BaseGenerator):
                 else:
                     self.logger.warning(f"Could not load move: {move_file.stem}")
             except Exception as e:
-                self.logger.error(
-                    f"Error loading {move_file.stem}: {e}", exc_info=True
-                )
+                self.logger.error(f"Error loading {move_file.stem}: {e}", exc_info=True)
 
         # Sort alphabetically by name
         moves.sort(key=lambda m: m.name)
         self.logger.info(f"Loaded {len(moves)} moves")
 
         return moves
+
+    def categorize_data(self, data: list[Move]) -> dict[str, list[Move]]:
+        """
+        Categorize moves by damage class for index and navigation.
+
+        Args:
+            data: List of Move objects to categorize
+        Returns:
+            Dict mapping damage class identifiers to lists of Move objects
+        """
+        from collections import defaultdict
+
+        moves_by_damage_class = defaultdict(list)
+
+        for move in data:
+            damage_class = move.damage_class if move.damage_class else "unknown"
+            moves_by_damage_class[damage_class].append(move)
+
+        return moves_by_damage_class
+
+    def format_index_row(self, item: Move) -> list[str]:
+        """
+        Format a single row for the index table.
+
+        Args:
+            item: The move to format
+        Returns:
+            List of strings for table columns: [link, type_badge, category_icon, power, accuracy, pp]
+        """
+        name = format_display_name(item.name)
+        link = f"[{name}](moves/{item.name}.md)"
+
+        move_type = getattr(item.type, VERSION_GROUP, None) or "???"
+        type_badge = format_type_badge(move_type)
+
+        category_icon = DAMAGE_CLASS_ICONS.get(item.damage_class, "")
+
+        power = getattr(item.power, VERSION_GROUP, None)
+        power_str = str(power) if power is not None and power > 0 else "—"
+
+        accuracy = getattr(item.accuracy, VERSION_GROUP, None)
+        accuracy_str = str(accuracy) if accuracy is not None and accuracy > 0 else "—"
+
+        pp = getattr(item.pp, VERSION_GROUP, None)
+        pp_str = str(pp) if pp is not None and pp > 0 else "—"
+
+        return [link, type_badge, category_icon, power_str, accuracy_str, pp_str]
 
     def _generate_move_header(self, move: Move) -> str:
         """
@@ -346,8 +400,8 @@ class MoveGenerator(BaseGenerator):
 
         return md
 
-    def generate_move_page(
-        self, move: Move, cache: Optional[dict[str, dict[str, list[dict]]]] = None
+    def generate_page(
+        self, item: Move, cache: Optional[dict[str, dict[str, list[dict]]]] = None
     ) -> Path:
         """
         Generate a markdown page for a single move.
@@ -359,289 +413,30 @@ class MoveGenerator(BaseGenerator):
         Returns:
             Path to the generated markdown file
         """
-        display_name = format_display_name(move.name)
+        display_name = format_display_name(item.name)
 
         # Start building the markdown with title
         md = f"# {display_name}\n\n"
 
         # Add sections
-        md += self._generate_stats_section(move)
-        md += self._generate_effect_section(move)
-        md += self._generate_flavor_text_section(move)
+        md += self._generate_stats_section(item)
+        md += self._generate_effect_section(item)
+        md += self._generate_flavor_text_section(item)
 
         # Get Pokemon that can learn this move (using cache if available)
-        md += self._generate_pokemon_section(move.name, cache=cache)
+        md += self._generate_pokemon_section(item.name, cache=cache)
 
         # Write to file
-        output_file = self.output_dir / f"{move.name}.md"
+        output_file = self.output_dir / f"{item.name}.md"
         output_file.write_text(md, encoding="utf-8")
 
         self.logger.info(f"Generated page for {display_name}: {output_file}")
         return output_file
 
-    def generate_all_move_pages(self, moves: list[Move]) -> list[Path]:
-        """
-        Generate markdown pages for all moves.
-
-        Args:
-            moves: List of Move objects to generate pages for
-
-        Returns:
-            List of paths to generated markdown files
-        """
-        self.logger.info(f"Starting generation of {len(moves)} move pages")
-
-        # Build Pokemon move cache once (massive performance improvement)
-        self.logger.info("Building Pokemon move cache...")
-        pokemon_cache = self._build_pokemon_move_cache()
-        self.logger.info(f"Cached {len(pokemon_cache)} moves across all Pokemon")
-
-        generated_files = []
-
-        for move in moves:
-            try:
-                output_path = self.generate_move_page(move, cache=pokemon_cache)
-                generated_files.append(output_path)
-
-            except Exception as e:
-                self.logger.error(
-                    f"Error generating page for {move.name}: {e}",
-                    exc_info=True,
-                )
-
-        self.logger.info(f"Generated {len(generated_files)} move pages")
-        return generated_files
-
-    def generate_moves_index(self, moves: list[Move]) -> Path:
-        """
-        Generate the main moves index page with links to all moves.
-
-        Args:
-            moves: List of Move objects to include in the index
-
-        Returns:
-            Path to the generated index file
-        """
-        self.logger.info(f"Generating moves index page for {len(moves)} moves")
-
-        # Generate markdown
-        md = "# Moves\n\n"
-        md += f"Complete list of all moves in **{GAME_TITLE}**.\n\n"
-        md += "> Click on any move to see its full description and which Pokémon can learn it.\n\n"
-
-        # Group moves by damage class
-        from collections import defaultdict
-
-        moves_by_damage_class = defaultdict(list)
-
-        for move in moves:
-            damage_class = move.damage_class if move.damage_class else "unknown"
-            moves_by_damage_class[damage_class].append(move)
-
-        # Damage class order and display names
-        damage_class_order = ["physical", "special", "status"]
-        damage_class_display = {
-            "physical": "Physical Moves",
-            "special": "Special Moves",
-            "status": "Status Moves",
-        }
-
-        # Generate sections for each damage class
-        for class_key in damage_class_order:
-            if class_key not in moves_by_damage_class:
-                continue
-
-            class_moves = moves_by_damage_class[class_key]
-            display_name = damage_class_display.get(class_key, class_key.title())
-
-            # Add damage class header
-            md += f"## {display_name}\n\n"
-
-            # Build table rows for this damage class
-            rows = []
-            for move in class_moves:
-                name = format_display_name(move.name)
-                link = f"[{name}](moves/{move.name}.md)"
-
-                move_type = getattr(move.type, VERSION_GROUP, None) or "???"
-                type_badge = format_type_badge(move_type)
-
-                category_icon = DAMAGE_CLASS_ICONS.get(move.damage_class, "")
-
-                power = getattr(move.power, VERSION_GROUP, None)
-                power_str = str(power) if power is not None and power > 0 else "—"
-
-                accuracy = getattr(move.accuracy, VERSION_GROUP, None)
-                accuracy_str = (
-                    str(accuracy) if accuracy is not None and accuracy > 0 else "—"
-                )
-
-                pp = getattr(move.pp, VERSION_GROUP, None)
-                pp_str = str(pp) if pp is not None and pp > 0 else "—"
-
-                rows.append(
-                    [link, type_badge, category_icon, power_str, accuracy_str, pp_str]
-                )
-
-            # Use standardized table utility
-            md += create_move_index_table(rows)
-            md += "\n"
-
-        # Add unknown damage class moves if any
-        if "unknown" in moves_by_damage_class:
-            md += "## Unknown Category\n\n"
-            rows = []
-            for move in moves_by_damage_class["unknown"]:
-                name = format_display_name(move.name)
-                link = f"[{name}](moves/{move.name}.md)"
-
-                move_type = getattr(move.type, VERSION_GROUP, None) or "???"
-                type_badge = format_type_badge(move_type)
-
-                category_icon = DAMAGE_CLASS_ICONS.get(move.damage_class, "")
-
-                power = getattr(move.power, VERSION_GROUP, None)
-                power_str = str(power) if power is not None and power > 0 else "—"
-
-                accuracy = getattr(move.accuracy, VERSION_GROUP, None)
-                accuracy_str = (
-                    str(accuracy) if accuracy is not None and accuracy > 0 else "—"
-                )
-
-                pp = getattr(move.pp, VERSION_GROUP, None)
-                pp_str = str(pp) if pp is not None and pp > 0 else "—"
-
-                rows.append(
-                    [link, type_badge, category_icon, power_str, accuracy_str, pp_str]
-                )
-
-            md += create_move_index_table(rows)
-            md += "\n"
-
-        # Write to file
-        output_file = self.output_dir.parent / "moves.md"
-        output_file.write_text(md, encoding="utf-8")
-
-        self.logger.info(f"Generated moves index: {output_file}")
-        return output_file
-
-    def update_mkdocs_navigation(self, moves: list[Move]) -> bool:
-        """
-        Update mkdocs.yml with navigation links to all move pages.
-        Organizes moves alphabetically into subsections.
-
-        Args:
-            moves: List of Move objects to include in navigation
-
-        Returns:
-            bool: True if update succeeded, False if it failed
-        """
-        try:
-            mkdocs_path = self.project_root / "mkdocs.yml"
-
-            # Group moves by damage class
-            moves_by_damage_class = defaultdict(list)
-
-            # Damage class display name mapping
-            damage_class_display = {
-                "physical": "Physical",
-                "special": "Special",
-                "status": "Status",
-            }
-
-            for move in moves:
-                damage_class = move.damage_class if move.damage_class else "unknown"
-                moves_by_damage_class[damage_class].append(move)
-
-            # Create navigation structure with damage class subsections
-            moves_nav_items = [{"Overview": "pokedex/moves.md"}]
-
-            # Add subsections for each damage class in order (Physical, Special, Status)
-            damage_class_order = ["physical", "special", "status"]
-            for class_key in damage_class_order:
-                if class_key in moves_by_damage_class:
-                    class_moves = moves_by_damage_class[class_key]
-                    display_name = damage_class_display.get(
-                        class_key, class_key.title()
-                    )
-                    class_nav = [
-                        {format_display_name(m.name): f"pokedex/moves/{m.name}.md"}
-                        for m in class_moves
-                    ]
-                    # Using type: ignore because mkdocs nav allows mixed dict value types
-                    moves_nav_items.append({display_name: class_nav})  # type: ignore
-
-            # Add unknown damage class moves if any exist
-            if "unknown" in moves_by_damage_class:
-                unknown_moves = moves_by_damage_class["unknown"]
-                unknown_nav = [
-                    {format_display_name(m.name): f"pokedex/moves/{m.name}.md"}
-                    for m in unknown_moves
-                ]
-                moves_nav_items.append({"Unknown": unknown_nav})  # type: ignore
-
-            # Use shared utility to update mkdocs navigation
-            success = update_pokedex_subsection(
-                mkdocs_path, "Moves", moves_nav_items, self.logger
-            )
-
-            if success:
-                self.logger.info(
-                    f"Updated mkdocs.yml with {len(moves)} moves organized into {len(moves_by_damage_class)} damage class sections"
-                )
-
-            return success
-
-        except Exception as e:
-            self.logger.error(f"Failed to update mkdocs.yml: {e}", exc_info=True)
-            return False
-
-    def generate(self) -> bool:
-        """
-        Generate move pages and moves index.
-
-        Returns:
-            bool: True if generation succeeded, False if it failed
-        """
-        self.logger.info("Starting moves generation...")
-        try:
-            # Clean up old move markdown files
-            self._cleanup_output_dir()
-
-            # Load all moves once (optimization to avoid multiple glob + parse operations)
-            self.logger.info("Loading all moves from database...")
-            moves = self._load_all_moves()
-
-            if not moves:
-                self.logger.error("No moves were loaded")
-                return False
-
-            # Generate all move pages
-            self.logger.info("Generating individual move pages...")
-            move_files = self.generate_all_move_pages(moves)
-
-            if not move_files:
-                self.logger.error("No move pages were generated")
-                return False
-
-            # Generate the moves index
-            self.logger.info("Generating moves index...")
-            index_path = self.generate_moves_index(moves)
-
-            # Update mkdocs.yml navigation
-            self.logger.info("Updating mkdocs.yml navigation...")
-            nav_success = self.update_mkdocs_navigation(moves)
-
-            if not nav_success:
-                self.logger.warning(
-                    "Failed to update mkdocs.yml navigation, but pages were generated successfully"
-                )
-
-            self.logger.info(
-                f"Successfully generated {len(move_files)} move pages and index"
-            )
-            return True
-
-        except Exception as e:
-            self.logger.error(f"Failed to generate moves: {e}", exc_info=True)
-            return False
+    def generate_all_pages(
+        self,
+        data: list[Move],
+        cache: Optional[dict[str, dict[str, list[dict]]]] = None,
+    ) -> list[Path]:
+        cache = cache or self._build_pokemon_move_cache()
+        return super().generate_all_pages(data, cache=cache)

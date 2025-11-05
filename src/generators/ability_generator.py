@@ -13,7 +13,7 @@ This generator:
 
 from collections import defaultdict
 from pathlib import Path
-from typing import Optional
+from typing import Any, Optional
 
 from src.data.pokedb_loader import PokeDBLoader
 from src.models.pokedb import Ability, Pokemon
@@ -23,10 +23,8 @@ from src.utils.data.constants import (
     POKEMON_FORM_SUBFOLDERS_STANDARD,
 )
 from src.utils.data.pokemon_util import iterate_pokemon
-from src.utils.formatters.table_formatter import create_ability_index_table
 from src.utils.formatters.markdown_formatter import format_pokemon_card_grid
 from src.utils.text.text_util import format_display_name
-from src.utils.formatters.yaml_formatter import update_pokedex_subsection
 
 from .base_generator import BaseGenerator
 
@@ -53,6 +51,20 @@ class AbilityGenerator(BaseGenerator):
         """
         # Initialize base generator
         super().__init__(output_dir=output_dir, project_root=project_root)
+
+        self.category = "abilities"
+        self.subcategory_order = [
+            "generation-iii",
+            "generation-iv",
+            "generation-v",
+        ]
+        self.subcategory_names = {
+            "generation-iii": "Gen III",
+            "generation-iv": "Gen IV",
+            "generation-v": "Gen V",
+        }
+        self.index_table_headers = ["Ability", "Effect"]
+        self.index_table_alignments = ["left", "left"]
 
         # Create abilities subdirectory
         self.output_dir = self.output_dir / "abilities"
@@ -104,7 +116,7 @@ class AbilityGenerator(BaseGenerator):
 
         return ability_cache
 
-    def _load_all_abilities(self) -> list[Ability]:
+    def load_all_data(self) -> list[Ability]:
         """
         Load all main-series abilities from the database once.
 
@@ -142,6 +154,22 @@ class AbilityGenerator(BaseGenerator):
         self.logger.info(f"Loaded {len(abilities)} main-series abilities")
 
         return abilities
+
+    def categorize_data(self, data: list[Ability]) -> dict[str, list[Ability]]:
+        """
+        Categorize abilities by generation for index and navigation.
+
+        Args:
+            data: List of Ability objects to categorize
+        Returns:
+            Dict mapping generation identifiers to lists of Ability objects
+        """
+        abilities_by_generation = defaultdict(list)
+        for ability in data:
+            gen = ability.generation if ability.generation else "unknown"
+            abilities_by_generation[gen].append(ability)
+
+        return abilities_by_generation
 
     def _generate_pokemon_section(
         self, pokemon_with_ability: dict[str, list[Pokemon]]
@@ -208,8 +236,8 @@ class AbilityGenerator(BaseGenerator):
 
         return md
 
-    def generate_ability_page(
-        self, ability: Ability, cache: dict[str, dict[str, list[Pokemon]]]
+    def generate_page(
+        self, item: Ability, cache: Optional[dict[str, dict[str, list[Pokemon]]]] = None
     ) -> Path:
         """
         Generate a markdown page for a single ability.
@@ -221,245 +249,45 @@ class AbilityGenerator(BaseGenerator):
         Returns:
             Path to the generated markdown file
         """
-        display_name = format_display_name(ability.name)
+        display_name = format_display_name(item.name)
 
         # Start building the markdown
         md = f"# {display_name}\n\n"
 
         # Add sections
-        md += self._generate_effect_section(ability)
-        md += self._generate_flavor_text_section(ability)
+        md += self._generate_effect_section(item)
+        md += self._generate_flavor_text_section(item)
 
         # Get Pokemon with this ability
-        pokemon_with_ability = cache.get(ability.name, {"normal": [], "hidden": []})
+        default = {"normal": [], "hidden": []}
+        pokemon_with_ability = cache.get(item.name, default) if cache else default
         md += self._generate_pokemon_section(pokemon_with_ability)
 
         # Write to file
-        output_file = self.output_dir / f"{ability.name}.md"
+        output_file = self.output_dir / f"{item.name}.md"
         output_file.write_text(md, encoding="utf-8")
 
         self.logger.info(f"Generated page for {display_name}: {output_file}")
         return output_file
 
-    def generate_all_ability_pages(self, abilities: list[Ability]) -> list[Path]:
+    def generate_all_pages(
+        self,
+        data: list[Ability],
+        cache: Optional[dict[str, dict[str, list[Pokemon]]]] = None,
+    ) -> list[Path]:
+        cache = cache or self._build_pokemon_ability_cache()
+        return super().generate_all_pages(data, cache=cache)
+
+    def format_index_row(self, item: Ability) -> list[str]:
         """
-        Generate markdown pages for all abilities.
+        Format a single row for the index table.
 
         Args:
-            abilities: List of Ability objects to generate pages for
-
+            item: The item to format
         Returns:
-            List of paths to generated markdown files
+            str: Formatted table row
         """
-        self.logger.info(f"Starting generation of {len(abilities)} ability pages")
-
-        # Build Pokemon ability cache once (massive performance improvement)
-        self.logger.info("Building Pokemon ability cache...")
-        pokemon_cache = self._build_pokemon_ability_cache()
-        self.logger.info(f"Cached {len(pokemon_cache)} abilities across all Pokemon")
-
-        generated_files = []
-
-        for ability in abilities:
-            try:
-                output_path = self.generate_ability_page(
-                    ability, cache=pokemon_cache
-                )
-                generated_files.append(output_path)
-
-            except Exception as e:
-                self.logger.error(
-                    f"Error generating page for {ability.name}: {e}",
-                    exc_info=True,
-                )
-
-        self.logger.info(f"Generated {len(generated_files)} ability pages")
-        return generated_files
-
-    def generate_abilities_index(self, abilities: list[Ability]) -> Path:
-        """
-        Generate the main abilities index page with links to all abilities.
-
-        Args:
-            abilities: List of Ability objects to include in the index
-
-        Returns:
-            Path to the generated index file
-        """
-        self.logger.info(f"Generating abilities index page for {len(abilities)} abilities")
-
-        # Generate markdown
-        md = "# Abilities\n\n"
-        md += f"Complete list of all Pokémon abilities in **{GAME_TITLE}**.\n\n"
-        md += "> Click on any ability to see its full description and which Pokémon can learn it.\n\n"
-
-        # Group abilities by generation
-        from collections import defaultdict
-
-        abilities_by_generation = defaultdict(list)
-
-        for ability in abilities:
-            gen = ability.generation if ability.generation else "unknown"
-            abilities_by_generation[gen].append(ability)
-
-        # Generation order and display names
-        generation_order = ["generation-iii", "generation-iv", "generation-v"]
-
-        # Generate sections for each generation
-        for gen_key in generation_order:
-            if gen_key not in abilities_by_generation:
-                continue
-
-            gen_abilities = abilities_by_generation[gen_key]
-            display_name = GENERATION_DISPLAY_NAMES.get(gen_key, gen_key)
-
-            # Add generation header
-            md += f"## {display_name}\n\n"
-
-            # Build table rows for this generation
-            rows = []
-            for ability in gen_abilities:
-                name = format_display_name(ability.name)
-                link = f"[{name}](abilities/{ability.name}.md)"
-                short_effect = (
-                    ability.short_effect if ability.short_effect else "*No description*"
-                )
-                rows.append([link, short_effect])
-
-            # Use standardized table utility
-            md += create_ability_index_table(rows)
-            md += "\n"
-
-        # Add unknown generation abilities if any
-        if "unknown" in abilities_by_generation:
-            md += "## Unknown Generation\n\n"
-            rows = []
-            for ability in abilities_by_generation["unknown"]:
-                name = format_display_name(ability.name)
-                link = f"[{name}](abilities/{ability.name}.md)"
-                short_effect = (
-                    ability.short_effect if ability.short_effect else "*No description*"
-                )
-                rows.append([link, short_effect])
-
-            md += create_ability_index_table(rows)
-            md += "\n"
-
-        # Write to file
-        output_file = self.output_dir.parent / "abilities.md"
-        output_file.write_text(md, encoding="utf-8")
-
-        self.logger.info(f"Generated abilities index: {output_file}")
-        return output_file
-
-    def update_mkdocs_navigation(self, abilities: list[Ability]) -> bool:
-        """
-        Update mkdocs.yml with navigation links to all ability pages.
-        Organizes abilities alphabetically into subsections.
-
-        Args:
-            abilities: List of Ability objects to include in navigation
-
-        Returns:
-            bool: True if update succeeded, False if it failed
-        """
-        try:
-            mkdocs_path = self.project_root / "mkdocs.yml"
-
-            # Group abilities by generation
-            abilities_by_generation = defaultdict(list)
-
-            for ability in abilities:
-                gen = ability.generation if ability.generation else "unknown"
-                abilities_by_generation[gen].append(ability)
-
-            # Create navigation structure with generation subsections
-            abilities_nav_items = [{"Overview": "pokedex/abilities.md"}]
-
-            # Add subsections for each generation in order (III, IV, V)
-            generation_order = ["generation-iii", "generation-iv", "generation-v"]
-            for gen_key in generation_order:
-                if gen_key in abilities_by_generation:
-                    gen_abilities = abilities_by_generation[gen_key]
-                    display_name = GENERATION_DISPLAY_NAMES.get(gen_key, gen_key)
-                    gen_nav = [
-                        {format_display_name(a.name): f"pokedex/abilities/{a.name}.md"}
-                        for a in gen_abilities
-                    ]
-                    # Using type: ignore because mkdocs nav allows mixed dict value types
-                    abilities_nav_items.append({display_name: gen_nav})  # type: ignore
-
-            # Add unknown generation abilities if any exist
-            if "unknown" in abilities_by_generation:
-                unknown_abilities = abilities_by_generation["unknown"]
-                unknown_nav = [
-                    {format_display_name(a.name): f"pokedex/abilities/{a.name}.md"}
-                    for a in unknown_abilities
-                ]
-                abilities_nav_items.append({"Unknown": unknown_nav})  # type: ignore
-
-            # Use shared utility to update mkdocs navigation
-            success = update_pokedex_subsection(
-                mkdocs_path, "Abilities", abilities_nav_items, self.logger
-            )
-
-            if success:
-                self.logger.info(
-                    f"Updated mkdocs.yml with {len(abilities)} abilities organized into {len(abilities_by_generation)} generation sections"
-                )
-
-            return success
-
-        except Exception as e:
-            self.logger.error(f"Failed to update mkdocs.yml: {e}", exc_info=True)
-            return False
-
-    def generate(self) -> bool:
-        """
-        Generate ability pages and abilities index.
-
-        Returns:
-            bool: True if generation succeeded, False if it failed
-        """
-        self.logger.info("Starting abilities generation...")
-        try:
-            # Clean up old ability markdown files
-            self._cleanup_output_dir()
-
-            # Load all abilities once (optimization to avoid multiple glob + parse operations)
-            self.logger.info("Loading all abilities from database...")
-            abilities = self._load_all_abilities()
-
-            if not abilities:
-                self.logger.error("No abilities were loaded")
-                return False
-
-            # Generate all ability pages
-            self.logger.info("Generating individual ability pages...")
-            ability_files = self.generate_all_ability_pages(abilities)
-
-            if not ability_files:
-                self.logger.error("No ability pages were generated")
-                return False
-
-            # Generate the abilities index
-            self.logger.info("Generating abilities index...")
-            index_path = self.generate_abilities_index(abilities)
-
-            # Update mkdocs.yml navigation
-            self.logger.info("Updating mkdocs.yml navigation...")
-            nav_success = self.update_mkdocs_navigation(abilities)
-
-            if not nav_success:
-                self.logger.warning(
-                    "Failed to update mkdocs.yml navigation, but pages were generated successfully"
-                )
-
-            self.logger.info(
-                f"Successfully generated {len(ability_files)} ability pages and index"
-            )
-            return True
-
-        except Exception as e:
-            self.logger.error(f"Failed to generate abilities: {e}", exc_info=True)
-            return False
+        name = format_display_name(item.name)
+        link = f"[{name}](abilities/{item.name}.md)"
+        short_effect = item.short_effect if item.short_effect else "*No description*"
+        return [link, short_effect]

@@ -15,7 +15,7 @@ from pathlib import Path
 from typing import Optional, Any
 
 from src.data.pokedb_loader import PokeDBLoader
-from src.models.pokedb import Item
+from src.models.pokedb import Item, Pokemon
 from src.utils.core.config import (
     GAME_TITLE,
     POKEDB_GAME_VERSIONS,
@@ -27,10 +27,7 @@ from src.utils.data.constants import (
     POKEMON_FORM_SUBFOLDERS_STANDARD,
 )
 from src.utils.data.pokemon_util import iterate_pokemon
-from src.utils.formatters.table_formatter import (
-    create_item_index_table,
-    create_pokemon_with_item_table,
-)
+from src.utils.formatters.table_formatter import create_pokemon_with_item_table
 from src.utils.text.text_util import format_display_name, name_to_id
 from src.utils.formatters.yaml_formatter import (
     load_mkdocs_config,
@@ -63,6 +60,27 @@ class ItemGenerator(BaseGenerator):
         """
         # Initialize base generator
         super().__init__(output_dir=output_dir, project_root=project_root)
+
+        self.category = "items"
+        self.subcategory_order = [
+            "consumable",
+            "holdable",
+            "key-items",
+            "machines",
+            "evolution-items",
+            "miscellaneous",
+        ]
+        self.subcategory_names = {
+            "consumable": "Consumable Items",
+            "holdable": "Holdable Items",
+            "key-items": "Key Items",
+            "machines": "Machines (TMs/HMs)",
+            "evolution-items": "Evolution Items",
+            "miscellaneous": "Miscellaneous",
+        }
+        self.name_special_cases = ITEM_NAME_SPECIAL_CASES
+        self.index_table_headers = ["Sprite", "Item", "Category", "Effect"]
+        self.index_table_alignments = ["center", "left", "left", "left"]
 
         # Create items subdirectory
         self.output_dir = self.output_dir / "items"
@@ -108,7 +126,7 @@ class ItemGenerator(BaseGenerator):
 
         return item_cache
 
-    def _load_all_items(self) -> list[Item]:
+    def load_all_data(self) -> list[Item]:
         """
         Load all items from the database once.
 
@@ -131,21 +149,91 @@ class ItemGenerator(BaseGenerator):
                 if item:
                     # Skip miracle-shooter category items
                     if item.category == "miracle-shooter":
-                        self.logger.debug(f"Skipping miracle-shooter item: {item_file.stem}")
+                        self.logger.debug(
+                            f"Skipping miracle-shooter item: {item_file.stem}"
+                        )
                         continue
                     items.append(item)
                 else:
                     self.logger.warning(f"Could not load item: {item_file.stem}")
             except Exception as e:
-                self.logger.error(
-                    f"Error loading {item_file.stem}: {e}", exc_info=True
-                )
+                self.logger.error(f"Error loading {item_file.stem}: {e}", exc_info=True)
 
         # Sort alphabetically by name
         items.sort(key=lambda i: i.name)
         self.logger.info(f"Loaded {len(items)} items")
 
         return items
+
+    def categorize_data(self, data: list[Item]) -> dict[str, list[Item]]:
+        """
+        Categorize items by usage context for index and navigation.
+
+        Args:
+            data: List of Item objects to categorize
+        Returns:
+            Dict mapping usage context identifiers to lists of Item objects
+        """
+        from collections import defaultdict
+
+        items_by_context = defaultdict(list)
+
+        for item in data:
+            # Determine usage context based on attributes and category
+            attributes = (
+                item.attributes
+                if hasattr(item, "attributes") and item.attributes
+                else []
+            )
+            category = item.category if hasattr(item, "category") else None
+
+            # Check consumable first (highest priority for items that can be used up)
+            if "consumable" in attributes:
+                context = "consumable"
+            # Then check holdable (items that Pokemon can hold)
+            elif (
+                "holdable" in attributes
+                or "holdable-active" in attributes
+                or category == "held-items"
+            ):
+                context = "holdable"
+            # Then check key items
+            elif category == "gameplay":
+                context = "key-items"
+            # Then check for machines
+            elif category == "all-machines":
+                context = "machines"
+            # Then check for evolution items
+            elif category == "evolution":
+                context = "evolution-items"
+            # Default: miscellaneous
+            else:
+                context = "miscellaneous"
+
+            items_by_context[context].append(item)
+
+        return items_by_context
+
+    def format_index_row(self, item: Item) -> list[str]:
+        """
+        Format a single row for the index table.
+
+        Args:
+            item: The item to format
+        Returns:
+            List of strings for table columns: [sprite, link, category, short_effect]
+        """
+        name = format_display_name(item.name, ITEM_NAME_SPECIAL_CASES)
+        link = f"[{name}](items/{item.name}.md)"
+        category = format_display_name(item.category, ITEM_NAME_SPECIAL_CASES)
+        short_effect = item.short_effect if item.short_effect else "*No description*"
+
+        # Get sprite URL
+        sprite_cell = "—"
+        if hasattr(item, "sprite") and item.sprite:
+            sprite_cell = f'<img src="{item.sprite}" alt="{name}" />'
+
+        return [sprite_cell, link, category, short_effect]
 
     def _generate_pokemon_with_item_section(
         self, item_name: str, cache: Optional[dict[str, list[dict]]] = None
@@ -285,7 +373,7 @@ class ItemGenerator(BaseGenerator):
 
         return md
 
-    def generate_item_page(
+    def generate_page(
         self, item: Item, cache: Optional[dict[str, list[dict]]] = None
     ) -> Path:
         """
@@ -321,306 +409,10 @@ class ItemGenerator(BaseGenerator):
         self.logger.info(f"Generated page for {display_name}: {output_file}")
         return output_file
 
-    def generate_all_item_pages(self, items: list[Item]) -> list[Path]:
-        """
-        Generate markdown pages for all items.
-
-        Args:
-            items: List of Item objects to generate pages for
-
-        Returns:
-            List of paths to generated markdown files
-        """
-        self.logger.info(f"Starting generation of {len(items)} item pages")
-
-        # Build Pokemon item cache once (massive performance improvement)
-        self.logger.info("Building Pokemon item cache...")
-        pokemon_cache = self._build_pokemon_item_cache()
-        self.logger.info(f"Cached {len(pokemon_cache)} items found on wild Pokemon")
-
-        generated_files = []
-
-        for item in items:
-            try:
-                output_path = self.generate_item_page(item, cache=pokemon_cache)
-                generated_files.append(output_path)
-
-            except Exception as e:
-                self.logger.error(
-                    f"Error generating page for {item.name}: {e}",
-                    exc_info=True,
-                )
-
-        self.logger.info(f"Generated {len(generated_files)} item pages")
-        return generated_files
-
-    def generate_items_index(self, items: list[Item]) -> Path:
-        """
-        Generate the main items index page with links to all items.
-
-        Args:
-            items: List of Item objects to include in the index
-
-        Returns:
-            Path to the generated index file
-        """
-        self.logger.info(f"Generating items index page for {len(items)} items")
-
-        # Generate markdown
-        md = "# Items\n\n"
-        md += f"Complete list of all items in **{GAME_TITLE}**.\n\n"
-        md += (
-            "> Click on any item to see its full description and where to find it.\n\n"
-        )
-
-        # Group items by usage context
-        from collections import defaultdict
-
-        items_by_context = defaultdict(list)
-
-        for item in items:
-            # Determine usage context based on attributes and category
-            attributes = (
-                item.attributes
-                if hasattr(item, "attributes") and item.attributes
-                else []
-            )
-            category = item.category if hasattr(item, "category") else None
-
-            # Check consumable first (highest priority for items that can be used up)
-            if "consumable" in attributes:
-                context = "consumable"
-            # Then check holdable (items that Pokemon can hold)
-            elif (
-                "holdable" in attributes
-                or "holdable-active" in attributes
-                or category == "held-items"
-            ):
-                context = "holdable"
-            # Then check key items
-            elif category == "gameplay":
-                context = "key-items"
-            # Then check for machines
-            elif category == "all-machines":
-                context = "machines"
-            # Then check for evolution items
-            elif category == "evolution":
-                context = "evolution-items"
-            # Default: miscellaneous
-            else:
-                context = "miscellaneous"
-
-            items_by_context[context].append(item)
-
-        # Usage context display names and order
-        context_display = {
-            "consumable": "Consumable Items",
-            "holdable": "Holdable Items",
-            "key-items": "Key Items",
-            "machines": "Machines (TMs/HMs)",
-            "evolution-items": "Evolution Items",
-            "miscellaneous": "Miscellaneous",
-        }
-        context_order = [
-            "consumable",
-            "holdable",
-            "key-items",
-            "machines",
-            "evolution-items",
-            "miscellaneous",
-        ]
-
-        # Generate sections for each usage context
-        for context_key in context_order:
-            if context_key not in items_by_context:
-                continue
-
-            context_items = items_by_context[context_key]
-            display_name = context_display.get(context_key, context_key.title())
-
-            # Add usage context header
-            md += f"## {display_name}\n\n"
-
-            # Build table rows for this usage context
-            rows = []
-            for item in context_items:
-                name = format_display_name(item.name, ITEM_NAME_SPECIAL_CASES)
-                link = f"[{name}](items/{item.name}.md)"
-                category = format_display_name(item.category, ITEM_NAME_SPECIAL_CASES)
-                short_effect = (
-                    item.short_effect if item.short_effect else "*No description*"
-                )
-
-                # Get sprite URL
-                sprite_cell = "—"
-                if hasattr(item, "sprite") and item.sprite:
-                    sprite_cell = f'<img src="{item.sprite}" alt="{name}" />'
-
-                rows.append([sprite_cell, link, category, short_effect])
-
-            # Use standardized table utility
-            md += create_item_index_table(rows)
-            md += "\n"
-
-        # Write to file
-        output_file = self.output_dir.parent / "items.md"
-        output_file.write_text(md, encoding="utf-8")
-
-        self.logger.info(f"Generated items index: {output_file}")
-        return output_file
-
-    def update_mkdocs_navigation(self, items: list[Item]) -> bool:
-        """
-        Update mkdocs.yml with navigation links to all item pages.
-        Organizes items alphabetically into subsections.
-
-        Args:
-            items: List of Item objects to include in navigation
-
-        Returns:
-            bool: True if update succeeded, False if it failed
-        """
-        try:
-            mkdocs_path = self.project_root / "mkdocs.yml"
-
-            # Group items by usage context
-            from collections import defaultdict
-
-            items_by_context = defaultdict(list)
-
-            for item in items:
-                # Determine usage context based on attributes and category
-                attributes = (
-                    item.attributes
-                    if hasattr(item, "attributes") and item.attributes
-                    else []
-                )
-                category = item.category if hasattr(item, "category") else None
-
-                # Check consumable first (highest priority for items that can be used up)
-                if "consumable" in attributes:
-                    context = "consumable"
-                # Then check holdable (items that Pokemon can hold)
-                elif (
-                    "holdable" in attributes
-                    or "holdable-active" in attributes
-                    or category == "held-items"
-                ):
-                    context = "holdable"
-                # Then check key items
-                elif category == "gameplay":
-                    context = "key-items"
-                # Then check for machines
-                elif category == "all-machines":
-                    context = "machines"
-                # Then check for evolution items
-                elif category == "evolution":
-                    context = "evolution-items"
-                # Default: miscellaneous
-                else:
-                    context = "miscellaneous"
-
-                items_by_context[context].append(item)
-
-            # Create navigation structure with usage context subsections
-            items_nav_items = [{"Overview": "pokedex/items.md"}]
-
-            # Usage context display names and order
-            context_display = {
-                "consumable": "Consumable",
-                "holdable": "Holdable",
-                "key-items": "Key Items",
-                "machines": "Machines",
-                "miscellaneous": "Miscellaneous",
-                "evolution-items": "Evolution Items",
-            }
-            context_order = [
-                "consumable",
-                "holdable",
-                "key-items",
-                "machines",
-                "miscellaneous",
-                "evolution-items",
-            ]
-
-            # Add subsections for each usage context
-            for context_key in context_order:
-                if context_key in items_by_context:
-                    context_items = items_by_context[context_key]
-                    display_name = context_display.get(context_key, context_key.title())
-                    context_nav = [
-                        {
-                            format_display_name(
-                                i.name, ITEM_NAME_SPECIAL_CASES
-                            ): f"pokedex/items/{i.name}.md"
-                        }
-                        for i in context_items
-                    ]
-                    # Using type: ignore because mkdocs nav allows mixed dict value types
-                    items_nav_items.append({display_name: context_nav})  # type: ignore
-
-            # Use shared utility to update mkdocs navigation
-            success = update_pokedex_subsection(
-                mkdocs_path, "Items", items_nav_items, self.logger
-            )
-
-            if success:
-                self.logger.info(
-                    f"Updated mkdocs.yml with {len(items)} items organized into {len(items_by_context)} usage context sections"
-                )
-
-            return success
-
-        except Exception as e:
-            self.logger.error(f"Failed to update mkdocs.yml: {e}", exc_info=True)
-            return False
-
-    def generate(self) -> bool:
-        """
-        Generate item pages and items index.
-
-        Returns:
-            bool: True if generation succeeded, False if it failed
-        """
-        self.logger.info("Starting items generation...")
-        try:
-            # Clean up old item markdown files
-            self._cleanup_output_dir()
-
-            # Load all items once (optimization to avoid multiple glob + parse operations)
-            self.logger.info("Loading all items from database...")
-            items = self._load_all_items()
-
-            if not items:
-                self.logger.error("No items were loaded")
-                return False
-
-            # Generate all item pages
-            self.logger.info("Generating individual item pages...")
-            item_files = self.generate_all_item_pages(items)
-
-            if not item_files:
-                self.logger.error("No item pages were generated")
-                return False
-
-            # Generate the items index
-            self.logger.info("Generating items index...")
-            index_path = self.generate_items_index(items)
-
-            # Update mkdocs.yml navigation
-            self.logger.info("Updating mkdocs.yml navigation...")
-            nav_success = self.update_mkdocs_navigation(items)
-
-            if not nav_success:
-                self.logger.warning(
-                    "Failed to update mkdocs.yml navigation, but pages were generated successfully"
-                )
-
-            self.logger.info(
-                f"Successfully generated {len(item_files)} item pages and index"
-            )
-            return True
-
-        except Exception as e:
-            self.logger.error(f"Failed to generate items: {e}", exc_info=True)
-            return False
+    def generate_all_pages(
+        self,
+        data: list[Item],
+        cache: Optional[dict[str, list[dict]]] = None,
+    ) -> list[Path]:
+        cache = cache or self._build_pokemon_item_cache()
+        return super().generate_all_pages(data, cache=cache)

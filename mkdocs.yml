@@ -1014,7 +1014,7 @@ nav:
       - Zen Mode: pokedex/abilities/zen-mode.md
   - Items:
     - Overview: pokedex/items.md
-    - Consumable:
+    - Consumable Items:
       - Antidote: pokedex/items/antidote.md
       - Awakening: pokedex/items/awakening.md
       - Berry Juice: pokedex/items/berry-juice.md
@@ -1084,7 +1084,7 @@ nav:
       - X Speed: pokedex/items/x-speed.md
       - Yellow Flute: pokedex/items/yellow-flute.md
       - Zinc: pokedex/items/zinc.md
-    - Holdable:
+    - Holdable Items:
       - Absorb Bulb: pokedex/items/absorb-bulb.md
       - Adamant Orb: pokedex/items/adamant-orb.md
       - Aguav Berry: pokedex/items/aguav-berry.md
@@ -1284,7 +1284,7 @@ nav:
       - Vs Recorder: pokedex/items/vs-recorder.md
       - Vs Seeker: pokedex/items/vs-seeker.md
       - Xtransceiver: pokedex/items/xtransceiver.md
-    - Machines:
+    - Machines (TMs/HMs):
       - Hm01: pokedex/items/hm01.md
       - Hm02: pokedex/items/hm02.md
       - Hm03: pokedex/items/hm03.md
@@ -1386,6 +1386,25 @@ nav:
       - Tm93: pokedex/items/tm93.md
       - Tm94: pokedex/items/tm94.md
       - Tm95: pokedex/items/tm95.md
+    - Evolution Items:
+      - Dawn Stone: pokedex/items/dawn-stone.md
+      - Dragon Scale: pokedex/items/dragon-scale.md
+      - Dubious Disc: pokedex/items/dubious-disc.md
+      - Dusk Stone: pokedex/items/dusk-stone.md
+      - Electirizer: pokedex/items/electirizer.md
+      - Fire Stone: pokedex/items/fire-stone.md
+      - Leaf Stone: pokedex/items/leaf-stone.md
+      - Magmarizer: pokedex/items/magmarizer.md
+      - Moon Stone: pokedex/items/moon-stone.md
+      - Oval Stone: pokedex/items/oval-stone.md
+      - Prism Scale: pokedex/items/prism-scale.md
+      - Protector: pokedex/items/protector.md
+      - Reaper Cloth: pokedex/items/reaper-cloth.md
+      - Shiny Stone: pokedex/items/shiny-stone.md
+      - Sun Stone: pokedex/items/sun-stone.md
+      - Thunder Stone: pokedex/items/thunder-stone.md
+      - Up Grade: pokedex/items/up-grade.md
+      - Water Stone: pokedex/items/water-stone.md
     - Miscellaneous:
       - Armor Fossil: pokedex/items/armor-fossil.md
       - Azure Flute: pokedex/items/azure-flute.md
@@ -1593,28 +1612,9 @@ nav:
       - Works Key: pokedex/items/works-key.md
       - Yellow Apricorn: pokedex/items/yellow-apricorn.md
       - Yellow Shard: pokedex/items/yellow-shard.md
-    - Evolution Items:
-      - Dawn Stone: pokedex/items/dawn-stone.md
-      - Dragon Scale: pokedex/items/dragon-scale.md
-      - Dubious Disc: pokedex/items/dubious-disc.md
-      - Dusk Stone: pokedex/items/dusk-stone.md
-      - Electirizer: pokedex/items/electirizer.md
-      - Fire Stone: pokedex/items/fire-stone.md
-      - Leaf Stone: pokedex/items/leaf-stone.md
-      - Magmarizer: pokedex/items/magmarizer.md
-      - Moon Stone: pokedex/items/moon-stone.md
-      - Oval Stone: pokedex/items/oval-stone.md
-      - Prism Scale: pokedex/items/prism-scale.md
-      - Protector: pokedex/items/protector.md
-      - Reaper Cloth: pokedex/items/reaper-cloth.md
-      - Shiny Stone: pokedex/items/shiny-stone.md
-      - Sun Stone: pokedex/items/sun-stone.md
-      - Thunder Stone: pokedex/items/thunder-stone.md
-      - Up Grade: pokedex/items/up-grade.md
-      - Water Stone: pokedex/items/water-stone.md
   - Moves:
     - Overview: pokedex/moves.md
-    - Physical:
+    - Physical Moves:
       - Accelerock: pokedex/moves/accelerock.md
       - Acrobatics: pokedex/moves/acrobatics.md
       - Aerial Ace: pokedex/moves/aerial-ace.md
@@ -1858,7 +1858,7 @@ nav:
       - Wrap: pokedex/moves/wrap.md
       - X Scissor: pokedex/moves/x-scissor.md
       - Zen Headbutt: pokedex/moves/zen-headbutt.md
-    - Special:
+    - Special Moves:
       - Absorb: pokedex/moves/absorb.md
       - Acid: pokedex/moves/acid.md
       - Acid Spray: pokedex/moves/acid-spray.md
@@ -2018,7 +2018,7 @@ nav:
       - Whirlpool: pokedex/moves/whirlpool.md
       - Wring Out: pokedex/moves/wring-out.md
       - Zap Cannon: pokedex/moves/zap-cannon.md
-    - Status:
+    - Status Moves:
       - Acid Armor: pokedex/moves/acid-armor.md
       - Acupressure: pokedex/moves/acupressure.md
       - After You: pokedex/moves/after-you.md
