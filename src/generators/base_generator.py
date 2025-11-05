@@ -64,28 +64,28 @@ class BaseGenerator(ABC):
     @abstractmethod
     def load_all_data(self) -> list[Any]:
         """
-        Load all data items from the database.
+        Load all data entries from the database.
 
         This method should be implemented by subclasses to load
-        the relevant data items for generation.
+        the relevant data entries for generation.
 
         Returns:
-            list[Any]: List of data items
+            list[Any]: List of data entries
         """
         raise NotImplementedError("Subclasses must implement load_all_data()")
 
     @abstractmethod
     def categorize_data(self, data: list[Any]) -> dict[str, list[Any]]:
         """
-        Categorize data items into subcategories.
+        Categorize data entries into subcategories.
 
         This method should be implemented by subclasses to categorize
-        the data items for index generation and navigation.
+        the data entries for index generation and navigation.
 
         Args:
-            data (list[Any]): List of data items to categorize
+            data (list[Any]): List of data entries to categorize
         Returns:
-            dict[str, list[Any]]: Mapping of subcategory IDs to lists of items
+            dict[str, list[Any]]: Mapping of subcategory IDs to lists of entries
         """
         raise NotImplementedError("Subclasses must implement categorize_data()")
 
@@ -115,13 +115,13 @@ class BaseGenerator(ABC):
 
     def update_mkdocs_nav(
         self,
-        categorized_items: dict[str, list],
+        categorized_entries: dict[str, list],
     ) -> bool:
         """
         Update the mkdocs navigation structure.
 
         Args:
-            categorized_items (dict[str, list]): Mapping of subcategory IDs to lists of items
+            categorized_entries (dict[str, list]): Mapping of subcategory IDs to lists of entries
 
         Returns:
             bool: True if update succeeded, False otherwise
@@ -135,31 +135,31 @@ class BaseGenerator(ABC):
 
             # Add subsections for each subcategory
             for subcategory in self.subcategory_order:
-                if subcategory in categorized_items:
-                    subcategory_items = categorized_items[subcategory]
+                if subcategory in categorized_entries:
+                    subcategory_entries = categorized_entries[subcategory]
                     display_name = self.subcategory_names.get(subcategory, subcategory)
 
                     subcategory_nav = [
                         {
                             format_display_name(
-                                item.name, self.name_special_cases
-                            ): f"pokedex/{self.category}/{item.name}.md"
+                                entry.name, self.name_special_cases
+                            ): f"pokedex/{self.category}/{entry.name}.md"
                         }
-                        for item in subcategory_items
+                        for entry in subcategory_entries
                     ]
                     # Using type: ignore because mkdocs nav allows mixed dict value types
                     nav_items.append({display_name: subcategory_nav})  # type: ignore
 
-            # Add unknown subcategory items if any exist
-            if "unknown" in categorized_items:
-                unknown_items = categorized_items["unknown"]
+            # Add unknown subcategory entries if any exist
+            if "unknown" in categorized_entries:
+                unknown_entries = categorized_entries["unknown"]
                 unknown_nav = [
                     {
                         format_display_name(
-                            item.name, self.name_special_cases
-                        ): f"pokedex/{self.category}/{item.name}.md"
+                            entry.name, self.name_special_cases
+                        ): f"pokedex/{self.category}/{entry.name}.md"
                     }
-                    for item in unknown_items
+                    for entry in unknown_entries
                 ]
                 nav_items.append({"Unknown": unknown_nav})  # type: ignore
 
@@ -171,7 +171,7 @@ class BaseGenerator(ABC):
 
             if success:
                 self.logger.info(
-                    f"Updated mkdocs.yml with {sum(len(items) for items in categorized_items.values())} {self.category} organized into {len(categorized_items)} subcategory sections"
+                    f"Updated mkdocs.yml with {sum(len(entries) for entries in categorized_entries.values())} {self.category} organized into {len(categorized_entries)} subcategory sections"
                 )
 
             return success
@@ -181,15 +181,15 @@ class BaseGenerator(ABC):
             return False
 
     @abstractmethod
-    def generate_page(self, item: Any, cache: Optional[dict[str, Any]] = None) -> Path:
+    def generate_page(self, entry: Any, cache: Optional[dict[str, Any]] = None) -> Path:
         """
-        Generate a markdown page for a single data item.
+        Generate a markdown page for a single data entry.
 
         This method should be implemented by subclasses to generate
-        the markdown file for an individual data item.
+        the markdown file for an individual data entry.
 
         Args:
-            item: The data item to generate a page for
+            entry: The data entry to generate a page for
         Returns:
             Path: The path to the generated markdown file
         """
@@ -199,44 +199,44 @@ class BaseGenerator(ABC):
         self, data: list[Any], cache: Optional[dict[str, Any]] = None
     ) -> list[Path]:
         """
-        Generate markdown pages for all data items.
+        Generate markdown pages for all data entries.
 
         Args:
-            data (list[Any]): List of data items to generate pages for
+            data (list[Any]): List of data entries to generate pages for
             cache (Optional[dict[str, Any]], optional): Cache for previously generated pages. Defaults to None.
 
         Returns:
             list[Path]: List of paths to the generated markdown files
         """
-        self.logger.info(f"Starting generation of {len(data)} ability pages")
+        self.logger.info(f"Starting generation of {len(data)} {self.category} pages")
 
         generated_files = []
 
-        for ability in data:
+        for entry in data:
             try:
-                output_path = self.generate_page(ability, cache)
+                output_path = self.generate_page(entry, cache)
                 generated_files.append(output_path)
 
             except Exception as e:
                 self.logger.error(
-                    f"Error generating page for {ability.name}: {e}",
+                    f"Error generating page for {entry.name}: {e}",
                     exc_info=True,
                 )
 
-        self.logger.info(f"Generated {len(generated_files)} ability pages")
+        self.logger.info(f"Generated {len(generated_files)} {self.category} pages")
         return generated_files
 
     def generate_index(
         self,
         data: list[Any],
-        categorized_items: dict[str, list],
+        categorized_entries: dict[str, list],
     ) -> Path:
         """
         Generate an index markdown page for the category.
 
         Args:
-            data (list[Any]): List of all data items
-            categorized_items (dict[str, list]): Mapping of subcategory IDs to lists of items
+            data (list[Any]): List of all data entries
+            categorized_entries (dict[str, list]): Mapping of subcategory IDs to lists of entries
 
         Returns:
             Path: Path to the generated index markdown file
@@ -253,10 +253,10 @@ class BaseGenerator(ABC):
 
         # Generate sections for each subcategory
         for subcategory in self.subcategory_order:
-            if subcategory not in categorized_items:
+            if subcategory not in categorized_entries:
                 continue
 
-            subcategory_items = categorized_items[subcategory]
+            subcategory_entries = categorized_entries[subcategory]
             display_name = self.subcategory_names.get(subcategory, subcategory)
 
             # Add subcategory header
@@ -264,8 +264,8 @@ class BaseGenerator(ABC):
 
             # Build table rows
             rows = []
-            for item in subcategory_items:
-                rows.append(self.format_index_row(item))
+            for entry in subcategory_entries:
+                rows.append(self.format_index_row(entry))
 
             # Use subclass-specific table formatter
             md += create_table(
@@ -275,12 +275,12 @@ class BaseGenerator(ABC):
             )
             md += "\n\n"
 
-        # Add unknown subcategory items if any
-        if "unknown" in categorized_items:
+        # Add unknown subcategory entries if any
+        if "unknown" in categorized_entries:
             md += "## Unknown\n\n"
             rows = []
-            for item in categorized_items["unknown"]:
-                rows.append(self.format_index_row(item))
+            for entry in categorized_entries["unknown"]:
+                rows.append(self.format_index_row(entry))
 
             md += create_table(
                 self.index_table_headers,
@@ -297,15 +297,15 @@ class BaseGenerator(ABC):
         return output_file
 
     @abstractmethod
-    def format_index_row(self, item: Any) -> list[str]:
+    def format_index_row(self, entry: Any) -> list[str]:
         """
         Format a single row for the index table.
 
         This method should be implemented by subclasses to format
-        individual items into table rows.
+        individual entries into table rows.
 
         Args:
-            item: The item to format
+            entry: The entry to format
         Returns:
             str: Formatted table row
         """

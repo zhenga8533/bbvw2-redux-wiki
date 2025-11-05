@@ -8,7 +8,6 @@ from .constants import (
     POKEMON_FORM_SUBFOLDERS_STANDARD,
 )
 from .type_effectiveness import calculate_type_effectiveness
-from .pokemon_util import iterate_pokemon
 
 __all__ = [
     # Constants
@@ -19,6 +18,4 @@ __all__ = [
     "POKEMON_FORM_SUBFOLDERS_STANDARD",
     # Type effectiveness
     "calculate_type_effectiveness",
-    # Pokemon utilities
-    "iterate_pokemon",
 ]

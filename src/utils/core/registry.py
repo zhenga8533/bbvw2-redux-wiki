@@ -6,7 +6,7 @@ duplication between parser and generator registry loading in main.py.
 """
 
 import importlib
-from typing import Any, Dict, Tuple
+from typing import Any
 
 from src.utils.core import config
 from src.utils.core.logger import get_logger
@@ -15,8 +15,8 @@ logger = get_logger(__name__)
 
 
 def get_component_registry(
-    component_config: Dict[str, Dict[str, Any]], config_keys: Tuple[str, ...]
-) -> Dict[str, Tuple[Any, ...]]:
+    component_config: dict[str, dict[str, Any]], config_keys: tuple[str, ...]
+) -> dict[str, tuple[Any, ...]]:
     """
     Get the registry of available components by dynamically loading them from the config.
 
@@ -68,7 +68,7 @@ def get_component_registry(
     return registry
 
 
-def get_parser_registry() -> Dict[str, Tuple[Any, str, str]]:
+def get_parser_registry() -> dict[str, tuple[Any, str, str]]:
     """
     Get the registry of available parsers.
 
@@ -78,7 +78,7 @@ def get_parser_registry() -> Dict[str, Tuple[Any, str, str]]:
     return get_component_registry(config.PARSERS_REGISTRY, ("input_file", "output_dir"))
 
 
-def get_generator_registry() -> Dict[str, Tuple[Any, str]]:
+def get_generator_registry() -> dict[str, tuple[Any, str]]:
     """
     Get the registry of available generators.
 

@@ -5,7 +5,7 @@ This module centralizes all configuration values that were previously in config.
 Values are defined as Python constants for better type safety and easier maintenance.
 """
 
-from typing import Any, Dict
+from typing import Any
 
 # ============================================================================
 # PokeDB Configuration
@@ -39,7 +39,7 @@ LOGGING_CLEAR_ON_RUN = True
 # Parser Registry
 # ============================================================================
 
-PARSERS_REGISTRY: Dict[str, Dict[str, Any]] = {
+PARSERS_REGISTRY: dict[str, dict[str, Any]] = {
     "evolution_changes": {
         "module": "src.parsers.evolution_changes_parser",
         "class": "EvolutionChangesParser",
@@ -106,7 +106,7 @@ PARSERS_REGISTRY: Dict[str, Dict[str, Any]] = {
 # Generator Registry
 # ============================================================================
 
-GENERATORS_REGISTRY: Dict[str, Dict[str, Any]] = {
+GENERATORS_REGISTRY: dict[str, dict[str, Any]] = {
     "pokemon": {
         "module": "src.generators.pokemon_generator",
         "class": "PokemonGenerator",

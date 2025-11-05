@@ -22,11 +22,7 @@ from src.utils.formatters.markdown_formatter import (
     format_pokemon_card_grid,
     format_type_badge,
 )
-from src.utils.data.constants import (
-    DAMAGE_CLASS_ICONS,
-    POKEMON_FORM_SUBFOLDERS_STANDARD,
-)
-from src.utils.data.pokemon_util import iterate_pokemon
+from src.utils.data.constants import DAMAGE_CLASS_ICONS
 from src.utils.text.text_util import format_display_name
 from src.utils.formatters.yaml_formatter import (
     update_pokedex_subsection,
@@ -82,17 +78,13 @@ class MoveGenerator(BaseGenerator):
             Dict with move names as keys, values are dicts with learning methods as keys
             {'move-name': {'level_up': [{pokemon, level}, ...], 'machine': [...], ...}}
         """
-        pokemon_base_dir = self.project_root / "data" / "pokedb" / "parsed" / "pokemon"
-
         # Map: move_name -> {method: [{pokemon, level}, ...]}
         move_cache = defaultdict(
             lambda: {"level_up": [], "machine": [], "egg": [], "tutor": []}
         )
 
         # Use shared Pokemon iteration utility (handles deduplication and filtering)
-        for pokemon in iterate_pokemon(
-            pokemon_base_dir,
-            subfolders=POKEMON_FORM_SUBFOLDERS_STANDARD,
+        for pokemon in PokeDBLoader.iterate_pokemon(
             include_non_default=False,
             deduplicate=True,
         ):
@@ -192,30 +184,30 @@ class MoveGenerator(BaseGenerator):
 
         return moves_by_damage_class
 
-    def format_index_row(self, item: Move) -> list[str]:
+    def format_index_row(self, entry: Move) -> list[str]:
         """
         Format a single row for the index table.
 
         Args:
-            item: The move to format
+            entry: The entry to format
         Returns:
             List of strings for table columns: [link, type_badge, category_icon, power, accuracy, pp]
         """
-        name = format_display_name(item.name)
-        link = f"[{name}](moves/{item.name}.md)"
+        name = format_display_name(entry.name)
+        link = f"[{name}](moves/{entry.name}.md)"
 
-        move_type = getattr(item.type, VERSION_GROUP, None) or "???"
+        move_type = getattr(entry.type, VERSION_GROUP, None) or "???"
         type_badge = format_type_badge(move_type)
 
-        category_icon = DAMAGE_CLASS_ICONS.get(item.damage_class, "")
+        category_icon = DAMAGE_CLASS_ICONS.get(entry.damage_class, "")
 
-        power = getattr(item.power, VERSION_GROUP, None)
+        power = getattr(entry.power, VERSION_GROUP, None)
         power_str = str(power) if power is not None and power > 0 else "—"
 
-        accuracy = getattr(item.accuracy, VERSION_GROUP, None)
+        accuracy = getattr(entry.accuracy, VERSION_GROUP, None)
         accuracy_str = str(accuracy) if accuracy is not None and accuracy > 0 else "—"
 
-        pp = getattr(item.pp, VERSION_GROUP, None)
+        pp = getattr(entry.pp, VERSION_GROUP, None)
         pp_str = str(pp) if pp is not None and pp > 0 else "—"
 
         return [link, type_badge, category_icon, power_str, accuracy_str, pp_str]
@@ -401,33 +393,33 @@ class MoveGenerator(BaseGenerator):
         return md
 
     def generate_page(
-        self, item: Move, cache: Optional[dict[str, dict[str, list[dict]]]] = None
+        self, entry: Move, cache: Optional[dict[str, dict[str, list[dict]]]] = None
     ) -> Path:
         """
         Generate a markdown page for a single move.
 
         Args:
-            move: The Move data to generate a page for
+            entry: The Move data to generate a page for
             cache: Optional pre-built cache of move->Pokemon mappings for performance
 
         Returns:
             Path to the generated markdown file
         """
-        display_name = format_display_name(item.name)
+        display_name = format_display_name(entry.name)
 
         # Start building the markdown with title
         md = f"# {display_name}\n\n"
 
         # Add sections
-        md += self._generate_stats_section(item)
-        md += self._generate_effect_section(item)
-        md += self._generate_flavor_text_section(item)
+        md += self._generate_stats_section(entry)
+        md += self._generate_effect_section(entry)
+        md += self._generate_flavor_text_section(entry)
 
         # Get Pokemon that can learn this move (using cache if available)
-        md += self._generate_pokemon_section(item.name, cache=cache)
+        md += self._generate_pokemon_section(entry.name, cache=cache)
 
         # Write to file
-        output_file = self.output_dir / f"{item.name}.md"
+        output_file = self.output_dir / f"{entry.name}.md"
         output_file.write_text(md, encoding="utf-8")
 
         self.logger.info(f"Generated page for {display_name}: {output_file}")

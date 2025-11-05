@@ -21,10 +21,6 @@ from src.utils.core.config import (
     VERSION_GROUP,
     VERSION_GROUP_FRIENDLY,
 )
-from src.utils.data.constants import (
-    POKEMON_FORM_SUBFOLDERS_STANDARD,
-)
-from src.utils.data.pokemon_util import iterate_pokemon
 from src.utils.formatters.table_formatter import create_table
 from src.utils.text.text_util import format_display_name
 
@@ -85,15 +81,11 @@ class ItemGenerator(BaseGenerator):
         Returns:
             Dict with item names as keys, values are lists of dicts with pokemon and rates
         """
-        pokemon_base_dir = self.project_root / "data" / "pokedb" / "parsed" / "pokemon"
-
         # Map: item_name -> [{"pokemon": Pokemon, <game_version>: rate, ...}, ...]
         item_cache = {}
 
         # Use shared Pokemon iteration utility (handles deduplication and filtering)
-        for pokemon in iterate_pokemon(
-            pokemon_base_dir,
-            subfolders=POKEMON_FORM_SUBFOLDERS_STANDARD,
+        for pokemon in PokeDBLoader.iterate_pokemon(
             include_non_default=False,
             deduplicate=True,
         ):
@@ -206,24 +198,24 @@ class ItemGenerator(BaseGenerator):
 
         return items_by_context
 
-    def format_index_row(self, item: Item) -> list[str]:
+    def format_index_row(self, entry: Item) -> list[str]:
         """
         Format a single row for the index table.
 
         Args:
-            item: The item to format
+            entry: The entry to format
         Returns:
             List of strings for table columns: [sprite, link, category, short_effect]
         """
-        name = format_display_name(item.name)
-        link = f"[{name}](items/{item.name}.md)"
-        category = format_display_name(item.category)
-        short_effect = item.short_effect if item.short_effect else "*No description*"
+        name = format_display_name(entry.name)
+        link = f"[{name}](items/{entry.name}.md)"
+        category = format_display_name(entry.category)
+        short_effect = entry.short_effect if entry.short_effect else "*No description*"
 
         # Get sprite URL
         sprite_cell = "—"
-        if hasattr(item, "sprite") and item.sprite:
-            sprite_cell = f'<img src="{item.sprite}" alt="{name}" />'
+        if hasattr(entry, "sprite") and entry.sprite:
+            sprite_cell = f'<img src="{entry.sprite}" alt="{name}" />'
 
         return [sprite_cell, link, category, short_effect]
 
@@ -368,36 +360,36 @@ class ItemGenerator(BaseGenerator):
         return md
 
     def generate_page(
-        self, item: Item, cache: Optional[dict[str, list[dict]]] = None
+        self, entry: Item, cache: Optional[dict[str, list[dict]]] = None
     ) -> Path:
         """
         Generate a markdown page for a single item.
 
         Args:
-            item: The Item data to generate a page for
+            entry: The Item data to generate a page for
             cache: Optional pre-built cache of item->Pokemon mappings for performance
 
         Returns:
             Path to the generated markdown file
         """
-        display_name = format_display_name(item.name)
+        display_name = format_display_name(entry.name)
 
         # Start building the markdown with title
         md = f"# {display_name}\n\n"
 
         # Add item header with sprite and category
-        md += self._generate_item_header(item)
+        md += self._generate_item_header(entry)
 
         # Add sections
-        md += self._generate_effect_section(item)
-        md += self._generate_flavor_text_section(item)
-        md += self._generate_attributes_section(item)
+        md += self._generate_effect_section(entry)
+        md += self._generate_flavor_text_section(entry)
+        md += self._generate_attributes_section(entry)
 
         # Get Pokemon that hold this item (using cache if available)
-        md += self._generate_pokemon_with_item_section(item.name, cache=cache)
+        md += self._generate_pokemon_with_item_section(entry.name, cache=cache)
 
         # Write to file
-        output_file = self.output_dir / f"{item.name}.md"
+        output_file = self.output_dir / f"{entry.name}.md"
         output_file.write_text(md, encoding="utf-8")
 
         self.logger.info(f"Generated page for {display_name}: {output_file}")

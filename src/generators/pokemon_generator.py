@@ -30,6 +30,7 @@ from src.utils.formatters.markdown_formatter import (
     format_ability,
     format_item,
     format_move,
+    format_pokemon,
     format_pokemon_card_grid,
     format_type_badge,
 )
@@ -43,7 +44,6 @@ from src.utils.formatters.table_formatter import (
 )
 from src.utils.text.text_util import extract_form_suffix, format_display_name
 from src.utils.data.type_effectiveness import calculate_type_effectiveness
-from src.utils.data.pokemon_util import get_pokemon_sprite_url
 from src.utils.formatters.yaml_formatter import (
     load_mkdocs_config,
     save_mkdocs_config,
@@ -202,38 +202,33 @@ class PokemonGenerator(BaseGenerator):
 
         return dict(categorized)
 
-    def format_index_row(self, item: Pokemon) -> list[str]:
+    def format_index_row(self, entry: Pokemon) -> list[str]:
         """
         Format a single Pokemon into a table row for the index page.
 
         Args:
-            item: The Pokemon object to format
+            entry: The Pokemon object to format
 
         Returns:
             List of table cell strings: [dex_num, sprite, name_link, types, abilities]
         """
         # Dex number
-        dex_num = item.pokedex_numbers.get("national", "???")
+        dex_num = entry.pokedex_numbers.get("national", "???")
         dex_str = f"**{dex_num:03d}**" if isinstance(dex_num, int) else f"**{dex_num}**"
 
         # Sprite
-        sprite_url = get_pokemon_sprite_url(item)
-        if sprite_url:
-            name = format_display_name(item.name)
-            sprite_cell = f'<img src="{sprite_url}" alt="{name}" style="max-width: 80px; image-rendering: pixelated;" />'
-        else:
-            sprite_cell = "—"
+        sprite_cell = format_pokemon(entry, is_linked=False, relative_path="..")
 
         # Name link
-        name = format_display_name(item.name)
-        name_link = f"[{name}](pokemon/{item.name}.md)"
+        name = format_display_name(entry.name)
+        name_link = f"[{name}](pokemon/{entry.name}.md)"
 
         # Types (stacked vertically)
-        type_badges = " ".join([format_type_badge(t) for t in item.types])
+        type_badges = " ".join([format_type_badge(t) for t in entry.types])
         types_cell = f'<div class="badges-vstack">{type_badges}</div>'
 
         # Abilities (non-hidden only, max 2)
-        abilities = [a.name for a in item.abilities if not a.is_hidden]
+        abilities = [a.name for a in entry.abilities if not a.is_hidden]
         abilities_str = ", ".join([format_display_name(a) for a in abilities[:2]])
 
         return [dex_str, sprite_cell, name_link, types_cell, abilities_str]
@@ -331,9 +326,6 @@ class PokemonGenerator(BaseGenerator):
         """
         md = ""
 
-        # Get sprite URL using utility function
-        sprite_url = get_pokemon_sprite_url(pokemon)
-
         # Get type colors for dynamic gradient
         color_1 = "#667eea"  # Default
         color_2 = "#667eea"  # Default
@@ -352,10 +344,10 @@ class PokemonGenerator(BaseGenerator):
         md += '\t<div style="display: flex; flex-direction: column; align-items: center; gap: 1rem;">\n'
 
         # Sprite
-        if sprite_url:
-            md += f'\t\t<div style="filter: drop-shadow(0 0 20px rgba(255, 255, 255, 0.5));">\n'
-            md += f'\t\t\t<img src="{sprite_url}" alt="{pokemon.name}" style="max-width: 120px; image-rendering: pixelated;" />\n'
-            md += "\t\t</div>\n"
+        sprite = format_pokemon(pokemon, is_linked=False, relative_path="..")
+        md += f'\t\t<div style="filter: drop-shadow(0 0 20px rgba(255, 255, 255, 0.5));">\n'
+        md += f"\t\t\t{sprite}\n"
+        md += "\t\t</div>\n"
 
         # Pokedex number
         if "national" in pokemon.pokedex_numbers:
@@ -670,24 +662,8 @@ class PokemonGenerator(BaseGenerator):
         display_name = format_display_name(species_name)
         link_name = actual_name or species_name
 
-        # Load Pokemon and get sprite URL using utility function
-        sprite_url = None
-        try:
-            # Try to load from different subfolders
-            for subfolder in ["default", "transformation", "variant", "cosmetic"]:
-                try:
-                    poke = PokeDBLoader.load_pokemon(species_name, subfolder=subfolder)
-                    if poke:
-                        sprite_url = get_pokemon_sprite_url(poke)
-                        break
-                except Exception:
-                    continue
-        except Exception:
-            pass
-
         card_html = f'<a href="{link_name}/" style="display: flex; flex-direction: column; align-items: center; text-decoration: none; padding: 1rem; border-radius: 8px; background: var(--md-default-bg-color); border: 1px solid var(--md-default-fg-color--lightest);">\n'
-        if sprite_url:
-            card_html += f'\t<img src="{sprite_url}" alt="{display_name}" style="image-rendering: pixelated;" />\n'
+        card_html += format_pokemon(actual_name, is_linked=False, relative_path="..")
         card_html += f'\t<div style="font-weight: 600; text-align: center; white-space: nowrap;">{display_name}</div>\n'
         card_html += "</a>"
 
@@ -1435,7 +1411,7 @@ class PokemonGenerator(BaseGenerator):
         return md
 
     def generate_page(
-        self, item: Pokemon, cache: Optional[dict[str, Any]] = None
+        self, entry: Pokemon, cache: Optional[dict[str, Any]] = None
     ) -> Path:
         """
         Generate a markdown page for a single Pokemon.
@@ -1443,57 +1419,57 @@ class PokemonGenerator(BaseGenerator):
         Implements the abstract method from BaseGenerator.
 
         Args:
-            pokemon: The Pokemon data to generate a page for
+            entry: The Pokemon data to generate a page for
             cache: Optional cache for previously generated pages (unused for Pokemon)
 
         Returns:
             Path to the generated markdown file
         """
-        display_name = format_display_name(item.name)
+        display_name = format_display_name(entry.name)
 
         # Start building the markdown
         md = f"# {display_name}\n\n"
 
         # Genus (species classification)
-        md += f"*{item.genus}*\n\n"
+        md += f"*{entry.genus}*\n\n"
 
         # Hero section with sprite, types, and badges
-        md += self._generate_hero_section(item)
+        md += self._generate_hero_section(entry)
 
         # Add sections
-        md += self._generate_basic_info(item)
-        md += self._generate_held_items_section(item)
-        md += self._generate_type_effectiveness(item)
-        md += self._generate_stats_table(item)
-        md += self._generate_evolution_chain(item)
-        md += self._generate_forms_section(item)
-        md += self._generate_flavor_text(item)
-        md += self._generate_moves_section(item)
-        md += self._generate_sprites_section(item)
-        md += self._generate_cries_section(item)
+        md += self._generate_basic_info(entry)
+        md += self._generate_held_items_section(entry)
+        md += self._generate_type_effectiveness(entry)
+        md += self._generate_stats_table(entry)
+        md += self._generate_evolution_chain(entry)
+        md += self._generate_forms_section(entry)
+        md += self._generate_flavor_text(entry)
+        md += self._generate_moves_section(entry)
+        md += self._generate_sprites_section(entry)
+        md += self._generate_cries_section(entry)
 
         # Write to file
-        output_file = self.output_dir / f"{item.name}.md"
+        output_file = self.output_dir / f"{entry.name}.md"
         output_file.write_text(md, encoding="utf-8")
 
         self.logger.info(f"Generated page for {display_name}: {output_file}")
         return output_file
 
-    def update_mkdocs_nav(self, categorized_items: dict[str, list[Pokemon]]) -> bool:
+    def update_mkdocs_nav(self, categorized_entries: dict[str, list[Pokemon]]) -> bool:
         """
         Update mkdocs.yml with navigation links to all Pokemon pages.
 
         Overrides base class to handle Pokemon forms and complex navigation structure.
 
         Args:
-            categorized_items: Dictionary mapping generation IDs to lists of Pokemon
+            categorized_entries: Dictionary mapping generation IDs to lists of Pokemon
 
         Returns:
             bool: True if update succeeded, False if it failed
         """
-        # Flatten categorized items back to a single list for Pokemon-specific processing
+        # Flatten categorized entries back to a single list for Pokemon-specific processing
         all_pokemon = []
-        for pokemon_list in categorized_items.values():
+        for pokemon_list in categorized_entries.values():
             all_pokemon.extend(pokemon_list)
         try:
             mkdocs_path = self.project_root / "mkdocs.yml"

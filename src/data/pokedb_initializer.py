@@ -33,14 +33,42 @@ class PokeDBInitializer:
         self.repo_owner, self.repo_name = self._parse_repo_url()
 
     def _parse_repo_url(self) -> tuple[str, str]:
-        """Parse the repository owner and name from the URL."""
+        """
+        Parse the repository owner and name from the URL.
+
+        Returns:
+            tuple[str, str]: A tuple of (owner, repo_name) extracted from the repository URL
+
+        Raises:
+            ValueError: If the repository URL is not defined in the config
+
+        Example:
+            >>> # For URL "https://github.com/owner/repo"
+            >>> owner, repo = self._parse_repo_url()
+            >>> print(owner, repo)
+            'owner' 'repo'
+        """
         if not self.repo_url:
             raise ValueError("Repository URL is not defined in the config.")
         repo_parts = self.repo_url.rstrip("/").split("/")
         return repo_parts[-2], repo_parts[-1]
 
     def _download_and_extract_repo(self) -> Path:
-        """Download the repository as a zip and extract it to a temporary directory."""
+        """
+        Download the repository as a zip and extract it to a temporary directory.
+
+        Downloads the repository from GitHub as a zip archive and extracts it to a
+        temporary directory for processing. The temporary directory is created at
+        <data_dir_parent>/temp_pokedb.
+
+        Returns:
+            Path: Path to the extracted repository root directory
+
+        Raises:
+            requests.exceptions.RequestException: If download fails
+            zipfile.BadZipFile: If the downloaded file is not a valid zip
+            ValueError: If the downloaded zip is empty
+        """
         zip_url = f"https://github.com/{self.repo_owner}/{self.repo_name}/archive/refs/heads/{self.branch}.zip"
         logger.info(f"Downloading repository from {zip_url}...")
 
@@ -62,7 +90,15 @@ class PokeDBInitializer:
         return temp_extract_path / repo_root_dir_name
 
     def _initialize_parsed_data(self):
-        """Copy base generation data to parsed directory for processing."""
+        """
+        Copy base generation data to parsed directory for processing.
+
+        Initializes the 'parsed' directory by copying the first generation's data
+        from POKEDB_GENERATIONS. This creates a working copy that can be modified
+        by parsers and generators without affecting the original data.
+
+        The parsed directory will be removed and recreated if it already exists.
+        """
         base_gen = POKEDB_GENERATIONS[0]
         base_gen_dir = self.data_dir / base_gen
 

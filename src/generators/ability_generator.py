@@ -18,10 +18,6 @@ from typing import Optional
 from src.data.pokedb_loader import PokeDBLoader
 from src.models.pokedb import Ability, Pokemon
 from src.utils.core.config import VERSION_GROUP, VERSION_GROUP_FRIENDLY
-from src.utils.data.constants import (
-    POKEMON_FORM_SUBFOLDERS_STANDARD,
-)
-from src.utils.data.pokemon_util import iterate_pokemon
 from src.utils.formatters.markdown_formatter import format_pokemon_card_grid
 from src.utils.text.text_util import format_display_name
 
@@ -79,15 +75,11 @@ class AbilityGenerator(BaseGenerator):
         Returns:
             Dict with ability names as keys, values are dicts with 'normal' and 'hidden' lists
         """
-        pokemon_base_dir = self.project_root / "data" / "pokedb" / "parsed" / "pokemon"
-
         # Map: ability_name -> {"normal": [...], "hidden": [...]}
         ability_cache = {}
 
         # Use shared Pokemon iteration utility (handles deduplication and filtering)
-        for pokemon in iterate_pokemon(
-            pokemon_base_dir,
-            subfolders=POKEMON_FORM_SUBFOLDERS_STANDARD,
+        for pokemon in PokeDBLoader.iterate_pokemon(
             include_non_default=False,
             deduplicate=True,
         ):
@@ -236,34 +228,34 @@ class AbilityGenerator(BaseGenerator):
         return md
 
     def generate_page(
-        self, item: Ability, cache: Optional[dict[str, dict[str, list[Pokemon]]]] = None
+        self, entry: Ability, cache: Optional[dict[str, dict[str, list[Pokemon]]]] = None
     ) -> Path:
         """
         Generate a markdown page for a single ability.
 
         Args:
-            ability: The Ability data to generate a page for
+            entry: The Ability data to generate a page for
             cache: Optional pre-built cache of ability->Pokemon mappings for performance
 
         Returns:
             Path to the generated markdown file
         """
-        display_name = format_display_name(item.name)
+        display_name = format_display_name(entry.name)
 
         # Start building the markdown
         md = f"# {display_name}\n\n"
 
         # Add sections
-        md += self._generate_effect_section(item)
-        md += self._generate_flavor_text_section(item)
+        md += self._generate_effect_section(entry)
+        md += self._generate_flavor_text_section(entry)
 
         # Get Pokemon with this ability
         default = {"normal": [], "hidden": []}
-        pokemon_with_ability = cache.get(item.name, default) if cache else default
+        pokemon_with_ability = cache.get(entry.name, default) if cache else default
         md += self._generate_pokemon_section(pokemon_with_ability)
 
         # Write to file
-        output_file = self.output_dir / f"{item.name}.md"
+        output_file = self.output_dir / f"{entry.name}.md"
         output_file.write_text(md, encoding="utf-8")
 
         self.logger.info(f"Generated page for {display_name}: {output_file}")
@@ -277,16 +269,16 @@ class AbilityGenerator(BaseGenerator):
         cache = cache or self._build_pokemon_ability_cache()
         return super().generate_all_pages(data, cache=cache)
 
-    def format_index_row(self, item: Ability) -> list[str]:
+    def format_index_row(self, entry: Ability) -> list[str]:
         """
         Format a single row for the index table.
 
         Args:
-            item: The item to format
+            entry: The entry to format
         Returns:
             str: Formatted table row
         """
-        name = format_display_name(item.name)
-        link = f"[{name}](abilities/{item.name}.md)"
-        short_effect = item.short_effect if item.short_effect else "*No description*"
+        name = format_display_name(entry.name)
+        link = f"[{name}](abilities/{entry.name}.md)"
+        short_effect = entry.short_effect if entry.short_effect else "*No description*"
         return [link, short_effect]

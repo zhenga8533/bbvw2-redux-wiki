@@ -97,10 +97,11 @@ def format_ability(
 
 
 def format_pokemon(
-    pokemon_name: str,
+    pokemon: str | Pokemon,
     has_sprite: bool = True,
     is_animated: bool = True,
     is_linked: bool = True,
+    is_named: bool = False,
     relative_path: str = "../..",
 ) -> str:
     """
@@ -110,7 +111,7 @@ def format_pokemon(
     Uses HTML for better control over layout.
 
     Args:
-        pokemon_name: The display name of the Pokemon (e.g., "Pikachu")
+        pokemon: The Pokemon name (str) or Pokemon object
         has_sprite: Whether to include the sprite image
         is_animated: Whether to use the animated sprite if available
         is_linked: Whether to link the name to its Pokedex entry
@@ -125,26 +126,38 @@ def format_pokemon(
     pokemon_html = '<div align="center">'
 
     # Try to load Pokemon data
-    pokemon_data = PokeDBLoader.load_pokemon(pokemon_name)
-    if not pokemon_data:
-        return pokemon_name
+    if isinstance(pokemon, str):
+        pokemon_data = PokeDBLoader.load_pokemon(pokemon)
+        if not pokemon_data:
+            return pokemon
 
-    # Get the normalized ID for links
-    pokemon_id = name_to_id(pokemon_name)
+        # Get the normalized ID for links
+        pokemon_id = pokemon_data.name
+    else:
+        pokemon_data = pokemon
+        pokemon_id = pokemon_data.name
 
     # Add sprite image if requested
     if has_sprite:
         # Safely access sprite version
-        sprite_version = getattr(pokemon_data.sprites.versions, POKEDB_SPRITE_VERSION, None)
+        sprite_version = getattr(
+            pokemon_data.sprites.versions, POKEDB_SPRITE_VERSION, None
+        )
         animated_url = (
-            sprite_version.animated.front_default if sprite_version and sprite_version.animated else None
+            sprite_version.animated.front_default
+            if sprite_version and sprite_version.animated
+            else None
         )
         sprite_url = pokemon_data.sprites.front_default
 
         if is_animated and animated_url:
-            pokemon_html += f'<img src="{animated_url}" alt="{pokemon_name} (gif)">'
+            pokemon_html += (
+                f'<img src="{animated_url}" alt="{pokemon_id} (gif)" class="sprite">'
+            )
         elif sprite_url:
-            pokemon_html += f'<img src="{sprite_url}" width="96" alt="{pokemon_name}">'
+            pokemon_html += (
+                f'<img src="{sprite_url}" width="96" alt="{pokemon_id}" class="sprite">'
+            )
         # If no sprite available, don't add an img tag
 
     # Add line break if both sprite and name are present
@@ -152,10 +165,11 @@ def format_pokemon(
         pokemon_html += "<br>"
 
     # Add linked or plain name (HTML link - no .md extension)
+    display_name = format_display_name(pokemon_id)
     if is_linked:
-        pokemon_html += f'<a href="{relative_path}/pokedex/pokemon/{pokemon_id}/">{pokemon_name}</a>'
-    else:
-        pokemon_html += pokemon_name
+        pokemon_html += f'<a href="{relative_path}/pokedex/pokemon/{pokemon_id}/">{display_name}</a>'
+    elif is_named:
+        pokemon_html += display_name
 
     pokemon_html += "</div>"
 
@@ -297,9 +311,13 @@ def format_pokemon_card_grid(
 
         # Get sprite URL
         sprite_url = None
-        sprite_version = getattr(pokemon_data.sprites.versions, POKEDB_SPRITE_VERSION, None)
+        sprite_version = getattr(
+            pokemon_data.sprites.versions, POKEDB_SPRITE_VERSION, None
+        )
         animated_sprite = (
-            sprite_version.animated.front_default if sprite_version and sprite_version.animated else None
+            sprite_version.animated.front_default
+            if sprite_version and sprite_version.animated
+            else None
         )
         default_sprite = pokemon_data.sprites.front_default
 

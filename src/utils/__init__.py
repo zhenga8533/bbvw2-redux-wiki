@@ -7,8 +7,9 @@ that have no domain-specific knowledge.
 The utilities are organized into subdirectories:
 - core/: Core infrastructure (config, logging, component system)
 - formatters/: Output formatting (markdown, tables, YAML)
-- pokemon/: Pokemon-specific domain logic (constants, type effectiveness)
+- data/: Pokemon-specific domain logic (constants, type effectiveness)
 - text/: Text processing utilities
+- services/: Business logic services
 
 Note: Some utilities are excluded from __init__.py:
 - markdown_util: Excluded to avoid circular imports (imports from src.data.pokedb_loader)

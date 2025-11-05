@@ -81,7 +81,7 @@ nav:
 - Pokédex:
   - Pokémon:
     - Overview: pokedex/pokemon.md
-    - Gen I:
+    - Generation I:
       - '#001 Bulbasaur': pokedex/pokemon/bulbasaur.md
       - '#002 Ivysaur': pokedex/pokemon/ivysaur.md
       - '#003 Venusaur': pokedex/pokemon/venusaur.md
@@ -233,7 +233,7 @@ nav:
       - '#149 Dragonite': pokedex/pokemon/dragonite.md
       - '#150 Mewtwo': pokedex/pokemon/mewtwo.md
       - '#151 Mew': pokedex/pokemon/mew.md
-    - Gen II:
+    - Generation II:
       - '#152 Chikorita': pokedex/pokemon/chikorita.md
       - '#153 Bayleef': pokedex/pokemon/bayleef.md
       - '#154 Meganium': pokedex/pokemon/meganium.md
@@ -364,7 +364,7 @@ nav:
       - '#249 Lugia': pokedex/pokemon/lugia.md
       - '#250 Ho Oh': pokedex/pokemon/ho-oh.md
       - '#251 Celebi': pokedex/pokemon/celebi.md
-    - Gen III:
+    - Generation III:
       - '#252 Treecko': pokedex/pokemon/treecko.md
       - '#253 Grovyle': pokedex/pokemon/grovyle.md
       - '#254 Sceptile': pokedex/pokemon/sceptile.md
@@ -508,7 +508,7 @@ nav:
         - Attack: pokedex/pokemon/deoxys-attack.md
         - Defense: pokedex/pokemon/deoxys-defense.md
         - Speed: pokedex/pokemon/deoxys-speed.md
-    - Gen IV:
+    - Generation IV:
       - '#387 Turtwig': pokedex/pokemon/turtwig.md
       - '#388 Grotle': pokedex/pokemon/grotle.md
       - '#389 Torterra': pokedex/pokemon/torterra.md
@@ -656,7 +656,7 @@ nav:
         - Steel: pokedex/pokemon/arceus-steel.md
         - Unknown: pokedex/pokemon/arceus-unknown.md
         - Water: pokedex/pokemon/arceus-water.md
-    - Gen V:
+    - Generation V:
       - '#494 Victini': pokedex/pokemon/victini.md
       - '#495 Snivy': pokedex/pokemon/snivy.md
       - '#496 Servine': pokedex/pokemon/servine.md

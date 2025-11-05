@@ -7,7 +7,7 @@ including name formatting with special cases, ID generation, and string comparis
 
 import re
 import itertools
-from typing import Dict, Optional
+from typing import Optional
 
 
 def name_to_id(name: str) -> str:
@@ -49,8 +49,8 @@ def name_to_id(name: str) -> str:
 
 def format_display_name(
     name: str,
-    special_cases: Optional[Dict[str, str]] = None,
-    special_abbreviations: Optional[Dict[str, str]] = None,
+    special_cases: Optional[dict[str, str]] = None,
+    special_abbreviations: Optional[dict[str, str]] = None,
 ) -> str:
     """
     Format a name for display with proper capitalization and special case handling.

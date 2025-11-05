@@ -6,7 +6,7 @@ between run_parsers() and run_generators() in main.py.
 """
 
 import sys
-from typing import Any, Callable, Dict, List, Tuple
+from typing import Any, Callable
 
 from src.utils.core.logger import get_logger
 
@@ -14,10 +14,10 @@ logger = get_logger(__name__)
 
 
 def run_components(
-    component_names: List[str],
-    registry: Dict[str, Tuple[Any, ...]],
+    component_names: list[str],
+    registry: dict[str, tuple[Any, ...]],
     component_type: str,
-    instantiate_component: Callable[[Tuple[Any, ...]], Any],
+    instantiate_component: Callable[[tuple[Any, ...]], Any],
 ) -> bool:
     """
     Run specified components (parsers or generators) with unified error handling.
@@ -111,7 +111,7 @@ def run_components(
 
 
 def run_parsers(
-    parser_names: List[str], parser_registry: Dict[str, Tuple[Any, str, str]]
+    parser_names: list[str], parser_registry: dict[str, tuple[Any, str, str]]
 ) -> bool:
     """
     Run specified parsers.
@@ -132,7 +132,7 @@ def run_parsers(
 
 
 def run_generators(
-    generator_names: List[str], generator_registry: Dict[str, Tuple[Any, str]]
+    generator_names: list[str], generator_registry: dict[str, tuple[Any, str]]
 ) -> bool:
     """
     Run specified generators.

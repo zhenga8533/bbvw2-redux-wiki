@@ -5,18 +5,16 @@ This module contains the type matchup data for calculating damage multipliers
 in Pokemon battles. Based on Generation 5 mechanics.
 
 Usage:
-    from src.utils.pokemon.type_effectiveness import calculate_type_effectiveness
+    from src.utils.data.type_effectiveness import calculate_type_effectiveness
 
     effectiveness = calculate_type_effectiveness(["fire", "flying"])
     print(effectiveness["4x_weak"])  # ['rock', 'water']
 """
 
-from typing import Dict, List, Set
-
 from src.utils.data.constants import TYPE_CHART
 
 
-def calculate_type_effectiveness(types: List[str]) -> Dict[str, List[str]]:
+def calculate_type_effectiveness(types: list[str]) -> dict[str, list[str]]:
     """
     Calculate type effectiveness for a Pokemon with one or two types.
 
@@ -39,9 +37,9 @@ def calculate_type_effectiveness(types: List[str]) -> Dict[str, List[str]]:
         ['ground']
     """
     # Track damage multipliers for each attacking type
-    weak_multiplier: Dict[str, float] = {}
-    resist_multiplier: Dict[str, float] = {}
-    immune_types: Set[str] = set()
+    weak_multiplier: dict[str, float] = {}
+    resist_multiplier: dict[str, float] = {}
+    immune_types: set[str] = set()
 
     # Process each of the Pokemon's types
     for poke_type in types:
