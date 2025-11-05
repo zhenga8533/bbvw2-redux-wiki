@@ -26,11 +26,7 @@ from src.utils.data.pokemon_util import iterate_pokemon
 from src.utils.formatters.table_formatter import create_ability_index_table
 from src.utils.formatters.markdown_formatter import format_pokemon_card_grid
 from src.utils.text.text_util import format_display_name
-from src.utils.formatters.yaml_formatter import (
-    load_mkdocs_config,
-    save_mkdocs_config,
-    update_pokedex_subsection,
-)
+from src.utils.formatters.yaml_formatter import update_pokedex_subsection
 
 from .base_generator import BaseGenerator
 
@@ -108,78 +104,44 @@ class AbilityGenerator(BaseGenerator):
 
         return ability_cache
 
-    def _get_pokemon_with_ability(
-        self,
-        ability_name: str,
-        cache: Optional[dict[str, dict[str, list[Pokemon]]]] = None,
-    ) -> dict[str, list[Pokemon]]:
+    def _load_all_abilities(self) -> list[Ability]:
         """
-        Get all Pokemon that have this ability.
-
-        Args:
-            ability_name: The ability name to search for
-            cache: Optional pre-built cache of ability->Pokemon mappings for performance
+        Load all main-series abilities from the database once.
 
         Returns:
-            Dictionary with 'normal' and 'hidden' keys containing lists of Pokemon
+            List of Ability objects, sorted alphabetically by name
         """
-        # If cache is provided, use it (much faster)
-        if cache is not None:
-            return cache.get(ability_name, {"normal": [], "hidden": []})
+        ability_dir = self.project_root / "data" / "pokedb" / "parsed" / "ability"
 
-        # Fallback to old method if no cache (for backwards compatibility)
-        pokemon_base_dir = self.project_root / "data" / "pokedb" / "parsed" / "pokemon"
-        subfolders = ["default", "transformation", "variant"]
+        if not ability_dir.exists():
+            self.logger.error(f"Ability directory not found: {ability_dir}")
+            return []
 
-        normal_pokemon = []
-        hidden_pokemon = []
-        seen_pokemon = set()  # Track (name, dex_number) to prevent duplicates
+        ability_files = sorted(ability_dir.glob("*.json"))
+        self.logger.info(f"Found {len(ability_files)} ability files")
 
-        for subfolder in subfolders:
-            pokemon_dir = pokemon_base_dir / subfolder
-            if not pokemon_dir.exists():
-                continue
-
-            pokemon_files = sorted(pokemon_dir.glob("*.json"))
-
-            for pokemon_file in pokemon_files:
-                try:
-                    pokemon = PokeDBLoader.load_pokemon(
-                        pokemon_file.stem, subfolder=subfolder
+        abilities = []
+        for ability_file in ability_files:
+            try:
+                ability = PokeDBLoader.load_ability(ability_file.stem)
+                if ability and ability.is_main_series:
+                    abilities.append(ability)
+                elif ability:
+                    self.logger.debug(
+                        f"Skipping non-main-series ability: {ability_file.stem}"
                     )
+                else:
+                    self.logger.warning(f"Could not load ability: {ability_file.stem}")
+            except Exception as e:
+                self.logger.error(
+                    f"Error loading {ability_file.stem}: {e}", exc_info=True
+                )
 
-                    if not pokemon or not pokemon.is_default:
-                        continue
+        # Sort alphabetically by name
+        abilities.sort(key=lambda a: a.name)
+        self.logger.info(f"Loaded {len(abilities)} main-series abilities")
 
-                    # Create unique key to prevent duplicates
-                    pokemon_key = (
-                        pokemon.name,
-                        pokemon.pokedex_numbers.get("national"),
-                    )
-
-                    if pokemon_key in seen_pokemon:
-                        continue
-
-                    # Check if this Pokemon has the ability
-                    for poke_ability in pokemon.abilities:
-                        if poke_ability.name == ability_name:
-                            seen_pokemon.add(pokemon_key)
-                            if poke_ability.is_hidden:
-                                hidden_pokemon.append(pokemon)
-                            else:
-                                normal_pokemon.append(pokemon)
-                            break  # Don't add the same Pokemon twice
-
-                except Exception as e:
-                    self.logger.warning(
-                        f"Error loading Pokemon {pokemon_file.stem}: {e}"
-                    )
-
-        # Sort by national dex number
-        normal_pokemon.sort(key=lambda p: p.pokedex_numbers.get("national", 9999))
-        hidden_pokemon.sort(key=lambda p: p.pokedex_numbers.get("national", 9999))
-
-        return {"normal": normal_pokemon, "hidden": hidden_pokemon}
+        return abilities
 
     def _generate_pokemon_section(
         self, pokemon_with_ability: dict[str, list[Pokemon]]
@@ -247,9 +209,7 @@ class AbilityGenerator(BaseGenerator):
         return md
 
     def generate_ability_page(
-        self,
-        ability: Ability,
-        cache: Optional[dict[str, dict[str, list[Pokemon]]]] = None,
+        self, ability: Ability, cache: dict[str, dict[str, list[Pokemon]]]
     ) -> Path:
         """
         Generate a markdown page for a single ability.
@@ -270,8 +230,8 @@ class AbilityGenerator(BaseGenerator):
         md += self._generate_effect_section(ability)
         md += self._generate_flavor_text_section(ability)
 
-        # Get Pokemon with this ability (using cache if available)
-        pokemon_with_ability = self._get_pokemon_with_ability(ability.name, cache=cache)
+        # Get Pokemon with this ability
+        pokemon_with_ability = cache.get(ability.name, {"normal": [], "hidden": []})
         md += self._generate_pokemon_section(pokemon_with_ability)
 
         # Write to file
@@ -281,83 +241,52 @@ class AbilityGenerator(BaseGenerator):
         self.logger.info(f"Generated page for {display_name}: {output_file}")
         return output_file
 
-    def generate_all_ability_pages(self) -> list[Path]:
+    def generate_all_ability_pages(self, abilities: list[Ability]) -> list[Path]:
         """
-        Generate markdown pages for all abilities in the database.
+        Generate markdown pages for all abilities.
+
+        Args:
+            abilities: List of Ability objects to generate pages for
 
         Returns:
             List of paths to generated markdown files
         """
-        self.logger.info("Starting generation of all ability pages")
+        self.logger.info(f"Starting generation of {len(abilities)} ability pages")
 
         # Build Pokemon ability cache once (massive performance improvement)
         self.logger.info("Building Pokemon ability cache...")
         pokemon_cache = self._build_pokemon_ability_cache()
         self.logger.info(f"Cached {len(pokemon_cache)} abilities across all Pokemon")
 
-        # Get ability directory
-        ability_dir = self.project_root / "data" / "pokedb" / "parsed" / "ability"
-
-        if not ability_dir.exists():
-            self.logger.error(f"Ability directory not found: {ability_dir}")
-            return []
-
-        ability_files = sorted(ability_dir.glob("*.json"))
-        self.logger.info(f"Found {len(ability_files)} abilities")
-
         generated_files = []
 
-        for ability_file in ability_files:
+        for ability in abilities:
             try:
-                ability_name = ability_file.stem
-                ability = PokeDBLoader.load_ability(ability_name)
-
-                if ability and ability.is_main_series:
-                    output_path = self.generate_ability_page(
-                        ability, cache=pokemon_cache
-                    )
-                    generated_files.append(output_path)
-                elif ability:
-                    self.logger.debug(
-                        f"Skipping non-main-series ability: {ability_name}"
-                    )
-                else:
-                    self.logger.warning(f"Could not load ability: {ability_name}")
+                output_path = self.generate_ability_page(
+                    ability, cache=pokemon_cache
+                )
+                generated_files.append(output_path)
 
             except Exception as e:
                 self.logger.error(
-                    f"Error generating page for {ability_file.stem}: {e}",
+                    f"Error generating page for {ability.name}: {e}",
                     exc_info=True,
                 )
 
         self.logger.info(f"Generated {len(generated_files)} ability pages")
         return generated_files
 
-    def generate_abilities_index(self) -> Path:
+    def generate_abilities_index(self, abilities: list[Ability]) -> Path:
         """
         Generate the main abilities index page with links to all abilities.
+
+        Args:
+            abilities: List of Ability objects to include in the index
 
         Returns:
             Path to the generated index file
         """
-        self.logger.info("Generating abilities index page")
-
-        # Get all abilities
-        ability_dir = self.project_root / "data" / "pokedb" / "parsed" / "ability"
-        ability_files = sorted(ability_dir.glob("*.json"))
-
-        # Load ability data for the index
-        abilities = []
-        for ability_file in ability_files:
-            try:
-                ability = PokeDBLoader.load_ability(ability_file.stem)
-                if ability and ability.is_main_series:
-                    abilities.append(ability)
-            except Exception as e:
-                self.logger.error(f"Error loading {ability_file.stem}: {e}")
-
-        # Sort alphabetically by name
-        abilities.sort(key=lambda a: a.name)
+        self.logger.info(f"Generating abilities index page for {len(abilities)} abilities")
 
         # Generate markdown
         md = "# Abilities\n\n"
@@ -423,33 +352,19 @@ class AbilityGenerator(BaseGenerator):
         self.logger.info(f"Generated abilities index: {output_file}")
         return output_file
 
-    def update_mkdocs_navigation(self) -> bool:
+    def update_mkdocs_navigation(self, abilities: list[Ability]) -> bool:
         """
         Update mkdocs.yml with navigation links to all ability pages.
         Organizes abilities alphabetically into subsections.
+
+        Args:
+            abilities: List of Ability objects to include in navigation
 
         Returns:
             bool: True if update succeeded, False if it failed
         """
         try:
             mkdocs_path = self.project_root / "mkdocs.yml"
-
-            # Get all abilities
-            ability_dir = self.project_root / "data" / "pokedb" / "parsed" / "ability"
-            ability_files = sorted(ability_dir.glob("*.json"))
-
-            # Load abilities
-            abilities = []
-            for ability_file in ability_files:
-                try:
-                    ability = PokeDBLoader.load_ability(ability_file.stem)
-                    if ability and ability.is_main_series:
-                        abilities.append(ability)
-                except Exception as e:
-                    self.logger.warning(f"Could not load {ability_file.stem}: {e}")
-
-            # Sort alphabetically
-            abilities.sort(key=lambda a: a.name)
 
             # Group abilities by generation
             abilities_by_generation = defaultdict(list)
@@ -511,9 +426,17 @@ class AbilityGenerator(BaseGenerator):
             # Clean up old ability markdown files
             self._cleanup_output_dir()
 
+            # Load all abilities once (optimization to avoid multiple glob + parse operations)
+            self.logger.info("Loading all abilities from database...")
+            abilities = self._load_all_abilities()
+
+            if not abilities:
+                self.logger.error("No abilities were loaded")
+                return False
+
             # Generate all ability pages
             self.logger.info("Generating individual ability pages...")
-            ability_files = self.generate_all_ability_pages()
+            ability_files = self.generate_all_ability_pages(abilities)
 
             if not ability_files:
                 self.logger.error("No ability pages were generated")
@@ -521,11 +444,11 @@ class AbilityGenerator(BaseGenerator):
 
             # Generate the abilities index
             self.logger.info("Generating abilities index...")
-            index_path = self.generate_abilities_index()
+            index_path = self.generate_abilities_index(abilities)
 
             # Update mkdocs.yml navigation
             self.logger.info("Updating mkdocs.yml navigation...")
-            nav_success = self.update_mkdocs_navigation()
+            nav_success = self.update_mkdocs_navigation(abilities)
 
             if not nav_success:
                 self.logger.warning(

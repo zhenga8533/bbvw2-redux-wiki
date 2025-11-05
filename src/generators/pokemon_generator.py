@@ -93,6 +93,56 @@ class PokemonGenerator(BaseGenerator):
         self.output_dir = self.output_dir / "pokemon"
         self.output_dir.mkdir(parents=True, exist_ok=True)
 
+    def _load_all_pokemon(self) -> list[Pokemon]:
+        """
+        Load all Pokemon from all form subfolders once.
+
+        This loads Pokemon from default, transformation, variant, and cosmetic subfolders.
+        Used to avoid duplicate loading in generate_all_pokemon_pages() and update_mkdocs_navigation().
+
+        Returns:
+            List of all Pokemon objects across all form subfolders
+        """
+        self.logger.info("Loading all Pokemon from all form subfolders...")
+
+        pokemon_base_dir = self.project_root / "data" / "pokedb" / "parsed" / "pokemon"
+        all_pokemon = []
+        total_files = 0
+
+        for folder in POKEMON_FORM_SUBFOLDERS_ALL:
+            pokemon_dir = pokemon_base_dir / folder
+
+            if not pokemon_dir.exists():
+                self.logger.debug(f"Subfolder not found, skipping: {folder}")
+                continue
+
+            pokemon_files = sorted(pokemon_dir.glob("*.json"))
+            self.logger.info(f"Found {len(pokemon_files)} Pokemon in subfolder: {folder}")
+            total_files += len(pokemon_files)
+
+            for pokemon_file in pokemon_files:
+                try:
+                    pokemon_name = pokemon_file.stem
+                    pokemon = PokeDBLoader.load_pokemon(pokemon_name, subfolder=folder)
+
+                    if pokemon:
+                        all_pokemon.append(pokemon)
+                    else:
+                        self.logger.warning(
+                            f"Could not load Pokemon: {pokemon_name} from {folder}"
+                        )
+
+                except Exception as e:
+                    self.logger.error(
+                        f"Error loading {pokemon_file.stem} from {folder}: {e}",
+                        exc_info=True,
+                    )
+
+        self.logger.info(
+            f"Loaded {len(all_pokemon)} Pokemon from {total_files} files across all subfolders"
+        )
+        return all_pokemon
+
     def _stat_bar(self, value: int, max_value: int = MAX_STAT_VALUE) -> str:
         """
         Create a visual progress bar for a stat.
@@ -1342,60 +1392,33 @@ class PokemonGenerator(BaseGenerator):
         self.logger.info(f"Generated page for {display_name}: {output_file}")
         return output_file
 
-    def generate_all_pokemon_pages(self, subfolder: str = "default") -> list[Path]:
+    def generate_all_pokemon_pages(self, all_pokemon: list[Pokemon]) -> list[Path]:
         """
         Generate markdown pages for all Pokemon in the database, including all forms.
 
         Args:
-            subfolder: Subfolder within pokemon directory to process (legacy parameter,
-                      now scans all form subfolders)
+            all_pokemon: List of Pokemon objects to generate pages for
 
         Returns:
             List of paths to generated markdown files
         """
-        self.logger.info("Starting generation of all Pokemon pages including forms")
+        self.logger.info(f"Starting generation of {len(all_pokemon)} Pokemon pages including forms")
 
-        # Get base Pokemon directory
-        pokemon_base_dir = self.project_root / "data" / "pokedb" / "parsed" / "pokemon"
-
-        # Subfolders to scan for forms (all form categories)
         generated_files = []
-        total_pokemon = 0
 
-        for folder in POKEMON_FORM_SUBFOLDERS_ALL:
-            pokemon_dir = pokemon_base_dir / folder
+        for pokemon in all_pokemon:
+            try:
+                output_path = self.generate_pokemon_page(pokemon)
+                generated_files.append(output_path)
 
-            if not pokemon_dir.exists():
-                self.logger.debug(f"Subfolder not found, skipping: {folder}")
-                continue
-
-            pokemon_files = sorted(pokemon_dir.glob("*.json"))
-            self.logger.info(
-                f"Found {len(pokemon_files)} Pokemon in subfolder: {folder}"
-            )
-            total_pokemon += len(pokemon_files)
-
-            for pokemon_file in pokemon_files:
-                try:
-                    pokemon_name = pokemon_file.stem
-                    pokemon = PokeDBLoader.load_pokemon(pokemon_name, subfolder=folder)
-
-                    if pokemon:
-                        output_path = self.generate_pokemon_page(pokemon)
-                        generated_files.append(output_path)
-                    else:
-                        self.logger.warning(
-                            f"Could not load Pokemon: {pokemon_name} from {folder}"
-                        )
-
-                except Exception as e:
-                    self.logger.error(
-                        f"Error generating page for {pokemon_file.stem} in {folder}: {e}",
-                        exc_info=True,
-                    )
+            except Exception as e:
+                self.logger.error(
+                    f"Error generating page for {pokemon.name}: {e}",
+                    exc_info=True,
+                )
 
         self.logger.info(
-            f"Generated {len(generated_files)} Pokemon pages from {total_pokemon} total Pokemon across all subfolders"
+            f"Generated {len(generated_files)} Pokemon pages"
         )
         return generated_files
 
@@ -1513,12 +1536,12 @@ class PokemonGenerator(BaseGenerator):
         self.logger.info(f"Generated Pokemon index: {output_file}")
         return output_file
 
-    def update_mkdocs_navigation(self, subfolder: str = "default") -> bool:
+    def update_mkdocs_navigation(self, all_pokemon: list[Pokemon]) -> bool:
         """
         Update mkdocs.yml with navigation links to all Pokemon pages.
 
         Args:
-            subfolder: Subfolder within pokemon directory to process
+            all_pokemon: List of Pokemon objects to include in navigation
 
         Returns:
             bool: True if update succeeded, False if it failed
@@ -1533,47 +1556,26 @@ class PokemonGenerator(BaseGenerator):
             # Load current mkdocs.yml using utility
             config = load_mkdocs_config(mkdocs_path)
 
-            # Get all Pokemon for navigation from multiple subfolders
-            pokemon_base_dir = (
-                self.project_root / "data" / "pokedb" / "parsed" / "pokemon"
-            )
+            # Deduplicate Pokemon by (dex_number, name) to prevent duplicates
+            seen_pokemon = set()
+            deduplicated_pokemon = []
 
-            # Load all Pokemon and group by national dex number
-            all_pokemon = []
-            seen_pokemon = set()  # Track (dex_number, name) to prevent duplicates
+            for pokemon in all_pokemon:
+                pokemon_key = (
+                    pokemon.pokedex_numbers.get("national"),
+                    pokemon.name,
+                )
 
-            for folder in POKEMON_FORM_SUBFOLDERS_ALL:
-                folder_path = pokemon_base_dir / folder
-                if not folder_path.exists():
-                    continue
-
-                pokemon_files = sorted(folder_path.glob("*.json"))
-                for pokemon_file in pokemon_files:
-                    try:
-                        pokemon = PokeDBLoader.load_pokemon(
-                            pokemon_file.stem, subfolder=folder
-                        )
-                        if pokemon:
-                            # Create unique key to prevent duplicates
-                            pokemon_key = (
-                                pokemon.pokedex_numbers.get("national"),
-                                pokemon.name,
-                            )
-
-                            if pokemon_key not in seen_pokemon:
-                                seen_pokemon.add(pokemon_key)
-                                all_pokemon.append(pokemon)
-                    except Exception as e:
-                        self.logger.warning(
-                            f"Could not load {pokemon_file.stem} from {folder}: {e}"
-                        )
+                if pokemon_key not in seen_pokemon:
+                    seen_pokemon.add(pokemon_key)
+                    deduplicated_pokemon.append(pokemon)
 
             # Group Pokemon by national dex number first for form handling
             from collections import defaultdict
 
             pokemon_by_dex: dict[int, list[Pokemon]] = defaultdict(list)
 
-            for pokemon in all_pokemon:
+            for pokemon in deduplicated_pokemon:
                 dex_num = pokemon.pokedex_numbers.get("national")
                 if dex_num:
                     pokemon_by_dex[dex_num].append(pokemon)
@@ -1732,7 +1734,7 @@ class PokemonGenerator(BaseGenerator):
             save_mkdocs_config(mkdocs_path, config)
 
             total_pokemon = len(pokemon_by_dex)
-            total_forms = len(all_pokemon)
+            total_forms = len(deduplicated_pokemon)
             total_generations = len(
                 [g for g in GENERATION_ORDER if g in pokemon_by_generation]
             )
@@ -1750,28 +1752,36 @@ class PokemonGenerator(BaseGenerator):
         Generate Pokemon pages and Pokedex index.
 
         Args:
-            subfolder: Subfolder within pokemon directory to process
+            subfolder: Subfolder within pokemon directory to process (used only for index generation)
 
         Returns:
             bool: True if generation succeeded, False if it failed
         """
         self.logger.info("Starting Pokedex generation...")
         try:
+            # Load all Pokemon once (optimization to avoid multiple glob + parse operations)
+            self.logger.info("Loading all Pokemon from all form subfolders...")
+            all_pokemon = self._load_all_pokemon()
+
+            if not all_pokemon:
+                self.logger.error("No Pokemon were loaded")
+                return False
+
             # Generate all Pokemon pages
             self.logger.info("Generating individual Pokemon pages...")
-            pokemon_files = self.generate_all_pokemon_pages(subfolder=subfolder)
+            pokemon_files = self.generate_all_pokemon_pages(all_pokemon)
 
             if not pokemon_files:
                 self.logger.error("No Pokemon pages were generated")
                 return False
 
-            # Generate the Pokedex index
+            # Generate the Pokedex index (loads its own data from default subfolder)
             self.logger.info("Generating Pokedex index...")
             index_path = self.generate_pokedex_index(subfolder=subfolder)
 
             # Update mkdocs.yml navigation
             self.logger.info("Updating mkdocs.yml navigation...")
-            nav_success = self.update_mkdocs_navigation(subfolder=subfolder)
+            nav_success = self.update_mkdocs_navigation(all_pokemon)
 
             if not nav_success:
                 self.logger.warning(

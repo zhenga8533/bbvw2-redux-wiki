@@ -131,6 +131,41 @@ class MoveGenerator(BaseGenerator):
 
         return dict(move_cache)
 
+    def _load_all_moves(self) -> list[Move]:
+        """
+        Load all moves from the database once.
+
+        Returns:
+            List of Move objects, sorted alphabetically by name
+        """
+        move_dir = self.project_root / "data" / "pokedb" / "parsed" / "move"
+
+        if not move_dir.exists():
+            self.logger.error(f"Move directory not found: {move_dir}")
+            return []
+
+        move_files = sorted(move_dir.glob("*.json"))
+        self.logger.info(f"Found {len(move_files)} move files")
+
+        moves = []
+        for move_file in move_files:
+            try:
+                move = PokeDBLoader.load_move(move_file.stem)
+                if move:
+                    moves.append(move)
+                else:
+                    self.logger.warning(f"Could not load move: {move_file.stem}")
+            except Exception as e:
+                self.logger.error(
+                    f"Error loading {move_file.stem}: {e}", exc_info=True
+                )
+
+        # Sort alphabetically by name
+        moves.sort(key=lambda m: m.name)
+        self.logger.info(f"Loaded {len(moves)} moves")
+
+        return moves
+
     def _generate_move_header(self, move: Move) -> str:
         """
         Generate a move header section with type and category.
@@ -344,77 +379,50 @@ class MoveGenerator(BaseGenerator):
         self.logger.info(f"Generated page for {display_name}: {output_file}")
         return output_file
 
-    def generate_all_move_pages(self) -> list[Path]:
+    def generate_all_move_pages(self, moves: list[Move]) -> list[Path]:
         """
-        Generate markdown pages for all moves in the database.
+        Generate markdown pages for all moves.
+
+        Args:
+            moves: List of Move objects to generate pages for
 
         Returns:
             List of paths to generated markdown files
         """
-        self.logger.info("Starting generation of all move pages")
+        self.logger.info(f"Starting generation of {len(moves)} move pages")
 
         # Build Pokemon move cache once (massive performance improvement)
         self.logger.info("Building Pokemon move cache...")
         pokemon_cache = self._build_pokemon_move_cache()
         self.logger.info(f"Cached {len(pokemon_cache)} moves across all Pokemon")
 
-        # Get move directory
-        move_dir = self.project_root / "data" / "pokedb" / "parsed" / "move"
-
-        if not move_dir.exists():
-            self.logger.error(f"Move directory not found: {move_dir}")
-            return []
-
-        move_files = sorted(move_dir.glob("*.json"))
-        self.logger.info(f"Found {len(move_files)} moves")
-
         generated_files = []
 
-        for move_file in move_files:
+        for move in moves:
             try:
-                move_name = move_file.stem
-                move = PokeDBLoader.load_move(move_name)
-
-                if move:
-                    output_path = self.generate_move_page(move, cache=pokemon_cache)
-                    generated_files.append(output_path)
-                else:
-                    self.logger.warning(f"Could not load move: {move_name}")
+                output_path = self.generate_move_page(move, cache=pokemon_cache)
+                generated_files.append(output_path)
 
             except Exception as e:
                 self.logger.error(
-                    f"Error generating page for {move_file.stem}: {e}",
+                    f"Error generating page for {move.name}: {e}",
                     exc_info=True,
                 )
 
         self.logger.info(f"Generated {len(generated_files)} move pages")
         return generated_files
 
-    def generate_moves_index(self) -> Path:
+    def generate_moves_index(self, moves: list[Move]) -> Path:
         """
         Generate the main moves index page with links to all moves.
+
+        Args:
+            moves: List of Move objects to include in the index
 
         Returns:
             Path to the generated index file
         """
-        self.logger.info("Generating moves index page")
-
-        # Get all moves
-        move_dir = self.project_root / "data" / "pokedb" / "parsed" / "move"
-        move_files = sorted(move_dir.glob("*.json"))
-
-        # Load move data for the index
-        moves = []
-        for move_file in move_files:
-            try:
-                move = PokeDBLoader.load_move(move_file.stem)
-                if move:
-                    moves.append(move)
-            except Exception as e:
-                self.logger.error(f"Error loading {move_file.stem}: {e}")
-
-        # Sort alphabetically by name
-        moves.sort(key=lambda m: m.name)
+        self.logger.info(f"Generating moves index page for {len(moves)} moves")
 
         # Generate markdown
         md = "# Moves\n\n"
@@ -517,33 +525,19 @@ class MoveGenerator(BaseGenerator):
         self.logger.info(f"Generated moves index: {output_file}")
         return output_file
 
-    def update_mkdocs_navigation(self) -> bool:
+    def update_mkdocs_navigation(self, moves: list[Move]) -> bool:
         """
         Update mkdocs.yml with navigation links to all move pages.
         Organizes moves alphabetically into subsections.
+
+        Args:
+            moves: List of Move objects to include in navigation
 
         Returns:
             bool: True if update succeeded, False if it failed
         """
         try:
             mkdocs_path = self.project_root / "mkdocs.yml"
-
-            # Get all moves
-            move_dir = self.project_root / "data" / "pokedb" / "parsed" / "move"
-            move_files = sorted(move_dir.glob("*.json"))
-
-            # Load moves
-            moves = []
-            for move_file in move_files:
-                try:
-                    move = PokeDBLoader.load_move(move_file.stem)
-                    if move:
-                        moves.append(move)
-                except Exception as e:
-                    self.logger.warning(f"Could not load {move_file.stem}: {e}")
-
-            # Sort alphabetically within each group
-            moves.sort(key=lambda m: m.name)
 
             # Group moves by damage class
             moves_by_damage_class = defaultdict(list)
@@ -614,9 +608,17 @@ class MoveGenerator(BaseGenerator):
             # Clean up old move markdown files
             self._cleanup_output_dir()
 
+            # Load all moves once (optimization to avoid multiple glob + parse operations)
+            self.logger.info("Loading all moves from database...")
+            moves = self._load_all_moves()
+
+            if not moves:
+                self.logger.error("No moves were loaded")
+                return False
+
             # Generate all move pages
             self.logger.info("Generating individual move pages...")
-            move_files = self.generate_all_move_pages()
+            move_files = self.generate_all_move_pages(moves)
 
             if not move_files:
                 self.logger.error("No move pages were generated")
@@ -624,11 +626,11 @@ class MoveGenerator(BaseGenerator):
 
             # Generate the moves index
             self.logger.info("Generating moves index...")
-            index_path = self.generate_moves_index()
+            index_path = self.generate_moves_index(moves)
 
             # Update mkdocs.yml navigation
             self.logger.info("Updating mkdocs.yml navigation...")
-            nav_success = self.update_mkdocs_navigation()
+            nav_success = self.update_mkdocs_navigation(moves)
 
             if not nav_success:
                 self.logger.warning(

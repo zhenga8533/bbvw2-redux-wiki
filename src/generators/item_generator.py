@@ -108,6 +108,45 @@ class ItemGenerator(BaseGenerator):
 
         return item_cache
 
+    def _load_all_items(self) -> list[Item]:
+        """
+        Load all items from the database once.
+
+        Returns:
+            List of Item objects (excluding miracle-shooter items), sorted alphabetically by name
+        """
+        item_dir = self.project_root / "data" / "pokedb" / "parsed" / "item"
+
+        if not item_dir.exists():
+            self.logger.error(f"Item directory not found: {item_dir}")
+            return []
+
+        item_files = sorted(item_dir.glob("*.json"))
+        self.logger.info(f"Found {len(item_files)} item files")
+
+        items = []
+        for item_file in item_files:
+            try:
+                item = PokeDBLoader.load_item(item_file.stem)
+                if item:
+                    # Skip miracle-shooter category items
+                    if item.category == "miracle-shooter":
+                        self.logger.debug(f"Skipping miracle-shooter item: {item_file.stem}")
+                        continue
+                    items.append(item)
+                else:
+                    self.logger.warning(f"Could not load item: {item_file.stem}")
+            except Exception as e:
+                self.logger.error(
+                    f"Error loading {item_file.stem}: {e}", exc_info=True
+                )
+
+        # Sort alphabetically by name
+        items.sort(key=lambda i: i.name)
+        self.logger.info(f"Loaded {len(items)} items")
+
+        return items
+
     def _generate_pokemon_with_item_section(
         self, item_name: str, cache: Optional[dict[str, list[dict]]] = None
     ) -> str:
@@ -282,85 +321,50 @@ class ItemGenerator(BaseGenerator):
         self.logger.info(f"Generated page for {display_name}: {output_file}")
         return output_file
 
-    def generate_all_item_pages(self) -> list[Path]:
+    def generate_all_item_pages(self, items: list[Item]) -> list[Path]:
         """
-        Generate markdown pages for all items in the database.
+        Generate markdown pages for all items.
+
+        Args:
+            items: List of Item objects to generate pages for
 
         Returns:
             List of paths to generated markdown files
         """
-        self.logger.info("Starting generation of all item pages")
+        self.logger.info(f"Starting generation of {len(items)} item pages")
 
         # Build Pokemon item cache once (massive performance improvement)
         self.logger.info("Building Pokemon item cache...")
         pokemon_cache = self._build_pokemon_item_cache()
         self.logger.info(f"Cached {len(pokemon_cache)} items found on wild Pokemon")
 
-        # Get item directory
-        item_dir = self.project_root / "data" / "pokedb" / "parsed" / "item"
-
-        if not item_dir.exists():
-            self.logger.error(f"Item directory not found: {item_dir}")
-            return []
-
-        item_files = sorted(item_dir.glob("*.json"))
-        self.logger.info(f"Found {len(item_files)} items")
-
         generated_files = []
 
-        for item_file in item_files:
+        for item in items:
             try:
-                item_name = item_file.stem
-                item = PokeDBLoader.load_item(item_name)
-
-                if item:
-                    # Skip miracle-shooter category items
-                    if item.category == "miracle-shooter":
-                        self.logger.debug(f"Skipping miracle-shooter item: {item_name}")
-                        continue
-
-                    output_path = self.generate_item_page(item, cache=pokemon_cache)
-                    generated_files.append(output_path)
-                else:
-                    self.logger.warning(f"Could not load item: {item_name}")
+                output_path = self.generate_item_page(item, cache=pokemon_cache)
+                generated_files.append(output_path)
 
             except Exception as e:
                 self.logger.error(
-                    f"Error generating page for {item_file.stem}: {e}",
+                    f"Error generating page for {item.name}: {e}",
                     exc_info=True,
                 )
 
         self.logger.info(f"Generated {len(generated_files)} item pages")
         return generated_files
 
-    def generate_items_index(self) -> Path:
+    def generate_items_index(self, items: list[Item]) -> Path:
         """
         Generate the main items index page with links to all items.
+
+        Args:
+            items: List of Item objects to include in the index
 
         Returns:
             Path to the generated index file
         """
-        self.logger.info("Generating items index page")
-
-        # Get all items
-        item_dir = self.project_root / "data" / "pokedb" / "parsed" / "item"
-        item_files = sorted(item_dir.glob("*.json"))
-
-        # Load item data for the index
-        items = []
-        for item_file in item_files:
-            try:
-                item = PokeDBLoader.load_item(item_file.stem)
-                if item:
-                    # Skip miracle-shooter category items
-                    if item.category == "miracle-shooter":
-                        continue
-                    items.append(item)
-            except Exception as e:
-                self.logger.error(f"Error loading {item_file.stem}: {e}")
-
-        # Sort alphabetically by name
-        items.sort(key=lambda i: i.name)
+        self.logger.info(f"Generating items index page for {len(items)} items")
 
         # Generate markdown
         md = "# Items\n\n"
@@ -465,36 +469,19 @@ class ItemGenerator(BaseGenerator):
         self.logger.info(f"Generated items index: {output_file}")
         return output_file
 
-    def update_mkdocs_navigation(self) -> bool:
+    def update_mkdocs_navigation(self, items: list[Item]) -> bool:
         """
         Update mkdocs.yml with navigation links to all item pages.
         Organizes items alphabetically into subsections.
+
+        Args:
+            items: List of Item objects to include in navigation
 
         Returns:
             bool: True if update succeeded, False if it failed
         """
         try:
             mkdocs_path = self.project_root / "mkdocs.yml"
-
-            # Get all items
-            item_dir = self.project_root / "data" / "pokedb" / "parsed" / "item"
-            item_files = sorted(item_dir.glob("*.json"))
-
-            # Load items
-            items = []
-            for item_file in item_files:
-                try:
-                    item = PokeDBLoader.load_item(item_file.stem)
-                    if item:
-                        # Skip miracle-shooter category items
-                        if item.category == "miracle-shooter":
-                            continue
-                        items.append(item)
-                except Exception as e:
-                    self.logger.warning(f"Could not load {item_file.stem}: {e}")
-
-            # Sort alphabetically within each group
-            items.sort(key=lambda i: i.name)
 
             # Group items by usage context
             from collections import defaultdict
@@ -600,9 +587,17 @@ class ItemGenerator(BaseGenerator):
             # Clean up old item markdown files
             self._cleanup_output_dir()
 
+            # Load all items once (optimization to avoid multiple glob + parse operations)
+            self.logger.info("Loading all items from database...")
+            items = self._load_all_items()
+
+            if not items:
+                self.logger.error("No items were loaded")
+                return False
+
             # Generate all item pages
             self.logger.info("Generating individual item pages...")
-            item_files = self.generate_all_item_pages()
+            item_files = self.generate_all_item_pages(items)
 
             if not item_files:
                 self.logger.error("No item pages were generated")
@@ -610,11 +605,11 @@ class ItemGenerator(BaseGenerator):
 
             # Generate the items index
             self.logger.info("Generating items index...")
-            index_path = self.generate_items_index()
+            index_path = self.generate_items_index(items)
 
             # Update mkdocs.yml navigation
             self.logger.info("Updating mkdocs.yml navigation...")
-            nav_success = self.update_mkdocs_navigation()
+            nav_success = self.update_mkdocs_navigation(items)
 
             if not nav_success:
                 self.logger.warning(
