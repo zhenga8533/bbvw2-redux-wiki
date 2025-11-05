@@ -7,6 +7,9 @@ the wiki's formatting guidelines as defined in TABLE_STANDARDS.md.
 
 from typing import List, Optional, Literal
 
+from src.utils.core.config import POKEDB_GAME_VERSIONS
+from src.utils.text.text_util import format_display_name
+
 # Type aliases for clarity
 Alignment = Literal["left", "center", "right"]
 
@@ -181,20 +184,24 @@ def create_ability_index_table(rows: List[List[str]]) -> str:
     return create_table(headers, rows, alignments)
 
 
-def create_held_items_table(rows: List[List[str]]) -> str:
+def create_held_items_table(rows: List[List[str]], game_version_headers: Optional[List[str]] = None) -> str:
     """
     Create a wild held items table with standardized formatting.
 
-    Columns: Item, Black 2, White 2
+    Columns: Item, [game versions...]
 
     Args:
-        rows: List of rows with [item, black2_percent, white2_percent]
+        rows: List of rows with [item, *game_version_percents]
+        game_version_headers: List of game version display names for headers. If None, derives from config.
 
     Returns:
         Formatted markdown table
     """
-    headers = ["Item", "Black 2", "White 2"]
-    alignments: List[Alignment] = ["left", "center", "center"]
+    if game_version_headers is None:
+        game_version_headers = [format_display_name(v) for v in POKEDB_GAME_VERSIONS]
+
+    headers = ["Item"] + game_version_headers
+    alignments: List[Alignment] = ["left"] + ["center"] * len(game_version_headers)
     return create_table(headers, rows, alignments)
 
 
@@ -232,20 +239,24 @@ def create_move_learnset_table(
     return create_table(headers, rows, alignments)
 
 
-def create_pokemon_with_item_table(rows: List[List[str]]) -> str:
+def create_pokemon_with_item_table(rows: List[List[str]], game_version_headers: Optional[List[str]] = None) -> str:
     """
     Create a table showing which Pokemon can hold a specific item.
 
-    Columns: Pokemon, Black 2, White 2
+    Columns: Pokemon, [game versions...]
 
     Args:
-        rows: List of rows with [pokemon_name, black2_percent, white2_percent]
+        rows: List of rows with [pokemon_name, *game_version_percents]
+        game_version_headers: List of game version display names for headers. If None, derives from config.
 
     Returns:
         Formatted markdown table
     """
-    headers = ["Pokémon", "Black 2", "White 2"]
-    alignments: List[Alignment] = ["left", "center", "center"]
+    if game_version_headers is None:
+        game_version_headers = [format_display_name(v) for v in POKEDB_GAME_VERSIONS]
+
+    headers = ["Pokémon"] + game_version_headers
+    alignments: List[Alignment] = ["left"] + ["center"] * len(game_version_headers)
     return create_table(headers, rows, alignments)
 
 

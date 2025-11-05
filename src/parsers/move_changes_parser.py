@@ -58,7 +58,7 @@ class MoveChangesParser(BaseParser):
         self.parse_default(line)
 
     def parse_move_replacements(self, line: str) -> None:
-        """Parse move replacements and copy new moves from gen8."""
+        """Parse move replacements and copy new moves from the latest generation."""
         # Match: "Old Move                New Move"
         if line == "Old Move                New Move":
             self._is_table_open = True
@@ -70,7 +70,7 @@ class MoveChangesParser(BaseParser):
         elif self._is_table_open and line:
             old_move, new_move = re.split(r"\s{3,}", line)
 
-            # Copy the new move from gen8 to parsed data
+            # Copy the new move from latest generation to parsed data
             MoveService.copy_new_move(new_move)
 
             old_move_html = format_move(old_move, relative_path="..")

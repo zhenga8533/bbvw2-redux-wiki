@@ -1,14 +1,14 @@
 """
 Generator for individual Pokemon markdown pages.
 
-This generator is specifically designed for Blaze Black 2 & Volt White 2 Redux,
-with content prioritizing Black 2 & White 2 data.
+This generator creates comprehensive Pokemon documentation pages with data
+from the configured version group (see config.VERSION_GROUP).
 
 This generator:
 1. Reads Pokemon data from data/pokedb/parsed/pokemon/
 2. Generates individual markdown files for each Pokemon to docs/pokedex/pokemon/
 3. Handles Pokemon forms and variations
-4. Prioritizes Black 2 & White 2 content (flavor text, etc.)
+4. Uses version group data configured in config.py
 
 Note: Styles are applied inline when they depend on dynamic data:
 - Hero gradient colors (based on Pokemon types)
@@ -21,7 +21,12 @@ from typing import Any, Optional, cast
 
 from src.data.pokedb_loader import PokeDBLoader
 from src.models.pokedb import Move, Pokemon
-from src.utils.core.config import GAME_VERSION_1, GAME_VERSION_2, VERSION_GROUP
+from src.utils.core.config import (
+    GAME_TITLE,
+    POKEDB_GAME_VERSIONS,
+    POKEDB_SPRITE_VERSION,
+    VERSION_GROUP,
+)
 from src.utils.formatters.markdown_formatter import (
     format_ability,
     format_item,
@@ -165,7 +170,7 @@ class PokemonGenerator(BaseGenerator):
         Calculate type effectiveness based on Pokemon's types.
 
         This method delegates to the type_effectiveness utility module,
-        which contains the full type chart data for Generation 5.
+        which contains the full type chart data.
 
         Args:
             types: List of Pokemon types (e.g., ["fire", "flying"])
@@ -320,7 +325,7 @@ class PokemonGenerator(BaseGenerator):
         """
         Generate the held items section showing what items this Pokemon can hold in the wild.
 
-        Prioritizes Black 2 & White 2 data (the focus of this wiki).
+        Uses data from the configured version group.
         """
         if not pokemon.held_items:
             return ""
@@ -328,25 +333,27 @@ class PokemonGenerator(BaseGenerator):
         md = "## :material-treasure-chest: Wild Held Items\n\n"
         md += "These items can be found when catching or defeating this Pokémon in the wild:\n\n"
 
-        # Build table rows
+        # Build table rows with dynamic game version columns
         rows = []
         for item_name, rates in pokemon.held_items.items():
             # Convert underscores to hyphens for item identifier
             item_id = item_name.replace("_", "-")
             item_display = format_item(item_id)
 
-            # Get rates for Black 2 & White 2
-            black_2_rate = (
-                f"{rates.get('black_2', 0)}%" if rates.get("black_2") else "—"
-            )
-            white_2_rate = (
-                f"{rates.get('white_2', 0)}%" if rates.get("white_2") else "—"
-            )
+            # Build row with all game version rates
+            row = [item_display]
+            for version in POKEDB_GAME_VERSIONS:
+                rate = rates.get(version, 0)
+                rate_str = f"{rate}%" if rate else "—"
+                row.append(rate_str)
 
-            rows.append([item_display, black_2_rate, white_2_rate])
+            rows.append(row)
 
-        # Use standardized table utility
-        md += create_held_items_table(rows)
+        # Build headers for game versions
+        version_headers = [format_display_name(v) for v in POKEDB_GAME_VERSIONS]
+
+        # Use standardized table utility with dynamic headers
+        md += create_held_items_table(rows, game_version_headers=version_headers)
         md += "\n"
         return md
 
@@ -1056,33 +1063,33 @@ class PokemonGenerator(BaseGenerator):
         """
         Generate the Pokédex flavor text section.
 
-        Focuses on Black 2 & White 2 (the main focus of this wiki).
+        Iterates through all configured game versions.
         """
         md = "## :material-book-open: Pokédex Entries\n\n"
 
         # Pokemon flavor_text uses GameStringMap (individual game versions)
-        # Prioritize Black 2 & White 2 since this is a B2W2 Redux wiki
-        has_b2w2 = getattr(pokemon.flavor_text, GAME_VERSION_1, None) or getattr(
-            pokemon.flavor_text, GAME_VERSION_2, None
+        # Check if any flavor text exists for configured game versions
+        has_flavor_text = any(
+            getattr(pokemon.flavor_text, version, None)
+            for version in POKEDB_GAME_VERSIONS
         )
 
-        if has_b2w2:
-            # Show Black 2 & White 2 (main focus)
-            md += '=== ":material-numeric-2-circle-outline: Black 2"\n\n'
-            black_2_text = getattr(pokemon.flavor_text, GAME_VERSION_1, None)
-            if black_2_text:
-                md += f'\t!!! quote ""\n\n'
-                md += f"\t\t{black_2_text}\n\n"
-            else:
-                md += "\t*No entry available*\n\n"
+        if has_flavor_text:
+            # Show flavor text for each configured game version
+            # Note: Tab icons are hardcoded as ":material-numeric-2-circle-outline:" and similar
+            # To fully genericize, icon mapping would need to be added to config
+            for idx, version in enumerate(POKEDB_GAME_VERSIONS):
+                version_display = format_display_name(version)
+                # Use generic book icon for all tabs
+                icon = ":material-book:"
 
-            md += '=== ":material-numeric-2-circle: White 2"\n\n'
-            white_2_text = getattr(pokemon.flavor_text, GAME_VERSION_2, None)
-            if white_2_text:
-                md += f'\t!!! quote ""\n\n'
-                md += f"\t\t{white_2_text}\n\n"
-            else:
-                md += "\t*No entry available*\n\n"
+                md += f'=== "{icon} {version_display}"\n\n'
+                version_text = getattr(pokemon.flavor_text, version, None)
+                if version_text:
+                    md += f'\t!!! quote ""\n\n'
+                    md += f"\t\t{version_text}\n\n"
+                else:
+                    md += "\t*No entry available*\n\n"
         else:
             md += "*No Pokédex entries available.*\n\n"
 
@@ -1101,10 +1108,14 @@ class PokemonGenerator(BaseGenerator):
         # Check if this Pokemon has animated sprites
         has_animated = False
         if not is_cosmetic and hasattr(sprites, "versions") and sprites.versions:
-            bw = sprites.versions.black_white
-            if bw.animated and bw.animated.front_default:
+            sprite_version = getattr(sprites.versions, POKEDB_SPRITE_VERSION, None)
+            if (
+                sprite_version
+                and sprite_version.animated
+                and sprite_version.animated.front_default
+            ):
                 has_animated = True
-                if bw.animated.front_female:
+                if sprite_version.animated.front_female:
                     has_female_sprites = True
 
         # In-game Sprites Tab
@@ -1112,28 +1123,31 @@ class PokemonGenerator(BaseGenerator):
 
         # Use animated sprites for default/variant/transformation, PNG for cosmetic
         if has_animated:
-            bw = sprites.versions.black_white
+            sprite_version = getattr(sprites.versions, POKEDB_SPRITE_VERSION, None)
+            if sprite_version is None:
+                return md
+
             # Normal sprites
             md += "\t**Normal**\n\n"
             md += '\t<div class="grid cards" markdown>\n\n'
 
-            if bw.animated.front_default:
-                md += f"\t- ![Front]({bw.animated.front_default})\n\n"
+            if sprite_version.animated.front_default:
+                md += f"\t- ![Front]({sprite_version.animated.front_default})\n\n"
                 md += "\t\t---\n\n"
                 md += "\t\tFront\n\n"
-            if bw.animated.back_default:
-                md += f"\t- ![Back]({bw.animated.back_default})\n\n"
+            if sprite_version.animated.back_default:
+                md += f"\t- ![Back]({sprite_version.animated.back_default})\n\n"
                 md += "\t\t---\n\n"
                 md += "\t\tBack\n\n"
 
             # Female variants if available
             if has_female_sprites:
-                if bw.animated.front_female:
-                    md += f"\t- ![Front ♀]({bw.animated.front_female})\n\n"
+                if sprite_version.animated.front_female:
+                    md += f"\t- ![Front ♀]({sprite_version.animated.front_female})\n\n"
                     md += "\t\t---\n\n"
                     md += "\t\tFront ♀\n\n"
-                if bw.animated.back_female:
-                    md += f"\t- ![Back ♀]({bw.animated.back_female})\n\n"
+                if sprite_version.animated.back_female:
+                    md += f"\t- ![Back ♀]({sprite_version.animated.back_female})\n\n"
                     md += "\t\t---\n\n"
                     md += "\t\tBack ♀\n\n"
 
@@ -1143,23 +1157,23 @@ class PokemonGenerator(BaseGenerator):
             md += "\t**✨ Shiny**\n\n"
             md += '\t<div class="grid cards" markdown>\n\n'
 
-            if bw.animated.front_shiny:
-                md += f"\t- ![Front Shiny]({bw.animated.front_shiny})\n\n"
+            if sprite_version.animated.front_shiny:
+                md += f"\t- ![Front Shiny]({sprite_version.animated.front_shiny})\n\n"
                 md += "\t\t---\n\n"
                 md += "\t\tFront\n\n"
-            if bw.animated.back_shiny:
-                md += f"\t- ![Back Shiny]({bw.animated.back_shiny})\n\n"
+            if sprite_version.animated.back_shiny:
+                md += f"\t- ![Back Shiny]({sprite_version.animated.back_shiny})\n\n"
                 md += "\t\t---\n\n"
                 md += "\t\tBack\n\n"
 
             # Female shiny variants if available
             if has_female_sprites:
-                if bw.animated.front_shiny_female:
-                    md += f"\t- ![Front Shiny ♀]({bw.animated.front_shiny_female})\n\n"
+                if sprite_version.animated.front_shiny_female:
+                    md += f"\t- ![Front Shiny ♀]({sprite_version.animated.front_shiny_female})\n\n"
                     md += "\t\t---\n\n"
                     md += "\t\tFront ♀\n\n"
-                if bw.animated.back_shiny_female:
-                    md += f"\t- ![Back Shiny ♀]({bw.animated.back_shiny_female})\n\n"
+                if sprite_version.animated.back_shiny_female:
+                    md += f"\t- ![Back Shiny ♀]({sprite_version.animated.back_shiny_female})\n\n"
                     md += "\t\t---\n\n"
                     md += "\t\tBack ♀\n\n"
 
@@ -1260,7 +1274,7 @@ class PokemonGenerator(BaseGenerator):
             if legacy_cry or latest_cry:
                 md += '<div class="grid cards" markdown>\n\n'
 
-                # Legacy cry (Gen 5 era)
+                # Legacy cry (original)
                 if legacy_cry:
                     md += "- **:material-history: Legacy Cry**\n\n"
                     md += "\t---\n\n"
@@ -1268,7 +1282,7 @@ class PokemonGenerator(BaseGenerator):
                     md += f'\t\t<source src="{legacy_cry}" type="audio/ogg">\n'
                     md += "\t\tYour browser does not support the audio element.\n"
                     md += "\t</audio>\n\n"
-                    md += "\t*Original cry from Gen 5*\n\n"
+                    md += "\t*Original legacy cry*\n\n"
 
                 # Latest cry (modern)
                 if latest_cry:
@@ -1432,7 +1446,7 @@ class PokemonGenerator(BaseGenerator):
 
         # Generate markdown
         md = "# Pokédex\n\n"
-        md += "Complete list of all Pokémon in **Blaze Black 2 & Volt White 2 Redux**.\n\n"
+        md += f"Complete list of all Pokémon in **{GAME_TITLE}**.\n\n"
         md += "> Click on any Pokémon to see detailed stats, moves, evolutions, and more.\n\n"
 
         # Group Pokemon by generation

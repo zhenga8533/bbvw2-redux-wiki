@@ -20,8 +20,8 @@ POKEDB_GAME_VERSIONS = ["black", "white", "black_2", "white_2"]
 POKEDB_SPRITE_VERSION = "black_white"
 
 VERSION_GROUP = "black_2_white_2"
-GAME_VERSION_1 = "black_2"
-GAME_VERSION_2 = "white_2"
+VERSION_GROUP_FRIENDLY = "Black 2 & White 2"
+GAME_TITLE = "Blaze Black 2 & Volt White 2 Redux"
 
 # ============================================================================
 # Logging Configuration
@@ -34,12 +34,6 @@ LOGGING_MAX_LOG_SIZE_MB = 10
 LOGGING_BACKUP_COUNT = 5
 LOGGING_CONSOLE_COLORS = True
 LOGGING_CLEAR_ON_RUN = True
-
-# ============================================================================
-# Markdown Configuration
-# ============================================================================
-
-MARKDOWN_POKEDEX_BASE_PATH = "../pokedex"
 
 # ============================================================================
 # Parser Registry

@@ -10,6 +10,7 @@ This parser:
 import re
 
 from src.data.pokedb_loader import PokeDBLoader
+from src.utils.core.config import VERSION_GROUP
 from src.utils.services.pokemon_service import PokemonService
 from src.utils.formatters.markdown_formatter import (
     format_checkbox,
@@ -217,7 +218,9 @@ class PokemonChangesParser(BaseParser):
 
         # Load move data from PokeDB
         move_data = PokeDBLoader.load_move(move)
-        move_type = move_data.type.black_2_white_2 if move_data else "Unknown"
+        move_type = (
+            getattr(move_data.type, VERSION_GROUP, None) if move_data else None
+        )
         move_type = move_type.title() if move_type else "Unknown"
         move_class = move_data.damage_class.title() if move_data else "Unknown"
 

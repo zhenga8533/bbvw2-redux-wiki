@@ -6,6 +6,7 @@ import re
 
 from src.data.pokedb_loader import PokeDBLoader
 from src.models.pokedb import MoveLearn, Pokemon
+from src.utils.core.config import VERSION_GROUP
 from src.utils.core.logger import get_logger
 from src.utils.text.text_util import name_to_id
 
@@ -476,7 +477,7 @@ class PokemonService:
                 new_move = MoveLearn(
                     name=move_id,
                     level_learned_at=level,
-                    version_groups=["black-2-white-2"],
+                    version_groups=[VERSION_GROUP],
                 )
                 new_levelup_moves.append(new_move)
 
@@ -539,14 +540,14 @@ class PokemonService:
 
                 if existing_move:
                     # Update version groups if needed
-                    if "black-2-white-2" not in existing_move.version_groups:
-                        existing_move.version_groups.append("black-2-white-2")
+                    if VERSION_GROUP not in existing_move.version_groups:
+                        existing_move.version_groups.append(VERSION_GROUP)
                 else:
                     # Add new machine move as a MoveLearn object
                     new_move = MoveLearn(
                         name=move_id,
                         level_learned_at=0,
-                        version_groups=["black-2-white-2"],
+                        version_groups=[VERSION_GROUP],
                     )
                     pokemon_data.moves.machine.append(new_move)
 
@@ -600,7 +601,7 @@ class PokemonService:
             if item_id not in pokemon_data.held_items:
                 pokemon_data.held_items[item_id] = {}
 
-            pokemon_data.held_items[item_id]["black-2-white-2"] = rarity
+            pokemon_data.held_items[item_id][VERSION_GROUP] = rarity
 
             # Save using PokeDBLoader
             PokeDBLoader.save_pokemon(pokemon_id, pokemon_data)

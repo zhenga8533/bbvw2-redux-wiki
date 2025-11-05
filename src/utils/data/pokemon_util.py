@@ -11,6 +11,7 @@ from typing import Generator, List, Optional, Set, Tuple
 from src.data.pokedb_loader import PokeDBLoader
 from src.models.pokedb import Pokemon
 from src.utils.data.constants import POKEMON_FORM_SUBFOLDERS_STANDARD
+from src.utils.core.config import POKEDB_SPRITE_VERSION
 from src.utils.core.logger import get_logger
 
 logger = get_logger(__name__)
@@ -70,9 +71,9 @@ def get_pokemon_sprite_url(
         and hasattr(pokemon.sprites, "versions")
         and pokemon.sprites.versions
     ):
-        bw = pokemon.sprites.versions.black_white
-        if bw.animated:
-            sprite_url = getattr(bw.animated, sprite_type, None)
+        sprite_version = getattr(pokemon.sprites.versions, POKEDB_SPRITE_VERSION, None)
+        if sprite_version and sprite_version.animated:
+            sprite_url = getattr(sprite_version.animated, sprite_type, None)
 
     # Fall back to PNG sprite if animated not available or not preferred
     if not sprite_url:

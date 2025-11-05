@@ -1,22 +1,27 @@
 """
 Generator for item markdown pages.
 
-This generator is specifically designed for Blaze Black 2 & Volt White 2 Redux,
-with content prioritizing Black 2 & White 2 data.
+This generator creates comprehensive item documentation pages with data
+from the configured version group (see config.VERSION_GROUP).
 
 This generator:
 1. Reads item data from data/pokedb/parsed/item/
 2. Generates individual markdown files for each item to docs/pokedex/items/
 3. Lists Pokemon that can hold each item in the wild
-4. Prioritizes Black 2 & White 2 content (flavor text, etc.)
+4. Uses version group data configured in config.py
 """
 
 from pathlib import Path
-from typing import Optional
+from typing import Optional, Any
 
 from src.data.pokedb_loader import PokeDBLoader
 from src.models.pokedb import Item
-from src.utils.core.config import VERSION_GROUP
+from src.utils.core.config import (
+    GAME_TITLE,
+    POKEDB_GAME_VERSIONS,
+    VERSION_GROUP,
+    VERSION_GROUP_FRIENDLY,
+)
 from src.utils.data.constants import (
     ITEM_NAME_SPECIAL_CASES,
     POKEMON_FORM_SUBFOLDERS_STANDARD,
@@ -26,7 +31,7 @@ from src.utils.formatters.table_formatter import (
     create_item_index_table,
     create_pokemon_with_item_table,
 )
-from src.utils.text.text_util import format_display_name
+from src.utils.text.text_util import format_display_name, name_to_id
 from src.utils.formatters.yaml_formatter import (
     load_mkdocs_config,
     save_mkdocs_config,
@@ -72,7 +77,7 @@ class ItemGenerator(BaseGenerator):
         """
         pokemon_base_dir = self.project_root / "data" / "pokedb" / "parsed" / "pokemon"
 
-        # Map: item_name -> [{"pokemon": Pokemon, "black_2": rate, "white_2": rate}, ...]
+        # Map: item_name -> [{"pokemon": Pokemon, <game_version>: rate, ...}, ...]
         item_cache = {}
 
         # Use shared Pokemon iteration utility (handles deduplication and filtering)
@@ -88,13 +93,12 @@ class ItemGenerator(BaseGenerator):
                     if item_name not in item_cache:
                         item_cache[item_name] = []
 
-                    item_cache[item_name].append(
-                        {
-                            "pokemon": pokemon,
-                            "black_2": rates.get("black_2", 0),
-                            "white_2": rates.get("white_2", 0),
-                        }
-                    )
+                    # Build entry with rates for all configured game versions
+                    entry: dict[str, Any] = {"pokemon": pokemon}
+                    for version in POKEDB_GAME_VERSIONS:
+                        entry[version] = rates.get(version, 0)
+
+                    item_cache[item_name].append(entry)
 
         # Sort all lists by national dex number
         for item_data in item_cache.values():
@@ -123,7 +127,7 @@ class ItemGenerator(BaseGenerator):
             "The following Pokémon may hold this item when encountered in the wild:\n\n"
         )
 
-        # Build table rows
+        # Build table rows with dynamic game version columns
         rows = []
         for entry in pokemon_list:
             pokemon = entry["pokemon"]
@@ -131,13 +135,20 @@ class ItemGenerator(BaseGenerator):
             name = format_display_name(pokemon.name, ITEM_NAME_SPECIAL_CASES)
             link = f"[**#{dex_num:03d} {name}**](../pokemon/{pokemon.name}.md)"
 
-            black_2_rate = f"{entry['black_2']}%" if entry["black_2"] else "—"
-            white_2_rate = f"{entry['white_2']}%" if entry["white_2"] else "—"
+            # Build row with all game version rates
+            row = [link]
+            for version in POKEDB_GAME_VERSIONS:
+                rate = entry.get(version, 0)
+                rate_str = f"{rate}%" if rate else "—"
+                row.append(rate_str)
 
-            rows.append([link, black_2_rate, white_2_rate])
+            rows.append(row)
 
-        # Use standardized table utility
-        md += create_pokemon_with_item_table(rows)
+        # Build headers for game versions
+        version_headers = [format_display_name(v) for v in POKEDB_GAME_VERSIONS]
+
+        # Use standardized table utility with dynamic headers
+        md += create_pokemon_with_item_table(rows, game_version_headers=version_headers)
         md += "\n"
         return md
 
@@ -170,10 +181,9 @@ class ItemGenerator(BaseGenerator):
         md = "## :material-book-open: In-Game Description\n\n"
 
         flavor_text = getattr(item.flavor_text, VERSION_GROUP, None)
-        version = "Black 2 & White 2"
 
         if flavor_text:
-            md += f'!!! quote "{version}"\n\n'
+            md += f'!!! quote "{VERSION_GROUP_FRIENDLY}"\n\n'
             md += f"    {flavor_text}\n\n"
         else:
             md += "*No in-game description available.*\n\n"
@@ -354,9 +364,7 @@ class ItemGenerator(BaseGenerator):
 
         # Generate markdown
         md = "# Items\n\n"
-        md += (
-            "Complete list of all items in **Blaze Black 2 & Volt White 2 Redux**.\n\n"
-        )
+        md += f"Complete list of all items in **{GAME_TITLE}**.\n\n"
         md += (
             "> Click on any item to see its full description and where to find it.\n\n"
         )

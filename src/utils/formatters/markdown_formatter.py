@@ -8,6 +8,7 @@ like Pokemon displays with sprites and links.
 from src.data.pokedb_loader import PokeDBLoader
 from src.models.pokedb import Pokemon
 from src.utils.text.text_util import format_display_name, name_to_id
+from src.utils.core.config import POKEDB_SPRITE_VERSION
 from src.utils.data.constants import (
     TYPE_COLORS,
 )
@@ -133,7 +134,11 @@ def format_pokemon(
 
     # Add sprite image if requested
     if has_sprite:
-        animated_url = pokemon_data.sprites.versions.black_white.animated.front_default
+        # Safely access sprite version
+        sprite_version = getattr(pokemon_data.sprites.versions, POKEDB_SPRITE_VERSION, None)
+        animated_url = (
+            sprite_version.animated.front_default if sprite_version and sprite_version.animated else None
+        )
         sprite_url = pokemon_data.sprites.front_default
 
         if is_animated and animated_url:
@@ -292,8 +297,10 @@ def format_pokemon_card_grid(
 
         # Get sprite URL
         sprite_url = None
-        bw_sprites = pokemon_data.sprites.versions.black_white
-        animated_sprite = bw_sprites.animated.front_default
+        sprite_version = getattr(pokemon_data.sprites.versions, POKEDB_SPRITE_VERSION, None)
+        animated_sprite = (
+            sprite_version.animated.front_default if sprite_version and sprite_version.animated else None
+        )
         default_sprite = pokemon_data.sprites.front_default
 
         form_category = next(

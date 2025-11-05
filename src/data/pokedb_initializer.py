@@ -10,7 +10,12 @@ import zipfile
 import io
 from pathlib import Path
 from src.utils.core.logger import get_logger
-from src.utils.core import config
+from src.utils.core.config import (
+    POKEDB_BRANCH,
+    POKEDB_DATA_DIR,
+    POKEDB_GENERATIONS,
+    POKEDB_REPO_URL,
+)
 
 logger = get_logger(__name__)
 
@@ -20,11 +25,11 @@ class PokeDBInitializer:
 
     def __init__(self):
         """Initialize the PokeDB initializer with configuration."""
-        self.repo_url = config.POKEDB_REPO_URL
-        self.branch = config.POKEDB_BRANCH
-        self.data_dir = Path(config.POKEDB_DATA_DIR)
+        self.repo_url = POKEDB_REPO_URL
+        self.branch = POKEDB_BRANCH
+        self.data_dir = Path(POKEDB_DATA_DIR)
         self.parsed_dir = self.data_dir / "parsed"
-        self.generations = config.POKEDB_GENERATIONS
+        self.generations = POKEDB_GENERATIONS
         self.repo_owner, self.repo_name = self._parse_repo_url()
 
     def _parse_repo_url(self) -> tuple[str, str]:
@@ -57,12 +62,13 @@ class PokeDBInitializer:
         return temp_extract_path / repo_root_dir_name
 
     def _initialize_parsed_data(self):
-        """Copy gen5 data to parsed directory for processing."""
-        gen5_dir = self.data_dir / "gen5"
+        """Copy base generation data to parsed directory for processing."""
+        base_gen = POKEDB_GENERATIONS[0]
+        base_gen_dir = self.data_dir / base_gen
 
-        if not gen5_dir.exists():
+        if not base_gen_dir.exists():
             logger.warning(
-                "gen5 directory not found, skipping parsed data initialization"
+                f"{base_gen} directory not found, skipping parsed data initialization"
             )
             return
 
@@ -70,9 +76,9 @@ class PokeDBInitializer:
             logger.info(f"Removing existing parsed directory '{self.parsed_dir}'...")
             shutil.rmtree(self.parsed_dir)
 
-        logger.info(f"Copying gen5 data to '{self.parsed_dir}' for processing...")
-        shutil.copytree(gen5_dir, self.parsed_dir)
-        logger.info(f"Parsed directory initialized with gen5 data")
+        logger.info(f"Copying {base_gen} data to '{self.parsed_dir}' for processing...")
+        shutil.copytree(base_gen_dir, self.parsed_dir)
+        logger.info(f"Parsed directory initialized with {base_gen} data")
 
     def run(self):
         """Execute the download and initialization process."""
@@ -148,7 +154,7 @@ class PokeDBInitializer:
                 f"Download and extraction complete! Data saved to '{self.data_dir}'"
             )
 
-            # Initialize parsed directory with gen5 data
+            # Initialize parsed directory with base generation data
             self._initialize_parsed_data()
 
         except requests.exceptions.RequestException as e:

@@ -1,14 +1,14 @@
 """
 Generator for move markdown pages.
 
-This generator is specifically designed for Blaze Black 2 & Volt White 2 Redux,
-with content prioritizing Black 2 & White 2 data.
+This generator creates comprehensive move documentation pages with data
+from the configured version group (see config.VERSION_GROUP).
 
 This generator:
 1. Reads move data from data/pokedb/parsed/move/
 2. Generates individual markdown files for each move to docs/pokedex/moves/
 3. Lists Pokemon that can learn each move (level-up, TM/HM, egg, tutor)
-4. Prioritizes Black 2 & White 2 content (flavor text, stats, etc.)
+4. Uses version group data configured in config.py
 """
 
 from collections import defaultdict
@@ -17,7 +17,7 @@ from typing import Optional
 
 from src.data.pokedb_loader import PokeDBLoader
 from src.models.pokedb import Move
-from src.utils.core.config import VERSION_GROUP
+from src.utils.core.config import GAME_TITLE, VERSION_GROUP, VERSION_GROUP_FRIENDLY
 from src.utils.formatters.markdown_formatter import (
     format_pokemon_card_grid,
     format_type_badge,
@@ -251,10 +251,9 @@ class MoveGenerator(BaseGenerator):
         md = "## :material-book-open: In-Game Description\n\n"
 
         flavor_text = getattr(move.flavor_text, VERSION_GROUP, None)
-        version = "Black 2 & White 2"
 
         if flavor_text:
-            md += f'!!! quote "{version}"\n\n'
+            md += f'!!! quote "{VERSION_GROUP_FRIENDLY}"\n\n'
             md += f"    {flavor_text}\n\n"
         else:
             md += "*No in-game description available.*\n\n"
@@ -419,9 +418,7 @@ class MoveGenerator(BaseGenerator):
 
         # Generate markdown
         md = "# Moves\n\n"
-        md += (
-            "Complete list of all moves in **Blaze Black 2 & Volt White 2 Redux**.\n\n"
-        )
+        md += f"Complete list of all moves in **{GAME_TITLE}**.\n\n"
         md += "> Click on any move to see its full description and which Pokémon can learn it.\n\n"
 
         # Group moves by damage class

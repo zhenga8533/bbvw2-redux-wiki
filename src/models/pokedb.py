@@ -20,6 +20,8 @@ from dataclasses import dataclass, field
 from enum import IntEnum
 from typing import Any, Literal, Optional
 
+from click import Option
+
 # region Enums and Constants
 # Pokemon Constants
 MIN_ABILITY_SLOT = 1
@@ -402,14 +404,13 @@ class MoveMetadata:
 
     def __post_init__(self):
         """Validate move metadata fields."""
-        if self.ailment is not None and not isinstance(self.ailment, str):
-            raise ValueError(
-                f"ailment must be None or a string, got: {type(self.ailment)}"
-            )
-        if self.category is not None and not isinstance(self.category, str):
-            raise ValueError(
-                f"category must be None or a string, got: {type(self.category)}"
-            )
+        # Validate optional string fields
+        for field_name in ["ailment", "category"]:
+            value = getattr(self, field_name)
+            if value is not None and not isinstance(value, str):
+                raise ValueError(
+                    f"{field_name} must be None or a string, got: {type(value)}"
+                )
 
         # Validate optional integer fields
         for field_name in ["min_hits", "max_hits", "min_turns", "max_turns"]:
@@ -495,7 +496,7 @@ class Move:
     short_effect: GameVersionStringMap
     flavor_text: GameVersionStringMap
     stat_changes: list[StatChange]
-    machine: Optional[str | dict[str, Any]]
+    machine: Optional[str]
     metadata: MoveMetadata
 
     def __post_init__(self):
@@ -643,9 +644,9 @@ class Move:
             raise ValueError(
                 f"stat_changes must be a list, got: {type(self.stat_changes)}"
             )
-        if self.machine is not None and not isinstance(self.machine, (str, dict)):
+        if self.machine is not None and not isinstance(self.machine, str):
             raise ValueError(
-                f"machine must be None, a string, or a dict, got: {type(self.machine)}"
+                f"machine must be None or a string, got: {type(self.machine)}"
             )
         if not isinstance(self.metadata, MoveMetadata):
             raise ValueError(
@@ -801,11 +802,10 @@ class PokemonMoves:
     tutor: list[MoveLearn] = field(default_factory=list)
     machine: list[MoveLearn] = field(default_factory=list)
     level_up: list[MoveLearn] = field(default_factory=list)
-    extra_fields: dict[str, Any] = field(default_factory=dict, repr=False)
 
     @classmethod
     def from_dict(cls, data: dict[str, Any]) -> "PokemonMoves":
-        """Create a PokemonMoves object from a dictionary, allowing extra fields."""
+        """Create a PokemonMoves object from a dictionary."""
         # Convert each move list to MoveLearn objects
         known_fields = {"egg", "tutor", "machine", "level_up"}
         init_data = {}
@@ -815,14 +815,10 @@ class PokemonMoves:
                 for move in data.get(move_type, [])
                 if isinstance(move, dict)
             ]
-
-        # Store any unexpected fields in extra_fields
-        extra = {k: v for k, v in data.items() if k not in known_fields}
-        init_data["extra_fields"] = extra
         return cls(**init_data)
 
     def to_dict(self) -> dict[str, Any]:
-        """Convert to dictionary, including extra fields."""
+        """Convert to dictionary."""
         from dataclasses import asdict
 
         result = {
@@ -831,8 +827,6 @@ class PokemonMoves:
             "machine": [asdict(m) for m in self.machine],
             "level_up": [asdict(m) for m in self.level_up],
         }
-        # Merge in any extra fields
-        result.update(self.extra_fields)
         return result
 
 
@@ -1241,10 +1235,10 @@ class Sprites:
 
     back_default: Optional[str]
     back_shiny: Optional[str]
-    front_default: Optional[str]
+    front_default: str
     front_shiny: Optional[str]
     other: OtherSprites
-    versions: SpriteVersions  # <-- Updated
+    versions: SpriteVersions
     back_female: Optional[str] = None
     front_female: Optional[str] = None
     front_shiny_female: Optional[str] = None
@@ -1255,9 +1249,9 @@ class Sprites:
         if isinstance(self.other, dict):
             self.other = OtherSprites(**self.other)
         if isinstance(self.versions, dict):
-            self.versions = SpriteVersions(self.versions)  # <-- Updated
+            self.versions = SpriteVersions(self.versions)
 
-        """Validate Sprites nested objects and URLs."""
+        # Validate Sprites nested objects and URLs.
         if not isinstance(self.other, OtherSprites):
             raise ValueError(
                 f"other must be an OtherSprites instance, got: {type(self.other)}"
@@ -1266,11 +1260,18 @@ class Sprites:
             raise ValueError(
                 f"versions must be a SpriteVersions instance, got: {type(self.versions)}"
             )
+
+        # Validate required string fields
+        if not isinstance(self.front_default, str):
+            raise ValueError(
+                f"front_default must be a string, got: {type(self.front_default)}"
+            )
+
+        # Validate optional string fields
         optional_fields = [
+            "front_shiny",
             "back_default",
             "back_shiny",
-            "front_default",
-            "front_shiny",
             "back_female",
             "front_female",
             "front_shiny_female",

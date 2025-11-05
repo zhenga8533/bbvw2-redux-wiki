@@ -1,5 +1,5 @@
 """
-Service for copying new moves from gen8 to parsed data folder.
+Service for copying new moves from newer generation to parsed data folder.
 """
 
 from typing import Any
@@ -9,6 +9,7 @@ import orjson
 from src.data.pokedb_loader import PokeDBLoader
 from src.models.pokedb import GameVersionStringMap
 from src.utils.text.dict_util import get_most_common_value
+from src.utils.core.config import POKEDB_GENERATIONS, POKEDB_VERSION_GROUPS
 from src.utils.core.logger import get_logger
 from src.utils.text.text_util import name_to_id
 
@@ -16,13 +17,14 @@ logger = get_logger(__name__)
 
 
 class MoveService:
-    """Service for copying moves from gen8 to parsed folder."""
+    """Service for copying moves from newer generation to parsed folder."""
 
     @staticmethod
-    def _add_gen5_version_fields(data: dict[str, Any], field_name: str) -> None:
+    def _normalize_version_group_fields(data: dict[str, Any], field_name: str) -> None:
         """
-        Add black_white and black_2_white_2 fields to a version group dictionary.
+        Normalize version group fields to only include configured version groups.
 
+        Removes extra version groups from other generations and adds missing ones.
         Uses the most common value from existing version groups.
         Modifies the data dict in place.
 
@@ -39,29 +41,32 @@ class MoveService:
         if not isinstance(field_value, dict):
             return
 
-        # Get most common value
+        # Get most common value from existing version groups
         most_common = get_most_common_value(field_value)
 
-        # Add black_white field if missing
-        if "black_white" not in field_value:
-            field_value["black_white"] = most_common
-            logger.debug(f"Added black_white to {field_name}: {most_common}")
+        # Create new dict with only configured version groups
+        normalized_value = {}
+        for version_group in POKEDB_VERSION_GROUPS:
+            # Use existing value if present, otherwise use most common
+            normalized_value[version_group] = field_value.get(version_group, most_common)
+            if version_group not in field_value:
+                logger.debug(f"Added {version_group} to {field_name}: {most_common}")
 
-        # Add black_2_white_2 field if missing
-        if "black_2_white_2" not in field_value:
-            field_value["black_2_white_2"] = most_common
-            logger.debug(f"Added black_2_white_2 to {field_name}: {most_common}")
+        # Replace the field value with normalized version
+        data[field_name] = normalized_value
 
     @staticmethod
-    def _process_gen8_move_data(data: dict[str, Any]) -> dict[str, Any]:
+    def _process_move_data(data: dict[str, Any]) -> dict[str, Any]:
         """
-        Process gen8 move data by adding black_white and black_2_white_2 fields.
+        Process move data by normalizing version group fields to match config.
+
+        Removes extra version groups from other generations and adds missing ones.
 
         Args:
-            data: Raw gen8 move JSON data
+            data: Raw move JSON data
 
         Returns:
-            Modified move data with Gen 5 version fields added
+            Modified move data with normalized version group fields
         """
         # Fields that use GameVersionIntMap or GameVersionStringMap
         version_fields = [
@@ -76,16 +81,16 @@ class MoveService:
         ]
 
         for field in version_fields:
-            MoveService._add_gen5_version_fields(data, field)
+            MoveService._normalize_version_group_fields(data, field)
 
         return data
 
     @staticmethod
     def copy_new_move(move_name: str) -> bool:
         """
-        Copy a new move from gen8 to parsed data folder.
+        Copy a new move from newer generation to parsed data folder.
 
-        Processes gen8 move data to add black_white and black_2_white_2 fields
+        Processes move data to add configured version group fields
         with the most common value across all existing version groups.
 
         Does NOT delete old moves or overwrite existing moves.
@@ -101,16 +106,17 @@ class MoveService:
 
         # Use PokeDBLoader to get paths
         data_dir = PokeDBLoader.get_data_dir()
-        gen8_move_dir = data_dir.parent / "gen8" / "move"
+        source_gen = POKEDB_GENERATIONS[-1]  # Use the latest generation as source
+        source_move_dir = data_dir.parent / source_gen / "move"
         parsed_move_dir = PokeDBLoader.get_category_path("move")
 
         # Construct file paths
-        source_path = gen8_move_dir / f"{move_id}.json"
+        source_path = source_move_dir / f"{move_id}.json"
         dest_path = parsed_move_dir / f"{move_id}.json"
 
         # Check if source exists
         if not source_path.exists():
-            logger.warning(f"Move '{move_name}' not found in gen8: {source_path}")
+            logger.warning(f"Move '{move_name}' not found in {source_gen}: {source_path}")
             return False
 
         # Skip if destination already exists
@@ -123,12 +129,12 @@ class MoveService:
 
         # Load, process, and save the move data
         try:
-            # Load gen8 move data using orjson (2-3x faster than json)
+            # Load move data using orjson (2-3x faster than json)
             with open(source_path, "rb") as f:
                 move_data = orjson.loads(f.read())
 
-            # Process to add black_2_white_2 fields
-            processed_data = MoveService._process_gen8_move_data(move_data)
+            # Process to add configured version group fields
+            processed_data = MoveService._process_move_data(move_data)
 
             # Save to parsed folder using orjson
             with open(dest_path, "wb") as f:
@@ -139,7 +145,7 @@ class MoveService:
                     )
                 )
 
-            logger.info(f"Copied and processed move '{move_name}' from gen8 to parsed")
+            logger.info(f"Copied and processed move '{move_name}' from {source_gen} to parsed")
             return True
         except (OSError, IOError, ValueError) as e:
             logger.warning(f"Error copying move '{move_name}': {e}")
