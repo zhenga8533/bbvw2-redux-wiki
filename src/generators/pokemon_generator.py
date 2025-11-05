@@ -93,12 +93,31 @@ class PokemonGenerator(BaseGenerator):
         self.output_dir = self.output_dir / "pokemon"
         self.output_dir.mkdir(parents=True, exist_ok=True)
 
-    def _load_all_pokemon(self) -> list[Pokemon]:
+        # Configure category and subcategories for BaseGenerator
+        self.category = "pokemon"
+        self.subcategory_order = [
+            "generation-i",
+            "generation-ii",
+            "generation-iii",
+            "generation-iv",
+            "generation-v",
+        ]
+        self.subcategory_names = {
+            "generation-i": "Generation I",
+            "generation-ii": "Generation II",
+            "generation-iii": "Generation III",
+            "generation-iv": "Generation IV",
+            "generation-v": "Generation V",
+        }
+        self.index_table_headers = ["#", "Sprite", "Name", "Types", "Abilities"]
+        self.index_table_alignments = ["right", "center", "left", "left", "left"]
+
+    def load_all_data(self) -> list[Pokemon]:
         """
         Load all Pokemon from all form subfolders once.
 
         This loads Pokemon from default, transformation, variant, and cosmetic subfolders.
-        Used to avoid duplicate loading in generate_all_pokemon_pages() and update_mkdocs_navigation().
+        Implements the abstract method from BaseGenerator.
 
         Returns:
             List of all Pokemon objects across all form subfolders
@@ -117,7 +136,9 @@ class PokemonGenerator(BaseGenerator):
                 continue
 
             pokemon_files = sorted(pokemon_dir.glob("*.json"))
-            self.logger.info(f"Found {len(pokemon_files)} Pokemon in subfolder: {folder}")
+            self.logger.info(
+                f"Found {len(pokemon_files)} Pokemon in subfolder: {folder}"
+            )
             total_files += len(pokemon_files)
 
             for pokemon_file in pokemon_files:
@@ -143,7 +164,86 @@ class PokemonGenerator(BaseGenerator):
         )
         return all_pokemon
 
-    def _stat_bar(self, value: int, max_value: int = MAX_STAT_VALUE) -> str:
+    def categorize_data(self, data: list[Pokemon]) -> dict[str, list[Pokemon]]:
+        """
+        Categorize Pokemon by generation.
+
+        Groups Pokemon by their generation attribute (generation-i, generation-ii, etc.)
+        for use in index generation and navigation.
+
+        Includes all forms (default and alternate) but deduplicates by (dex_number, name)
+        to prevent duplicate entries.
+
+        Args:
+            data: List of Pokemon objects to categorize
+
+        Returns:
+            Dictionary mapping generation IDs to lists of Pokemon (all forms, deduplicated)
+        """
+        from collections import defaultdict
+
+        categorized: dict[str, list[Pokemon]] = defaultdict(list)
+
+        # Deduplicate by (dex_number, name) to prevent duplicate entries
+        seen_pokemon = set()
+
+        for pokemon in data:
+            # Create unique key to prevent duplicates
+            pokemon_key = (pokemon.pokedex_numbers.get("national"), pokemon.name)
+
+            if pokemon_key in seen_pokemon:
+                continue
+
+            seen_pokemon.add(pokemon_key)
+
+            gen = pokemon.generation if pokemon.generation else "unknown"
+            categorized[gen].append(pokemon)
+
+        # Sort Pokemon within each generation by national dex number, then by name
+        for gen in categorized:
+            categorized[gen].sort(
+                key=lambda p: (p.pokedex_numbers.get("national", 9999), p.name)
+            )
+
+        return dict(categorized)
+
+    def format_index_row(self, item: Pokemon) -> list[str]:
+        """
+        Format a single Pokemon into a table row for the index page.
+
+        Args:
+            item: The Pokemon object to format
+
+        Returns:
+            List of table cell strings: [dex_num, sprite, name_link, types, abilities]
+        """
+        # Dex number
+        dex_num = item.pokedex_numbers.get("national", "???")
+        dex_str = f"**{dex_num:03d}**" if isinstance(dex_num, int) else f"**{dex_num}**"
+
+        # Sprite
+        sprite_url = get_pokemon_sprite_url(item)
+        if sprite_url:
+            name = format_display_name(item.name)
+            sprite_cell = f'<img src="{sprite_url}" alt="{name}" style="max-width: 80px; image-rendering: pixelated;" />'
+        else:
+            sprite_cell = "—"
+
+        # Name link
+        name = format_display_name(item.name)
+        name_link = f"[{name}](pokemon/{item.name}.md)"
+
+        # Types (stacked vertically)
+        type_badges = " ".join([format_type_badge(t) for t in item.types])
+        types_cell = f'<div class="badges-vstack">{type_badges}</div>'
+
+        # Abilities (non-hidden only, max 2)
+        abilities = [a.name for a in item.abilities if not a.is_hidden]
+        abilities_str = ", ".join([format_display_name(a) for a in abilities[:2]])
+
+        return [dex_str, sprite_cell, name_link, types_cell, abilities_str]
+
+    def _format_stat_bar(self, value: int, max_value: int = MAX_STAT_VALUE) -> str:
         """
         Create a visual progress bar for a stat.
 
@@ -541,7 +641,7 @@ class PokemonGenerator(BaseGenerator):
         md += "|------|-----:|----:|----:|:-------------|\n"
 
         for stat_name, value, is_hp in stats_display:
-            bar = self._stat_bar(value)
+            bar = self._format_stat_bar(value)
             min_stat, max_stat = self._calculate_stat_range(value, is_hp)
             md += (
                 f"| **{stat_name}** | **{value}** | {min_stat} | {max_stat} | {bar} |\n"
@@ -762,24 +862,6 @@ class PokemonGenerator(BaseGenerator):
 
             return all_paths
 
-        def find_common_prefix(paths):
-            """Find the longest common prefix across all paths by species_name."""
-            if not paths:
-                return []
-
-            prefix = []
-            min_length = min(len(path) for path in paths)
-
-            for i in range(min_length):
-                # Check if all paths have the same Pokemon at position i
-                first_species = paths[0][i]["species_name"]
-                if all(path[i]["species_name"] == first_species for path in paths):
-                    prefix.append(paths[0][i])
-                else:
-                    break
-
-            return prefix
-
         # Extract all evolution paths
         paths = extract_all_paths(pokemon.evolution_chain)
 
@@ -804,7 +886,6 @@ class PokemonGenerator(BaseGenerator):
 
         # Determine evolution pattern for better layout
         num_final_evolutions = len(stages[-1]) if max_depth > 0 else 0
-        has_multiple_stage_2 = max_depth > 1 and len(stages[1]) > 1
 
         # Pattern detection:
         # - "multi_leaf": Many final evolutions (4+) with only 2 stages (like Eevee)
@@ -1352,200 +1433,67 @@ class PokemonGenerator(BaseGenerator):
 
         return md
 
-    def generate_pokemon_page(self, pokemon: Pokemon) -> Path:
+    def generate_page(
+        self, item: Pokemon, cache: Optional[dict[str, Any]] = None
+    ) -> Path:
         """
         Generate a markdown page for a single Pokemon.
 
+        Implements the abstract method from BaseGenerator.
+
         Args:
             pokemon: The Pokemon data to generate a page for
+            cache: Optional cache for previously generated pages (unused for Pokemon)
 
         Returns:
             Path to the generated markdown file
         """
-        display_name = format_display_name(pokemon.name)
+        display_name = format_display_name(item.name)
 
         # Start building the markdown
         md = f"# {display_name}\n\n"
 
         # Genus (species classification)
-        md += f"*{pokemon.genus}*\n\n"
+        md += f"*{item.genus}*\n\n"
 
         # Hero section with sprite, types, and badges
-        md += self._generate_hero_section(pokemon)
+        md += self._generate_hero_section(item)
 
         # Add sections
-        md += self._generate_basic_info(pokemon)
-        md += self._generate_held_items_section(pokemon)
-        md += self._generate_type_effectiveness(pokemon)
-        md += self._generate_stats_table(pokemon)
-        md += self._generate_evolution_chain(pokemon)
-        md += self._generate_forms_section(pokemon)
-        md += self._generate_flavor_text(pokemon)
-        md += self._generate_moves_section(pokemon)
-        md += self._generate_sprites_section(pokemon)
-        md += self._generate_cries_section(pokemon)
+        md += self._generate_basic_info(item)
+        md += self._generate_held_items_section(item)
+        md += self._generate_type_effectiveness(item)
+        md += self._generate_stats_table(item)
+        md += self._generate_evolution_chain(item)
+        md += self._generate_forms_section(item)
+        md += self._generate_flavor_text(item)
+        md += self._generate_moves_section(item)
+        md += self._generate_sprites_section(item)
+        md += self._generate_cries_section(item)
 
         # Write to file
-        output_file = self.output_dir / f"{pokemon.name}.md"
+        output_file = self.output_dir / f"{item.name}.md"
         output_file.write_text(md, encoding="utf-8")
 
         self.logger.info(f"Generated page for {display_name}: {output_file}")
         return output_file
 
-    def generate_all_pokemon_pages(self, all_pokemon: list[Pokemon]) -> list[Path]:
-        """
-        Generate markdown pages for all Pokemon in the database, including all forms.
-
-        Args:
-            all_pokemon: List of Pokemon objects to generate pages for
-
-        Returns:
-            List of paths to generated markdown files
-        """
-        self.logger.info(f"Starting generation of {len(all_pokemon)} Pokemon pages including forms")
-
-        generated_files = []
-
-        for pokemon in all_pokemon:
-            try:
-                output_path = self.generate_pokemon_page(pokemon)
-                generated_files.append(output_path)
-
-            except Exception as e:
-                self.logger.error(
-                    f"Error generating page for {pokemon.name}: {e}",
-                    exc_info=True,
-                )
-
-        self.logger.info(
-            f"Generated {len(generated_files)} Pokemon pages"
-        )
-        return generated_files
-
-    def generate_pokedex_index(self, subfolder: str = "default") -> Path:
-        """
-        Generate the main Pokedex index page with links to all Pokemon.
-
-        Args:
-            subfolder: Subfolder within pokemon directory to process
-
-        Returns:
-            Path to the generated index file
-        """
-        self.logger.info("Generating Pokedex index page")
-
-        # Get all Pokemon
-        pokemon_dir = (
-            self.project_root / "data" / "pokedb" / "parsed" / "pokemon" / subfolder
-        )
-        pokemon_files = sorted(pokemon_dir.glob("*.json"))
-
-        # Load Pokemon data for the index (deduplicate by identity)
-        pokemon_list = []
-        seen_pokemon = set()  # Track (dex_number, name) to prevent duplicates
-
-        for pokemon_file in pokemon_files:
-            try:
-                pokemon = PokeDBLoader.load_pokemon(
-                    pokemon_file.stem, subfolder=subfolder
-                )
-                if (
-                    pokemon and pokemon.is_default
-                ):  # Only include default forms in main list
-                    # Create unique key to prevent duplicates
-                    pokemon_key = (
-                        pokemon.pokedex_numbers.get("national"),
-                        pokemon.name,
-                    )
-
-                    if pokemon_key not in seen_pokemon:
-                        seen_pokemon.add(pokemon_key)
-                        pokemon_list.append(pokemon)
-            except Exception as e:
-                self.logger.error(f"Error loading {pokemon_file.stem}: {e}")
-
-        # Sort by national dex number
-        pokemon_list.sort(key=lambda p: p.pokedex_numbers.get("national", 9999))
-
-        # Generate markdown
-        md = "# Pokédex\n\n"
-        md += f"Complete list of all Pokémon in **{GAME_TITLE}**.\n\n"
-        md += "> Click on any Pokémon to see detailed stats, moves, evolutions, and more.\n\n"
-
-        # Group Pokemon by generation
-        gen_definitions = [
-            ("Generation I", 1, 151, ":material-numeric-1-circle:"),
-            ("Generation II", 152, 251, ":material-numeric-2-circle:"),
-            ("Generation III", 252, 386, ":material-numeric-3-circle:"),
-            ("Generation IV", 387, 493, ":material-numeric-4-circle:"),
-            ("Generation V", 494, 649, ":material-numeric-5-circle:"),
-        ]
-
-        for gen_name, start, end, icon in gen_definitions:
-            # Filter Pokemon for this generation
-            gen_pokemon = [
-                p
-                for p in pokemon_list
-                if start <= p.pokedex_numbers.get("national", 0) <= end
-            ]
-
-            if not gen_pokemon:
-                continue
-
-            # Add generation header
-            md += f"## {icon} {gen_name}\n\n"
-            md += f"*National Dex #{start:03d} - #{end:03d}*\n\n"
-
-            # Build table rows for this generation
-            rows = []
-            for pokemon in gen_pokemon:
-                dex_num = pokemon.pokedex_numbers.get("national", "???")
-                name = format_display_name(pokemon.name)
-                link = f"[{name}](pokemon/{pokemon.name}.md)"
-                # Stack types vertically with spacing
-                type_badges = " ".join([format_type_badge(t) for t in pokemon.types])
-                types = f'<div class="badges-vstack">{type_badges}</div>'
-
-                # Get sprite URL using utility function
-                sprite_url = get_pokemon_sprite_url(pokemon)
-
-                # Create sprite cell
-                if sprite_url:
-                    sprite_cell = f'<img src="{sprite_url}" alt="{name}" style="max-width: 80px; image-rendering: pixelated;" />'
-                else:
-                    sprite_cell = "—"
-
-                # Get non-hidden abilities
-                abilities = [a.name for a in pokemon.abilities if not a.is_hidden]
-                abilities_str = ", ".join(
-                    [format_display_name(a) for a in abilities[:2]]
-                )  # Show max 2
-
-                rows.append(
-                    [f"**{dex_num:03d}**", sprite_cell, link, types, abilities_str]
-                )
-
-            # Use standardized table utility
-            md += create_pokemon_index_table(rows)
-            md += "\n"
-
-        # Write to file
-        output_file = self.output_dir.parent / "pokemon.md"
-        output_file.write_text(md, encoding="utf-8")
-
-        self.logger.info(f"Generated Pokemon index: {output_file}")
-        return output_file
-
-    def update_mkdocs_navigation(self, all_pokemon: list[Pokemon]) -> bool:
+    def update_mkdocs_nav(self, categorized_items: dict[str, list[Pokemon]]) -> bool:
         """
         Update mkdocs.yml with navigation links to all Pokemon pages.
 
+        Overrides base class to handle Pokemon forms and complex navigation structure.
+
         Args:
-            all_pokemon: List of Pokemon objects to include in navigation
+            categorized_items: Dictionary mapping generation IDs to lists of Pokemon
 
         Returns:
             bool: True if update succeeded, False if it failed
         """
+        # Flatten categorized items back to a single list for Pokemon-specific processing
+        all_pokemon = []
+        for pokemon_list in categorized_items.values():
+            all_pokemon.extend(pokemon_list)
         try:
             mkdocs_path = self.project_root / "mkdocs.yml"
 
@@ -1745,54 +1693,4 @@ class PokemonGenerator(BaseGenerator):
 
         except Exception as e:
             self.logger.error(f"Failed to update mkdocs.yml: {e}", exc_info=True)
-            return False
-
-    def generate(self, subfolder: str = "default") -> bool:
-        """
-        Generate Pokemon pages and Pokedex index.
-
-        Args:
-            subfolder: Subfolder within pokemon directory to process (used only for index generation)
-
-        Returns:
-            bool: True if generation succeeded, False if it failed
-        """
-        self.logger.info("Starting Pokedex generation...")
-        try:
-            # Load all Pokemon once (optimization to avoid multiple glob + parse operations)
-            self.logger.info("Loading all Pokemon from all form subfolders...")
-            all_pokemon = self._load_all_pokemon()
-
-            if not all_pokemon:
-                self.logger.error("No Pokemon were loaded")
-                return False
-
-            # Generate all Pokemon pages
-            self.logger.info("Generating individual Pokemon pages...")
-            pokemon_files = self.generate_all_pokemon_pages(all_pokemon)
-
-            if not pokemon_files:
-                self.logger.error("No Pokemon pages were generated")
-                return False
-
-            # Generate the Pokedex index (loads its own data from default subfolder)
-            self.logger.info("Generating Pokedex index...")
-            index_path = self.generate_pokedex_index(subfolder=subfolder)
-
-            # Update mkdocs.yml navigation
-            self.logger.info("Updating mkdocs.yml navigation...")
-            nav_success = self.update_mkdocs_navigation(all_pokemon)
-
-            if not nav_success:
-                self.logger.warning(
-                    "Failed to update mkdocs.yml navigation, but pages were generated successfully"
-                )
-
-            self.logger.info(
-                f"Successfully generated {len(pokemon_files)} Pokemon pages and index"
-            )
-            return True
-
-        except Exception as e:
-            self.logger.error(f"Failed to generate Pokedex: {e}", exc_info=True)
             return False
