@@ -13,13 +13,12 @@ This generator:
 
 from collections import defaultdict
 from pathlib import Path
-from typing import Any, Optional
+from typing import Optional
 
 from src.data.pokedb_loader import PokeDBLoader
 from src.models.pokedb import Ability, Pokemon
-from src.utils.core.config import GAME_TITLE, VERSION_GROUP, VERSION_GROUP_FRIENDLY
+from src.utils.core.config import VERSION_GROUP, VERSION_GROUP_FRIENDLY
 from src.utils.data.constants import (
-    GENERATION_DISPLAY_NAMES,
     POKEMON_FORM_SUBFOLDERS_STANDARD,
 )
 from src.utils.data.pokemon_util import iterate_pokemon

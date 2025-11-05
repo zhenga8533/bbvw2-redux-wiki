@@ -30,10 +30,7 @@ from .data.type_effectiveness import calculate_type_effectiveness, TYPE_CHART
 # Re-export commonly used constants
 from .data.constants import (
     TYPE_COLORS,
-    ITEM_NAME_SPECIAL_CASES,
     DAMAGE_CLASS_ICONS,
-    GENERATION_DISPLAY_NAMES,
-    GENERATION_ORDER,
     POKEMON_FORM_SUBFOLDERS_ALL,
     POKEMON_FORM_SUBFOLDERS_STANDARD,
 )
@@ -53,10 +50,7 @@ __all__ = [
     "TYPE_CHART",
     # Constants
     "TYPE_COLORS",
-    "ITEM_NAME_SPECIAL_CASES",
     "DAMAGE_CLASS_ICONS",
-    "GENERATION_DISPLAY_NAMES",
-    "GENERATION_ORDER",
     "POKEMON_FORM_SUBFOLDERS_ALL",
     "POKEMON_FORM_SUBFOLDERS_STANDARD",
 ]

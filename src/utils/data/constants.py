@@ -6,13 +6,11 @@ consistency and make updates easier. Rather than duplicating these values across
 multiple files, they are defined once here and imported where needed.
 """
 
-from typing import Dict
-
 # ============================================================================
 # Type-Related Constants
 # ============================================================================
 
-TYPE_COLORS: Dict[str, str] = {
+TYPE_COLORS: dict[str, str] = {
     "normal": "#A8A878",
     "fire": "#F08030",
     "water": "#6890F0",
@@ -34,16 +32,108 @@ TYPE_COLORS: Dict[str, str] = {
     "shadow": "#4B4B7B",
 }
 
-# ============================================================================
-# Name Formatting Special Cases
-# ============================================================================
-
-ITEM_NAME_SPECIAL_CASES: Dict[str, str] = {
-    # Special capitalization cases for item names (including abbreviations)
-    "tm": "TM",
-    "hm": "HM",
-    "hp": "HP",
-    "pp": "PP",
+TYPE_CHART: dict[str, dict[str, list[str]]] = {
+    "normal": {
+        "weak_to": ["fighting"],
+        "resistant_to": [],
+        "immune_to": ["ghost"],
+    },
+    "fire": {
+        "weak_to": ["water", "ground", "rock"],
+        "resistant_to": ["fire", "grass", "ice", "bug", "steel", "fairy"],
+        "immune_to": [],
+    },
+    "water": {
+        "weak_to": ["electric", "grass"],
+        "resistant_to": ["fire", "water", "ice", "steel"],
+        "immune_to": [],
+    },
+    "electric": {
+        "weak_to": ["ground"],
+        "resistant_to": ["electric", "flying", "steel"],
+        "immune_to": [],
+    },
+    "grass": {
+        "weak_to": ["fire", "ice", "poison", "flying", "bug"],
+        "resistant_to": ["water", "electric", "grass", "ground"],
+        "immune_to": [],
+    },
+    "ice": {
+        "weak_to": ["fire", "fighting", "rock", "steel"],
+        "resistant_to": ["ice"],
+        "immune_to": [],
+    },
+    "fighting": {
+        "weak_to": ["flying", "psychic", "fairy"],
+        "resistant_to": ["bug", "rock", "dark"],
+        "immune_to": [],
+    },
+    "poison": {
+        "weak_to": ["ground", "psychic"],
+        "resistant_to": ["grass", "fighting", "poison", "bug", "fairy"],
+        "immune_to": [],
+    },
+    "ground": {
+        "weak_to": ["water", "grass", "ice"],
+        "resistant_to": ["poison", "rock"],
+        "immune_to": ["electric"],
+    },
+    "flying": {
+        "weak_to": ["electric", "ice", "rock"],
+        "resistant_to": ["grass", "fighting", "bug"],
+        "immune_to": ["ground"],
+    },
+    "psychic": {
+        "weak_to": ["bug", "ghost", "dark"],
+        "resistant_to": ["fighting", "psychic"],
+        "immune_to": [],
+    },
+    "bug": {
+        "weak_to": ["fire", "flying", "rock"],
+        "resistant_to": ["grass", "fighting", "ground"],
+        "immune_to": [],
+    },
+    "rock": {
+        "weak_to": ["water", "grass", "fighting", "ground", "steel"],
+        "resistant_to": ["normal", "fire", "poison", "flying"],
+        "immune_to": [],
+    },
+    "ghost": {
+        "weak_to": ["ghost", "dark"],
+        "resistant_to": ["poison", "bug"],
+        "immune_to": ["normal", "fighting"],
+    },
+    "dragon": {
+        "weak_to": ["ice", "dragon", "fairy"],
+        "resistant_to": ["fire", "water", "electric", "grass"],
+        "immune_to": [],
+    },
+    "dark": {
+        "weak_to": ["fighting", "bug", "fairy"],
+        "resistant_to": ["ghost", "dark"],
+        "immune_to": ["psychic"],
+    },
+    "steel": {
+        "weak_to": ["fire", "fighting", "ground"],
+        "resistant_to": [
+            "normal",
+            "grass",
+            "ice",
+            "flying",
+            "psychic",
+            "bug",
+            "rock",
+            "dragon",
+            "steel",
+            "fairy",
+        ],
+        "immune_to": ["poison"],
+    },
+    "fairy": {
+        "weak_to": ["poison", "steel"],
+        "resistant_to": ["fighting", "bug", "dark"],
+        "immune_to": ["dragon"],
+    },
 }
 
 # ============================================================================
@@ -57,32 +147,10 @@ POKEMON_FORM_SUBFOLDERS_ALL = ["default", "transformation", "variant", "cosmetic
 POKEMON_FORM_SUBFOLDERS_STANDARD = ["default", "transformation", "variant"]
 
 # ============================================================================
-# Generation-Related Constants
-# ============================================================================
-
-GENERATION_DISPLAY_NAMES: Dict[str, str] = {
-    # Mapping from generation identifiers to display names
-    "generation-i": "Gen I",
-    "generation-ii": "Gen II",
-    "generation-iii": "Gen III",
-    "generation-iv": "Gen IV",
-    "generation-v": "Gen V",
-}
-
-# Canonical ordering of generations
-GENERATION_ORDER = [
-    "generation-i",
-    "generation-ii",
-    "generation-iii",
-    "generation-iv",
-    "generation-v",
-]
-
-# ============================================================================
 # Move/Damage Class Icons
 # ============================================================================
 
-DAMAGE_CLASS_ICONS: Dict[str, str] = {
+DAMAGE_CLASS_ICONS: dict[str, str] = {
     # Material Design icon identifiers for damage classes/move categories
     "physical": ":material-sword:",
     "special": ":material-auto-fix:",

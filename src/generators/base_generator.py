@@ -8,6 +8,7 @@ from typing import Any, Callable, Optional
 
 from src.utils.core.config import GAME_TITLE
 from src.utils.core.logger import get_logger
+from src.utils.formatters.table_formatter import create_table
 from src.utils.formatters.yaml_formatter import update_pokedex_subsection
 from src.utils.text.text_util import format_display_name
 
@@ -225,41 +226,6 @@ class BaseGenerator(ABC):
         self.logger.info(f"Generated {len(generated_files)} ability pages")
         return generated_files
 
-    def format_index_table(self, rows: list[list[str]]) -> str:
-        """
-        Format a markdown table given headers, alignments, and rows.
-
-        Args:
-            rows (list[list[str]]): List of rows, each row is a list of cell values
-
-        Returns:
-            str: Formatted markdown table
-        """
-        # Build header row
-        table = "| " + " | ".join(self.index_table_headers) + " |\n"
-
-        # Build separator row with alignment
-        separators = []
-        for header, alignment in zip(
-            self.index_table_headers, self.index_table_alignments
-        ):
-            width = len(header)
-            if alignment == "center":
-                sep = ":" + "-" * width + ":"
-            elif alignment == "right":
-                sep = "-" * (width + 1) + ":"
-            else:  # left or default
-                sep = ":" + "-" * (width + 1)
-            separators.append(sep)
-
-        table += "|" + "|".join(separators) + "|\n"
-
-        # Build data rows
-        for row in rows:
-            table += "| " + " | ".join(row) + " |\n"
-
-        return table
-
     def generate_index(
         self,
         data: list[Any],
@@ -302,8 +268,12 @@ class BaseGenerator(ABC):
                 rows.append(self.format_index_row(item))
 
             # Use subclass-specific table formatter
-            md += self.format_index_table(rows)
-            md += "\n"
+            md += create_table(
+                self.index_table_headers,
+                rows,
+                self.index_table_alignments,
+            )
+            md += "\n\n"
 
         # Add unknown subcategory items if any
         if "unknown" in categorized_items:
@@ -312,8 +282,12 @@ class BaseGenerator(ABC):
             for item in categorized_items["unknown"]:
                 rows.append(self.format_index_row(item))
 
-            md += self.format_index_table(rows)
-            md += "\n"
+            md += create_table(
+                self.index_table_headers,
+                rows,
+                self.index_table_alignments,
+            )
+            md += "\n\n"
 
         # Write to file
         output_file = self.output_dir.parent / f"{self.category}.md"

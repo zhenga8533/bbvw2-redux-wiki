@@ -20,9 +20,8 @@ from pathlib import Path
 from typing import Any, Optional, cast
 
 from src.data.pokedb_loader import PokeDBLoader
-from src.models.pokedb import Move, Pokemon
+from src.models.pokedb import Pokemon
 from src.utils.core.config import (
-    GAME_TITLE,
     POKEDB_GAME_VERSIONS,
     POKEDB_SPRITE_VERSION,
     VERSION_GROUP,
@@ -36,15 +35,11 @@ from src.utils.formatters.markdown_formatter import (
 )
 from src.utils.data.constants import (
     DAMAGE_CLASS_ICONS,
-    GENERATION_DISPLAY_NAMES,
-    GENERATION_ORDER,
     POKEMON_FORM_SUBFOLDERS_ALL,
     TYPE_COLORS,
 )
 from src.utils.formatters.table_formatter import (
-    create_held_items_table,
-    create_move_learnset_table,
-    create_pokemon_index_table,
+    create_table,
 )
 from src.utils.text.text_util import extract_form_suffix, format_display_name
 from src.utils.data.type_effectiveness import calculate_type_effectiveness
@@ -503,7 +498,9 @@ class PokemonGenerator(BaseGenerator):
         version_headers = [format_display_name(v) for v in POKEDB_GAME_VERSIONS]
 
         # Use standardized table utility with dynamic headers
-        md += create_held_items_table(rows, game_version_headers=version_headers)
+        headers = ["Item"] + version_headers
+        alignements = ["left"] + ["center"] * len(version_headers)
+        md += create_table(headers, rows, alignements)
         md += "\n"
         return md
 
@@ -1138,7 +1135,11 @@ class PokemonGenerator(BaseGenerator):
                     )
 
         # Use standardized table utility
-        table_md = create_move_learnset_table(rows, include_level=include_level)
+        headers = ["Move", "Type", "Category", "Power", "Accuracy", "PP"]
+        if include_level:
+            headers = ["Level"] + headers
+        alignments = ["left"] * len(headers)
+        table_md = create_table(headers, rows, alignments)
 
         # Add tab indentation for nested table (in card grids)
         indented_table = "\n".join("\t" + line for line in table_md.split("\n"))
@@ -1547,11 +1548,11 @@ class PokemonGenerator(BaseGenerator):
             pokemon_nav_items = [{"Overview": "pokedex/pokemon.md"}]
 
             # Build navigation for each generation
-            for gen_key in GENERATION_ORDER:
+            for gen_key in self.subcategory_order:
                 if gen_key not in pokemon_by_generation:
                     continue
 
-                display_name = GENERATION_DISPLAY_NAMES.get(gen_key, gen_key)
+                display_name = self.subcategory_names.get(gen_key, gen_key)
                 gen_pokemon_by_dex = pokemon_by_generation[gen_key]
                 sorted_dex_numbers = sorted(gen_pokemon_by_dex.keys())
 
@@ -1684,7 +1685,7 @@ class PokemonGenerator(BaseGenerator):
             total_pokemon = len(pokemon_by_dex)
             total_forms = len(deduplicated_pokemon)
             total_generations = len(
-                [g for g in GENERATION_ORDER if g in pokemon_by_generation]
+                [g for g in self.subcategory_order if g in pokemon_by_generation]
             )
             self.logger.info(
                 f"Updated mkdocs.yml with {total_pokemon} Pokemon ({total_forms} total forms including alternates) organized into {total_generations} generations"

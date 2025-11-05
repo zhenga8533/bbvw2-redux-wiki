@@ -15,25 +15,18 @@ from pathlib import Path
 from typing import Optional, Any
 
 from src.data.pokedb_loader import PokeDBLoader
-from src.models.pokedb import Item, Pokemon
+from src.models.pokedb import Item
 from src.utils.core.config import (
-    GAME_TITLE,
     POKEDB_GAME_VERSIONS,
     VERSION_GROUP,
     VERSION_GROUP_FRIENDLY,
 )
 from src.utils.data.constants import (
-    ITEM_NAME_SPECIAL_CASES,
     POKEMON_FORM_SUBFOLDERS_STANDARD,
 )
 from src.utils.data.pokemon_util import iterate_pokemon
-from src.utils.formatters.table_formatter import create_pokemon_with_item_table
-from src.utils.text.text_util import format_display_name, name_to_id
-from src.utils.formatters.yaml_formatter import (
-    load_mkdocs_config,
-    save_mkdocs_config,
-    update_pokedex_subsection,
-)
+from src.utils.formatters.table_formatter import create_table
+from src.utils.text.text_util import format_display_name
 
 from .base_generator import BaseGenerator
 
@@ -78,7 +71,6 @@ class ItemGenerator(BaseGenerator):
             "evolution-items": "Evolution Items",
             "miscellaneous": "Miscellaneous",
         }
-        self.name_special_cases = ITEM_NAME_SPECIAL_CASES
         self.index_table_headers = ["Sprite", "Item", "Category", "Effect"]
         self.index_table_alignments = ["center", "left", "left", "left"]
 
@@ -223,9 +215,9 @@ class ItemGenerator(BaseGenerator):
         Returns:
             List of strings for table columns: [sprite, link, category, short_effect]
         """
-        name = format_display_name(item.name, ITEM_NAME_SPECIAL_CASES)
+        name = format_display_name(item.name)
         link = f"[{name}](items/{item.name}.md)"
-        category = format_display_name(item.category, ITEM_NAME_SPECIAL_CASES)
+        category = format_display_name(item.category)
         short_effect = item.short_effect if item.short_effect else "*No description*"
 
         # Get sprite URL
@@ -259,7 +251,7 @@ class ItemGenerator(BaseGenerator):
         for entry in pokemon_list:
             pokemon = entry["pokemon"]
             dex_num = pokemon.pokedex_numbers.get("national", "???")
-            name = format_display_name(pokemon.name, ITEM_NAME_SPECIAL_CASES)
+            name = format_display_name(pokemon.name)
             link = f"[**#{dex_num:03d} {name}**](../pokemon/{pokemon.name}.md)"
 
             # Build row with all game version rates
@@ -275,7 +267,9 @@ class ItemGenerator(BaseGenerator):
         version_headers = [format_display_name(v) for v in POKEDB_GAME_VERSIONS]
 
         # Use standardized table utility with dynamic headers
-        md += create_pokemon_with_item_table(rows, game_version_headers=version_headers)
+        headers = ["Pokémon"] + version_headers
+        alignments = ["left"] + ["center"] * len(version_headers)
+        md += create_table(headers, rows, alignments)
         md += "\n"
         return md
 
@@ -326,7 +320,7 @@ class ItemGenerator(BaseGenerator):
         # Card 1: Category
         md += "- **:material-shape: Category**\n\n"
         md += "\t---\n\n"
-        md += f"\t{format_display_name(item.category, ITEM_NAME_SPECIAL_CASES)}\n\n"
+        md += f"\t{format_display_name(item.category)}\n\n"
 
         # Card 2: Cost
         md += "- **:material-currency-usd: Cost**\n\n"
@@ -352,8 +346,8 @@ class ItemGenerator(BaseGenerator):
         """
         md = ""
 
-        display_name = format_display_name(item.name, ITEM_NAME_SPECIAL_CASES)
-        category = format_display_name(item.category, ITEM_NAME_SPECIAL_CASES)
+        display_name = format_display_name(item.name)
+        category = format_display_name(item.category)
 
         md += '<div style="display: flex; align-items: center; gap: 1.5rem; background: var(--md-code-bg-color); padding: 1.5rem; border-radius: 8px; margin-bottom: 2rem;">\n'
 
@@ -386,7 +380,7 @@ class ItemGenerator(BaseGenerator):
         Returns:
             Path to the generated markdown file
         """
-        display_name = format_display_name(item.name, ITEM_NAME_SPECIAL_CASES)
+        display_name = format_display_name(item.name)
 
         # Start building the markdown with title
         md = f"# {display_name}\n\n"
