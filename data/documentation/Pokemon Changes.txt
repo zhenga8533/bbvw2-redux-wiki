@@ -51,10 +51,10 @@ A type-change justification document is also included with Redux.
 At a glance, here are all the Pokémon with new type combinations:
 
  - Gen I: Charmeleon, Charizard, Spearow, Fearow, Ninetales, Golduck, Rapidash, Farfetch'd, Shellder.
- - Gen II: Meganium, Noctowl, Ampharos, Misdreavus, Snubull, Granbull, Teddiursa, Ursaring.
+ - Gen II: Meganium, Noctowl, Ampharos, Misdreavus, Snubbull, Granbull, Teddiursa, Ursaring.
  - Gen III: Sceptile, Masquerain, Volbeat, Illumise, Trapinch, Vibrava, Flygon, Swablu, Altaria, Banette, Glalie, Luvdisc.
  - Gen IV: Luxray, Lopunny, Mismagius, Electivire, Probopass, Uxie, Mesprit, Azelf.
- - Gen V: Servine, Serperior, Pignite, Emboar, Dewott, Samurott, Munna, Musharna, Audino, Gothita, Gothorita, Gothitelle, Vanilluxe and Beartic.
+ - Gen V: Servine, Serperior, Pignite, Emboar, Dewott, Samurott, Munna, Musharna, Audino, Gothita, Gothorita, Gothitelle, Vanilluxe, Beartic.
 
 All new type changes are omitted in the Classic version of Redux.
 

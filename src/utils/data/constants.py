@@ -7,6 +7,31 @@ multiple files, they are defined once here and imported where needed.
 """
 
 # ============================================================================
+# Display Name Special Cases
+# ============================================================================
+POKEMON_DISPLAY_CASES: dict[str, str] = {
+    "mr-mime": "Mr. Mime",
+    "mime-jr": "Mime Jr.",
+    "farfetchd": "Farfetchˈd",
+    "nidoran-m": "Nidoran♂",
+    "nidoran-f": "Nidoran♀",
+    "ho-oh": "Ho-Oh",
+}
+
+ITEM_DISPLAY_CASES: dict[str, str] = {
+    "pp": "PP",
+    "tm": "TM",
+    "hm": "HM",
+    "hp": "HP",
+    "x-sp": "X Sp.",
+}
+
+ITEM_DISPLAY_ABBREVIATIONS: dict[str, str] = {
+    "exp-share": "Exp. Share",
+    "kings-rock": "King's Rock",
+}
+
+# ============================================================================
 # Type-Related Constants
 # ============================================================================
 

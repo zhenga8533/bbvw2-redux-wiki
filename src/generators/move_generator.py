@@ -17,16 +17,13 @@ from typing import Optional
 
 from src.data.pokedb_loader import PokeDBLoader
 from src.models.pokedb import Move
-from src.utils.core.config import GAME_TITLE, VERSION_GROUP, VERSION_GROUP_FRIENDLY
+from src.utils.core.config import VERSION_GROUP, VERSION_GROUP_FRIENDLY
 from src.utils.formatters.markdown_formatter import (
     format_pokemon_card_grid,
     format_type_badge,
 )
 from src.utils.data.constants import DAMAGE_CLASS_ICONS
 from src.utils.text.text_util import format_display_name
-from src.utils.formatters.yaml_formatter import (
-    update_pokedex_subsection,
-)
 
 from .base_generator import BaseGenerator
 

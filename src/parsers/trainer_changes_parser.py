@@ -256,12 +256,12 @@ class TrainerChangesParser(BaseParser):
             )
             self._is_table_open = True
 
-        row = f"| {format_pokemon(pokemon)} | "
+        row = f"| {format_pokemon(pokemon, relative_path='..')} | "
 
         row += f"**Level:** {level}"
-        row += f"<br>**Ability:** {format_ability(ability, relative_path="..")}"
+        row += f"<br>**Ability:** {format_ability(ability, relative_path='..')}"
         if item:
-            row += f"<br>**Item:** {format_item(item, relative_path="..")}"
+            row += f"<br>**Item:** {format_item(item, relative_path='..')}"
         row += " | "
 
         for i, move in enumerate(re.split(r",\s*", moves)):

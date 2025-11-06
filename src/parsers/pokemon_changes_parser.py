@@ -13,9 +13,12 @@ from src.data.pokedb_loader import PokeDBLoader
 from src.utils.core.config import VERSION_GROUP
 from src.utils.services.pokemon_service import PokemonService
 from src.utils.formatters.markdown_formatter import (
+    format_ability,
     format_checkbox,
+    format_item,
     format_move,
     format_pokemon,
+    format_pokemon_card_grid,
 )
 
 from .base_parser import BaseParser
@@ -54,7 +57,18 @@ class PokemonChangesParser(BaseParser):
 
     def parse_type_changes(self, line: str) -> None:
         """Parse type changes section."""
-        self.parse_default(line)
+        # Match: " - Gen X: Pokemon1, Pokemon2, ..."
+        if line.startswith(" - Gen"):
+            gen, pokemon = line[3:].split(": ")
+            self._markdown += f"- **{gen}**: "
+            self._markdown += ", ".join(
+                format_pokemon(p, has_sprite=False, relative_path="..")
+                for p in pokemon.split(", ")
+            )
+            self._markdown += "\n"
+        # Default: regular text line
+        else:
+            self.parse_default(line)
 
     def _flush_accumulated_data(self) -> None:
         """Flush accumulated data (level-up moves, TMs) to Pokemon JSON."""
@@ -91,7 +105,9 @@ class PokemonChangesParser(BaseParser):
             self._current_pokemon = match.group(2)
             self._current_forme = ""  # Reset forme for new Pokemon
             self._markdown += f"### #{pokedex_number} {self._current_pokemon}\n\n"
-            self._markdown += f"{format_pokemon(self._current_pokemon)}\n\n"
+            self._markdown += format_pokemon_card_grid(
+                [self._current_pokemon], relative_path="../pokedex/pokemon"
+            )
         # Match: "<attribute>:"
         elif line.endswith(":"):
             # Flush accumulated data from previous attribute if needed
@@ -127,8 +143,13 @@ class PokemonChangesParser(BaseParser):
             is_new = line.startswith("New")
             line = line[4:].strip()
 
+            # Format the value if it's an ability
+            formatted_value = line
+            if self._current_attribute.startswith("Ability"):
+                formatted_value = self._format_ability_value(line)
+
             # Append to markdown table row
-            self._markdown += f" {line} |"
+            self._markdown += f" {formatted_value} |"
             if not is_new:
                 return
             self._markdown += "\n"
@@ -140,20 +161,37 @@ class PokemonChangesParser(BaseParser):
                 value=line,
                 forme=self._current_forme,
             )
-        # Match: continuation outside a table
-        elif self._is_table_open:
-            # Parse special attribute lines
+        # Match: special attribute continuation lines (Moves, Evolution, etc.)
+        elif self._current_attribute in [
+            "Moves",
+            "Evolution",
+            "Growth Rate",
+            "Held Item",
+        ]:
+            # Parse special attribute lines and get formatted line
+            formatted_line = line
             if self._current_attribute == "Moves" and line.startswith(
                 "Now compatible with"
             ):
-                self._parse_moves_line(line)
-            elif self._current_attribute == "Evolution" and line.startswith("Now"):
-                self._parse_evolution_line(line)
+                formatted_line = self._parse_moves_line(line)
             elif self._current_attribute == "Growth Rate" and line.startswith("Now"):
-                self._parse_growth_rate_line(line)
+                formatted_line = self._parse_growth_rate_line(line)
             elif self._current_attribute == "Held Item" and line.startswith("Now"):
-                self._parse_held_item_line(line)
+                formatted_line = self._parse_held_item_line(line)
+            # Evolution is handled by evolution_changes_parser, just display as-is
 
+            # Use formatted_line for markdown output
+            if formatted_line:
+                # Note: [*] escaping is already handled in parse methods
+                formatted_line = f"- {formatted_line}"
+
+            # Add to appropriate markdown buffer
+            if self._is_table_open:
+                self._temporary_markdown += f"{formatted_line}\n"
+            else:
+                self._markdown += f"{formatted_line}\n"
+        # Match: continuation inside a table (but not special attributes)
+        elif self._is_table_open:
             if line:
                 line = line.replace("[*]", "[\\*]")
                 line = f"- {line}"
@@ -218,15 +256,13 @@ class PokemonChangesParser(BaseParser):
 
         # Load move data from PokeDB
         move_data = PokeDBLoader.load_move(move)
-        move_type = (
-            getattr(move_data.type, VERSION_GROUP, None) if move_data else None
-        )
+        move_type = getattr(move_data.type, VERSION_GROUP, None) if move_data else None
         move_type = move_type.title() if move_type else "Unknown"
         move_class = move_data.damage_class.title() if move_data else "Unknown"
 
         self._markdown += f"| {level} | {move_html} | {move_type} | {move_class} | {format_checkbox(event_move)} |\n"
 
-    def _parse_moves_line(self, line: str) -> None:
+    def _parse_moves_line(self, line: str) -> str:
         """
         Parse TM/HM compatibility line and update Pokemon JSON.
 
@@ -234,10 +270,13 @@ class PokemonChangesParser(BaseParser):
         - "Now compatible with TM56, Weather Ball."
         - "Now compatible with TM54, False Swipe. [*]"
         - "Now compatible with Draco Meteor from the Move Tutor." (ignored)
+
+        Returns:
+            Formatted line with links for markdown output
         """
-        # Skip move tutor lines (not TM/HM)
+        # Skip move tutor lines (not TM/HM) - return original line
         if "Move Tutor" in line:
-            return
+            return line
 
         # Pattern: "Now compatible with TM56, Weather Ball." or "... [*]"
         match = re.match(
@@ -245,7 +284,7 @@ class PokemonChangesParser(BaseParser):
         )
         if not match:
             self.logger.warning(f"Could not parse Moves line: {line}")
-            return
+            return line  # Return original line on parse failure
 
         machine_type = match.group(1)  # "TM" or "HM"
         number = match.group(2)  # "56"
@@ -254,17 +293,30 @@ class PokemonChangesParser(BaseParser):
         # Accumulate TM/HM move data
         self._tm_hm_moves.append((machine_type, number, move_name))
 
-    def _parse_held_item_line(self, line: str) -> None:
+        # Format the line with links for markdown output
+        tm_item = format_item(f"{machine_type}{number} {move_name}", relative_path="..")
+        formatted_line = f"Now compatible with {tm_item}."
+
+        # Check if this was an event move
+        if line.endswith("[*]"):
+            formatted_line += " [\\*]"
+
+        return formatted_line
+
+    def _parse_held_item_line(self, line: str) -> str:
         """
         Parse held item line and update Pokemon JSON.
 
         Format: "Now holds a Griseous Orb with a 100% rate."
+
+        Returns:
+            Formatted line with linked item for markdown output
         """
         # Pattern: "Now holds a <item> with a <percent>% rate."
         match = re.match(r"^Now holds a (.*?) with a (\d+)% rate\.$", line)
         if not match:
             self.logger.warning(f"Could not parse Held Item line: {line}")
-            return
+            return line  # Return original line on parse failure
 
         item_name = match.group(1)  # "Griseous Orb"
         rarity = int(match.group(2))  # 100
@@ -277,29 +329,57 @@ class PokemonChangesParser(BaseParser):
             forme=self._current_forme,
         )
 
-    def _parse_evolution_line(self, line: str) -> None:
-        """
-        Parse evolution line (display-only, no JSON update).
+        # Format the line with linked item for markdown output
+        item_html = format_item(item_name, relative_path="..")
+        formatted_line = f"Now holds a {item_html} with a {rarity}% rate."
 
-        Various formats:
-        - "Now evolves into Fearow at Level 21."
-        - "Now able to evolve into Golduck at level 25."
-        - "Now able to evolve into Politoed by using a King's Rock."
-        - "Now evolves into Cherrim when happy regardless of the time."
-        - etc.
-        """
-        # Evolution data is complex and would require significant refactoring
-        # of the evolution_chain structure. For now, this is display-only.
-        # Log for debugging purposes
-        self.logger.debug(f"Evolution line (display-only): {line}")
+        return formatted_line
 
-    def _parse_growth_rate_line(self, line: str) -> None:
+    def _parse_growth_rate_line(self, line: str) -> str:
         """
-        Parse growth rate line (display-only, no JSON update).
+        Parse growth rate line and update Pokemon JSON.
 
         Format: "Now part of the 'fast' experience growth group (800,000 Exp to level 100)."
+
+        Returns:
+            Original line (no formatting changes for now)
         """
-        # Growth rate is not stored in the Pokemon JSON (no field for it).
-        # This is display-only information.
-        # Log for debugging purposes
-        self.logger.debug(f"Growth rate line (display-only): {line}")
+        # Pattern: "Now part of the '<growth_rate>' experience growth group (...)"
+        match = re.match(r"^Now part of the '([^']+)' experience growth group", line)
+        if not match:
+            self.logger.warning(f"Could not parse Growth Rate line: {line}")
+            return line  # Return original line on parse failure
+
+        growth_rate = match.group(1)  # "fast", "medium-fast", "slow", etc.
+
+        # Update growth rate immediately (no accumulation needed)
+        PokemonService.update_attribute(
+            pokemon=self._current_pokemon,
+            attribute="growth_rate",
+            value=growth_rate,
+            forme=self._current_forme,
+        )
+
+        return line
+
+    def _format_ability_value(self, ability_text: str) -> str:
+        """
+        Format ability value with links to individual abilities.
+
+        Args:
+            ability_text: Ability string in format "Ability1 / Ability2 / Ability3"
+
+        Returns:
+            Formatted string with linked abilities
+        """
+        if not ability_text or ability_text.strip() == "":
+            return ability_text
+
+        # Split by " / " and format each ability
+        abilities = [a.strip() for a in ability_text.split("/")]
+        formatted_abilities = [
+            format_ability(ability, is_linked=True, relative_path="..")
+            for ability in abilities
+        ]
+
+        return " / ".join(formatted_abilities)

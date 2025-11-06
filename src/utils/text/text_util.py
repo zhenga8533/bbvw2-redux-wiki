@@ -7,7 +7,13 @@ including name formatting with special cases, ID generation, and string comparis
 
 import re
 import itertools
-from typing import Optional
+import string
+
+from src.utils.data.constants import (
+    ITEM_DISPLAY_ABBREVIATIONS,
+    ITEM_DISPLAY_CASES,
+    POKEMON_DISPLAY_CASES,
+)
 
 
 def name_to_id(name: str) -> str:
@@ -49,8 +55,8 @@ def name_to_id(name: str) -> str:
 
 def format_display_name(
     name: str,
-    special_cases: Optional[dict[str, str]] = None,
-    special_abbreviations: Optional[dict[str, str]] = None,
+    special_cases: dict[str, str] = {},
+    special_abbreviations: dict[str, str] = {},
 ) -> str:
     """
     Format a name for display with proper capitalization and special case handling.
@@ -86,27 +92,29 @@ def format_display_name(
         'Pikachu'
     """
     # Handle special characters and formatting
-    formatted_name = name.replace("-", " ")
+    formatted_name = name.replace("-", " ").replace("_", " ")
+
+    # Extend special cases and abbreviations with constants
+    special_cases = special_cases | POKEMON_DISPLAY_CASES | ITEM_DISPLAY_ABBREVIATIONS
+    special_abbreviations = special_abbreviations | ITEM_DISPLAY_CASES
 
     # Check for whole-name special cases first
-    if special_cases:
-        lower_name = formatted_name.lower()
-        if lower_name in special_cases:
-            return special_cases[lower_name]
+    lower_name = formatted_name.lower()
+    if lower_name in special_cases:
+        return special_cases[lower_name]
 
-    # Default: title case
-    formatted_name = formatted_name.title()
+    # Apply title case FIRST
+    formatted_name = string.capwords(formatted_name)
 
-    # Apply special abbreviation replacements within the name
-    if special_abbreviations:
-        for abbr, replacement in special_abbreviations.items():
-            # Replace " Abbr " -> " REPLACEMENT "
-            formatted_name = formatted_name.replace(f" {abbr.title()} ", f" {replacement} ")
-            # Replace " Abbr" at end -> " REPLACEMENT"
-            formatted_name = formatted_name.replace(f" {abbr.title()}", f" {replacement}")
-            # Replace "Abbr " at start -> "REPLACEMENT "
-            if formatted_name.lower().startswith(abbr + " "):
-                formatted_name = replacement + formatted_name[len(abbr) :]
+    # Apply special abbreviation replacements AFTER title casing
+    for abbr, replacement in special_abbreviations.items():
+        # Use word boundary at start, but allow digits after
+        formatted_name = re.sub(
+            rf"\b{re.escape(abbr)}(?=\b|\d)",
+            replacement,
+            formatted_name,
+            flags=re.IGNORECASE,
+        )
 
     return formatted_name
 
@@ -186,6 +194,6 @@ def extract_form_suffix(pokemon_name: str, base_name: str) -> str:
             - ("darmanitan-zen", "darmanitan") -> "zen"
     """
     if pokemon_name.startswith(base_name):
-        suffix = pokemon_name[len(base_name):].lstrip('-')
+        suffix = pokemon_name[len(base_name) :].lstrip("-")
         return suffix
     return ""

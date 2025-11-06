@@ -19,7 +19,6 @@ from src.models.pokedb import Item
 from src.utils.core.config import (
     POKEDB_GAME_VERSIONS,
     VERSION_GROUP,
-    VERSION_GROUP_FRIENDLY,
 )
 from src.utils.formatters.table_formatter import create_table
 from src.utils.text.text_util import format_display_name
@@ -289,20 +288,6 @@ class ItemGenerator(BaseGenerator):
 
         return md
 
-    def _generate_flavor_text_section(self, item: Item) -> str:
-        """Generate the flavor text section."""
-        md = "## :material-book-open: In-Game Description\n\n"
-
-        flavor_text = getattr(item.flavor_text, VERSION_GROUP, None)
-
-        if flavor_text:
-            md += f'!!! quote "{VERSION_GROUP_FRIENDLY}"\n\n'
-            md += f"    {flavor_text}\n\n"
-        else:
-            md += "*No in-game description available.*\n\n"
-
-        return md
-
     def _generate_attributes_section(self, item: Item) -> str:
         """Generate the item attributes section."""
         md = "## :material-tag: Attributes\n\n"
@@ -333,29 +318,32 @@ class ItemGenerator(BaseGenerator):
         return md
 
     def _generate_item_header(self, item: Item) -> str:
-        """
-        Generate an item header section with sprite and basic info.
-        """
-        md = ""
-
+        """Generate the item header section with sprite and category."""
         display_name = format_display_name(item.name)
-        category = format_display_name(item.category)
+        category_display_name = format_display_name(item.category)
 
-        md += '<div style="display: flex; align-items: center; gap: 1.5rem; background: var(--md-code-bg-color); padding: 1.5rem; border-radius: 8px; margin-bottom: 2rem;">\n'
+        md = '!!! info "Item"\n\n'
+        md += '\t<div style="display: flex; align-items: flex-start; gap: 15px;">\n'
 
-        # Sprite section
-        if hasattr(item, "sprite") and item.sprite:
-            md += '\t<div style="flex-shrink: 0;">\n'
-            md += f'\t\t<img src="{item.sprite}" alt="{display_name}" style="width: 64px; height: 64px; image-rendering: pixelated;" />\n'
-            md += "\t</div>\n"
+        # Sprite
+        img_style = "border: 1px solid; border-radius: 4px; padding: 4px; align-self: center; min-height: 60px; min-width: 60px;"
+        md += f'\t\t<img src="{item.sprite}" alt="{display_name}" style="{img_style}" />\n'
 
-        # Content section
-        md += '\t<div style="display: flex; flex-direction: column; gap: 0.25rem;">\n'
-        md += f'\t\t<div style="font-size: 1.25rem; font-weight: 600;">{display_name}</div>\n'
-        md += f'\t\t<div style="font-size: 0.875rem; opacity: 0.7;">{category}</div>\n'
-        md += "\t</div>\n"
+        md += f"\t\t<div>\n"
 
-        md += "</div>\n\n"
+        # Category
+        md += f"\t\t\t<span markdown>**Category:** {category_display_name}</span>\n"
+
+        md += f"\t\t\t<br/>\n"
+
+        # Flavor Text
+        flavor_text = getattr(
+            item.flavor_text, VERSION_GROUP, "*No flavor text available.*"
+        )
+        md += f"\t\t\t<span markdown>**Flavor Text:** {flavor_text}</span>\n"
+
+        md += f"\t\t</div>\n"
+        md += "\t</div>\n\n"
 
         return md
 
@@ -382,7 +370,6 @@ class ItemGenerator(BaseGenerator):
 
         # Add sections
         md += self._generate_effect_section(entry)
-        md += self._generate_flavor_text_section(entry)
         md += self._generate_attributes_section(entry)
 
         # Get Pokemon that hold this item (using cache if available)

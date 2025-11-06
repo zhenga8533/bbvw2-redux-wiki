@@ -140,7 +140,8 @@ class WildAreaChangesParser(BaseParser):
             str: Formatted markdown table row with Pokemon name (linked), level, and chance
                  Example: "| [Pidgey](pokedex/pokemon/pidgey.md) | 5-7 | 30% |"
         """
-        return f"| {format_pokemon(pokemon)} | {level} | {chance}% |"
+        pokemon_md = format_pokemon(pokemon, relative_path="..")
+        return f"| {pokemon_md} | {level} | {chance}% |"
 
     def parse_postgame_location_changes(self, line: str) -> None:
         """Parse the Postgame Locations Changes section."""
@@ -163,7 +164,9 @@ class WildAreaChangesParser(BaseParser):
             if self._encounter_type == "Guaranteed Encounters":
                 self._markdown += f"\t{line}\n"
                 return
-            self._markdown += f"\t\t{format_pokemon(line.strip(' -'))}\n"
+            self._markdown += (
+                f"\t\t{format_pokemon(line.strip(' -'), relative_path="..")}\n"
+            )
 
             if self.peek_line(1) == "":
                 self._markdown += "\t</div>\n"

@@ -75,7 +75,7 @@ class LegendaryLocationsParser(BaseParser):
                 self._markdown += f"|:-------:|-------------------|\n"
                 self.in_encounter = True
 
-            self._markdown += f"| {format_pokemon(line)} | "
+            self._markdown += f"| {format_pokemon(line, relative_path='..')} | "
             self._encounters.remove(line)
         # Match: " - detail" (encounter detail line)
         elif self.in_encounter and line.startswith(" - "):

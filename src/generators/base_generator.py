@@ -4,7 +4,7 @@ Base generator class for creating documentation pages from database content.
 
 from abc import ABC, abstractmethod
 from pathlib import Path
-from typing import Any, Callable, Optional
+from typing import Any, Optional
 
 from src.utils.core.config import GAME_TITLE
 from src.utils.core.logger import get_logger

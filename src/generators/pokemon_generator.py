@@ -20,7 +20,7 @@ from pathlib import Path
 from typing import Any, Optional, cast
 
 from src.data.pokedb_loader import PokeDBLoader
-from src.models.pokedb import Pokemon
+from src.models.pokedb import EvolutionDetails, EvolutionNode, Pokemon, EvolutionChain
 from src.utils.core.config import (
     POKEDB_GAME_VERSIONS,
     POKEDB_SPRITE_VERSION,
@@ -54,9 +54,6 @@ from .base_generator import BaseGenerator
 
 # Constants for Pokemon page generation
 MAX_STAT_VALUE = 255  # Maximum base stat value for progress bar scaling
-MULTI_EVOLUTION_THRESHOLD = 4  # Threshold for special Eevee-style evolution layout
-EVOLUTION_GRID_2_COLS_MAX = 6  # Maximum evolutions for 2-column grid
-EVOLUTION_GRID_3_COLS_MAX = 9  # Maximum evolutions for 3-column grid
 
 
 class PokemonGenerator(BaseGenerator):
@@ -320,39 +317,78 @@ class PokemonGenerator(BaseGenerator):
         """
         return calculate_type_effectiveness(types)
 
+    def _get_gradient_colors(self, types: list[str]) -> tuple[str, str]:
+        """
+        Calculate gradient colors based on Pokemon types.
+
+        Args:
+            types: List of Pokemon type names
+
+        Returns:
+            Tuple of (primary_color, secondary_color) with opacity
+        """
+        default_color = "#667eea"
+
+        if not types:
+            return (f"{default_color}dd", f"{default_color}55")
+
+        # Get primary type color
+        color_1 = TYPE_COLORS.get(types[0].lower(), default_color)
+
+        # Calculate secondary color based on type count
+        if len(types) > 1:
+            # Dual-type: use second type with higher opacity
+            color_2_base = TYPE_COLORS.get(types[1].lower(), color_1)
+            color_2 = f"{color_2_base}99"
+        else:
+            # Single-type: fade primary color
+            color_2 = f"{color_1}55"
+
+        # Add opacity to primary color
+        color_1_with_opacity = f"{color_1}dd"
+
+        return (color_1_with_opacity, color_2)
+
+    def _create_dex_number_badge(self, region: str, number: int) -> str:
+        """Create a regional Pokedex number badge."""
+        region_name = format_display_name(region)
+        return (
+            f'<span style="background: rgba(255, 255, 255, 0.2); '
+            f"padding: 0.25rem 0.75rem; border-radius: 12px; "
+            f'font-size: 0.875rem; color: white;">'
+            f"{region_name}: #{number:03d}</span>"
+        )
+
     def _generate_hero_section(self, pokemon: Pokemon) -> str:
         """
         Generate a hero section with sprite, types, and badges.
         """
         md = ""
 
-        # Get type colors for dynamic gradient
-        color_1 = "#667eea"  # Default
-        color_2 = "#667eea"  # Default
-
-        if pokemon.types:
-            color_1 = TYPE_COLORS.get(pokemon.types[0].lower(), "#667eea")
-            # Default color 2 to a faded version of color 1
-            color_2 = f"{color_1}55"
-
-            if len(pokemon.types) > 1:
-                # Get the second type color, but fade it slightly
-                color_2 = f"{TYPE_COLORS.get(pokemon.types[1].lower(), color_1)}99"
+        # Get gradient colors based on types
+        color_1, color_2 = self._get_gradient_colors(pokemon.types)
 
         # Hero container with dynamic gradient based on type(s)
-        md += f'<div style="background: linear-gradient(135deg, {color_1}dd 0%, {color_2} 100%); padding: 2rem; border-radius: 8px; margin-bottom: 2rem;">\n'
-        md += '\t<div style="display: flex; flex-direction: column; align-items: center; gap: 1rem;">\n'
+        md += f'<div class="pokemon-hero" style="background: linear-gradient(135deg, {color_1} 0%, {color_2} 100%);">\n'
 
-        # Sprite
+        # Add subtle pattern overlay for depth
+        md += '\t<div class="pokemon-hero-overlay"></div>\n'
+        md += '\t<div class="pokemon-hero-content">\n'
+
+        # Sprite with enhanced shadow and glow
         sprite = format_pokemon(pokemon, is_linked=False, relative_path="..")
-        md += f'\t\t<div style="filter: drop-shadow(0 0 20px rgba(255, 255, 255, 0.5));">\n'
+        md += f'\t\t<div class="pokemon-hero-sprite">\n'
         md += f"\t\t\t{sprite}\n"
         md += "\t\t</div>\n"
 
-        # Pokedex number
+        # Genus (species classification)
+        if pokemon.genus:
+            md += f'\t\t<div class="pokemon-hero-genus">{pokemon.genus}</div>\n'
+
+        # National Pokedex number
         if "national" in pokemon.pokedex_numbers:
             dex_num = pokemon.pokedex_numbers["national"]
-            md += f'\t\t<div style="font-size: 1.5rem; font-weight: 700; color: white; text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);">#{dex_num:03d}</div>\n'
+            md += f'\t\t<div class="pokemon-hero-dex-number">#{dex_num:03d}</div>\n'
 
         # Regional dex numbers
         regional_dex = {
@@ -361,17 +397,15 @@ class PokemonGenerator(BaseGenerator):
             if k != "national" and v is not None
         }
         if regional_dex:
-            dex_badges = []
-            for region, number in sorted(regional_dex.items()):
-                region_name = format_display_name(region).replace("_", " ")
-                dex_badges.append(
-                    f'<span style="background: rgba(255, 255, 255, 0.2); padding: 0.25rem 0.75rem; border-radius: 12px; font-size: 0.875rem; color: white;">{region_name}: #{number:03d}</span>'
-                )
-            md += f'\t\t<div style="display: flex; flex-wrap: wrap; gap: 0.5rem; justify-content: center;">{" ".join(dex_badges)}</div>\n'
+            dex_badges = [
+                self._create_dex_number_badge(region, number)
+                for region, number in sorted(regional_dex.items())
+            ]
+            md += f'\t\t<div class="pokemon-hero-regional-dex">{" ".join(dex_badges)}</div>\n'
 
         # Types
         types_str = " ".join([format_type_badge(t) for t in pokemon.types])
-        md += f'\t\t<div class="badges-hstack">{types_str}</div>\n'
+        md += f'\t\t<div class="badges-hstack pokemon-hero-types">{types_str}</div>\n'
 
         # Status badges
         status_badges = self._generate_status_badges(pokemon)
@@ -385,7 +419,7 @@ class PokemonGenerator(BaseGenerator):
 
     def _generate_basic_info(self, pokemon: Pokemon) -> str:
         """Generate the basic information section."""
-        md = ""
+        md = "## :material-information: Basic Information\n\n"
 
         # Use grid layout for information cards
         md += '<div class="grid cards" markdown>\n\n'
@@ -493,7 +527,7 @@ class PokemonGenerator(BaseGenerator):
         headers = ["Item"] + version_headers
         alignements = ["left"] + ["center"] * len(version_headers)
         md += create_table(headers, rows, alignements)
-        md += "\n"
+        md += "\n\n"
         return md
 
     def _generate_type_effectiveness(self, pokemon: Pokemon) -> str:
@@ -648,27 +682,6 @@ class PokemonGenerator(BaseGenerator):
 
         return md
 
-    def _create_evo_card(self, species_name: str, actual_name: str) -> str:
-        """
-        Create an evolution card with sprite and name.
-
-        Args:
-            species_name: The species name for display
-            actual_name: The actual Pokemon name for linking (handles forms)
-
-        Returns:
-            HTML string for the evolution card
-        """
-        display_name = format_display_name(species_name)
-        link_name = actual_name or species_name
-
-        card_html = f'<a href="{link_name}/" style="display: flex; flex-direction: column; align-items: center; text-decoration: none; padding: 1rem; border-radius: 8px; background: var(--md-default-bg-color); border: 1px solid var(--md-default-fg-color--lightest);">\n'
-        card_html += format_pokemon(actual_name, is_linked=False, relative_path="..")
-        card_html += f'\t<div style="font-weight: 600; text-align: center; white-space: nowrap;">{display_name}</div>\n'
-        card_html += "</a>"
-
-        return card_html
-
     def _format_evo_method(self, evo_details) -> str:
         """
         Format evolution method details into readable text.
@@ -768,228 +781,110 @@ class PokemonGenerator(BaseGenerator):
 
     def _generate_evolution_chain(self, pokemon: Pokemon) -> str:
         """
-        Generate the evolution chain section with branching structure.
+        Generate the evolution chain section showing all stages.
 
-        Handles various evolution patterns:
-        - Simple linear chains (Charmander → Charmeleon → Charizard)
-        - Multiple evolutions from one Pokemon (Eevee → 8 evolutions)
-        - Branching chains (Wurmple → Silcoon/Cascoon → Beautifly/Dustox)
+        Args:
+            pokemon: The Pokemon object with evolution chain data
+
+        Returns:
+            Markdown string with evolution chain organized by stages
         """
-        md = "## :material-swap-horizontal: Evolution Chain\n\n"
+        if not pokemon.evolution_chain or not pokemon.evolution_chain.species_name:
+            return ""
 
-        # Check if this Pokemon doesn't evolve at all
-        has_evolutions = bool(pokemon.evolution_chain.evolves_to)
-        has_pre_evolution = bool(pokemon.evolves_from_species)
+        md = "## :material-family-tree: Evolution Chain\n\n"
 
-        if not has_evolutions and not has_pre_evolution:
+        # Check if this Pokemon doesn't evolve (single stage, no evolutions)
+        if (
+            not pokemon.evolution_chain.evolves_to
+            and pokemon.evolution_chain.species_name.lower() == pokemon.species.lower()
+        ):
             md += "> :material-information: This Pokémon does not evolve.\n\n"
             return md
 
-        if pokemon.evolves_from_species:
-            md += f"*Evolves from {format_display_name(pokemon.evolves_from_species)}*\n\n"
-
-        def extract_all_paths(node, evolution_method=None) -> list:
+        # Recursively collect all Pokemon in the evolution chain
+        def collect_evolution_stages(
+            node: EvolutionNode | EvolutionChain, stage: int = 1
+        ) -> dict[int, list[tuple[str, Optional[EvolutionDetails]]]]:
             """
-            Extract all evolution paths from root to leaves.
-            evolution_method is the method used to get TO this node.
+            Recursively collect all Pokemon grouped by evolution stage.
+
+            Returns:
+                Dictionary mapping stage numbers to list of (species_name, evolution_details) tuples
             """
-            # Get actual Pokemon name
-            actual_name = node.species_name
-            try:
-                for subfolder in ["default", "transformation", "variant"]:
-                    try:
-                        poke = PokeDBLoader.load_pokemon(
-                            node.species_name, subfolder=subfolder
-                        )
-                        if poke:
-                            actual_name = poke.name
-                            break
-                    except Exception:
-                        continue
-            except Exception:
-                pass
+            stages: dict[int, list[tuple[str, Optional[EvolutionDetails]]]] = {}
 
-            # Create current Pokemon entry with method to GET TO it
-            current_entry = {
-                "species_name": node.species_name,
-                "actual_name": actual_name,
-                "evolution_method": evolution_method,
-            }
+            # Handle the root chain (stage 1)
+            if isinstance(node, EvolutionChain):
+                stages[1] = [(node.species_name, None)]
 
-            # If this is a leaf node (no evolutions), return a path with just this Pokemon
-            if not node.evolves_to:
-                return [[current_entry]]
+                # Process all evolutions from the root
+                for evolution in node.evolves_to:
+                    child_stages = collect_evolution_stages(evolution, stage + 1)
+                    for child_stage, pokemon_list in child_stages.items():
+                        if child_stage not in stages:
+                            stages[child_stage] = []
+                        stages[child_stage].extend(pokemon_list)
 
-            # If has evolutions, recurse for each branch
-            all_paths = []
-            for evo in node.evolves_to:
-                # Get evolution method for this evolution
-                method = self._format_evo_method(evo.evolution_details)
+            # Handle evolution nodes (stage 2+)
+            elif isinstance(node, EvolutionNode):
+                stages[stage] = [(node.species_name, node.evolution_details)]
 
-                # Get paths from this evolution (with method to get TO that Pokemon)
-                branch_paths = extract_all_paths(evo, method)
+                # Process child evolutions
+                for evolution in node.evolves_to:
+                    child_stages = collect_evolution_stages(evolution, stage + 1)
+                    for child_stage, pokemon_list in child_stages.items():
+                        if child_stage not in stages:
+                            stages[child_stage] = []
+                        stages[child_stage].extend(pokemon_list)
 
-                # Prepend current Pokemon to each path
-                for path in branch_paths:
-                    all_paths.append([current_entry] + path)
+            return stages
 
-            return all_paths
+        # Collect all stages
+        evolution_stages = collect_evolution_stages(pokemon.evolution_chain)
 
-        # Extract all evolution paths
-        paths = extract_all_paths(pokemon.evolution_chain)
+        # Sort stages by stage number
+        sorted_stages = sorted(evolution_stages.items())
 
-        if not paths:
-            return md
+        # Generate markdown for each stage
+        for stage_num, pokemon_list in sorted_stages:
+            md += f"### Stage {stage_num}\n\n"
 
-        # Calculate max depth (number of stages)
-        max_depth = max(len(path) for path in paths)
+            # Prepare extra_info for evolution methods
+            extra_info = []
+            pokemon_names = []
 
-        # Organize Pokemon by stage instead of by path
-        # stages[i] = list of Pokemon at stage i
-        stages = [[] for _ in range(max_depth)]
+            for species_name, evo_details in pokemon_list:
+                pokemon_names.append(species_name)
 
-        for path in paths:
-            for stage_idx, poke_data in enumerate(path):
-                # Check if this Pokemon is already in this stage (avoid duplicates)
-                if not any(
-                    p["species_name"] == poke_data["species_name"]
-                    for p in stages[stage_idx]
-                ):
-                    stages[stage_idx].append(poke_data)
-
-        # Determine evolution pattern for better layout
-        num_final_evolutions = len(stages[-1]) if max_depth > 0 else 0
-
-        # Pattern detection:
-        # - "multi_leaf": Many final evolutions (4+) with only 2 stages (like Eevee)
-        # - "complex": Multiple stages or branching at stage 2 (like Wurmple)
-        is_multi_leaf = (
-            num_final_evolutions >= MULTI_EVOLUTION_THRESHOLD and max_depth == 2
-        )
-
-        # Generate HTML container
-        md += '<div style="background: var(--md-code-bg-color); border-radius: 8px; padding: 2rem; margin: 1.5rem 0; overflow-x: auto;">\n'
-
-        if is_multi_leaf:
-            # Special layout for Eevee-like cases: base on left, evolutions in grid on right
-            md += '\t<div style="display: flex; align-items: center; justify-content: center; gap: 2rem;">\n'
-
-            # Left side: Base Pokemon (stage 0)
-            if stages[0]:
-                md += '\t\t<div style="display: flex; flex-direction: column; align-items: center; gap: 0.5rem;">\n'
-                poke_data = stages[0][0]
-                md += (
-                    "\t\t\t"
-                    + self._create_evo_card(
-                        poke_data["species_name"], poke_data["actual_name"]
-                    )
-                    + "\n"
-                )
-                md += '\t\t\t<div style="font-size: 0.75rem; text-align: center; padding: 0.25rem; color: var(--md-default-fg-color--light);">Base</div>\n'
-                md += "\t\t</div>\n"
-
-                # Arrow pointing to evolutions
-                md += '\t\t<div style="font-size: 3rem; color: var(--md-primary-fg-color); padding: 0 1rem;">→</div>\n'
-
-            # Right side: Grid of evolutions (stage 1)
-            # Adaptive grid: 2 columns for 4-6 evolutions, 3 columns for 7-9, 4 columns for 10+
-            if num_final_evolutions <= EVOLUTION_GRID_2_COLS_MAX:
-                grid_cols = 2
-            elif num_final_evolutions <= EVOLUTION_GRID_3_COLS_MAX:
-                grid_cols = 3
-            else:
-                grid_cols = 4
-            md += f'\t\t<div style="display: grid; grid-template-columns: repeat({grid_cols}, 1fr); gap: 1.5rem; max-width: 800px;">\n'
-
-            for poke_data in stages[1]:
-                md += '\t\t\t<div style="display: flex; flex-direction: column; align-items: center;">\n'
-
-                # Evolution method at top with fixed height to ensure alignment
-                if poke_data["evolution_method"]:
-                    md += f'\t\t\t\t<div style="font-size: 0.6rem; text-align: center; padding: 0.4rem; background: var(--md-default-bg-color); border-radius: 4px; max-width: 130px; line-height: 1.2; margin-bottom: 0.5rem; min-height: 3rem; display: flex; align-items: center; justify-content: center;">{poke_data["evolution_method"]}</div>\n'
+                # Format evolution method if available
+                if evo_details:
+                    method = self._format_evo_method(evo_details)
+                    extra_info.append(f"*{method}*" if method else "")
                 else:
-                    md += '\t\t\t\t<div style="min-height: 3rem; margin-bottom: 0.5rem;"></div>\n'
+                    extra_info.append("")
 
-                # Pokemon card
-                md += (
-                    "\t\t\t\t"
-                    + self._create_evo_card(
-                        poke_data["species_name"], poke_data["actual_name"]
-                    )
-                    + "\n"
-                )
+            # Use format_pokemon_card_grid to display Pokemon
+            # Highlight the current Pokemon
+            highlighted_pokemon = []
+            highlighted_extra_info = []
 
-                md += "\t\t\t</div>\n"
+            for idx, species_name in enumerate(pokemon_names):
+                highlighted_pokemon.append(species_name)
+                info = extra_info[idx]
 
-            md += "\t\t</div>\n"
-            md += "\t</div>\n"
+                # Add indicator if this is the current Pokemon
+                if species_name.lower() == pokemon.species.lower():
+                    info += "\n\n\t***You are here***"
 
-        else:
-            # Standard layout: organize by stages (columns)
-            # Each column represents an evolution stage
-            md += '\t<div style="display: flex; align-items: center; justify-content: center; gap: 1.5rem;">\n'
+                highlighted_extra_info.append(info)
 
-            # Render each stage as a column
-            for stage_idx, stage_pokemon in enumerate(stages):
-                if not stage_pokemon:
-                    continue
-
-                # Column for this stage
-                md += '\t\t<div style="display: flex; flex-direction: column; align-items: stretch; gap: 1.5rem;">\n'
-
-                # Add stage label for first Pokemon in stage
-                if stage_idx == 0:
-                    md += '\t\t\t<div style="font-size: 0.75rem; font-weight: 600; color: var(--md-default-fg-color--light); text-transform: uppercase; letter-spacing: 0.05em; text-align: center; margin-bottom: 0.5rem;">Stage 1</div>\n'
-                else:
-                    md += f'\t\t\t<div style="font-size: 0.75rem; font-weight: 600; color: var(--md-default-fg-color--light); text-transform: uppercase; letter-spacing: 0.05em; text-align: center; margin-bottom: 0.5rem;">Stage {stage_idx + 1}</div>\n'
-
-                # Render all Pokemon in this stage
-                for poke_idx, poke_data in enumerate(stage_pokemon):
-                    md += '\t\t\t<div style="display: flex; flex-direction: column; align-items: center;">\n'
-
-                    # Evolution method at top with fixed height to ensure alignment
-                    if poke_data["evolution_method"]:
-                        md += f'\t\t\t\t<div style="font-size: 0.6rem; text-align: center; padding: 0.4rem; background: var(--md-default-bg-color); border-radius: 4px; max-width: 130px; line-height: 1.2; margin-bottom: 0.5rem; min-height: 3rem; display: flex; align-items: center; justify-content: center;">{poke_data["evolution_method"]}</div>\n'
-                    else:
-                        md += '\t\t\t\t<div style="min-height: 3rem; margin-bottom: 0.5rem;"></div>\n'
-
-                    # Pokemon card
-                    md += (
-                        "\t\t\t\t"
-                        + self._create_evo_card(
-                            poke_data["species_name"], poke_data["actual_name"]
-                        )
-                        + "\n"
-                    )
-
-                    md += "\t\t\t</div>\n"
-
-                md += "\t\t</div>\n"
-
-                # Add arrow between stages
-                if stage_idx < len(stages) - 1 and stages[stage_idx + 1]:
-                    current_stage_count = len(stage_pokemon)
-                    next_stage_count = len(stages[stage_idx + 1])
-
-                    # Calculate the height needed for proper alignment
-                    # Each Pokemon card container has the same structure, so we match the gap
-                    md += '\t\t<div style="display: flex; flex-direction: column; align-items: center; gap: 1.5rem;">\n'
-
-                    # Add stage label spacer to align with Pokemon cards
-                    md += '\t\t\t<div style="font-size: 0.75rem; font-weight: 600; color: transparent; text-transform: uppercase; letter-spacing: 0.05em; text-align: center; margin-bottom: 0.5rem;">.</div>\n'
-
-                    # Add arrows matching the number of Pokemon in the next stage
-                    for arrow_idx in range(max(current_stage_count, next_stage_count)):
-                        md += '\t\t\t<div style="display: flex; flex-direction: column; align-items: center;">\n'
-                        md += '\t\t\t\t<div style="min-height: 3rem; margin-bottom: 0.5rem; display: flex; align-items: center;"></div>\n'
-                        md += '\t\t\t\t<div style="font-size: 2rem; color: var(--md-primary-fg-color); padding: 0 0.5rem;">→</div>\n'
-                        md += "\t\t\t</div>\n"
-
-                    md += "\t\t</div>\n"
-
-            md += "\t</div>\n"
-
-        md += "</div>\n\n"
+            md += format_pokemon_card_grid(
+                highlighted_pokemon,
+                relative_path=".",
+                extra_info=highlighted_extra_info,
+            )
+            md += "\n\n"
 
         return md
 
@@ -1010,7 +905,9 @@ class PokemonGenerator(BaseGenerator):
 
         if len(pokemon.forms) > 1:
             forms = [f.name for f in pokemon.forms]
-            md += format_pokemon_card_grid(forms)  # type: ignore
+            categories = [format_display_name(f.category) for f in pokemon.forms]
+
+            md += format_pokemon_card_grid(forms, extra_info=categories)  # type: ignore
             md += "\n\n"
 
         return md
@@ -1430,13 +1327,8 @@ class PokemonGenerator(BaseGenerator):
         # Start building the markdown
         md = f"# {display_name}\n\n"
 
-        # Genus (species classification)
-        md += f"*{entry.genus}*\n\n"
-
-        # Hero section with sprite, types, and badges
-        md += self._generate_hero_section(entry)
-
         # Add sections
+        md += self._generate_hero_section(entry)
         md += self._generate_basic_info(entry)
         md += self._generate_held_items_section(entry)
         md += self._generate_type_effectiveness(entry)

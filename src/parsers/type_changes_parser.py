@@ -80,7 +80,7 @@ class TypeChangesParser(BaseParser):
         """
         pokemon, old_type, new_type, justification = re.split(r"\s{3,}", line)
         number, pokemon = pokemon.split(" ", 1)
-        pokemon_html = format_pokemon(pokemon)
+        pokemon_html = format_pokemon(pokemon, relative_path="..")
 
         # Format old and new types with badges
         old_types = old_type.split(" / ")
