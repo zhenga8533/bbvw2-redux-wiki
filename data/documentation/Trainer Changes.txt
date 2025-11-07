@@ -943,7 +943,7 @@ Ponyta [Flame Body], lv.27: Double Kick, Charm, Flame Charge, Double Hit
 Quilava [Flash Fire], lv.27: Reversal, Raging Fury, Rollout, Defense Curl
 
 ○ Ranger♂ Jaden - {Rawst Berry}:
-Phanphy [Pickup], lv.27: Headbutt, Rollout, Take Down, Defense Curl
+Phanpy [Pickup], lv.27: Headbutt, Rollout, Take Down, Defense Curl
 Exeggcute [Harvest], lv.27: Uproar, Confusion, Bullet Seed, Leech Seed
 Donphan [Sturdy], lv.27: Bulldoze, Endeavor, Ice Shard, Steamroller
 
@@ -1197,10 +1197,6 @@ Crustle [Sturdy], lv.37 @Custap Berry: Rock Slide, Accelerock, Shell Smash, X-Sc
 Amusement Park
 +++
 
-~~~~~~~~~~~~~~
-Amusement Park
-~~~~~~~~~~~~~~
-
  - Levels -2 on Easy mode, +2 on Challenge mode.
 
 ● Rich Boy Rolan:
@@ -1407,7 +1403,7 @@ Clay Defeated and Plasma Frigate Cleared:
 Swellow [Scrappy], lv.46 @Metronome: Boomburst, Quick Attack, Hurricane, U-Turn
 Eelektrik [Levitate], lv.46 @Leftovers: Wild Charge, Aqua Tail, Giga Drain, Drain Punch
 Flygon [Levitate], lv.47 @Life Orb: Scorching Sands, Dragon Claw, Lunge, Dragon Dance
-Camerrupt [Simple], lv.46 @Passho Berry: Flamethrower, Rock Climb, Earthquake, Rock Polish
+Camerupt [Simple], lv.46 @Passho Berry: Flamethrower, Rock Climb, Earthquake, Rock Polish
 Serperior [Contrary], lv.47 @Leftovers: Glare, Leaf Blade, Dragon Pulse, Aqua Tail
 ---
 (If you picked Snivy):
@@ -1498,7 +1494,7 @@ Omastar [Shell Armor], lv.40: Accelerock, Brine, Power Gem, Shell Smash
 ● Plasma Grunt #373:
 Liepard [Unburden], lv.40: Thunder Wave, Night Slash, Play Rough, Slash
 Glalie [Levitate], lv.40: Ice Shard, Icicle Crash, Rock Climb, Crunch
-Rotom-Base [Levitate], lv.40: Shadow Ball, Thunderbolt, Dark Pulse, Nasty Plot
+Rotom [Levitate], lv.40: Shadow Ball, Thunderbolt, Dark Pulse, Nasty Plot
 Bastiodon [Sturdy], lv.40: Metal Burst, Rock Blast, Body Slam, Protect
 
 ● Plasma Grunts #375 and #374 - (Tag):
@@ -1731,7 +1727,7 @@ Route 7
 ○ Breeder Marcus:
 Chimecho [Levitate], lv.46: Entrainment, Synchronoise, Heal Bell, Safeguard
 Chansey [Natural Cure], lv.46: Gravity, Growl, Bestow, Dream Eater
-Kangaskan [Early Bird], lv.46: Tail Whip, Focus Energy, Helping Hand, Leer
+Kangaskhan [Early Bird], lv.46: Tail Whip, Focus Energy, Helping Hand, Leer
 
 ○ Youngster Cody:
 Stoutland [Intimidate], lv.44: Psychic Fangs, Thunder Fang, Take Down, Reversal
@@ -1740,7 +1736,7 @@ Arcanine [Intimidate], lv.44: Scorching Sands, Raging Fury, Thunder Fang, Agilit
 
 ● Lass Flo (3x):
 Archeops [Defeatist], lv.44: Rock Slide, Sky Drop, Steel Wing, Dragon Breath
-Unfeazant [Unaware*], lv.44: Hypnosis, Tailwind, Hyper Voice, Air Slash
+Unfezant [Unaware*], lv.44: Hypnosis, Tailwind, Hyper Voice, Air Slash
 Mamoswine [Thick Fat], lv.44: Bulldoze, Avalanche, Ice Shard, Body Slam
 
 ● Nursery Aide Hollie:
@@ -1914,7 +1910,7 @@ Togekiss [Serene Grace], lv.48: Aura Sphere, Air Slash, Moonblast, Thunder Wave
 
 ● Pilot Chase:
 Skarmory [Sturdy], lv.49: Steel Wing, X-Scissor, Rock Slide, Brave Bird
-Unfeazant [Super Luck], lv.49: Air Slash, Hyper Voice, Heat Wave, Roost
+Unfezant [Super Luck], lv.49: Air Slash, Hyper Voice, Heat Wave, Roost
 Mandibuzz [Overcoat], lv.49: Nasty Plot, Dark Pulse, Air Slash, Heat Wave
 Fearow [Intimidate], lv.49: Drill Peck, Double-Edge, Drill Run, Quick Attack
 Pelipper [Rain Dish], lv.49: Surf, Shock Wave, Hurricane, Ice Beam
@@ -2757,7 +2753,7 @@ Kingdra [Sniper], lv.61: Draco Meteor, Scald, Outrage, Dragon Dance
 ○ Ace Trainer Jeanne:
 Mantine [Water Absorb], lv.61 @Damp Rock: Hydro Pump, Air Slash, Confuse Ray, Rain Dance
 Ludicolo [Swift Swim], lv.61 @Damp Rock: Giga Drain, Surf, Ice Beam, Rain Dance
-Wiscash [Simple], lv.61: Earthquake, Wave Crash, Ice Beam, Dragon Dance
+Whiscash [Simple], lv.61: Earthquake, Wave Crash, Ice Beam, Dragon Dance
 Simipour [Torrent], lv.61: Rock Slide, Acrobatics, Hydro Pump, Ice Beam
 
 ● Ace Trainer Enzio:
@@ -3028,10 +3024,10 @@ Giant Chasm, Back Caverns
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
 ● Black Kyurem - Blaze Black 2 Redux:
-Kyurem-B [Teravolt], lv.70 @Power Herb: Freeze Shock, Dragon Dance, Fusion Bolt, Icicle Crash
+Kyurem-Black [Teravolt], lv.70 @Power Herb: Freeze Shock, Dragon Dance, Fusion Bolt, Icicle Crash
 
 ● White Kyurem - Volt White 2 Redux:
-Kyurem-W [Teravolt], lv.70 @Power Herb: Esper Wing, Fusion Flare, Ice Beam, Ice Burn
+Kyurem-White [Teravolt], lv.70 @Power Herb: Esper Wing, Fusion Flare, Ice Beam, Ice Burn
 
 ●♕ GHETSIS:
 Cofagrigus [Mummy], lv.67 @Leftovers: Will-O-Wisp, Protect, Trick Room, Hex

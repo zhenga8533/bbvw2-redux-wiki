@@ -129,6 +129,11 @@ GENERATORS_REGISTRY: dict[str, dict[str, Any]] = {
         "class": "MoveGenerator",
         "output_dir": "docs/pokedex",
     },
+    "locations": {
+        "module": "src.generators.location_generator",
+        "class": "LocationGenerator",
+        "output_dir": "docs/locations",
+    },
 }
 
 GENERATOR_DEX_RELATIVE_PATH = "../.."

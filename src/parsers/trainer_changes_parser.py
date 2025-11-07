@@ -7,10 +7,8 @@ This parser:
 3. Generates JSON data files to data/locations/ for each location with trainer information
 """
 
-import json
 import re
-from pathlib import Path
-from typing import Any, Dict, List, Optional
+from typing import Any, Dict, Optional
 
 from src.data.pokedb_loader import PokeDBLoader
 from src.utils.formatters.markdown_formatter import (
@@ -22,14 +20,14 @@ from src.utils.formatters.markdown_formatter import (
     format_type_badge,
 )
 
-from .base_parser import BaseParser
+from .location_parser import LocationParser
 
 
-class TrainerChangesParser(BaseParser):
+class TrainerChangesParser(LocationParser):
     """Parser for Trainer Changes documentation.
 
     Args:
-        BaseParser (_type_): Abstract base parser class.
+        LocationParser (_type_): Location parser base class.
     """
 
     def __init__(self, input_file: str, output_dir: str = "docs"):
@@ -62,13 +60,9 @@ class TrainerChangesParser(BaseParser):
         self._current_trainer = ""
         self._indent_level = 0
 
-        # Location data tracking
-        self._locations_data: Dict[str, Dict[str, Any]] = {}
-        self._current_location = ""
-        self._current_sublocation = ""
+        # Trainer-specific location tracking
         self._base_sublocation = ""  # The sublocation from "XXX - YYY" pattern
         self._current_trainer_data: Optional[Dict[str, Any]] = None
-        self._location_data_dir = Path("data/locations")
 
     def handle_section_change(self, new_section: str) -> None:
         """Handle state reset on section change.
@@ -172,23 +166,15 @@ class TrainerChangesParser(BaseParser):
 
         # Match: main headings (locations)
         if next_line == "+++":
-            # Save previous location data if any
-            if self._current_location and self._current_location in self._locations_data:
-                self._save_location_data(self._current_location)
-
             # Parse location name for sublocation pattern "XXX - YYY"
             location_raw = line
-            if " - " in location_raw:
-                parts = location_raw.split(" - ", 1)
-                self._current_location = parts[0]
-                self._base_sublocation = parts[1]
-                self._current_sublocation = parts[1]
-            else:
-                self._current_location = location_raw
-                self._base_sublocation = ""
-                self._current_sublocation = ""
+            parent_location, sublocation_name = self._parse_location_name(location_raw)
 
-            self._initialize_location_data(self._current_location)
+            self._current_location = parent_location
+            self._base_sublocation = sublocation_name or ""
+            self._current_sublocation = sublocation_name or ""
+
+            self._initialize_location_data(location_raw)
             self._markdown += f"### {location_raw}\n\n"
         elif line == "+++":
             pass
@@ -198,18 +184,22 @@ class TrainerChangesParser(BaseParser):
         # Match: sub-headings (nested sublocations from ~~~~)
         # These should be nested under the base sublocation if one exists
         elif next_line.startswith("~") and line:
-            nested_sublocation = line.strip(': ')
+            nested_sublocation = line.strip(": ")
             # If we have a base sublocation (from "XXX - YYY"), nest this under it
             if self._base_sublocation:
-                self._current_sublocation = f"{self._base_sublocation}/{nested_sublocation}"
+                self._current_sublocation = (
+                    f"{self._base_sublocation}/{nested_sublocation}"
+                )
             else:
                 self._current_sublocation = nested_sublocation
             self._markdown += f"#### {nested_sublocation}\n"
         elif match := re.match(r"^\~{1,} (.+) \~{1,}$", line):
-            nested_sublocation = match.group(1).strip(': ')
+            nested_sublocation = match.group(1).strip(": ")
             # If we have a base sublocation (from "XXX - YYY"), nest this under it
             if self._base_sublocation:
-                self._current_sublocation = f"{self._base_sublocation}/{nested_sublocation}"
+                self._current_sublocation = (
+                    f"{self._base_sublocation}/{nested_sublocation}"
+                )
             else:
                 self._current_sublocation = nested_sublocation
             self._markdown += f"#### {nested_sublocation}\n"
@@ -245,7 +235,9 @@ class TrainerChangesParser(BaseParser):
         # Match: "<trainer>:"
         elif match := re.match(r"^(.*):$", line):
             self._current_trainer = match.group(1)
-            self._current_trainer_data = self._create_trainer_data(self._current_trainer)
+            self._current_trainer_data = self._create_trainer_data(
+                self._current_trainer
+            )
             self._add_trainer_to_location(self._current_trainer_data)
             self._markdown += self._format_trainer(self._current_trainer)
             self._is_table_open = False
@@ -351,18 +343,21 @@ class TrainerChangesParser(BaseParser):
         """Parse The Postgame section."""
         self.parse_trainer_changes(line)
 
-    def _initialize_location_data(self, location: str) -> None:
+    def _initialize_location_data(self, location_raw: str) -> None:
         """Initialize data structure for a location.
 
         Args:
-            location (str): The location name.
+            location_raw (str): The raw location name (may include sublocation).
         """
-        if location not in self._locations_data:
-            self._locations_data[location] = {
-                "name": location,
-                "sublocations": {},
-                "trainers": [],
-            }
+        # Call parent class initialization
+        super()._initialize_location_data(location_raw)
+
+        # Ensure trainers list exists at root level
+        if self._current_location not in self._locations_data:
+            return
+
+        if "trainers" not in self._locations_data[self._current_location]:
+            self._locations_data[self._current_location]["trainers"] = []
 
     def _create_trainer_data(self, trainer_raw: str) -> Dict[str, Any]:
         """Create a trainer data dictionary from raw trainer string.
@@ -389,7 +384,9 @@ class TrainerChangesParser(BaseParser):
                     fields[key] = [item.strip() for item in m.group(1).split(",")]
                 else:
                     fields[key] = m.group(1).strip()
-                trainer_name = re.sub(r"\s*" + re.escape(m.group(0)) + r"\s*", " ", trainer_name)
+                trainer_name = re.sub(
+                    r"\s*" + re.escape(m.group(0)) + r"\s*", " ", trainer_name
+                )
 
         trainer_name = trainer_name.strip(" -")
 
@@ -425,51 +422,15 @@ class TrainerChangesParser(BaseParser):
         if self._current_sublocation:
             # Navigate/create nested sublocation structure
             target = self._get_or_create_sublocation(
-                self._locations_data[self._current_location],
-                self._current_sublocation
+                self._locations_data[self._current_location], self._current_sublocation
             )
             if "trainers" not in target:
                 target["trainers"] = []
             target["trainers"].append(trainer_data)
         else:
-            self._locations_data[self._current_location]["trainers"].append(trainer_data)
-
-    def _get_or_create_sublocation(
-        self, location_data: Dict[str, Any], sublocation_path: str
-    ) -> Dict[str, Any]:
-        """Get or create a nested sublocation using path notation (e.g., "Battle Company/47F").
-
-        Args:
-            location_data (Dict[str, Any]): The parent location data.
-            sublocation_path (str): The sublocation path (can contain "/" for nesting).
-
-        Returns:
-            Dict[str, Any]: The target sublocation dictionary.
-        """
-        if "sublocations" not in location_data:
-            location_data["sublocations"] = {}
-
-        # Split path by "/" to handle nesting
-        parts = sublocation_path.split("/")
-        current = location_data["sublocations"]
-
-        for i, part in enumerate(parts):
-            if part not in current:
-                current[part] = {
-                    "name": part,
-                    "sublocations": {} if i < len(parts) - 1 else {},
-                }
-
-            # If this is not the last part, navigate into nested sublocations
-            if i < len(parts) - 1:
-                if "sublocations" not in current[part]:
-                    current[part]["sublocations"] = {}
-                current = current[part]["sublocations"]
-            else:
-                # Return the final sublocation
-                return current[part]
-
-        return current[parts[-1]]
+            self._locations_data[self._current_location]["trainers"].append(
+                trainer_data
+            )
 
     def _add_pokemon_to_trainer(
         self, pokemon: str, ability: str, level: str, item: Optional[str], moves: str
@@ -501,38 +462,16 @@ class TrainerChangesParser(BaseParser):
             pokemon_entry["item"] = item
 
         # Check if we're in a starter variation
-        if "starter_variations" in self._current_trainer_data and self._current_trainer_data["starter_variations"]:
+        if (
+            "starter_variations" in self._current_trainer_data
+            and self._current_trainer_data["starter_variations"]
+        ):
             # Add to the last starter variation
-            last_starter = list(self._current_trainer_data["starter_variations"].keys())[-1]
-            self._current_trainer_data["starter_variations"][last_starter]["team"].append(pokemon_entry)
+            last_starter = list(
+                self._current_trainer_data["starter_variations"].keys()
+            )[-1]
+            self._current_trainer_data["starter_variations"][last_starter][
+                "team"
+            ].append(pokemon_entry)
         else:
             self._current_trainer_data["team"].append(pokemon_entry)
-
-    def _save_location_data(self, location: str) -> None:
-        """Save location data to a JSON file.
-
-        Args:
-            location (str): The location name.
-        """
-        if location not in self._locations_data:
-            return
-
-        # Create data directory if it doesn't exist
-        self._location_data_dir.mkdir(parents=True, exist_ok=True)
-
-        # Sanitize filename
-        filename = re.sub(r'[<>:"/\\|?*]', '_', location)
-        filename = f"{filename}.json"
-
-        output_path = self._location_data_dir / filename
-
-        with open(output_path, 'w', encoding='utf-8') as f:
-            json.dump(self._locations_data[location], f, indent=2, ensure_ascii=False)
-
-    def finalize(self) -> None:
-        """Finalize parsing and save remaining data."""
-        # Save the last location if any
-        if self._current_location and self._current_location in self._locations_data:
-            self._save_location_data(self._current_location)
-
-        super().finalize()

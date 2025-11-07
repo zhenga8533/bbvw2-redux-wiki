@@ -14,6 +14,8 @@ If circular import issues arise, consider:
 2. Using dependency injection to pass PokeDBLoader as a parameter
 """
 
+import re
+
 from src.data.pokedb_loader import PokeDBLoader
 from src.models.pokedb import Ability, Item, Move, Pokemon
 from src.utils.core.config import PARSER_DEX_RELATIVE_PATH, POKEDB_SPRITE_VERSION
@@ -206,15 +208,22 @@ def format_item(
         'Rare Candy'
     """
     move = None
+    extra = ""
 
     if isinstance(item, str):
         # Special case for TM/HM items
+        item_name = item
         if item.lower().startswith(("tm", "hm")):
             item_name, move = item.split(" ", 1) if " " in item else (item, None)
             item_name = name_to_id(item_name)
 
+        # Special case for quantity
+        if match := re.match(r"^(.*?)( x\d+)$", item_name):
+            item_name = match.group(1)
+            extra = match.group(2)
+
         # Try to load item data to check if it exists
-        item_data = PokeDBLoader.load_item(item)
+        item_data = PokeDBLoader.load_item(item_name)
         if not item_data:
             # If data doesn't exist, return plain text with formatted name
             return format_display_name(item)
@@ -223,7 +232,7 @@ def format_item(
 
     # Use the normalized name from the loaded data for the link
     normalized_name = item_data.name
-    display_name = format_display_name(item_data.name)
+    display_name = format_display_name(item_data.name) + extra
 
     parts = []
 

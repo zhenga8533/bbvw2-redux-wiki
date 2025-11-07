@@ -312,7 +312,7 @@ Tiny Mushroom (Hidden)
 
 ~~~~~ Lostlorn Forest ~~~~~
 
-Rare Candy -> TM22 Solarbeam
+Rare Candy -> TM22 Solar Beam
 Ultra Ball -> Leaf Stone
 Pecha Berry
 Leaf Stone (Hidden)
@@ -836,7 +836,7 @@ Comet Shard (Hidden)
 
 ~~~~~ Pinwheel Forest ~~~~~
 
-TM22 SolarBeam -> TM51 Wave Crash
+TM22 Solar Beam -> TM51 Wave Crash
 Rare Candy (Hidden)
 Ultra Ball
 Ultra Ball (Hidden)
@@ -1070,7 +1070,7 @@ Secondary Mart now sells:
  - Blue Shard
  - Yellow Shard
  - Green Shard
- - Heart Scales
+ - Heart Scale
  - Honey
  - Figy Berry
  - Wiki Berry
@@ -1189,7 +1189,7 @@ TM18    Rain Dance                      Mistralton City Pokémon Center
 TM19    Telekinesis -> Giga Drain       Village Bridge *
 TM20    Safeguard -> Tri Attack         Route 6 *
 TM21    Frustration                     Floccesy Ranch
-TM22    SolarBeam                       Lostlorn Forest *
+TM22    Solar Beam                      Lostlorn Forest *
 TM23    Smack Down                      Relic Passage *
 TM24    Thunderbolt                     Lentimas Town *
 TM25    Thunder                         Relic Passage *

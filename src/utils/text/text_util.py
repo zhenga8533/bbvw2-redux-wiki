@@ -143,3 +143,46 @@ def extract_form_suffix(pokemon_name: str, base_name: str) -> str:
         suffix = pokemon_name[len(base_name) :].lstrip("-")
         return suffix
     return ""
+
+
+def sanitize_filename(filename: str) -> str:
+    """Sanitize a string to be safe for use as a filename.
+
+    Converts the filename to snake_case format:
+    - Removes invalid filesystem characters
+    - Converts to lowercase
+    - Replaces spaces and hyphens with underscores
+    - Removes consecutive underscores
+
+    Args:
+        filename (str): The original filename string.
+    Returns:
+        str: The sanitized filename string in snake_case.
+
+    Examples:
+        >>> sanitize_filename("Abundant Shrine")
+        'abundant_shrine'
+        >>> sanitize_filename("Route 1")
+        'route_1'
+        >>> sanitize_filename("Castelia City - Battle Company")
+        'castelia_city_battle_company'
+    """
+    # Remove or replace characters that are invalid in filenames
+    sanitized = re.sub(r'[<>:"/\\|?*\x00-\x1F]', "", filename)
+
+    # Convert to lowercase
+    sanitized = sanitized.lower()
+
+    # Replace spaces, hyphens, and other separators with underscores
+    sanitized = re.sub(r'[\s\-]+', '_', sanitized)
+
+    # Remove any non-alphanumeric characters except underscores
+    sanitized = re.sub(r'[^a-z0-9_]', '', sanitized)
+
+    # Replace multiple consecutive underscores with a single underscore
+    sanitized = re.sub(r'_+', '_', sanitized)
+
+    # Strip leading/trailing underscores
+    sanitized = sanitized.strip('_')
+
+    return sanitized
