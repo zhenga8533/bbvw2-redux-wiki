@@ -370,7 +370,10 @@ class PokemonGenerator(BaseGenerator):
         md += '\t<div class="pokemon-hero-content">\n'
 
         # Sprite with enhanced shadow and glow
-        sprite = format_pokemon(pokemon, is_linked=False)
+        sprite_src = getattr(
+            pokemon.sprites.versions, POKEDB_SPRITE_VERSION
+        ).animated.front_default
+        sprite = f"<img src='{sprite_src}' alt='{pokemon.name}' class='sprite' />"
         md += f'\t\t<div class="pokemon-hero-sprite">\n'
         md += f"\t\t\t{sprite}\n"
         md += "\t\t</div>\n"
