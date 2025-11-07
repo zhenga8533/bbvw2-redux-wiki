@@ -6,9 +6,8 @@ from typing import Any
 
 import orjson
 
-from src.data.pokedb_loader import PokeDBLoader
-from src.models.pokedb import GameVersionStringMap
 from src.utils.core.config import POKEDB_GENERATIONS, POKEDB_VERSION_GROUPS
+from src.utils.core.loader import PokeDBLoader
 from src.utils.core.logger import get_logger
 from src.utils.text.dict_util import get_most_common_value
 from src.utils.text.text_util import name_to_id

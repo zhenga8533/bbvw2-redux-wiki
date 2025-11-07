@@ -10,7 +10,7 @@ This parser:
 import re
 from typing import Any, Dict, Optional
 
-from src.data.pokedb_loader import PokeDBLoader
+from src.utils.core.loader import PokeDBLoader
 from src.utils.formatters.markdown_formatter import (
     format_ability,
     format_checkbox,

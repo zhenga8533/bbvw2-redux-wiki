@@ -15,9 +15,9 @@ from collections import defaultdict
 from pathlib import Path
 from typing import Any, Optional
 
-from src.data.pokedb_loader import PokeDBLoader
-from src.models.pokedb import Item
 from src.utils.core.config import POKEDB_GAME_VERSIONS, VERSION_GROUP
+from src.utils.core.loader import PokeDBLoader
+from src.utils.data.models import Item
 from src.utils.formatters.table_formatter import create_table
 from src.utils.text.text_util import format_display_name
 
@@ -79,7 +79,7 @@ class ItemGenerator(BaseGenerator):
         Returns:
             dict[str, list[dict]]: Mapping of item names to lists of Pokemon with their hold rates
         """
-        from src.data.pokedb_loader import PokeDBLoader
+        from src.utils.core.loader import PokeDBLoader
 
         item_cache = {}
 

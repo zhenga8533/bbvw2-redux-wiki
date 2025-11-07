@@ -15,9 +15,9 @@ from collections import defaultdict
 from pathlib import Path
 from typing import Optional
 
-from src.data.pokedb_loader import PokeDBLoader
-from src.models.pokedb import Ability, Pokemon
 from src.utils.core.config import VERSION_GROUP, VERSION_GROUP_FRIENDLY
+from src.utils.core.loader import PokeDBLoader
+from src.utils.data.models import Ability, Pokemon
 from src.utils.formatters.markdown_formatter import format_pokemon_card_grid
 from src.utils.text.text_util import format_display_name
 
@@ -120,7 +120,9 @@ class AbilityGenerator(BaseGenerator):
                 else:
                     self.logger.warning(f"Could not load ability: {ability_file.stem}")
             except Exception as e:
-                self.logger.error(f"Error loading {ability_file.stem}: {e}", exc_info=True)
+                self.logger.error(
+                    f"Error loading {ability_file.stem}: {e}", exc_info=True
+                )
 
         # Sort alphabetically by name
         abilities.sort(key=lambda a: a.name)

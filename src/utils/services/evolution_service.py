@@ -8,9 +8,9 @@ evolution chains, separating it from the parser implementation.
 import copy
 from typing import Optional
 
-from src.data.pokedb_loader import PokeDBLoader
-from src.models.pokedb import EvolutionChain, EvolutionDetails, EvolutionNode
+from src.utils.core.loader import PokeDBLoader
 from src.utils.core.logger import get_logger
+from src.utils.data.models import EvolutionChain, EvolutionDetails, EvolutionNode
 
 logger = get_logger(__name__)
 

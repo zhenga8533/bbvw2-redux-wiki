@@ -18,9 +18,7 @@ Then update the hardcoded attributes in:
 
 from dataclasses import dataclass, field
 from enum import IntEnum
-from typing import Any, Literal, Optional
-
-from click import Option
+from typing import Any, Optional
 
 from src.utils.data.constants import POKEMON_FORM_SUBFOLDERS
 

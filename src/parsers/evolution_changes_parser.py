@@ -10,8 +10,8 @@ This parser:
 import re
 from typing import Optional
 
-from src.data.pokedb_loader import PokeDBLoader
-from src.models.pokedb import EvolutionChain, EvolutionDetails, Gender
+from src.utils.core.loader import PokeDBLoader
+from src.utils.data.models import EvolutionChain, EvolutionDetails, Gender
 from src.utils.formatters.markdown_formatter import format_item, format_pokemon
 from src.utils.services.evolution_service import EvolutionService
 from src.utils.text.text_util import name_to_id

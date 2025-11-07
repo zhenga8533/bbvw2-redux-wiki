@@ -8,9 +8,8 @@ This parser:
 """
 
 import re
-from typing import Optional
 
-from src.data.pokedb_loader import PokeDBLoader
+from src.utils.core.loader import PokeDBLoader
 from src.utils.formatters.markdown_formatter import (
     format_pokemon,
     format_pokemon_card_grid,

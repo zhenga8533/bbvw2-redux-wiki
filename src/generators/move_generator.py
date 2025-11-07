@@ -15,11 +15,14 @@ from collections import defaultdict
 from pathlib import Path
 from typing import Optional
 
-from src.data.pokedb_loader import PokeDBLoader
-from src.models.pokedb import Move
 from src.utils.core.config import VERSION_GROUP, VERSION_GROUP_FRIENDLY
+from src.utils.core.loader import PokeDBLoader
 from src.utils.data.constants import DAMAGE_CLASS_ICONS
-from src.utils.formatters.markdown_formatter import format_pokemon_card_grid, format_type_badge
+from src.utils.data.models import Move
+from src.utils.formatters.markdown_formatter import (
+    format_pokemon_card_grid,
+    format_type_badge,
+)
 from src.utils.text.text_util import format_display_name
 
 from .base_generator import BaseGenerator
@@ -72,7 +75,7 @@ class MoveGenerator(BaseGenerator):
         Returns:
             dict[str, dict[str, list[dict]]]: A mapping of move names to Pokemon by learn method.
         """
-        from src.data.pokedb_loader import PokeDBLoader
+        from src.utils.core.loader import PokeDBLoader
 
         move_cache = defaultdict(
             lambda: {"level_up": [], "machine": [], "egg": [], "tutor": []}

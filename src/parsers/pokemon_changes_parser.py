@@ -9,8 +9,8 @@ This parser:
 
 import re
 
-from src.data.pokedb_loader import PokeDBLoader
 from src.utils.core.config import VERSION_GROUP
+from src.utils.core.loader import PokeDBLoader
 from src.utils.formatters.markdown_formatter import (
     format_ability,
     format_checkbox,
@@ -20,7 +20,9 @@ from src.utils.formatters.markdown_formatter import (
     format_pokemon_card_grid,
     format_type_badge,
 )
-from src.utils.services.pokemon_service import PokemonService
+from src.utils.services.attribute_service import AttributeService
+from src.utils.services.pokemon_item_service import PokemonItemService
+from src.utils.services.pokemon_move_service import PokemonMoveService
 
 from .base_parser import BaseParser
 
@@ -98,7 +100,7 @@ class PokemonChangesParser(BaseParser):
 
         # Update level-up moves if we have any
         if self._levelup_moves:
-            PokemonService.update_levelup_moves(
+            PokemonMoveService.update_levelup_moves(
                 pokemon=self._current_pokemon,
                 moves=self._levelup_moves,
                 forme=self._current_forme,
@@ -107,7 +109,7 @@ class PokemonChangesParser(BaseParser):
 
         # Update TM/HM moves if we have any
         if self._tm_hm_moves:
-            PokemonService.update_machine_moves(
+            PokemonMoveService.update_machine_moves(
                 pokemon=self._current_pokemon,
                 moves=self._tm_hm_moves,
                 forme=self._current_forme,
@@ -182,7 +184,7 @@ class PokemonChangesParser(BaseParser):
             self._markdown += "\n"
 
             # Update Pokemon attribute in JSON file
-            PokemonService.update_attribute(
+            AttributeService.update_attribute(
                 pokemon=self._current_pokemon,
                 attribute=self._current_attribute,
                 value=line,
@@ -367,7 +369,7 @@ class PokemonChangesParser(BaseParser):
         rarity = int(match.group(2))  # 100
 
         # Update held item immediately (no accumulation needed)
-        PokemonService.update_held_item(
+        PokemonItemService.update_held_item(
             pokemon=self._current_pokemon,
             item_name=item_name,
             rarity=rarity,
@@ -398,7 +400,7 @@ class PokemonChangesParser(BaseParser):
         growth_rate = match.group(1)  # "fast", "medium-fast", "slow", etc.
 
         # Update growth rate immediately (no accumulation needed)
-        PokemonService.update_attribute(
+        AttributeService.update_attribute(
             pokemon=self._current_pokemon,
             attribute="growth_rate",
             value=growth_rate,

@@ -3,23 +3,14 @@ Utility functions for generating markdown content.
 
 This module provides helpers for creating consistent markdown elements
 like Pokemon displays with sprites and links.
-
-⚠️ Domain Dependency Warning:
-This formatter imports from src.data.pokedb_loader, creating a dependency
-on the data layer. This makes it domain-aware rather than a pure utility.
-This design is intentional to provide convenient Pokemon-specific formatting.
-
-If circular import issues arise, consider:
-1. Moving this module to src/formatters/ (peer to generators/parsers)
-2. Using dependency injection to pass PokeDBLoader as a parameter
 """
 
 import re
 
-from src.data.pokedb_loader import PokeDBLoader
-from src.models.pokedb import Ability, Item, Move, Pokemon
 from src.utils.core.config import PARSER_DEX_RELATIVE_PATH, POKEDB_SPRITE_VERSION
+from src.utils.core.loader import PokeDBLoader
 from src.utils.data.constants import TYPE_COLORS
+from src.utils.data.models import Ability, Item, Move, Pokemon
 from src.utils.text.text_util import format_display_name, name_to_id
 
 

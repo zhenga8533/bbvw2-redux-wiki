@@ -20,8 +20,6 @@ from collections import defaultdict
 from pathlib import Path
 from typing import Any, Optional, cast
 
-from src.data.pokedb_loader import PokeDBLoader
-from src.models.pokedb import EvolutionChain, EvolutionDetails, EvolutionNode, Pokemon
 from src.utils.core.config import (
     GENERATOR_DEX_RELATIVE_PATH,
     GENERATOR_INDEX_RELATIVE_PATH,
@@ -29,10 +27,17 @@ from src.utils.core.config import (
     POKEDB_SPRITE_VERSION,
     VERSION_GROUP,
 )
+from src.utils.core.loader import PokeDBLoader
 from src.utils.data.constants import (
     DAMAGE_CLASS_ICONS,
     POKEMON_FORM_SUBFOLDERS,
     TYPE_COLORS,
+)
+from src.utils.data.models import (
+    EvolutionChain,
+    EvolutionDetails,
+    EvolutionNode,
+    Pokemon,
 )
 from src.utils.data.type_effectiveness import calculate_type_effectiveness
 from src.utils.formatters.markdown_formatter import (
@@ -141,7 +146,10 @@ class PokemonGenerator(BaseGenerator):
                         )
 
                 except Exception as e:
-                    self.logger.error(f"Error loading {pokemon_file.stem} from {folder}: {e}", exc_info=True)
+                    self.logger.error(
+                        f"Error loading {pokemon_file.stem} from {folder}: {e}",
+                        exc_info=True,
+                    )
 
         self.logger.info(
             f"Loaded {len(all_pokemon)} Pokemon from {total_files} files across all subfolders"

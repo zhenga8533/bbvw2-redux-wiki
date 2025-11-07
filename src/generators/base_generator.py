@@ -140,7 +140,7 @@ class BaseGenerator(ABC):
                 include_metadata=lambda a: {"is_hidden": a.is_hidden}
             )
         """
-        from src.data.pokedb_loader import PokeDBLoader
+        from src.utils.core.loader import PokeDBLoader
 
         cache = {}
 

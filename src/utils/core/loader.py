@@ -17,15 +17,15 @@ from typing import Any, Generator, Optional, Type, TypeVar, cast
 import orjson
 from dacite import Config, DaciteError, from_dict
 
-from src.models.pokedb import (
+from src.utils.core.logger import get_logger
+from src.utils.data.constants import POKEMON_FORM_SUBFOLDERS
+from src.utils.data.models import (
     Ability,
     Item,
     Move,
     Pokemon,
     PokemonMoves,
 )
-from src.utils.core.logger import get_logger
-from src.utils.data.constants import POKEMON_FORM_SUBFOLDERS
 from src.utils.text.text_util import name_to_id
 
 logger = get_logger(__name__)
@@ -228,8 +228,12 @@ class PokeDBLoader:
         with cls._data_dir_lock:
             if cls._data_dir is None:
                 # Default to <project_root>/data/pokedb/parsed
+                # Path is: src/utils/core/loader.py -> parent = core -> parent = utils -> parent = src -> parent = project_root
                 cls._data_dir = (
-                    Path(__file__).parent.parent.parent / "data" / "pokedb" / "parsed"
+                    Path(__file__).parent.parent.parent.parent
+                    / "data"
+                    / "pokedb"
+                    / "parsed"
                 )
             return cls._data_dir
 
@@ -883,7 +887,7 @@ class PokeDBLoader:
                 # Write to temp file first, then atomic rename (safer)
                 with open(temp_path, "wb") as f:
                     # Import necessary types for dict factory
-                    from src.models.pokedb import (
+                    from src.utils.data.models import (
                         GameStringMap,
                         GameVersionIntMap,
                         GameVersionStringMap,
@@ -1139,6 +1143,21 @@ class PokeDBLoader:
 
         start_time = time.time()
         cache_size_before = cls.get_cache_size()
+
+        # Early warning if cache size might be too small
+        data_dir = cls.get_data_dir()
+        estimated_pokemon_count = 0
+        for subfolder in subfolders:
+            pokemon_dir = data_dir / "pokemon" / subfolder
+            if pokemon_dir.exists():
+                estimated_pokemon_count += len(list(pokemon_dir.glob("*.json")))
+
+        if estimated_pokemon_count > cls.MAX_CACHE_SIZE:
+            logger.warning(
+                f"Cache size ({cls.MAX_CACHE_SIZE}) is smaller than estimated Pokemon count "
+                f"({estimated_pokemon_count}). Some entries will be evicted during preload. "
+                f"Consider increasing cache size with set_max_cache_size({estimated_pokemon_count})."
+            )
 
         logger.info(f"Pre-loading Pokemon cache from subfolders: {subfolders}")
 

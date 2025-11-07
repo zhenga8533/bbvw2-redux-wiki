@@ -16,9 +16,9 @@ Import Conventions:
 
 2. Direct module imports for specialized/rarely used utilities:
    from src.utils.formatters.yaml_formatter import update_pokedex_subsection
-   from src.utils.services.pokemon_service import update_pokemon_data
+   from src.utils.services import AttributeService
 
-Note: markdown_formatter in formatters/ imports from src.data.pokedb_loader,
+Note: markdown_formatter in formatters/ imports from src.utils.data.loaders.pokedb_loader,
 making it domain-aware rather than a pure utility. This is intentional to
 provide convenient Pokemon-specific formatting functions.
 """

@@ -5,10 +5,10 @@ Main entry point for initializing data and running parsers.
 import argparse
 import sys
 
-from src.data.pokedb_initializer import PokeDBInitializer
+from src.utils.core.executor import run_generators, run_parsers
+from src.utils.core.initializer import PokeDBInitializer
 from src.utils.core.logger import get_logger
-from src.utils.core.registry import get_parser_registry, get_generator_registry
-from src.utils.core.executor import run_parsers, run_generators
+from src.utils.core.registry import get_generator_registry, get_parser_registry
 
 logger = get_logger(__name__)
 
@@ -99,7 +99,7 @@ Examples:
 
         # Clear cache after parsers to ensure generators load fresh data
         if args.generators:
-            from src.data.pokedb_loader import PokeDBLoader
+            from src.utils.core.loader import PokeDBLoader
 
             logger.info("Clearing cache before running generators...")
             PokeDBLoader.clear_cache()
