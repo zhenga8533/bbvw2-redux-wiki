@@ -180,8 +180,7 @@ Groudon
  - Found in the swallowing sands of the Desert Resort.
 
 Rayquaza
- - Found at the top of the Celestial Tower.
- - Interact with the bell and the Jade Orb will resonate with it, sending Rayquaza down from the Ozone layer!
+ - Found at the top of the Celestial Tower. Interact with the bell and the Jade Orb will resonate with it, sending Rayquaza down from the Ozone layer!
 
 
 =============================================================

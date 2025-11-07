@@ -9,7 +9,8 @@ This parser:
 import re
 from typing import Any, Dict
 
-from src.utils.formatters.markdown_formatter import format_pokemon
+from src.data.pokedb_loader import PokeDBLoader
+from src.utils.formatters.markdown_formatter import format_pokemon, format_type_badge
 
 from .base_parser import BaseParser
 
@@ -58,11 +59,16 @@ class LegendaryLocationsParser(BaseParser):
         # Match: encounter name from the encounters set
         elif line in self._encounters:
             if not self.in_encounter:
-                self._markdown += f"| Pokémon | Encounter Details |\n"
-                self._markdown += f"|:-------:|-------------------|\n"
+                self._markdown += f"| Pokémon | Type(s) | Encounter Details |\n"
+                self._markdown += f"|:-------:|:-------:|-------------------|\n"
                 self.in_encounter = True
 
             self._markdown += f"| {format_pokemon(line)} | "
+
+            pokemon_data = PokeDBLoader.load_pokemon(line)
+            types = pokemon_data.types if pokemon_data else []
+            self._markdown += f"<div class='badges-vstack'>{' '.join(format_type_badge(t) for t in types)}</div> | "
+
             self._encounters.remove(line)
         # Match: " - detail" (encounter detail line)
         elif self.in_encounter and line.startswith(" - "):
