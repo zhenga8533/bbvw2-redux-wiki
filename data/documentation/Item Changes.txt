@@ -1257,7 +1257,7 @@ TM86    Grass Knot                      Castelia Gardens *
 TM87    Swagger -> Rock Climb           Route 9 *
 TM88    Pluck                           Castelia City *
 TM89    U-Turn                          Route 7 *
-TM90    Substitute                      Giants Chasm *
+TM90    Substitute                      Giant Chasm *
 TM91    Flash Cannon                    Chargestone Cave *
 TM92    Trick Room                      Plasma Frigate *
 TM93    Wild Charge                     Route 12 *

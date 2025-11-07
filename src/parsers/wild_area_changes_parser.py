@@ -4,9 +4,13 @@ Parser for Wild Area Changes documentation file.
 This parser:
 1. Reads data/documentation/Wild Area Changes.txt
 2. Generates a markdown file to docs/wild_area_changes.md
+3. Generates/updates JSON data files to data/locations/ for each location with wild encounter information
 """
 
+import json
 import re
+from pathlib import Path
+from typing import Any, Dict, List, Optional
 
 from src.data.pokedb_loader import PokeDBLoader
 from src.utils.formatters.markdown_formatter import format_pokemon, format_type_badge
@@ -44,6 +48,12 @@ class WildAreaChangesParser(BaseParser):
         # Hidden Grotto Guide States
         self._encounter_type = ""
 
+        # Location data tracking
+        self._locations_data: Dict[str, Dict[str, Any]] = {}
+        self._current_sublocation = ""
+        self._current_encounter_method = ""
+        self._location_data_dir = Path("data/locations")
+
     def parse_general_changes(self, line: str) -> None:
         """Parse the General Changes section.
 
@@ -64,8 +74,13 @@ class WildAreaChangesParser(BaseParser):
 
         # Match: "~ <location> ~"
         if match := re.match(r"^\~{1,} (.+) \~{1,}$", line):
-            self._current_location = match.group(1)
-            self._markdown += f"\n### {self._current_location}\n"
+            # Save previous location data if any
+            if self._current_location:
+                self._save_location_data(self._current_location)
+
+            location_raw = match.group(1)
+            self._initialize_location_data(location_raw)  # This sets _current_location and _current_sublocation
+            self._markdown += f"\n### {location_raw}\n"
         # Match: table headers
         elif match := re.match(r"^(.+?):\s{3,}(.+?):$", line):
             method1, method2 = match.group(1), match.group(2)
@@ -79,9 +94,13 @@ class WildAreaChangesParser(BaseParser):
             self._tab_markdown += f'=== "{method2}"\n\n'
             if method2 != "Hidden Grotto":
                 self._tab_markdown += f"\t{table_header}\n"
+
+            # Track encounter methods for data
+            self._current_encounter_method = method1
         elif line.endswith(":"):
             self._markdown += f"#### {line[:-1]}\n\n"
             self._markdown += f"{table_header}\n"
+            self._current_encounter_method = line[:-1]
         # Match: table seperators
         elif match := re.match(r"^\-{3,}\s{1,}\-{3,}$", line):
             self._markdown += f"\t{table_seperator}\n"
@@ -95,6 +114,7 @@ class WildAreaChangesParser(BaseParser):
             match2 = re.match(rf"\s{pokemon_row_pattern}$", extra)
             if match2:
                 pkmn2, level2, chance2 = match2.groups()
+                self._add_wild_encounter(pkmn1, level1, chance1, self._current_encounter_method)
                 self._markdown += (
                     f"\t{self._format_pokemon_row(pkmn1, level1, chance1)}\n"
                 )
@@ -102,12 +122,14 @@ class WildAreaChangesParser(BaseParser):
                     f"\t{self._format_pokemon_row(pkmn2, level2, chance2)}\n"
                 )
             else:
+                self._add_wild_encounter(pkmn1, level1, chance1, self._current_encounter_method)
                 self._markdown += (
                     f"\t{self._format_pokemon_row(pkmn1, level1, chance1)}\n"
                 )
                 self._tab_markdown += f"\t{extra.strip()}\n"
         elif match := re.match(rf"^{pokemon_row_pattern}$", line):
             pkmn, level, chance = match.groups()
+            self._add_wild_encounter(pkmn, level, chance, self._current_encounter_method)
             if self._tab_markdown:
                 self._markdown += "\t"
             self._markdown += f"{self._format_pokemon_row(pkmn, level, chance)}\n"
@@ -156,8 +178,13 @@ class WildAreaChangesParser(BaseParser):
         """
         # Match: "~ <location> ~"
         if match := re.match(r"^\~{1,} (.+) \~{1,}$", line):
-            self._current_location = match.group(1)
-            self._markdown += f"\n### {self._current_location}\n"
+            # Save previous location data if any
+            if self._current_location:
+                self._save_location_data(self._current_location)
+
+            location_raw = match.group(1)
+            self._initialize_location_data(location_raw)  # This sets _current_location and _current_sublocation
+            self._markdown += f"\n### {location_raw}\n"
         # Match: "<encounter>:"
         elif line.endswith(":"):
             self._encounter_type = line[:-1]
@@ -169,7 +196,10 @@ class WildAreaChangesParser(BaseParser):
             if self._encounter_type == "Guaranteed Encounters":
                 self._markdown += f"\t{line}\n"
                 return
-            self._markdown += f"\t\t{format_pokemon(line.strip(' -'))}\n"
+
+            pokemon_name = line.strip(' -')
+            self._add_hidden_grotto_encounter(pokemon_name, self._encounter_type)
+            self._markdown += f"\t\t{format_pokemon(pokemon_name)}\n"
 
             if self.peek_line(1) == "":
                 self._markdown += "\t</div>\n"
@@ -177,3 +207,157 @@ class WildAreaChangesParser(BaseParser):
         # Default: regular text line
         else:
             self.parse_default(line)
+
+    def _initialize_location_data(self, location: str) -> None:
+        """Initialize data structure for a location or load existing data.
+
+        Args:
+            location (str): The location name.
+        """
+        # Check if this is a sublocation pattern "XXX - YYY"
+        parent_location = location
+        sublocation_name = None
+
+        if " - " in location:
+            parts = location.split(" - ", 1)
+            parent_location = parts[0]
+            sublocation_name = parts[1]
+
+        # Sanitize filename for parent location
+        filename = re.sub(r'[<>:"/\\|?*]', '_', parent_location)
+        filename = f"{filename}.json"
+        file_path = self._location_data_dir / filename
+
+        # Load existing data if available (from trainer parser)
+        if file_path.exists():
+            with open(file_path, 'r', encoding='utf-8') as f:
+                self._locations_data[parent_location] = json.load(f)
+        else:
+            self._locations_data[parent_location] = {
+                "name": parent_location,
+                "sublocations": {},
+                "wild_encounters": {},
+            }
+
+        # Store the actual location key we're working with
+        self._current_location = parent_location
+        self._current_sublocation = sublocation_name or ""
+
+        # Ensure wild_encounters key exists at parent level
+        if "wild_encounters" not in self._locations_data[parent_location]:
+            self._locations_data[parent_location]["wild_encounters"] = {}
+
+        # If this is a sublocation, ensure it exists in the sublocations dict
+        if sublocation_name:
+            if sublocation_name not in self._locations_data[parent_location]["sublocations"]:
+                self._locations_data[parent_location]["sublocations"][sublocation_name] = {
+                    "name": sublocation_name,
+                    "wild_encounters": {},
+                }
+            # Ensure wild_encounters exists in sublocation
+            if "wild_encounters" not in self._locations_data[parent_location]["sublocations"][sublocation_name]:
+                self._locations_data[parent_location]["sublocations"][sublocation_name]["wild_encounters"] = {}
+
+    def _add_wild_encounter(
+        self, pokemon: str, level: str, chance: str, method: str
+    ) -> None:
+        """Add a wild encounter to the current location or sublocation.
+
+        Args:
+            pokemon (str): The name of the Pokemon.
+            level (str): The level range of the Pokemon.
+            chance (str): The encounter chance percentage.
+            method (str): The encounter method (e.g., "Grass, Normal", "Surf, Dark Spot").
+        """
+        if not self._current_location or not method:
+            return
+
+        pokemon_data = PokeDBLoader.load_pokemon(pokemon)
+        types = pokemon_data.types if pokemon_data else []
+
+        # Handle special cases like '--' for chance
+        try:
+            chance_value = float(chance)
+        except ValueError:
+            chance_value = None
+
+        encounter_entry = {
+            "pokemon": pokemon,
+            "level": level,
+            "chance": chance_value,
+            "types": types,
+        }
+
+        # Determine where to add the encounter (sublocation or main location)
+        if self._current_sublocation:
+            target = self._locations_data[self._current_location]["sublocations"][self._current_sublocation]["wild_encounters"]
+        else:
+            target = self._locations_data[self._current_location]["wild_encounters"]
+
+        # Initialize method in wild_encounters if not exists
+        if method not in target:
+            target[method] = []
+
+        target[method].append(encounter_entry)
+
+    def _add_hidden_grotto_encounter(self, pokemon: str, encounter_type: str) -> None:
+        """Add a hidden grotto encounter to the current location or sublocation.
+
+        Args:
+            pokemon (str): The name of the Pokemon.
+            encounter_type (str): The type of encounter (e.g., "Wild Pokémon", "Items").
+        """
+        if not self._current_location:
+            return
+
+        pokemon_data = PokeDBLoader.load_pokemon(pokemon)
+        types = pokemon_data.types if pokemon_data else []
+
+        # Determine where to add the encounter (sublocation or main location)
+        if self._current_sublocation:
+            target = self._locations_data[self._current_location]["sublocations"][self._current_sublocation]
+        else:
+            target = self._locations_data[self._current_location]
+
+        # Initialize hidden_grotto if not exists
+        if "hidden_grotto" not in target:
+            target["hidden_grotto"] = {}
+
+        if encounter_type not in target["hidden_grotto"]:
+            target["hidden_grotto"][encounter_type] = []
+
+        encounter_entry = {
+            "pokemon": pokemon,
+            "types": types,
+        }
+
+        target["hidden_grotto"][encounter_type].append(encounter_entry)
+
+    def _save_location_data(self, location: str) -> None:
+        """Save location data to a JSON file.
+
+        Args:
+            location (str): The parent location name (without sublocation suffix).
+        """
+        if location not in self._locations_data:
+            return
+
+        # Create data directory if it doesn't exist
+        self._location_data_dir.mkdir(parents=True, exist_ok=True)
+
+        # Sanitize filename (location should already be the parent location)
+        filename = re.sub(r'[<>:"/\\|?*]', '_', location)
+        filename = f"{filename}.json"
+
+        output_path = self._location_data_dir / filename
+
+        with open(output_path, 'w', encoding='utf-8') as f:
+            json.dump(self._locations_data[location], f, indent=2, ensure_ascii=False)
+
+    def finalize(self) -> None:
+        """Finalize parsing and save remaining data."""
+        # Save the last location if any
+        if self._current_location and self._current_location in self._locations_data:
+            self._save_location_data(self._current_location)
+
+        super().finalize()

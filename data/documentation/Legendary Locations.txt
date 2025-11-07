@@ -209,7 +209,7 @@ Travel to Nacrene Mueseum. Next to the form changing meteorite, there's an old m
 
 
 Deoxys
- - Found in the Giants Chasm.
+ - Found in the Giant Chasm.
 
 
 =============================================================
@@ -235,7 +235,7 @@ Azelf
 Sinnoh Creation Deities: Dialga, Palkia, Giratina and Arceus.
 =============================================================
 
- - Met Looker in the Giants Chasm after defeating Ghetsis.
+ - Met Looker in the Giant Chasm after defeating Ghetsis.
  - After having defeated the Champion, travel to Unity tower.
  - Meet Looker in his office and set off hunting for clues.
 	- Travel to Café Sonata.

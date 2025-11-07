@@ -1484,7 +1484,7 @@ Onix [Weak Armor], lv.38: Dragon Dance, Rock Slide, High Horsepower, Thunder Fan
 Sunflora [Solar Power], lv.38: Leaf Tornado, Grass Whistle, Earth Power, Morning Sun
 
 
-Plasma Frigate - First Visit
+PWT - Plasma Frigate (First Visit)
 +++
 
  - Levels -3 on Easy mode, +3 on Challenge mode.
@@ -2177,7 +2177,7 @@ Seadra [Poison Point], lv.50: Aurora Beam, Clear Smog, Muddy Water, Bounce
 Feebas [Swift Swim], lv.50: Splash, Tackle, Flail, Water Pulse
 
 
-Adundant Shrine
+Abundant Shrine
 +++
 
  - Levels -4 on Easy mode, +4 on Challenge mode.
@@ -2793,7 +2793,7 @@ Starmie [Analytic], lv.67 @Rindo Berry: Thunder, Hydro Pump, Psychic, Ice Beam
 Kingdra [Swift Swim], lv.68 @Water Gem: Muddy Water, Dragon Pulse, Hurricane, Flash Cannon
 
 
-Plasma Frigate - Second Visit
+Route 21 - Plasma Frigate (Second Visit)
 +++
 
  - Levels -4 on Easy mode, +4 on Challenge mode.
@@ -2912,7 +2912,7 @@ Flygon [Levitate], lv.62: Earth Power, Dragon Pulse, Bug Buzz, Rock Slide
 Samurott [Water Veil], lv.63: Air Slash, Waterfall, Megahorn, Superpower
 
 
-Giant Chasm and Plasma Frigate - Third Visit
+Giant Chasm - Plasma Frigate (Third Visit)
 +++
 
  - Levels -4 on Easy mode, +4 on Challenge mode.
@@ -3476,7 +3476,7 @@ The Postgame is still broadly undocumented as of v1.2.0, since we've not got a f
 For now, the old documentation for the postgame is presented.
 If anyone in the community would like to document things and spend their own time on it, we'd be happy to integrate the documentation into these official ones.
 
-Important Postgame Trainers
+PWT - Postgame
 +++
 
 Both Steven and Wallace each use six Pokémon each, for a total of twelve Pokémon. Prepare for a brutal endgame fight!
@@ -3500,10 +3500,10 @@ Kabutops [Swift Swim], lv.90 @Rindo Berry: Rock Slide, Waterfall, Leech Life, Kn
 Sharpedo [Speed Boost], lv.90 @Focus Sash: Waterfall, Crunch, Close Combat, Protect
 
 
-Elite Four, Second Matches
+The Pokémon League - Second Matches
 +++
 
-~~~~~ Shauntal ~~~~~
+~~~~~ Shauntal's Room ~~~~~
 
 ○ SHAUNTAL - [Normal mode] - Round Two:
 Jellicent [Cursed Body], lv.86 @Choice Scarf: Water Spout, Shadow Ball, Blizzard, Trick
@@ -3521,7 +3521,7 @@ Golurk [Iron Fist], lv.92 @Rindo Berry: Earthquake, Shadow Punch, Thunder Punch,
 Jellicent [Water Absorb], lv.92 @Mystic Water: Scald, Hex, Will-O-Wisp, Recover
 Chandelure [Shadow Tag], lv.94 @Air Balloon: Fire Blast, Shadow Ball, Energy Ball, Psychic
 
-~~~~~ Grimsley ~~~~~
+~~~~~ Grimsley's Room ~~~~~
 
 ○ GRIMSLEY - [Normal mode] - Round Two:
 Tyranitar [Sand Stream], lv.86 @Chople Berry: Dragon Dance, Stone Edge, Crunch, Earthquake
@@ -3539,7 +3539,7 @@ Weavile [Pressure], lv.92 @Life Orb: Low Kick, Triple Axel, Feint Attack, Ice Sh
 Hydreigon [Levitate], lv.92 @White Herb: Draco Meteor, Nasty Plot, Dark Pulse, Heat Wave
 Spiritomb [Pressure], lv.92 @Leftovers: Icy Wind, Toxic, Protect, Hex
 
-~~~~~ Caitlin ~~~~~
+~~~~~ Caitlin's Room ~~~~~
 
 ○ CAITLIN - [Normal mode] - Round Two:
 Gallade [Justified], lv.86 @Focus Sash: Close Combat, Shadow Sneak, Zen Headbutt, Stone Edge
@@ -3557,7 +3557,7 @@ Darmanitan [Levitate], lv.92 @Life Orb: Heat Wave, Extrasensory, Focus Blast, Gr
 Reuniclus [Magic Guard], lv.92 @Light Clay: Trick Room, Reflect, Focus Blast, Psyshock
 Metagross [Iron Fist*], lv.94 @Colbur Berry: Meteor Mash, Ice Punch, Zen Headbutt, Bullet Punch
 
-~~~~~ Marshal ~~~~~
+~~~~~ Marshal's Room ~~~~~
 
 ○ MARSHAL - [Normal mode] - Round Two:
 Infernape [Iron Fist], lv.86 @Life Orb: Overheat, Close Combat, U-Turn, Mach Punch
@@ -3575,7 +3575,7 @@ Mienshao [Regenerator], lv.92 @Rocky Helmet: Close Combat, Grass Knot, U-Turn, F
 Keldeo [Justified], lv.92 @Expert Belt: Secret Sword, Hydro Pump, Icy Wind, Calm Mind
 Conkeldurr [Guts], lv.94 @Payapa Berry: Drain Punch, Ice Punch, Bulk Up, Mach Punch
 
-~~~~~ Iris ~~~~~
+~~~~~ Iris' Room ~~~~~
 
 ○ CHAMPION IRIS - [Normal mode] - Round Two:
 Haxorus [Mold Breaker], lv.92 @Yache Berry: Outrage, Aqua Tail, Earthquake, Dragon Dance
@@ -3594,7 +3594,7 @@ Serperior [Contrary], lv.96 @Focus Sash: Leaf Storm, Draco Meteor, Glare, Substi
 Rayquaza [Air Lock], lv.98 @Life Orb: Outrage, V-Create, Dragon Dance, Hurricane
 
 
-Hugh, Postgame
+Undella Town - Postgame
 +++
 
 ○ HUGH - Undella Town
@@ -3648,7 +3648,7 @@ Samurott [Shell Armor], lv.84 @Leftovers: Secret Sword, Hydro Pump, Megahorn, Sh
 Camerupt [Simple*], lv.82 @Passho Berry: Flamethrower, Rock Climb, Earthquake, Rock Polish
 
 
-Plasma Frigate, Postgame
+P2 Laboratory - Plasma Frigate (Postgame)
 +++
 
 ○ COLRESS:
@@ -3660,7 +3660,7 @@ Beheeyem [Analytic], lv.86 @Colbur Berry: Psychic, Thunderbolt, Trick Room, Bug 
 Klinklang [Levitate*], lv.88 @Air Balloon: Gear Grind, Shift Gear, Wild Charge, Superpower
 
 
-Icirrus City, Postgame
+Icirrus City - Postgame
 +++
 
 ○ Shadow Triad:
@@ -3744,7 +3744,7 @@ Darmanitan [Sheer Force], lv.82 @Life Orb: Flare Blitz, Rock Slide, Zen Headbutt
 Simisear [Blaze], lv.84 @White Herb: Overheat, Focus Blast, Acrobatics, Grass Knot
 
 
-Benga, Postgame
+Black Tower & White Treehollow - Postgame
 +++
 
 ○ BENGA - White Tree Hollow:
@@ -3842,14 +3842,10 @@ Jynx [Trace*], lv.90 @Quick Claw: Psycho Boost, Blizzard, Psyshock, Focus Blast
 
 
 
-Unovan Gym Leader Rematches, Postgame
+Nacrene City - Postgame
 +++
 
-
-
-~~~~~ Cheren, Postgame ~~~~~
-
-○ LEADER CHEREN - Nacrene City:
+○ LEADER CHEREN - Rematch:
 Cinccino [Skill Link], lv.85 @Wide Lens: Aqua Tail, Tail Slap, Rock Blast, Bullet Seed
 Porygon-Z [Download], lv.85 @Life Orb: Tri Attack, Ice Beam, Thunderbolt, Nasty Plot
 Dodrio [Early Bird], lv.85 @Focus Sash: Brave Bird, Endeavor, Jump Kick, Quick Attack
@@ -3860,9 +3856,7 @@ Stoutland [Intimidate], lv.87 @Chople Berry: Strength, Thunder Wave, Crunch, Ice
 Cheren gets some minor level bonuses on account of beating the Elite Four in the first
 game.
 
-~~~~~ Roxie, Postgame ~~~~~
-
-○ LEADER ROXIE - Nacrene City:
+○ LEADER ROXIE - Rematch:
 Weezing [Levitate], lv.83 @Black Sludge: Sludge Bomb, Toxic Spikes, Flamethrower, Thunderbolt
 Toxicroak [Dry Skin], lv.83 @Life Orb: Drain Punch, Gunk Shot, Sucker Punch, Ice Punch
 Garbodor [Aftermath], lv.83 @Payapa Berry: Gunk Shot, Rock Blast, Payback, Seed Bomb
@@ -3870,9 +3864,7 @@ Nidoqueen [Sheer Force], lv.83 @Life Orb: Sludge Wave, Earth Power, Ice Beam, Th
 Crobat [Infiltrator], lv.83 @Flying Gem: Acrobatics, X-Scissor, Tailwind, Hypnosis
 Scolipede [Speed Boost], lv.85 @Focus Sash: Megahorn, Earthquake, Poison Tail, Swords Dance
 
-~~~~~ Burgh, Postgame ~~~~~
-
-○ LEADER BURGH - Nacrene City:
+○ LEADER BURGH - Rematch:
 Crustle [Sturdy], lv.83 @White Herb: Shell Smash, X-Scissor, Stone Edge, Earthquake
 Masquerain [Intimidate], lv.83 @Wise Glasses: Quiver Dance, Hydro Pump, Hurricane, Bug Buzz
 Scizor [Technician], lv.83 @Life Orb: Bullet Punch, Bug Bite, Night Slash, Superpower
@@ -3880,9 +3872,7 @@ Yanmega [Speed Boost], lv.83 @Life Orb: Bug Buzz, Air Slash, Hypnosis, Giga Drai
 Heracross [Skill Link*], lv.83 @Metronome: Pin Missile, Arm Thrust, Rock Blast, Swords Dance
 Leavanny [Swarm], lv.85 @Focus Sash: Leaf Blade, X-Scissor, Aerial Ace, Swords Dance
 
-~~~~~ Elesa, Postgame ~~~~~
-
-○ LEADER ELESA - Nacrene City:
+○ LEADER ELESA - Rematch:
 Emolga [Static], lv.83 @Flying Gem: Electro Ball, Acrobatics, Thunder Wave, U-Turn
 Ampharos [Static], lv.83 @Air Balloon: Thunderbolt, Dragon Pulse, Signal Beam, Focus Blast
 Galvantula [Compound Eyes], lv.83 @Life Orb: Thunder, Energy Ball, Bug Buzz, Volt Switch
@@ -3890,9 +3880,7 @@ Electivire [Motor Drive], lv.83 @Expert Belt: Wild Charge, Close Combat, Ice Pun
 Eelektross [Levitate], lv.83 @Expert Belt: Discharge, Flamethrower, Grass Knot, Aqua Tail
 Zebstrika [Sap Sipper], lv.85 @Focus Sash: Wild Charge, Flare Blitz, High Horsepower, Volt Switch
 
-~~~~~ Clay, Postgame ~~~~~
-
-○ LEADER CLAY - Nacrene City:
+○ LEADER CLAY - Rematch:
 Hippowdon [Sand Stream], lv.83 @Passho Berry: Earthquake, Stealth Rock, Ice Fang, Thunder Fang
 Mamoswine [Thick Fat], lv.83 @Metronome: Earthquake, Icicle Crash, Stone Edge, Ice Shard
 Seismitoad [Water Absorb], lv.83 @Rindo Berry: Hydro Pump, Earthquake, Ice Punch, Power Whip
@@ -3900,9 +3888,7 @@ Krookodile [Moxie], lv.83 @Chople Berry: Earthquake, Sucker Punch, Aqua Tail, St
 Golurk [Iron Fist], lv.83 @Expert Belt: Earthquake, Shadow Punch, Thunder Punch, Ice Punch
 Excadrill [Sand Rush], lv.85 @Life Orb: Swords Dance, Earthquake, Rock Slide, Iron Head
 
-~~~~~ Skyla, Postgame ~~~~~
-
-○ LEADER SKYLA - Nacrene City:
+○ LEADER SKYLA - Rematch:
 Swanna [Friend Guard*], lv.85 @Life Orb: Scald, Hurricane, Ice Beam, Roost
 Drifblim [Unburden], lv.83 @Petaya Berry: Hurricane, Shadow Ball, Thunderbolt, Substitute
 Sigilyph [Magic Guard], lv.83 @Life Orb: Hurricane, Psyshock, Ice Beam, Heat Wave
@@ -3910,9 +3896,7 @@ Togekiss [Serene Grace], lv.83 @Life Orb: Moonblast, Air Slash, Heat Wave, Roost
 Archeops [Defeatist], lv.83 @Flying Gem: Acrobatics, Earthquake, Stone Edge, U-Turn
 Staraptor [Reckless], lv.83 @Life Orb: Brave Bird, Double-Edge, Close Combat, U-Turn
 
-~~~~~ Drayden, Postgame ~~~~~
-
-○ LEADER DRAYDEN - Nacrene City:
+○ LEADER DRAYDEN - Rematch:
 Flygon [Levitate], lv.87 @Life Orb: Quiver Dance, Bug Buzz, Dragon Pulse, Fire Blast
 Druddigon [Sheer Force], lv.87 @Life Orb: Outrage, Fire Punch, Thunder Punch, Sucker Punch
 Salamence [Moxie], lv.87 @Yache Berry: Dragon Dance, Earthquake, Dual Wingbeat, Outrage
@@ -3920,10 +3904,7 @@ Hydreigon [Levitate], lv.87 @White Herb: Draco Meteor, Nasty Plot, Dark Pulse, F
 Garchomp [Rough Skin], lv.87 @Rocky Helmet: Outrage, Earthquake, Swords Dance, Fire Fang
 Haxorus [Mold Breaker], lv.89 @Focus Sash: Outrage, Earthquake, Cross Poison, Dragon Dance
 
-
-~~~~~ Marlon, Postgame ~~~~~
-
-○ LEADER MARLON - Nacrene City:
+○ LEADER MARLON - Rematch:
 Politoed [Drizzle], lv.83 @Wacan Berry: Scald, Ice Beam, Focus Blast, Hypnosis
 Kingdra [Swift Swim], lv.83 @Life Orb: Draco Meteor, Waterfall, Dragon Dance, Outrage
 Cloyster [Skill Link], lv.83 @Focus Sash: Shell Smash, Icicle Spear, Rock Blast, Razor Shell

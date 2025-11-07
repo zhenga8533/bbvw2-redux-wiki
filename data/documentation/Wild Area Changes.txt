@@ -593,7 +593,7 @@ Basculin-Blue Striped Lv. 18-22 30%                 Basculin-Red Striped Lv. 23-
 
 
 
-~~~~~ Driftveil Drawbridge, Charizard Bridge ~~~~~
+~~~~~ Driftveil Drawbridge ~~~~~
 
 Bridge, Dark Spots:
 ----------------------------------------
@@ -1479,7 +1479,7 @@ Seaking Lv. 50-55 10%
 
 
 
-~~~~~ Giants Chasm - Route 13 ~~~~~
+~~~~~ Giant Chasm - Route 13 ~~~~~
 
 Grass, Normal:                           Grass, Doubles:
 ---------------------------------------- ----------------------------------------
@@ -1505,7 +1505,7 @@ Crobat Lv. 54-58 05%
 
 
 
-~~~~~ Giants Chasm - Entrance Cave ~~~~~
+~~~~~ Giant Chasm - Entrance Cave ~~~~~
 
 Cave, Normal:                            Cave, Dust Cloud:
 ---------------------------------------- ----------------------------------------
@@ -1535,7 +1535,7 @@ Shellos-East Lv. 50-60 30%                  Gastrodon-East Lv. 50-60 05%
 
 
 
-~~~~~ Giants Chasm - Plasma Airship Area ~~~~~
+~~~~~ Giant Chasm - Plasma Airship Area ~~~~~
 
 Grass, Normal:                           Grass, Doubles:
 ---------------------------------------- ----------------------------------------
@@ -1560,7 +1560,7 @@ Vanilluxe Lv. 50 05%
 
 
 
-~~~~~ Giants Chasm - Kyurems Cave ~~~~~
+~~~~~ Giant Chasm - Kyurems Cave ~~~~~
 
 Cave, Normal:                            Cave, Dust Cloud:
 ---------------------------------------- ----------------------------------------
@@ -1837,7 +1837,7 @@ Ursaring Lv. 78 05%
 
 
 
-~~~~~ Route 8, Moor of Icirrus - All Seasons ~~~~~
+~~~~~ Route 8 - Moor of Icirrus ~~~~~
 
 Swamps, Normal:
 ----------------------------------------
@@ -1870,7 +1870,7 @@ Whiscash Lv. 55-65 10%                   Whiscash Lv. 60-70 10%
 
 
 
-~~~~~ Icirrus City - All Seasons ~~~~~
+~~~~~ Icirrus City ~~~~~
 
 Swamps, Normal:
 ----------------------------------------
@@ -2006,7 +2006,7 @@ Zekrom Lv. 75 B2 --%
 
 
 
-~~~~~ Twist Mountain - All Seasons ~~~~~
+~~~~~ Twist Mountain ~~~~~
 
 Cave, Normal:                            Cave, Dust Cloud:
 ---------------------------------------- ----------------------------------------

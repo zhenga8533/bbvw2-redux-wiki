@@ -236,4 +236,13 @@ class BaseParser(ABC):
         # Save markdown
         markdown_path = self.save_markdown()
 
+        # Finalize parser
+        self.finalize()
+
         return markdown_path
+
+    def finalize(self) -> None:
+        """Finalize the parser, performing any necessary cleanup."""
+        self.logger.debug(f"Finalizing parser: {self.__class__.__name__}")
+        # Default implementation does nothing
+        pass
