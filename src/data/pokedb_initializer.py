@@ -2,26 +2,27 @@
 PokeDB initializer to download and set up data from a GitHub repository.
 """
 
-import shutil
-import os
-import requests
-import traceback
-import zipfile
 import io
+import os
+import shutil
+import zipfile
 from pathlib import Path
-from src.utils.core.logger import get_logger
+
+import requests
+
 from src.utils.core.config import (
     POKEDB_BRANCH,
     POKEDB_DATA_DIR,
     POKEDB_GENERATIONS,
     POKEDB_REPO_URL,
 )
+from src.utils.core.logger import get_logger
 
 logger = get_logger(__name__)
 
 
 class PokeDBInitializer:
-    """Download PokeDB data from a GitHub repository and initialize parsed data."""
+    """Initializer for the PokeDB data repository."""
 
     def __init__(self):
         """Initialize the PokeDB initializer with configuration."""
@@ -33,20 +34,13 @@ class PokeDBInitializer:
         self.repo_owner, self.repo_name = self._parse_repo_url()
 
     def _parse_repo_url(self) -> tuple[str, str]:
-        """
-        Parse the repository owner and name from the URL.
+        """Parse the repository URL to extract the owner and repository name.
+
+        Raises:
+            ValueError: If the repository URL is not defined in the config.
 
         Returns:
             tuple[str, str]: A tuple of (owner, repo_name) extracted from the repository URL
-
-        Raises:
-            ValueError: If the repository URL is not defined in the config
-
-        Example:
-            >>> # For URL "https://github.com/owner/repo"
-            >>> owner, repo = self._parse_repo_url()
-            >>> print(owner, repo)
-            'owner' 'repo'
         """
         if not self.repo_url:
             raise ValueError("Repository URL is not defined in the config.")
@@ -54,20 +48,13 @@ class PokeDBInitializer:
         return repo_parts[-2], repo_parts[-1]
 
     def _download_and_extract_repo(self) -> Path:
-        """
-        Download the repository as a zip and extract it to a temporary directory.
-
-        Downloads the repository from GitHub as a zip archive and extracts it to a
-        temporary directory for processing. The temporary directory is created at
-        <data_dir_parent>/temp_pokedb.
-
-        Returns:
-            Path: Path to the extracted repository root directory
+        """Download and extract the PokeDB repository from GitHub.
 
         Raises:
-            requests.exceptions.RequestException: If download fails
-            zipfile.BadZipFile: If the downloaded file is not a valid zip
-            ValueError: If the downloaded zip is empty
+            ValueError: If the downloaded zip is empty.
+
+        Returns:
+            Path: Path to the extracted repository root directory.
         """
         zip_url = f"https://github.com/{self.repo_owner}/{self.repo_name}/archive/refs/heads/{self.branch}.zip"
         logger.info(f"Downloading repository from {zip_url}...")
@@ -89,16 +76,8 @@ class PokeDBInitializer:
 
         return temp_extract_path / repo_root_dir_name
 
-    def _initialize_parsed_data(self):
-        """
-        Copy base generation data to parsed directory for processing.
-
-        Initializes the 'parsed' directory by copying the first generation's data
-        from POKEDB_GENERATIONS. This creates a working copy that can be modified
-        by parsers and generators without affecting the original data.
-
-        The parsed directory will be removed and recreated if it already exists.
-        """
+    def _initialize_parsed_data(self) -> None:
+        """Initialize the parsed data directory."""
         base_gen = POKEDB_GENERATIONS[0]
         base_gen_dir = self.data_dir / base_gen
 
@@ -116,8 +95,14 @@ class PokeDBInitializer:
         shutil.copytree(base_gen_dir, self.parsed_dir)
         logger.info(f"Parsed directory initialized with {base_gen} data")
 
-    def run(self):
-        """Execute the download and initialization process."""
+    def run(self) -> None:
+        """Run the PokeDB initialization process.
+
+        Raises:
+            RuntimeError: If the repository URL is not configured.
+            RuntimeError: If the data directory already exists and is not empty.
+            RuntimeError: If the download and extraction process fails.
+        """
         if not self.repo_url:
             logger.warning(
                 "PokeDB repository URL not configured. Skipping initialization."

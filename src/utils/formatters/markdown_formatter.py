@@ -6,42 +6,38 @@ like Pokemon displays with sprites and links.
 """
 
 from src.data.pokedb_loader import PokeDBLoader
-from src.models.pokedb import Pokemon
-from src.utils.text.text_util import format_display_name, name_to_id
+from src.models.pokedb import Ability, Item, Move, Pokemon
 from src.utils.core.config import POKEDB_SPRITE_VERSION
-from src.utils.data.constants import (
-    TYPE_COLORS,
-)
+from src.utils.data.constants import TYPE_COLORS
+from src.utils.text.text_util import format_display_name, name_to_id
 
 
 def format_checkbox(checked: bool) -> str:
-    """
-    Generate a checkbox input element.
+    """Generate a checkbox input element.
 
     Args:
         checked (bool): Whether the checkbox should be checked.
 
     Returns:
-        str: HTML string for the checkbox input.
+        str: HTML string for the checkbox input element.
+
+    Example:
+        >>> format_checkbox(True)
+        '<input type="checkbox" disabled checked />'
+        >>> format_checkbox(False)
+        '<input type="checkbox" disabled />'
     """
     return f'<input type="checkbox" disabled{" checked" if checked else ""} />'
 
 
 def format_type_badge(type_name: str) -> str:
-    """
-    Format a Pokemon type name with a colored badge using HTML span element.
-
-    This function consolidates the type badge formatting logic previously
-    duplicated in pokemon_generator and move_generator (_format_type methods).
-
-    The badge styling is defined in docs/stylesheets/extra.css (.type-badge class),
-    with only the dynamic background gradient applied as inline style.
+    """Format a Pokemon type name with a colored badge using HTML span element.
 
     Args:
-        type_name: The type name to format (e.g., "fire", "water", "grass")
+        type_name (str): The type name to format (e.g., "fire", "water", "grass")
 
     Returns:
-        HTML span element with styled badge
+        str: HTML span element with styled badge
 
     Example:
         >>> format_type_badge("fire")
@@ -61,31 +57,38 @@ def format_type_badge(type_name: str) -> str:
 
 
 def format_ability(
-    ability_name: str,
+    ability: str | Ability,
     is_linked: bool = True,
-    relative_path: str = "../..",
+    relative_path: str = "..",
 ) -> str:
-    """
-    Format an ability name with optional link to its page.
+    """Format an ability name with optional link to its page.
 
     Args:
-        ability_name: The ability identifier (e.g., "overgrow" or "Overgrow")
-        is_linked: Whether to create a link to the ability's page
-        relative_path: Path to docs root (default: "../.." for pokemon pages, use ".." for changes pages)
+        ability (str | Ability): The ability identifier or object
+        is_linked (bool, optional): Whether to create a link to the ability's page
+        relative_path (str, optional): Path to docs root.
+
     Returns:
         Formatted markdown string for the ability (link or plain text)
+
+    Example:
+        >>> format_ability("overgrow", True, "../..")
+        '[Overgrow](../../pokedex/abilities/overgrow.md)'
+        >>> format_ability("chlorophyll", False)
+        'Chlorophyll'
     """
     # Try to load ability data to check if it exists
-    ability_data = PokeDBLoader.load_ability(ability_name)
-    if not ability_data:
-        # If data doesn't exist, return plain text with formatted name
-        return ability_name.replace("-", " ").title()
+    if isinstance(ability, str):
+        ability_data = PokeDBLoader.load_ability(ability)
+        if not ability_data:
+            # If data doesn't exist, return plain text with formatted name
+            return ability.replace("-", " ").title()
+    else:
+        ability_data = ability
 
     # Use the normalized name from the loaded data for the link
     normalized_name = ability_data.name
-
-    # Format the display name
-    display_name = ability_name.replace("-", " ").title()
+    display_name = format_display_name(ability_data.name)
 
     if is_linked:
         # Create link to ability page using normalized name
@@ -102,23 +105,26 @@ def format_pokemon(
     is_animated: bool = True,
     is_linked: bool = True,
     is_named: bool = False,
-    relative_path: str = "../..",
+    relative_path: str = "..",
 ) -> str:
-    """
-    Format a Pokemon name with its sprite stacked on top, optionally has_link to its Pokedex page.
-
-    Creates markdown with the sprite image above the Pokemon name, centered using attribute lists.
+    """Format a Pokemon with its sprite and name.
 
     Args:
-        pokemon: The Pokemon name (str) or Pokemon object
-        has_sprite: Whether to include the sprite image
-        is_animated: Whether to use the animated sprite if available
-        is_linked: Whether to link the name to its Pokedex entry
-        is_named: Whether to show the Pokemon name as text (when not linked)
-        relative_path: Path to docs root (default: "../.." for pages in subdirectories when use_directory_urls is true)
+        pokemon (str | Pokemon): The Pokemon name or object
+        has_sprite (bool, optional): Whether to include the sprite image. Defaults to True.
+        is_animated (bool, optional): Whether to use the animated sprite if available. Defaults to True.
+        is_linked (bool, optional): Whether to link the name to its Pokedex entry. Defaults to True.
+        is_named (bool, optional): Whether to show the Pokemon name as text (when not linked). Defaults to False.
+        relative_path (str, optional): Path to docs root.
 
     Returns:
-        Markdown string with sprite and name
+        str: Formatted markdown string for the Pokemon
+
+    Example::
+        >>> format_pokemon("bulbasaur", True, True, True, False, "../..")
+        '![bulbasaur](sprite_url){ .sprite }<br>[Bulbasaur](../../pokedex/pokemon/bulbasaur.md)'
+        >>> format_pokemon("charmander", False, False, False, True)
+        'Charmander'
     """
     # Try to load Pokemon data
     if isinstance(pokemon, str):
@@ -168,41 +174,47 @@ def format_pokemon(
 
 
 def format_item(
-    item_name: str,
+    item: str | Item,
     has_sprite: bool = True,
     is_linked: bool = True,
-    relative_path: str = "../..",
+    relative_path: str = "..",
 ) -> str:
-    """
-    Format an item with optional sprite and link to its page.
+    """Format an item with optional sprite and link to its page.
 
     Args:
-        item_name: The item identifier (e.g., "potion" or "Potion")
-        has_sprite: Whether to include the item's sprite image
-        is_linked: Whether to create a link to the item's page
-        relative_path: Path to docs root (default: "../.." for pokemon pages, use ".." for changes pages)
+        item (str | Item): The item identifier or object
+        has_sprite (bool, optional): Whether to include the item's sprite image. Defaults to True.
+        is_linked (bool, optional): Whether to create a link to the item's page. Defaults to True.
+        relative_path (str, optional): Path to docs root.
 
     Returns:
-        Markdown string with sprite and/or link
+        str: Formatted markdown string for the item
+
+    Example:
+        >>> format_item("potion", True, True, "../..")
+        '![Potion](sprite_url){ .item-sprite } [Potion](../../pokedex/items/potion.md)'
+        >>> format_item("rare-candy", False, False)
+        'Rare Candy'
     """
-
-    # Special case for TM/HM items
     move = None
-    if item_name.lower().startswith(("tm", "hm")):
-        item_name, move = (
-            item_name.split(" ", 1) if " " in item_name else (item_name, None)
-        )
-        item_name = name_to_id(item_name)
 
-    # Try to load item data to check if it exists
-    item_data = PokeDBLoader.load_item(item_name)
-    if not item_data:
-        # If data doesn't exist, return plain text with formatted name
-        return format_display_name(item_name)
+    if isinstance(item, str):
+        # Special case for TM/HM items
+        if item.lower().startswith(("tm", "hm")):
+            item_name, move = item.split(" ", 1) if " " in item else (item, None)
+            item_name = name_to_id(item_name)
+
+        # Try to load item data to check if it exists
+        item_data = PokeDBLoader.load_item(item)
+        if not item_data:
+            # If data doesn't exist, return plain text with formatted name
+            return format_display_name(item)
+    else:
+        item_data = item
 
     # Use the normalized name from the loaded data for the link
     normalized_name = item_data.name
-    display_name = format_display_name(item_name)
+    display_name = format_display_name(item_data.name)
 
     parts = []
 
@@ -230,32 +242,38 @@ def format_item(
 
 
 def format_move(
-    move_name: str,
+    move: str | Move,
     is_linked: bool = True,
-    relative_path: str = "../..",
+    relative_path: str = "..",
 ) -> str:
-    """
-    Format a move name with optional link to its page.
+    """Format a move name with optional link to its page.
 
     Args:
-        move_name: The move identifier (e.g., "thunderbolt" or "Thunderbolt")
-        is_linked: Whether to create a link to the move's page
-        relative_path: Path to docs root (default: "../.." for pokemon pages, use ".." for changes pages)
+        move (str | Move): The move identifier or object
+        is_linked (bool, optional): Whether to create a link to the move's page. Defaults to True.
+        relative_path (str, optional): Path to docs root.
 
     Returns:
-        Formatted markdown string for the move (link or plain text)
+        str: Formatted markdown string for the move (link or plain text)
+
+    Example:
+        >>> format_move("tackle", True, "../..")
+        '[Tackle](../../pokedex/moves/tackle.md)'
+        >>> format_move("ember", False)
+        'Ember'
     """
     # Try to load move data to check if it exists
-    move_data = PokeDBLoader.load_move(move_name)
-    if not move_data:
-        # If data doesn't exist, return plain text with formatted name
-        return move_name.replace("-", " ").title()
+    if isinstance(move, str):
+        move_data = PokeDBLoader.load_move(move)
+        if not move_data:
+            # If data doesn't exist, return plain text with formatted name
+            return move.replace("-", " ").title()
+    else:
+        move_data = move
 
     # Use the normalized name from the loaded data for the link
     normalized_name = move_data.name
-
-    # Format the display name
-    display_name = move_name.replace("-", " ").title()
+    display_name = format_display_name(move_data.name)
 
     if is_linked:
         # Create link to move page using normalized name
@@ -271,15 +289,19 @@ def format_pokemon_card_grid(
     relative_path: str = "../pokemon",
     extra_info: list[str] | None = None,
 ) -> str:
-    """
-    Format one or more Pokemon as markdown content for MkDocs Material grid cards.
+    """Format a list of Pokemon into a markdown grid.
 
     Args:
-        pokemon: List of Pokemon names (str) or Pokemon objects
-        relative_path: Relative path to the pokemon directory
+        pokemon (list[str | Pokemon]): A list of Pokemon names or objects to include in the grid.
+        relative_path (str, optional): The relative path to the Pokemon documentation. Defaults to "../pokemon".
+        extra_info (list[str] | None, optional): Additional information to include for each Pokemon. Defaults to None.
 
     Returns:
-        Concatenated markdown string for card content (each item suitable to be used inside a list item)
+        str: The formatted markdown grid for the Pokemon.
+
+    Example:
+        >>> format_pokemon_card_grid(['bulbasaur', 'charmander'], '../pokemon', ['Grass type', 'Fire type'])
+        '<div class="grid cards" markdown>\n\n-	[![Bulbasaur](sprite_url){: .pokemon-sprite-img }](../pokemon/bulbasaur.md)\n\n\t***\n\n\t**#001 [Bulbasaur](../pokemon/bulbasaur.md)**\n\n\tGrass type\n\n\n\n-	[![Charmander](sprite_url){: .pokemon-sprite-img }](../pokemon/charmander.md)\n\n\t***\n\n\t**#004 [Charmander](../pokemon/charmander.md)**\n\n\tFire type\n\n\n\n</div>'
     """
     cards = []
 

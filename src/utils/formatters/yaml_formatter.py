@@ -5,47 +5,52 @@ This module provides functionality to load and save mkdocs.yml files
 while preserving MkDocs-specific YAML tags like !ENV.
 """
 
-import yaml
+import logging
 from pathlib import Path
-from typing import Dict, Any
+from typing import Any, Dict, Optional
+
+import yaml
 
 
 class EnvVar:
-    """
-    Wrapper for !ENV tag values to preserve them during load/dump cycles.
+    """Wrapper for !ENV tag values to preserve them during load/dump cycles."""
 
-    MkDocs uses !ENV tags to reference environment variables in configuration.
-    This class wraps those values so they can be properly preserved when
-    reading and writing mkdocs.yml files.
-    """
-    def __init__(self, value):
+    def __init__(self, value: Any):
+        """Initialize the EnvVar wrapper.
+
+        Args:
+            value (Any): The value to wrap.
+        """
         self.value = value
 
 
 class PythonName:
-    """
-    Wrapper for !!python/name: tag values to preserve them during load/dump cycles.
+    """Wrapper for !!python/name: tag values to preserve them during load/dump cycles."""
 
-    MkDocs uses !!python/name: tags to reference Python objects/functions.
-    This class wraps those values so they can be properly preserved when
-    reading and writing mkdocs.yml files.
-    """
-    def __init__(self, value):
+    def __init__(self, value: str):
+        """Initialize the PythonName wrapper.
+
+        Args:
+            value (str): The Python object path to wrap.
+        """
         self.value = value
 
 
 class MkDocsLoader(yaml.SafeLoader):
     """Custom YAML loader that handles MkDocs-specific tags like !ENV and !!python/name:"""
+
     pass
 
 
-def env_constructor(loader, node):
-    """
-    Handle !ENV tags in mkdocs.yml - can be scalar or sequence.
+def env_constructor(loader: MkDocsLoader, node: yaml.Node) -> EnvVar:
+    """Construct an EnvVar from a YAML node.
 
-    Examples:
-        !ENV VARIABLE_NAME -> EnvVar("VARIABLE_NAME")
-        !ENV [CI, false] -> EnvVar(["CI", False])
+    Args:
+        loader (MkDocsLoader): The YAML loader instance
+        node (yaml.Node): The YAML node to construct from
+
+    Returns:
+        EnvVar: The constructed EnvVar instance
     """
     if isinstance(node, yaml.ScalarNode):
         return EnvVar(loader.construct_scalar(node))
@@ -55,16 +60,18 @@ def env_constructor(loader, node):
         return EnvVar(loader.construct_object(node))
 
 
-def python_name_constructor(loader, tag_suffix, node):
-    """
-    Handle !!python/name: tags in mkdocs.yml.
+def python_name_constructor(
+    loader: MkDocsLoader, tag_suffix: str, node: yaml.Node
+) -> PythonName:
+    """Construct a PythonName from a YAML node.
 
-    The tag suffix contains the Python object path (e.g., 'material.extensions.emoji.twemoji').
-    We wrap it in PythonName to preserve it during load/dump cycles.
+    Args:
+        loader (MkDocsLoader): The YAML loader instance
+        tag_suffix (str): The suffix of the tag (object path)
+        node (yaml.Node): The YAML node to construct from
 
-    Examples:
-        !!python/name:material.extensions.emoji.twemoji
-        -> PythonName("material.extensions.emoji.twemoji")
+    Returns:
+        PythonName: The constructed PythonName instance
     """
     return PythonName(tag_suffix)
 
@@ -72,40 +79,49 @@ def python_name_constructor(loader, tag_suffix, node):
 # Register the !ENV constructor
 MkDocsLoader.add_constructor("!ENV", env_constructor)
 # Register the !!python/name: multi-constructor to handle all python/name tags
-MkDocsLoader.add_multi_constructor("tag:yaml.org,2002:python/name:", python_name_constructor)
+MkDocsLoader.add_multi_constructor(
+    "tag:yaml.org,2002:python/name:", python_name_constructor
+)
 
 
 class MkDocsDumper(yaml.SafeDumper):
     """Custom YAML dumper that preserves MkDocs-specific tags like !ENV and !!python/name:"""
+
     pass
 
 
-def env_representer(dumper, data):
-    """
-    Preserve !ENV tags when dumping YAML.
+def env_representer(dumper: MkDocsDumper, data: EnvVar) -> yaml.Node:
+    """Represent an EnvVar instance as a YAML node.
 
-    This representer ensures that EnvVar objects are written back
-    with the !ENV tag and proper formatting.
+    Args:
+        dumper (MkDocsDumper): The YAML dumper instance
+        data (EnvVar): The EnvVar instance to represent
+
+    Returns:
+        yaml.Node: The YAML node representation of the EnvVar instance
     """
     if isinstance(data.value, list):
         # For sequences like [CI, false], create sequence node with !ENV tag
         # and flow style (inline representation)
         return yaml.SequenceNode(
-            tag='!ENV',
+            tag="!ENV",
             value=[dumper.represent_data(item) for item in data.value],
-            flow_style=True
+            flow_style=True,
         )
     else:
         # For scalars
         return dumper.represent_scalar("!ENV", str(data.value))
 
 
-def python_name_representer(dumper, data):
-    """
-    Preserve !!python/name: tags when dumping YAML.
+def python_name_representer(dumper: MkDocsDumper, data: PythonName) -> yaml.Node:
+    """Represent a PythonName instance as a YAML node.
 
-    This representer ensures that PythonName objects are written back
-    with the !!python/name: tag. The tag includes the object path.
+    Args:
+        dumper (MkDocsDumper): The YAML dumper instance
+        data (PythonName): The PythonName instance to represent
+
+    Returns:
+        yaml.Node: The YAML node representation of the PythonName instance
     """
     tag = f"tag:yaml.org,2002:python/name:{data.value}"
     return dumper.represent_scalar(tag, "")
@@ -118,18 +134,17 @@ MkDocsDumper.add_representer(PythonName, python_name_representer)
 
 
 def load_mkdocs_config(mkdocs_path: Path) -> Dict[str, Any]:
-    """
-    Load mkdocs.yml configuration file with custom tag support.
+    """Load mkdocs.yml configuration file with custom tag support.
 
     Args:
-        mkdocs_path: Path to mkdocs.yml file
-
-    Returns:
-        Dictionary containing the parsed configuration
+        mkdocs_path (Path): Path to mkdocs.yml file
 
     Raises:
         FileNotFoundError: If mkdocs.yml doesn't exist
         yaml.YAMLError: If the YAML is invalid
+
+    Returns:
+        Dict[str, Any]: The parsed configuration
     """
     if not mkdocs_path.exists():
         raise FileNotFoundError(f"mkdocs.yml not found at {mkdocs_path}")
@@ -139,15 +154,11 @@ def load_mkdocs_config(mkdocs_path: Path) -> Dict[str, Any]:
 
 
 def save_mkdocs_config(mkdocs_path: Path, config: Dict[str, Any]) -> None:
-    """
-    Save mkdocs.yml configuration file with custom tag support.
+    """Save mkdocs.yml configuration file with custom tag support.
 
     Args:
-        mkdocs_path: Path to mkdocs.yml file
-        config: Dictionary containing the configuration to save
-
-    Raises:
-        IOError: If the file cannot be written
+        mkdocs_path (Path): Path to mkdocs.yml file
+        config (Dict[str, Any]): Configuration data to save
     """
     with open(mkdocs_path, "w", encoding="utf-8") as f:
         yaml.dump(
@@ -161,29 +172,14 @@ def save_mkdocs_config(mkdocs_path: Path, config: Dict[str, Any]) -> None:
 
 
 def update_mkdocs_nav(mkdocs_path: Path, nav_section: Dict[str, Any]) -> bool:
-    """
-    Update the navigation section of mkdocs.yml while preserving other sections.
-
-    This function specifically updates the "nav" key in mkdocs.yml while
-    preserving all other configuration including custom tags like !ENV.
+    """Update the navigation section of mkdocs.yml while preserving other sections.
 
     Args:
-        mkdocs_path: Path to mkdocs.yml file
-        nav_section: Dictionary containing the new navigation structure
+        mkdocs_path (Path): Path to mkdocs.yml file
+        nav_section (Dict[str, Any]): Navigation section to update or add
 
     Returns:
-        True if update succeeded, False otherwise
-
-    Example:
-        nav_section = {
-            "Pokédex": [
-                {"Overview": "pokedex/pokedex.md"},
-                {"Gen 5": [
-                    {"#494 Victini": "pokedex/pokemon/victini.md"}
-                ]}
-            ]
-        }
-        update_mkdocs_nav(Path("mkdocs.yml"), nav_section)
+        bool: True if update succeeded, False if it failed
     """
     try:
         config = load_mkdocs_config(mkdocs_path)
@@ -221,35 +217,22 @@ def update_pokedex_subsection(
     mkdocs_path: Path,
     subsection_name: str,
     nav_items: list,
-    logger = None
+    logger: Optional[logging.Logger] = None,
 ) -> bool:
-    """
-    Update or create a subsection within the Pokédex navigation section.
-
-    This function consolidates the common pattern used by all generators to update
-    their respective subsections (Pokémon, Moves, Items, Abilities) within the
-    Pokédex section of mkdocs.yml navigation.
+    """Update or create a subsection within the Pokédex navigation section.
 
     Args:
-        mkdocs_path: Path to mkdocs.yml file
-        subsection_name: Name of the subsection to update (e.g., "Pokémon", "Moves", "Items", "Abilities")
-        nav_items: List of navigation items for the subsection
-        logger: Optional logger for logging messages
-
-    Returns:
-        bool: True if update succeeded, False if it failed
+        mkdocs_path (Path): Path to mkdocs.yml file
+        subsection_name (str): Name of the subsection to update (e.g., "Pokémon", "Moves", "Items", "Abilities")
+        nav_items (list): List of navigation items for the subsection
+        logger (Optional[logging.Logger], optional): Logger for logging messages. Defaults to None.
 
     Raises:
-        ValueError: If mkdocs.yml doesn't have nav section or Pokédex section
+        ValueError: If mkdocs.yml is malformed or missing required sections
+        ValueError: If Pokédex section is missing in nav
 
-    Example:
-        >>> abilities_nav = [
-        ...     {"Overview": "pokedex/abilities.md"},
-        ...     {"Gen III": [
-        ...         {"Soundproof": "pokedex/abilities/soundproof.md"}
-        ...     ]}
-        ... ]
-        >>> update_pokedex_subsection(Path("mkdocs.yml"), "Abilities", abilities_nav)
+    Returns:
+        bool: True if the update was successful, False otherwise
     """
     try:
         if not mkdocs_path.exists():

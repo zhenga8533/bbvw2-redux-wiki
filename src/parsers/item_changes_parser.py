@@ -15,14 +15,19 @@ from .base_parser import BaseParser
 
 
 class ItemChangesParser(BaseParser):
-    """
-    Parser for Item Changes documentation.
+    """Parser for Item Changes documentation.
 
-    Extracts item change information and generates markdown.
+    Args:
+        BaseParser (_type_): Abstract base parser class.
     """
 
     def __init__(self, input_file: str, output_dir: str = "docs"):
-        """Initialize the Item Changes parser."""
+        """Initialize the Item Changes parser.
+
+        Args:
+            input_file (str): Path to the input file.
+            output_dir (str, optional): Path to the output directory. Defaults to "docs".
+        """
         super().__init__(input_file=input_file, output_dir=output_dir)
         self._sections = [
             "EVless Mode Information",
@@ -49,17 +54,29 @@ class ItemChangesParser(BaseParser):
         self._is_table_open = False
 
     def handle_section_change(self, new_section: str) -> None:
-        """Handle state reset on section change."""
+        """Handle state reset on section change.
+
+        Args:
+            new_section (str): The new section being parsed.
+        """
         self._current_location = ""
         self._is_table_open = False
         return super().handle_section_change(new_section)
 
     def parse_evless_mode_information(self, line: str) -> None:
-        """Parse lines under the EVless Mode Information section."""
+        """Parse lines under the EVless Mode Information section.
+
+        Args:
+            line (str): Line of text to parse.
+        """
         self.parse_default(line)
 
     def parse_modified_items(self, line: str) -> None:
-        """Parse lines under the Modified Items section."""
+        """Parse lines under the Modified Items section.
+
+        Args:
+            line (str): Line of text to parse.
+        """
         # Match: " - <old_item> -> <new_item>"
         if match := re.match(r"^ - ([a-zA-Z\s]+) -> ([a-zA-Z\s]+)$", line):
             if not self._in_replace:
@@ -68,8 +85,8 @@ class ItemChangesParser(BaseParser):
                 self._in_replace = True
 
             old_item, new_item = match.groups()
-            old_item_md = format_item(old_item, relative_path="..")
-            new_item_md = format_item(new_item, relative_path="..")
+            old_item_md = format_item(old_item)
+            new_item_md = format_item(new_item)
 
             self._markdown += f"| {old_item_md} | {new_item_md} |\n"
         # Match: " - <item> ($<old_cost> -> $<new_cost>)"
@@ -81,13 +98,13 @@ class ItemChangesParser(BaseParser):
                 self._in_adjust_cost = True
 
             item, old_cost, new_cost = match.groups()
-            item_md = format_item(item, relative_path="..")
+            item_md = format_item(item)
 
             self._markdown += f"| {item_md} | ${old_cost} | ${new_cost} |\n"
         # Match: " - <item>"
         elif match := re.match(r"^ - (.*)$", line):
             item = match.group(1)
-            item_md = format_item(item, relative_path="..")
+            item_md = format_item(item)
 
             self._markdown += f"- {item_md}\n"
         # Default: regular text line
@@ -95,15 +112,19 @@ class ItemChangesParser(BaseParser):
             self.parse_default(line)
 
     def parse_pickup_table_changes(self, line: str) -> None:
-        """Parse lines under the Pickup Table Changes section."""
+        """Parse lines under the Pickup Table Changes section.
+
+        Args:
+            line (str): Line of text to parse.
+        """
         # Match: " - All instances of a <old_item> have been replaced with a <new_item>."
         if match := re.match(
             r"^ - All instances of a ([a-zA-Z\s']+) have been replaced with a ([a-zA-Z\s']+)\.$",
             line,
         ):
             old_item, new_item = match.groups()
-            old_item_md = format_item(old_item, relative_path="..")
-            new_item_md = format_item(new_item, relative_path="..")
+            old_item_md = format_item(old_item)
+            new_item_md = format_item(new_item)
 
             self._markdown += f"- All instances of a {old_item_md} have been replaced with a {new_item_md}.\n"
         # Default: regular text line
@@ -111,11 +132,19 @@ class ItemChangesParser(BaseParser):
             self.parse_default(line)
 
     def parse_castelia_berry_guy_battle_subway_and_pwt_prizes(self, line: str) -> None:
-        """Parse lines under the Castelia Berry Guy, Battle Subway and PWT Prizes section."""
+        """Parse lines under the Castelia Berry Guy, Battle Subway and PWT Prizes section.
+
+        Args:
+            line (str): Line of text to parse.
+        """
         self.parse_default(line)
 
     def parse_item_locations(self, line: str) -> None:
-        """Parse lines under the Item Locations section."""
+        """Parse lines under the Item Locations section.
+
+        Args:
+            line (str): Line of text to parse.
+        """
         # Match: "~~~~~ <location> ~~~~~"
         if match := re.match(r"^~+\s*(.*?)\s*~+$", line):
             self._current_location = match.group(1)
@@ -131,7 +160,7 @@ class ItemChangesParser(BaseParser):
                 self._markdown += "| Old Item | New Item | Hidden |\n"
                 self._markdown += "|:---------|:---------|:------:|\n"
 
-            self._format_items_line(line)
+            self._markdown += self._format_items_line(line)
         # Default: regular text line
         else:
             self.parse_default(line)
@@ -139,7 +168,14 @@ class ItemChangesParser(BaseParser):
     def _extract_item_quantities(
         self, items_list: list[str]
     ) -> tuple[list[str], list[str | None]]:
-        """Parses item strings, separating item names from quantities."""
+        """Extract item names and quantities from a list of item strings.
+
+        Args:
+            items_list (list[str]): List of item strings to parse.
+
+        Returns:
+            tuple[list[str], list[str | None]]: Tuple containing list of item names and list of quantities.
+        """
         items = []
         quantities = []
         for item_str in items_list:
@@ -160,7 +196,16 @@ class ItemChangesParser(BaseParser):
         quantities: list[str | None],
         extra_text: str = "",
     ) -> str:
-        """Formats a list of items and quantities into a markdown table cell."""
+        """Format item column for markdown table.
+
+        Args:
+            items (list[str]): List of item names.
+            quantities (list[str  |  None]): List of item quantities.
+            extra_text (str, optional): Extra text to prepend to the column. Defaults to "".
+
+        Returns:
+            str: Formatted markdown table cell.
+        """
         # Handle empty column
         if not items:
             return "—"
@@ -170,7 +215,7 @@ class ItemChangesParser(BaseParser):
             quantity = quantities[i]
 
             # Format the base item name
-            item_md = format_item(item, relative_path="..")
+            item_md = format_item(item)
 
             # Add quantity if it exists
             if quantity:
@@ -187,7 +232,15 @@ class ItemChangesParser(BaseParser):
 
         return items_str
 
-    def _format_items_line(self, line: str) -> None:
+    def _format_items_line(self, line: str) -> str:
+        """Format a line of item changes for markdown table.
+
+        Args:
+            line (str): Line of text to parse.
+
+        Returns:
+            str: Formatted markdown table row.
+        """
         raw_old_items, raw_new_items = [], []
         old_extra, new_extra = "", ""
 
@@ -219,10 +272,15 @@ class ItemChangesParser(BaseParser):
         hidden_md = format_checkbox(is_hidden)
 
         # 4. Assemble the final table row
-        self._markdown += f"| {old_col_md} | {new_col_md} | {hidden_md} |\n"
+        md = f"| {old_col_md} | {new_col_md} | {hidden_md} |\n"
+        return md
 
     def parse_modified_marts(self, line: str) -> None:
-        """Parse lines under the Modified Marts section."""
+        """Parse lines under the Modified Marts section.
+
+        Args:
+            line (str): Line of text to parse.
+        """
         # Match: "~~~~~ <location> ~~~~~"
         if match := re.match(r"^~+\s*(.*?)\s*~+$", line):
             self._current_location = match.group(1)
@@ -231,14 +289,18 @@ class ItemChangesParser(BaseParser):
         # Match: " - <item>"
         elif line.startswith(" - "):
             item = line[3:].strip()
-            item_md = format_item(item, relative_path="..")
+            item_md = format_item(item)
             self._markdown += f"- {item_md}\n"
         # Default: regular text line
         else:
             self.parse_default(line)
 
     def parse_modified_tms_locations(self, line: str) -> None:
-        """Parse lines under the Modified TMs + Locations section."""
+        """Parse lines under the Modified TMs + Locations section.
+
+        Args:
+            line (str): Line of text to parse.
+        """
         # Match: table header "TM #    Move                            Location in Redux"
         if line == "TM #    Move                            Location in Redux":
             self._is_table_open = True
@@ -252,7 +314,7 @@ class ItemChangesParser(BaseParser):
             parts = re.split(r"\s{3,}", line)
             if len(parts) == 3:
                 tm_number, move_name, location = parts
-                tm_html = format_item(tm_number, relative_path="..")
+                tm_html = format_item(tm_number)
                 self._markdown += f"| {tm_html} | {move_name} | {location} |\n"
             else:
                 self.logger.warning(f"Unexpected TM table row format: '{line}'")

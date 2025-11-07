@@ -19,34 +19,17 @@ def run_components(
     component_type: str,
     instantiate_component: Callable[[tuple[Any, ...]], Any],
 ) -> bool:
-    """
-    Run specified components (parsers or generators) with unified error handling.
-
-    This generic function consolidates the logic for running parsers and generators,
-    including validation, execution, error handling, and result reporting.
+    """Run specified components (parsers or generators) with unified error handling.
 
     Args:
-        component_names: List of component names to run (or ['all'] for all components)
-        registry: Registry mapping component names to (Class, *args) tuples
-        component_type: Type of component for logging ('parser' or 'generator')
-        instantiate_component: Function that takes a registry tuple and returns an
+        component_names (list[str]): List of component names to run (or ['all'] for all components)
+        registry (dict[str, tuple[Any, ...]]): Registry mapping component names to (Class, *args) tuples
+        component_type (str): Type of component for logging ('parser' or 'generator')
+        instantiate_component (Callable[[tuple[Any, ...]], Any]): Function that takes a registry tuple and returns an
                               instantiated component ready to run
 
     Returns:
         bool: True if all components succeeded, False if any failed
-
-    Example:
-        >>> # For parsers
-        >>> def instantiate_parser(registry_tuple):
-        >>>     ParserClass, input_file, output_dir = registry_tuple
-        >>>     return ParserClass(input_file, output_dir)
-        >>> run_components(['all'], parser_registry, 'parser', instantiate_parser)
-
-        >>> # For generators
-        >>> def instantiate_generator(registry_tuple):
-        >>>     GeneratorClass, output_dir = registry_tuple
-        >>>     return GeneratorClass(output_dir)
-        >>> run_components(['all'], generator_registry, 'generator', instantiate_generator)
     """
     # Determine which components to run
     if "all" in component_names:
@@ -113,12 +96,11 @@ def run_components(
 def run_parsers(
     parser_names: list[str], parser_registry: dict[str, tuple[Any, str, str]]
 ) -> bool:
-    """
-    Run specified parsers.
+    """Run specified parsers.
 
     Args:
-        parser_names: List of parser names to run (or ['all'] for all parsers)
-        parser_registry: Registry mapping parser names to (ParserClass, input_file, output_dir) tuples
+        parser_names (list[str]): List of parser names to run (or ['all'] for all parsers)
+        parser_registry (dict[str, tuple[Any, str, str]]): Registry mapping parser names to (ParserClass, input_file, output_dir) tuples
 
     Returns:
         bool: True if all parsers succeeded, False if any failed
@@ -134,12 +116,11 @@ def run_parsers(
 def run_generators(
     generator_names: list[str], generator_registry: dict[str, tuple[Any, str]]
 ) -> bool:
-    """
-    Run specified generators.
+    """Run specified generators.
 
     Args:
-        generator_names: List of generator names to run (or ['all'] for all generators)
-        generator_registry: Registry mapping generator names to (GeneratorClass, output_dir) tuples
+        generator_names (list[str]): List of generator names to run (or ['all'] for all generators)
+        generator_registry (dict[str, tuple[Any, str]]): Registry mapping generator names to (GeneratorClass, output_dir) tuples
 
     Returns:
         bool: True if all generators succeeded, False if any failed

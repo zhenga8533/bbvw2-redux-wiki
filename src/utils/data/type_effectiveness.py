@@ -15,26 +15,18 @@ from src.utils.data.constants import TYPE_CHART
 
 
 def calculate_type_effectiveness(types: list[str]) -> dict[str, list[str]]:
-    """
-    Calculate type effectiveness for a Pokemon with one or two types.
+    """Calculate type effectiveness for a Pokemon with one or two types.
 
     Args:
-        types: List of 1-2 type names (lowercase, e.g., ["fire", "flying"])
+        types (list[str]): List of 1-2 type names (lowercase, e.g., ["fire", "flying"])
 
     Returns:
-        Dictionary containing:
+        dict[str, list[str]]: Dictionary containing:
         - "4x_weak": Types that deal 4x damage
         - "2x_weak": Types that deal 2x damage
         - "0.5x_resist": Types that deal 0.5x damage
         - "0.25x_resist": Types that deal 0.25x damage
         - "immune": Types that deal 0x damage (immune)
-
-    Example:
-        >>> effectiveness = calculate_type_effectiveness(["fire", "flying"])
-        >>> effectiveness["4x_weak"]
-        ['rock']
-        >>> effectiveness["immune"]
-        ['ground']
     """
     # Track damage multipliers for each attacking type
     weak_multiplier: dict[str, float] = {}

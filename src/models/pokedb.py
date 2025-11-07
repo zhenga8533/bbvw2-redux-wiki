@@ -22,6 +22,8 @@ from typing import Any, Literal, Optional
 
 from click import Option
 
+from src.utils.data.constants import POKEMON_FORM_SUBFOLDERS
+
 # region Enums and Constants
 # Pokemon Constants
 MIN_ABILITY_SLOT = 1
@@ -57,9 +59,9 @@ def _load_generation_config():
     """Load generation-specific configuration from config constants."""
     try:
         from src.utils.core.config import (
-            POKEDB_VERSION_GROUPS,
             POKEDB_GAME_VERSIONS,
             POKEDB_SPRITE_VERSION,
+            POKEDB_VERSION_GROUPS,
         )
 
         return {
@@ -763,16 +765,15 @@ class Form:
     """Represents a Pokémon form (e.g., Mega Charizard X)."""
 
     name: str
-    category: Literal["default", "cosmetic", "transformation", "variant"]
+    category: str
 
     def __post_init__(self):
         """Validate form fields."""
         if not isinstance(self.name, str) or not self.name.strip():
             raise ValueError(f"name must be a non-empty string, got: {self.name}")
-        valid_categories = {"default", "cosmetic", "transformation", "variant"}
-        if self.category not in valid_categories:
+        if self.category not in POKEMON_FORM_SUBFOLDERS:
             raise ValueError(
-                f"category must be one of {valid_categories}, got: {self.category}"
+                f"category must be one of {POKEMON_FORM_SUBFOLDERS}, got: {self.category}"
             )
 
 
@@ -904,7 +905,6 @@ class EvolutionDetails:
         def _validate_optional_int(
             val: Optional[int], name: str, min_val: int, max_val: int
         ):
-            """Helper to validate an optional integer within a range."""
             if val is not None and (
                 not isinstance(val, int) or not (min_val <= val <= max_val)
             ):

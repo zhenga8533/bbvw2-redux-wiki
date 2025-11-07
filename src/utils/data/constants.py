@@ -165,11 +165,7 @@ TYPE_CHART: dict[str, dict[str, list[str]]] = {
 # Pokemon Form Subfolders
 # ============================================================================
 
-# All Pokemon form categories including cosmetic forms
-POKEMON_FORM_SUBFOLDERS_ALL = ["default", "transformation", "variant", "cosmetic"]
-
-# Standard Pokemon form categories (excludes cosmetic forms)
-POKEMON_FORM_SUBFOLDERS_STANDARD = ["default", "transformation", "variant"]
+POKEMON_FORM_SUBFOLDERS = ["default", "transformation", "variant", "cosmetic"]
 
 # ============================================================================
 # Move/Damage Class Icons

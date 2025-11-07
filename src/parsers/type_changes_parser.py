@@ -15,39 +15,35 @@ from .base_parser import BaseParser
 
 
 class TypeChangesParser(BaseParser):
-    """
-    Parser for Type Changes documentation.
+    """Parser for Type Changes documentation.
 
-    Extracts type changes and updates Pokemon JSON files.
+    Args:
+        BaseParser (_type_): Abstract base parser class.
     """
 
     def __init__(self, input_file: str, output_dir: str = "docs"):
-        """Initialize the Type Changes parser."""
+        """Initialize the Type Changes parser.
+
+        Args:
+            input_file (str): Path to the input file.
+            output_dir (str, optional): Path to the output directory. Defaults to "docs".
+        """
         super().__init__(input_file=input_file, output_dir=output_dir)
         self._sections = ["General Notes", "Pokémon Type Changes"]
 
     def parse_general_notes(self, line: str) -> None:
-        """Parse the General Notes section."""
+        """Parse the General Notes section.
+
+        Args:
+            line (str): Line of text to parse.
+        """
         self.parse_default(line)
 
     def parse_pokemon_type_changes(self, line: str) -> None:
-        """
-        Parse the Pokémon Type Changes section containing the type change table.
-
-        Processes lines that describe Pokemon type modifications in the hack, including:
-        - Table headers showing column names
-        - Table separator rows with dashes
-        - Data rows: "#<number> <pokemon>   <old type>   <new type>   <justification>"
-
-        The parser generates a markdown table with columns for:
-        - Pokedex number
-        - Pokemon name (with sprite and link)
-        - Old type combination
-        - New type combination
-        - Justification for the change
+        """Parse the Pokémon Type Changes section containing the type change table.
 
         Args:
-            line: A single line from the Type Changes documentation file
+            line (str): Line of text to parse.
         """
         # Match: "Pokémon                 Old Type            New Type                Justification"
         if (
@@ -67,20 +63,23 @@ class TypeChangesParser(BaseParser):
             )
         # Match: "#<number> <pokemon>   <old type>   <new type>   <justification>"
         elif line.startswith("#"):
-            self._format_type_change_row(line)
+            self._markdown += self._format_type_change_row(line)
         # Default: regular text line
         else:
             self.parse_default(line)
 
-    def _format_type_change_row(self, line: str) -> None:
+    def _format_type_change_row(self, line: str) -> str:
         """Format a row in the type change table.
 
         Args:
             line (str): A line from the type change table.
+
+        Returns:
+            str: A formatted markdown table row.
         """
         pokemon, old_type, new_type, justification = re.split(r"\s{3,}", line)
         number, pokemon = pokemon.split(" ", 1)
-        pokemon_html = format_pokemon(pokemon, relative_path="..")
+        pokemon_html = format_pokemon(pokemon)
 
         # Format old and new types with badges
         old_types = old_type.split(" / ")
@@ -98,4 +97,5 @@ class TypeChangesParser(BaseParser):
             ]
         )
 
-        self._markdown += f"| {number} | {pokemon_html} | {old_type_html} | {new_type_html} | {justification_lines} |\n"
+        md = f"| {number} | {pokemon_html} | {old_type_html} | {new_type_html} | {justification_lines} |\n"
+        return md

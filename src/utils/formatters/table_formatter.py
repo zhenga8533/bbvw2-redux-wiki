@@ -7,22 +7,21 @@ the wiki's formatting guidelines as defined in TABLE_STANDARDS.md.
 
 from typing import Optional
 
-from src.utils.core.config import POKEDB_GAME_VERSIONS
-from src.utils.text.text_util import format_display_name
-
 
 def create_table_header(
     columns: list[str], alignments: Optional[list[str]] = None
 ) -> str:
-    """
-    Create a markdown table header with proper alignment markers.
+    """Create a markdown table header with proper alignment markers.
 
     Args:
-        columns: list of column names
-        alignments: list of alignment values ('left', 'center', 'right'). If None, all columns default to 'left'.
+        columns (list[str]): List of column names
+        alignments (Optional[list[str]], optional): List of alignment values ('left', 'center', 'right'). If None, all columns default to 'left'.
+
+    Raises:
+        ValueError: If the number of alignments does not match the number of columns
 
     Returns:
-        Markdown string with table header and separator line
+        str: Markdown string with table header and separator line
 
     Example:
         >>> create_table_header(['Name', 'Type', 'Power'], ['left', 'left', 'center'])
@@ -57,14 +56,13 @@ def create_table_header(
 
 
 def create_table_row(cells: list[str]) -> str:
-    """
-    Create a markdown table row.
+    """Create a markdown table row.
 
     Args:
-        cells: list of cell contents
+        cells (list[str]): List of cell contents
 
     Returns:
-        Markdown string for the table row
+        str: Markdown string for the table row
 
     Example:
         >>> create_table_row(['Bulbasaur', 'Grass', '45'])
@@ -78,21 +76,19 @@ def create_table(
     rows: list[list[str]],
     alignments: Optional[list[str]] = None,
 ) -> str:
-    """
-    Create a complete markdown table.
+    """Create a complete markdown table.
 
     Args:
-        headers: list of column headers
-        rows: list of rows, where each row is a list of cell contents
-        alignments: list of alignment values for each column
+        headers (list[str]): List of column headers
+        rows (list[list[str]]): List of rows, where each row is a list of cell contents
+        alignments (Optional[list[str]], optional): List of alignment values for each column. Defaults to None.
 
     Returns:
-        Complete markdown table as a string
+        str: Complete markdown table as a string
 
-    Example:
-        >>> headers = ['Name', 'Type', 'Power']
-        >>> rows = [['Tackle', 'Normal', '40'], ['Ember', 'Fire', '40']]
-        >>> create_table(headers, rows, ['left', 'left', 'center'])
+    Example::
+        >>> create_table(['Name', 'Type', 'Power'], [['Tackle', 'Normal', '40'], ['Ember', 'Fire', '40']], ['left', 'left', 'center'])
+        '| Name   | Type   | Power |\n|--------|--------|:-----:|\n| Tackle | Normal |  40  |\n| Ember  | Fire   |  40  |'
     """
     table = create_table_header(headers, alignments)
 

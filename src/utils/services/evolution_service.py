@@ -32,16 +32,15 @@ class EvolutionService:
         keep_existing: bool = False,
         processed: Optional[set] = None,
     ) -> EvolutionChain:
-        """
-        Update an evolution chain with new evolution details.
+        """Update an evolution chain with new evolution details.
 
         Args:
-            pokemon_id: ID of the Pokemon that is evolving
-            evolution_id: ID of the evolution target
-            evolution_chain: The evolution chain to update
-            evolution_details: The new evolution details
-            keep_existing: If True, add to existing methods; if False, replace
-            processed: Set of pokemon_ids already processed (for internal use)
+            pokemon_id (str): ID of the Pokemon that is evolving
+            evolution_id (str): ID of the evolution target
+            evolution_chain (EvolutionChain): The evolution chain to update
+            evolution_details (EvolutionDetails): The new evolution details
+            keep_existing (bool, optional): If True, add to existing methods; if False, replace
+            processed (Optional[set], optional): Set of pokemon_ids already processed (for internal use)
 
         Returns:
             EvolutionChain: The updated evolution chain
@@ -82,16 +81,11 @@ class EvolutionService:
         evolves_to: list[EvolutionNode],
         evolution_id: str,
     ) -> None:
-        """
-        Clean out ALL existing evolution methods for the target evolution.
-
-        Removes all evolution paths to the target species, so they can be
-        replaced with new evolution details. This ensures we don't have
-        duplicate evolution paths when replacing (not adding) evolution data.
+        """Clean out ALL existing evolution methods for the target evolution.
 
         Args:
-            evolves_to: List of evolution nodes to clean
-            evolution_id: The ID of the evolution target to clean
+            evolves_to (list[EvolutionNode]): List of evolution nodes to clean
+            evolution_id (str): The ID of the evolution target to remove
         """
         # Use reverse iteration to safely remove items while iterating
         for i in range(len(evolves_to) - 1, -1, -1):
@@ -105,15 +99,14 @@ class EvolutionService:
         details1: EvolutionDetails,
         details2: EvolutionDetails,
     ) -> bool:
-        """
-        Compare two evolution details objects for equality.
+        """Compare two evolution details objects for equality.
 
         Args:
-            details1: First evolution details object
-            details2: Second evolution details object
+            details1 (EvolutionDetails): The first evolution details object
+            details2 (EvolutionDetails): The second evolution details object
 
         Returns:
-            True if the evolution details are equivalent, False otherwise
+            bool: True if the evolution details are equivalent, False otherwise
         """
         # Compare all relevant fields
         return (
@@ -143,20 +136,12 @@ class EvolutionService:
         evolution_id: str,
         evolution_details: EvolutionDetails,
     ) -> None:
-        """
-        Apply new evolution details to the target evolution.
-
-        If an evolution node exists for the target (when keep_existing=True),
-        it creates a copy with the new details for alternate evolution methods.
-        If no evolution node exists (after cleaning or for new evolutions),
-        it creates a new node with the details.
-
-        This method now checks for duplicate evolution methods before adding them.
+        """Apply new evolution details to the target evolution.
 
         Args:
-            evolves_to: List of evolution nodes to update
-            evolution_id: The ID of the evolution target
-            evolution_details: The new evolution details to apply
+            evolves_to (list[EvolutionNode]): List of evolution nodes to update
+            evolution_id (str): ID of the evolution target
+            evolution_details (EvolutionDetails): New evolution details to apply
         """
         # Check if this exact evolution method already exists
         for evo in evolves_to:
@@ -198,21 +183,16 @@ class EvolutionService:
         keep_existing: bool,
         processed: set,
     ) -> None:
-        """
-        Recursively update evolution nodes in the chain.
-
-        This method traverses the evolution chain tree to find the Pokemon
-        that is evolving (pokemon_id), then updates its evolution to the
-        target (evolution_id) with new details.
+        """Recursively update evolution nodes in the chain.
 
         Args:
-            original_chain: The root of the evolution chain
-            evolution_node: Current node being processed
-            pokemon_id: ID of the Pokemon that is evolving
-            evolution_id: ID of the evolution target
-            evolution_details: New evolution details to apply
-            keep_existing: If True, add to existing methods; if False, replace
-            processed: Set tracking which Pokemon have been processed
+            original_chain (EvolutionChain): The root evolution chain
+            evolution_node (EvolutionChain | EvolutionNode): The current evolution node
+            pokemon_id (str): The ID of the Pokemon being evolved
+            evolution_id (str): The ID of the evolution target
+            evolution_details (EvolutionDetails): The new evolution details to apply
+            keep_existing (bool): If True, keep existing evolution methods; if False, replace them
+            processed (set): Set of processed Pokemon IDs
         """
         species_name = evolution_node.species_name
         evolves_to = evolution_node.evolves_to
@@ -261,14 +241,13 @@ class EvolutionService:
 
     @staticmethod
     def _collect_all_species(node: EvolutionChain | EvolutionNode) -> set[str]:
-        """
-        Recursively collect all species IDs in an evolution chain.
+        """Collect all species IDs in an evolution chain.
 
         Args:
-            node: The evolution chain or node to traverse
+            node (EvolutionChain | EvolutionNode): The evolution chain or node to traverse
 
         Returns:
-            Set of all species IDs in the chain
+            set[str]: A set of all species IDs in the chain
         """
         species_ids = {node.species_name}
         for evolution in node.evolves_to:
@@ -277,11 +256,11 @@ class EvolutionService:
 
     @staticmethod
     def _save_evolution_node(pokemon_id: str, evolution_chain: EvolutionChain):
-        """
-        Save the evolution node to all form files for this Pokemon.
+        """Save the evolution chain for a specific Pokemon.
 
-        This ensures that Pokemon with multiple forms (e.g., wormadam-plant,
-        wormadam-sandy) all get the updated evolution chain.
+        Args:
+            pokemon_id (str): ID of the Pokemon to save the evolution chain for
+            evolution_chain (EvolutionChain): The evolution chain to save
         """
         # Get all form files and the pre-loaded base Pokemon object
         form_files, base_pokemon_data = PokeDBLoader.find_all_form_files(pokemon_id)

@@ -12,14 +12,11 @@ This generator:
 """
 
 from pathlib import Path
-from typing import Optional, Any
+from typing import Any, Optional
 
 from src.data.pokedb_loader import PokeDBLoader
 from src.models.pokedb import Item
-from src.utils.core.config import (
-    POKEDB_GAME_VERSIONS,
-    VERSION_GROUP,
-)
+from src.utils.core.config import POKEDB_GAME_VERSIONS, VERSION_GROUP
 from src.utils.formatters.table_formatter import create_table
 from src.utils.text.text_util import format_display_name
 

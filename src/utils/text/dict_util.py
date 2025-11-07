@@ -9,27 +9,13 @@ from typing import Any
 
 
 def get_most_common_value(dictionary: dict[str, Any]) -> Any | None:
-    """
-    Get the most common value from a dictionary.
-
-    If there's a tie, returns the first value in insertion order.
-    None values are filtered out before counting.
+    """Get the most common value from a dictionary.
 
     Args:
-        dictionary: Dictionary with any keys and values
+        dictionary (dict[str, Any]): Dictionary with any keys and values
 
     Returns:
-        The most common value, or None if dict is empty or all values are None
-
-    Examples:
-        >>> get_most_common_value({"a": "x", "b": "x", "c": "y"})
-        'x'
-        >>> get_most_common_value({"a": 1, "b": 2, "c": 1})
-        1
-        >>> get_most_common_value({"a": None, "b": None})
-        None
-        >>> get_most_common_value({})
-        None
+        Any | None: The most common value, or None if the dictionary is empty or has no non-None values.
     """
     if not dictionary:
         return None

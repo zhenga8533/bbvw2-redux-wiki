@@ -14,14 +14,19 @@ from .base_parser import BaseParser
 
 
 class TradeChangesParser(BaseParser):
-    """
-    Parser for Trade Changes documentation.
+    """Parser for Trade Changes documentation.
 
-    Extracts trade change information and generates markdown.
+    Args:
+        BaseParser (_type_): Abstract base parser class.
     """
 
     def __init__(self, input_file: str, output_dir: str = "docs"):
-        """Initialize the Trade Changes parser."""
+        """Initialize the Trade Changes parser.
+
+        Args:
+            input_file (str): Path to the input file.
+            output_dir (str, optional): Path to the output directory. Defaults to "docs".
+        """
         super().__init__(input_file=input_file, output_dir=output_dir)
         self._sections = ["General Notes", "Trade Pokémon", "Trade Items"]
 
@@ -30,11 +35,19 @@ class TradeChangesParser(BaseParser):
         self._current_pokemon = None
 
     def parse_general_notes(self, line: str) -> None:
-        """Parse a line in the General Notes section."""
+        """Parse a line in the General Notes section.
+
+        Args:
+            line (str): Line of text to parse.
+        """
         self.parse_default(line)
 
     def parse_trade_pokemon(self, line: str) -> None:
-        """Parse a line in the Trade Pokémon section."""
+        """Parse a line in the Trade Pokémon section.
+
+        Args:
+            line (str): Line of text to parse.
+        """
         # Match: "Pokémon Trade"
         if match := re.match(r"^([a-zA-z]+) Trade\.*", line):
             pokemon = match.group(1)
@@ -62,5 +75,9 @@ class TradeChangesParser(BaseParser):
             self.parse_default(line)
 
     def parse_trade_items(self, line: str) -> None:
-        """Parse a line in the Trade Items section."""
+        """Parse a line in the Trade Items section.
+
+        Args:
+            line (str): Line of text to parse.
+        """
         self.parse_default(line)

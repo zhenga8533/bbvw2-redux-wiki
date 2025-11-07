@@ -15,14 +15,19 @@ from .base_parser import BaseParser
 
 
 class LegendaryLocationsParser(BaseParser):
-    """
-    Parser for Legendary Locations documentation.
+    """Parser for Legendary Locations documentation.
 
-    Extracts legendary Pokemon location information and generates markdown.
+    Args:
+        BaseParser (_type_): Abstract base parser class.
     """
 
     def __init__(self, input_file: str, output_dir: str = "docs"):
-        """Initialize the Legendary Locations parser."""
+        """Initialize the Legendary Locations parser.
+
+        Args:
+            input_file (str): Path to the input file.
+            output_dir (str, optional): Path to the output directory. Defaults to "docs".
+        """
         super().__init__(input_file=input_file, output_dir=output_dir)
         self._sections = ["General Information", "Legendary Encounters"]
 
@@ -31,36 +36,18 @@ class LegendaryLocationsParser(BaseParser):
         self.in_encounter = False
 
     def parse_general_information(self, line: str) -> None:
-        """Parse lines under the General Information section."""
+        """Parse lines under the General Information section.
+
+        Args:
+            line (str): Line of text to parse.
+        """
         self.parse_default(line)
 
     def parse_legendary_encounters(self, line: str) -> None:
-        """
-        Parse the Legendary Encounters section containing location data.
-
-        Processes lines describing where legendary Pokemon can be found, organized by epitaph.
-        Each epitaph groups several legendary encounters together, followed by detailed
-        location information for each Pokemon.
-
-        Format expected:
-            Epitaph Name: Pokemon1, Pokemon2, and Pokemon3.
-            Pokemon1
-             - Location detail line
-            Pokemon2
-             - Location detail line
-            Pokemon3
-             - Location detail line
-
-        The parser generates a markdown table for each epitaph group with columns:
-        - Pokemon name (with sprite and link)
-        - Encounter details (location, level, conditions)
+        """Parse lines under the Legendary Encounters section.
 
         Args:
-            line: A single line from the Legendary Locations documentation file
-
-        Side Effects:
-            - Updates self._encounters set to track Pokemon names in current epitaph
-            - Sets self.in_encounter flag when processing an encounter table
+            line (str): Line of text to parse.
         """
         # Match: "Epitaph: encounter1, encounter2, and encounter3."
         if match := re.match(r"^([^:]+):\s*([^.]+)\.$", line):
@@ -75,7 +62,7 @@ class LegendaryLocationsParser(BaseParser):
                 self._markdown += f"|:-------:|-------------------|\n"
                 self.in_encounter = True
 
-            self._markdown += f"| {format_pokemon(line, relative_path='..')} | "
+            self._markdown += f"| {format_pokemon(line)} | "
             self._encounters.remove(line)
         # Match: " - detail" (encounter detail line)
         elif self.in_encounter and line.startswith(" - "):

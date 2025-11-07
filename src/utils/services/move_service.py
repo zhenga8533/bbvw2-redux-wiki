@@ -8,9 +8,9 @@ import orjson
 
 from src.data.pokedb_loader import PokeDBLoader
 from src.models.pokedb import GameVersionStringMap
-from src.utils.text.dict_util import get_most_common_value
 from src.utils.core.config import POKEDB_GENERATIONS, POKEDB_VERSION_GROUPS
 from src.utils.core.logger import get_logger
+from src.utils.text.dict_util import get_most_common_value
 from src.utils.text.text_util import name_to_id
 
 logger = get_logger(__name__)
@@ -21,16 +21,11 @@ class MoveService:
 
     @staticmethod
     def _normalize_version_group_fields(data: dict[str, Any], field_name: str) -> None:
-        """
-        Normalize version group fields to only include configured version groups.
-
-        Removes extra version groups from other generations and adds missing ones.
-        Uses the most common value from existing version groups.
-        Modifies the data dict in place.
+        """Normalize version group fields to only include configured version groups.
 
         Args:
-            data: The move data dictionary
-            field_name: Name of the field to process (e.g., "accuracy", "type")
+            data (dict[str, Any]): The move data dictionary.
+            field_name (str): The name of the field to process (e.g., "accuracy", "type").
         """
         if field_name not in data:
             return
@@ -48,7 +43,9 @@ class MoveService:
         normalized_value = {}
         for version_group in POKEDB_VERSION_GROUPS:
             # Use existing value if present, otherwise use most common
-            normalized_value[version_group] = field_value.get(version_group, most_common)
+            normalized_value[version_group] = field_value.get(
+                version_group, most_common
+            )
             if version_group not in field_value:
                 logger.debug(f"Added {version_group} to {field_name}: {most_common}")
 
@@ -57,16 +54,13 @@ class MoveService:
 
     @staticmethod
     def _process_move_data(data: dict[str, Any]) -> dict[str, Any]:
-        """
-        Process move data by normalizing version group fields to match config.
-
-        Removes extra version groups from other generations and adds missing ones.
+        """Process move data by normalizing version group fields to match config.
 
         Args:
-            data: Raw move JSON data
+            data (dict[str, Any]): The move data dictionary.
 
         Returns:
-            Modified move data with normalized version group fields
+            dict[str, Any]: The modified move data with normalized version group fields.
         """
         # Fields that use GameVersionIntMap or GameVersionStringMap
         version_fields = [
@@ -87,16 +81,10 @@ class MoveService:
 
     @staticmethod
     def copy_new_move(move_name: str) -> bool:
-        """
-        Copy a new move from newer generation to parsed data folder.
-
-        Processes move data to add configured version group fields
-        with the most common value across all existing version groups.
-
-        Does NOT delete old moves or overwrite existing moves.
+        """Copy a new move from newer generation to parsed data folder.
 
         Args:
-            move_name: Name of the move to copy
+            move_name (str): Name of the move to copy
 
         Returns:
             bool: True if copied, False if skipped or error
@@ -116,7 +104,9 @@ class MoveService:
 
         # Check if source exists
         if not source_path.exists():
-            logger.warning(f"Move '{move_name}' not found in {source_gen}: {source_path}")
+            logger.warning(
+                f"Move '{move_name}' not found in {source_gen}: {source_path}"
+            )
             return False
 
         # Skip if destination already exists
@@ -145,7 +135,9 @@ class MoveService:
                     )
                 )
 
-            logger.info(f"Copied and processed move '{move_name}' from {source_gen} to parsed")
+            logger.info(
+                f"Copied and processed move '{move_name}' from {source_gen} to parsed"
+            )
             return True
         except (OSError, IOError, ValueError) as e:
             logger.warning(f"Error copying move '{move_name}': {e}")
@@ -153,15 +145,11 @@ class MoveService:
 
     @staticmethod
     def update_move_type(move_name: str, new_type: str) -> bool:
-        """
-        Change the type of an existing move in the parsed data folder.
-
-        Uses PokeDBLoader to load the Move dataclass, modifies it,
-        and saves it back using PokeDBLoader.save_move().
+        """Update the type of an existing move in the parsed data folder.
 
         Args:
-            move_name: Name of the move to modify
-            new_type: New type to set for the move
+            move_name (str): Name of the move to modify
+            new_type (str): New type to set for the move
 
         Returns:
             bool: True if modified, False if error
@@ -190,15 +178,12 @@ class MoveService:
 
     @staticmethod
     def update_move_attribute(move_name: str, attribute: str, new_value: str) -> bool:
-        """
-        Update an attribute of an existing move in the parsed data folder.
-
-        Supports: Power, PP, Priority, Accuracy, Type
+        """Update an attribute of an existing move in the parsed data folder.
 
         Args:
-            move_name: Name of the move to modify
-            attribute: Attribute to modify (case-insensitive)
-            new_value: New value to set for the attribute
+            move_name (str): Name of the move to modify
+            attribute (str): Attribute to update (e.g., "power", "pp", "priority", "accuracy", "type")
+            new_value (str): New value to set for the attribute
 
         Returns:
             bool: True if modified, False if error

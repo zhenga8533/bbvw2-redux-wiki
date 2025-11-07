@@ -17,28 +17,14 @@ logger = get_logger(__name__)
 def get_component_registry(
     component_config: dict[str, dict[str, Any]], config_keys: tuple[str, ...]
 ) -> dict[str, tuple[Any, ...]]:
-    """
-    Get the registry of available components by dynamically loading them from the config.
-
-    This generic function works for both parsers and generators by extracting the
-    appropriate configuration, dynamically importing modules and classes, and
-    building a registry dictionary.
+    """Get the registry of available components by dynamically loading them from the config.
 
     Args:
-        component_config: The configuration dictionary for the components
-        config_keys: Optional tuple of additional config keys to extract for each component
-                    (e.g., ('input_file', 'output_dir') for parsers)
+        component_config (dict[str, dict[str, Any]]): Configuration dictionary for components
+        config_keys (tuple[str, ...]): Tuple of additional config keys to extract for each component
 
     Returns:
-        dict: Registry mapping component names to tuples of (ComponentClass, *additional_values)
-              - For parsers: (ParserClass, input_file, output_dir)
-              - For generators: (GeneratorClass, output_dir)
-
-    Example:
-        >>> # Load parser registry
-        >>> parser_registry = get_component_registry(config.PARSERS_REGISTRY, ('input_file', 'output_dir'))
-        >>> # Load generator registry
-        >>> generator_registry = get_component_registry(config.GENERATORS_REGISTRY, ('output_dir',))
+        dict[str, tuple[Any, ...]]: Registry mapping component names to tuples of (ComponentClass, *additional_values)
     """
     registry = {}
 
@@ -69,11 +55,10 @@ def get_component_registry(
 
 
 def get_parser_registry() -> dict[str, tuple[Any, str, str]]:
-    """
-    Get the registry of available parsers.
+    """Get the registry of available parsers.
 
     Returns:
-        dict: Registry mapping parser names to (ParserClass, input_file, output_dir) tuples
+        dict[str, tuple[Any, str, str]]: Registry mapping parser names to (ParserClass, input_file, output_dir) tuples
     """
     return get_component_registry(config.PARSERS_REGISTRY, ("input_file", "output_dir"))
 
@@ -83,6 +68,6 @@ def get_generator_registry() -> dict[str, tuple[Any, str]]:
     Get the registry of available generators.
 
     Returns:
-        dict: Registry mapping generator names to (GeneratorClass, output_dir) tuples
+        dict[str, tuple[Any, str]]: Registry mapping generator names to (GeneratorClass, output_dir) tuples
     """
     return get_component_registry(config.GENERATORS_REGISTRY, ("output_dir",))

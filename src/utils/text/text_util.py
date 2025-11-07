@@ -5,8 +5,8 @@ This module provides common text processing utilities used throughout the codeba
 including name formatting with special cases, ID generation, and string comparison operations.
 """
 
-import re
 import itertools
+import re
 import string
 
 from src.utils.data.constants import (
@@ -17,33 +17,13 @@ from src.utils.data.constants import (
 
 
 def name_to_id(name: str) -> str:
-    """
-    Convert a name to a standardized ID format.
-
-    Converts to lowercase, replaces spaces with hyphens, and removes
-    non-alphanumeric characters (except hyphens). This is used for
-    file names and string values in the JSON data.
-
-    Note: JSON field names use snake_case, but this function produces
-    kebab-case for file names and data values.
+    """Convert a name to a standardized ID format.
 
     Args:
-        name: The name to convert.
+        name (str): The name to convert.
 
     Returns:
-        A standardized ID string (lowercase, kebab-case, alphanumeric only).
-
-    Examples:
-        >>> name_to_id("Mr. Mime")
-        'mr-mime'
-        >>> name_to_id("Farfetch'd")
-        'farfetchd'
-        >>> name_to_id("Ho-Oh")
-        'ho-oh'
-        >>> name_to_id("Nidoran♀")
-        'nidoran'
-        >>> name_to_id("Type: Null")
-        'type-null'
+        str: A standardized ID string (lowercase, kebab-case, alphanumeric only).
     """
     # Convert to lowercase, replace spaces with hyphens, and remove non-alphanumeric characters
     id_str = name.replace("é", "e")
@@ -58,38 +38,15 @@ def format_display_name(
     special_cases: dict[str, str] = {},
     special_abbreviations: dict[str, str] = {},
 ) -> str:
-    """
-    Format a name for display with proper capitalization and special case handling.
-
-    This function consolidates the name formatting logic previously duplicated across
-    multiple generators (_format_name methods in pokemon_generator, move_generator, etc.).
-    It handles special characters, applies title case, and processes both whole-name
-    special cases and abbreviation replacements within names.
+    """Format a name for display with proper capitalization and special case handling.
 
     Args:
-        name: The name to format (e.g., "nidoran-f", "u-turn", "exp-share")
-        special_cases: Optional dict mapping lowercase names to their special-cased versions
-                      (e.g., {"nidoran f": "Nidoran♀", "u turn": "U-turn"})
-        special_abbreviations: Optional dict mapping abbreviations to their replacements
-                              (e.g., {"tm": "TM", "hp": "HP", "pp": "PP"})
-                              These are applied within the name after title casing
+        name (str): The name to format.
+        special_cases (dict[str, str], optional): Mapping of lowercase names to their special-cased versions. Defaults to {}.
+        special_abbreviations (dict[str, str], optional): Mapping of abbreviations to their replacements. Defaults to {}.
 
     Returns:
-        The formatted display name with proper capitalization
-
-    Examples:
-        >>> # Pokemon special cases
-        >>> format_display_name("nidoran-f", {"nidoran f": "Nidoran♀"})
-        'Nidoran♀'
-        >>> # Move special cases
-        >>> format_display_name("u-turn", {"u turn": "U-turn"})
-        'U-turn'
-        >>> # Item with abbreviations
-        >>> format_display_name("exp-share", special_abbreviations={"exp": "Exp"})
-        'Exp Share'
-        >>> # Default title case
-        >>> format_display_name("pikachu")
-        'Pikachu'
+        str: The formatted display name.
     """
     # Handle special characters and formatting
     formatted_name = name.replace("-", " ").replace("_", " ")
@@ -120,17 +77,14 @@ def format_display_name(
 
 
 def strip_common_prefix(string1: str, string2: str) -> str:
-    """
-    Removes the longest identical starting substring shared between string1 and string2
-    from string2, including any common trailing punctuation like ', ' or ' '.
+    """Remove the longest identical starting substring shared between string1 and string2
 
     Args:
-        string1: The reference string (e.g., 'Surf, Normal').
-        string2: The string to be stripped (e.g., 'Surf, Dark Spot').
+        string1 (str): The first string to compare.
+        string2 (str): The second string to compare.
 
     Returns:
-        The remainder of string2 after the common prefix and any common separators
-        are removed (e.g., 'Dark Spot').
+        str: The portion of string2 that comes after the common prefix.
     """
     common_chars = itertools.takewhile(
         lambda pair: pair[0] == pair[1], zip(string1, string2)
@@ -146,17 +100,14 @@ def strip_common_prefix(string1: str, string2: str) -> str:
 
 
 def strip_common_suffix(string1: str, string2: str) -> str:
-    """
-    Removes the longest identical ending substring shared between string1 and string2
-    from string2, including any common leading punctuation like ', ' or ' '.
+    """Remove the longest identical ending substring shared between string1 and string2
 
     Args:
-        string1: The reference string (e.g., 'Blue, Normal').
-        string2: The string to be stripped (e.g., 'Red, Normal').
+        string1 (str): The first string to compare.
+        string2 (str): The second string to compare.
 
     Returns:
-        The remainder of string2 after the common suffix and any common separators
-        are removed (e.g., 'Red').
+        str: The portion of string2 that comes after the common suffix.
     """
     # 1. Find the longest common suffix
     common_chars = itertools.takewhile(
@@ -179,19 +130,14 @@ def strip_common_suffix(string1: str, string2: str) -> str:
 
 
 def extract_form_suffix(pokemon_name: str, base_name: str) -> str:
-    """
-    Extract the form suffix from a Pokemon name.
+    """Extract the form suffix from a Pokemon name.
 
     Args:
-        pokemon_name: Full Pokemon name (e.g., "giratina-altered")
-        base_name: Base species name (e.g., "giratina")
+        pokemon_name (str): The full name of the Pokemon.
+        base_name (str): The base name of the Pokemon.
 
     Returns:
-        The form suffix, or empty string if no suffix exists.
-        Examples:
-            - ("giratina-altered", "giratina") -> "altered"
-            - ("rotom", "rotom") -> ""
-            - ("darmanitan-zen", "darmanitan") -> "zen"
+        str: The form suffix, or empty string if no suffix exists.
     """
     if pokemon_name.startswith(base_name):
         suffix = pokemon_name[len(base_name) :].lstrip("-")

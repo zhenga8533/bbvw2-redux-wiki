@@ -19,36 +19,16 @@ class PokemonService:
     def update_attribute(
         pokemon: str, attribute: str, value: str, forme: str = ""
     ) -> bool:
-        """
-        Update an attribute of an existing Pokemon in the parsed data folder.
-
-        Supported attributes:
-        - Base Stats: HP, Attack, Defense, Sp.Atk, Sp.Def, Speed
-        - Type: Single or dual typing
-        - Ability: Regular abilities and hidden ability
-        - EVs: Effort Value yields
-        - Base Happiness: Initial friendship/happiness value
-        - Base Experience: Experience gained when defeated
-        - Catch Rate: Capture probability
-        - Gender Ratio: Male/Female distribution
-
-        Version handling:
-        - "(Complete / Classic)": Applied (same for both versions)
-        - "(Complete)": Applied (Complete version only)
-        - "(Classic)": Skipped (Classic-only changes are ignored)
-
-        Forme handling:
-        - If forme is provided, appends "-{forme}" to pokemon_id
-        - Example: pokemon="Deoxys", forme="attack" -> "deoxys-attack"
+        """Update an attribute of an existing Pokemon in the parsed data folder.
 
         Args:
-            pokemon: Name of the Pokemon to modify
-            attribute: Attribute to modify (e.g., "Base Stats (Complete)", "Ability (Complete / Attack Forme)")
-            value: New value to set for the attribute
-            forme: Optional forme name (e.g., "attack", "defense", "plant")
+            pokemon (str): The name of the Pokemon to update.
+            attribute (str): The attribute to update (e.g., "Base Stats", "Type").
+            value (str): The new value for the attribute.
+            forme (str, optional): The forme of the Pokemon (e.g., "attack", "defense"). Defaults to "".
 
         Returns:
-            bool: True if modified, False if error or skipped
+            bool: True if the attribute was updated successfully, False otherwise.
         """
         # Normalize pokemon name and append forme if present
         pokemon_id = name_to_id(pokemon)
@@ -124,16 +104,15 @@ class PokemonService:
 
     @staticmethod
     def _update_base_stats(pokemon_id: str, pokemon_data: Pokemon, value: str) -> bool:
-        """
-        Update base stats for a Pokemon.
+        """Update base stats for a Pokemon.
 
         Args:
-            pokemon_id: Pokemon ID
-            pokemon_data: Pokemon dataclass object
-            value: Base stats string (e.g., "80 HP / 82 Atk / 83 Def / 100 SAtk / 100 SDef / 80 Spd / 525 BST")
+            pokemon_id (str): The ID of the Pokemon to update.
+            pokemon_data (Pokemon): The Pokemon dataclass object.
+            value (str): The new base stats string (e.g., "80 HP / 82 Atk / 83 Def / 100 SAtk / 100 SDef / 80 Spd / 525 BST").
 
         Returns:
-            bool: True if successful
+            bool: True if the base stats were updated successfully, False otherwise.
         """
         # Parse: "80 HP / 82 Atk / 83 Def / 100 SAtk / 100 SDef / 80 Spd / 525 BST"
         parts = value.split(" / ")
@@ -171,16 +150,15 @@ class PokemonService:
 
     @staticmethod
     def _update_type(pokemon_id: str, pokemon_data: Pokemon, value: str) -> bool:
-        """
-        Update type for a Pokemon.
+        """Update type for a Pokemon.
 
         Args:
-            pokemon_id: Pokemon ID
-            pokemon_data: Pokemon dataclass object
-            value: Type string (e.g., "Fire / Dragon" or "Fire")
+            pokemon_id (str): The ID of the Pokemon to update.
+            pokemon_data (Pokemon): The Pokemon dataclass object.
+            value (str): The new type string (e.g., "Fire / Dragon" or "Fire").
 
         Returns:
-            bool: True if successful
+            bool: True if the type was updated successfully, False otherwise.
         """
         # Parse: "Fire / Dragon" or "Fire"
         types = [name_to_id(t.strip()) for t in value.split(" / ")]
@@ -196,16 +174,15 @@ class PokemonService:
 
     @staticmethod
     def _update_ability(pokemon_id: str, pokemon_data: Pokemon, value: str) -> bool:
-        """
-        Update abilities for a Pokemon.
+        """Update abilities for a Pokemon.
 
         Args:
-            pokemon_id: Pokemon ID
-            pokemon_data: Pokemon dataclass object
-            value: Ability string (e.g., "Overgrow / Overgrow / Chlorophyll")
+            pokemon_id (str): The ID of the Pokemon to update.
+            pokemon_data (Pokemon): The Pokemon dataclass object.
+            value (str): The new ability string (e.g., "Overgrow / Overgrow / Chlorophyll").
 
         Returns:
-            bool: True if successful
+            bool: True if the abilities were updated successfully, False otherwise.
         """
         # Parse: "ability1 / ability2 / hidden_ability"
         abilities = [name_to_id(a.strip()) for a in value.split(" / ")]
@@ -235,16 +212,18 @@ class PokemonService:
 
     @staticmethod
     def _update_evs(pokemon_id: str, pokemon_data: Pokemon, value: str) -> bool:
-        """
-        Update EV yields for a Pokemon.
+        """Update EV yields for a Pokemon.
 
         Args:
-            pokemon_id: Pokemon ID
-            pokemon_data: Pokemon dataclass object
-            value: EV yield string (e.g., "2 Atk" or "1 SAtk, 1 Spd")
+            pokemon_id (str): The ID of the Pokemon to update.
+            pokemon_data (Pokemon): The Pokemon dataclass object.
+            value (str): The new EV yield string (e.g., "2 Atk" or "1 SAtk, 1 Spd").
 
         Returns:
-            bool: True if successful
+            bool: True if the EV yields were updated successfully, False otherwise.
+
+        Yields:
+            Iterator[bool]: True if the EV yields were updated successfully, False otherwise.
         """
         # Parse: "2 Atk" or "1 SAtk, 1 Spd"
         # Map short names to stat names
@@ -287,16 +266,15 @@ class PokemonService:
     def _update_base_happiness(
         pokemon_id: str, pokemon_data: Pokemon, value: str
     ) -> bool:
-        """
-        Update base happiness for a Pokemon.
+        """Update base happiness for a Pokemon.
 
         Args:
-            pokemon_id: Pokemon ID
-            pokemon_data: Pokemon dataclass object
-            value: Base happiness string (e.g., "70")
+            pokemon_id (str): The ID of the Pokemon to update.
+            pokemon_data (Pokemon): The Pokemon dataclass object.
+            value (str): The new base happiness string (e.g., "70").
 
         Returns:
-            bool: True if successful
+            bool: True if the base happiness was updated successfully, False otherwise.
         """
         try:
             base_happiness = int(value.strip())
@@ -315,16 +293,15 @@ class PokemonService:
     def _update_base_experience(
         pokemon_id: str, pokemon_data: Pokemon, value: str
     ) -> bool:
-        """
-        Update base experience for a Pokemon.
+        """Update base experience for a Pokemon.
 
         Args:
-            pokemon_id: Pokemon ID
-            pokemon_data: Pokemon dataclass object
-            value: Base experience string (e.g., "248")
+            pokemon_id (str): The ID of the Pokemon to update.
+            pokemon_data (Pokemon): The Pokemon dataclass object.
+            value (str): The new base experience string (e.g., "142").
 
         Returns:
-            bool: True if successful
+            bool: True if the base experience was updated successfully, False otherwise.
         """
         try:
             base_experience = int(value.strip())
@@ -343,16 +320,15 @@ class PokemonService:
 
     @staticmethod
     def _update_catch_rate(pokemon_id: str, pokemon_data: Pokemon, value: str) -> bool:
-        """
-        Update catch rate for a Pokemon.
+        """Update catch rate for a Pokemon.
 
         Args:
-            pokemon_id: Pokemon ID
-            pokemon_data: Pokemon dataclass object
-            value: Catch rate string (e.g., "45")
+            pokemon_id (str): The ID of the Pokemon to update.
+            pokemon_data (Pokemon): The Pokemon dataclass object.
+            value (str): The new catch rate string (e.g., "45").
 
         Returns:
-            bool: True if successful
+            bool: True if the catch rate was updated successfully, False otherwise.
         """
         try:
             catch_rate = int(value.strip())
@@ -371,30 +347,16 @@ class PokemonService:
     def _update_gender_ratio(
         pokemon_id: str, pokemon_data: Pokemon, value: str
     ) -> bool:
-        """
-        Update gender ratio for a Pokemon.
+        """Update gender ratio for a Pokemon.
 
         Args:
-            pokemon_id: Pokemon ID
-            pokemon_data: Pokemon dataclass object
-            value: Gender ratio string (e.g., "50% Male, 50% Female" or "100% Male")
+            pokemon_id (str): The ID of the Pokemon to update.
+            pokemon_data (Pokemon): The Pokemon dataclass object.
+            value (str): The new gender ratio string (e.g., "87.5% Male, 12.5% Female").
 
         Returns:
-            bool: True if successful
+            bool: True if the gender ratio was updated successfully, False otherwise.
         """
-        # Parse: "87.5% Male, 12.5% Female" or "50% Male, 50% Female"
-        # PokeAPI gender_rate:
-        #   -1: Genderless
-        #   0: Always male (100% male)
-        #   1: 87.5% male, 12.5% female
-        #   2: 75% male, 25% female
-        #   3: 62.5% male, 37.5% female
-        #   4: 50% male, 50% female
-        #   5: 37.5% male, 62.5% female
-        #   6: 25% male, 75% female
-        #   7: 12.5% male, 87.5% female
-        #   8: Always female (100% female)
-
         value_lower = value.lower()
 
         if "genderless" in value_lower or "no gender" in value_lower:
@@ -444,16 +406,15 @@ class PokemonService:
     def update_levelup_moves(
         pokemon: str, moves: list[tuple[int, str]], forme: str = ""
     ) -> bool:
-        """
-        Update level-up moves for a Pokemon.
+        """Update level-up moves for a Pokemon.
 
         Args:
-            pokemon: Name of the Pokemon to modify
-            moves: List of (level, move_name) tuples
-            forme: Optional forme name (e.g., "attack", "defense", "plant")
+            pokemon (str): The name of the Pokemon to update.
+            moves (list[tuple[int, str]]): A list of tuples containing level and move name.
+            forme (str, optional): The forme of the Pokemon (e.g., "attack", "defense"). Defaults to "".
 
         Returns:
-            bool: True if successful
+            bool: True if the level-up moves were updated successfully, False otherwise.
         """
         # Normalize pokemon name and append forme if present
         pokemon_id = name_to_id(pokemon)
@@ -499,17 +460,15 @@ class PokemonService:
     def update_machine_moves(
         pokemon: str, moves: list[tuple[str, str, str]], forme: str = ""
     ) -> bool:
-        """
-        Update TM/HM compatibility for a Pokemon.
+        """Update TM/HM compatibility for a Pokemon.
 
         Args:
-            pokemon: Name of the Pokemon to modify
-            moves: List of (machine_type, number, move_name) tuples
-                   e.g., [("TM", "56", "Weather Ball")]
-            forme: Optional forme name (e.g., "attack", "defense", "plant")
+            pokemon (str): The name of the Pokemon to update.
+            moves (list[tuple[str, str, str]]): A list of tuples containing machine type, number, and move name.
+            forme (str, optional): The forme of the Pokemon (e.g., "attack", "defense"). Defaults to "".
 
         Returns:
-            bool: True if successful
+            bool: True if the machine moves were updated successfully, False otherwise.
         """
         # Normalize pokemon name and append forme if present
         pokemon_id = name_to_id(pokemon)
@@ -566,17 +525,16 @@ class PokemonService:
     def update_held_item(
         pokemon: str, item_name: str, rarity: int, forme: str = ""
     ) -> bool:
-        """
-        Update held item for a Pokemon.
+        """Update held item for a Pokemon.
 
         Args:
-            pokemon: Name of the Pokemon to modify
-            item_name: Name of the held item
-            rarity: Percentage chance (0-100)
-            forme: Optional forme name (e.g., "attack", "defense", "plant")
+            pokemon (str): The name of the Pokemon to update.
+            item_name (str): The name of the held item.
+            rarity (int): The percentage chance (0-100) of the item being held.
+            forme (str, optional): The forme of the Pokemon (e.g., "attack", "defense"). Defaults to "".
 
         Returns:
-            bool: True if successful
+            bool: True if the held item was updated successfully, False otherwise.
         """
         # Normalize pokemon name and append forme if present
         pokemon_id = name_to_id(pokemon)

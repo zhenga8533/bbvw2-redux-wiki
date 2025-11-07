@@ -29,13 +29,15 @@ class BaseParser(ABC):
         output_dir: str = "docs",
         project_root: Optional[Path] = None,
     ):
-        """
-        Initialize the parser.
+        """Initialize the parser.
 
         Args:
-            input_file: Path to the input file (relative to data/documentation/)
-            output_dir: Directory where markdown files will be generated (default: docs)
-            project_root: The root directory of the project. If None, it's inferred.
+            input_file (str): Path to the input file (relative to data/documentation/)
+            output_dir (str, optional): Directory where markdown files will be generated (default: docs)
+            project_root (Optional[Path], optional): The root directory of the project. If None, it's inferred.
+
+        Raises:
+            FileNotFoundError: If the input file is not found.
         """
         # Initialize instance variables to avoid shared state
         self._markdown = ""
@@ -78,14 +80,13 @@ class BaseParser(ABC):
         self.logger.debug(f"Output directory ready: {self.output_dir}")
 
     def _section_to_method_name(self, section: str) -> str:
-        """
-        Convert a section name to a normalized handler method name.
+        """Convert a section name to a normalized handler method name.
 
-        Examples:
-          "Getting Started" -> "parse_getting_started"
-          "Pokémon & Data"   -> "parse_pokemon_data"
+        Args:
+            section (str): The section name to normalize.
 
-        Falls back to "parse_default" if the section yields an empty name.
+        Returns:
+            str: The normalized method name (e.g., "parse_section_name").
         """
         if not section:
             return "parse_default"
@@ -107,11 +108,7 @@ class BaseParser(ABC):
         return f"parse_{s}" if s else "parse_default"
 
     def get_title(self) -> str:
-        """
-        Get the title for the markdown document.
-
-        Default implementation converts the input filename to title case.
-        Subclasses can override to provide custom titles.
+        """Get the title for the markdown document.
 
         Returns:
             str: The title for the markdown document
@@ -119,19 +116,10 @@ class BaseParser(ABC):
         return self.output_file.replace("_", " ").title()
 
     def parse(self) -> None:
-        """
-        Default parse implementation for section-based parsers.
+        """Parse the input file and generate markdown output.
 
-        This template method:
-        1. Reads input lines
-        2. Initializes markdown with a title
-        3. Dispatches lines to section-specific handlers
-
-        Subclasses should:
-        - Define _sections class attribute with section names
-        - Implement parse_<section_name>() methods for each section
-        - Optionally override get_title() to customize the markdown title
-        - Can override this method entirely for custom parsing logic
+        Raises:
+            NotImplementedError: If the parser is not properly configured.
         """
         if not hasattr(self, "_sections"):
             raise NotImplementedError(
@@ -163,25 +151,20 @@ class BaseParser(ABC):
             self._line_index += 1
 
     def parse_default(self, line: str) -> None:
-        """
-        Default line parser if no section-specific method is found.
-
-        Simply appends the line to the markdown output.
+        """Default line parser if no section-specific method is found.
 
         Args:
-            line: The line to parse
+            line (str): The line to parse
         """
-
         if line == "" and self._last_line == "":
             return
         self._markdown += f"{line}\n"
 
     def peek_line(self, offset: int) -> Optional[str]:
-        """
-        Peek at a line at a specific offset from the current position.
+        """Peek at a line at a specific offset from the current position.
 
         Args:
-            offset: Number of lines ahead to peek (1 = next line, 2 = line after next, etc.)
+            offset (int): Number of lines ahead to peek (1 = next line, 2 = line after next, etc.)
 
         Returns:
             Optional[str]: The line at the specified offset, or None if out of bounds
@@ -192,22 +175,20 @@ class BaseParser(ABC):
         return None
 
     def handle_section_change(self, new_section: str) -> None:
-        """
-        Handle logic when changing sections.
-
-        This is a template method that subclasses can override to add custom
-        behavior when sections change (e.g., adding table headers, resetting state).
-
-        The default implementation updates self._current_section.
+        """Handle logic when changing sections.
 
         Args:
-            new_section: Name of the new section being entered
+            new_section (str): Name of the new section being entered
         """
         self._markdown += f"## {new_section}\n\n"
         self._current_section = new_section
 
     def read_input_lines(self) -> list[str]:
-        """Read and return the input file as lines, skipping empty lines and skip patterns."""
+        """Read and return the input file as lines, skipping empty lines and skip patterns.
+
+        Returns:
+            list[str]: The filtered lines from the input file
+        """
         skip_patterns = [r"^=+$"]
 
         self.logger.debug(f"Reading input file: {self.input_path}")
@@ -234,28 +215,21 @@ class BaseParser(ABC):
         return filtered_lines
 
     def save_markdown(self) -> Path:
-        """
-        Save markdown content to the output directory.
-
-        Args:
-            content: Markdown content to save
+        """Save the generated markdown content to a file.
 
         Returns:
-            Path: Path to the saved file
+            Path: Path to the saved markdown file
         """
-
         self.output_path.write_text(self._markdown, encoding="utf-8")
         self.logger.info(f"Saved markdown to {self.output_path}")
         return self.output_path
 
     def run(self) -> Optional[Path]:
-        """
-        Execute the full parsing pipeline.
+        """Run the parsing process.
 
         Returns:
-            Path: Path to the saved markdown file
+            Optional[Path]: Path to the saved markdown file, or None if parsing failed
         """
-
         # Parse input file
         self.parse()
 

@@ -228,7 +228,9 @@ class AbilityGenerator(BaseGenerator):
         return md
 
     def generate_page(
-        self, entry: Ability, cache: Optional[dict[str, dict[str, list[Pokemon]]]] = None
+        self,
+        entry: Ability,
+        cache: Optional[dict[str, dict[str, list[Pokemon]]]] = None,
     ) -> Path:
         """
         Generate a markdown page for a single ability.

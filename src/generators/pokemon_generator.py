@@ -20,12 +20,18 @@ from pathlib import Path
 from typing import Any, Optional, cast
 
 from src.data.pokedb_loader import PokeDBLoader
-from src.models.pokedb import EvolutionDetails, EvolutionNode, Pokemon, EvolutionChain
+from src.models.pokedb import EvolutionChain, EvolutionDetails, EvolutionNode, Pokemon
 from src.utils.core.config import (
     POKEDB_GAME_VERSIONS,
     POKEDB_SPRITE_VERSION,
     VERSION_GROUP,
 )
+from src.utils.data.constants import (
+    DAMAGE_CLASS_ICONS,
+    POKEMON_FORM_SUBFOLDERS,
+    TYPE_COLORS,
+)
+from src.utils.data.type_effectiveness import calculate_type_effectiveness
 from src.utils.formatters.markdown_formatter import (
     format_ability,
     format_item,
@@ -34,23 +40,11 @@ from src.utils.formatters.markdown_formatter import (
     format_pokemon_card_grid,
     format_type_badge,
 )
-from src.utils.data.constants import (
-    DAMAGE_CLASS_ICONS,
-    POKEMON_FORM_SUBFOLDERS_ALL,
-    TYPE_COLORS,
-)
-from src.utils.formatters.table_formatter import (
-    create_table,
-)
+from src.utils.formatters.table_formatter import create_table
+from src.utils.formatters.yaml_formatter import load_mkdocs_config, save_mkdocs_config
 from src.utils.text.text_util import extract_form_suffix, format_display_name
-from src.utils.data.type_effectiveness import calculate_type_effectiveness
-from src.utils.formatters.yaml_formatter import (
-    load_mkdocs_config,
-    save_mkdocs_config,
-)
 
 from .base_generator import BaseGenerator
-
 
 # Constants for Pokemon page generation
 MAX_STAT_VALUE = 255  # Maximum base stat value for progress bar scaling
@@ -120,7 +114,7 @@ class PokemonGenerator(BaseGenerator):
         all_pokemon = []
         total_files = 0
 
-        for folder in POKEMON_FORM_SUBFOLDERS_ALL:
+        for folder in POKEMON_FORM_SUBFOLDERS:
             pokemon_dir = pokemon_base_dir / folder
 
             if not pokemon_dir.exists():
@@ -214,7 +208,7 @@ class PokemonGenerator(BaseGenerator):
         dex_str = f"**{dex_num:03d}**" if isinstance(dex_num, int) else f"**{dex_num}**"
 
         # Sprite
-        sprite_cell = format_pokemon(entry, is_linked=False, relative_path="..")
+        sprite_cell = format_pokemon(entry, is_linked=False)
 
         # Name link
         name = format_display_name(entry.name)
@@ -376,7 +370,7 @@ class PokemonGenerator(BaseGenerator):
         md += '\t<div class="pokemon-hero-content">\n'
 
         # Sprite with enhanced shadow and glow
-        sprite = format_pokemon(pokemon, is_linked=False, relative_path="..")
+        sprite = format_pokemon(pokemon, is_linked=False)
         md += f'\t\t<div class="pokemon-hero-sprite">\n'
         md += f"\t\t\t{sprite}\n"
         md += "\t\t</div>\n"
@@ -428,7 +422,6 @@ class PokemonGenerator(BaseGenerator):
         md += "- **:material-shield-star: Abilities**\n\n"
         md += "\t---\n\n"
         for ability in pokemon.abilities:
-            # Use format_ability() utility (relative_path="../.." to navigate to docs root, then to pokedex/abilities)
             ability_display = format_ability(
                 ability.name, is_linked=True, relative_path="../.."
             )
@@ -509,7 +502,7 @@ class PokemonGenerator(BaseGenerator):
         for item_name, rates in pokemon.held_items.items():
             # Convert underscores to hyphens for item identifier
             item_id = item_name.replace("_", "-")
-            item_display = format_item(item_id)
+            item_display = format_item(item_id, relative_path="../..")
 
             # Build row with all game version rates
             row = [item_display]
@@ -806,12 +799,6 @@ class PokemonGenerator(BaseGenerator):
         def collect_evolution_stages(
             node: EvolutionNode | EvolutionChain, stage: int = 1
         ) -> dict[int, list[tuple[str, Optional[EvolutionDetails]]]]:
-            """
-            Recursively collect all Pokemon grouped by evolution stage.
-
-            Returns:
-                Dictionary mapping stage numbers to list of (species_name, evolution_details) tuples
-            """
             stages: dict[int, list[tuple[str, Optional[EvolutionDetails]]]] = {}
 
             # Handle the root chain (stage 1)
@@ -941,7 +928,6 @@ class PokemonGenerator(BaseGenerator):
         rows = []
         for move_learn in sorted_moves:
             move_data = PokeDBLoader.load_move(move_learn.name)
-            # Use format_move() utility (relative_path="../.." to navigate to docs root, then to pokedex/moves)
             move_name_formatted = format_move(
                 move_learn.name, is_linked=True, relative_path="../.."
             )

@@ -10,13 +10,14 @@ Provides structured logging with:
 - Context managers for operation tracking
 """
 
+import json
 import logging
 import sys
-import json
+from datetime import datetime
+from logging.handlers import RotatingFileHandler
 from pathlib import Path
 from typing import Optional
-from logging.handlers import RotatingFileHandler
-from datetime import datetime
+
 from src.utils.core import config
 
 # Global configuration (loaded from config constants)
@@ -71,7 +72,14 @@ class JSONFormatter(logging.Formatter):
     """Format log records as JSON for structured logging."""
 
     def format(self, record: logging.LogRecord) -> str:
-        """Format the log record as a JSON string."""
+        """Format the log record as a JSON string.
+
+        Args:
+            record (logging.LogRecord): The log record to format.
+
+        Returns:
+            str: The formatted log record as a JSON string.
+        """
         log_data = {
             "timestamp": datetime.utcnow().isoformat(),
             "level": record.levelname,
@@ -95,7 +103,14 @@ class JSONFormatter(logging.Formatter):
 
 
 class ColoredConsoleFormatter(logging.Formatter):
-    """Colored console formatter for better readability."""
+    """Colored console formatter for better readability.
+
+    Args:
+        logging (Formatter): The base logging formatter.
+
+    Returns:
+        Formatter: The colored console formatter.
+    """
 
     COLORS = {
         "DEBUG": "\033[36m",  # Cyan
@@ -107,7 +122,14 @@ class ColoredConsoleFormatter(logging.Formatter):
     RESET = "\033[0m"
 
     def format(self, record: logging.LogRecord) -> str:
-        """Format with colors for console output."""
+        """Format the log record with colors for console output.
+
+        Args:
+            record (logging.LogRecord): The log record to format.
+
+        Returns:
+            str: The formatted log record with colors.
+        """
         # Create a copy to avoid modifying the original record
         record_copy = logging.makeLogRecord(record.__dict__)
 
@@ -127,21 +149,15 @@ def setup_logger(
     level: Optional[str] = None,
     log_file: Optional[str] = None,
 ) -> logging.Logger:
-    """
-    Set up a logger with both console and file handlers.
+    """Set up a logger with both console and file handlers.
 
     Args:
-        name: Logger name (typically __name__ from calling module)
-        level: Log level (DEBUG, INFO, WARNING, ERROR, CRITICAL)
-        log_file: Optional specific log file name (without path)
+        name (str): Logger name (typically __name__ from calling module)
+        level (Optional[str], optional): Log level (DEBUG, INFO, WARNING, ERROR, CRITICAL). Defaults to None.
+        log_file (Optional[str], optional): Optional specific log file name (without path). Defaults to None.
 
     Returns:
-        Configured logger instance
-
-    Example:
-        >>> logger = setup_logger(__name__)
-        >>> logger.info("Processing started")
-        >>> logger.warning("Missing optional field", extra={"field": "description"})
+        logging.Logger: Configured logger instance.
     """
     logger = logging.getLogger(name)
 
@@ -218,36 +234,19 @@ def setup_logger(
 
 
 def get_logger(name: str) -> logging.Logger:
-    """
-    Get or create a logger for the given name.
-
-    This is the recommended way to get a logger in your modules:
-
-    Example:
-        >>> from src.utils.logger import get_logger
-        >>> logger = get_logger(__name__)
-        >>> logger.info("Starting process")
+    """Get a logger for the specified module.
 
     Args:
-        name: Logger name (use __name__ for automatic module naming)
+        name (str): The name of the logger (typically __name__ from the calling module).
 
     Returns:
-        Logger instance
+        logging.Logger: Configured logger instance.
     """
     return setup_logger(name)
 
 
 class LogContext:
-    """
-    Context manager for tracking operations with automatic success/failure logging.
-
-    Example:
-        >>> logger = get_logger(__name__)
-        >>> with LogContext(logger, "parsing evolution data"):
-        ...     # Your code here
-        ...     process_data()
-        # Automatically logs success or failure with timing
-    """
+    """Context manager for tracking operations with automatic success/failure logging."""
 
     def __init__(
         self,
@@ -255,13 +254,12 @@ class LogContext:
         operation: str,
         level: int = logging.INFO,
     ):
-        """
-        Initialize log context.
+        """Initialize log context.
 
         Args:
-            logger: Logger instance to use
-            operation: Description of the operation
-            level: Log level for success messages
+            logger (logging.Logger): Logger instance to use
+            operation (str): Description of the operation
+            level (int, optional): Log level for success messages. Defaults to logging.INFO.
         """
         self.logger = logger
         self.operation = operation
@@ -301,13 +299,10 @@ class LogContext:
 
 # Convenience function for quick setup
 def configure_logging(level: Optional[str] = None):
-    """
-    Configure root logger with default settings.
-
-    This is optional - individual modules can use get_logger() directly.
+    """Configure root logger with default settings.
 
     Args:
-        level: Override the default log level
+        level (Optional[str], optional): Override the default log level. Defaults to None.
     """
     root_logger = logging.getLogger()
 

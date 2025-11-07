@@ -12,22 +12,27 @@ from typing import Optional
 
 from src.data.pokedb_loader import PokeDBLoader
 from src.models.pokedb import EvolutionChain, EvolutionDetails, Gender
-from src.utils.services.evolution_service import EvolutionService
 from src.utils.formatters.markdown_formatter import format_item, format_pokemon
+from src.utils.services.evolution_service import EvolutionService
 from src.utils.text.text_util import name_to_id
 
 from .base_parser import BaseParser
 
 
 class EvolutionChangesParser(BaseParser):
-    """
-    Parser for Evolution Changes documentation.
+    """Parser for Evolution Changes documentation.
 
-    Extracts evolution method changes and updates Pokemon JSON files.
+    Args:
+        BaseParser (_type_): Abstract base parser class
     """
 
     def __init__(self, input_file: str, output_dir: str = "docs"):
-        """Initialize the Evolution Changes parser."""
+        """Initialize the Evolution Changes parser.
+
+        Args:
+            input_file (str): Path to the input file.
+            output_dir (str, optional): Path to the output directory. Defaults to "docs".
+        """
         super().__init__(input_file=input_file, output_dir=output_dir)
         self._sections = ["General Notes", "Evolution Changes"]
 
@@ -40,11 +45,19 @@ class EvolutionChangesParser(BaseParser):
         self._current_pokemon: str = ""
 
     def parse_general_notes(self, line: str) -> None:
-        """Parse a line from the General Notes section."""
+        """Parse a line from the General Notes section.
+
+        Args:
+            line (str): A line from the General Notes section.
+        """
         self.parse_default(line)
 
     def parse_evolution_changes(self, line: str) -> None:
-        """Parse a line from the Evolution Changes section and update data."""
+        """Parse a line from the Evolution Changes section and update data.
+
+        Args:
+            line (str): A line from the Evolution Changes section.
+        """
         # Match: table header "Pokémon              New Method"
         if line == "Pokémon              New Method":
             self._is_table_open = True
@@ -62,13 +75,13 @@ class EvolutionChangesParser(BaseParser):
             )
             if result := self._extract_evolution_text(evolution_text):
                 evolution, evolution_text = result
-                self._add_evolution_row(evolution, evolution_text)
+                self._markdown += self._format_evolution_row(evolution, evolution_text)
                 self._update_evolution_method(evolution, evolution_text)
         # Match: continuation line with evolution text (same Pokemon as previous)
         elif line and self._current_pokemon:
             if result := self._extract_evolution_text(line.strip()):
                 evolution, evolution_text = result
-                self._add_evolution_row(evolution, evolution_text)
+                self._markdown += self._format_evolution_row(evolution, evolution_text)
                 self._update_evolution_method(evolution, evolution_text)
         # Unrecognized: log warning for unexpected format
         elif line:
@@ -78,19 +91,21 @@ class EvolutionChangesParser(BaseParser):
             self._markdown += "\n</div>\n\n"
             self._is_table_open = False
 
-    def _add_evolution_row(self, evolution: str, evolution_text: str) -> None:
-        """
-        Add a markdown table row to the evolution table.
+    def _format_evolution_row(self, evolution: str, evolution_text: str) -> str:
+        """Format a row for the evolution table.
 
         Args:
-            evolution: Name of the evolution target Pokemon
-            evolution_text: Description of the evolution method
+            evolution (str): The target evolution Pokemon name.
+            evolution_text (str): The evolution method description.
+
+        Returns:
+            str: The formatted markdown table row.
         """
         # Format Pokemon with sprites and links
-        from_pokemon_md = format_pokemon(self._current_pokemon, relative_path="..")
+        from_pokemon_md = format_pokemon(self._current_pokemon)
 
         if evolution:
-            to_pokemon_md = format_pokemon(evolution, relative_path="..")
+            to_pokemon_md = format_pokemon(evolution)
         else:
             to_pokemon_md = ""
 
@@ -98,27 +113,24 @@ class EvolutionChangesParser(BaseParser):
         formatted_text = self._format_evolution_text(evolution_text)
 
         # Add markdown table row
-        self._markdown += f"| {self._current_dex_num} | {from_pokemon_md} | {to_pokemon_md} | {formatted_text} |\n"
+        md = f"| {self._current_dex_num} | {from_pokemon_md} | {to_pokemon_md} | {formatted_text} |\n"
+        return md
 
     def _format_evolution_text(self, text: str) -> str:
-        """
-        Format evolution text by replacing item names with formatted sprites.
+        """Format evolution method text, replacing item mentions with formatted items.
 
         Args:
-            text: The evolution method text (e.g., "Now evolves via the use of a Fire Stone")
+            text (str): The evolution method text (e.g., "Now evolves via the use of a Fire Stone")
 
         Returns:
-            Formatted text with item sprites and names
+            str: Formatted text with item sprites and names
         """
 
         def replace_item(match: re.Match[str]) -> str:
-            """Replace item text with formatted item display."""
             item_name = match.group(1).strip()
             # Convert item name to ID format (replace spaces with hyphens)
             item_id = item_name.lower().replace(" ", "-")
-            formatted = format_item(
-                item_id, has_sprite=True, is_linked=True, relative_path=".."
-            )
+            formatted = format_item(item_id, has_sprite=True, is_linked=True)
             return f"via the use of {formatted}"
 
         formatted_text = re.sub(
@@ -129,14 +141,13 @@ class EvolutionChangesParser(BaseParser):
         return formatted_text
 
     def _extract_evolution_text(self, text: str) -> Optional[tuple[str, str]]:
-        """
-        Extract evolution and method from text.
+        """Extract evolution and method from text.
 
         Args:
-            text: The evolution text to parse
+            text (str): The evolution text to parse
 
         Returns:
-            Tuple of (evolution_pokemon_name, evolution_method_text) or None if no match
+            Optional[tuple[str, str]]: A tuple of (evolution_pokemon_name, evolution_method_text) or None if no match
         """
         if match := re.match(
             rf"Now evolves into ([A-Z][\w':.-]*(?:\s[A-Z][\w':.-]*)*) (.*)\.", text
@@ -156,7 +167,12 @@ class EvolutionChangesParser(BaseParser):
             return None
 
     def _update_evolution_method(self, evolution: str, method_text: str) -> None:
-        """Parse the evolution method text into structured data and update Pokemon."""
+        """Update the evolution method for a specific evolution.
+
+        Args:
+            evolution (str): Target evolution Pokemon name
+            method_text (str): Evolution method description
+        """
 
         if not evolution:
             return

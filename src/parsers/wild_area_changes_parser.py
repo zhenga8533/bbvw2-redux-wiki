@@ -15,14 +15,19 @@ from .base_parser import BaseParser
 
 
 class WildAreaChangesParser(BaseParser):
-    """
-    Parser for Wild Area Changes documentation.
+    """Parser for Wild Area Changes documentation.
 
-    Extracts wild area change information and generates markdown.
+    Args:
+        BaseParser (_type_): Abstract base parser class.
     """
 
     def __init__(self, input_file: str, output_dir: str = "docs"):
-        """Initialize the Wild Area Changes parser."""
+        """Initialize the Wild Area Changes parser.
+
+        Args:
+            input_file (str): Path to the input file.
+            output_dir (str, optional): Path to the output directory. Defaults to "docs".
+        """
         super().__init__(input_file=input_file, output_dir=output_dir)
         self._sections = [
             "General Changes",
@@ -39,30 +44,18 @@ class WildAreaChangesParser(BaseParser):
         self._encounter_type = ""
 
     def parse_general_changes(self, line: str) -> None:
-        """Parse the General Changes section."""
+        """Parse the General Changes section.
+
+        Args:
+            line (str): Line of text to parse.
+        """
         self.parse_default(line)
 
     def parse_main_story_changes(self, line: str) -> None:
-        """
-        Parse the Main Story Changes section for wild encounter tables.
-
-        This method handles complex parsing logic for wild encounter data that may include:
-        - Location headers marked with tildes: "~ Route 1 ~"
-        - Multiple encounter methods side-by-side: "Grass:   Water:"
-        - Pokemon encounter rows: "Pidgey Lv. 5-7 30%"
-        - Dual-column tables for comparing two encounter methods
-        - Tabbed sections using Material for MkDocs tabs
-
-        The parser maintains state using self._tab_markdown to buffer the second
-        column when processing dual-method tables, then emits both columns together.
+        """Parse the Main Story Changes section.
 
         Args:
-            line: A single line from the Wild Area Changes documentation file
-
-        Side Effects:
-            - Updates self._current_location when encountering location headers
-            - Accumulates markdown in self._tab_markdown for dual-column tables
-            - Appends formatted content to self._markdown
+            line (str): line of text to parse.
         """
         pokemon_row_pattern = r"(.+?) Lv\. (.+?) (.+?)%"
         table_header = "| Pokémon | Level(s) | Chance |"
@@ -128,27 +121,33 @@ class WildAreaChangesParser(BaseParser):
             self.parse_default(line)
 
     def _format_pokemon_row(self, pokemon: str, level: str, chance: str) -> str:
-        """
-        Format a Pokemon wild encounter as a markdown table row.
+        """Format a Pokemon wild encounter as a markdown table row.
 
         Args:
-            pokemon: Pokemon name (e.g., "Pidgey", "Rattata")
-            level: Level range string (e.g., "5-7", "10", "15-20")
-            chance: Encounter rate percentage (e.g., "30", "15")
+            pokemon (str): The name of the Pokémon.
+            level (str): The level(s) of the Pokémon.
+            chance (str): The encounter chance percentage.
 
         Returns:
-            str: Formatted markdown table row with Pokemon name (linked), level, and chance
-                 Example: "| [Pidgey](pokedex/pokemon/pidgey.md) | 5-7 | 30% |"
+            str: A formatted markdown table row.
         """
-        pokemon_md = format_pokemon(pokemon, relative_path="..")
+        pokemon_md = format_pokemon(pokemon)
         return f"| {pokemon_md} | {level} | {chance}% |"
 
     def parse_postgame_location_changes(self, line: str) -> None:
-        """Parse the Postgame Locations Changes section."""
+        """Parse the Postgame Locations Changes section.
+
+        Args:
+            line (str): Line of text to parse.
+        """
         self.parse_main_story_changes(line)
 
     def parse_hidden_grotto_guide(self, line: str) -> None:
-        """Parse the Hidden Grotto Guide section."""
+        """Parse the Hidden Grotto Guide section.
+
+        Args:
+            line (str): Line of text to parse.
+        """
         # Match: "~ <location> ~"
         if match := re.match(r"^\~{1,} (.+) \~{1,}$", line):
             self._current_location = match.group(1)
@@ -164,9 +163,7 @@ class WildAreaChangesParser(BaseParser):
             if self._encounter_type == "Guaranteed Encounters":
                 self._markdown += f"\t{line}\n"
                 return
-            self._markdown += (
-                f"\t\t{format_pokemon(line.strip(' -'), relative_path="..")}\n"
-            )
+            self._markdown += f"\t\t{format_pokemon(line.strip(' -'))}\n"
 
             if self.peek_line(1) == "":
                 self._markdown += "\t</div>\n"
