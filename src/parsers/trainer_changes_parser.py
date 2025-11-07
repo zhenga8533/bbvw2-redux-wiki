@@ -9,12 +9,14 @@ This parser:
 import re
 from typing import Any, Dict, Optional
 
+from src.data.pokedb_loader import PokeDBLoader
 from src.utils.formatters.markdown_formatter import (
     format_ability,
     format_checkbox,
     format_item,
     format_move,
     format_pokemon,
+    format_type_badge,
 )
 
 from .base_parser import BaseParser
@@ -270,14 +272,22 @@ class TrainerChangesParser(BaseParser):
             md += "\t" * self._indent_level + "|:-------:|:-----------|:------|\n"
             self._is_table_open = True
 
+        # Pokémon column
         row = f"| {format_pokemon(pokemon)} | "
+
+        # Attributes column
+        pokemon_data = PokeDBLoader.load_pokemon(pokemon)
+        types = pokemon_data.types if pokemon_data else []
 
         row += f"**Level:** {level}"
         row += f"<br>**Ability:** {format_ability(ability)}"
         if item:
             row += f"<br>**Item:** {format_item(item)}"
+        if types:
+            row += f"<br><div class='badges-hstack' style='margin-top:4px;'>{' '.join(format_type_badge(t) for t in types)}</div>"
         row += " | "
 
+        # Moves column
         for i, move in enumerate(re.split(r",\s*", moves)):
             if i > 0:
                 row += "<br>"

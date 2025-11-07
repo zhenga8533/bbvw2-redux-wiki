@@ -9,7 +9,11 @@ This parser:
 
 import re
 
-from src.utils.formatters.markdown_formatter import format_checkbox, format_move
+from src.utils.formatters.markdown_formatter import (
+    format_checkbox,
+    format_move,
+    format_type_badge,
+)
 from src.utils.services.move_service import MoveService
 
 from .base_parser import BaseParser
@@ -120,7 +124,7 @@ class MoveChangesParser(BaseParser):
                 new_type = new_type[:-4]
                 custom = True
 
-            self._markdown += f"| {old_type} | {new_type} | {format_checkbox(custom)} |"
+            self._markdown += f"| {format_type_badge(old_type)} | {format_type_badge(new_type)} | {format_checkbox(custom)} |"
         # Default: regular text line
         else:
             self.parse_default(line)

@@ -18,6 +18,7 @@ from src.utils.formatters.markdown_formatter import (
     format_move,
     format_pokemon,
     format_pokemon_card_grid,
+    format_type_badge,
 )
 from src.utils.services.pokemon_service import PokemonService
 
@@ -167,10 +168,12 @@ class PokemonChangesParser(BaseParser):
             is_new = line.startswith("New")
             line = line[4:].strip()
 
-            # Format the value if it's an ability
+            # Format the value if it's an ability or type
             formatted_value = line
             if self._current_attribute.startswith("Ability"):
                 formatted_value = self._format_ability_value(line)
+            elif self._current_attribute.startswith("Type"):
+                formatted_value = self._format_type_value(line)
 
             # Append to markdown table row
             self._markdown += f" {formatted_value} |"
@@ -304,7 +307,7 @@ class PokemonChangesParser(BaseParser):
         move_type = move_type.title() if move_type else "Unknown"
         move_class = move_data.damage_class.title() if move_data else "Unknown"
 
-        md = f"| {level} | {move_html} | {move_type} | {move_class} | {format_checkbox(event_move)} |\n"
+        md = f"| {level} | {move_html} | {format_type_badge(move_type)} | {move_class} | {format_checkbox(event_move)} |\n"
         return md
 
     def _parse_moves_line(self, line: str) -> str:
@@ -423,3 +426,23 @@ class PokemonChangesParser(BaseParser):
         ]
 
         return " / ".join(formatted_abilities)
+
+    def _format_type_value(self, type_text: str) -> str:
+        """Format type value with links to individual types.
+
+        Args:
+            type_text (str): Type string in format "Type1 / Type2"
+
+        Returns:
+            str: Formatted type string with links
+        """
+        type1, type2 = (
+            type_text.split(" / ") if " / " in type_text else (type_text, None)
+        )
+
+        formatted_type1 = format_type_badge(type1.strip())
+        if type2:
+            formatted_type2 = format_type_badge(type2.strip())
+            return f"{formatted_type1} {formatted_type2}"
+
+        return formatted_type1

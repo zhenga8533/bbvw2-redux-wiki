@@ -8,7 +8,8 @@ This parser:
 
 import re
 
-from src.utils.formatters.markdown_formatter import format_pokemon
+from src.data.pokedb_loader import PokeDBLoader
+from src.utils.formatters.markdown_formatter import format_pokemon, format_type_badge
 from src.utils.text.text_util import strip_common_prefix, strip_common_suffix
 
 from .base_parser import BaseParser
@@ -58,8 +59,8 @@ class WildAreaChangesParser(BaseParser):
             line (str): line of text to parse.
         """
         pokemon_row_pattern = r"(.+?) Lv\. (.+?) (.+?)%"
-        table_header = "| Pokémon | Level(s) | Chance |"
-        table_seperator = "|:-------:|:---------|:-------|"
+        table_header = "| Pokémon | Type(s) | Level(s) | Chance |"
+        table_seperator = "|:-------:|:-------:|:---------|:-------|"
 
         # Match: "~ <location> ~"
         if match := re.match(r"^\~{1,} (.+) \~{1,}$", line):
@@ -132,7 +133,12 @@ class WildAreaChangesParser(BaseParser):
             str: A formatted markdown table row.
         """
         pokemon_md = format_pokemon(pokemon)
-        return f"| {pokemon_md} | {level} | {chance}% |"
+
+        pokemon_data = PokeDBLoader.load_pokemon(pokemon)
+        types = pokemon_data.types if pokemon_data else []
+        types_md = f"<div class='badges-vstack'>{' '.join(format_type_badge(t) for t in types)}</div>"
+
+        return f"| {pokemon_md} | {types_md} | {level} | {chance}% |"
 
     def parse_postgame_location_changes(self, line: str) -> None:
         """Parse the Postgame Locations Changes section.
