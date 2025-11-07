@@ -102,6 +102,8 @@ PARSERS_REGISTRY: dict[str, dict[str, Any]] = {
     },
 }
 
+PARSER_DEX_RELATIVE_PATH = ".."
+
 # ============================================================================
 # Generator Registry
 # ============================================================================
@@ -128,3 +130,6 @@ GENERATORS_REGISTRY: dict[str, dict[str, Any]] = {
         "output_dir": "docs/pokedex",
     },
 }
+
+GENERATOR_DEX_RELATIVE_PATH = "../.."
+GENERATOR_INDEX_RELATIVE_PATH = ".."

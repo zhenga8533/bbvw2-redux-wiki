@@ -38,17 +38,19 @@ class MoveGenerator(BaseGenerator):
     - Effect descriptions
     - Flavor text
     - Learning Pokemon (level-up, TM/HM, egg, tutor)
+
+    Args:
+        BaseGenerator (_type_): Abstract base generator class
     """
 
     def __init__(
         self, output_dir: str = "docs/pokedex", project_root: Optional[Path] = None
     ):
-        """
-        Initialize the Move page generator.
+        """Initialize the Move page generator.
 
         Args:
-            output_dir: Directory where markdown files will be generated
-            project_root: The root directory of the project. If None, it's inferred.
+            output_dir (str, optional): Directory where markdown files will be generated. Defaults to "docs/pokedex".
+            project_root (Optional[Path], optional): The root directory of the project. If None, it's inferred.
         """
         # Initialize base generator
         super().__init__(output_dir=output_dir, project_root=project_root)
@@ -68,12 +70,10 @@ class MoveGenerator(BaseGenerator):
         self.output_dir.mkdir(parents=True, exist_ok=True)
 
     def _build_pokemon_move_cache(self) -> dict[str, dict[str, list[dict]]]:
-        """
-        Build a cache mapping move names to Pokemon that can learn them.
+        """Build a cache mapping move names to Pokemon that can learn them.
 
         Returns:
-            Dict with move names as keys, values are dicts with learning methods as keys
-            {'move-name': {'level_up': [{pokemon, level}, ...], 'machine': [...], ...}}
+            dict[str, dict[str, list[dict]]]: A mapping of move names to lists of Pokemon that can learn them.
         """
         # Map: move_name -> {method: [{pokemon, level}, ...]}
         move_cache = defaultdict(
@@ -130,11 +130,10 @@ class MoveGenerator(BaseGenerator):
         return dict(move_cache)
 
     def load_all_data(self) -> list[Move]:
-        """
-        Load all moves from the database once.
+        """Load all moves from the database once.
 
         Returns:
-            List of Move objects, sorted alphabetically by name
+            list[Move]: A list of all Move objects
         """
         move_dir = self.project_root / "data" / "pokedb" / "parsed" / "move"
 
@@ -163,16 +162,14 @@ class MoveGenerator(BaseGenerator):
         return moves
 
     def categorize_data(self, data: list[Move]) -> dict[str, list[Move]]:
-        """
-        Categorize moves by damage class for index and navigation.
+        """Categorize moves by damage class for index and navigation.
 
         Args:
-            data: List of Move objects to categorize
-        Returns:
-            Dict mapping damage class identifiers to lists of Move objects
-        """
-        from collections import defaultdict
+            data (list[Move]): List of Move objects to categorize
 
+        Returns:
+            dict[str, list[Move]]: Mapping of damage class identifiers to lists of Move objects
+        """
         moves_by_damage_class = defaultdict(list)
 
         for move in data:
@@ -182,13 +179,13 @@ class MoveGenerator(BaseGenerator):
         return moves_by_damage_class
 
     def format_index_row(self, entry: Move) -> list[str]:
-        """
-        Format a single row for the index table.
+        """Format a single row for the index table.
 
         Args:
-            entry: The entry to format
+            entry (Move): The entry to format
+
         Returns:
-            List of strings for table columns: [link, type_badge, category_icon, power, accuracy, pp]
+            list[str]: A list of strings for table columns: [link, type_badge, category_icon, power, accuracy, pp]
         """
         name = format_display_name(entry.name)
         link = f"[{name}](moves/{entry.name}.md)"
@@ -210,8 +207,13 @@ class MoveGenerator(BaseGenerator):
         return [link, type_badge, category_icon, power_str, accuracy_str, pp_str]
 
     def _generate_move_header(self, move: Move) -> str:
-        """
-        Generate a move header section with type and category.
+        """Generate a move header section with type and category.
+
+        Args:
+            move (Move): The move object to generate the header for.
+
+        Returns:
+            str: The generated markdown for the move header.
         """
         md = ""
 
@@ -294,7 +296,14 @@ class MoveGenerator(BaseGenerator):
         return md
 
     def _generate_effect_section(self, move: Move) -> str:
-        """Generate the effect description section."""
+        """Generate the effect description section.
+
+        Args:
+            move (Move): The move object to generate the effect section for.
+
+        Returns:
+            str: The generated markdown for the effect section.
+        """
         md = "## :material-information: Effect\n\n"
 
         # Full effect
@@ -325,7 +334,14 @@ class MoveGenerator(BaseGenerator):
         return md
 
     def _generate_flavor_text_section(self, move: Move) -> str:
-        """Generate the flavor text section."""
+        """Generate the flavor text section.
+
+        Args:
+            move (Move): The move object to generate the flavor text section for.
+
+        Returns:
+            str: The generated markdown for the flavor text section.
+        """
         md = "## :material-book-open: In-Game Description\n\n"
 
         flavor_text = getattr(move.flavor_text, VERSION_GROUP, None)
@@ -341,7 +357,15 @@ class MoveGenerator(BaseGenerator):
     def _generate_pokemon_section(
         self, move_name: str, cache: Optional[dict[str, dict[str, list[dict]]]] = None
     ) -> str:
-        """Generate the section showing which Pokemon can learn this move."""
+        """Generate the section showing which Pokemon can learn this move.
+
+        Args:
+            move_name (str): The name of the move to generate the section for.
+            cache (Optional[dict[str, dict[str, list[dict]]]], optional): A cache of move data to use. Defaults to None.
+
+        Returns:
+            str: The generated markdown for the Pokémon section.
+        """
         md = "## :material-pokeball: Learning Pokémon\n\n"
 
         # Get Pokemon that can learn this move
@@ -392,15 +416,14 @@ class MoveGenerator(BaseGenerator):
     def generate_page(
         self, entry: Move, cache: Optional[dict[str, dict[str, list[dict]]]] = None
     ) -> Path:
-        """
-        Generate a markdown page for a single move.
+        """Generate a markdown page for a single move.
 
         Args:
-            entry: The Move data to generate a page for
-            cache: Optional pre-built cache of move->Pokemon mappings for performance
+            entry (Move): The move entry to generate the page for.
+            cache (Optional[dict[str, dict[str, list[dict]]]], optional): A cache of move data to use. Defaults to None.
 
         Returns:
-            Path to the generated markdown file
+            Path: The path to the generated markdown file.
         """
         display_name = format_display_name(entry.name)
 
@@ -427,5 +450,14 @@ class MoveGenerator(BaseGenerator):
         data: list[Move],
         cache: Optional[dict[str, dict[str, list[dict]]]] = None,
     ) -> list[Path]:
+        """Generate markdown pages for all moves.
+
+        Args:
+            data (list[Move]): List of Move objects to generate pages for.
+            cache (Optional[dict[str, dict[str, list[dict]]]], optional): A cache of move data to use. Defaults to None.
+
+        Returns:
+            list[Path]: List of paths to the generated markdown files.
+        """
         cache = cache or self._build_pokemon_move_cache()
         return super().generate_all_pages(data, cache=cache)

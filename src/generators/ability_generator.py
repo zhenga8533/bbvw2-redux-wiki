@@ -32,17 +32,19 @@ class AbilityGenerator(BaseGenerator):
     - Effect descriptions
     - Flavor text
     - Pokemon that have this ability
+
+    Args:
+        BaseGenerator (_type_): Abstract base generator class
     """
 
     def __init__(
         self, output_dir: str = "docs/pokedex", project_root: Optional[Path] = None
     ):
-        """
-        Initialize the Ability page generator.
+        """Initialize the Ability page generator.
 
         Args:
-            output_dir: Directory where markdown files will be generated
-            project_root: The root directory of the project. If None, it's inferred.
+            output_dir (str, optional): Directory where markdown files will be generated. Defaults to "docs/pokedex".
+            project_root (Optional[Path], optional): The root directory of the project. If None, it's inferred.
         """
         # Initialize base generator
         super().__init__(output_dir=output_dir, project_root=project_root)
@@ -66,14 +68,10 @@ class AbilityGenerator(BaseGenerator):
         self.output_dir.mkdir(parents=True, exist_ok=True)
 
     def _build_pokemon_ability_cache(self) -> dict[str, dict[str, list[Pokemon]]]:
-        """
-        Build a cache mapping ability names to Pokemon that have them.
-
-        This loads all Pokemon once and builds the mapping, which is much more
-        efficient than loading Pokemon separately for each ability.
+        """Build a cache mapping ability names to Pokemon that have them.
 
         Returns:
-            Dict with ability names as keys, values are dicts with 'normal' and 'hidden' lists
+            dict[str, dict[str, list[Pokemon]]]: A mapping of ability names to lists of Pokemon that have them.
         """
         # Map: ability_name -> {"normal": [...], "hidden": [...]}
         ability_cache = {}
@@ -108,11 +106,10 @@ class AbilityGenerator(BaseGenerator):
         return ability_cache
 
     def load_all_data(self) -> list[Ability]:
-        """
-        Load all main-series abilities from the database once.
+        """Load all main-series abilities from the database once.
 
         Returns:
-            List of Ability objects, sorted alphabetically by name
+            list[Ability]: A list of all main-series Ability objects
         """
         ability_dir = self.project_root / "data" / "pokedb" / "parsed" / "ability"
 
@@ -147,13 +144,13 @@ class AbilityGenerator(BaseGenerator):
         return abilities
 
     def categorize_data(self, data: list[Ability]) -> dict[str, list[Ability]]:
-        """
-        Categorize abilities by generation for index and navigation.
+        """Categorize abilities by generation for index and navigation.
 
         Args:
-            data: List of Ability objects to categorize
+            data (list[Ability]): List of Ability objects to categorize
+
         Returns:
-            Dict mapping generation identifiers to lists of Ability objects
+            dict[str, list[Ability]]: Mapping of generation identifiers to lists of Ability objects
         """
         abilities_by_generation = defaultdict(list)
         for ability in data:
@@ -165,7 +162,14 @@ class AbilityGenerator(BaseGenerator):
     def _generate_pokemon_section(
         self, pokemon_with_ability: dict[str, list[Pokemon]]
     ) -> str:
-        """Generate the Pokemon list section showing which Pokemon have this ability."""
+        """Generate the Pokémon list section showing which Pokémon have this ability.
+
+        Args:
+            pokemon_with_ability (dict[str, list[Pokemon]]): A mapping of Pokémon forms to lists of Pokémon that have this ability.
+
+        Returns:
+            str: Markdown representation of the Pokémon with this ability.
+        """
         md = "## :material-pokeball: Pokémon with this Ability\n\n"
 
         normal = pokemon_with_ability["normal"]
@@ -190,7 +194,14 @@ class AbilityGenerator(BaseGenerator):
         return md
 
     def _generate_effect_section(self, ability: Ability) -> str:
-        """Generate the effect description section."""
+        """Generate the effect description section.
+
+        Args:
+            ability (Ability): The Ability object to generate the effect section for.
+
+        Returns:
+            str: Markdown representation of the effect description.
+        """
         md = "## :material-information: Effect\n\n"
 
         # Full effect
@@ -214,7 +225,14 @@ class AbilityGenerator(BaseGenerator):
         return md
 
     def _generate_flavor_text_section(self, ability: Ability) -> str:
-        """Generate the flavor text section."""
+        """Generate the flavor text section.
+
+        Args:
+            ability (Ability): The Ability object to generate the flavor text section for.
+
+        Returns:
+            str: Markdown representation of the flavor text section.
+        """
         md = "## :material-book-open: In-Game Description\n\n"
 
         flavor_text = getattr(ability.flavor_text, VERSION_GROUP, None)
@@ -232,15 +250,14 @@ class AbilityGenerator(BaseGenerator):
         entry: Ability,
         cache: Optional[dict[str, dict[str, list[Pokemon]]]] = None,
     ) -> Path:
-        """
-        Generate a markdown page for a single ability.
+        """Generate a markdown page for a single ability.
 
         Args:
-            entry: The Ability data to generate a page for
-            cache: Optional pre-built cache of ability->Pokemon mappings for performance
+            entry (Ability): The Ability data to generate a page for
+            cache (Optional[dict[str, dict[str, list[Pokemon]]]], optional): Pre-built cache of ability->Pokemon mappings for performance. Defaults to None.
 
         Returns:
-            Path to the generated markdown file
+            Path: Path to the generated markdown file
         """
         display_name = format_display_name(entry.name)
 
@@ -268,17 +285,26 @@ class AbilityGenerator(BaseGenerator):
         data: list[Ability],
         cache: Optional[dict[str, dict[str, list[Pokemon]]]] = None,
     ) -> list[Path]:
+        """Generate markdown pages for all abilities.
+
+        Args:
+            data (list[Ability]): The list of Ability data to generate pages for.
+            cache (Optional[dict[str, dict[str, list[Pokemon]]]], optional): Pre-built cache of ability->Pokemon mappings for performance. Defaults to None.
+
+        Returns:
+            list[Path]: List of paths to the generated markdown files.
+        """
         cache = cache or self._build_pokemon_ability_cache()
         return super().generate_all_pages(data, cache=cache)
 
     def format_index_row(self, entry: Ability) -> list[str]:
-        """
-        Format a single row for the index table.
+        """Format a single row for the index table.
 
         Args:
-            entry: The entry to format
+            entry (Ability): The entry to format
+
         Returns:
-            str: Formatted table row
+            list[str]: Formatted table row
         """
         name = format_display_name(entry.name)
         link = f"[{name}](abilities/{entry.name}.md)"

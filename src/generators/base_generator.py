@@ -22,6 +22,9 @@ class BaseGenerator(ABC):
     - Generate markdown files to docs/ (or subdirectories)
 
     Each generator instance is independent and thread-safe.
+
+    Args:
+        ABC (_type_): Abstract base generator class
     """
 
     def __init__(
@@ -29,12 +32,11 @@ class BaseGenerator(ABC):
         output_dir: str = "docs",
         project_root: Optional[Path] = None,
     ):
-        """
-        Initialize the generator.
+        """Initialize the base generator.
 
         Args:
-            output_dir: Directory where markdown files will be generated
-            project_root: The root directory of the project. If None, it's inferred.
+            output_dir (str, optional): Directory where markdown files will be generated. Defaults to "docs".
+            project_root (Optional[Path], optional): The root directory of the project. If None, it's inferred.
         """
         # Initialize instance variables
         self.category = ""
@@ -63,11 +65,10 @@ class BaseGenerator(ABC):
 
     @abstractmethod
     def load_all_data(self) -> list[Any]:
-        """
-        Load all data entries from the database.
+        """Load all data entries from the database.
 
-        This method should be implemented by subclasses to load
-        the relevant data entries for generation.
+        Raises:
+            NotImplementedError: If the subclass does not implement this method.
 
         Returns:
             list[Any]: List of data entries
@@ -76,25 +77,24 @@ class BaseGenerator(ABC):
 
     @abstractmethod
     def categorize_data(self, data: list[Any]) -> dict[str, list[Any]]:
-        """
-        Categorize data entries into subcategories.
-
-        This method should be implemented by subclasses to categorize
-        the data entries for index generation and navigation.
+        """Categorize data entries into subcategories.
 
         Args:
             data (list[Any]): List of data entries to categorize
+
+        Raises:
+            NotImplementedError: If the subclass does not implement this method.
+
         Returns:
             dict[str, list[Any]]: Mapping of subcategory IDs to lists of entries
         """
         raise NotImplementedError("Subclasses must implement categorize_data()")
 
     def cleanup_output_dir(self, pattern: str = "*.md") -> int:
-        """
-        Clean up old files in the output directory.
+        """Clean up old files in the output directory.
 
         Args:
-            pattern: Glob pattern for files to delete (default: "*.md")
+            pattern (str, optional): Glob pattern for files to delete (default: "*.md").
 
         Returns:
             int: Number of files deleted
@@ -117,8 +117,7 @@ class BaseGenerator(ABC):
         self,
         categorized_entries: dict[str, list],
     ) -> bool:
-        """
-        Update the mkdocs navigation structure.
+        """Update the mkdocs navigation structure.
 
         Args:
             categorized_entries (dict[str, list]): Mapping of subcategory IDs to lists of entries
@@ -182,24 +181,24 @@ class BaseGenerator(ABC):
 
     @abstractmethod
     def generate_page(self, entry: Any, cache: Optional[dict[str, Any]] = None) -> Path:
-        """
-        Generate a markdown page for a single data entry.
-
-        This method should be implemented by subclasses to generate
-        the markdown file for an individual data entry.
+        """Generate a markdown page for a single data entry.
 
         Args:
-            entry: The data entry to generate a page for
+            entry (Any): The data entry to generate a page for
+            cache (Optional[dict[str, Any]], optional): Cache for previously generated pages. Defaults to None.
+
+        Raises:
+            NotImplementedError: If the subclass does not implement this method.
+
         Returns:
-            Path: The path to the generated markdown file
+            Path: Path to the generated markdown file
         """
         raise NotImplementedError("Subclasses must implement generate_page()")
 
     def generate_all_pages(
         self, data: list[Any], cache: Optional[dict[str, Any]] = None
     ) -> list[Path]:
-        """
-        Generate markdown pages for all data entries.
+        """Generate markdown pages for all data entries.
 
         Args:
             data (list[Any]): List of data entries to generate pages for
@@ -231,8 +230,7 @@ class BaseGenerator(ABC):
         data: list[Any],
         categorized_entries: dict[str, list],
     ) -> Path:
-        """
-        Generate an index markdown page for the category.
+        """Generate an index markdown page for the category.
 
         Args:
             data (list[Any]): List of all data entries
@@ -298,16 +296,16 @@ class BaseGenerator(ABC):
 
     @abstractmethod
     def format_index_row(self, entry: Any) -> list[str]:
-        """
-        Format a single row for the index table.
-
-        This method should be implemented by subclasses to format
-        individual entries into table rows.
+        """Format a single row for the index table.
 
         Args:
-            entry: The entry to format
+            entry (Any): The entry to format
+
+        Raises:
+            NotImplementedError: If not implemented by subclass
+
         Returns:
-            str: Formatted table row
+            list[str]: List of formatted row values
         """
         raise NotImplementedError("Subclasses must implement format_row()")
 

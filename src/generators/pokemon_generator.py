@@ -16,12 +16,15 @@ Note: Styles are applied inline when they depend on dynamic data:
 - Name formatting uses format_display_name() from text_util
 """
 
+from collections import defaultdict
 from pathlib import Path
 from typing import Any, Optional, cast
 
 from src.data.pokedb_loader import PokeDBLoader
 from src.models.pokedb import EvolutionChain, EvolutionDetails, EvolutionNode, Pokemon
 from src.utils.core.config import (
+    GENERATOR_DEX_RELATIVE_PATH,
+    GENERATOR_INDEX_RELATIVE_PATH,
     POKEDB_GAME_VERSIONS,
     POKEDB_SPRITE_VERSION,
     VERSION_GROUP,
@@ -60,17 +63,19 @@ class PokemonGenerator(BaseGenerator):
     - Move learnset
     - Forms and variations
     - Sprites and images
+
+    Args:
+        BaseGenerator (_type_): Abstract base generator class
     """
 
     def __init__(
         self, output_dir: str = "docs/pokedex", project_root: Optional[Path] = None
     ):
-        """
-        Initialize the Pokemon page generator.
+        """Initialize the Pokemon page generator.
 
         Args:
-            output_dir: Directory where markdown files will be generated
-            project_root: The root directory of the project. If None, it's inferred.
+            output_dir (str, optional): Directory where markdown files will be generated. Defaults to "docs/pokedex".
+            project_root (Optional[Path], optional): The root directory of the project. If None, it's inferred.
         """
         # Initialize base generator
         super().__init__(output_dir=output_dir, project_root=project_root)
@@ -99,14 +104,10 @@ class PokemonGenerator(BaseGenerator):
         self.index_table_alignments = ["right", "center", "left", "left", "left"]
 
     def load_all_data(self) -> list[Pokemon]:
-        """
-        Load all Pokemon from all form subfolders once.
-
-        This loads Pokemon from default, transformation, variant, and cosmetic subfolders.
-        Implements the abstract method from BaseGenerator.
+        """Load all Pokemon from all form subfolders once.
 
         Returns:
-            List of all Pokemon objects across all form subfolders
+            list[Pokemon]: List of all Pokemon objects across all form subfolders
         """
         self.logger.info("Loading all Pokemon from all form subfolders...")
 
@@ -151,23 +152,14 @@ class PokemonGenerator(BaseGenerator):
         return all_pokemon
 
     def categorize_data(self, data: list[Pokemon]) -> dict[str, list[Pokemon]]:
-        """
-        Categorize Pokemon by generation.
-
-        Groups Pokemon by their generation attribute (generation-i, generation-ii, etc.)
-        for use in index generation and navigation.
-
-        Includes all forms (default and alternate) but deduplicates by (dex_number, name)
-        to prevent duplicate entries.
+        """Categorize Pokemon by generation.
 
         Args:
-            data: List of Pokemon objects to categorize
+            data (list[Pokemon]): List of Pokemon objects to categorize
 
         Returns:
-            Dictionary mapping generation IDs to lists of Pokemon (all forms, deduplicated)
+            dict[str, list[Pokemon]]: Mapping of generation IDs to lists of Pokemon (all forms, deduplicated)
         """
-        from collections import defaultdict
-
         categorized: dict[str, list[Pokemon]] = defaultdict(list)
 
         # Deduplicate by (dex_number, name) to prevent duplicate entries
@@ -194,14 +186,13 @@ class PokemonGenerator(BaseGenerator):
         return dict(categorized)
 
     def format_index_row(self, entry: Pokemon) -> list[str]:
-        """
-        Format a single Pokemon into a table row for the index page.
+        """Format a single Pokemon into a table row for the index page.
 
         Args:
-            entry: The Pokemon object to format
+            entry (Pokemon): The Pokemon object to format
 
         Returns:
-            List of table cell strings: [dex_num, sprite, name_link, types, abilities]
+            list[str]: List of table cell strings: [dex_num, sprite, name_link, types, abilities]
         """
         # Dex number
         dex_num = entry.pokedex_numbers.get("national", "???")
@@ -220,20 +211,24 @@ class PokemonGenerator(BaseGenerator):
 
         # Abilities (non-hidden only, max 2)
         abilities = [a.name for a in entry.abilities if not a.is_hidden]
-        abilities_str = ", ".join([format_display_name(a) for a in abilities[:2]])
+        abilities_str = ", ".join(
+            [
+                format_ability(a, relative_path=GENERATOR_INDEX_RELATIVE_PATH)
+                for a in abilities[:2]
+            ]
+        )
 
         return [dex_str, sprite_cell, name_link, types_cell, abilities_str]
 
     def _format_stat_bar(self, value: int, max_value: int = MAX_STAT_VALUE) -> str:
-        """
-        Create a visual progress bar for a stat.
+        """Create a visual progress bar for a stat.
 
         Args:
-            value: The stat value to display
-            max_value: Maximum value for scaling (default: 255)
+            value (int): The stat value to represent
+            max_value (int, optional): The maximum value for the stat. Defaults to MAX_STAT_VALUE.
 
         Returns:
-            HTML string representing the progress bar
+            str: HTML representation of the progress bar.
         """
         percentage = min(100, (value / max_value) * 100)
 
@@ -244,37 +239,55 @@ class PokemonGenerator(BaseGenerator):
         return bar_html
 
     def _format_ability(self, ability_name: str, is_hidden: bool = False) -> str:
-        """Format an ability name with link and hidden indicator."""
+        """Format an ability name with link and hidden indicator.
+
+        Args:
+            ability_name (str): The ability name
+            is_hidden (bool, optional): Whether the ability is hidden. Defaults to False.
+
+        Returns:
+            str: Formatted ability name with link and hidden indicator.
+        """
         formatted_name = format_display_name(ability_name)
         hidden_tag = " *(Hidden)*" if is_hidden else ""
         return f"{formatted_name}{hidden_tag}"
 
     def _generate_status_badges(self, pokemon: Pokemon) -> str:
-        """
-        Generate status badges for legendary/mythical/baby Pokemon.
+        """Generate status badges for legendary/mythical/baby Pokemon.
+
+        Args:
+            pokemon (Pokemon): The Pokemon object to generate badges for.
+
+        Returns:
+            str: HTML string of status badges.
         """
         badges = []
 
         if pokemon.is_legendary:
-            badges.append("<span class='pokemon-hero-status-badge'>⭐ LEGENDARY</span>")
+            badges.append(
+                "<span class='pokemon-hero-status-badge legendary-badge'>⭐ LEGENDARY</span>"
+            )
         elif pokemon.is_mythical:
-            badges.append("<span class='pokemon-hero-status-badge'>✨ MYTHICAL</span>")
+            badges.append(
+                "<span class='pokemon-hero-status-badge mythical-badge'>✨ MYTHICAL</span>"
+            )
 
         if pokemon.is_baby:
-            badges.append("<span class='pokemon-hero-status-badge'>🍼 BABY</span>")
+            badges.append(
+                "<span class='pokemon-hero-status-badge baby-badge'>🍼 BABY</span>"
+            )
 
         return " ".join(badges) if badges else ""
 
     def _format_form_name(self, pokemon_name: str, base_name: str) -> str:
-        """
-        Extract and format the form name from a Pokemon's full name.
+        """Extract and format the form name from a Pokemon's full name.
 
         Args:
-            pokemon_name: Full Pokemon name (e.g., "darmanitan-zen")
-            base_name: Base species name (e.g., "darmanitan")
+            pokemon_name (str): The full Pokemon name (e.g., "deoxys-attack")
+            base_name (str): The base Pokemon name (e.g., "deoxys")
 
         Returns:
-            Formatted form name (e.g., "Zen")
+            str: Formatted form name (e.g., "Attack" or "Standard")
         """
         # Remove base name and leading hyphen
         if pokemon_name.startswith(base_name):
@@ -291,34 +304,14 @@ class PokemonGenerator(BaseGenerator):
 
         return formatted_form
 
-    def _get_type_color(self, type_name: str) -> str:
-        """Get the color for a Pokemon type."""
-        return TYPE_COLORS.get(type_name.lower(), "#777777")
-
-    def _get_type_effectiveness(self, types: list[str]) -> dict[str, list[str]]:
-        """
-        Calculate type effectiveness based on Pokemon's types.
-
-        This method delegates to the type_effectiveness utility module,
-        which contains the full type chart data.
-
-        Args:
-            types: List of Pokemon types (e.g., ["fire", "flying"])
-
-        Returns:
-            Dictionary with damage multipliers categorized by strength
-        """
-        return calculate_type_effectiveness(types)
-
     def _get_gradient_colors(self, types: list[str]) -> tuple[str, str]:
-        """
-        Calculate gradient colors based on Pokemon types.
+        """Calculate gradient colors based on Pokemon types.
 
         Args:
-            types: List of Pokemon type names
+            types (list[str]): List of Pokemon type names
 
         Returns:
-            Tuple of (primary_color, secondary_color) with opacity
+            tuple[str, str]: Tuple of (primary_color, secondary_color) with opacity
         """
         default_color = "#667eea"
 
@@ -343,13 +336,26 @@ class PokemonGenerator(BaseGenerator):
         return (color_1_with_opacity, color_2)
 
     def _create_dex_number_badge(self, region: str, number: int) -> str:
-        """Create a regional Pokedex number badge."""
+        """Create a regional Pokedex number badge.
+
+        Args:
+            region (str): The name of the region (e.g., "Kanto")
+            number (int): The Pokedex number within the region
+
+        Returns:
+            str: HTML string of the regional Pokedex number badge
+        """
         region_name = format_display_name(region)
         return f'<span class="regional-dex-badge">{region_name}: #{number:03d}</span>'
 
     def _generate_hero_section(self, pokemon: Pokemon) -> str:
-        """
-        Generate a hero section with sprite, types, and badges.
+        """Generate a hero section with sprite, types, and badges.
+
+        Args:
+            pokemon (Pokemon): The Pokemon object to generate the hero section for.
+
+        Returns:
+            str: HTML string of the hero section.
         """
         md = ""
 
@@ -409,7 +415,14 @@ class PokemonGenerator(BaseGenerator):
         return md
 
     def _generate_basic_info(self, pokemon: Pokemon) -> str:
-        """Generate the basic information section."""
+        """Generate the basic information section.
+
+        Args:
+            pokemon (Pokemon): The Pokemon object to generate the basic information section for.
+
+        Returns:
+            str: HTML string of the basic information section.
+        """
         md = "## :material-information: Basic Information\n\n"
 
         # Use grid layout for information cards
@@ -420,7 +433,7 @@ class PokemonGenerator(BaseGenerator):
         md += "\t---\n\n"
         for ability in pokemon.abilities:
             ability_display = format_ability(
-                ability.name, is_linked=True, relative_path="../.."
+                ability.name, is_linked=True, relative_path=GENERATOR_DEX_RELATIVE_PATH
             )
             # Add hidden indicator if applicable
             if ability.is_hidden:
@@ -483,10 +496,13 @@ class PokemonGenerator(BaseGenerator):
         return md
 
     def _generate_held_items_section(self, pokemon: Pokemon) -> str:
-        """
-        Generate the held items section showing what items this Pokemon can hold in the wild.
+        """Generate the held items section showing what items this Pokemon can hold in the wild.
 
-        Uses data from the configured version group.
+        Args:
+            pokemon (Pokemon): The Pokemon object to generate the held items section for.
+
+        Returns:
+            str: HTML string of the held items section.
         """
         if not pokemon.held_items:
             return ""
@@ -499,7 +515,9 @@ class PokemonGenerator(BaseGenerator):
         for item_name, rates in pokemon.held_items.items():
             # Convert underscores to hyphens for item identifier
             item_id = item_name.replace("_", "-")
-            item_display = format_item(item_id, relative_path="../..")
+            item_display = format_item(
+                item_id, relative_path=GENERATOR_DEX_RELATIVE_PATH
+            )
 
             # Build row with all game version rates
             row = [item_display]
@@ -521,10 +539,17 @@ class PokemonGenerator(BaseGenerator):
         return md
 
     def _generate_type_effectiveness(self, pokemon: Pokemon) -> str:
-        """Generate the type effectiveness section with enhanced visuals."""
+        """Generate the type effectiveness section with enhanced visuals.
+
+        Args:
+            pokemon (Pokemon): The Pokemon object to generate the type effectiveness section for.
+
+        Returns:
+            str: HTML string of the type effectiveness section.
+        """
         md = "## :material-shield-half-full: Type Effectiveness\n\n"
 
-        effectiveness = self._get_type_effectiveness(pokemon.types)
+        effectiveness = calculate_type_effectiveness(pokemon.types)
 
         # Create a visual display of type effectiveness
         has_any = any(effectiveness.values())
@@ -592,21 +617,15 @@ class PokemonGenerator(BaseGenerator):
         return md
 
     def _calculate_stat_range(self, base_stat: int, is_hp: bool = False) -> tuple:
-        """
-        Calculate min and max stat values at level 100 using official Pokemon formulas.
-
-        These formulas are based on Generation 3+ stat calculation mechanics:
+        """Calculate min and max stat values at level 100 using official Pokemon formulas:
         https://bulbapedia.bulbagarden.net/wiki/Stat#Generation_III_onward
 
         Args:
-            base_stat: The base stat value
-            is_hp: Whether this is the HP stat (uses different formula)
+            base_stat (int): The base stat value
+            is_hp (bool, optional): Whether this is the HP stat (uses different formula). Defaults to False.
 
         Returns:
-            Tuple of (min_stat, max_stat) at level 100
-
-        Note:
-            Special case: Shedinja always has HP = 1 regardless of calculation
+            tuple: (min_stat, max_stat) at level 100
         """
         if is_hp:
             # HP formula at level 100:
@@ -635,7 +654,14 @@ class PokemonGenerator(BaseGenerator):
             return (min_stat, max_stat)
 
     def _generate_stats_table(self, pokemon: Pokemon) -> str:
-        """Generate the stats table section with modern visual bars and level 100 ranges."""
+        """Generate the stats table section with modern visual bars and level 100 ranges.
+
+        Args:
+            pokemon (Pokemon): The Pokemon object to generate the stats table for.
+
+        Returns:
+            str: HTML string of the stats table section.
+        """
         md = "## :material-chart-bar: Base Stats\n\n"
 
         stats_display = [
@@ -672,12 +698,11 @@ class PokemonGenerator(BaseGenerator):
 
         return md
 
-    def _format_evo_method(self, evo_details) -> str:
-        """
-        Format evolution method details into readable text.
+    def _format_evo_method(self, evo_details: EvolutionDetails) -> str:
+        """Format evolution method details into readable text.
 
         Args:
-            evo_details: Evolution details object
+            evo_details (EvolutionDetails): Evolution details object
 
         Returns:
             Formatted evolution method string
@@ -770,14 +795,13 @@ class PokemonGenerator(BaseGenerator):
         return "<br>".join(details) if details else "Unknown"
 
     def _generate_evolution_chain(self, pokemon: Pokemon) -> str:
-        """
-        Generate the evolution chain section showing all stages.
+        """Generate the evolution chain section showing all stages.
 
         Args:
-            pokemon: The Pokemon object with evolution chain data
+            pokemon (Pokemon): The Pokemon object with evolution chain data
 
         Returns:
-            Markdown string with evolution chain organized by stages
+            str: Markdown string with evolution chain organized by stages
         """
         if not pokemon.evolution_chain or not pokemon.evolution_chain.species_name:
             return ""
@@ -873,10 +897,13 @@ class PokemonGenerator(BaseGenerator):
         return md
 
     def _generate_forms_section(self, pokemon: Pokemon) -> str:
-        """
-        Generate section showing available forms for this Pokemon with Pokemon cards.
+        """Generate section showing available forms for this Pokemon with Pokemon cards.
 
-        Only displays if the Pokemon has multiple forms or if forms are switchable.
+        Args:
+            pokemon (Pokemon): The Pokemon object with form data
+
+        Returns:
+            str: Markdown string with available forms organized in a grid
         """
         # Don't show if only one form and not switchable
         if len(pokemon.forms) <= 1 and not pokemon.forms_switchable:
@@ -903,17 +930,16 @@ class PokemonGenerator(BaseGenerator):
         include_level: bool = False,
         sort_by_level: bool = False,
     ) -> str:
-        """
-        Generate a move table with formatted move data.
+        """Generate a move table with formatted move data.
 
         Args:
-            moves: List of move learn objects
-            damage_class_icons: Dictionary mapping damage classes to icons
-            include_level: Whether to include the level column
-            sort_by_level: Whether to sort by level learned (otherwise sort by name)
+            moves (list): List of move learn objects
+            damage_class_icons (dict[str, str]): Dictionary mapping damage classes to icons
+            include_level (bool, optional): Whether to include the level column. Defaults to False.
+            sort_by_level (bool, optional): Whether to sort by level learned (otherwise sort by name). Defaults to False.
 
         Returns:
-            Formatted markdown table string
+            str: Formatted markdown table string
         """
         # Sort moves
         if sort_by_level:
@@ -926,7 +952,9 @@ class PokemonGenerator(BaseGenerator):
         for move_learn in sorted_moves:
             move_data = PokeDBLoader.load_move(move_learn.name)
             move_name_formatted = format_move(
-                move_learn.name, is_linked=True, relative_path="../.."
+                move_learn.name,
+                is_linked=True,
+                relative_path=GENERATOR_DEX_RELATIVE_PATH,
             )
 
             if move_data:
@@ -1003,7 +1031,14 @@ class PokemonGenerator(BaseGenerator):
         return indented_table + "\n"
 
     def _generate_moves_section(self, pokemon: Pokemon) -> str:
-        """Generate the moves learnset section with detailed move information."""
+        """Generate the moves section for a Pokémon.
+
+        Args:
+            pokemon (Pokemon): The Pokémon object with move data.
+
+        Returns:
+            str: Formatted markdown string with the moves section.
+        """
         md = "## :material-sword-cross: Moves\n\n"
 
         # Use tabs for different move categories
@@ -1048,10 +1083,13 @@ class PokemonGenerator(BaseGenerator):
         return md
 
     def _generate_flavor_text(self, pokemon: Pokemon) -> str:
-        """
-        Generate the Pokédex flavor text section.
+        """Generate the Pokédex flavor text section.
 
-        Iterates through all configured game versions.
+        Args:
+            pokemon (Pokemon): The Pokémon object with flavor text data.
+
+        Returns:
+            str: Formatted markdown string with the flavor text section.
         """
         md = "## :material-book-open: Pokédex Entries\n\n"
 
@@ -1084,7 +1122,14 @@ class PokemonGenerator(BaseGenerator):
         return md
 
     def _generate_sprites_section(self, pokemon: Pokemon) -> str:
-        """Generate the sprites section with multiple sprite versions."""
+        """Generate the sprites section for a Pokémon.
+
+        Args:
+            pokemon (Pokemon): The Pokémon object with sprite data.
+
+        Returns:
+            str: Formatted markdown string with the sprites section.
+        """
         md = "## :material-image-multiple: Sprites\n\n"
 
         sprites = pokemon.sprites
@@ -1251,7 +1296,14 @@ class PokemonGenerator(BaseGenerator):
         return md
 
     def _generate_cries_section(self, pokemon: Pokemon) -> str:
-        """Generate the cries section with audio players for both legacy and latest cries."""
+        """Generate the cries section with audio players for both legacy and latest cries.
+
+        Args:
+            pokemon (Pokemon): The Pokémon object with cry data.
+
+        Returns:
+            str: Formatted markdown string with the cries section.
+        """
         md = "## :material-volume-high: Cries\n\n"
 
         if hasattr(pokemon, "cries") and pokemon.cries:
@@ -1293,17 +1345,14 @@ class PokemonGenerator(BaseGenerator):
     def generate_page(
         self, entry: Pokemon, cache: Optional[dict[str, Any]] = None
     ) -> Path:
-        """
-        Generate a markdown page for a single Pokemon.
-
-        Implements the abstract method from BaseGenerator.
+        """Generate a markdown page for a single Pokemon.
 
         Args:
-            entry: The Pokemon data to generate a page for
-            cache: Optional cache for previously generated pages (unused for Pokemon)
+            entry (Pokemon): The Pokémon object to generate a page for.
+            cache (Optional[dict[str, Any]], optional): Cache for previously generated pages. Defaults to None.
 
         Returns:
-            Path to the generated markdown file
+            Path: The path to the generated markdown file.
         """
         display_name = format_display_name(entry.name)
 
@@ -1331,16 +1380,17 @@ class PokemonGenerator(BaseGenerator):
         return output_file
 
     def update_mkdocs_nav(self, categorized_entries: dict[str, list[Pokemon]]) -> bool:
-        """
-        Update mkdocs.yml with navigation links to all Pokemon pages.
-
-        Overrides base class to handle Pokemon forms and complex navigation structure.
+        """Update mkdocs.yml with navigation links to all Pokemon pages.
 
         Args:
-            categorized_entries: Dictionary mapping generation IDs to lists of Pokemon
+            categorized_entries (dict[str, list[Pokemon]]): Dictionary mapping generation IDs to lists of Pokemon.
+
+        Raises:
+            ValueError: If the mkdocs.yml file is not found or is invalid.
+            ValueError: If the navigation structure is invalid.
 
         Returns:
-            bool: True if update succeeded, False if it failed
+            bool: True if the update succeeded, False if it failed.
         """
         # Flatten categorized entries back to a single list for Pokemon-specific processing
         all_pokemon = []
@@ -1371,8 +1421,6 @@ class PokemonGenerator(BaseGenerator):
                     deduplicated_pokemon.append(pokemon)
 
             # Group Pokemon by national dex number first for form handling
-            from collections import defaultdict
-
             pokemon_by_dex: dict[int, list[Pokemon]] = defaultdict(list)
 
             for pokemon in deduplicated_pokemon:

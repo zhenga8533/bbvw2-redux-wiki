@@ -11,6 +11,7 @@ This generator:
 4. Uses version group data configured in config.py
 """
 
+from collections import defaultdict
 from pathlib import Path
 from typing import Any, Optional
 
@@ -31,17 +32,19 @@ class ItemGenerator(BaseGenerator):
     - Effect descriptions
     - Flavor text
     - Pokemon that can hold this item in the wild
+
+    Args:
+        BaseGenerator (_type_): Abstract base generator class
     """
 
     def __init__(
         self, output_dir: str = "docs/pokedex", project_root: Optional[Path] = None
     ):
-        """
-        Initialize the Item page generator.
+        """Initialize the Item page generator.
 
         Args:
-            output_dir: Directory where markdown files will be generated
-            project_root: The root directory of the project. If None, it's inferred.
+            output_dir (str, optional): Directory where markdown files will be generated. Defaults to "docs/pokedex".
+            project_root (Optional[Path], optional): The root directory of the project. If None, it's inferred.
         """
         # Initialize base generator
         super().__init__(output_dir=output_dir, project_root=project_root)
@@ -71,11 +74,10 @@ class ItemGenerator(BaseGenerator):
         self.output_dir.mkdir(parents=True, exist_ok=True)
 
     def _build_pokemon_item_cache(self) -> dict[str, list[dict]]:
-        """
-        Build a cache mapping item names to Pokemon that can hold them in the wild.
+        """Build a cache mapping item names to Pokemon that can hold them in the wild.
 
         Returns:
-            Dict with item names as keys, values are lists of dicts with pokemon and rates
+            dict[str, list[dict]]: Mapping of item names to lists of Pokemon and their hold rates
         """
         # Map: item_name -> [{"pokemon": Pokemon, <game_version>: rate, ...}, ...]
         item_cache = {}
@@ -107,11 +109,10 @@ class ItemGenerator(BaseGenerator):
         return item_cache
 
     def load_all_data(self) -> list[Item]:
-        """
-        Load all items from the database once.
+        """Load all items from the database once.
 
         Returns:
-            List of Item objects (excluding miracle-shooter items), sorted alphabetically by name
+            list[Item]: List of Item objects (excluding miracle-shooter items), sorted alphabetically by name
         """
         item_dir = self.project_root / "data" / "pokedb" / "parsed" / "item"
 
@@ -146,16 +147,14 @@ class ItemGenerator(BaseGenerator):
         return items
 
     def categorize_data(self, data: list[Item]) -> dict[str, list[Item]]:
-        """
-        Categorize items by usage context for index and navigation.
+        """Categorize items by usage context for index and navigation.
 
         Args:
-            data: List of Item objects to categorize
-        Returns:
-            Dict mapping usage context identifiers to lists of Item objects
-        """
-        from collections import defaultdict
+            data (list[Item]): List of Item objects to categorize
 
+        Returns:
+            dict[str, list[Item]]: Mapping of usage context identifiers to lists of Item objects
+        """
         items_by_context = defaultdict(list)
 
         for item in data:
@@ -195,13 +194,13 @@ class ItemGenerator(BaseGenerator):
         return items_by_context
 
     def format_index_row(self, entry: Item) -> list[str]:
-        """
-        Format a single row for the index table.
+        """Format a single row for the index table.
 
         Args:
-            entry: The entry to format
+            entry (Item): The entry to format
+
         Returns:
-            List of strings for table columns: [sprite, link, category, short_effect]
+            list[str]: List of strings for table columns: [sprite, link, category, short_effect]
         """
         name = format_display_name(entry.name)
         link = f"[{name}](items/{entry.name}.md)"
@@ -218,7 +217,15 @@ class ItemGenerator(BaseGenerator):
     def _generate_pokemon_with_item_section(
         self, item_name: str, cache: Optional[dict[str, list[dict]]] = None
     ) -> str:
-        """Generate the section showing which Pokemon can hold this item in the wild."""
+        """Generate the section showing which Pokemon can hold this item in the wild.
+
+        Args:
+            item_name (str): Name of the item
+            cache (Optional[dict[str, list[dict]]], optional): Cache for previously generated sections. Defaults to None.
+
+        Returns:
+            str: Markdown section for Pokémon that can hold this item
+        """
         md = "## :material-pokeball: Wild Pokémon Encounters\n\n"
 
         # Get Pokemon that can hold this item
@@ -262,7 +269,14 @@ class ItemGenerator(BaseGenerator):
         return md
 
     def _generate_effect_section(self, item: Item) -> str:
-        """Generate the effect description section."""
+        """Generate the effect description section.
+
+        Args:
+            item (Item): The item to generate the effect section for
+
+        Returns:
+            str: Markdown section for the item's effect description
+        """
         md = "## :material-information: Effect\n\n"
 
         # Full effect
@@ -286,7 +300,14 @@ class ItemGenerator(BaseGenerator):
         return md
 
     def _generate_attributes_section(self, item: Item) -> str:
-        """Generate the item attributes section."""
+        """Generate the item attributes section.
+
+        Args:
+            item (Item): The item to generate the attributes section for
+
+        Returns:
+            str: Markdown section for the item's attributes
+        """
         md = "## :material-tag: Attributes\n\n"
 
         md += '<div class="grid cards" markdown>\n\n'
@@ -315,7 +336,14 @@ class ItemGenerator(BaseGenerator):
         return md
 
     def _generate_item_header(self, item: Item) -> str:
-        """Generate the item header section with sprite and category."""
+        """Generate the item header section with sprite and category.
+
+        Args:
+            item (Item): The item to generate the header section for
+
+        Returns:
+            str: Markdown section for the item's header
+        """
         display_name = format_display_name(item.name)
         category_display_name = format_display_name(item.category)
 
@@ -347,15 +375,14 @@ class ItemGenerator(BaseGenerator):
     def generate_page(
         self, entry: Item, cache: Optional[dict[str, list[dict]]] = None
     ) -> Path:
-        """
-        Generate a markdown page for a single item.
+        """Generate a markdown page for a single item.
 
         Args:
-            entry: The Item data to generate a page for
-            cache: Optional pre-built cache of item->Pokemon mappings for performance
+            entry (Item): The item entry to generate the page for
+            cache (Optional[dict[str, list[dict]]], optional): Pre-built cache of item->Pokemon mappings for performance. Defaults to None.
 
         Returns:
-            Path to the generated markdown file
+            Path: Path to the generated markdown file
         """
         display_name = format_display_name(entry.name)
 
@@ -384,5 +411,14 @@ class ItemGenerator(BaseGenerator):
         data: list[Item],
         cache: Optional[dict[str, list[dict]]] = None,
     ) -> list[Path]:
+        """Generate markdown pages for all items.
+
+        Args:
+            data (list[Item]): The list of item entries to generate pages for
+            cache (Optional[dict[str, list[dict]]], optional): Pre-built cache of item->Pokemon mappings for performance. Defaults to None.
+
+        Returns:
+            list[Path]: Paths to the generated markdown files
+        """
         cache = cache or self._build_pokemon_item_cache()
         return super().generate_all_pages(data, cache=cache)

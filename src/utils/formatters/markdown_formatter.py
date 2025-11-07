@@ -7,7 +7,7 @@ like Pokemon displays with sprites and links.
 
 from src.data.pokedb_loader import PokeDBLoader
 from src.models.pokedb import Ability, Item, Move, Pokemon
-from src.utils.core.config import POKEDB_SPRITE_VERSION
+from src.utils.core.config import PARSER_DEX_RELATIVE_PATH, POKEDB_SPRITE_VERSION
 from src.utils.data.constants import TYPE_COLORS
 from src.utils.text.text_util import format_display_name, name_to_id
 
@@ -59,7 +59,7 @@ def format_type_badge(type_name: str) -> str:
 def format_ability(
     ability: str | Ability,
     is_linked: bool = True,
-    relative_path: str = "..",
+    relative_path: str = PARSER_DEX_RELATIVE_PATH,
 ) -> str:
     """Format an ability name with optional link to its page.
 
@@ -72,8 +72,8 @@ def format_ability(
         Formatted markdown string for the ability (link or plain text)
 
     Example:
-        >>> format_ability("overgrow", True, "../..")
-        '[Overgrow](../../pokedex/abilities/overgrow.md)'
+        >>> format_ability("overgrow", True, PARSER_DEX_RELATIVE_PATH)
+        '[Overgrow](../pokedex/abilities/overgrow.md)'
         >>> format_ability("chlorophyll", False)
         'Chlorophyll'
     """
@@ -105,7 +105,7 @@ def format_pokemon(
     is_animated: bool = True,
     is_linked: bool = True,
     is_named: bool = False,
-    relative_path: str = "..",
+    relative_path: str = PARSER_DEX_RELATIVE_PATH,
 ) -> str:
     """Format a Pokemon with its sprite and name.
 
@@ -121,8 +121,8 @@ def format_pokemon(
         str: Formatted markdown string for the Pokemon
 
     Example::
-        >>> format_pokemon("bulbasaur", True, True, True, False, "../..")
-        '![bulbasaur](sprite_url){ .sprite }<br>[Bulbasaur](../../pokedex/pokemon/bulbasaur.md)'
+        >>> format_pokemon("bulbasaur", True, True, True, False, PARSER_DEX_RELATIVE_PATH)
+        '![bulbasaur](sprite_url){ .sprite }<br>[Bulbasaur](../pokedex/pokemon/bulbasaur.md)'
         >>> format_pokemon("charmander", False, False, False, True)
         'Charmander'
     """
@@ -177,7 +177,7 @@ def format_item(
     item: str | Item,
     has_sprite: bool = True,
     is_linked: bool = True,
-    relative_path: str = "..",
+    relative_path: str = PARSER_DEX_RELATIVE_PATH,
 ) -> str:
     """Format an item with optional sprite and link to its page.
 
@@ -191,8 +191,8 @@ def format_item(
         str: Formatted markdown string for the item
 
     Example:
-        >>> format_item("potion", True, True, "../..")
-        '![Potion](sprite_url){ .item-sprite } [Potion](../../pokedex/items/potion.md)'
+        >>> format_item("potion", True, True, PARSER_DEX_RELATIVE_PATH)
+        '![Potion](sprite_url){ .item-sprite } [Potion](../pokedex/items/potion.md)'
         >>> format_item("rare-candy", False, False)
         'Rare Candy'
     """
@@ -244,7 +244,7 @@ def format_item(
 def format_move(
     move: str | Move,
     is_linked: bool = True,
-    relative_path: str = "..",
+    relative_path: str = PARSER_DEX_RELATIVE_PATH,
 ) -> str:
     """Format a move name with optional link to its page.
 
@@ -257,8 +257,8 @@ def format_move(
         str: Formatted markdown string for the move (link or plain text)
 
     Example:
-        >>> format_move("tackle", True, "../..")
-        '[Tackle](../../pokedex/moves/tackle.md)'
+        >>> format_move("tackle", True, PARSER_DEX_RELATIVE_PATH)
+        '[Tackle](../pokedex/moves/tackle.md)'
         >>> format_move("ember", False)
         'Ember'
     """
