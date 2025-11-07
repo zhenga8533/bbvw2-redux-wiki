@@ -63,6 +63,8 @@ class TrainerChangesParser(LocationParser):
         # Trainer-specific location tracking
         self._base_sublocation = ""  # The sublocation from "XXX - YYY" pattern
         self._current_trainer_data: Optional[Dict[str, Any]] = None
+        self._location_description_lines: list[str] = []  # Description for location
+        self._capturing_description = False  # Flag for capturing description after +++"
 
     def handle_section_change(self, new_section: str) -> None:
         """Handle state reset on section change.
@@ -176,7 +178,13 @@ class TrainerChangesParser(LocationParser):
 
             self._initialize_location_data(location_raw)
             self._markdown += f"### {location_raw}\n\n"
+
+            # Reset description capture for new location
+            self._location_description_lines = []
+            self._capturing_description = False
         elif line == "+++":
+            # Start capturing description after the +++ separator
+            self._capturing_description = True
             pass
         # Match: dividers
         elif line == "---":
@@ -184,6 +192,10 @@ class TrainerChangesParser(LocationParser):
         # Match: sub-headings (nested sublocations from ~~~~)
         # These should be nested under the base sublocation if one exists
         elif next_line.startswith("~") and line:
+            # Save captured description before sublocation
+            if self._capturing_description and self._location_description_lines:
+                self._save_location_description()
+
             nested_sublocation = line.strip(": ")
             # If we have a base sublocation (from "XXX - YYY"), nest this under it
             if self._base_sublocation:
@@ -192,8 +204,16 @@ class TrainerChangesParser(LocationParser):
                 )
             else:
                 self._current_sublocation = nested_sublocation
+
+            # Reset description capture for the new sublocation
+            self._location_description_lines = []
+            self._capturing_description = False
             self._markdown += f"#### {nested_sublocation}\n"
         elif match := re.match(r"^\~{1,} (.+) \~{1,}$", line):
+            # Save captured description before sublocation
+            if self._capturing_description and self._location_description_lines:
+                self._save_location_description()
+
             nested_sublocation = match.group(1).strip(": ")
             # If we have a base sublocation (from "XXX - YYY"), nest this under it
             if self._base_sublocation:
@@ -202,8 +222,14 @@ class TrainerChangesParser(LocationParser):
                 )
             else:
                 self._current_sublocation = nested_sublocation
+
+            # Reset description capture for the new sublocation
+            self._location_description_lines = []
+            self._capturing_description = False
             self._markdown += f"#### {nested_sublocation}\n"
         elif line.startswith("~"):
+            # Start capturing description after ~~~ delimiter
+            self._capturing_description = True
             pass
         # Match: "<pokemon> [(<ability>)], lv.<level>: <moves>"
         elif match := re.match(r"^(.+?) \[(.+?)\], lv\.(\d+): (.+?)$", line):
@@ -234,6 +260,11 @@ class TrainerChangesParser(LocationParser):
             self._markdown += f'{"\t" * (self._indent_level - 1)}=== "{starter}"\n\n'
         # Match: "<trainer>:"
         elif match := re.match(r"^(.*):$", line):
+            # Save captured description before first trainer
+            if self._capturing_description and self._location_description_lines:
+                self._save_location_description()
+                self._capturing_description = False
+
             self._current_trainer = match.group(1)
             self._current_trainer_data = self._create_trainer_data(
                 self._current_trainer
@@ -243,8 +274,15 @@ class TrainerChangesParser(LocationParser):
             self._is_table_open = False
         # Default: regular text line
         else:
-            self._indent_level = 0
-            self.parse_default(line)
+            # Capture description lines if we're in capture mode
+            if self._capturing_description:
+                # Skip empty lines at the start
+                if line or self._location_description_lines:
+                    self._location_description_lines.append(line)
+                    # Don't output to markdown yet - will be handled by generator
+            else:
+                self._indent_level = 0
+                self.parse_default(line)
 
     def _format_trainer(self, trainer: str) -> str:
         """Format a trainer name and extract optional metadata.
@@ -431,6 +469,43 @@ class TrainerChangesParser(LocationParser):
             self._locations_data[self._current_location]["trainers"].append(
                 trainer_data
             )
+
+    def _save_location_description(self) -> None:
+        """Save captured description lines to the current location or sublocation data."""
+        if not self._current_location or not self._location_description_lines:
+            return
+
+        if self._current_location not in self._locations_data:
+            return
+
+        # Clean up description: remove leading/trailing empty lines
+        description_lines = self._location_description_lines.copy()
+        while description_lines and not description_lines[0]:
+            description_lines.pop(0)
+        while description_lines and not description_lines[-1]:
+            description_lines.pop()
+
+        if description_lines:
+            # Join lines and store as description
+            description_text = "\n".join(description_lines)
+
+            # Save to sublocation if we're in one, otherwise to main location
+            if self._current_sublocation:
+                target = self._get_or_create_sublocation(
+                    self._locations_data[self._current_location],
+                    self._current_sublocation,
+                )
+                target["description"] = description_text
+                self.logger.debug(
+                    f"Saved description for {self._current_location}/{self._current_sublocation}: {description_text}"
+                )
+            else:
+                self._locations_data[self._current_location][
+                    "description"
+                ] = description_text
+                self.logger.debug(
+                    f"Saved description for {self._current_location}: {description_text}"
+                )
 
     def _add_pokemon_to_trainer(
         self, pokemon: str, ability: str, level: str, item: Optional[str], moves: str

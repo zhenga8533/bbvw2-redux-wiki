@@ -183,10 +183,16 @@ class LocationGenerator:
         # If there are sublocations and main content, add "Main Area" header
         if has_sublocations and has_main_content:
             markdown += "## Main Area\n\n"
+            # Add location description after "Main Area" heading
+            if location_data.get("description"):
+                markdown += f"{location_data['description']}\n\n"
             trainer_header = "###"
             encounter_header = "###"
             grotto_header = "###"
         else:
+            # Add location description after location title if no sublocations
+            if location_data.get("description"):
+                markdown += f"{location_data['description']}\n\n"
             trainer_header = "##"
             encounter_header = "##"
             grotto_header = "##"
@@ -233,6 +239,10 @@ class LocationGenerator:
 
         for sublocation_name, sublocation_data in sublocations.items():
             markdown += f"{heading} {sublocation_name}\n\n"
+
+            # Add sublocation description if it exists
+            if sublocation_data.get("description"):
+                markdown += f"{sublocation_data['description']}\n\n"
 
             # Add trainers for this sublocation
             if sublocation_data.get("trainers"):

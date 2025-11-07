@@ -195,6 +195,14 @@ class WildAreaChangesParser(LocationParser):
         # Match: encounter Pokémon line
         elif line and self._encounter_type:
             if self._encounter_type == "Guaranteed Encounters":
+                # Pattern: " - You will always encounter a Lv. XX <Pokemon> here."
+                if match := re.search(r"Lv\.\s*\d+\s+(\w+)", line):
+                    pokemon_name = match.group(1)
+                    self._add_hidden_grotto_encounter(
+                        pokemon_name, self._encounter_type
+                    )
+
+                # Otherwise, just output the line as markdown text
                 self._markdown += f"\t{line}\n"
                 return
 
