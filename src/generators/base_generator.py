@@ -113,6 +113,70 @@ class BaseGenerator(ABC):
 
         return deleted_count
 
+    def _build_pokemon_cache_by_attribute(
+        self, attribute_extractor, cache_key_extractor, include_metadata=None
+    ):
+        """Build a cache mapping entity attributes to Pokemon that have them.
+
+        This helper method reduces code duplication across generators that need
+        to build reverse lookups from abilities/items/moves to Pokemon.
+
+        Args:
+            attribute_extractor (callable): Function that takes a Pokemon and returns
+                an iterable of attributes to cache (e.g., lambda p: p.abilities)
+            cache_key_extractor (callable): Function that takes an attribute and returns
+                the cache key (e.g., lambda a: a.name)
+            include_metadata (callable, optional): Function that takes an attribute and
+                returns a dict of additional metadata to store (e.g., level, is_hidden)
+
+        Returns:
+            dict: Mapping of cache keys to lists of Pokemon (or dicts with metadata)
+
+        Example:
+            # Build ability cache
+            cache = self._build_pokemon_cache_by_attribute(
+                attribute_extractor=lambda p: p.abilities,
+                cache_key_extractor=lambda a: a.name,
+                include_metadata=lambda a: {"is_hidden": a.is_hidden}
+            )
+        """
+        from src.data.pokedb_loader import PokeDBLoader
+
+        cache = {}
+
+        for pokemon in PokeDBLoader.iterate_pokemon(
+            include_non_default=False,
+            deduplicate=True,
+        ):
+            attributes = attribute_extractor(pokemon)
+            if not attributes:
+                continue
+
+            for attr in attributes:
+                cache_key = cache_key_extractor(attr)
+
+                if cache_key not in cache:
+                    cache[cache_key] = []
+
+                if include_metadata:
+                    metadata = include_metadata(attr)
+                    cache[cache_key].append({"pokemon": pokemon, **metadata})
+                else:
+                    cache[cache_key].append(pokemon)
+
+        # Sort all lists by national dex number
+        for cached_list in cache.values():
+            if cached_list and isinstance(cached_list[0], dict):
+                # Sort dicts with metadata
+                cached_list.sort(
+                    key=lambda p: p["pokemon"].pokedex_numbers.get("national", 9999)
+                )
+            else:
+                # Sort Pokemon objects directly
+                cached_list.sort(key=lambda p: p.pokedex_numbers.get("national", 9999))
+
+        return cache
+
     def update_mkdocs_nav(
         self,
         categorized_entries: dict[str, list],

@@ -109,7 +109,7 @@ class PokemonGenerator(BaseGenerator):
         Returns:
             list[Pokemon]: List of all Pokemon objects across all form subfolders
         """
-        self.logger.info("Loading all Pokemon from all form subfolders...")
+        self.logger.info("Loading all Pokemon from all form subfolders")
 
         pokemon_base_dir = self.project_root / "data" / "pokedb" / "parsed" / "pokemon"
         all_pokemon = []
@@ -141,10 +141,7 @@ class PokemonGenerator(BaseGenerator):
                         )
 
                 except Exception as e:
-                    self.logger.error(
-                        f"Error loading {pokemon_file.stem} from {folder}: {e}",
-                        exc_info=True,
-                    )
+                    self.logger.error(f"Error loading {pokemon_file.stem} from {folder}: {e}", exc_info=True)
 
         self.logger.info(
             f"Loaded {len(all_pokemon)} Pokemon from {total_files} files across all subfolders"

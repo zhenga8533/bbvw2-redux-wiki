@@ -3,6 +3,15 @@ Utility functions for generating markdown content.
 
 This module provides helpers for creating consistent markdown elements
 like Pokemon displays with sprites and links.
+
+⚠️ Domain Dependency Warning:
+This formatter imports from src.data.pokedb_loader, creating a dependency
+on the data layer. This makes it domain-aware rather than a pure utility.
+This design is intentional to provide convenient Pokemon-specific formatting.
+
+If circular import issues arise, consider:
+1. Moving this module to src/formatters/ (peer to generators/parsers)
+2. Using dependency injection to pass PokeDBLoader as a parameter
 """
 
 from src.data.pokedb_loader import PokeDBLoader
@@ -298,10 +307,6 @@ def format_pokemon_card_grid(
 
     Returns:
         str: The formatted markdown grid for the Pokemon.
-
-    Example:
-        >>> format_pokemon_card_grid(['bulbasaur', 'charmander'], '../pokemon', ['Grass type', 'Fire type'])
-        '<div class="grid cards" markdown>\n\n-	[![Bulbasaur](sprite_url){: .pokemon-sprite-img }](../pokemon/bulbasaur.md)\n\n\t***\n\n\t**#001 [Bulbasaur](../pokemon/bulbasaur.md)**\n\n\tGrass type\n\n\n\n-	[![Charmander](sprite_url){: .pokemon-sprite-img }](../pokemon/charmander.md)\n\n\t***\n\n\t**#004 [Charmander](../pokemon/charmander.md)**\n\n\tFire type\n\n\n\n</div>'
     """
     cards = []
 

@@ -77,28 +77,30 @@ class ItemGenerator(BaseGenerator):
         """Build a cache mapping item names to Pokemon that can hold them in the wild.
 
         Returns:
-            dict[str, list[dict]]: Mapping of item names to lists of Pokemon and their hold rates
+            dict[str, list[dict]]: Mapping of item names to lists of Pokemon with their hold rates
         """
-        # Map: item_name -> [{"pokemon": Pokemon, <game_version>: rate, ...}, ...]
+        from src.data.pokedb_loader import PokeDBLoader
+
         item_cache = {}
 
-        # Use shared Pokemon iteration utility (handles deduplication and filtering)
+        # held_items is complex (nested dict with rates), so handle manually
         for pokemon in PokeDBLoader.iterate_pokemon(
             include_non_default=False,
             deduplicate=True,
         ):
-            # Add this Pokemon to each item it can hold
-            if pokemon.held_items:
-                for item_name, rates in pokemon.held_items.items():
-                    if item_name not in item_cache:
-                        item_cache[item_name] = []
+            if not pokemon.held_items:
+                continue
 
-                    # Build entry with rates for all configured game versions
-                    entry: dict[str, Any] = {"pokemon": pokemon}
-                    for version in POKEDB_GAME_VERSIONS:
-                        entry[version] = rates.get(version, 0)
+            for item_name, rates in pokemon.held_items.items():
+                if item_name not in item_cache:
+                    item_cache[item_name] = []
 
-                    item_cache[item_name].append(entry)
+                # Build entry with rates for all configured game versions
+                entry: dict[str, Any] = {"pokemon": pokemon}
+                for version in POKEDB_GAME_VERSIONS:
+                    entry[version] = rates.get(version, 0)
+
+                item_cache[item_name].append(entry)
 
         # Sort all lists by national dex number
         for item_data in item_cache.values():

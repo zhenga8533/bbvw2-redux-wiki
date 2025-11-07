@@ -72,9 +72,7 @@ def run_components(
             logger.error(f"[FAIL] {name} failed - file not found: {e}", exc_info=True)
             failed_components.append((name, "file not found"))
         except (OSError, IOError, PermissionError) as e:
-            logger.error(
-                f"[FAIL] {name} failed - file system error: {e}", exc_info=True
-            )
+            logger.error(f"[FAIL] {name} failed - file system error: {e}", exc_info=True)
             failed_components.append((name, "file system error"))
         except Exception as e:
             logger.error(f"[FAIL] {name} failed: {e}", exc_info=True)
@@ -87,9 +85,7 @@ def run_components(
             logger.error(f"  - {name}: {reason}")
         return False
     else:
-        logger.info(
-            f"All {len(components_to_run)} {component_type}(s) completed successfully"
-        )
+        logger.info(f"All {len(components_to_run)} {component_type}(s) completed successfully")
         return True
 
 

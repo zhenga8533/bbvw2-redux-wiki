@@ -19,10 +19,7 @@ from src.data.pokedb_loader import PokeDBLoader
 from src.models.pokedb import Move
 from src.utils.core.config import VERSION_GROUP, VERSION_GROUP_FRIENDLY
 from src.utils.data.constants import DAMAGE_CLASS_ICONS
-from src.utils.formatters.markdown_formatter import (
-    format_pokemon_card_grid,
-    format_type_badge,
-)
+from src.utils.formatters.markdown_formatter import format_pokemon_card_grid, format_type_badge
 from src.utils.text.text_util import format_display_name
 
 from .base_generator import BaseGenerator
@@ -73,52 +70,42 @@ class MoveGenerator(BaseGenerator):
         """Build a cache mapping move names to Pokemon that can learn them.
 
         Returns:
-            dict[str, dict[str, list[dict]]]: A mapping of move names to lists of Pokemon that can learn them.
+            dict[str, dict[str, list[dict]]]: A mapping of move names to Pokemon by learn method.
         """
-        # Map: move_name -> {method: [{pokemon, level}, ...]}
+        from src.data.pokedb_loader import PokeDBLoader
+
         move_cache = defaultdict(
             lambda: {"level_up": [], "machine": [], "egg": [], "tutor": []}
         )
 
-        # Use shared Pokemon iteration utility (handles deduplication and filtering)
+        # Moves have complex structure with multiple learn methods, handle manually
         for pokemon in PokeDBLoader.iterate_pokemon(
             include_non_default=False,
             deduplicate=True,
         ):
-            # Add this Pokemon to each move it can learn
-            if pokemon.moves:
-                # Level-up moves
-                for move in pokemon.moves.level_up or []:
-                    move_cache[move.name]["level_up"].append(
-                        {
-                            "pokemon": pokemon,
-                            "level": move.level_learned_at,
-                        }
-                    )
+            if not pokemon.moves:
+                continue
 
-                # TM/HM moves
-                for move in pokemon.moves.machine or []:
-                    move_cache[move.name]["machine"].append(
-                        {
-                            "pokemon": pokemon,
-                        }
-                    )
+            # Level-up moves
+            for move in pokemon.moves.level_up or []:
+                move_cache[move.name]["level_up"].append(
+                    {
+                        "pokemon": pokemon,
+                        "level": move.level_learned_at,
+                    }
+                )
 
-                # Egg moves
-                for move in pokemon.moves.egg or []:
-                    move_cache[move.name]["egg"].append(
-                        {
-                            "pokemon": pokemon,
-                        }
-                    )
+            # TM/HM moves
+            for move in pokemon.moves.machine or []:
+                move_cache[move.name]["machine"].append({"pokemon": pokemon})
 
-                # Tutor moves
-                for move in pokemon.moves.tutor or []:
-                    move_cache[move.name]["tutor"].append(
-                        {
-                            "pokemon": pokemon,
-                        }
-                    )
+            # Egg moves
+            for move in pokemon.moves.egg or []:
+                move_cache[move.name]["egg"].append({"pokemon": pokemon})
+
+            # Tutor moves
+            for move in pokemon.moves.tutor or []:
+                move_cache[move.name]["tutor"].append({"pokemon": pokemon})
 
         # Sort all lists by national dex number
         for move_data in move_cache.values():

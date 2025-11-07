@@ -1,21 +1,26 @@
 """
 Utility modules for the wiki generator.
 
-This module contains only pure utility functions and helpers
-that have no domain-specific knowledge.
+This module provides commonly used utility functions organized into subdirectories:
 
-The utilities are organized into subdirectories:
+Structure:
 - core/: Core infrastructure (config, logging, component system)
 - formatters/: Output formatting (markdown, tables, YAML)
 - data/: Pokemon-specific domain logic (constants, type effectiveness)
 - text/: Text processing utilities
 - services/: Business logic services
 
-Note: Some utilities are excluded from __init__.py:
-- markdown_util: Excluded to avoid circular imports (imports from src.data.pokedb_loader)
-  Import directly: from src.utils.formatters.markdown_util import format_move
-- registry_util: Internal runtime utility for component registration
-- component_runner: Internal runtime utility for running registered components
+Import Conventions:
+1. Package-level imports for commonly used utilities:
+   from src.utils import get_logger, format_display_name
+
+2. Direct module imports for specialized/rarely used utilities:
+   from src.utils.formatters.yaml_formatter import update_pokedex_subsection
+   from src.utils.services.pokemon_service import update_pokemon_data
+
+Note: markdown_formatter in formatters/ imports from src.data.pokedb_loader,
+making it domain-aware rather than a pure utility. This is intentional to
+provide convenient Pokemon-specific formatting functions.
 """
 
 # Core utilities

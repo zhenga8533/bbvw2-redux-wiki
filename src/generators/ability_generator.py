@@ -71,37 +71,24 @@ class AbilityGenerator(BaseGenerator):
         """Build a cache mapping ability names to Pokemon that have them.
 
         Returns:
-            dict[str, dict[str, list[Pokemon]]]: A mapping of ability names to lists of Pokemon that have them.
+            dict[str, dict[str, list[Pokemon]]]: A mapping of ability names to lists of Pokemon categorized by normal/hidden.
         """
-        # Map: ability_name -> {"normal": [...], "hidden": [...]}
+        # Use base generator caching helper
+        flat_cache = self._build_pokemon_cache_by_attribute(
+            attribute_extractor=lambda p: p.abilities,
+            cache_key_extractor=lambda a: a.name,
+            include_metadata=lambda a: {"is_hidden": a.is_hidden},
+        )
+
+        # Reorganize into normal/hidden structure
         ability_cache = {}
-
-        # Use shared Pokemon iteration utility (handles deduplication and filtering)
-        for pokemon in PokeDBLoader.iterate_pokemon(
-            include_non_default=False,
-            deduplicate=True,
-        ):
-            # Add this Pokemon to each ability it has
-            for poke_ability in pokemon.abilities:
-                if poke_ability.name not in ability_cache:
-                    ability_cache[poke_ability.name] = {
-                        "normal": [],
-                        "hidden": [],
-                    }
-
-                if poke_ability.is_hidden:
-                    ability_cache[poke_ability.name]["hidden"].append(pokemon)
+        for ability_name, pokemon_list in flat_cache.items():
+            ability_cache[ability_name] = {"normal": [], "hidden": []}
+            for entry in pokemon_list:
+                if entry["is_hidden"]:
+                    ability_cache[ability_name]["hidden"].append(entry["pokemon"])
                 else:
-                    ability_cache[poke_ability.name]["normal"].append(pokemon)
-
-        # Sort all lists by national dex number
-        for ability_data in ability_cache.values():
-            ability_data["normal"].sort(
-                key=lambda p: p.pokedex_numbers.get("national", 9999)
-            )
-            ability_data["hidden"].sort(
-                key=lambda p: p.pokedex_numbers.get("national", 9999)
-            )
+                    ability_cache[ability_name]["normal"].append(entry["pokemon"])
 
         return ability_cache
 
@@ -133,9 +120,7 @@ class AbilityGenerator(BaseGenerator):
                 else:
                     self.logger.warning(f"Could not load ability: {ability_file.stem}")
             except Exception as e:
-                self.logger.error(
-                    f"Error loading {ability_file.stem}: {e}", exc_info=True
-                )
+                self.logger.error(f"Error loading {ability_file.stem}: {e}", exc_info=True)
 
         # Sort alphabetically by name
         abilities.sort(key=lambda a: a.name)
