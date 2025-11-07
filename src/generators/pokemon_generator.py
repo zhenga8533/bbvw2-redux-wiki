@@ -254,15 +254,14 @@ class PokemonGenerator(BaseGenerator):
         Generate status badges for legendary/mythical/baby Pokemon.
         """
         badges = []
-        badge_style = "background: rgba(255, 255, 255, 0.25); padding: 0.5rem 1rem; border-radius: 12px; font-size: 0.875rem; font-weight: 600; color: white; text-transform: uppercase;"
 
         if pokemon.is_legendary:
-            badges.append(f'<span style="{badge_style}">⭐ LEGENDARY</span>')
+            badges.append("<span class='pokemon-hero-status-badge'>⭐ LEGENDARY</span>")
         elif pokemon.is_mythical:
-            badges.append(f'<span style="{badge_style}">✨ MYTHICAL</span>')
+            badges.append("<span class='pokemon-hero-status-badge'>✨ MYTHICAL</span>")
 
         if pokemon.is_baby:
-            badges.append(f'<span style="{badge_style}">🍼 BABY</span>')
+            badges.append("<span class='pokemon-hero-status-badge'>🍼 BABY</span>")
 
         return " ".join(badges) if badges else ""
 
@@ -346,12 +345,7 @@ class PokemonGenerator(BaseGenerator):
     def _create_dex_number_badge(self, region: str, number: int) -> str:
         """Create a regional Pokedex number badge."""
         region_name = format_display_name(region)
-        return (
-            f'<span style="background: rgba(255, 255, 255, 0.2); '
-            f"padding: 0.25rem 0.75rem; border-radius: 12px; "
-            f'font-size: 0.875rem; color: white;">'
-            f"{region_name}: #{number:03d}</span>"
-        )
+        return f'<span class="regional-dex-badge">{region_name}: #{number:03d}</span>'
 
     def _generate_hero_section(self, pokemon: Pokemon) -> str:
         """
@@ -373,7 +367,7 @@ class PokemonGenerator(BaseGenerator):
         sprite_src = getattr(
             pokemon.sprites.versions, POKEDB_SPRITE_VERSION
         ).animated.front_default
-        sprite = f"<img src='{sprite_src}' alt='{pokemon.name}' class='sprite' />"
+        sprite = f'<img src="{sprite_src}" alt="{pokemon.name}" class="sprite" />'
         md += f'\t\t<div class="pokemon-hero-sprite">\n'
         md += f"\t\t\t{sprite}\n"
         md += "\t\t</div>\n"
@@ -398,16 +392,16 @@ class PokemonGenerator(BaseGenerator):
                 self._create_dex_number_badge(region, number)
                 for region, number in sorted(regional_dex.items())
             ]
-            md += f'\t\t<div class="pokemon-hero-regional-dex">{" ".join(dex_badges)}</div>\n'
+            md += f'\t\t<div class="pokemon-hero-regional-badge">{" ".join(dex_badges)}</div>\n'
 
         # Types
         types_str = " ".join([format_type_badge(t) for t in pokemon.types])
-        md += f'\t\t<div class="badges-hstack pokemon-hero-types">{types_str}</div>\n'
+        md += f'\t\t<div class="badges-hstack">{types_str}</div>\n'
 
         # Status badges
         status_badges = self._generate_status_badges(pokemon)
         if status_badges:
-            md += f'\t\t<div class="badges-hstack">{status_badges}</div>\n'
+            md += f"\t\t{status_badges}\n"
 
         md += "\t</div>\n"
         md += "</div>\n\n"
