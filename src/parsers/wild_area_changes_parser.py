@@ -238,16 +238,16 @@ class WildAreaChangesParser(LocationParser):
         if self._current_location not in self._locations_data:
             return
 
-        if "wild_encounters" not in self._locations_data[self._current_location]:
-            self._locations_data[self._current_location]["wild_encounters"] = {}
+        # Reset wild_encounters to avoid duplicates when parser runs multiple times
+        self._locations_data[self._current_location]["wild_encounters"] = {}
 
-        # If this is a sublocation, ensure wild_encounters exists in sublocation
+        # If this is a sublocation, reset wild_encounters and hidden_grotto in sublocation
         if self._current_sublocation:
             target = self._get_or_create_sublocation(
                 self._locations_data[self._current_location], self._current_sublocation
             )
-            if "wild_encounters" not in target:
-                target["wild_encounters"] = {}
+            target["wild_encounters"] = {}
+            target["hidden_grotto"] = {}
 
     def _add_wild_encounter(
         self, pokemon: str, level: str, chance: str, method: str

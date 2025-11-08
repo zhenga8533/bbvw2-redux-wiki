@@ -200,6 +200,9 @@ class LocationGenerator:
         # Add trainers section
         if location_data.get("trainers"):
             markdown += f"{trainer_header} Trainers\n\n"
+            # Add trainer notes (level adjustments, etc.) after Trainers heading
+            if location_data.get("trainer_notes"):
+                markdown += f"{location_data['trainer_notes']}\n\n"
             markdown += self._build_trainers_section(location_data["trainers"])
 
         # Add wild encounters section
@@ -247,6 +250,9 @@ class LocationGenerator:
             # Add trainers for this sublocation
             if sublocation_data.get("trainers"):
                 markdown += f"{'#' * (depth + 1)} Trainers\n\n"
+                # Add trainer notes (level adjustments, etc.) after Trainers heading
+                if sublocation_data.get("trainer_notes"):
+                    markdown += f"{sublocation_data['trainer_notes']}\n\n"
                 markdown += self._build_trainers_section(sublocation_data["trainers"])
 
             # Add wild encounters for this sublocation

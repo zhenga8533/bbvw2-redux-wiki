@@ -205,6 +205,12 @@ class TrainerChangesParser(LocationParser):
             else:
                 self._current_sublocation = nested_sublocation
 
+            # Reset trainers array for this sublocation to avoid duplicates
+            target = self._get_or_create_sublocation(
+                self._locations_data[self._current_location], self._current_sublocation
+            )
+            target["trainers"] = []
+
             # Reset description capture for the new sublocation
             self._location_description_lines = []
             self._capturing_description = False
@@ -222,6 +228,12 @@ class TrainerChangesParser(LocationParser):
                 )
             else:
                 self._current_sublocation = nested_sublocation
+
+            # Reset trainers array for this sublocation to avoid duplicates
+            target = self._get_or_create_sublocation(
+                self._locations_data[self._current_location], self._current_sublocation
+            )
+            target["trainers"] = []
 
             # Reset description capture for the new sublocation
             self._location_description_lines = []
@@ -394,8 +406,8 @@ class TrainerChangesParser(LocationParser):
         if self._current_location not in self._locations_data:
             return
 
-        if "trainers" not in self._locations_data[self._current_location]:
-            self._locations_data[self._current_location]["trainers"] = []
+        # Reset trainers list to avoid duplicates when parser runs multiple times
+        self._locations_data[self._current_location]["trainers"] = []
 
     def _create_trainer_data(self, trainer_raw: str) -> Dict[str, Any]:
         """Create a trainer data dictionary from raw trainer string.
@@ -486,7 +498,7 @@ class TrainerChangesParser(LocationParser):
             description_lines.pop()
 
         if description_lines:
-            # Join lines and store as description
+            # Join lines and store as trainer_notes (trainer-specific descriptions)
             description_text = "\n".join(description_lines)
 
             # Save to sublocation if we're in one, otherwise to main location
@@ -495,16 +507,16 @@ class TrainerChangesParser(LocationParser):
                     self._locations_data[self._current_location],
                     self._current_sublocation,
                 )
-                target["description"] = description_text
+                target["trainer_notes"] = description_text
                 self.logger.debug(
-                    f"Saved description for {self._current_location}/{self._current_sublocation}: {description_text}"
+                    f"Saved trainer_notes for {self._current_location}/{self._current_sublocation}: {description_text}"
                 )
             else:
                 self._locations_data[self._current_location][
-                    "description"
+                    "trainer_notes"
                 ] = description_text
                 self.logger.debug(
-                    f"Saved description for {self._current_location}: {description_text}"
+                    f"Saved trainer_notes for {self._current_location}: {description_text}"
                 )
 
     def _add_pokemon_to_trainer(
