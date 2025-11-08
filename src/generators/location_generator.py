@@ -175,9 +175,9 @@ class LocationGenerator:
 
         # Check if main area has any content
         has_main_content = (
-            location_data.get("trainers") or
-            location_data.get("wild_encounters") or
-            location_data.get("hidden_grotto")
+            location_data.get("trainers")
+            or location_data.get("wild_encounters")
+            or location_data.get("hidden_grotto")
         )
 
         # If there are sublocations and main content, add "Main Area" header
@@ -332,21 +332,22 @@ class LocationGenerator:
             return ""
 
         tab = "\t" * indent
-        markdown = f"{tab}| Pokémon | Attributes | Moves |\n"
-        markdown += f"{tab}|:-------:|:-----------|:------|\n"
+        markdown = f"{tab}| Pokémon | Type(s) | Attributes | Moves |\n"
+        markdown += f"{tab}|:-------:|:-------:|:-----------|:------|\n"
 
         for pokemon in team:
             # Pokemon column
             row = f"{tab}| {format_pokemon(pokemon['pokemon'], relative_path=GENERATOR_DEX_RELATIVE_PATH)} | "
+
+            # Type(s) column
+            badges = " ".join(format_type_badge(t) for t in pokemon["types"])
+            row += f"<div class='badges-vstack'>{badges}</div> | "
 
             # Attributes column
             row += f"**Level:** {pokemon['level']}"
             row += f"<br>**Ability:** {format_ability(pokemon['ability'], relative_path=GENERATOR_DEX_RELATIVE_PATH)}"
             if pokemon.get("item"):
                 row += f"<br>**Item:** {format_item(pokemon['item'], relative_path=GENERATOR_DEX_RELATIVE_PATH)}"
-            if pokemon.get("types"):
-                badges = " ".join(format_type_badge(t) for t in pokemon["types"])
-                row += f"<br><div class='badges-hstack' style='margin-top:4px;'>{badges}</div>"
             row += " | "
 
             # Moves column

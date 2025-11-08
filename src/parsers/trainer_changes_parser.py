@@ -361,23 +361,29 @@ class TrainerChangesParser(LocationParser):
         md = ""
 
         if not self._is_table_open:
-            md += "\t" * self._indent_level + "| Pokémon | Attributes | Moves |\n"
-            md += "\t" * self._indent_level + "|:-------:|:-----------|:------|\n"
+            md += (
+                "\t" * self._indent_level
+                + "| Pokémon | Type(s) | Attributes | Moves |\n"
+            )
+            md += (
+                "\t" * self._indent_level
+                + "|:-------:|:-------:|:-----------|:------|\n"
+            )
             self._is_table_open = True
 
         # Pokémon column
         row = f"| {format_pokemon(pokemon)} | "
 
-        # Attributes column
+        # Type(s) column
         pokemon_data = PokeDBLoader.load_pokemon(pokemon)
         types = pokemon_data.types if pokemon_data else []
+        row += f"<div class='badges-vstack'>{' '.join(format_type_badge(t) for t in types)}</div> | "
 
+        # Attributes column
         row += f"**Level:** {level}"
         row += f"<br>**Ability:** {format_ability(ability)}"
         if item:
             row += f"<br>**Item:** {format_item(item)}"
-        if types:
-            row += f"<br><div class='badges-hstack' style='margin-top:4px;'>{' '.join(format_type_badge(t) for t in types)}</div>"
         row += " | "
 
         # Moves column
