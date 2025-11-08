@@ -9,7 +9,7 @@ import re
 
 from src.utils.core.config import PARSER_DEX_RELATIVE_PATH, POKEDB_SPRITE_VERSION
 from src.utils.core.loader import PokeDBLoader
-from src.utils.data.constants import TYPE_COLORS
+from src.utils.data.constants import TYPE_CATEGORY_COLORS, TYPE_COLORS
 from src.utils.data.models import Ability, Item, Move, Pokemon
 from src.utils.text.text_util import format_display_name, name_to_id
 
@@ -56,6 +56,28 @@ def format_type_badge(type_name: str) -> str:
     return (
         f'<span class="type-badge" style="{background_style}">{formatted_name}</span>'
     )
+
+
+def format_category_badge(category_name: str) -> str:
+    """Format a move category name with a styled badge using HTML span element.
+
+    Args:
+        category_name (str): The category name to format (e.g., "physical", "special", "status")
+
+    Returns:
+        str: HTML span element with styled badge
+
+    Example:
+        >>> format_category_badge("physical")
+        '<span class="category-badge category-physical">Physical</span>'
+    """
+    formatted_name = category_name.title()
+    category_color = TYPE_CATEGORY_COLORS.get(category_name.lower(), "#777777")
+
+    # Apply only the dynamic background color as inline style
+    background_style = f"background: linear-gradient(135deg, {category_color} 0%, {category_color}dd 100%);"
+
+    return f'<span class="category-badge" style="{background_style}">{formatted_name}</span>'
 
 
 def format_ability(

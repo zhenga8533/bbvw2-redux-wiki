@@ -1,7 +1,6 @@
 """Pokemon-specific domain utilities."""
 
 from .constants import (
-    DAMAGE_CLASS_ICONS,
     POKEMON_FORM_SUBFOLDERS,
     TYPE_CHART,
     TYPE_COLORS,
@@ -13,7 +12,6 @@ __all__ = [
     # Constants
     "TYPE_COLORS",
     "TYPE_CHART",
-    "DAMAGE_CLASS_ICONS",
     "POKEMON_FORM_SUBFOLDERS",
     # Type effectiveness
     "calculate_type_effectiveness",

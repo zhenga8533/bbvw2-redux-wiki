@@ -28,7 +28,6 @@ from .core.logger import LogContext, get_logger
 
 # Re-export commonly used constants
 from .data.constants import (
-    DAMAGE_CLASS_ICONS,
     POKEMON_FORM_SUBFOLDERS,
     TYPE_COLORS,
 )
@@ -55,6 +54,5 @@ __all__ = [
     "TYPE_CHART",
     # Constants
     "TYPE_COLORS",
-    "DAMAGE_CLASS_ICONS",
     "POKEMON_FORM_SUBFOLDERS",
 ]

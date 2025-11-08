@@ -29,7 +29,6 @@ from src.utils.core.config import (
 )
 from src.utils.core.loader import PokeDBLoader
 from src.utils.data.constants import (
-    DAMAGE_CLASS_ICONS,
     POKEMON_FORM_SUBFOLDERS,
     TYPE_COLORS,
 )
@@ -42,6 +41,7 @@ from src.utils.data.models import (
 from src.utils.data.type_effectiveness import calculate_type_effectiveness
 from src.utils.formatters.markdown_formatter import (
     format_ability,
+    format_category_badge,
     format_item,
     format_move,
     format_pokemon,
@@ -931,7 +931,6 @@ class PokemonGenerator(BaseGenerator):
     def _generate_move_table(
         self,
         moves: list,
-        damage_class_icons: dict[str, str],
         include_level: bool = False,
         sort_by_level: bool = False,
     ) -> str:
@@ -939,7 +938,6 @@ class PokemonGenerator(BaseGenerator):
 
         Args:
             moves (list): List of move learn objects
-            damage_class_icons (dict[str, str]): Dictionary mapping damage classes to icons
             include_level (bool, optional): Whether to include the level column. Defaults to False.
             sort_by_level (bool, optional): Whether to sort by level learned (otherwise sort by name). Defaults to False.
 
@@ -968,7 +966,7 @@ class PokemonGenerator(BaseGenerator):
                 type_badge = format_type_badge(move_type)
 
                 damage_class = move_data.damage_class
-                category_icon = damage_class_icons.get(damage_class, "")
+                category_icon = format_category_badge(damage_class)
 
                 power = getattr(move_data.power, VERSION_GROUP, None)
                 power_str = str(power) if power is not None else "—"
@@ -1051,7 +1049,6 @@ class PokemonGenerator(BaseGenerator):
         if pokemon.moves.level_up:
             md += self._generate_move_table(
                 pokemon.moves.level_up,
-                DAMAGE_CLASS_ICONS,
                 include_level=True,
                 sort_by_level=True,
             )
@@ -1062,7 +1059,7 @@ class PokemonGenerator(BaseGenerator):
         md += '=== ":material-disc: TM/HM"\n\n'
         if pokemon.moves.machine:
             md += self._generate_move_table(
-                pokemon.moves.machine, DAMAGE_CLASS_ICONS, include_level=False
+                pokemon.moves.machine, include_level=False
             )
         else:
             md += "\t*No TM/HM moves available*\n\n"
@@ -1071,7 +1068,7 @@ class PokemonGenerator(BaseGenerator):
         md += '=== ":material-egg-outline: Egg Moves"\n\n'
         if pokemon.moves.egg:
             md += self._generate_move_table(
-                pokemon.moves.egg, DAMAGE_CLASS_ICONS, include_level=False
+                pokemon.moves.egg, include_level=False
             )
         else:
             md += "\t*No egg moves available*\n\n"
@@ -1080,7 +1077,7 @@ class PokemonGenerator(BaseGenerator):
         md += '=== ":material-school: Tutor"\n\n'
         if pokemon.moves.tutor:
             md += self._generate_move_table(
-                pokemon.moves.tutor, DAMAGE_CLASS_ICONS, include_level=False
+                pokemon.moves.tutor, include_level=False
             )
         else:
             md += "\t*No tutor moves available*\n\n"

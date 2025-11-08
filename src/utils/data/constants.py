@@ -57,6 +57,12 @@ TYPE_COLORS: dict[str, str] = {
     "shadow": "#4B4B7B",
 }
 
+TYPE_CATEGORY_COLORS: dict[str, str] = {
+    "physical": "#C03028",
+    "special": "#6890F0",
+    "status": "#A8A878",
+}
+
 TYPE_CHART: dict[str, dict[str, list[str]]] = {
     "normal": {
         "weak_to": ["fighting"],
@@ -167,13 +173,3 @@ TYPE_CHART: dict[str, dict[str, list[str]]] = {
 
 POKEMON_FORM_SUBFOLDERS = ["default", "transformation", "variant", "cosmetic"]
 
-# ============================================================================
-# Move/Damage Class Icons
-# ============================================================================
-
-DAMAGE_CLASS_ICONS: dict[str, str] = {
-    # Material Design icon identifiers for damage classes/move categories
-    "physical": ":material-sword:",
-    "special": ":material-auto-fix:",
-    "status": ":material-shield-outline:",
-}

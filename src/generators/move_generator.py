@@ -17,9 +17,9 @@ from typing import Optional
 
 from src.utils.core.config import VERSION_GROUP, VERSION_GROUP_FRIENDLY
 from src.utils.core.loader import PokeDBLoader
-from src.utils.data.constants import DAMAGE_CLASS_ICONS
 from src.utils.data.models import Move
 from src.utils.formatters.markdown_formatter import (
+    format_category_badge,
     format_pokemon_card_grid,
     format_type_badge,
 )
@@ -63,7 +63,14 @@ class MoveGenerator(BaseGenerator):
             "status": "Status Moves",
         }
         self.index_table_headers = ["Move", "Type", "Category", "Power", "Acc", "PP"]
-        self.index_table_alignments = ["left", "left", "left", "left", "left", "left"]
+        self.index_table_alignments = [
+            "left",
+            "center",
+            "center",
+            "left",
+            "left",
+            "left",
+        ]
 
         # Create moves subdirectory
         self.output_dir = self.output_dir / "moves"
@@ -183,7 +190,7 @@ class MoveGenerator(BaseGenerator):
         move_type = getattr(entry.type, VERSION_GROUP, None) or "???"
         type_badge = format_type_badge(move_type)
 
-        category_icon = DAMAGE_CLASS_ICONS.get(entry.damage_class, "")
+        category = format_category_badge(entry.damage_class)
 
         power = getattr(entry.power, VERSION_GROUP, None)
         power_str = str(power) if power is not None and power > 0 else "—"
@@ -194,7 +201,7 @@ class MoveGenerator(BaseGenerator):
         pp = getattr(entry.pp, VERSION_GROUP, None)
         pp_str = str(pp) if pp is not None and pp > 0 else "—"
 
-        return [link, type_badge, category_icon, power_str, accuracy_str, pp_str]
+        return [link, type_badge, category, power_str, accuracy_str, pp_str]
 
     def _generate_move_header(self, move: Move) -> str:
         """Generate a move header section with type and category.
