@@ -114,7 +114,7 @@ class MoveChangesParser(BaseParser):
             if not self._is_table_open:
                 self._is_table_open = True
                 self._markdown += "| Move | Old Type | New Type | Custom |\n"
-                self._markdown += "|:-----|:---------|:---------|:------:|\n"
+                self._markdown += "|:-----|:---------|:--------:|:------:|\n"
             self._markdown += f"| {format_move(self._current_move)} "
         # Match: " - <old_type> -> <new_type>"
         elif line.startswith(" - "):
