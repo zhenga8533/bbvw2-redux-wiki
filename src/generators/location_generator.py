@@ -227,9 +227,7 @@ class LocationGenerator(BaseGenerator):
         all_locations = categorized_entries.get("all", [])
 
         # Sort by display name
-        sorted_locations = sorted(
-            all_locations, key=lambda x: x[1].get("name", x[0])
-        )
+        sorted_locations = sorted(all_locations, key=lambda x: x[1].get("name", x[0]))
 
         # Generate table
         markdown += "## All Locations\n\n"
@@ -402,6 +400,9 @@ class LocationGenerator(BaseGenerator):
 
             if trainer.get("battle_type"):
                 markdown += f"**Battle Type:** {trainer['battle_type']}\n\n"
+
+            if trainer.get("notes"):
+                markdown += f"{trainer['notes']}\n\n"
 
             # Handle starter variations
             if trainer.get("starter_variations"):

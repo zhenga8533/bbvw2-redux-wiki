@@ -59,6 +59,8 @@ class TrainerChangesParser(LocationParser):
         self._is_table_open = False
         self._current_trainer = ""
         self._indent_level = 0
+        self._current_trainer_notes: list[str] = []  # Notes for current trainer
+        self._capturing_trainer_notes = False  # Flag for capturing trainer notes
 
         # Trainer-specific location tracking
         self._base_sublocation = ""  # The sublocation from "XXX - YYY" pattern
@@ -186,8 +188,21 @@ class TrainerChangesParser(LocationParser):
             # Start capturing description after the +++ separator
             self._capturing_description = True
             pass
-        # Match: dividers
+        # Match: dividers (toggle trainer notes capture)
         elif line == "---":
+            if self._capturing_trainer_notes:
+                # End of trainer notes - save them and output to markdown
+                self._save_trainer_notes()
+                # Output the captured notes to markdown
+                if self._current_trainer_notes:
+                    for note_line in self._current_trainer_notes:
+                        self._markdown += f"{note_line}\n"
+                    self._markdown += "\n"
+                self._capturing_trainer_notes = False
+            elif self._current_trainer_data:
+                # Start of trainer notes (only if we have a current trainer)
+                self._capturing_trainer_notes = True
+                self._current_trainer_notes = []
             self._markdown += "\n"
         # Match: sub-headings (nested sublocations from ~~~~)
         # These should be nested under the base sublocation if one exists
@@ -284,10 +299,19 @@ class TrainerChangesParser(LocationParser):
             self._add_trainer_to_location(self._current_trainer_data)
             self._markdown += self._format_trainer(self._current_trainer)
             self._is_table_open = False
+            # Reset trainer notes for new trainer
+            self._current_trainer_notes = []
+            self._capturing_trainer_notes = False
         # Default: regular text line
         else:
+            # Capture trainer notes if we're in capture mode
+            if self._capturing_trainer_notes:
+                # Skip empty lines at the start
+                if line or self._current_trainer_notes:
+                    self._current_trainer_notes.append(line)
+                    # Don't output to markdown yet - will be handled by generator
             # Capture description lines if we're in capture mode
-            if self._capturing_description:
+            elif self._capturing_description:
                 # Skip empty lines at the start
                 if line or self._location_description_lines:
                     self._location_description_lines.append(line)
@@ -524,6 +548,26 @@ class TrainerChangesParser(LocationParser):
                 self.logger.debug(
                     f"Saved trainer_notes for {self._current_location}: {description_text}"
                 )
+
+    def _save_trainer_notes(self) -> None:
+        """Save captured trainer notes to the current trainer data."""
+        if not self._current_trainer_data or not self._current_trainer_notes:
+            return
+
+        # Clean up notes: remove leading/trailing empty lines
+        notes_lines = self._current_trainer_notes.copy()
+        while notes_lines and not notes_lines[0]:
+            notes_lines.pop(0)
+        while notes_lines and not notes_lines[-1]:
+            notes_lines.pop()
+
+        if notes_lines:
+            # Join lines and store as notes in trainer data
+            notes_text = "\n".join(notes_lines)
+            self._current_trainer_data["notes"] = notes_text
+            self.logger.debug(
+                f"Saved notes for trainer {self._current_trainer_data['name']}: {notes_text}"
+            )
 
     def _add_pokemon_to_trainer(
         self, pokemon: str, ability: str, level: str, item: Optional[str], moves: str
