@@ -199,6 +199,62 @@ class LocationGenerator(BaseGenerator):
 
         return [link, trainer_str, wild_str, grotto_str]
 
+    def generate_index(
+        self,
+        data: List[tuple[str, Dict[str, Any]]],
+        categorized_entries: Dict[str, List[tuple[str, Dict[str, Any]]]],
+    ) -> Path:
+        """Generate the overview/index page for all locations.
+
+        Args:
+            data (List[tuple[str, Dict[str, Any]]]): List of all location data tuples.
+            categorized_entries (Dict[str, List[tuple[str, Dict[str, Any]]]]): Categorized data.
+
+        Returns:
+            Path: Path to the generated overview markdown file.
+        """
+        from src.utils.core.config import GAME_TITLE
+        from src.utils.formatters.table_formatter import create_table
+
+        self.logger.info("Generating locations overview page...")
+
+        # Start markdown
+        markdown = "# Locations\n\n"
+        markdown += f"Complete list of all locations in **{GAME_TITLE}**.\n\n"
+        markdown += "> Click on any of the Locations to see its full description.\n\n"
+
+        # Get all locations from the 'all' category
+        all_locations = categorized_entries.get("all", [])
+
+        # Sort by display name
+        sorted_locations = sorted(
+            all_locations, key=lambda x: x[1].get("name", x[0])
+        )
+
+        # Generate table
+        markdown += "## All Locations\n\n"
+
+        # Build table rows
+        rows = []
+        for entry in sorted_locations:
+            rows.append(self.format_index_row(entry))
+
+        # Use table formatter
+        markdown += create_table(
+            self.index_table_headers,
+            rows,
+            self.index_table_alignments,
+        )
+        markdown += "\n"
+
+        # Write to file (in the locations directory, not parent)
+        output_path = self.output_dir / "locations.md"
+        with open(output_path, "w", encoding="utf-8") as f:
+            f.write(markdown)
+
+        self.logger.info(f"Generated overview page: {output_path}")
+        return output_path
+
     def _build_location_markdown(self, location_data: Dict[str, Any]) -> str:
         """Build markdown content for a location.
 
