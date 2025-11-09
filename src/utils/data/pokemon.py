@@ -4,7 +4,10 @@ Utility functions for Pokemon data calculations.
 Includes functions to calculate stat ranges and type effectiveness.
 """
 
+from src.utils.core.config import POKEDB_SPRITE_VERSION
 from src.utils.data.constants import TYPE_CHART
+from src.utils.data.models import Pokemon
+from src.utils.text.text_util import name_to_id
 
 
 def calculate_stat_range(base_stat: int, is_hp: bool = False) -> tuple:
@@ -111,3 +114,34 @@ def calculate_type_effectiveness(types: list[str]) -> dict[str, list[str]]:
         "0.25x_resist": [t for t, m in resist_multiplier.items() if m <= 0.25],
         "immune": list(immune_types),
     }
+
+
+def get_pokemon_sprite(pokemon: str | Pokemon) -> str:
+    # Import locally to avoid circular dependency
+    from src.utils.core.loader import PokeDBLoader
+
+    # Set pokemon_data based on input type
+    if isinstance(pokemon, str):
+        pokemon_data = PokeDBLoader.load_pokemon(name_to_id(pokemon))
+        if not pokemon_data:
+            return pokemon
+    else:
+        pokemon_data = pokemon
+
+    form_category = next(
+        (f.category for f in pokemon_data.forms if f.name == pokemon_data.name),
+        "default",
+    )
+
+    # Return appropriate sprite based on form category
+    if form_category == "cosmetic":
+        return pokemon_data.sprites.front_default
+
+    version_sprites = getattr(pokemon_data.sprites.versions, POKEDB_SPRITE_VERSION)
+    if (
+        version_sprites.animated is None
+        or version_sprites.animated.front_default is None
+    ):
+        return version_sprites.front_default
+    else:
+        return version_sprites.animated.front_default

@@ -1110,7 +1110,7 @@ class AnimatedSprites:
 
 @dataclass(slots=True)
 class GenerationSprites:
-    animated: AnimatedSprites
+    animated: Optional[AnimatedSprites]
     back_default: Optional[str]
     back_female: Optional[str]
     back_shiny: Optional[str]
@@ -1125,8 +1125,8 @@ class GenerationSprites:
         if isinstance(self.animated, dict):
             self.animated = AnimatedSprites(**self.animated)
 
-        """Validate GenerationSprites nested objects and URLs."""
-        if not isinstance(self.animated, AnimatedSprites):
+        # Validate GenerationSprites nested objects and URLs.
+        if self.animated is not None and not isinstance(self.animated, AnimatedSprites):
             raise ValueError(
                 f"animated must be an AnimatedSprites instance, got: {type(self.animated)}"
             )

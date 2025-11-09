@@ -1032,21 +1032,6 @@ class PokemonGenerator(BaseGenerator):
 
         return md
 
-    def _generate_sprite_card(
-        self, sprite_url: str, label: str, indent: str = "\t"
-    ) -> str:
-        """Generate a single sprite card with image and label.
-
-        Args:
-            sprite_url: URL of the sprite image
-            label: Label to display under the sprite
-            indent: Indentation level for the markdown
-
-        Returns:
-            Formatted markdown string for a sprite card
-        """
-        return f"{indent}- ![{label}]({sprite_url})\n\n{indent}\t---\n\n{indent}\t{label}\n\n"
-
     def _generate_sprite_grid(
         self, sprites: dict[str, Optional[str]], indent: str = "\t"
     ) -> str:
@@ -1063,7 +1048,8 @@ class PokemonGenerator(BaseGenerator):
 
         for label, url in sprites.items():
             if url:
-                parts.append(self._generate_sprite_card(url, label, indent))
+                sprite_card = f"{indent}- ![{label}]({url})\n\n{indent}\t---\n\n{indent}\t{label}\n\n"
+                parts.append(sprite_card)
 
         parts.append(f"{indent}</div>\n\n")
         return "".join(parts)

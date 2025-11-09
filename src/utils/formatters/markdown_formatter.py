@@ -11,6 +11,7 @@ from src.utils.core.config import PARSER_DEX_RELATIVE_PATH, POKEDB_SPRITE_VERSIO
 from src.utils.core.loader import PokeDBLoader
 from src.utils.data.constants import TYPE_CATEGORY_COLORS, TYPE_COLORS
 from src.utils.data.models import Ability, Item, Move, Pokemon
+from src.utils.data.pokemon import get_pokemon_sprite
 from src.utils.text.text_util import format_display_name, name_to_id
 
 
@@ -186,22 +187,8 @@ def format_pokemon(
 
     # Add sprite image if requested
     if has_sprite:
-        # Safely access sprite version
-        sprite_version = getattr(
-            pokemon_data.sprites.versions, POKEDB_SPRITE_VERSION, None
-        )
-        animated_url = (
-            sprite_version.animated.front_default
-            if sprite_version and sprite_version.animated
-            else None
-        )
-        sprite_url = pokemon_data.sprites.front_default
-
-        if is_animated and animated_url:
-            parts.append(f"![{pokemon_id} (gif)]({animated_url}){{ .sprite }}")
-        elif sprite_url:
-            parts.append(f"![{pokemon_id}]({sprite_url}){{ .sprite }}")
-        # If no sprite available, don't add an image
+        sprite_url = get_pokemon_sprite(pokemon_data)
+        parts.append(f"![{pokemon_id}]({sprite_url}){{ .sprite }}")
 
     # Add linked or plain name
     if is_linked:
@@ -365,27 +352,6 @@ def format_pokemon_card_grid(
         # Get dex number
         dex_num = pokemon_data.pokedex_numbers.get("national", "???")
 
-        # Get sprite URL
-        sprite_url = None
-        sprite_version = getattr(
-            pokemon_data.sprites.versions, POKEDB_SPRITE_VERSION, None
-        )
-        animated_sprite = (
-            sprite_version.animated.front_default
-            if sprite_version and sprite_version.animated
-            else None
-        )
-        default_sprite = pokemon_data.sprites.front_default
-
-        form_category = next(
-            (f.category for f in pokemon_data.forms if f.name == pokemon_data.name),
-            "default",
-        )
-        sprite_url = animated_sprite if form_category != "cosmetic" else default_sprite
-
-        if sprite_url is None:
-            sprite_url = default_sprite
-
         # Format display name and link
         display_name = format_display_name(pokemon_data.name)
         link = f"{relative_path}/{pokemon_data.name}.md"
@@ -394,10 +360,10 @@ def format_pokemon_card_grid(
         card = ""
 
         # Sprite with link
-        if sprite_url:
-            card += f"-\t[![{display_name}]({sprite_url}){{: .pokemon-sprite-img }}]({link})"
-        else:
-            card += f"\t[{display_name}]({link})"
+        sprite_url = get_pokemon_sprite(pokemon_data)
+        card += (
+            f"-\t[![{display_name}]({sprite_url}){{: .pokemon-sprite-img }}]({link})"
+        )
 
         card += "\n\n\t***\n\n"
 
