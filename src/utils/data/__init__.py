@@ -6,14 +6,15 @@ from .constants import (
     TYPE_COLORS,
 )
 from .models import Ability, Item, Move, Pokemon
-from .type_effectiveness import calculate_type_effectiveness
+from .pokemon import calculate_stat_range, calculate_type_effectiveness
 
 __all__ = [
     # Constants
     "TYPE_COLORS",
     "TYPE_CHART",
     "POKEMON_FORM_SUBFOLDERS",
-    # Type effectiveness
+    # Pokemon calculations
+    "calculate_stat_range",
     "calculate_type_effectiveness",
     # Models
     "Pokemon",

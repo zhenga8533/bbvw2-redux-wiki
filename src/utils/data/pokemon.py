@@ -1,17 +1,48 @@
 """
-Type effectiveness chart for Pokemon battles.
+Utility functions for Pokemon data calculations.
 
-This module contains the type matchup data for calculating damage multipliers
-in Pokemon battles. Based on Generation 5 mechanics.
-
-Usage:
-    from src.utils.data.type_effectiveness import calculate_type_effectiveness
-
-    effectiveness = calculate_type_effectiveness(["fire", "flying"])
-    print(effectiveness["4x_weak"])  # ['rock', 'water']
+Includes functions to calculate stat ranges and type effectiveness.
 """
 
 from src.utils.data.constants import TYPE_CHART
+
+
+def calculate_stat_range(base_stat: int, is_hp: bool = False) -> tuple:
+    """Calculate min and max stat values at level 100 using official Pokemon formulas:
+    https://bulbapedia.bulbagarden.net/wiki/Stat#Generation_III_onward
+
+    Args:
+        base_stat (int): The base stat value
+        is_hp (bool, optional): Whether this is the HP stat (uses different formula). Defaults to False.
+
+    Returns:
+        tuple: (min_stat, max_stat) at level 100
+    """
+    if is_hp:
+        # HP formula at level 100:
+        # HP = floor(((2 * Base + IV + floor(EV / 4)) * Level) / 100) + Level + 10
+        #
+        # At Level 100:
+        # Min (0 IV, 0 EV): floor(((2 * Base + 0 + 0) * 100) / 100) + 100 + 10 = 2 * Base + 110
+        # Max (31 IV, 252 EV): floor(((2 * Base + 31 + 63) * 100) / 100) + 100 + 10 = 2 * Base + 204
+        #
+        # Note: Shedinja is a special case with HP always = 1 (handled separately)
+        min_hp = (2 * base_stat) + 110
+        max_hp = (2 * base_stat) + 204
+        return (min_hp, max_hp)
+    else:
+        # Other stats formula at level 100:
+        # Stat = floor((floor(((2 * Base + IV + floor(EV / 4)) * Level) / 100) + 5) * Nature)
+        #
+        # At Level 100:
+        # Min (0 IV, 0 EV, hindering nature 0.9): floor((floor(((2 * Base) * 100) / 100) + 5) * 0.9)
+        #                                        = floor((2 * Base + 5) * 0.9)
+        # Max (31 IV, 252 EV, beneficial nature 1.1): floor((floor(((2 * Base + 31 + 63) * 100) / 100) + 5) * 1.1)
+        #                                             = floor((2 * Base + 94 + 5) * 1.1)
+        #                                             = floor((2 * Base + 99) * 1.1)
+        min_stat = int(((2 * base_stat) + 5) * 0.9)
+        max_stat = int(((2 * base_stat) + 99) * 1.1)
+        return (min_stat, max_stat)
 
 
 def calculate_type_effectiveness(types: list[str]) -> dict[str, list[str]]:
