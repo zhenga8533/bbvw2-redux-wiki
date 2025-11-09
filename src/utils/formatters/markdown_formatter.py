@@ -80,6 +80,25 @@ def format_category_badge(category_name: str) -> str:
     return f'<span class="category-badge" style="{background_style}">{formatted_name}</span>'
 
 
+def format_stat_bar(value: int, max_value: int) -> str:
+    """Create a visual progress bar for a stat.
+
+    Args:
+        value (int): The stat value to represent
+        max_value (int, optional): The maximum value for the stat. Defaults to MAX_STAT_VALUE.
+
+    Returns:
+        str: HTML representation of the progress bar.
+    """
+    percentage = min(100, (value / max_value) * 100)
+
+    # Create a proper progress bar with background and filled portion
+    bar_html = f'<div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;">'
+    bar_html += f'<div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: {percentage}%;"></div>'
+    bar_html += "</div>"
+    return bar_html
+
+
 def format_ability(
     ability: str | Ability,
     is_linked: bool = True,

@@ -46,6 +46,7 @@ from src.utils.formatters.markdown_formatter import (
     format_move,
     format_pokemon,
     format_pokemon_card_grid,
+    format_stat_bar,
     format_type_badge,
 )
 from src.utils.formatters.table_formatter import create_table
@@ -53,9 +54,6 @@ from src.utils.formatters.yaml_formatter import load_mkdocs_config, save_mkdocs_
 from src.utils.text.text_util import extract_form_suffix, format_display_name
 
 from .base_generator import BaseGenerator
-
-# Constants for Pokemon page generation
-MAX_STAT_VALUE = 255  # Maximum base stat value for progress bar scaling
 
 
 class PokemonGenerator(BaseGenerator):
@@ -225,24 +223,6 @@ class PokemonGenerator(BaseGenerator):
 
         return [dex_str, sprite_cell, name_link, types_cell, abilities_str]
 
-    def _format_stat_bar(self, value: int, max_value: int = MAX_STAT_VALUE) -> str:
-        """Create a visual progress bar for a stat.
-
-        Args:
-            value (int): The stat value to represent
-            max_value (int, optional): The maximum value for the stat. Defaults to MAX_STAT_VALUE.
-
-        Returns:
-            str: HTML representation of the progress bar.
-        """
-        percentage = min(100, (value / max_value) * 100)
-
-        # Create a proper progress bar with background and filled portion
-        bar_html = f'<div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;">'
-        bar_html += f'<div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: {percentage}%; transition: width 0.3s ease;"></div>'
-        bar_html += "</div>"
-        return bar_html
-
     def _format_ability(self, ability_name: str, is_hidden: bool = False) -> str:
         """Format an ability name with link and hidden indicator.
 
@@ -283,31 +263,6 @@ class PokemonGenerator(BaseGenerator):
             )
 
         return " ".join(badges) if badges else ""
-
-    def _format_form_name(self, pokemon_name: str, base_name: str) -> str:
-        """Extract and format the form name from a Pokemon's full name.
-
-        Args:
-            pokemon_name (str): The full Pokemon name (e.g., "deoxys-attack")
-            base_name (str): The base Pokemon name (e.g., "deoxys")
-
-        Returns:
-            str: Formatted form name (e.g., "Attack" or "Standard")
-        """
-        # Remove base name and leading hyphen
-        if pokemon_name.startswith(base_name):
-            form_suffix = pokemon_name[len(base_name) :].lstrip("-")
-        else:
-            form_suffix = pokemon_name
-
-        # If no form suffix, it's the default form
-        if not form_suffix:
-            return "Standard"
-
-        # Format the form name: replace hyphens with spaces and title case
-        formatted_form = form_suffix.replace("-", " ").title()
-
-        return formatted_form
 
     def _get_gradient_colors(self, types: list[str]) -> tuple[str, str]:
         """Calculate gradient colors based on Pokemon types.
@@ -685,7 +640,7 @@ class PokemonGenerator(BaseGenerator):
         md += "|------|-----:|----:|----:|:-------------|\n"
 
         for stat_name, value, is_hp in stats_display:
-            bar = self._format_stat_bar(value)
+            bar = format_stat_bar(value, max_value=255)
             min_stat, max_stat = self._calculate_stat_range(value, is_hp)
             md += (
                 f"| **{stat_name}** | **{value}** | {min_stat} | {max_stat} | {bar} |\n"
@@ -1058,27 +1013,21 @@ class PokemonGenerator(BaseGenerator):
         # TM/HM moves
         md += '=== ":material-disc: TM/HM"\n\n'
         if pokemon.moves.machine:
-            md += self._generate_move_table(
-                pokemon.moves.machine, include_level=False
-            )
+            md += self._generate_move_table(pokemon.moves.machine, include_level=False)
         else:
             md += "\t*No TM/HM moves available*\n\n"
 
         # Egg moves
         md += '=== ":material-egg-outline: Egg Moves"\n\n'
         if pokemon.moves.egg:
-            md += self._generate_move_table(
-                pokemon.moves.egg, include_level=False
-            )
+            md += self._generate_move_table(pokemon.moves.egg, include_level=False)
         else:
             md += "\t*No egg moves available*\n\n"
 
         # Tutor moves
         md += '=== ":material-school: Tutor"\n\n'
         if pokemon.moves.tutor:
-            md += self._generate_move_table(
-                pokemon.moves.tutor, include_level=False
-            )
+            md += self._generate_move_table(pokemon.moves.tutor, include_level=False)
         else:
             md += "\t*No tutor moves available*\n\n"
 
@@ -1095,7 +1044,6 @@ class PokemonGenerator(BaseGenerator):
         """
         md = "## :material-book-open: Pokédex Entries\n\n"
 
-        # Pokemon flavor_text uses GameStringMap (individual game versions)
         # Check if any flavor text exists for configured game versions
         has_flavor_text = any(
             getattr(pokemon.flavor_text, version, None)
@@ -1104,8 +1052,6 @@ class PokemonGenerator(BaseGenerator):
 
         if has_flavor_text:
             # Show flavor text for each configured game version
-            # Note: Tab icons are hardcoded as ":material-numeric-2-circle-outline:" and similar
-            # To fully genericize, icon mapping would need to be added to config
             for idx, version in enumerate(POKEDB_GAME_VERSIONS):
                 version_display = format_display_name(version)
                 # Use generic book icon for all tabs
@@ -1482,8 +1428,9 @@ class PokemonGenerator(BaseGenerator):
                         if default_form_suffix:
                             all_forms = []
                             for form in pokemon_forms:
-                                form_display = self._format_form_name(
-                                    form.name, base_name
+                                form_display = format_display_name(
+                                    extract_form_suffix(form.name, base_name)
+                                    or "standard"
                                 )
                                 all_forms.append(
                                     {form_display: f"pokedex/pokemon/{form.name}.md"}
@@ -1496,8 +1443,9 @@ class PokemonGenerator(BaseGenerator):
                             # Default has no suffix, keep current behavior
                             alternate_forms = []
                             for alt_form in pokemon_forms[1:]:
-                                form_display = self._format_form_name(
-                                    alt_form.name, base_name
+                                form_display = format_display_name(
+                                    extract_form_suffix(alt_form.name, base_name)
+                                    or "standard"
                                 )
                                 alternate_forms.append(
                                     {
