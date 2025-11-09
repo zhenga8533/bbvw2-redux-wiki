@@ -15,8 +15,8 @@ import json
 from pathlib import Path
 from typing import Any, Dict, List, Optional
 
+from src.generators.base_generator import BaseGenerator
 from src.utils.core.config import GENERATOR_DEX_RELATIVE_PATH
-from src.utils.core.logger import get_logger
 from src.utils.formatters.markdown_formatter import (
     format_ability,
     format_item,
@@ -28,7 +28,7 @@ from src.utils.formatters.markdown_formatter import (
 from src.utils.formatters.yaml_formatter import update_mkdocs_nav
 
 
-class LocationGenerator:
+class LocationGenerator(BaseGenerator):
     """
     Generator for location markdown pages.
 
@@ -37,9 +37,6 @@ class LocationGenerator:
     - Wild encounters by method (grass, surf, fishing, etc.)
     - Hidden Grotto encounters
     - Nested sublocations
-
-    This generator does not inherit from BaseGenerator as it works with
-    location data rather than pokedex data.
     """
 
     def __init__(
@@ -55,102 +52,110 @@ class LocationGenerator:
             input_dir (str, optional): Directory where location JSON files are stored. Defaults to "data/locations".
             project_root (Optional[Path], optional): The root directory of the project. If None, it's inferred.
         """
-        # Set up logger
-        self.logger = get_logger(self.__class__.__module__)
+        # Initialize base generator
+        super().__init__(output_dir=output_dir, project_root=project_root)
 
-        # Set up paths
-        if project_root is None:
-            project_root = Path.cwd()
-        self.project_root = Path(project_root)
+        # Set category for BaseGenerator
+        self.category = "locations"
+
+        # Configure index table
+        self.index_table_headers = [
+            "Location",
+            "Trainers",
+            "Wild Encounters",
+            "Hidden Grotto",
+        ]
+        self.index_table_alignments = ["left", "center", "center", "center"]
+
+        # Set up input directory
         self.input_dir = self.project_root / input_dir
-        self.output_dir = self.project_root / output_dir
 
         # Individual location pages go in data/ subdirectory
         self.data_dir = self.output_dir / "data"
 
-        # Create output directories
-        self.output_dir.mkdir(parents=True, exist_ok=True)
+        # Create directories
+        self.input_dir.mkdir(parents=True, exist_ok=True)
         self.data_dir.mkdir(parents=True, exist_ok=True)
 
-        self.logger.debug(f"Initializing generator: {self.__class__.__name__}")
         self.logger.debug(f"Input directory: {self.input_dir}")
-        self.logger.debug(f"Output directory: {self.output_dir}")
         self.logger.debug(f"Data directory: {self.data_dir}")
 
-    def _clear_old_files(self) -> None:
-        """Clear old location markdown files from the data directory."""
-        self.logger.info("Clearing old location files...")
-        count = 0
-        for old_file in self.data_dir.glob("*.md"):
-            old_file.unlink()
-            count += 1
-        self.logger.debug(f"Removed {count} old location files")
-
-    def generate_all(self) -> bool:
-        """Generate markdown pages for all locations.
+    def load_all_data(self) -> List[tuple[str, Dict[str, Any]]]:
+        """Load all location data from JSON files.
 
         Returns:
-            bool: True if the generation was successful.
+            List[tuple[str, Dict[str, Any]]]: List of (filename_stem, location_data) tuples.
         """
-        self.logger.info("Generating all location pages...")
-
-        # Clear old files first
-        self._clear_old_files()
-
-        generated_files = []
         location_data_list = []
-
-        # Load all location JSON files
         location_files = sorted(self.input_dir.glob("*.json"))
         self.logger.info(f"Found {len(location_files)} location files")
 
         for location_file in location_files:
             try:
-                # Load location data for overview page
                 with open(location_file, "r", encoding="utf-8") as f:
                     location_data = json.load(f)
                     location_data_list.append((location_file.stem, location_data))
-
-                # Generate individual location page
-                output_path = self._generate_location_page(location_file, location_data)
-                if output_path:
-                    generated_files.append(output_path)
             except Exception as e:
-                self.logger.error(
-                    f"Failed to generate page for {location_file.name}: {e}"
-                )
-                return False
+                self.logger.error(f"Failed to load {location_file.name}: {e}")
+                raise
 
-        # Generate overview page
-        overview_path = self._generate_overview_page(location_data_list)
-        generated_files.append(overview_path)
+        return location_data_list
 
-        # Update mkdocs.yml navigation
-        self._update_mkdocs_nav(location_data_list)
+    def categorize_data(
+        self, data: List[tuple[str, Dict[str, Any]]]
+    ) -> Dict[str, List[tuple[str, Dict[str, Any]]]]:
+        """Categorize location data (locations don't have subcategories, so all go in 'all').
 
-        self.logger.info(f"Generated {len(generated_files)} location pages")
-        return True
+        Args:
+            data (List[tuple[str, Dict[str, Any]]]): List of location data tuples.
 
-    def _generate_location_page(
-        self, location_file: Path, location_data: Dict[str, Any]
-    ) -> Optional[Path]:
+        Returns:
+            Dict[str, List[tuple[str, Dict[str, Any]]]]: Categorized data (single 'all' category).
+        """
+        # Locations don't have subcategories, so we return all in a single category
+        return {"all": data}
+
+    def cleanup_output_dir(self, pattern: str = "*.md") -> int:
+        """Clean up old files in both output_dir and data_dir.
+
+        Args:
+            pattern (str, optional): Glob pattern for files to delete. Defaults to "*.md".
+
+        Returns:
+            int: Number of files deleted.
+        """
+        deleted_count = super().cleanup_output_dir(pattern)
+
+        # Also clean up the data subdirectory
+        if self.data_dir.exists():
+            for old_file in self.data_dir.glob(pattern):
+                old_file.unlink()
+                self.logger.debug(f"Deleted old file: {old_file}")
+                deleted_count += 1
+
+        return deleted_count
+
+    def generate_page(
+        self, entry: tuple[str, Dict[str, Any]], cache: Optional[Dict[str, Any]] = None
+    ) -> Path:
         """Generate a markdown page for a single location.
 
         Args:
-            location_file (Path): Path to the location JSON file.
-            location_data (Dict[str, Any]): The location data dictionary.
+            entry (tuple[str, Dict[str, Any]]): Tuple of (filename_stem, location_data).
+            cache (Optional[Dict[str, Any]], optional): Cache (not used for locations). Defaults to None.
 
         Returns:
-            Optional[Path]: Path to the generated markdown file, or None if generation failed.
+            Path: Path to the generated markdown file.
         """
-        location_name = location_data.get("name", location_file.stem)
+        filename_stem, location_data = entry
+        location_name = location_data.get("name", filename_stem)
         self.logger.debug(f"Generating page for: {location_name}")
 
         # Build markdown content
         markdown = self._build_location_markdown(location_data)
 
         # Write to file in data/ subdirectory
-        output_filename = f"{location_file.stem}.md"
+        output_filename = f"{filename_stem}.md"
         output_path = self.data_dir / output_filename
 
         with open(output_path, "w", encoding="utf-8") as f:
@@ -158,6 +163,41 @@ class LocationGenerator:
 
         self.logger.debug(f"Saved markdown to: {output_path}")
         return output_path
+
+    def format_index_row(self, entry: tuple[str, Dict[str, Any]]) -> List[str]:
+        """Format a single row for the index table.
+
+        Args:
+            entry (tuple[str, Dict[str, Any]]): Tuple of (filename_stem, location_data).
+
+        Returns:
+            List[str]: List of formatted row values.
+        """
+        filename_stem, location_data = entry
+        location_name = location_data.get("name", filename_stem)
+        link = f"[{location_name}](data/{filename_stem}.md)"
+
+        # Count trainers (including sublocations)
+        trainer_count = self._count_trainers(location_data)
+        trainer_str = str(trainer_count) if trainer_count > 0 else "—"
+
+        # Check for wild encounters
+        has_wild = bool(location_data.get("wild_encounters"))
+        if not has_wild and location_data.get("sublocations"):
+            has_wild = self._has_wild_encounters_in_sublocations(
+                location_data["sublocations"]
+            )
+        wild_str = "✓" if has_wild else "—"
+
+        # Check for hidden grotto
+        has_grotto = bool(location_data.get("hidden_grotto"))
+        if not has_grotto and location_data.get("sublocations"):
+            has_grotto = self._has_hidden_grotto_in_sublocations(
+                location_data["sublocations"]
+            )
+        grotto_str = "✓" if has_grotto else "—"
+
+        return [link, trainer_str, wild_str, grotto_str]
 
     def _build_location_markdown(self, location_data: Dict[str, Any]) -> str:
         """Build markdown content for a location.
@@ -433,72 +473,6 @@ class LocationGenerator:
 
         return markdown
 
-    def _generate_overview_page(
-        self, location_data_list: List[tuple[str, Dict[str, Any]]]
-    ) -> Path:
-        """Generate the overview/index page for all locations.
-
-        Args:
-            location_data_list (List[tuple[str, Dict[str, Any]]]): List of (filename_stem, location_data) tuples.
-
-        Returns:
-            Path: Path to the generated overview markdown file.
-        """
-        self.logger.info("Generating locations overview page...")
-
-        # Start markdown
-        markdown = "# Locations\n\n"
-        markdown += "Browse all locations in the game.\n\n"
-
-        # Group locations by type (you could categorize them if needed)
-        # For now, just create an alphabetical list
-        markdown += "## All Locations\n\n"
-        markdown += "| Location | Trainers | Wild Encounters | Hidden Grotto |\n"
-        markdown += "|:---------|:--------:|:---------------:|:-------------:|\n"
-
-        # Sort by display name
-        sorted_locations = sorted(
-            location_data_list, key=lambda x: x[1].get("name", x[0])
-        )
-
-        for filename_stem, location_data in sorted_locations:
-            location_name = location_data.get("name", filename_stem)
-            link = f"[{location_name}](data/{filename_stem}.md)"
-
-            # Count trainers (including sublocations)
-            trainer_count = self._count_trainers(location_data)
-            trainer_str = str(trainer_count) if trainer_count > 0 else "—"
-
-            # Check for wild encounters
-            has_wild = bool(location_data.get("wild_encounters"))
-            # Also check sublocations for wild encounters
-            if not has_wild and location_data.get("sublocations"):
-                has_wild = self._has_wild_encounters_in_sublocations(
-                    location_data["sublocations"]
-                )
-            wild_str = "✓" if has_wild else "—"
-
-            # Check for hidden grotto
-            has_grotto = bool(location_data.get("hidden_grotto"))
-            # Also check sublocations
-            if not has_grotto and location_data.get("sublocations"):
-                has_grotto = self._has_hidden_grotto_in_sublocations(
-                    location_data["sublocations"]
-                )
-            grotto_str = "✓" if has_grotto else "—"
-
-            markdown += f"| {link} | {trainer_str} | {wild_str} | {grotto_str} |\n"
-
-        markdown += "\n"
-
-        # Write to file
-        output_path = self.output_dir / "locations.md"
-        with open(output_path, "w", encoding="utf-8") as f:
-            f.write(markdown)
-
-        self.logger.info(f"Generated overview page: {output_path}")
-        return output_path
-
     def _count_trainers(self, location_data: Dict[str, Any]) -> int:
         """Count total trainers in a location including sublocations.
 
@@ -555,13 +529,13 @@ class LocationGenerator:
                     return True
         return False
 
-    def _update_mkdocs_nav(
-        self, location_data_list: List[tuple[str, Dict[str, Any]]]
+    def update_mkdocs_nav(
+        self, categorized_entries: Dict[str, List[tuple[str, Dict[str, Any]]]]
     ) -> bool:
         """Update mkdocs.yml navigation with locations.
 
         Args:
-            location_data_list (List[tuple[str, Dict[str, Any]]]): List of (filename_stem, location_data) tuples.
+            categorized_entries (Dict[str, List[tuple[str, Dict[str, Any]]]]): Categorized location data.
 
         Returns:
             bool: True if update succeeded, False otherwise.
@@ -570,9 +544,12 @@ class LocationGenerator:
             self.logger.info("Updating mkdocs.yml navigation for locations...")
             mkdocs_path = self.project_root / "mkdocs.yml"
 
+            # Get all locations from the 'all' category
+            all_locations = categorized_entries.get("all", [])
+
             # Sort by display name
             sorted_locations = sorted(
-                location_data_list, key=lambda x: x[1].get("name", x[0])
+                all_locations, key=lambda x: x[1].get("name", x[0])
             )
 
             # Create navigation structure
@@ -588,7 +565,7 @@ class LocationGenerator:
 
             if success:
                 self.logger.info(
-                    f"Updated mkdocs.yml with {len(location_data_list)} locations"
+                    f"Updated mkdocs.yml with {len(all_locations)} locations"
                 )
             else:
                 self.logger.warning("Failed to update mkdocs.yml")
@@ -598,11 +575,3 @@ class LocationGenerator:
         except Exception as e:
             self.logger.error(f"Error updating mkdocs.yml: {e}", exc_info=True)
             return False
-
-    def run(self) -> bool:
-        """Run the generator.
-
-        Returns:
-            bool: True if the generation was successful.
-        """
-        return self.generate_all()
