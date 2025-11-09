@@ -19,6 +19,7 @@ from .markdown_formatter import (
     format_move,
     format_pokemon,
     format_pokemon_card_grid,
+    format_stat_bar,
     format_type_badge,
 )
 from .table_formatter import create_table
@@ -36,6 +37,7 @@ __all__ = [
     "format_move",
     "format_pokemon",
     "format_pokemon_card_grid",
+    "format_stat_bar",
     "format_type_badge",
     # Table formatters
     "create_table",
