@@ -4,13 +4,17 @@ Base generator class for creating documentation pages from database content.
 
 from abc import ABC, abstractmethod
 from pathlib import Path
-from typing import Any, Optional
+from typing import Any, Optional, Union
 
 from src.utils.core.config import GAME_TITLE
 from src.utils.core.logger import get_logger
 from src.utils.formatters.table_formatter import create_table
 from src.utils.formatters.yaml_formatter import update_pokedex_subsection
 from src.utils.text.text_util import format_display_name
+
+# Type aliases for navigation structures
+NavItem = Union[dict[str, str], dict[str, list[dict[str, str]]]]
+NavList = list[NavItem]
 
 
 class BaseGenerator(ABC):
@@ -46,10 +50,7 @@ class BaseGenerator(ABC):
         self.index_table_headers = []
         self.index_table_alignments = []
 
-        # Set up logger for this generator instance
         self.logger = get_logger(self.__class__.__module__)
-
-        # Set up paths
         if project_root is None:
             self.project_root = Path(__file__).parent.parent.parent
         else:
@@ -122,23 +123,24 @@ class BaseGenerator(ABC):
         to build reverse lookups from abilities/items/moves to Pokemon.
 
         Args:
-            attribute_extractor (callable): Function that takes a Pokemon and returns
+            attribute_extractor: Function that takes a Pokemon and returns
                 an iterable of attributes to cache (e.g., lambda p: p.abilities)
-            cache_key_extractor (callable): Function that takes an attribute and returns
+            cache_key_extractor: Function that takes an attribute and returns
                 the cache key (e.g., lambda a: a.name)
-            include_metadata (callable, optional): Function that takes an attribute and
-                returns a dict of additional metadata to store (e.g., level, is_hidden)
+            include_metadata: Function that takes an attribute and returns
+                a dict of additional metadata to store (e.g., level, is_hidden)
 
         Returns:
-            dict: Mapping of cache keys to lists of Pokemon (or dicts with metadata)
+            Mapping of cache keys to lists of Pokemon (or dicts with metadata)
 
         Example:
-            # Build ability cache
+            ```python
             cache = self._build_pokemon_cache_by_attribute(
                 attribute_extractor=lambda p: p.abilities,
                 cache_key_extractor=lambda a: a.name,
                 include_metadata=lambda a: {"is_hidden": a.is_hidden}
             )
+            ```
         """
         from src.utils.core.loader import PokeDBLoader
 
@@ -164,15 +166,12 @@ class BaseGenerator(ABC):
                 else:
                     cache[cache_key].append(pokemon)
 
-        # Sort all lists by national dex number
         for cached_list in cache.values():
             if cached_list and isinstance(cached_list[0], dict):
-                # Sort dicts with metadata
                 cached_list.sort(
                     key=lambda p: p["pokemon"].pokedex_numbers.get("national", 9999)
                 )
             else:
-                # Sort Pokemon objects directly
                 cached_list.sort(key=lambda p: p.pokedex_numbers.get("national", 9999))
 
         return cache
@@ -193,16 +192,14 @@ class BaseGenerator(ABC):
             self.logger.info(f"Updating mkdocs.yml navigation for {self.category}...")
             mkdocs_path = self.project_root / "mkdocs.yml"
 
-            # Create navigation structure with generation subsections
-            nav_items = [{"Overview": f"pokedex/{self.category}.md"}]
+            nav_items: NavList = [{"Overview": f"pokedex/{self.category}.md"}]
 
-            # Add subsections for each subcategory
             for subcategory in self.subcategory_order:
                 if subcategory in categorized_entries:
                     subcategory_entries = categorized_entries[subcategory]
                     display_name = self.subcategory_names.get(subcategory, subcategory)
 
-                    subcategory_nav = [
+                    subcategory_nav: list[dict[str, str]] = [
                         {
                             format_display_name(
                                 entry.name, self.name_special_cases
@@ -210,13 +207,11 @@ class BaseGenerator(ABC):
                         }
                         for entry in subcategory_entries
                     ]
-                    # Using type: ignore because mkdocs nav allows mixed dict value types
-                    nav_items.append({display_name: subcategory_nav})  # type: ignore
+                    nav_items.append({display_name: subcategory_nav})
 
-            # Add unknown subcategory entries if any exist
             if "unknown" in categorized_entries:
                 unknown_entries = categorized_entries["unknown"]
-                unknown_nav = [
+                unknown_nav: list[dict[str, str]] = [
                     {
                         format_display_name(
                             entry.name, self.name_special_cases
@@ -224,7 +219,7 @@ class BaseGenerator(ABC):
                     }
                     for entry in unknown_entries
                 ]
-                nav_items.append({"Unknown": unknown_nav})  # type: ignore
+                nav_items.append({"Unknown": unknown_nav})
 
             # Use shared utility to update mkdocs navigation (capitalize category name)
             category_title = self.category.capitalize()
@@ -307,13 +302,10 @@ class BaseGenerator(ABC):
             f"Generating {self.category} index page for {len(data)} {self.category}"
         )
 
-        # Generate markdown header
         title = self.category.capitalize()
         md = f"# {title}\n\n"
         md += f"Complete list of all {self.category} in **{GAME_TITLE}**.\n\n"
         md += f"> Click on any of the {title} to see its full description.\n\n"
-
-        # Generate sections for each subcategory
         for subcategory in self.subcategory_order:
             if subcategory not in categorized_entries:
                 continue
@@ -321,10 +313,8 @@ class BaseGenerator(ABC):
             subcategory_entries = categorized_entries[subcategory]
             display_name = self.subcategory_names.get(subcategory, subcategory)
 
-            # Add subcategory header
             md += f"## {display_name}\n\n"
 
-            # Build table rows
             rows = []
             for entry in subcategory_entries:
                 rows.append(self.format_index_row(entry))
@@ -336,8 +326,6 @@ class BaseGenerator(ABC):
                 self.index_table_alignments,
             )
             md += "\n\n"
-
-        # Add unknown subcategory entries if any
         if "unknown" in categorized_entries:
             md += "## Unknown\n\n"
             rows = []
@@ -390,10 +378,8 @@ class BaseGenerator(ABC):
         self.logger.info(f"Starting {self.category} generation...")
 
         try:
-            # Clean up old markdown files
             self.cleanup_output_dir()
 
-            # Load all data once (optimization to avoid multiple glob + parse operations)
             self.logger.info(f"Loading all {self.category} from database...")
             data = self.load_all_data()
 
@@ -401,7 +387,6 @@ class BaseGenerator(ABC):
                 self.logger.error(f"No {self.category} were loaded")
                 return False
 
-            # Generate all data pages
             self.logger.info(f"Generating individual {self.category} pages...")
             data_files = self.generate_all_pages(data)
 
@@ -409,14 +394,11 @@ class BaseGenerator(ABC):
                 self.logger.error(f"No {self.category} pages were generated")
                 return False
 
-            # Categorize data for index and navigation
             categorized_data = self.categorize_data(data)
 
-            # Generate the index
             self.logger.info(f"Generating {self.category} index...")
             index_path = self.generate_index(data, categorized_data)
 
-            # Update mkdocs.yml navigation
             self.logger.info("Updating mkdocs.yml navigation...")
             nav_success = self.update_mkdocs_nav(categorized_data)
 

@@ -18,7 +18,7 @@ Then update the hardcoded attributes in:
 
 from dataclasses import dataclass, field
 from enum import IntEnum
-from typing import Any, Optional
+from typing import Any, Generic, Optional, TypeVar
 
 from src.utils.data.constants import POKEMON_FORM_SUBFOLDERS
 
@@ -85,13 +85,68 @@ SPRITE_VERSION_KEY: str = _gen_config["sprite_version"]
 
 
 # region Game Version Map Classes
-class GameVersionStringMap:
+T = TypeVar("T", str, int)
+
+
+class _GameVersionMap(Generic[T]):
+    """
+    Base class for game version maps. Holds values of type T keyed by game version.
+    Uses generics to support both string and integer value types.
+    """
+
+    def __init__(self, data: dict[str, Any], value_type: type, version_keys: set[str]):
+        """
+        Initialize the map, dynamically setting attributes.
+
+        Args:
+            data: Dictionary mapping game version keys to values
+            value_type: Expected type for values (str or int)
+            version_keys: Set of valid version keys to filter against
+        """
+        if not isinstance(data, dict):
+            raise ValueError(f"Expected a dict, got {type(data)}")
+
+        # Store version keys for later use
+        self._version_keys = version_keys
+        self._value_type = value_type
+
+        # Dynamically set slots based on version keys
+        object.__setattr__(self, "__slots__", tuple(version_keys))
+
+        for game in version_keys:
+            value = data.get(game)
+            if value is not None and not isinstance(value, value_type):
+                raise ValueError(
+                    f"Value for '{game}' must be {value_type.__name__} or None, got {type(value).__name__}"
+                )
+            setattr(self, game, value)
+
+    def to_dict(self) -> dict[str, T]:
+        """Convert to a dictionary, excluding None values."""
+        result = {}
+        for game in self._version_keys:
+            value = getattr(self, game, None)
+            if value is not None:
+                result[game] = value
+        return result
+
+    def __repr__(self) -> str:
+        """Provide a clean representation for debugging."""
+        parts = []
+        type_name = self.__class__.__name__
+        for game in self._version_keys:
+            value = getattr(self, game, None)
+            if value is not None:
+                parts.append(f"{game}={value!r}")
+        return f"{type_name}({', '.join(parts)})"
+
+
+class GameVersionStringMap(_GameVersionMap[str]):
     """
     Holds string values keyed by game version (e.g., flavor text, effects).
     Attributes are pre-declared for static analysis.
     """
 
-    # Use slots for efficiency and to define expected attributes
     __slots__ = tuple(VERSION_GROUP_KEYS)
 
     # Pre-declare attributes for static analysis (mypy/linter)
@@ -104,49 +159,21 @@ class GameVersionStringMap:
         Initialize the map, dynamically setting attributes.
         Filters keys against VERSION_GROUP_KEYS.
         """
-        if not isinstance(data, dict):
-            raise ValueError(f"Expected a dict, got {type(data)}")
-
-        for game in VERSION_GROUP_KEYS:
-            value = data.get(game)
-            if value is not None and not isinstance(value, str):
-                raise ValueError(
-                    f"Value for '{game}' must be a string or None, got {type(value)}"
-                )
-            setattr(self, game, value)
+        super().__init__(data, str, VERSION_GROUP_KEYS)
 
     @classmethod
     def from_dict(cls, data: dict[str, Any]) -> "GameVersionStringMap":
         """Create GameVersionStringMap from a dictionary."""
         return cls(data)
 
-    def to_dict(self) -> dict[str, str]:
-        """Convert to a dictionary, excluding None values."""
-        result = {}
-        for game in VERSION_GROUP_KEYS:
-            value = getattr(self, game, None)
-            if value is not None:
-                result[game] = value
-        return result
 
-    def __repr__(self) -> str:
-        """Provide a clean representation for debugging."""
-        parts = []
-        for game in VERSION_GROUP_KEYS:
-            value = getattr(self, game, None)
-            if value is not None:
-                parts.append(f"{game}={value!r}")
-        return f"GameVersionStringMap({', '.join(parts)})"
-
-
-class GameVersionIntMap:
+class GameVersionIntMap(_GameVersionMap[int]):
     """
     Holds integer (or Optional[int]) values keyed by game version.
     (e.g., power, pp, accuracy, effect_chance).
     Attributes are pre-declared for static analysis.
     """
 
-    # Use slots for efficiency and to define expected attributes
     __slots__ = tuple(VERSION_GROUP_KEYS)
 
     # Pre-declare attributes for static analysis (mypy/linter)
@@ -159,49 +186,21 @@ class GameVersionIntMap:
         Initialize the map, dynamically setting attributes.
         Filters keys against VERSION_GROUP_KEYS.
         """
-        if not isinstance(data, dict):
-            raise ValueError(f"Expected a dict, got {type(data)}")
-
-        for game in VERSION_GROUP_KEYS:
-            value = data.get(game)
-            if value is not None and not isinstance(value, int):
-                raise ValueError(
-                    f"Value for '{game}' must be an int or None, got {type(value)}"
-                )
-            setattr(self, game, value)
+        super().__init__(data, int, VERSION_GROUP_KEYS)
 
     @classmethod
     def from_dict(cls, data: dict[str, Any]) -> "GameVersionIntMap":
         """Create GameVersionIntMap from a dictionary."""
         return cls(data)
 
-    def to_dict(self) -> dict[str, int]:
-        """Convert to a dictionary, excluding None values."""
-        result = {}
-        for game in VERSION_GROUP_KEYS:
-            value = getattr(self, game, None)
-            if value is not None:
-                result[game] = value
-        return result
 
-    def __repr__(self) -> str:
-        """Provide a clean representation for debugging."""
-        parts = []
-        for game in VERSION_GROUP_KEYS:
-            value = getattr(self, game, None)
-            if value is not None:
-                parts.append(f"{game}={value!r}")
-        return f"GameVersionIntMap({', '.join(parts)})"
-
-
-class GameStringMap:
+class GameStringMap(_GameVersionMap[str]):
     """
     Holds string values keyed by individual game version (not version groups).
     Used for flavor text which varies by individual game.
     Attributes are pre-declared for static analysis.
     """
 
-    # Use slots for efficiency and to define expected attributes
     __slots__ = tuple(GAME_VERSION_KEYS)
 
     # Pre-declare attributes for static analysis (mypy/linter)
@@ -216,39 +215,12 @@ class GameStringMap:
         Initialize the map, dynamically setting attributes.
         Filters keys against GAME_VERSION_KEYS.
         """
-        if not isinstance(data, dict):
-            raise ValueError(f"Expected a dict, got {type(data)}")
-
-        for game in GAME_VERSION_KEYS:
-            value = data.get(game)
-            if value is not None and not isinstance(value, str):
-                raise ValueError(
-                    f"Value for '{game}' must be a string or None, got {type(value)}"
-                )
-            setattr(self, game, value)
+        super().__init__(data, str, GAME_VERSION_KEYS)
 
     @classmethod
     def from_dict(cls, data: dict[str, Any]) -> "GameStringMap":
         """Create GameStringMap from a dictionary."""
         return cls(data)
-
-    def to_dict(self) -> dict[str, str]:
-        """Convert to a dictionary, excluding None values."""
-        result = {}
-        for game in GAME_VERSION_KEYS:
-            value = getattr(self, game, None)
-            if value is not None:
-                result[game] = value
-        return result
-
-    def __repr__(self) -> str:
-        """Provide a clean representation for debugging."""
-        parts = []
-        for game in GAME_VERSION_KEYS:
-            value = getattr(self, game, None)
-            if value is not None:
-                parts.append(f"{game}={value!r}")
-        return f"GameStringMap({', '.join(parts)})"
 
 
 # endregion

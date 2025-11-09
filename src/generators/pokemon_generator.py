@@ -18,7 +18,7 @@ Note: Styles are applied inline when they depend on dynamic data:
 
 from collections import defaultdict
 from pathlib import Path
-from typing import Any, Optional, cast
+from typing import Any, Optional, Union, cast
 
 from src.utils.core.config import (
     GENERATOR_DEX_RELATIVE_PATH,
@@ -834,7 +834,7 @@ class PokemonGenerator(BaseGenerator):
 
             # Use format_pokemon_card_grid to display Pokemon
             # Highlight the current Pokemon
-            highlighted_pokemon = []
+            highlighted_pokemon: list[Union[str, Pokemon]] = []
             highlighted_extra_info = []
 
             for idx, species_name in enumerate(pokemon_names):
@@ -875,10 +875,10 @@ class PokemonGenerator(BaseGenerator):
             md += "> :material-information: Forms are switchable during gameplay.\n\n"
 
         if len(pokemon.forms) > 1:
-            forms = [f.name for f in pokemon.forms]
+            forms: list[Union[str, Pokemon]] = [f.name for f in pokemon.forms]
             categories = [format_display_name(f.category) for f in pokemon.forms]
 
-            md += format_pokemon_card_grid(forms, extra_info=categories)  # type: ignore
+            md += format_pokemon_card_grid(forms, extra_info=categories)
             md += "\n\n"
 
         return md
@@ -1069,6 +1069,154 @@ class PokemonGenerator(BaseGenerator):
 
         return md
 
+    def _generate_sprite_card(
+        self, sprite_url: str, label: str, indent: str = "\t"
+    ) -> str:
+        """Generate a single sprite card with image and label.
+
+        Args:
+            sprite_url: URL of the sprite image
+            label: Label to display under the sprite
+            indent: Indentation level for the markdown
+
+        Returns:
+            Formatted markdown string for a sprite card
+        """
+        return f"{indent}- ![{label}]({sprite_url})\n\n{indent}\t---\n\n{indent}\t{label}\n\n"
+
+    def _generate_sprite_grid(
+        self, sprites: dict[str, Optional[str]], indent: str = "\t"
+    ) -> str:
+        """Generate a grid of sprite cards.
+
+        Args:
+            sprites: Dictionary mapping labels to sprite URLs
+            indent: Indentation level for the markdown
+
+        Returns:
+            Formatted markdown string with sprite grid
+        """
+        parts = [f'{indent}<div class="grid cards" markdown>\n\n']
+
+        for label, url in sprites.items():
+            if url:
+                parts.append(self._generate_sprite_card(url, label, indent))
+
+        parts.append(f"{indent}</div>\n\n")
+        return "".join(parts)
+
+    def _generate_animated_sprites(
+        self, sprite_version, has_female_sprites: bool
+    ) -> str:
+        """Generate animated sprite section for in-game sprites.
+
+        Args:
+            sprite_version: Sprite version object containing animated sprites
+            has_female_sprites: Whether to include female sprite variants
+
+        Returns:
+            Formatted markdown string with animated sprites
+        """
+        parts = []
+
+        # Normal sprites
+        parts.append("\t**Normal**\n\n")
+        normal_sprites = {
+            "Front": sprite_version.animated.front_default,
+            "Back": sprite_version.animated.back_default,
+        }
+
+        if has_female_sprites:
+            normal_sprites["Front ♀"] = sprite_version.animated.front_female
+            normal_sprites["Back ♀"] = sprite_version.animated.back_female
+
+        parts.append(self._generate_sprite_grid(normal_sprites))
+
+        # Shiny sprites
+        parts.append("\t**✨ Shiny**\n\n")
+        shiny_sprites = {
+            "Front": sprite_version.animated.front_shiny,
+            "Back": sprite_version.animated.back_shiny,
+        }
+
+        if has_female_sprites:
+            shiny_sprites["Front ♀"] = sprite_version.animated.front_shiny_female
+            shiny_sprites["Back ♀"] = sprite_version.animated.back_shiny_female
+
+        parts.append(self._generate_sprite_grid(shiny_sprites))
+
+        return "".join(parts)
+
+    def _generate_static_sprites(self, sprites, has_female_sprites: bool) -> str:
+        """Generate static sprite section for cosmetic forms.
+
+        Args:
+            sprites: Sprites object containing static PNG sprites
+            has_female_sprites: Whether to include female sprite variants
+
+        Returns:
+            Formatted markdown string with static sprites
+        """
+        parts = []
+
+        # Normal sprites
+        parts.append("\t**Normal**\n\n")
+        normal_sprites = {
+            "Front": sprites.front_default,
+            "Back": sprites.back_default,
+        }
+
+        if has_female_sprites:
+            normal_sprites["Front ♀"] = sprites.front_female
+            normal_sprites["Back ♀"] = sprites.back_female
+
+        parts.append(self._generate_sprite_grid(normal_sprites))
+
+        # Shiny sprites
+        parts.append("\t**✨ Shiny**\n\n")
+        shiny_sprites = {
+            "Front": sprites.front_shiny,
+            "Back": sprites.back_shiny,
+        }
+
+        if has_female_sprites:
+            shiny_sprites["Front ♀"] = sprites.front_shiny_female
+            shiny_sprites["Back ♀"] = sprites.back_shiny_female
+
+        parts.append(self._generate_sprite_grid(shiny_sprites))
+
+        return "".join(parts)
+
+    def _generate_official_artwork(self, sprites) -> str:
+        """Generate official artwork section.
+
+        Args:
+            sprites: Sprites object containing official artwork
+
+        Returns:
+            Formatted markdown string with official artwork
+        """
+        if not (
+            hasattr(sprites, "other")
+            and sprites.other
+            and hasattr(sprites.other, "official_artwork")
+        ):
+            return ""
+
+        artwork = sprites.other.official_artwork
+        parts = ['=== "Official Artwork"\n\n']
+
+        artwork_sprites = {}
+        if artwork.front_default:
+            artwork_sprites["Normal"] = artwork.front_default
+        if artwork.front_shiny:
+            artwork_sprites["✨ Shiny"] = artwork.front_shiny
+
+        if artwork_sprites:
+            parts.append(self._generate_sprite_grid(artwork_sprites))
+
+        return "".join(parts)
+
     def _generate_sprites_section(self, pokemon: Pokemon) -> str:
         """Generate the sprites section for a Pokémon.
 
@@ -1078,16 +1226,14 @@ class PokemonGenerator(BaseGenerator):
         Returns:
             str: Formatted markdown string with the sprites section.
         """
-        md = "## :material-image-multiple: Sprites\n\n"
+        parts = ["## :material-image-multiple: Sprites\n\n"]
 
         sprites = pokemon.sprites
-        has_female_sprites = False
-
-        # Check if this is a cosmetic form (no animated GIFs available)
         is_cosmetic = any(form.category == "cosmetic" for form in pokemon.forms)
 
-        # Check if this Pokemon has animated sprites
         has_animated = False
+        has_female_sprites = False
+
         if not is_cosmetic and hasattr(sprites, "versions") and sprites.versions:
             sprite_version = getattr(sprites.versions, POKEDB_SPRITE_VERSION, None)
             if (
@@ -1099,149 +1245,22 @@ class PokemonGenerator(BaseGenerator):
                 if sprite_version.animated.front_female:
                     has_female_sprites = True
 
-        # In-game Sprites Tab
-        md += '=== "In-Game Sprites"\n\n'
+        parts.append('=== "In-Game Sprites"\n\n')
 
-        # Use animated sprites for default/variant/transformation, PNG for cosmetic
         if has_animated:
             sprite_version = getattr(sprites.versions, POKEDB_SPRITE_VERSION, None)
             if sprite_version is None:
-                return md
-
-            # Normal sprites
-            md += "\t**Normal**\n\n"
-            md += '\t<div class="grid cards" markdown>\n\n'
-
-            if sprite_version.animated.front_default:
-                md += f"\t- ![Front]({sprite_version.animated.front_default})\n\n"
-                md += "\t\t---\n\n"
-                md += "\t\tFront\n\n"
-            if sprite_version.animated.back_default:
-                md += f"\t- ![Back]({sprite_version.animated.back_default})\n\n"
-                md += "\t\t---\n\n"
-                md += "\t\tBack\n\n"
-
-            # Female variants if available
-            if has_female_sprites:
-                if sprite_version.animated.front_female:
-                    md += f"\t- ![Front ♀]({sprite_version.animated.front_female})\n\n"
-                    md += "\t\t---\n\n"
-                    md += "\t\tFront ♀\n\n"
-                if sprite_version.animated.back_female:
-                    md += f"\t- ![Back ♀]({sprite_version.animated.back_female})\n\n"
-                    md += "\t\t---\n\n"
-                    md += "\t\tBack ♀\n\n"
-
-            md += "\t</div>\n\n"
-
-            # Shiny sprites
-            md += "\t**✨ Shiny**\n\n"
-            md += '\t<div class="grid cards" markdown>\n\n'
-
-            if sprite_version.animated.front_shiny:
-                md += f"\t- ![Front Shiny]({sprite_version.animated.front_shiny})\n\n"
-                md += "\t\t---\n\n"
-                md += "\t\tFront\n\n"
-            if sprite_version.animated.back_shiny:
-                md += f"\t- ![Back Shiny]({sprite_version.animated.back_shiny})\n\n"
-                md += "\t\t---\n\n"
-                md += "\t\tBack\n\n"
-
-            # Female shiny variants if available
-            if has_female_sprites:
-                if sprite_version.animated.front_shiny_female:
-                    md += f"\t- ![Front Shiny ♀]({sprite_version.animated.front_shiny_female})\n\n"
-                    md += "\t\t---\n\n"
-                    md += "\t\tFront ♀\n\n"
-                if sprite_version.animated.back_shiny_female:
-                    md += f"\t- ![Back Shiny ♀]({sprite_version.animated.back_shiny_female})\n\n"
-                    md += "\t\t---\n\n"
-                    md += "\t\tBack ♀\n\n"
-
-            md += "\t</div>\n\n"
+                return "".join(parts)
+            parts.append(
+                self._generate_animated_sprites(sprite_version, has_female_sprites)
+            )
         else:
-            # Fall back to default PNG sprites for cosmetic forms
-            # Check if female sprites are available
-            has_png_female_sprites = sprites.front_female or sprites.back_female
+            has_female_sprites = bool(sprites.front_female or sprites.back_female)
+            parts.append(self._generate_static_sprites(sprites, has_female_sprites))
 
-            md += "\t**Normal**\n\n"
-            md += '\t<div class="grid cards" markdown>\n\n'
+        parts.append(self._generate_official_artwork(sprites))
 
-            if sprites.front_default:
-                md += f"\t- ![Front]({sprites.front_default})\n\n"
-                md += "\t\t---\n\n"
-                md += "\t\tFront\n\n"
-            if sprites.back_default:
-                md += f"\t- ![Back]({sprites.back_default})\n\n"
-                md += "\t\t---\n\n"
-                md += "\t\tBack\n\n"
-
-            # Female variants if available
-            if has_png_female_sprites:
-                if sprites.front_female:
-                    md += f"\t- ![Front ♀]({sprites.front_female})\n\n"
-                    md += "\t\t---\n\n"
-                    md += "\t\tFront ♀\n\n"
-                if sprites.back_female:
-                    md += f"\t- ![Back ♀]({sprites.back_female})\n\n"
-                    md += "\t\t---\n\n"
-                    md += "\t\tBack ♀\n\n"
-
-            md += "\t</div>\n\n"
-
-            # Shiny sprites
-            md += "\t**✨ Shiny**\n\n"
-            md += '\t<div class="grid cards" markdown>\n\n'
-
-            if sprites.front_shiny:
-                md += f"\t- ![Front Shiny]({sprites.front_shiny})\n\n"
-                md += "\t\t---\n\n"
-                md += "\t\tFront\n\n"
-            if sprites.back_shiny:
-                md += f"\t- ![Back Shiny]({sprites.back_shiny})\n\n"
-                md += "\t\t---\n\n"
-                md += "\t\tBack\n\n"
-
-            # Female shiny variants if available
-            if has_png_female_sprites:
-                if sprites.front_shiny_female:
-                    md += f"\t- ![Front Shiny ♀]({sprites.front_shiny_female})\n\n"
-                    md += "\t\t---\n\n"
-                    md += "\t\tFront ♀\n\n"
-                if sprites.back_shiny_female:
-                    md += f"\t- ![Back Shiny ♀]({sprites.back_shiny_female})\n\n"
-                    md += "\t\t---\n\n"
-                    md += "\t\tBack ♀\n\n"
-
-            md += "\t</div>\n\n"
-
-        # Official Artwork Tab
-        md += '=== "Official Artwork"\n\n'
-
-        if (
-            hasattr(sprites, "other")
-            and sprites.other
-            and hasattr(sprites.other, "official_artwork")
-        ):
-            artwork = sprites.other.official_artwork
-
-            md += '\t<div class="grid cards" markdown>\n\n'
-
-            # Normal artwork
-            if artwork.front_default:
-                md += f"\t- ![Official Artwork]({artwork.front_default})\n\n"
-                md += "\t\t---\n\n"
-                md += "\t\tNormal\n\n"
-
-            # Shiny artwork
-            if artwork.front_shiny:
-                md += f"\t- ![Shiny Official Artwork]({artwork.front_shiny})\n\n"
-                md += "\t\t---\n\n"
-                md += "\t\t✨ Shiny\n\n"
-
-            md += "\t</div>\n\n"
-
-        return md
+        return "".join(parts)
 
     def _generate_cries_section(self, pokemon: Pokemon) -> str:
         """Generate the cries section with audio players for both legacy and latest cries.
@@ -1327,23 +1346,229 @@ class PokemonGenerator(BaseGenerator):
         self.logger.info(f"Generated page for {display_name}: {output_file}")
         return output_file
 
+    def _deduplicate_pokemon(self, all_pokemon: list[Pokemon]) -> list[Pokemon]:
+        """Deduplicate Pokemon by (dex_number, name) to prevent duplicates.
+
+        Args:
+            all_pokemon: List of all Pokemon to deduplicate
+
+        Returns:
+            List of deduplicated Pokemon
+        """
+        seen_pokemon = set()
+        deduplicated_pokemon = []
+
+        for pokemon in all_pokemon:
+            pokemon_key = (
+                pokemon.pokedex_numbers.get("national"),
+                pokemon.name,
+            )
+
+            if pokemon_key not in seen_pokemon:
+                seen_pokemon.add(pokemon_key)
+                deduplicated_pokemon.append(pokemon)
+
+        return deduplicated_pokemon
+
+    def _group_pokemon_by_dex_and_generation(
+        self, deduplicated_pokemon: list[Pokemon]
+    ) -> dict[str, dict[int, list[Pokemon]]]:
+        """Group Pokemon by national dex number and generation.
+
+        Args:
+            deduplicated_pokemon: List of deduplicated Pokemon
+
+        Returns:
+            Dictionary mapping generation IDs to dex numbers to lists of Pokemon forms
+        """
+        pokemon_by_dex: dict[int, list[Pokemon]] = defaultdict(list)
+
+        for pokemon in deduplicated_pokemon:
+            dex_num = pokemon.pokedex_numbers.get("national")
+            if dex_num:
+                pokemon_by_dex[dex_num].append(pokemon)
+
+        for dex_num in pokemon_by_dex:
+            pokemon_by_dex[dex_num].sort(key=lambda p: (not p.is_default, p.name))
+
+        pokemon_by_generation: dict[str, dict[int, list[Pokemon]]] = defaultdict(
+            lambda: defaultdict(list)
+        )
+
+        for dex_num, pokemon_forms in pokemon_by_dex.items():
+            default_form = pokemon_forms[0]
+            gen = default_form.generation if default_form.generation else "unknown"
+            pokemon_by_generation[gen][dex_num] = pokemon_forms
+
+        return pokemon_by_generation
+
+    def _build_pokemon_nav_entry(
+        self, dex_num: int, pokemon_forms: list[Pokemon]
+    ) -> dict[str, Any]:
+        """Build navigation entry for a Pokemon with its forms.
+
+        Args:
+            dex_num: National Pokedex number
+            pokemon_forms: List of Pokemon forms (default form first)
+
+        Returns:
+            Navigation entry dictionary
+        """
+        default_form = pokemon_forms[0]
+        base_name = default_form.species
+
+        default_form_suffix = extract_form_suffix(default_form.name, base_name)
+
+        main_entry = {
+            f"#{dex_num:03d} {format_display_name(default_form.name)}": f"pokedex/pokemon/{default_form.name}.md"
+        }
+
+        if len(pokemon_forms) > 1:
+            if default_form_suffix:
+                all_forms = []
+                for form in pokemon_forms:
+                    form_display = format_display_name(
+                        extract_form_suffix(form.name, base_name) or "standard"
+                    )
+                    all_forms.append({form_display: f"pokedex/pokemon/{form.name}.md"})
+
+                main_entry = {
+                    f"#{dex_num:03d} {format_display_name(base_name)}": all_forms
+                }
+            else:
+                alternate_forms = []
+                for alt_form in pokemon_forms[1:]:
+                    form_display = format_display_name(
+                        extract_form_suffix(alt_form.name, base_name) or "standard"
+                    )
+                    alternate_forms.append(
+                        {form_display: f"pokedex/pokemon/{alt_form.name}.md"}
+                    )
+
+                main_entry = {
+                    f"#{dex_num:03d} {format_display_name(default_form.name)}": [
+                        {"Default": f"pokedex/pokemon/{default_form.name}.md"}
+                    ]
+                    + alternate_forms
+                }
+
+        return main_entry
+
+    def _build_generation_nav_items(
+        self, pokemon_by_generation: dict[str, dict[int, list[Pokemon]]]
+    ) -> list[dict[str, Any]]:
+        """Build navigation items for all generations.
+
+        Args:
+            pokemon_by_generation: Dictionary mapping generation IDs to Pokemon
+
+        Returns:
+            List of navigation items for all generations
+        """
+        pokemon_nav_items: list[dict[str, Any]] = [{"Overview": "pokedex/pokemon.md"}]
+
+        for gen_key in self.subcategory_order:
+            if gen_key not in pokemon_by_generation:
+                continue
+
+            display_name = self.subcategory_names.get(gen_key, gen_key)
+            gen_pokemon_by_dex = pokemon_by_generation[gen_key]
+            sorted_dex_numbers = sorted(gen_pokemon_by_dex.keys())
+
+            gen_nav: list[dict[str, Any]] = []
+            for dex_num in sorted_dex_numbers:
+                pokemon_forms = gen_pokemon_by_dex[dex_num]
+                gen_nav.append(self._build_pokemon_nav_entry(dex_num, pokemon_forms))
+
+            pokemon_nav_items.append({display_name: gen_nav})
+
+        if "unknown" in pokemon_by_generation:
+            unknown_pokemon_by_dex = pokemon_by_generation["unknown"]
+            sorted_unknown_dex = sorted(unknown_pokemon_by_dex.keys())
+            unknown_nav: list[dict[str, str]] = []
+            for dex_num in sorted_unknown_dex:
+                pokemon_forms = unknown_pokemon_by_dex[dex_num]
+                default_form = pokemon_forms[0]
+                unknown_nav.append(
+                    {
+                        f"#{dex_num:03d} {format_display_name(default_form.name)}": f"pokedex/pokemon/{default_form.name}.md"
+                    }
+                )
+            pokemon_nav_items.append({"Unknown": unknown_nav})
+
+        return pokemon_nav_items
+
+    def _update_pokedex_navigation(
+        self, config: dict[str, Any], pokemon_nav_items: list[dict[str, Any]]
+    ) -> dict[str, Any]:
+        """Update the Pokedex navigation section in mkdocs config.
+
+        Args:
+            config: Loaded mkdocs configuration
+            pokemon_nav_items: List of Pokemon navigation items
+
+        Returns:
+            Updated mkdocs configuration
+
+        Raises:
+            ValueError: If navigation structure is invalid
+        """
+        if "nav" not in config:
+            raise ValueError("mkdocs.yml does not contain a 'nav' section")
+
+        nav_list = config["nav"]
+        pokedex_index = None
+
+        for i, item in enumerate(nav_list):
+            if isinstance(item, dict) and "Pokédex" in item:
+                pokedex_index = i
+                break
+
+        if pokedex_index is None:
+            raise ValueError(
+                "mkdocs.yml nav section does not contain 'Pokédex'. "
+                "Please add a 'Pokédex' section to the navigation first."
+            )
+
+        pokedex_nav = nav_list[pokedex_index]["Pokédex"]
+        if not isinstance(pokedex_nav, list):
+            pokedex_nav = []
+
+        pokedex_nav = cast(list[dict[str, Any]], pokedex_nav)
+
+        pokemon_subsection_index = None
+        for i, item in enumerate(pokedex_nav):
+            if isinstance(item, dict) and "Pokémon" in item:
+                pokemon_subsection_index = i
+                break
+
+        pokemon_subsection = {"Pokémon": pokemon_nav_items}
+        if pokemon_subsection_index is not None:
+            pokedex_nav[pokemon_subsection_index] = pokemon_subsection
+        else:
+            pokedex_nav.insert(0, pokemon_subsection)
+
+        nav_list[pokedex_index] = {"Pokédex": pokedex_nav}
+        config["nav"] = nav_list
+
+        return config
+
     def update_mkdocs_nav(self, categorized_entries: dict[str, list[Pokemon]]) -> bool:
         """Update mkdocs.yml with navigation links to all Pokemon pages.
 
         Args:
-            categorized_entries (dict[str, list[Pokemon]]): Dictionary mapping generation IDs to lists of Pokemon.
-
-        Raises:
-            ValueError: If the mkdocs.yml file is not found or is invalid.
-            ValueError: If the navigation structure is invalid.
+            categorized_entries: Dictionary mapping generation IDs to lists of Pokemon
 
         Returns:
-            bool: True if the update succeeded, False if it failed.
+            True if the update succeeded, False if it failed
+
+        Raises:
+            ValueError: If the mkdocs.yml file is not found or navigation structure is invalid
         """
-        # Flatten categorized entries back to a single list for Pokemon-specific processing
         all_pokemon = []
         for pokemon_list in categorized_entries.values():
             all_pokemon.extend(pokemon_list)
+
         try:
             mkdocs_path = self.project_root / "mkdocs.yml"
 
@@ -1351,187 +1576,21 @@ class PokemonGenerator(BaseGenerator):
                 self.logger.error(f"mkdocs.yml not found at {mkdocs_path}")
                 return False
 
-            # Load current mkdocs.yml using utility
             config = load_mkdocs_config(mkdocs_path)
 
-            # Deduplicate Pokemon by (dex_number, name) to prevent duplicates
-            seen_pokemon = set()
-            deduplicated_pokemon = []
-
-            for pokemon in all_pokemon:
-                pokemon_key = (
-                    pokemon.pokedex_numbers.get("national"),
-                    pokemon.name,
-                )
-
-                if pokemon_key not in seen_pokemon:
-                    seen_pokemon.add(pokemon_key)
-                    deduplicated_pokemon.append(pokemon)
-
-            # Group Pokemon by national dex number first for form handling
-            pokemon_by_dex: dict[int, list[Pokemon]] = defaultdict(list)
-
-            for pokemon in deduplicated_pokemon:
-                dex_num = pokemon.pokedex_numbers.get("national")
-                if dex_num:
-                    pokemon_by_dex[dex_num].append(pokemon)
-
-            # Sort each group: default form first, then alternates
-            for dex_num in pokemon_by_dex:
-                pokemon_by_dex[dex_num].sort(key=lambda p: (not p.is_default, p.name))
-
-            # Group Pokemon by generation attribute
-            pokemon_by_generation: dict[str, dict[int, list[Pokemon]]] = defaultdict(
-                lambda: defaultdict(list)
+            deduplicated_pokemon = self._deduplicate_pokemon(all_pokemon)
+            pokemon_by_generation = self._group_pokemon_by_dex_and_generation(
+                deduplicated_pokemon
             )
+            pokemon_nav_items = self._build_generation_nav_items(pokemon_by_generation)
 
-            for dex_num, pokemon_forms in pokemon_by_dex.items():
-                # Use the generation from the default form
-                default_form = pokemon_forms[0]
-                gen = default_form.generation if default_form.generation else "unknown"
-                pokemon_by_generation[gen][dex_num] = pokemon_forms
+            config = self._update_pokedex_navigation(config, pokemon_nav_items)
 
-            # Create navigation structure for Pokémon subsection
-            pokemon_nav_items = [{"Overview": "pokedex/pokemon.md"}]
-
-            # Build navigation for each generation
-            for gen_key in self.subcategory_order:
-                if gen_key not in pokemon_by_generation:
-                    continue
-
-                display_name = self.subcategory_names.get(gen_key, gen_key)
-                gen_pokemon_by_dex = pokemon_by_generation[gen_key]
-                sorted_dex_numbers = sorted(gen_pokemon_by_dex.keys())
-
-                gen_nav = []
-                for dex_num in sorted_dex_numbers:
-                    pokemon_forms = gen_pokemon_by_dex[dex_num]
-
-                    # Get the default form (should be first after sorting)
-                    default_form = pokemon_forms[0]
-                    base_name = default_form.species
-
-                    # Check if default form has a suffix
-                    default_form_suffix = extract_form_suffix(
-                        default_form.name, base_name
-                    )
-
-                    # Create main entry for default form
-                    main_entry = {
-                        f"#{dex_num:03d} {format_display_name(default_form.name)}": f"pokedex/pokemon/{default_form.name}.md"
-                    }
-
-                    # If there are alternate forms, add them as nested entries
-                    if len(pokemon_forms) > 1:
-                        # If default form has a suffix, use base species name for main entry
-                        # and show all forms (including default) with their suffixes
-                        if default_form_suffix:
-                            all_forms = []
-                            for form in pokemon_forms:
-                                form_display = format_display_name(
-                                    extract_form_suffix(form.name, base_name)
-                                    or "standard"
-                                )
-                                all_forms.append(
-                                    {form_display: f"pokedex/pokemon/{form.name}.md"}
-                                )
-
-                            main_entry = {
-                                f"#{dex_num:03d} {format_display_name(base_name)}": all_forms
-                            }
-                        else:
-                            # Default has no suffix, keep current behavior
-                            alternate_forms = []
-                            for alt_form in pokemon_forms[1:]:
-                                form_display = format_display_name(
-                                    extract_form_suffix(alt_form.name, base_name)
-                                    or "standard"
-                                )
-                                alternate_forms.append(
-                                    {
-                                        form_display: f"pokedex/pokemon/{alt_form.name}.md"
-                                    }
-                                )
-
-                            main_entry = {
-                                f"#{dex_num:03d} {format_display_name(default_form.name)}": [
-                                    {
-                                        "Default": f"pokedex/pokemon/{default_form.name}.md"
-                                    }
-                                ]
-                                + alternate_forms
-                            }
-
-                    gen_nav.append(main_entry)
-
-                # Using type: ignore because mkdocs nav allows mixed dict value types
-                pokemon_nav_items.append({display_name: gen_nav})  # type: ignore
-
-            # Add unknown generation Pokemon if any exist
-            if "unknown" in pokemon_by_generation:
-                unknown_pokemon_by_dex = pokemon_by_generation["unknown"]
-                sorted_unknown_dex = sorted(unknown_pokemon_by_dex.keys())
-                unknown_nav = []
-                for dex_num in sorted_unknown_dex:
-                    pokemon_forms = unknown_pokemon_by_dex[dex_num]
-                    default_form = pokemon_forms[0]
-                    unknown_nav.append(
-                        {
-                            f"#{dex_num:03d} {format_display_name(default_form.name)}": f"pokedex/pokemon/{default_form.name}.md"
-                        }
-                    )
-                pokemon_nav_items.append({"Unknown": unknown_nav})  # type: ignore
-
-            # Find and update Pokédex section in nav
-            if "nav" not in config:
-                raise ValueError("mkdocs.yml does not contain a 'nav' section")
-
-            nav_list = config["nav"]
-            pokedex_index = None
-
-            # Find the Pokédex section
-            for i, item in enumerate(nav_list):
-                if isinstance(item, dict) and "Pokédex" in item:
-                    pokedex_index = i
-                    break
-
-            if pokedex_index is None:
-                raise ValueError(
-                    "mkdocs.yml nav section does not contain 'Pokédex'. "
-                    "Please add a 'Pokédex' section to the navigation first."
-                )
-
-            # Get the Pokédex navigation items
-            pokedex_nav = nav_list[pokedex_index]["Pokédex"]
-            if not isinstance(pokedex_nav, list):
-                pokedex_nav = []
-
-            # Ensure typing is flexible for mixed nav entry value types
-            pokedex_nav = cast(list[dict[str, Any]], pokedex_nav)
-
-            # Find or create Pokémon subsection within Pokédex
-            pokemon_subsection_index = None
-            for i, item in enumerate(pokedex_nav):
-                if isinstance(item, dict) and "Pokémon" in item:
-                    pokemon_subsection_index = i
-                    break
-
-            # Update or append Pokémon subsection
-            pokemon_subsection = {"Pokémon": pokemon_nav_items}
-            if pokemon_subsection_index is not None:
-                pokedex_nav[pokemon_subsection_index] = pokemon_subsection
-            else:
-                # Prepend Pokémon subsection as the first item
-                pokedex_nav.insert(0, pokemon_subsection)
-
-            # Update the config
-            nav_list[pokedex_index] = {"Pokédex": pokedex_nav}
-            config["nav"] = nav_list
-
-            # Write updated mkdocs.yml using utility
             save_mkdocs_config(mkdocs_path, config)
 
-            total_pokemon = len(pokemon_by_dex)
+            total_pokemon = sum(
+                len(dex_dict) for dex_dict in pokemon_by_generation.values()
+            )
             total_forms = len(deduplicated_pokemon)
             total_generations = len(
                 [g for g in self.subcategory_order if g in pokemon_by_generation]
@@ -1541,6 +1600,11 @@ class PokemonGenerator(BaseGenerator):
             )
             return True
 
-        except Exception as e:
+        except (ValueError, OSError, IOError) as e:
             self.logger.error(f"Failed to update mkdocs.yml: {e}", exc_info=True)
+            return False
+        except Exception as e:
+            self.logger.error(
+                f"Unexpected error updating mkdocs.yml: {e}", exc_info=True
+            )
             return False

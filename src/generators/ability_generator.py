@@ -13,7 +13,7 @@ This generator:
 
 from collections import defaultdict
 from pathlib import Path
-from typing import Optional
+from typing import Optional, Union, cast
 
 from src.utils.core.config import VERSION_GROUP, VERSION_GROUP_FRIENDLY
 from src.utils.core.loader import PokeDBLoader
@@ -63,7 +63,6 @@ class AbilityGenerator(BaseGenerator):
         self.index_table_headers = ["Ability", "Effect"]
         self.index_table_alignments = ["left", "left"]
 
-        # Create abilities subdirectory
         self.output_dir = self.output_dir / "abilities"
         self.output_dir.mkdir(parents=True, exist_ok=True)
 
@@ -159,23 +158,25 @@ class AbilityGenerator(BaseGenerator):
         """
         md = "## :material-pokeball: Pokémon with this Ability\n\n"
 
-        normal = pokemon_with_ability["normal"]
-        hidden = pokemon_with_ability["hidden"]
+        normal: list[Union[str, Pokemon]] = cast(
+            list[Union[str, Pokemon]], pokemon_with_ability["normal"]
+        )
+        hidden: list[Union[str, Pokemon]] = cast(
+            list[Union[str, Pokemon]], pokemon_with_ability["hidden"]
+        )
 
         if not normal and not hidden:
             md += "*No Pokémon have this ability.*\n\n"
             return md
 
-        # Normal ability section
         if normal:
             md += "### :material-star: Standard Ability\n\n"
-            md += format_pokemon_card_grid(normal)  # type: ignore
+            md += format_pokemon_card_grid(normal)
             md += "\n\n"
 
-        # Hidden ability section
         if hidden:
             md += "### :material-eye-off: Hidden Ability\n\n"
-            md += format_pokemon_card_grid(hidden)  # type: ignore
+            md += format_pokemon_card_grid(hidden)
             md += "\n\n"
 
         return md
