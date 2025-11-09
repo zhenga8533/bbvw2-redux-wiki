@@ -38,7 +38,11 @@ from src.utils.data.models import (
     EvolutionNode,
     Pokemon,
 )
-from src.utils.data.pokemon import calculate_stat_range, calculate_type_effectiveness
+from src.utils.data.pokemon import (
+    calculate_stat_range,
+    calculate_type_effectiveness,
+    get_pokemon_sprite,
+)
 from src.utils.formatters.markdown_formatter import (
     format_ability,
     format_category_badge,
@@ -330,10 +334,8 @@ class PokemonGenerator(BaseGenerator):
         md += '\t<div class="pokemon-hero-content">\n'
 
         # Sprite with enhanced shadow and glow
-        sprite_src = getattr(
-            pokemon.sprites.versions, POKEDB_SPRITE_VERSION
-        ).animated.front_default
-        sprite = f'<img src="{sprite_src}" alt="{pokemon.name}" class="sprite" />'
+        sprite_url = get_pokemon_sprite(pokemon)
+        sprite = f'<img src="{sprite_url}" alt="{pokemon.name}" class="sprite" />'
         md += f'\t\t<div class="pokemon-hero-sprite">\n'
         md += f"\t\t\t{sprite}\n"
         md += "\t\t</div>\n"
