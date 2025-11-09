@@ -1,0 +1,213 @@
+/* ============================================================================
+   Sprite Styles
+   ============================================================================ */
+
+.sprite {
+  image-rendering: pixelated;
+}
+
+.item-sprite {
+  vertical-align: middle;
+  display: inline-block;
+  margin-right: -0.25rem;
+}
+
+/* ============================================================================
+   Badge Styles
+   ============================================================================ */
+
+.badges-hstack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.badges-vstack {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.type-badge {
+  color: white;
+  padding: 0.25rem 0.75rem;
+  border-radius: 8px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  display: inline-block;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.category-badge {
+  color: white;
+  padding: 0.2rem 0.5rem;
+  border-radius: 12px;
+  font-size: 0.7rem;
+  font-weight: 500;
+  text-transform: capitalize;
+  display: inline-block;
+  text-align: center;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.05));
+  backdrop-filter: blur(4px);
+}
+
+/* ============================================================================
+   Pokemon Grid Card Styles
+   ============================================================================ */
+
+/* Vertically align Pokemon sprite cards to the bottom */
+.grid.cards > ul > li:has(.pokemon-sprite-img) {
+  display: flex !important;
+  flex-direction: column;
+}
+
+.grid.cards > ul > li:has(.pokemon-sprite-img) > p:first-child {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+/* Reduce spacing around divider in grid cards */
+.grid.cards > ul > li > hr {
+  margin-top: 0.5rem !important;
+  margin-bottom: 0.5rem !important;
+}
+
+/* Center only images in grid cards */
+.grid.cards img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ============================================================================
+   Pokemon Hero Section Styles
+   ============================================================================ */
+
+.pokemon-hero {
+  padding: 2rem 1rem;
+  border-radius: 16px;
+  margin-bottom: 2rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4),
+    0 0 0 1px rgba(255, 255, 255, 0.15) inset;
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.pokemon-hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: radial-gradient(
+      circle at 20% 30%,
+      rgba(255, 255, 255, 0.15) 0%,
+      transparent 50%
+    ),
+    radial-gradient(
+      circle at 80% 70%,
+      rgba(255, 255, 255, 0.08) 0%,
+      transparent 50%
+    ),
+    repeating-linear-gradient(
+      -45deg,
+      transparent,
+      transparent 40px,
+      rgba(255, 255, 255, 0.02) 40px,
+      rgba(255, 255, 255, 0.02) 80px
+    );
+}
+
+.pokemon-hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.25rem;
+  position: relative;
+  z-index: 1;
+}
+
+.pokemon-hero-sprite {
+  filter: drop-shadow(0 6px 16px rgba(0, 0, 0, 0.5))
+    drop-shadow(0 0 50px rgba(255, 255, 255, 0.4));
+  transform: scale(1.5);
+}
+
+.pokemon-hero-genus {
+  font-size: 1rem;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.95);
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.4), 0 0 20px rgba(0, 0, 0, 0.2);
+  margin-bottom: -0.5rem;
+}
+
+.pokemon-hero-dex-number {
+  font-size: 2rem;
+  font-weight: 800;
+  color: white;
+  text-shadow: 0 3px 10px rgba(0, 0, 0, 0.6), 0 0 30px rgba(255, 255, 255, 0.3),
+    0 1px 0 rgba(0, 0, 0, 0.2);
+  letter-spacing: 0.05em;
+}
+
+.pokemon-hero-regional-badge {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 0.25rem 0.75rem;
+  border-radius: 12px;
+  font-size: 0.875rem;
+  color: white;
+}
+
+.pokemon-hero-status-badge {
+  background: rgba(255, 255, 255, 0.25);
+  padding: 0.5rem 1rem;
+  border-radius: 12px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: white;
+  text-transform: uppercase;
+}
+
+.legendary-badge {
+  background-color: #f5c518;
+  color: #3b1700;
+}
+
+.mythical-badge {
+  background-color: #8e44ad;
+  color: #ffffff;
+}
+
+.baby-badge {
+  background-color: #ff69b4;
+  color: #3b1700;
+}
+
+/* ============================================================================
+   Evolution Changes Table Styles
+   ============================================================================ */
+
+.evolution-changes-table table {
+  width: 100%;
+}
+
+/* Vertically align Pokémon and Evolution columns to bottom */
+.evolution-changes-table table tbody tr td:nth-child(2),
+.evolution-changes-table table tbody tr td:nth-child(3) {
+  vertical-align: bottom;
+}
+
+/* Vertically align Dex # and New Method columns to middle */
+.evolution-changes-table table tbody tr td:nth-child(1),
+.evolution-changes-table table tbody tr td:nth-child(4) {
+  vertical-align: middle;
+}

@@ -1,0 +1,62 @@
+# Truant
+
+## :material-information: Effect
+
+!!! info "Full Description"
+
+    Every second turn on which this Pokémon should attempt to use a move, it will instead do nothing ("loaf around"). Loafing around interrupts moves that take multiple turns the same way paralysis, flinching, etc do. Most such moves, for example bide or rollout, are simply cut off upon loafing around. Attacks with a recharge turn, such as hyper beam, do not have to recharge; attacks with a preparation turn, such as fly, do not end up being used. Moves that are forced over multiple turns and keep going through failure, such as outrage, uproar, or any move forced by encore, keep going as usual. If this Pokémon is confused, its confusion is not checked when loafing around; the Pokémon cannot hurt itself, and its confusion does not end or come closer to ending. If this Pokémon attempts to move but fails, e.g. because of paralysis or gravity, it still counts as having moved and will loaf around the next turn. If it does not attempt to move, e.g. because it is asleep or frozen, whatever it would have done will be postponed until its next attempt; that is, it will either loaf around or move as usual, depending on what it last did. This ability cannot be changed with worry seed, but it can be disabled with gastro acid, changed with role play, or traded away with skill swap.
+
+!!! tip "Quick Summary"
+
+    Skips every second turn.
+
+## :material-book-open: In-Game Description
+
+!!! quote "Black 2 & White 2"
+
+    Pokémon can’t attack on consecutive turns.
+
+## :material-pokeball: Pokémon with this Ability
+
+### :material-star: Standard Ability
+
+<div class="grid cards" markdown>
+
+-	[![Slakoth](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/287.gif){: .pokemon-sprite-img }](../pokemon/slakoth.md)
+
+	***
+
+	**#287 [Slakoth](../pokemon/slakoth.md)**
+
+-	[![Slaking](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/289.gif){: .pokemon-sprite-img }](../pokemon/slaking.md)
+
+	***
+
+	**#289 [Slaking](../pokemon/slaking.md)**
+
+</div>
+
+### :material-eye-off: Hidden Ability
+
+<div class="grid cards" markdown>
+
+-	[![Slakoth](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/287.gif){: .pokemon-sprite-img }](../pokemon/slakoth.md)
+
+	***
+
+	**#287 [Slakoth](../pokemon/slakoth.md)**
+
+-	[![Slaking](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/289.gif){: .pokemon-sprite-img }](../pokemon/slaking.md)
+
+	***
+
+	**#289 [Slaking](../pokemon/slaking.md)**
+
+-	[![Durant](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/632.gif){: .pokemon-sprite-img }](../pokemon/durant.md)
+
+	***
+
+	**#632 [Durant](../pokemon/durant.md)**
+
+</div>
+
