@@ -1,5 +1,5 @@
 site_name: Blaze Black 2 & Volt White 2 Redux Wiki
-site_description: A comprehensive wiki and Pokédex for the BBVW2 Redux rom hack.
+site_description: A comprehensive wiki and Pokédex for the BBVW2 Redux ROM hack.
 site_author: zhenga8533
 site_url: https://zhenga8533.github.io/bbvw2-redux-wiki/
 edit_uri: edit/main/docs/
@@ -23,7 +23,7 @@ markdown_extensions:
 plugins:
 - git-committers:
     enabled: !ENV [CI, false]
-    repository: zhenga8533/bbvw2-redux
+    repository: zhenga8533/bbvw2-redux-wiki
     branch: main
 - search
 theme:
