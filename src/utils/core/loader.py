@@ -156,7 +156,7 @@ class PokeDBLoader:
     """
     Utility class for loading PokeDB JSON files into structured dataclasses.
 
-    Supports loading from both the original gen5 data and the parsed working copy.
+    Supports loading from both the original data and the parsed working copy.
     Implements thread-safe LRU caching for all data types (Pokemon, Moves, Abilities, Items)
     to avoid redundant file I/O operations.
 
