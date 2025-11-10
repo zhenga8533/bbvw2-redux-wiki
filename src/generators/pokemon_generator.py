@@ -949,9 +949,11 @@ class PokemonGenerator(BaseGenerator):
         table_md = create_table(headers, rows, alignments)
 
         # Add tab indentation for nested table (in card grids)
-        indented_table = "\n".join("\t" + line for line in table_md.split("\n"))
+        indented_table = (
+            "\n".join("\t" + line for line in table_md.split("\n")) + "\n\n"
+        )
 
-        return indented_table + "\n"
+        return indented_table
 
     def _generate_moves_section(self, pokemon: Pokemon) -> str:
         """Generate the moves section for a Pokémon.
