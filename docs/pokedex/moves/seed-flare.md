@@ -70,7 +70,7 @@
 
 	**#492 [Shaymin Land](../pokemon/shaymin-land.md)**
 
-	Level 100
+	Level 50
 
 </div>
 

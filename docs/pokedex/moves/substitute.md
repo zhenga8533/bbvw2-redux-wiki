@@ -78,7 +78,7 @@
 
 	**#479 [Rotom](../pokemon/rotom.md)**
 
-	Level 36
+	Level 22
 
 </div>
 

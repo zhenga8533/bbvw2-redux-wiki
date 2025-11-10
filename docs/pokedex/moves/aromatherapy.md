@@ -222,7 +222,7 @@
 
 	**#492 [Shaymin Land](../pokemon/shaymin-land.md)**
 
-	Level 64
+	Level 30
 
 -	[![Petilil](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/548.gif){: .pokemon-sprite-img }](../pokemon/petilil.md)
 

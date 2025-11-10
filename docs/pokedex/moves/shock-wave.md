@@ -190,7 +190,7 @@
 
 	**#479 [Rotom](../pokemon/rotom.md)**
 
-	Level 22
+	Level 10
 
 -	[![Musharna](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/518.gif){: .pokemon-sprite-img }](../pokemon/musharna.md)
 

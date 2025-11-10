@@ -41,6 +41,116 @@ class LocationParser(BaseParser):
         self._current_sublocation = ""
         self._location_data_dir = Path("data/locations")
 
+        # Tracking sets for preventing duplicates across parse runs
+        # Subclasses can register their own tracking keys
+        self._initialized_data: Dict[str, set] = {}
+
+    def parse(self) -> None:
+        """Parse the input file and generate markdown output.
+
+        Override to reset tracking state before parsing.
+        Subclasses can override this to add custom tracking resets.
+        """
+        # Clear all tracking sets at the start of each parse run
+        for key in self._initialized_data:
+            self._initialized_data[key].clear()
+        super().parse()
+
+    def _register_tracking_key(self, key: str) -> None:
+        """Register a tracking key for duplicate prevention.
+
+        Args:
+            key (str): The tracking key name (e.g., "trainers", "wild_encounters").
+        """
+        if key not in self._initialized_data:
+            self._initialized_data[key] = set()
+
+    def _is_first_encounter(self, tracking_key: str, location_key: Optional[str] = None) -> bool:
+        """Check if this is the first encounter of a location for a specific data type.
+
+        Args:
+            tracking_key (str): The tracking key (e.g., "trainers", "wild_encounters").
+            location_key (str, optional): Custom location key. If None, uses current location/sublocation.
+
+        Returns:
+            bool: True if this is the first encounter, False otherwise.
+        """
+        if tracking_key not in self._initialized_data:
+            self._register_tracking_key(tracking_key)
+
+        if location_key is None:
+            location_key = f"{self._current_location}/{self._current_sublocation}" if self._current_sublocation else self._current_location
+
+        return location_key not in self._initialized_data[tracking_key]
+
+    def _mark_as_initialized(self, tracking_key: str, location_key: Optional[str] = None) -> None:
+        """Mark a location as initialized for a specific data type.
+
+        Args:
+            tracking_key (str): The tracking key (e.g., "trainers", "wild_encounters").
+            location_key (str, optional): Custom location key. If None, uses current location/sublocation.
+        """
+        if tracking_key not in self._initialized_data:
+            self._register_tracking_key(tracking_key)
+
+        if location_key is None:
+            location_key = f"{self._current_location}/{self._current_sublocation}" if self._current_sublocation else self._current_location
+
+        self._initialized_data[tracking_key].add(location_key)
+
+    def _clear_location_data_on_first_encounter(
+        self, tracking_key: str, data_key: str, location_key: Optional[str] = None
+    ) -> bool:
+        """Clear location data on first encounter and mark as initialized.
+
+        This is a helper method that combines the common pattern of:
+        1. Checking if this is the first encounter
+        2. Clearing data if it is
+        3. Marking as initialized
+        4. Ensuring the data key exists
+
+        Args:
+            tracking_key (str): The tracking key (e.g., "trainers", "wild_encounters").
+            data_key (str): The key in the location data to clear (e.g., "trainers", "wild_encounters").
+            location_key (str, optional): Custom location key. If None, uses current location/sublocation.
+
+        Returns:
+            bool: True if this was the first encounter and data was cleared, False otherwise.
+        """
+        if self._current_location not in self._locations_data:
+            return False
+
+        if location_key is None:
+            location_key = f"{self._current_location}/{self._current_sublocation}" if self._current_sublocation else self._current_location
+
+        is_first = self._is_first_encounter(tracking_key, location_key)
+
+        # Determine target (sublocation or root location)
+        if self._current_sublocation:
+            target = self._get_or_create_sublocation(
+                self._locations_data[self._current_location], self._current_sublocation
+            )
+        else:
+            target = self._locations_data[self._current_location]
+
+        if is_first:
+            # Clear the data on first encounter
+            # Determine the correct type based on data_key
+            if data_key in ["trainers"]:  # Keys that should be lists
+                target[data_key] = []
+            else:  # Keys that should be dicts (wild_encounters, hidden_grotto, etc.)
+                target[data_key] = {}
+            self._mark_as_initialized(tracking_key, location_key)
+        else:
+            # Ensure key exists but don't clear
+            if data_key not in target:
+                if data_key in ["trainers"]:  # Keys that should be lists
+                    target[data_key] = []
+                else:  # Keys that should be dicts
+                    target[data_key] = {}
+
+        return is_first
+
     def _parse_location_name(self, location_raw: str) -> tuple[str, Optional[str]]:
         """Parse a location string to extract parent location and sublocation.
 

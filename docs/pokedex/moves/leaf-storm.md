@@ -206,7 +206,7 @@
 
 	**#413 [Wormadam Plant](../pokemon/wormadam-plant.md)**
 
-	Level 47
+	Level 60
 
 -	[![Cherubi](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/420.gif){: .pokemon-sprite-img }](../pokemon/cherubi.md)
 
@@ -231,6 +231,14 @@
 	**#465 [Tangrowth](../pokemon/tangrowth.md)**
 
 	Level 62
+
+-	[![Shaymin Land](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/492.gif){: .pokemon-sprite-img }](../pokemon/shaymin-land.md)
+
+	***
+
+	**#492 [Shaymin Land](../pokemon/shaymin-land.md)**
+
+	Level 46
 
 -	[![Serperior](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/497.gif){: .pokemon-sprite-img }](../pokemon/serperior.md)
 

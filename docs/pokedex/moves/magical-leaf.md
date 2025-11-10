@@ -326,7 +326,7 @@
 
 	**#492 [Shaymin Land](../pokemon/shaymin-land.md)**
 
-	Level 10
+	Level 6
 
 -	[![Pansage](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/511.gif){: .pokemon-sprite-img }](../pokemon/pansage.md)
 

@@ -112,6 +112,14 @@
 
 	Level 1
 
+-	[![Deoxys Normal](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/386.gif){: .pokemon-sprite-img }](../pokemon/deoxys-normal.md)
+
+	***
+
+	**#386 [Deoxys Normal](../pokemon/deoxys-normal.md)**
+
+	Level 1
+
 -	[![Lucario](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/448.gif){: .pokemon-sprite-img }](../pokemon/lucario.md)
 
 	***

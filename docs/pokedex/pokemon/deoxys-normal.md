@@ -21,6 +21,7 @@
 
 	---
 
+	- [Moody](../../pokedex/abilities/moody.md)
 	- [Pressure](../../pokedex/abilities/pressure.md)
 
 - **:material-ruler: Physical Attributes**

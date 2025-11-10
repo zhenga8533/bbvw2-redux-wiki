@@ -198,7 +198,7 @@
 
 	**#386 [Deoxys Normal](../pokemon/deoxys-normal.md)**
 
-	Level 41
+	Level 22
 
 -	[![Wormadam Plant](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/413.gif){: .pokemon-sprite-img }](../pokemon/wormadam-plant.md)
 

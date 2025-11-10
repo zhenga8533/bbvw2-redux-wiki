@@ -206,7 +206,7 @@
 
 	**#492 [Shaymin Land](../pokemon/shaymin-land.md)**
 
-	Level 91
+	Level 1
 
 -	[![Munna](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/517.gif){: .pokemon-sprite-img }](../pokemon/munna.md)
 

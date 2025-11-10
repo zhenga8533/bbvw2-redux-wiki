@@ -88,6 +88,22 @@
 
 	Level 31
 
+-	[![Deoxys Normal](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/386.gif){: .pokemon-sprite-img }](../pokemon/deoxys-normal.md)
+
+	***
+
+	**#386 [Deoxys Normal](../pokemon/deoxys-normal.md)**
+
+	Level 1
+
+-	[![Rotom](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/479.gif){: .pokemon-sprite-img }](../pokemon/rotom.md)
+
+	***
+
+	**#479 [Rotom](../pokemon/rotom.md)**
+
+	Level 43
+
 -	[![Darkrai](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/491.gif){: .pokemon-sprite-img }](../pokemon/darkrai.md)
 
 	***

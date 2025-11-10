@@ -342,7 +342,7 @@
 
 	**#479 [Rotom](../pokemon/rotom.md)**
 
-	Level 29
+	Level 16
 
 -	[![Giratina Altered](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/487.gif){: .pokemon-sprite-img }](../pokemon/giratina-altered.md)
 

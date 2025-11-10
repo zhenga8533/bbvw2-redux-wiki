@@ -55,6 +55,10 @@ class WildAreaChangesParser(LocationParser):
         # Wild area-specific tracking
         self._current_encounter_method = ""
 
+        # Register tracking keys for wild encounters and hidden grotto
+        self._register_tracking_key("wild_encounters")
+        self._register_tracking_key("hidden_grotto")
+
     def parse_general_changes(self, line: str) -> None:
         """Parse the General Changes section.
 
@@ -234,20 +238,30 @@ class WildAreaChangesParser(LocationParser):
         # Call parent class initialization
         super()._initialize_location_data(location_raw)
 
-        # Ensure wild_encounters key exists at parent level
-        if self._current_location not in self._locations_data:
-            return
+        # Determine current section to know what to clear
+        current_section = self._current_section
 
-        # Reset wild_encounters to avoid duplicates when parser runs multiple times
-        self._locations_data[self._current_location]["wild_encounters"] = {}
+        # Use centralized method to clear data on first encounter based on section
+        if current_section in ["Main Story Changes", "Postgame Location Changes"]:
+            self._clear_location_data_on_first_encounter("wild_encounters", "wild_encounters")
 
-        # If this is a sublocation, reset wild_encounters and hidden_grotto in sublocation
-        if self._current_sublocation:
-            target = self._get_or_create_sublocation(
-                self._locations_data[self._current_location], self._current_sublocation
+        if current_section == "Hidden Grotto Guide":
+            self._clear_location_data_on_first_encounter("hidden_grotto", "hidden_grotto")
+
+        # Ensure both keys always exist (even if not initialized yet)
+        if self._current_location in self._locations_data:
+            target = (
+                self._get_or_create_sublocation(
+                    self._locations_data[self._current_location], self._current_sublocation
+                )
+                if self._current_sublocation
+                else self._locations_data[self._current_location]
             )
-            target["wild_encounters"] = {}
-            target["hidden_grotto"] = {}
+
+            if "wild_encounters" not in target:
+                target["wild_encounters"] = {}
+            if "hidden_grotto" not in target:
+                target["hidden_grotto"] = {}
 
     def _add_wild_encounter(
         self, pokemon: str, level: str, chance: str, method: str

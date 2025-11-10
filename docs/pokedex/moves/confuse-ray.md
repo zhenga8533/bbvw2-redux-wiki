@@ -382,7 +382,7 @@
 
 	**#479 [Rotom](../pokemon/rotom.md)**
 
-	Level 1
+	Level 7
 
 -	[![Regigigas](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/486.gif){: .pokemon-sprite-img }](../pokemon/regigigas.md)
 

@@ -280,42 +280,62 @@ class LocationGenerator(BaseGenerator):
             # Add location description after "Main Area" heading
             if location_data.get("description"):
                 markdown += f"{location_data['description']}\n\n"
-            trainer_header = "###"
-            encounter_header = "###"
-            grotto_header = "###"
+            # Main area uses depth 3 for content sections
+            content_depth = 3
         else:
             # Add location description after location title if no sublocations
             if location_data.get("description"):
                 markdown += f"{location_data['description']}\n\n"
-            trainer_header = "##"
-            encounter_header = "##"
-            grotto_header = "##"
+            # No sublocations, use depth 2 for content sections
+            content_depth = 2
 
-        # Add trainers section
-        if location_data.get("trainers"):
-            markdown += f"{trainer_header} Trainers\n\n"
-            # Add trainer notes (level adjustments, etc.) after Trainers heading
-            if location_data.get("trainer_notes"):
-                markdown += f"{location_data['trainer_notes']}\n\n"
-            markdown += self._build_trainers_section(location_data["trainers"])
-
-        # Add wild encounters section
-        if location_data.get("wild_encounters"):
-            markdown += f"{encounter_header} Wild Encounters\n\n"
-            markdown += self._build_wild_encounters_section(
-                location_data["wild_encounters"]
-            )
-
-        # Add hidden grotto section
-        if location_data.get("hidden_grotto"):
-            markdown += f"{grotto_header} Hidden Grotto\n\n"
-            markdown += self._build_hidden_grotto_section(
-                location_data["hidden_grotto"]
-            )
+        # Add content sections with dynamic depth
+        markdown += self._build_content_sections(
+            location_data, content_depth
+        )
 
         # Add sublocations
         if location_data.get("sublocations"):
             markdown += self._build_sublocations_section(location_data["sublocations"])
+
+        return markdown
+
+    def _build_content_sections(
+        self, data: Dict[str, Any], depth: int
+    ) -> str:
+        """Build trainers, wild encounters, and hidden grotto sections with dynamic headers.
+
+        Args:
+            data (Dict[str, Any]): Location or sublocation data.
+            depth (int): Current header depth level.
+
+        Returns:
+            str: Markdown content for all content sections.
+        """
+        markdown = ""
+        header = "#" * depth
+
+        # Add trainers section
+        if data.get("trainers"):
+            markdown += f"{header} Trainers\n\n"
+            # Add trainer notes (level adjustments, etc.) after Trainers heading
+            if data.get("trainer_notes"):
+                markdown += f"{data['trainer_notes']}\n\n"
+            markdown += self._build_trainers_section(data["trainers"])
+
+        # Add wild encounters section
+        if data.get("wild_encounters"):
+            markdown += f"{header} Wild Encounters\n\n"
+            markdown += self._build_wild_encounters_section(
+                data["wild_encounters"]
+            )
+
+        # Add hidden grotto section
+        if data.get("hidden_grotto"):
+            markdown += f"{header} Hidden Grotto\n\n"
+            markdown += self._build_hidden_grotto_section(
+                data["hidden_grotto"]
+            )
 
         return markdown
 
@@ -341,27 +361,27 @@ class LocationGenerator(BaseGenerator):
             if sublocation_data.get("description"):
                 markdown += f"{sublocation_data['description']}\n\n"
 
-            # Add trainers for this sublocation
-            if sublocation_data.get("trainers"):
-                markdown += f"{'#' * (depth + 1)} Trainers\n\n"
-                # Add trainer notes (level adjustments, etc.) after Trainers heading
-                if sublocation_data.get("trainer_notes"):
-                    markdown += f"{sublocation_data['trainer_notes']}\n\n"
-                markdown += self._build_trainers_section(sublocation_data["trainers"])
+            # Check if this sublocation has nested sublocations
+            has_nested_sublocations = bool(sublocation_data.get("sublocations"))
 
-            # Add wild encounters for this sublocation
-            if sublocation_data.get("wild_encounters"):
-                markdown += f"{'#' * (depth + 1)} Wild Encounters\n\n"
-                markdown += self._build_wild_encounters_section(
-                    sublocation_data["wild_encounters"]
-                )
+            # Check if this sublocation has any content
+            has_content = (
+                sublocation_data.get("trainers")
+                or sublocation_data.get("wild_encounters")
+                or sublocation_data.get("hidden_grotto")
+            )
 
-            # Add hidden grotto for this sublocation
-            if sublocation_data.get("hidden_grotto"):
-                markdown += f"{'#' * (depth + 1)} Hidden Grotto\n\n"
-                markdown += self._build_hidden_grotto_section(
-                    sublocation_data["hidden_grotto"]
-                )
+            # If there are nested sublocations and content, add "Main Section" header
+            if has_nested_sublocations and has_content:
+                markdown += f"{'#' * (depth + 1)} Main Section\n\n"
+                # Content sections go one level deeper
+                content_depth = depth + 2
+            else:
+                # No nested sublocations, content sections are one level deeper than sublocation
+                content_depth = depth + 1
+
+            # Add content sections with dynamic depth
+            markdown += self._build_content_sections(sublocation_data, content_depth)
 
             # Recursively handle nested sublocations
             if sublocation_data.get("sublocations"):

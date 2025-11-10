@@ -86,7 +86,7 @@
 
 	**#386 [Deoxys Normal](../pokemon/deoxys-normal.md)**
 
-	Level 89
+	Level 46
 
 -	[![Elgyem](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/605.gif){: .pokemon-sprite-img }](../pokemon/elgyem.md)
 

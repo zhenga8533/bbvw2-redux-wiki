@@ -310,7 +310,7 @@
 
 	**#386 [Deoxys Normal](../pokemon/deoxys-normal.md)**
 
-	Level 81
+	Level 42
 
 -	[![Shellos](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/422.gif){: .pokemon-sprite-img }](../pokemon/shellos.md)
 
@@ -359,6 +359,14 @@
 	**#488 [Cresselia](../pokemon/cresselia.md)**
 
 	Level 1
+
+-	[![Shaymin Land](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/492.gif){: .pokemon-sprite-img }](../pokemon/shaymin-land.md)
+
+	***
+
+	**#492 [Shaymin Land](../pokemon/shaymin-land.md)**
+
+	Level 26
 
 -	[![Arceus](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/493.gif){: .pokemon-sprite-img }](../pokemon/arceus.md)
 

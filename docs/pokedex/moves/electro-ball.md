@@ -222,7 +222,7 @@
 
 	**#479 [Rotom](../pokemon/rotom.md)**
 
-	Level 43
+	Level 31
 
 -	[![Emolga](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/587.gif){: .pokemon-sprite-img }](../pokemon/emolga.md)
 

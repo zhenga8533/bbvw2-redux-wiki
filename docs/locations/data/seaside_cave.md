@@ -1,65 +1,5 @@
 # Seaside Cave
 
-## Upper Floor
-
-### Wild Encounters
-
-Cave, Normal
-
-| Pokémon | Type(s) | Level(s) | Chance |
-|:-------:|:-------:|:---------|:-------|
-| ![woobat](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/527.gif){ .sprite }<br>[Woobat](../../pokedex/pokemon/woobat.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | 41-44 | 20.0% |
-| ![golduck](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/55.gif){ .sprite }<br>[Golduck](../../pokedex/pokemon/golduck.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> <span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span></div> | 41-44 | 20.0% |
-| ![gurdurr](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/533.gif){ .sprite }<br>[Gurdurr](../../pokedex/pokemon/gurdurr.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span></div> | 41-44 | 10.0% |
-| ![machoke](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/67.gif){ .sprite }<br>[Machoke](../../pokedex/pokemon/machoke.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span></div> | 41-44 | 10.0% |
-| ![tynamo](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/602.gif){ .sprite }<br>[Tynamo](../../pokedex/pokemon/tynamo.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F8D030 0%, #F8D030dd 100%);">Electric</span></div> | 41-44 | 10.0% |
-| ![seel](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/86.gif){ .sprite }<br>[Seel](../../pokedex/pokemon/seel.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span></div> | 41-44 | 10.0% |
-| ![boldore](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/525.gif){ .sprite }<br>[Boldore](../../pokedex/pokemon/boldore.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span></div> | 41-44 | 5.0% |
-| ![shuckle](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/213.gif){ .sprite }<br>[Shuckle](../../pokedex/pokemon/shuckle.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> <span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span></div> | 41-44 | 5.0% |
-| ![dwebble](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/557.gif){ .sprite }<br>[Dwebble](../../pokedex/pokemon/dwebble.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> <span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span></div> | 41-44 | 5.0% |
-| ![spheal](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/363.gif){ .sprite }<br>[Spheal](../../pokedex/pokemon/spheal.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #98D8D8 0%, #98D8D8dd 100%);">Ice</span> <span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span></div> | 41-44 | 5.0% |
-
-Surf, Normal
-
-| Pokémon | Type(s) | Level(s) | Chance |
-|:-------:|:-------:|:---------|:-------|
-| ![frillish](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/592.gif){ .sprite }<br>[Frillish](../../pokedex/pokemon/frillish.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span></div> | 40-46 | 60.0% |
-| ![seel](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/86.gif){ .sprite }<br>[Seel](../../pokedex/pokemon/seel.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span></div> | 40-46 | 30.0% |
-| ![frillish](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/592.gif){ .sprite }<br>[Frillish](../../pokedex/pokemon/frillish.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span></div> | 40-46 | 10.0% |
-
-Fish, Normal
-
-| Pokémon | Type(s) | Level(s) | Chance |
-|:-------:|:-------:|:---------|:-------|
-| ![luvdisc](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/370.gif){ .sprite }<br>[Luvdisc](../../pokedex/pokemon/luvdisc.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> <span class="type-badge" style="background: linear-gradient(135deg, #EE99AC 0%, #EE99ACdd 100%);">Fairy</span></div> | 35-45 | 70.0% |
-| ![shellder](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/90.gif){ .sprite }<br>[Shellder](../../pokedex/pokemon/shellder.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> <span class="type-badge" style="background: linear-gradient(135deg, #98D8D8 0%, #98D8D8dd 100%);">Ice</span></div> | 30-40 | 30.0% |
-| ![cloyster](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/91.gif){ .sprite }<br>[Cloyster](../../pokedex/pokemon/cloyster.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> <span class="type-badge" style="background: linear-gradient(135deg, #98D8D8 0%, #98D8D8dd 100%);">Ice</span></div> | 40-50 | 5.0% |
-
-Special Event
-
-| Pokémon | Type(s) | Level(s) | Chance |
-|:-------:|:-------:|:---------|:-------|
-| ![crustle](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/558.gif){ .sprite }<br>[Crustle](../../pokedex/pokemon/crustle.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> <span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span></div> | 50 | — |
-
-## Lower Floor
-
-### Wild Encounters
-
-Cave, Normal
-
-| Pokémon | Type(s) | Level(s) | Chance |
-|:-------:|:-------:|:---------|:-------|
-| ![woobat](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/527.gif){ .sprite }<br>[Woobat](../../pokedex/pokemon/woobat.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | 46 | 20.0% |
-| ![golduck](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/55.gif){ .sprite }<br>[Golduck](../../pokedex/pokemon/golduck.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> <span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span></div> | 46 | 20.0% |
-| ![gurdurr](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/533.gif){ .sprite }<br>[Gurdurr](../../pokedex/pokemon/gurdurr.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span></div> | 46 | 10.0% |
-| ![machoke](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/67.gif){ .sprite }<br>[Machoke](../../pokedex/pokemon/machoke.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span></div> | 46 | 10.0% |
-| ![eelektrik](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/603.gif){ .sprite }<br>[Eelektrik](../../pokedex/pokemon/eelektrik.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F8D030 0%, #F8D030dd 100%);">Electric</span></div> | 46 | 10.0% |
-| ![dewgong](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/87.gif){ .sprite }<br>[Dewgong](../../pokedex/pokemon/dewgong.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> <span class="type-badge" style="background: linear-gradient(135deg, #98D8D8 0%, #98D8D8dd 100%);">Ice</span></div> | 46 | 10.0% |
-| ![boldore](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/525.gif){ .sprite }<br>[Boldore](../../pokedex/pokemon/boldore.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span></div> | 46 | 5.0% |
-| ![shuckle](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/213.gif){ .sprite }<br>[Shuckle](../../pokedex/pokemon/shuckle.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> <span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span></div> | 46 | 5.0% |
-| ![crustle](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/558.gif){ .sprite }<br>[Crustle](../../pokedex/pokemon/crustle.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> <span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span></div> | 46 | 5.0% |
-| ![sealeo](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/364.gif){ .sprite }<br>[Sealeo](../../pokedex/pokemon/sealeo.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #98D8D8 0%, #98D8D8dd 100%);">Ice</span> <span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span></div> | 46 | 5.0% |
-
 ## 1F
 
 ### Trainers
@@ -124,4 +64,64 @@ Cave, Normal
 |:-------:|:-------:|:-----------|:------|
 | ![breloom](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/286.gif){ .sprite }<br>[Breloom](../../pokedex/pokemon/breloom.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span> <span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span></div> | **Level:** 60<br>**Ability:** [Technician](../../pokedex/abilities/technician.md) | 1. [Bullet Seed](../../pokedex/moves/bullet-seed.md)<br>2. [Force Palm](../../pokedex/moves/force-palm.md)<br>3. [Mach Punch](../../pokedex/moves/mach-punch.md)<br>4. [Rock Tomb](../../pokedex/moves/rock-tomb.md) |
 | ![sawk](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/539.gif){ .sprite }<br>[Sawk](../../pokedex/pokemon/sawk.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span></div> | **Level:** 60<br>**Ability:** [Sturdy](../../pokedex/abilities/sturdy.md) | 1. [Reversal](../../pokedex/moves/reversal.md)<br>2. [Blaze Kick](../../pokedex/moves/blaze-kick.md)<br>3. [Stone Edge](../../pokedex/moves/stone-edge.md)<br>4. [Zen Headbutt](../../pokedex/moves/zen-headbutt.md) |
+
+## Upper Floor
+
+### Wild Encounters
+
+Cave, Normal
+
+| Pokémon | Type(s) | Level(s) | Chance |
+|:-------:|:-------:|:---------|:-------|
+| ![woobat](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/527.gif){ .sprite }<br>[Woobat](../../pokedex/pokemon/woobat.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | 41-44 | 20.0% |
+| ![golduck](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/55.gif){ .sprite }<br>[Golduck](../../pokedex/pokemon/golduck.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> <span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span></div> | 41-44 | 20.0% |
+| ![gurdurr](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/533.gif){ .sprite }<br>[Gurdurr](../../pokedex/pokemon/gurdurr.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span></div> | 41-44 | 10.0% |
+| ![machoke](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/67.gif){ .sprite }<br>[Machoke](../../pokedex/pokemon/machoke.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span></div> | 41-44 | 10.0% |
+| ![tynamo](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/602.gif){ .sprite }<br>[Tynamo](../../pokedex/pokemon/tynamo.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F8D030 0%, #F8D030dd 100%);">Electric</span></div> | 41-44 | 10.0% |
+| ![seel](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/86.gif){ .sprite }<br>[Seel](../../pokedex/pokemon/seel.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span></div> | 41-44 | 10.0% |
+| ![boldore](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/525.gif){ .sprite }<br>[Boldore](../../pokedex/pokemon/boldore.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span></div> | 41-44 | 5.0% |
+| ![shuckle](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/213.gif){ .sprite }<br>[Shuckle](../../pokedex/pokemon/shuckle.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> <span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span></div> | 41-44 | 5.0% |
+| ![dwebble](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/557.gif){ .sprite }<br>[Dwebble](../../pokedex/pokemon/dwebble.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> <span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span></div> | 41-44 | 5.0% |
+| ![spheal](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/363.gif){ .sprite }<br>[Spheal](../../pokedex/pokemon/spheal.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #98D8D8 0%, #98D8D8dd 100%);">Ice</span> <span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span></div> | 41-44 | 5.0% |
+
+Surf, Normal
+
+| Pokémon | Type(s) | Level(s) | Chance |
+|:-------:|:-------:|:---------|:-------|
+| ![frillish](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/592.gif){ .sprite }<br>[Frillish](../../pokedex/pokemon/frillish.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span></div> | 40-46 | 60.0% |
+| ![seel](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/86.gif){ .sprite }<br>[Seel](../../pokedex/pokemon/seel.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span></div> | 40-46 | 30.0% |
+| ![frillish](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/592.gif){ .sprite }<br>[Frillish](../../pokedex/pokemon/frillish.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span></div> | 40-46 | 10.0% |
+
+Fish, Normal
+
+| Pokémon | Type(s) | Level(s) | Chance |
+|:-------:|:-------:|:---------|:-------|
+| ![luvdisc](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/370.gif){ .sprite }<br>[Luvdisc](../../pokedex/pokemon/luvdisc.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> <span class="type-badge" style="background: linear-gradient(135deg, #EE99AC 0%, #EE99ACdd 100%);">Fairy</span></div> | 35-45 | 70.0% |
+| ![shellder](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/90.gif){ .sprite }<br>[Shellder](../../pokedex/pokemon/shellder.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> <span class="type-badge" style="background: linear-gradient(135deg, #98D8D8 0%, #98D8D8dd 100%);">Ice</span></div> | 30-40 | 30.0% |
+| ![cloyster](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/91.gif){ .sprite }<br>[Cloyster](../../pokedex/pokemon/cloyster.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> <span class="type-badge" style="background: linear-gradient(135deg, #98D8D8 0%, #98D8D8dd 100%);">Ice</span></div> | 40-50 | 5.0% |
+
+Special Event
+
+| Pokémon | Type(s) | Level(s) | Chance |
+|:-------:|:-------:|:---------|:-------|
+| ![crustle](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/558.gif){ .sprite }<br>[Crustle](../../pokedex/pokemon/crustle.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> <span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span></div> | 50 | — |
+
+## Lower Floor
+
+### Wild Encounters
+
+Cave, Normal
+
+| Pokémon | Type(s) | Level(s) | Chance |
+|:-------:|:-------:|:---------|:-------|
+| ![woobat](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/527.gif){ .sprite }<br>[Woobat](../../pokedex/pokemon/woobat.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | 46 | 20.0% |
+| ![golduck](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/55.gif){ .sprite }<br>[Golduck](../../pokedex/pokemon/golduck.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> <span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span></div> | 46 | 20.0% |
+| ![gurdurr](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/533.gif){ .sprite }<br>[Gurdurr](../../pokedex/pokemon/gurdurr.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span></div> | 46 | 10.0% |
+| ![machoke](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/67.gif){ .sprite }<br>[Machoke](../../pokedex/pokemon/machoke.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span></div> | 46 | 10.0% |
+| ![eelektrik](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/603.gif){ .sprite }<br>[Eelektrik](../../pokedex/pokemon/eelektrik.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F8D030 0%, #F8D030dd 100%);">Electric</span></div> | 46 | 10.0% |
+| ![dewgong](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/87.gif){ .sprite }<br>[Dewgong](../../pokedex/pokemon/dewgong.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> <span class="type-badge" style="background: linear-gradient(135deg, #98D8D8 0%, #98D8D8dd 100%);">Ice</span></div> | 46 | 10.0% |
+| ![boldore](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/525.gif){ .sprite }<br>[Boldore](../../pokedex/pokemon/boldore.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span></div> | 46 | 5.0% |
+| ![shuckle](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/213.gif){ .sprite }<br>[Shuckle](../../pokedex/pokemon/shuckle.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> <span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span></div> | 46 | 5.0% |
+| ![crustle](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/558.gif){ .sprite }<br>[Crustle](../../pokedex/pokemon/crustle.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> <span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span></div> | 46 | 5.0% |
+| ![sealeo](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/364.gif){ .sprite }<br>[Sealeo](../../pokedex/pokemon/sealeo.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #98D8D8 0%, #98D8D8dd 100%);">Ice</span> <span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span></div> | 46 | 5.0% |
 

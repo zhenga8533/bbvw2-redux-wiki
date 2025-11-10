@@ -102,7 +102,7 @@
 
 	**#386 [Deoxys Normal](../pokemon/deoxys-normal.md)**
 
-	Level 17
+	Level 10
 
 -	[![Elgyem](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/605.gif){: .pokemon-sprite-img }](../pokemon/elgyem.md)
 

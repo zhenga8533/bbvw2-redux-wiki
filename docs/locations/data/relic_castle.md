@@ -1,5 +1,36 @@
 # Relic Castle
 
+## 1F
+
+### Trainers
+
+○ Psychic Perry
+
+| Pokémon | Type(s) | Attributes | Moves |
+|:-------:|:-------:|:-----------|:------|
+| ![natu](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/177.gif){ .sprite }<br>[Natu](../../pokedex/pokemon/natu.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 27<br>**Ability:** [Magic Bounce](../../pokedex/abilities/magic-bounce.md) | 1. [Wish](../../pokedex/moves/wish.md)<br>2. [Air Cutter](../../pokedex/moves/air-cutter.md)<br>3. [Ominous Wind](../../pokedex/moves/ominous-wind.md)<br>4. [Future Sight](../../pokedex/moves/future-sight.md) |
+| ![gastly](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/92.gif){ .sprite }<br>[Gastly](../../pokedex/pokemon/gastly.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> <span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span></div> | **Level:** 27<br>**Ability:** [Levitate](../../pokedex/abilities/levitate.md) | 1. [Clear Smog](../../pokedex/moves/clear-smog.md)<br>2. [Ominous Wind](../../pokedex/moves/ominous-wind.md)<br>3. [Disable](../../pokedex/moves/disable.md)<br>4. [Hypnosis](../../pokedex/moves/hypnosis.md) |
+| ![xatu](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/178.gif){ .sprite }<br>[Xatu](../../pokedex/pokemon/xatu.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 27<br>**Ability:** [Magic Bounce](../../pokedex/abilities/magic-bounce.md) | 1. [Air Cutter](../../pokedex/moves/air-cutter.md)<br>2. [Ominous Wind](../../pokedex/moves/ominous-wind.md)<br>3. [Future Sight](../../pokedex/moves/future-sight.md)<br>4. [Miracle Eye](../../pokedex/moves/miracle-eye.md) |
+
+## B1F
+
+### Trainers
+
+○ Psychic Dua
+
+| Pokémon | Type(s) | Attributes | Moves |
+|:-------:|:-------:|:-----------|:------|
+| ![ralts](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/280.gif){ .sprite }<br>[Ralts](../../pokedex/pokemon/ralts.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span></div> | **Level:** 27<br>**Ability:** [Trace](../../pokedex/abilities/trace.md) | 1. [Magical Leaf](../../pokedex/moves/magical-leaf.md)<br>2. [Draining Kiss](../../pokedex/moves/draining-kiss.md)<br>3. [Hypnosis](../../pokedex/moves/hypnosis.md)<br>4. [Confusion](../../pokedex/moves/confusion.md) |
+| ![elgyem](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/605.gif){ .sprite }<br>[Elgyem](../../pokedex/pokemon/elgyem.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span></div> | **Level:** 27<br>**Ability:** [Analytic](../../pokedex/abilities/analytic.md) | 1. [Trick Room](../../pokedex/moves/trick-room.md)<br>2. [Stored Power](../../pokedex/moves/stored-power.md)<br>3. [Pain Split](../../pokedex/moves/pain-split.md)<br>4. [Psybeam](../../pokedex/moves/psybeam.md) |
+| ![kirlia](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/281.gif){ .sprite }<br>[Kirlia](../../pokedex/pokemon/kirlia.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span></div> | **Level:** 27<br>**Ability:** [Trace](../../pokedex/abilities/trace.md) | 1. [Magical Leaf](../../pokedex/moves/magical-leaf.md)<br>2. [Draining Kiss](../../pokedex/moves/draining-kiss.md)<br>3. [Shock Wave](../../pokedex/moves/shock-wave.md)<br>4. [Hypnosis](../../pokedex/moves/hypnosis.md) |
+
+○ Psychic Low
+
+| Pokémon | Type(s) | Attributes | Moves |
+|:-------:|:-------:|:-----------|:------|
+| ![spoink](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/325.gif){ .sprite }<br>[Spoink](../../pokedex/pokemon/spoink.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span></div> | **Level:** 28<br>**Ability:** [Thick Fat](../../pokedex/abilities/thick-fat.md) | 1. [Mirror Coat](../../pokedex/moves/mirror-coat.md)<br>2. [Mirror Coat](../../pokedex/moves/mirror-coat.md)<br>3. [Amnesia](../../pokedex/moves/amnesia.md)<br>4. [Future Sight](../../pokedex/moves/future-sight.md) |
+| ![kadabra](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/64.gif){ .sprite }<br>[Kadabra](../../pokedex/pokemon/kadabra.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span></div> | **Level:** 28<br>**Ability:** [Synchronize](../../pokedex/abilities/synchronize.md) | 1. [Shock Wave](../../pokedex/moves/shock-wave.md)<br>2. [Psybeam](../../pokedex/moves/psybeam.md)<br>3. [Recover](../../pokedex/moves/recover.md)<br>4. [Nasty Plot](../../pokedex/moves/nasty-plot.md) |
+
 ## Upper Floors
 
 ### Wild Encounters
@@ -63,35 +94,4 @@ Floor, Room with Pots
 | ![unown-m](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/201-m.png){ .sprite }<br>[Unown M](../../pokedex/pokemon/unown-m.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span></div> | 30 | 10.0% |
 | ![aerodactyl](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/142.gif){ .sprite }<br>[Aerodactyl](../../pokedex/pokemon/aerodactyl.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | 30 | 5.0% |
 | ![darmanitan-zen](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/10017.gif){ .sprite }<br>[Darmanitan Zen](../../pokedex/pokemon/darmanitan-zen.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F08030 0%, #F08030dd 100%);">Fire</span> <span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span></div> | 35 | 5.0% |
-
-## 1F
-
-### Trainers
-
-○ Psychic Perry
-
-| Pokémon | Type(s) | Attributes | Moves |
-|:-------:|:-------:|:-----------|:------|
-| ![natu](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/177.gif){ .sprite }<br>[Natu](../../pokedex/pokemon/natu.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 27<br>**Ability:** [Magic Bounce](../../pokedex/abilities/magic-bounce.md) | 1. [Wish](../../pokedex/moves/wish.md)<br>2. [Air Cutter](../../pokedex/moves/air-cutter.md)<br>3. [Ominous Wind](../../pokedex/moves/ominous-wind.md)<br>4. [Future Sight](../../pokedex/moves/future-sight.md) |
-| ![gastly](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/92.gif){ .sprite }<br>[Gastly](../../pokedex/pokemon/gastly.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> <span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span></div> | **Level:** 27<br>**Ability:** [Levitate](../../pokedex/abilities/levitate.md) | 1. [Clear Smog](../../pokedex/moves/clear-smog.md)<br>2. [Ominous Wind](../../pokedex/moves/ominous-wind.md)<br>3. [Disable](../../pokedex/moves/disable.md)<br>4. [Hypnosis](../../pokedex/moves/hypnosis.md) |
-| ![xatu](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/178.gif){ .sprite }<br>[Xatu](../../pokedex/pokemon/xatu.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 27<br>**Ability:** [Magic Bounce](../../pokedex/abilities/magic-bounce.md) | 1. [Air Cutter](../../pokedex/moves/air-cutter.md)<br>2. [Ominous Wind](../../pokedex/moves/ominous-wind.md)<br>3. [Future Sight](../../pokedex/moves/future-sight.md)<br>4. [Miracle Eye](../../pokedex/moves/miracle-eye.md) |
-
-## B1F
-
-### Trainers
-
-○ Psychic Dua
-
-| Pokémon | Type(s) | Attributes | Moves |
-|:-------:|:-------:|:-----------|:------|
-| ![ralts](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/280.gif){ .sprite }<br>[Ralts](../../pokedex/pokemon/ralts.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span></div> | **Level:** 27<br>**Ability:** [Trace](../../pokedex/abilities/trace.md) | 1. [Magical Leaf](../../pokedex/moves/magical-leaf.md)<br>2. [Draining Kiss](../../pokedex/moves/draining-kiss.md)<br>3. [Hypnosis](../../pokedex/moves/hypnosis.md)<br>4. [Confusion](../../pokedex/moves/confusion.md) |
-| ![elgyem](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/605.gif){ .sprite }<br>[Elgyem](../../pokedex/pokemon/elgyem.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span></div> | **Level:** 27<br>**Ability:** [Analytic](../../pokedex/abilities/analytic.md) | 1. [Trick Room](../../pokedex/moves/trick-room.md)<br>2. [Stored Power](../../pokedex/moves/stored-power.md)<br>3. [Pain Split](../../pokedex/moves/pain-split.md)<br>4. [Psybeam](../../pokedex/moves/psybeam.md) |
-| ![kirlia](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/281.gif){ .sprite }<br>[Kirlia](../../pokedex/pokemon/kirlia.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span></div> | **Level:** 27<br>**Ability:** [Trace](../../pokedex/abilities/trace.md) | 1. [Magical Leaf](../../pokedex/moves/magical-leaf.md)<br>2. [Draining Kiss](../../pokedex/moves/draining-kiss.md)<br>3. [Shock Wave](../../pokedex/moves/shock-wave.md)<br>4. [Hypnosis](../../pokedex/moves/hypnosis.md) |
-
-○ Psychic Low
-
-| Pokémon | Type(s) | Attributes | Moves |
-|:-------:|:-------:|:-----------|:------|
-| ![spoink](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/325.gif){ .sprite }<br>[Spoink](../../pokedex/pokemon/spoink.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span></div> | **Level:** 28<br>**Ability:** [Thick Fat](../../pokedex/abilities/thick-fat.md) | 1. [Mirror Coat](../../pokedex/moves/mirror-coat.md)<br>2. [Mirror Coat](../../pokedex/moves/mirror-coat.md)<br>3. [Amnesia](../../pokedex/moves/amnesia.md)<br>4. [Future Sight](../../pokedex/moves/future-sight.md) |
-| ![kadabra](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/64.gif){ .sprite }<br>[Kadabra](../../pokedex/pokemon/kadabra.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span></div> | **Level:** 28<br>**Ability:** [Synchronize](../../pokedex/abilities/synchronize.md) | 1. [Shock Wave](../../pokedex/moves/shock-wave.md)<br>2. [Psybeam](../../pokedex/moves/psybeam.md)<br>3. [Recover](../../pokedex/moves/recover.md)<br>4. [Nasty Plot](../../pokedex/moves/nasty-plot.md) |
 

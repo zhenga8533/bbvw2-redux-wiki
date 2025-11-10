@@ -272,14 +272,6 @@
 
 	Level 25
 
--	[![Wormadam Plant](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/413.gif){: .pokemon-sprite-img }](../pokemon/wormadam-plant.md)
-
-	***
-
-	**#413 [Wormadam Plant](../pokemon/wormadam-plant.md)**
-
-	Level 38
-
 -	[![Glameow](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/431.gif){: .pokemon-sprite-img }](../pokemon/glameow.md)
 
 	***

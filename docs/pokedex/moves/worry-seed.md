@@ -232,14 +232,6 @@
 
 	Level 1
 
--	[![Shaymin Land](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/492.gif){: .pokemon-sprite-img }](../pokemon/shaymin-land.md)
-
-	***
-
-	**#492 [Shaymin Land](../pokemon/shaymin-land.md)**
-
-	Level 55
-
 -	[![Snivy](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/495.gif){: .pokemon-sprite-img }](../pokemon/snivy.md)
 
 	***

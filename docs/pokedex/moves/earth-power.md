@@ -208,6 +208,14 @@
 
 	Level 33
 
+-	[![Shaymin Land](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/492.gif){: .pokemon-sprite-img }](../pokemon/shaymin-land.md)
+
+	***
+
+	**#492 [Shaymin Land](../pokemon/shaymin-land.md)**
+
+	Level 38
+
 -	[![Terrakion](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/639.gif){: .pokemon-sprite-img }](../pokemon/terrakion.md)
 
 	***

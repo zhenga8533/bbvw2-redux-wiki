@@ -310,7 +310,7 @@
 
 	**#479 [Rotom](../pokemon/rotom.md)**
 
-	Level 64
+	Level 40
 
 -	[![Blitzle](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/522.gif){: .pokemon-sprite-img }](../pokemon/blitzle.md)
 

@@ -494,7 +494,7 @@
 
 	**#386 [Deoxys Normal](../pokemon/deoxys-normal.md)**
 
-	Level 65
+	Level 34
 
 -	[![Cranidos](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/408.gif){: .pokemon-sprite-img }](../pokemon/cranidos.md)
 
@@ -591,6 +591,14 @@
 	**#486 [Regigigas](../pokemon/regigigas.md)**
 
 	Level 26
+
+-	[![Shaymin Land](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/492.gif){: .pokemon-sprite-img }](../pokemon/shaymin-land.md)
+
+	***
+
+	**#492 [Shaymin Land](../pokemon/shaymin-land.md)**
+
+	Level 18
 
 -	[![Victini](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/494.gif){: .pokemon-sprite-img }](../pokemon/victini.md)
 

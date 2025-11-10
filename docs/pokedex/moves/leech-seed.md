@@ -398,7 +398,7 @@
 
 	**#492 [Shaymin Land](../pokemon/shaymin-land.md)**
 
-	Level 19
+	Level 10
 
 -	[![Snivy](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/495.gif){: .pokemon-sprite-img }](../pokemon/snivy.md)
 

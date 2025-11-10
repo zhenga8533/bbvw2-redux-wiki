@@ -176,6 +176,14 @@
 
 	Level 49
 
+-	[![Wormadam Plant](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/413.gif){: .pokemon-sprite-img }](../pokemon/wormadam-plant.md)
+
+	***
+
+	**#413 [Wormadam Plant](../pokemon/wormadam-plant.md)**
+
+	Level 38
+
 -	[![Carnivine](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/455.gif){: .pokemon-sprite-img }](../pokemon/carnivine.md)
 
 	***
@@ -183,14 +191,6 @@
 	**#455 [Carnivine](../pokemon/carnivine.md)**
 
 	Level 39
-
--	[![Shaymin Land](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/492.gif){: .pokemon-sprite-img }](../pokemon/shaymin-land.md)
-
-	***
-
-	**#492 [Shaymin Land](../pokemon/shaymin-land.md)**
-
-	Level 73
 
 -	[![Cottonee](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/546.gif){: .pokemon-sprite-img }](../pokemon/cottonee.md)
 

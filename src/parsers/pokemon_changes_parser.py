@@ -137,25 +137,30 @@ class PokemonChangesParser(BaseParser):
             )
         # Match: "<attribute>:"
         elif line.endswith(":"):
+            # Store the new attribute name first
+            new_attribute = line[:-1]
+
+            # Extract forme from the NEW attribute if present
+            # Pattern: "Level Up (Plant Forme)" -> "plant"
+            new_forme = self._current_forme  # Default to current forme
+            if " Forme)" in new_attribute:
+                forme_match = re.search(
+                    r"\(([A-Za-z\s]+) Forme\)", new_attribute
+                )
+                if forme_match:
+                    # Convert "Plant Forme" to "plant", "Attack Forme" to "attack"
+                    forme_name = forme_match.group(1).strip().lower()
+                    # Handle special cases: "Regular" becomes base forme (empty string)
+                    new_forme = "" if forme_name == "regular" else forme_name
+
             # Flush accumulated data from previous attribute if needed
+            # This must happen BEFORE updating self._current_forme
             if self._current_attribute.startswith("Level Up"):
                 self._flush_accumulated_data()
 
-            self._current_attribute = line[:-1]
-
-            # Extract forme from attribute if present
-            # Pattern: "Ability (Complete / Attack Forme)" -> "attack"
-            if " Forme)" in self._current_attribute:
-                forme_match = re.search(
-                    r"/ ([A-Za-z\s]+) Forme\)", self._current_attribute
-                )
-                if forme_match:
-                    # Convert "Attack Forme" to "attack", "Normal Forme" to "normal"
-                    forme_name = forme_match.group(1).strip().lower()
-                    # Handle special cases: "Regular" becomes base forme (empty string)
-                    self._current_forme = "" if forme_name == "regular" else forme_name
-                else:
-                    self._current_forme = ""
+            # Now update to the new attribute and forme
+            self._current_attribute = new_attribute
+            self._current_forme = new_forme
 
             self._markdown += self._format_attribute(
                 self._current_attribute, is_changed=next_line.startswith("Old")

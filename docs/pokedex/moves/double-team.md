@@ -78,7 +78,7 @@
 
 	**#479 [Rotom](../pokemon/rotom.md)**
 
-	Level 15
+	Level 13
 
 -	[![Darkrai](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/491.gif){: .pokemon-sprite-img }](../pokemon/darkrai.md)
 

@@ -68,6 +68,9 @@ class TrainerChangesParser(LocationParser):
         self._location_description_lines: list[str] = []  # Description for location
         self._capturing_description = False  # Flag for capturing description after +++"
 
+        # Register tracking key for trainers
+        self._register_tracking_key("trainers")
+
     def handle_section_change(self, new_section: str) -> None:
         """Handle state reset on section change.
 
@@ -220,11 +223,9 @@ class TrainerChangesParser(LocationParser):
             else:
                 self._current_sublocation = nested_sublocation
 
-            # Reset trainers array for this sublocation to avoid duplicates
-            target = self._get_or_create_sublocation(
-                self._locations_data[self._current_location], self._current_sublocation
-            )
-            target["trainers"] = []
+            # Use centralized method to clear trainers on first encounter
+            sublocation_key = f"{self._current_location}/{self._current_sublocation}"
+            self._clear_location_data_on_first_encounter("trainers", "trainers", sublocation_key)
 
             # Reset description capture for the new sublocation
             self._location_description_lines = []
@@ -244,11 +245,9 @@ class TrainerChangesParser(LocationParser):
             else:
                 self._current_sublocation = nested_sublocation
 
-            # Reset trainers array for this sublocation to avoid duplicates
-            target = self._get_or_create_sublocation(
-                self._locations_data[self._current_location], self._current_sublocation
-            )
-            target["trainers"] = []
+            # Use centralized method to clear trainers on first encounter
+            sublocation_key = f"{self._current_location}/{self._current_sublocation}"
+            self._clear_location_data_on_first_encounter("trainers", "trainers", sublocation_key)
 
             # Reset description capture for the new sublocation
             self._location_description_lines = []
@@ -432,12 +431,8 @@ class TrainerChangesParser(LocationParser):
         # Call parent class initialization
         super()._initialize_location_data(location_raw)
 
-        # Ensure trainers list exists at root level
-        if self._current_location not in self._locations_data:
-            return
-
-        # Reset trainers list to avoid duplicates when parser runs multiple times
-        self._locations_data[self._current_location]["trainers"] = []
+        # Use centralized method to clear trainers on first encounter
+        self._clear_location_data_on_first_encounter("trainers", "trainers")
 
     def _create_trainer_data(self, trainer_raw: str) -> Dict[str, Any]:
         """Create a trainer data dictionary from raw trainer string.
