@@ -1173,7 +1173,11 @@ class SpriteVersions:
         if value is None:
             raise ValueError(f"Missing required sprite key in data: {key}")
         if isinstance(value, dict):
-            setattr(self, key, GenerationSprites(**value))
+            # Ensure animated key exists with None default
+            sprite_data = {**value}
+            if "animated" not in sprite_data:
+                sprite_data["animated"] = None
+            setattr(self, key, GenerationSprites(**sprite_data))
         elif isinstance(value, GenerationSprites):
             setattr(self, key, value)
         else:
