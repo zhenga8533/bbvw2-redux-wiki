@@ -18,6 +18,18 @@
 
 ## :material-pokeball: Pokémon with this Ability
 
+### :material-star: Standard Ability
+
+<div class="grid cards" markdown>
+
+-	[![Deoxys Normal](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/386.gif){: .pokemon-sprite-img }](../pokemon/deoxys-normal.md)
+
+	***
+
+	**#386 [Deoxys Normal](../pokemon/deoxys-normal.md)**
+
+</div>
+
 ### :material-eye-off: Hidden Ability
 
 <div class="grid cards" markdown>

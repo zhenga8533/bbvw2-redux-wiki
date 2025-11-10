@@ -7,7 +7,7 @@ import re
 from src.utils.core.loader import PokeDBLoader
 from src.utils.core.logger import get_logger
 from src.utils.data.models import Pokemon
-from src.utils.text.text_util import name_to_id
+from src.utils.text.text_util import name_to_id, parse_pokemon_forme
 
 logger = get_logger(__name__)
 
@@ -23,13 +23,31 @@ class AttributeService:
 
         Args:
             pokemon (str): The name of the Pokemon to update.
-            attribute (str): The attribute to update (e.g., "Base Stats", "Type").
+            attribute (str): The attribute to update (e.g., "Base Stats", "Type", "Base Stats (Plant Forme)").
             value (str): The new value for the attribute.
             forme (str, optional): The forme of the Pokemon (e.g., "attack", "defense"). Defaults to "".
+                                   If the attribute name contains a forme specification, that takes precedence.
 
         Returns:
             bool: True if the attribute was updated successfully, False otherwise.
         """
+        # Extract forme from attribute name if present
+        # Patterns:
+        #   - "Base Stats (Plant Forme)" -> forme="plant"
+        #   - "Ability (Complete / Sandy Forme)" -> forme="sandy"
+        forme_from_attr = ""
+        if " Forme)" in attribute:
+            # Match pattern: "(Something Forme)" or "(Complete / Something Forme)"
+            forme_match = re.search(r"(?:/\s*)?([A-Za-z\s]+)\s+Forme\)", attribute)
+            if forme_match:
+                forme_name = forme_match.group(1).strip()
+                # Parse the forme name to handle complex cases
+                _, forme_from_attr = parse_pokemon_forme(f"{pokemon} {forme_name}")
+
+        # Use forme from attribute if present, otherwise use the passed forme parameter
+        if forme_from_attr:
+            forme = forme_from_attr
+
         # Normalize pokemon name and append forme if present
         pokemon_id = name_to_id(pokemon)
         if forme:
@@ -50,7 +68,7 @@ class AttributeService:
             )
             return False
 
-        # Extract the base attribute name (remove version markers)
+        # Extract the base attribute name (remove version markers and forme markers)
         attribute_base = attribute.split(" (")[0].strip()
 
         try:

@@ -21450,6 +21450,25 @@ Now compatible with TM79, Frost Breath.
 Now compatible with TM83, Work Up.
 Now compatible with TM87, Rock Climb.
 
+Level Up:
+1 - Ancient Power
+1 - Dragon Dance
+1 - Dragon Breath
+1 - Dual Wingbeat
+1 - Icicle Spear
+8 - Slash
+14 - Endeavor
+19 - Ice Beam
+24 - Dragon Pulse
+29 - Icicle Crash
+32 - Hyper Voice
+35 - Scary Face
+38 - Blizzard
+41 - Imprison
+44 - Outrage
+47 - Glaciate
+50 - Sheer Cold
+
 Level Up (Black Forme):
 1 - Ancient Power
 1 - Dragon Dance

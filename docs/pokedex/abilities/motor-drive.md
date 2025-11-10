@@ -28,12 +28,6 @@
 
 	**#466 [Electivire](../pokemon/electivire.md)**
 
--	[![Rotom](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/479.gif){: .pokemon-sprite-img }](../pokemon/rotom.md)
-
-	***
-
-	**#479 [Rotom](../pokemon/rotom.md)**
-
 -	[![Blitzle](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/522.gif){: .pokemon-sprite-img }](../pokemon/blitzle.md)
 
 	***

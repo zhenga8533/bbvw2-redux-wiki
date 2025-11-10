@@ -14,7 +14,7 @@ from src.utils.core.loader import PokeDBLoader
 from src.utils.data.models import EvolutionChain, EvolutionDetails, Gender
 from src.utils.formatters.markdown_formatter import format_item, format_pokemon
 from src.utils.services.evolution_service import EvolutionService
-from src.utils.text.text_util import name_to_id
+from src.utils.text.text_util import name_to_id, parse_pokemon_forme
 
 from .base_parser import BaseParser
 
@@ -212,7 +212,11 @@ class EvolutionChangesParser(BaseParser):
 
         # Load the Pokemon data
         pokemon_id = name_to_id(self._current_pokemon)
-        evolution_id = name_to_id(evolution)
+
+        # Parse evolution target to extract base name and forme
+        # e.g., "Wormadam Plant Cloak" -> base="wormadam", forme="plant"
+        evolution_base, evolution_forme = parse_pokemon_forme(evolution)
+        evolution_id = f"{evolution_base}-{evolution_forme}" if evolution_forme else evolution_base
 
         pokemon_data = PokeDBLoader.load_pokemon(pokemon_id)
         if pokemon_data is None:

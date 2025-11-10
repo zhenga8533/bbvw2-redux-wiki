@@ -184,13 +184,5 @@
 
 	Level 1
 
--	[![Kyurem](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/646.gif){: .pokemon-sprite-img }](../pokemon/kyurem.md)
-
-	***
-
-	**#646 [Kyurem](../pokemon/kyurem.md)**
-
-	Level 70
-
 </div>
 

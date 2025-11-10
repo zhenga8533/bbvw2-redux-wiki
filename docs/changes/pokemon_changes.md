@@ -27794,6 +27794,28 @@ All new type changes are omitted in the Classic version of Redux.
 - Now compatible with ![TM83](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM83](../pokedex/items/tm83.md), [Work Up](../pokedex/moves/work-up.md).
 - Now compatible with ![TM87](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM87](../pokedex/items/tm87.md), [Rock Climb](../pokedex/moves/rock-climb.md).
 
+**Level Up**:
+
+| Level | Move | Type | Class | Event |
+|:------|:-----|:-----|:------|:------|
+| 1 | [Ancient Power](../pokedex/moves/ancient-power.md) | <span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span> | Special | <input type="checkbox" disabled /> |
+| 1 | [Dragon Dance](../pokedex/moves/dragon-dance.md) | <span class="type-badge" style="background: linear-gradient(135deg, #7038F8 0%, #7038F8dd 100%);">Dragon</span> | Status | <input type="checkbox" disabled /> |
+| 1 | [Dragon Breath](../pokedex/moves/dragon-breath.md) | <span class="type-badge" style="background: linear-gradient(135deg, #7038F8 0%, #7038F8dd 100%);">Dragon</span> | Special | <input type="checkbox" disabled /> |
+| 1 | [Dual Wingbeat](../pokedex/moves/dual-wingbeat.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span> | Physical | <input type="checkbox" disabled /> |
+| 1 | [Icicle Spear](../pokedex/moves/icicle-spear.md) | <span class="type-badge" style="background: linear-gradient(135deg, #98D8D8 0%, #98D8D8dd 100%);">Ice</span> | Physical | <input type="checkbox" disabled /> |
+| 8 | [Slash](../pokedex/moves/slash.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
+| 14 | [Endeavor](../pokedex/moves/endeavor.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
+| 19 | [Ice Beam](../pokedex/moves/ice-beam.md) | <span class="type-badge" style="background: linear-gradient(135deg, #98D8D8 0%, #98D8D8dd 100%);">Ice</span> | Special | <input type="checkbox" disabled /> |
+| 24 | [Dragon Pulse](../pokedex/moves/dragon-pulse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #7038F8 0%, #7038F8dd 100%);">Dragon</span> | Special | <input type="checkbox" disabled /> |
+| 29 | [Icicle Crash](../pokedex/moves/icicle-crash.md) | <span class="type-badge" style="background: linear-gradient(135deg, #98D8D8 0%, #98D8D8dd 100%);">Ice</span> | Physical | <input type="checkbox" disabled /> |
+| 32 | [Hyper Voice](../pokedex/moves/hyper-voice.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Special | <input type="checkbox" disabled /> |
+| 35 | [Scary Face](../pokedex/moves/scary-face.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
+| 38 | [Blizzard](../pokedex/moves/blizzard.md) | <span class="type-badge" style="background: linear-gradient(135deg, #98D8D8 0%, #98D8D8dd 100%);">Ice</span> | Special | <input type="checkbox" disabled /> |
+| 41 | [Imprison](../pokedex/moves/imprison.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span> | Status | <input type="checkbox" disabled /> |
+| 44 | [Outrage](../pokedex/moves/outrage.md) | <span class="type-badge" style="background: linear-gradient(135deg, #7038F8 0%, #7038F8dd 100%);">Dragon</span> | Physical | <input type="checkbox" disabled /> |
+| 47 | [Glaciate](../pokedex/moves/glaciate.md) | <span class="type-badge" style="background: linear-gradient(135deg, #98D8D8 0%, #98D8D8dd 100%);">Ice</span> | Special | <input type="checkbox" disabled /> |
+| 50 | [Sheer Cold](../pokedex/moves/sheer-cold.md) | <span class="type-badge" style="background: linear-gradient(135deg, #98D8D8 0%, #98D8D8dd 100%);">Ice</span> | Special | <input type="checkbox" disabled /> |
+
 **Level Up (Black Forme)**:
 
 | Level | Move | Type | Class | Event |

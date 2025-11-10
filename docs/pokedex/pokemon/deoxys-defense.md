@@ -21,7 +21,7 @@
 
 	---
 
-	- [Inner Focus](../../pokedex/abilities/inner-focus.md)
+	- [Regenerator](../../pokedex/abilities/regenerator.md)
 	- [Pressure](../../pokedex/abilities/pressure.md)
 
 - **:material-ruler: Physical Attributes**

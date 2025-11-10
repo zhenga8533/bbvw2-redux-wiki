@@ -34,12 +34,6 @@
 
 	**#233 [Porygon2](../pokemon/porygon2.md)**
 
--	[![Deoxys Normal](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/386.gif){: .pokemon-sprite-img }](../pokemon/deoxys-normal.md)
-
-	***
-
-	**#386 [Deoxys Normal](../pokemon/deoxys-normal.md)**
-
 -	[![Porygon Z](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/474.gif){: .pokemon-sprite-img }](../pokemon/porygon-z.md)
 
 	***

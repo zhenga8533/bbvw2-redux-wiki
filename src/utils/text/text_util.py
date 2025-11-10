@@ -145,6 +145,69 @@ def extract_form_suffix(pokemon_name: str, base_name: str) -> str:
     return ""
 
 
+def parse_pokemon_forme(pokemon_name: str) -> tuple[str, str]:
+    """Parse a Pokemon name to extract base name and forme.
+
+    Handles various forme name formats:
+    - "Wormadam Plant Cloak" -> ("wormadam", "plant")
+    - "Rotom Fan" -> ("rotom", "fan")
+    - "Deoxys Speed" -> ("deoxys", "speed")
+    - "Pikachu" -> ("pikachu", "")
+
+    Common forme suffixes to remove: Cloak, Forme, Form
+
+    Args:
+        pokemon_name (str): The full Pokemon name (e.g., "Wormadam Plant Cloak")
+
+    Returns:
+        tuple[str, str]: A tuple of (base_pokemon_id, forme_id)
+            - base_pokemon_id: The base Pokemon ID in kebab-case
+            - forme_id: The forme ID in kebab-case, or empty string if no forme
+    """
+    # Convert to ID format first
+    pokemon_id = name_to_id(pokemon_name)
+
+    # List of known Pokemon with formes and their base names
+    # Format: (base_name, number_of_words_in_base)
+    forme_pokemon = [
+        ("wormadam", 1),  # Wormadam Plant/Sandy/Trash Cloak
+        ("rotom", 1),  # Rotom Heat/Wash/Frost/Fan/Mow
+        ("deoxys", 1),  # Deoxys Normal/Attack/Defense/Speed
+        ("shaymin", 1),  # Shaymin Land/Sky
+        ("giratina", 1),  # Giratina Altered/Origin
+        ("arceus", 1),  # Arceus (various types)
+        ("basculin", 1),  # Basculin Red-Striped/Blue-Striped
+        ("darmanitan", 1),  # Darmanitan Standard/Zen
+        ("tornadus", 1),  # Tornadus Incarnate/Therian
+        ("thundurus", 1),  # Thundurus Incarnate/Therian
+        ("landorus", 1),  # Landorus Incarnate/Therian
+        ("kyurem", 1),  # Kyurem (Normal/Black/White)
+        ("keldeo", 1),  # Keldeo Ordinary/Resolute
+        ("meloetta", 1),  # Meloetta Aria/Pirouette
+        ("genesect", 1),  # Genesect (various drives)
+    ]
+
+    # Check if this Pokemon has formes
+    for base_name, base_word_count in forme_pokemon:
+        if pokemon_id.startswith(base_name):
+            # Extract everything after the base name
+            remainder = pokemon_id[len(base_name) :].lstrip("-")
+
+            if not remainder:
+                return (base_name, "")
+
+            # Remove common suffixes from the forme
+            forme = remainder
+            for suffix in ["cloak", "forme", "form"]:
+                if forme.endswith(f"-{suffix}"):
+                    forme = forme[: -len(suffix) - 1]
+
+            return (base_name, forme)
+
+    # No forme detected
+    return (pokemon_id, "")
+
+
 def sanitize_filename(filename: str) -> str:
     """Sanitize a string to be safe for use as a filename.
 
