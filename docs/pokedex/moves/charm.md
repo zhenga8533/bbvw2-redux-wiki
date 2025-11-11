@@ -700,11 +700,11 @@
 
 	**#001 [Bulbasaur](../pokemon/bulbasaur.md)**
 
--	[![Nidoran F](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/29.gif){: .pokemon-sprite-img }](../pokemon/nidoran-f.md)
+-	[![Nidoran♀](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/29.gif){: .pokemon-sprite-img }](../pokemon/nidoran-f.md)
 
 	***
 
-	**#029 [Nidoran F](../pokemon/nidoran-f.md)**
+	**#029 [Nidoran♀](../pokemon/nidoran-f.md)**
 
 -	[![Oddish](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/43.gif){: .pokemon-sprite-img }](../pokemon/oddish.md)
 
@@ -754,11 +754,11 @@
 
 	**#285 [Shroomish](../pokemon/shroomish.md)**
 
--	[![Mime Jr](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/439.gif){: .pokemon-sprite-img }](../pokemon/mime-jr.md)
+-	[![Mime Jr.](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/439.gif){: .pokemon-sprite-img }](../pokemon/mime-jr.md)
 
 	***
 
-	**#439 [Mime Jr](../pokemon/mime-jr.md)**
+	**#439 [Mime Jr.](../pokemon/mime-jr.md)**
 
 -	[![Munchlax](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/446.gif){: .pokemon-sprite-img }](../pokemon/munchlax.md)
 

@@ -72,19 +72,19 @@
 
 	Level 38
 
--	[![Mr Mime](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/122.gif){: .pokemon-sprite-img }](../pokemon/mr-mime.md)
+-	[![Mr. Mime](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/122.gif){: .pokemon-sprite-img }](../pokemon/mr-mime.md)
 
 	***
 
-	**#122 [Mr Mime](../pokemon/mr-mime.md)**
+	**#122 [Mr. Mime](../pokemon/mr-mime.md)**
 
 	Level 36
 
--	[![Mime Jr](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/439.gif){: .pokemon-sprite-img }](../pokemon/mime-jr.md)
+-	[![Mime Jr.](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/439.gif){: .pokemon-sprite-img }](../pokemon/mime-jr.md)
 
 	***
 
-	**#439 [Mime Jr](../pokemon/mime-jr.md)**
+	**#439 [Mime Jr.](../pokemon/mime-jr.md)**
 
 	Level 34
 

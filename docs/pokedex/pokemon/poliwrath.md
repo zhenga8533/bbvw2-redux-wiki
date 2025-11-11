@@ -79,7 +79,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Kings Rock](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/kings-rock.png){ .item-sprite } [Kings Rock](../../pokedex/items/kings-rock.md) | 5% | 5% | 5% | 5% |
+| ![King's Rock](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/kings-rock.png){ .item-sprite } [King's Rock](../../pokedex/items/kings-rock.md) | 5% | 5% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 

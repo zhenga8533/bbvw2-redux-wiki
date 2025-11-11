@@ -22,7 +22,7 @@
     **Hardware/Flashcarts**
 
     - **TWiLight Menu++** (latest version)
-        - :warning: **Important:** Launch in DS mode, otherwise the game will white screen!
+        - **Important:** Launch in DS mode, otherwise the game will white screen!
     - **RTS R4i (Gold)+** (3DS/DS) - Fully compatible
 
 === "Incompatible"

@@ -183,10 +183,10 @@ nav:
       - '#026 Raichu': pokedex/pokemon/raichu.md
       - '#027 Sandshrew': pokedex/pokemon/sandshrew.md
       - '#028 Sandslash': pokedex/pokemon/sandslash.md
-      - '#029 Nidoran F': pokedex/pokemon/nidoran-f.md
+      - '#029 Nidoran♀': pokedex/pokemon/nidoran-f.md
       - '#030 Nidorina': pokedex/pokemon/nidorina.md
       - '#031 Nidoqueen': pokedex/pokemon/nidoqueen.md
-      - '#032 Nidoran M': pokedex/pokemon/nidoran-m.md
+      - '#032 Nidoran♂': pokedex/pokemon/nidoran-m.md
       - '#033 Nidorino': pokedex/pokemon/nidorino.md
       - '#034 Nidoking': pokedex/pokemon/nidoking.md
       - '#035 Clefairy': pokedex/pokemon/clefairy.md
@@ -276,7 +276,7 @@ nav:
       - '#119 Seaking': pokedex/pokemon/seaking.md
       - '#120 Staryu': pokedex/pokemon/staryu.md
       - '#121 Starmie': pokedex/pokemon/starmie.md
-      - '#122 Mr Mime': pokedex/pokemon/mr-mime.md
+      - '#122 Mr. Mime': pokedex/pokemon/mr-mime.md
       - '#123 Scyther': pokedex/pokemon/scyther.md
       - '#124 Jynx': pokedex/pokemon/jynx.md
       - '#125 Electabuzz': pokedex/pokemon/electabuzz.md
@@ -435,7 +435,7 @@ nav:
       - '#247 Pupitar': pokedex/pokemon/pupitar.md
       - '#248 Tyranitar': pokedex/pokemon/tyranitar.md
       - '#249 Lugia': pokedex/pokemon/lugia.md
-      - '#250 Ho Oh': pokedex/pokemon/ho-oh.md
+      - '#250 Ho-Oh': pokedex/pokemon/ho-oh.md
       - '#251 Celebi': pokedex/pokemon/celebi.md
     - Generation III:
       - '#252 Treecko': pokedex/pokemon/treecko.md
@@ -646,7 +646,7 @@ nav:
       - '#436 Bronzor': pokedex/pokemon/bronzor.md
       - '#437 Bronzong': pokedex/pokemon/bronzong.md
       - '#438 Bonsly': pokedex/pokemon/bonsly.md
-      - '#439 Mime Jr': pokedex/pokemon/mime-jr.md
+      - '#439 Mime Jr.': pokedex/pokemon/mime-jr.md
       - '#440 Happiny': pokedex/pokemon/happiny.md
       - '#441 Chatot': pokedex/pokemon/chatot.md
       - '#442 Spiritomb': pokedex/pokemon/spiritomb.md
@@ -1199,7 +1199,7 @@ nav:
       - Enigma Berry: pokedex/items/enigma-berry.md
       - Everstone: pokedex/items/everstone.md
       - Eviolite: pokedex/items/eviolite.md
-      - Exp Share: pokedex/items/exp-share.md
+      - Exp. Share: pokedex/items/exp-share.md
       - Expert Belt: pokedex/items/expert-belt.md
       - Figy Berry: pokedex/items/figy-berry.md
       - Fist Plate: pokedex/items/fist-plate.md
@@ -1224,7 +1224,7 @@ nav:
       - Jaboca Berry: pokedex/items/jaboca-berry.md
       - Kasib Berry: pokedex/items/kasib-berry.md
       - Kebia Berry: pokedex/items/kebia-berry.md
-      - Kings Rock: pokedex/items/kings-rock.md
+      - King's Rock: pokedex/items/kings-rock.md
       - Lagging Tail: pokedex/items/lagging-tail.md
       - Lansat Berry: pokedex/items/lansat-berry.md
       - Lax Incense: pokedex/items/lax-incense.md

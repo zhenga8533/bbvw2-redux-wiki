@@ -726,11 +726,11 @@
 
 	**#115 [Kangaskhan](../pokemon/kangaskhan.md)**
 
--	[![Mr Mime](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/122.gif){: .pokemon-sprite-img }](../pokemon/mr-mime.md)
+-	[![Mr. Mime](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/122.gif){: .pokemon-sprite-img }](../pokemon/mr-mime.md)
 
 	***
 
-	**#122 [Mr Mime](../pokemon/mr-mime.md)**
+	**#122 [Mr. Mime](../pokemon/mr-mime.md)**
 
 -	[![Jynx](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/124.gif){: .pokemon-sprite-img }](../pokemon/jynx.md)
 
@@ -1140,11 +1140,11 @@
 
 	**#438 [Bonsly](../pokemon/bonsly.md)**
 
--	[![Mime Jr](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/439.gif){: .pokemon-sprite-img }](../pokemon/mime-jr.md)
+-	[![Mime Jr.](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/439.gif){: .pokemon-sprite-img }](../pokemon/mime-jr.md)
 
 	***
 
-	**#439 [Mime Jr](../pokemon/mime-jr.md)**
+	**#439 [Mime Jr.](../pokemon/mime-jr.md)**
 
 -	[![Happiny](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/440.gif){: .pokemon-sprite-img }](../pokemon/happiny.md)
 

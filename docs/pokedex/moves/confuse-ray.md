@@ -120,11 +120,11 @@
 
 	Level 25
 
--	[![Mr Mime](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/122.gif){: .pokemon-sprite-img }](../pokemon/mr-mime.md)
+-	[![Mr. Mime](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/122.gif){: .pokemon-sprite-img }](../pokemon/mr-mime.md)
 
 	***
 
-	**#122 [Mr Mime](../pokemon/mr-mime.md)**
+	**#122 [Mr. Mime](../pokemon/mr-mime.md)**
 
 	Level 56
 
@@ -336,11 +336,11 @@
 
 	Level 9
 
--	[![Mime Jr](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/439.gif){: .pokemon-sprite-img }](../pokemon/mime-jr.md)
+-	[![Mime Jr.](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/439.gif){: .pokemon-sprite-img }](../pokemon/mime-jr.md)
 
 	***
 
-	**#439 [Mime Jr](../pokemon/mime-jr.md)**
+	**#439 [Mime Jr.](../pokemon/mime-jr.md)**
 
 	Level 54
 
@@ -466,11 +466,11 @@
 
 	**#072 [Tentacool](../pokemon/tentacool.md)**
 
--	[![Mr Mime](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/122.gif){: .pokemon-sprite-img }](../pokemon/mr-mime.md)
+-	[![Mr. Mime](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/122.gif){: .pokemon-sprite-img }](../pokemon/mr-mime.md)
 
 	***
 
-	**#122 [Mr Mime](../pokemon/mr-mime.md)**
+	**#122 [Mr. Mime](../pokemon/mr-mime.md)**
 
 -	[![Kabuto](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/140.gif){: .pokemon-sprite-img }](../pokemon/kabuto.md)
 
@@ -520,11 +520,11 @@
 
 	**#366 [Clamperl](../pokemon/clamperl.md)**
 
--	[![Mime Jr](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/439.gif){: .pokemon-sprite-img }](../pokemon/mime-jr.md)
+-	[![Mime Jr.](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/439.gif){: .pokemon-sprite-img }](../pokemon/mime-jr.md)
 
 	***
 
-	**#439 [Mime Jr](../pokemon/mime-jr.md)**
+	**#439 [Mime Jr.](../pokemon/mime-jr.md)**
 
 -	[![Skorupi](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/451.gif){: .pokemon-sprite-img }](../pokemon/skorupi.md)
 

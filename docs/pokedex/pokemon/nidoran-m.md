@@ -1,4 +1,4 @@
-# Nidoran M
+# Nidoran♂
 
 <div class="pokemon-hero" style="background: linear-gradient(135deg, #A040A0dd 0%, #A040A055 100%);">
 	<div class="pokemon-hero-overlay"></div>
@@ -121,11 +121,11 @@
 
 <div class="grid cards" markdown>
 
--	[![Nidoran M](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/32.gif){: .pokemon-sprite-img }](./nidoran-m.md)
+-	[![Nidoran♂](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/32.gif){: .pokemon-sprite-img }](./nidoran-m.md)
 
 	***
 
-	**#032 [Nidoran M](./nidoran-m.md)**
+	**#032 [Nidoran♂](./nidoran-m.md)**
 
 	
 

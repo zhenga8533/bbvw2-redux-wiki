@@ -321,11 +321,11 @@ All Pokémon here have the normal chance to be shiny. There are no shiny locks.
 
 	**#438 [Bonsly](../pokedex/pokemon/bonsly.md)**
 
--	[![Mime Jr](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/439.gif){: .pokemon-sprite-img }](../pokedex/pokemon/mime-jr.md)
+-	[![Mime Jr.](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/439.gif){: .pokemon-sprite-img }](../pokedex/pokemon/mime-jr.md)
 
 	***
 
-	**#439 [Mime Jr](../pokedex/pokemon/mime-jr.md)**
+	**#439 [Mime Jr.](../pokedex/pokemon/mime-jr.md)**
 
 -	[![Glameow](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/431.gif){: .pokemon-sprite-img }](../pokedex/pokemon/glameow.md)
 

@@ -1374,11 +1374,11 @@
 
 	**#438 [Bonsly](../pokemon/bonsly.md)**
 
--	[![Mime Jr](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/439.gif){: .pokemon-sprite-img }](../pokemon/mime-jr.md)
+-	[![Mime Jr.](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/439.gif){: .pokemon-sprite-img }](../pokemon/mime-jr.md)
 
 	***
 
-	**#439 [Mime Jr](../pokemon/mime-jr.md)**
+	**#439 [Mime Jr.](../pokemon/mime-jr.md)**
 
 -	[![Happiny](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/440.gif){: .pokemon-sprite-img }](../pokemon/happiny.md)
 

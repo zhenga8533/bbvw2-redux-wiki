@@ -121,11 +121,11 @@
 
 <div class="grid cards" markdown>
 
--	[![Nidoran F](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/29.gif){: .pokemon-sprite-img }](./nidoran-f.md)
+-	[![Nidoran♀](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/29.gif){: .pokemon-sprite-img }](./nidoran-f.md)
 
 	***
 
-	**#029 [Nidoran F](./nidoran-f.md)**
+	**#029 [Nidoran♀](./nidoran-f.md)**
 
 </div>
 

@@ -380,11 +380,11 @@
 
 	**#114 [Tangela](../pokemon/tangela.md)**
 
--	[![Mr Mime](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/122.gif){: .pokemon-sprite-img }](../pokemon/mr-mime.md)
+-	[![Mr. Mime](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/122.gif){: .pokemon-sprite-img }](../pokemon/mr-mime.md)
 
 	***
 
-	**#122 [Mr Mime](../pokemon/mr-mime.md)**
+	**#122 [Mr. Mime](../pokemon/mr-mime.md)**
 
 -	[![Jynx](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/124.gif){: .pokemon-sprite-img }](../pokemon/jynx.md)
 

@@ -80,11 +80,11 @@
 
 	Level 19
 
--	[![Nidoran F](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/29.gif){: .pokemon-sprite-img }](../pokemon/nidoran-f.md)
+-	[![Nidoran♀](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/29.gif){: .pokemon-sprite-img }](../pokemon/nidoran-f.md)
 
 	***
 
-	**#029 [Nidoran F](../pokemon/nidoran-f.md)**
+	**#029 [Nidoran♀](../pokemon/nidoran-f.md)**
 
 	Level 19
 

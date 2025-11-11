@@ -136,11 +136,11 @@
 
 	Level 40
 
--	[![Mr Mime](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/122.gif){: .pokemon-sprite-img }](../pokemon/mr-mime.md)
+-	[![Mr. Mime](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/122.gif){: .pokemon-sprite-img }](../pokemon/mr-mime.md)
 
 	***
 
-	**#122 [Mr Mime](../pokemon/mr-mime.md)**
+	**#122 [Mr. Mime](../pokemon/mr-mime.md)**
 
 	Level 40
 
@@ -248,11 +248,11 @@
 
 	Level 34
 
--	[![Ho Oh](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/250.gif){: .pokemon-sprite-img }](../pokemon/ho-oh.md)
+-	[![Ho-Oh](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/250.gif){: .pokemon-sprite-img }](../pokemon/ho-oh.md)
 
 	***
 
-	**#250 [Ho Oh](../pokemon/ho-oh.md)**
+	**#250 [Ho-Oh](../pokemon/ho-oh.md)**
 
 	Level 34
 
@@ -384,11 +384,11 @@
 
 	Level 41
 
--	[![Mime Jr](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/439.gif){: .pokemon-sprite-img }](../pokemon/mime-jr.md)
+-	[![Mime Jr.](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/439.gif){: .pokemon-sprite-img }](../pokemon/mime-jr.md)
 
 	***
 
-	**#439 [Mime Jr](../pokemon/mime-jr.md)**
+	**#439 [Mime Jr.](../pokemon/mime-jr.md)**
 
 	Level 38
 
@@ -546,11 +546,11 @@
 
 	**#079 [Slowpoke](../pokemon/slowpoke.md)**
 
--	[![Mr Mime](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/122.gif){: .pokemon-sprite-img }](../pokemon/mr-mime.md)
+-	[![Mr. Mime](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/122.gif){: .pokemon-sprite-img }](../pokemon/mr-mime.md)
 
 	***
 
-	**#122 [Mr Mime](../pokemon/mr-mime.md)**
+	**#122 [Mr. Mime](../pokemon/mr-mime.md)**
 
 -	[![Lapras](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/131.gif){: .pokemon-sprite-img }](../pokemon/lapras.md)
 
@@ -606,11 +606,11 @@
 
 	**#433 [Chingling](../pokemon/chingling.md)**
 
--	[![Mime Jr](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/439.gif){: .pokemon-sprite-img }](../pokemon/mime-jr.md)
+-	[![Mime Jr.](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/439.gif){: .pokemon-sprite-img }](../pokemon/mime-jr.md)
 
 	***
 
-	**#439 [Mime Jr](../pokemon/mime-jr.md)**
+	**#439 [Mime Jr.](../pokemon/mime-jr.md)**
 
 </div>
 

@@ -144,11 +144,11 @@
 
 	**#022 [Fearow](../pokemon/fearow.md)**
 
--	[![Nidoran M](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/32.gif){: .pokemon-sprite-img }](../pokemon/nidoran-m.md)
+-	[![Nidoran♂](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/32.gif){: .pokemon-sprite-img }](../pokemon/nidoran-m.md)
 
 	***
 
-	**#032 [Nidoran M](../pokemon/nidoran-m.md)**
+	**#032 [Nidoran♂](../pokemon/nidoran-m.md)**
 
 -	[![Nidorino](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/33.gif){: .pokemon-sprite-img }](../pokemon/nidorino.md)
 

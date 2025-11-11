@@ -1324,11 +1324,11 @@ All new type changes are omitted in the Classic version of Redux.
 
 <div class="grid cards" markdown>
 
--	[![Nidoran F](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/29.gif){: .pokemon-sprite-img }](../pokedex/pokemon/nidoran-f.md)
+-	[![Nidoran♀](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/29.gif){: .pokemon-sprite-img }](../pokedex/pokemon/nidoran-f.md)
 
 	***
 
-	**#029 [Nidoran F](../pokedex/pokemon/nidoran-f.md)**
+	**#029 [Nidoran♀](../pokedex/pokemon/nidoran-f.md)**
 
 </div>| Attribute | Old Value | New Value |
 |:----------|:----------|:----------|
@@ -1441,11 +1441,11 @@ All new type changes are omitted in the Classic version of Redux.
 
 <div class="grid cards" markdown>
 
--	[![Nidoran F](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/29.gif){: .pokemon-sprite-img }](../pokedex/pokemon/nidoran-f.md)
+-	[![Nidoran♀](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/29.gif){: .pokemon-sprite-img }](../pokedex/pokemon/nidoran-f.md)
 
 	***
 
-	**#029 [Nidoran F](../pokedex/pokemon/nidoran-f.md)**
+	**#029 [Nidoran♀](../pokedex/pokemon/nidoran-f.md)**
 
 </div>| Attribute | Old Value | New Value |
 |:----------|:----------|:----------|
@@ -5346,11 +5346,11 @@ All new type changes are omitted in the Classic version of Redux.
 
 <div class="grid cards" markdown>
 
--	[![Mr Mime](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/122.gif){: .pokemon-sprite-img }](../pokedex/pokemon/mr-mime.md)
+-	[![Mr. Mime](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/122.gif){: .pokemon-sprite-img }](../pokedex/pokemon/mr-mime.md)
 
 	***
 
-	**#122 [Mr Mime](../pokedex/pokemon/mr-mime.md)**
+	**#122 [Mr. Mime](../pokedex/pokemon/mr-mime.md)**
 
 </div>| Attribute | Old Value | New Value |
 |:----------|:----------|:----------|
@@ -10932,11 +10932,11 @@ All new type changes are omitted in the Classic version of Redux.
 
 <div class="grid cards" markdown>
 
--	[![Ho Oh](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/250.gif){: .pokemon-sprite-img }](../pokedex/pokemon/ho-oh.md)
+-	[![Ho-Oh](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/250.gif){: .pokemon-sprite-img }](../pokedex/pokemon/ho-oh.md)
 
 	***
 
-	**#250 [Ho Oh](../pokedex/pokemon/ho-oh.md)**
+	**#250 [Ho-Oh](../pokedex/pokemon/ho-oh.md)**
 
 </div>**Moves**:
 
@@ -19060,11 +19060,11 @@ All new type changes are omitted in the Classic version of Redux.
 
 <div class="grid cards" markdown>
 
--	[![Mime Jr](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/439.gif){: .pokemon-sprite-img }](../pokedex/pokemon/mime-jr.md)
+-	[![Mime Jr.](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/439.gif){: .pokemon-sprite-img }](../pokedex/pokemon/mime-jr.md)
 
 	***
 
-	**#439 [Mime Jr](../pokedex/pokemon/mime-jr.md)**
+	**#439 [Mime Jr.](../pokedex/pokemon/mime-jr.md)**
 
 </div>| Attribute | Old Value | New Value |
 |:----------|:----------|:----------|

@@ -128,7 +128,7 @@ Grass, Normal
 | ![tranquill](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/520.gif){ .sprite }<br>[Tranquill](../../pokedex/pokemon/tranquill.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | 32-36 | 5.0% |
 | ![marill](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/183.gif){ .sprite }<br>[Marill](../../pokedex/pokemon/marill.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span></div> | 32-36 | 5.0% |
 | ![bonsly](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/438.gif){ .sprite }<br>[Bonsly](../../pokedex/pokemon/bonsly.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span></div> | 32-36 | 5.0% |
-| ![mime-jr](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/439.gif){ .sprite }<br>[Mime Jr](../../pokedex/pokemon/mime-jr.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span> <span class="type-badge" style="background: linear-gradient(135deg, #EE99AC 0%, #EE99ACdd 100%);">Fairy</span></div> | 32-36 | 5.0% |
+| ![mime-jr](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/439.gif){ .sprite }<br>[Mime Jr.](../../pokedex/pokemon/mime-jr.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span> <span class="type-badge" style="background: linear-gradient(135deg, #EE99AC 0%, #EE99ACdd 100%);">Fairy</span></div> | 32-36 | 5.0% |
 
 Grass, Shaking Spots
 
@@ -180,7 +180,7 @@ Grass, Normal
 | ![yanma](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/193.gif){ .sprite }<br>[Yanma](../../pokedex/pokemon/yanma.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | 32-36 | 5.0% |
 | ![marill](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/183.gif){ .sprite }<br>[Marill](../../pokedex/pokemon/marill.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span></div> | 32-36 | 5.0% |
 | ![bonsly](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/438.gif){ .sprite }<br>[Bonsly](../../pokedex/pokemon/bonsly.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span></div> | 32-36 | 5.0% |
-| ![mime-jr](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/439.gif){ .sprite }<br>[Mime Jr](../../pokedex/pokemon/mime-jr.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span> <span class="type-badge" style="background: linear-gradient(135deg, #EE99AC 0%, #EE99ACdd 100%);">Fairy</span></div> | 32-36 | 5.0% |
+| ![mime-jr](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/439.gif){ .sprite }<br>[Mime Jr.](../../pokedex/pokemon/mime-jr.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span> <span class="type-badge" style="background: linear-gradient(135deg, #EE99AC 0%, #EE99ACdd 100%);">Fairy</span></div> | 32-36 | 5.0% |
 
 Grass, Shaking Spots
 
@@ -268,11 +268,11 @@ Fish, Normal
 
 		*Uncommon*
 
-	-	[![Mime Jr](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/439.gif){: .pokemon-sprite-img }](../../pokedex/pokemon/mime-jr.md)
+	-	[![Mime Jr.](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/439.gif){: .pokemon-sprite-img }](../../pokedex/pokemon/mime-jr.md)
 
 		***
 
-		**#439 [Mime Jr](../../pokedex/pokemon/mime-jr.md)**
+		**#439 [Mime Jr.](../../pokedex/pokemon/mime-jr.md)**
 
 		*Uncommon*
 

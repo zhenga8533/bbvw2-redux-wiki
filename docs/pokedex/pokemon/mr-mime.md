@@ -1,4 +1,4 @@
-# Mr Mime
+# Mr. Mime
 
 <div class="pokemon-hero" style="background: linear-gradient(135deg, #F85888dd 0%, #EE99AC99 100%);">
 	<div class="pokemon-hero-overlay"></div>
@@ -143,11 +143,11 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 <div class="grid cards" markdown>
 
--	[![Mime Jr](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/439.gif){: .pokemon-sprite-img }](./mime-jr.md)
+-	[![Mime Jr.](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/439.gif){: .pokemon-sprite-img }](./mime-jr.md)
 
 	***
 
-	**#439 [Mime Jr](./mime-jr.md)**
+	**#439 [Mime Jr.](./mime-jr.md)**
 
 </div>
 
@@ -155,11 +155,11 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 <div class="grid cards" markdown>
 
--	[![Mr Mime](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/122.gif){: .pokemon-sprite-img }](./mr-mime.md)
+-	[![Mr. Mime](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/122.gif){: .pokemon-sprite-img }](./mr-mime.md)
 
 	***
 
-	**#122 [Mr Mime](./mr-mime.md)**
+	**#122 [Mr. Mime](./mr-mime.md)**
 
 	*Level 25*
 

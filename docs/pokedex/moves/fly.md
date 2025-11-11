@@ -290,11 +290,11 @@
 
 	**#249 [Lugia](../pokemon/lugia.md)**
 
--	[![Ho Oh](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/250.gif){: .pokemon-sprite-img }](../pokemon/ho-oh.md)
+-	[![Ho-Oh](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/250.gif){: .pokemon-sprite-img }](../pokemon/ho-oh.md)
 
 	***
 
-	**#250 [Ho Oh](../pokemon/ho-oh.md)**
+	**#250 [Ho-Oh](../pokemon/ho-oh.md)**
 
 -	[![Beautifly](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/267.gif){: .pokemon-sprite-img }](../pokemon/beautifly.md)
 

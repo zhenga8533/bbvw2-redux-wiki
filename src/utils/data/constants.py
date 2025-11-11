@@ -10,12 +10,12 @@ multiple files, they are defined once here and imported where needed.
 # Display Name Special Cases
 # ============================================================================
 POKEMON_DISPLAY_CASES: dict[str, str] = {
-    "mr-mime": "Mr. Mime",
-    "mime-jr": "Mime Jr.",
+    "mr mime": "Mr. Mime",
+    "mime jr": "Mime Jr.",
     "farfetchd": "Farfetchˈd",
-    "nidoran-m": "Nidoran♂",
-    "nidoran-f": "Nidoran♀",
-    "ho-oh": "Ho-Oh",
+    "nidoran m": "Nidoran♂",
+    "nidoran f": "Nidoran♀",
+    "ho oh": "Ho-Oh",
 }
 
 ITEM_DISPLAY_CASES: dict[str, str] = {
@@ -27,8 +27,8 @@ ITEM_DISPLAY_CASES: dict[str, str] = {
 }
 
 ITEM_DISPLAY_ABBREVIATIONS: dict[str, str] = {
-    "exp-share": "Exp. Share",
-    "kings-rock": "King's Rock",
+    "exp share": "Exp. Share",
+    "kings rock": "King's Rock",
 }
 
 # ============================================================================
@@ -172,4 +172,3 @@ TYPE_CHART: dict[str, dict[str, list[str]]] = {
 # ============================================================================
 
 POKEMON_FORM_SUBFOLDERS = ["default", "transformation", "variant", "cosmetic"]
-

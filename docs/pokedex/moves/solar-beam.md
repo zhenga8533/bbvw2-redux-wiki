@@ -394,11 +394,11 @@
 
 	**#115 [Kangaskhan](../pokemon/kangaskhan.md)**
 
--	[![Mr Mime](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/122.gif){: .pokemon-sprite-img }](../pokemon/mr-mime.md)
+-	[![Mr. Mime](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/122.gif){: .pokemon-sprite-img }](../pokemon/mr-mime.md)
 
 	***
 
-	**#122 [Mr Mime](../pokemon/mr-mime.md)**
+	**#122 [Mr. Mime](../pokemon/mr-mime.md)**
 
 -	[![Tauros](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/128.gif){: .pokemon-sprite-img }](../pokemon/tauros.md)
 
@@ -658,11 +658,11 @@
 
 	**#244 [Entei](../pokemon/entei.md)**
 
--	[![Ho Oh](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/250.gif){: .pokemon-sprite-img }](../pokemon/ho-oh.md)
+-	[![Ho-Oh](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/250.gif){: .pokemon-sprite-img }](../pokemon/ho-oh.md)
 
 	***
 
-	**#250 [Ho Oh](../pokemon/ho-oh.md)**
+	**#250 [Ho-Oh](../pokemon/ho-oh.md)**
 
 -	[![Celebi](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/251.gif){: .pokemon-sprite-img }](../pokemon/celebi.md)
 
@@ -1102,11 +1102,11 @@
 
 	**#437 [Bronzong](../pokemon/bronzong.md)**
 
--	[![Mime Jr](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/439.gif){: .pokemon-sprite-img }](../pokemon/mime-jr.md)
+-	[![Mime Jr.](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/439.gif){: .pokemon-sprite-img }](../pokemon/mime-jr.md)
 
 	***
 
-	**#439 [Mime Jr](../pokemon/mime-jr.md)**
+	**#439 [Mime Jr.](../pokemon/mime-jr.md)**
 
 -	[![Happiny](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/440.gif){: .pokemon-sprite-img }](../pokemon/happiny.md)
 

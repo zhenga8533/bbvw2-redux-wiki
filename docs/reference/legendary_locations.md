@@ -91,7 +91,7 @@ Speak to/battle Lance at the end of Victory Road. (On Challenge Mode only, you a
 | Pokémon | Type(s) | Encounter Details |
 |:-------:|:-------:|-------------------|
 | ![lugia](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/249.gif){ .sprite }<br>[Lugia](../pokedex/pokemon/lugia.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | Found amidst the rapids on Route 17. |
-| ![ho-oh](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/250.gif){ .sprite }<br>[Ho Oh](../pokedex/pokemon/ho-oh.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F08030 0%, #F08030dd 100%);">Fire</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | Found on the Aspertia Outlook. |
+| ![ho-oh](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/250.gif){ .sprite }<br>[Ho-Oh](../pokedex/pokemon/ho-oh.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F08030 0%, #F08030dd 100%);">Fire</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | Found on the Aspertia Outlook. |
 
 ### The Time Travel Pokémon
 

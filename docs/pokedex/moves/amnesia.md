@@ -708,11 +708,11 @@
 
 	**#001 [Bulbasaur](../pokemon/bulbasaur.md)**
 
--	[![Nidoran M](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/32.gif){: .pokemon-sprite-img }](../pokemon/nidoran-m.md)
+-	[![Nidoran♂](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/32.gif){: .pokemon-sprite-img }](../pokemon/nidoran-m.md)
 
 	***
 
-	**#032 [Nidoran M](../pokemon/nidoran-m.md)**
+	**#032 [Nidoran♂](../pokemon/nidoran-m.md)**
 
 -	[![Meowth](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/52.gif){: .pokemon-sprite-img }](../pokemon/meowth.md)
 

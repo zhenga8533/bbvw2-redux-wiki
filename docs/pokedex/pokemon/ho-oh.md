@@ -1,4 +1,4 @@
-# Ho Oh
+# Ho-Oh
 
 <div class="pokemon-hero" style="background: linear-gradient(135deg, #F08030dd 0%, #A890F099 100%);">
 	<div class="pokemon-hero-overlay"></div>

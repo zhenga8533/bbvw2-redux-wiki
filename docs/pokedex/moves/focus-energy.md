@@ -104,11 +104,11 @@
 
 	Level 29
 
--	[![Nidoran M](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/32.gif){: .pokemon-sprite-img }](../pokemon/nidoran-m.md)
+-	[![Nidoran♂](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/32.gif){: .pokemon-sprite-img }](../pokemon/nidoran-m.md)
 
 	***
 
-	**#032 [Nidoran M](../pokemon/nidoran-m.md)**
+	**#032 [Nidoran♂](../pokemon/nidoran-m.md)**
 
 	Level 7
 
@@ -566,11 +566,11 @@
 
 <div class="grid cards" markdown>
 
--	[![Nidoran F](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/29.gif){: .pokemon-sprite-img }](../pokemon/nidoran-f.md)
+-	[![Nidoran♀](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/29.gif){: .pokemon-sprite-img }](../pokemon/nidoran-f.md)
 
 	***
 
-	**#029 [Nidoran F](../pokemon/nidoran-f.md)**
+	**#029 [Nidoran♀](../pokemon/nidoran-f.md)**
 
 -	[![Kangaskhan](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/115.gif){: .pokemon-sprite-img }](../pokemon/kangaskhan.md)
 

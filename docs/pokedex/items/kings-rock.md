@@ -1,9 +1,9 @@
-# Kings Rock
+# King's Rock
 
 !!! info "Item"
 
 	<div style="display: flex; align-items: flex-start; gap: 15px;">
-		<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/kings-rock.png" alt="Kings Rock" style="border: 1px solid; border-radius: 4px; padding: 4px; align-self: center; min-height: 60px; min-width: 60px;" />
+		<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/kings-rock.png" alt="King's Rock" style="border: 1px solid; border-radius: 4px; padding: 4px; align-self: center; min-height: 60px; min-width: 60px;" />
 		<div>
 			<span markdown>**Category:** Held Items</span>
 			<br/>

@@ -64,11 +64,11 @@
 
 <div class="grid cards" markdown>
 
--	[![Nidoran F](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/29.gif){: .pokemon-sprite-img }](../pokemon/nidoran-f.md)
+-	[![Nidoran♀](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/29.gif){: .pokemon-sprite-img }](../pokemon/nidoran-f.md)
 
 	***
 
-	**#029 [Nidoran F](../pokemon/nidoran-f.md)**
+	**#029 [Nidoran♀](../pokemon/nidoran-f.md)**
 
 	Level 25
 
@@ -88,11 +88,11 @@
 
 	Level 1
 
--	[![Nidoran M](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/32.gif){: .pokemon-sprite-img }](../pokemon/nidoran-m.md)
+-	[![Nidoran♂](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/32.gif){: .pokemon-sprite-img }](../pokemon/nidoran-m.md)
 
 	***
 
-	**#032 [Nidoran M](../pokemon/nidoran-m.md)**
+	**#032 [Nidoran♂](../pokemon/nidoran-m.md)**
 
 	Level 25
 
@@ -1074,11 +1074,11 @@
 
 	**#026 [Raichu](../pokemon/raichu.md)**
 
--	[![Nidoran F](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/29.gif){: .pokemon-sprite-img }](../pokemon/nidoran-f.md)
+-	[![Nidoran♀](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/29.gif){: .pokemon-sprite-img }](../pokemon/nidoran-f.md)
 
 	***
 
-	**#029 [Nidoran F](../pokemon/nidoran-f.md)**
+	**#029 [Nidoran♀](../pokemon/nidoran-f.md)**
 
 -	[![Nidorina](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/30.gif){: .pokemon-sprite-img }](../pokemon/nidorina.md)
 
@@ -1092,11 +1092,11 @@
 
 	**#031 [Nidoqueen](../pokemon/nidoqueen.md)**
 
--	[![Nidoran M](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/32.gif){: .pokemon-sprite-img }](../pokemon/nidoran-m.md)
+-	[![Nidoran♂](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/32.gif){: .pokemon-sprite-img }](../pokemon/nidoran-m.md)
 
 	***
 
-	**#032 [Nidoran M](../pokemon/nidoran-m.md)**
+	**#032 [Nidoran♂](../pokemon/nidoran-m.md)**
 
 -	[![Nidorino](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/33.gif){: .pokemon-sprite-img }](../pokemon/nidorino.md)
 
@@ -1224,11 +1224,11 @@
 
 	**#115 [Kangaskhan](../pokemon/kangaskhan.md)**
 
--	[![Mr Mime](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/122.gif){: .pokemon-sprite-img }](../pokemon/mr-mime.md)
+-	[![Mr. Mime](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/122.gif){: .pokemon-sprite-img }](../pokemon/mr-mime.md)
 
 	***
 
-	**#122 [Mr Mime](../pokemon/mr-mime.md)**
+	**#122 [Mr. Mime](../pokemon/mr-mime.md)**
 
 -	[![Jynx](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/124.gif){: .pokemon-sprite-img }](../pokemon/jynx.md)
 
@@ -1674,11 +1674,11 @@
 
 	**#438 [Bonsly](../pokemon/bonsly.md)**
 
--	[![Mime Jr](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/439.gif){: .pokemon-sprite-img }](../pokemon/mime-jr.md)
+-	[![Mime Jr.](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/439.gif){: .pokemon-sprite-img }](../pokemon/mime-jr.md)
 
 	***
 
-	**#439 [Mime Jr](../pokemon/mime-jr.md)**
+	**#439 [Mime Jr.](../pokemon/mime-jr.md)**
 
 -	[![Happiny](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/440.gif){: .pokemon-sprite-img }](../pokemon/happiny.md)
 
