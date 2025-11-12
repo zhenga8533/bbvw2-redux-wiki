@@ -1,14 +1,17 @@
 # Changelog
 
 !!! info "About Updates"
+
     Redux is periodically updated to fix issues and keep the game fresh. This changelog documents all changes since the initial release.
 
 !!! question "Found a Bug?"
+
     If you find any issues with Redux, report them to [@AphexCubed](https://twitter.com/AphexCubed) on Twitter.
 
 ---
 
 ## Version 1.4.1
+
 **Released: June 24, 2023**
 
 ### Balance Changes
@@ -29,11 +32,13 @@
 ---
 
 ## Version 1.4.0
+
 **Released: May 24, 2023**
 
 ### Major Changes
 
 !!! warning "Challenge Mode Difficulty Rework"
+
     Challenge mode has been significantly reworked to be easier in the early game, with a scaling difficulty progression that increases over time. Mid-to-late game difficulty remains untouched.
 
 ### Balance Changes
@@ -53,6 +58,7 @@
 ### Pokémon Buffs
 
 ??? note "Pokémon Receiving Buffs (Click to expand)"
+
     - **Venusaur line** - Learns Charm at level 16
     - **Eevee family** - Complete learnset overhaul with early elemental moves
     - **Victreebel line** - Clear Smog at 12, Knock Off at 30/33
@@ -85,6 +91,7 @@
 ---
 
 ## Version 1.3.0
+
 **Released: January 21, 2023**
 
 ### New Features
@@ -94,6 +101,7 @@
 ### Balance Changes
 
 ??? note "Pokémon Changes (Click to expand)"
+
     **Buffs:**
 
     - **Wigglytuff line** - Nasty Plot at 70
@@ -133,11 +141,13 @@
 ---
 
 ## Version 1.2.1
+
 **Released: August 24, 2022**
 
 ### Critical Bug Fixes
 
 !!! danger "Important Fixes"
+
     - **Fixed catastrophic memory issue** causing crashes on real hardware and MelonDS (Fairy type related)
     - **Fixed 20+ evolution methods** that were reverted to vanilla (Riolu, Ponyta, etc.)
 
@@ -158,11 +168,13 @@
 ---
 
 ## Version 1.2.0
+
 **Released: August 20, 2022**
 
 ### Major New Features
 
 !!! success "Cheat Code System"
+
     Interact with the Wii in your house to access cheat codes:
 
     **Item Codes:**
@@ -215,6 +227,7 @@
 ### Quality of Life
 
 !!! tip "HM Improvements"
+
     HM moves can now be forgotten on the fly without the Move Deleter! (Thanks totally_anonymous#0405!)
 
 ### Balance Changes
@@ -257,6 +270,7 @@
 ### Extensive Pokémon Changes
 
 ??? note "Pokémon Buffs (Click to expand - extensive list)"
+
     The v1.2.0 update included massive changes to over 60 Pokémon evolution lines. Notable changes include:
 
     - **Charizard line** - Defiant ability instead of Levitate
@@ -294,6 +308,7 @@ Over 20 critical bugs fixed including evolution methods, move effects, trainer A
 ---
 
 ## Version 1.1.1
+
 **Released: May 22, 2022**
 
 ### Balance Changes
@@ -324,11 +339,13 @@ Over 20 critical bugs fixed including evolution methods, move effects, trainer A
 ---
 
 ## Version 1.1.0
+
 **Released: May 20, 2022**
 
 ### New Features
 
 !!! success "Major Additions"
+
     - **New boss fight music!** (Thanks Drayano!)
     - **Hidden Grottos spawn new Pokémon every entry** with overhauled tables
     - **Increased frequency** for shaking grass/water/sand
@@ -372,6 +389,7 @@ Over 20 critical bugs fixed including evolution methods, move effects, trainer A
 ### Extensive Pokémon Changes
 
 ??? note "Pokémon Receiving Changes"
+
     **Buffs:** Venomoth line, Jumpluff line, Girafarig, Magcargo line, Shiftry line, Plusle, Minun, Sharpedo line, Camerupt line, Cacturne line, Tropius, Relicanth, Rampardos line, Electivire line, Magmortar line, Mamoswine line, Gallade, Probopass line, Serperior line, Emboar line, Liepard line, Unfezant line, Leavanny line, Sawk, Basculin, Vanilluxe line
 
     **Nerfs:** Venusaur line, Fearow line, Rapidash line, Farfetch'd, Marowak line, Jynx line, Typhlosion line, Furret line, Sceptile line, Gardevoir, Medicham line, Infernape line, Staraptor line, Lopunny line, Mismagius line, Weavile line, Archeops line, Zoroark line
@@ -393,9 +411,11 @@ Multiple routes and areas updated (Route 20, Virbank Complex, Route 4, Relic Pas
 ---
 
 ## Version 1.0.2
+
 **Released: April 2, 2022**
 
 !!! warning "Save Compatibility"
+
     Somewhat compatible with older saves. Patch a vanilla ROM and name it the same as your old file. You may need to redo E4 meetings on: Driftveil Drawbridge, Twist Mountain (Route 7), Undella Town, and Opelucid Gate.
 
     **Route 7 event incompatibility:** If you've completed Route 7 event but not others, save is incompatible - restart required.
@@ -424,11 +444,13 @@ Over 50 bugs fixed including:
 ---
 
 ## Version 1.0.1
+
 **Released: March 27, 2022**
 
 **Day one patch of Redux**
 
 !!! tip "Save Compatible"
+
     Patch a vanilla ROM with the same name as your old file to carry over your save.
 
 ### Balance Changes
@@ -478,9 +500,11 @@ Over 50 bugs fixed including:
 ---
 
 ## Version 1.0.0
+
 **Released: March 26, 2022**
 
 !!! success "Launch Version"
+
     Initial release of Blaze Black 2 & Volt White 2 Redux!
 
 Various changes and corrections to documents based on public feedback.

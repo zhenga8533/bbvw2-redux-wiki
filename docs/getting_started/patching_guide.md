@@ -5,12 +5,14 @@ This guide will walk you through patching a clean Pokémon Black 2 or White 2 RO
 ## Prerequisites
 
 !!! warning "Important File Requirements"
+
     - You need a **clean Black 2 or White 2 ROM** (American/European version)
     - ROM must be in `.nds` format (may be in `.zip` or `.7z` archive)
     - ROM should be **524,288 KB** in size when extracted
     - **Never use `.exe` files** - these are not legitimate ROM files
 
 !!! info "Obtaining the Patch"
+
     Download the Redux patch from [Drayano's Twitter](https://twitter.com/Drayano60), which links to his Google Drive.
 
 ---
@@ -100,6 +102,7 @@ Select the appropriate patching tool for your platform:
 ## Step 4: Apply Optional Patches (Classic/EV-Less)
 
 !!! example "Optional Patch Types"
+
     - **Classic Version** - Omits custom type combinations, abilities, and stat boosts
     - **EV-Less Version** - Modified difficulty scaling
 
@@ -187,4 +190,5 @@ Now you can play Redux using a DS emulator!
 ---
 
 !!! success "Ready to Play!"
+
     Once patching is complete, you're ready to start your Redux adventure! Check out the [FAQ](faq.md) if you have any questions.

@@ -1,6 +1,6 @@
 # Welcome to BBVW2 Redux
 
-## General Notes
+## :material-information: General Notes
 
 !!! info "About This Project"
 
@@ -18,17 +18,19 @@ With Dray's original project nearing a decade in age (and indeed, the original t
 
     See the [Known Bugs](getting_started/known_bugs.md) document for more information.
 
-## Patching Info
+## :material-download: Patching Info
 
-!!! tip "Quick Start"
+!!! success "Quick Start"
 
     Patch a **clean Pokémon Black 2 or White 2 ROM** you've legally obtained.
+
+!!! danger "Important Warning"
 
     **Do NOT** attempt to use this patch with the original Blaze Black 2 or Volt White 2, or else the process will fail!
 
 For detailed patching instructions, see the [Patching Guide](getting_started/patching_guide.md).
 
-## Feature List
+## :material-star-four-points: Feature List
 
 === "Core Features"
 
@@ -98,7 +100,7 @@ For detailed patching instructions, see the [Patching Guide](getting_started/pat
     - Improved NPC trades with more useful Pokémon
     - Fossils available from NPCs and overworld
 
-## Difficulty Modes
+## :material-sword-cross: Difficulty Modes
 
 Black and White 2 feature an inbuilt difficulty selection system. **Redux has expanded upon this significantly.**
 
@@ -167,7 +169,7 @@ Black and White 2 feature an inbuilt difficulty selection system. **Redux has ex
 
     **Recommended for:** Experienced players seeking maximum challenge
 
-## Complete vs Classic
+## :material-tune: Complete vs Classic
 
 Not everyone is a fan of Dark/Electric Luxray, Intimidate Fearow or 600BST Flygon.
 
@@ -185,7 +187,7 @@ Not everyone is a fan of Dark/Electric Luxray, Intimidate Fearow or 600BST Flygo
 
 ---
 
-## Getting Started
+## :material-map: Getting Started
 
 Ready to begin your adventure? Check out these essential pages:
 
