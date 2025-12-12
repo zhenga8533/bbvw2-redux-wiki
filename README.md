@@ -51,16 +51,18 @@ git clone https://github.com/zhenga8533/bbvw2-redux-wiki.git
 cd bbvw2-redux-wiki
 ```
 
-2. Install dependencies:
+2. Install the package and dependencies:
 
 ```bash
-pip install -r requirements.txt
+pip install -e .
 ```
 
 3. Initialize the PokeDB data:
 
 ```bash
-python -m src.main --init
+python -m bbvw2_wiki --init
+# or
+bbvw2-wiki --init
 ```
 
 This downloads the Pokémon database from the external PokeDB repository and sets up the necessary data structures.
@@ -76,7 +78,9 @@ The main script provides several commands:
 Download and set up the PokeDB data:
 
 ```bash
-python -m src.main --init
+python -m bbvw2_wiki --init
+# or
+bbvw2-wiki --init
 ```
 
 #### Run Parsers
@@ -85,13 +89,13 @@ Parse documentation files and convert them to markdown:
 
 ```bash
 # Run all parsers
-python -m src.main --parsers all
+python -m bbvw2_wiki --parsers all
 
 # Run specific parsers
-python -m src.main --parsers evolution_changes gift_pokemon
+python -m bbvw2_wiki --parsers evolution_changes gift_pokemon
 
 # List available parsers
-python -m src.main --list-parsers
+python -m bbvw2_wiki --list-parsers
 ```
 
 Available parsers:
@@ -113,13 +117,13 @@ Generate reference pages from PokeDB data:
 
 ```bash
 # Run all generators
-python -m src.main --generators all
+python -m bbvw2_wiki --generators all
 
 # Run specific generators
-python -m src.main --generators pokemon abilities
+python -m bbvw2_wiki --generators pokemon abilities
 
 # List available generators
-python -m src.main --list-generators
+python -m bbvw2_wiki --list-generators
 ```
 
 Available generators:
@@ -165,42 +169,45 @@ bbvw2-redux-wiki/
 │   ├── pokedex/                    # Pokémon, abilities, items, moves
 │   └── stylesheets/                # Custom CSS
 ├── src/                            # Python source code
-│   ├── main.py                     # CLI entry point
-│   ├── parsers/                    # Documentation parsers
-│   │   ├── base_parser.py          # Base class for all parsers
-│   │   ├── location_parser.py      # Base class for location parsers
-│   │   └── *_parser.py             # Individual parser implementations
-│   ├── generators/                 # Reference page generators
-│   │   ├── base_generator.py       # Base class for all generators
-│   │   └── *_generator.py          # Individual generator implementations
-│   └── utils/                      # Utility modules
-│       ├── core/                           # Core infrastructure
-│       │   ├── config.py                   # Configuration constants
-│       │   ├── executor.py                 # Component execution
-│       │   ├── initializer.py              # Data initialization
-│       │   ├── loader.py                   # Thread-safe data loader
-│       │   ├── logger.py                   # Logging setup
-│       │   └── registry.py                 # Component registration
-│       ├── data/                           # Data models and constants
-│       │   ├── models.py                   # Pokemon, Move, Ability, Item models
-│       │   ├── constants.py                # Game constants
-│       │   └── type_effectiveness.py       # Type matchup calculations
-│       ├── formatters/                     # Output formatters
-│       │   ├── markdown_formatter.py       # Markdown generation
-│       │   ├── table_formatter.py          # Table creation
-│       │   └── yaml_formatter.py           # MkDocs YAML manipulation
-│       ├── services/                       # Business logic
-│       │   ├── attribute_service.py        # Attribute processing
-│       │   ├── evolution_service.py        # Evolution chains
-│       │   ├── move_service.py             # Move data enrichment
-│       │   ├── pokemon_item_service.py     # Pokémon-item relationships
-│       │   └── pokemon_move_service.py     # Learnset processing
-│       └── text/                   # Text utilities
-│           ├── text_util.py        # String formatting
-│           └── dict_util.py        # Dictionary helpers
+│   └── bbvw2_wiki/                 # Main package
+│       ├── __init__.py             # Package initialization
+│       ├── __main__.py             # CLI entry point
+│       ├── py.typed                # Type hint marker
+│       ├── parsers/                # Documentation parsers
+│       │   ├── base_parser.py      # Base class for all parsers
+│       │   ├── location_parser.py  # Base class for location parsers
+│       │   └── *_parser.py         # Individual parser implementations
+│       ├── generators/             # Reference page generators
+│       │   ├── base_generator.py   # Base class for all generators
+│       │   └── *_generator.py      # Individual generator implementations
+│       └── utils/                  # Utility modules
+│           ├── core/               # Core infrastructure
+│           │   ├── config.py       # Configuration constants
+│           │   ├── executor.py     # Component execution
+│           │   ├── initializer.py  # Data initialization
+│           │   ├── loader.py       # Thread-safe data loader
+│           │   ├── logger.py       # Logging setup
+│           │   └── registry.py     # Component registration
+│           ├── data/               # Data models and constants
+│           │   ├── models.py       # Pokemon, Move, Ability, Item models
+│           │   ├── constants.py    # Game constants
+│           │   └── pokemon.py      # Pokemon utilities
+│           ├── formatters/         # Output formatters
+│           │   ├── markdown_formatter.py  # Markdown generation
+│           │   ├── table_formatter.py     # Table creation
+│           │   └── yaml_formatter.py      # MkDocs YAML manipulation
+│           ├── services/           # Business logic
+│           │   ├── attribute_service.py    # Attribute processing
+│           │   ├── evolution_service.py    # Evolution chains
+│           │   ├── move_service.py         # Move data enrichment
+│           │   ├── pokemon_item_service.py # Pokémon-item relationships
+│           │   └── pokemon_move_service.py # Learnset processing
+│           └── text/               # Text utilities
+│               ├── text_util.py    # String formatting
+│               └── dict_util.py    # Dictionary helpers
 ├── logs/                           # Application logs
-├── mkdocs.yml                      # MkDocs configuration
-└── requirements.txt                # Python dependencies
+├── pyproject.toml                  # Modern packaging configuration (PEP 621)
+└── mkdocs.yml                      # MkDocs configuration
 ```
 
 ## Architecture
@@ -237,7 +244,7 @@ docs/**/*.md → MkDocs → Static HTML Site
 
 ### Key Components
 
-#### 1. Parsers (`src/parsers/`)
+#### 1. Parsers (`src/bbvw2_wiki/parsers/`)
 
 Convert text documentation files to markdown pages.
 
@@ -249,7 +256,7 @@ Convert text documentation files to markdown pages.
 **Input:** `data/documentation/*.txt`
 **Output:** `docs/changes/*.md` and `docs/reference/*.md`
 
-#### 2. Generators (`src/generators/`)
+#### 2. Generators (`src/bbvw2_wiki/generators/`)
 
 Generate comprehensive reference pages from PokeDB data.
 
@@ -258,7 +265,7 @@ Generate comprehensive reference pages from PokeDB data.
 **Input:** `data/pokedb/parsed/*/*.json`
 **Output:** `docs/pokedex/*` and `docs/locations/*`
 
-#### 3. Data Loader (`src/utils/core/loader.py`)
+#### 3. Data Loader (`src/bbvw2_wiki/utils/core/loader.py`)
 
 Thread-safe JSON data loader with:
 
@@ -267,7 +274,7 @@ Thread-safe JSON data loader with:
 - Cache statistics tracking
 - Automatic eviction
 
-#### 4. Configuration (`src/utils/core/config.py`)
+#### 4. Configuration (`src/bbvw2_wiki/utils/core/config.py`)
 
 Centralized configuration for:
 
@@ -280,7 +287,7 @@ Centralized configuration for:
 
 ### PokeDB Settings
 
-Located in `src/utils/core/config.py`:
+Located in `src/bbvw2_wiki/utils/core/config.py`:
 
 ```python
 # PokeDB Repository
@@ -307,23 +314,25 @@ Configurable logging with:
 
 ## Dependencies
 
+All dependencies are managed in `pyproject.toml`:
+
 ### Core Technologies
 
-- **Python 3.12** - Primary language
+- **Python 3.12+** - Required (uses modern type hints and features)
 - **MkDocs** - Static site generator
 - **MkDocs Material** - Material Design theme
 
 ### Python Packages
 
-```
-mkdocs                          # Documentation generator
-mkdocs-material                 # Material Design theme
-mkdocs-git-authors-plugin       # Author tracking
-mkdocs-git-committers-plugin    # Committer tracking
-dacite                          # Dataclass deserialization
-orjson                          # Fast JSON parsing
-requests                        # HTTP client
-```
+- **mkdocs** - Documentation generator
+- **mkdocs-material** - Material Design theme
+- **mkdocs-git-authors-plugin** - Author tracking
+- **mkdocs-git-committers-plugin** - Committer tracking
+- **dacite** - Dataclass deserialization
+- **orjson** - Fast JSON parsing
+- **requests** - HTTP client
+
+Install all dependencies with: `pip install -e .`
 
 ## ROM Hack Features Documented
 
@@ -352,7 +361,7 @@ requests                        # HTTP client
 1. Create a new parser class extending `BaseParser` or `LocationParser`:
 
 ```python
-# src/parsers/my_parser.py
+# src/bbvw2_wiki/parsers/my_parser.py
 from .base_parser import BaseParser
 
 class MyParser(BaseParser):
@@ -361,7 +370,7 @@ class MyParser(BaseParser):
         pass
 ```
 
-2. Import and export in `src/parsers/__init__.py`:
+2. Import and export in `src/bbvw2_wiki/parsers/__init__.py`:
 
 ```python
 from .my_parser import MyParser
@@ -372,7 +381,7 @@ __all__ = [
 ]
 ```
 
-3. Register in `src/utils/core/config.py`:
+3. Register in `src/bbvw2_wiki/utils/core/config.py`:
 
 ```python
 PARSER_REGISTRY = {
@@ -406,13 +415,13 @@ Follow similar steps as adding a parser, but extend `BaseGenerator` and register
 If you encounter stale data, clear the cache:
 
 ```python
-from src.utils.core.loader import PokeDBLoader
+from bbvw2_wiki.utils.core.loader import PokeDBLoader
 PokeDBLoader.clear_cache()
 ```
 
 ### Build Errors
 
-1. Ensure data is initialized: `python -m src.main --init`
+1. Ensure data is initialized: `python -m bbvw2_wiki --init`
 2. Check logs in the `logs/` directory
 3. Verify all parsers and generators have run successfully
 

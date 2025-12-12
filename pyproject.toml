@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bbvw2-wiki"
+version = "0.1.0"
+description = "Documentation generator for Pokémon Blaze Black/Volt White 2 Redux"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "mkdocs",
+    "mkdocs-material",
+    "mkdocs-git-authors-plugin",
+    "mkdocs-git-committers-plugin",
+    "dacite",
+    "orjson",
+    "requests",
+]
+
+[project.scripts]
+bbvw2-wiki = "bbvw2_wiki.__main__:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

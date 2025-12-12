@@ -1,8 +1,0 @@
-mkdocs
-mkdocs-material
-mkdocs-git-authors-plugin
-mkdocs-git-committers-plugin
-
-dacite
-orjson
-requests
