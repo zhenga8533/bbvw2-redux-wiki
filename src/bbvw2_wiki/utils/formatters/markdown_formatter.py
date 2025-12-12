@@ -7,9 +7,12 @@ like Pokemon displays with sprites and links.
 
 import re
 
-from bbvw2_wiki.utils.core.config import PARSER_DEX_RELATIVE_PATH, POKEDB_SPRITE_VERSION
+from bbvw2_wiki.utils.core.config import PARSER_DEX_RELATIVE_PATH
 from bbvw2_wiki.utils.core.loader import PokeDBLoader
-from bbvw2_wiki.utils.data.constants import TYPE_CATEGORY_COLORS, TYPE_COLORS
+from bbvw2_wiki.utils.data.constants import (
+    TYPE_CATEGORY_COLORS,
+    TYPE_COLORS,
+)
 from bbvw2_wiki.utils.data.models import Ability, Item, Move, Pokemon
 from bbvw2_wiki.utils.data.pokemon import get_pokemon_sprite
 from bbvw2_wiki.utils.text.text_util import format_display_name, name_to_id

@@ -70,9 +70,15 @@ def _load_generation_config():
     except ImportError:
         # Fallback to defaults if circular import occurs during package initialization
         return {
-            "version_groups": {"black_white", "black_2_white_2"},
-            "game_versions": {"black", "white", "black_2", "white_2"},
-            "sprite_version": "black_white",
+            "version_groups": {"platinum", "diamond_pearl", "heartgold_soulsilver"},
+            "game_versions": {
+                "platinum",
+                "diamond",
+                "pearl",
+                "heartgold",
+                "soulsilver",
+            },
+            "sprite_version": "platinum",
         }
 
 
@@ -92,74 +98,84 @@ class _GameVersionMap(Generic[T]):
     """
     Base class for game version maps. Holds values of type T keyed by game version.
     Uses generics to support both string and integer value types.
+
+    This class is fully dynamic and accepts any version group keys from any generation.
     """
 
-    def __init__(self, data: dict[str, Any], value_type: type, version_keys: set[str]):
+    __slots__ = ("_data", "_value_type")
+
+    def __init__(self, data: dict[str, Any], value_type: type):
         """
-        Initialize the map, dynamically setting attributes.
+        Initialize the map, storing all version group data dynamically.
 
         Args:
             data: Dictionary mapping game version keys to values
             value_type: Expected type for values (str or int)
-            version_keys: Set of valid version keys to filter against
         """
         if not isinstance(data, dict):
             raise ValueError(f"Expected a dict, got {type(data)}")
 
-        # Store version keys for later use
-        self._version_keys = version_keys
-        self._value_type = value_type
+        # Store the data dict and value type
+        object.__setattr__(self, "_data", {})
+        object.__setattr__(self, "_value_type", value_type)
 
-        # Dynamically set slots based on version keys
-        object.__setattr__(self, "__slots__", tuple(version_keys))
-
-        for game in version_keys:
-            value = data.get(game)
+        # Validate and store all version group data
+        for game, value in data.items():
             if value is not None and not isinstance(value, value_type):
                 raise ValueError(
                     f"Value for '{game}' must be {value_type.__name__} or None, got {type(value).__name__}"
                 )
-            setattr(self, game, value)
+            self._data[game] = value
+
+    def __getattr__(self, name: str) -> Optional[T]:
+        """Get a version group value by attribute access."""
+        if name.startswith("_"):
+            raise AttributeError(
+                f"'{type(self).__name__}' object has no attribute '{name}'"
+            )
+        return self._data.get(name)
+
+    def __setattr__(self, name: str, value: Optional[T]) -> None:
+        """Set a version group value by attribute access."""
+        if name.startswith("_"):
+            object.__setattr__(self, name, value)
+        else:
+            if value is not None and not isinstance(value, self._value_type):
+                raise ValueError(
+                    f"Value for '{name}' must be {self._value_type.__name__} or None, got {type(value).__name__}"
+                )
+            self._data[name] = value
 
     def to_dict(self) -> dict[str, T]:
         """Convert to a dictionary, excluding None values."""
-        result = {}
-        for game in self._version_keys:
-            value = getattr(self, game, None)
-            if value is not None:
-                result[game] = value
-        return result
+        return {k: v for k, v in self._data.items() if v is not None}
 
     def __repr__(self) -> str:
         """Provide a clean representation for debugging."""
-        parts = []
-        type_name = self.__class__.__name__
-        for game in self._version_keys:
-            value = getattr(self, game, None)
-            if value is not None:
-                parts.append(f"{game}={value!r}")
-        return f"{type_name}({', '.join(parts)})"
+        parts = [
+            f"{game}={value!r}"
+            for game, value in self._data.items()
+            if value is not None
+        ]
+        return f"{type(self).__name__}({', '.join(parts)})"
+
+    def keys(self):
+        """Return the list of version group keys for iteration compatibility."""
+        return self._data.keys()
 
 
 class GameVersionStringMap(_GameVersionMap[str]):
     """
     Holds string values keyed by game version (e.g., flavor text, effects).
-    Attributes are pre-declared for static analysis.
+    Fully dynamic - accepts any version group keys from any generation.
     """
-
-    __slots__ = tuple(VERSION_GROUP_KEYS)
-
-    # Pre-declare attributes for static analysis (mypy/linter)
-    # <-- EDIT HERE when switching generations
-    black_white: Optional[str]
-    black_2_white_2: Optional[str]
 
     def __init__(self, data: dict[str, Any]):
         """
-        Initialize the map, dynamically setting attributes.
-        Filters keys against VERSION_GROUP_KEYS.
+        Initialize the map with string values.
+        Accepts any version group keys from the input data.
         """
-        super().__init__(data, str, VERSION_GROUP_KEYS)
+        super().__init__(data, str)
 
     @classmethod
     def from_dict(cls, data: dict[str, Any]) -> "GameVersionStringMap":
@@ -171,22 +187,15 @@ class GameVersionIntMap(_GameVersionMap[int]):
     """
     Holds integer (or Optional[int]) values keyed by game version.
     (e.g., power, pp, accuracy, effect_chance).
-    Attributes are pre-declared for static analysis.
+    Fully dynamic - accepts any version group keys from any generation.
     """
-
-    __slots__ = tuple(VERSION_GROUP_KEYS)
-
-    # Pre-declare attributes for static analysis (mypy/linter)
-    # <-- EDIT HERE when switching generations
-    black_white: Optional[int]
-    black_2_white_2: Optional[int]
 
     def __init__(self, data: dict[str, Any]):
         """
-        Initialize the map, dynamically setting attributes.
-        Filters keys against VERSION_GROUP_KEYS.
+        Initialize the map with integer values.
+        Accepts any version group keys from the input data.
         """
-        super().__init__(data, int, VERSION_GROUP_KEYS)
+        super().__init__(data, int)
 
     @classmethod
     def from_dict(cls, data: dict[str, Any]) -> "GameVersionIntMap":
@@ -198,24 +207,15 @@ class GameStringMap(_GameVersionMap[str]):
     """
     Holds string values keyed by individual game version (not version groups).
     Used for flavor text which varies by individual game.
-    Attributes are pre-declared for static analysis.
+    Fully dynamic - accepts any game version keys from any generation.
     """
-
-    __slots__ = tuple(GAME_VERSION_KEYS)
-
-    # Pre-declare attributes for static analysis (mypy/linter)
-    # <-- EDIT HERE when switching generations
-    black: Optional[str]
-    white: Optional[str]
-    black_2: Optional[str]
-    white_2: Optional[str]
 
     def __init__(self, data: dict[str, Any]):
         """
-        Initialize the map, dynamically setting attributes.
-        Filters keys against GAME_VERSION_KEYS.
+        Initialize the map with string values.
+        Accepts any game version keys from the input data.
         """
-        super().__init__(data, str, GAME_VERSION_KEYS)
+        super().__init__(data, str)
 
     @classmethod
     def from_dict(cls, data: dict[str, Any]) -> "GameStringMap":
@@ -1150,57 +1150,77 @@ class GenerationSprites:
 
 class SpriteVersions:
     """
-    Contains sprite URLs for the generation's main game version.
-    The attribute name is set by SPRITE_VERSION_KEY but is
-    hardcoded here for static analysis.
+    Contains sprite URLs for any game version.
+    Fully dynamic - accepts any sprite version keys from any generation.
     """
 
-    # Use slot for efficiency
-    __slots__ = (SPRITE_VERSION_KEY,)
-
-    # Pre-declare attribute for static analysis (mypy/linter)
-    # <-- EDIT HERE when switching generations
-    black_white: GenerationSprites
+    __slots__ = ("_data",)
 
     def __init__(self, data: dict[str, Any]):
-        """Initialize the sprite version from config."""
+        """Initialize the sprite versions dynamically from any generation."""
         if not isinstance(data, dict):
             raise ValueError(f"Expected a dict, got {type(data)}")
 
-        key = SPRITE_VERSION_KEY
-        value = data.get(key)
+        object.__setattr__(self, "_data", {})
 
-        if value is None:
-            raise ValueError(f"Missing required sprite key in data: {key}")
-        if isinstance(value, dict):
-            # Ensure animated key exists with None default
-            sprite_data = {**value}
-            if "animated" not in sprite_data:
-                sprite_data["animated"] = None
-            setattr(self, key, GenerationSprites(**sprite_data))
-        elif isinstance(value, GenerationSprites):
-            setattr(self, key, value)
-        else:
-            raise ValueError(
-                f"Sprite key '{key}' must be a dict or GenerationSprites, got {type(value)}"
+        # Store all sprite versions from input data
+        for key, value in data.items():
+            if value is None:
+                self._data[key] = None
+            elif isinstance(value, dict):
+                # Ensure all sprite fields have None defaults
+                sprite_data = {
+                    "animated": None,
+                    "back_default": None,
+                    "back_female": None,
+                    "back_shiny": None,
+                    "back_shiny_female": None,
+                    "front_default": None,
+                    "front_female": None,
+                    "front_shiny": None,
+                    "front_shiny_female": None,
+                }
+                # Update with actual values from input
+                sprite_data.update(value)
+                self._data[key] = GenerationSprites(**sprite_data)
+            elif isinstance(value, GenerationSprites):
+                self._data[key] = value
+            else:
+                raise ValueError(
+                    f"Sprite key '{key}' must be a dict or GenerationSprites, got {type(value)}"
+                )
+
+    def __getattr__(self, name: str) -> Optional[GenerationSprites]:
+        """Get a sprite version by attribute access."""
+        if name.startswith("_"):
+            raise AttributeError(
+                f"'{type(self).__name__}' object has no attribute '{name}'"
             )
+        return self._data.get(name)
+
+    def __setattr__(self, name: str, value: Optional[GenerationSprites]) -> None:
+        """Set a sprite version by attribute access."""
+        if name.startswith("_"):
+            object.__setattr__(self, name, value)
+        else:
+            self._data[name] = value
 
     def to_dict(self) -> dict[str, Any]:
         """Convert to a dictionary."""
-        key = SPRITE_VERSION_KEY
-        value = getattr(self, key, None)
-        if value is not None:
-            # Convert GenerationSprites dataclass to dict
-            from dataclasses import asdict
+        from dataclasses import asdict
 
-            return {key: asdict(value)}
-        return {}
+        result = {}
+        for key, value in self._data.items():
+            if value is not None:
+                result[key] = asdict(value)
+        return result
 
     def __repr__(self) -> str:
         """Provide a clean representation for debugging."""
-        key = SPRITE_VERSION_KEY
-        value = getattr(self, key, None)
-        return f"SpriteVersions({key}={value!r})"
+        parts = [
+            f"{key}={value!r}" for key, value in self._data.items() if value is not None
+        ]
+        return f"SpriteVersions({', '.join(parts)})"
 
 
 @dataclass(slots=True)

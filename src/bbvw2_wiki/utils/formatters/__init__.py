@@ -14,6 +14,7 @@ Import patterns:
 
 from .markdown_formatter import (
     format_ability,
+    format_category_badge,
     format_checkbox,
     format_item,
     format_move,
@@ -32,6 +33,7 @@ from .yaml_formatter import (
 __all__ = [
     # Markdown formatters
     "format_ability",
+    "format_category_badge",
     "format_checkbox",
     "format_item",
     "format_move",
