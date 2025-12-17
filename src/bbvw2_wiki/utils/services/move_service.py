@@ -238,9 +238,9 @@ class MoveService:
 
             # Update the attribute
             # Check if it's a version group object or a plain value
-            if hasattr(field_obj, "__slots__"):
+            if hasattr(field_obj, "keys"):
                 # Version group object - update all version groups
-                for version_key in field_obj.__slots__:
+                for version_key in field_obj.keys():
                     setattr(field_obj, version_key, processed_value)
             else:
                 # Plain value - set directly on the move object

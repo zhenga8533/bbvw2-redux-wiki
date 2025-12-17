@@ -52,7 +52,7 @@ class BaseGenerator(ABC):
 
         self.logger = get_logger(self.__class__.__module__)
         if project_root is None:
-            self.project_root = Path(__file__).parent.parent.parent
+            self.project_root = Path(__file__).parent.parent.parent.parent
         else:
             self.project_root = project_root
 

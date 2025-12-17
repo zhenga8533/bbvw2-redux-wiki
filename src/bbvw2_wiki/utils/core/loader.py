@@ -228,9 +228,8 @@ class PokeDBLoader:
         with cls._data_dir_lock:
             if cls._data_dir is None:
                 # Default to <project_root>/data/pokedb/parsed
-                # Path is: src/utils/core/loader.py -> parent = core -> parent = utils -> parent = src -> parent = project_root
                 cls._data_dir = (
-                    Path(__file__).parent.parent.parent.parent
+                    Path(__file__).parent.parent.parent.parent.parent
                     / "data"
                     / "pokedb"
                     / "parsed"

@@ -52,7 +52,7 @@ class BaseParser(ABC):
 
         # Set up paths
         if project_root is None:
-            self.project_root = Path(__file__).parent.parent.parent
+            self.project_root = Path(__file__).parent.parent.parent.parent
         else:
             self.project_root = project_root
 
