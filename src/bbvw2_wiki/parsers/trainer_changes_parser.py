@@ -312,7 +312,6 @@ class TrainerChangesParser(LocationParser):
         # Match: empty line after table
         elif line == "" and self._is_table_open:
             self._is_table_open = False
-            self._markdown += "\n"
             self.parse_default(line)
         # Default: regular text line
         else:
@@ -347,10 +346,6 @@ class TrainerChangesParser(LocationParser):
             md += f'=== "{trainer}"\n\n'
             self._indent_level = 1
             return md
-
-        # Strip special prefixes (●, ○, *, \*, ♕, etc.)
-        # Note: * is already escaped as \* by line 171
-        trainer = re.sub(r"^[●○*\\♕\s]+", "", trainer)
 
         # Extract optional fields (reward in {}, mode in [], battle type in ())
         fields = {"reward": "", "mode": "", "battle_type": ""}
@@ -460,10 +455,6 @@ class TrainerChangesParser(LocationParser):
         Returns:
             Dict[str, Any]: Trainer data dictionary.
         """
-        # Strip special prefixes (●, ○, *, \*, ♕, etc.)
-        # Note: * is already escaped as \* by line 171
-        trainer_name = re.sub(r"^[●○*\\♕\s]+", "", trainer_raw)
-
         # Extract optional fields (reward in {}, mode in [], battle type in ())
         fields = {"reward": [], "mode": "", "battle_type": ""}
         patterns = {
@@ -472,8 +463,9 @@ class TrainerChangesParser(LocationParser):
             "battle_type": r"\((.+?)\)",
         }
 
+        trainer_name = trainer_raw
         for key, pat in patterns.items():
-            m = re.search(pat, trainer_name)
+            m = re.search(pat, trainer_raw)
             if m:
                 if key == "reward":
                     fields[key] = [item.strip() for item in m.group(1).split(",")]
