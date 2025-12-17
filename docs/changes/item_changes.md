@@ -14,7 +14,7 @@ The following items have been replaced for new items:
 
 | Old Item | New Item |
 |:---------|:---------|
-| ![Red Scarf](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/red-scarf.png){ .item-sprite } [Red Scarf](../pokedex/items/red-scarf.md) | Ice Stone |
+| ![Red Scarf](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/red-scarf.png){ .item-sprite } [Red Scarf](../pokedex/items/red-scarf.md) | ![Ice Stone](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/ice-stone.png){ .item-sprite } [Ice Stone](../pokedex/items/ice-stone.md) |
 | ![Oval Stone](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/oval-stone.png){ .item-sprite } [Oval Stone](../pokedex/items/oval-stone.md) | Link Cable |
 | ![God Stone](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/god-stone.png){ .item-sprite } [God Stone](../pokedex/items/god-stone.md) | Old Sea Map |
 
@@ -45,7 +45,7 @@ The following items now have a "Use" option like evolutionary stones:
 - ![Protector](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/protector.png){ .item-sprite } [Protector](../pokedex/items/protector.md)
 - ![Reaper Cloth](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/reaper-cloth.png){ .item-sprite } [Reaper Cloth](../pokedex/items/reaper-cloth.md)
 - ![Up Grade](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/up-grade.png){ .item-sprite } [Up Grade](../pokedex/items/up-grade.md)
-- Ice Stone
+- ![Ice Stone](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/ice-stone.png){ .item-sprite } [Ice Stone](../pokedex/items/ice-stone.md)
 - Link Cable
 
 ## Pickup Table Changes
@@ -199,7 +199,7 @@ Almost all items have been redistributed in Redux. These changes are documented 
 | — | ![Destiny Knot](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/destiny-knot.png){ .item-sprite } [Destiny Knot](../pokedex/items/destiny-knot.md) | <input type="checkbox" disabled /> |
 | ![Exp. Share](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/exp-share.png){ .item-sprite } [Exp. Share](../pokedex/items/exp-share.md) | ![Dream Ball](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dream-ball.png){ .item-sprite } [Dream Ball](../pokedex/items/dream-ball.md) x30 | <input type="checkbox" disabled /> |
 | — | Choice between a:<br>![Leaf Stone](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/leaf-stone.png){ .item-sprite } [Leaf Stone](../pokedex/items/leaf-stone.md)<br>![Fire Stone](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/fire-stone.png){ .item-sprite } [Fire Stone](../pokedex/items/fire-stone.md)<br>![Water Stone](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/water-stone.png){ .item-sprite } [Water Stone](../pokedex/items/water-stone.md) | <input type="checkbox" disabled /> |
-| — | Choice between a:<br>![Water Stone](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/water-stone.png){ .item-sprite } [Water Stone](../pokedex/items/water-stone.md)<br>![Thunder Stone](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/thunder-stone.png){ .item-sprite } [Thunder Stone](../pokedex/items/thunder-stone.md)<br>![Fire Stone](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/fire-stone.png){ .item-sprite } [Fire Stone](../pokedex/items/fire-stone.md)<br>![Sun Stone](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/sun-stone.png){ .item-sprite } [Sun Stone](../pokedex/items/sun-stone.md)<br>![Moon Stone](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/moon-stone.png){ .item-sprite } [Moon Stone](../pokedex/items/moon-stone.md)<br>![Leaf Stone](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/leaf-stone.png){ .item-sprite } [Leaf Stone](../pokedex/items/leaf-stone.md)<br>Ice Stone | <input type="checkbox" disabled /> |
+| — | Choice between a:<br>![Water Stone](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/water-stone.png){ .item-sprite } [Water Stone](../pokedex/items/water-stone.md)<br>![Thunder Stone](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/thunder-stone.png){ .item-sprite } [Thunder Stone](../pokedex/items/thunder-stone.md)<br>![Fire Stone](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/fire-stone.png){ .item-sprite } [Fire Stone](../pokedex/items/fire-stone.md)<br>![Sun Stone](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/sun-stone.png){ .item-sprite } [Sun Stone](../pokedex/items/sun-stone.md)<br>![Moon Stone](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/moon-stone.png){ .item-sprite } [Moon Stone](../pokedex/items/moon-stone.md)<br>![Leaf Stone](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/leaf-stone.png){ .item-sprite } [Leaf Stone](../pokedex/items/leaf-stone.md)<br>![Ice Stone](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/ice-stone.png){ .item-sprite } [Ice Stone](../pokedex/items/ice-stone.md) | <input type="checkbox" disabled /> |
 | ![Quick Ball](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/quick-ball.png){ .item-sprite } [Quick Ball](../pokedex/items/quick-ball.md) x2 | ![Quick Ball](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/quick-ball.png){ .item-sprite } [Quick Ball](../pokedex/items/quick-ball.md) x5 | <input type="checkbox" disabled /> |
 | — | ![Timer Ball](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/timer-ball.png){ .item-sprite } [Timer Ball](../pokedex/items/timer-ball.md) x5 | <input type="checkbox" disabled /> |
 | ![Scope Lens](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/scope-lens.png){ .item-sprite } [Scope Lens](../pokedex/items/scope-lens.md) | ![Float Stone](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/float-stone.png){ .item-sprite } [Float Stone](../pokedex/items/float-stone.md) | <input type="checkbox" disabled /> |
@@ -324,7 +324,7 @@ Almost all items have been redistributed in Redux. These changes are documented 
 
 | Old Item | New Item | Hidden |
 |:---------|:---------|:------:|
-| ![Sun Stone](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/sun-stone.png){ .item-sprite } [Sun Stone](../pokedex/items/sun-stone.md) | Ice Stone | <input type="checkbox" disabled /> |
+| ![Sun Stone](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/sun-stone.png){ .item-sprite } [Sun Stone](../pokedex/items/sun-stone.md) | ![Ice Stone](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/ice-stone.png){ .item-sprite } [Ice Stone](../pokedex/items/ice-stone.md) | <input type="checkbox" disabled /> |
 | — | ![Macho Brace](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/macho-brace.png){ .item-sprite } [Macho Brace](../pokedex/items/macho-brace.md) | <input type="checkbox" disabled /> |
 | — | ![Red Shard](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/red-shard.png){ .item-sprite } [Red Shard](../pokedex/items/red-shard.md) x10 | <input type="checkbox" disabled /> |
 | — | ![Soothe Bell](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/soothe-bell.png){ .item-sprite } [Soothe Bell](../pokedex/items/soothe-bell.md) | <input type="checkbox" disabled /> |
@@ -1066,7 +1066,7 @@ Almost all items have been redistributed in Redux. These changes are documented 
 | — | ![Skull Fossil](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/skull-fossil.png){ .item-sprite } [Skull Fossil](../pokedex/items/skull-fossil.md) | <input type="checkbox" disabled /> |
 | — | ![Armor Fossil](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/armor-fossil.png){ .item-sprite } [Armor Fossil](../pokedex/items/armor-fossil.md) | <input type="checkbox" disabled /> |
 | — | ![Dusk Ball](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dusk-ball.png){ .item-sprite } [Dusk Ball](../pokedex/items/dusk-ball.md) | <input type="checkbox" disabled /> |
-| ![TM71](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM71](../pokedex/items/tm71.md), [Stone Edge](../pokedex/moves/stone-edge.md) | Ice Stone | <input type="checkbox" disabled /> |
+| ![TM71](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM71](../pokedex/items/tm71.md), [Stone Edge](../pokedex/moves/stone-edge.md) | ![Ice Stone](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/ice-stone.png){ .item-sprite } [Ice Stone](../pokedex/items/ice-stone.md) | <input type="checkbox" disabled /> |
 | ![TM91](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM91](../pokedex/items/tm91.md), [Flash Cannon](../pokedex/moves/flash-cannon.md) | ![TM77](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM77](../pokedex/items/tm77.md), [Psych Up](../pokedex/moves/psych-up.md) | <input type="checkbox" disabled /> |
 | ![TM90](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM90](../pokedex/items/tm90.md), [Substitute](../pokedex/moves/substitute.md) | ![Shiny Stone](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/shiny-stone.png){ .item-sprite } [Shiny Stone](../pokedex/items/shiny-stone.md) | <input type="checkbox" disabled /> |
 | — | ![Rare Bone](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/rare-bone.png){ .item-sprite } [Rare Bone](../pokedex/items/rare-bone.md) | <input type="checkbox" disabled /> |
@@ -1291,7 +1291,7 @@ Plasma Grunt now sells:
 - ![Sun Stone](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/sun-stone.png){ .item-sprite } [Sun Stone](../pokedex/items/sun-stone.md)
 - ![Moon Stone](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/moon-stone.png){ .item-sprite } [Moon Stone](../pokedex/items/moon-stone.md)
 - ![Leaf Stone](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/leaf-stone.png){ .item-sprite } [Leaf Stone](../pokedex/items/leaf-stone.md)
-- Ice Stone
+- ![Ice Stone](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/ice-stone.png){ .item-sprite } [Ice Stone](../pokedex/items/ice-stone.md)
 - Link Cable
 - ![King's Rock](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/kings-rock.png){ .item-sprite } [King's Rock](../pokedex/items/kings-rock.md)
 - ![Metal Coat](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/metal-coat.png){ .item-sprite } [Metal Coat](../pokedex/items/metal-coat.md)
@@ -1329,7 +1329,7 @@ Now sells:
 - ![Sun Stone](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/sun-stone.png){ .item-sprite } [Sun Stone](../pokedex/items/sun-stone.md)
 - ![Moon Stone](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/moon-stone.png){ .item-sprite } [Moon Stone](../pokedex/items/moon-stone.md)
 - ![Leaf Stone](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/leaf-stone.png){ .item-sprite } [Leaf Stone](../pokedex/items/leaf-stone.md)
-- Ice Stone
+- ![Ice Stone](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/ice-stone.png){ .item-sprite } [Ice Stone](../pokedex/items/ice-stone.md)
 - Link Cable
 - ![King's Rock](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/kings-rock.png){ .item-sprite } [King's Rock](../pokedex/items/kings-rock.md)
 - ![Metal Coat](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/metal-coat.png){ .item-sprite } [Metal Coat](../pokedex/items/metal-coat.md)

@@ -3,7 +3,8 @@ Parser for Item Changes documentation file.
 
 This parser:
 1. Reads data/documentation/Item Changes.txt
-2. Generates a markdown file to docs/item_changes.md
+2. Updates item data in data/pokedb/parsed/
+3. Generates a markdown file to docs/item_changes.md
 """
 
 import re
@@ -12,6 +13,7 @@ from bbvw2_redux_wiki.utils.formatters.markdown_formatter import (
     format_checkbox,
     format_item,
 )
+from bbvw2_redux_wiki.utils.services.item_service import ItemService
 
 from .base_parser import BaseParser
 
@@ -87,6 +89,10 @@ class ItemChangesParser(BaseParser):
                 self._in_replace = True
 
             old_item, new_item = match.groups()
+
+            # Copy the new item from latest generation to parsed data
+            ItemService.copy_new_item(new_item)
+
             old_item_md = format_item(old_item)
             new_item_md = format_item(new_item)
 
@@ -100,6 +106,10 @@ class ItemChangesParser(BaseParser):
                 self._in_adjust_cost = True
 
             item, old_cost, new_cost = match.groups()
+
+            # Update the item cost
+            ItemService.update_item_cost(item, int(new_cost))
+
             item_md = format_item(item)
 
             self._markdown += f"| {item_md} | ${old_cost} | ${new_cost} |\n"
@@ -316,6 +326,16 @@ class ItemChangesParser(BaseParser):
             parts = re.split(r"\s{3,}", line)
             if len(parts) == 3:
                 tm_number, move_name, location = parts
+
+                # If the move name contains " -> ", extract the new move name
+                if " -> " in move_name:
+                    old_move, new_move = move_name.split(" -> ")
+                    # Update the TM with the new move
+                    ItemService.update_tm_move(tm_number, new_move)
+                else:
+                    # No change, just update with the current move
+                    ItemService.update_tm_move(tm_number, move_name)
+
                 tm_html = format_item(tm_number)
                 self._markdown += f"| {tm_html} | {move_name} | {location} |\n"
             else:
