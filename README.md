@@ -60,7 +60,7 @@ pip install -e .
 3. Initialize the PokeDB data:
 
 ```bash
-python -m bbvw2_wiki --init
+python -m bbvw2_redux_wiki --init
 # or
 bbvw2-wiki --init
 ```
@@ -78,7 +78,7 @@ The main script provides several commands:
 Download and set up the PokeDB data:
 
 ```bash
-python -m bbvw2_wiki --init
+python -m bbvw2_redux_wiki --init
 # or
 bbvw2-wiki --init
 ```
@@ -89,13 +89,13 @@ Parse documentation files and convert them to markdown:
 
 ```bash
 # Run all parsers
-python -m bbvw2_wiki --parsers all
+python -m bbvw2_redux_wiki --parsers all
 
 # Run specific parsers
-python -m bbvw2_wiki --parsers evolution_changes gift_pokemon
+python -m bbvw2_redux_wiki --parsers evolution_changes gift_pokemon
 
 # List available parsers
-python -m bbvw2_wiki --list-parsers
+python -m bbvw2_redux_wiki --list-parsers
 ```
 
 Available parsers:
@@ -117,13 +117,13 @@ Generate reference pages from PokeDB data:
 
 ```bash
 # Run all generators
-python -m bbvw2_wiki --generators all
+python -m bbvw2_redux_wiki --generators all
 
 # Run specific generators
-python -m bbvw2_wiki --generators pokemon abilities
+python -m bbvw2_redux_wiki --generators pokemon abilities
 
 # List available generators
-python -m bbvw2_wiki --list-generators
+python -m bbvw2_redux_wiki --list-generators
 ```
 
 Available generators:
@@ -169,7 +169,7 @@ bbvw2-redux-wiki/
 │   ├── pokedex/                    # Pokémon, abilities, items, moves
 │   └── stylesheets/                # Custom CSS
 ├── src/                            # Python source code
-│   └── bbvw2_wiki/                 # Main package
+│   └── bbvw2_redux_wiki/                 # Main package
 │       ├── __init__.py             # Package initialization
 │       ├── __main__.py             # CLI entry point
 │       ├── py.typed                # Type hint marker
@@ -215,21 +215,25 @@ bbvw2-redux-wiki/
 ### Data Flow
 
 **Data Initialization:**
+
 ```
 External PokeDB Repository → Download → data/pokedb/parsed/
 ```
 
 **Documentation Processing:**
+
 ```
 data/documentation/*.txt → Parsers → docs/changes/*.md + docs/reference/*.md
 ```
 
 **Reference Generation:**
+
 ```
 data/pokedb/parsed/*.json → Generators → docs/pokedex/* + docs/locations/*
 ```
 
 **Site Building:**
+
 ```
 docs/**/*.md → MkDocs → Static HTML Site
 ```
@@ -244,7 +248,7 @@ docs/**/*.md → MkDocs → Static HTML Site
 
 ### Key Components
 
-#### 1. Parsers (`src/bbvw2_wiki/parsers/`)
+#### 1. Parsers (`src/bbvw2_redux_wiki/parsers/`)
 
 Convert text documentation files to markdown pages.
 
@@ -256,7 +260,7 @@ Convert text documentation files to markdown pages.
 **Input:** `data/documentation/*.txt`
 **Output:** `docs/changes/*.md` and `docs/reference/*.md`
 
-#### 2. Generators (`src/bbvw2_wiki/generators/`)
+#### 2. Generators (`src/bbvw2_redux_wiki/generators/`)
 
 Generate comprehensive reference pages from PokeDB data.
 
@@ -265,7 +269,7 @@ Generate comprehensive reference pages from PokeDB data.
 **Input:** `data/pokedb/parsed/*/*.json`
 **Output:** `docs/pokedex/*` and `docs/locations/*`
 
-#### 3. Data Loader (`src/bbvw2_wiki/utils/core/loader.py`)
+#### 3. Data Loader (`src/bbvw2_redux_wiki/utils/core/loader.py`)
 
 Thread-safe JSON data loader with:
 
@@ -274,7 +278,7 @@ Thread-safe JSON data loader with:
 - Cache statistics tracking
 - Automatic eviction
 
-#### 4. Configuration (`src/bbvw2_wiki/utils/core/config.py`)
+#### 4. Configuration (`src/bbvw2_redux_wiki/utils/core/config.py`)
 
 Centralized configuration for:
 
@@ -287,7 +291,7 @@ Centralized configuration for:
 
 ### PokeDB Settings
 
-Located in `src/bbvw2_wiki/utils/core/config.py`:
+Located in `src/bbvw2_redux_wiki/utils/core/config.py`:
 
 ```python
 # PokeDB Repository
@@ -361,7 +365,7 @@ Install all dependencies with: `pip install -e .`
 1. Create a new parser class extending `BaseParser` or `LocationParser`:
 
 ```python
-# src/bbvw2_wiki/parsers/my_parser.py
+# src/bbvw2_redux_wiki/parsers/my_parser.py
 from .base_parser import BaseParser
 
 class MyParser(BaseParser):
@@ -370,7 +374,7 @@ class MyParser(BaseParser):
         pass
 ```
 
-2. Import and export in `src/bbvw2_wiki/parsers/__init__.py`:
+2. Import and export in `src/bbvw2_redux_wiki/parsers/__init__.py`:
 
 ```python
 from .my_parser import MyParser
@@ -381,7 +385,7 @@ __all__ = [
 ]
 ```
 
-3. Register in `src/bbvw2_wiki/utils/core/config.py`:
+3. Register in `src/bbvw2_redux_wiki/utils/core/config.py`:
 
 ```python
 PARSER_REGISTRY = {
@@ -415,13 +419,13 @@ Follow similar steps as adding a parser, but extend `BaseGenerator` and register
 If you encounter stale data, clear the cache:
 
 ```python
-from bbvw2_wiki.utils.core.loader import PokeDBLoader
+from bbvw2_redux_wiki.utils.core.loader import PokeDBLoader
 PokeDBLoader.clear_cache()
 ```
 
 ### Build Errors
 
-1. Ensure data is initialized: `python -m bbvw2_wiki --init`
+1. Ensure data is initialized: `python -m bbvw2_redux_wiki --init`
 2. Check logs in the `logs/` directory
 3. Verify all parsers and generators have run successfully
 

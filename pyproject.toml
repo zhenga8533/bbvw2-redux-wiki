@@ -19,7 +19,7 @@ dependencies = [
 ]
 
 [project.scripts]
-bbvw2-wiki = "bbvw2_wiki.__main__:main"
+bbvw2-wiki = "bbvw2_redux_wiki.__main__:main"
 
 [tool.setuptools.packages.find]
 where = ["src"]
