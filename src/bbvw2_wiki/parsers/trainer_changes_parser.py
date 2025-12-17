@@ -225,12 +225,14 @@ class TrainerChangesParser(LocationParser):
 
             # Use centralized method to clear trainers on first encounter
             sublocation_key = f"{self._current_location}/{self._current_sublocation}"
-            self._clear_location_data_on_first_encounter("trainers", "trainers", sublocation_key)
+            self._clear_location_data_on_first_encounter(
+                "trainers", "trainers", sublocation_key
+            )
 
             # Reset description capture for the new sublocation
             self._location_description_lines = []
             self._capturing_description = False
-            self._markdown += f"#### {nested_sublocation}\n"
+            self._markdown += f"#### {nested_sublocation}\n\n"
         elif match := re.match(r"^\~{1,} (.+) \~{1,}$", line):
             # Save captured description before sublocation
             if self._capturing_description and self._location_description_lines:
@@ -247,12 +249,14 @@ class TrainerChangesParser(LocationParser):
 
             # Use centralized method to clear trainers on first encounter
             sublocation_key = f"{self._current_location}/{self._current_sublocation}"
-            self._clear_location_data_on_first_encounter("trainers", "trainers", sublocation_key)
+            self._clear_location_data_on_first_encounter(
+                "trainers", "trainers", sublocation_key
+            )
 
             # Reset description capture for the new sublocation
             self._location_description_lines = []
             self._capturing_description = False
-            self._markdown += f"#### {nested_sublocation}\n"
+            self._markdown += f"#### {nested_sublocation}\n\n"
         elif line.startswith("~"):
             # Start capturing description after ~~~ delimiter
             self._capturing_description = True
@@ -286,9 +290,13 @@ class TrainerChangesParser(LocationParser):
             self._markdown += f'{"\t" * (self._indent_level - 1)}=== "{starter}"\n\n'
         # Match: "<trainer>:"
         elif match := re.match(r"^(.*):$", line):
-            # Save captured description before first trainer
+            # Save captured description before first trainer and output to markdown
             if self._capturing_description and self._location_description_lines:
                 self._save_location_description()
+                # Output description to markdown
+                for desc_line in self._location_description_lines:
+                    self._markdown += f"{desc_line}\n"
+                self._markdown += "\n"
                 self._capturing_description = False
 
             self._current_trainer = match.group(1)
@@ -301,6 +309,11 @@ class TrainerChangesParser(LocationParser):
             # Reset trainer notes for new trainer
             self._current_trainer_notes = []
             self._capturing_trainer_notes = False
+        # Match: empty line after table
+        elif line == "" and self._is_table_open:
+            self._is_table_open = False
+            self._markdown += "\n"
+            self.parse_default(line)
         # Default: regular text line
         else:
             # Capture trainer notes if we're in capture mode
@@ -334,6 +347,10 @@ class TrainerChangesParser(LocationParser):
             md += f'=== "{trainer}"\n\n'
             self._indent_level = 1
             return md
+
+        # Strip special prefixes (●, ○, *, \*, ♕, etc.)
+        # Note: * is already escaped as \* by line 171
+        trainer = re.sub(r"^[●○*\\♕\s]+", "", trainer)
 
         # Extract optional fields (reward in {}, mode in [], battle type in ())
         fields = {"reward": "", "mode": "", "battle_type": ""}
@@ -415,7 +432,7 @@ class TrainerChangesParser(LocationParser):
                 row += "<br>"
             row += f"{i + 1}. {format_move(move)}"
 
-        md += "\t" * self._indent_level + row + "\n"
+        md += f"{'\t' * self._indent_level}{row} |\n"
         return md
 
     def parse_the_postgame(self, line: str) -> None:
@@ -443,6 +460,10 @@ class TrainerChangesParser(LocationParser):
         Returns:
             Dict[str, Any]: Trainer data dictionary.
         """
+        # Strip special prefixes (●, ○, *, \*, ♕, etc.)
+        # Note: * is already escaped as \* by line 171
+        trainer_name = re.sub(r"^[●○*\\♕\s]+", "", trainer_raw)
+
         # Extract optional fields (reward in {}, mode in [], battle type in ())
         fields = {"reward": [], "mode": "", "battle_type": ""}
         patterns = {
@@ -451,9 +472,8 @@ class TrainerChangesParser(LocationParser):
             "battle_type": r"\((.+?)\)",
         }
 
-        trainer_name = trainer_raw
         for key, pat in patterns.items():
-            m = re.search(pat, trainer_raw)
+            m = re.search(pat, trainer_name)
             if m:
                 if key == "reward":
                     fields[key] = [item.strip() for item in m.group(1).split(",")]
