@@ -40,11 +40,5 @@
 
 	**#450 [Hippowdon](../pokemon/hippowdon.md)**
 
--	[![Gigalith](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/526.gif){: .pokemon-sprite-img }](../pokemon/gigalith.md)
-
-	***
-
-	**#526 [Gigalith](../pokemon/gigalith.md)**
-
 </div>
 

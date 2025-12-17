@@ -203,15 +203,14 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
  - Levels -1 on Easy mode, +1 on Challenge mode.
 
 
-**Youngster Terrell**
+**● Youngster Terrell**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
 | ![patrat](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/504.gif){ .sprite }<br>[Patrat](../pokedex/pokemon/patrat.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span></div> | **Level:** 6<br>**Ability:** [Analytic](../pokedex/abilities/analytic.md) | 1. [Foresight](../pokedex/moves/foresight.md)<br>2. [Bide](../pokedex/moves/bide.md)<br>3. [Tackle](../pokedex/moves/tackle.md)<br>4. [Leer](../pokedex/moves/leer.md) |
 | ![zigzagoon](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/263.gif){ .sprite }<br>[Zigzagoon](../pokedex/pokemon/zigzagoon.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span></div> | **Level:** 6<br>**Ability:** [Pickup](../pokedex/abilities/pickup.md) | 1. [Tackle](../pokedex/moves/tackle.md)<br>2. [Tail Whip](../pokedex/moves/tail-whip.md)<br>3. [Sand Attack](../pokedex/moves/sand-attack.md) |
 
-
-**Lass Isabel**
+**● Lass Isabel**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -219,8 +218,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![pidgey](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/16.gif){ .sprite }<br>[Pidgey](../pokedex/pokemon/pidgey.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 5<br>**Ability:** [Big Pecks](../pokedex/abilities/big-pecks.md) | 1. [Tackle](../pokedex/moves/tackle.md)<br>2. [Sand Attack](../pokedex/moves/sand-attack.md)<br>3. [Gust](../pokedex/moves/gust.md) |
 | ![sunkern](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/191.gif){ .sprite }<br>[Sunkern](../pokedex/pokemon/sunkern.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span></div> | **Level:** 5<br>**Ability:** [Chlorophyll](../pokedex/abilities/chlorophyll.md) | 1. [Absorb](../pokedex/moves/absorb.md)<br>2. [Ingrain](../pokedex/moves/ingrain.md)<br>3. [Leech Seed](../pokedex/moves/leech-seed.md)<br>4. [Pound](../pokedex/moves/pound.md) |
 
-
-**Youngster Petey**
+**● Youngster Petey**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -228,10 +226,9 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![lillipup](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/506.gif){ .sprite }<br>[Lillipup](../pokedex/pokemon/lillipup.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span></div> | **Level:** 5<br>**Ability:** [Vital Spirit](../pokedex/abilities/vital-spirit.md) | 1. [Leer](../pokedex/moves/leer.md)<br>2. [Mud Slap](../pokedex/moves/mud-slap.md)<br>3. [Tackle](../pokedex/moves/tackle.md)<br>4. [Lick](../pokedex/moves/lick.md) |
 | ![hoothoot](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/163.gif){ .sprite }<br>[Hoothoot](../pokedex/pokemon/hoothoot.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 5<br>**Ability:** [Tinted Lens](../pokedex/abilities/tinted-lens.md) | 1. [Foresight](../pokedex/moves/foresight.md)<br>2. [Growl](../pokedex/moves/growl.md)<br>3. [Peck](../pokedex/moves/peck.md)<br>4. [Tackle](../pokedex/moves/tackle.md) |
 
-
 #### Cheren Defeated
 
-**Hiker Jerome**
+**● Hiker Jerome**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -240,8 +237,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![wooper](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/194.gif){ .sprite }<br>[Wooper](../pokedex/pokemon/wooper.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span></div> | **Level:** 13<br>**Ability:** [Water Absorb](../pokedex/abilities/water-absorb.md) | 1. [Acid Spray](../pokedex/moves/acid-spray.md)<br>2. [Water Gun](../pokedex/moves/water-gun.md)<br>3. [Mud Shot](../pokedex/moves/mud-shot.md)<br>4. [Double Kick](../pokedex/moves/double-kick.md) |
 | ![drilbur](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/529.gif){ .sprite }<br>[Drilbur](../pokedex/pokemon/drilbur.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span></div> | **Level:** 12<br>**Ability:** [Mold Breaker](../pokedex/abilities/mold-breaker.md) | 1. [Fury Cutter](../pokedex/moves/fury-cutter.md)<br>2. [Scratch](../pokedex/moves/scratch.md)<br>3. [Fury Swipes](../pokedex/moves/fury-swipes.md)<br>4. [Rapid Spin](../pokedex/moves/rapid-spin.md) |
 
-
-**Preschooler♂ Albert**
+**● Preschooler♂ Albert**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -249,8 +245,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![cubone](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/104.gif){ .sprite }<br>[Cubone](../pokedex/pokemon/cubone.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span></div> | **Level:** 13<br>**Ability:** [Battle Armor](../pokedex/abilities/battle-armor.md) | 1. [Headbutt](../pokedex/moves/headbutt.md)<br>2. [Focus Energy](../pokedex/moves/focus-energy.md)<br>3. [Rock Tomb](../pokedex/moves/rock-tomb.md)<br>4. [Bone Club](../pokedex/moves/bone-club.md) |
 | ![sewaddle](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/540.gif){ .sprite }<br>[Sewaddle](../pokedex/pokemon/sewaddle.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> <span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span></div> | **Level:** 13<br>**Ability:** [Swarm](../pokedex/abilities/swarm.md) | 1. [Struggle Bug](../pokedex/moves/struggle-bug.md)<br>2. [Electroweb](../pokedex/moves/electroweb.md)<br>3. [Razor Leaf](../pokedex/moves/razor-leaf.md)<br>4. [Bug Bite](../pokedex/moves/bug-bite.md) |
 
-
-**Preschooler♀ Lin**
+**● Preschooler♀ Lin**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -258,8 +253,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![spheal](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/363.gif){ .sprite }<br>[Spheal](../pokedex/pokemon/spheal.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #98D8D8 0%, #98D8D8dd 100%);">Ice</span> <span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span></div> | **Level:** 13<br>**Ability:** [Thick Fat](../pokedex/abilities/thick-fat.md) | 1. [Powder Snow](../pokedex/moves/powder-snow.md)<br>2. [Water Pulse](../pokedex/moves/water-pulse.md)<br>3. [Whirlpool](../pokedex/moves/whirlpool.md)<br>4. [Super Fang](../pokedex/moves/super-fang.md) |
 | ![venipede](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/543.gif){ .sprite }<br>[Venipede](../pokedex/pokemon/venipede.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> <span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span></div> | **Level:** 13<br>**Ability:** [Poison Point](../pokedex/abilities/poison-point.md) | 1. [Bug Bite](../pokedex/moves/bug-bite.md)<br>2. [Rollout](../pokedex/moves/rollout.md)<br>3. [Protect](../pokedex/moves/protect.md)<br>4. [Poison Fang](../pokedex/moves/poison-fang.md) |
 
-
-**Twins Lia and Lily**
+**● Twins Lia and Lily**
 
 **Battle Type:** 2x
 
@@ -270,8 +264,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![lombre](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/271.gif){ .sprite }<br>[Lombre](../pokedex/pokemon/lombre.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> <span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span></div> | **Level:** 14<br>**Ability:** [Swift Swim](../pokedex/abilities/swift-swim.md) | 1. [Fake Out](../pokedex/moves/fake-out.md)<br>2. [Water Pulse](../pokedex/moves/water-pulse.md)<br>3. [Mega Drain](../pokedex/moves/mega-drain.md) |
 | ![nuzleaf](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/274.gif){ .sprite }<br>[Nuzleaf](../pokedex/pokemon/nuzleaf.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span> <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span></div> | **Level:** 14<br>**Ability:** [Pickpocket](../pokedex/abilities/pickpocket.md) | 1. [Razor Leaf](../pokedex/moves/razor-leaf.md)<br>2. [Payback](../pokedex/moves/payback.md)<br>3. [Quick Attack](../pokedex/moves/quick-attack.md) |
 
-
-**Nursery Aide Kimya**
+**● Nursery Aide Kimya**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -279,10 +272,9 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![machop](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/66.gif){ .sprite }<br>[Machop](../pokedex/pokemon/machop.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span></div> | **Level:** 14<br>**Ability:** [No Guard](../pokedex/abilities/no-guard.md) | 1. [Counter](../pokedex/moves/counter.md)<br>2. [Karate Chop](../pokedex/moves/karate-chop.md)<br>3. [Meditate](../pokedex/moves/meditate.md)<br>4. [Leer](../pokedex/moves/leer.md) |
 | ![munna](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/517.gif){ .sprite }<br>[Munna](../pokedex/pokemon/munna.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span> <span class="type-badge" style="background: linear-gradient(135deg, #EE99AC 0%, #EE99ACdd 100%);">Fairy</span></div> | **Level:** 14<br>**Ability:** [Analytic](../pokedex/abilities/analytic.md) | 1. [Swift](../pokedex/moves/swift.md)<br>2. [Hypnosis](../pokedex/moves/hypnosis.md)<br>3. [Confusion](../pokedex/moves/confusion.md)<br>4. [Disarming Voice](../pokedex/moves/disarming-voice.md) |
 
-
 #### Roxie Defeated
 
-**Plasma Grunt #763**
+**● Plasma Grunt #763**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -290,13 +282,12 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![zubat](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/41.gif){ .sprite }<br>[Zubat](../pokedex/pokemon/zubat.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 17<br>**Ability:** [Inner Focus](../pokedex/abilities/inner-focus.md) | 1. [Pluck](../pokedex/moves/pluck.md)<br>2. [Poison Fang](../pokedex/moves/poison-fang.md)<br>3. [Leech Life](../pokedex/moves/leech-life.md)<br>4. [Bite](../pokedex/moves/bite.md) |
 | ![mawile](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/303.gif){ .sprite }<br>[Mawile](../pokedex/pokemon/mawile.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #B8B8D0 0%, #B8B8D0dd 100%);">Steel</span></div> | **Level:** 17<br>**Ability:** [Intimidate](../pokedex/abilities/intimidate.md) | 1. [Rock Tomb](../pokedex/moves/rock-tomb.md)<br>2. [Covet](../pokedex/moves/covet.md)<br>3. [Thunder Fang](../pokedex/moves/thunder-fang.md)<br>4. [Metal Claw](../pokedex/moves/metal-claw.md) |
 
-
 #### Surf and Waterfall
 
  - Only accessible in Autumn.
 
 
-**Ranger♂ Leaf**
+**○ Ranger♂ Leaf**
 
 **Reward:** ![Sitrus Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/sitrus-berry.png){ .item-sprite } [Sitrus Berry](../pokedex/items/sitrus-berry.md)
 
@@ -305,8 +296,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![sawsbuck](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/586.gif){ .sprite }<br>[Sawsbuck](../pokedex/pokemon/sawsbuck.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> <span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span></div> | **Level:** 40<br>**Ability:** [Sap Sipper](../pokedex/abilities/sap-sipper.md) | 1. [Horn Leech](../pokedex/moves/horn-leech.md)<br>2. [Lunge](../pokedex/moves/lunge.md)<br>3. [Charm](../pokedex/moves/charm.md)<br>4. [Take Down](../pokedex/moves/take-down.md) |
 | ![tropius](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/357.gif){ .sprite }<br>[Tropius](../pokedex/pokemon/tropius.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 40<br>**Ability:** [Chlorophyll](../pokedex/abilities/chlorophyll.md) | 1. [Nature Power](../pokedex/moves/nature-power.md)<br>2. [Air Slash](../pokedex/moves/air-slash.md)<br>3. [Dragon Dance](../pokedex/moves/dragon-dance.md)<br>4. [Leaf Tornado](../pokedex/moves/leaf-tornado.md) |
 
-
-**Ranger♀ Malory**
+**○ Ranger♀ Malory**
 
 **Reward:** ![Leppa Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/leppa-berry.png){ .item-sprite } [Leppa Berry](../pokedex/items/leppa-berry.md)
 
@@ -314,8 +304,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 |:-------:|:-------:|:-----------|:------|
 | ![exeggutor](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/103.gif){ .sprite }<br>[Exeggutor](../pokedex/pokemon/exeggutor.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span> <span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span></div> | **Level:** 40<br>**Ability:** [Chlorophyll](../pokedex/abilities/chlorophyll.md) | 1. [Hypnosis](../pokedex/moves/hypnosis.md)<br>2. [Leech Seed](../pokedex/moves/leech-seed.md)<br>3. [Explosion](../pokedex/moves/explosion.md)<br>4. [Extrasensory](../pokedex/moves/extrasensory.md) |
 
-
-**Ranger♂ Bret**
+**○ Ranger♂ Bret**
 
 **Reward:** ![Leppa Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/leppa-berry.png){ .item-sprite } [Leppa Berry](../pokedex/items/leppa-berry.md)
 
@@ -323,8 +312,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 |:-------:|:-------:|:-----------|:------|
 | ![amoonguss](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/591.gif){ .sprite }<br>[Amoonguss](../pokedex/pokemon/amoonguss.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span> <span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span></div> | **Level:** 40<br>**Ability:** [Effect Spore](../pokedex/abilities/effect-spore.md) | 1. [Spore](../pokedex/moves/spore.md)<br>2. [Sludge Bomb](../pokedex/moves/sludge-bomb.md)<br>3. [Giga Drain](../pokedex/moves/giga-drain.md)<br>4. [Ingrain](../pokedex/moves/ingrain.md) |
 
-
-**Ranger♀ Naoko**
+**○ Ranger♀ Naoko**
 
 **Reward:** ![Sitrus Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/sitrus-berry.png){ .item-sprite } [Sitrus Berry](../pokedex/items/sitrus-berry.md)
 
@@ -333,13 +321,12 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![arcanine](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/59.gif){ .sprite }<br>[Arcanine](../pokedex/pokemon/arcanine.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F08030 0%, #F08030dd 100%);">Fire</span></div> | **Level:** 40<br>**Ability:** [Flash Fire](../pokedex/abilities/flash-fire.md) | 1. [Extreme Speed](../pokedex/moves/extreme-speed.md)<br>2. [Raging Fury](../pokedex/moves/raging-fury.md)<br>3. [Scorching Sands](../pokedex/moves/scorching-sands.md)<br>4. [Thunder Fang](../pokedex/moves/thunder-fang.md) |
 | ![stoutland](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/508.gif){ .sprite }<br>[Stoutland](../pokedex/pokemon/stoutland.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span></div> | **Level:** 40<br>**Ability:** [Intimidate](../pokedex/abilities/intimidate.md) | 1. [Ice Fang](../pokedex/moves/ice-fang.md)<br>2. [Thunder Fang](../pokedex/moves/thunder-fang.md)<br>3. [Fire Fang](../pokedex/moves/fire-fang.md)<br>4. [Double Edge](../pokedex/moves/double-edge.md) |
 
-
 ### Floccesy Ranch
 
  - Levels -1 on Easy mode, +1 on Challenge mode.
 
 
-**HUGH**
+**●♕ HUGH**
 
 === "Oshawott"
 
@@ -365,8 +352,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 	| ![tepig](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/498.gif){ .sprite }<br>[Tepig](../pokedex/pokemon/tepig.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F08030 0%, #F08030dd 100%);">Fire</span></div> | **Level:** 10<br>**Ability:** [Sheer Force](../pokedex/abilities/sheer-force.md)<br>**Item:** ![Oran Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/oran-berry.png){ .item-sprite } [Oran Berry](../pokedex/items/oran-berry.md) | 1. [Tackle](../pokedex/moves/tackle.md)<br>2. [Tail Whip](../pokedex/moves/tail-whip.md)<br>3. [Ember](../pokedex/moves/ember.md)<br>4. [Smog](../pokedex/moves/smog.md) |
 	| ![pansage](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/511.gif){ .sprite }<br>[Pansage](../pokedex/pokemon/pansage.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span></div> | **Level:** 19<br>**Ability:** [Overgrow](../pokedex/abilities/overgrow.md) | 1. [Tickle](../pokedex/moves/tickle.md)<br>2. [Scratch](../pokedex/moves/scratch.md)<br>3. [Lick](../pokedex/moves/lick.md)<br>4. [Vine Whip](../pokedex/moves/vine-whip.md) |
 
-
-**Lass Molly**
+**○ Lass Molly**
 
 	| Pokémon | Type(s) | Attributes | Moves |
 	|:-------:|:-------:|:-----------|:------|
@@ -374,8 +360,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 	| ![azurill](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/298.gif){ .sprite }<br>[Azurill](../pokedex/pokemon/azurill.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span></div> | **Level:** 7<br>**Ability:** [Thick Fat](../pokedex/abilities/thick-fat.md) | 1. [Water Gun](../pokedex/moves/water-gun.md)<br>2. [Sing](../pokedex/moves/sing.md)<br>3. [Defense Curl](../pokedex/moves/defense-curl.md)<br>4. [Tail Whip](../pokedex/moves/tail-whip.md) |
 	| ![pidove](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/519.gif){ .sprite }<br>[Pidove](../pokedex/pokemon/pidove.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 7<br>**Ability:** [Super Luck](../pokedex/abilities/super-luck.md) | 1. [Quick Attack](../pokedex/moves/quick-attack.md)<br>2. [Gust](../pokedex/moves/gust.md)<br>3. [Growl](../pokedex/moves/growl.md)<br>4. [Leer](../pokedex/moves/leer.md) |
 
-
-**Janitor Orville**
+**● Janitor Orville**
 
 	| Pokémon | Type(s) | Attributes | Moves |
 	|:-------:|:-------:|:-----------|:------|
@@ -383,8 +368,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 	| ![houndour](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/228.gif){ .sprite }<br>[Houndour](../pokedex/pokemon/houndour.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> <span class="type-badge" style="background: linear-gradient(135deg, #F08030 0%, #F08030dd 100%);">Fire</span></div> | **Level:** 8<br>**Ability:** [Intimidate](../pokedex/abilities/intimidate.md) | 1. [Ember](../pokedex/moves/ember.md)<br>2. [Howl](../pokedex/moves/howl.md)<br>3. [Leer](../pokedex/moves/leer.md)<br>4. [Lick](../pokedex/moves/lick.md) |
 	| ![slakoth](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/287.gif){ .sprite }<br>[Slakoth](../pokedex/pokemon/slakoth.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span></div> | **Level:** 8<br>**Ability:** [Truant](../pokedex/abilities/truant.md) | 1. [Scratch](../pokedex/moves/scratch.md)<br>2. [Amnesia](../pokedex/moves/amnesia.md)<br>3. [Mud Slap](../pokedex/moves/mud-slap.md)<br>4. [Pursuit](../pokedex/moves/pursuit.md) |
 
-
-**Youngster Kenny**
+**● Youngster Kenny**
 
 	| Pokémon | Type(s) | Attributes | Moves |
 	|:-------:|:-------:|:-----------|:------|
@@ -392,8 +376,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 	| ![poochyena](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/261.gif){ .sprite }<br>[Poochyena](../pokedex/pokemon/poochyena.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span></div> | **Level:** 8<br>**Ability:** [Rattled](../pokedex/abilities/rattled.md) | 1. [Mud Slap](../pokedex/moves/mud-slap.md)<br>2. [Bite](../pokedex/moves/bite.md)<br>3. [Howl](../pokedex/moves/howl.md)<br>4. [Sand Attack](../pokedex/moves/sand-attack.md) |
 	| ![ponyta](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/77.gif){ .sprite }<br>[Ponyta](../pokedex/pokemon/ponyta.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F08030 0%, #F08030dd 100%);">Fire</span></div> | **Level:** 8<br>**Ability:** [Flame Body](../pokedex/abilities/flame-body.md) | 1. [Ember](../pokedex/moves/ember.md)<br>2. [Tail Whip](../pokedex/moves/tail-whip.md)<br>3. [Tackle](../pokedex/moves/tackle.md)<br>4. [Quick Attack](../pokedex/moves/quick-attack.md) |
 
-
-**Plasma Grunt #884**
+**● Plasma Grunt #884**
 
 **Mode:** Challenge Mode
 
@@ -406,7 +389,6 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 	| ![axew](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/610.gif){ .sprite }<br>[Axew](../pokedex/pokemon/axew.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #7038F8 0%, #7038F8dd 100%);">Dragon</span></div> | **Level:** 11<br>**Ability:** [Mold Breaker](../pokedex/abilities/mold-breaker.md) | 1. [Endure](../pokedex/moves/endure.md)<br>2. [Rock Tomb](../pokedex/moves/rock-tomb.md)<br>3. [Taunt](../pokedex/moves/taunt.md)<br>4. [Payback](../pokedex/moves/payback.md) |
 	| ![joltik](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/595.gif){ .sprite }<br>[Joltik](../pokedex/pokemon/joltik.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> <span class="type-badge" style="background: linear-gradient(135deg, #F8D030 0%, #F8D030dd 100%);">Electric</span></div> | **Level:** 11<br>**Ability:** [Compound Eyes](../pokedex/abilities/compound-eyes.md) | 1. [Screech](../pokedex/moves/screech.md)<br>2. [Shock Wave](../pokedex/moves/shock-wave.md)<br>3. [Struggle Bug](../pokedex/moves/struggle-bug.md)<br>4. [Spider Web](../pokedex/moves/spider-web.md) |
 
-
 ### Floccesy Town
 
  - When you follow Alder inside, you will face two school kids back to back (you are healed in between fights).
@@ -414,7 +396,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
  - Levels -1 on Easy mode, +1 on Challenge mode.
 
 
-**School Kid Seymour**
+**● School Kid Seymour**
 
 === "Oshawott"
 
@@ -440,8 +422,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 	| ![snivy](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/495.gif){ .sprite }<br>[Snivy](../pokedex/pokemon/snivy.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span></div> | **Level:** 11<br>**Ability:** [Contrary](../pokedex/abilities/contrary.md) | 1. [Pursuit](../pokedex/moves/pursuit.md)<br>2. [Vine Whip](../pokedex/moves/vine-whip.md)<br>3. [Twister](../pokedex/moves/twister.md)<br>4. [Leer](../pokedex/moves/leer.md) |
 	| ![treecko](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/252.gif){ .sprite }<br>[Treecko](../pokedex/pokemon/treecko.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span></div> | **Level:** 11<br>**Ability:** [Overgrow](../pokedex/abilities/overgrow.md) | 1. [Pound](../pokedex/moves/pound.md)<br>2. [Leer](../pokedex/moves/leer.md)<br>3. [Quick Attack](../pokedex/moves/quick-attack.md)<br>4. [Absorb](../pokedex/moves/absorb.md) |
 
-
-**School Kid Cassie**
+**● School Kid Cassie**
 
 === "Oshawott"
 
@@ -466,7 +447,6 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 	| ![panpour](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/515.gif){ .sprite }<br>[Panpour](../pokedex/pokemon/panpour.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span></div> | **Level:** 11<br>**Ability:** [Gluttony](../pokedex/abilities/gluttony.md) | 1. [Water Pulse](../pokedex/moves/water-pulse.md)<br>2. [Tickle](../pokedex/moves/tickle.md)<br>3. [Lick](../pokedex/moves/lick.md)<br>4. [Taunt](../pokedex/moves/taunt.md) |
 	| ![oshawott](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/501.gif){ .sprite }<br>[Oshawott](../pokedex/pokemon/oshawott.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span></div> | **Level:** 11<br>**Ability:** [Shell Armor](../pokedex/abilities/shell-armor.md) | 1. [Aqua Jet](../pokedex/moves/aqua-jet.md)<br>2. [Tail Whip](../pokedex/moves/tail-whip.md)<br>3. [Water Gun](../pokedex/moves/water-gun.md)<br>4. [Tackle](../pokedex/moves/tackle.md) |
 	| ![mudkip](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/258.gif){ .sprite }<br>[Mudkip](../pokedex/pokemon/mudkip.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span></div> | **Level:** 11<br>**Ability:** [Torrent](../pokedex/abilities/torrent.md) | 1. [Tackle](../pokedex/moves/tackle.md)<br>2. [Growl](../pokedex/moves/growl.md)<br>3. [Mud Slap](../pokedex/moves/mud-slap.md)<br>4. [Water Gun](../pokedex/moves/water-gun.md) |
-
 
 ### Aspertia City
 
@@ -475,7 +455,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
  - No level shift based on difficulty, levels are as stated.
 
 
-**ROXANNE - Hoenn Leader**
+**○♕ ROXANNE - Hoenn Leader**
 
 **Reward:** ![Berry Juice](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/berry-juice.png){ .item-sprite } [Berry Juice](../pokedex/items/berry-juice.md)
 
@@ -486,8 +466,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![geodude](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/74.gif){ .sprite }<br>[Geodude](../pokedex/pokemon/geodude.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span> <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span></div> | **Level:** 10<br>**Ability:** [Sturdy](../pokedex/abilities/sturdy.md) | 1. [Rock Tomb](../pokedex/moves/rock-tomb.md)<br>2. [Sandstorm](../pokedex/moves/sandstorm.md)<br>3. [Tackle](../pokedex/moves/tackle.md)<br>4. [Stealth Rock](../pokedex/moves/stealth-rock.md) |
 | ![nosepass](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/299.gif){ .sprite }<br>[Nosepass](../pokedex/pokemon/nosepass.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span></div> | **Level:** 11<br>**Ability:** [Sand Force](../pokedex/abilities/sand-force.md) | 1. [Rock Tomb](../pokedex/moves/rock-tomb.md)<br>2. [Tackle](../pokedex/moves/tackle.md) |
 
-
-**ROXANNE - Hoenn Leader**
+**○♕ ROXANNE - Hoenn Leader**
 
 **Reward:** ![Berry Juice x2](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/berry-juice.png){ .item-sprite } [Berry Juice x2](../pokedex/items/berry-juice.md)
 
@@ -500,13 +479,12 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![nosepass](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/299.gif){ .sprite }<br>[Nosepass](../pokedex/pokemon/nosepass.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span></div> | **Level:** 13<br>**Ability:** [Magnet Pull](../pokedex/abilities/magnet-pull.md)<br>**Item:** ![Chesto Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/chesto-berry.png){ .item-sprite } [Chesto Berry](../pokedex/items/chesto-berry.md) | 1. [Rock Tomb](../pokedex/moves/rock-tomb.md)<br>2. [Rock Smash](../pokedex/moves/rock-smash.md)<br>3. [Shock Wave](../pokedex/moves/shock-wave.md)<br>4. [Rest](../pokedex/moves/rest.md) |
 | ![archen](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/566.gif){ .sprite }<br>[Archen](../pokedex/pokemon/archen.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 11<br>**Ability:** [Defeatist](../pokedex/abilities/defeatist.md)<br>**Item:** ![Cell Battery](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/cell-battery.png){ .item-sprite } [Cell Battery](../pokedex/items/cell-battery.md) | 1. [Rock Tomb](../pokedex/moves/rock-tomb.md)<br>2. [Wing Attack](../pokedex/moves/wing-attack.md)<br>3. [Bite](../pokedex/moves/bite.md)<br>4. [Dragon Breath](../pokedex/moves/dragon-breath.md) |
 
-
 #### Cheren's Gym
 
  - Levels -1 on Easy mode, +1 on Challenge mode.
 
 
-**Youngster Pedro**
+**● Youngster Pedro**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -514,8 +492,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![sentret](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/161.gif){ .sprite }<br>[Sentret](../pokedex/pokemon/sentret.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span></div> | **Level:** 10<br>**Ability:** [Hustle](../pokedex/abilities/hustle.md) | 1. [Fury Swipes](../pokedex/moves/fury-swipes.md)<br>2. [Quick Attack](../pokedex/moves/quick-attack.md)<br>3. [Pursuit](../pokedex/moves/pursuit.md) |
 | ![whismur](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/293.gif){ .sprite }<br>[Whismur](../pokedex/pokemon/whismur.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span></div> | **Level:** 10<br>**Ability:** [Scrappy](../pokedex/abilities/scrappy.md) | 1. [Uproar](../pokedex/moves/uproar.md)<br>2. [Fake Tears](../pokedex/moves/fake-tears.md)<br>3. [Disarming Voice](../pokedex/moves/disarming-voice.md) |
 
-
-**Lass Serena**
+**● Lass Serena**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -523,8 +500,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![teddiursa](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/216.gif){ .sprite }<br>[Teddiursa](../pokedex/pokemon/teddiursa.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span></div> | **Level:** 10<br>**Ability:** [Quick Feet](../pokedex/abilities/quick-feet.md) | 1. [Headbutt](../pokedex/moves/headbutt.md)<br>2. [Metal Claw](../pokedex/moves/metal-claw.md)<br>3. [Lick](../pokedex/moves/lick.md)<br>4. [Fury Swipes](../pokedex/moves/fury-swipes.md) |
 | ![eevee](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/133.gif){ .sprite }<br>[Eevee](../pokedex/pokemon/eevee.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span></div> | **Level:** 10<br>**Ability:** [Adaptability](../pokedex/abilities/adaptability.md) | 1. [Quick Attack](../pokedex/moves/quick-attack.md)<br>2. [Swift](../pokedex/moves/swift.md)<br>3. [Tackle](../pokedex/moves/tackle.md) |
 
-
-**♛ LEADER CHEREN**
+**●♛ LEADER CHEREN**
 
 **Reward:** ![TM83](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM83](../pokedex/items/tm83.md), [Work Up](../pokedex/moves/work-up.md)
 
@@ -537,8 +513,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![lillipup](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/506.gif){ .sprite }<br>[Lillipup](../pokedex/pokemon/lillipup.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span></div> | **Level:** 13<br>**Ability:** [Vital Spirit](../pokedex/abilities/vital-spirit.md)<br>**Item:** ![Oran Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/oran-berry.png){ .item-sprite } [Oran Berry](../pokedex/items/oran-berry.md) | 1. [Work Up](../pokedex/moves/work-up.md)<br>2. [Bite](../pokedex/moves/bite.md)<br>3. [Tackle](../pokedex/moves/tackle.md)<br>4. [Reversal](../pokedex/moves/reversal.md) |
 | ![munchlax](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/446.gif){ .sprite }<br>[Munchlax](../pokedex/pokemon/munchlax.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span></div> | **Level:** 11<br>**Ability:** [Pickup](../pokedex/abilities/pickup.md)<br>**Item:** ![Eviolite](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/eviolite.png){ .item-sprite } [Eviolite](../pokedex/items/eviolite.md) | 1. [Work Up](../pokedex/moves/work-up.md)<br>2. [Flail](../pokedex/moves/flail.md) |
 
-
-**♛ LEADER CHEREN**
+**●♛ LEADER CHEREN**
 
 **Reward:** ![TM83](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM83](../pokedex/items/tm83.md), [Work Up](../pokedex/moves/work-up.md)
 
@@ -553,13 +528,12 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![deerling](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/585.gif){ .sprite }<br>[Deerling](../pokedex/pokemon/deerling.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> <span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span></div> | **Level:** 13<br>**Ability:** [Sap Sipper](../pokedex/abilities/sap-sipper.md)<br>**Item:** ![Occa Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/occa-berry.png){ .item-sprite } [Occa Berry](../pokedex/items/occa-berry.md) | 1. [Work Up](../pokedex/moves/work-up.md)<br>2. [Double Kick](../pokedex/moves/double-kick.md)<br>3. [Tackle](../pokedex/moves/tackle.md)<br>4. [Leech Seed](../pokedex/moves/leech-seed.md) |
 | ![munchlax](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/446.gif){ .sprite }<br>[Munchlax](../pokedex/pokemon/munchlax.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span></div> | **Level:** 14<br>**Ability:** [Thick Fat](../pokedex/abilities/thick-fat.md)<br>**Item:** ![Oran Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/oran-berry.png){ .item-sprite } [Oran Berry](../pokedex/items/oran-berry.md) | 1. [Work Up](../pokedex/moves/work-up.md)<br>2. [Tackle](../pokedex/moves/tackle.md)<br>3. [Pursuit](../pokedex/moves/pursuit.md)<br>4. [Rock Tomb](../pokedex/moves/rock-tomb.md) |
 
-
 ### Virbank Complex
 
  - Levels -1 on Easy mode, +1 on Challenge mode.
 
 
-**Youngster Masahiro**
+**○ Youngster Masahiro**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -567,8 +541,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![charmander](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/4.gif){ .sprite }<br>[Charmander](../pokedex/pokemon/charmander.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F08030 0%, #F08030dd 100%);">Fire</span></div> | **Level:** 15<br>**Ability:** [Blaze](../pokedex/abilities/blaze.md) | 1. [Dragon Breath](../pokedex/moves/dragon-breath.md)<br>2. [Metal Claw](../pokedex/moves/metal-claw.md)<br>3. [Ember](../pokedex/moves/ember.md)<br>4. [Bite](../pokedex/moves/bite.md) |
 | ![pikachu](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/25.gif){ .sprite }<br>[Pikachu](../pokedex/pokemon/pikachu.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F8D030 0%, #F8D030dd 100%);">Electric</span></div> | **Level:** 15<br>**Ability:** [Lightning Rod](../pokedex/abilities/lightning-rod.md) | 1. [Quick Attack](../pokedex/moves/quick-attack.md)<br>2. [Shock Wave](../pokedex/moves/shock-wave.md)<br>3. [Thunder Wave](../pokedex/moves/thunder-wave.md)<br>4. [Charm](../pokedex/moves/charm.md) |
 
-
-**Worker Mitchell**
+**○ Worker Mitchell**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -576,8 +549,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![electrike](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/309.gif){ .sprite }<br>[Electrike](../pokedex/pokemon/electrike.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F8D030 0%, #F8D030dd 100%);">Electric</span></div> | **Level:** 15<br>**Ability:** [Intimidate](../pokedex/abilities/intimidate.md) | 1. [Bite](../pokedex/moves/bite.md)<br>2. [Spark](../pokedex/moves/spark.md)<br>3. [Snarl](../pokedex/moves/snarl.md) |
 | ![elekid](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/239.gif){ .sprite }<br>[Elekid](../pokedex/pokemon/elekid.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F8D030 0%, #F8D030dd 100%);">Electric</span></div> | **Level:** 16<br>**Ability:** [Vital Spirit](../pokedex/abilities/vital-spirit.md) | 1. [Shock Wave](../pokedex/moves/shock-wave.md)<br>2. [Quick Attack](../pokedex/moves/quick-attack.md)<br>3. [Low Kick](../pokedex/moves/low-kick.md) |
 
-
-**Worker Nathan**
+**○ Worker Nathan**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -585,8 +557,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![ekans](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/23.gif){ .sprite }<br>[Ekans](../pokedex/pokemon/ekans.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span></div> | **Level:** 15<br>**Ability:** [Intimidate](../pokedex/abilities/intimidate.md) | 1. [Poison Fang](../pokedex/moves/poison-fang.md)<br>2. [Coil](../pokedex/moves/coil.md)<br>3. [Glare](../pokedex/moves/glare.md) |
 | ![koffing](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/109.gif){ .sprite }<br>[Koffing](../pokedex/pokemon/koffing.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span></div> | **Level:** 16<br>**Ability:** [Levitate](../pokedex/abilities/levitate.md) | 1. [Clear Smog](../pokedex/moves/clear-smog.md)<br>2. [Assurance](../pokedex/moves/assurance.md)<br>3. [Psybeam](../pokedex/moves/psybeam.md) |
 
-
-**Worker Isaac**
+**○ Worker Isaac**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -594,8 +565,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![slugma](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/218.gif){ .sprite }<br>[Slugma](../pokedex/pokemon/slugma.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F08030 0%, #F08030dd 100%);">Fire</span> <span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span></div> | **Level:** 15<br>**Ability:** [Flame Body](../pokedex/abilities/flame-body.md) | 1. [Flame Burst](../pokedex/moves/flame-burst.md)<br>2. [Ancient Power](../pokedex/moves/ancient-power.md)<br>3. [Clear Smog](../pokedex/moves/clear-smog.md) |
 | ![magby](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/240.gif){ .sprite }<br>[Magby](../pokedex/pokemon/magby.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F08030 0%, #F08030dd 100%);">Fire</span></div> | **Level:** 16<br>**Ability:** [Flame Body](../pokedex/abilities/flame-body.md) | 1. [Fire Spin](../pokedex/moves/fire-spin.md)<br>2. [Clear Smog](../pokedex/moves/clear-smog.md)<br>3. [Feint Attack](../pokedex/moves/feint-attack.md) |
 
-
-**Youngster Waylon**
+**○ Youngster Waylon**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -604,8 +574,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![shellos](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/422.gif){ .sprite }<br>[Shellos](../pokedex/pokemon/shellos.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span></div> | **Level:** 15<br>**Ability:** [Storm Drain](../pokedex/abilities/storm-drain.md) | 1. [Whirlpool](../pokedex/moves/whirlpool.md)<br>2. [Mud Shot](../pokedex/moves/mud-shot.md)<br>3. [Water Pulse](../pokedex/moves/water-pulse.md)<br>4. [Yawn](../pokedex/moves/yawn.md) |
 | ![spinarak](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/167.gif){ .sprite }<br>[Spinarak](../pokedex/pokemon/spinarak.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> <span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span></div> | **Level:** 15<br>**Ability:** [Sniper](../pokedex/abilities/sniper.md) | 1. [Twineedle](../pokedex/moves/twineedle.md)<br>2. [Night Shade](../pokedex/moves/night-shade.md)<br>3. [Shadow Sneak](../pokedex/moves/shadow-sneak.md)<br>4. [Poison Fang](../pokedex/moves/poison-fang.md) |
 
-
-**Lass Daya**
+**○ Lass Daya**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -613,13 +582,12 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![vulpix](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/37.gif){ .sprite }<br>[Vulpix](../pokedex/pokemon/vulpix.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F08030 0%, #F08030dd 100%);">Fire</span></div> | **Level:** 15<br>**Ability:** [Drought](../pokedex/abilities/drought.md) | 1. [Hypnosis](../pokedex/moves/hypnosis.md)<br>2. [Fire Spin](../pokedex/moves/fire-spin.md)<br>3. [Hex](../pokedex/moves/hex.md)<br>4. [Spite](../pokedex/moves/spite.md) |
 | ![cherubi](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/420.gif){ .sprite }<br>[Cherubi](../pokedex/pokemon/cherubi.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span></div> | **Level:** 15<br>**Ability:** [Chlorophyll](../pokedex/abilities/chlorophyll.md) | 1. [Growth](../pokedex/moves/growth.md)<br>2. [Magical Leaf](../pokedex/moves/magical-leaf.md)<br>3. [Nature Power](../pokedex/moves/nature-power.md) |
 
-
 ### Virbank City
 
  - No level shift based on difficulty, levels are as stated.
 
 
-**BRAWLY - Hoenn Leader**
+**○♕ BRAWLY - Hoenn Leader**
 
 **Reward:** Meditite Egg
 
@@ -631,8 +599,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![meditite](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/307.gif){ .sprite }<br>[Meditite](../pokedex/pokemon/meditite.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span> <span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span></div> | **Level:** 17<br>**Ability:** [Pure Power](../pokedex/abilities/pure-power.md)<br>**Item:** ![Light Clay](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/light-clay.png){ .item-sprite } [Light Clay](../pokedex/items/light-clay.md) | 1. [Bulk Up](../pokedex/moves/bulk-up.md)<br>2. [Focus Punch](../pokedex/moves/focus-punch.md)<br>3. [Reflect](../pokedex/moves/reflect.md)<br>4. [Light Screen](../pokedex/moves/light-screen.md) |
 | ![makuhita](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/296.gif){ .sprite }<br>[Makuhita](../pokedex/pokemon/makuhita.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span></div> | **Level:** 18<br>**Ability:** [Thick Fat](../pokedex/abilities/thick-fat.md)<br>**Item:** ![Sitrus Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/sitrus-berry.png){ .item-sprite } [Sitrus Berry](../pokedex/items/sitrus-berry.md) | 1. [Bulk Up](../pokedex/moves/bulk-up.md)<br>2. [Arm Thrust](../pokedex/moves/arm-thrust.md)<br>3. [Vital Throw](../pokedex/moves/vital-throw.md)<br>4. [Reversal](../pokedex/moves/reversal.md) |
 
-
-**BRAWLY - Hoenn Leader**
+**○♕ BRAWLY - Hoenn Leader**
 
 **Reward:** Meditite Egg
 
@@ -646,13 +613,12 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![sawk](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/539.gif){ .sprite }<br>[Sawk](../pokedex/pokemon/sawk.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span></div> | **Level:** 19<br>**Ability:** [Sturdy](../pokedex/abilities/sturdy.md)<br>**Item:** ![Salac Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/salac-berry.png){ .item-sprite } [Salac Berry](../pokedex/items/salac-berry.md) | 1. [Reversal](../pokedex/moves/reversal.md)<br>2. [Rock Tomb](../pokedex/moves/rock-tomb.md)<br>3. [Dual Chop](../pokedex/moves/dual-chop.md)<br>4. [Payback](../pokedex/moves/payback.md) |
 | ![makuhita](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/296.gif){ .sprite }<br>[Makuhita](../pokedex/pokemon/makuhita.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span></div> | **Level:** 20<br>**Ability:** [Sheer Force](../pokedex/abilities/sheer-force.md)<br>**Item:** ![Berry Juice](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/berry-juice.png){ .item-sprite } [Berry Juice](../pokedex/items/berry-juice.md) | 1. [Bulk Up](../pokedex/moves/bulk-up.md)<br>2. [Revenge](../pokedex/moves/revenge.md)<br>3. [Fire Punch](../pokedex/moves/fire-punch.md)<br>4. [Ice Punch](../pokedex/moves/ice-punch.md) |
 
-
 #### Roxie's Gym
 
  - No level shift based on difficulty, levels are as stated.
 
 
-**Roughneck Nicky**
+**● Roughneck Nicky**
 
 **Battle Type:** Drummer
 
@@ -662,8 +628,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![budew](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/406.gif){ .sprite }<br>[Budew](../pokedex/pokemon/budew.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span> <span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span></div> | **Level:** 16<br>**Ability:** [Poison Point](../pokedex/abilities/poison-point.md) | 1. [Leech Seed](../pokedex/moves/leech-seed.md)<br>2. [Mega Drain](../pokedex/moves/mega-drain.md)<br>3. [Extrasensory](../pokedex/moves/extrasensory.md)<br>4. [Sludge](../pokedex/moves/sludge.md) |
 | ![nidorino](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/33.gif){ .sprite }<br>[Nidorino](../pokedex/pokemon/nidorino.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span></div> | **Level:** 16<br>**Ability:** [Poison Point](../pokedex/abilities/poison-point.md) | 1. [Peck](../pokedex/moves/peck.md)<br>2. [Focus Energy](../pokedex/moves/focus-energy.md)<br>3. [Double Kick](../pokedex/moves/double-kick.md)<br>4. [Poison Fang](../pokedex/moves/poison-fang.md) |
 
-
-**Guitarist Billy Jo**
+**● Guitarist Billy Jo**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -671,8 +636,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![seviper](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/336.gif){ .sprite }<br>[Seviper](../pokedex/pokemon/seviper.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span></div> | **Level:** 16<br>**Ability:** [Shed Skin](../pokedex/abilities/shed-skin.md) | 1. [Glare](../pokedex/moves/glare.md)<br>2. [Screech](../pokedex/moves/screech.md)<br>3. [Sucker Punch](../pokedex/moves/sucker-punch.md)<br>4. [Poison Tail](../pokedex/moves/poison-tail.md) |
 | ![nidorina](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/30.gif){ .sprite }<br>[Nidorina](../pokedex/pokemon/nidorina.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span></div> | **Level:** 16<br>**Ability:** [Poison Point](../pokedex/abilities/poison-point.md) | 1. [Peck](../pokedex/moves/peck.md)<br>2. [Focus Energy](../pokedex/moves/focus-energy.md)<br>3. [Double Kick](../pokedex/moves/double-kick.md)<br>4. [Poison Fang](../pokedex/moves/poison-fang.md) |
 
-
-**♛ LEADER ROXIE**
+**●♛ LEADER ROXIE**
 
 **Reward:** ![TM09](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM09](../pokedex/items/tm09.md), [Venoshock](../pokedex/moves/venoshock.md)
 
@@ -685,8 +649,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![croagunk](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/453.gif){ .sprite }<br>[Croagunk](../pokedex/pokemon/croagunk.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span> <span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span></div> | **Level:** 18<br>**Ability:** [Dry Skin](../pokedex/abilities/dry-skin.md)<br>**Item:** ![Oran Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/oran-berry.png){ .item-sprite } [Oran Berry](../pokedex/items/oran-berry.md) | 1. [Venoshock](../pokedex/moves/venoshock.md)<br>2. [Nasty Plot](../pokedex/moves/nasty-plot.md)<br>3. [Vacuum Wave](../pokedex/moves/vacuum-wave.md)<br>4. [Fake Out](../pokedex/moves/fake-out.md) |
 | ![whirlipede](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/544.gif){ .sprite }<br>[Whirlipede](../pokedex/pokemon/whirlipede.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> <span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span></div> | **Level:** 20<br>**Ability:** [Swarm](../pokedex/abilities/swarm.md)<br>**Item:** ![Sitrus Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/sitrus-berry.png){ .item-sprite } [Sitrus Berry](../pokedex/items/sitrus-berry.md) | 1. [Venoshock](../pokedex/moves/venoshock.md)<br>2. [Bug Bite](../pokedex/moves/bug-bite.md)<br>3. [Toxic](../pokedex/moves/toxic.md)<br>4. [Agility](../pokedex/moves/agility.md) |
 
-
-**♛ LEADER ROXIE**
+**●♛ LEADER ROXIE**
 
 **Reward:** ![TM09](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM09](../pokedex/items/tm09.md), [Venoshock](../pokedex/moves/venoshock.md)
 
@@ -701,13 +664,12 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![gastly](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/92.gif){ .sprite }<br>[Gastly](../pokedex/pokemon/gastly.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> <span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span></div> | **Level:** 20<br>**Ability:** [Levitate](../pokedex/abilities/levitate.md)<br>**Item:** ![Life Orb](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/life-orb.png){ .item-sprite } [Life Orb](../pokedex/items/life-orb.md) | 1. [Venoshock](../pokedex/moves/venoshock.md)<br>2. [Hex](../pokedex/moves/hex.md)<br>3. [Mega Drain](../pokedex/moves/mega-drain.md)<br>4. [Torment](../pokedex/moves/torment.md) |
 | ![whirlipede](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/544.gif){ .sprite }<br>[Whirlipede](../pokedex/pokemon/whirlipede.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> <span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span></div> | **Level:** 21<br>**Ability:** [Speed Boost](../pokedex/abilities/speed-boost.md)<br>**Item:** ![Eviolite](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/eviolite.png){ .item-sprite } [Eviolite](../pokedex/items/eviolite.md) | 1. [Venoshock](../pokedex/moves/venoshock.md)<br>2. [Steamroller](../pokedex/moves/steamroller.md)<br>3. [Endeavor](../pokedex/moves/endeavor.md)<br>4. [Protect](../pokedex/moves/protect.md) |
 
-
 #### Roxie Defeated
 
  - No level shift based on difficulty, levels are as stated.
 
 
-**Plasma Grunt #690**
+**● Plasma Grunt #690**
 
 **Battle Type:** 2x
 
@@ -718,10 +680,9 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![butterfree](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/12.gif){ .sprite }<br>[Butterfree](../pokedex/pokemon/butterfree.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 18<br>**Ability:** [Compound Eyes](../pokedex/abilities/compound-eyes.md) | 1. [Poison Powder](../pokedex/moves/poison-powder.md)<br>2. [Gust](../pokedex/moves/gust.md)<br>3. [Confusion](../pokedex/moves/confusion.md)<br>4. [Silver Wind](../pokedex/moves/silver-wind.md) |
 | ![beedrill](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/15.gif){ .sprite }<br>[Beedrill](../pokedex/pokemon/beedrill.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> <span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span></div> | **Level:** 18<br>**Ability:** [Swarm](../pokedex/abilities/swarm.md) | 1. [Twineedle](../pokedex/moves/twineedle.md)<br>2. [Venoshock](../pokedex/moves/venoshock.md)<br>3. [Fury Attack](../pokedex/moves/fury-attack.md)<br>4. [Assurance](../pokedex/moves/assurance.md) |
 
-
 (Then fight grunt on Route 20: Yamask/Zubat/Mawile; for details search Route 20.)
 
-**BRYCEN**
+**●♕ BRYCEN**
 
 **Reward:** ![Never Melt Ice](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/never-melt-ice.png){ .item-sprite } [Never Melt Ice](../pokedex/items/never-melt-ice.md)
 
@@ -734,8 +695,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![vanillite](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/582.gif){ .sprite }<br>[Vanillite](../pokedex/pokemon/vanillite.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #98D8D8 0%, #98D8D8dd 100%);">Ice</span></div> | **Level:** 18<br>**Ability:** [Ice Body](../pokedex/abilities/ice-body.md)<br>**Item:** ![Life Orb](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/life-orb.png){ .item-sprite } [Life Orb](../pokedex/items/life-orb.md) | 1. [Icy Wind](../pokedex/moves/icy-wind.md)<br>2. [Disarming Voice](../pokedex/moves/disarming-voice.md)<br>3. [Mirror Shot](../pokedex/moves/mirror-shot.md)<br>4. [Water Pulse](../pokedex/moves/water-pulse.md) |
 | ![cubchoo](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/613.gif){ .sprite }<br>[Cubchoo](../pokedex/pokemon/cubchoo.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #98D8D8 0%, #98D8D8dd 100%);">Ice</span></div> | **Level:** 20<br>**Ability:** [Rattled](../pokedex/abilities/rattled.md)<br>**Item:** ![Focus Sash](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/focus-sash.png){ .item-sprite } [Focus Sash](../pokedex/items/focus-sash.md) | 1. [Ice Shard](../pokedex/moves/ice-shard.md)<br>2. [Bulldoze](../pokedex/moves/bulldoze.md)<br>3. [Avalanche](../pokedex/moves/avalanche.md)<br>4. [Play Rough](../pokedex/moves/play-rough.md) |
 
-
-**BRYCEN**
+**●♕ BRYCEN**
 
 **Reward:** ![Never Melt Ice](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/never-melt-ice.png){ .item-sprite } [Never Melt Ice](../pokedex/items/never-melt-ice.md)
 
@@ -748,21 +708,19 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![smoochum](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/238.gif){ .sprite }<br>[Smoochum](../pokedex/pokemon/smoochum.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #98D8D8 0%, #98D8D8dd 100%);">Ice</span> <span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span></div> | **Level:** 21<br>**Ability:** [Dry Skin](../pokedex/abilities/dry-skin.md)<br>**Item:** ![Focus Sash](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/focus-sash.png){ .item-sprite } [Focus Sash](../pokedex/items/focus-sash.md) | 1. [Powder Snow](../pokedex/moves/powder-snow.md)<br>2. [Confusion](../pokedex/moves/confusion.md)<br>3. [Nasty Plot](../pokedex/moves/nasty-plot.md)<br>4. [Fake Out](../pokedex/moves/fake-out.md) |
 | ![shellder](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/90.gif){ .sprite }<br>[Shellder](../pokedex/pokemon/shellder.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> <span class="type-badge" style="background: linear-gradient(135deg, #98D8D8 0%, #98D8D8dd 100%);">Ice</span></div> | **Level:** 21<br>**Ability:** [Skill Link](../pokedex/abilities/skill-link.md)<br>**Item:** ![Mystic Water](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/mystic-water.png){ .item-sprite } [Mystic Water](../pokedex/items/mystic-water.md) | 1. [Icicle Spear](../pokedex/moves/icicle-spear.md)<br>2. [Rock Blast](../pokedex/moves/rock-blast.md)<br>3. [Water Pulse](../pokedex/moves/water-pulse.md)<br>4. [Shell Smash](../pokedex/moves/shell-smash.md) |
 
-
 ### Route 4 - Pre-Burgh/Castelia Side
 
  - Levels -2 on Easy mode, +2 on Challenge mode.
 
 
-**Breeder Irene**
+**○ Breeder Irene**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
 | ![togepi](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/175.gif){ .sprite }<br>[Togepi](../pokedex/pokemon/togepi.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span></div> | **Level:** 23<br>**Ability:** [Serene Grace](../pokedex/abilities/serene-grace.md) | 1. [Charm](../pokedex/moves/charm.md)<br>2. [Follow Me](../pokedex/moves/follow-me.md)<br>3. [Safeguard](../pokedex/moves/safeguard.md) |
 | ![happiny](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/440.gif){ .sprite }<br>[Happiny](../pokedex/pokemon/happiny.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span></div> | **Level:** 23<br>**Ability:** [Natural Cure](../pokedex/abilities/natural-cure.md) | 1. [Refresh](../pokedex/moves/refresh.md)<br>2. [Helping Hand](../pokedex/moves/helping-hand.md)<br>3. [Gravity](../pokedex/moves/gravity.md) |
 
-
-**Fisherman Hubert**
+**○ Fisherman Hubert**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -771,8 +729,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![tentacool](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/72.gif){ .sprite }<br>[Tentacool](../pokedex/pokemon/tentacool.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> <span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span></div> | **Level:** 19<br>**Ability:** [Clear Body](../pokedex/abilities/clear-body.md) | 1. [Water Pulse](../pokedex/moves/water-pulse.md)<br>2. [Mega Drain](../pokedex/moves/mega-drain.md)<br>3. [Rapid Spin](../pokedex/moves/rapid-spin.md)<br>4. [Toxic Spikes](../pokedex/moves/toxic-spikes.md) |
 | ![seel](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/86.gif){ .sprite }<br>[Seel](../pokedex/pokemon/seel.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span></div> | **Level:** 19<br>**Ability:** [Hydration](../pokedex/abilities/hydration.md) | 1. [Water Gun](../pokedex/moves/water-gun.md)<br>2. [Bubble Beam](../pokedex/moves/bubble-beam.md)<br>3. [Disable](../pokedex/moves/disable.md)<br>4. [Peck](../pokedex/moves/peck.md) |
 
-
-**Fisherman Andrew**
+**○ Fisherman Andrew**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -781,8 +738,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![frillish](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/592.gif){ .sprite }<br>[Frillish](../pokedex/pokemon/frillish.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span></div> | **Level:** 19<br>**Ability:** [Water Absorb](../pokedex/abilities/water-absorb.md) | 1. [Poison Sting](../pokedex/moves/poison-sting.md)<br>2. [Water Pulse](../pokedex/moves/water-pulse.md)<br>3. [Soak](../pokedex/moves/soak.md) |
 | ![squirtle](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/7.gif){ .sprite }<br>[Squirtle](../pokedex/pokemon/squirtle.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span></div> | **Level:** 19<br>**Ability:** [Torrent](../pokedex/abilities/torrent.md) | 1. [Water Pulse](../pokedex/moves/water-pulse.md)<br>2. [Aqua Jet](../pokedex/moves/aqua-jet.md)<br>3. [Yawn](../pokedex/moves/yawn.md)<br>4. [Rapid Spin](../pokedex/moves/rapid-spin.md) |
 
-
-**Policeman Braven / (W2) Backpacker Clifford**
+**○ Policeman Braven / (W2) Backpacker Clifford**
 
 **Battle Type:** B2
 
@@ -793,13 +749,12 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![dwebble](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/557.gif){ .sprite }<br>[Dwebble](../pokedex/pokemon/dwebble.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> <span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span></div> | **Level:** 20<br>**Ability:** [Shell Armor](../pokedex/abilities/shell-armor.md) | 1. [Feint Attack](../pokedex/moves/feint-attack.md)<br>2. [Bug Bite](../pokedex/moves/bug-bite.md)<br>3. [Smack Down](../pokedex/moves/smack-down.md)<br>4. [Withdraw](../pokedex/moves/withdraw.md) |
 | ![darumaka](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/554.gif){ .sprite }<br>[Darumaka](../pokedex/pokemon/darumaka.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F08030 0%, #F08030dd 100%);">Fire</span></div> | **Level:** 20<br>**Ability:** [Hustle](../pokedex/abilities/hustle.md) | 1. [Facade](../pokedex/moves/facade.md)<br>2. [Uproar](../pokedex/moves/uproar.md)<br>3. [Fire Fang](../pokedex/moves/fire-fang.md) |
 
-
 ### Castelia City - Battle Company
 
 #### 47F
 
 
-**Clerk♂ Clemens**
+**○ Clerk♂ Clemens**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -808,8 +763,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![croconaw](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/159.gif){ .sprite }<br>[Croconaw](../pokedex/pokemon/croconaw.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span></div> | **Level:** 23<br>**Ability:** [Sheer Force](../pokedex/abilities/sheer-force.md) | 1. [Aqua Jet](../pokedex/moves/aqua-jet.md)<br>2. [Ice Fang](../pokedex/moves/ice-fang.md)<br>3. [Metal Claw](../pokedex/moves/metal-claw.md)<br>4. [Bite](../pokedex/moves/bite.md) |
 | ![heracross](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/214.gif){ .sprite }<br>[Heracross](../pokedex/pokemon/heracross.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> <span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span></div> | **Level:** 23<br>**Ability:** [Moxie](../pokedex/abilities/moxie.md) | 1. [Bug Bite](../pokedex/moves/bug-bite.md)<br>2. [Revenge](../pokedex/moves/revenge.md)<br>3. [Aerial Ace](../pokedex/moves/aerial-ace.md)<br>4. [Horn Attack](../pokedex/moves/horn-attack.md) |
 
-
-**Clerk♂ Warren**
+**○ Clerk♂ Warren**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -818,8 +772,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![skiploom](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/188.gif){ .sprite }<br>[Skiploom](../pokedex/pokemon/skiploom.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 23<br>**Ability:** [Prankster](../pokedex/abilities/prankster.md) | 1. [Acrobatics](../pokedex/moves/acrobatics.md)<br>2. [Sleep Powder](../pokedex/moves/sleep-powder.md)<br>3. [Mega Drain](../pokedex/moves/mega-drain.md)<br>4. [Confusion](../pokedex/moves/confusion.md) |
 | ![mightyena](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/262.gif){ .sprite }<br>[Mightyena](../pokedex/pokemon/mightyena.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span></div> | **Level:** 23<br>**Ability:** [Intimidate](../pokedex/abilities/intimidate.md) | 1. [Assurance](../pokedex/moves/assurance.md)<br>2. [Fire Fang](../pokedex/moves/fire-fang.md)<br>3. [Ice Fang](../pokedex/moves/ice-fang.md)<br>4. [Thunder Fang](../pokedex/moves/thunder-fang.md) |
 
-
-**Clerk♂ Gilligan**
+**○ Clerk♂ Gilligan**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -828,8 +781,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![vigoroth](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/288.gif){ .sprite }<br>[Vigoroth](../pokedex/pokemon/vigoroth.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span></div> | **Level:** 23<br>**Ability:** [Sheer Force](../pokedex/abilities/sheer-force.md) | 1. [Headbutt](../pokedex/moves/headbutt.md)<br>2. [Tickle](../pokedex/moves/tickle.md)<br>3. [Covet](../pokedex/moves/covet.md)<br>4. [Uproar](../pokedex/moves/uproar.md) |
 | ![ledian](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/166.gif){ .sprite }<br>[Ledian](../pokedex/pokemon/ledian.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 23<br>**Ability:** [Iron Fist](../pokedex/abilities/iron-fist.md) | 1. [Mach Punch](../pokedex/moves/mach-punch.md)<br>2. [Aerial Ace](../pokedex/moves/aerial-ace.md)<br>3. [Bug Bite](../pokedex/moves/bug-bite.md)<br>4. [Psybeam](../pokedex/moves/psybeam.md) |
 
-
-**Clerk♀ Britney**
+**○ Clerk♀ Britney**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -838,11 +790,10 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![roselia](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/315.gif){ .sprite }<br>[Roselia](../pokedex/pokemon/roselia.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span> <span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span></div> | **Level:** 23<br>**Ability:** [Poison Point](../pokedex/abilities/poison-point.md) | 1. [Mega Drain](../pokedex/moves/mega-drain.md)<br>2. [Venoshock](../pokedex/moves/venoshock.md)<br>3. [Leech Seed](../pokedex/moves/leech-seed.md)<br>4. [Stun Spore](../pokedex/moves/stun-spore.md) |
 | ![quilava](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/156.gif){ .sprite }<br>[Quilava](../pokedex/pokemon/quilava.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F08030 0%, #F08030dd 100%);">Fire</span></div> | **Level:** 23<br>**Ability:** [Flash Fire](../pokedex/abilities/flash-fire.md) | 1. [Flame Wheel](../pokedex/moves/flame-wheel.md)<br>2. [Double Kick](../pokedex/moves/double-kick.md)<br>3. [Raging Fury](../pokedex/moves/raging-fury.md)<br>4. [Quick Attack](../pokedex/moves/quick-attack.md) |
 
-
 #### 55F
 
 
-**School Kid Neil**
+**○ School Kid Neil**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -851,21 +802,19 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![quagsire](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/195.gif){ .sprite }<br>[Quagsire](../pokedex/pokemon/quagsire.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span></div> | **Level:** 23<br>**Ability:** [Water Absorb](../pokedex/abilities/water-absorb.md) | 1. [Bulldoze](../pokedex/moves/bulldoze.md)<br>2. [Double Kick](../pokedex/moves/double-kick.md)<br>3. [Water Pulse](../pokedex/moves/water-pulse.md)<br>4. [Curse](../pokedex/moves/curse.md) |
 | ![mr-mime](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/122.gif){ .sprite }<br>[Mr. Mime](../pokedex/pokemon/mr-mime.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span> <span class="type-badge" style="background: linear-gradient(135deg, #EE99AC 0%, #EE99ACdd 100%);">Fairy</span></div> | **Level:** 23<br>**Ability:** [Filter](../pokedex/abilities/filter.md) | 1. [Draining Kiss](../pokedex/moves/draining-kiss.md)<br>2. [Psybeam](../pokedex/moves/psybeam.md)<br>3. [Fake Out](../pokedex/moves/fake-out.md)<br>4. [Hypnosis](../pokedex/moves/hypnosis.md) |
 
-
 ### Castelia Sewers
 
  - Levels -2 on Easy mode, +2 on Challenge mode.
 
 
-**Janitor Felix**
+**○ Janitor Felix**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
 | ![stunfisk](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/618.gif){ .sprite }<br>[Stunfisk](../pokedex/pokemon/stunfisk.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> <span class="type-badge" style="background: linear-gradient(135deg, #F8D030 0%, #F8D030dd 100%);">Electric</span></div> | **Level:** 22<br>**Ability:** [Static](../pokedex/abilities/static.md) | 1. [Mud Bomb](../pokedex/moves/mud-bomb.md)<br>2. [Charge](../pokedex/moves/charge.md)<br>3. [Spark](../pokedex/moves/spark.md)<br>4. [Spite](../pokedex/moves/spite.md) |
 | ![cinccino](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/573.gif){ .sprite }<br>[Cinccino](../pokedex/pokemon/cinccino.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span></div> | **Level:** 22<br>**Ability:** [Skill Link](../pokedex/abilities/skill-link.md) | 1. [Double Slap](../pokedex/moves/double-slap.md)<br>2. [Tickle](../pokedex/moves/tickle.md) |
 
-
-**Worker Zack**
+**○ Worker Zack**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -873,8 +822,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![pawniard](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/624.gif){ .sprite }<br>[Pawniard](../pokedex/pokemon/pawniard.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> <span class="type-badge" style="background: linear-gradient(135deg, #B8B8D0 0%, #B8B8D0dd 100%);">Steel</span></div> | **Level:** 21<br>**Ability:** [Inner Focus](../pokedex/abilities/inner-focus.md) | 1. [Snarl](../pokedex/moves/snarl.md)<br>2. [Metal Claw](../pokedex/moves/metal-claw.md)<br>3. [Low Kick](../pokedex/moves/low-kick.md) |
 | ![joltik](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/595.gif){ .sprite }<br>[Joltik](../pokedex/pokemon/joltik.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> <span class="type-badge" style="background: linear-gradient(135deg, #F8D030 0%, #F8D030dd 100%);">Electric</span></div> | **Level:** 21<br>**Ability:** [Compound Eyes](../pokedex/abilities/compound-eyes.md) | 1. [Nuzzle](../pokedex/moves/nuzzle.md)<br>2. [Pursuit](../pokedex/moves/pursuit.md)<br>3. [Pin Missile](../pokedex/moves/pin-missile.md)<br>4. [Agility](../pokedex/moves/agility.md) |
 
-
-**Scientist♀ Caroline**
+**○ Scientist♀ Caroline**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -882,16 +830,14 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![noctowl](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/164.gif){ .sprite }<br>[Noctowl](../pokedex/pokemon/noctowl.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 21<br>**Ability:** [Tinted Lens](../pokedex/abilities/tinted-lens.md) | 1. [Stored Power](../pokedex/moves/stored-power.md)<br>2. [Hypnosis](../pokedex/moves/hypnosis.md)<br>3. [Uproar](../pokedex/moves/uproar.md)<br>4. [Night Shade](../pokedex/moves/night-shade.md) |
 | ![musharna](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/518.gif){ .sprite }<br>[Musharna](../pokedex/pokemon/musharna.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span> <span class="type-badge" style="background: linear-gradient(135deg, #EE99AC 0%, #EE99ACdd 100%);">Fairy</span></div> | **Level:** 21<br>**Ability:** [Analytic](../pokedex/abilities/analytic.md) | 1. [Magic Coat](../pokedex/moves/magic-coat.md)<br>2. [Future Sight](../pokedex/moves/future-sight.md)<br>3. [Disarming Voice](../pokedex/moves/disarming-voice.md)<br>4. [Hypnosis](../pokedex/moves/hypnosis.md) |
 
-
-**Worker Scott**
+**○ Worker Scott**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
 | ![voltorb](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/100.gif){ .sprite }<br>[Voltorb](../pokedex/pokemon/voltorb.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F8D030 0%, #F8D030dd 100%);">Electric</span></div> | **Level:** 22<br>**Ability:** [Soundproof](../pokedex/abilities/soundproof.md) | 1. [Spark](../pokedex/moves/spark.md)<br>2. [Sonic Boom](../pokedex/moves/sonic-boom.md)<br>3. [Charge Beam](../pokedex/moves/charge-beam.md)<br>4. [Thunder Wave](../pokedex/moves/thunder-wave.md) |
 | ![raichu](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/26.gif){ .sprite }<br>[Raichu](../pokedex/pokemon/raichu.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F8D030 0%, #F8D030dd 100%);">Electric</span></div> | **Level:** 22<br>**Ability:** [Static](../pokedex/abilities/static.md) | 1. [Quick Attack](../pokedex/moves/quick-attack.md)<br>2. [Wish](../pokedex/moves/wish.md)<br>3. [Electro Ball](../pokedex/moves/electro-ball.md) |
 
-
-**Doctor Heath**
+**○ Doctor Heath**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -899,8 +845,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![solosis](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/577.gif){ .sprite }<br>[Solosis](../pokedex/pokemon/solosis.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span></div> | **Level:** 21<br>**Ability:** [Magic Guard](../pokedex/abilities/magic-guard.md) | 1. [Psywave](../pokedex/moves/psywave.md)<br>2. [Magic Coat](../pokedex/moves/magic-coat.md)<br>3. [Charm](../pokedex/moves/charm.md)<br>4. [Rollout](../pokedex/moves/rollout.md) |
 | ![swadloon](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/541.gif){ .sprite }<br>[Swadloon](../pokedex/pokemon/swadloon.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> <span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span></div> | **Level:** 21<br>**Ability:** [Overcoat](../pokedex/abilities/overcoat.md) | 1. [Bug Bite](../pokedex/moves/bug-bite.md)<br>2. [Synthesis](../pokedex/moves/synthesis.md)<br>3. [Protect](../pokedex/moves/protect.md)<br>4. [String Shot](../pokedex/moves/string-shot.md) |
 
-
-**Plasma Grunts #342, #356**
+**● Plasma Grunts #342, #356**
 
 **Battle Type:** Tag
 
@@ -919,7 +864,6 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 	| ![skorupi](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/451.gif){ .sprite }<br>[Skorupi](../pokedex/pokemon/skorupi.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span> <span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span></div> | **Level:** 23<br>**Ability:** [Sniper](../pokedex/abilities/sniper.md) | 1. [X Scissor](../pokedex/moves/x-scissor.md)<br>2. [Acupressure](../pokedex/moves/acupressure.md)<br>3. [Knock Off](../pokedex/moves/knock-off.md)<br>4. [Toxic](../pokedex/moves/toxic.md) |
 	| ![raticate](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/20.gif){ .sprite }<br>[Raticate](../pokedex/pokemon/raticate.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span></div> | **Level:** 23<br>**Ability:** [Guts](../pokedex/abilities/guts.md) | 1. [Hyper Fang](../pokedex/moves/hyper-fang.md)<br>2. [Sucker Punch](../pokedex/moves/sucker-punch.md)<br>3. [Flame Wheel](../pokedex/moves/flame-wheel.md)<br>4. [Quick Attack](../pokedex/moves/quick-attack.md) |
 	| ![granbull](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/210.gif){ .sprite }<br>[Granbull](../pokedex/pokemon/granbull.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span> <span class="type-badge" style="background: linear-gradient(135deg, #EE99AC 0%, #EE99ACdd 100%);">Fairy</span></div> | **Level:** 23<br>**Ability:** [Intimidate](../pokedex/abilities/intimidate.md) | 1. [Covet](../pokedex/moves/covet.md)<br>2. [Bulk Up](../pokedex/moves/bulk-up.md)<br>3. [Payback](../pokedex/moves/payback.md)<br>4. [Double Kick](../pokedex/moves/double-kick.md) |
-
 
 === "Partner Hugh"
 
@@ -947,10 +891,9 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 		| ![swellow](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/277.gif){ .sprite }<br>[Swellow](../pokedex/pokemon/swellow.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 24<br>**Ability:** [Guts](../pokedex/abilities/guts.md) | 1. [Facade](../pokedex/moves/facade.md)<br>2. [Quick Attack](../pokedex/moves/quick-attack.md)<br>3. [Wing Attack](../pokedex/moves/wing-attack.md)<br>4. [Steel Wing](../pokedex/moves/steel-wing.md) |
 		| ![simisear](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/514.gif){ .sprite }<br>[Simisear](../pokedex/pokemon/simisear.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F08030 0%, #F08030dd 100%);">Fire</span></div> | **Level:** 24<br>**Ability:** [Gluttony](../pokedex/abilities/gluttony.md) | 1. [Tickle](../pokedex/moves/tickle.md)<br>2. [Flame Burst](../pokedex/moves/flame-burst.md)<br>3. [Bite](../pokedex/moves/bite.md)<br>4. [Disarming Voice](../pokedex/moves/disarming-voice.md) |
 
-
 #### Surf
 
-**Scientist♂ Clarke**
+**○ Scientist♂ Clarke**
 
 		| Pokémon | Type(s) | Attributes | Moves |
 		|:-------:|:-------:|:-----------|:------|
@@ -958,14 +901,12 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 		| ![magneton](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/82.gif){ .sprite }<br>[Magneton](../pokedex/pokemon/magneton.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F8D030 0%, #F8D030dd 100%);">Electric</span> <span class="type-badge" style="background: linear-gradient(135deg, #B8B8D0 0%, #B8B8D0dd 100%);">Steel</span></div> | **Level:** 44<br>**Ability:** [Analytic](../pokedex/abilities/analytic.md) | 1. [Tri Attack](../pokedex/moves/tri-attack.md)<br>2. [Flash Cannon](../pokedex/moves/flash-cannon.md)<br>3. [Discharge](../pokedex/moves/discharge.md)<br>4. [Light Screen](../pokedex/moves/light-screen.md) |
 		| ![magnezone](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/462.gif){ .sprite }<br>[Magnezone](../pokedex/pokemon/magnezone.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F8D030 0%, #F8D030dd 100%);">Electric</span> <span class="type-badge" style="background: linear-gradient(135deg, #B8B8D0 0%, #B8B8D0dd 100%);">Steel</span></div> | **Level:** 45<br>**Ability:** [Analytic](../pokedex/abilities/analytic.md) | 1. [Tri Attack](../pokedex/moves/tri-attack.md)<br>2. [Flash Cannon](../pokedex/moves/flash-cannon.md)<br>3. [Discharge](../pokedex/moves/discharge.md)<br>4. [Light Screen](../pokedex/moves/light-screen.md) |
 
-
-**Janitor Brady**
+**○ Janitor Brady**
 
 		| Pokémon | Type(s) | Attributes | Moves |
 		|:-------:|:-------:|:-----------|:------|
 		| ![azumarill](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/184.gif){ .sprite }<br>[Azumarill](../pokedex/pokemon/azumarill.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span></div> | **Level:** 45<br>**Ability:** [Huge Power](../pokedex/abilities/huge-power.md) | 1. [Soak](../pokedex/moves/soak.md)<br>2. [Aqua Tail](../pokedex/moves/aqua-tail.md)<br>3. [Future Sight](../pokedex/moves/future-sight.md)<br>4. [Body Slam](../pokedex/moves/body-slam.md) |
 		| ![cinccino](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/573.gif){ .sprite }<br>[Cinccino](../pokedex/pokemon/cinccino.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span></div> | **Level:** 45<br>**Ability:** [Skill Link](../pokedex/abilities/skill-link.md) | 1. [Tail Slap](../pokedex/moves/tail-slap.md)<br>2. [Tickle](../pokedex/moves/tickle.md)<br>3. [Wake Up Slap](../pokedex/moves/wake-up-slap.md)<br>4. [Sing](../pokedex/moves/sing.md) |
-
 
 ### Liberty Garden
 
@@ -987,13 +928,12 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 		| ![shedinja](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/292.gif){ .sprite }<br>[Shedinja](../pokedex/pokemon/shedinja.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span></div> | **Level:** 27<br>**Ability:** [Wonder Guard](../pokedex/abilities/wonder-guard.md)<br>**Item:** ![Focus Sash](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/focus-sash.png){ .item-sprite } [Focus Sash](../pokedex/items/focus-sash.md) | 1. [Shadow Sneak](../pokedex/moves/shadow-sneak.md)<br>2. [Ally Switch](../pokedex/moves/ally-switch.md)<br>3. [Will O Wisp](../pokedex/moves/will-o-wisp.md)<br>4. [Aerial Ace](../pokedex/moves/aerial-ace.md) |
 		| ![bellossom](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/182.gif){ .sprite }<br>[Bellossom](../pokedex/pokemon/bellossom.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span></div> | **Level:** 27<br>**Ability:** [Cloud Nine](../pokedex/abilities/cloud-nine.md)<br>**Item:** ![Leftovers](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/leftovers.png){ .item-sprite } [Leftovers](../pokedex/items/leftovers.md) | 1. [Fiery Dance](../pokedex/moves/fiery-dance.md)<br>2. [Leaf Tornado](../pokedex/moves/leaf-tornado.md)<br>3. [Mud Bomb](../pokedex/moves/mud-bomb.md)<br>4. [Stun Spore](../pokedex/moves/stun-spore.md) |
 
-
 ### Relic Passage - Castelia Side
 
  - Levels -2 on Easy mode, +2 on Challenge mode.
 
 
-**Scientist♀ Lumina**
+**○ Scientist♀ Lumina**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -1002,8 +942,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![corsola](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/222.gif){ .sprite }<br>[Corsola](../pokedex/pokemon/corsola.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> <span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span></div> | **Level:** 24<br>**Ability:** [Regenerator](../pokedex/abilities/regenerator.md) | 1. [Bubble Beam](../pokedex/moves/bubble-beam.md)<br>2. [Ancient Power](../pokedex/moves/ancient-power.md)<br>3. [Brine](../pokedex/moves/brine.md)<br>4. [Ingrain](../pokedex/moves/ingrain.md) |
 | ![simisear](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/514.gif){ .sprite }<br>[Simisear](../pokedex/pokemon/simisear.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F08030 0%, #F08030dd 100%);">Fire</span></div> | **Level:** 24<br>**Ability:** [Blaze](../pokedex/abilities/blaze.md) | 1. [Flame Charge](../pokedex/moves/flame-charge.md)<br>2. [Fire Punch](../pokedex/moves/fire-punch.md)<br>3. [Disarming Voice](../pokedex/moves/disarming-voice.md)<br>4. [Bite](../pokedex/moves/bite.md) |
 
-
-**Scientist♂ Terrance**
+**○ Scientist♂ Terrance**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -1012,8 +951,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![pansear](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/513.gif){ .sprite }<br>[Pansear](../pokedex/pokemon/pansear.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F08030 0%, #F08030dd 100%);">Fire</span></div> | **Level:** 24<br>**Ability:** [Blaze](../pokedex/abilities/blaze.md) | 1. [Flame Charge](../pokedex/moves/flame-charge.md)<br>2. [Fire Punch](../pokedex/moves/fire-punch.md)<br>3. [Disarming Voice](../pokedex/moves/disarming-voice.md)<br>4. [Bite](../pokedex/moves/bite.md) |
 | ![simipour](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/516.gif){ .sprite }<br>[Simipour](../pokedex/pokemon/simipour.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span></div> | **Level:** 24<br>**Ability:** [Torrent](../pokedex/abilities/torrent.md) | 1. [Brine](../pokedex/moves/brine.md)<br>2. [Scald](../pokedex/moves/scald.md)<br>3. [Disarming Voice](../pokedex/moves/disarming-voice.md)<br>4. [Bite](../pokedex/moves/bite.md) |
 
-
-**Backpacker Kendall**
+**○ Backpacker Kendall**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -1022,7 +960,6 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![gurdurr](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/533.gif){ .sprite }<br>[Gurdurr](../pokedex/pokemon/gurdurr.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span></div> | **Level:** 24<br>**Ability:** [Sheer Force](../pokedex/abilities/sheer-force.md) | 1. [Payback](../pokedex/moves/payback.md)<br>2. [Counter](../pokedex/moves/counter.md)<br>3. [Force Palm](../pokedex/moves/force-palm.md)<br>4. [Rock Throw](../pokedex/moves/rock-throw.md) |
 | ![simisage](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/512.gif){ .sprite }<br>[Simisage](../pokedex/pokemon/simisage.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span></div> | **Level:** 24<br>**Ability:** [Overgrow](../pokedex/abilities/overgrow.md) | 1. [Leech Seed](../pokedex/moves/leech-seed.md)<br>2. [Seed Bomb](../pokedex/moves/seed-bomb.md)<br>3. [Disarming Voice](../pokedex/moves/disarming-voice.md)<br>4. [Bite](../pokedex/moves/bite.md) |
 
-
 ### Castelia City
 
 #### GAMEFREAK Offices
@@ -1030,14 +967,13 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
  - Levels -2 on Easy mode, +2 on Challenge mode.
 
 
-**Gamefreak Nishino**
+**○ Gamefreak Nishino**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
 | ![snorlax](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/143.gif){ .sprite }<br>[Snorlax](../pokedex/pokemon/snorlax.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span></div> | **Level:** 26<br>**Ability:** [Thick Fat](../pokedex/abilities/thick-fat.md)<br>**Item:** ![Leftovers](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/leftovers.png){ .item-sprite } [Leftovers](../pokedex/items/leftovers.md) | 1. [Body Slam](../pokedex/moves/body-slam.md)<br>2. [Heavy Slam](../pokedex/moves/heavy-slam.md)<br>3. [Amnesia](../pokedex/moves/amnesia.md)<br>4. [Yawn](../pokedex/moves/yawn.md) |
 
-
-**Gamefreak Morimoto**
+**○ Gamefreak Morimoto**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -1045,13 +981,12 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![swoobat](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/528.gif){ .sprite }<br>[Swoobat](../pokedex/pokemon/swoobat.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 24<br>**Ability:** [Simple](../pokedex/abilities/simple.md)<br>**Item:** ![Flying Gem](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/flying-gem.png){ .item-sprite } [Flying Gem](../pokedex/items/flying-gem.md) | 1. [Acrobatics](../pokedex/moves/acrobatics.md)<br>2. [Calm Mind](../pokedex/moves/calm-mind.md)<br>3. [Stored Power](../pokedex/moves/stored-power.md)<br>4. [Charge Beam](../pokedex/moves/charge-beam.md) |
 | ![liepard](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/510.gif){ .sprite }<br>[Liepard](../pokedex/pokemon/liepard.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span></div> | **Level:** 24<br>**Ability:** [Prankster](../pokedex/abilities/prankster.md)<br>**Item:** ![Dark Gem](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dark-gem.png){ .item-sprite } [Dark Gem](../pokedex/items/dark-gem.md) | 1. [Fake Out](../pokedex/moves/fake-out.md)<br>2. [Thunder Wave](../pokedex/moves/thunder-wave.md)<br>3. [Night Slash](../pokedex/moves/night-slash.md)<br>4. [Assist](../pokedex/moves/assist.md) |
 
-
 #### Café Sonata
 
  - No level shift based on difficulty, levels are as stated.
 
 
-**WATTSON - Hoenn Leader**
+**○♕ WATTSON - Hoenn Leader**
 
 **Reward:** ![Tanga Berry x2](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tanga-berry.png){ .item-sprite } [Tanga Berry x2](../pokedex/items/tanga-berry.md)
 
@@ -1064,8 +999,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![magneton](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/82.gif){ .sprite }<br>[Magneton](../pokedex/pokemon/magneton.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F8D030 0%, #F8D030dd 100%);">Electric</span> <span class="type-badge" style="background: linear-gradient(135deg, #B8B8D0 0%, #B8B8D0dd 100%);">Steel</span></div> | **Level:** 25<br>**Ability:** [Magnet Pull](../pokedex/abilities/magnet-pull.md) | 1. [Supersonic](../pokedex/moves/supersonic.md)<br>2. [Shock Wave](../pokedex/moves/shock-wave.md)<br>3. [Thunder Wave](../pokedex/moves/thunder-wave.md)<br>4. [Sonic Boom](../pokedex/moves/sonic-boom.md) |
 | ![manectric](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/310.gif){ .sprite }<br>[Manectric](../pokedex/pokemon/manectric.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F8D030 0%, #F8D030dd 100%);">Electric</span></div> | **Level:** 26<br>**Ability:** [Intimidate](../pokedex/abilities/intimidate.md)<br>**Item:** ![Sitrus Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/sitrus-berry.png){ .item-sprite } [Sitrus Berry](../pokedex/items/sitrus-berry.md) | 1. [Quick Attack](../pokedex/moves/quick-attack.md)<br>2. [Thunder Wave](../pokedex/moves/thunder-wave.md)<br>3. [Shock Wave](../pokedex/moves/shock-wave.md)<br>4. [Howl](../pokedex/moves/howl.md) |
 
-
-**WATTSON - Hoenn Leader**
+**○♕ WATTSON - Hoenn Leader**
 
 **Reward:** ![Tanga Berry x2](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tanga-berry.png){ .item-sprite } [Tanga Berry x2](../pokedex/items/tanga-berry.md)
 
@@ -1080,14 +1014,13 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![manectric](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/310.gif){ .sprite }<br>[Manectric](../pokedex/pokemon/manectric.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F8D030 0%, #F8D030dd 100%);">Electric</span></div> | **Level:** 28<br>**Ability:** [Intimidate](../pokedex/abilities/intimidate.md)<br>**Item:** ![Air Balloon](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/air-balloon.png){ .item-sprite } [Air Balloon](../pokedex/items/air-balloon.md) | 1. [Volt Switch](../pokedex/moves/volt-switch.md)<br>2. [Ice Fang](../pokedex/moves/ice-fang.md)<br>3. [Flame Burst](../pokedex/moves/flame-burst.md)<br>4. [Quick Attack](../pokedex/moves/quick-attack.md) |
 | ![volbeat](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/313.gif){ .sprite }<br>[Volbeat](../pokedex/pokemon/volbeat.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> <span class="type-badge" style="background: linear-gradient(135deg, #F8D030 0%, #F8D030dd 100%);">Electric</span></div> | **Level:** 27<br>**Ability:** [Tinted Lens](../pokedex/abilities/tinted-lens.md)<br>**Item:** ![Charti Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/charti-berry.png){ .item-sprite } [Charti Berry](../pokedex/items/charti-berry.md) | 1. [Volt Switch](../pokedex/moves/volt-switch.md)<br>2. [Bug Buzz](../pokedex/moves/bug-buzz.md)<br>3. [Mystical Fire](../pokedex/moves/mystical-fire.md)<br>4. [Water Pulse](../pokedex/moves/water-pulse.md) |
 
-
 #### Burgh's Gym
 
  - Levels -2 on Easy mode, +2 on Challenge mode for the main gym puzzle.
  - No level shift based on difficulty in Burgh's room, levels for Burgh himself are as stated.
 
 
-**Harlequin Clarence**
+**● Harlequin Clarence**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -1095,8 +1028,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![burmy](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/412.gif){ .sprite }<br>[Burmy](../pokedex/pokemon/burmy.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span></div> | **Level:** 24<br>**Ability:** [Shed Skin](../pokedex/abilities/shed-skin.md) | 1. [Protect](../pokedex/moves/protect.md)<br>2. [Tackle](../pokedex/moves/tackle.md)<br>3. [Bug Bite](../pokedex/moves/bug-bite.md)<br>4. [Electroweb](../pokedex/moves/electroweb.md) |
 | ![pinsir](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/127.gif){ .sprite }<br>[Pinsir](../pokedex/pokemon/pinsir.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span></div> | **Level:** 24<br>**Ability:** [Moxie](../pokedex/abilities/moxie.md) | 1. [Bug Bite](../pokedex/moves/bug-bite.md)<br>2. [Brick Break](../pokedex/moves/brick-break.md)<br>3. [Double Hit](../pokedex/moves/double-hit.md)<br>4. [Quick Attack](../pokedex/moves/quick-attack.md) |
 
-
-**Harlequin Jack**
+**● Harlequin Jack**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -1105,8 +1037,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![beautifly](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/267.gif){ .sprite }<br>[Beautifly](../pokedex/pokemon/beautifly.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 24<br>**Ability:** [Swarm](../pokedex/abilities/swarm.md) | 1. [Air Cutter](../pokedex/moves/air-cutter.md)<br>2. [Silver Wind](../pokedex/moves/silver-wind.md)<br>3. [Stun Spore](../pokedex/moves/stun-spore.md)<br>4. [Mega Drain](../pokedex/moves/mega-drain.md) |
 | ![dustox](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/269.gif){ .sprite }<br>[Dustox](../pokedex/pokemon/dustox.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> <span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span></div> | **Level:** 24<br>**Ability:** [Compound Eyes](../pokedex/abilities/compound-eyes.md) | 1. [Silver Wind](../pokedex/moves/silver-wind.md)<br>2. [Sludge](../pokedex/moves/sludge.md)<br>3. [Poison Powder](../pokedex/moves/poison-powder.md)<br>4. [Confusion](../pokedex/moves/confusion.md) |
 
-
-**Harlequin Gary**
+**● Harlequin Gary**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -1116,8 +1047,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![beedrill](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/15.gif){ .sprite }<br>[Beedrill](../pokedex/pokemon/beedrill.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> <span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span></div> | **Level:** 23<br>**Ability:** [Adaptability](../pokedex/abilities/adaptability.md) | 1. [Twineedle](../pokedex/moves/twineedle.md)<br>2. [Assurance](../pokedex/moves/assurance.md)<br>3. [Poison Sting](../pokedex/moves/poison-sting.md) |
 | ![mothim](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/414.gif){ .sprite }<br>[Mothim](../pokedex/pokemon/mothim.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 23<br>**Ability:** [Tinted Lens](../pokedex/abilities/tinted-lens.md) | 1. [Gust](../pokedex/moves/gust.md)<br>2. [Lunge](../pokedex/moves/lunge.md)<br>3. [Air Cutter](../pokedex/moves/air-cutter.md)<br>4. [Psybeam](../pokedex/moves/psybeam.md) |
 
-
-**Harlequin Anders**
+**○ Harlequin Anders**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -1125,8 +1055,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![parasect](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/47.gif){ .sprite }<br>[Parasect](../pokedex/pokemon/parasect.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> <span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span></div> | **Level:** 24<br>**Ability:** [Effect Spore](../pokedex/abilities/effect-spore.md) | 1. [Bullet Seed](../pokedex/moves/bullet-seed.md)<br>2. [Spore](../pokedex/moves/spore.md)<br>3. [Bug Bite](../pokedex/moves/bug-bite.md)<br>4. [Metal Claw](../pokedex/moves/metal-claw.md) |
 | ![durant](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/632.gif){ .sprite }<br>[Durant](../pokedex/pokemon/durant.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> <span class="type-badge" style="background: linear-gradient(135deg, #B8B8D0 0%, #B8B8D0dd 100%);">Steel</span></div> | **Level:** 24<br>**Ability:** [Hustle](../pokedex/abilities/hustle.md) | 1. [Bug Bite](../pokedex/moves/bug-bite.md)<br>2. [Bite](../pokedex/moves/bite.md)<br>3. [Metal Claw](../pokedex/moves/metal-claw.md) |
 
-
-**♛ LEADER BURGH**
+**●♛ LEADER BURGH**
 
 **Reward:** ![TM81](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM81](../pokedex/items/tm81.md), [X Scissor](../pokedex/moves/x-scissor.md)
 
@@ -1140,8 +1069,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![parasect](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/47.gif){ .sprite }<br>[Parasect](../pokedex/pokemon/parasect.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> <span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span></div> | **Level:** 25<br>**Ability:** [Dry Skin](../pokedex/abilities/dry-skin.md)<br>**Item:** ![Focus Sash](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/focus-sash.png){ .item-sprite } [Focus Sash](../pokedex/items/focus-sash.md) | 1. [X Scissor](../pokedex/moves/x-scissor.md)<br>2. [Spore](../pokedex/moves/spore.md)<br>3. [Seed Bomb](../pokedex/moves/seed-bomb.md)<br>4. [Counter](../pokedex/moves/counter.md) |
 | ![leavanny](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/542.gif){ .sprite }<br>[Leavanny](../pokedex/pokemon/leavanny.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> <span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span></div> | **Level:** 27<br>**Ability:** [Swarm](../pokedex/abilities/swarm.md)<br>**Item:** ![Life Orb](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/life-orb.png){ .item-sprite } [Life Orb](../pokedex/items/life-orb.md) | 1. [X Scissor](../pokedex/moves/x-scissor.md)<br>2. [Leaf Blade](../pokedex/moves/leaf-blade.md)<br>3. [Swords Dance](../pokedex/moves/swords-dance.md)<br>4. [Aerial Ace](../pokedex/moves/aerial-ace.md) |
 
-
-**♛ LEADER BURGH**
+**●♛ LEADER BURGH**
 
 **Reward:** ![TM81](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM81](../pokedex/items/tm81.md), [X Scissor](../pokedex/moves/x-scissor.md)
 
@@ -1158,14 +1086,13 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![heracross](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/214.gif){ .sprite }<br>[Heracross](../pokedex/pokemon/heracross.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> <span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span></div> | **Level:** 28<br>**Ability:** [Moxie](../pokedex/abilities/moxie.md)<br>**Item:** ![Cell Battery](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/cell-battery.png){ .item-sprite } [Cell Battery](../pokedex/items/cell-battery.md) | 1. [Brick Break](../pokedex/moves/brick-break.md)<br>2. [Fury Cutter](../pokedex/moves/fury-cutter.md)<br>3. [Helping Hand](../pokedex/moves/helping-hand.md)<br>4. [Rock Tomb](../pokedex/moves/rock-tomb.md) |
 | ![leavanny](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/542.gif){ .sprite }<br>[Leavanny](../pokedex/pokemon/leavanny.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> <span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span></div> | **Level:** 29<br>**Ability:** [Swarm](../pokedex/abilities/swarm.md)<br>**Item:** ![Focus Sash](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/focus-sash.png){ .item-sprite } [Focus Sash](../pokedex/items/focus-sash.md) | 1. [X Scissor](../pokedex/moves/x-scissor.md)<br>2. [Leaf Blade](../pokedex/moves/leaf-blade.md)<br>3. [Swords Dance](../pokedex/moves/swords-dance.md)<br>4. [Aerial Ace](../pokedex/moves/aerial-ace.md) |
 
-
 #### Surf
 
  - No level shift based on difficulty, levels are as stated.
  - All trainers are fought back to back!
 
 
-**Roughneck Ricky**
+**○ Roughneck Ricky**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -1175,8 +1102,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![escavalier](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/589.gif){ .sprite }<br>[Escavalier](../pokedex/pokemon/escavalier.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> <span class="type-badge" style="background: linear-gradient(135deg, #B8B8D0 0%, #B8B8D0dd 100%);">Steel</span></div> | **Level:** 50<br>**Ability:** [No Guard](../pokedex/abilities/no-guard.md) | 1. [Razor Shell](../pokedex/moves/razor-shell.md)<br>2. [Megahorn](../pokedex/moves/megahorn.md)<br>3. [Close Combat](../pokedex/moves/close-combat.md)<br>4. [Iron Head](../pokedex/moves/iron-head.md) |
 | ![azumarill](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/184.gif){ .sprite }<br>[Azumarill](../pokedex/pokemon/azumarill.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span></div> | **Level:** 50<br>**Ability:** [Huge Power](../pokedex/abilities/huge-power.md) | 1. [Aqua Jet](../pokedex/moves/aqua-jet.md)<br>2. [Play Rough](../pokedex/moves/play-rough.md)<br>3. [Aqua Tail](../pokedex/moves/aqua-tail.md)<br>4. [Ice Punch](../pokedex/moves/ice-punch.md) |
 
-
-**Dancer Jean-Paul**
+**○ Dancer Jean-Paul**
 
 **Battle Type:** 2x
 
@@ -1187,8 +1113,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![darmanitan-standard](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/555.gif){ .sprite }<br>[Darmanitan Standard](../pokedex/pokemon/darmanitan-standard.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F08030 0%, #F08030dd 100%);">Fire</span></div> | **Level:** 50<br>**Ability:** [Sheer Force](../pokedex/abilities/sheer-force.md) | 1. [Flare Blitz](../pokedex/moves/flare-blitz.md)<br>2. [Superpower](../pokedex/moves/superpower.md)<br>3. [Zen Headbutt](../pokedex/moves/zen-headbutt.md)<br>4. [Rock Slide](../pokedex/moves/rock-slide.md) |
 | ![gastrodon](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/423.gif){ .sprite }<br>[Gastrodon](../pokedex/pokemon/gastrodon.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span></div> | **Level:** 50<br>**Ability:** [Storm Drain](../pokedex/abilities/storm-drain.md) | 1. [Earth Power](../pokedex/moves/earth-power.md)<br>2. [Scald](../pokedex/moves/scald.md)<br>3. [Sludge Bomb](../pokedex/moves/sludge-bomb.md)<br>4. [Icy Wind](../pokedex/moves/icy-wind.md) |
 
-
-**Guitarist Tina**
+**○ Guitarist Tina**
 
 **Battle Type:** 3x
 
@@ -1201,13 +1126,12 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![typhlosion](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/157.gif){ .sprite }<br>[Typhlosion](../pokedex/pokemon/typhlosion.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F08030 0%, #F08030dd 100%);">Fire</span></div> | **Level:** 50<br>**Ability:** [Flash Fire](../pokedex/abilities/flash-fire.md)<br>**Item:** ![Choice Scarf](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/choice-scarf.png){ .item-sprite } [Choice Scarf](../pokedex/items/choice-scarf.md) | 1. [Eruption](../pokedex/moves/eruption.md) |
 | ![feraligatr](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/160.gif){ .sprite }<br>[Feraligatr](../pokedex/pokemon/feraligatr.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span></div> | **Level:** 50<br>**Ability:** [Sheer Force](../pokedex/abilities/sheer-force.md)<br>**Item:** ![Life Orb](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/life-orb.png){ .item-sprite } [Life Orb](../pokedex/items/life-orb.md) | 1. [Aqua Tail](../pokedex/moves/aqua-tail.md)<br>2. [Dragon Dance](../pokedex/moves/dragon-dance.md)<br>3. [Crunch](../pokedex/moves/crunch.md)<br>4. [Ice Fang](../pokedex/moves/ice-fang.md) |
 
-
 ### Route 4 - Post-Burgh
 
  - Levels -2 on Easy mode, +2 on Challenge mode.
 
 
-**COLRESS**
+**●♕ COLRESS**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -1217,10 +1141,9 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![metang](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/375.gif){ .sprite }<br>[Metang](../pokedex/pokemon/metang.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #B8B8D0 0%, #B8B8D0dd 100%);">Steel</span> <span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span></div> | **Level:** 26<br>**Ability:** [Clear Body](../pokedex/abilities/clear-body.md)<br>**Item:** ![Occa Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/occa-berry.png){ .item-sprite } [Occa Berry](../pokedex/items/occa-berry.md) | 1. [Bullet Punch](../pokedex/moves/bullet-punch.md)<br>2. [Rock Tomb](../pokedex/moves/rock-tomb.md)<br>3. [Zen Headbutt](../pokedex/moves/zen-headbutt.md)<br>4. [Bulldoze](../pokedex/moves/bulldoze.md) |
 | ![porygon2](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/233.gif){ .sprite }<br>[Porygon2](../pokedex/pokemon/porygon2.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span></div> | **Level:** 28<br>**Ability:** [Trace](../pokedex/abilities/trace.md)<br>**Item:** ![Eviolite](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/eviolite.png){ .item-sprite } [Eviolite](../pokedex/items/eviolite.md) | 1. [Recover](../pokedex/moves/recover.md)<br>2. [Tri Attack](../pokedex/moves/tri-attack.md)<br>3. [Charge Beam](../pokedex/moves/charge-beam.md)<br>4. [Psyshock](../pokedex/moves/psyshock.md) |
 
-
 #### Blaze Black 2 Redux
 
-**Policeman Braven**
+**○ Policeman Braven**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -1229,16 +1152,14 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![dwebble](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/557.gif){ .sprite }<br>[Dwebble](../pokedex/pokemon/dwebble.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> <span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span></div> | **Level:** 25<br>**Ability:** [Sturdy](../pokedex/abilities/sturdy.md) | 1. [Feint Attack](../pokedex/moves/feint-attack.md)<br>2. [Bug Bite](../pokedex/moves/bug-bite.md)<br>3. [Smack Down](../pokedex/moves/smack-down.md)<br>4. [Withdraw](../pokedex/moves/withdraw.md) |
 | ![darumaka](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/554.gif){ .sprite }<br>[Darumaka](../pokedex/pokemon/darumaka.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F08030 0%, #F08030dd 100%);">Fire</span></div> | **Level:** 25<br>**Ability:** [Hustle](../pokedex/abilities/hustle.md) | 1. [Facade](../pokedex/moves/facade.md)<br>2. [Fire Punch](../pokedex/moves/fire-punch.md)<br>3. [Uproar](../pokedex/moves/uproar.md) |
 
-
-**Policeman Dell**
+**○ Policeman Dell**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
 | ![riolu](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/447.gif){ .sprite }<br>[Riolu](../pokedex/pokemon/riolu.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span></div> | **Level:** 25<br>**Ability:** [Prankster](../pokedex/abilities/prankster.md) | 1. [Bite](../pokedex/moves/bite.md)<br>2. [Metal Claw](../pokedex/moves/metal-claw.md)<br>3. [Force Palm](../pokedex/moves/force-palm.md) |
 | ![herdier](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/507.gif){ .sprite }<br>[Herdier](../pokedex/pokemon/herdier.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span></div> | **Level:** 25<br>**Ability:** [Intimidate](../pokedex/abilities/intimidate.md) | 1. [Pursuit](../pokedex/moves/pursuit.md)<br>2. [Retaliate](../pokedex/moves/retaliate.md)<br>3. [Take Down](../pokedex/moves/take-down.md)<br>4. [Crunch](../pokedex/moves/crunch.md) |
 
-
-**Hooligans Rob and Sal**
+**● Hooligans Rob and Sal**
 
 **Battle Type:** 2x
 
@@ -1249,8 +1170,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![rufflet](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/627.gif){ .sprite }<br>[Rufflet](../pokedex/pokemon/rufflet.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 26<br>**Ability:** [Sheer Force](../pokedex/abilities/sheer-force.md) | 1. [Aerial Ace](../pokedex/moves/aerial-ace.md)<br>2. [Tailwind](../pokedex/moves/tailwind.md)<br>3. [Scary Face](../pokedex/moves/scary-face.md)<br>4. [Crush Claw](../pokedex/moves/crush-claw.md) |
 | ![vullaby](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/629.gif){ .sprite }<br>[Vullaby](../pokedex/pokemon/vullaby.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 26<br>**Ability:** [Overcoat](../pokedex/abilities/overcoat.md) | 1. [Pluck](../pokedex/moves/pluck.md)<br>2. [Snarl](../pokedex/moves/snarl.md)<br>3. [Block](../pokedex/moves/block.md)<br>4. [Iron Defense](../pokedex/moves/iron-defense.md) |
 
-
-**Policeman Neagle**
+**● Policeman Neagle**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -1258,8 +1178,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![wigglytuff](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/40.gif){ .sprite }<br>[Wigglytuff](../pokedex/pokemon/wigglytuff.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span></div> | **Level:** 25<br>**Ability:** [Huge Power](../pokedex/abilities/huge-power.md) | 1. [Draining Kiss](../pokedex/moves/draining-kiss.md)<br>2. [Metronome](../pokedex/moves/metronome.md)<br>3. [Body Slam](../pokedex/moves/body-slam.md)<br>4. [Disable](../pokedex/moves/disable.md) |
 | ![drowzee](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/96.gif){ .sprite }<br>[Drowzee](../pokedex/pokemon/drowzee.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span></div> | **Level:** 25<br>**Ability:** [Bad Dreams](../pokedex/abilities/bad-dreams.md) | 1. [Hypnosis](../pokedex/moves/hypnosis.md)<br>2. [Nightmare](../pokedex/moves/nightmare.md)<br>3. [Dream Eater](../pokedex/moves/dream-eater.md) |
 
-
-**Roughneck Joey**
+**○ Roughneck Joey**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -1267,24 +1186,21 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![houndour](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/228.gif){ .sprite }<br>[Houndour](../pokedex/pokemon/houndour.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> <span class="type-badge" style="background: linear-gradient(135deg, #F08030 0%, #F08030dd 100%);">Fire</span></div> | **Level:** 25<br>**Ability:** [Flash Fire](../pokedex/abilities/flash-fire.md) | 1. [Ice Fang](../pokedex/moves/ice-fang.md)<br>2. [Thunder Fang](../pokedex/moves/thunder-fang.md)<br>3. [Poison Fang](../pokedex/moves/poison-fang.md)<br>4. [Snarl](../pokedex/moves/snarl.md) |
 | ![mightyena](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/262.gif){ .sprite }<br>[Mightyena](../pokedex/pokemon/mightyena.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span></div> | **Level:** 25<br>**Ability:** [Moxie](../pokedex/abilities/moxie.md) | 1. [Thunder Fang](../pokedex/moves/thunder-fang.md)<br>2. [Poison Fang](../pokedex/moves/poison-fang.md)<br>3. [Assurance](../pokedex/moves/assurance.md)<br>4. [Scary Face](../pokedex/moves/scary-face.md) |
 
-
-**Roughneck Silvester**
+**● Roughneck Silvester**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
 | ![croagunk](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/453.gif){ .sprite }<br>[Croagunk](../pokedex/pokemon/croagunk.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span> <span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span></div> | **Level:** 25<br>**Ability:** [Poison Touch](../pokedex/abilities/poison-touch.md) | 1. [Mud Bomb](../pokedex/moves/mud-bomb.md)<br>2. [Feint Attack](../pokedex/moves/feint-attack.md)<br>3. [Bullet Punch](../pokedex/moves/bullet-punch.md)<br>4. [Super Fang](../pokedex/moves/super-fang.md) |
 | ![houndoom](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/229.gif){ .sprite }<br>[Houndoom](../pokedex/pokemon/houndoom.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> <span class="type-badge" style="background: linear-gradient(135deg, #F08030 0%, #F08030dd 100%);">Fire</span></div> | **Level:** 25<br>**Ability:** [Intimidate](../pokedex/abilities/intimidate.md) | 1. [Flame Burst](../pokedex/moves/flame-burst.md)<br>2. [Thunder Fang](../pokedex/moves/thunder-fang.md)<br>3. [Poison Fang](../pokedex/moves/poison-fang.md)<br>4. [Snarl](../pokedex/moves/snarl.md) |
 
-
-**Biker Stanley**
+**● Biker Stanley**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
 | ![mankey](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/56.gif){ .sprite }<br>[Mankey](../pokedex/pokemon/mankey.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span></div> | **Level:** 25<br>**Ability:** [Defiant](../pokedex/abilities/defiant.md) | 1. [Karate Chop](../pokedex/moves/karate-chop.md)<br>2. [Acupressure](../pokedex/moves/acupressure.md)<br>3. [Bulldoze](../pokedex/moves/bulldoze.md)<br>4. [Assurance](../pokedex/moves/assurance.md) |
 | ![parasect](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/47.gif){ .sprite }<br>[Parasect](../pokedex/pokemon/parasect.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> <span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span></div> | **Level:** 25<br>**Ability:** [Dry Skin](../pokedex/abilities/dry-skin.md) | 1. [Spore](../pokedex/moves/spore.md)<br>2. [Struggle Bug](../pokedex/moves/struggle-bug.md)<br>3. [Psybeam](../pokedex/moves/psybeam.md)<br>4. [Seed Bomb](../pokedex/moves/seed-bomb.md) |
 
-
-**Youngster Sinclair**
+**○ Youngster Sinclair**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -1292,10 +1208,9 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![skitty](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/300.gif){ .sprite }<br>[Skitty](../pokedex/pokemon/skitty.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span></div> | **Level:** 25<br>**Ability:** [Normalize](../pokedex/abilities/normalize.md) | 1. [Fury Swipes](../pokedex/moves/fury-swipes.md)<br>2. [Fake Out](../pokedex/moves/fake-out.md)<br>3. [Wish](../pokedex/moves/wish.md)<br>4. [Covet](../pokedex/moves/covet.md) |
 | ![sunflora](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/192.gif){ .sprite }<br>[Sunflora](../pokedex/pokemon/sunflora.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span></div> | **Level:** 25<br>**Ability:** [Drought](../pokedex/abilities/drought.md) | 1. [Leaf Tornado](../pokedex/moves/leaf-tornado.md)<br>2. [Morning Sun](../pokedex/moves/morning-sun.md)<br>3. [Leech Seed](../pokedex/moves/leech-seed.md)<br>4. [Endeavor](../pokedex/moves/endeavor.md) |
 
-
 #### Volt White 2 Redux
 
-**Backpacker Clifford**
+**○ Backpacker Clifford**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -1304,8 +1219,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![dwebble](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/557.gif){ .sprite }<br>[Dwebble](../pokedex/pokemon/dwebble.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> <span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span></div> | **Level:** 25<br>**Ability:** [Sturdy](../pokedex/abilities/sturdy.md) | 1. [Feint Attack](../pokedex/moves/feint-attack.md)<br>2. [Bug Bite](../pokedex/moves/bug-bite.md)<br>3. [Smack Down](../pokedex/moves/smack-down.md)<br>4. [Withdraw](../pokedex/moves/withdraw.md) |
 | ![darumaka](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/554.gif){ .sprite }<br>[Darumaka](../pokedex/pokemon/darumaka.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F08030 0%, #F08030dd 100%);">Fire</span></div> | **Level:** 25<br>**Ability:** [Hustle](../pokedex/abilities/hustle.md) | 1. [Facade](../pokedex/moves/facade.md)<br>2. [Fire Punch](../pokedex/moves/fire-punch.md)<br>3. [Uproar](../pokedex/moves/uproar.md) |
 
-
-**Twins Tara and Val**
+**● Twins Tara and Val**
 
 **Battle Type:** 2x
 
@@ -1316,8 +1230,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![zangoose](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/335.gif){ .sprite }<br>[Zangoose](../pokedex/pokemon/zangoose.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span></div> | **Level:** 26<br>**Ability:** [Toxic Boost](../pokedex/abilities/toxic-boost.md) | 1. [Revenge](../pokedex/moves/revenge.md)<br>2. [Slash](../pokedex/moves/slash.md)<br>3. [Night Slash](../pokedex/moves/night-slash.md)<br>4. [Disable](../pokedex/moves/disable.md) |
 | ![seviper](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/336.gif){ .sprite }<br>[Seviper](../pokedex/pokemon/seviper.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span></div> | **Level:** 26<br>**Ability:** [Shed Skin](../pokedex/abilities/shed-skin.md) | 1. [Sucker Punch](../pokedex/moves/sucker-punch.md)<br>2. [Slash](../pokedex/moves/slash.md)<br>3. [Night Slash](../pokedex/moves/night-slash.md)<br>4. [Glare](../pokedex/moves/glare.md) |
 
-
-**Rich Boy Keenan**
+**● Rich Boy Keenan**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -1325,8 +1238,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![luxio](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/404.gif){ .sprite }<br>[Luxio](../pokedex/pokemon/luxio.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F8D030 0%, #F8D030dd 100%);">Electric</span></div> | **Level:** 25<br>**Ability:** [Intimidate](../pokedex/abilities/intimidate.md) | 1. [Thunder Fang](../pokedex/moves/thunder-fang.md)<br>2. [Bite](../pokedex/moves/bite.md)<br>3. [Ice Fang](../pokedex/moves/ice-fang.md)<br>4. [Quick Attack](../pokedex/moves/quick-attack.md) |
 | ![drowzee](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/96.gif){ .sprite }<br>[Drowzee](../pokedex/pokemon/drowzee.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span></div> | **Level:** 25<br>**Ability:** [Bad Dreams](../pokedex/abilities/bad-dreams.md) | 1. [Hypnosis](../pokedex/moves/hypnosis.md)<br>2. [Nightmare](../pokedex/moves/nightmare.md)<br>3. [Dream Eater](../pokedex/moves/dream-eater.md) |
 
-
-**Lady Lina**
+**○ Lady Lina**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -1334,8 +1246,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![servine](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/496.gif){ .sprite }<br>[Servine](../pokedex/pokemon/servine.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span> <span class="type-badge" style="background: linear-gradient(135deg, #7038F8 0%, #7038F8dd 100%);">Dragon</span></div> | **Level:** 25<br>**Ability:** [Contrary](../pokedex/abilities/contrary.md) | 1. [Dragon Breath](../pokedex/moves/dragon-breath.md)<br>2. [Leaf Tornado](../pokedex/moves/leaf-tornado.md)<br>3. [Dragon Rage](../pokedex/moves/dragon-rage.md)<br>4. [Leech Seed](../pokedex/moves/leech-seed.md) |
 | ![delcatty](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/301.gif){ .sprite }<br>[Delcatty](../pokedex/pokemon/delcatty.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span></div> | **Level:** 25<br>**Ability:** [Wonder Skin](../pokedex/abilities/wonder-skin.md) | 1. [Fake Out](../pokedex/moves/fake-out.md)<br>2. [Slash](../pokedex/moves/slash.md)<br>3. [Wish](../pokedex/moves/wish.md)<br>4. [Sing](../pokedex/moves/sing.md) |
 
-
-**Backpacker Rachel**
+**○ Backpacker Rachel**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -1343,16 +1254,14 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![rufflet](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/627.gif){ .sprite }<br>[Rufflet](../pokedex/pokemon/rufflet.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 25<br>**Ability:** [Sheer Force](../pokedex/abilities/sheer-force.md) | 1. [Aerial Ace](../pokedex/moves/aerial-ace.md)<br>2. [Esper Wing](../pokedex/moves/esper-wing.md)<br>3. [Hone Claws](../pokedex/moves/hone-claws.md)<br>4. [Slash](../pokedex/moves/slash.md) |
 | ![maractus](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/556.gif){ .sprite }<br>[Maractus](../pokedex/pokemon/maractus.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span></div> | **Level:** 25<br>**Ability:** [Water Absorb](../pokedex/abilities/water-absorb.md) | 1. [Giga Drain](../pokedex/moves/giga-drain.md)<br>2. [Pin Missile](../pokedex/moves/pin-missile.md)<br>3. [Sucker Punch](../pokedex/moves/sucker-punch.md)<br>4. [Leech Seed](../pokedex/moves/leech-seed.md) |
 
-
-**Pokéfan Sachiko**
+**● Pokéfan Sachiko**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
 | ![miltank](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/241.gif){ .sprite }<br>[Miltank](../pokedex/pokemon/miltank.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span></div> | **Level:** 25<br>**Ability:** [Scrappy](../pokedex/abilities/scrappy.md) | 1. [Stomp](../pokedex/moves/stomp.md)<br>2. [Milk Drink](../pokedex/moves/milk-drink.md)<br>3. [Rollout](../pokedex/moves/rollout.md)<br>4. [Wake Up Slap](../pokedex/moves/wake-up-slap.md) |
 | ![shuckle](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/213.gif){ .sprite }<br>[Shuckle](../pokedex/pokemon/shuckle.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> <span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span></div> | **Level:** 25<br>**Ability:** [Sturdy](../pokedex/abilities/sturdy.md) | 1. [Power Trick](../pokedex/moves/power-trick.md)<br>2. [Rock Throw](../pokedex/moves/rock-throw.md)<br>3. [Bug Bite](../pokedex/moves/bug-bite.md)<br>4. [Knock Off](../pokedex/moves/knock-off.md) |
 
-
-**Pokéfan Norbert**
+**○ Pokéfan Norbert**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -1360,21 +1269,19 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![murkrow](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/198.gif){ .sprite }<br>[Murkrow](../pokedex/pokemon/murkrow.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 25<br>**Ability:** [Super Luck](../pokedex/abilities/super-luck.md) | 1. [Assurance](../pokedex/moves/assurance.md)<br>2. [Wing Attack](../pokedex/moves/wing-attack.md)<br>3. [Night Shade](../pokedex/moves/night-shade.md)<br>4. [Screech](../pokedex/moves/screech.md) |
 | ![misdreavus](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/200.gif){ .sprite }<br>[Misdreavus](../pokedex/pokemon/misdreavus.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> <span class="type-badge" style="background: linear-gradient(135deg, #EE99AC 0%, #EE99ACdd 100%);">Fairy</span></div> | **Level:** 25<br>**Ability:** [Infiltrator](../pokedex/abilities/infiltrator.md) | 1. [Disarming Voice](../pokedex/moves/disarming-voice.md)<br>2. [Psybeam](../pokedex/moves/psybeam.md)<br>3. [Night Shade](../pokedex/moves/night-shade.md)<br>4. [Pain Split](../pokedex/moves/pain-split.md) |
 
-
-**Backpacker Roland**
+**● Backpacker Roland**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
 | ![togetic](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/176.gif){ .sprite }<br>[Togetic](../pokedex/pokemon/togetic.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 26<br>**Ability:** [Super Luck](../pokedex/abilities/super-luck.md) | 1. [Air Cutter](../pokedex/moves/air-cutter.md)<br>2. [Future Sight](../pokedex/moves/future-sight.md)<br>3. [Metronome](../pokedex/moves/metronome.md)<br>4. [Draining Kiss](../pokedex/moves/draining-kiss.md) |
 | ![vileplume](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/45.gif){ .sprite }<br>[Vileplume](../pokedex/pokemon/vileplume.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span> <span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span></div> | **Level:** 26<br>**Ability:** [Thick Fat](../pokedex/abilities/thick-fat.md) | 1. [Sludge](../pokedex/moves/sludge.md)<br>2. [Nature Power](../pokedex/moves/nature-power.md)<br>3. [Sleep Powder](../pokedex/moves/sleep-powder.md)<br>4. [Ingrain](../pokedex/moves/ingrain.md) |
 
-
 ### Desert Resort
 
  - Levels -2 on Easy mode, +2 on Challenge mode.
 
 
-**Nurse Mariah**
+**○ Nurse Mariah**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -1382,8 +1289,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![bayleef](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/153.gif){ .sprite }<br>[Bayleef](../pokedex/pokemon/bayleef.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span> <span class="type-badge" style="background: linear-gradient(135deg, #EE99AC 0%, #EE99ACdd 100%);">Fairy</span></div> | **Level:** 27<br>**Ability:** [Serene Grace](../pokedex/abilities/serene-grace.md) | 1. [Mega Drain](../pokedex/moves/mega-drain.md)<br>2. [Ancient Power](../pokedex/moves/ancient-power.md)<br>3. [Light Screen](../pokedex/moves/light-screen.md)<br>4. [Reflect](../pokedex/moves/reflect.md) |
 | ![chansey](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/113.gif){ .sprite }<br>[Chansey](../pokedex/pokemon/chansey.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span></div> | **Level:** 27<br>**Ability:** [Serene Grace](../pokedex/abilities/serene-grace.md) | 1. [Counter](../pokedex/moves/counter.md)<br>2. [Soft Boiled](../pokedex/moves/soft-boiled.md)<br>3. [Uproar](../pokedex/moves/uproar.md)<br>4. [Seismic Toss](../pokedex/moves/seismic-toss.md) |
 
-
-**Ranger♀ Anja**
+**○ Ranger♀ Anja**
 
 **Reward:** ![Rawst Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/rawst-berry.png){ .item-sprite } [Rawst Berry](../pokedex/items/rawst-berry.md)
 
@@ -1393,8 +1299,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![ponyta](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/77.gif){ .sprite }<br>[Ponyta](../pokedex/pokemon/ponyta.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F08030 0%, #F08030dd 100%);">Fire</span></div> | **Level:** 27<br>**Ability:** [Flame Body](../pokedex/abilities/flame-body.md) | 1. [Double Kick](../pokedex/moves/double-kick.md)<br>2. [Charm](../pokedex/moves/charm.md)<br>3. [Flame Charge](../pokedex/moves/flame-charge.md)<br>4. [Double Hit](../pokedex/moves/double-hit.md) |
 | ![quilava](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/156.gif){ .sprite }<br>[Quilava](../pokedex/pokemon/quilava.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F08030 0%, #F08030dd 100%);">Fire</span></div> | **Level:** 27<br>**Ability:** [Flash Fire](../pokedex/abilities/flash-fire.md) | 1. [Reversal](../pokedex/moves/reversal.md)<br>2. [Raging Fury](../pokedex/moves/raging-fury.md)<br>3. [Rollout](../pokedex/moves/rollout.md)<br>4. [Defense Curl](../pokedex/moves/defense-curl.md) |
 
-
-**Ranger♂ Jaden**
+**○ Ranger♂ Jaden**
 
 **Reward:** ![Rawst Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/rawst-berry.png){ .item-sprite } [Rawst Berry](../pokedex/items/rawst-berry.md)
 
@@ -1404,15 +1309,13 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![exeggcute](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/102.gif){ .sprite }<br>[Exeggcute](../pokedex/pokemon/exeggcute.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span> <span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span></div> | **Level:** 27<br>**Ability:** [Harvest](../pokedex/abilities/harvest.md) | 1. [Uproar](../pokedex/moves/uproar.md)<br>2. [Confusion](../pokedex/moves/confusion.md)<br>3. [Bullet Seed](../pokedex/moves/bullet-seed.md)<br>4. [Leech Seed](../pokedex/moves/leech-seed.md) |
 | ![donphan](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/232.gif){ .sprite }<br>[Donphan](../pokedex/pokemon/donphan.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span></div> | **Level:** 27<br>**Ability:** [Sturdy](../pokedex/abilities/sturdy.md) | 1. [Bulldoze](../pokedex/moves/bulldoze.md)<br>2. [Endeavor](../pokedex/moves/endeavor.md)<br>3. [Ice Shard](../pokedex/moves/ice-shard.md)<br>4. [Steamroller](../pokedex/moves/steamroller.md) |
 
-
-**Psychic Tommy**
+**○ Psychic Tommy**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
 | ![girafarig](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/203.gif){ .sprite }<br>[Girafarig](../pokedex/pokemon/girafarig.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> <span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span></div> | **Level:** 28<br>**Ability:** [Sap Sipper](../pokedex/abilities/sap-sipper.md) | 1. [Psyshield Bash](../pokedex/moves/psyshield-bash.md)<br>2. [Double Hit](../pokedex/moves/double-hit.md)<br>3. [Double Kick](../pokedex/moves/double-kick.md)<br>4. [Agility](../pokedex/moves/agility.md) |
 
-
-**Psychic Future**
+**○ Psychic Future**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -1420,16 +1323,14 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![baltoy](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/343.gif){ .sprite }<br>[Baltoy](../pokedex/pokemon/baltoy.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> <span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span></div> | **Level:** 27<br>**Ability:** [Levitate](../pokedex/abilities/levitate.md) | 1. [Psybeam](../pokedex/moves/psybeam.md)<br>2. [Ancient Power](../pokedex/moves/ancient-power.md)<br>3. [Psyshield Bash](../pokedex/moves/psyshield-bash.md)<br>4. [Scorching Sands](../pokedex/moves/scorching-sands.md) |
 | ![chimecho](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/358.gif){ .sprite }<br>[Chimecho](../pokedex/pokemon/chimecho.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span></div> | **Level:** 27<br>**Ability:** [Levitate](../pokedex/abilities/levitate.md) | 1. [Stored Power](../pokedex/moves/stored-power.md)<br>2. [Future Sight](../pokedex/moves/future-sight.md)<br>3. [Yawn](../pokedex/moves/yawn.md)<br>4. [Cosmic Power](../pokedex/moves/cosmic-power.md) |
 
-
-**Backpacker Walt**
+**○ Backpacker Walt**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
 | ![tympole](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/535.gif){ .sprite }<br>[Tympole](../pokedex/pokemon/tympole.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span></div> | **Level:** 27<br>**Ability:** [Water Absorb](../pokedex/abilities/water-absorb.md) | 1. [Echoed Voice](../pokedex/moves/echoed-voice.md)<br>2. [Mud Shot](../pokedex/moves/mud-shot.md)<br>3. [Bubble Beam](../pokedex/moves/bubble-beam.md)<br>4. [Mist](../pokedex/moves/mist.md) |
 | ![barboach](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/339.gif){ .sprite }<br>[Barboach](../pokedex/pokemon/barboach.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span></div> | **Level:** 27<br>**Ability:** [Simple](../pokedex/abilities/simple.md) | 1. [Dragon Dance](../pokedex/moves/dragon-dance.md)<br>2. [Bulldoze](../pokedex/moves/bulldoze.md)<br>3. [Spark](../pokedex/moves/spark.md)<br>4. [Headbutt](../pokedex/moves/headbutt.md) |
 
-
-**Backpacker Clara**
+**○ Backpacker Clara**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -1437,8 +1338,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![swinub](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/220.gif){ .sprite }<br>[Swinub](../pokedex/pokemon/swinub.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #98D8D8 0%, #98D8D8dd 100%);">Ice</span> <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span></div> | **Level:** 27<br>**Ability:** [Snow Cloak](../pokedex/abilities/snow-cloak.md) | 1. [Ice Shard](../pokedex/moves/ice-shard.md)<br>2. [Icicle Spear](../pokedex/moves/icicle-spear.md)<br>3. [Bulldoze](../pokedex/moves/bulldoze.md)<br>4. [Knock Off](../pokedex/moves/knock-off.md) |
 | ![delibird](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/225.gif){ .sprite }<br>[Delibird](../pokedex/pokemon/delibird.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #98D8D8 0%, #98D8D8dd 100%);">Ice</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 27<br>**Ability:** [Technician](../pokedex/abilities/technician.md) | 1. [Icy Wind](../pokedex/moves/icy-wind.md)<br>2. [Quick Attack](../pokedex/moves/quick-attack.md)<br>3. [Crabhammer](../pokedex/moves/crabhammer.md)<br>4. [Ice Shard](../pokedex/moves/ice-shard.md) |
 
-
-**Backpacker Sam**
+**○ Backpacker Sam**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -1446,21 +1346,19 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![machop](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/66.gif){ .sprite }<br>[Machop](../pokedex/pokemon/machop.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span></div> | **Level:** 27<br>**Ability:** [Steadfast](../pokedex/abilities/steadfast.md) | 1. [Tickle](../pokedex/moves/tickle.md)<br>2. [Bullet Punch](../pokedex/moves/bullet-punch.md)<br>3. [Vital Throw](../pokedex/moves/vital-throw.md)<br>4. [Helping Hand](../pokedex/moves/helping-hand.md) |
 | ![buneary](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/427.gif){ .sprite }<br>[Buneary](../pokedex/pokemon/buneary.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span></div> | **Level:** 27<br>**Ability:** [Limber](../pokedex/abilities/limber.md) | 1. [Jump Kick](../pokedex/moves/jump-kick.md)<br>2. [Fake Out](../pokedex/moves/fake-out.md)<br>3. [Baton Pass](../pokedex/moves/baton-pass.md)<br>4. [Dizzy Punch](../pokedex/moves/dizzy-punch.md) |
 
-
-**Backpacker Tami**
+**○ Backpacker Tami**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
 | ![tirtouga](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/564.gif){ .sprite }<br>[Tirtouga](../pokedex/pokemon/tirtouga.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> <span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span></div> | **Level:** 27<br>**Ability:** [Sturdy](../pokedex/abilities/sturdy.md) | 1. [Rock Slide](../pokedex/moves/rock-slide.md)<br>2. [Razor Shell](../pokedex/moves/razor-shell.md)<br>3. [Crunch](../pokedex/moves/crunch.md)<br>4. [Aqua Jet](../pokedex/moves/aqua-jet.md) |
 | ![archen](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/566.gif){ .sprite }<br>[Archen](../pokedex/pokemon/archen.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 27<br>**Ability:** [Defeatist](../pokedex/abilities/defeatist.md) | 1. [Pluck](../pokedex/moves/pluck.md)<br>2. [Rock Tomb](../pokedex/moves/rock-tomb.md)<br>3. [Dragon Breath](../pokedex/moves/dragon-breath.md)<br>4. [Quick Attack](../pokedex/moves/quick-attack.md) |
 
-
 ### Relic Castle
 
 #### 1F
 
 
-**Psychic Perry**
+**○ Psychic Perry**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -1468,11 +1366,10 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![gastly](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/92.gif){ .sprite }<br>[Gastly](../pokedex/pokemon/gastly.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> <span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span></div> | **Level:** 27<br>**Ability:** [Levitate](../pokedex/abilities/levitate.md) | 1. [Clear Smog](../pokedex/moves/clear-smog.md)<br>2. [Ominous Wind](../pokedex/moves/ominous-wind.md)<br>3. [Disable](../pokedex/moves/disable.md)<br>4. [Hypnosis](../pokedex/moves/hypnosis.md) |
 | ![xatu](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/178.gif){ .sprite }<br>[Xatu](../pokedex/pokemon/xatu.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 27<br>**Ability:** [Magic Bounce](../pokedex/abilities/magic-bounce.md) | 1. [Air Cutter](../pokedex/moves/air-cutter.md)<br>2. [Ominous Wind](../pokedex/moves/ominous-wind.md)<br>3. [Future Sight](../pokedex/moves/future-sight.md)<br>4. [Miracle Eye](../pokedex/moves/miracle-eye.md) |
 
-
 #### B1F
 
 
-**Psychic Dua**
+**○ Psychic Dua**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -1480,21 +1377,19 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![elgyem](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/605.gif){ .sprite }<br>[Elgyem](../pokedex/pokemon/elgyem.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span></div> | **Level:** 27<br>**Ability:** [Analytic](../pokedex/abilities/analytic.md) | 1. [Trick Room](../pokedex/moves/trick-room.md)<br>2. [Stored Power](../pokedex/moves/stored-power.md)<br>3. [Pain Split](../pokedex/moves/pain-split.md)<br>4. [Psybeam](../pokedex/moves/psybeam.md) |
 | ![kirlia](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/281.gif){ .sprite }<br>[Kirlia](../pokedex/pokemon/kirlia.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span></div> | **Level:** 27<br>**Ability:** [Trace](../pokedex/abilities/trace.md) | 1. [Magical Leaf](../pokedex/moves/magical-leaf.md)<br>2. [Draining Kiss](../pokedex/moves/draining-kiss.md)<br>3. [Shock Wave](../pokedex/moves/shock-wave.md)<br>4. [Hypnosis](../pokedex/moves/hypnosis.md) |
 
-
-**Psychic Low**
+**○ Psychic Low**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
 | ![spoink](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/325.gif){ .sprite }<br>[Spoink](../pokedex/pokemon/spoink.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span></div> | **Level:** 28<br>**Ability:** [Thick Fat](../pokedex/abilities/thick-fat.md) | 1. [Mirror Coat](../pokedex/moves/mirror-coat.md)<br>2. [Mirror Coat](../pokedex/moves/mirror-coat.md)<br>3. [Amnesia](../pokedex/moves/amnesia.md)<br>4. [Future Sight](../pokedex/moves/future-sight.md) |
 | ![kadabra](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/64.gif){ .sprite }<br>[Kadabra](../pokedex/pokemon/kadabra.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span></div> | **Level:** 28<br>**Ability:** [Synchronize](../pokedex/abilities/synchronize.md) | 1. [Shock Wave](../pokedex/moves/shock-wave.md)<br>2. [Psybeam](../pokedex/moves/psybeam.md)<br>3. [Recover](../pokedex/moves/recover.md)<br>4. [Nasty Plot](../pokedex/moves/nasty-plot.md) |
 
-
 ### Nimbasa City
 
  - Levels -2 on Easy mode, +2 on Challenge mode.
 
 
-**LENORA**
+**●♕ LENORA**
 
 **Mode:** Easy and Normal mode
 
@@ -1504,8 +1399,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![unfezant](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/521.gif){ .sprite }<br>[Unfezant](../pokedex/pokemon/unfezant.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 30<br>**Ability:** [Super Luck](../pokedex/abilities/super-luck.md)<br>**Item:** ![Scope Lens](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/scope-lens.png){ .item-sprite } [Scope Lens](../pokedex/items/scope-lens.md) | 1. [Air Slash](../pokedex/moves/air-slash.md)<br>2. [Hyper Voice](../pokedex/moves/hyper-voice.md)<br>3. [Wish](../pokedex/moves/wish.md)<br>4. [Tailwind](../pokedex/moves/tailwind.md) |
 | ![sawsbuck](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/586.gif){ .sprite }<br>[Sawsbuck](../pokedex/pokemon/sawsbuck.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> <span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span></div> | **Level:** 30<br>**Ability:** [Sap Sipper](../pokedex/abilities/sap-sipper.md)<br>**Item:** ![Miracle Seed](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/miracle-seed.png){ .item-sprite } [Miracle Seed](../pokedex/items/miracle-seed.md) | 1. [Aerial Ace](../pokedex/moves/aerial-ace.md)<br>2. [Horn Attack](../pokedex/moves/horn-attack.md)<br>3. [Jump Kick](../pokedex/moves/jump-kick.md)<br>4. [Horn Leech](../pokedex/moves/horn-leech.md) |
 
-
-**LENORA AND HAWES**
+**●♕ LENORA AND HAWES**
 
 **Mode:** Challenge mode
 
@@ -1524,8 +1418,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 	| ![stoutland](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/508.gif){ .sprite }<br>[Stoutland](../pokedex/pokemon/stoutland.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span></div> | **Level:** 31<br>**Ability:** [Sand Rush](../pokedex/abilities/sand-rush.md)<br>**Item:** ![Leftovers](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/leftovers.png){ .item-sprite } [Leftovers](../pokedex/items/leftovers.md) | 1. [Strength](../pokedex/moves/strength.md)<br>2. [Wild Charge](../pokedex/moves/wild-charge.md)<br>3. [Crunch](../pokedex/moves/crunch.md)<br>4. [Play Rough](../pokedex/moves/play-rough.md) |
 	| ![unfezant](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/521.gif){ .sprite }<br>[Unfezant](../pokedex/pokemon/unfezant.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 31<br>**Ability:** [Unaware](../pokedex/abilities/unaware.md)<br>**Item:** ![Normal Gem](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/normal-gem.png){ .item-sprite } [Normal Gem](../pokedex/items/normal-gem.md) | 1. [Hyper Voice](../pokedex/moves/hyper-voice.md)<br>2. [Hurricane](../pokedex/moves/hurricane.md)<br>3. [Heat Wave](../pokedex/moves/heat-wave.md)<br>4. [Tailwind](../pokedex/moves/tailwind.md) |
 
-
-**SUBWAY BOSSES INGO AND EMMET**
+**○♕ SUBWAY BOSSES INGO AND EMMET**
 
 **Battle Type:** Tag
 
@@ -1542,7 +1435,6 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 	|:-------:|:-------:|:-----------|:------|
 	| ![chandelure](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/609.gif){ .sprite }<br>[Chandelure](../pokedex/pokemon/chandelure.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> <span class="type-badge" style="background: linear-gradient(135deg, #F08030 0%, #F08030dd 100%);">Fire</span></div> | **Level:** 34<br>**Ability:** [Flash Fire](../pokedex/abilities/flash-fire.md)<br>**Item:** ![Charcoal](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/charcoal.png){ .item-sprite } [Charcoal](../pokedex/items/charcoal.md) | 1. [Heat Wave](../pokedex/moves/heat-wave.md)<br>2. [Hex](../pokedex/moves/hex.md)<br>3. [Protect](../pokedex/moves/protect.md)<br>4. [Will O Wisp](../pokedex/moves/will-o-wisp.md) |
 	| ![espeon](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/196.gif){ .sprite }<br>[Espeon](../pokedex/pokemon/espeon.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span></div> | **Level:** 34<br>**Ability:** [Magic Bounce](../pokedex/abilities/magic-bounce.md)<br>**Item:** ![Psychic Gem](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/psychic-gem.png){ .item-sprite } [Psychic Gem](../pokedex/items/psychic-gem.md) | 1. [Psychic](../pokedex/moves/psychic.md)<br>2. [Dazzling Gleam](../pokedex/moves/dazzling-gleam.md)<br>3. [Power Gem](../pokedex/moves/power-gem.md)<br>4. [Aura Sphere](../pokedex/moves/aura-sphere.md) |
-
 
 === "Partner Nate/Rosa"
 
@@ -1567,13 +1459,12 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 		| ![servine](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/496.gif){ .sprite }<br>[Servine](../pokedex/pokemon/servine.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span> <span class="type-badge" style="background: linear-gradient(135deg, #7038F8 0%, #7038F8dd 100%);">Dragon</span></div> | **Level:** 31<br>**Ability:** [Contrary](../pokedex/abilities/contrary.md)<br>**Item:** ![Sitrus Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/sitrus-berry.png){ .item-sprite } [Sitrus Berry](../pokedex/items/sitrus-berry.md) | 1. [Body Slam](../pokedex/moves/body-slam.md)<br>2. [Leech Seed](../pokedex/moves/leech-seed.md)<br>3. [Giga Drain](../pokedex/moves/giga-drain.md)<br>4. [Mirror Coat](../pokedex/moves/mirror-coat.md) |
 		| ![simipour](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/516.gif){ .sprite }<br>[Simipour](../pokedex/pokemon/simipour.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span></div> | **Level:** 30<br>**Ability:** [Gluttony](../pokedex/abilities/gluttony.md)<br>**Item:** ![Sitrus Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/sitrus-berry.png){ .item-sprite } [Sitrus Berry](../pokedex/items/sitrus-berry.md) | 1. [Tickle](../pokedex/moves/tickle.md)<br>2. [Aqua Tail](../pokedex/moves/aqua-tail.md)<br>3. [Acrobatics](../pokedex/moves/acrobatics.md)<br>4. [Crunch](../pokedex/moves/crunch.md) |
 
-
 #### Big Stadium
 
  - No level shift based on difficulty, levels are as stated.
 
 
-**FLANNERY - Hoenn Leader**
+**○♕ FLANNERY - Hoenn Leader**
 
 **Reward:** ![Choice Band](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/choice-band.png){ .item-sprite } [Choice Band](../pokedex/items/choice-band.md)
 
@@ -1586,8 +1477,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 		| ![camerupt](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/323.gif){ .sprite }<br>[Camerupt](../pokedex/pokemon/camerupt.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F08030 0%, #F08030dd 100%);">Fire</span> <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span></div> | **Level:** 34<br>**Ability:** [Solid Rock](../pokedex/abilities/solid-rock.md) | 1. [Overheat](../pokedex/moves/overheat.md)<br>2. [Attract](../pokedex/moves/attract.md)<br>3. [Bulldoze](../pokedex/moves/bulldoze.md)<br>4. [Sunny Day](../pokedex/moves/sunny-day.md) |
 		| ![torkoal](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/324.gif){ .sprite }<br>[Torkoal](../pokedex/pokemon/torkoal.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F08030 0%, #F08030dd 100%);">Fire</span></div> | **Level:** 35<br>**Ability:** [White Smoke](../pokedex/abilities/white-smoke.md)<br>**Item:** ![White Herb](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/white-herb.png){ .item-sprite } [White Herb](../pokedex/items/white-herb.md) | 1. [Overheat](../pokedex/moves/overheat.md)<br>2. [Attract](../pokedex/moves/attract.md)<br>3. [Body Slam](../pokedex/moves/body-slam.md)<br>4. [Sunny Day](../pokedex/moves/sunny-day.md) |
 
-
-**FLANNERY - Hoenn Leader**
+**○♕ FLANNERY - Hoenn Leader**
 
 **Reward:** ![Cheri Berry x12](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/cheri-berry.png){ .item-sprite } [Cheri Berry x12](../pokedex/items/cheri-berry.md)
 
@@ -1602,10 +1492,9 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 		| ![camerupt](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/323.gif){ .sprite }<br>[Camerupt](../pokedex/pokemon/camerupt.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F08030 0%, #F08030dd 100%);">Fire</span> <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span></div> | **Level:** 36<br>**Ability:** [Simple](../pokedex/abilities/simple.md)<br>**Item:** ![White Herb](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/white-herb.png){ .item-sprite } [White Herb](../pokedex/items/white-herb.md) | 1. [Overheat](../pokedex/moves/overheat.md)<br>2. [Earthquake](../pokedex/moves/earthquake.md)<br>3. [Growth](../pokedex/moves/growth.md)<br>4. [Flame Charge](../pokedex/moves/flame-charge.md) |
 		| ![magcargo](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/219.gif){ .sprite }<br>[Magcargo](../pokedex/pokemon/magcargo.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F08030 0%, #F08030dd 100%);">Fire</span> <span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span></div> | **Level:** 36<br>**Ability:** [Solid Rock](../pokedex/abilities/solid-rock.md)<br>**Item:** ![White Herb](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/white-herb.png){ .item-sprite } [White Herb](../pokedex/items/white-herb.md) | 1. [Overheat](../pokedex/moves/overheat.md)<br>2. [Magma Storm](../pokedex/moves/magma-storm.md)<br>3. [Power Gem](../pokedex/moves/power-gem.md)<br>4. [Solar Beam](../pokedex/moves/solar-beam.md) |
 
-
 #### Elesa Defeated
 
-**Plasma Grunt #359**
+**● Plasma Grunt #359**
 
 		| Pokémon | Type(s) | Attributes | Moves |
 		|:-------:|:-------:|:-----------|:------|
@@ -1615,8 +1504,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 		| ![vaporeon](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/134.gif){ .sprite }<br>[Vaporeon](../pokedex/pokemon/vaporeon.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span></div> | **Level:** 34<br>**Ability:** [Water Absorb](../pokedex/abilities/water-absorb.md) | 1. [Aurora Beam](../pokedex/moves/aurora-beam.md)<br>2. [Bubble Beam](../pokedex/moves/bubble-beam.md)<br>3. [Growth](../pokedex/moves/growth.md)<br>4. [Extrasensory](../pokedex/moves/extrasensory.md) |
 		| ![donphan](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/232.gif){ .sprite }<br>[Donphan](../pokedex/pokemon/donphan.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span></div> | **Level:** 34<br>**Ability:** [Sturdy](../pokedex/abilities/sturdy.md) | 1. [Earthquake](../pokedex/moves/earthquake.md)<br>2. [Ice Shard](../pokedex/moves/ice-shard.md)<br>3. [Assurance](../pokedex/moves/assurance.md)<br>4. [Endeavor](../pokedex/moves/endeavor.md) |
 
-
-**Plasma Grunt #751**
+**● Plasma Grunt #751**
 
 		| Pokémon | Type(s) | Attributes | Moves |
 		|:-------:|:-------:|:-----------|:------|
@@ -1625,13 +1513,12 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 		| ![archen](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/566.gif){ .sprite }<br>[Archen](../pokedex/pokemon/archen.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 34<br>**Ability:** [Defeatist](../pokedex/abilities/defeatist.md) | 1. [Accelerock](../pokedex/moves/accelerock.md)<br>2. [Dual Wingbeat](../pokedex/moves/dual-wingbeat.md)<br>3. [Dragon Claw](../pokedex/moves/dragon-claw.md)<br>4. [Crunch](../pokedex/moves/crunch.md) |
 		| ![swoobat](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/528.gif){ .sprite }<br>[Swoobat](../pokedex/pokemon/swoobat.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 34<br>**Ability:** [Simple](../pokedex/abilities/simple.md) | 1. [Esper Wing](../pokedex/moves/esper-wing.md)<br>2. [Air Cutter](../pokedex/moves/air-cutter.md)<br>3. [Calm Mind](../pokedex/moves/calm-mind.md)<br>4. [Stored Power](../pokedex/moves/stored-power.md) |
 
-
 ### Route 16
 
  - Levels -2 on Easy mode, +2 on Challenge mode.
 
 
-**Depot Agent Hank**
+**○ Depot Agent Hank**
 
 		| Pokémon | Type(s) | Attributes | Moves |
 		|:-------:|:-------:|:-----------|:------|
@@ -1639,8 +1526,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 		| ![dugtrio](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/51.gif){ .sprite }<br>[Dugtrio](../pokedex/pokemon/dugtrio.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span></div> | **Level:** 30<br>**Ability:** [Arena Trap](../pokedex/abilities/arena-trap.md) | 1. [Sucker Punch](../pokedex/moves/sucker-punch.md)<br>2. [Bulldoze](../pokedex/moves/bulldoze.md)<br>3. [Rock Slide](../pokedex/moves/rock-slide.md)<br>4. [Magnitude](../pokedex/moves/magnitude.md) |
 		| ![pupitar](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/247.gif){ .sprite }<br>[Pupitar](../pokedex/pokemon/pupitar.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span> <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span></div> | **Level:** 30<br>**Ability:** [Shed Skin](../pokedex/abilities/shed-skin.md) | 1. [Chip Away](../pokedex/moves/chip-away.md)<br>2. [Payback](../pokedex/moves/payback.md)<br>3. [Rock Slide](../pokedex/moves/rock-slide.md)<br>4. [Bulldoze](../pokedex/moves/bulldoze.md) |
 
-
-**Backpacker Ivan**
+**○ Backpacker Ivan**
 
 		| Pokémon | Type(s) | Attributes | Moves |
 		|:-------:|:-------:|:-----------|:------|
@@ -1649,16 +1535,14 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 		| ![prinplup](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/394.gif){ .sprite }<br>[Prinplup](../pokedex/pokemon/prinplup.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span></div> | **Level:** 30<br>**Ability:** [Torrent](../pokedex/abilities/torrent.md) | 1. [Yawn](../pokedex/moves/yawn.md)<br>2. [Bubble Beam](../pokedex/moves/bubble-beam.md)<br>3. [Aqua Ring](../pokedex/moves/aqua-ring.md)<br>4. [Fury Attack](../pokedex/moves/fury-attack.md) |
 		| ![skiploom](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/188.gif){ .sprite }<br>[Skiploom](../pokedex/pokemon/skiploom.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 30<br>**Ability:** [Prankster](../pokedex/abilities/prankster.md) | 1. [Acrobatics](../pokedex/moves/acrobatics.md)<br>2. [Confusion](../pokedex/moves/confusion.md)<br>3. [Leech Seed](../pokedex/moves/leech-seed.md)<br>4. [Aromatherapy](../pokedex/moves/aromatherapy.md) |
 
-
-**Backpacker Blossom**
+**○ Backpacker Blossom**
 
 		| Pokémon | Type(s) | Attributes | Moves |
 		|:-------:|:-------:|:-----------|:------|
 		| ![persian](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/53.gif){ .sprite }<br>[Persian](../pokedex/pokemon/persian.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span></div> | **Level:** 31<br>**Ability:** [Unnerve](../pokedex/abilities/unnerve.md) | 1. [Slash](../pokedex/moves/slash.md)<br>2. [Night Slash](../pokedex/moves/night-slash.md)<br>3. [Power Gem](../pokedex/moves/power-gem.md)<br>4. [Charm](../pokedex/moves/charm.md) |
 		| ![drifloon](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/425.gif){ .sprite }<br>[Drifloon](../pokedex/pokemon/drifloon.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 31<br>**Ability:** [Aftermath](../pokedex/abilities/aftermath.md) | 1. [Minimize](../pokedex/moves/minimize.md)<br>2. [Hex](../pokedex/moves/hex.md)<br>3. [Ominous Wind](../pokedex/moves/ominous-wind.md)<br>4. [Air Cutter](../pokedex/moves/air-cutter.md) |
 
-
-**Cyclist Hector**
+**○ Cyclist Hector**
 
 		| Pokémon | Type(s) | Attributes | Moves |
 		|:-------:|:-------:|:-----------|:------|
@@ -1667,8 +1551,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 		| ![doduo](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/84.gif){ .sprite }<br>[Doduo](../pokedex/pokemon/doduo.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 30<br>**Ability:** [Early Bird](../pokedex/abilities/early-bird.md) | 1. [Quick Attack](../pokedex/moves/quick-attack.md)<br>2. [Double Hit](../pokedex/moves/double-hit.md)<br>3. [Jump Kick](../pokedex/moves/jump-kick.md)<br>4. [Endeavor](../pokedex/moves/endeavor.md) |
 		| ![ambipom](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/424.gif){ .sprite }<br>[Ambipom](../pokedex/pokemon/ambipom.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span></div> | **Level:** 30<br>**Ability:** [Technician](../pokedex/abilities/technician.md) | 1. [Fury Swipes](../pokedex/moves/fury-swipes.md)<br>2. [Covet](../pokedex/moves/covet.md)<br>3. [Quick Attack](../pokedex/moves/quick-attack.md)<br>4. [Screech](../pokedex/moves/screech.md) |
 
-
-**Backers Stu and Art**
+**○ Backers Stu and Art**
 
 **Battle Type:** 2x
 
@@ -1679,8 +1562,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 		| ![grovyle](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/253.gif){ .sprite }<br>[Grovyle](../pokedex/pokemon/grovyle.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span></div> | **Level:** 31<br>**Ability:** [Overgrow](../pokedex/abilities/overgrow.md) | 1. [Giga Drain](../pokedex/moves/giga-drain.md)<br>2. [Acrobatics](../pokedex/moves/acrobatics.md)<br>3. [Detect](../pokedex/moves/detect.md)<br>4. [Endeavor](../pokedex/moves/endeavor.md) |
 		| ![marshtomp](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/259.gif){ .sprite }<br>[Marshtomp](../pokedex/pokemon/marshtomp.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span></div> | **Level:** 31<br>**Ability:** [Torrent](../pokedex/abilities/torrent.md) | 1. [Muddy Water](../pokedex/moves/muddy-water.md)<br>2. [Rock Slide](../pokedex/moves/rock-slide.md)<br>3. [Mud Shot](../pokedex/moves/mud-shot.md)<br>4. [Work Up](../pokedex/moves/work-up.md) |
 
-
-**Cyclist Krissa**
+**○ Cyclist Krissa**
 
 		| Pokémon | Type(s) | Attributes | Moves |
 		|:-------:|:-------:|:-----------|:------|
@@ -1689,21 +1571,19 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 		| ![farfetchd](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/83.gif){ .sprite }<br>[Farfetchˈd](../pokedex/pokemon/farfetchd.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 30<br>**Ability:** [Defeatist](../pokedex/abilities/defeatist.md) | 1. [Fury Cutter](../pokedex/moves/fury-cutter.md)<br>2. [Aerial Ace](../pokedex/moves/aerial-ace.md)<br>3. [Feather Dance](../pokedex/moves/feather-dance.md)<br>4. [Revenge](../pokedex/moves/revenge.md) |
 		| ![munchlax](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/446.gif){ .sprite }<br>[Munchlax](../pokedex/pokemon/munchlax.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span></div> | **Level:** 30<br>**Ability:** [Thick Fat](../pokedex/abilities/thick-fat.md) | 1. [Curse](../pokedex/moves/curse.md)<br>2. [Chip Away](../pokedex/moves/chip-away.md)<br>3. [Whirlwind](../pokedex/moves/whirlwind.md)<br>4. [Gastro Acid](../pokedex/moves/gastro-acid.md) |
 
-
 ### Lostlorn Forest
 
  - Levels -2 on Easy mode, +2 on Challenge mode.
 
 
-**Breeder Galen**
+**○ Breeder Galen**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
 | ![bonsly](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/438.gif){ .sprite }<br>[Bonsly](../pokedex/pokemon/bonsly.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span></div> | **Level:** 33<br>**Ability:** [Rock Head](../pokedex/abilities/rock-head.md) | 1. [Mimic](../pokedex/moves/mimic.md)<br>2. [Curse](../pokedex/moves/curse.md)<br>3. [Block](../pokedex/moves/block.md) |
 | ![audino](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/531.gif){ .sprite }<br>[Audino](../pokedex/pokemon/audino.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> <span class="type-badge" style="background: linear-gradient(135deg, #EE99AC 0%, #EE99ACdd 100%);">Fairy</span></div> | **Level:** 33<br>**Ability:** [Healer](../pokedex/abilities/healer.md) | 1. [Double Slap](../pokedex/moves/double-slap.md)<br>2. [Heal Pulse](../pokedex/moves/heal-pulse.md)<br>3. [Covet](../pokedex/moves/covet.md)<br>4. [Take Down](../pokedex/moves/take-down.md) |
 
-
-**Ranger♂ Forrest**
+**○ Ranger♂ Forrest**
 
 **Reward:** ![Cheri Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/cheri-berry.png){ .item-sprite } [Cheri Berry](../pokedex/items/cheri-berry.md)
 
@@ -1714,8 +1594,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![fearow](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/22.gif){ .sprite }<br>[Fearow](../pokedex/pokemon/fearow.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 33<br>**Ability:** [Intimidate](../pokedex/abilities/intimidate.md) | 1. [Drill Peck](../pokedex/moves/drill-peck.md)<br>2. [Take Down](../pokedex/moves/take-down.md)<br>3. [Feather Dance](../pokedex/moves/feather-dance.md)<br>4. [Focus Energy](../pokedex/moves/focus-energy.md) |
 | ![sudowoodo](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/185.gif){ .sprite }<br>[Sudowoodo](../pokedex/pokemon/sudowoodo.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span></div> | **Level:** 33<br>**Ability:** [Sturdy](../pokedex/abilities/sturdy.md) | 1. [Headbutt](../pokedex/moves/headbutt.md)<br>2. [Feint Attack](../pokedex/moves/feint-attack.md)<br>3. [Counter](../pokedex/moves/counter.md)<br>4. [Rock Slide](../pokedex/moves/rock-slide.md) |
 
-
-**Ranger♀ Serenity**
+**○ Ranger♀ Serenity**
 
 **Reward:** ![Pecha Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/pecha-berry.png){ .item-sprite } [Pecha Berry](../pokedex/items/pecha-berry.md)
 
@@ -1726,10 +1605,9 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![mudkip](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/258.gif){ .sprite }<br>[Mudkip](../pokedex/pokemon/mudkip.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span></div> | **Level:** 33<br>**Ability:** [Torrent](../pokedex/abilities/torrent.md) | 1. [Rock Throw](../pokedex/moves/rock-throw.md)<br>2. [Aqua Tail](../pokedex/moves/aqua-tail.md)<br>3. [Avalanche](../pokedex/moves/avalanche.md)<br>4. [Curse](../pokedex/moves/curse.md) |
 | ![togetic](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/176.gif){ .sprite }<br>[Togetic](../pokedex/pokemon/togetic.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 33<br>**Ability:** [Serene Grace](../pokedex/abilities/serene-grace.md) | 1. [Metronome](../pokedex/moves/metronome.md)<br>2. [Mirror Move](../pokedex/moves/mirror-move.md)<br>3. [Disarming Voice](../pokedex/moves/disarming-voice.md)<br>4. [Ancient Power](../pokedex/moves/ancient-power.md) |
 
-
 #### Surf and Waterfall
 
-**Veteran Murphy**
+**○ Veteran Murphy**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -1739,13 +1617,12 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![yanmega](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/469.gif){ .sprite }<br>[Yanmega](../pokedex/pokemon/yanmega.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 50<br>**Ability:** [Speed Boost](../pokedex/abilities/speed-boost.md) | 1. [Bug Buzz](../pokedex/moves/bug-buzz.md)<br>2. [Air Slash](../pokedex/moves/air-slash.md)<br>3. [Ancient Power](../pokedex/moves/ancient-power.md)<br>4. [Protect](../pokedex/moves/protect.md) |
 | ![volcarona](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/637.gif){ .sprite }<br>[Volcarona](../pokedex/pokemon/volcarona.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> <span class="type-badge" style="background: linear-gradient(135deg, #F08030 0%, #F08030dd 100%);">Fire</span></div> | **Level:** 50<br>**Ability:** [Swarm](../pokedex/abilities/swarm.md) | 1. [Fire Blast](../pokedex/moves/fire-blast.md)<br>2. [Psychic](../pokedex/moves/psychic.md)<br>3. [Silver Wind](../pokedex/moves/silver-wind.md)<br>4. [Giga Drain](../pokedex/moves/giga-drain.md) |
 
-
 ### Route 5
 
  - Levels -2 on Easy mode, +2 on Challenge mode.
 
 
-**Artist Horton**
+**○ Artist Horton**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -1754,8 +1631,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![jigglypuff](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/39.gif){ .sprite }<br>[Jigglypuff](../pokedex/pokemon/jigglypuff.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span></div> | **Level:** 30<br>**Ability:** [Cute Charm](../pokedex/abilities/cute-charm.md) | 1. [Disable](../pokedex/moves/disable.md)<br>2. [Play Rough](../pokedex/moves/play-rough.md)<br>3. [Body Slam](../pokedex/moves/body-slam.md)<br>4. [Charm](../pokedex/moves/charm.md) |
 | ![cherrim](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/421.gif){ .sprite }<br>[Cherrim](../pokedex/pokemon/cherrim.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span></div> | **Level:** 30<br>**Ability:** [Flower Gift](../pokedex/abilities/flower-gift.md) | 1. [Morning Sun](../pokedex/moves/morning-sun.md)<br>2. [Sunny Day](../pokedex/moves/sunny-day.md)<br>3. [Growth](../pokedex/moves/growth.md)<br>4. [Petal Dance](../pokedex/moves/petal-dance.md) |
 
-
-**Baker Jenn**
+**○ Baker Jenn**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -1763,8 +1639,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![miltank](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/241.gif){ .sprite }<br>[Miltank](../pokedex/pokemon/miltank.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span></div> | **Level:** 30<br>**Ability:** [Thick Fat](../pokedex/abilities/thick-fat.md) | 1. [Dizzy Punch](../pokedex/moves/dizzy-punch.md)<br>2. [Stomp](../pokedex/moves/stomp.md)<br>3. [Wake Up Slap](../pokedex/moves/wake-up-slap.md)<br>4. [Heart Stamp](../pokedex/moves/heart-stamp.md) |
 | ![tauros](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/128.gif){ .sprite }<br>[Tauros](../pokedex/pokemon/tauros.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span></div> | **Level:** 30<br>**Ability:** [Intimidate](../pokedex/abilities/intimidate.md) | 1. [Smart Strike](../pokedex/moves/smart-strike.md)<br>2. [Take Down](../pokedex/moves/take-down.md)<br>3. [Assurance](../pokedex/moves/assurance.md)<br>4. [Quick Attack](../pokedex/moves/quick-attack.md) |
 
-
-**Backers Ava and Aya**
+**○ Backers Ava and Aya**
 
 **Battle Type:** 2x
 
@@ -1775,8 +1650,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![charmeleon](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/5.gif){ .sprite }<br>[Charmeleon](../pokedex/pokemon/charmeleon.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F08030 0%, #F08030dd 100%);">Fire</span> <span class="type-badge" style="background: linear-gradient(135deg, #7038F8 0%, #7038F8dd 100%);">Dragon</span></div> | **Level:** 30<br>**Ability:** [Blaze](../pokedex/abilities/blaze.md) | 1. [Flame Burst](../pokedex/moves/flame-burst.md)<br>2. [Dragon Breath](../pokedex/moves/dragon-breath.md)<br>3. [Metal Claw](../pokedex/moves/metal-claw.md)<br>4. [Scary Face](../pokedex/moves/scary-face.md) |
 | ![wartortle](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/8.gif){ .sprite }<br>[Wartortle](../pokedex/pokemon/wartortle.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span></div> | **Level:** 30<br>**Ability:** [Shell Armor](../pokedex/abilities/shell-armor.md) | 1. [Aqua Tail](../pokedex/moves/aqua-tail.md)<br>2. [Rapid Spin](../pokedex/moves/rapid-spin.md)<br>3. [Aqua Ring](../pokedex/moves/aqua-ring.md)<br>4. [Avalanche](../pokedex/moves/avalanche.md) |
 
-
-**Dancer Brian**
+**○ Dancer Brian**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -1784,8 +1658,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![kirlia](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/281.gif){ .sprite }<br>[Kirlia](../pokedex/pokemon/kirlia.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span></div> | **Level:** 31<br>**Ability:** [Trace](../pokedex/abilities/trace.md) | 1. [Hypnosis](../pokedex/moves/hypnosis.md)<br>2. [Magical Leaf](../pokedex/moves/magical-leaf.md)<br>3. [Draining Kiss](../pokedex/moves/draining-kiss.md)<br>4. [Psychic](../pokedex/moves/psychic.md) |
 | ![ludicolo](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/272.gif){ .sprite }<br>[Ludicolo](../pokedex/pokemon/ludicolo.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> <span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span></div> | **Level:** 31<br>**Ability:** [Swift Swim](../pokedex/abilities/swift-swim.md) | 1. [Drain Punch](../pokedex/moves/drain-punch.md)<br>2. [Thunder Punch](../pokedex/moves/thunder-punch.md)<br>3. [Ice Punch](../pokedex/moves/ice-punch.md)<br>4. [Fire Punch](../pokedex/moves/fire-punch.md) |
 
-
-**Ranger Lois**
+**○ Ranger Lois**
 
 **Reward:** ![Cheri Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/cheri-berry.png){ .item-sprite } [Cheri Berry](../pokedex/items/cheri-berry.md)
 
@@ -1796,10 +1669,9 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![swellow](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/277.gif){ .sprite }<br>[Swellow](../pokedex/pokemon/swellow.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 33<br>**Ability:** [Guts](../pokedex/abilities/guts.md) | 1. [Aerial Ace](../pokedex/moves/aerial-ace.md)<br>2. [Steel Wing](../pokedex/moves/steel-wing.md)<br>3. [Pursuit](../pokedex/moves/pursuit.md)<br>4. [Quick Attack](../pokedex/moves/quick-attack.md) |
 | ![mr-mime](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/122.gif){ .sprite }<br>[Mr. Mime](../pokedex/pokemon/mr-mime.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span> <span class="type-badge" style="background: linear-gradient(135deg, #EE99AC 0%, #EE99ACdd 100%);">Fairy</span></div> | **Level:** 33<br>**Ability:** [Technician](../pokedex/abilities/technician.md) | 1. [Fake Out](../pokedex/moves/fake-out.md)<br>2. [Confusion](../pokedex/moves/confusion.md)<br>3. [Disarming Voice](../pokedex/moves/disarming-voice.md)<br>4. [Magical Leaf](../pokedex/moves/magical-leaf.md) |
 
-
 #### Elesa Defeated
 
-**CHARLES**
+**●♕ CHARLES**
 
 **Battle Type:** 3x
 
@@ -1812,13 +1684,12 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![bouffalant](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/626.gif){ .sprite }<br>[Bouffalant](../pokedex/pokemon/bouffalant.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span></div> | **Level:** 37<br>**Ability:** [Reckless](../pokedex/abilities/reckless.md)<br>**Item:** ![Sitrus Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/sitrus-berry.png){ .item-sprite } [Sitrus Berry](../pokedex/items/sitrus-berry.md) | 1. [Head Charge](../pokedex/moves/head-charge.md)<br>2. [Wild Charge](../pokedex/moves/wild-charge.md)<br>3. [Megahorn](../pokedex/moves/megahorn.md)<br>4. [High Horsepower](../pokedex/moves/high-horsepower.md) |
 | ![crustle](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/558.gif){ .sprite }<br>[Crustle](../pokedex/pokemon/crustle.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> <span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span></div> | **Level:** 37<br>**Ability:** [Sturdy](../pokedex/abilities/sturdy.md)<br>**Item:** ![Custap Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/custap-berry.png){ .item-sprite } [Custap Berry](../pokedex/items/custap-berry.md) | 1. [Rock Slide](../pokedex/moves/rock-slide.md)<br>2. [Accelerock](../pokedex/moves/accelerock.md)<br>3. [Shell Smash](../pokedex/moves/shell-smash.md)<br>4. [X Scissor](../pokedex/moves/x-scissor.md) |
 
-
 ### Amusement Park
 
  - Levels -2 on Easy mode, +2 on Challenge mode.
 
 
-**Rich Boy Rolan**
+**● Rich Boy Rolan**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -1826,8 +1697,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![blitzle](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/522.gif){ .sprite }<br>[Blitzle](../pokedex/pokemon/blitzle.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F8D030 0%, #F8D030dd 100%);">Electric</span></div> | **Level:** 31<br>**Ability:** [Sap Sipper](../pokedex/abilities/sap-sipper.md) | 1. [Flame Charge](../pokedex/moves/flame-charge.md)<br>2. [Double Kick](../pokedex/moves/double-kick.md)<br>3. [Stomp](../pokedex/moves/stomp.md)<br>4. [Discharge](../pokedex/moves/discharge.md) |
 | ![tynamo](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/602.gif){ .sprite }<br>[Tynamo](../pokedex/pokemon/tynamo.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F8D030 0%, #F8D030dd 100%);">Electric</span></div> | **Level:** 31<br>**Ability:** [Levitate](../pokedex/abilities/levitate.md) | 1. [Shock Wave](../pokedex/moves/shock-wave.md)<br>2. [Tackle](../pokedex/moves/tackle.md)<br>3. [Nuzzle](../pokedex/moves/nuzzle.md)<br>4. [Magnet Rise](../pokedex/moves/magnet-rise.md) |
 
-
-**Rich Girl Colette**
+**● Rich Girl Colette**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -1835,13 +1705,12 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![minun](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/312.gif){ .sprite }<br>[Minun](../pokedex/pokemon/minun.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F8D030 0%, #F8D030dd 100%);">Electric</span></div> | **Level:** 31<br>**Ability:** [Volt Absorb](../pokedex/abilities/volt-absorb.md) | 1. [Nuzzle](../pokedex/moves/nuzzle.md)<br>2. [Electro Ball](../pokedex/moves/electro-ball.md)<br>3. [Fake Tears](../pokedex/moves/fake-tears.md)<br>4. [Quick Attack](../pokedex/moves/quick-attack.md) |
 | ![pachirisu](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/417.gif){ .sprite }<br>[Pachirisu](../pokedex/pokemon/pachirisu.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F8D030 0%, #F8D030dd 100%);">Electric</span></div> | **Level:** 31<br>**Ability:** [Volt Absorb](../pokedex/abilities/volt-absorb.md) | 1. [Covet](../pokedex/moves/covet.md)<br>2. [Swift](../pokedex/moves/swift.md)<br>3. [Discharge](../pokedex/moves/discharge.md)<br>4. [Fake Tears](../pokedex/moves/fake-tears.md) |
 
-
 #### Elesa's Gym
 
  - Levels -2 on Easy mode, +2 on Challenge mode.
 
 
-**Beauty Nikola**
+**● Beauty Nikola**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -1849,8 +1718,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![luxray](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/405.gif){ .sprite }<br>[Luxray](../pokedex/pokemon/luxray.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F8D030 0%, #F8D030dd 100%);">Electric</span> <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span></div> | **Level:** 33<br>**Ability:** [Intimidate](../pokedex/abilities/intimidate.md) | 1. [Crunch](../pokedex/moves/crunch.md)<br>2. [Thunder Fang](../pokedex/moves/thunder-fang.md)<br>3. [Ice Fang](../pokedex/moves/ice-fang.md)<br>4. [Fire Fang](../pokedex/moves/fire-fang.md) |
 | ![emolga](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/587.gif){ .sprite }<br>[Emolga](../pokedex/pokemon/emolga.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F8D030 0%, #F8D030dd 100%);">Electric</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 33<br>**Ability:** [Motor Drive](../pokedex/abilities/motor-drive.md) | 1. [Nuzzle](../pokedex/moves/nuzzle.md)<br>2. [Electro Ball](../pokedex/moves/electro-ball.md)<br>3. [Acrobatics](../pokedex/moves/acrobatics.md)<br>4. [Signal Beam](../pokedex/moves/signal-beam.md) |
 
-
-**Beauty Fleming**
+**● Beauty Fleming**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -1858,8 +1726,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![manectric](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/310.gif){ .sprite }<br>[Manectric](../pokedex/pokemon/manectric.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F8D030 0%, #F8D030dd 100%);">Electric</span></div> | **Level:** 33<br>**Ability:** [Intimidate](../pokedex/abilities/intimidate.md) | 1. [Discharge](../pokedex/moves/discharge.md)<br>2. [Flame Burst](../pokedex/moves/flame-burst.md)<br>3. [Psychic Fangs](../pokedex/moves/psychic-fangs.md)<br>4. [Ice Fang](../pokedex/moves/ice-fang.md) |
 | ![flaaffy](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/180.gif){ .sprite }<br>[Flaaffy](../pokedex/pokemon/flaaffy.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F8D030 0%, #F8D030dd 100%);">Electric</span></div> | **Level:** 33<br>**Ability:** [Static](../pokedex/abilities/static.md) | 1. [Power Gem](../pokedex/moves/power-gem.md)<br>2. [Thunder Wave](../pokedex/moves/thunder-wave.md)<br>3. [Charge Beam](../pokedex/moves/charge-beam.md)<br>4. [Cotton Guard](../pokedex/moves/cotton-guard.md) |
 
-
-**Beauty Ampère**
+**● Beauty Ampère**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -1868,8 +1735,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![stunfisk](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/618.gif){ .sprite }<br>[Stunfisk](../pokedex/pokemon/stunfisk.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> <span class="type-badge" style="background: linear-gradient(135deg, #F8D030 0%, #F8D030dd 100%);">Electric</span></div> | **Level:** 34<br>**Ability:** [Static](../pokedex/abilities/static.md) | 1. [Discharge](../pokedex/moves/discharge.md)<br>2. [Mud Shot](../pokedex/moves/mud-shot.md)<br>3. [Revenge](../pokedex/moves/revenge.md)<br>4. [Muddy Water](../pokedex/moves/muddy-water.md) |
 | ![jolteon](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/135.gif){ .sprite }<br>[Jolteon](../pokedex/pokemon/jolteon.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F8D030 0%, #F8D030dd 100%);">Electric</span></div> | **Level:** 34<br>**Ability:** [Volt Absorb](../pokedex/abilities/volt-absorb.md) | 1. [Electro Ball](../pokedex/moves/electro-ball.md)<br>2. [Nuzzle](../pokedex/moves/nuzzle.md)<br>3. [Pin Missile](../pokedex/moves/pin-missile.md)<br>4. [Quick Attack](../pokedex/moves/quick-attack.md) |
 
-
-**♛ LEADER ELESA**
+**●♛ LEADER ELESA**
 
 **Reward:** ![TM72](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM72](../pokedex/items/tm72.md), [Volt Switch](../pokedex/moves/volt-switch.md)
 
@@ -1883,8 +1749,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![electabuzz](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/125.gif){ .sprite }<br>[Electabuzz](../pokedex/pokemon/electabuzz.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F8D030 0%, #F8D030dd 100%);">Electric</span></div> | **Level:** 35<br>**Ability:** [Static](../pokedex/abilities/static.md)<br>**Item:** ![Life Orb](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/life-orb.png){ .item-sprite } [Life Orb](../pokedex/items/life-orb.md) | 1. [Volt Switch](../pokedex/moves/volt-switch.md)<br>2. [Ice Punch](../pokedex/moves/ice-punch.md)<br>3. [Psychic](../pokedex/moves/psychic.md)<br>4. [Cross Chop](../pokedex/moves/cross-chop.md) |
 | ![zebstrika](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/523.gif){ .sprite }<br>[Zebstrika](../pokedex/pokemon/zebstrika.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F8D030 0%, #F8D030dd 100%);">Electric</span></div> | **Level:** 36<br>**Ability:** [Sap Sipper](../pokedex/abilities/sap-sipper.md)<br>**Item:** ![White Herb](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/white-herb.png){ .item-sprite } [White Herb](../pokedex/items/white-herb.md) | 1. [Volt Switch](../pokedex/moves/volt-switch.md)<br>2. [Overheat](../pokedex/moves/overheat.md)<br>3. [Bounce](../pokedex/moves/bounce.md)<br>4. [Quick Attack](../pokedex/moves/quick-attack.md) |
 
-
-**♛ LEADER ELESA**
+**●♛ LEADER ELESA**
 
 **Reward:** ![TM72](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM72](../pokedex/items/tm72.md), [Volt Switch](../pokedex/moves/volt-switch.md)
 
@@ -1901,13 +1766,12 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![stunfisk](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/618.gif){ .sprite }<br>[Stunfisk](../pokedex/pokemon/stunfisk.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> <span class="type-badge" style="background: linear-gradient(135deg, #F8D030 0%, #F8D030dd 100%);">Electric</span></div> | **Level:** 37<br>**Ability:** [Lightning Rod](../pokedex/abilities/lightning-rod.md)<br>**Item:** ![Sitrus Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/sitrus-berry.png){ .item-sprite } [Sitrus Berry](../pokedex/items/sitrus-berry.md) | 1. [Muddy Water](../pokedex/moves/muddy-water.md)<br>2. [Discharge](../pokedex/moves/discharge.md)<br>3. [Earth Power](../pokedex/moves/earth-power.md)<br>4. [Sludge Bomb](../pokedex/moves/sludge-bomb.md) |
 | ![zebstrika](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/523.gif){ .sprite }<br>[Zebstrika](../pokedex/pokemon/zebstrika.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F8D030 0%, #F8D030dd 100%);">Electric</span></div> | **Level:** 38<br>**Ability:** [Motor Drive](../pokedex/abilities/motor-drive.md)<br>**Item:** ![Life Orb](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/life-orb.png){ .item-sprite } [Life Orb](../pokedex/items/life-orb.md) | 1. [Wild Charge](../pokedex/moves/wild-charge.md)<br>2. [Flare Blitz](../pokedex/moves/flare-blitz.md)<br>3. [High Horsepower](../pokedex/moves/high-horsepower.md)<br>4. [Lunge](../pokedex/moves/lunge.md) |
 
-
 ### Driftveil City
 
  - No level shift based on difficulty, levels are as stated.
 
 
-**ROOD**
+**●♕ ROOD**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -1917,8 +1781,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![stoutland](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/508.gif){ .sprite }<br>[Stoutland](../pokedex/pokemon/stoutland.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span></div> | **Level:** 41<br>**Ability:** [Intimidate](../pokedex/abilities/intimidate.md)<br>**Item:** ![Life Orb](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/life-orb.png){ .item-sprite } [Life Orb](../pokedex/items/life-orb.md) | 1. [Strength](../pokedex/moves/strength.md)<br>2. [Fire Fang](../pokedex/moves/fire-fang.md)<br>3. [Ice Fang](../pokedex/moves/ice-fang.md)<br>4. [Thunder Fang](../pokedex/moves/thunder-fang.md) |
 | ![chandelure](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/609.gif){ .sprite }<br>[Chandelure](../pokedex/pokemon/chandelure.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> <span class="type-badge" style="background: linear-gradient(135deg, #F08030 0%, #F08030dd 100%);">Fire</span></div> | **Level:** 41<br>**Ability:** [Flash Fire](../pokedex/abilities/flash-fire.md)<br>**Item:** ![Passho Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/passho-berry.png){ .item-sprite } [Passho Berry](../pokedex/items/passho-berry.md) | 1. [Energy Ball](../pokedex/moves/energy-ball.md)<br>2. [Shadow Ball](../pokedex/moves/shadow-ball.md)<br>3. [Mystical Fire](../pokedex/moves/mystical-fire.md)<br>4. [Dark Pulse](../pokedex/moves/dark-pulse.md) |
 
-
-**NORMAN - Hoenn Leader**
+**○♕ NORMAN - Hoenn Leader**
 
 **Reward:** ![Choice Specs](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/choice-specs.png){ .item-sprite } [Choice Specs](../pokedex/items/choice-specs.md)
 
@@ -1931,8 +1794,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![linoone](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/264.gif){ .sprite }<br>[Linoone](../pokedex/pokemon/linoone.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span></div> | **Level:** 41<br>**Ability:** [Pickup](../pokedex/abilities/pickup.md)<br>**Item:** ![Sitrus Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/sitrus-berry.png){ .item-sprite } [Sitrus Berry](../pokedex/items/sitrus-berry.md) | 1. [Facade](../pokedex/moves/facade.md)<br>2. [Belly Drum](../pokedex/moves/belly-drum.md)<br>3. [Slash](../pokedex/moves/slash.md)<br>4. [Rock Smash](../pokedex/moves/rock-smash.md) |
 | ![slaking](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/289.gif){ .sprite }<br>[Slaking](../pokedex/pokemon/slaking.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span></div> | **Level:** 42<br>**Ability:** [Truant](../pokedex/abilities/truant.md)<br>**Item:** ![Sitrus Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/sitrus-berry.png){ .item-sprite } [Sitrus Berry](../pokedex/items/sitrus-berry.md) | 1. [Facade](../pokedex/moves/facade.md)<br>2. [Flamethrower](../pokedex/moves/flamethrower.md)<br>3. [Thunderbolt](../pokedex/moves/thunderbolt.md)<br>4. [Shadow Ball](../pokedex/moves/shadow-ball.md) |
 
-
-**NORMAN - Hoenn Leader**
+**○♕ NORMAN - Hoenn Leader**
 
 **Reward:** ![Sitrus Berry x5](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/sitrus-berry.png){ .item-sprite } [Sitrus Berry x5](../pokedex/items/sitrus-berry.md), ![Micle Berry x2](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/micle-berry.png){ .item-sprite } [Micle Berry x2](../pokedex/items/micle-berry.md)
 
@@ -1947,8 +1809,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![slaking](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/289.gif){ .sprite }<br>[Slaking](../pokedex/pokemon/slaking.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span></div> | **Level:** 44<br>**Ability:** [Truant](../pokedex/abilities/truant.md)<br>**Item:** ![Normal Gem](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/normal-gem.png){ .item-sprite } [Normal Gem](../pokedex/items/normal-gem.md) | 1. [Giga Impact](../pokedex/moves/giga-impact.md)<br>2. [Earthquake](../pokedex/moves/earthquake.md)<br>3. [Hammer Arm](../pokedex/moves/hammer-arm.md)<br>4. [Ice Punch](../pokedex/moves/ice-punch.md) |
 | ![linoone](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/264.gif){ .sprite }<br>[Linoone](../pokedex/pokemon/linoone.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span></div> | **Level:** 43<br>**Ability:** [Gluttony](../pokedex/abilities/gluttony.md)<br>**Item:** ![Sitrus Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/sitrus-berry.png){ .item-sprite } [Sitrus Berry](../pokedex/items/sitrus-berry.md) | 1. [Extreme Speed](../pokedex/moves/extreme-speed.md)<br>2. [Belly Drum](../pokedex/moves/belly-drum.md)<br>3. [Shadow Claw](../pokedex/moves/shadow-claw.md)<br>4. [Seed Bomb](../pokedex/moves/seed-bomb.md) |
 
-
-**Heartbreaker Charles**
+**○ Heartbreaker Charles**
 
 **Battle Type:** 3x
 
@@ -1961,14 +1822,13 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![carracosta](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/565.gif){ .sprite }<br>[Carracosta](../pokedex/pokemon/carracosta.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> <span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span></div> | **Level:** 41<br>**Ability:** [Sturdy](../pokedex/abilities/sturdy.md)<br>**Item:** ![White Herb](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/white-herb.png){ .item-sprite } [White Herb](../pokedex/items/white-herb.md) | 1. [Shell Smash](../pokedex/moves/shell-smash.md)<br>2. [Razor Shell](../pokedex/moves/razor-shell.md)<br>3. [Aqua Jet](../pokedex/moves/aqua-jet.md)<br>4. [Body Slam](../pokedex/moves/body-slam.md) |
 | ![basculin-red-striped](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/550.gif){ .sprite }<br>[Basculin Red Striped](../pokedex/pokemon/basculin-red-striped.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span></div> | **Level:** 41<br>**Ability:** [Adaptability](../pokedex/abilities/adaptability.md)<br>**Item:** ![Wacan Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/wacan-berry.png){ .item-sprite } [Wacan Berry](../pokedex/items/wacan-berry.md) | 1. [Waterfall](../pokedex/moves/waterfall.md)<br>2. [Aqua Jet](../pokedex/moves/aqua-jet.md)<br>3. [Psychic Fangs](../pokedex/moves/psychic-fangs.md)<br>4. [Head Smash](../pokedex/moves/head-smash.md) |
 
-
 #### Clay's Gym
 
  - No level shift based on difficulty, levels are as stated.
  - So as not to spoil the gym puzzle for those who enjoy figuring it out, Trainers are not correctly marked as mandatory here! (Except Clay ;))
 
 
-**Worker Noel**
+**○ Worker Noel**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -1978,8 +1838,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![diglett](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/50.gif){ .sprite }<br>[Diglett](../pokedex/pokemon/diglett.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span></div> | **Level:** 40<br>**Ability:** [Arena Trap](../pokedex/abilities/arena-trap.md) | 1. [Earthquake](../pokedex/moves/earthquake.md)<br>2. [Aerial Ace](../pokedex/moves/aerial-ace.md)<br>3. [Shadow Claw](../pokedex/moves/shadow-claw.md)<br>4. [Final Gambit](../pokedex/moves/final-gambit.md) |
 | ![cubone](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/104.gif){ .sprite }<br>[Cubone](../pokedex/pokemon/cubone.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span></div> | **Level:** 40<br>**Ability:** [Battle Armor](../pokedex/abilities/battle-armor.md)<br>**Item:** ![Thick Club](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/thick-club.png){ .item-sprite } [Thick Club](../pokedex/items/thick-club.md) | 1. [Bonemerang](../pokedex/moves/bonemerang.md)<br>2. [Rock Slide](../pokedex/moves/rock-slide.md)<br>3. [Fire Punch](../pokedex/moves/fire-punch.md)<br>4. [Thunder Punch](../pokedex/moves/thunder-punch.md) |
 
-
-**Worker Tavarius**
+**○ Worker Tavarius**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -1988,8 +1847,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![quagsire](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/195.gif){ .sprite }<br>[Quagsire](../pokedex/pokemon/quagsire.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span></div> | **Level:** 40<br>**Ability:** [Water Absorb](../pokedex/abilities/water-absorb.md) | 1. [Bulldoze](../pokedex/moves/bulldoze.md)<br>2. [Aqua Tail](../pokedex/moves/aqua-tail.md)<br>3. [Focus Blast](../pokedex/moves/focus-blast.md)<br>4. [Recover](../pokedex/moves/recover.md) |
 | ![gligar](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/207.gif){ .sprite }<br>[Gligar](../pokedex/pokemon/gligar.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 40<br>**Ability:** [Hyper Cutter](../pokedex/abilities/hyper-cutter.md) | 1. [Acrobatics](../pokedex/moves/acrobatics.md)<br>2. [X Scissor](../pokedex/moves/x-scissor.md)<br>3. [Bulldoze](../pokedex/moves/bulldoze.md)<br>4. [Rock Slide](../pokedex/moves/rock-slide.md) |
 
-
-**Worker Niel**
+**○ Worker Niel**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -1998,23 +1856,20 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![hippopotas](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/449.gif){ .sprite }<br>[Hippopotas](../pokedex/pokemon/hippopotas.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span></div> | **Level:** 40<br>**Ability:** [Sand Stream](../pokedex/abilities/sand-stream.md) | 1. [Earthquake](../pokedex/moves/earthquake.md)<br>2. [Crunch](../pokedex/moves/crunch.md)<br>3. [Rock Smash](../pokedex/moves/rock-smash.md)<br>4. [Slack Off](../pokedex/moves/slack-off.md) |
 | ![krokorok](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/552.gif){ .sprite }<br>[Krokorok](../pokedex/pokemon/krokorok.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span></div> | **Level:** 40<br>**Ability:** [Intimidate](../pokedex/abilities/intimidate.md) | 1. [Crunch](../pokedex/moves/crunch.md)<br>2. [Bulldoze](../pokedex/moves/bulldoze.md)<br>3. [Low Sweep](../pokedex/moves/low-sweep.md)<br>4. [Fire Fang](../pokedex/moves/fire-fang.md) |
 
-
-**Worker Maynard**
+**○ Worker Maynard**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
 | ![gliscor](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/472.gif){ .sprite }<br>[Gliscor](../pokedex/pokemon/gliscor.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 41<br>**Ability:** [Poison Heal](../pokedex/abilities/poison-heal.md)<br>**Item:** ![Toxic Orb](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/toxic-orb.png){ .item-sprite } [Toxic Orb](../pokedex/items/toxic-orb.md) | 1. [Acrobatics](../pokedex/moves/acrobatics.md)<br>2. [Bulldoze](../pokedex/moves/bulldoze.md)<br>3. [Fire Fang](../pokedex/moves/fire-fang.md)<br>4. [Ice Fang](../pokedex/moves/ice-fang.md) |
 
-
-**Worker Pasqual**
+**○ Worker Pasqual**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
 | ![nidoking](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/34.gif){ .sprite }<br>[Nidoking](../pokedex/pokemon/nidoking.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span> <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span></div> | **Level:** 41<br>**Ability:** [Sheer Force](../pokedex/abilities/sheer-force.md) | 1. [Thunderbolt](../pokedex/moves/thunderbolt.md)<br>2. [Ice Beam](../pokedex/moves/ice-beam.md)<br>3. [Sludge Wave](../pokedex/moves/sludge-wave.md)<br>4. [Earth Power](../pokedex/moves/earth-power.md) |
 | ![nidoqueen](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/31.gif){ .sprite }<br>[Nidoqueen](../pokedex/pokemon/nidoqueen.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span> <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span></div> | **Level:** 41<br>**Ability:** [Sheer Force](../pokedex/abilities/sheer-force.md) | 1. [Earth Power](../pokedex/moves/earth-power.md)<br>2. [Sludge Wave](../pokedex/moves/sludge-wave.md)<br>3. [Shadow Ball](../pokedex/moves/shadow-ball.md)<br>4. [Flamethrower](../pokedex/moves/flamethrower.md) |
 
-
-**Worker Friedrich**
+**○ Worker Friedrich**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -2023,8 +1878,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![onix](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/95.gif){ .sprite }<br>[Onix](../pokedex/pokemon/onix.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span> <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span></div> | **Level:** 40<br>**Ability:** [Sturdy](../pokedex/abilities/sturdy.md) | 1. [Bulldoze](../pokedex/moves/bulldoze.md)<br>2. [Heavy Slam](../pokedex/moves/heavy-slam.md)<br>3. [Head Smash](../pokedex/moves/head-smash.md)<br>4. [Dragon Dance](../pokedex/moves/dragon-dance.md) |
 | ![steelix](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/208.gif){ .sprite }<br>[Steelix](../pokedex/pokemon/steelix.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #B8B8D0 0%, #B8B8D0dd 100%);">Steel</span> <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span></div> | **Level:** 40<br>**Ability:** [Sheer Force](../pokedex/abilities/sheer-force.md) | 1. [Bulldoze](../pokedex/moves/bulldoze.md)<br>2. [Heavy Slam](../pokedex/moves/heavy-slam.md)<br>3. [Rock Slide](../pokedex/moves/rock-slide.md)<br>4. [Coil](../pokedex/moves/coil.md) |
 
-
-**Worker Tibor**
+**○ Worker Tibor**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -2032,8 +1886,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![vibrava](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/329.gif){ .sprite }<br>[Vibrava](../pokedex/pokemon/vibrava.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> <span class="type-badge" style="background: linear-gradient(135deg, #7038F8 0%, #7038F8dd 100%);">Dragon</span></div> | **Level:** 40<br>**Ability:** [Levitate](../pokedex/abilities/levitate.md) | 1. [Draco Meteor](../pokedex/moves/draco-meteor.md)<br>2. [Bulldoze](../pokedex/moves/bulldoze.md)<br>3. [Rock Slide](../pokedex/moves/rock-slide.md)<br>4. [Signal Beam](../pokedex/moves/signal-beam.md) |
 | ![gastrodon](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/423.gif){ .sprite }<br>[Gastrodon](../pokedex/pokemon/gastrodon.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span></div> | **Level:** 40<br>**Ability:** [Storm Drain](../pokedex/abilities/storm-drain.md) | 1. [Sludge Wave](../pokedex/moves/sludge-wave.md)<br>2. [Ice Beam](../pokedex/moves/ice-beam.md)<br>3. [Muddy Water](../pokedex/moves/muddy-water.md)<br>4. [Recover](../pokedex/moves/recover.md) |
 
-
-**♛ LEADER CLAY**
+**●♛ LEADER CLAY**
 
 **Reward:** ![TM26](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM26](../pokedex/items/tm26.md), [Earthquake](../pokedex/moves/earthquake.md)
 
@@ -2048,8 +1901,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![excadrill](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/530.gif){ .sprite }<br>[Excadrill](../pokedex/pokemon/excadrill.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> <span class="type-badge" style="background: linear-gradient(135deg, #B8B8D0 0%, #B8B8D0dd 100%);">Steel</span></div> | **Level:** 43<br>**Ability:** [Sand Rush](../pokedex/abilities/sand-rush.md)<br>**Item:** ![Chople Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/chople-berry.png){ .item-sprite } [Chople Berry](../pokedex/items/chople-berry.md) | 1. [Earthquake](../pokedex/moves/earthquake.md)<br>2. [Swords Dance](../pokedex/moves/swords-dance.md)<br>3. [Iron Head](../pokedex/moves/iron-head.md)<br>4. [X Scissor](../pokedex/moves/x-scissor.md) |
 | ![krookodile](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/553.gif){ .sprite }<br>[Krookodile](../pokedex/pokemon/krookodile.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span></div> | **Level:** 41<br>**Ability:** [Intimidate](../pokedex/abilities/intimidate.md)<br>**Item:** ![Leftovers](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/leftovers.png){ .item-sprite } [Leftovers](../pokedex/items/leftovers.md) | 1. [Earthquake](../pokedex/moves/earthquake.md)<br>2. [Sandstorm](../pokedex/moves/sandstorm.md)<br>3. [Crunch](../pokedex/moves/crunch.md)<br>4. [Rock Slide](../pokedex/moves/rock-slide.md) |
 
-
-**♛ LEADER CLAY**
+**●♛ LEADER CLAY**
 
 **Reward:** ![TM26](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM26](../pokedex/items/tm26.md), [Earthquake](../pokedex/moves/earthquake.md)
 
@@ -2068,13 +1920,12 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![nidoking](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/34.gif){ .sprite }<br>[Nidoking](../pokedex/pokemon/nidoking.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span> <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span></div> | **Level:** 44<br>**Ability:** [Sheer Force](../pokedex/abilities/sheer-force.md)<br>**Item:** ![Life Orb](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/life-orb.png){ .item-sprite } [Life Orb](../pokedex/items/life-orb.md) | 1. [Earth Power](../pokedex/moves/earth-power.md)<br>2. [Sludge Wave](../pokedex/moves/sludge-wave.md)<br>3. [Ice Beam](../pokedex/moves/ice-beam.md)<br>4. [Thunderbolt](../pokedex/moves/thunderbolt.md) |
 | ![excadrill](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/530.gif){ .sprite }<br>[Excadrill](../pokedex/pokemon/excadrill.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> <span class="type-badge" style="background: linear-gradient(135deg, #B8B8D0 0%, #B8B8D0dd 100%);">Steel</span></div> | **Level:** 45<br>**Ability:** [Sand Rush](../pokedex/abilities/sand-rush.md)<br>**Item:** ![Air Balloon](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/air-balloon.png){ .item-sprite } [Air Balloon](../pokedex/items/air-balloon.md) | 1. [Earthquake](../pokedex/moves/earthquake.md)<br>2. [Swords Dance](../pokedex/moves/swords-dance.md)<br>3. [Rock Slide](../pokedex/moves/rock-slide.md)<br>4. [X Scissor](../pokedex/moves/x-scissor.md) |
 
-
 ### Route 6
 
  - Levels -3 on Easy mode, +3 on Challenge mode.
 
 
-**Breeder April**
+**○ Breeder April**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -2082,8 +1933,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![chansey](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/113.gif){ .sprite }<br>[Chansey](../pokedex/pokemon/chansey.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span></div> | **Level:** 35<br>**Ability:** [Natural Cure](../pokedex/abilities/natural-cure.md) | 1. [Bestow](../pokedex/moves/bestow.md)<br>2. [Heal Pulse](../pokedex/moves/heal-pulse.md)<br>3. [Helping Hand](../pokedex/moves/helping-hand.md) |
 | ![grotle](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/388.gif){ .sprite }<br>[Grotle](../pokedex/pokemon/grotle.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span></div> | **Level:** 35<br>**Ability:** [Rock Head](../pokedex/abilities/rock-head.md) | 1. [Amnesia](../pokedex/moves/amnesia.md)<br>2. [Withdraw](../pokedex/moves/withdraw.md)<br>3. [Growth](../pokedex/moves/growth.md) |
 
-
-**Parasol Lady Nicole**
+**● Parasol Lady Nicole**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -2092,8 +1942,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![alomomola](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/594.gif){ .sprite }<br>[Alomomola](../pokedex/pokemon/alomomola.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span></div> | **Level:** 35<br>**Ability:** [Hydration](../pokedex/abilities/hydration.md) | 1. [Waterfall](../pokedex/moves/waterfall.md)<br>2. [Rain Dance](../pokedex/moves/rain-dance.md)<br>3. [Wish](../pokedex/moves/wish.md)<br>4. [Attract](../pokedex/moves/attract.md) |
 | ![gloom](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/44.gif){ .sprite }<br>[Gloom](../pokedex/pokemon/gloom.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span> <span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span></div> | **Level:** 35<br>**Ability:** [Stench](../pokedex/abilities/stench.md) | 1. [Sludge Bomb](../pokedex/moves/sludge-bomb.md)<br>2. [Sleep Powder](../pokedex/moves/sleep-powder.md)<br>3. [Stun Spore](../pokedex/moves/stun-spore.md)<br>4. [Poison Powder](../pokedex/moves/poison-powder.md) |
 
-
-**School Kid♀ Mara**
+**○ School Kid♀ Mara**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -2103,24 +1952,21 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![foongus](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/590.gif){ .sprite }<br>[Foongus](../pokedex/pokemon/foongus.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span> <span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span></div> | **Level:** 35<br>**Ability:** [Effect Spore](../pokedex/abilities/effect-spore.md) | 1. [Mega Drain](../pokedex/moves/mega-drain.md)<br>2. [Feint Attack](../pokedex/moves/feint-attack.md)<br>3. [Gastro Acid](../pokedex/moves/gastro-acid.md)<br>4. [Clear Smog](../pokedex/moves/clear-smog.md) |
 | ![octillery](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/224.gif){ .sprite }<br>[Octillery](../pokedex/pokemon/octillery.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span></div> | **Level:** 35<br>**Ability:** [Sniper](../pokedex/abilities/sniper.md) | 1. [Psybeam](../pokedex/moves/psybeam.md)<br>2. [Octazooka](../pokedex/moves/octazooka.md)<br>3. [Mud Shot](../pokedex/moves/mud-shot.md)<br>4. [Signal Beam](../pokedex/moves/signal-beam.md) |
 
-
-**Scientist♂ Jacques**
-
-| Pokémon | Type(s) | Attributes | Moves |
-|:-------:|:-------:|:-----------|:------|
-| ![ditto](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/132.gif){ .sprite }<br>[Ditto](../pokedex/pokemon/ditto.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span></div> | **Level:** 37<br>**Ability:** [Imposter](../pokedex/abilities/imposter.md) | 1. [Transform](../pokedex/moves/transform.md) |
-| ![ditto](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/132.gif){ .sprite }<br>[Ditto](../pokedex/pokemon/ditto.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span></div> | **Level:** 37<br>**Ability:** [Imposter](../pokedex/abilities/imposter.md)<br>**Item:** ![Choice Scarf](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/choice-scarf.png){ .item-sprite } [Choice Scarf](../pokedex/items/choice-scarf.md) | 1. [Transform](../pokedex/moves/transform.md) |
-
-
-**Scientist♀ Marissa**
+**● Scientist♂ Jacques**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
 | ![ditto](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/132.gif){ .sprite }<br>[Ditto](../pokedex/pokemon/ditto.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span></div> | **Level:** 37<br>**Ability:** [Imposter](../pokedex/abilities/imposter.md) | 1. [Transform](../pokedex/moves/transform.md) |
 | ![ditto](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/132.gif){ .sprite }<br>[Ditto](../pokedex/pokemon/ditto.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span></div> | **Level:** 37<br>**Ability:** [Imposter](../pokedex/abilities/imposter.md)<br>**Item:** ![Choice Scarf](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/choice-scarf.png){ .item-sprite } [Choice Scarf](../pokedex/items/choice-scarf.md) | 1. [Transform](../pokedex/moves/transform.md) |
 
+**● Scientist♀ Marissa**
 
-**School Kid♂ Alvin**
+| Pokémon | Type(s) | Attributes | Moves |
+|:-------:|:-------:|:-----------|:------|
+| ![ditto](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/132.gif){ .sprite }<br>[Ditto](../pokedex/pokemon/ditto.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span></div> | **Level:** 37<br>**Ability:** [Imposter](../pokedex/abilities/imposter.md) | 1. [Transform](../pokedex/moves/transform.md) |
+| ![ditto](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/132.gif){ .sprite }<br>[Ditto](../pokedex/pokemon/ditto.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span></div> | **Level:** 37<br>**Ability:** [Imposter](../pokedex/abilities/imposter.md)<br>**Item:** ![Choice Scarf](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/choice-scarf.png){ .item-sprite } [Choice Scarf](../pokedex/items/choice-scarf.md) | 1. [Transform](../pokedex/moves/transform.md) |
+
+**● School Kid♂ Alvin**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -2128,8 +1974,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![tangela](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/114.gif){ .sprite }<br>[Tangela](../pokedex/pokemon/tangela.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span></div> | **Level:** 35<br>**Ability:** [Leaf Guard](../pokedex/abilities/leaf-guard.md) | 1. [Pain Split](../pokedex/moves/pain-split.md)<br>2. [Bullet Seed](../pokedex/moves/bullet-seed.md)<br>3. [Synthesis](../pokedex/moves/synthesis.md)<br>4. [Wake Up Slap](../pokedex/moves/wake-up-slap.md) |
 | ![quagsire](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/195.gif){ .sprite }<br>[Quagsire](../pokedex/pokemon/quagsire.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span></div> | **Level:** 35<br>**Ability:** [Water Absorb](../pokedex/abilities/water-absorb.md) | 1. [Counter](../pokedex/moves/counter.md)<br>2. [Amnesia](../pokedex/moves/amnesia.md)<br>3. [Yawn](../pokedex/moves/yawn.md)<br>4. [Aqua Tail](../pokedex/moves/aqua-tail.md) |
 
-
-**Parasol Lady Tihana**
+**○ Parasol Lady Tihana**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -2137,8 +1982,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![poliwhirl](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/61.gif){ .sprite }<br>[Poliwhirl](../pokedex/pokemon/poliwhirl.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span></div> | **Level:** 36<br>**Ability:** [Swift Swim](../pokedex/abilities/swift-swim.md) | 1. [Hypnosis](../pokedex/moves/hypnosis.md)<br>2. [Surf](../pokedex/moves/surf.md)<br>3. [Ice Beam](../pokedex/moves/ice-beam.md) |
 | ![politoed](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/186.gif){ .sprite }<br>[Politoed](../pokedex/pokemon/politoed.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span></div> | **Level:** 36<br>**Ability:** [Water Absorb](../pokedex/abilities/water-absorb.md) | 1. [Hypnosis](../pokedex/moves/hypnosis.md)<br>2. [Scald](../pokedex/moves/scald.md)<br>3. [Ice Beam](../pokedex/moves/ice-beam.md) |
 
-
-**Ranger♂ Richard**
+**● Ranger♂ Richard**
 
 **Reward:** ![Pecha Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/pecha-berry.png){ .item-sprite } [Pecha Berry](../pokedex/items/pecha-berry.md)
 
@@ -2150,10 +1994,9 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![escavalier](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/589.gif){ .sprite }<br>[Escavalier](../pokedex/pokemon/escavalier.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> <span class="type-badge" style="background: linear-gradient(135deg, #B8B8D0 0%, #B8B8D0dd 100%);">Steel</span></div> | **Level:** 36<br>**Ability:** [Shell Armor](../pokedex/abilities/shell-armor.md) | 1. [Smart Strike](../pokedex/moves/smart-strike.md)<br>2. [Razor Shell](../pokedex/moves/razor-shell.md)<br>3. [Bug Bite](../pokedex/moves/bug-bite.md)<br>4. [Revenge](../pokedex/moves/revenge.md) |
 | ![ampharos](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/181.gif){ .sprite }<br>[Ampharos](../pokedex/pokemon/ampharos.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F8D030 0%, #F8D030dd 100%);">Electric</span> <span class="type-badge" style="background: linear-gradient(135deg, #7038F8 0%, #7038F8dd 100%);">Dragon</span></div> | **Level:** 36<br>**Ability:** [Static](../pokedex/abilities/static.md) | 1. [Discharge](../pokedex/moves/discharge.md)<br>2. [Power Gem](../pokedex/moves/power-gem.md)<br>3. [Signal Beam](../pokedex/moves/signal-beam.md)<br>4. [Dragon Breath](../pokedex/moves/dragon-breath.md) |
 
-
 #### Clay Defeated and Plasma Frigate Cleared
 
-**HUGH**
+**●♕ HUGH**
 
 === "Oshawott"
 
@@ -2185,13 +2028,12 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 	| ![lilligant](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/549.gif){ .sprite }<br>[Lilligant](../pokedex/pokemon/lilligant.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span></div> | **Level:** 46<br>**Ability:** [Own Tempo](../pokedex/abilities/own-tempo.md)<br>**Item:** ![Focus Sash](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/focus-sash.png){ .item-sprite } [Focus Sash](../pokedex/items/focus-sash.md) | 1. [Petal Dance](../pokedex/moves/petal-dance.md)<br>2. [Extrasensory](../pokedex/moves/extrasensory.md)<br>3. [Sleep Powder](../pokedex/moves/sleep-powder.md)<br>4. [Quiver Dance](../pokedex/moves/quiver-dance.md) |
 	| ![samurott](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/503.gif){ .sprite }<br>[Samurott](../pokedex/pokemon/samurott.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> <span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span></div> | **Level:** 47<br>**Ability:** [Shell Armor](../pokedex/abilities/shell-armor.md)<br>**Item:** ![Leftovers](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/leftovers.png){ .item-sprite } [Leftovers](../pokedex/items/leftovers.md) | 1. [Air Slash](../pokedex/moves/air-slash.md)<br>2. [Waterfall](../pokedex/moves/waterfall.md)<br>3. [Megahorn](../pokedex/moves/megahorn.md)<br>4. [Close Combat](../pokedex/moves/close-combat.md) |
 
-
 ### Clay Tunnel
 
 #### Driftveil Side Entrance
 
 
-**Hiker Teppei**
+**○ Hiker Teppei**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -2200,19 +2042,17 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![sableye](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/302.gif){ .sprite }<br>[Sableye](../pokedex/pokemon/sableye.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span></div> | **Level:** 37<br>**Ability:** [Prankster](../pokedex/abilities/prankster.md) | 1. [Octazooka](../pokedex/moves/octazooka.md)<br>2. [Shadow Claw](../pokedex/moves/shadow-claw.md)<br>3. [Pain Split](../pokedex/moves/pain-split.md)<br>4. [Feint Attack](../pokedex/moves/feint-attack.md) |
 | ![golbat](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/42.gif){ .sprite }<br>[Golbat](../pokedex/pokemon/golbat.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 37<br>**Ability:** [Inner Focus](../pokedex/abilities/inner-focus.md) | 1. [Mean Look](../pokedex/moves/mean-look.md)<br>2. [Feint Attack](../pokedex/moves/feint-attack.md)<br>3. [Air Cutter](../pokedex/moves/air-cutter.md)<br>4. [Haze](../pokedex/moves/haze.md) |
 
-
-**Worker Morgann**
+**○ Worker Morgann**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
 | ![maractus](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/556.gif){ .sprite }<br>[Maractus](../pokedex/pokemon/maractus.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span></div> | **Level:** 38<br>**Ability:** [Water Absorb](../pokedex/abilities/water-absorb.md) | 1. [Spikes](../pokedex/moves/spikes.md)<br>2. [Seed Bomb](../pokedex/moves/seed-bomb.md)<br>3. [Pin Missile](../pokedex/moves/pin-missile.md)<br>4. [Scald](../pokedex/moves/scald.md) |
 | ![dugtrio](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/51.gif){ .sprite }<br>[Dugtrio](../pokedex/pokemon/dugtrio.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span></div> | **Level:** 38<br>**Ability:** [Arena Trap](../pokedex/abilities/arena-trap.md) | 1. [Bulldoze](../pokedex/moves/bulldoze.md)<br>2. [Reversal](../pokedex/moves/reversal.md)<br>3. [Slash](../pokedex/moves/slash.md)<br>4. [Night Slash](../pokedex/moves/night-slash.md) |
 
-
 #### Mistralton Cave Entrance
 
 
-**Hiker Manuel**
+**○ Hiker Manuel**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -2220,8 +2060,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![golem](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/76.gif){ .sprite }<br>[Golem](../pokedex/pokemon/golem.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span> <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span></div> | **Level:** 38<br>**Ability:** [Sturdy](../pokedex/abilities/sturdy.md) | 1. [Rock Blast](../pokedex/moves/rock-blast.md)<br>2. [Steamroller](../pokedex/moves/steamroller.md)<br>3. [Stealth Rock](../pokedex/moves/stealth-rock.md)<br>4. [Accelerock](../pokedex/moves/accelerock.md) |
 | ![torkoal](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/324.gif){ .sprite }<br>[Torkoal](../pokedex/pokemon/torkoal.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F08030 0%, #F08030dd 100%);">Fire</span></div> | **Level:** 38<br>**Ability:** [Shell Armor](../pokedex/abilities/shell-armor.md) | 1. [Scorching Sands](../pokedex/moves/scorching-sands.md)<br>2. [Lava Plume](../pokedex/moves/lava-plume.md)<br>3. [Eruption](../pokedex/moves/eruption.md)<br>4. [Protect](../pokedex/moves/protect.md) |
 
-
-**Worker Herman**
+**○ Worker Herman**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -2229,8 +2068,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![hitmonchan](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/107.gif){ .sprite }<br>[Hitmonchan](../pokedex/pokemon/hitmonchan.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span></div> | **Level:** 38<br>**Ability:** [Iron Fist](../pokedex/abilities/iron-fist.md) | 1. [Bullet Punch](../pokedex/moves/bullet-punch.md)<br>2. [Rock Tomb](../pokedex/moves/rock-tomb.md)<br>3. [Drain Punch](../pokedex/moves/drain-punch.md)<br>4. [Sucker Punch](../pokedex/moves/sucker-punch.md) |
 | ![chatot](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/441.gif){ .sprite }<br>[Chatot](../pokedex/pokemon/chatot.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 38<br>**Ability:** [Soundproof](../pokedex/abilities/soundproof.md) | 1. [Uproar](../pokedex/moves/uproar.md)<br>2. [Agility](../pokedex/moves/agility.md)<br>3. [Night Shade](../pokedex/moves/night-shade.md)<br>4. [Chatter](../pokedex/moves/chatter.md) |
 
-
-**Worker Paul**
+**○ Worker Paul**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -2238,11 +2076,10 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![lopunny](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/428.gif){ .sprite }<br>[Lopunny](../pokedex/pokemon/lopunny.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> <span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span></div> | **Level:** 38<br>**Ability:** [Scrappy](../pokedex/abilities/scrappy.md) | 1. [Dizzy Punch](../pokedex/moves/dizzy-punch.md)<br>2. [Jump Kick](../pokedex/moves/jump-kick.md)<br>3. [Fake Out](../pokedex/moves/fake-out.md)<br>4. [Quick Attack](../pokedex/moves/quick-attack.md) |
 | ![camerupt](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/323.gif){ .sprite }<br>[Camerupt](../pokedex/pokemon/camerupt.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F08030 0%, #F08030dd 100%);">Fire</span> <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span></div> | **Level:** 38<br>**Ability:** [Solid Rock](../pokedex/abilities/solid-rock.md) | 1. [Bulldoze](../pokedex/moves/bulldoze.md)<br>2. [Lava Plume](../pokedex/moves/lava-plume.md)<br>3. [Take Down](../pokedex/moves/take-down.md)<br>4. [Yawn](../pokedex/moves/yawn.md) |
 
-
 #### Twist Mountain and Underground Ruins Entrance
 
 
-**Worker Leo**
+**○ Worker Leo**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -2250,8 +2087,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![lairon](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/305.gif){ .sprite }<br>[Lairon](../pokedex/pokemon/lairon.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #B8B8D0 0%, #B8B8D0dd 100%);">Steel</span> <span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span></div> | **Level:** 39<br>**Ability:** [Filter](../pokedex/abilities/filter.md) | 1. [Rock Tomb](../pokedex/moves/rock-tomb.md)<br>2. [Metal Burst](../pokedex/moves/metal-burst.md)<br>3. [Body Slam](../pokedex/moves/body-slam.md)<br>4. [Rock Tomb](../pokedex/moves/rock-tomb.md) |
 | ![probopass](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/476.gif){ .sprite }<br>[Probopass](../pokedex/pokemon/probopass.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span> <span class="type-badge" style="background: linear-gradient(135deg, #F8D030 0%, #F8D030dd 100%);">Electric</span></div> | **Level:** 38<br>**Ability:** [Sturdy](../pokedex/abilities/sturdy.md) | 1. [Power Gem](../pokedex/moves/power-gem.md)<br>2. [Discharge](../pokedex/moves/discharge.md)<br>3. [Thunder Wave](../pokedex/moves/thunder-wave.md)<br>4. [Pain Split](../pokedex/moves/pain-split.md) |
 
-
-**Ranger♂ Maxwell**
+**○ Ranger♂ Maxwell**
 
 **Reward:** ![Lum Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/lum-berry.png){ .item-sprite } [Lum Berry](../pokedex/items/lum-berry.md)
 
@@ -2262,8 +2098,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![milotic](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/350.gif){ .sprite }<br>[Milotic](../pokedex/pokemon/milotic.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span></div> | **Level:** 39<br>**Ability:** [Marvel Scale](../pokedex/abilities/marvel-scale.md) | 1. [Aqua Ring](../pokedex/moves/aqua-ring.md)<br>2. [Brine](../pokedex/moves/brine.md)<br>3. [Recover](../pokedex/moves/recover.md)<br>4. [Dragon Tail](../pokedex/moves/dragon-tail.md) |
 | ![scizor](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/212.gif){ .sprite }<br>[Scizor](../pokedex/pokemon/scizor.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> <span class="type-badge" style="background: linear-gradient(135deg, #B8B8D0 0%, #B8B8D0dd 100%);">Steel</span></div> | **Level:** 39<br>**Ability:** [Technician](../pokedex/abilities/technician.md) | 1. [Bullet Punch](../pokedex/moves/bullet-punch.md)<br>2. [Bug Bite](../pokedex/moves/bug-bite.md)<br>3. [Pursuit](../pokedex/moves/pursuit.md)<br>4. [Crabhammer](../pokedex/moves/crabhammer.md) |
 
-
-**Ranger♀ Katie**
+**○ Ranger♀ Katie**
 
 **Reward:** ![Lum Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/lum-berry.png){ .item-sprite } [Lum Berry](../pokedex/items/lum-berry.md)
 
@@ -2274,8 +2109,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![galvantula](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/596.gif){ .sprite }<br>[Galvantula](../pokedex/pokemon/galvantula.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> <span class="type-badge" style="background: linear-gradient(135deg, #F8D030 0%, #F8D030dd 100%);">Electric</span></div> | **Level:** 39<br>**Ability:** [Compound Eyes](../pokedex/abilities/compound-eyes.md) | 1. [Electro Ball](../pokedex/moves/electro-ball.md)<br>2. [Mega Drain](../pokedex/moves/mega-drain.md)<br>3. [Nuzzle](../pokedex/moves/nuzzle.md)<br>4. [Struggle Bug](../pokedex/moves/struggle-bug.md) |
 | ![jumpluff](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/189.gif){ .sprite }<br>[Jumpluff](../pokedex/pokemon/jumpluff.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 39<br>**Ability:** [Prankster](../pokedex/abilities/prankster.md) | 1. [Leech Seed](../pokedex/moves/leech-seed.md)<br>2. [Sleep Powder](../pokedex/moves/sleep-powder.md)<br>3. [Leaf Tornado](../pokedex/moves/leaf-tornado.md)<br>4. [Air Cutter](../pokedex/moves/air-cutter.md) |
 
-
-**Worker Brand**
+**○ Worker Brand**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -2283,13 +2117,12 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![onix](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/95.gif){ .sprite }<br>[Onix](../pokedex/pokemon/onix.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span> <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span></div> | **Level:** 38<br>**Ability:** [Weak Armor](../pokedex/abilities/weak-armor.md) | 1. [Dragon Dance](../pokedex/moves/dragon-dance.md)<br>2. [Rock Slide](../pokedex/moves/rock-slide.md)<br>3. [High Horsepower](../pokedex/moves/high-horsepower.md)<br>4. [Thunder Fang](../pokedex/moves/thunder-fang.md) |
 | ![sunflora](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/192.gif){ .sprite }<br>[Sunflora](../pokedex/pokemon/sunflora.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span></div> | **Level:** 38<br>**Ability:** [Solar Power](../pokedex/abilities/solar-power.md) | 1. [Leaf Tornado](../pokedex/moves/leaf-tornado.md)<br>2. [Grass Whistle](../pokedex/moves/grass-whistle.md)<br>3. [Earth Power](../pokedex/moves/earth-power.md)<br>4. [Morning Sun](../pokedex/moves/morning-sun.md) |
 
-
 ### PWT - Plasma Frigate (First Visit)
 
  - Levels -3 on Easy mode, +3 on Challenge mode.
 
 
-**Plasma Grunt #372**
+**● Plasma Grunt #372**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -2298,8 +2131,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![vanillish](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/583.gif){ .sprite }<br>[Vanillish](../pokedex/pokemon/vanillish.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #98D8D8 0%, #98D8D8dd 100%);">Ice</span></div> | **Level:** 40<br>**Ability:** [Ice Body](../pokedex/abilities/ice-body.md) | 1. [Frost Breath](../pokedex/moves/frost-breath.md)<br>2. [Autotomize](../pokedex/moves/autotomize.md)<br>3. [Icy Wind](../pokedex/moves/icy-wind.md)<br>4. [Ice Shard](../pokedex/moves/ice-shard.md) |
 | ![omastar](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/139.gif){ .sprite }<br>[Omastar](../pokedex/pokemon/omastar.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span> <span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span></div> | **Level:** 40<br>**Ability:** [Shell Armor](../pokedex/abilities/shell-armor.md) | 1. [Accelerock](../pokedex/moves/accelerock.md)<br>2. [Brine](../pokedex/moves/brine.md)<br>3. [Power Gem](../pokedex/moves/power-gem.md)<br>4. [Shell Smash](../pokedex/moves/shell-smash.md) |
 
-
-**Plasma Grunt #373**
+**● Plasma Grunt #373**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -2308,8 +2140,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![rotom](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/479.gif){ .sprite }<br>[Rotom](../pokedex/pokemon/rotom.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F8D030 0%, #F8D030dd 100%);">Electric</span> <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span></div> | **Level:** 40<br>**Ability:** [Levitate](../pokedex/abilities/levitate.md) | 1. [Shadow Ball](../pokedex/moves/shadow-ball.md)<br>2. [Thunderbolt](../pokedex/moves/thunderbolt.md)<br>3. [Dark Pulse](../pokedex/moves/dark-pulse.md)<br>4. [Nasty Plot](../pokedex/moves/nasty-plot.md) |
 | ![bastiodon](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/411.gif){ .sprite }<br>[Bastiodon](../pokedex/pokemon/bastiodon.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span> <span class="type-badge" style="background: linear-gradient(135deg, #B8B8D0 0%, #B8B8D0dd 100%);">Steel</span></div> | **Level:** 40<br>**Ability:** [Sturdy](../pokedex/abilities/sturdy.md) | 1. [Metal Burst](../pokedex/moves/metal-burst.md)<br>2. [Rock Blast](../pokedex/moves/rock-blast.md)<br>3. [Body Slam](../pokedex/moves/body-slam.md)<br>4. [Protect](../pokedex/moves/protect.md) |
 
-
-**Plasma Grunts #375 and #374**
+**● Plasma Grunts #375 and #374**
 
 **Battle Type:** Tag
 
@@ -2329,7 +2160,6 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 	| ![sneasel](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/215.gif){ .sprite }<br>[Sneasel](../pokedex/pokemon/sneasel.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> <span class="type-badge" style="background: linear-gradient(135deg, #98D8D8 0%, #98D8D8dd 100%);">Ice</span></div> | **Level:** 40<br>**Ability:** [Pickpocket](../pokedex/abilities/pickpocket.md) | 1. [Feint Attack](../pokedex/moves/feint-attack.md)<br>2. [Low Kick](../pokedex/moves/low-kick.md)<br>3. [Ice Shard](../pokedex/moves/ice-shard.md)<br>4. [Fake Out](../pokedex/moves/fake-out.md) |
 	| ![sawk](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/539.gif){ .sprite }<br>[Sawk](../pokedex/pokemon/sawk.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span></div> | **Level:** 40<br>**Ability:** [Sturdy](../pokedex/abilities/sturdy.md) | 1. [Dual Chop](../pokedex/moves/dual-chop.md)<br>2. [Brick Break](../pokedex/moves/brick-break.md)<br>3. [Lunge](../pokedex/moves/lunge.md)<br>4. [Knock Off](../pokedex/moves/knock-off.md) |
 
-
 === "Partner Cheren"
 
 	| Pokémon | Type(s) | Attributes | Moves |
@@ -2338,8 +2168,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 	| ![snorlax](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/143.gif){ .sprite }<br>[Snorlax](../pokedex/pokemon/snorlax.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span></div> | **Level:** 39<br>**Ability:** [Thick Fat](../pokedex/abilities/thick-fat.md)<br>**Item:** ![Sitrus Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/sitrus-berry.png){ .item-sprite } [Sitrus Berry](../pokedex/items/sitrus-berry.md) | 1. [Strength](../pokedex/moves/strength.md)<br>2. [Crunch](../pokedex/moves/crunch.md)<br>3. [Curse](../pokedex/moves/curse.md)<br>4. [Rock Slide](../pokedex/moves/rock-slide.md) |
 	| ![cinccino](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/573.gif){ .sprite }<br>[Cinccino](../pokedex/pokemon/cinccino.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span></div> | **Level:** 39<br>**Ability:** [Skill Link](../pokedex/abilities/skill-link.md)<br>**Item:** ![Sitrus Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/sitrus-berry.png){ .item-sprite } [Sitrus Berry](../pokedex/items/sitrus-berry.md) | 1. [Tail Slap](../pokedex/moves/tail-slap.md)<br>2. [Bullet Seed](../pokedex/moves/bullet-seed.md)<br>3. [Rock Blast](../pokedex/moves/rock-blast.md)<br>4. [Aqua Tail](../pokedex/moves/aqua-tail.md) |
 
-
-**Plasma Grunts #377 and #376**
+**● Plasma Grunts #377 and #376**
 
 **Battle Type:** Tag
 
@@ -2358,7 +2187,6 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 	| ![krokorok](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/552.gif){ .sprite }<br>[Krokorok](../pokedex/pokemon/krokorok.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span></div> | **Level:** 40<br>**Ability:** [Intimidate](../pokedex/abilities/intimidate.md) | 1. [Crunch](../pokedex/moves/crunch.md)<br>2. [High Horsepower](../pokedex/moves/high-horsepower.md)<br>3. [Dragon Tail](../pokedex/moves/dragon-tail.md)<br>4. [Fire Fang](../pokedex/moves/fire-fang.md) |
 	| ![seviper](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/336.gif){ .sprite }<br>[Seviper](../pokedex/pokemon/seviper.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span></div> | **Level:** 40<br>**Ability:** [Shed Skin](../pokedex/abilities/shed-skin.md) | 1. [Poison Tail](../pokedex/moves/poison-tail.md)<br>2. [Coil](../pokedex/moves/coil.md)<br>3. [Night Slash](../pokedex/moves/night-slash.md)<br>4. [Glare](../pokedex/moves/glare.md) |
 	| ![victreebel](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/71.gif){ .sprite }<br>[Victreebel](../pokedex/pokemon/victreebel.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span> <span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span></div> | **Level:** 40<br>**Ability:** [Chlorophyll](../pokedex/abilities/chlorophyll.md) | 1. [Leaf Tornado](../pokedex/moves/leaf-tornado.md)<br>2. [Sucker Punch](../pokedex/moves/sucker-punch.md)<br>3. [Toxic](../pokedex/moves/toxic.md)<br>4. [Sludge Bomb](../pokedex/moves/sludge-bomb.md) |
-
 
 **Parter Hugh**
 
@@ -2386,13 +2214,12 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 	| ![lilligant](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/549.gif){ .sprite }<br>[Lilligant](../pokedex/pokemon/lilligant.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span></div> | **Level:** 39<br>**Ability:** [Own Tempo](../pokedex/abilities/own-tempo.md) | 1. [Giga Drain](../pokedex/moves/giga-drain.md)<br>2. [Stun Spore](../pokedex/moves/stun-spore.md)<br>3. [Extrasensory](../pokedex/moves/extrasensory.md)<br>4. [Quiver Dance](../pokedex/moves/quiver-dance.md) |
 	| ![vibrava](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/329.gif){ .sprite }<br>[Vibrava](../pokedex/pokemon/vibrava.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> <span class="type-badge" style="background: linear-gradient(135deg, #7038F8 0%, #7038F8dd 100%);">Dragon</span></div> | **Level:** 39<br>**Ability:** [Levitate](../pokedex/abilities/levitate.md) | 1. [Signal Beam](../pokedex/moves/signal-beam.md)<br>2. [Earth Power](../pokedex/moves/earth-power.md)<br>3. [Rock Slide](../pokedex/moves/rock-slide.md)<br>4. [Dragon Breath](../pokedex/moves/dragon-breath.md) |
 
-
 ### Chargestone Cave
 
 #### 1F
 
 
-**Guitarist Anna**
+**○ Guitarist Anna**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -2400,8 +2227,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![electrode](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/101.gif){ .sprite }<br>[Electrode](../pokedex/pokemon/electrode.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F8D030 0%, #F8D030dd 100%);">Electric</span></div> | **Level:** 37<br>**Ability:** [Static](../pokedex/abilities/static.md) | 1. [Volt Switch](../pokedex/moves/volt-switch.md)<br>2. [Electro Ball](../pokedex/moves/electro-ball.md)<br>3. [Sucker Punch](../pokedex/moves/sucker-punch.md)<br>4. [Signal Beam](../pokedex/moves/signal-beam.md) |
 | ![nidoqueen](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/31.gif){ .sprite }<br>[Nidoqueen](../pokedex/pokemon/nidoqueen.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span> <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span></div> | **Level:** 37<br>**Ability:** [Sheer Force](../pokedex/abilities/sheer-force.md) | 1. [Play Rough](../pokedex/moves/play-rough.md)<br>2. [Scorching Sands](../pokedex/moves/scorching-sands.md)<br>3. [Chip Away](../pokedex/moves/chip-away.md)<br>4. [Poison Tail](../pokedex/moves/poison-tail.md) |
 
-
-**Scientist Ronald**
+**○ Scientist Ronald**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -2409,10 +2235,9 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![stantler](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/234.gif){ .sprite }<br>[Stantler](../pokedex/pokemon/stantler.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span></div> | **Level:** 38<br>**Ability:** [Intimidate](../pokedex/abilities/intimidate.md) | 1. [Psyshield Bash](../pokedex/moves/psyshield-bash.md)<br>2. [Role Play](../pokedex/moves/role-play.md)<br>3. [Detect](../pokedex/moves/detect.md)<br>4. [Body Slam](../pokedex/moves/body-slam.md) |
 | ![larvesta](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/636.gif){ .sprite }<br>[Larvesta](../pokedex/pokemon/larvesta.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> <span class="type-badge" style="background: linear-gradient(135deg, #F08030 0%, #F08030dd 100%);">Fire</span></div> | **Level:** 38<br>**Ability:** [Flame Body](../pokedex/abilities/flame-body.md) | 1. [Flame Charge](../pokedex/moves/flame-charge.md)<br>2. [Leech Life](../pokedex/moves/leech-life.md)<br>3. [Flame Wheel](../pokedex/moves/flame-wheel.md)<br>4. [Screech](../pokedex/moves/screech.md) |
 
-
 #### PWT and Plasma Frigate Cleared
 
-**Ace Trainer Corky**
+**● Ace Trainer Corky**
 
 **Battle Type:** 3x
 
@@ -2422,8 +2247,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![vaporeon](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/134.gif){ .sprite }<br>[Vaporeon](../pokedex/pokemon/vaporeon.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span></div> | **Level:** 41<br>**Ability:** [Water Absorb](../pokedex/abilities/water-absorb.md) | 1. [Aurora Beam](../pokedex/moves/aurora-beam.md)<br>2. [Wish](../pokedex/moves/wish.md)<br>3. [Extrasensory](../pokedex/moves/extrasensory.md)<br>4. [Muddy Water](../pokedex/moves/muddy-water.md) |
 | ![sawsbuck](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/586.gif){ .sprite }<br>[Sawsbuck](../pokedex/pokemon/sawsbuck.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> <span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span></div> | **Level:** 41<br>**Ability:** [Sap Sipper](../pokedex/abilities/sap-sipper.md) | 1. [Horn Leech](../pokedex/moves/horn-leech.md)<br>2. [Double Edge](../pokedex/moves/double-edge.md)<br>3. [Jump Kick](../pokedex/moves/jump-kick.md)<br>4. [Megahorn](../pokedex/moves/megahorn.md) |
 
-
-**Ranger♂ Louis**
+**○ Ranger♂ Louis**
 
 **Reward:** ![Chesto Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/chesto-berry.png){ .item-sprite } [Chesto Berry](../pokedex/items/chesto-berry.md)
 
@@ -2432,8 +2256,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![tropius](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/357.gif){ .sprite }<br>[Tropius](../pokedex/pokemon/tropius.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 41<br>**Ability:** [Chlorophyll](../pokedex/abilities/chlorophyll.md) | 1. [Dragon Dance](../pokedex/moves/dragon-dance.md)<br>2. [Breaking Swipe](../pokedex/moves/breaking-swipe.md)<br>3. [Nature Power](../pokedex/moves/nature-power.md)<br>4. [Leaf Blade](../pokedex/moves/leaf-blade.md) |
 | ![heatmor](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/631.gif){ .sprite }<br>[Heatmor](../pokedex/pokemon/heatmor.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F08030 0%, #F08030dd 100%);">Fire</span></div> | **Level:** 41<br>**Ability:** [Mold Breaker](../pokedex/abilities/mold-breaker.md) | 1. [Fire Lash](../pokedex/moves/fire-lash.md)<br>2. [Scorching Sands](../pokedex/moves/scorching-sands.md)<br>3. [Sucker Punch](../pokedex/moves/sucker-punch.md)<br>4. [Hone Claws](../pokedex/moves/hone-claws.md) |
 
-
-**Ace Trainer Mary**
+**● Ace Trainer Mary**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -2442,8 +2265,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![gardevoir](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/282.gif){ .sprite }<br>[Gardevoir](../pokedex/pokemon/gardevoir.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span></div> | **Level:** 42<br>**Ability:** [Trace](../pokedex/abilities/trace.md) | 1. [Dazzling Gleam](../pokedex/moves/dazzling-gleam.md)<br>2. [Calm Mind](../pokedex/moves/calm-mind.md)<br>3. [Shadow Ball](../pokedex/moves/shadow-ball.md)<br>4. [Energy Ball](../pokedex/moves/energy-ball.md) |
 | ![flareon](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/136.gif){ .sprite }<br>[Flareon](../pokedex/pokemon/flareon.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F08030 0%, #F08030dd 100%);">Fire</span></div> | **Level:** 42<br>**Ability:** [Flash Fire](../pokedex/abilities/flash-fire.md) | 1. [Flare Blitz](../pokedex/moves/flare-blitz.md)<br>2. [Last Resort](../pokedex/moves/last-resort.md) |
 
-
-**Hiker Otto**
+**● Hiker Otto**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -2452,11 +2274,10 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![tentacruel](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/73.gif){ .sprite }<br>[Tentacruel](../pokedex/pokemon/tentacruel.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> <span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span></div> | **Level:** 42<br>**Ability:** [Clear Body](../pokedex/abilities/clear-body.md) | 1. [Sludge Bomb](../pokedex/moves/sludge-bomb.md)<br>2. [Giga Drain](../pokedex/moves/giga-drain.md)<br>3. [Brine](../pokedex/moves/brine.md)<br>4. [Bubble Beam](../pokedex/moves/bubble-beam.md) |
 | ![wobbuffet](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/202.gif){ .sprite }<br>[Wobbuffet](../pokedex/pokemon/wobbuffet.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span></div> | **Level:** 42<br>**Ability:** [Shadow Tag](../pokedex/abilities/shadow-tag.md) | 1. [Counter](../pokedex/moves/counter.md)<br>2. [Mirror Coat](../pokedex/moves/mirror-coat.md)<br>3. [Destiny Bond](../pokedex/moves/destiny-bond.md) |
 
-
 #### B1F
 
 
-**Doctor Kit**
+**● Doctor Kit**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -2465,8 +2286,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![blissey](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/242.gif){ .sprite }<br>[Blissey](../pokedex/pokemon/blissey.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span></div> | **Level:** 41<br>**Ability:** [Serene Grace](../pokedex/abilities/serene-grace.md) | 1. [Toxic](../pokedex/moves/toxic.md)<br>2. [Psychic](../pokedex/moves/psychic.md)<br>3. [Seismic Toss](../pokedex/moves/seismic-toss.md)<br>4. [Soft Boiled](../pokedex/moves/soft-boiled.md) |
 | ![slowbro](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/80.gif){ .sprite }<br>[Slowbro](../pokedex/pokemon/slowbro.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> <span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span></div> | **Level:** 41<br>**Ability:** [Own Tempo](../pokedex/abilities/own-tempo.md) | 1. [Nasty Plot](../pokedex/moves/nasty-plot.md)<br>2. [Scald](../pokedex/moves/scald.md)<br>3. [Psychic](../pokedex/moves/psychic.md)<br>4. [Focus Blast](../pokedex/moves/focus-blast.md) |
 
-
-**Ranger♀ Briana**
+**● Ranger♀ Briana**
 
 **Reward:** ![Chesto Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/chesto-berry.png){ .item-sprite } [Chesto Berry](../pokedex/items/chesto-berry.md)
 
@@ -2477,8 +2297,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![rapidash](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/78.gif){ .sprite }<br>[Rapidash](../pokedex/pokemon/rapidash.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F08030 0%, #F08030dd 100%);">Fire</span> <span class="type-badge" style="background: linear-gradient(135deg, #EE99AC 0%, #EE99ACdd 100%);">Fairy</span></div> | **Level:** 41<br>**Ability:** [Flame Body](../pokedex/abilities/flame-body.md) | 1. [High Horsepower](../pokedex/moves/high-horsepower.md)<br>2. [Megahorn](../pokedex/moves/megahorn.md)<br>3. [Hypnosis](../pokedex/moves/hypnosis.md)<br>4. [Blaze Kick](../pokedex/moves/blaze-kick.md) |
 | ![grumpig](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/326.gif){ .sprite }<br>[Grumpig](../pokedex/pokemon/grumpig.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span></div> | **Level:** 41<br>**Ability:** [Own Tempo](../pokedex/abilities/own-tempo.md) | 1. [Psystrike](../pokedex/moves/psystrike.md)<br>2. [Confuse Ray](../pokedex/moves/confuse-ray.md)<br>3. [Power Gem](../pokedex/moves/power-gem.md)<br>4. [Tri Attack](../pokedex/moves/tri-attack.md) |
 
-
-**Scientist♀ Lumi**
+**● Scientist♀ Lumi**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -2487,27 +2306,24 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![forretress](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/205.gif){ .sprite }<br>[Forretress](../pokedex/pokemon/forretress.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> <span class="type-badge" style="background: linear-gradient(135deg, #B8B8D0 0%, #B8B8D0dd 100%);">Steel</span></div> | **Level:** 41<br>**Ability:** [Sturdy](../pokedex/abilities/sturdy.md) | 1. [Counter](../pokedex/moves/counter.md)<br>2. [Gyro Ball](../pokedex/moves/gyro-ball.md)<br>3. [Explosion](../pokedex/moves/explosion.md)<br>4. [Protect](../pokedex/moves/protect.md) |
 | ![dragonair](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/148.gif){ .sprite }<br>[Dragonair](../pokedex/pokemon/dragonair.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #7038F8 0%, #7038F8dd 100%);">Dragon</span></div> | **Level:** 41<br>**Ability:** [Marvel Scale](../pokedex/abilities/marvel-scale.md) | 1. [Extreme Speed](../pokedex/moves/extreme-speed.md)<br>2. [Dragon Rush](../pokedex/moves/dragon-rush.md)<br>3. [Body Slam](../pokedex/moves/body-slam.md)<br>4. [Coil](../pokedex/moves/coil.md) |
 
-
 #### B2F
 
 
-**Guitarist Beverly**
+**○ Guitarist Beverly**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
 | ![ferroseed](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/597.gif){ .sprite }<br>[Ferroseed](../pokedex/pokemon/ferroseed.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span> <span class="type-badge" style="background: linear-gradient(135deg, #B8B8D0 0%, #B8B8D0dd 100%);">Steel</span></div> | **Level:** 41<br>**Ability:** [Iron Barbs](../pokedex/abilities/iron-barbs.md) | 1. [Assurance](../pokedex/moves/assurance.md)<br>2. [Metal Claw](../pokedex/moves/metal-claw.md)<br>3. [Leech Seed](../pokedex/moves/leech-seed.md)<br>4. [Spikes](../pokedex/moves/spikes.md) |
 | ![electabuzz](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/125.gif){ .sprite }<br>[Electabuzz](../pokedex/pokemon/electabuzz.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F8D030 0%, #F8D030dd 100%);">Electric</span></div> | **Level:** 41<br>**Ability:** [Static](../pokedex/abilities/static.md) | 1. [Dual Chop](../pokedex/moves/dual-chop.md)<br>2. [Thunder Punch](../pokedex/moves/thunder-punch.md)<br>3. [Cross Chop](../pokedex/moves/cross-chop.md)<br>4. [Psychic](../pokedex/moves/psychic.md) |
 
-
-**Hiker Jeremy**
+**○ Hiker Jeremy**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
 | ![hypno](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/97.gif){ .sprite }<br>[Hypno](../pokedex/pokemon/hypno.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span></div> | **Level:** 41<br>**Ability:** [Bad Dreams](../pokedex/abilities/bad-dreams.md) | 1. [Sing](../pokedex/moves/sing.md)<br>2. [Drain Punch](../pokedex/moves/drain-punch.md)<br>3. [Psycho Cut](../pokedex/moves/psycho-cut.md)<br>4. [Disable](../pokedex/moves/disable.md) |
 | ![machamp](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/68.gif){ .sprite }<br>[Machamp](../pokedex/pokemon/machamp.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span></div> | **Level:** 41<br>**Ability:** [Guts](../pokedex/abilities/guts.md) | 1. [Scary Face](../pokedex/moves/scary-face.md)<br>2. [Mach Punch](../pokedex/moves/mach-punch.md)<br>3. [Double Edge](../pokedex/moves/double-edge.md)<br>4. [Drain Punch](../pokedex/moves/drain-punch.md) |
 
-
-**Ace Trainer Vicki**
+**○ Ace Trainer Vicki**
 
 **Battle Type:** 3x
 
@@ -2517,8 +2333,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![samurott](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/503.gif){ .sprite }<br>[Samurott](../pokedex/pokemon/samurott.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> <span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span></div> | **Level:** 43<br>**Ability:** [Shell Armor](../pokedex/abilities/shell-armor.md) | 1. [Water Pledge](../pokedex/moves/water-pledge.md)<br>2. [Razor Shell](../pokedex/moves/razor-shell.md)<br>3. [Dual Chop](../pokedex/moves/dual-chop.md)<br>4. [Rock Smash](../pokedex/moves/rock-smash.md) |
 | ![serperior](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/497.gif){ .sprite }<br>[Serperior](../pokedex/pokemon/serperior.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span> <span class="type-badge" style="background: linear-gradient(135deg, #7038F8 0%, #7038F8dd 100%);">Dragon</span></div> | **Level:** 43<br>**Ability:** [Contrary](../pokedex/abilities/contrary.md) | 1. [Grass Pledge](../pokedex/moves/grass-pledge.md)<br>2. [Dragon Breath](../pokedex/moves/dragon-breath.md)<br>3. [Giga Drain](../pokedex/moves/giga-drain.md)<br>4. [Leech Seed](../pokedex/moves/leech-seed.md) |
 
-
-**Ace Trainer Shaye**
+**○ Ace Trainer Shaye**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -2527,21 +2342,19 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![noctowl](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/164.gif){ .sprite }<br>[Noctowl](../pokedex/pokemon/noctowl.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 41<br>**Ability:** [Insomnia](../pokedex/abilities/insomnia.md) | 1. [Whirlwind](../pokedex/moves/whirlwind.md)<br>2. [Extrasensory](../pokedex/moves/extrasensory.md)<br>3. [Air Slash](../pokedex/moves/air-slash.md)<br>4. [Agility](../pokedex/moves/agility.md) |
 | ![cacturne](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/332.gif){ .sprite }<br>[Cacturne](../pokedex/pokemon/cacturne.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span> <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span></div> | **Level:** 41<br>**Ability:** [Water Absorb](../pokedex/abilities/water-absorb.md) | 1. [Needle Arm](../pokedex/moves/needle-arm.md)<br>2. [Sucker Punch](../pokedex/moves/sucker-punch.md)<br>3. [Pin Missile](../pokedex/moves/pin-missile.md)<br>4. [Drain Punch](../pokedex/moves/drain-punch.md) |
 
-
 ### Relic Passage - Driftveil Side
 
 #### Exit to the PWT
 
 
-**Hiker Keith**
+**○ Hiker Keith**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
 | ![aron](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/304.gif){ .sprite }<br>[Aron](../pokedex/pokemon/aron.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #B8B8D0 0%, #B8B8D0dd 100%);">Steel</span> <span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span></div> | **Level:** 40<br>**Ability:** [Sturdy](../pokedex/abilities/sturdy.md) | 1. [Metal Burst](../pokedex/moves/metal-burst.md)<br>2. [Take Down](../pokedex/moves/take-down.md)<br>3. [Body Slam](../pokedex/moves/body-slam.md)<br>4. [Curse](../pokedex/moves/curse.md) |
 | ![lairon](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/305.gif){ .sprite }<br>[Lairon](../pokedex/pokemon/lairon.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #B8B8D0 0%, #B8B8D0dd 100%);">Steel</span> <span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span></div> | **Level:** 40<br>**Ability:** [Filter](../pokedex/abilities/filter.md) | 1. [Metal Burst](../pokedex/moves/metal-burst.md)<br>2. [Rock Slide](../pokedex/moves/rock-slide.md)<br>3. [Body Slam](../pokedex/moves/body-slam.md)<br>4. [Curse](../pokedex/moves/curse.md) |
 
-
-**Backpacker Eileen**
+**○ Backpacker Eileen**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -2549,8 +2362,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![trapinch](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/328.gif){ .sprite }<br>[Trapinch](../pokedex/pokemon/trapinch.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span></div> | **Level:** 42<br>**Ability:** [Sheer Force](../pokedex/abilities/sheer-force.md) | 1. [Gust](../pokedex/moves/gust.md)<br>2. [Bug Bite](../pokedex/moves/bug-bite.md)<br>3. [Dig](../pokedex/moves/dig.md)<br>4. [High Horsepower](../pokedex/moves/high-horsepower.md) |
 | ![pupitar](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/247.gif){ .sprite }<br>[Pupitar](../pokedex/pokemon/pupitar.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span> <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span></div> | **Level:** 42<br>**Ability:** [Shed Skin](../pokedex/abilities/shed-skin.md) | 1. [Iron Defense](../pokedex/moves/iron-defense.md)<br>2. [Protect](../pokedex/moves/protect.md)<br>3. [Curse](../pokedex/moves/curse.md)<br>4. [Assurance](../pokedex/moves/assurance.md) |
 
-
-**Backpacker Randall**
+**○ Backpacker Randall**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -2558,11 +2370,10 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![raticate](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/20.gif){ .sprite }<br>[Raticate](../pokedex/pokemon/raticate.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span></div> | **Level:** 42<br>**Ability:** [Hustle](../pokedex/abilities/hustle.md) | 1. [Hyper Fang](../pokedex/moves/hyper-fang.md)<br>2. [Take Down](../pokedex/moves/take-down.md)<br>3. [Flame Wheel](../pokedex/moves/flame-wheel.md)<br>4. [Zen Headbutt](../pokedex/moves/zen-headbutt.md) |
 | ![gabite](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/444.gif){ .sprite }<br>[Gabite](../pokedex/pokemon/gabite.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #7038F8 0%, #7038F8dd 100%);">Dragon</span> <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span></div> | **Level:** 42<br>**Ability:** [Rough Skin](../pokedex/abilities/rough-skin.md) | 1. [Bulldoze](../pokedex/moves/bulldoze.md)<br>2. [Slash](../pokedex/moves/slash.md)<br>3. [Dual Chop](../pokedex/moves/dual-chop.md)<br>4. [Rock Slide](../pokedex/moves/rock-slide.md) |
 
-
 #### Middle Room
 
 
-**Hiker Tobias**
+**○ Hiker Tobias**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -2570,8 +2381,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![boldore](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/525.gif){ .sprite }<br>[Boldore](../pokedex/pokemon/boldore.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span></div> | **Level:** 42<br>**Ability:** [Sturdy](../pokedex/abilities/sturdy.md) | 1. [Rock Blast](../pokedex/moves/rock-blast.md)<br>2. [Take Down](../pokedex/moves/take-down.md)<br>3. [Sandstorm](../pokedex/moves/sandstorm.md)<br>4. [Heavy Slam](../pokedex/moves/heavy-slam.md) |
 | ![gurdurr](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/533.gif){ .sprite }<br>[Gurdurr](../pokedex/pokemon/gurdurr.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span></div> | **Level:** 42<br>**Ability:** [Iron Fist](../pokedex/abilities/iron-fist.md) | 1. [Revenge](../pokedex/moves/revenge.md)<br>2. [Reversal](../pokedex/moves/reversal.md)<br>3. [Rock Slide](../pokedex/moves/rock-slide.md)<br>4. [Scary Face](../pokedex/moves/scary-face.md) |
 
-
-**Psychic Tully**
+**○ Psychic Tully**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -2579,16 +2389,14 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![sableye](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/302.gif){ .sprite }<br>[Sableye](../pokedex/pokemon/sableye.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span></div> | **Level:** 42<br>**Ability:** [Prankster](../pokedex/abilities/prankster.md) | 1. [Metal Burst](../pokedex/moves/metal-burst.md)<br>2. [Shadow Claw](../pokedex/moves/shadow-claw.md)<br>3. [Trick](../pokedex/moves/trick.md)<br>4. [Confuse Ray](../pokedex/moves/confuse-ray.md) |
 | ![duosion](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/578.gif){ .sprite }<br>[Duosion](../pokedex/pokemon/duosion.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span></div> | **Level:** 42<br>**Ability:** [Magic Guard](../pokedex/abilities/magic-guard.md) | 1. [Imprison](../pokedex/moves/imprison.md)<br>2. [Helping Hand](../pokedex/moves/helping-hand.md)<br>3. [Night Shade](../pokedex/moves/night-shade.md)<br>4. [Wonder Room](../pokedex/moves/wonder-room.md) |
 
-
-**Backpacker Annie**
+**○ Backpacker Annie**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
 | ![monferno](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/391.gif){ .sprite }<br>[Monferno](../pokedex/pokemon/monferno.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F08030 0%, #F08030dd 100%);">Fire</span> <span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span></div> | **Level:** 43<br>**Ability:** [Blaze](../pokedex/abilities/blaze.md) | 1. [Focus Punch](../pokedex/moves/focus-punch.md)<br>2. [Substitute](../pokedex/moves/substitute.md)<br>3. [Mach Punch](../pokedex/moves/mach-punch.md)<br>4. [Flamethrower](../pokedex/moves/flamethrower.md) |
 | ![nosepass](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/299.gif){ .sprite }<br>[Nosepass](../pokedex/pokemon/nosepass.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span></div> | **Level:** 43<br>**Ability:** [Sturdy](../pokedex/abilities/sturdy.md) | 1. [Charge Beam](../pokedex/moves/charge-beam.md)<br>2. [Sandstorm](../pokedex/moves/sandstorm.md)<br>3. [Pain Split](../pokedex/moves/pain-split.md)<br>4. [Power Gem](../pokedex/moves/power-gem.md) |
 
-
-**Psychic Ena**
+**○ Psychic Ena**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -2598,13 +2406,12 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![duskull](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/355.gif){ .sprite }<br>[Duskull](../pokedex/pokemon/duskull.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span></div> | **Level:** 41<br>**Ability:** [Levitate](../pokedex/abilities/levitate.md) | 1. [Ominous Wind](../pokedex/moves/ominous-wind.md)<br>2. [Shadow Sneak](../pokedex/moves/shadow-sneak.md)<br>3. [Feint Attack](../pokedex/moves/feint-attack.md)<br>4. [Pain Split](../pokedex/moves/pain-split.md) |
 | ![shuppet](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/353.gif){ .sprite }<br>[Shuppet](../pokedex/pokemon/shuppet.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span></div> | **Level:** 41<br>**Ability:** [Cursed Body](../pokedex/abilities/cursed-body.md) | 1. [Hex](../pokedex/moves/hex.md)<br>2. [Embargo](../pokedex/moves/embargo.md)<br>3. [Sucker Punch](../pokedex/moves/sucker-punch.md)<br>4. [Slash](../pokedex/moves/slash.md) |
 
-
 #### Relic Passage Backroom
 
  - Levels -2 on Easy mode, +2 on Challenge mode.
 
 
-**Trainer Melody**
+**○ Trainer Melody**
 
 **Battle Type:** 2x
 
@@ -2617,8 +2424,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![chatot](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/441.gif){ .sprite }<br>[Chatot](../pokedex/pokemon/chatot.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 70<br>**Ability:** [Soundproof](../pokedex/abilities/soundproof.md)<br>**Item:** ![Life Orb](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/life-orb.png){ .item-sprite } [Life Orb](../pokedex/items/life-orb.md) | 1. [Boomburst](../pokedex/moves/boomburst.md)<br>2. [Chatter](../pokedex/moves/chatter.md)<br>3. [Ominous Wind](../pokedex/moves/ominous-wind.md)<br>4. [U Turn](../pokedex/moves/u-turn.md) |
 | ![jellicent](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/593.gif){ .sprite }<br>[Jellicent](../pokedex/pokemon/jellicent.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span></div> | **Level:** 70<br>**Ability:** [Cursed Body](../pokedex/abilities/cursed-body.md)<br>**Item:** ![Kasib Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/kasib-berry.png){ .item-sprite } [Kasib Berry](../pokedex/items/kasib-berry.md) | 1. [Soak](../pokedex/moves/soak.md)<br>2. [Scald](../pokedex/moves/scald.md)<br>3. [Hex](../pokedex/moves/hex.md)<br>4. [Will O Wisp](../pokedex/moves/will-o-wisp.md) |
 
-
-**Trainer Nikola**
+**○ Trainer Nikola**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -2626,13 +2432,12 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![rotom-heat](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/10008.gif){ .sprite }<br>[Rotom Heat](../pokedex/pokemon/rotom-heat.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F8D030 0%, #F8D030dd 100%);">Electric</span> <span class="type-badge" style="background: linear-gradient(135deg, #F08030 0%, #F08030dd 100%);">Fire</span></div> | **Level:** 70<br>**Ability:** [Levitate](../pokedex/abilities/levitate.md)<br>**Item:** ![White Herb](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/white-herb.png){ .item-sprite } [White Herb](../pokedex/items/white-herb.md) | 1. [Overheat](../pokedex/moves/overheat.md)<br>2. [Volt Switch](../pokedex/moves/volt-switch.md)<br>3. [Will O Wisp](../pokedex/moves/will-o-wisp.md)<br>4. [Hex](../pokedex/moves/hex.md) |
 | ![rotom-wash](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/10009.gif){ .sprite }<br>[Rotom Wash](../pokedex/pokemon/rotom-wash.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F8D030 0%, #F8D030dd 100%);">Electric</span> <span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span></div> | **Level:** 70<br>**Ability:** [Levitate](../pokedex/abilities/levitate.md)<br>**Item:** ![Rindo Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/rindo-berry.png){ .item-sprite } [Rindo Berry](../pokedex/items/rindo-berry.md) | 1. [Hydro Pump](../pokedex/moves/hydro-pump.md)<br>2. [Volt Switch](../pokedex/moves/volt-switch.md)<br>3. [Pain Split](../pokedex/moves/pain-split.md)<br>4. [Signal Beam](../pokedex/moves/signal-beam.md) |
 
-
 ### Mistralton Cave
 
 #### 1F
 
 
-**Hiker Shelby**
+**○ Hiker Shelby**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -2640,8 +2445,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![unown](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/201.gif){ .sprite }<br>[Unown](../pokedex/pokemon/unown.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span></div> | **Level:** 41<br>**Ability:** [Levitate](../pokedex/abilities/levitate.md) | 1. [Hidden Power](../pokedex/moves/hidden-power.md) |
 | ![unown](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/201.gif){ .sprite }<br>[Unown](../pokedex/pokemon/unown.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span></div> | **Level:** 41<br>**Ability:** [Levitate](../pokedex/abilities/levitate.md) | 1. [Hidden Power](../pokedex/moves/hidden-power.md) |
 
-
-**Hiker Jebediah**
+**○ Hiker Jebediah**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -2649,11 +2453,10 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![lileep](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/345.gif){ .sprite }<br>[Lileep](../pokedex/pokemon/lileep.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span> <span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span></div> | **Level:** 42<br>**Ability:** [Storm Drain](../pokedex/abilities/storm-drain.md) | 1. [Mud Shot](../pokedex/moves/mud-shot.md)<br>2. [Gastro Acid](../pokedex/moves/gastro-acid.md)<br>3. [Smack Down](../pokedex/moves/smack-down.md)<br>4. [Giga Drain](../pokedex/moves/giga-drain.md) |
 | ![crustle](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/558.gif){ .sprite }<br>[Crustle](../pokedex/pokemon/crustle.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> <span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span></div> | **Level:** 42<br>**Ability:** [Shell Armor](../pokedex/abilities/shell-armor.md) | 1. [Night Slash](../pokedex/moves/night-slash.md)<br>2. [Rock Polish](../pokedex/moves/rock-polish.md)<br>3. [Rock Blast](../pokedex/moves/rock-blast.md)<br>4. [X Scissor](../pokedex/moves/x-scissor.md) |
 
-
 #### 2F
 
 
-**Ace Trainer Geoff**
+**○ Ace Trainer Geoff**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -2661,8 +2464,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![shelgon](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/372.gif){ .sprite }<br>[Shelgon](../pokedex/pokemon/shelgon.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #7038F8 0%, #7038F8dd 100%);">Dragon</span></div> | **Level:** 42<br>**Ability:** [Rock Head](../pokedex/abilities/rock-head.md) | 1. [Zen Headbutt](../pokedex/moves/zen-headbutt.md)<br>2. [Dragon Breath](../pokedex/moves/dragon-breath.md)<br>3. [Take Down](../pokedex/moves/take-down.md)<br>4. [Flamethrower](../pokedex/moves/flamethrower.md) |
 | ![fraxure](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/611.gif){ .sprite }<br>[Fraxure](../pokedex/pokemon/fraxure.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #7038F8 0%, #7038F8dd 100%);">Dragon</span></div> | **Level:** 42<br>**Ability:** [Mold Breaker](../pokedex/abilities/mold-breaker.md) | 1. [Slash](../pokedex/moves/slash.md)<br>2. [Night Slash](../pokedex/moves/night-slash.md)<br>3. [Breaking Swipe](../pokedex/moves/breaking-swipe.md)<br>4. [Swords Dance](../pokedex/moves/swords-dance.md) |
 
-
-**Ace Trainer Belle**
+**○ Ace Trainer Belle**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -2670,13 +2472,12 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![gabite](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/444.gif){ .sprite }<br>[Gabite](../pokedex/pokemon/gabite.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #7038F8 0%, #7038F8dd 100%);">Dragon</span> <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span></div> | **Level:** 42<br>**Ability:** [Rough Skin](../pokedex/abilities/rough-skin.md) | 1. [Slash](../pokedex/moves/slash.md)<br>2. [Bulldoze](../pokedex/moves/bulldoze.md)<br>3. [Dual Chop](../pokedex/moves/dual-chop.md)<br>4. [Rock Slide](../pokedex/moves/rock-slide.md) |
 | ![zweilous](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/634.gif){ .sprite }<br>[Zweilous](../pokedex/pokemon/zweilous.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> <span class="type-badge" style="background: linear-gradient(135deg, #7038F8 0%, #7038F8dd 100%);">Dragon</span></div> | **Level:** 42<br>**Ability:** [Hustle](../pokedex/abilities/hustle.md) | 1. [Dragon Rush](../pokedex/moves/dragon-rush.md)<br>2. [Zen Headbutt](../pokedex/moves/zen-headbutt.md)<br>3. [Head Smash](../pokedex/moves/head-smash.md)<br>4. [Body Slam](../pokedex/moves/body-slam.md) |
 
-
 ### Route 7
 
  - Levels -3 on Easy mode, +3 on Challenge mode.
 
 
-**Breeder Marcus**
+**○ Breeder Marcus**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -2684,8 +2485,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![chansey](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/113.gif){ .sprite }<br>[Chansey](../pokedex/pokemon/chansey.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span></div> | **Level:** 46<br>**Ability:** [Natural Cure](../pokedex/abilities/natural-cure.md) | 1. [Gravity](../pokedex/moves/gravity.md)<br>2. [Growl](../pokedex/moves/growl.md)<br>3. [Bestow](../pokedex/moves/bestow.md)<br>4. [Dream Eater](../pokedex/moves/dream-eater.md) |
 | ![kangaskhan](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/115.gif){ .sprite }<br>[Kangaskhan](../pokedex/pokemon/kangaskhan.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span></div> | **Level:** 46<br>**Ability:** [Early Bird](../pokedex/abilities/early-bird.md) | 1. [Tail Whip](../pokedex/moves/tail-whip.md)<br>2. [Focus Energy](../pokedex/moves/focus-energy.md)<br>3. [Helping Hand](../pokedex/moves/helping-hand.md)<br>4. [Leer](../pokedex/moves/leer.md) |
 
-
-**Youngster Cody**
+**○ Youngster Cody**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -2693,8 +2493,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![houndoom](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/229.gif){ .sprite }<br>[Houndoom](../pokedex/pokemon/houndoom.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> <span class="type-badge" style="background: linear-gradient(135deg, #F08030 0%, #F08030dd 100%);">Fire</span></div> | **Level:** 44<br>**Ability:** [Intimidate](../pokedex/abilities/intimidate.md) | 1. [Raging Fury](../pokedex/moves/raging-fury.md)<br>2. [Flame Burst](../pokedex/moves/flame-burst.md)<br>3. [Sucker Punch](../pokedex/moves/sucker-punch.md)<br>4. [Super Fang](../pokedex/moves/super-fang.md) |
 | ![arcanine](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/59.gif){ .sprite }<br>[Arcanine](../pokedex/pokemon/arcanine.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F08030 0%, #F08030dd 100%);">Fire</span></div> | **Level:** 44<br>**Ability:** [Intimidate](../pokedex/abilities/intimidate.md) | 1. [Scorching Sands](../pokedex/moves/scorching-sands.md)<br>2. [Raging Fury](../pokedex/moves/raging-fury.md)<br>3. [Thunder Fang](../pokedex/moves/thunder-fang.md)<br>4. [Agility](../pokedex/moves/agility.md) |
 
-
-**Lass Flo**
+**● Lass Flo**
 
 **Battle Type:** 3x
 
@@ -2704,8 +2503,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![unfezant](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/521.gif){ .sprite }<br>[Unfezant](../pokedex/pokemon/unfezant.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 44<br>**Ability:** [Unaware](../pokedex/abilities/unaware.md) | 1. [Hypnosis](../pokedex/moves/hypnosis.md)<br>2. [Tailwind](../pokedex/moves/tailwind.md)<br>3. [Hyper Voice](../pokedex/moves/hyper-voice.md)<br>4. [Air Slash](../pokedex/moves/air-slash.md) |
 | ![mamoswine](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/473.gif){ .sprite }<br>[Mamoswine](../pokedex/pokemon/mamoswine.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #98D8D8 0%, #98D8D8dd 100%);">Ice</span> <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span></div> | **Level:** 44<br>**Ability:** [Thick Fat](../pokedex/abilities/thick-fat.md) | 1. [Bulldoze](../pokedex/moves/bulldoze.md)<br>2. [Avalanche](../pokedex/moves/avalanche.md)<br>3. [Ice Shard](../pokedex/moves/ice-shard.md)<br>4. [Body Slam](../pokedex/moves/body-slam.md) |
 
-
-**Nursery Aide Hollie**
+**● Nursery Aide Hollie**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -2714,8 +2512,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![ampharos](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/181.gif){ .sprite }<br>[Ampharos](../pokedex/pokemon/ampharos.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F8D030 0%, #F8D030dd 100%);">Electric</span> <span class="type-badge" style="background: linear-gradient(135deg, #7038F8 0%, #7038F8dd 100%);">Dragon</span></div> | **Level:** 46<br>**Ability:** [Static](../pokedex/abilities/static.md) | 1. [Dragon Breath](../pokedex/moves/dragon-breath.md)<br>2. [Discharge](../pokedex/moves/discharge.md)<br>3. [Power Gem](../pokedex/moves/power-gem.md)<br>4. [Energy Ball](../pokedex/moves/energy-ball.md) |
 | ![ursaring](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/217.gif){ .sprite }<br>[Ursaring](../pokedex/pokemon/ursaring.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span></div> | **Level:** 46<br>**Ability:** [Guts](../pokedex/abilities/guts.md) | 1. [Belly Drum](../pokedex/moves/belly-drum.md)<br>2. [Take Down](../pokedex/moves/take-down.md)<br>3. [Night Slash](../pokedex/moves/night-slash.md)<br>4. [Fury Cutter](../pokedex/moves/fury-cutter.md) |
 
-
-**Preschooler♂ Greg**
+**○ Preschooler♂ Greg**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -2723,8 +2520,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![hoothoot](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/163.gif){ .sprite }<br>[Hoothoot](../pokedex/pokemon/hoothoot.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 46<br>**Ability:** [Insomnia](../pokedex/abilities/insomnia.md) | 1. [Synchronoise](../pokedex/moves/synchronoise.md)<br>2. [Agility](../pokedex/moves/agility.md)<br>3. [Moonblast](../pokedex/moves/moonblast.md)<br>4. [Tailwind](../pokedex/moves/tailwind.md) |
 | ![mareep](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/179.gif){ .sprite }<br>[Mareep](../pokedex/pokemon/mareep.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F8D030 0%, #F8D030dd 100%);">Electric</span></div> | **Level:** 46<br>**Ability:** [Static](../pokedex/abilities/static.md) | 1. [Discharge](../pokedex/moves/discharge.md)<br>2. [Flash](../pokedex/moves/flash.md)<br>3. [Seismic Toss](../pokedex/moves/seismic-toss.md)<br>4. [Heal Bell](../pokedex/moves/heal-bell.md) |
 
-
-**Preschooler♀ Chrissy**
+**○ Preschooler♀ Chrissy**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -2732,8 +2528,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![bidoof](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/399.gif){ .sprite }<br>[Bidoof](../pokedex/pokemon/bidoof.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span></div> | **Level:** 46<br>**Ability:** [Simple](../pokedex/abilities/simple.md) | 1. [Take Down](../pokedex/moves/take-down.md)<br>2. [Aqua Tail](../pokedex/moves/aqua-tail.md)<br>3. [Crunch](../pokedex/moves/crunch.md)<br>4. [Amnesia](../pokedex/moves/amnesia.md) |
 | ![mantyke](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/458.gif){ .sprite }<br>[Mantyke](../pokedex/pokemon/mantyke.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 46<br>**Ability:** [Water Absorb](../pokedex/abilities/water-absorb.md) | 1. [Mirror Coat](../pokedex/moves/mirror-coat.md)<br>2. [Take Down](../pokedex/moves/take-down.md)<br>3. [Bounce](../pokedex/moves/bounce.md)<br>4. [Tailwind](../pokedex/moves/tailwind.md) |
 
-
-**Twins Sola and Ana**
+**● Twins Sola and Ana**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -2744,8 +2539,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![mawile](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/303.gif){ .sprite }<br>[Mawile](../pokedex/pokemon/mawile.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #B8B8D0 0%, #B8B8D0dd 100%);">Steel</span></div> | **Level:** 48<br>**Ability:** [Huge Power](../pokedex/abilities/huge-power.md)<br>**Item:** ![Focus Sash](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/focus-sash.png){ .item-sprite } [Focus Sash](../pokedex/items/focus-sash.md) | 1. [Iron Head](../pokedex/moves/iron-head.md)<br>2. [Sucker Punch](../pokedex/moves/sucker-punch.md)<br>3. [Play Rough](../pokedex/moves/play-rough.md)<br>4. [Fire Fang](../pokedex/moves/fire-fang.md) |
 | ![rapidash](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/78.gif){ .sprite }<br>[Rapidash](../pokedex/pokemon/rapidash.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F08030 0%, #F08030dd 100%);">Fire</span> <span class="type-badge" style="background: linear-gradient(135deg, #EE99AC 0%, #EE99ACdd 100%);">Fairy</span></div> | **Level:** 48<br>**Ability:** [Flame Body](../pokedex/abilities/flame-body.md)<br>**Item:** ![Wide Lens](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/wide-lens.png){ .item-sprite } [Wide Lens](../pokedex/items/wide-lens.md) | 1. [Blaze Kick](../pokedex/moves/blaze-kick.md)<br>2. [High Horsepower](../pokedex/moves/high-horsepower.md)<br>3. [Megahorn](../pokedex/moves/megahorn.md)<br>4. [Smart Strike](../pokedex/moves/smart-strike.md) |
 
-
-**Harlequin Pat**
+**○ Harlequin Pat**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -2753,8 +2547,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![quagsire](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/195.gif){ .sprite }<br>[Quagsire](../pokedex/pokemon/quagsire.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span></div> | **Level:** 45<br>**Ability:** [Water Absorb](../pokedex/abilities/water-absorb.md) | 1. [Counter](../pokedex/moves/counter.md)<br>2. [Body Slam](../pokedex/moves/body-slam.md)<br>3. [Muddy Water](../pokedex/moves/muddy-water.md)<br>4. [Curse](../pokedex/moves/curse.md) |
 | ![slowbro](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/80.gif){ .sprite }<br>[Slowbro](../pokedex/pokemon/slowbro.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> <span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span></div> | **Level:** 45<br>**Ability:** [Regenerator](../pokedex/abilities/regenerator.md) | 1. [Psych Up](../pokedex/moves/psych-up.md)<br>2. [Bubble Beam](../pokedex/moves/bubble-beam.md)<br>3. [Psyshock](../pokedex/moves/psyshock.md)<br>4. [Withdraw](../pokedex/moves/withdraw.md) |
 
-
-**Harlequin Ian**
+**○ Harlequin Ian**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -2762,13 +2555,12 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![pidgeotto](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/17.gif){ .sprite }<br>[Pidgeotto](../pokedex/pokemon/pidgeotto.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 45<br>**Ability:** [Tangled Feet](../pokedex/abilities/tangled-feet.md) | 1. [Air Slash](../pokedex/moves/air-slash.md)<br>2. [Hyper Voice](../pokedex/moves/hyper-voice.md)<br>3. [Mirror Move](../pokedex/moves/mirror-move.md)<br>4. [Steel Wing](../pokedex/moves/steel-wing.md) |
 | ![venomoth](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/49.gif){ .sprite }<br>[Venomoth](../pokedex/pokemon/venomoth.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> <span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span></div> | **Level:** 45<br>**Ability:** [Tinted Lens](../pokedex/abilities/tinted-lens.md) | 1. [Silver Wind](../pokedex/moves/silver-wind.md)<br>2. [Morning Sun](../pokedex/moves/morning-sun.md)<br>3. [Skill Swap](../pokedex/moves/skill-swap.md)<br>4. [Signal Beam](../pokedex/moves/signal-beam.md) |
 
-
 ### Celestial Tower
 
 #### 2F
 
 
-**Psychic Joyce**
+**○ Psychic Joyce**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -2776,8 +2568,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![espeon](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/196.gif){ .sprite }<br>[Espeon](../pokedex/pokemon/espeon.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span></div> | **Level:** 44<br>**Ability:** [Magic Bounce](../pokedex/abilities/magic-bounce.md) | 1. [Aura Sphere](../pokedex/moves/aura-sphere.md)<br>2. [Extrasensory](../pokedex/moves/extrasensory.md)<br>3. [Yawn](../pokedex/moves/yawn.md)<br>4. [Mystical Fire](../pokedex/moves/mystical-fire.md) |
 | ![grumpig](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/326.gif){ .sprite }<br>[Grumpig](../pokedex/pokemon/grumpig.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span></div> | **Level:** 44<br>**Ability:** [Thick Fat](../pokedex/abilities/thick-fat.md) | 1. [Bounce](../pokedex/moves/bounce.md)<br>2. [Focus Punch](../pokedex/moves/focus-punch.md)<br>3. [Extrasensory](../pokedex/moves/extrasensory.md)<br>4. [Simple Beam](../pokedex/moves/simple-beam.md) |
 
-
-**School Kid Alberta**
+**○ School Kid Alberta**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -2785,8 +2576,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![vanillite](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/582.gif){ .sprite }<br>[Vanillite](../pokedex/pokemon/vanillite.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #98D8D8 0%, #98D8D8dd 100%);">Ice</span></div> | **Level:** 44<br>**Ability:** [Ice Body](../pokedex/abilities/ice-body.md) | 1. [Acid Armor](../pokedex/moves/acid-armor.md)<br>2. [Autotomize](../pokedex/moves/autotomize.md)<br>3. [Mirror Coat](../pokedex/moves/mirror-coat.md)<br>4. [Frost Breath](../pokedex/moves/frost-breath.md) |
 | ![roselia](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/315.gif){ .sprite }<br>[Roselia](../pokedex/pokemon/roselia.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span> <span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span></div> | **Level:** 44<br>**Ability:** [Poison Point](../pokedex/abilities/poison-point.md) | 1. [Ingrain](../pokedex/moves/ingrain.md)<br>2. [Sludge](../pokedex/moves/sludge.md)<br>3. [Synthesis](../pokedex/moves/synthesis.md)<br>4. [Petal Dance](../pokedex/moves/petal-dance.md) |
 
-
-**Pokéfan Jude**
+**○ Pokéfan Jude**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -2794,11 +2584,10 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![mr-mime](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/122.gif){ .sprite }<br>[Mr. Mime](../pokedex/pokemon/mr-mime.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span> <span class="type-badge" style="background: linear-gradient(135deg, #EE99AC 0%, #EE99ACdd 100%);">Fairy</span></div> | **Level:** 44<br>**Ability:** [Technician](../pokedex/abilities/technician.md) | 1. [Hypnosis](../pokedex/moves/hypnosis.md)<br>2. [Nasty Plot](../pokedex/moves/nasty-plot.md)<br>3. [Confusion](../pokedex/moves/confusion.md)<br>4. [Disarming Voice](../pokedex/moves/disarming-voice.md) |
 | ![poliwrath](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/62.gif){ .sprite }<br>[Poliwrath](../pokedex/pokemon/poliwrath.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> <span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span></div> | **Level:** 44<br>**Ability:** [Swift Swim](../pokedex/abilities/swift-swim.md) | 1. [Drain Punch](../pokedex/moves/drain-punch.md)<br>2. [Circle Throw](../pokedex/moves/circle-throw.md)<br>3. [Waterfall](../pokedex/moves/waterfall.md)<br>4. [Body Slam](../pokedex/moves/body-slam.md) |
 
-
 #### 3F
 
 
-**Pokéfan Georgia**
+**○ Pokéfan Georgia**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -2806,8 +2595,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![vanillish](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/583.gif){ .sprite }<br>[Vanillish](../pokedex/pokemon/vanillish.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #98D8D8 0%, #98D8D8dd 100%);">Ice</span></div> | **Level:** 44<br>**Ability:** [Weak Armor](../pokedex/abilities/weak-armor.md) | 1. [Acid Armor](../pokedex/moves/acid-armor.md)<br>2. [Autotomize](../pokedex/moves/autotomize.md)<br>3. [Mirror Coat](../pokedex/moves/mirror-coat.md)<br>4. [Frost Breath](../pokedex/moves/frost-breath.md) |
 | ![beartic](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/614.gif){ .sprite }<br>[Beartic](../pokedex/pokemon/beartic.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #98D8D8 0%, #98D8D8dd 100%);">Ice</span> <span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span></div> | **Level:** 44<br>**Ability:** [Sheer Force](../pokedex/abilities/sheer-force.md) | 1. [Rock Smash](../pokedex/moves/rock-smash.md)<br>2. [Icicle Crash](../pokedex/moves/icicle-crash.md)<br>3. [Ice Shard](../pokedex/moves/ice-shard.md)<br>4. [Play Rough](../pokedex/moves/play-rough.md) |
 
-
-**Psychic Micki**
+**○ Psychic Micki**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -2817,15 +2605,13 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![banette](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/354.gif){ .sprite }<br>[Banette](../pokedex/pokemon/banette.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span></div> | **Level:** 44<br>**Ability:** [Cursed Body](../pokedex/abilities/cursed-body.md) | 1. [Trick](../pokedex/moves/trick.md)<br>2. [Shadow Claw](../pokedex/moves/shadow-claw.md)<br>3. [Sucker Punch](../pokedex/moves/sucker-punch.md)<br>4. "Grab" |
 | ![bronzong](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/437.gif){ .sprite }<br>[Bronzong](../pokedex/pokemon/bronzong.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #B8B8D0 0%, #B8B8D0dd 100%);">Steel</span> <span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span></div> | **Level:** 44<br>**Ability:** [Levitate](../pokedex/abilities/levitate.md) | 1. [Safeguard](../pokedex/moves/safeguard.md)<br>2. [Block](../pokedex/moves/block.md)<br>3. [Hex](../pokedex/moves/hex.md)<br>4. [Future Sight](../pokedex/moves/future-sight.md) |
 
-
-**Psychic Bryce**
+**○ Psychic Bryce**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
 | ![reuniclus](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/579.gif){ .sprite }<br>[Reuniclus](../pokedex/pokemon/reuniclus.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span></div> | **Level:** 45<br>**Ability:** [Magic Guard](../pokedex/abilities/magic-guard.md) | 1. [Night Shade](../pokedex/moves/night-shade.md)<br>2. [Calm Mind](../pokedex/moves/calm-mind.md)<br>3. [Stored Power](../pokedex/moves/stored-power.md)<br>4. [Future Sight](../pokedex/moves/future-sight.md) |
 
-
-**Nurse Dixie**
+**○ Nurse Dixie**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -2833,39 +2619,35 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![togekiss](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/468.gif){ .sprite }<br>[Togekiss](../pokedex/pokemon/togekiss.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 45<br>**Ability:** [Serene Grace](../pokedex/abilities/serene-grace.md) | 1. [Ominous Wind](../pokedex/moves/ominous-wind.md)<br>2. [Magical Leaf](../pokedex/moves/magical-leaf.md)<br>3. [Extrasensory](../pokedex/moves/extrasensory.md)<br>4. [Draining Kiss](../pokedex/moves/draining-kiss.md) |
 | ![audino](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/531.gif){ .sprite }<br>[Audino](../pokedex/pokemon/audino.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> <span class="type-badge" style="background: linear-gradient(135deg, #EE99AC 0%, #EE99ACdd 100%);">Fairy</span></div> | **Level:** 45<br>**Ability:** [Regenerator](../pokedex/abilities/regenerator.md) | 1. [Moonblast](../pokedex/moves/moonblast.md)<br>2. [Hyper Voice](../pokedex/moves/hyper-voice.md)<br>3. [Wish](../pokedex/moves/wish.md)<br>4. [Protect](../pokedex/moves/protect.md) |
 
-
 #### 4F
 
 
-**Socialite Grace**
+**○ Socialite Grace**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
 | ![chatot](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/441.gif){ .sprite }<br>[Chatot](../pokedex/pokemon/chatot.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 45<br>**Ability:** [Soundproof](../pokedex/abilities/soundproof.md) | 1. [Uproar](../pokedex/moves/uproar.md)<br>2. [Chatter](../pokedex/moves/chatter.md)<br>3. [Ominous Wind](../pokedex/moves/ominous-wind.md)<br>4. [Nasty Plot](../pokedex/moves/nasty-plot.md) |
 | ![roserade](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/407.gif){ .sprite }<br>[Roserade](../pokedex/pokemon/roserade.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span> <span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span></div> | **Level:** 45<br>**Ability:** [Natural Cure](../pokedex/abilities/natural-cure.md) | 1. [Aromatherapy](../pokedex/moves/aromatherapy.md)<br>2. [Sludge](../pokedex/moves/sludge.md)<br>3. [Giga Drain](../pokedex/moves/giga-drain.md)<br>4. [Leech Seed](../pokedex/moves/leech-seed.md) |
 
-
-**Gentleman Daniel**
+**○ Gentleman Daniel**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
 | ![jolteon](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/135.gif){ .sprite }<br>[Jolteon](../pokedex/pokemon/jolteon.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F8D030 0%, #F8D030dd 100%);">Electric</span></div> | **Level:** 45<br>**Ability:** [Volt Absorb](../pokedex/abilities/volt-absorb.md) | 1. [Pin Missile](../pokedex/moves/pin-missile.md)<br>2. [Electro Ball](../pokedex/moves/electro-ball.md)<br>3. [Nuzzle](../pokedex/moves/nuzzle.md)<br>4. [Extrasensory](../pokedex/moves/extrasensory.md) |
 | ![gallade](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/475.gif){ .sprite }<br>[Gallade](../pokedex/pokemon/gallade.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span> <span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span></div> | **Level:** 45<br>**Ability:** [Hyper Cutter](../pokedex/abilities/hyper-cutter.md) | 1. [Shadow Sneak](../pokedex/moves/shadow-sneak.md)<br>2. [Leaf Blade](../pokedex/moves/leaf-blade.md)<br>3. [Sacred Sword](../pokedex/moves/sacred-sword.md)<br>4. [Slash](../pokedex/moves/slash.md) |
 
-
-**Psychic Sarah**
+**○ Psychic Sarah**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
 | ![gothitelle](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/576.gif){ .sprite }<br>[Gothitelle](../pokedex/pokemon/gothitelle.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span> <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span></div> | **Level:** 45<br>**Ability:** [Shadow Tag](../pokedex/abilities/shadow-tag.md) | 1. [Hypnosis](../pokedex/moves/hypnosis.md)<br>2. [Substitute](../pokedex/moves/substitute.md)<br>3. [Dark Pulse](../pokedex/moves/dark-pulse.md)<br>4. [Future Sight](../pokedex/moves/future-sight.md) |
-
 
 ### Twist Mountain - Mistralton Side
 
  - No level shift based on difficulty, levels are as stated.
 
 
-**♛ COLRESS**
+**●♛ COLRESS**
 
 **Mode:** Easy and Normal mode
 
@@ -2879,8 +2661,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | F-00 | <div class='badges-vstack'></div> | **Level:** 52<br>**Ability:** [Volt Absorb](../pokedex/abilities/volt-absorb.md)<br>**Item:** ![Chople Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/chople-berry.png){ .item-sprite } [Chople Berry](../pokedex/items/chople-berry.md) | 1. [Strength](../pokedex/moves/strength.md)<br>2. [Iron Head](../pokedex/moves/iron-head.md)<br>3. [Thunderbolt](../pokedex/moves/thunderbolt.md)<br>4. [Agility](../pokedex/moves/agility.md) |
 | MT | <div class='badges-vstack'></div> | **Level:** 52<br>**Ability:** [Analytic](../pokedex/abilities/analytic.md)<br>**Item:** ![Leftovers](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/leftovers.png){ .item-sprite } [Leftovers](../pokedex/items/leftovers.md) | 1. [Iron Tail](../pokedex/moves/iron-tail.md)<br>2. [Stone Edge](../pokedex/moves/stone-edge.md)<br>3. [Crunch](../pokedex/moves/crunch.md)<br>4. [Ice Punch](../pokedex/moves/ice-punch.md) |
 
-
-**♛ COLRESS**
+**●♛ COLRESS**
 
 **Mode:** Challenge mode
 
@@ -2891,13 +2672,12 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | F-00 | <div class='badges-vstack'></div> | **Level:** 53<br>**Ability:** [Volt Absorb](../pokedex/abilities/volt-absorb.md)<br>**Item:** ![Chople Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/chople-berry.png){ .item-sprite } [Chople Berry](../pokedex/items/chople-berry.md) | 1. [U Turn](../pokedex/moves/u-turn.md)<br>2. [Extreme Speed](../pokedex/moves/extreme-speed.md)<br>3. [Thunder Wave](../pokedex/moves/thunder-wave.md)<br>4. [Needle Arm](../pokedex/moves/needle-arm.md) |
 | MT2 | <div class='badges-vstack'></div> | **Level:** 53<br>**Ability:** [Flash Fire](../pokedex/abilities/flash-fire.md)<br>**Item:** ![Air Balloon](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/air-balloon.png){ .item-sprite } [Air Balloon](../pokedex/items/air-balloon.md) | 1. [Shift Gear](../pokedex/moves/shift-gear.md)<br>2. [Meteor Mash](../pokedex/moves/meteor-mash.md)<br>3. [Earthquake](../pokedex/moves/earthquake.md)<br>4. [Wild Charge](../pokedex/moves/wild-charge.md) |
 
-
 ### Mistralton City
 
  - No level shift based on difficulty, levels are as stated.
 
 
-**JUAN - Hoenn Leader**
+**○♕ JUAN - Hoenn Leader**
 
 **Reward:** ![Choice Scarf](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/choice-scarf.png){ .item-sprite } [Choice Scarf](../pokedex/items/choice-scarf.md)
 
@@ -2911,8 +2691,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![walrein](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/365.gif){ .sprite }<br>[Walrein](../pokedex/pokemon/walrein.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #98D8D8 0%, #98D8D8dd 100%);">Ice</span> <span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span></div> | **Level:** 50<br>**Ability:** [Thick Fat](../pokedex/abilities/thick-fat.md) | 1. [Encore](../pokedex/moves/encore.md)<br>2. [Body Slam](../pokedex/moves/body-slam.md)<br>3. [Aurora Beam](../pokedex/moves/aurora-beam.md)<br>4. [Water Pulse](../pokedex/moves/water-pulse.md) |
 | ![crawdaunt](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/342.gif){ .sprite }<br>[Crawdaunt](../pokedex/pokemon/crawdaunt.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span></div> | **Level:** 51<br>**Ability:** [Adaptability](../pokedex/abilities/adaptability.md) | 1. [Crabhammer](../pokedex/moves/crabhammer.md)<br>2. [Dragon Dance](../pokedex/moves/dragon-dance.md)<br>3. [Crunch](../pokedex/moves/crunch.md)<br>4. [Aqua Jet](../pokedex/moves/aqua-jet.md) |
 
-
-**JUAN - Hoenn Leader**
+**○♕ JUAN - Hoenn Leader**
 
 **Reward:** ![Air Balloon](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/air-balloon.png){ .item-sprite } [Air Balloon](../pokedex/items/air-balloon.md)
 
@@ -2933,13 +2712,12 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![crawdaunt](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/342.gif){ .sprite }<br>[Crawdaunt](../pokedex/pokemon/crawdaunt.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span></div> | **Level:** 54<br>**Ability:** [Adaptability](../pokedex/abilities/adaptability.md)<br>**Item:** ![Life Orb](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/life-orb.png){ .item-sprite } [Life Orb](../pokedex/items/life-orb.md) | 1. [Aqua Jet](../pokedex/moves/aqua-jet.md)<br>2. [Crunch](../pokedex/moves/crunch.md)<br>3. [Crabhammer](../pokedex/moves/crabhammer.md)<br>4. [Close Combat](../pokedex/moves/close-combat.md) |
 | ![azumarill](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/184.gif){ .sprite }<br>[Azumarill](../pokedex/pokemon/azumarill.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span></div> | **Level:** 53<br>**Ability:** [Huge Power](../pokedex/abilities/huge-power.md)<br>**Item:** ![Sitrus Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/sitrus-berry.png){ .item-sprite } [Sitrus Berry](../pokedex/items/sitrus-berry.md) | 1. [Aqua Jet](../pokedex/moves/aqua-jet.md)<br>2. [Ice Punch](../pokedex/moves/ice-punch.md)<br>3. [Belly Drum](../pokedex/moves/belly-drum.md)<br>4. [Play Rough](../pokedex/moves/play-rough.md) |
 
-
 #### Skyla's Gym
 
  - Levels -3 on Easy mode, +3 on Challenge mode.
 
 
-**Pilot Flynn**
+**● Pilot Flynn**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -2948,8 +2726,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![altaria](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/334.gif){ .sprite }<br>[Altaria](../pokedex/pokemon/altaria.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #7038F8 0%, #7038F8dd 100%);">Dragon</span> <span class="type-badge" style="background: linear-gradient(135deg, #EE99AC 0%, #EE99ACdd 100%);">Fairy</span></div> | **Level:** 48<br>**Ability:** [Cloud Nine](../pokedex/abilities/cloud-nine.md) | 1. [Dragon Claw](../pokedex/moves/dragon-claw.md)<br>2. [Play Rough](../pokedex/moves/play-rough.md)<br>3. [Earthquake](../pokedex/moves/earthquake.md)<br>4. [Dragon Dance](../pokedex/moves/dragon-dance.md) |
 | ![pidgeot](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/18.gif){ .sprite }<br>[Pidgeot](../pokedex/pokemon/pidgeot.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 48<br>**Ability:** [No Guard](../pokedex/abilities/no-guard.md) | 1. [Hurricane](../pokedex/moves/hurricane.md)<br>2. [U Turn](../pokedex/moves/u-turn.md)<br>3. [Hyper Voice](../pokedex/moves/hyper-voice.md)<br>4. [Heat Wave](../pokedex/moves/heat-wave.md) |
 
-
-**Pilot Winslow**
+**○ Pilot Winslow**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -2958,8 +2735,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![farfetchd](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/83.gif){ .sprite }<br>[Farfetchˈd](../pokedex/pokemon/farfetchd.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 48<br>**Ability:** [Defeatist](../pokedex/abilities/defeatist.md)<br>**Item:** ![Flying Gem](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/flying-gem.png){ .item-sprite } [Flying Gem](../pokedex/items/flying-gem.md) | 1. [Close Combat](../pokedex/moves/close-combat.md)<br>2. [Leaf Blade](../pokedex/moves/leaf-blade.md)<br>3. [Acrobatics](../pokedex/moves/acrobatics.md)<br>4. [Night Slash](../pokedex/moves/night-slash.md) |
 | ![drifblim](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/426.gif){ .sprite }<br>[Drifblim](../pokedex/pokemon/drifblim.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 48<br>**Ability:** [Flare Boost](../pokedex/abilities/flare-boost.md)<br>**Item:** ![Flame Orb](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/flame-orb.png){ .item-sprite } [Flame Orb](../pokedex/items/flame-orb.md) | 1. [Shadow Ball](../pokedex/moves/shadow-ball.md)<br>2. [Air Slash](../pokedex/moves/air-slash.md)<br>3. [Thunderbolt](../pokedex/moves/thunderbolt.md)<br>4. [Destiny Bond](../pokedex/moves/destiny-bond.md) |
 
-
-**Pilot Elron**
+**○ Pilot Elron**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -2969,8 +2745,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![mantine](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/226.gif){ .sprite }<br>[Mantine](../pokedex/pokemon/mantine.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 48<br>**Ability:** [Water Absorb](../pokedex/abilities/water-absorb.md) | 1. [Air Slash](../pokedex/moves/air-slash.md)<br>2. [Hydro Pump](../pokedex/moves/hydro-pump.md)<br>3. [Ice Beam](../pokedex/moves/ice-beam.md)<br>4. [Psybeam](../pokedex/moves/psybeam.md) |
 | ![braviary](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/628.gif){ .sprite }<br>[Braviary](../pokedex/pokemon/braviary.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 48<br>**Ability:** [Defiant](../pokedex/abilities/defiant.md) | 1. [Brave Bird](../pokedex/moves/brave-bird.md)<br>2. [Superpower](../pokedex/moves/superpower.md)<br>3. [Retaliate](../pokedex/moves/retaliate.md)<br>4. [Rock Slide](../pokedex/moves/rock-slide.md) |
 
-
-**Pilot Ewing**
+**● Pilot Ewing**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -2979,8 +2754,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![staraptor](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/398.gif){ .sprite }<br>[Staraptor](../pokedex/pokemon/staraptor.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 48<br>**Ability:** [Reckless](../pokedex/abilities/reckless.md) | 1. [Close Combat](../pokedex/moves/close-combat.md)<br>2. [Double Edge](../pokedex/moves/double-edge.md)<br>3. [Brave Bird](../pokedex/moves/brave-bird.md)<br>4. [U Turn](../pokedex/moves/u-turn.md) |
 | ![togekiss](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/468.gif){ .sprite }<br>[Togekiss](../pokedex/pokemon/togekiss.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 48<br>**Ability:** [Serene Grace](../pokedex/abilities/serene-grace.md) | 1. [Aura Sphere](../pokedex/moves/aura-sphere.md)<br>2. [Air Slash](../pokedex/moves/air-slash.md)<br>3. [Moonblast](../pokedex/moves/moonblast.md)<br>4. [Thunder Wave](../pokedex/moves/thunder-wave.md) |
 
-
-**Pilot Chase**
+**● Pilot Chase**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -2990,8 +2764,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![fearow](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/22.gif){ .sprite }<br>[Fearow](../pokedex/pokemon/fearow.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 49<br>**Ability:** [Intimidate](../pokedex/abilities/intimidate.md) | 1. [Drill Peck](../pokedex/moves/drill-peck.md)<br>2. [Double Edge](../pokedex/moves/double-edge.md)<br>3. [Drill Run](../pokedex/moves/drill-run.md)<br>4. [Quick Attack](../pokedex/moves/quick-attack.md) |
 | ![pelipper](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/279.gif){ .sprite }<br>[Pelipper](../pokedex/pokemon/pelipper.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 49<br>**Ability:** [Rain Dish](../pokedex/abilities/rain-dish.md) | 1. [Surf](../pokedex/moves/surf.md)<br>2. [Shock Wave](../pokedex/moves/shock-wave.md)<br>3. [Hurricane](../pokedex/moves/hurricane.md)<br>4. [Ice Beam](../pokedex/moves/ice-beam.md) |
 
-
-**♛ LEADER SKYLA**
+**●♛ LEADER SKYLA**
 
 **Reward:** ![TM62](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM62](../pokedex/items/tm62.md), [Acrobatics](../pokedex/moves/acrobatics.md)
 
@@ -3006,8 +2779,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![swanna](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/581.gif){ .sprite }<br>[Swanna](../pokedex/pokemon/swanna.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 52<br>**Ability:** [Big Pecks](../pokedex/abilities/big-pecks.md)<br>**Item:** ![Wacan Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/wacan-berry.png){ .item-sprite } [Wacan Berry](../pokedex/items/wacan-berry.md) | 1. [Air Slash](../pokedex/moves/air-slash.md)<br>2. [Scald](../pokedex/moves/scald.md)<br>3. [Ice Beam](../pokedex/moves/ice-beam.md)<br>4. [Attract](../pokedex/moves/attract.md) |
 | ![archeops](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/567.gif){ .sprite }<br>[Archeops](../pokedex/pokemon/archeops.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 51<br>**Ability:** [Defeatist](../pokedex/abilities/defeatist.md)<br>**Item:** ![Sitrus Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/sitrus-berry.png){ .item-sprite } [Sitrus Berry](../pokedex/items/sitrus-berry.md) | 1. [Acrobatics](../pokedex/moves/acrobatics.md)<br>2. [Head Smash](../pokedex/moves/head-smash.md)<br>3. [Heat Wave](../pokedex/moves/heat-wave.md)<br>4. [Earthquake](../pokedex/moves/earthquake.md) |
 
-
-**♛ LEADER SKYLA**
+**●♛ LEADER SKYLA**
 
 **Reward:** ![TM62](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM62](../pokedex/items/tm62.md), [Acrobatics](../pokedex/moves/acrobatics.md)
 
@@ -3024,7 +2796,6 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![togekiss](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/468.gif){ .sprite }<br>[Togekiss](../pokedex/pokemon/togekiss.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 54<br>**Ability:** [Serene Grace](../pokedex/abilities/serene-grace.md)<br>**Item:** ![Wacan Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/wacan-berry.png){ .item-sprite } [Wacan Berry](../pokedex/items/wacan-berry.md) | 1. [Heat Wave](../pokedex/moves/heat-wave.md)<br>2. [Dazzling Gleam](../pokedex/moves/dazzling-gleam.md)<br>3. [Hurricane](../pokedex/moves/hurricane.md)<br>4. [Protect](../pokedex/moves/protect.md) |
 | ![swanna](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/581.gif){ .sprite }<br>[Swanna](../pokedex/pokemon/swanna.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 55<br>**Ability:** [Friend Guard](../pokedex/abilities/friend-guard.md)<br>**Item:** ![Life Orb](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/life-orb.png){ .item-sprite } [Life Orb](../pokedex/items/life-orb.md) | 1. [Hurricane](../pokedex/moves/hurricane.md)<br>2. [Hydro Pump](../pokedex/moves/hydro-pump.md)<br>3. [Icy Wind](../pokedex/moves/icy-wind.md)<br>4. [Protect](../pokedex/moves/protect.md) |
 
-
 ### Reversal Mountain
 
 #### Outside Region
@@ -3032,7 +2803,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
  - Levels -4 on Easy mode, +4 on Challenge mode.
 
 
-**Cyclist♂ Jeremiah**
+**○ Cyclist♂ Jeremiah**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -3040,14 +2811,12 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![zebstrika](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/523.gif){ .sprite }<br>[Zebstrika](../pokedex/pokemon/zebstrika.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F8D030 0%, #F8D030dd 100%);">Electric</span></div> | **Level:** 49<br>**Ability:** [Motor Drive](../pokedex/abilities/motor-drive.md) | 1. [Wild Charge](../pokedex/moves/wild-charge.md)<br>2. [Flame Charge](../pokedex/moves/flame-charge.md)<br>3. [Quick Attack](../pokedex/moves/quick-attack.md)<br>4. [Lunge](../pokedex/moves/lunge.md) |
 | ![rapidash](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/78.gif){ .sprite }<br>[Rapidash](../pokedex/pokemon/rapidash.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F08030 0%, #F08030dd 100%);">Fire</span> <span class="type-badge" style="background: linear-gradient(135deg, #EE99AC 0%, #EE99ACdd 100%);">Fairy</span></div> | **Level:** 49<br>**Ability:** [Flame Body](../pokedex/abilities/flame-body.md) | 1. [Blaze Kick](../pokedex/moves/blaze-kick.md)<br>2. [Smart Strike](../pokedex/moves/smart-strike.md)<br>3. [Megahorn](../pokedex/moves/megahorn.md)<br>4. [Play Rough](../pokedex/moves/play-rough.md) |
 
-
-**Cyclist♀ Adelaide**
+**○ Cyclist♀ Adelaide**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
 | ![electrode](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/101.gif){ .sprite }<br>[Electrode](../pokedex/pokemon/electrode.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F8D030 0%, #F8D030dd 100%);">Electric</span></div> | **Level:** 50<br>**Ability:** [Static](../pokedex/abilities/static.md) | 1. [Overheat](../pokedex/moves/overheat.md)<br>2. [Aura Sphere](../pokedex/moves/aura-sphere.md)<br>3. [Energy Ball](../pokedex/moves/energy-ball.md)<br>4. [Discharge](../pokedex/moves/discharge.md) |
 | ![roserade](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/407.gif){ .sprite }<br>[Roserade](../pokedex/pokemon/roserade.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span> <span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span></div> | **Level:** 50<br>**Ability:** [Natural Cure](../pokedex/abilities/natural-cure.md) | 1. [Extrasensory](../pokedex/moves/extrasensory.md)<br>2. [Leaf Storm](../pokedex/moves/leaf-storm.md)<br>3. [Sleep Powder](../pokedex/moves/sleep-powder.md)<br>4. [Sludge Bomb](../pokedex/moves/sludge-bomb.md) |
-
 
 #### Inside Region
 
@@ -3058,7 +2827,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
  - When she follows you around Reversal Mountain afterwards, she'll use her Normal Mode team, regardless of difficulty.
  - No level shift based on difficulty, levels are as stated.
 
-**BIANCA**
+**●♕ BIANCA**
 
 **Mode:** Easy and Normal mode
 
@@ -3068,8 +2837,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![persian](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/53.gif){ .sprite }<br>[Persian](../pokedex/pokemon/persian.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span></div> | **Level:** 51<br>**Ability:** [Technician](../pokedex/abilities/technician.md) | 1. [Swift](../pokedex/moves/swift.md)<br>2. [Water Pulse](../pokedex/moves/water-pulse.md)<br>3. [Thunderbolt](../pokedex/moves/thunderbolt.md)<br>4. [Hypnosis](../pokedex/moves/hypnosis.md) |
 | ![mienshao](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/620.gif){ .sprite }<br>[Mienshao](../pokedex/pokemon/mienshao.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span></div> | **Level:** 51<br>**Ability:** [Reckless](../pokedex/abilities/reckless.md) | 1. [Drain Punch](../pokedex/moves/drain-punch.md)<br>2. [Fake Out](../pokedex/moves/fake-out.md)<br>3. [Rock Slide](../pokedex/moves/rock-slide.md)<br>4. [Acrobatics](../pokedex/moves/acrobatics.md) |
 
-
-**BIANCA**
+**●♕ BIANCA**
 
 **Mode:** Challenge mode
 
@@ -3084,14 +2852,13 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![samurott](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/503.gif){ .sprite }<br>[Samurott](../pokedex/pokemon/samurott.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> <span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span></div> | **Level:** 56<br>**Ability:** [Shell Armor](../pokedex/abilities/shell-armor.md)<br>**Item:** ![Life Orb](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/life-orb.png){ .item-sprite } [Life Orb](../pokedex/items/life-orb.md) | 1. [Swords Dance](../pokedex/moves/swords-dance.md)<br>2. [Aqua Jet](../pokedex/moves/aqua-jet.md)<br>3. [Megahorn](../pokedex/moves/megahorn.md)<br>4. [Wave Crash](../pokedex/moves/wave-crash.md) |
 | ![emboar](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/500.gif){ .sprite }<br>[Emboar](../pokedex/pokemon/emboar.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F08030 0%, #F08030dd 100%);">Fire</span> <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span></div> | **Level:** 56<br>**Ability:** [Mold Breaker](../pokedex/abilities/mold-breaker.md)<br>**Item:** ![Fire Gem](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/fire-gem.png){ .item-sprite } [Fire Gem](../pokedex/items/fire-gem.md) | 1. [Flare Blitz](../pokedex/moves/flare-blitz.md)<br>2. [Wild Charge](../pokedex/moves/wild-charge.md)<br>3. [Head Smash](../pokedex/moves/head-smash.md)<br>4. [High Horsepower](../pokedex/moves/high-horsepower.md) |
 
-
 #### Main Area
 
 
  - In all TAG battles, Bianca will partner with you, using her Easy and Normal mode team, regardless of difficulty.
  - Levels -4 on Easy mode, +4 on Challenge mode.
 
-**Hiker Jared and Backpacker Kumiko**
+**● Hiker Jared and Backpacker Kumiko**
 
 **Battle Type:** Tag
 
@@ -3112,8 +2879,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 	| ![hypno](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/97.gif){ .sprite }<br>[Hypno](../pokedex/pokemon/hypno.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span></div> | **Level:** 51<br>**Ability:** [Bad Dreams](../pokedex/abilities/bad-dreams.md) | 1. [Hypnosis](../pokedex/moves/hypnosis.md)<br>2. [Dream Eater](../pokedex/moves/dream-eater.md)<br>3. [Nightmare](../pokedex/moves/nightmare.md)<br>4. [Future Sight](../pokedex/moves/future-sight.md) |
 	| ![gyarados](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/130.gif){ .sprite }<br>[Gyarados](../pokedex/pokemon/gyarados.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 51<br>**Ability:** [Moxie](../pokedex/abilities/moxie.md)<br>**Item:** ![Power Herb](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/power-herb.png){ .item-sprite } [Power Herb](../pokedex/items/power-herb.md) | 1. [Dragon Dance](../pokedex/moves/dragon-dance.md)<br>2. [Raging Fury](../pokedex/moves/raging-fury.md)<br>3. [Waterfall](../pokedex/moves/waterfall.md)<br>4. [Bounce](../pokedex/moves/bounce.md) |
 
-
-**Ace Trainer Ray and Ace Trainer Cora**
+**● Ace Trainer Ray and Ace Trainer Cora**
 
 **Battle Type:** Tag
 
@@ -3133,8 +2899,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 	| ![drifblim](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/426.gif){ .sprite }<br>[Drifblim](../pokedex/pokemon/drifblim.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 51<br>**Ability:** [Aftermath](../pokedex/abilities/aftermath.md) | 1. [Hex](../pokedex/moves/hex.md)<br>2. [Will O Wisp](../pokedex/moves/will-o-wisp.md)<br>3. [Extrasensory](../pokedex/moves/extrasensory.md)<br>4. [Air Cutter](../pokedex/moves/air-cutter.md) |
 	| ![aggron](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/306.gif){ .sprite }<br>[Aggron](../pokedex/pokemon/aggron.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #B8B8D0 0%, #B8B8D0dd 100%);">Steel</span> <span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span></div> | **Level:** 51<br>**Ability:** [Filter](../pokedex/abilities/filter.md) | 1. [Headlong Rush](../pokedex/moves/headlong-rush.md)<br>2. [Heavy Slam](../pokedex/moves/heavy-slam.md)<br>3. [Rock Polish](../pokedex/moves/rock-polish.md)<br>4. [Dragon Rush](../pokedex/moves/dragon-rush.md) |
 
-
-**Black Belt Corey**
+**● Black Belt Corey**
 
 **Battle Type:** 3x
 
@@ -3144,8 +2909,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 	| ![infernape](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/392.gif){ .sprite }<br>[Infernape](../pokedex/pokemon/infernape.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F08030 0%, #F08030dd 100%);">Fire</span> <span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span></div> | **Level:** 50<br>**Ability:** [Iron Fist](../pokedex/abilities/iron-fist.md) | 1. [Heat Wave](../pokedex/moves/heat-wave.md)<br>2. [Vacuum Wave](../pokedex/moves/vacuum-wave.md)<br>3. [Fire Lash](../pokedex/moves/fire-lash.md)<br>4. [Grass Knot](../pokedex/moves/grass-knot.md) |
 	| ![sawk](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/539.gif){ .sprite }<br>[Sawk](../pokedex/pokemon/sawk.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span></div> | **Level:** 50<br>**Ability:** [Sturdy](../pokedex/abilities/sturdy.md) | 1. [Reversal](../pokedex/moves/reversal.md)<br>2. [Blaze Kick](../pokedex/moves/blaze-kick.md)<br>3. [Lunge](../pokedex/moves/lunge.md)<br>4. [Poison Jab](../pokedex/moves/poison-jab.md) |
 
-
-**Backpacker Kiyo and Hiker Markus**
+**● Backpacker Kiyo and Hiker Markus**
 
 **Battle Type:** 2x
 
@@ -3164,8 +2928,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 	| ![butterfree](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/12.gif){ .sprite }<br>[Butterfree](../pokedex/pokemon/butterfree.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 51<br>**Ability:** [Compound Eyes](../pokedex/abilities/compound-eyes.md) | 1. [Sleep Powder](../pokedex/moves/sleep-powder.md)<br>2. [Hurricane](../pokedex/moves/hurricane.md)<br>3. [Bug Buzz](../pokedex/moves/bug-buzz.md)<br>4. [Giga Drain](../pokedex/moves/giga-drain.md) |
 	| ![dewgong](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/87.gif){ .sprite }<br>[Dewgong](../pokedex/pokemon/dewgong.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> <span class="type-badge" style="background: linear-gradient(135deg, #98D8D8 0%, #98D8D8dd 100%);">Ice</span></div> | **Level:** 51<br>**Ability:** [Thick Fat](../pokedex/abilities/thick-fat.md) | 1. [Ice Shard](../pokedex/moves/ice-shard.md)<br>2. [Icicle Crash](../pokedex/moves/icicle-crash.md)<br>3. [Waterfall](../pokedex/moves/waterfall.md)<br>4. [Encore](../pokedex/moves/encore.md) |
 
-
-**Ranger♀ Eliza**
+**● Ranger♀ Eliza**
 
 **Reward:** ![Persim Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/persim-berry.png){ .item-sprite } [Persim Berry](../pokedex/items/persim-berry.md)
 
@@ -3175,8 +2938,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 	| ![golduck](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/55.gif){ .sprite }<br>[Golduck](../pokedex/pokemon/golduck.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> <span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span></div> | **Level:** 50<br>**Ability:** [Cloud Nine](../pokedex/abilities/cloud-nine.md) | 1. [Power Gem](../pokedex/moves/power-gem.md)<br>2. [Hydro Pump](../pokedex/moves/hydro-pump.md)<br>3. [Psychic](../pokedex/moves/psychic.md)<br>4. [Aura Sphere](../pokedex/moves/aura-sphere.md) |
 	| ![porygon-z](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/474.gif){ .sprite }<br>[Porygon Z](../pokedex/pokemon/porygon-z.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span></div> | **Level:** 50<br>**Ability:** [Adaptability](../pokedex/abilities/adaptability.md) | 1. [Hyper Beam](../pokedex/moves/hyper-beam.md)<br>2. [Agility](../pokedex/moves/agility.md)<br>3. [Ice Beam](../pokedex/moves/ice-beam.md)<br>4. [Thunderbolt](../pokedex/moves/thunderbolt.md) |
 
-
-**Battle Girl Chan**
+**● Battle Girl Chan**
 
 **Battle Type:** 3x
 
@@ -3186,8 +2948,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 	| ![electivire](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/466.gif){ .sprite }<br>[Electivire](../pokedex/pokemon/electivire.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F8D030 0%, #F8D030dd 100%);">Electric</span> <span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span></div> | **Level:** 50<br>**Ability:** [Motor Drive](../pokedex/abilities/motor-drive.md) | 1. [Volt Switch](../pokedex/moves/volt-switch.md)<br>2. [Close Combat](../pokedex/moves/close-combat.md)<br>3. [Ice Punch](../pokedex/moves/ice-punch.md)<br>4. [Follow Me](../pokedex/moves/follow-me.md) |
 	| ![lopunny](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/428.gif){ .sprite }<br>[Lopunny](../pokedex/pokemon/lopunny.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> <span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span></div> | **Level:** 50<br>**Ability:** [Scrappy](../pokedex/abilities/scrappy.md) | 1. [High Horsepower](../pokedex/moves/high-horsepower.md)<br>2. [Blaze Kick](../pokedex/moves/blaze-kick.md)<br>3. [Close Combat](../pokedex/moves/close-combat.md)<br>4. [Strength](../pokedex/moves/strength.md) |
 
-
-**Doctor Derek**
+**● Doctor Derek**
 
 **Battle Type:** 3x
 
@@ -3198,11 +2959,10 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 	| ![staraptor](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/398.gif){ .sprite }<br>[Staraptor](../pokedex/pokemon/staraptor.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 52<br>**Ability:** [Reckless](../pokedex/abilities/reckless.md) | 1. [Double Edge](../pokedex/moves/double-edge.md)<br>2. [Close Combat](../pokedex/moves/close-combat.md)<br>3. [Quick Attack](../pokedex/moves/quick-attack.md)<br>4. [Brave Bird](../pokedex/moves/brave-bird.md) |
 	| ![alakazam](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/65.gif){ .sprite }<br>[Alakazam](../pokedex/pokemon/alakazam.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span></div> | **Level:** 52<br>**Ability:** [Magic Guard](../pokedex/abilities/magic-guard.md) | 1. [Aura Sphere](../pokedex/moves/aura-sphere.md)<br>2. [Nasty Plot](../pokedex/moves/nasty-plot.md)<br>3. [Psyshock](../pokedex/moves/psyshock.md)<br>4. [Energy Ball](../pokedex/moves/energy-ball.md) |
 
-
 #### B1F
 
 
-**Ranger♂ Lewis**
+**○ Ranger♂ Lewis**
 
 **Reward:** ![Persim Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/persim-berry.png){ .item-sprite } [Persim Berry](../pokedex/items/persim-berry.md)
 
@@ -3212,13 +2972,12 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![stantler](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/234.gif){ .sprite }<br>[Stantler](../pokedex/pokemon/stantler.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span></div> | **Level:** 54<br>**Ability:** [Intimidate](../pokedex/abilities/intimidate.md) | 1. [Hypnosis](../pokedex/moves/hypnosis.md)<br>2. [Aura Sphere](../pokedex/moves/aura-sphere.md)<br>3. [Psyshield Bash](../pokedex/moves/psyshield-bash.md)<br>4. [Lunge](../pokedex/moves/lunge.md) |
 | ![vileplume](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/45.gif){ .sprite }<br>[Vileplume](../pokedex/pokemon/vileplume.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span> <span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span></div> | **Level:** 54<br>**Ability:** [Thick Fat](../pokedex/abilities/thick-fat.md) | 1. [Earth Power](../pokedex/moves/earth-power.md)<br>2. [Giga Drain](../pokedex/moves/giga-drain.md)<br>3. [Moonblast](../pokedex/moves/moonblast.md)<br>4. [Toxic](../pokedex/moves/toxic.md) |
 
-
 ### Strange House
 
  - Levels -4 on Easy mode, +4 on Challenge mode.
 
 
-**Backpacker Boone**
+**○ Backpacker Boone**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -3226,8 +2985,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![xatu](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/178.gif){ .sprite }<br>[Xatu](../pokedex/pokemon/xatu.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 49<br>**Ability:** [Magic Bounce](../pokedex/abilities/magic-bounce.md) | 1. [Psychic](../pokedex/moves/psychic.md)<br>2. [Air Slash](../pokedex/moves/air-slash.md)<br>3. [Foul Play](../pokedex/moves/foul-play.md)<br>4. [Pain Split](../pokedex/moves/pain-split.md) |
 | ![camerupt](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/323.gif){ .sprite }<br>[Camerupt](../pokedex/pokemon/camerupt.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F08030 0%, #F08030dd 100%);">Fire</span> <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span></div> | **Level:** 49<br>**Ability:** [Solid Rock](../pokedex/abilities/solid-rock.md) | 1. [Stockpile](../pokedex/moves/stockpile.md)<br>2. [Flame Charge](../pokedex/moves/flame-charge.md)<br>3. [Heavy Slam](../pokedex/moves/heavy-slam.md)<br>4. [Yawn](../pokedex/moves/yawn.md) |
 
-
-**Psychic Lynette**
+**○ Psychic Lynette**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -3235,13 +2993,12 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![gardevoir](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/282.gif){ .sprite }<br>[Gardevoir](../pokedex/pokemon/gardevoir.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span></div> | **Level:** 49<br>**Ability:** [Trace](../pokedex/abilities/trace.md) | 1. [Healing Wish](../pokedex/moves/healing-wish.md)<br>2. [Disable](../pokedex/moves/disable.md)<br>3. [Future Sight](../pokedex/moves/future-sight.md)<br>4. [Mean Look](../pokedex/moves/mean-look.md) |
 | ![mismagius](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/429.gif){ .sprite }<br>[Mismagius](../pokedex/pokemon/mismagius.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> <span class="type-badge" style="background: linear-gradient(135deg, #EE99AC 0%, #EE99ACdd 100%);">Fairy</span></div> | **Level:** 49<br>**Ability:** [Infiltrator](../pokedex/abilities/infiltrator.md) | 1. [Spite](../pokedex/moves/spite.md)<br>2. [Ominous Wind](../pokedex/moves/ominous-wind.md)<br>3. [Hypnosis](../pokedex/moves/hypnosis.md)<br>4. [Magical Leaf](../pokedex/moves/magical-leaf.md) |
 
-
 ### Undella Town
 
  - Levels -4 on Easy mode, +4 on Challenge mode.
 
 
-**HUGH**
+**●♕ HUGH**
 
 === "Oshawott"
 
@@ -3276,13 +3033,12 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 	| ![samurott](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/503.gif){ .sprite }<br>[Samurott](../pokedex/pokemon/samurott.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> <span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span></div> | **Level:** 54<br>**Ability:** [Shell Armor](../pokedex/abilities/shell-armor.md)<br>**Item:** ![Leftovers](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/leftovers.png){ .item-sprite } [Leftovers](../pokedex/items/leftovers.md) | 1. [Air Slash](../pokedex/moves/air-slash.md)<br>2. [Waterfall](../pokedex/moves/waterfall.md)<br>3. [Megahorn](../pokedex/moves/megahorn.md)<br>4. [Close Combat](../pokedex/moves/close-combat.md) |
 	| ![camerupt](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/323.gif){ .sprite }<br>[Camerupt](../pokedex/pokemon/camerupt.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F08030 0%, #F08030dd 100%);">Fire</span> <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span></div> | **Level:** 54<br>**Ability:** [Simple](../pokedex/abilities/simple.md)<br>**Item:** ![Passho Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/passho-berry.png){ .item-sprite } [Passho Berry](../pokedex/items/passho-berry.md) | 1. [Flamethrower](../pokedex/moves/flamethrower.md)<br>2. [Rock Climb](../pokedex/moves/rock-climb.md)<br>3. [Earthquake](../pokedex/moves/earthquake.md)<br>4. [Rock Polish](../pokedex/moves/rock-polish.md) |
 
-
 ### Undella Bay
 
  - Levels -4 on Easy mode, +4 on Challenge mode.
 
 
-**Swimmer♂ Bart**
+**○ Swimmer♂ Bart**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -3290,8 +3046,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![gastrodon](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/423.gif){ .sprite }<br>[Gastrodon](../pokedex/pokemon/gastrodon.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span></div> | **Level:** 49<br>**Ability:** [Storm Drain](../pokedex/abilities/storm-drain.md) | 1. [Counter](../pokedex/moves/counter.md)<br>2. [Mirror Coat](../pokedex/moves/mirror-coat.md)<br>3. [Mud Bomb](../pokedex/moves/mud-bomb.md)<br>4. [Brine](../pokedex/moves/brine.md) |
 | ![golduck](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/55.gif){ .sprite }<br>[Golduck](../pokedex/pokemon/golduck.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> <span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span></div> | **Level:** 49<br>**Ability:** [Cloud Nine](../pokedex/abilities/cloud-nine.md) | 1. [Worry Seed](../pokedex/moves/worry-seed.md)<br>2. [Amnesia](../pokedex/moves/amnesia.md)<br>3. [Cross Chop](../pokedex/moves/cross-chop.md)<br>4. [Waterfall](../pokedex/moves/waterfall.md) |
 
-
-**Swimmer♂ Matt**
+**○ Swimmer♂ Matt**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -3301,8 +3056,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![wingull](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/278.gif){ .sprite }<br>[Wingull](../pokedex/pokemon/wingull.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 48<br>**Ability:** [Rain Dish](../pokedex/abilities/rain-dish.md) | 1. [Brine](../pokedex/moves/brine.md)<br>2. [Agility](../pokedex/moves/agility.md)<br>3. [Air Slash](../pokedex/moves/air-slash.md)<br>4. [Tailwind](../pokedex/moves/tailwind.md) |
 | ![croconaw](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/159.gif){ .sprite }<br>[Croconaw](../pokedex/pokemon/croconaw.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span></div> | **Level:** 48<br>**Ability:** [Torrent](../pokedex/abilities/torrent.md) | 1. [Hone Claws](../pokedex/moves/hone-claws.md)<br>2. [Aqua Tail](../pokedex/moves/aqua-tail.md)<br>3. [Fake Tears](../pokedex/moves/fake-tears.md)<br>4. [Hydro Pump](../pokedex/moves/hydro-pump.md) |
 
-
-**Swimmer♀ Mitzi**
+**○ Swimmer♀ Mitzi**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -3311,8 +3065,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![gorebyss](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/368.gif){ .sprite }<br>[Gorebyss](../pokedex/pokemon/gorebyss.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span></div> | **Level:** 48<br>**Ability:** [Swift Swim](../pokedex/abilities/swift-swim.md) | 1. [Rain Dance](../pokedex/moves/rain-dance.md)<br>2. [Draining Kiss](../pokedex/moves/draining-kiss.md)<br>3. [Baton Pass](../pokedex/moves/baton-pass.md)<br>4. [Muddy Water](../pokedex/moves/muddy-water.md) |
 | ![relicanth](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/369.gif){ .sprite }<br>[Relicanth](../pokedex/pokemon/relicanth.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> <span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span></div> | **Level:** 48<br>**Ability:** [Sturdy](../pokedex/abilities/sturdy.md) | 1. [Zen Headbutt](../pokedex/moves/zen-headbutt.md)<br>2. [Take Down](../pokedex/moves/take-down.md)<br>3. [Rock Blast](../pokedex/moves/rock-blast.md)<br>4. [Aqua Tail](../pokedex/moves/aqua-tail.md) |
 
-
-**Swimmer♂ Tim**
+**○ Swimmer♂ Tim**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -3321,16 +3074,14 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![krabby](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/98.gif){ .sprite }<br>[Krabby](../pokedex/pokemon/krabby.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span></div> | **Level:** 48<br>**Ability:** [Sheer Force](../pokedex/abilities/sheer-force.md) | 1. [Haze](../pokedex/moves/haze.md)<br>2. [Amnesia](../pokedex/moves/amnesia.md)<br>3. [Hammer Arm](../pokedex/moves/hammer-arm.md)<br>4. [Crabhammer](../pokedex/moves/crabhammer.md) |
 | ![wartortle](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/8.gif){ .sprite }<br>[Wartortle](../pokedex/pokemon/wartortle.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span></div> | **Level:** 48<br>**Ability:** [Torrent](../pokedex/abilities/torrent.md) | 1. [Fake Out](../pokedex/moves/fake-out.md)<br>2. [Muddy Water](../pokedex/moves/muddy-water.md)<br>3. [Seismic Toss](../pokedex/moves/seismic-toss.md)<br>4. [Aqua Ring](../pokedex/moves/aqua-ring.md) |
 
-
-**Ace Trainer Summer**
+**○ Ace Trainer Summer**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
 | ![gyarados](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/130.gif){ .sprite }<br>[Gyarados](../pokedex/pokemon/gyarados.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 50<br>**Ability:** [Intimidate](../pokedex/abilities/intimidate.md) | 1. [Thunderbolt](../pokedex/moves/thunderbolt.md)<br>2. [Ice Beam](../pokedex/moves/ice-beam.md)<br>3. [Hurricane](../pokedex/moves/hurricane.md)<br>4. [Hydro Pump](../pokedex/moves/hydro-pump.md) |
 | ![milotic](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/350.gif){ .sprite }<br>[Milotic](../pokedex/pokemon/milotic.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span></div> | **Level:** 50<br>**Ability:** [Marvel Scale](../pokedex/abilities/marvel-scale.md) | 1. [Hypnosis](../pokedex/moves/hypnosis.md)<br>2. [Aqua Tail](../pokedex/moves/aqua-tail.md)<br>3. [Breaking Swipe](../pokedex/moves/breaking-swipe.md)<br>4. [Coil](../pokedex/moves/coil.md) |
 
-
-**Swimmer♀ Arissa**
+**○ Swimmer♀ Arissa**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -3338,13 +3089,12 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![kingdra](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/230.gif){ .sprite }<br>[Kingdra](../pokedex/pokemon/kingdra.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> <span class="type-badge" style="background: linear-gradient(135deg, #7038F8 0%, #7038F8dd 100%);">Dragon</span></div> | **Level:** 49<br>**Ability:** [Sniper](../pokedex/abilities/sniper.md) | 1. [Aurora Beam](../pokedex/moves/aurora-beam.md)<br>2. [Octazooka](../pokedex/moves/octazooka.md)<br>3. [Signal Beam](../pokedex/moves/signal-beam.md)<br>4. [Clear Smog](../pokedex/moves/clear-smog.md) |
 | ![wailord](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/321.gif){ .sprite }<br>[Wailord](../pokedex/pokemon/wailord.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span></div> | **Level:** 49<br>**Ability:** [Pressure](../pokedex/abilities/pressure.md) | 1. [Brine](../pokedex/moves/brine.md)<br>2. [Bounce](../pokedex/moves/bounce.md)<br>3. [Body Slam](../pokedex/moves/body-slam.md)<br>4. [Amnesia](../pokedex/moves/amnesia.md) |
 
-
 ### Route 14
 
  - Levels -4 on Easy mode, +4 on Challenge mode.
 
 
-**Socialite Marian**
+**○ Socialite Marian**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -3352,8 +3102,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![solrock](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/338.gif){ .sprite }<br>[Solrock](../pokedex/pokemon/solrock.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span> <span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span></div> | **Level:** 50<br>**Ability:** [Levitate](../pokedex/abilities/levitate.md) | 1. [Flare Blitz](../pokedex/moves/flare-blitz.md)<br>2. [Iron Head](../pokedex/moves/iron-head.md)<br>3. [Morning Sun](../pokedex/moves/morning-sun.md)<br>4. [Psyshield Bash](../pokedex/moves/psyshield-bash.md) |
 | ![mandibuzz](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/630.gif){ .sprite }<br>[Mandibuzz](../pokedex/pokemon/mandibuzz.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 50<br>**Ability:** [Weak Armor](../pokedex/abilities/weak-armor.md) | 1. [Dark Pulse](../pokedex/moves/dark-pulse.md)<br>2. [Bone Rush](../pokedex/moves/bone-rush.md)<br>3. [Nasty Plot](../pokedex/moves/nasty-plot.md)<br>4. [Air Slash](../pokedex/moves/air-slash.md) |
 
-
-**Gentleman Sheldon**
+**○ Gentleman Sheldon**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -3361,16 +3110,14 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![lunatone](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/337.gif){ .sprite }<br>[Lunatone](../pokedex/pokemon/lunatone.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span> <span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span></div> | **Level:** 50<br>**Ability:** [Levitate](../pokedex/abilities/levitate.md) | 1. [Power Gem](../pokedex/moves/power-gem.md)<br>2. [Moonblast](../pokedex/moves/moonblast.md)<br>3. [Earth Power](../pokedex/moves/earth-power.md)<br>4. [Moonlight](../pokedex/moves/moonlight.md) |
 | ![braviary](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/628.gif){ .sprite }<br>[Braviary](../pokedex/pokemon/braviary.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 50<br>**Ability:** [Sheer Force](../pokedex/abilities/sheer-force.md) | 1. [Superpower](../pokedex/moves/superpower.md)<br>2. [Crush Claw](../pokedex/moves/crush-claw.md)<br>3. [Dual Wingbeat](../pokedex/moves/dual-wingbeat.md)<br>4. [Quick Attack](../pokedex/moves/quick-attack.md) |
 
-
-**Battle Girl Glinda**
+**○ Battle Girl Glinda**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
 | ![conkeldurr](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/534.gif){ .sprite }<br>[Conkeldurr](../pokedex/pokemon/conkeldurr.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span></div> | **Level:** 51<br>**Ability:** [Guts](../pokedex/abilities/guts.md) | 1. [Rock Slide](../pokedex/moves/rock-slide.md)<br>2. [Ice Punch](../pokedex/moves/ice-punch.md)<br>3. [Drain Punch](../pokedex/moves/drain-punch.md)<br>4. [Mach Punch](../pokedex/moves/mach-punch.md) |
 | ![scrafty](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/560.gif){ .sprite }<br>[Scrafty](../pokedex/pokemon/scrafty.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> <span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span></div> | **Level:** 51<br>**Ability:** [Intimidate](../pokedex/abilities/intimidate.md) | 1. [Dragon Dance](../pokedex/moves/dragon-dance.md)<br>2. [Drain Punch](../pokedex/moves/drain-punch.md)<br>3. [Assurance](../pokedex/moves/assurance.md)<br>4. [Zen Headbutt](../pokedex/moves/zen-headbutt.md) |
 
-
-**Ace Trainer Junko**
+**○ Ace Trainer Junko**
 
 **Battle Type:** 3x
 
@@ -3380,8 +3127,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![beedrill](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/15.gif){ .sprite }<br>[Beedrill](../pokedex/pokemon/beedrill.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> <span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span></div> | **Level:** 51<br>**Ability:** [Adaptability](../pokedex/abilities/adaptability.md) | 1. [Cross Poison](../pokedex/moves/cross-poison.md)<br>2. [X Scissor](../pokedex/moves/x-scissor.md)<br>3. [Raging Fury](../pokedex/moves/raging-fury.md)<br>4. [Drill Peck](../pokedex/moves/drill-peck.md) |
 | ![dusclops](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/356.gif){ .sprite }<br>[Dusclops](../pokedex/pokemon/dusclops.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span></div> | **Level:** 51<br>**Ability:** [Pressure](../pokedex/abilities/pressure.md) | 1. [Shadow Punch](../pokedex/moves/shadow-punch.md)<br>2. [Feint Attack](../pokedex/moves/feint-attack.md)<br>3. [Shadow Sneak](../pokedex/moves/shadow-sneak.md)<br>4. [Leech Life](../pokedex/moves/leech-life.md) |
 
-
-**Black Belt Jay**
+**○ Black Belt Jay**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -3389,8 +3135,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![gigalith](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/526.gif){ .sprite }<br>[Gigalith](../pokedex/pokemon/gigalith.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span></div> | **Level:** 50<br>**Ability:** [Sturdy](../pokedex/abilities/sturdy.md) | 1. [Heavy Slam](../pokedex/moves/heavy-slam.md)<br>2. [Sandstorm](../pokedex/moves/sandstorm.md)<br>3. [Explosion](../pokedex/moves/explosion.md)<br>4. [Stone Edge](../pokedex/moves/stone-edge.md) |
 | ![machamp](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/68.gif){ .sprite }<br>[Machamp](../pokedex/pokemon/machamp.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span></div> | **Level:** 50<br>**Ability:** [Guts](../pokedex/abilities/guts.md) | 1. [Double Edge](../pokedex/moves/double-edge.md)<br>2. [Heavy Slam](../pokedex/moves/heavy-slam.md)<br>3. [Drain Punch](../pokedex/moves/drain-punch.md)<br>4. [Cross Chop](../pokedex/moves/cross-chop.md) |
 
-
-**Backpacker Reece**
+**○ Backpacker Reece**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -3398,8 +3143,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![pinsir](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/127.gif){ .sprite }<br>[Pinsir](../pokedex/pokemon/pinsir.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span></div> | **Level:** 50<br>**Ability:** [Mold Breaker](../pokedex/abilities/mold-breaker.md) | 1. [Storm Throw](../pokedex/moves/storm-throw.md)<br>2. [Close Combat](../pokedex/moves/close-combat.md)<br>3. [Lunge](../pokedex/moves/lunge.md)<br>4. [Swords Dance](../pokedex/moves/swords-dance.md) |
 | ![drapion](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/452.gif){ .sprite }<br>[Drapion](../pokedex/pokemon/drapion.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span> <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span></div> | **Level:** 50<br>**Ability:** [Battle Armor](../pokedex/abilities/battle-armor.md) | 1. [Poison Tail](../pokedex/moves/poison-tail.md)<br>2. [Crunch](../pokedex/moves/crunch.md)<br>3. [Storm Throw](../pokedex/moves/storm-throw.md)<br>4. [Night Slash](../pokedex/moves/night-slash.md) |
 
-
-**Ace Trainer Kipp**
+**○ Ace Trainer Kipp**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -3407,8 +3151,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![staraptor](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/398.gif){ .sprite }<br>[Staraptor](../pokedex/pokemon/staraptor.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 51<br>**Ability:** [Reckless](../pokedex/abilities/reckless.md) | 1. [Final Gambit](../pokedex/moves/final-gambit.md)<br>2. [Agility](../pokedex/moves/agility.md)<br>3. [Tailwind](../pokedex/moves/tailwind.md)<br>4. [Sky Attack](../pokedex/moves/sky-attack.md) |
 | ![tangrowth](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/465.gif){ .sprite }<br>[Tangrowth](../pokedex/pokemon/tangrowth.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span></div> | **Level:** 51<br>**Ability:** [Regenerator](../pokedex/abilities/regenerator.md) | 1. [Ingrain](../pokedex/moves/ingrain.md)<br>2. [Giga Drain](../pokedex/moves/giga-drain.md)<br>3. [Wring Out](../pokedex/moves/wring-out.md)<br>4. [Block](../pokedex/moves/block.md) |
 
-
-**Fisherman Sid**
+**○ Fisherman Sid**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -3418,13 +3161,12 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![seadra](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/117.gif){ .sprite }<br>[Seadra](../pokedex/pokemon/seadra.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span></div> | **Level:** 50<br>**Ability:** [Poison Point](../pokedex/abilities/poison-point.md) | 1. [Aurora Beam](../pokedex/moves/aurora-beam.md)<br>2. [Clear Smog](../pokedex/moves/clear-smog.md)<br>3. [Muddy Water](../pokedex/moves/muddy-water.md)<br>4. [Bounce](../pokedex/moves/bounce.md) |
 | ![feebas](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/349.gif){ .sprite }<br>[Feebas](../pokedex/pokemon/feebas.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span></div> | **Level:** 50<br>**Ability:** [Swift Swim](../pokedex/abilities/swift-swim.md) | 1. [Splash](../pokedex/moves/splash.md)<br>2. [Tackle](../pokedex/moves/tackle.md)<br>3. [Flail](../pokedex/moves/flail.md)<br>4. [Water Pulse](../pokedex/moves/water-pulse.md) |
 
-
 ### Abundant Shrine
 
  - Levels -4 on Easy mode, +4 on Challenge mode.
 
 
-**Youngster Wes**
+**○ Youngster Wes**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -3433,8 +3175,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![crobat](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/169.gif){ .sprite }<br>[Crobat](../pokedex/pokemon/crobat.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 51<br>**Ability:** [Inner Focus](../pokedex/abilities/inner-focus.md) | 1. [Zen Headbutt](../pokedex/moves/zen-headbutt.md)<br>2. [Brave Bird](../pokedex/moves/brave-bird.md)<br>3. [Hypnosis](../pokedex/moves/hypnosis.md)<br>4. [Leech Life](../pokedex/moves/leech-life.md) |
 | ![skuntank](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/435.gif){ .sprite }<br>[Skuntank](../pokedex/pokemon/skuntank.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span> <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span></div> | **Level:** 51<br>**Ability:** [Aftermath](../pokedex/abilities/aftermath.md) | 1. [Explosion](../pokedex/moves/explosion.md)<br>2. [Sucker Punch](../pokedex/moves/sucker-punch.md)<br>3. [Gunk Shot](../pokedex/moves/gunk-shot.md)<br>4. [Flamethrower](../pokedex/moves/flamethrower.md) |
 
-
-**Twins Rae and Ula**
+**○ Twins Rae and Ula**
 
 **Battle Type:** 2x
 
@@ -3445,8 +3186,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![emboar](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/500.gif){ .sprite }<br>[Emboar](../pokedex/pokemon/emboar.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F08030 0%, #F08030dd 100%);">Fire</span> <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span></div> | **Level:** 51<br>**Ability:** [Mold Breaker](../pokedex/abilities/mold-breaker.md) | 1. [Heat Crash](../pokedex/moves/heat-crash.md)<br>2. [Zen Headbutt](../pokedex/moves/zen-headbutt.md)<br>3. [High Horsepower](../pokedex/moves/high-horsepower.md)<br>4. [Sucker Punch](../pokedex/moves/sucker-punch.md) |
 | ![typhlosion](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/157.gif){ .sprite }<br>[Typhlosion](../pokedex/pokemon/typhlosion.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F08030 0%, #F08030dd 100%);">Fire</span></div> | **Level:** 51<br>**Ability:** [Flash Fire](../pokedex/abilities/flash-fire.md) | 1. [Scorching Sands](../pokedex/moves/scorching-sands.md)<br>2. [Lava Plume](../pokedex/moves/lava-plume.md)<br>3. [Extrasensory](../pokedex/moves/extrasensory.md) |
 
-
-**Lass Lurleen**
+**○ Lass Lurleen**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -3455,8 +3195,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![mismagius](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/429.gif){ .sprite }<br>[Mismagius](../pokedex/pokemon/mismagius.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> <span class="type-badge" style="background: linear-gradient(135deg, #EE99AC 0%, #EE99ACdd 100%);">Fairy</span></div> | **Level:** 51<br>**Ability:** [Infiltrator](../pokedex/abilities/infiltrator.md) | 1. [Draining Kiss](../pokedex/moves/draining-kiss.md)<br>2. [Hex](../pokedex/moves/hex.md)<br>3. [Nasty Plot](../pokedex/moves/nasty-plot.md)<br>4. [Hypnosis](../pokedex/moves/hypnosis.md) |
 | ![vanilluxe](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/584.gif){ .sprite }<br>[Vanilluxe](../pokedex/pokemon/vanilluxe.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #98D8D8 0%, #98D8D8dd 100%);">Ice</span> <span class="type-badge" style="background: linear-gradient(135deg, #EE99AC 0%, #EE99ACdd 100%);">Fairy</span></div> | **Level:** 51<br>**Ability:** [Snow Warning](../pokedex/abilities/snow-warning.md) | 1. [Dazzling Gleam](../pokedex/moves/dazzling-gleam.md)<br>2. [Power Gem](../pokedex/moves/power-gem.md)<br>3. [Frost Breath](../pokedex/moves/frost-breath.md)<br>4. [Autotomize](../pokedex/moves/autotomize.md) |
 
-
-**Youngster Jaye**
+**○ Youngster Jaye**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -3465,13 +3204,12 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![scolipede](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/545.gif){ .sprite }<br>[Scolipede](../pokedex/pokemon/scolipede.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> <span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span></div> | **Level:** 51<br>**Ability:** [Poison Point](../pokedex/abilities/poison-point.md) | 1. [Poison Tail](../pokedex/moves/poison-tail.md)<br>2. [Steamroller](../pokedex/moves/steamroller.md)<br>3. [Swords Dance](../pokedex/moves/swords-dance.md)<br>4. [Protect](../pokedex/moves/protect.md) |
 | ![accelgor](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/617.gif){ .sprite }<br>[Accelgor](../pokedex/pokemon/accelgor.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span></div> | **Level:** 51<br>**Ability:** [Unburden](../pokedex/abilities/unburden.md) | 1. [Leech Life](../pokedex/moves/leech-life.md)<br>2. [Extreme Speed](../pokedex/moves/extreme-speed.md)<br>3. [Energy Ball](../pokedex/moves/energy-ball.md)<br>4. [Acrobatics](../pokedex/moves/acrobatics.md) |
 
-
 ### Route 13
 
  - Levels -4 on Easy mode, +4 on Challenge mode.
 
 
-**Black Belt Wesley**
+**● Black Belt Wesley**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -3480,16 +3218,14 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![hitmonlee](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/106.gif){ .sprite }<br>[Hitmonlee](../pokedex/pokemon/hitmonlee.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span></div> | **Level:** 51<br>**Ability:** [Reckless](../pokedex/abilities/reckless.md) | 1. [Jump Kick](../pokedex/moves/jump-kick.md)<br>2. [Sucker Punch](../pokedex/moves/sucker-punch.md)<br>3. [Lunge](../pokedex/moves/lunge.md)<br>4. [Blaze Kick](../pokedex/moves/blaze-kick.md) |
 | ![hitmonchan](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/107.gif){ .sprite }<br>[Hitmonchan](../pokedex/pokemon/hitmonchan.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span></div> | **Level:** 51<br>**Ability:** [Iron Fist](../pokedex/abilities/iron-fist.md) | 1. [Bullet Punch](../pokedex/moves/bullet-punch.md)<br>2. [Drain Punch](../pokedex/moves/drain-punch.md)<br>3. [Fake Out](../pokedex/moves/fake-out.md)<br>4. [Thunder Punch](../pokedex/moves/thunder-punch.md) |
 
-
-**Battle Girl Alize**
+**● Battle Girl Alize**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
 | ![farfetchd](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/83.gif){ .sprite }<br>[Farfetchˈd](../pokedex/pokemon/farfetchd.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 51<br>**Ability:** [Defeatist](../pokedex/abilities/defeatist.md) | 1. [Acrobatics](../pokedex/moves/acrobatics.md)<br>2. [Close Combat](../pokedex/moves/close-combat.md)<br>3. [Leaf Blade](../pokedex/moves/leaf-blade.md)<br>4. [Night Slash](../pokedex/moves/night-slash.md) |
 | ![scrafty](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/560.gif){ .sprite }<br>[Scrafty](../pokedex/pokemon/scrafty.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> <span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span></div> | **Level:** 51<br>**Ability:** [Moxie](../pokedex/abilities/moxie.md) | 1. [Drain Punch](../pokedex/moves/drain-punch.md)<br>2. [Dragon Dance](../pokedex/moves/dragon-dance.md)<br>3. [Zen Headbutt](../pokedex/moves/zen-headbutt.md)<br>4. [Crunch](../pokedex/moves/crunch.md) |
 
-
-**Ace Trainer Miguel**
+**● Ace Trainer Miguel**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -3498,8 +3234,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![jolteon](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/135.gif){ .sprite }<br>[Jolteon](../pokedex/pokemon/jolteon.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F8D030 0%, #F8D030dd 100%);">Electric</span></div> | **Level:** 51<br>**Ability:** [Volt Absorb](../pokedex/abilities/volt-absorb.md) | 1. [Extrasensory](../pokedex/moves/extrasensory.md)<br>2. [Grass Knot](../pokedex/moves/grass-knot.md)<br>3. [Discharge](../pokedex/moves/discharge.md)<br>4. [Hyper Voice](../pokedex/moves/hyper-voice.md) |
 | ![blissey](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/242.gif){ .sprite }<br>[Blissey](../pokedex/pokemon/blissey.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span></div> | **Level:** 51<br>**Ability:** [Serene Grace](../pokedex/abilities/serene-grace.md) | 1. [Seismic Toss](../pokedex/moves/seismic-toss.md)<br>2. [Counter](../pokedex/moves/counter.md)<br>3. [Soft Boiled](../pokedex/moves/soft-boiled.md)<br>4. [Thunder Wave](../pokedex/moves/thunder-wave.md) |
 
-
-**Fisherman Leroy**
+**○ Fisherman Leroy**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -3510,8 +3245,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![corphish](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/341.gif){ .sprite }<br>[Corphish](../pokedex/pokemon/corphish.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span></div> | **Level:** 52<br>**Ability:** [Adaptability](../pokedex/abilities/adaptability.md) | 1. [Body Slam](../pokedex/moves/body-slam.md)<br>2. [Aqua Jet](../pokedex/moves/aqua-jet.md)<br>3. [Crunch](../pokedex/moves/crunch.md)<br>4. [Dragon Dance](../pokedex/moves/dragon-dance.md) |
 | ![krabby](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/98.gif){ .sprite }<br>[Krabby](../pokedex/pokemon/krabby.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span></div> | **Level:** 52<br>**Ability:** [Sheer Force](../pokedex/abilities/sheer-force.md) | 1. [Hammer Arm](../pokedex/moves/hammer-arm.md)<br>2. [Crabhammer](../pokedex/moves/crabhammer.md)<br>3. [Amnesia](../pokedex/moves/amnesia.md)<br>4. [High Horsepower](../pokedex/moves/high-horsepower.md) |
 
-
-**Fisherman Vince**
+**○ Fisherman Vince**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -3519,8 +3253,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![blastoise](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/9.gif){ .sprite }<br>[Blastoise](../pokedex/pokemon/blastoise.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span></div> | **Level:** 51<br>**Ability:** [Torrent](../pokedex/abilities/torrent.md) | 1. [Muddy Water](../pokedex/moves/muddy-water.md)<br>2. [Seismic Toss](../pokedex/moves/seismic-toss.md)<br>3. [Fake Out](../pokedex/moves/fake-out.md)<br>4. [Zen Headbutt](../pokedex/moves/zen-headbutt.md) |
 | ![jellicent](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/593.gif){ .sprite }<br>[Jellicent](../pokedex/pokemon/jellicent.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span></div> | **Level:** 51<br>**Ability:** [Cursed Body](../pokedex/abilities/cursed-body.md) | 1. [Hex](../pokedex/moves/hex.md)<br>2. [Giga Drain](../pokedex/moves/giga-drain.md)<br>3. [Will O Wisp](../pokedex/moves/will-o-wisp.md)<br>4. [Brine](../pokedex/moves/brine.md) |
 
-
-**Parasol Lady Laura**
+**○ Parasol Lady Laura**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -3530,15 +3263,13 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![venusaur](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/3.gif){ .sprite }<br>[Venusaur](../pokedex/pokemon/venusaur.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span> <span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span></div> | **Level:** 51<br>**Ability:** [Solar Power](../pokedex/abilities/solar-power.md) | 1. [Giga Drain](../pokedex/moves/giga-drain.md)<br>2. [Growth](../pokedex/moves/growth.md)<br>3. [Sludge Bomb](../pokedex/moves/sludge-bomb.md)<br>4. [Earthquake](../pokedex/moves/earthquake.md) |
 | ![armaldo](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/348.gif){ .sprite }<br>[Armaldo](../pokedex/pokemon/armaldo.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span> <span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span></div> | **Level:** 51<br>**Ability:** [Swift Swim](../pokedex/abilities/swift-swim.md) | 1. [Rain Dance](../pokedex/moves/rain-dance.md)<br>2. [Rock Tomb](../pokedex/moves/rock-tomb.md)<br>3. [X Scissor](../pokedex/moves/x-scissor.md)<br>4. [Cross Poison](../pokedex/moves/cross-poison.md) |
 
-
-**Fisherman Damon**
+**○ Fisherman Damon**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
 | ![phione](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/489.gif){ .sprite }<br>[Phione](../pokedex/pokemon/phione.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span></div> | **Level:** 53<br>**Ability:** [Hydration](../pokedex/abilities/hydration.md) | 1. [Rain Dance](../pokedex/moves/rain-dance.md)<br>2. [Hydro Pump](../pokedex/moves/hydro-pump.md)<br>3. [Moonblast](../pokedex/moves/moonblast.md)<br>4. [Signal Beam](../pokedex/moves/signal-beam.md) |
 
-
-**Fisherman Jones**
+**○ Fisherman Jones**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -3546,8 +3277,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![starmie](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/121.gif){ .sprite }<br>[Starmie](../pokedex/pokemon/starmie.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> <span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span></div> | **Level:** 52<br>**Ability:** [Natural Cure](../pokedex/abilities/natural-cure.md) | 1. [Bubble Beam](../pokedex/moves/bubble-beam.md)<br>2. [Psychic](../pokedex/moves/psychic.md)<br>3. [Zap Cannon](../pokedex/moves/zap-cannon.md)<br>4. [Agility](../pokedex/moves/agility.md) |
 | ![empoleon](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/395.gif){ .sprite }<br>[Empoleon](../pokedex/pokemon/empoleon.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> <span class="type-badge" style="background: linear-gradient(135deg, #B8B8D0 0%, #B8B8D0dd 100%);">Steel</span></div> | **Level:** 52<br>**Ability:** [Defiant](../pokedex/abilities/defiant.md) | 1. [Steel Wing](../pokedex/moves/steel-wing.md)<br>2. [Dual Wingbeat](../pokedex/moves/dual-wingbeat.md)<br>3. [Megahorn](../pokedex/moves/megahorn.md)<br>4. [Aqua Jet](../pokedex/moves/aqua-jet.md) |
 
-
-**Ranger♀ Dianne**
+**● Ranger♀ Dianne**
 
 **Reward:** ![Sitrus Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/sitrus-berry.png){ .item-sprite } [Sitrus Berry](../pokedex/items/sitrus-berry.md)
 
@@ -3561,8 +3291,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![bellossom](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/182.gif){ .sprite }<br>[Bellossom](../pokedex/pokemon/bellossom.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span></div> | **Level:** 53<br>**Ability:** [Chlorophyll](../pokedex/abilities/chlorophyll.md) | 1. [Moonblast](../pokedex/moves/moonblast.md)<br>2. [Sleep Powder](../pokedex/moves/sleep-powder.md)<br>3. [Fiery Dance](../pokedex/moves/fiery-dance.md)<br>4. [Giga Drain](../pokedex/moves/giga-drain.md) |
 | ![sawsbuck](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/586.gif){ .sprite }<br>[Sawsbuck](../pokedex/pokemon/sawsbuck.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> <span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span></div> | **Level:** 53<br>**Ability:** [Chlorophyll](../pokedex/abilities/chlorophyll.md) | 1. [Megahorn](../pokedex/moves/megahorn.md)<br>2. [High Horsepower](../pokedex/moves/high-horsepower.md)<br>3. [Horn Leech](../pokedex/moves/horn-leech.md)<br>4. [Double Edge](../pokedex/moves/double-edge.md) |
 
-
-**Ranger♂ Daryl**
+**○ Ranger♂ Daryl**
 
 **Reward:** ![Sitrus Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/sitrus-berry.png){ .item-sprite } [Sitrus Berry](../pokedex/items/sitrus-berry.md)
 
@@ -3576,8 +3305,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![simipour](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/516.gif){ .sprite }<br>[Simipour](../pokedex/pokemon/simipour.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span></div> | **Level:** 53<br>**Ability:** [Torrent](../pokedex/abilities/torrent.md) | 1. [Acrobatics](../pokedex/moves/acrobatics.md)<br>2. [Glare](../pokedex/moves/glare.md)<br>3. [Water Pledge](../pokedex/moves/water-pledge.md)<br>4. [Future Sight](../pokedex/moves/future-sight.md) |
 | ![larvesta](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/636.gif){ .sprite }<br>[Larvesta](../pokedex/pokemon/larvesta.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> <span class="type-badge" style="background: linear-gradient(135deg, #F08030 0%, #F08030dd 100%);">Fire</span></div> | **Level:** 53<br>**Ability:** [Flame Body](../pokedex/abilities/flame-body.md) | 1. [Leech Life](../pokedex/moves/leech-life.md)<br>2. [Zen Headbutt](../pokedex/moves/zen-headbutt.md)<br>3. [Raging Fury](../pokedex/moves/raging-fury.md)<br>4. [Flame Charge](../pokedex/moves/flame-charge.md) |
 
-
-**Ace Trainer Angi**
+**○ Ace Trainer Angi**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -3586,13 +3314,12 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![raticate](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/20.gif){ .sprite }<br>[Raticate](../pokedex/pokemon/raticate.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span></div> | **Level:** 52<br>**Ability:** [Guts](../pokedex/abilities/guts.md) | 1. [Sucker Punch](../pokedex/moves/sucker-punch.md)<br>2. [Reversal](../pokedex/moves/reversal.md)<br>3. [Double Edge](../pokedex/moves/double-edge.md)<br>4. [Scary Face](../pokedex/moves/scary-face.md) |
 | ![vespiquen](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/416.gif){ .sprite }<br>[Vespiquen](../pokedex/pokemon/vespiquen.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 52<br>**Ability:** [Intimidate](../pokedex/abilities/intimidate.md) | 1. [Air Slash](../pokedex/moves/air-slash.md)<br>2. [Ominous Wind](../pokedex/moves/ominous-wind.md)<br>3. [Attack Order](../pokedex/moves/attack-order.md)<br>4. [Cross Poison](../pokedex/moves/cross-poison.md) |
 
-
 ### Lacunosa Town
 
  - Levels -4 on Easy mode, +4 on Challenge mode.
 
 
-**ZINZOLIN - (2x)**
+**●♕ ZINZOLIN - (2x)**
 
 **Battle Type:** and Plasma Grunt #705
 
@@ -3609,7 +3336,6 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 |:-------:|:-------:|:-----------|:------|
 | ![swalot](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/317.gif){ .sprite }<br>[Swalot](../pokedex/pokemon/swalot.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span></div> | **Level:** 54<br>**Ability:** [Liquid Ooze](../pokedex/abilities/liquid-ooze.md) | 1. [Acid Spray](../pokedex/moves/acid-spray.md)<br>2. [Toxic](../pokedex/moves/toxic.md)<br>3. [Stockpile](../pokedex/moves/stockpile.md)<br>4. [Destiny Bond](../pokedex/moves/destiny-bond.md) |
 | ![delibird](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/225.gif){ .sprite }<br>[Delibird](../pokedex/pokemon/delibird.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #98D8D8 0%, #98D8D8dd 100%);">Ice</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 54<br>**Ability:** [Technician](../pokedex/abilities/technician.md) | 1. [Icy Wind](../pokedex/moves/icy-wind.md)<br>2. [Frost Breath](../pokedex/moves/frost-breath.md)<br>3. [Acrobatics](../pokedex/moves/acrobatics.md)<br>4. [Tailwind](../pokedex/moves/tailwind.md) |
-
 
 === "Partner Hugh"
 
@@ -3637,13 +3363,12 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 		| ![eelektross](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/604.gif){ .sprite }<br>[Eelektross](../pokedex/pokemon/eelektross.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F8D030 0%, #F8D030dd 100%);">Electric</span></div> | **Level:** 51<br>**Ability:** [Levitate](../pokedex/abilities/levitate.md) | 1. [Wild Charge](../pokedex/moves/wild-charge.md)<br>2. [Aqua Tail](../pokedex/moves/aqua-tail.md)<br>3. [Drain Punch](../pokedex/moves/drain-punch.md)<br>4. [Giga Drain](../pokedex/moves/giga-drain.md) |
 		| ![flygon](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/330.gif){ .sprite }<br>[Flygon](../pokedex/pokemon/flygon.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> <span class="type-badge" style="background: linear-gradient(135deg, #7038F8 0%, #7038F8dd 100%);">Dragon</span></div> | **Level:** 51<br>**Ability:** [Levitate](../pokedex/abilities/levitate.md) | 1. [Earth Power](../pokedex/moves/earth-power.md)<br>2. [Dragon Pulse](../pokedex/moves/dragon-pulse.md)<br>3. [Bug Buzz](../pokedex/moves/bug-buzz.md)<br>4. [Rock Slide](../pokedex/moves/rock-slide.md) |
 
-
 ### Route 12
 
  - No level shift based on difficulty, levels are as stated.
 
 
-**Battle Girl Azra**
+**○ Battle Girl Azra**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -3652,8 +3377,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![pidgeot](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/18.gif){ .sprite }<br>[Pidgeot](../pokedex/pokemon/pidgeot.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 53<br>**Ability:** [No Guard](../pokedex/abilities/no-guard.md) | 1. [Hyper Voice](../pokedex/moves/hyper-voice.md)<br>2. [Detect](../pokedex/moves/detect.md)<br>3. [Air Slash](../pokedex/moves/air-slash.md)<br>4. [Steel Wing](../pokedex/moves/steel-wing.md) |
 | ![vileplume](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/45.gif){ .sprite }<br>[Vileplume](../pokedex/pokemon/vileplume.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span> <span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span></div> | **Level:** 53<br>**Ability:** [Thick Fat](../pokedex/abilities/thick-fat.md) | 1. [Moonblast](../pokedex/moves/moonblast.md)<br>2. [Petal Dance](../pokedex/moves/petal-dance.md)<br>3. [Stun Spore](../pokedex/moves/stun-spore.md)<br>4. [Sleep Powder](../pokedex/moves/sleep-powder.md) |
 
-
-**Black Belt Jeriel**
+**○ Black Belt Jeriel**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -3662,8 +3386,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![heracross](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/214.gif){ .sprite }<br>[Heracross](../pokedex/pokemon/heracross.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> <span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span></div> | **Level:** 53<br>**Ability:** [Moxie](../pokedex/abilities/moxie.md) | 1. [Take Down](../pokedex/moves/take-down.md)<br>2. [Fury Cutter](../pokedex/moves/fury-cutter.md)<br>3. [Close Combat](../pokedex/moves/close-combat.md)<br>4. [Megahorn](../pokedex/moves/megahorn.md) |
 | ![medicham](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/308.gif){ .sprite }<br>[Medicham](../pokedex/pokemon/medicham.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span> <span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span></div> | **Level:** 53<br>**Ability:** [Pure Power](../pokedex/abilities/pure-power.md) | 1. [Reversal](../pokedex/moves/reversal.md)<br>2. [Psycho Cut](../pokedex/moves/psycho-cut.md)<br>3. [Drain Punch](../pokedex/moves/drain-punch.md)<br>4. [Acupressure](../pokedex/moves/acupressure.md) |
 
-
-**Backers Cleo and Rio**
+**○ Backers Cleo and Rio**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -3672,8 +3395,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![sandslash](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/28.gif){ .sprite }<br>[Sandslash](../pokedex/pokemon/sandslash.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span></div> | **Level:** 53<br>**Ability:** [Rough Skin](../pokedex/abilities/rough-skin.md) | 1. [Pin Missile](../pokedex/moves/pin-missile.md)<br>2. [Drill Run](../pokedex/moves/drill-run.md)<br>3. [Crush Claw](../pokedex/moves/crush-claw.md)<br>4. [Rapid Spin](../pokedex/moves/rapid-spin.md) |
 | ![cloyster](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/91.gif){ .sprite }<br>[Cloyster](../pokedex/pokemon/cloyster.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> <span class="type-badge" style="background: linear-gradient(135deg, #98D8D8 0%, #98D8D8dd 100%);">Ice</span></div> | **Level:** 53<br>**Ability:** [Skill Link](../pokedex/abilities/skill-link.md) | 1. [Protect](../pokedex/moves/protect.md)<br>2. [Aurora Beam](../pokedex/moves/aurora-beam.md)<br>3. [Spikes](../pokedex/moves/spikes.md)<br>4. [Smart Strike](../pokedex/moves/smart-strike.md) |
 
-
-**BENGA**
+**●♕ BENGA**
 
 **Mode:** Easy and Normal mode
 
@@ -3684,8 +3406,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![emboar](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/500.gif){ .sprite }<br>[Emboar](../pokedex/pokemon/emboar.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F08030 0%, #F08030dd 100%);">Fire</span> <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span></div> | **Level:** 55<br>**Ability:** [Mold Breaker](../pokedex/abilities/mold-breaker.md)<br>**Item:** ![Passho Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/passho-berry.png){ .item-sprite } [Passho Berry](../pokedex/items/passho-berry.md) | 1. [Flame Charge](../pokedex/moves/flame-charge.md)<br>2. [Earthquake](../pokedex/moves/earthquake.md)<br>3. [Sucker Punch](../pokedex/moves/sucker-punch.md)<br>4. [Wild Charge](../pokedex/moves/wild-charge.md) |
 | ![conkeldurr](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/534.gif){ .sprite }<br>[Conkeldurr](../pokedex/pokemon/conkeldurr.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span></div> | **Level:** 56<br>**Ability:** [Guts](../pokedex/abilities/guts.md)<br>**Item:** ![Flame Orb](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/flame-orb.png){ .item-sprite } [Flame Orb](../pokedex/items/flame-orb.md) | 1. [Focus Punch](../pokedex/moves/focus-punch.md)<br>2. [Substitute](../pokedex/moves/substitute.md)<br>3. [Mach Punch](../pokedex/moves/mach-punch.md)<br>4. [Payback](../pokedex/moves/payback.md) |
 
-
-**BENGA**
+**●♕ BENGA**
 
 **Mode:** Challenge mode
 
@@ -3698,13 +3419,12 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![conkeldurr](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/534.gif){ .sprite }<br>[Conkeldurr](../pokedex/pokemon/conkeldurr.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span></div> | **Level:** 61<br>**Ability:** [Guts](../pokedex/abilities/guts.md)<br>**Item:** ![Flame Orb](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/flame-orb.png){ .item-sprite } [Flame Orb](../pokedex/items/flame-orb.md) | 1. [Drain Punch](../pokedex/moves/drain-punch.md)<br>2. [Mach Punch](../pokedex/moves/mach-punch.md)<br>3. [Knock Off](../pokedex/moves/knock-off.md)<br>4. [Facade](../pokedex/moves/facade.md) |
 | ![volcarona](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/637.gif){ .sprite }<br>[Volcarona](../pokedex/pokemon/volcarona.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> <span class="type-badge" style="background: linear-gradient(135deg, #F08030 0%, #F08030dd 100%);">Fire</span></div> | **Level:** 62<br>**Ability:** [Flame Body](../pokedex/abilities/flame-body.md)<br>**Item:** ![Lum Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/lum-berry.png){ .item-sprite } [Lum Berry](../pokedex/items/lum-berry.md) | 1. [Quiver Dance](../pokedex/moves/quiver-dance.md)<br>2. [Fiery Dance](../pokedex/moves/fiery-dance.md)<br>3. [Bug Buzz](../pokedex/moves/bug-buzz.md)<br>4. [Giga Drain](../pokedex/moves/giga-drain.md) |
 
-
 ### Village Bridge
 
  - Levels -4 on Easy mode, +4 on Challenge mode.
 
 
-**Smasher Lizzy**
+**○ Smasher Lizzy**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -3712,8 +3432,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![togekiss](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/468.gif){ .sprite }<br>[Togekiss](../pokedex/pokemon/togekiss.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 54<br>**Ability:** [Super Luck](../pokedex/abilities/super-luck.md) | 1. [Ominous Wind](../pokedex/moves/ominous-wind.md)<br>2. [Twister](../pokedex/moves/twister.md)<br>3. [Hurricane](../pokedex/moves/hurricane.md)<br>4. [Moonblast](../pokedex/moves/moonblast.md) |
 | ![mr-mime](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/122.gif){ .sprite }<br>[Mr. Mime](../pokedex/pokemon/mr-mime.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span> <span class="type-badge" style="background: linear-gradient(135deg, #EE99AC 0%, #EE99ACdd 100%);">Fairy</span></div> | **Level:** 54<br>**Ability:** [Filter](../pokedex/abilities/filter.md) | 1. [Nasty Plot](../pokedex/moves/nasty-plot.md)<br>2. [Magical Leaf](../pokedex/moves/magical-leaf.md)<br>3. [Psychic](../pokedex/moves/psychic.md)<br>4. [Dazzling Gleam](../pokedex/moves/dazzling-gleam.md) |
 
-
-**Smasher Amy**
+**○ Smasher Amy**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -3721,8 +3440,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![swellow](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/277.gif){ .sprite }<br>[Swellow](../pokedex/pokemon/swellow.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 54<br>**Ability:** [Guts](../pokedex/abilities/guts.md) | 1. [Superpower](../pokedex/moves/superpower.md)<br>2. [Reversal](../pokedex/moves/reversal.md)<br>3. [Endeavor](../pokedex/moves/endeavor.md)<br>4. [Double Edge](../pokedex/moves/double-edge.md) |
 | ![azumarill](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/184.gif){ .sprite }<br>[Azumarill](../pokedex/pokemon/azumarill.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span></div> | **Level:** 54<br>**Ability:** [Huge Power](../pokedex/abilities/huge-power.md) | 1. [Aqua Tail](../pokedex/moves/aqua-tail.md)<br>2. [Superpower](../pokedex/moves/superpower.md)<br>3. [Bounce](../pokedex/moves/bounce.md)<br>4. [Belly Drum](../pokedex/moves/belly-drum.md) |
 
-
-**Youngster Karl**
+**●\* Youngster Karl**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -3731,8 +3449,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![butterfree](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/12.gif){ .sprite }<br>[Butterfree](../pokedex/pokemon/butterfree.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 54<br>**Ability:** [Compound Eyes](../pokedex/abilities/compound-eyes.md) | 1. [Hurricane](../pokedex/moves/hurricane.md)<br>2. [Sleep Powder](../pokedex/moves/sleep-powder.md)<br>3. [Psychic](../pokedex/moves/psychic.md)<br>4. [Bug Buzz](../pokedex/moves/bug-buzz.md) |
 | ![pinsir](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/127.gif){ .sprite }<br>[Pinsir](../pokedex/pokemon/pinsir.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span></div> | **Level:** 54<br>**Ability:** [Moxie](../pokedex/abilities/moxie.md) | 1. [Swords Dance](../pokedex/moves/swords-dance.md)<br>2. [Lunge](../pokedex/moves/lunge.md)<br>3. [Megahorn](../pokedex/moves/megahorn.md)<br>4. [Close Combat](../pokedex/moves/close-combat.md) |
 
-
-**Gentleman Stonewall**
+**●\* Gentleman Stonewall**
 
 **Battle Type:** 2x
 
@@ -3745,10 +3462,9 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![gengar](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/94.gif){ .sprite }<br>[Gengar](../pokedex/pokemon/gengar.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> <span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span></div> | **Level:** 56<br>**Ability:** [Levitate](../pokedex/abilities/levitate.md)<br>**Item:** ![Life Orb](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/life-orb.png){ .item-sprite } [Life Orb](../pokedex/items/life-orb.md) | 1. [Sludge Bomb](../pokedex/moves/sludge-bomb.md)<br>2. [Substitute](../pokedex/moves/substitute.md)<br>3. [Thunderbolt](../pokedex/moves/thunderbolt.md)<br>4. [Shadow Ball](../pokedex/moves/shadow-ball.md) |
 | ![breloom](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/286.gif){ .sprite }<br>[Breloom](../pokedex/pokemon/breloom.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span> <span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span></div> | **Level:** 56<br>**Ability:** [Technician](../pokedex/abilities/technician.md)<br>**Item:** ![Expert Belt](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/expert-belt.png){ .item-sprite } [Expert Belt](../pokedex/items/expert-belt.md) | 1. [Rock Tomb](../pokedex/moves/rock-tomb.md)<br>2. [Protect](../pokedex/moves/protect.md)<br>3. [Force Palm](../pokedex/moves/force-palm.md)<br>4. [Bullet Seed](../pokedex/moves/bullet-seed.md) |
 
-
 \* (player can choose which one to fight in order to advance)
 
-**Fisherman Dean**
+**○ Fisherman Dean**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -3756,8 +3472,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![croconaw](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/159.gif){ .sprite }<br>[Croconaw](../pokedex/pokemon/croconaw.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span></div> | **Level:** 54<br>**Ability:** [Sheer Force](../pokedex/abilities/sheer-force.md) | 1. [Hydro Pump](../pokedex/moves/hydro-pump.md)<br>2. [Crunch](../pokedex/moves/crunch.md)<br>3. [Fake Tears](../pokedex/moves/fake-tears.md)<br>4. [Dragon Rush](../pokedex/moves/dragon-rush.md) |
 | ![feraligatr](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/160.gif){ .sprite }<br>[Feraligatr](../pokedex/pokemon/feraligatr.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span></div> | **Level:** 54<br>**Ability:** [Sheer Force](../pokedex/abilities/sheer-force.md) | 1. [Waterfall](../pokedex/moves/waterfall.md)<br>2. [Crunch](../pokedex/moves/crunch.md)<br>3. [Dragon Dance](../pokedex/moves/dragon-dance.md)<br>4. [Raging Fury](../pokedex/moves/raging-fury.md) |
 
-
-**Artist Gough**
+**○ Artist Gough**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -3766,8 +3481,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![simipour](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/516.gif){ .sprite }<br>[Simipour](../pokedex/pokemon/simipour.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span></div> | **Level:** 54<br>**Ability:** [Torrent](../pokedex/abilities/torrent.md) | 1. [Hydro Pump](../pokedex/moves/hydro-pump.md)<br>2. [Acrobatics](../pokedex/moves/acrobatics.md)<br>3. [Shadow Claw](../pokedex/moves/shadow-claw.md)<br>4. [Icy Wind](../pokedex/moves/icy-wind.md) |
 | ![simisage](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/512.gif){ .sprite }<br>[Simisage](../pokedex/pokemon/simisage.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span></div> | **Level:** 54<br>**Ability:** [Gluttony](../pokedex/abilities/gluttony.md) | 1. [Leaf Storm](../pokedex/moves/leaf-storm.md)<br>2. [Acrobatics](../pokedex/moves/acrobatics.md)<br>3. [Knock Off](../pokedex/moves/knock-off.md)<br>4. [Iron Tail](../pokedex/moves/iron-tail.md) |
 
-
-**Hoopster Nicolas**
+**○ Hoopster Nicolas**
 
 **Battle Type:** 3x
 
@@ -3777,8 +3491,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![magmortar](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/467.gif){ .sprite }<br>[Magmortar](../pokedex/pokemon/magmortar.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F08030 0%, #F08030dd 100%);">Fire</span></div> | **Level:** 55<br>**Ability:** [Flame Body](../pokedex/abilities/flame-body.md) | 1. [Sludge Bomb](../pokedex/moves/sludge-bomb.md)<br>2. [Fire Blast](../pokedex/moves/fire-blast.md)<br>3. [Scorching Sands](../pokedex/moves/scorching-sands.md)<br>4. [Mach Punch](../pokedex/moves/mach-punch.md) |
 | ![electabuzz](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/125.gif){ .sprite }<br>[Electabuzz](../pokedex/pokemon/electabuzz.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F8D030 0%, #F8D030dd 100%);">Electric</span></div> | **Level:** 54<br>**Ability:** [Static](../pokedex/abilities/static.md) | 1. [Psychic](../pokedex/moves/psychic.md)<br>2. [Follow Me](../pokedex/moves/follow-me.md)<br>3. [Thunder Wave](../pokedex/moves/thunder-wave.md)<br>4. [Wild Charge](../pokedex/moves/wild-charge.md) |
 
-
-**Hoopster Derrick**
+**○ Hoopster Derrick**
 
 **Battle Type:** 3x
 
@@ -3788,8 +3501,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![electivire](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/466.gif){ .sprite }<br>[Electivire](../pokedex/pokemon/electivire.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F8D030 0%, #F8D030dd 100%);">Electric</span> <span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span></div> | **Level:** 55<br>**Ability:** [Vital Spirit](../pokedex/abilities/vital-spirit.md) | 1. [Psychic](../pokedex/moves/psychic.md)<br>2. [Cross Chop](../pokedex/moves/cross-chop.md)<br>3. [Dual Chop](../pokedex/moves/dual-chop.md)<br>4. [Wild Charge](../pokedex/moves/wild-charge.md) |
 | ![magmar](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/126.gif){ .sprite }<br>[Magmar](../pokedex/pokemon/magmar.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F08030 0%, #F08030dd 100%);">Fire</span></div> | **Level:** 54<br>**Ability:** [Flame Body](../pokedex/abilities/flame-body.md) | 1. [Will O Wisp](../pokedex/moves/will-o-wisp.md)<br>2. [Scorching Sands](../pokedex/moves/scorching-sands.md)<br>3. [Follow Me](../pokedex/moves/follow-me.md)<br>4. [Fire Punch](../pokedex/moves/fire-punch.md) |
 
-
-**Baker Chris**
+**○ Baker Chris**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -3797,13 +3509,12 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![chansey](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/113.gif){ .sprite }<br>[Chansey](../pokedex/pokemon/chansey.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span></div> | **Level:** 54<br>**Ability:** [Natural Cure](../pokedex/abilities/natural-cure.md)<br>**Item:** ![Sitrus Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/sitrus-berry.png){ .item-sprite } [Sitrus Berry](../pokedex/items/sitrus-berry.md) | 1. [Double Edge](../pokedex/moves/double-edge.md)<br>2. [Aromatherapy](../pokedex/moves/aromatherapy.md)<br>3. [Counter](../pokedex/moves/counter.md)<br>4. [Healing Wish](../pokedex/moves/healing-wish.md) |
 | ![cherrim](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/421.gif){ .sprite }<br>[Cherrim](../pokedex/pokemon/cherrim.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span></div> | **Level:** 54<br>**Ability:** [Flower Gift](../pokedex/abilities/flower-gift.md)<br>**Item:** ![Sitrus Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/sitrus-berry.png){ .item-sprite } [Sitrus Berry](../pokedex/items/sitrus-berry.md) | 1. [Energy Ball](../pokedex/moves/energy-ball.md)<br>2. [Grass Whistle](../pokedex/moves/grass-whistle.md)<br>3. [Draining Kiss](../pokedex/moves/draining-kiss.md)<br>4. [Aromatherapy](../pokedex/moves/aromatherapy.md) |
 
-
 ### Route 11
 
  - Levels -4 on Easy mode, +4 on Challenge mode.
 
 
-**Breeder Magnolia**
+**○ Breeder Magnolia**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -3811,8 +3522,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![noctowl](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/164.gif){ .sprite }<br>[Noctowl](../pokedex/pokemon/noctowl.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 55<br>**Ability:** [Insomnia](../pokedex/abilities/insomnia.md) | 1. [Agility](../pokedex/moves/agility.md)<br>2. [Nasty Plot](../pokedex/moves/nasty-plot.md)<br>3. [Tailwind](../pokedex/moves/tailwind.md)<br>4. [Mean Look](../pokedex/moves/mean-look.md) |
 | ![blissey](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/242.gif){ .sprite }<br>[Blissey](../pokedex/pokemon/blissey.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span></div> | **Level:** 55<br>**Ability:** [Serene Grace](../pokedex/abilities/serene-grace.md) | 1. [Charm](../pokedex/moves/charm.md)<br>2. [Aromatherapy](../pokedex/moves/aromatherapy.md)<br>3. [Heal Bell](../pokedex/moves/heal-bell.md)<br>4. [Healing Wish](../pokedex/moves/healing-wish.md) |
 
-
-**Ranger♂ Crofton**
+**● Ranger♂ Crofton**
 
 **Reward:** ![Aspear Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/aspear-berry.png){ .item-sprite } [Aspear Berry](../pokedex/items/aspear-berry.md)
 
@@ -3824,8 +3534,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![fearow](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/22.gif){ .sprite }<br>[Fearow](../pokedex/pokemon/fearow.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 55<br>**Ability:** [Intimidate](../pokedex/abilities/intimidate.md) | 1. [Drill Peck](../pokedex/moves/drill-peck.md)<br>2. [Shadow Claw](../pokedex/moves/shadow-claw.md)<br>3. [Cut](../pokedex/moves/cut.md)<br>4. [Steel Wing](../pokedex/moves/steel-wing.md) |
 | ![dodrio](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/85.gif){ .sprite }<br>[Dodrio](../pokedex/pokemon/dodrio.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 55<br>**Ability:** [Anger Point](../pokedex/abilities/anger-point.md) | 1. [Lunge](../pokedex/moves/lunge.md)<br>2. [Jump Kick](../pokedex/moves/jump-kick.md)<br>3. [Rock Climb](../pokedex/moves/rock-climb.md)<br>4. [Double Hit](../pokedex/moves/double-hit.md) |
 
-
-**Ranger♀ Thalia**
+**● Ranger♀ Thalia**
 
 **Reward:** ![Aspear Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/aspear-berry.png){ .item-sprite } [Aspear Berry](../pokedex/items/aspear-berry.md)
 
@@ -3835,7 +3544,6 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![wigglytuff](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/40.gif){ .sprite }<br>[Wigglytuff](../pokedex/pokemon/wigglytuff.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span></div> | **Level:** 55<br>**Ability:** [Huge Power](../pokedex/abilities/huge-power.md) | 1. [Thunderbolt](../pokedex/moves/thunderbolt.md)<br>2. [Ice Beam](../pokedex/moves/ice-beam.md)<br>3. [Hyper Voice](../pokedex/moves/hyper-voice.md)<br>4. [Play Rough](../pokedex/moves/play-rough.md) |
 | ![gliscor](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/472.gif){ .sprite }<br>[Gliscor](../pokedex/pokemon/gliscor.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 55<br>**Ability:** [Poison Heal](../pokedex/abilities/poison-heal.md)<br>**Item:** ![Toxic Orb](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/toxic-orb.png){ .item-sprite } [Toxic Orb](../pokedex/items/toxic-orb.md) | 1. [Acrobatics](../pokedex/moves/acrobatics.md)<br>2. [Fling](../pokedex/moves/fling.md)<br>3. [Sky Uppercut](../pokedex/moves/sky-uppercut.md)<br>4. [Earthquake](../pokedex/moves/earthquake.md) |
 
-
 ### Opelucid City
 
 #### Rotation/Triple House
@@ -3843,7 +3551,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
  - No level shift based on difficulty, levels are as stated.
 
 
-**WINONA - Hoenn Leader**
+**○♕ WINONA - Hoenn Leader**
 
 **Reward:** ![Old Amber](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/old-amber.png){ .item-sprite } [Old Amber](../pokedex/items/old-amber.md)
 
@@ -3858,8 +3566,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![skarmory](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/227.gif){ .sprite }<br>[Skarmory](../pokedex/pokemon/skarmory.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #B8B8D0 0%, #B8B8D0dd 100%);">Steel</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 58<br>**Ability:** [Weak Armor](../pokedex/abilities/weak-armor.md)<br>**Item:** ![Wacan Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/wacan-berry.png){ .item-sprite } [Wacan Berry](../pokedex/items/wacan-berry.md) | 1. [Brave Bird](../pokedex/moves/brave-bird.md)<br>2. [Rock Slide](../pokedex/moves/rock-slide.md)<br>3. [Steel Wing](../pokedex/moves/steel-wing.md)<br>4. [Swords Dance](../pokedex/moves/swords-dance.md) |
 | ![tropius](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/357.gif){ .sprite }<br>[Tropius](../pokedex/pokemon/tropius.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 58<br>**Ability:** [Harvest](../pokedex/abilities/harvest.md)<br>**Item:** ![Sitrus Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/sitrus-berry.png){ .item-sprite } [Sitrus Berry](../pokedex/items/sitrus-berry.md) | 1. [Earthquake](../pokedex/moves/earthquake.md)<br>2. [Leaf Blade](../pokedex/moves/leaf-blade.md)<br>3. [Dual Wingbeat](../pokedex/moves/dual-wingbeat.md)<br>4. [Dragon Dance](../pokedex/moves/dragon-dance.md) |
 
-
-**WINONA - Hoenn Leader**
+**○♕ WINONA - Hoenn Leader**
 
 **Reward:** Allows Access To Rotom In The Department Store
 
@@ -3880,14 +3587,13 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![altaria](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/334.gif){ .sprite }<br>[Altaria](../pokedex/pokemon/altaria.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #7038F8 0%, #7038F8dd 100%);">Dragon</span> <span class="type-badge" style="background: linear-gradient(135deg, #EE99AC 0%, #EE99ACdd 100%);">Fairy</span></div> | **Level:** 63<br>**Ability:** [Natural Cure](../pokedex/abilities/natural-cure.md)<br>**Item:** ![Life Orb](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/life-orb.png){ .item-sprite } [Life Orb](../pokedex/items/life-orb.md) | 1. [Brave Bird](../pokedex/moves/brave-bird.md)<br>2. [Earthquake](../pokedex/moves/earthquake.md)<br>3. [Play Rough](../pokedex/moves/play-rough.md)<br>4. [Dragon Dance](../pokedex/moves/dragon-dance.md) |
 | ![drifblim](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/426.gif){ .sprite }<br>[Drifblim](../pokedex/pokemon/drifblim.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 62<br>**Ability:** [Flare Boost](../pokedex/abilities/flare-boost.md)<br>**Item:** ![Flame Orb](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/flame-orb.png){ .item-sprite } [Flame Orb](../pokedex/items/flame-orb.md) | 1. [Protect](../pokedex/moves/protect.md)<br>2. [Hurricane](../pokedex/moves/hurricane.md)<br>3. [Thunder](../pokedex/moves/thunder.md)<br>4. [Shadow Ball](../pokedex/moves/shadow-ball.md) |
 
-
 #### Drayden's Gym
 
  - Not all the gym trainers are mandatory to progress, you can pick a side on each level as you progress to Drayden.
  - No level shift based on difficulty, levels are as stated.
 
 
-**Veteran Lucius**
+**● Veteran Lucius**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -3896,8 +3602,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![servine](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/496.gif){ .sprite }<br>[Servine](../pokedex/pokemon/servine.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span> <span class="type-badge" style="background: linear-gradient(135deg, #7038F8 0%, #7038F8dd 100%);">Dragon</span></div> | **Level:** 57<br>**Ability:** [Contrary](../pokedex/abilities/contrary.md)<br>**Item:** ![Eviolite](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/eviolite.png){ .item-sprite } [Eviolite](../pokedex/items/eviolite.md) | 1. [Draco Meteor](../pokedex/moves/draco-meteor.md)<br>2. [Glare](../pokedex/moves/glare.md)<br>3. [Power Whip](../pokedex/moves/power-whip.md)<br>4. [Leech Seed](../pokedex/moves/leech-seed.md) |
 | ![vibrava](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/329.gif){ .sprite }<br>[Vibrava](../pokedex/pokemon/vibrava.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> <span class="type-badge" style="background: linear-gradient(135deg, #7038F8 0%, #7038F8dd 100%);">Dragon</span></div> | **Level:** 57<br>**Ability:** [Levitate](../pokedex/abilities/levitate.md)<br>**Item:** ![Eviolite](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/eviolite.png){ .item-sprite } [Eviolite](../pokedex/items/eviolite.md) | 1. [Bug Buzz](../pokedex/moves/bug-buzz.md)<br>2. [Dragon Pulse](../pokedex/moves/dragon-pulse.md)<br>3. [Earth Power](../pokedex/moves/earth-power.md)<br>4. [Hyper Voice](../pokedex/moves/hyper-voice.md) |
 
-
-**Veteran Rhona**
+**● Veteran Rhona**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -3905,8 +3610,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![dragonair](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/148.gif){ .sprite }<br>[Dragonair](../pokedex/pokemon/dragonair.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #7038F8 0%, #7038F8dd 100%);">Dragon</span></div> | **Level:** 57<br>**Ability:** [Shed Skin](../pokedex/abilities/shed-skin.md)<br>**Item:** ![Eviolite](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/eviolite.png){ .item-sprite } [Eviolite](../pokedex/items/eviolite.md) | 1. [Thunder Wave](../pokedex/moves/thunder-wave.md)<br>2. [Aqua Tail](../pokedex/moves/aqua-tail.md)<br>3. [Dragon Pulse](../pokedex/moves/dragon-pulse.md)<br>4. [Extreme Speed](../pokedex/moves/extreme-speed.md) |
 | ![dragonite](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/149.gif){ .sprite }<br>[Dragonite](../pokedex/pokemon/dragonite.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #7038F8 0%, #7038F8dd 100%);">Dragon</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 57<br>**Ability:** [Multiscale](../pokedex/abilities/multiscale.md)<br>**Item:** ![Yache Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/yache-berry.png){ .item-sprite } [Yache Berry](../pokedex/items/yache-berry.md) | 1. [Fire Punch](../pokedex/moves/fire-punch.md)<br>2. [Dragon Dance](../pokedex/moves/dragon-dance.md)<br>3. [Ice Punch](../pokedex/moves/ice-punch.md)<br>4. [Outrage](../pokedex/moves/outrage.md) |
 
-
-**Veteran Jerry**
+**● Veteran Jerry**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -3914,8 +3618,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![kingdra](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/230.gif){ .sprite }<br>[Kingdra](../pokedex/pokemon/kingdra.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> <span class="type-badge" style="background: linear-gradient(135deg, #7038F8 0%, #7038F8dd 100%);">Dragon</span></div> | **Level:** 57<br>**Ability:** [Swift Swim](../pokedex/abilities/swift-swim.md)<br>**Item:** ![Dragon Gem](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dragon-gem.png){ .item-sprite } [Dragon Gem](../pokedex/items/dragon-gem.md) | 1. [Draco Meteor](../pokedex/moves/draco-meteor.md)<br>2. [Waterfall](../pokedex/moves/waterfall.md)<br>3. [Outrage](../pokedex/moves/outrage.md)<br>4. [Rain Dance](../pokedex/moves/rain-dance.md) |
 | ![ampharos](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/181.gif){ .sprite }<br>[Ampharos](../pokedex/pokemon/ampharos.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F8D030 0%, #F8D030dd 100%);">Electric</span> <span class="type-badge" style="background: linear-gradient(135deg, #7038F8 0%, #7038F8dd 100%);">Dragon</span></div> | **Level:** 57<br>**Ability:** [Static](../pokedex/abilities/static.md)<br>**Item:** ![Shuca Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/shuca-berry.png){ .item-sprite } [Shuca Berry](../pokedex/items/shuca-berry.md) | 1. [Dragon Pulse](../pokedex/moves/dragon-pulse.md)<br>2. [Tail Glow](../pokedex/moves/tail-glow.md)<br>3. [Thunderbolt](../pokedex/moves/thunderbolt.md)<br>4. [Flash Cannon](../pokedex/moves/flash-cannon.md) |
 
-
-**Veteran Denae**
+**● Veteran Denae**
 
 **Battle Type:** Rot
 
@@ -3925,8 +3628,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![salamence](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/373.gif){ .sprite }<br>[Salamence](../pokedex/pokemon/salamence.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #7038F8 0%, #7038F8dd 100%);">Dragon</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 58<br>**Ability:** [Moxie](../pokedex/abilities/moxie.md)<br>**Item:** ![Yache Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/yache-berry.png){ .item-sprite } [Yache Berry](../pokedex/items/yache-berry.md) | 1. [Dual Wingbeat](../pokedex/moves/dual-wingbeat.md)<br>2. [Outrage](../pokedex/moves/outrage.md)<br>3. [Earthquake](../pokedex/moves/earthquake.md)<br>4. [Dragon Dance](../pokedex/moves/dragon-dance.md) |
 | ![shelgon](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/372.gif){ .sprite }<br>[Shelgon](../pokedex/pokemon/shelgon.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #7038F8 0%, #7038F8dd 100%);">Dragon</span></div> | **Level:** 58<br>**Ability:** [Rock Head](../pokedex/abilities/rock-head.md)<br>**Item:** ![Eviolite](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/eviolite.png){ .item-sprite } [Eviolite](../pokedex/items/eviolite.md) | 1. [Fire Blast](../pokedex/moves/fire-blast.md)<br>2. [Protect](../pokedex/moves/protect.md)<br>3. [Dragon Rush](../pokedex/moves/dragon-rush.md)<br>4. [Zen Headbutt](../pokedex/moves/zen-headbutt.md) |
 
-
-**Veteran Ron**
+**● Veteran Ron**
 
 **Battle Type:** 3x
 
@@ -3936,8 +3638,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![garchomp](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/445.gif){ .sprite }<br>[Garchomp](../pokedex/pokemon/garchomp.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #7038F8 0%, #7038F8dd 100%);">Dragon</span> <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span></div> | **Level:** 58<br>**Ability:** [Rough Skin](../pokedex/abilities/rough-skin.md)<br>**Item:** ![Wide Lens](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/wide-lens.png){ .item-sprite } [Wide Lens](../pokedex/items/wide-lens.md) | 1. [Dragon Rush](../pokedex/moves/dragon-rush.md)<br>2. [Poison Jab](../pokedex/moves/poison-jab.md)<br>3. [Stone Edge](../pokedex/moves/stone-edge.md)<br>4. [Extreme Speed](../pokedex/moves/extreme-speed.md) |
 | ![gabite](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/444.gif){ .sprite }<br>[Gabite](../pokedex/pokemon/gabite.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #7038F8 0%, #7038F8dd 100%);">Dragon</span> <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span></div> | **Level:** 58<br>**Ability:** [Rough Skin](../pokedex/abilities/rough-skin.md)<br>**Item:** ![Eviolite](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/eviolite.png){ .item-sprite } [Eviolite](../pokedex/items/eviolite.md) | 1. [Breaking Swipe](../pokedex/moves/breaking-swipe.md)<br>2. [Stone Edge](../pokedex/moves/stone-edge.md)<br>3. [Raging Fury](../pokedex/moves/raging-fury.md)<br>4. [Iron Head](../pokedex/moves/iron-head.md) |
 
-
-**♛ LEADER DRAYDEN**
+**●♛ LEADER DRAYDEN**
 
 **Reward:** ![TM02](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM02](../pokedex/items/tm02.md), [Dragon Claw](../pokedex/moves/dragon-claw.md)
 
@@ -3952,8 +3653,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![haxorus](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/612.gif){ .sprite }<br>[Haxorus](../pokedex/pokemon/haxorus.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #7038F8 0%, #7038F8dd 100%);">Dragon</span></div> | **Level:** 61<br>**Ability:** [Mold Breaker](../pokedex/abilities/mold-breaker.md)<br>**Item:** ![Dragon Gem](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dragon-gem.png){ .item-sprite } [Dragon Gem](../pokedex/items/dragon-gem.md) | 1. [Outrage](../pokedex/moves/outrage.md)<br>2. [Earthquake](../pokedex/moves/earthquake.md)<br>3. [Aqua Tail](../pokedex/moves/aqua-tail.md)<br>4. [Iron Tail](../pokedex/moves/iron-tail.md) |
 | ![salamence](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/373.gif){ .sprite }<br>[Salamence](../pokedex/pokemon/salamence.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #7038F8 0%, #7038F8dd 100%);">Dragon</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 59<br>**Ability:** [Intimidate](../pokedex/abilities/intimidate.md)<br>**Item:** ![Wide Lens](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/wide-lens.png){ .item-sprite } [Wide Lens](../pokedex/items/wide-lens.md) | 1. [Hydro Pump](../pokedex/moves/hydro-pump.md)<br>2. [Fire Blast](../pokedex/moves/fire-blast.md)<br>3. [Outrage](../pokedex/moves/outrage.md)<br>4. [Iron Tail](../pokedex/moves/iron-tail.md) |
 
-
-**♛ LEADER DRAYDEN**
+**●♛ LEADER DRAYDEN**
 
 **Reward:** ![TM02](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM02](../pokedex/items/tm02.md), [Dragon Claw](../pokedex/moves/dragon-claw.md)
 
@@ -3970,13 +3670,12 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![salamence](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/373.gif){ .sprite }<br>[Salamence](../pokedex/pokemon/salamence.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #7038F8 0%, #7038F8dd 100%);">Dragon</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 63<br>**Ability:** [Intimidate](../pokedex/abilities/intimidate.md)<br>**Item:** ![Yache Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/yache-berry.png){ .item-sprite } [Yache Berry](../pokedex/items/yache-berry.md) | 1. [Dragon Claw](../pokedex/moves/dragon-claw.md)<br>2. [Flamethrower](../pokedex/moves/flamethrower.md)<br>3. [Dragon Dance](../pokedex/moves/dragon-dance.md)<br>4. [Dual Wingbeat](../pokedex/moves/dual-wingbeat.md) |
 | ![sceptile](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/254.gif){ .sprite }<br>[Sceptile](../pokedex/pokemon/sceptile.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span> <span class="type-badge" style="background: linear-gradient(135deg, #7038F8 0%, #7038F8dd 100%);">Dragon</span></div> | **Level:** 63<br>**Ability:** [Unburden](../pokedex/abilities/unburden.md)<br>**Item:** ![Focus Sash](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/focus-sash.png){ .item-sprite } [Focus Sash](../pokedex/items/focus-sash.md) | 1. [Dragon Claw](../pokedex/moves/dragon-claw.md)<br>2. [Leaf Blade](../pokedex/moves/leaf-blade.md)<br>3. [Acrobatics](../pokedex/moves/acrobatics.md)<br>4. [Drain Punch](../pokedex/moves/drain-punch.md) |
 
-
 #### Drayden Defeated
 
  - Levels -4 on Easy mode, +4 on Challenge mode.
 
 
-**Plasma Grunt #585**
+**● Plasma Grunt #585**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -3985,8 +3684,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![muk](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/89.gif){ .sprite }<br>[Muk](../pokedex/pokemon/muk.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span></div> | **Level:** 58<br>**Ability:** [Poison Touch](../pokedex/abilities/poison-touch.md) | 1. [Gunk Shot](../pokedex/moves/gunk-shot.md)<br>2. [Acid Armor](../pokedex/moves/acid-armor.md)<br>3. [Shadow Punch](../pokedex/moves/shadow-punch.md)<br>4. [Mean Look](../pokedex/moves/mean-look.md) |
 | ![glalie](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/362.gif){ .sprite }<br>[Glalie](../pokedex/pokemon/glalie.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #98D8D8 0%, #98D8D8dd 100%);">Ice</span> <span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span></div> | **Level:** 58<br>**Ability:** [Levitate](../pokedex/abilities/levitate.md) | 1. [Hail](../pokedex/moves/hail.md)<br>2. [Ice Shard](../pokedex/moves/ice-shard.md)<br>3. [Icicle Crash](../pokedex/moves/icicle-crash.md)<br>4. [Headlong Rush](../pokedex/moves/headlong-rush.md) |
 
-
-**Plasma Grunt #586**
+**● Plasma Grunt #586**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -3994,16 +3692,14 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![cacturne](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/332.gif){ .sprite }<br>[Cacturne](../pokedex/pokemon/cacturne.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span> <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span></div> | **Level:** 58<br>**Ability:** [Water Absorb](../pokedex/abilities/water-absorb.md) | 1. [Needle Arm](../pokedex/moves/needle-arm.md)<br>2. [Scorching Sands](../pokedex/moves/scorching-sands.md)<br>3. [Foul Play](../pokedex/moves/foul-play.md)<br>4. [Sucker Punch](../pokedex/moves/sucker-punch.md) |
 | ![drapion](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/452.gif){ .sprite }<br>[Drapion](../pokedex/pokemon/drapion.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span> <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span></div> | **Level:** 58<br>**Ability:** [Sniper](../pokedex/abilities/sniper.md) | 1. [Thunder Fang](../pokedex/moves/thunder-fang.md)<br>2. [Night Slash](../pokedex/moves/night-slash.md)<br>3. [Leech Life](../pokedex/moves/leech-life.md)<br>4. [Cross Poison](../pokedex/moves/cross-poison.md) |
 
-
-**Plasma Grunt #587**
+**● Plasma Grunt #587**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
 | ![metang](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/375.gif){ .sprite }<br>[Metang](../pokedex/pokemon/metang.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #B8B8D0 0%, #B8B8D0dd 100%);">Steel</span> <span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span></div> | **Level:** 59<br>**Ability:** [Iron Fist](../pokedex/abilities/iron-fist.md) | 1. [Agility](../pokedex/moves/agility.md)<br>2. [Meteor Mash](../pokedex/moves/meteor-mash.md)<br>3. [Gravity](../pokedex/moves/gravity.md)<br>4. [Hyper Beam](../pokedex/moves/hyper-beam.md) |
 | ![zweilous](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/634.gif){ .sprite }<br>[Zweilous](../pokedex/pokemon/zweilous.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> <span class="type-badge" style="background: linear-gradient(135deg, #7038F8 0%, #7038F8dd 100%);">Dragon</span></div> | **Level:** 59<br>**Ability:** [Hustle](../pokedex/abilities/hustle.md) | 1. [Dragon Rush](../pokedex/moves/dragon-rush.md)<br>2. [Hyper Voice](../pokedex/moves/hyper-voice.md)<br>3. [Raging Fury](../pokedex/moves/raging-fury.md)<br>4. [Head Smash](../pokedex/moves/head-smash.md) |
 
-
-**ZINZOLIN**
+**●♕ ZINZOLIN**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -4013,8 +3709,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![weavile](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/461.gif){ .sprite }<br>[Weavile](../pokedex/pokemon/weavile.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> <span class="type-badge" style="background: linear-gradient(135deg, #98D8D8 0%, #98D8D8dd 100%);">Ice</span></div> | **Level:** 60<br>**Ability:** [Pressure](../pokedex/abilities/pressure.md)<br>**Item:** ![Focus Sash](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/focus-sash.png){ .item-sprite } [Focus Sash](../pokedex/items/focus-sash.md) | 1. [Night Slash](../pokedex/moves/night-slash.md)<br>2. [Ice Punch](../pokedex/moves/ice-punch.md)<br>3. [Fake Out](../pokedex/moves/fake-out.md)<br>4. [Ice Shard](../pokedex/moves/ice-shard.md) |
 | ![drifblim](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/426.gif){ .sprite }<br>[Drifblim](../pokedex/pokemon/drifblim.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 59<br>**Ability:** [Unburden](../pokedex/abilities/unburden.md)<br>**Item:** ![Flying Gem](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/flying-gem.png){ .item-sprite } [Flying Gem](../pokedex/items/flying-gem.md) | 1. [Acrobatics](../pokedex/moves/acrobatics.md)<br>2. [Shadow Ball](../pokedex/moves/shadow-ball.md)<br>3. [Thunderbolt](../pokedex/moves/thunderbolt.md)<br>4. [Destiny Bond](../pokedex/moves/destiny-bond.md) |
 
-
-**Shadow Triad - First Battle**
+**● Shadow Triad - First Battle**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -4023,13 +3718,12 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![scyther](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/123.gif){ .sprite }<br>[Scyther](../pokedex/pokemon/scyther.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 59<br>**Ability:** [Technician](../pokedex/abilities/technician.md)<br>**Item:** ![Focus Sash](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/focus-sash.png){ .item-sprite } [Focus Sash](../pokedex/items/focus-sash.md) | 1. [U Turn](../pokedex/moves/u-turn.md)<br>2. [Dual Wingbeat](../pokedex/moves/dual-wingbeat.md)<br>3. [Quick Attack](../pokedex/moves/quick-attack.md)<br>4. [Bug Bite](../pokedex/moves/bug-bite.md) |
 | ![absol](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/359.gif){ .sprite }<br>[Absol](../pokedex/pokemon/absol.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span></div> | **Level:** 60<br>**Ability:** [Super Luck](../pokedex/abilities/super-luck.md)<br>**Item:** ![Scope Lens](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/scope-lens.png){ .item-sprite } [Scope Lens](../pokedex/items/scope-lens.md) | 1. [Play Rough](../pokedex/moves/play-rough.md)<br>2. [Megahorn](../pokedex/moves/megahorn.md)<br>3. [Sucker Punch](../pokedex/moves/sucker-punch.md)<br>4. [Psycho Cut](../pokedex/moves/psycho-cut.md) |
 
-
 ### Route 9
 
  - Levels -4 on Easy mode, +4 on Challenge mode.
 
 
-**Roughneck Chance**
+**○ Roughneck Chance**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -4038,8 +3732,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![weezing](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/110.gif){ .sprite }<br>[Weezing](../pokedex/pokemon/weezing.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span></div> | **Level:** 56<br>**Ability:** [Levitate](../pokedex/abilities/levitate.md) | 1. [Sludge Bomb](../pokedex/moves/sludge-bomb.md)<br>2. [Lava Plume](../pokedex/moves/lava-plume.md)<br>3. [Destiny Bond](../pokedex/moves/destiny-bond.md)<br>4. [Psybeam](../pokedex/moves/psybeam.md) |
 | ![muk](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/89.gif){ .sprite }<br>[Muk](../pokedex/pokemon/muk.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span></div> | **Level:** 56<br>**Ability:** [Poison Touch](../pokedex/abilities/poison-touch.md) | 1. [Gunk Shot](../pokedex/moves/gunk-shot.md)<br>2. [Acid Armor](../pokedex/moves/acid-armor.md)<br>3. [Shadow Punch](../pokedex/moves/shadow-punch.md)<br>4. [Payback](../pokedex/moves/payback.md) |
 
-
-**Biker Zeke**
+**○ Biker Zeke**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -4048,8 +3741,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![bisharp](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/625.gif){ .sprite }<br>[Bisharp](../pokedex/pokemon/bisharp.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> <span class="type-badge" style="background: linear-gradient(135deg, #B8B8D0 0%, #B8B8D0dd 100%);">Steel</span></div> | **Level:** 56<br>**Ability:** [Defiant](../pokedex/abilities/defiant.md) | 1. [Iron Defense](../pokedex/moves/iron-defense.md)<br>2. [Psycho Cut](../pokedex/moves/psycho-cut.md)<br>3. [Sucker Punch](../pokedex/moves/sucker-punch.md)<br>4. [Night Slash](../pokedex/moves/night-slash.md) |
 | ![bibarel](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/400.gif){ .sprite }<br>[Bibarel](../pokedex/pokemon/bibarel.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> <span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span></div> | **Level:** 56<br>**Ability:** [Simple](../pokedex/abilities/simple.md) | 1. [Aqua Jet](../pokedex/moves/aqua-jet.md)<br>2. [Double Edge](../pokedex/moves/double-edge.md)<br>3. [Swords Dance](../pokedex/moves/swords-dance.md)<br>4. [Quick Attack](../pokedex/moves/quick-attack.md) |
 
-
-**Roughneck Reese**
+**○ Roughneck Reese**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -4059,8 +3751,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![sharpedo](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/319.gif){ .sprite }<br>[Sharpedo](../pokedex/pokemon/sharpedo.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span></div> | **Level:** 55<br>**Ability:** [Speed Boost](../pokedex/abilities/speed-boost.md) | 1. [Psychic Fangs](../pokedex/moves/psychic-fangs.md)<br>2. [Crunch](../pokedex/moves/crunch.md)<br>3. [Skull Bash](../pokedex/moves/skull-bash.md)<br>4. [Waterfall](../pokedex/moves/waterfall.md) |
 | ![lampent](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/608.gif){ .sprite }<br>[Lampent](../pokedex/pokemon/lampent.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> <span class="type-badge" style="background: linear-gradient(135deg, #F08030 0%, #F08030dd 100%);">Fire</span></div> | **Level:** 55<br>**Ability:** [Flash Fire](../pokedex/abilities/flash-fire.md) | 1. [Inferno](../pokedex/moves/inferno.md)<br>2. [Shadow Ball](../pokedex/moves/shadow-ball.md)<br>3. [Pain Split](../pokedex/moves/pain-split.md)<br>4. [Will O Wisp](../pokedex/moves/will-o-wisp.md) |
 
-
-**Biker Phillip**
+**○ Biker Phillip**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -4068,8 +3759,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![honchkrow](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/430.gif){ .sprite }<br>[Honchkrow](../pokedex/pokemon/honchkrow.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 56<br>**Ability:** [Super Luck](../pokedex/abilities/super-luck.md) | 1. [Sucker Punch](../pokedex/moves/sucker-punch.md)<br>2. [Astonish](../pokedex/moves/astonish.md)<br>3. [Night Slash](../pokedex/moves/night-slash.md)<br>4. [Drill Peck](../pokedex/moves/drill-peck.md) |
 | ![liepard](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/510.gif){ .sprite }<br>[Liepard](../pokedex/pokemon/liepard.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span></div> | **Level:** 56<br>**Ability:** [Unburden](../pokedex/abilities/unburden.md) | 1. [Play Rough](../pokedex/moves/play-rough.md)<br>2. [Fake Out](../pokedex/moves/fake-out.md)<br>3. [Foul Play](../pokedex/moves/foul-play.md)<br>4. [Sucker Punch](../pokedex/moves/sucker-punch.md) |
 
-
-**Hooligans Jim and Cas**
+**○ Hooligans Jim and Cas**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -4078,8 +3768,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![dusknoir](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/477.gif){ .sprite }<br>[Dusknoir](../pokedex/pokemon/dusknoir.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span></div> | **Level:** 57<br>**Ability:** [Iron Fist](../pokedex/abilities/iron-fist.md) | 1. [Leech Life](../pokedex/moves/leech-life.md)<br>2. [Shadow Punch](../pokedex/moves/shadow-punch.md)<br>3. [Drain Punch](../pokedex/moves/drain-punch.md)<br>4. [Ice Punch](../pokedex/moves/ice-punch.md) |
 | ![banette](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/354.gif){ .sprite }<br>[Banette](../pokedex/pokemon/banette.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span></div> | **Level:** 57<br>**Ability:** [Cursed Body](../pokedex/abilities/cursed-body.md) | 1. [Slash](../pokedex/moves/slash.md)<br>2. [Shadow Claw](../pokedex/moves/shadow-claw.md)<br>3. [Raging Fury](../pokedex/moves/raging-fury.md)<br>4. [Destiny Bond](../pokedex/moves/destiny-bond.md) |
 
-
-**Waitress Olwen**
+**○ Waitress Olwen**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -4087,8 +3776,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![butterfree](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/12.gif){ .sprite }<br>[Butterfree](../pokedex/pokemon/butterfree.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 56<br>**Ability:** [Tinted Lens](../pokedex/abilities/tinted-lens.md) | 1. [Psychic](../pokedex/moves/psychic.md)<br>2. [Bug Buzz](../pokedex/moves/bug-buzz.md)<br>3. [Air Slash](../pokedex/moves/air-slash.md)<br>4. [Quiver Dance](../pokedex/moves/quiver-dance.md) |
 | ![delcatty](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/301.gif){ .sprite }<br>[Delcatty](../pokedex/pokemon/delcatty.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span></div> | **Level:** 56<br>**Ability:** [Wonder Skin](../pokedex/abilities/wonder-skin.md) | 1. [Double Edge](../pokedex/moves/double-edge.md)<br>2. [Sucker Punch](../pokedex/moves/sucker-punch.md)<br>3. [Wish](../pokedex/moves/wish.md)<br>4. [Encore](../pokedex/moves/encore.md) |
 
-
-**Waiter Lou**
+**○ Waiter Lou**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -4096,13 +3784,12 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![ledian](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/166.gif){ .sprite }<br>[Ledian](../pokedex/pokemon/ledian.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 56<br>**Ability:** [Rattled](../pokedex/abilities/rattled.md) | 1. [Knock Off](../pokedex/moves/knock-off.md)<br>2. [Lunge](../pokedex/moves/lunge.md)<br>3. [Smart Strike](../pokedex/moves/smart-strike.md)<br>4. [Baton Pass](../pokedex/moves/baton-pass.md) |
 | ![persian](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/53.gif){ .sprite }<br>[Persian](../pokedex/pokemon/persian.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span></div> | **Level:** 56<br>**Ability:** [Technician](../pokedex/abilities/technician.md) | 1. [Power Gem](../pokedex/moves/power-gem.md)<br>2. [Fake Out](../pokedex/moves/fake-out.md)<br>3. [Double Edge](../pokedex/moves/double-edge.md)<br>4. [Play Rough](../pokedex/moves/play-rough.md) |
 
-
 ### Seaside Cave
 
 #### 1F
 
 
-**Black Belt Rocky**
+**● Black Belt Rocky**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -4112,8 +3799,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![boldore](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/525.gif){ .sprite }<br>[Boldore](../pokedex/pokemon/boldore.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span></div> | **Level:** 58<br>**Ability:** [Sturdy](../pokedex/abilities/sturdy.md)<br>**Item:** ![Hard Stone](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hard-stone.png){ .item-sprite } [Hard Stone](../pokedex/items/hard-stone.md) | 1. [Stone Edge](../pokedex/moves/stone-edge.md)<br>2. [Earthquake](../pokedex/moves/earthquake.md)<br>3. [Explosion](../pokedex/moves/explosion.md) |
 | ![gigalith](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/526.gif){ .sprite }<br>[Gigalith](../pokedex/pokemon/gigalith.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span></div> | **Level:** 59<br>**Ability:** [Sturdy](../pokedex/abilities/sturdy.md)<br>**Item:** ![Hard Stone](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hard-stone.png){ .item-sprite } [Hard Stone](../pokedex/items/hard-stone.md) | 1. [Stone Edge](../pokedex/moves/stone-edge.md)<br>2. [Earthquake](../pokedex/moves/earthquake.md)<br>3. [Heavy Slam](../pokedex/moves/heavy-slam.md)<br>4. [Explosion](../pokedex/moves/explosion.md) |
 
-
-**Ranger♂ Johan**
+**○ Ranger♂ Johan**
 
 **Reward:** ![Persim Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/persim-berry.png){ .item-sprite } [Persim Berry](../pokedex/items/persim-berry.md)
 
@@ -4123,16 +3809,14 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![aggron](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/306.gif){ .sprite }<br>[Aggron](../pokedex/pokemon/aggron.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #B8B8D0 0%, #B8B8D0dd 100%);">Steel</span> <span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span></div> | **Level:** 60<br>**Ability:** [Rock Head](../pokedex/abilities/rock-head.md) | 1. [Avalanche](../pokedex/moves/avalanche.md)<br>2. [Stone Edge](../pokedex/moves/stone-edge.md)<br>3. [Dragon Rush](../pokedex/moves/dragon-rush.md)<br>4. [Heavy Slam](../pokedex/moves/heavy-slam.md) |
 | ![empoleon](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/395.gif){ .sprite }<br>[Empoleon](../pokedex/pokemon/empoleon.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> <span class="type-badge" style="background: linear-gradient(135deg, #B8B8D0 0%, #B8B8D0dd 100%);">Steel</span></div> | **Level:** 60<br>**Ability:** [Defiant](../pokedex/abilities/defiant.md) | 1. [Dual Wingbeat](../pokedex/moves/dual-wingbeat.md)<br>2. [Waterfall](../pokedex/moves/waterfall.md)<br>3. [Steel Wing](../pokedex/moves/steel-wing.md)<br>4. [Roost](../pokedex/moves/roost.md) |
 
-
-**Battle Girl Tia**
+**○ Battle Girl Tia**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
 | ![toxicroak](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/454.gif){ .sprite }<br>[Toxicroak](../pokedex/pokemon/toxicroak.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span> <span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span></div> | **Level:** 60<br>**Ability:** [Poison Touch](../pokedex/abilities/poison-touch.md) | 1. [Cross Poison](../pokedex/moves/cross-poison.md)<br>2. [Gunk Shot](../pokedex/moves/gunk-shot.md)<br>3. [Close Combat](../pokedex/moves/close-combat.md)<br>4. [Bullet Punch](../pokedex/moves/bullet-punch.md) |
 | ![throh](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/538.gif){ .sprite }<br>[Throh](../pokedex/pokemon/throh.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span></div> | **Level:** 60<br>**Ability:** [Mold Breaker](../pokedex/abilities/mold-breaker.md) | 1. [Headlong Rush](../pokedex/moves/headlong-rush.md)<br>2. [Zen Headbutt](../pokedex/moves/zen-headbutt.md)<br>3. [Storm Throw](../pokedex/moves/storm-throw.md)<br>4. [Payback](../pokedex/moves/payback.md) |
 
-
-**Ranger♀ Mikiko**
+**● Ranger♀ Mikiko**
 
 **Reward:** ![Persim Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/persim-berry.png){ .item-sprite } [Persim Berry](../pokedex/items/persim-berry.md)
 
@@ -4142,47 +3826,42 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![sceptile](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/254.gif){ .sprite }<br>[Sceptile](../pokedex/pokemon/sceptile.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span> <span class="type-badge" style="background: linear-gradient(135deg, #7038F8 0%, #7038F8dd 100%);">Dragon</span></div> | **Level:** 60<br>**Ability:** [Overgrow](../pokedex/abilities/overgrow.md) | 1. [Leech Seed](../pokedex/moves/leech-seed.md)<br>2. [Synthesis](../pokedex/moves/synthesis.md)<br>3. [Leaf Blade](../pokedex/moves/leaf-blade.md)<br>4. [Breaking Swipe](../pokedex/moves/breaking-swipe.md) |
 | ![flygon](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/330.gif){ .sprite }<br>[Flygon](../pokedex/pokemon/flygon.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> <span class="type-badge" style="background: linear-gradient(135deg, #7038F8 0%, #7038F8dd 100%);">Dragon</span></div> | **Level:** 60<br>**Ability:** [Levitate](../pokedex/abilities/levitate.md) | 1. [Boomburst](../pokedex/moves/boomburst.md)<br>2. [Dragon Pulse](../pokedex/moves/dragon-pulse.md)<br>3. [Bug Buzz](../pokedex/moves/bug-buzz.md)<br>4. [Scorching Sands](../pokedex/moves/scorching-sands.md) |
 
-
-**Black Belt Drago**
+**○ Black Belt Drago**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
 | ![onix](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/95.gif){ .sprite }<br>[Onix](../pokedex/pokemon/onix.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span> <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span></div> | **Level:** 62<br>**Ability:** [Rock Head](../pokedex/abilities/rock-head.md) | 1. [Ice Fang](../pokedex/moves/ice-fang.md)<br>2. [Thunder Fang](../pokedex/moves/thunder-fang.md)<br>3. [Double Edge](../pokedex/moves/double-edge.md)<br>4. [Head Smash](../pokedex/moves/head-smash.md) |
 | ![primeape](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/57.gif){ .sprite }<br>[Primeape](../pokedex/pokemon/primeape.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span></div> | **Level:** 62<br>**Ability:** [Defiant](../pokedex/abilities/defiant.md) | 1. [Outrage](../pokedex/moves/outrage.md)<br>2. [Raging Fury](../pokedex/moves/raging-fury.md)<br>3. [Beat Up](../pokedex/moves/beat-up.md)<br>4. [Close Combat](../pokedex/moves/close-combat.md) |
 
-
 #### B1F
 
 
-**Battle Girl Maki**
+**○ Battle Girl Maki**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
 | ![mienshao](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/620.gif){ .sprite }<br>[Mienshao](../pokedex/pokemon/mienshao.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span></div> | **Level:** 61<br>**Ability:** [Regenerator](../pokedex/abilities/regenerator.md) | 1. [Grass Knot](../pokedex/moves/grass-knot.md)<br>2. [Hyper Beam](../pokedex/moves/hyper-beam.md)<br>3. [Aura Sphere](../pokedex/moves/aura-sphere.md)<br>4. [Calm Mind](../pokedex/moves/calm-mind.md) |
 
-
-**Black Belt Rich**
+**○ Black Belt Rich**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
 | ![breloom](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/286.gif){ .sprite }<br>[Breloom](../pokedex/pokemon/breloom.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span> <span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span></div> | **Level:** 60<br>**Ability:** [Technician](../pokedex/abilities/technician.md) | 1. [Bullet Seed](../pokedex/moves/bullet-seed.md)<br>2. [Force Palm](../pokedex/moves/force-palm.md)<br>3. [Mach Punch](../pokedex/moves/mach-punch.md)<br>4. [Rock Tomb](../pokedex/moves/rock-tomb.md) |
 | ![sawk](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/539.gif){ .sprite }<br>[Sawk](../pokedex/pokemon/sawk.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span></div> | **Level:** 60<br>**Ability:** [Sturdy](../pokedex/abilities/sturdy.md) | 1. [Reversal](../pokedex/moves/reversal.md)<br>2. [Blaze Kick](../pokedex/moves/blaze-kick.md)<br>3. [Stone Edge](../pokedex/moves/stone-edge.md)<br>4. [Zen Headbutt](../pokedex/moves/zen-headbutt.md) |
 
-
 ### Route 21
 
  - Levels -4 on Easy mode, +4 on Challenge mode.
 
 
-**Doctor Braid**
+**○ Doctor Braid**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
 | ![wigglytuff](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/40.gif){ .sprite }<br>[Wigglytuff](../pokedex/pokemon/wigglytuff.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span></div> | **Level:** 61<br>**Ability:** [Huge Power](../pokedex/abilities/huge-power.md) | 1. [Play Rough](../pokedex/moves/play-rough.md)<br>2. [Boomburst](../pokedex/moves/boomburst.md)<br>3. [Flamethrower](../pokedex/moves/flamethrower.md)<br>4. [Drain Punch](../pokedex/moves/drain-punch.md) |
 | ![snorlax](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/143.gif){ .sprite }<br>[Snorlax](../pokedex/pokemon/snorlax.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span></div> | **Level:** 61<br>**Ability:** [Thick Fat](../pokedex/abilities/thick-fat.md) | 1. [High Horsepower](../pokedex/moves/high-horsepower.md)<br>2. [Crunch](../pokedex/moves/crunch.md)<br>3. [Body Slam](../pokedex/moves/body-slam.md)<br>4. [Zen Headbutt](../pokedex/moves/zen-headbutt.md) |
 
-
-**Fisherman Kenzo**
+**○ Fisherman Kenzo**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -4192,16 +3871,14 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![palpitoad](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/536.gif){ .sprite }<br>[Palpitoad](../pokedex/pokemon/palpitoad.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span></div> | **Level:** 58<br>**Ability:** [Water Absorb](../pokedex/abilities/water-absorb.md) | 1. [Earth Power](../pokedex/moves/earth-power.md)<br>2. [Muddy Water](../pokedex/moves/muddy-water.md)<br>3. [Hydro Pump](../pokedex/moves/hydro-pump.md)<br>4. [Refresh](../pokedex/moves/refresh.md) |
 | ![corsola](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/222.gif){ .sprite }<br>[Corsola](../pokedex/pokemon/corsola.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> <span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span></div> | **Level:** 58<br>**Ability:** [Natural Cure](../pokedex/abilities/natural-cure.md) | 1. [Icicle Spear](../pokedex/moves/icicle-spear.md)<br>2. [Ingrain](../pokedex/moves/ingrain.md)<br>3. [Bubble Beam](../pokedex/moves/bubble-beam.md)<br>4. [Rock Blast](../pokedex/moves/rock-blast.md) |
 
-
-**Swimmer Kyle**
+**○ Swimmer Kyle**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
 | ![sharpedo](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/319.gif){ .sprite }<br>[Sharpedo](../pokedex/pokemon/sharpedo.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span></div> | **Level:** 60<br>**Ability:** [Speed Boost](../pokedex/abilities/speed-boost.md) | 1. [Waterfall](../pokedex/moves/waterfall.md)<br>2. [Psychic Fangs](../pokedex/moves/psychic-fangs.md)<br>3. [Agility](../pokedex/moves/agility.md)<br>4. [Crunch](../pokedex/moves/crunch.md) |
 | ![quagsire](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/195.gif){ .sprite }<br>[Quagsire](../pokedex/pokemon/quagsire.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span></div> | **Level:** 60<br>**Ability:** [Water Absorb](../pokedex/abilities/water-absorb.md) | 1. [Ancient Power](../pokedex/moves/ancient-power.md)<br>2. [Recover](../pokedex/moves/recover.md)<br>3. [Muddy Water](../pokedex/moves/muddy-water.md)<br>4. [Counter](../pokedex/moves/counter.md) |
 
-
-**Black Belt Kenneth**
+**● Black Belt Kenneth**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -4209,16 +3886,14 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![hitmonlee](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/106.gif){ .sprite }<br>[Hitmonlee](../pokedex/pokemon/hitmonlee.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span></div> | **Level:** 60<br>**Ability:** [Reckless](../pokedex/abilities/reckless.md) | 1. [Bullet Punch](../pokedex/moves/bullet-punch.md)<br>2. [Blaze Kick](../pokedex/moves/blaze-kick.md)<br>3. [Lunge](../pokedex/moves/lunge.md)<br>4. [High Jump Kick](../pokedex/moves/high-jump-kick.md) |
 | ![hitmonchan](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/107.gif){ .sprite }<br>[Hitmonchan](../pokedex/pokemon/hitmonchan.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span></div> | **Level:** 60<br>**Ability:** [Iron Fist](../pokedex/abilities/iron-fist.md) | 1. [Mach Punch](../pokedex/moves/mach-punch.md)<br>2. [Drain Punch](../pokedex/moves/drain-punch.md)<br>3. [Ice Punch](../pokedex/moves/ice-punch.md)<br>4. [Thunder Punch](../pokedex/moves/thunder-punch.md) |
 
-
-**Swimmer Kaoru**
+**○ Swimmer Kaoru**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
 | ![luvdisc](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/370.gif){ .sprite }<br>[Luvdisc](../pokedex/pokemon/luvdisc.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> <span class="type-badge" style="background: linear-gradient(135deg, #EE99AC 0%, #EE99ACdd 100%);">Fairy</span></div> | **Level:** 60<br>**Ability:** [Hydration](../pokedex/abilities/hydration.md) | 1. [Hydro Pump](../pokedex/moves/hydro-pump.md)<br>2. [Draining Kiss](../pokedex/moves/draining-kiss.md)<br>3. [Lovely Kiss](../pokedex/moves/lovely-kiss.md)<br>4. [Moonblast](../pokedex/moves/moonblast.md) |
 | ![seaking](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/119.gif){ .sprite }<br>[Seaking](../pokedex/pokemon/seaking.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span></div> | **Level:** 60<br>**Ability:** [Lightning Rod](../pokedex/abilities/lightning-rod.md) | 1. [Waterfall](../pokedex/moves/waterfall.md)<br>2. [Smart Strike](../pokedex/moves/smart-strike.md)<br>3. [Aqua Jet](../pokedex/moves/aqua-jet.md)<br>4. [Megahorn](../pokedex/moves/megahorn.md) |
 
-
-**Swimmer Harold**
+**● Swimmer Harold**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -4226,21 +3901,19 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![octillery](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/224.gif){ .sprite }<br>[Octillery](../pokedex/pokemon/octillery.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span></div> | **Level:** 60<br>**Ability:** [Sniper](../pokedex/abilities/sniper.md) | 1. [Flamethrower](../pokedex/moves/flamethrower.md)<br>2. [Water Spout](../pokedex/moves/water-spout.md)<br>3. [Gunk Shot](../pokedex/moves/gunk-shot.md)<br>4. [Seed Bomb](../pokedex/moves/seed-bomb.md) |
 | ![blastoise](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/9.gif){ .sprite }<br>[Blastoise](../pokedex/pokemon/blastoise.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span></div> | **Level:** 60<br>**Ability:** [Shell Armor](../pokedex/abilities/shell-armor.md) | 1. [Seismic Toss](../pokedex/moves/seismic-toss.md)<br>2. [Zen Headbutt](../pokedex/moves/zen-headbutt.md)<br>3. [Fake Out](../pokedex/moves/fake-out.md)<br>4. [Hydro Pump](../pokedex/moves/hydro-pump.md) |
 
-
-**Swimmer Desiree**
+**○ Swimmer Desiree**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
 | ![wailmer](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/320.gif){ .sprite }<br>[Wailmer](../pokedex/pokemon/wailmer.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span></div> | **Level:** 60<br>**Ability:** [Pressure](../pokedex/abilities/pressure.md) | 1. [Hydro Pump](../pokedex/moves/hydro-pump.md)<br>2. [Soak](../pokedex/moves/soak.md)<br>3. [Body Slam](../pokedex/moves/body-slam.md)<br>4. [Bounce](../pokedex/moves/bounce.md) |
 | ![wailord](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/321.gif){ .sprite }<br>[Wailord](../pokedex/pokemon/wailord.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span></div> | **Level:** 60<br>**Ability:** [Pressure](../pokedex/abilities/pressure.md) | 1. [Hydro Pump](../pokedex/moves/hydro-pump.md)<br>2. [Soak](../pokedex/moves/soak.md)<br>3. [Body Slam](../pokedex/moves/body-slam.md)<br>4. [Bounce](../pokedex/moves/bounce.md) |
 
-
 ### Route 22
 
  - Levels -4 on Easy mode, +4 on Challenge mode.
 
 
-**Ace Trainer Shel**
+**● Ace Trainer Shel**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -4248,8 +3921,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![jolteon](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/135.gif){ .sprite }<br>[Jolteon](../pokedex/pokemon/jolteon.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F8D030 0%, #F8D030dd 100%);">Electric</span></div> | **Level:** 60<br>**Ability:** [Volt Absorb](../pokedex/abilities/volt-absorb.md) | 1. [Extrasensory](../pokedex/moves/extrasensory.md)<br>2. [Discharge](../pokedex/moves/discharge.md)<br>3. [Signal Beam](../pokedex/moves/signal-beam.md)<br>4. [Grass Knot](../pokedex/moves/grass-knot.md) |
 | ![flareon](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/136.gif){ .sprite }<br>[Flareon](../pokedex/pokemon/flareon.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F08030 0%, #F08030dd 100%);">Fire</span></div> | **Level:** 60<br>**Ability:** [Flash Fire](../pokedex/abilities/flash-fire.md) | 1. [Play Rough](../pokedex/moves/play-rough.md)<br>2. [Flare Blitz](../pokedex/moves/flare-blitz.md)<br>3. [Wild Charge](../pokedex/moves/wild-charge.md)<br>4. [Rock Slide](../pokedex/moves/rock-slide.md) |
 
-
-**Backpacker Myra**
+**● Backpacker Myra**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -4257,8 +3929,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![charmeleon](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/5.gif){ .sprite }<br>[Charmeleon](../pokedex/pokemon/charmeleon.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F08030 0%, #F08030dd 100%);">Fire</span> <span class="type-badge" style="background: linear-gradient(135deg, #7038F8 0%, #7038F8dd 100%);">Dragon</span></div> | **Level:** 60<br>**Ability:** [Blaze](../pokedex/abilities/blaze.md) | 1. [Fire Lash](../pokedex/moves/fire-lash.md)<br>2. [Acrobatics](../pokedex/moves/acrobatics.md)<br>3. [Dragon Rush](../pokedex/moves/dragon-rush.md)<br>4. [Heat Crash](../pokedex/moves/heat-crash.md) |
 | ![wartortle](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/8.gif){ .sprite }<br>[Wartortle](../pokedex/pokemon/wartortle.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span></div> | **Level:** 60<br>**Ability:** [Torrent](../pokedex/abilities/torrent.md) | 1. [Zen Headbutt](../pokedex/moves/zen-headbutt.md)<br>2. [Hydro Pump](../pokedex/moves/hydro-pump.md)<br>3. [Avalanche](../pokedex/moves/avalanche.md)<br>4. [Fake Out](../pokedex/moves/fake-out.md) |
 
-
-**Hiker Justin**
+**○ Hiker Justin**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -4267,8 +3938,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![armaldo](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/348.gif){ .sprite }<br>[Armaldo](../pokedex/pokemon/armaldo.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span> <span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span></div> | **Level:** 60<br>**Ability:** [Battle Armor](../pokedex/abilities/battle-armor.md) | 1. [Lunge](../pokedex/moves/lunge.md)<br>2. [Aqua Jet](../pokedex/moves/aqua-jet.md)<br>3. [Cross Poison](../pokedex/moves/cross-poison.md)<br>4. [Stone Edge](../pokedex/moves/stone-edge.md) |
 | ![cradily](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/346.gif){ .sprite }<br>[Cradily](../pokedex/pokemon/cradily.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span> <span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span></div> | **Level:** 60<br>**Ability:** [Storm Drain](../pokedex/abilities/storm-drain.md) | 1. [Infestation](../pokedex/moves/infestation.md)<br>2. [Recover](../pokedex/moves/recover.md)<br>3. [Leech Seed](../pokedex/moves/leech-seed.md)<br>4. [Ingrain](../pokedex/moves/ingrain.md) |
 
-
-**Breeder Addison**
+**○ Breeder Addison**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -4276,8 +3946,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![blissey](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/242.gif){ .sprite }<br>[Blissey](../pokedex/pokemon/blissey.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span></div> | **Level:** 60<br>**Ability:** [Serene Grace](../pokedex/abilities/serene-grace.md) | 1. [Counter](../pokedex/moves/counter.md)<br>2. [Aromatherapy](../pokedex/moves/aromatherapy.md)<br>3. [Heal Bell](../pokedex/moves/heal-bell.md)<br>4. [Healing Wish](../pokedex/moves/healing-wish.md) |
 | ![milotic](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/350.gif){ .sprite }<br>[Milotic](../pokedex/pokemon/milotic.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span></div> | **Level:** 60<br>**Ability:** [Marvel Scale](../pokedex/abilities/marvel-scale.md) | 1. [Safeguard](../pokedex/moves/safeguard.md)<br>2. [Captivate](../pokedex/moves/captivate.md)<br>3. [Coil](../pokedex/moves/coil.md)<br>4. [Haze](../pokedex/moves/haze.md) |
 
-
-**Backpacker Lowell**
+**○ Backpacker Lowell**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -4285,8 +3954,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![combusken](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/256.gif){ .sprite }<br>[Combusken](../pokedex/pokemon/combusken.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F08030 0%, #F08030dd 100%);">Fire</span> <span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span></div> | **Level:** 60<br>**Ability:** [Blaze](../pokedex/abilities/blaze.md) | 1. [Blaze Kick](../pokedex/moves/blaze-kick.md)<br>2. [Close Combat](../pokedex/moves/close-combat.md)<br>3. [Quick Attack](../pokedex/moves/quick-attack.md)<br>4. [Scorching Sands](../pokedex/moves/scorching-sands.md) |
 | ![marshtomp](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/259.gif){ .sprite }<br>[Marshtomp](../pokedex/pokemon/marshtomp.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span></div> | **Level:** 60<br>**Ability:** [Torrent](../pokedex/abilities/torrent.md) | 1. [Avalanche](../pokedex/moves/avalanche.md)<br>2. [Seismic Toss](../pokedex/moves/seismic-toss.md)<br>3. [High Horsepower](../pokedex/moves/high-horsepower.md)<br>4. [Aqua Tail](../pokedex/moves/aqua-tail.md) |
 
-
-**Ace Trainer Lucca**
+**○ Ace Trainer Lucca**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -4295,13 +3963,12 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![ludicolo](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/272.gif){ .sprite }<br>[Ludicolo](../pokedex/pokemon/ludicolo.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> <span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span></div> | **Level:** 60<br>**Ability:** [Swift Swim](../pokedex/abilities/swift-swim.md) | 1. [Zen Headbutt](../pokedex/moves/zen-headbutt.md)<br>2. [Muddy Water](../pokedex/moves/muddy-water.md)<br>3. [Energy Ball](../pokedex/moves/energy-ball.md)<br>4. [Hyper Voice](../pokedex/moves/hyper-voice.md) |
 | ![lucario](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/448.gif){ .sprite }<br>[Lucario](../pokedex/pokemon/lucario.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span> <span class="type-badge" style="background: linear-gradient(135deg, #B8B8D0 0%, #B8B8D0dd 100%);">Steel</span></div> | **Level:** 60<br>**Ability:** [Justified](../pokedex/abilities/justified.md) | 1. [Dragon Pulse](../pokedex/moves/dragon-pulse.md)<br>2. [Bullet Punch](../pokedex/moves/bullet-punch.md)<br>3. [Blaze Kick](../pokedex/moves/blaze-kick.md)<br>4. [Close Combat](../pokedex/moves/close-combat.md) |
 
-
 ### Humilau City
 
  - No level shift based on difficulty, levels are as stated.
 
 
-**TATE AND LIZA**
+**○♕ TATE AND LIZA**
 
 **Reward:** ![TM17](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM17](../pokedex/items/tm17.md), [Protect](../pokedex/moves/protect.md)
 
@@ -4322,8 +3989,7 @@ To recap, if you've ever felt that Black 2 and White 2 get easier as the game pr
 | ![gothitelle](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/576.gif){ .sprite }<br>[Gothitelle](../pokedex/pokemon/gothitelle.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span> <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span></div> | **Level:** 62<br>**Ability:** [Frisk](../pokedex/abilities/frisk.md) | 1. [Fake Out](../pokedex/moves/fake-out.md)<br>2. [Ally Switch](../pokedex/moves/ally-switch.md)<br>3. [Night Daze](../pokedex/moves/night-daze.md)<br>4. [Psyshock](../pokedex/moves/psyshock.md) |
 | ![solrock](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/338.gif){ .sprite }<br>[Solrock](../pokedex/pokemon/solrock.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span> <span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span></div> | **Level:** 63<br>**Ability:** [Levitate](../pokedex/abilities/levitate.md)<br>**Item:** ![Sitrus Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/sitrus-berry.png){ .item-sprite } [Sitrus Berry](../pokedex/items/sitrus-berry.md) | 1. [Psyshield Bash](../pokedex/moves/psyshield-bash.md)<br>2. [Helping Hand](../pokedex/moves/helping-hand.md)<br>3. [Rock Slide](../pokedex/moves/rock-slide.md)<br>4. [Hypnosis](../pokedex/moves/hypnosis.md) |
 
-
-**TATE AND LIZA**
+**○♕ TATE AND LIZA**
 
 **Reward:** ![TM17](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM17](../pokedex/items/tm17.md), [Protect](../pokedex/moves/protect.md)
 
@@ -4348,13 +4014,12 @@ Right side: Tate
 | ![medicham](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/308.gif){ .sprite }<br>[Medicham](../pokedex/pokemon/medicham.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span> <span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span></div> | **Level:** 66<br>**Ability:** [Pure Power](../pokedex/abilities/pure-power.md)<br>**Item:** ![Life Orb](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/life-orb.png){ .item-sprite } [Life Orb](../pokedex/items/life-orb.md) | 1. [High Jump Kick](../pokedex/moves/high-jump-kick.md)<br>2. [Zen Headbutt](../pokedex/moves/zen-headbutt.md)<br>3. [Ice Punch](../pokedex/moves/ice-punch.md)<br>4. [Bullet Punch](../pokedex/moves/bullet-punch.md) |
 | ![beheeyem](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/606.gif){ .sprite }<br>[Beheeyem](../pokedex/pokemon/beheeyem.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span></div> | **Level:** 66<br>**Ability:** [Analytic](../pokedex/abilities/analytic.md)<br>**Item:** ![Colbur Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/colbur-berry.png){ .item-sprite } [Colbur Berry](../pokedex/items/colbur-berry.md) | 1. [Mystical Fire](../pokedex/moves/mystical-fire.md)<br>2. [Trick Room](../pokedex/moves/trick-room.md)<br>3. [Thunderbolt](../pokedex/moves/thunderbolt.md)<br>4. [Psychic](../pokedex/moves/psychic.md) |
 
-
 #### Marlon's Gym
 
  - Levels -4 on Easy mode, +4 on Challenge mode.
 
 
-**Ace Trainer Doyle**
+**● Ace Trainer Doyle**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -4362,8 +4027,7 @@ Right side: Tate
 | ![empoleon](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/395.gif){ .sprite }<br>[Empoleon](../pokedex/pokemon/empoleon.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> <span class="type-badge" style="background: linear-gradient(135deg, #B8B8D0 0%, #B8B8D0dd 100%);">Steel</span></div> | **Level:** 61<br>**Ability:** [Defiant](../pokedex/abilities/defiant.md) | 1. [Wave Crash](../pokedex/moves/wave-crash.md)<br>2. [Agility](../pokedex/moves/agility.md)<br>3. [Megahorn](../pokedex/moves/megahorn.md)<br>4. [Smart Strike](../pokedex/moves/smart-strike.md) |
 | ![kabutops](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/141.gif){ .sprite }<br>[Kabutops](../pokedex/pokemon/kabutops.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span> <span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span></div> | **Level:** 61<br>**Ability:** [Battle Armor](../pokedex/abilities/battle-armor.md) | 1. [Aqua Jet](../pokedex/moves/aqua-jet.md)<br>2. [Swords Dance](../pokedex/moves/swords-dance.md)<br>3. [Stone Edge](../pokedex/moves/stone-edge.md)<br>4. [X Scissor](../pokedex/moves/x-scissor.md) |
 
-
-**Ace Trainer Melina**
+**● Ace Trainer Melina**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -4372,8 +4036,7 @@ Right side: Tate
 | ![walrein](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/365.gif){ .sprite }<br>[Walrein](../pokedex/pokemon/walrein.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #98D8D8 0%, #98D8D8dd 100%);">Ice</span> <span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span></div> | **Level:** 61<br>**Ability:** [Thick Fat](../pokedex/abilities/thick-fat.md) | 1. [Surf](../pokedex/moves/surf.md)<br>2. [Ice Beam](../pokedex/moves/ice-beam.md)<br>3. [Earthquake](../pokedex/moves/earthquake.md)<br>4. [Rain Dance](../pokedex/moves/rain-dance.md) |
 | ![milotic](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/350.gif){ .sprite }<br>[Milotic](../pokedex/pokemon/milotic.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span></div> | **Level:** 61<br>**Ability:** [Marvel Scale](../pokedex/abilities/marvel-scale.md) | 1. [Scald](../pokedex/moves/scald.md)<br>2. [Ice Beam](../pokedex/moves/ice-beam.md)<br>3. [Recover](../pokedex/moves/recover.md)<br>4. [Confuse Ray](../pokedex/moves/confuse-ray.md) |
 
-
-**Ace Trainer Santino**
+**○ Ace Trainer Santino**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -4381,8 +4044,7 @@ Right side: Tate
 | ![slowking](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/199.gif){ .sprite }<br>[Slowking](../pokedex/pokemon/slowking.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> <span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span></div> | **Level:** 61<br>**Ability:** [Regenerator](../pokedex/abilities/regenerator.md) | 1. [Psychic](../pokedex/moves/psychic.md)<br>2. [Surf](../pokedex/moves/surf.md)<br>3. [Flamethrower](../pokedex/moves/flamethrower.md)<br>4. [Slack Off](../pokedex/moves/slack-off.md) |
 | ![kingdra](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/230.gif){ .sprite }<br>[Kingdra](../pokedex/pokemon/kingdra.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> <span class="type-badge" style="background: linear-gradient(135deg, #7038F8 0%, #7038F8dd 100%);">Dragon</span></div> | **Level:** 61<br>**Ability:** [Sniper](../pokedex/abilities/sniper.md) | 1. [Draco Meteor](../pokedex/moves/draco-meteor.md)<br>2. [Scald](../pokedex/moves/scald.md)<br>3. [Outrage](../pokedex/moves/outrage.md)<br>4. [Dragon Dance](../pokedex/moves/dragon-dance.md) |
 
-
-**Ace Trainer Jeanne**
+**○ Ace Trainer Jeanne**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -4391,8 +4053,7 @@ Right side: Tate
 | ![whiscash](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/340.gif){ .sprite }<br>[Whiscash](../pokedex/pokemon/whiscash.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span></div> | **Level:** 61<br>**Ability:** [Simple](../pokedex/abilities/simple.md) | 1. [Earthquake](../pokedex/moves/earthquake.md)<br>2. [Wave Crash](../pokedex/moves/wave-crash.md)<br>3. [Ice Beam](../pokedex/moves/ice-beam.md)<br>4. [Dragon Dance](../pokedex/moves/dragon-dance.md) |
 | ![simipour](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/516.gif){ .sprite }<br>[Simipour](../pokedex/pokemon/simipour.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span></div> | **Level:** 61<br>**Ability:** [Torrent](../pokedex/abilities/torrent.md) | 1. [Rock Slide](../pokedex/moves/rock-slide.md)<br>2. [Acrobatics](../pokedex/moves/acrobatics.md)<br>3. [Hydro Pump](../pokedex/moves/hydro-pump.md)<br>4. [Ice Beam](../pokedex/moves/ice-beam.md) |
 
-
-**Ace Trainer Enzio**
+**● Ace Trainer Enzio**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -4402,8 +4063,7 @@ Right side: Tate
 | ![gyarados](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/130.gif){ .sprite }<br>[Gyarados](../pokedex/pokemon/gyarados.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 61<br>**Ability:** [Moxie](../pokedex/abilities/moxie.md) | 1. [Earthquake](../pokedex/moves/earthquake.md)<br>2. [Ice Fang](../pokedex/moves/ice-fang.md)<br>3. [Waterfall](../pokedex/moves/waterfall.md)<br>4. [Dragon Dance](../pokedex/moves/dragon-dance.md) |
 | ![omastar](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/139.gif){ .sprite }<br>[Omastar](../pokedex/pokemon/omastar.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span> <span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span></div> | **Level:** 61<br>**Ability:** [Shell Armor](../pokedex/abilities/shell-armor.md) | 1. [Hydro Pump](../pokedex/moves/hydro-pump.md)<br>2. [Ice Beam](../pokedex/moves/ice-beam.md)<br>3. [Earth Power](../pokedex/moves/earth-power.md)<br>4. [Shell Smash](../pokedex/moves/shell-smash.md) |
 
-
-**Ace Trainer Sable**
+**● Ace Trainer Sable**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -4412,8 +4072,7 @@ Right side: Tate
 | ![vaporeon](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/134.gif){ .sprite }<br>[Vaporeon](../pokedex/pokemon/vaporeon.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span></div> | **Level:** 61<br>**Ability:** [Water Absorb](../pokedex/abilities/water-absorb.md) | 1. [Scald](../pokedex/moves/scald.md)<br>2. [Ice Beam](../pokedex/moves/ice-beam.md)<br>3. [Wish](../pokedex/moves/wish.md)<br>4. [Protect](../pokedex/moves/protect.md) |
 | ![relicanth](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/369.gif){ .sprite }<br>[Relicanth](../pokedex/pokemon/relicanth.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> <span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span></div> | **Level:** 61<br>**Ability:** [Rock Head](../pokedex/abilities/rock-head.md) | 1. [Head Smash](../pokedex/moves/head-smash.md)<br>2. [Wave Crash](../pokedex/moves/wave-crash.md)<br>3. [Zen Headbutt](../pokedex/moves/zen-headbutt.md)<br>4. [Bounce](../pokedex/moves/bounce.md) |
 
-
-**♛ LEADER MARLON**
+**●♛ LEADER MARLON**
 
 **Reward:** ![TM51](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM51](../pokedex/items/tm51.md), [Wave Crash](../pokedex/moves/wave-crash.md)
 
@@ -4428,8 +4087,7 @@ Right side: Tate
 | ![jellicent](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/593.gif){ .sprite }<br>[Jellicent](../pokedex/pokemon/jellicent.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span></div> | **Level:** 64<br>**Ability:** [Cursed Body](../pokedex/abilities/cursed-body.md)<br>**Item:** ![Sitrus Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/sitrus-berry.png){ .item-sprite } [Sitrus Berry](../pokedex/items/sitrus-berry.md) | 1. [Scald](../pokedex/moves/scald.md)<br>2. [Shadow Ball](../pokedex/moves/shadow-ball.md)<br>3. [Ice Beam](../pokedex/moves/ice-beam.md)<br>4. [Recover](../pokedex/moves/recover.md) |
 | ![bibarel](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/400.gif){ .sprite }<br>[Bibarel](../pokedex/pokemon/bibarel.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> <span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span></div> | **Level:** 63<br>**Ability:** [Simple](../pokedex/abilities/simple.md)<br>**Item:** ![Chople Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/chople-berry.png){ .item-sprite } [Chople Berry](../pokedex/items/chople-berry.md) | 1. [Wave Crash](../pokedex/moves/wave-crash.md)<br>2. [Strength](../pokedex/moves/strength.md)<br>3. [Aqua Jet](../pokedex/moves/aqua-jet.md)<br>4. [Swords Dance](../pokedex/moves/swords-dance.md) |
 
-
-**♛ LEADER MARLON**
+**●♛ LEADER MARLON**
 
 **Reward:** ![TM51](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM51](../pokedex/items/tm51.md), [Wave Crash](../pokedex/moves/wave-crash.md)
 
@@ -4450,13 +4108,12 @@ Right side: Tate
 | ![starmie](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/121.gif){ .sprite }<br>[Starmie](../pokedex/pokemon/starmie.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> <span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span></div> | **Level:** 67<br>**Ability:** [Analytic](../pokedex/abilities/analytic.md)<br>**Item:** ![Rindo Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/rindo-berry.png){ .item-sprite } [Rindo Berry](../pokedex/items/rindo-berry.md) | 1. [Thunder](../pokedex/moves/thunder.md)<br>2. [Hydro Pump](../pokedex/moves/hydro-pump.md)<br>3. [Psychic](../pokedex/moves/psychic.md)<br>4. [Ice Beam](../pokedex/moves/ice-beam.md) |
 | ![kingdra](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/230.gif){ .sprite }<br>[Kingdra](../pokedex/pokemon/kingdra.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> <span class="type-badge" style="background: linear-gradient(135deg, #7038F8 0%, #7038F8dd 100%);">Dragon</span></div> | **Level:** 68<br>**Ability:** [Swift Swim](../pokedex/abilities/swift-swim.md)<br>**Item:** ![Water Gem](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/water-gem.png){ .item-sprite } [Water Gem](../pokedex/items/water-gem.md) | 1. [Muddy Water](../pokedex/moves/muddy-water.md)<br>2. [Dragon Pulse](../pokedex/moves/dragon-pulse.md)<br>3. [Hurricane](../pokedex/moves/hurricane.md)<br>4. [Flash Cannon](../pokedex/moves/flash-cannon.md) |
 
-
 ### Route 21 - Plasma Frigate (Second Visit)
 
  - Levels -4 on Easy mode, +4 on Challenge mode.
 
 
-**Plasma Grunt #500**
+**● Plasma Grunt #500**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -4466,8 +4123,7 @@ Right side: Tate
 | ![beartic](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/614.gif){ .sprite }<br>[Beartic](../pokedex/pokemon/beartic.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #98D8D8 0%, #98D8D8dd 100%);">Ice</span> <span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span></div> | **Level:** 61<br>**Ability:** [Sheer Force](../pokedex/abilities/sheer-force.md) | 1. [Icicle Crash](../pokedex/moves/icicle-crash.md)<br>2. [Close Combat](../pokedex/moves/close-combat.md)<br>3. [Ice Shard](../pokedex/moves/ice-shard.md)<br>4. [Earthquake](../pokedex/moves/earthquake.md) |
 | ![rapidash](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/78.gif){ .sprite }<br>[Rapidash](../pokedex/pokemon/rapidash.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F08030 0%, #F08030dd 100%);">Fire</span> <span class="type-badge" style="background: linear-gradient(135deg, #EE99AC 0%, #EE99ACdd 100%);">Fairy</span></div> | **Level:** 61<br>**Ability:** [Flame Body](../pokedex/abilities/flame-body.md) | 1. [Flare Blitz](../pokedex/moves/flare-blitz.md)<br>2. [High Horsepower](../pokedex/moves/high-horsepower.md)<br>3. [Play Rough](../pokedex/moves/play-rough.md)<br>4. [Low Sweep](../pokedex/moves/low-sweep.md) |
 
-
-**Plasma Grunts #798 and #799**
+**● Plasma Grunts #798 and #799**
 
 **Battle Type:** Tag
 
@@ -4487,7 +4143,6 @@ Right side: Tate
 	| ![steelix](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/208.gif){ .sprite }<br>[Steelix](../pokedex/pokemon/steelix.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #B8B8D0 0%, #B8B8D0dd 100%);">Steel</span> <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span></div> | **Level:** 61<br>**Ability:** [Sheer Force](../pokedex/abilities/sheer-force.md) | 1. [Iron Tail](../pokedex/moves/iron-tail.md)<br>2. [High Horsepower](../pokedex/moves/high-horsepower.md)<br>3. [Thunder Fang](../pokedex/moves/thunder-fang.md)<br>4. [Dragon Dance](../pokedex/moves/dragon-dance.md) |
 	| ![accelgor](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/617.gif){ .sprite }<br>[Accelgor](../pokedex/pokemon/accelgor.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span></div> | **Level:** 61<br>**Ability:** [Infiltrator](../pokedex/abilities/infiltrator.md) | 1. [Energy Ball](../pokedex/moves/energy-ball.md)<br>2. [Focus Blast](../pokedex/moves/focus-blast.md)<br>3. [Bug Buzz](../pokedex/moves/bug-buzz.md)<br>4. [Extreme Speed](../pokedex/moves/extreme-speed.md) |
 
-
 === "Partner Hugh"
 
 	=== "Oshawott"
@@ -4514,13 +4169,12 @@ Right side: Tate
 		| ![flygon](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/330.gif){ .sprite }<br>[Flygon](../pokedex/pokemon/flygon.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> <span class="type-badge" style="background: linear-gradient(135deg, #7038F8 0%, #7038F8dd 100%);">Dragon</span></div> | **Level:** 62<br>**Ability:** [Levitate](../pokedex/abilities/levitate.md) | 1. [Earth Power](../pokedex/moves/earth-power.md)<br>2. [Dragon Pulse](../pokedex/moves/dragon-pulse.md)<br>3. [Bug Buzz](../pokedex/moves/bug-buzz.md)<br>4. [Rock Slide](../pokedex/moves/rock-slide.md) |
 		| ![samurott](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/503.gif){ .sprite }<br>[Samurott](../pokedex/pokemon/samurott.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> <span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span></div> | **Level:** 63<br>**Ability:** [Water Veil](../pokedex/abilities/water-veil.md) | 1. [Air Slash](../pokedex/moves/air-slash.md)<br>2. [Waterfall](../pokedex/moves/waterfall.md)<br>3. [Megahorn](../pokedex/moves/megahorn.md)<br>4. [Superpower](../pokedex/moves/superpower.md) |
 
-
 #### Below Deck
 
 #### Main Corridor
 
 
-**Plasma Grunt #801**
+**○ Plasma Grunt #801**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -4528,8 +4182,7 @@ Right side: Tate
 | ![shiftry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/275.gif){ .sprite }<br>[Shiftry](../pokedex/pokemon/shiftry.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span> <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span></div> | **Level:** 63<br>**Ability:** [Rattled](../pokedex/abilities/rattled.md) | 1. [Leaf Storm](../pokedex/moves/leaf-storm.md)<br>2. [Sucker Punch](../pokedex/moves/sucker-punch.md)<br>3. [Icy Wind](../pokedex/moves/icy-wind.md)<br>4. [Air Slash](../pokedex/moves/air-slash.md) |
 | ![skarmory](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/227.gif){ .sprite }<br>[Skarmory](../pokedex/pokemon/skarmory.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #B8B8D0 0%, #B8B8D0dd 100%);">Steel</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 63<br>**Ability:** [Sturdy](../pokedex/abilities/sturdy.md) | 1. [Drill Peck](../pokedex/moves/drill-peck.md)<br>2. [Steel Wing](../pokedex/moves/steel-wing.md)<br>3. [Counter](../pokedex/moves/counter.md)<br>4. [Pursuit](../pokedex/moves/pursuit.md) |
 
-
-**Plasma Grunt #800**
+**○ Plasma Grunt #800**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -4537,11 +4190,10 @@ Right side: Tate
 | ![houndoom](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/229.gif){ .sprite }<br>[Houndoom](../pokedex/pokemon/houndoom.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> <span class="type-badge" style="background: linear-gradient(135deg, #F08030 0%, #F08030dd 100%);">Fire</span></div> | **Level:** 63<br>**Ability:** [Flash Fire](../pokedex/abilities/flash-fire.md) | 1. [Dark Pulse](../pokedex/moves/dark-pulse.md)<br>2. [Sucker Punch](../pokedex/moves/sucker-punch.md)<br>3. [Flamethrower](../pokedex/moves/flamethrower.md)<br>4. [Sludge Bomb](../pokedex/moves/sludge-bomb.md) |
 | ![feraligatr](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/160.gif){ .sprite }<br>[Feraligatr](../pokedex/pokemon/feraligatr.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span></div> | **Level:** 63<br>**Ability:** [Sheer Force](../pokedex/abilities/sheer-force.md) | 1. [Dragon Dance](../pokedex/moves/dragon-dance.md)<br>2. [Wave Crash](../pokedex/moves/wave-crash.md)<br>3. [Avalanche](../pokedex/moves/avalanche.md)<br>4. [Rock Slide](../pokedex/moves/rock-slide.md) |
 
-
 #### Left-hand Rooms
 
 
-**Plasma Grunt #436/451**
+**○ Plasma Grunt #436/451**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -4549,41 +4201,36 @@ Right side: Tate
 | ![vileplume](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/45.gif){ .sprite }<br>[Vileplume](../pokedex/pokemon/vileplume.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span> <span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span></div> | **Level:** 62<br>**Ability:** [Thick Fat](../pokedex/abilities/thick-fat.md) | 1. [Sludge Bomb](../pokedex/moves/sludge-bomb.md)<br>2. [Sleep Powder](../pokedex/moves/sleep-powder.md)<br>3. [Moonblast](../pokedex/moves/moonblast.md)<br>4. [Giga Drain](../pokedex/moves/giga-drain.md) |
 | ![tyranitar](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/248.gif){ .sprite }<br>[Tyranitar](../pokedex/pokemon/tyranitar.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span> <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span></div> | **Level:** 62<br>**Ability:** [Battle Armor](../pokedex/abilities/battle-armor.md) | 1. [Thunderbolt](../pokedex/moves/thunderbolt.md)<br>2. [Ice Beam](../pokedex/moves/ice-beam.md)<br>3. [Rock Polish](../pokedex/moves/rock-polish.md)<br>4. [Dark Pulse](../pokedex/moves/dark-pulse.md) |
 
-
-**Plasma Grunt #427/442**
+**○ Plasma Grunt #427/442**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
 | ![skuntank](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/435.gif){ .sprite }<br>[Skuntank](../pokedex/pokemon/skuntank.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span> <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span></div> | **Level:** 63<br>**Ability:** [Aftermath](../pokedex/abilities/aftermath.md) | 1. [Explosion](../pokedex/moves/explosion.md)<br>2. [Gunk Shot](../pokedex/moves/gunk-shot.md)<br>3. [Sucker Punch](../pokedex/moves/sucker-punch.md)<br>4. [Toxic](../pokedex/moves/toxic.md) |
 
-
-**Plasma Grunt #426/441**
+**○ Plasma Grunt #426/441**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
 | ![muk](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/89.gif){ .sprite }<br>[Muk](../pokedex/pokemon/muk.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span></div> | **Level:** 62<br>**Ability:** [Poison Touch](../pokedex/abilities/poison-touch.md) | 1. [Gunk Shot](../pokedex/moves/gunk-shot.md)<br>2. [Shadow Punch](../pokedex/moves/shadow-punch.md)<br>3. [Pursuit](../pokedex/moves/pursuit.md)<br>4. [Haze](../pokedex/moves/haze.md) |
 | ![raticate](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/20.gif){ .sprite }<br>[Raticate](../pokedex/pokemon/raticate.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span></div> | **Level:** 62<br>**Ability:** [Hustle](../pokedex/abilities/hustle.md) | 1. [Double Edge](../pokedex/moves/double-edge.md)<br>2. [Reversal](../pokedex/moves/reversal.md)<br>3. [Quick Attack](../pokedex/moves/quick-attack.md)<br>4. [Sucker Punch](../pokedex/moves/sucker-punch.md) |
 
-
-**Plasma Grunt #440**
+**○ Plasma Grunt #440**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
 | ![scrafty](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/560.gif){ .sprite }<br>[Scrafty](../pokedex/pokemon/scrafty.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> <span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span></div> | **Level:** 62<br>**Ability:** [Intimidate](../pokedex/abilities/intimidate.md) | 1. [Assurance](../pokedex/moves/assurance.md)<br>2. [Zen Headbutt](../pokedex/moves/zen-headbutt.md)<br>3. [Drain Punch](../pokedex/moves/drain-punch.md)<br>4. [Ice Punch](../pokedex/moves/ice-punch.md) |
 | ![liepard](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/510.gif){ .sprite }<br>[Liepard](../pokedex/pokemon/liepard.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span></div> | **Level:** 62<br>**Ability:** [Prankster](../pokedex/abilities/prankster.md) | 1. [Foul Play](../pokedex/moves/foul-play.md)<br>2. [Thunder Wave](../pokedex/moves/thunder-wave.md)<br>3. [Fake Out](../pokedex/moves/fake-out.md)<br>4. [Night Slash](../pokedex/moves/night-slash.md) |
 
-
 #### Right-hand Rooms
 
 
-**Plasma Grunt #428/443**
+**○ Plasma Grunt #428/443**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
 | ![weezing](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/110.gif){ .sprite }<br>[Weezing](../pokedex/pokemon/weezing.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span></div> | **Level:** 63<br>**Ability:** [Levitate](../pokedex/abilities/levitate.md) | 1. [Explosion](../pokedex/moves/explosion.md)<br>2. [Destiny Bond](../pokedex/moves/destiny-bond.md)<br>3. [Lava Plume](../pokedex/moves/lava-plume.md)<br>4. [Sludge Bomb](../pokedex/moves/sludge-bomb.md) |
 
-
-**Plasma Grunt #437/452**
+**○ Plasma Grunt #437/452**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -4591,18 +4238,16 @@ Right side: Tate
 | ![zweilous](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/634.gif){ .sprite }<br>[Zweilous](../pokedex/pokemon/zweilous.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> <span class="type-badge" style="background: linear-gradient(135deg, #7038F8 0%, #7038F8dd 100%);">Dragon</span></div> | **Level:** 62<br>**Ability:** [Hustle](../pokedex/abilities/hustle.md) | 1. [Dragon Rush](../pokedex/moves/dragon-rush.md)<br>2. [Hyper Voice](../pokedex/moves/hyper-voice.md)<br>3. [Zen Headbutt](../pokedex/moves/zen-headbutt.md)<br>4. [Head Smash](../pokedex/moves/head-smash.md) |
 | ![druddigon](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/621.gif){ .sprite }<br>[Druddigon](../pokedex/pokemon/druddigon.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #7038F8 0%, #7038F8dd 100%);">Dragon</span></div> | **Level:** 62<br>**Ability:** [Rough Skin](../pokedex/abilities/rough-skin.md) | 1. [Iron Head](../pokedex/moves/iron-head.md)<br>2. [Sucker Punch](../pokedex/moves/sucker-punch.md)<br>3. [Dragon Tail](../pokedex/moves/dragon-tail.md)<br>4. [Aqua Tail](../pokedex/moves/aqua-tail.md) |
 
-
 ○ Plasma Grunt #429/444
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
 | ![krookodile](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/553.gif){ .sprite }<br>[Krookodile](../pokedex/pokemon/krookodile.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span></div> | **Level:** 62<br>**Ability:** [Intimidate](../pokedex/abilities/intimidate.md) | 1. [Thunder Fang](../pokedex/moves/thunder-fang.md)<br>2. [Raging Fury](../pokedex/moves/raging-fury.md)<br>3. [Crunch](../pokedex/moves/crunch.md)<br>4. [High Horsepower](../pokedex/moves/high-horsepower.md) |
 | ![magnezone](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/462.gif){ .sprite }<br>[Magnezone](../pokedex/pokemon/magnezone.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F8D030 0%, #F8D030dd 100%);">Electric</span> <span class="type-badge" style="background: linear-gradient(135deg, #B8B8D0 0%, #B8B8D0dd 100%);">Steel</span></div> | **Level:** 62<br>**Ability:** [Sturdy](../pokedex/abilities/sturdy.md) | 1. [Thunderbolt](../pokedex/moves/thunderbolt.md)<br>2. [Flash Cannon](../pokedex/moves/flash-cannon.md)<br>3. [Signal Beam](../pokedex/moves/signal-beam.md)<br>4. [Tri Attack](../pokedex/moves/tri-attack.md) |
 
-
 #### Kyurem's Containment Room
 
 
-**ZINZOLIN - Plasma Frigate 1st Match (Tag)**
+**●♕ ZINZOLIN - Plasma Frigate 1st Match (Tag)**
 
 **Battle Type:** and Plasma Grunt #797
 
@@ -4622,7 +4267,6 @@ Right side: Tate
 	| ![golem](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/76.gif){ .sprite }<br>[Golem](../pokedex/pokemon/golem.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span> <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span></div> | **Level:** 62<br>**Ability:** [Sturdy](../pokedex/abilities/sturdy.md)<br>**Item:** ![Rock Gem](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/rock-gem.png){ .item-sprite } [Rock Gem](../pokedex/items/rock-gem.md) | 1. [Rock Slide](../pokedex/moves/rock-slide.md)<br>2. [Accelerock](../pokedex/moves/accelerock.md)<br>3. [Thunder Punch](../pokedex/moves/thunder-punch.md)<br>4. [Steamroller](../pokedex/moves/steamroller.md) |
 	| ![carnivine](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/455.gif){ .sprite }<br>[Carnivine](../pokedex/pokemon/carnivine.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span></div> | **Level:** 62<br>**Ability:** [Levitate](../pokedex/abilities/levitate.md)<br>**Item:** ![Focus Sash](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/focus-sash.png){ .item-sprite } [Focus Sash](../pokedex/items/focus-sash.md) | 1. [Power Whip](../pokedex/moves/power-whip.md)<br>2. [Rage Powder](../pokedex/moves/rage-powder.md)<br>3. [Sleep Powder](../pokedex/moves/sleep-powder.md)<br>4. [Knock Off](../pokedex/moves/knock-off.md) |
 
-
 === "Partner Hugh"
 
 	=== "Oshawott"
@@ -4649,13 +4293,12 @@ Right side: Tate
 		| ![flygon](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/330.gif){ .sprite }<br>[Flygon](../pokedex/pokemon/flygon.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> <span class="type-badge" style="background: linear-gradient(135deg, #7038F8 0%, #7038F8dd 100%);">Dragon</span></div> | **Level:** 62<br>**Ability:** [Levitate](../pokedex/abilities/levitate.md) | 1. [Earth Power](../pokedex/moves/earth-power.md)<br>2. [Dragon Pulse](../pokedex/moves/dragon-pulse.md)<br>3. [Bug Buzz](../pokedex/moves/bug-buzz.md)<br>4. [Rock Slide](../pokedex/moves/rock-slide.md) |
 		| ![samurott](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/503.gif){ .sprite }<br>[Samurott](../pokedex/pokemon/samurott.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> <span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span></div> | **Level:** 63<br>**Ability:** [Water Veil](../pokedex/abilities/water-veil.md) | 1. [Air Slash](../pokedex/moves/air-slash.md)<br>2. [Waterfall](../pokedex/moves/waterfall.md)<br>3. [Megahorn](../pokedex/moves/megahorn.md)<br>4. [Superpower](../pokedex/moves/superpower.md) |
 
-
 ### Giant Chasm - Plasma Frigate (Third Visit)
 
  - Levels -4 on Easy mode, +4 on Challenge mode.
 
 
-**Plasma Grunt #724**
+**● Plasma Grunt #724**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -4664,8 +4307,7 @@ Right side: Tate
 | ![farfetchd](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/83.gif){ .sprite }<br>[Farfetchˈd](../pokedex/pokemon/farfetchd.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 62<br>**Ability:** [Defeatist](../pokedex/abilities/defeatist.md) | 1. [Close Combat](../pokedex/moves/close-combat.md)<br>2. [Acrobatics](../pokedex/moves/acrobatics.md)<br>3. [Leaf Blade](../pokedex/moves/leaf-blade.md)<br>4. [Poison Jab](../pokedex/moves/poison-jab.md) |
 | ![girafarig](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/203.gif){ .sprite }<br>[Girafarig](../pokedex/pokemon/girafarig.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> <span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span></div> | **Level:** 62<br>**Ability:** [Sap Sipper](../pokedex/abilities/sap-sipper.md) | 1. [High Horsepower](../pokedex/moves/high-horsepower.md)<br>2. [Double Edge](../pokedex/moves/double-edge.md)<br>3. [Psyshield Bash](../pokedex/moves/psyshield-bash.md)<br>4. [Foul Play](../pokedex/moves/foul-play.md) |
 
-
-**Plasma Grunts #807 and #809**
+**● Plasma Grunts #807 and #809**
 
 **Left side**
 
@@ -4682,13 +4324,12 @@ Right side: Tate
 | ![dugtrio](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/51.gif){ .sprite }<br>[Dugtrio](../pokedex/pokemon/dugtrio.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span></div> | **Level:** 64<br>**Ability:** [Sand Force](../pokedex/abilities/sand-force.md)<br>**Item:** ![Wide Lens](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/wide-lens.png){ .item-sprite } [Wide Lens](../pokedex/items/wide-lens.md) | 1. [Protect](../pokedex/moves/protect.md)<br>2. [Fissure](../pokedex/moves/fissure.md)<br>3. [High Horsepower](../pokedex/moves/high-horsepower.md)<br>4. [Stone Edge](../pokedex/moves/stone-edge.md) |
 | ![pidgeot](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/18.gif){ .sprite }<br>[Pidgeot](../pokedex/pokemon/pidgeot.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 64<br>**Ability:** [No Guard](../pokedex/abilities/no-guard.md)<br>**Item:** ![Charcoal](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/charcoal.png){ .item-sprite } [Charcoal](../pokedex/items/charcoal.md) | 1. [Protect](../pokedex/moves/protect.md)<br>2. [Air Slash](../pokedex/moves/air-slash.md)<br>3. [Heat Wave](../pokedex/moves/heat-wave.md)<br>4. [Hyper Voice](../pokedex/moves/hyper-voice.md) |
 
-
 #### Pipe Section
 
 #### High-ground
 
 
-**Plasma Grunt #430/445**
+**○ Plasma Grunt #430/445**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -4696,32 +4337,28 @@ Right side: Tate
 | ![toxicroak](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/454.gif){ .sprite }<br>[Toxicroak](../pokedex/pokemon/toxicroak.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span> <span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span></div> | **Level:** 62<br>**Ability:** [Poison Touch](../pokedex/abilities/poison-touch.md) | 1. [Cross Poison](../pokedex/moves/cross-poison.md)<br>2. [Bullet Punch](../pokedex/moves/bullet-punch.md)<br>3. [Close Combat](../pokedex/moves/close-combat.md)<br>4. [Acupressure](../pokedex/moves/acupressure.md) |
 | ![persian](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/53.gif){ .sprite }<br>[Persian](../pokedex/pokemon/persian.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span></div> | **Level:** 62<br>**Ability:** [Technician](../pokedex/abilities/technician.md) | 1. [Play Rough](../pokedex/moves/play-rough.md)<br>2. [Fake Out](../pokedex/moves/fake-out.md)<br>3. [Double Edge](../pokedex/moves/double-edge.md)<br>4. [Power Gem](../pokedex/moves/power-gem.md) |
 
-
-**Plasma Grunt #431/446**
+**○ Plasma Grunt #431/446**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
 | ![dodrio](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/85.gif){ .sprite }<br>[Dodrio](../pokedex/pokemon/dodrio.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 62<br>**Ability:** [Anger Point](../pokedex/abilities/anger-point.md) | 1. [High Jump Kick](../pokedex/moves/high-jump-kick.md)<br>2. [Double Edge](../pokedex/moves/double-edge.md)<br>3. [Brave Bird](../pokedex/moves/brave-bird.md)<br>4. [Quick Attack](../pokedex/moves/quick-attack.md) |
 | ![dewgong](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/87.gif){ .sprite }<br>[Dewgong](../pokedex/pokemon/dewgong.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> <span class="type-badge" style="background: linear-gradient(135deg, #98D8D8 0%, #98D8D8dd 100%);">Ice</span></div> | **Level:** 62<br>**Ability:** [Thick Fat](../pokedex/abilities/thick-fat.md) | 1. [Avalanche](../pokedex/moves/avalanche.md)<br>2. [Ice Shard](../pokedex/moves/ice-shard.md)<br>3. [Perish Song](../pokedex/moves/perish-song.md)<br>4. [Waterfall](../pokedex/moves/waterfall.md) |
 
-
-**Plasma Grunt #810**
+**○ Plasma Grunt #810**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
 | ![tentacruel](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/73.gif){ .sprite }<br>[Tentacruel](../pokedex/pokemon/tentacruel.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> <span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span></div> | **Level:** 62<br>**Ability:** [Clear Body](../pokedex/abilities/clear-body.md) | 1. [Swords Dance](../pokedex/moves/swords-dance.md)<br>2. [Cross Poison](../pokedex/moves/cross-poison.md)<br>3. [Waterfall](../pokedex/moves/waterfall.md)<br>4. [Knock Off](../pokedex/moves/knock-off.md) |
 | ![glalie](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/362.gif){ .sprite }<br>[Glalie](../pokedex/pokemon/glalie.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #98D8D8 0%, #98D8D8dd 100%);">Ice</span> <span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span></div> | **Level:** 62<br>**Ability:** [Levitate](../pokedex/abilities/levitate.md) | 1. [Rock Polish](../pokedex/moves/rock-polish.md)<br>2. [Head Smash](../pokedex/moves/head-smash.md)<br>3. [Icicle Crash](../pokedex/moves/icicle-crash.md)<br>4. [Ice Shard](../pokedex/moves/ice-shard.md) |
 
-
-**Plasma Grunt #808**
+**○ Plasma Grunt #808**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
 | ![parasect](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/47.gif){ .sprite }<br>[Parasect](../pokedex/pokemon/parasect.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> <span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span></div> | **Level:** 62<br>**Ability:** [Effect Spore](../pokedex/abilities/effect-spore.md) | 1. [Spore](../pokedex/moves/spore.md)<br>2. [Leech Life](../pokedex/moves/leech-life.md)<br>3. [Seed Bomb](../pokedex/moves/seed-bomb.md)<br>4. [Leech Seed](../pokedex/moves/leech-seed.md) |
 | ![rhydon](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/112.gif){ .sprite }<br>[Rhydon](../pokedex/pokemon/rhydon.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> <span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span></div> | **Level:** 62<br>**Ability:** [Rock Head](../pokedex/abilities/rock-head.md) | 1. [Earthquake](../pokedex/moves/earthquake.md)<br>2. [Rock Wrecker](../pokedex/moves/rock-wrecker.md)<br>3. [Megahorn](../pokedex/moves/megahorn.md)<br>4. [Ice Fang](../pokedex/moves/ice-fang.md) |
 
-
-**Doctor Julius**
+**○ Doctor Julius**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -4729,53 +4366,47 @@ Right side: Tate
 | ![snorlax](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/143.gif){ .sprite }<br>[Snorlax](../pokedex/pokemon/snorlax.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span></div> | **Level:** 64<br>**Ability:** [Thick Fat](../pokedex/abilities/thick-fat.md) | 1. [Heat Crash](../pokedex/moves/heat-crash.md)<br>2. [Body Slam](../pokedex/moves/body-slam.md)<br>3. [High Horsepower](../pokedex/moves/high-horsepower.md)<br>4. [Curse](../pokedex/moves/curse.md) |
 | ![alomomola](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/594.gif){ .sprite }<br>[Alomomola](../pokedex/pokemon/alomomola.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span></div> | **Level:** 64<br>**Ability:** [Regenerator](../pokedex/abilities/regenerator.md) | 1. [Scald](../pokedex/moves/scald.md)<br>2. [Protect](../pokedex/moves/protect.md)<br>3. [Wish](../pokedex/moves/wish.md)<br>4. [Toxic](../pokedex/moves/toxic.md) |
 
-
 #### Low-ground
 
 
-**Plasma Grunt #432/447**
+**○ Plasma Grunt #432/447**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
 | ![durant](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/632.gif){ .sprite }<br>[Durant](../pokedex/pokemon/durant.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> <span class="type-badge" style="background: linear-gradient(135deg, #B8B8D0 0%, #B8B8D0dd 100%);">Steel</span></div> | **Level:** 62<br>**Ability:** [Heatproof](../pokedex/abilities/heatproof.md) | 1. [Iron Head](../pokedex/moves/iron-head.md)<br>2. [Rock Climb](../pokedex/moves/rock-climb.md)<br>3. [Lunge](../pokedex/moves/lunge.md)<br>4. [Thunder Fang](../pokedex/moves/thunder-fang.md) |
 | ![heatmor](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/631.gif){ .sprite }<br>[Heatmor](../pokedex/pokemon/heatmor.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F08030 0%, #F08030dd 100%);">Fire</span></div> | **Level:** 62<br>**Ability:** [Mold Breaker](../pokedex/abilities/mold-breaker.md) | 1. [Fire Lash](../pokedex/moves/fire-lash.md)<br>2. [Night Slash](../pokedex/moves/night-slash.md)<br>3. [Cross Chop](../pokedex/moves/cross-chop.md)<br>4. [Sucker Punch](../pokedex/moves/sucker-punch.md) |
 
-
-**Plasma Plasma Grunt #439/454**
+**● Plasma Plasma Grunt #439/454**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
 | ![sharpedo](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/319.gif){ .sprite }<br>[Sharpedo](../pokedex/pokemon/sharpedo.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span></div> | **Level:** 62<br>**Ability:** [Speed Boost](../pokedex/abilities/speed-boost.md) | 1. [Ice Beam](../pokedex/moves/ice-beam.md)<br>2. [Protect](../pokedex/moves/protect.md)<br>3. [Hydro Pump](../pokedex/moves/hydro-pump.md)<br>4. [Dark Pulse](../pokedex/moves/dark-pulse.md) |
 | ![purugly](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/432.gif){ .sprite }<br>[Purugly](../pokedex/pokemon/purugly.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span></div> | **Level:** 62<br>**Ability:** [Defiant](../pokedex/abilities/defiant.md) | 1. [Fake Out](../pokedex/moves/fake-out.md)<br>2. [Body Slam](../pokedex/moves/body-slam.md)<br>3. [Knock Off](../pokedex/moves/knock-off.md)<br>4. [Play Rough](../pokedex/moves/play-rough.md) |
 
-
-**Plasma Grunt #434/449**
+**○ Plasma Grunt #434/449**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
 | ![zangoose](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/335.gif){ .sprite }<br>[Zangoose](../pokedex/pokemon/zangoose.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span></div> | **Level:** 62<br>**Ability:** [Immunity](../pokedex/abilities/immunity.md) | 1. [Double Edge](../pokedex/moves/double-edge.md)<br>2. [Close Combat](../pokedex/moves/close-combat.md)<br>3. [Belly Drum](../pokedex/moves/belly-drum.md)<br>4. [Quick Attack](../pokedex/moves/quick-attack.md) |
 | ![seviper](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/336.gif){ .sprite }<br>[Seviper](../pokedex/pokemon/seviper.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span></div> | **Level:** 62<br>**Ability:** [Shed Skin](../pokedex/abilities/shed-skin.md) | 1. [Coil](../pokedex/moves/coil.md)<br>2. [Poison Tail](../pokedex/moves/poison-tail.md)<br>3. [Crunch](../pokedex/moves/crunch.md)<br>4. [Lunge](../pokedex/moves/lunge.md) |
 
-
-**Plasma Grunt #435/450**
+**○ Plasma Grunt #435/450**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
 | ![drapion](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/452.gif){ .sprite }<br>[Drapion](../pokedex/pokemon/drapion.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span> <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span></div> | **Level:** 63<br>**Ability:** [Sniper](../pokedex/abilities/sniper.md) | 1. [Cross Poison](../pokedex/moves/cross-poison.md)<br>2. [Night Slash](../pokedex/moves/night-slash.md)<br>3. [X Scissor](../pokedex/moves/x-scissor.md)<br>4. [Storm Throw](../pokedex/moves/storm-throw.md) |
 
-
-**Plasma Grunt #438/453**
+**○ Plasma Grunt #438/453**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
 | ![kadabra](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/64.gif){ .sprite }<br>[Kadabra](../pokedex/pokemon/kadabra.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span></div> | **Level:** 62<br>**Ability:** [Magic Guard](../pokedex/abilities/magic-guard.md) | 1. [Psyshock](../pokedex/moves/psyshock.md)<br>2. [Dazzling Gleam](../pokedex/moves/dazzling-gleam.md)<br>3. [Shadow Ball](../pokedex/moves/shadow-ball.md)<br>4. [Energy Ball](../pokedex/moves/energy-ball.md) |
 | ![haunter](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/93.gif){ .sprite }<br>[Haunter](../pokedex/pokemon/haunter.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> <span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span></div> | **Level:** 62<br>**Ability:** [Levitate](../pokedex/abilities/levitate.md) | 1. [Shadow Ball](../pokedex/moves/shadow-ball.md)<br>2. [Sludge Wave](../pokedex/moves/sludge-wave.md)<br>3. [Energy Ball](../pokedex/moves/energy-ball.md)<br>4. [Thunderbolt](../pokedex/moves/thunderbolt.md) |
 
-
 #### Past the Laser Barrier
 
 
-**ZINZOLIN - Plasma Frigate 2nd Match**
+**●♕ ZINZOLIN - Plasma Frigate 2nd Match**
 
 **Battle Type:** 2x
 
@@ -4788,8 +4419,7 @@ Right side: Tate
 | ![walrein](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/365.gif){ .sprite }<br>[Walrein](../pokedex/pokemon/walrein.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #98D8D8 0%, #98D8D8dd 100%);">Ice</span> <span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span></div> | **Level:** 65<br>**Ability:** [Ice Body](../pokedex/abilities/ice-body.md)<br>**Item:** ![Leftovers](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/leftovers.png){ .item-sprite } [Leftovers](../pokedex/items/leftovers.md) | 1. [Blizzard](../pokedex/moves/blizzard.md)<br>2. [Bubble Beam](../pokedex/moves/bubble-beam.md)<br>3. [Toxic](../pokedex/moves/toxic.md)<br>4. [Substitute](../pokedex/moves/substitute.md) |
 | ![weavile](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/461.gif){ .sprite }<br>[Weavile](../pokedex/pokemon/weavile.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> <span class="type-badge" style="background: linear-gradient(135deg, #98D8D8 0%, #98D8D8dd 100%);">Ice</span></div> | **Level:** 66<br>**Ability:** [Pressure](../pokedex/abilities/pressure.md)<br>**Item:** ![Life Orb](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/life-orb.png){ .item-sprite } [Life Orb](../pokedex/items/life-orb.md) | 1. [Night Slash](../pokedex/moves/night-slash.md)<br>2. [Triple Axel](../pokedex/moves/triple-axel.md)<br>3. [Fake Out](../pokedex/moves/fake-out.md)<br>4. [Low Kick](../pokedex/moves/low-kick.md) |
 
-
-**COLRESS - Plasma Frigate**
+**●♕ COLRESS - Plasma Frigate**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -4800,11 +4430,10 @@ Right side: Tate
 | ![porygon-z](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/474.gif){ .sprite }<br>[Porygon Z](../pokedex/pokemon/porygon-z.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span></div> | **Level:** 65<br>**Ability:** [Adaptability](../pokedex/abilities/adaptability.md)<br>**Item:** ![Custap Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/custap-berry.png){ .item-sprite } [Custap Berry](../pokedex/items/custap-berry.md) | 1. [Nasty Plot](../pokedex/moves/nasty-plot.md)<br>2. [Thunderbolt](../pokedex/moves/thunderbolt.md)<br>3. [Hyper Beam](../pokedex/moves/hyper-beam.md)<br>4. [Ice Beam](../pokedex/moves/ice-beam.md) |
 | ![klinklang](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/601.gif){ .sprite }<br>[Klinklang](../pokedex/pokemon/klinklang.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #B8B8D0 0%, #B8B8D0dd 100%);">Steel</span></div> | **Level:** 66<br>**Ability:** [Levitate](../pokedex/abilities/levitate.md)<br>**Item:** ![Life Orb](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/life-orb.png){ .item-sprite } [Life Orb](../pokedex/items/life-orb.md) | 1. [Gear Grind](../pokedex/moves/gear-grind.md)<br>2. [Shift Gear](../pokedex/moves/shift-gear.md)<br>3. [Wild Charge](../pokedex/moves/wild-charge.md)<br>4. [High Horsepower](../pokedex/moves/high-horsepower.md) |
 
-
 #### Frigate Control Room
 
 
-**Shadow Triad**
+**● Shadow Triad**
 
 **Battle Type:** 2x
 
@@ -4816,8 +4445,7 @@ Right side: Tate
 | ![absol](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/359.gif){ .sprite }<br>[Absol](../pokedex/pokemon/absol.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span></div> | **Level:** 66<br>**Ability:** [Super Luck](../pokedex/abilities/super-luck.md)<br>**Item:** ![Scope Lens](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/scope-lens.png){ .item-sprite } [Scope Lens](../pokedex/items/scope-lens.md) | 1. [Play Rough](../pokedex/moves/play-rough.md)<br>2. [Megahorn](../pokedex/moves/megahorn.md)<br>3. [Sucker Punch](../pokedex/moves/sucker-punch.md)<br>4. [Psycho Cut](../pokedex/moves/psycho-cut.md) |
 | ![feraligatr](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/160.gif){ .sprite }<br>[Feraligatr](../pokedex/pokemon/feraligatr.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span></div> | **Level:** 66<br>**Ability:** [Sheer Force](../pokedex/abilities/sheer-force.md)<br>**Item:** ![Life Orb](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/life-orb.png){ .item-sprite } [Life Orb](../pokedex/items/life-orb.md) | 1. [Waterfall](../pokedex/moves/waterfall.md)<br>2. [Crunch](../pokedex/moves/crunch.md)<br>3. [Ice Fang](../pokedex/moves/ice-fang.md)<br>4. [Aqua Jet](../pokedex/moves/aqua-jet.md) |
 
-
-**Shadow Triad**
+**● Shadow Triad**
 
 **Battle Type:** 3x
 
@@ -4829,8 +4457,7 @@ Right side: Tate
 | ![accelgor](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/617.gif){ .sprite }<br>[Accelgor](../pokedex/pokemon/accelgor.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span></div> | **Level:** 66<br>**Ability:** [Unburden](../pokedex/abilities/unburden.md)<br>**Item:** ![Bug Gem](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/bug-gem.png){ .item-sprite } [Bug Gem](../pokedex/items/bug-gem.md) | 1. [Bug Buzz](../pokedex/moves/bug-buzz.md)<br>2. [Focus Blast](../pokedex/moves/focus-blast.md)<br>3. [Giga Drain](../pokedex/moves/giga-drain.md)<br>4. [Final Gambit](../pokedex/moves/final-gambit.md) |
 | ![liepard](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/510.gif){ .sprite }<br>[Liepard](../pokedex/pokemon/liepard.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span></div> | **Level:** 65<br>**Ability:** [Prankster](../pokedex/abilities/prankster.md)<br>**Item:** ![Bright Powder](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/bright-powder.png){ .item-sprite } [Bright Powder](../pokedex/items/bright-powder.md) | 1. [Quash](../pokedex/moves/quash.md)<br>2. [Sucker Punch](../pokedex/moves/sucker-punch.md)<br>3. [Psycho Cut](../pokedex/moves/psycho-cut.md)<br>4. [Seed Bomb](../pokedex/moves/seed-bomb.md) |
 
-
-**Shadow Triad**
+**● Shadow Triad**
 
 **Battle Type:** Rot
 
@@ -4842,24 +4469,21 @@ Right side: Tate
 | ![gengar](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/94.gif){ .sprite }<br>[Gengar](../pokedex/pokemon/gengar.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> <span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span></div> | **Level:** 66<br>**Ability:** [Levitate](../pokedex/abilities/levitate.md)<br>**Item:** ![Life Orb](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/life-orb.png){ .item-sprite } [Life Orb](../pokedex/items/life-orb.md) | 1. [Shadow Ball](../pokedex/moves/shadow-ball.md)<br>2. [Aura Sphere](../pokedex/moves/aura-sphere.md)<br>3. [Sludge Wave](../pokedex/moves/sludge-wave.md)<br>4. [Hypnosis](../pokedex/moves/hypnosis.md) |
 | ![basculin-red-striped](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/550.gif){ .sprite }<br>[Basculin Red Striped](../pokedex/pokemon/basculin-red-striped.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span></div> | **Level:** 65<br>**Ability:** [Adaptability](../pokedex/abilities/adaptability.md)<br>**Item:** ![Water Gem](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/water-gem.png){ .item-sprite } [Water Gem](../pokedex/items/water-gem.md) | 1. [Wave Crash](../pokedex/moves/wave-crash.md)<br>2. [Aqua Jet](../pokedex/moves/aqua-jet.md)<br>3. [Psychic Fangs](../pokedex/moves/psychic-fangs.md)<br>4. [Head Smash](../pokedex/moves/head-smash.md) |
 
-
 #### Giant Chasm, Back Caverns
 
-**Black Kyurem - Blaze Black 2 Redux**
+**● Black Kyurem - Blaze Black 2 Redux**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
 | ![kyurem-black](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/646-black.gif){ .sprite }<br>[Kyurem Black](../pokedex/pokemon/kyurem-black.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #7038F8 0%, #7038F8dd 100%);">Dragon</span> <span class="type-badge" style="background: linear-gradient(135deg, #98D8D8 0%, #98D8D8dd 100%);">Ice</span></div> | **Level:** 70<br>**Ability:** [Teravolt](../pokedex/abilities/teravolt.md)<br>**Item:** ![Power Herb](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/power-herb.png){ .item-sprite } [Power Herb](../pokedex/items/power-herb.md) | 1. [Freeze Shock](../pokedex/moves/freeze-shock.md)<br>2. [Dragon Dance](../pokedex/moves/dragon-dance.md)<br>3. [Fusion Bolt](../pokedex/moves/fusion-bolt.md)<br>4. [Icicle Crash](../pokedex/moves/icicle-crash.md) |
 
-
-**White Kyurem - Volt White 2 Redux**
+**● White Kyurem - Volt White 2 Redux**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
 | ![kyurem-white](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/646-white.gif){ .sprite }<br>[Kyurem White](../pokedex/pokemon/kyurem-white.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #7038F8 0%, #7038F8dd 100%);">Dragon</span> <span class="type-badge" style="background: linear-gradient(135deg, #98D8D8 0%, #98D8D8dd 100%);">Ice</span></div> | **Level:** 70<br>**Ability:** [Teravolt](../pokedex/abilities/teravolt.md)<br>**Item:** ![Power Herb](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/power-herb.png){ .item-sprite } [Power Herb](../pokedex/items/power-herb.md) | 1. [Esper Wing](../pokedex/moves/esper-wing.md)<br>2. [Fusion Flare](../pokedex/moves/fusion-flare.md)<br>3. [Ice Beam](../pokedex/moves/ice-beam.md)<br>4. [Ice Burn](../pokedex/moves/ice-burn.md) |
 
-
-**GHETSIS**
+**●♕ GHETSIS**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -4870,13 +4494,12 @@ Right side: Tate
 | ![genesect](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/649.gif){ .sprite }<br>[Genesect](../pokedex/pokemon/genesect.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> <span class="type-badge" style="background: linear-gradient(135deg, #B8B8D0 0%, #B8B8D0dd 100%);">Steel</span></div> | **Level:** 68<br>**Ability:** [Download](../pokedex/abilities/download.md)<br>**Item:** ![Focus Sash](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/focus-sash.png){ .item-sprite } [Focus Sash](../pokedex/items/focus-sash.md) | 1. [Bug Buzz](../pokedex/moves/bug-buzz.md)<br>2. [Iron Head](../pokedex/moves/iron-head.md)<br>3. [Thunderbolt](../pokedex/moves/thunderbolt.md)<br>4. [Ice Beam](../pokedex/moves/ice-beam.md) |
 | ![hydreigon](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/635.gif){ .sprite }<br>[Hydreigon](../pokedex/pokemon/hydreigon.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> <span class="type-badge" style="background: linear-gradient(135deg, #7038F8 0%, #7038F8dd 100%);">Dragon</span></div> | **Level:** 67<br>**Ability:** [Levitate](../pokedex/abilities/levitate.md)<br>**Item:** ![Life Orb](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/life-orb.png){ .item-sprite } [Life Orb](../pokedex/items/life-orb.md) | 1. [Dragon Pulse](../pokedex/moves/dragon-pulse.md)<br>2. [Nasty Plot](../pokedex/moves/nasty-plot.md)<br>3. [Dark Pulse](../pokedex/moves/dark-pulse.md)<br>4. [Flash Cannon](../pokedex/moves/flash-cannon.md) |
 
-
 ### Route 23
 
  - Levels -4 on Easy mode, +4 on Challenge mode.
 
 
-**Battle Girl Brenda**
+**● Battle Girl Brenda**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -4884,16 +4507,14 @@ Right side: Tate
 | ![mienshao](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/620.gif){ .sprite }<br>[Mienshao](../pokedex/pokemon/mienshao.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span></div> | **Level:** 65<br>**Ability:** [Reckless](../pokedex/abilities/reckless.md) | 1. [Fake Out](../pokedex/moves/fake-out.md)<br>2. [High Jump Kick](../pokedex/moves/high-jump-kick.md)<br>3. [Blaze Kick](../pokedex/moves/blaze-kick.md)<br>4. [Lunge](../pokedex/moves/lunge.md) |
 | ![lucario](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/448.gif){ .sprite }<br>[Lucario](../pokedex/pokemon/lucario.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span> <span class="type-badge" style="background: linear-gradient(135deg, #B8B8D0 0%, #B8B8D0dd 100%);">Steel</span></div> | **Level:** 65<br>**Ability:** [Justified](../pokedex/abilities/justified.md) | 1. [Dragon Pulse](../pokedex/moves/dragon-pulse.md)<br>2. [Aura Sphere](../pokedex/moves/aura-sphere.md)<br>3. [Vacuum Wave](../pokedex/moves/vacuum-wave.md)<br>4. [Psychic](../pokedex/moves/psychic.md) |
 
-
-**Ace Trainer Grant**
+**● Ace Trainer Grant**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
 | ![yanmega](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/469.gif){ .sprite }<br>[Yanmega](../pokedex/pokemon/yanmega.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 66<br>**Ability:** [Speed Boost](../pokedex/abilities/speed-boost.md) | 1. [Air Slash](../pokedex/moves/air-slash.md)<br>2. [Bug Buzz](../pokedex/moves/bug-buzz.md)<br>3. [Psychic](../pokedex/moves/psychic.md)<br>4. [Giga Drain](../pokedex/moves/giga-drain.md) |
 | ![lapras](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/131.gif){ .sprite }<br>[Lapras](../pokedex/pokemon/lapras.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> <span class="type-badge" style="background: linear-gradient(135deg, #98D8D8 0%, #98D8D8dd 100%);">Ice</span></div> | **Level:** 66<br>**Ability:** [Water Absorb](../pokedex/abilities/water-absorb.md) | 1. [Ice Beam](../pokedex/moves/ice-beam.md)<br>2. [Thunderbolt](../pokedex/moves/thunderbolt.md)<br>3. [Perish Song](../pokedex/moves/perish-song.md)<br>4. [Whirlpool](../pokedex/moves/whirlpool.md) |
 
-
-**Hiker Don**
+**● Hiker Don**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -4902,8 +4523,7 @@ Right side: Tate
 | ![clefable](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/36.gif){ .sprite }<br>[Clefable](../pokedex/pokemon/clefable.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span></div> | **Level:** 65<br>**Ability:** [Unaware](../pokedex/abilities/unaware.md) | 1. [Moonblast](../pokedex/moves/moonblast.md)<br>2. [Moonlight](../pokedex/moves/moonlight.md)<br>3. [Cosmic Power](../pokedex/moves/cosmic-power.md)<br>4. [Thunder Wave](../pokedex/moves/thunder-wave.md) |
 | ![parasect](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/47.gif){ .sprite }<br>[Parasect](../pokedex/pokemon/parasect.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> <span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span></div> | **Level:** 65<br>**Ability:** [Effect Spore](../pokedex/abilities/effect-spore.md) | 1. [Spore](../pokedex/moves/spore.md)<br>2. [Cross Poison](../pokedex/moves/cross-poison.md)<br>3. [Leech Life](../pokedex/moves/leech-life.md)<br>4. [Seed Bomb](../pokedex/moves/seed-bomb.md) |
 
-
-**Ace Trainer Juliet**
+**● Ace Trainer Juliet**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -4912,16 +4532,14 @@ Right side: Tate
 | ![houndoom](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/229.gif){ .sprite }<br>[Houndoom](../pokedex/pokemon/houndoom.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> <span class="type-badge" style="background: linear-gradient(135deg, #F08030 0%, #F08030dd 100%);">Fire</span></div> | **Level:** 65<br>**Ability:** [Flash Fire](../pokedex/abilities/flash-fire.md) | 1. [Counter](../pokedex/moves/counter.md)<br>2. [Dark Pulse](../pokedex/moves/dark-pulse.md)<br>3. [Fire Blast](../pokedex/moves/fire-blast.md)<br>4. [Crunch](../pokedex/moves/crunch.md) |
 | ![golduck](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/55.gif){ .sprite }<br>[Golduck](../pokedex/pokemon/golduck.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> <span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span></div> | **Level:** 65<br>**Ability:** [Cloud Nine](../pokedex/abilities/cloud-nine.md) | 1. [Psychic](../pokedex/moves/psychic.md)<br>2. [Hydro Pump](../pokedex/moves/hydro-pump.md)<br>3. [Signal Beam](../pokedex/moves/signal-beam.md)<br>4. [Power Gem](../pokedex/moves/power-gem.md) |
 
-
-**Black Belt Luke**
+**○ Black Belt Luke**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
 | ![throh](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/538.gif){ .sprite }<br>[Throh](../pokedex/pokemon/throh.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span></div> | **Level:** 66<br>**Ability:** [Guts](../pokedex/abilities/guts.md) | 1. [Ice Punch](../pokedex/moves/ice-punch.md)<br>2. [Thunder Punch](../pokedex/moves/thunder-punch.md)<br>3. [Earthquake](../pokedex/moves/earthquake.md)<br>4. [Storm Throw](../pokedex/moves/storm-throw.md) |
 | ![sawk](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/539.gif){ .sprite }<br>[Sawk](../pokedex/pokemon/sawk.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span></div> | **Level:** 66<br>**Ability:** [Sturdy](../pokedex/abilities/sturdy.md) | 1. [Counter](../pokedex/moves/counter.md)<br>2. [Reversal](../pokedex/moves/reversal.md)<br>3. [Rock Tomb](../pokedex/moves/rock-tomb.md)<br>4. [Bulldoze](../pokedex/moves/bulldoze.md) |
 
-
-**Ranger♂ Steve**
+**○ Ranger♂ Steve**
 
 **Reward:** ![Sitrus Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/sitrus-berry.png){ .item-sprite } [Sitrus Berry](../pokedex/items/sitrus-berry.md)
 
@@ -4931,8 +4549,7 @@ Right side: Tate
 | ![exeggutor](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/103.gif){ .sprite }<br>[Exeggutor](../pokedex/pokemon/exeggutor.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span> <span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span></div> | **Level:** 65<br>**Ability:** [Chlorophyll](../pokedex/abilities/chlorophyll.md) | 1. [Extrasensory](../pokedex/moves/extrasensory.md)<br>2. [Giga Drain](../pokedex/moves/giga-drain.md)<br>3. [Sleep Powder](../pokedex/moves/sleep-powder.md)<br>4. [Sludge Bomb](../pokedex/moves/sludge-bomb.md) |
 | ![reuniclus](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/579.gif){ .sprite }<br>[Reuniclus](../pokedex/pokemon/reuniclus.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span></div> | **Level:** 65<br>**Ability:** [Magic Guard](../pokedex/abilities/magic-guard.md) | 1. [Psyshock](../pokedex/moves/psyshock.md)<br>2. [Pain Split](../pokedex/moves/pain-split.md)<br>3. [Energy Ball](../pokedex/moves/energy-ball.md)<br>4. [Focus Blast](../pokedex/moves/focus-blast.md) |
 
-
-**Ranger♀ Lena**
+**● Ranger♀ Lena**
 
 **Reward:** ![Sitrus Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/sitrus-berry.png){ .item-sprite } [Sitrus Berry](../pokedex/items/sitrus-berry.md)
 
@@ -4941,8 +4558,7 @@ Right side: Tate
 | ![floatzel](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/419.gif){ .sprite }<br>[Floatzel](../pokedex/pokemon/floatzel.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span></div> | **Level:** 66<br>**Ability:** [Water Veil](../pokedex/abilities/water-veil.md) | 1. [Lunge](../pokedex/moves/lunge.md)<br>2. [Aqua Tail](../pokedex/moves/aqua-tail.md)<br>3. [Ice Fang](../pokedex/moves/ice-fang.md)<br>4. [Aqua Jet](../pokedex/moves/aqua-jet.md) |
 | ![togekiss](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/468.gif){ .sprite }<br>[Togekiss](../pokedex/pokemon/togekiss.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 66<br>**Ability:** [Serene Grace](../pokedex/abilities/serene-grace.md) | 1. [Thunder Wave](../pokedex/moves/thunder-wave.md)<br>2. [Air Slash](../pokedex/moves/air-slash.md)<br>3. [Aura Sphere](../pokedex/moves/aura-sphere.md)<br>4. [Moonblast](../pokedex/moves/moonblast.md) |
 
-
-**Ace Trainer Tom**
+**○ Ace Trainer Tom**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -4951,16 +4567,14 @@ Right side: Tate
 | ![escavalier](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/589.gif){ .sprite }<br>[Escavalier](../pokedex/pokemon/escavalier.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> <span class="type-badge" style="background: linear-gradient(135deg, #B8B8D0 0%, #B8B8D0dd 100%);">Steel</span></div> | **Level:** 66<br>**Ability:** [Shell Armor](../pokedex/abilities/shell-armor.md) | 1. [Megahorn](../pokedex/moves/megahorn.md)<br>2. [Iron Head](../pokedex/moves/iron-head.md)<br>3. [Razor Shell](../pokedex/moves/razor-shell.md)<br>4. [Drill Run](../pokedex/moves/drill-run.md) |
 | ![arcanine](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/59.gif){ .sprite }<br>[Arcanine](../pokedex/pokemon/arcanine.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F08030 0%, #F08030dd 100%);">Fire</span></div> | **Level:** 66<br>**Ability:** [Intimidate](../pokedex/abilities/intimidate.md) | 1. [Wild Charge](../pokedex/moves/wild-charge.md)<br>2. [Flare Blitz](../pokedex/moves/flare-blitz.md)<br>3. [Extreme Speed](../pokedex/moves/extreme-speed.md)<br>4. [Close Combat](../pokedex/moves/close-combat.md) |
 
-
-**Black Belt Benjamin**
+**○ Black Belt Benjamin**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
 | ![scrafty](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/560.gif){ .sprite }<br>[Scrafty](../pokedex/pokemon/scrafty.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> <span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span></div> | **Level:** 67<br>**Ability:** [Moxie](../pokedex/abilities/moxie.md) | 1. [Close Combat](../pokedex/moves/close-combat.md)<br>2. [Crunch](../pokedex/moves/crunch.md)<br>3. [Head Smash](../pokedex/moves/head-smash.md)<br>4. [Fake Out](../pokedex/moves/fake-out.md) |
 | ![kabutops](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/141.gif){ .sprite }<br>[Kabutops](../pokedex/pokemon/kabutops.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span> <span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span></div> | **Level:** 67<br>**Ability:** [Swift Swim](../pokedex/abilities/swift-swim.md) | 1. [Leech Life](../pokedex/moves/leech-life.md)<br>2. [Aqua Jet](../pokedex/moves/aqua-jet.md)<br>3. [Waterfall](../pokedex/moves/waterfall.md)<br>4. [Stone Edge](../pokedex/moves/stone-edge.md) |
 
-
-**Hiker Doug**
+**○ Hiker Doug**
 
 **Battle Type:** 3x
 
@@ -4971,8 +4585,7 @@ Right side: Tate
 | ![sandslash](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/28.gif){ .sprite }<br>[Sandslash](../pokedex/pokemon/sandslash.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span></div> | **Level:** 66<br>**Ability:** [Sand Rush](../pokedex/abilities/sand-rush.md) | 1. [Headlong Rush](../pokedex/moves/headlong-rush.md)<br>2. [Leech Life](../pokedex/moves/leech-life.md)<br>3. [Accelerock](../pokedex/moves/accelerock.md)<br>4. [Night Slash](../pokedex/moves/night-slash.md) |
 | ![aggron](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/306.gif){ .sprite }<br>[Aggron](../pokedex/pokemon/aggron.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #B8B8D0 0%, #B8B8D0dd 100%);">Steel</span> <span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span></div> | **Level:** 66<br>**Ability:** [Filter](../pokedex/abilities/filter.md) | 1. [Heavy Slam](../pokedex/moves/heavy-slam.md)<br>2. [Megahorn](../pokedex/moves/megahorn.md)<br>3. [Rock Slide](../pokedex/moves/rock-slide.md)<br>4. [Avalanche](../pokedex/moves/avalanche.md) |
 
-
-**Ace Trainer Miki**
+**○ Ace Trainer Miki**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -4980,14 +4593,12 @@ Right side: Tate
 | ![mismagius](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/429.gif){ .sprite }<br>[Mismagius](../pokedex/pokemon/mismagius.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> <span class="type-badge" style="background: linear-gradient(135deg, #EE99AC 0%, #EE99ACdd 100%);">Fairy</span></div> | **Level:** 67<br>**Ability:** [Levitate](../pokedex/abilities/levitate.md) | 1. [Mystical Fire](../pokedex/moves/mystical-fire.md)<br>2. [Shadow Ball](../pokedex/moves/shadow-ball.md)<br>3. [Thunderbolt](../pokedex/moves/thunderbolt.md)<br>4. [Moonblast](../pokedex/moves/moonblast.md) |
 | ![leafeon](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/470.gif){ .sprite }<br>[Leafeon](../pokedex/pokemon/leafeon.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span></div> | **Level:** 67<br>**Ability:** [Super Luck](../pokedex/abilities/super-luck.md) | 1. [Leaf Blade](../pokedex/moves/leaf-blade.md)<br>2. [X Scissor](../pokedex/moves/x-scissor.md)<br>3. [Psycho Cut](../pokedex/moves/psycho-cut.md)<br>4. [Night Slash](../pokedex/moves/night-slash.md) |
 
-
-**Battle Girl Tiffany**
+**○ Battle Girl Tiffany**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
 | ![darmanitan-standard](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/555.gif){ .sprite }<br>[Darmanitan Standard](../pokedex/pokemon/darmanitan-standard.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F08030 0%, #F08030dd 100%);">Fire</span></div> | **Level:** 67<br>**Ability:** [Sheer Force](../pokedex/abilities/sheer-force.md) | 1. [Zen Headbutt](../pokedex/moves/zen-headbutt.md)<br>2. [Flare Blitz](../pokedex/moves/flare-blitz.md)<br>3. [Lunge](../pokedex/moves/lunge.md) |
 | ![machamp](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/68.gif){ .sprite }<br>[Machamp](../pokedex/pokemon/machamp.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span></div> | **Level:** 67<br>**Ability:** [Guts](../pokedex/abilities/guts.md) | 1. [Close Combat](../pokedex/moves/close-combat.md)<br>2. [High Horsepower](../pokedex/moves/high-horsepower.md)<br>3. [Heavy Slam](../pokedex/moves/heavy-slam.md)<br>4. [Dual Chop](../pokedex/moves/dual-chop.md) |
-
 
 ### Victory Road
 
@@ -4996,7 +4607,7 @@ Right side: Tate
 \*Trainer can be skipped depending on game version.
 
 
-**Psychic Al**
+**●\* Psychic Al**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -5005,8 +4616,7 @@ Right side: Tate
 | ![slowbro](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/80.gif){ .sprite }<br>[Slowbro](../pokedex/pokemon/slowbro.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> <span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span></div> | **Level:** 68<br>**Ability:** [Regenerator](../pokedex/abilities/regenerator.md) | 1. [Surf](../pokedex/moves/surf.md)<br>2. [Flamethrower](../pokedex/moves/flamethrower.md)<br>3. [Psychic](../pokedex/moves/psychic.md)<br>4. [Slack Off](../pokedex/moves/slack-off.md) |
 | ![sigilyph](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/561.gif){ .sprite }<br>[Sigilyph](../pokedex/pokemon/sigilyph.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 68<br>**Ability:** [Tinted Lens](../pokedex/abilities/tinted-lens.md) | 1. [Air Slash](../pokedex/moves/air-slash.md)<br>2. [Heat Wave](../pokedex/moves/heat-wave.md)<br>3. [Esper Wing](../pokedex/moves/esper-wing.md)<br>4. [Energy Ball](../pokedex/moves/energy-ball.md) |
 
-
-**Psychic Alia**
+**●\* Psychic Alia**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -5015,8 +4625,7 @@ Right side: Tate
 | ![bronzong](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/437.gif){ .sprite }<br>[Bronzong](../pokedex/pokemon/bronzong.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #B8B8D0 0%, #B8B8D0dd 100%);">Steel</span> <span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span></div> | **Level:** 68<br>**Ability:** [Levitate](../pokedex/abilities/levitate.md) | 1. [Psychic](../pokedex/moves/psychic.md)<br>2. [Earthquake](../pokedex/moves/earthquake.md)<br>3. [Gyro Ball](../pokedex/moves/gyro-ball.md)<br>4. [Confuse Ray](../pokedex/moves/confuse-ray.md) |
 | ![chimecho](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/358.gif){ .sprite }<br>[Chimecho](../pokedex/pokemon/chimecho.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span></div> | **Level:** 68<br>**Ability:** [Levitate](../pokedex/abilities/levitate.md) | 1. [Psyshock](../pokedex/moves/psyshock.md)<br>2. [Signal Beam](../pokedex/moves/signal-beam.md)<br>3. [Icy Wind](../pokedex/moves/icy-wind.md)<br>4. [Hyper Voice](../pokedex/moves/hyper-voice.md) |
 
-
-**Ace Trainer Jamie**
+**●\* Ace Trainer Jamie**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -5025,8 +4634,7 @@ Right side: Tate
 | ![drifblim](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/426.gif){ .sprite }<br>[Drifblim](../pokedex/pokemon/drifblim.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 69<br>**Ability:** [Aftermath](../pokedex/abilities/aftermath.md) | 1. [Shadow Ball](../pokedex/moves/shadow-ball.md)<br>2. [Destiny Bond](../pokedex/moves/destiny-bond.md)<br>3. [Thunderbolt](../pokedex/moves/thunderbolt.md)<br>4. [Icy Wind](../pokedex/moves/icy-wind.md) |
 | ![jellicent](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/593.gif){ .sprite }<br>[Jellicent](../pokedex/pokemon/jellicent.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span></div> | **Level:** 69<br>**Ability:** [Cursed Body](../pokedex/abilities/cursed-body.md) | 1. [Scald](../pokedex/moves/scald.md)<br>2. [Will O Wisp](../pokedex/moves/will-o-wisp.md)<br>3. [Energy Ball](../pokedex/moves/energy-ball.md)<br>4. [Hex](../pokedex/moves/hex.md) |
 
-
-**Ace Trainer Billy**
+**●\* Ace Trainer Billy**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -5034,7 +4642,6 @@ Right side: Tate
 | ![xatu](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/178.gif){ .sprite }<br>[Xatu](../pokedex/pokemon/xatu.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 69<br>**Ability:** [Magic Bounce](../pokedex/abilities/magic-bounce.md) | 1. [Giga Drain](../pokedex/moves/giga-drain.md)<br>2. [Esper Wing](../pokedex/moves/esper-wing.md)<br>3. [Air Slash](../pokedex/moves/air-slash.md)<br>4. [Heat Wave](../pokedex/moves/heat-wave.md) |
 | ![dusknoir](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/477.gif){ .sprite }<br>[Dusknoir](../pokedex/pokemon/dusknoir.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span></div> | **Level:** 69<br>**Ability:** [Iron Fist](../pokedex/abilities/iron-fist.md) | 1. [Shadow Punch](../pokedex/moves/shadow-punch.md)<br>2. [Drain Punch](../pokedex/moves/drain-punch.md)<br>3. [Fire Punch](../pokedex/moves/fire-punch.md)<br>4. [Thunder Punch](../pokedex/moves/thunder-punch.md) |
 | ![rotom-mow](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/10012.gif){ .sprite }<br>[Rotom Mow](../pokedex/pokemon/rotom-mow.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F8D030 0%, #F8D030dd 100%);">Electric</span> <span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span></div> | **Level:** 69<br>**Ability:** [Levitate](../pokedex/abilities/levitate.md) | 1. [Leaf Storm](../pokedex/moves/leaf-storm.md)<br>2. [Thunderbolt](../pokedex/moves/thunderbolt.md)<br>3. [Shadow Ball](../pokedex/moves/shadow-ball.md)<br>4. [Will O Wisp](../pokedex/moves/will-o-wisp.md) |
-
 
 ○ Veteran Claude and Cecile - (2x)
 **Left side**
@@ -5054,7 +4661,6 @@ Right side: Tate
 | ![absol](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/359.gif){ .sprite }<br>[Absol](../pokedex/pokemon/absol.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span></div> | **Level:** 70<br>**Ability:** [Super Luck](../pokedex/abilities/super-luck.md) | 1. [Megahorn](../pokedex/moves/megahorn.md)<br>2. [Psycho Cut](../pokedex/moves/psycho-cut.md)<br>3. [Sucker Punch](../pokedex/moves/sucker-punch.md)<br>4. [Close Combat](../pokedex/moves/close-combat.md) |
 | ![tentacruel](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/73.gif){ .sprite }<br>[Tentacruel](../pokedex/pokemon/tentacruel.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> <span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span></div> | **Level:** 70<br>**Ability:** [Clear Body](../pokedex/abilities/clear-body.md) | 1. [Sludge Bomb](../pokedex/moves/sludge-bomb.md)<br>2. [Hydro Pump](../pokedex/moves/hydro-pump.md)<br>3. [Giga Drain](../pokedex/moves/giga-drain.md)<br>4. [Ice Beam](../pokedex/moves/ice-beam.md) |
 
-
 #### Shaded Grove
 
  - Trainer layout varies between game version here.
@@ -5063,7 +4669,7 @@ Right side: Tate
 \*Trainer can be skipped depending on game version.
 
 
-**Ace Trainer Chandra**
+**●\* Ace Trainer Chandra**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -5072,45 +4678,40 @@ Right side: Tate
 | ![roserade](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/407.gif){ .sprite }<br>[Roserade](../pokedex/pokemon/roserade.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span> <span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span></div> | **Level:** 70<br>**Ability:** [Poison Point](../pokedex/abilities/poison-point.md) | 1. [Giga Drain](../pokedex/moves/giga-drain.md)<br>2. [Sleep Powder](../pokedex/moves/sleep-powder.md)<br>3. [Shadow Ball](../pokedex/moves/shadow-ball.md)<br>4. [Sludge Bomb](../pokedex/moves/sludge-bomb.md) |
 | ![emolga](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/587.gif){ .sprite }<br>[Emolga](../pokedex/pokemon/emolga.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F8D030 0%, #F8D030dd 100%);">Electric</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 70<br>**Ability:** [Static](../pokedex/abilities/static.md) | 1. [Thunderbolt](../pokedex/moves/thunderbolt.md)<br>2. [Acrobatics](../pokedex/moves/acrobatics.md)<br>3. [Signal Beam](../pokedex/moves/signal-beam.md)<br>4. [U Turn](../pokedex/moves/u-turn.md) |
 
-
-**Ace Trainer Shelly**
+**●\* Ace Trainer Shelly**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
 | ![salamence](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/373.gif){ .sprite }<br>[Salamence](../pokedex/pokemon/salamence.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #7038F8 0%, #7038F8dd 100%);">Dragon</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 70<br>**Ability:** [Moxie](../pokedex/abilities/moxie.md) | 1. [Dragon Claw](../pokedex/moves/dragon-claw.md)<br>2. [Flamethrower](../pokedex/moves/flamethrower.md)<br>3. [Dual Wingbeat](../pokedex/moves/dual-wingbeat.md)<br>4. [Dragon Dance](../pokedex/moves/dragon-dance.md) |
 | ![gardevoir](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/282.gif){ .sprite }<br>[Gardevoir](../pokedex/pokemon/gardevoir.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span></div> | **Level:** 70<br>**Ability:** [Trace](../pokedex/abilities/trace.md) | 1. [Psychic](../pokedex/moves/psychic.md)<br>2. [Moonblast](../pokedex/moves/moonblast.md)<br>3. [Thunderbolt](../pokedex/moves/thunderbolt.md)<br>4. [Ice Beam](../pokedex/moves/ice-beam.md) |
 
-
-**Ace Trainer Beckett**
+**●\* Ace Trainer Beckett**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
 | ![garchomp](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/445.gif){ .sprite }<br>[Garchomp](../pokedex/pokemon/garchomp.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #7038F8 0%, #7038F8dd 100%);">Dragon</span> <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span></div> | **Level:** 70<br>**Ability:** [Rough Skin](../pokedex/abilities/rough-skin.md) | 1. [Dragon Claw](../pokedex/moves/dragon-claw.md)<br>2. [Earthquake](../pokedex/moves/earthquake.md)<br>3. [Poison Jab](../pokedex/moves/poison-jab.md)<br>4. [Fire Fang](../pokedex/moves/fire-fang.md) |
 | ![gyarados](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/130.gif){ .sprite }<br>[Gyarados](../pokedex/pokemon/gyarados.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 70<br>**Ability:** [Moxie](../pokedex/abilities/moxie.md) | 1. [Wave Crash](../pokedex/moves/wave-crash.md)<br>2. [Earthquake](../pokedex/moves/earthquake.md)<br>3. [Power Whip](../pokedex/moves/power-whip.md)<br>4. [Dragon Dance](../pokedex/moves/dragon-dance.md) |
-
 
 #### Lower Mountainside
 
 \*Trainer can be skipped depending on game version.
 
 
-**Ace Trainer Shelly**
+**●\* Ace Trainer Shelly**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
 | ![salamence](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/373.gif){ .sprite }<br>[Salamence](../pokedex/pokemon/salamence.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #7038F8 0%, #7038F8dd 100%);">Dragon</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 70<br>**Ability:** [Moxie](../pokedex/abilities/moxie.md) | 1. [Dragon Claw](../pokedex/moves/dragon-claw.md)<br>2. [Flamethrower](../pokedex/moves/flamethrower.md)<br>3. [Dual Wingbeat](../pokedex/moves/dual-wingbeat.md)<br>4. [Dragon Dance](../pokedex/moves/dragon-dance.md) |
 | ![gardevoir](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/282.gif){ .sprite }<br>[Gardevoir](../pokedex/pokemon/gardevoir.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span></div> | **Level:** 70<br>**Ability:** [Trace](../pokedex/abilities/trace.md) | 1. [Psychic](../pokedex/moves/psychic.md)<br>2. [Moonblast](../pokedex/moves/moonblast.md)<br>3. [Thunderbolt](../pokedex/moves/thunderbolt.md)<br>4. [Ice Beam](../pokedex/moves/ice-beam.md) |
 
-
-**Ace Trainer Beckett**
+**●\* Ace Trainer Beckett**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
 | ![garchomp](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/445.gif){ .sprite }<br>[Garchomp](../pokedex/pokemon/garchomp.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #7038F8 0%, #7038F8dd 100%);">Dragon</span> <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span></div> | **Level:** 70<br>**Ability:** [Rough Skin](../pokedex/abilities/rough-skin.md) | 1. [Dragon Claw](../pokedex/moves/dragon-claw.md)<br>2. [Earthquake](../pokedex/moves/earthquake.md)<br>3. [Poison Jab](../pokedex/moves/poison-jab.md)<br>4. [Fire Fang](../pokedex/moves/fire-fang.md) |
 | ![gyarados](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/130.gif){ .sprite }<br>[Gyarados](../pokedex/pokemon/gyarados.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 70<br>**Ability:** [Moxie](../pokedex/abilities/moxie.md) | 1. [Wave Crash](../pokedex/moves/wave-crash.md)<br>2. [Earthquake](../pokedex/moves/earthquake.md)<br>3. [Power Whip](../pokedex/moves/power-whip.md)<br>4. [Dragon Dance](../pokedex/moves/dragon-dance.md) |
 
-
-**Veteran Cathy**
+**● Veteran Cathy**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -5119,8 +4720,7 @@ Right side: Tate
 | ![manectric](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/310.gif){ .sprite }<br>[Manectric](../pokedex/pokemon/manectric.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F8D030 0%, #F8D030dd 100%);">Electric</span></div> | **Level:** 69<br>**Ability:** [Intimidate](../pokedex/abilities/intimidate.md) | 1. [Volt Switch](../pokedex/moves/volt-switch.md)<br>2. [Flamethrower](../pokedex/moves/flamethrower.md)<br>3. [Ice Fang](../pokedex/moves/ice-fang.md)<br>4. [Nuzzle](../pokedex/moves/nuzzle.md) |
 | ![whimsicott](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/547.gif){ .sprite }<br>[Whimsicott](../pokedex/pokemon/whimsicott.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span></div> | **Level:** 69<br>**Ability:** [Prankster](../pokedex/abilities/prankster.md) | 1. [Moonblast](../pokedex/moves/moonblast.md)<br>2. [Giga Drain](../pokedex/moves/giga-drain.md)<br>3. [U Turn](../pokedex/moves/u-turn.md)<br>4. [Toxic](../pokedex/moves/toxic.md) |
 
-
-**Doctor Logan**
+**○ Doctor Logan**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -5128,8 +4728,7 @@ Right side: Tate
 | ![jumpluff](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/189.gif){ .sprite }<br>[Jumpluff](../pokedex/pokemon/jumpluff.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 69<br>**Ability:** [Prankster](../pokedex/abilities/prankster.md) | 1. [Leech Seed](../pokedex/moves/leech-seed.md)<br>2. [Sleep Powder](../pokedex/moves/sleep-powder.md)<br>3. [Hurricane](../pokedex/moves/hurricane.md)<br>4. [U Turn](../pokedex/moves/u-turn.md) |
 | ![blissey](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/242.gif){ .sprite }<br>[Blissey](../pokedex/pokemon/blissey.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span></div> | **Level:** 69<br>**Ability:** [Serene Grace](../pokedex/abilities/serene-grace.md) | 1. [Thunderbolt](../pokedex/moves/thunderbolt.md)<br>2. [Ice Beam](../pokedex/moves/ice-beam.md)<br>3. [Hyper Voice](../pokedex/moves/hyper-voice.md)<br>4. [Calm Mind](../pokedex/moves/calm-mind.md) |
 
-
-**Backpacker Mae**
+**○ Backpacker Mae**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -5137,8 +4736,7 @@ Right side: Tate
 | ![aggron](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/306.gif){ .sprite }<br>[Aggron](../pokedex/pokemon/aggron.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #B8B8D0 0%, #B8B8D0dd 100%);">Steel</span> <span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span></div> | **Level:** 69<br>**Ability:** [Rock Head](../pokedex/abilities/rock-head.md) | 1. [Earthquake](../pokedex/moves/earthquake.md)<br>2. [Heavy Slam](../pokedex/moves/heavy-slam.md)<br>3. [Head Smash](../pokedex/moves/head-smash.md)<br>4. [Rock Polish](../pokedex/moves/rock-polish.md) |
 | ![pidgeot](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/18.gif){ .sprite }<br>[Pidgeot](../pokedex/pokemon/pidgeot.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 69<br>**Ability:** [No Guard](../pokedex/abilities/no-guard.md) | 1. [Hurricane](../pokedex/moves/hurricane.md)<br>2. [Heat Wave](../pokedex/moves/heat-wave.md)<br>3. [Hyper Voice](../pokedex/moves/hyper-voice.md)<br>4. [Ominous Wind](../pokedex/moves/ominous-wind.md) |
 
-
-**Ace Trainer Pierce**
+**○ Ace Trainer Pierce**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -5147,8 +4745,7 @@ Right side: Tate
 | ![crawdaunt](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/342.gif){ .sprite }<br>[Crawdaunt](../pokedex/pokemon/crawdaunt.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span></div> | **Level:** 70<br>**Ability:** [Adaptability](../pokedex/abilities/adaptability.md) | 1. [Crunch](../pokedex/moves/crunch.md)<br>2. [Aqua Jet](../pokedex/moves/aqua-jet.md)<br>3. [Crabhammer](../pokedex/moves/crabhammer.md)<br>4. [Dragon Dance](../pokedex/moves/dragon-dance.md) |
 | ![ampharos](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/181.gif){ .sprite }<br>[Ampharos](../pokedex/pokemon/ampharos.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F8D030 0%, #F8D030dd 100%);">Electric</span> <span class="type-badge" style="background: linear-gradient(135deg, #7038F8 0%, #7038F8dd 100%);">Dragon</span></div> | **Level:** 70<br>**Ability:** [Overcoat](../pokedex/abilities/overcoat.md) | 1. [Tail Glow](../pokedex/moves/tail-glow.md)<br>2. [Thunderbolt](../pokedex/moves/thunderbolt.md)<br>3. [Dragon Pulse](../pokedex/moves/dragon-pulse.md)<br>4. [Flash Cannon](../pokedex/moves/flash-cannon.md) |
 
-
-**Ace Trainer Chandra**
+**●\* Ace Trainer Chandra**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -5157,10 +4754,9 @@ Right side: Tate
 | ![roserade](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/407.gif){ .sprite }<br>[Roserade](../pokedex/pokemon/roserade.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span> <span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span></div> | **Level:** 70<br>**Ability:** [Poison Point](../pokedex/abilities/poison-point.md) | 1. [Giga Drain](../pokedex/moves/giga-drain.md)<br>2. [Sleep Powder](../pokedex/moves/sleep-powder.md)<br>3. [Shadow Ball](../pokedex/moves/shadow-ball.md)<br>4. [Sludge Bomb](../pokedex/moves/sludge-bomb.md) |
 | ![emolga](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/587.gif){ .sprite }<br>[Emolga](../pokedex/pokemon/emolga.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F8D030 0%, #F8D030dd 100%);">Electric</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 70<br>**Ability:** [Static](../pokedex/abilities/static.md) | 1. [Thunderbolt](../pokedex/moves/thunderbolt.md)<br>2. [Acrobatics](../pokedex/moves/acrobatics.md)<br>3. [Signal Beam](../pokedex/moves/signal-beam.md)<br>4. [U Turn](../pokedex/moves/u-turn.md) |
 
-
 #### Connecting Caves I
 
-**Veteran Abraham**
+**● Veteran Abraham**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -5171,8 +4767,7 @@ Right side: Tate
 | ![slaking](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/289.gif){ .sprite }<br>[Slaking](../pokedex/pokemon/slaking.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span></div> | **Level:** 70<br>**Ability:** [Truant](../pokedex/abilities/truant.md) | 1. [Giga Impact](../pokedex/moves/giga-impact.md)<br>2. [Play Rough](../pokedex/moves/play-rough.md)<br>3. [Yawn](../pokedex/moves/yawn.md)<br>4. [Gunk Shot](../pokedex/moves/gunk-shot.md) |
 | ![infernape](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/392.gif){ .sprite }<br>[Infernape](../pokedex/pokemon/infernape.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F08030 0%, #F08030dd 100%);">Fire</span> <span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span></div> | **Level:** 70<br>**Ability:** [Blaze](../pokedex/abilities/blaze.md) | 1. [Close Combat](../pokedex/moves/close-combat.md)<br>2. [Flare Blitz](../pokedex/moves/flare-blitz.md)<br>3. [Thunder Punch](../pokedex/moves/thunder-punch.md)<br>4. [Grass Knot](../pokedex/moves/grass-knot.md) |
 
-
-**Ace Trainer Shanta and Webster**
+**● Ace Trainer Shanta and Webster**
 
 **Left side**
 
@@ -5191,8 +4786,7 @@ Right side: Tate
 | ![durant](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/632.gif){ .sprite }<br>[Durant](../pokedex/pokemon/durant.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> <span class="type-badge" style="background: linear-gradient(135deg, #B8B8D0 0%, #B8B8D0dd 100%);">Steel</span></div> | **Level:** 71<br>**Ability:** [Heatproof](../pokedex/abilities/heatproof.md) | 1. [Crunch](../pokedex/moves/crunch.md)<br>2. [Iron Head](../pokedex/moves/iron-head.md)<br>3. [Rock Slide](../pokedex/moves/rock-slide.md)<br>4. [Lunge](../pokedex/moves/lunge.md) |
 | ![granbull](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/210.gif){ .sprite }<br>[Granbull](../pokedex/pokemon/granbull.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span> <span class="type-badge" style="background: linear-gradient(135deg, #EE99AC 0%, #EE99ACdd 100%);">Fairy</span></div> | **Level:** 71<br>**Ability:** [Intimidate](../pokedex/abilities/intimidate.md) | 1. [Play Rough](../pokedex/moves/play-rough.md)<br>2. [Close Combat](../pokedex/moves/close-combat.md)<br>3. [Ice Punch](../pokedex/moves/ice-punch.md)<br>4. [Thunder Punch](../pokedex/moves/thunder-punch.md) |
 
-
-**Ranger♂ Eddie**
+**○ Ranger♂ Eddie**
 
 **Reward:** ![Cheri Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/cheri-berry.png){ .item-sprite } [Cheri Berry](../pokedex/items/cheri-berry.md)
 
@@ -5202,8 +4796,7 @@ Right side: Tate
 | ![gallade](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/475.gif){ .sprite }<br>[Gallade](../pokedex/pokemon/gallade.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span> <span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span></div> | **Level:** 70<br>**Ability:** [Hyper Cutter](../pokedex/abilities/hyper-cutter.md) | 1. [Ice Punch](../pokedex/moves/ice-punch.md)<br>2. [Close Combat](../pokedex/moves/close-combat.md)<br>3. [Zen Headbutt](../pokedex/moves/zen-headbutt.md)<br>4. [Leaf Blade](../pokedex/moves/leaf-blade.md) |
 | ![zebstrika](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/523.gif){ .sprite }<br>[Zebstrika](../pokedex/pokemon/zebstrika.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F8D030 0%, #F8D030dd 100%);">Electric</span></div> | **Level:** 70<br>**Ability:** [Motor Drive](../pokedex/abilities/motor-drive.md) | 1. [Wild Charge](../pokedex/moves/wild-charge.md)<br>2. [Lunge](../pokedex/moves/lunge.md)<br>3. [High Horsepower](../pokedex/moves/high-horsepower.md)<br>4. [Flame Charge](../pokedex/moves/flame-charge.md) |
 
-
-**Ranger♀ Elle**
+**○ Ranger♀ Elle**
 
 **Reward:** ![Rawst Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/rawst-berry.png){ .item-sprite } [Rawst Berry](../pokedex/items/rawst-berry.md)
 
@@ -5213,10 +4806,9 @@ Right side: Tate
 | ![exploud](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/295.gif){ .sprite }<br>[Exploud](../pokedex/pokemon/exploud.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span></div> | **Level:** 70<br>**Ability:** [Scrappy](../pokedex/abilities/scrappy.md) | 1. [Boomburst](../pokedex/moves/boomburst.md)<br>2. [Fire Blast](../pokedex/moves/fire-blast.md)<br>3. [Surf](../pokedex/moves/surf.md)<br>4. [Chatter](../pokedex/moves/chatter.md) |
 | ![staraptor](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/398.gif){ .sprite }<br>[Staraptor](../pokedex/pokemon/staraptor.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 70<br>**Ability:** [Reckless](../pokedex/abilities/reckless.md) | 1. [Brave Bird](../pokedex/moves/brave-bird.md)<br>2. [Double Edge](../pokedex/moves/double-edge.md)<br>3. [Retaliate](../pokedex/moves/retaliate.md)<br>4. [Close Combat](../pokedex/moves/close-combat.md) |
 
-
 #### Upper Mountainside
 
-**Black Belt Martell**
+**○ Black Belt Martell**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -5224,15 +4816,13 @@ Right side: Tate
 | ![conkeldurr](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/534.gif){ .sprite }<br>[Conkeldurr](../pokedex/pokemon/conkeldurr.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span></div> | **Level:** 70<br>**Ability:** [Iron Fist](../pokedex/abilities/iron-fist.md)<br>**Item:** ![Fighting Gem](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/fighting-gem.png){ .item-sprite } [Fighting Gem](../pokedex/items/fighting-gem.md) | 1. [Payback](../pokedex/moves/payback.md)<br>2. [Mach Punch](../pokedex/moves/mach-punch.md)<br>3. [Drain Punch](../pokedex/moves/drain-punch.md)<br>4. [Stone Edge](../pokedex/moves/stone-edge.md) |
 | ![heracross](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/214.gif){ .sprite }<br>[Heracross](../pokedex/pokemon/heracross.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> <span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span></div> | **Level:** 70<br>**Ability:** [Skill Link](../pokedex/abilities/skill-link.md)<br>**Item:** ![Rock Gem](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/rock-gem.png){ .item-sprite } [Rock Gem](../pokedex/items/rock-gem.md) | 1. [Pin Missile](../pokedex/moves/pin-missile.md)<br>2. [Rock Blast](../pokedex/moves/rock-blast.md)<br>3. [Bullet Seed](../pokedex/moves/bullet-seed.md)<br>4. [Arm Thrust](../pokedex/moves/arm-thrust.md) |
 
-
-**Battle Girl Chalina**
+**○ Battle Girl Chalina**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
 | ![hitmonlee](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/106.gif){ .sprite }<br>[Hitmonlee](../pokedex/pokemon/hitmonlee.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span></div> | **Level:** 70<br>**Ability:** [Unburden](../pokedex/abilities/unburden.md)<br>**Item:** ![Focus Sash](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/focus-sash.png){ .item-sprite } [Focus Sash](../pokedex/items/focus-sash.md) | 1. [Reversal](../pokedex/moves/reversal.md)<br>2. [Earthquake](../pokedex/moves/earthquake.md)<br>3. [Blaze Kick](../pokedex/moves/blaze-kick.md)<br>4. [Stone Edge](../pokedex/moves/stone-edge.md) |
 | ![hitmonchan](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/107.gif){ .sprite }<br>[Hitmonchan](../pokedex/pokemon/hitmonchan.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span></div> | **Level:** 70<br>**Ability:** [Iron Fist](../pokedex/abilities/iron-fist.md)<br>**Item:** ![Expert Belt](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/expert-belt.png){ .item-sprite } [Expert Belt](../pokedex/items/expert-belt.md) | 1. [Close Combat](../pokedex/moves/close-combat.md)<br>2. [Mach Punch](../pokedex/moves/mach-punch.md)<br>3. [Ice Punch](../pokedex/moves/ice-punch.md)<br>4. [Thunder Punch](../pokedex/moves/thunder-punch.md) |
 | ![hitmontop](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/237.gif){ .sprite }<br>[Hitmontop](../pokedex/pokemon/hitmontop.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span></div> | **Level:** 70<br>**Ability:** [Technician](../pokedex/abilities/technician.md)<br>**Item:** ![Life Orb](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/life-orb.png){ .item-sprite } [Life Orb](../pokedex/items/life-orb.md) | 1. [Mach Punch](../pokedex/moves/mach-punch.md)<br>2. [Close Combat](../pokedex/moves/close-combat.md)<br>3. [Bullet Seed](../pokedex/moves/bullet-seed.md)<br>4. [Triple Axel](../pokedex/moves/triple-axel.md) |
-
 
 #### Weather Trainers and Lance
 
@@ -5253,7 +4843,7 @@ Upon witnessing the initial cutscene, the difficulty of the gauntlet is set. Thu
  - Levels -4 on Easy mode, +4 on Challenge mode.
 
 
-**Hail Trainer Caroll**
+**●\* Hail Trainer Caroll**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -5264,8 +4854,7 @@ Upon witnessing the initial cutscene, the difficulty of the gauntlet is set. Thu
 | ![cloyster](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/91.gif){ .sprite }<br>[Cloyster](../pokedex/pokemon/cloyster.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> <span class="type-badge" style="background: linear-gradient(135deg, #98D8D8 0%, #98D8D8dd 100%);">Ice</span></div> | **Level:** 72<br>**Ability:** [Skill Link](../pokedex/abilities/skill-link.md)<br>**Item:** ![White Herb](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/white-herb.png){ .item-sprite } [White Herb](../pokedex/items/white-herb.md) | 1. [Shell Smash](../pokedex/moves/shell-smash.md)<br>2. [Icicle Spear](../pokedex/moves/icicle-spear.md)<br>3. [Rock Blast](../pokedex/moves/rock-blast.md)<br>4. [Hydro Pump](../pokedex/moves/hydro-pump.md) |
 | ![jynx](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/124.gif){ .sprite }<br>[Jynx](../pokedex/pokemon/jynx.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #98D8D8 0%, #98D8D8dd 100%);">Ice</span> <span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span></div> | **Level:** 72<br>**Ability:** [Trace](../pokedex/abilities/trace.md)<br>**Item:** ![Ice Gem](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/ice-gem.png){ .item-sprite } [Ice Gem](../pokedex/items/ice-gem.md) | 1. [Blizzard](../pokedex/moves/blizzard.md)<br>2. [Lovely Kiss](../pokedex/moves/lovely-kiss.md)<br>3. [Aura Sphere](../pokedex/moves/aura-sphere.md)<br>4. [Psyshock](../pokedex/moves/psyshock.md) |
 
-
-**Sun Trainer Elmer**
+**●\* Sun Trainer Elmer**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -5276,8 +4865,7 @@ Upon witnessing the initial cutscene, the difficulty of the gauntlet is set. Thu
 | ![volcarona](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/637.gif){ .sprite }<br>[Volcarona](../pokedex/pokemon/volcarona.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> <span class="type-badge" style="background: linear-gradient(135deg, #F08030 0%, #F08030dd 100%);">Fire</span></div> | **Level:** 72<br>**Ability:** [Flame Body](../pokedex/abilities/flame-body.md)<br>**Item:** ![Focus Sash](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/focus-sash.png){ .item-sprite } [Focus Sash](../pokedex/items/focus-sash.md) | 1. [Quiver Dance](../pokedex/moves/quiver-dance.md)<br>2. [Fiery Dance](../pokedex/moves/fiery-dance.md)<br>3. [Bug Buzz](../pokedex/moves/bug-buzz.md)<br>4. [Giga Drain](../pokedex/moves/giga-drain.md) |
 | ![victreebel](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/71.gif){ .sprite }<br>[Victreebel](../pokedex/pokemon/victreebel.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span> <span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span></div> | **Level:** 72<br>**Ability:** [Chlorophyll](../pokedex/abilities/chlorophyll.md)<br>**Item:** ![Occa Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/occa-berry.png){ .item-sprite } [Occa Berry](../pokedex/items/occa-berry.md) | 1. [Growth](../pokedex/moves/growth.md)<br>2. [Solar Beam](../pokedex/moves/solar-beam.md)<br>3. [Weather Ball](../pokedex/moves/weather-ball.md)<br>4. [Sludge Bomb](../pokedex/moves/sludge-bomb.md) |
 
-
-**Rain Trainer Porta**
+**●\* Rain Trainer Porta**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -5288,8 +4876,7 @@ Upon witnessing the initial cutscene, the difficulty of the gauntlet is set. Thu
 | ![scizor](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/212.gif){ .sprite }<br>[Scizor](../pokedex/pokemon/scizor.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> <span class="type-badge" style="background: linear-gradient(135deg, #B8B8D0 0%, #B8B8D0dd 100%);">Steel</span></div> | **Level:** 72<br>**Ability:** [Technician](../pokedex/abilities/technician.md)<br>**Item:** ![Leftovers](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/leftovers.png){ .item-sprite } [Leftovers](../pokedex/items/leftovers.md) | 1. [Crabhammer](../pokedex/moves/crabhammer.md)<br>2. [Bullet Punch](../pokedex/moves/bullet-punch.md)<br>3. [Psycho Cut](../pokedex/moves/psycho-cut.md)<br>4. [U Turn](../pokedex/moves/u-turn.md) |
 | ![kingdra](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/230.gif){ .sprite }<br>[Kingdra](../pokedex/pokemon/kingdra.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> <span class="type-badge" style="background: linear-gradient(135deg, #7038F8 0%, #7038F8dd 100%);">Dragon</span></div> | **Level:** 72<br>**Ability:** [Swift Swim](../pokedex/abilities/swift-swim.md)<br>**Item:** ![Life Orb](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/life-orb.png){ .item-sprite } [Life Orb](../pokedex/items/life-orb.md) | 1. [Hydro Pump](../pokedex/moves/hydro-pump.md)<br>2. [Hurricane](../pokedex/moves/hurricane.md)<br>3. [Dragon Pulse](../pokedex/moves/dragon-pulse.md)<br>4. [Ice Beam](../pokedex/moves/ice-beam.md) |
 
-
-**Sand Trainer Sterling**
+**●\* Sand Trainer Sterling**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -5300,8 +4887,7 @@ Upon witnessing the initial cutscene, the difficulty of the gauntlet is set. Thu
 | ![clefable](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/36.gif){ .sprite }<br>[Clefable](../pokedex/pokemon/clefable.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span></div> | **Level:** 72<br>**Ability:** [Magic Guard](../pokedex/abilities/magic-guard.md)<br>**Item:** ![Leftovers](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/leftovers.png){ .item-sprite } [Leftovers](../pokedex/items/leftovers.md) | 1. [Mystical Fire](../pokedex/moves/mystical-fire.md)<br>2. [Draining Kiss](../pokedex/moves/draining-kiss.md)<br>3. [Grass Knot](../pokedex/moves/grass-knot.md)<br>4. [Power Gem](../pokedex/moves/power-gem.md) |
 | ![nidoking](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/34.gif){ .sprite }<br>[Nidoking](../pokedex/pokemon/nidoking.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span> <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span></div> | **Level:** 72<br>**Ability:** [Sheer Force](../pokedex/abilities/sheer-force.md)<br>**Item:** ![Life Orb](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/life-orb.png){ .item-sprite } [Life Orb](../pokedex/items/life-orb.md) | 1. [Thunderbolt](../pokedex/moves/thunderbolt.md)<br>2. [Ice Beam](../pokedex/moves/ice-beam.md)<br>3. [Sludge Wave](../pokedex/moves/sludge-wave.md)<br>4. [Earth Power](../pokedex/moves/earth-power.md) |
 
-
-**LANCE**
+**●\*♕ LANCE**
 
 **Mode:** Challenge mode
 
@@ -5314,10 +4900,9 @@ Upon witnessing the initial cutscene, the difficulty of the gauntlet is set. Thu
 | ![haxorus](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/612.gif){ .sprite }<br>[Haxorus](../pokedex/pokemon/haxorus.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #7038F8 0%, #7038F8dd 100%);">Dragon</span></div> | **Level:** 76<br>**Ability:** [Mold Breaker](../pokedex/abilities/mold-breaker.md)<br>**Item:** ![Red Card](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/red-card.png){ .item-sprite } [Red Card](../pokedex/items/red-card.md) | 1. [Dragon Dance](../pokedex/moves/dragon-dance.md)<br>2. [Dragon Rush](../pokedex/moves/dragon-rush.md)<br>3. [Close Combat](../pokedex/moves/close-combat.md)<br>4. [Iron Tail](../pokedex/moves/iron-tail.md) |
 | ![dragonite](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/149.gif){ .sprite }<br>[Dragonite](../pokedex/pokemon/dragonite.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #7038F8 0%, #7038F8dd 100%);">Dragon</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 76<br>**Ability:** [Multiscale](../pokedex/abilities/multiscale.md)<br>**Item:** ![Yache Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/yache-berry.png){ .item-sprite } [Yache Berry](../pokedex/items/yache-berry.md) | 1. [Agility](../pokedex/moves/agility.md)<br>2. [Dual Wingbeat](../pokedex/moves/dual-wingbeat.md)<br>3. [Extreme Speed](../pokedex/moves/extreme-speed.md)<br>4. [Outrage](../pokedex/moves/outrage.md) |
 
-
 #### Connecting Caves II
 
-**Veteran Hugo**
+**○ Veteran Hugo**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -5327,7 +4912,6 @@ Upon witnessing the initial cutscene, the difficulty of the gauntlet is set. Thu
 | ![hydreigon](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/635.gif){ .sprite }<br>[Hydreigon](../pokedex/pokemon/hydreigon.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> <span class="type-badge" style="background: linear-gradient(135deg, #7038F8 0%, #7038F8dd 100%);">Dragon</span></div> | **Level:** 70<br>**Ability:** [Levitate](../pokedex/abilities/levitate.md) | 1. [Dark Pulse](../pokedex/moves/dark-pulse.md)<br>2. [Dragon Pulse](../pokedex/moves/dragon-pulse.md)<br>3. [Hydro Pump](../pokedex/moves/hydro-pump.md)<br>4. [Tri Attack](../pokedex/moves/tri-attack.md) |
 | ![machamp](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/68.gif){ .sprite }<br>[Machamp](../pokedex/pokemon/machamp.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span></div> | **Level:** 70<br>**Ability:** [No Guard](../pokedex/abilities/no-guard.md) | 1. [Dynamic Punch](../pokedex/moves/dynamic-punch.md)<br>2. [Fire Punch](../pokedex/moves/fire-punch.md)<br>3. [Ice Punch](../pokedex/moves/ice-punch.md)<br>4. [Bullet Punch](../pokedex/moves/bullet-punch.md) |
 | ![flygon](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/330.gif){ .sprite }<br>[Flygon](../pokedex/pokemon/flygon.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> <span class="type-badge" style="background: linear-gradient(135deg, #7038F8 0%, #7038F8dd 100%);">Dragon</span></div> | **Level:** 70<br>**Ability:** [Levitate](../pokedex/abilities/levitate.md) | 1. [Earth Power](../pokedex/moves/earth-power.md)<br>2. [Lunge](../pokedex/moves/lunge.md)<br>3. [Bug Buzz](../pokedex/moves/bug-buzz.md)<br>4. [Quiver Dance](../pokedex/moves/quiver-dance.md) |
-
 
 #### Connecting Caves III
 
@@ -5364,13 +4948,12 @@ Upon witnessing the initial cutscene, the difficulty of the gauntlet is set. Thu
 	| ![samurott](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/503.gif){ .sprite }<br>[Samurott](../pokedex/pokemon/samurott.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> <span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span></div> | **Level:** 73<br>**Ability:** [Shell Armor](../pokedex/abilities/shell-armor.md)<br>**Item:** ![Leftovers](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/leftovers.png){ .item-sprite } [Leftovers](../pokedex/items/leftovers.md) | 1. [Close Combat](../pokedex/moves/close-combat.md)<br>2. [Hydro Pump](../pokedex/moves/hydro-pump.md)<br>3. [Megahorn](../pokedex/moves/megahorn.md)<br>4. [Shell Smash](../pokedex/moves/shell-smash.md) |
 	| ![camerupt](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/323.gif){ .sprite }<br>[Camerupt](../pokedex/pokemon/camerupt.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F08030 0%, #F08030dd 100%);">Fire</span> <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span></div> | **Level:** 71<br>**Ability:** [Simple](../pokedex/abilities/simple.md)<br>**Item:** ![Passho Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/passho-berry.png){ .item-sprite } [Passho Berry](../pokedex/items/passho-berry.md) | 1. [Flamethrower](../pokedex/moves/flamethrower.md)<br>2. [Rock Climb](../pokedex/moves/rock-climb.md)<br>3. [Earthquake](../pokedex/moves/earthquake.md)<br>4. [Rock Polish](../pokedex/moves/rock-polish.md) |
 
-
 ### The Pokémon League
 
 #### Shauntal
 
 
-**♛ SHAUNTAL**
+**●♛ SHAUNTAL**
 
 **Mode:** Easy and Normal mode
 
@@ -5383,8 +4966,7 @@ Upon witnessing the initial cutscene, the difficulty of the gauntlet is set. Thu
 | ![sableye](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/302.gif){ .sprite }<br>[Sableye](../pokedex/pokemon/sableye.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span></div> | **Level:** 72<br>**Ability:** [Prankster](../pokedex/abilities/prankster.md)<br>**Item:** ![Lagging Tail](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/lagging-tail.png){ .item-sprite } [Lagging Tail](../pokedex/items/lagging-tail.md) | 1. [Trick](../pokedex/moves/trick.md)<br>2. [Recover](../pokedex/moves/recover.md)<br>3. [Will O Wisp](../pokedex/moves/will-o-wisp.md)<br>4. [Foul Play](../pokedex/moves/foul-play.md) |
 | ![chandelure](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/609.gif){ .sprite }<br>[Chandelure](../pokedex/pokemon/chandelure.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> <span class="type-badge" style="background: linear-gradient(135deg, #F08030 0%, #F08030dd 100%);">Fire</span></div> | **Level:** 74<br>**Ability:** [Shadow Tag](../pokedex/abilities/shadow-tag.md)<br>**Item:** ![White Herb](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/white-herb.png){ .item-sprite } [White Herb](../pokedex/items/white-herb.md) | 1. [Overheat](../pokedex/moves/overheat.md)<br>2. [Shadow Ball](../pokedex/moves/shadow-ball.md)<br>3. [Psychic](../pokedex/moves/psychic.md)<br>4. [Energy Ball](../pokedex/moves/energy-ball.md) |
 
-
-**♛ SHAUNTAL**
+**●♛ SHAUNTAL**
 
 **Mode:** Challenge mode
 
@@ -5399,11 +4981,10 @@ Upon witnessing the initial cutscene, the difficulty of the gauntlet is set. Thu
 | ![jellicent](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/593.gif){ .sprite }<br>[Jellicent](../pokedex/pokemon/jellicent.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span></div> | **Level:** 77<br>**Ability:** [Water Absorb](../pokedex/abilities/water-absorb.md)<br>**Item:** ![Leftovers](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/leftovers.png){ .item-sprite } [Leftovers](../pokedex/items/leftovers.md) | 1. [Scald](../pokedex/moves/scald.md)<br>2. [Icy Wind](../pokedex/moves/icy-wind.md)<br>3. [Shadow Ball](../pokedex/moves/shadow-ball.md)<br>4. [Recover](../pokedex/moves/recover.md) |
 | ![chandelure](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/609.gif){ .sprite }<br>[Chandelure](../pokedex/pokemon/chandelure.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> <span class="type-badge" style="background: linear-gradient(135deg, #F08030 0%, #F08030dd 100%);">Fire</span></div> | **Level:** 78<br>**Ability:** [Shadow Tag](../pokedex/abilities/shadow-tag.md)<br>**Item:** ![Air Balloon](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/air-balloon.png){ .item-sprite } [Air Balloon](../pokedex/items/air-balloon.md) | 1. [Heat Wave](../pokedex/moves/heat-wave.md)<br>2. [Shadow Ball](../pokedex/moves/shadow-ball.md)<br>3. [Substitute](../pokedex/moves/substitute.md)<br>4. [Energy Ball](../pokedex/moves/energy-ball.md) |
 
-
 #### Grimsley
 
 
-**♛ GRIMSLEY**
+**●♛ GRIMSLEY**
 
 **Mode:** Easy and Normal mode
 
@@ -5416,8 +4997,7 @@ Upon witnessing the initial cutscene, the difficulty of the gauntlet is set. Thu
 | ![houndoom](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/229.gif){ .sprite }<br>[Houndoom](../pokedex/pokemon/houndoom.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> <span class="type-badge" style="background: linear-gradient(135deg, #F08030 0%, #F08030dd 100%);">Fire</span></div> | **Level:** 72<br>**Ability:** [Intimidate](../pokedex/abilities/intimidate.md)<br>**Item:** ![Focus Sash](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/focus-sash.png){ .item-sprite } [Focus Sash](../pokedex/items/focus-sash.md) | 1. [Overheat](../pokedex/moves/overheat.md)<br>2. [Thunder Fang](../pokedex/moves/thunder-fang.md)<br>3. [Sucker Punch](../pokedex/moves/sucker-punch.md)<br>4. [Dark Pulse](../pokedex/moves/dark-pulse.md) |
 | ![bisharp](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/625.gif){ .sprite }<br>[Bisharp](../pokedex/pokemon/bisharp.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> <span class="type-badge" style="background: linear-gradient(135deg, #B8B8D0 0%, #B8B8D0dd 100%);">Steel</span></div> | **Level:** 74<br>**Ability:** [Defiant](../pokedex/abilities/defiant.md)<br>**Item:** ![Air Balloon](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/air-balloon.png){ .item-sprite } [Air Balloon](../pokedex/items/air-balloon.md) | 1. [Iron Head](../pokedex/moves/iron-head.md)<br>2. [Brick Break](../pokedex/moves/brick-break.md)<br>3. [X Scissor](../pokedex/moves/x-scissor.md)<br>4. [Sucker Punch](../pokedex/moves/sucker-punch.md) |
 
-
-**♛ GRIMSLEY**
+**●♛ GRIMSLEY**
 
 **Mode:** Challenge mode
 
@@ -5430,11 +5010,10 @@ Upon witnessing the initial cutscene, the difficulty of the gauntlet is set. Thu
 | ![zoroark](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/571.gif){ .sprite }<br>[Zoroark](../pokedex/pokemon/zoroark.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span></div> | **Level:** 77<br>**Ability:** [Illusion](../pokedex/abilities/illusion.md)<br>**Item:** ![Life Orb](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/life-orb.png){ .item-sprite } [Life Orb](../pokedex/items/life-orb.md) | 1. [Night Daze](../pokedex/moves/night-daze.md)<br>2. [Flamethrower](../pokedex/moves/flamethrower.md)<br>3. [Nasty Plot](../pokedex/moves/nasty-plot.md)<br>4. [Sludge Bomb](../pokedex/moves/sludge-bomb.md) |
 | ![drapion](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/452.gif){ .sprite }<br>[Drapion](../pokedex/pokemon/drapion.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span> <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span></div> | **Level:** 77<br>**Ability:** [Sniper](../pokedex/abilities/sniper.md)<br>**Item:** ![Scope Lens](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/scope-lens.png){ .item-sprite } [Scope Lens](../pokedex/items/scope-lens.md) | 1. [Storm Throw](../pokedex/moves/storm-throw.md)<br>2. [Cross Poison](../pokedex/moves/cross-poison.md)<br>3. [Night Slash](../pokedex/moves/night-slash.md)<br>4. [Swords Dance](../pokedex/moves/swords-dance.md) |
 
-
 #### Caitlin
 
 
-**♛ CAITLIN**
+**●♛ CAITLIN**
 
 **Mode:** Easy and Normal mode
 
@@ -5447,8 +5026,7 @@ Upon witnessing the initial cutscene, the difficulty of the gauntlet is set. Thu
 | ![slowbro](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/80.gif){ .sprite }<br>[Slowbro](../pokedex/pokemon/slowbro.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> <span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span></div> | **Level:** 72<br>**Ability:** [Regenerator](../pokedex/abilities/regenerator.md)<br>**Item:** ![Red Card](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/red-card.png){ .item-sprite } [Red Card](../pokedex/items/red-card.md) | 1. [Trick Room](../pokedex/moves/trick-room.md)<br>2. [Surf](../pokedex/moves/surf.md)<br>3. [Slack Off](../pokedex/moves/slack-off.md)<br>4. [Fire Blast](../pokedex/moves/fire-blast.md) |
 | ![metagross](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/376.gif){ .sprite }<br>[Metagross](../pokedex/pokemon/metagross.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #B8B8D0 0%, #B8B8D0dd 100%);">Steel</span> <span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span></div> | **Level:** 74<br>**Ability:** [Iron Fist](../pokedex/abilities/iron-fist.md)<br>**Item:** ![Air Balloon](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/air-balloon.png){ .item-sprite } [Air Balloon](../pokedex/items/air-balloon.md) | 1. [Meteor Mash](../pokedex/moves/meteor-mash.md)<br>2. [Earthquake](../pokedex/moves/earthquake.md)<br>3. [Zen Headbutt](../pokedex/moves/zen-headbutt.md)<br>4. [Bullet Punch](../pokedex/moves/bullet-punch.md) |
 
-
-**♛ CAITLIN**
+**●♛ CAITLIN**
 
 **Mode:** Challenge mode
 
@@ -5463,11 +5041,10 @@ Upon witnessing the initial cutscene, the difficulty of the gauntlet is set. Thu
 | ![xatu](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/178.gif){ .sprite }<br>[Xatu](../pokedex/pokemon/xatu.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 77<br>**Ability:** [Magic Bounce](../pokedex/abilities/magic-bounce.md)<br>**Item:** ![Focus Sash](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/focus-sash.png){ .item-sprite } [Focus Sash](../pokedex/items/focus-sash.md) | 1. [Aura Sphere](../pokedex/moves/aura-sphere.md)<br>2. [Giga Drain](../pokedex/moves/giga-drain.md)<br>3. [Heat Wave](../pokedex/moves/heat-wave.md)<br>4. [Air Slash](../pokedex/moves/air-slash.md) |
 | ![metagross](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/376.gif){ .sprite }<br>[Metagross](../pokedex/pokemon/metagross.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #B8B8D0 0%, #B8B8D0dd 100%);">Steel</span> <span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span></div> | **Level:** 77<br>**Ability:** [Iron Fist](../pokedex/abilities/iron-fist.md)<br>**Item:** ![Air Balloon](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/air-balloon.png){ .item-sprite } [Air Balloon](../pokedex/items/air-balloon.md) | 1. [Meteor Mash](../pokedex/moves/meteor-mash.md)<br>2. [Rock Slide](../pokedex/moves/rock-slide.md)<br>3. [Trick Room](../pokedex/moves/trick-room.md)<br>4. [Bullet Punch](../pokedex/moves/bullet-punch.md) |
 
-
 #### Marshal
 
 
-**♛ MARSHAL**
+**●♛ MARSHAL**
 
 **Mode:** Easy and Normal mode
 
@@ -5480,8 +5057,7 @@ Upon witnessing the initial cutscene, the difficulty of the gauntlet is set. Thu
 | ![medicham](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/308.gif){ .sprite }<br>[Medicham](../pokedex/pokemon/medicham.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span> <span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span></div> | **Level:** 72<br>**Ability:** [Pure Power](../pokedex/abilities/pure-power.md)<br>**Item:** ![Focus Sash](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/focus-sash.png){ .item-sprite } [Focus Sash](../pokedex/items/focus-sash.md) | 1. [High Jump Kick](../pokedex/moves/high-jump-kick.md)<br>2. [Zen Headbutt](../pokedex/moves/zen-headbutt.md)<br>3. [Thunder Punch](../pokedex/moves/thunder-punch.md)<br>4. [Ice Punch](../pokedex/moves/ice-punch.md) |
 | ![conkeldurr](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/534.gif){ .sprite }<br>[Conkeldurr](../pokedex/pokemon/conkeldurr.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span></div> | **Level:** 74<br>**Ability:** [Iron Fist](../pokedex/abilities/iron-fist.md)<br>**Item:** ![Leftovers](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/leftovers.png){ .item-sprite } [Leftovers](../pokedex/items/leftovers.md) | 1. [Drain Punch](../pokedex/moves/drain-punch.md)<br>2. [Stone Edge](../pokedex/moves/stone-edge.md)<br>3. [Payback](../pokedex/moves/payback.md)<br>4. [Mach Punch](../pokedex/moves/mach-punch.md) |
 
-
-**♛ MARSHAL**
+**●♛ MARSHAL**
 
 **Mode:** Challenge mode
 
@@ -5496,11 +5072,10 @@ Upon witnessing the initial cutscene, the difficulty of the gauntlet is set. Thu
 | ![lucario](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/448.gif){ .sprite }<br>[Lucario](../pokedex/pokemon/lucario.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span> <span class="type-badge" style="background: linear-gradient(135deg, #B8B8D0 0%, #B8B8D0dd 100%);">Steel</span></div> | **Level:** 77<br>**Ability:** [Justified](../pokedex/abilities/justified.md)<br>**Item:** ![Air Balloon](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/air-balloon.png){ .item-sprite } [Air Balloon](../pokedex/items/air-balloon.md) | 1. [Close Combat](../pokedex/moves/close-combat.md)<br>2. [Ice Punch](../pokedex/moves/ice-punch.md)<br>3. [Bullet Punch](../pokedex/moves/bullet-punch.md)<br>4. [Rock Slide](../pokedex/moves/rock-slide.md) |
 | ![conkeldurr](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/534.gif){ .sprite }<br>[Conkeldurr](../pokedex/pokemon/conkeldurr.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span></div> | **Level:** 78<br>**Ability:** [Guts](../pokedex/abilities/guts.md)<br>**Item:** ![Flame Orb](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/flame-orb.png){ .item-sprite } [Flame Orb](../pokedex/items/flame-orb.md) | 1. [Poison Jab](../pokedex/moves/poison-jab.md)<br>2. [Drain Punch](../pokedex/moves/drain-punch.md)<br>3. [Rock Slide](../pokedex/moves/rock-slide.md)<br>4. [Mach Punch](../pokedex/moves/mach-punch.md) |
 
-
 #### Champion Iris
 
 
-**♛ CHAMPION IRIS**
+**●♛ CHAMPION IRIS**
 
 **Mode:** Easy and Normal mode
 
@@ -5513,8 +5088,7 @@ Upon witnessing the initial cutscene, the difficulty of the gauntlet is set. Thu
 | ![serperior](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/497.gif){ .sprite }<br>[Serperior](../pokedex/pokemon/serperior.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span> <span class="type-badge" style="background: linear-gradient(135deg, #7038F8 0%, #7038F8dd 100%);">Dragon</span></div> | **Level:** 73<br>**Ability:** [Contrary](../pokedex/abilities/contrary.md)<br>**Item:** ![Light Clay](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/light-clay.png){ .item-sprite } [Light Clay](../pokedex/items/light-clay.md) | 1. [Leaf Storm](../pokedex/moves/leaf-storm.md)<br>2. [Dragon Pulse](../pokedex/moves/dragon-pulse.md)<br>3. [Reflect](../pokedex/moves/reflect.md)<br>4. [Light Screen](../pokedex/moves/light-screen.md) |
 | ![haxorus](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/612.gif){ .sprite }<br>[Haxorus](../pokedex/pokemon/haxorus.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #7038F8 0%, #7038F8dd 100%);">Dragon</span></div> | **Level:** 75<br>**Ability:** [Mold Breaker](../pokedex/abilities/mold-breaker.md)<br>**Item:** ![Focus Sash](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/focus-sash.png){ .item-sprite } [Focus Sash](../pokedex/items/focus-sash.md) | 1. [Outrage](../pokedex/moves/outrage.md)<br>2. [Aqua Tail](../pokedex/moves/aqua-tail.md)<br>3. [Earthquake](../pokedex/moves/earthquake.md)<br>4. [Dragon Dance](../pokedex/moves/dragon-dance.md) |
 
-
-**♛ CHAMPION IRIS**
+**●♛ CHAMPION IRIS**
 
 **Mode:** Challenge mode
 
@@ -5526,7 +5100,6 @@ Upon witnessing the initial cutscene, the difficulty of the gauntlet is set. Thu
 | ![alakazam](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/65.gif){ .sprite }<br>[Alakazam](../pokedex/pokemon/alakazam.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span></div> | **Level:** 78<br>**Ability:** [Magic Guard](../pokedex/abilities/magic-guard.md)<br>**Item:** ![Focus Sash](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/focus-sash.png){ .item-sprite } [Focus Sash](../pokedex/items/focus-sash.md) | 1. [Psyshock](../pokedex/moves/psyshock.md)<br>2. [Nasty Plot](../pokedex/moves/nasty-plot.md)<br>3. [Energy Ball](../pokedex/moves/energy-ball.md)<br>4. [Aura Sphere](../pokedex/moves/aura-sphere.md) |
 | ![togekiss](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/468.gif){ .sprite }<br>[Togekiss](../pokedex/pokemon/togekiss.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 78<br>**Ability:** [Serene Grace](../pokedex/abilities/serene-grace.md)<br>**Item:** ![Sitrus Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/sitrus-berry.png){ .item-sprite } [Sitrus Berry](../pokedex/items/sitrus-berry.md) | 1. [Moonblast](../pokedex/moves/moonblast.md)<br>2. [Air Slash](../pokedex/moves/air-slash.md)<br>3. [Thunder Wave](../pokedex/moves/thunder-wave.md)<br>4. [Aura Sphere](../pokedex/moves/aura-sphere.md) |
 | ![latios](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/381.gif){ .sprite }<br>[Latios](../pokedex/pokemon/latios.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #7038F8 0%, #7038F8dd 100%);">Dragon</span> <span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span></div> | **Level:** 79<br>**Ability:** [Levitate](../pokedex/abilities/levitate.md)<br>**Item:** ![Life Orb](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/life-orb.png){ .item-sprite } [Life Orb](../pokedex/items/life-orb.md) | 1. [Dragon Pulse](../pokedex/moves/dragon-pulse.md)<br>2. [Aura Sphere](../pokedex/moves/aura-sphere.md)<br>3. [Mystical Fire](../pokedex/moves/mystical-fire.md)<br>4. [Esper Wing](../pokedex/moves/esper-wing.md) |
-
 
 ## The Postgame
 
@@ -5541,7 +5114,7 @@ Both Steven and Wallace each use six Pokémon each, for a total of twelve Pokém
 This fight has not yet been updated as of v1.2.0.
 
 
-**STEVEN**
+**○ STEVEN**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -5552,8 +5125,7 @@ This fight has not yet been updated as of v1.2.0.
 | ![aggron](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/306.gif){ .sprite }<br>[Aggron](../pokedex/pokemon/aggron.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #B8B8D0 0%, #B8B8D0dd 100%);">Steel</span> <span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span></div> | **Level:** 90<br>**Ability:** [Rock Head](../pokedex/abilities/rock-head.md)<br>**Item:** ![Shuca Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/shuca-berry.png){ .item-sprite } [Shuca Berry](../pokedex/items/shuca-berry.md) | 1. [Autotomize](../pokedex/moves/autotomize.md)<br>2. [Rock Slide](../pokedex/moves/rock-slide.md)<br>3. [Heavy Slam](../pokedex/moves/heavy-slam.md)<br>4. [Head Smash](../pokedex/moves/head-smash.md) |
 | ![cradily](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/346.gif){ .sprite }<br>[Cradily](../pokedex/pokemon/cradily.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span> <span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span></div> | **Level:** 90<br>**Ability:** [Suction Cups](../pokedex/abilities/suction-cups.md)<br>**Item:** ![Leftovers](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/leftovers.png){ .item-sprite } [Leftovers](../pokedex/items/leftovers.md) | 1. [Giga Drain](../pokedex/moves/giga-drain.md)<br>2. [Rock Slide](../pokedex/moves/rock-slide.md)<br>3. [Toxic](../pokedex/moves/toxic.md)<br>4. [Protect](../pokedex/moves/protect.md) |
 
-
-**WALLACE**
+**○ WALLACE**
 
 
 | Pokémon | Type(s) | Attributes | Moves |
@@ -5565,13 +5137,12 @@ This fight has not yet been updated as of v1.2.0.
 | ![kabutops](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/141.gif){ .sprite }<br>[Kabutops](../pokedex/pokemon/kabutops.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span> <span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span></div> | **Level:** 90<br>**Ability:** [Swift Swim](../pokedex/abilities/swift-swim.md)<br>**Item:** ![Rindo Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/rindo-berry.png){ .item-sprite } [Rindo Berry](../pokedex/items/rindo-berry.md) | 1. [Rock Slide](../pokedex/moves/rock-slide.md)<br>2. [Waterfall](../pokedex/moves/waterfall.md)<br>3. [Leech Life](../pokedex/moves/leech-life.md)<br>4. [Knock Off](../pokedex/moves/knock-off.md) |
 | ![sharpedo](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/319.gif){ .sprite }<br>[Sharpedo](../pokedex/pokemon/sharpedo.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span></div> | **Level:** 90<br>**Ability:** [Speed Boost](../pokedex/abilities/speed-boost.md)<br>**Item:** ![Focus Sash](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/focus-sash.png){ .item-sprite } [Focus Sash](../pokedex/items/focus-sash.md) | 1. [Waterfall](../pokedex/moves/waterfall.md)<br>2. [Crunch](../pokedex/moves/crunch.md)<br>3. [Close Combat](../pokedex/moves/close-combat.md)<br>4. [Protect](../pokedex/moves/protect.md) |
 
-
 ### The Pokémon League - Second Matches
 
 #### Shauntal's Room
 
 
-**SHAUNTAL - - Round Two**
+**○ SHAUNTAL - - Round Two**
 
 **Mode:** Normal mode
 
@@ -5584,8 +5155,7 @@ This fight has not yet been updated as of v1.2.0.
 | ![sableye](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/302.gif){ .sprite }<br>[Sableye](../pokedex/pokemon/sableye.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span></div> | **Level:** 86<br>**Ability:** [Prankster](../pokedex/abilities/prankster.md)<br>**Item:** ![Leftovers](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/leftovers.png){ .item-sprite } [Leftovers](../pokedex/items/leftovers.md) | 1. [Foul Play](../pokedex/moves/foul-play.md)<br>2. [Recover](../pokedex/moves/recover.md)<br>3. [Will O Wisp](../pokedex/moves/will-o-wisp.md)<br>4. [Confuse Ray](../pokedex/moves/confuse-ray.md) |
 | ![chandelure](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/609.gif){ .sprite }<br>[Chandelure](../pokedex/pokemon/chandelure.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> <span class="type-badge" style="background: linear-gradient(135deg, #F08030 0%, #F08030dd 100%);">Fire</span></div> | **Level:** 88<br>**Ability:** [Shadow Tag](../pokedex/abilities/shadow-tag.md)<br>**Item:** ![Air Balloon](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/air-balloon.png){ .item-sprite } [Air Balloon](../pokedex/items/air-balloon.md) | 1. [Fire Blast](../pokedex/moves/fire-blast.md)<br>2. [Shadow Ball](../pokedex/moves/shadow-ball.md)<br>3. [Energy Ball](../pokedex/moves/energy-ball.md)<br>4. [Psychic](../pokedex/moves/psychic.md) |
 
-
-**SHAUNTAL - - Round Two**
+**○ SHAUNTAL - - Round Two**
 
 **Mode:** Challenge mode
 
@@ -5598,11 +5168,10 @@ This fight has not yet been updated as of v1.2.0.
 | ![jellicent](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/593.gif){ .sprite }<br>[Jellicent](../pokedex/pokemon/jellicent.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span></div> | **Level:** 92<br>**Ability:** [Water Absorb](../pokedex/abilities/water-absorb.md)<br>**Item:** ![Mystic Water](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/mystic-water.png){ .item-sprite } [Mystic Water](../pokedex/items/mystic-water.md) | 1. [Scald](../pokedex/moves/scald.md)<br>2. [Hex](../pokedex/moves/hex.md)<br>3. [Will O Wisp](../pokedex/moves/will-o-wisp.md)<br>4. [Recover](../pokedex/moves/recover.md) |
 | ![chandelure](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/609.gif){ .sprite }<br>[Chandelure](../pokedex/pokemon/chandelure.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> <span class="type-badge" style="background: linear-gradient(135deg, #F08030 0%, #F08030dd 100%);">Fire</span></div> | **Level:** 94<br>**Ability:** [Shadow Tag](../pokedex/abilities/shadow-tag.md)<br>**Item:** ![Air Balloon](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/air-balloon.png){ .item-sprite } [Air Balloon](../pokedex/items/air-balloon.md) | 1. [Fire Blast](../pokedex/moves/fire-blast.md)<br>2. [Shadow Ball](../pokedex/moves/shadow-ball.md)<br>3. [Energy Ball](../pokedex/moves/energy-ball.md)<br>4. [Psychic](../pokedex/moves/psychic.md) |
 
-
 #### Grimsley's Room
 
 
-**GRIMSLEY - - Round Two**
+**○ GRIMSLEY - - Round Two**
 
 **Mode:** Normal mode
 
@@ -5615,8 +5184,7 @@ This fight has not yet been updated as of v1.2.0.
 | ![scrafty](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/560.gif){ .sprite }<br>[Scrafty](../pokedex/pokemon/scrafty.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> <span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span></div> | **Level:** 86<br>**Ability:** [Moxie](../pokedex/abilities/moxie.md)<br>**Item:** ![Coba Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/coba-berry.png){ .item-sprite } [Coba Berry](../pokedex/items/coba-berry.md) | 1. [Dragon Dance](../pokedex/moves/dragon-dance.md)<br>2. [High Jump Kick](../pokedex/moves/high-jump-kick.md)<br>3. [Sucker Punch](../pokedex/moves/sucker-punch.md)<br>4. [Stone Edge](../pokedex/moves/stone-edge.md) |
 | ![krookodile](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/553.gif){ .sprite }<br>[Krookodile](../pokedex/pokemon/krookodile.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span></div> | **Level:** 86<br>**Ability:** [Moxie](../pokedex/abilities/moxie.md)<br>**Item:** ![Choice Scarf](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/choice-scarf.png){ .item-sprite } [Choice Scarf](../pokedex/items/choice-scarf.md) | 1. [Earthquake](../pokedex/moves/earthquake.md)<br>2. [Crunch](../pokedex/moves/crunch.md)<br>3. [Thunder Fang](../pokedex/moves/thunder-fang.md)<br>4. [Fire Fang](../pokedex/moves/fire-fang.md) |
 
-
-**GRIMSLEY - - Round Two**
+**○ GRIMSLEY - - Round Two**
 
 **Mode:** Challenge mode
 
@@ -5631,11 +5199,10 @@ This fight has not yet been updated as of v1.2.0.
 | ![hydreigon](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/635.gif){ .sprite }<br>[Hydreigon](../pokedex/pokemon/hydreigon.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> <span class="type-badge" style="background: linear-gradient(135deg, #7038F8 0%, #7038F8dd 100%);">Dragon</span></div> | **Level:** 92<br>**Ability:** [Levitate](../pokedex/abilities/levitate.md)<br>**Item:** ![White Herb](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/white-herb.png){ .item-sprite } [White Herb](../pokedex/items/white-herb.md) | 1. [Draco Meteor](../pokedex/moves/draco-meteor.md)<br>2. [Nasty Plot](../pokedex/moves/nasty-plot.md)<br>3. [Dark Pulse](../pokedex/moves/dark-pulse.md)<br>4. [Heat Wave](../pokedex/moves/heat-wave.md) |
 | ![spiritomb](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/442.gif){ .sprite }<br>[Spiritomb](../pokedex/pokemon/spiritomb.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span></div> | **Level:** 92<br>**Ability:** [Pressure](../pokedex/abilities/pressure.md)<br>**Item:** ![Leftovers](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/leftovers.png){ .item-sprite } [Leftovers](../pokedex/items/leftovers.md) | 1. [Icy Wind](../pokedex/moves/icy-wind.md)<br>2. [Toxic](../pokedex/moves/toxic.md)<br>3. [Protect](../pokedex/moves/protect.md)<br>4. [Hex](../pokedex/moves/hex.md) |
 
-
 #### Caitlin's Room
 
 
-**CAITLIN - - Round Two**
+**○ CAITLIN - - Round Two**
 
 **Mode:** Normal mode
 
@@ -5648,8 +5215,7 @@ This fight has not yet been updated as of v1.2.0.
 | ![alakazam](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/65.gif){ .sprite }<br>[Alakazam](../pokedex/pokemon/alakazam.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span></div> | **Level:** 86<br>**Ability:** [Magic Guard](../pokedex/abilities/magic-guard.md)<br>**Item:** ![Life Orb](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/life-orb.png){ .item-sprite } [Life Orb](../pokedex/items/life-orb.md) | 1. [Psychic](../pokedex/moves/psychic.md)<br>2. [Focus Blast](../pokedex/moves/focus-blast.md)<br>3. [Shadow Ball](../pokedex/moves/shadow-ball.md)<br>4. [Energy Ball](../pokedex/moves/energy-ball.md) |
 | ![metagross](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/376.gif){ .sprite }<br>[Metagross](../pokedex/pokemon/metagross.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #B8B8D0 0%, #B8B8D0dd 100%);">Steel</span> <span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span></div> | **Level:** 88<br>**Ability:** [Clear Body](../pokedex/abilities/clear-body.md)<br>**Item:** ![Air Balloon](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/air-balloon.png){ .item-sprite } [Air Balloon](../pokedex/items/air-balloon.md) | 1. [Meteor Mash](../pokedex/moves/meteor-mash.md)<br>2. [Earthquake](../pokedex/moves/earthquake.md)<br>3. [Thunder Punch](../pokedex/moves/thunder-punch.md)<br>4. [Bullet Punch](../pokedex/moves/bullet-punch.md) |
 
-
-**CAITLINE - - Round Two**
+**○ CAITLINE - - Round Two**
 
 **Mode:** Challenge mode
 
@@ -5664,11 +5230,10 @@ This fight has not yet been updated as of v1.2.0.
 | ![reuniclus](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/579.gif){ .sprite }<br>[Reuniclus](../pokedex/pokemon/reuniclus.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span></div> | **Level:** 92<br>**Ability:** [Magic Guard](../pokedex/abilities/magic-guard.md)<br>**Item:** ![Light Clay](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/light-clay.png){ .item-sprite } [Light Clay](../pokedex/items/light-clay.md) | 1. [Trick Room](../pokedex/moves/trick-room.md)<br>2. [Reflect](../pokedex/moves/reflect.md)<br>3. [Focus Blast](../pokedex/moves/focus-blast.md)<br>4. [Psyshock](../pokedex/moves/psyshock.md) |
 | ![metagross](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/376.gif){ .sprite }<br>[Metagross](../pokedex/pokemon/metagross.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #B8B8D0 0%, #B8B8D0dd 100%);">Steel</span> <span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span></div> | **Level:** 94<br>**Ability:** [Iron Fist](../pokedex/abilities/iron-fist.md)<br>**Item:** ![Colbur Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/colbur-berry.png){ .item-sprite } [Colbur Berry](../pokedex/items/colbur-berry.md) | 1. [Meteor Mash](../pokedex/moves/meteor-mash.md)<br>2. [Ice Punch](../pokedex/moves/ice-punch.md)<br>3. [Zen Headbutt](../pokedex/moves/zen-headbutt.md)<br>4. [Bullet Punch](../pokedex/moves/bullet-punch.md) |
 
-
 #### Marshal's Room
 
 
-**MARSHAL - - Round Two**
+**○ MARSHAL - - Round Two**
 
 **Mode:** Normal mode
 
@@ -5681,8 +5246,7 @@ This fight has not yet been updated as of v1.2.0.
 | ![sawk](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/539.gif){ .sprite }<br>[Sawk](../pokedex/pokemon/sawk.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span></div> | **Level:** 86<br>**Ability:** [Sturdy](../pokedex/abilities/sturdy.md)<br>**Item:** ![Salac Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/salac-berry.png){ .item-sprite } [Salac Berry](../pokedex/items/salac-berry.md) | 1. [Reversal](../pokedex/moves/reversal.md)<br>2. [Stone Edge](../pokedex/moves/stone-edge.md)<br>3. [Earthquake](../pokedex/moves/earthquake.md)<br>4. [Close Combat](../pokedex/moves/close-combat.md) |
 | ![conkeldurr](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/534.gif){ .sprite }<br>[Conkeldurr](../pokedex/pokemon/conkeldurr.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span></div> | **Level:** 88<br>**Ability:** [Iron Fist](../pokedex/abilities/iron-fist.md)<br>**Item:** ![Payapa Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/payapa-berry.png){ .item-sprite } [Payapa Berry](../pokedex/items/payapa-berry.md) | 1. [Hammer Arm](../pokedex/moves/hammer-arm.md)<br>2. [Ice Punch](../pokedex/moves/ice-punch.md)<br>3. [Payback](../pokedex/moves/payback.md)<br>4. [Stone Edge](../pokedex/moves/stone-edge.md) |
 
-
-**MARSHAL - - Round Two**
+**○ MARSHAL - - Round Two**
 
 **Mode:** Challenge mode
 
@@ -5695,11 +5259,10 @@ This fight has not yet been updated as of v1.2.0.
 | ![keldeo-ordinary](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/647.gif){ .sprite }<br>[Keldeo Ordinary](../pokedex/pokemon/keldeo-ordinary.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> <span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span></div> | **Level:** 92<br>**Ability:** [Justified](../pokedex/abilities/justified.md)<br>**Item:** ![Expert Belt](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/expert-belt.png){ .item-sprite } [Expert Belt](../pokedex/items/expert-belt.md) | 1. [Secret Sword](../pokedex/moves/secret-sword.md)<br>2. [Hydro Pump](../pokedex/moves/hydro-pump.md)<br>3. [Icy Wind](../pokedex/moves/icy-wind.md)<br>4. [Calm Mind](../pokedex/moves/calm-mind.md) |
 | ![conkeldurr](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/534.gif){ .sprite }<br>[Conkeldurr](../pokedex/pokemon/conkeldurr.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span></div> | **Level:** 94<br>**Ability:** [Guts](../pokedex/abilities/guts.md)<br>**Item:** ![Payapa Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/payapa-berry.png){ .item-sprite } [Payapa Berry](../pokedex/items/payapa-berry.md) | 1. [Drain Punch](../pokedex/moves/drain-punch.md)<br>2. [Ice Punch](../pokedex/moves/ice-punch.md)<br>3. [Bulk Up](../pokedex/moves/bulk-up.md)<br>4. [Mach Punch](../pokedex/moves/mach-punch.md) |
 
-
 #### Iris' Room
 
 
-**CHAMPION IRIS - - Round Two**
+**○ CHAMPION IRIS - - Round Two**
 
 **Mode:** Normal mode
 
@@ -5712,8 +5275,7 @@ This fight has not yet been updated as of v1.2.0.
 | ![lapras](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/131.gif){ .sprite }<br>[Lapras](../pokedex/pokemon/lapras.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> <span class="type-badge" style="background: linear-gradient(135deg, #98D8D8 0%, #98D8D8dd 100%);">Ice</span></div> | **Level:** 90<br>**Ability:** [Water Absorb](../pokedex/abilities/water-absorb.md)<br>**Item:** ![Chople Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/chople-berry.png){ .item-sprite } [Chople Berry](../pokedex/items/chople-berry.md) | 1. [Blizzard](../pokedex/moves/blizzard.md)<br>2. [Thunder](../pokedex/moves/thunder.md)<br>3. [Drill Run](../pokedex/moves/drill-run.md)<br>4. [Hydro Pump](../pokedex/moves/hydro-pump.md) |
 | ![serperior](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/497.gif){ .sprite }<br>[Serperior](../pokedex/pokemon/serperior.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span> <span class="type-badge" style="background: linear-gradient(135deg, #7038F8 0%, #7038F8dd 100%);">Dragon</span></div> | **Level:** 90<br>**Ability:** [Contrary](../pokedex/abilities/contrary.md)<br>**Item:** ![Focus Sash](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/focus-sash.png){ .item-sprite } [Focus Sash](../pokedex/items/focus-sash.md) | 1. [Leaf Storm](../pokedex/moves/leaf-storm.md)<br>2. [Dragon Pulse](../pokedex/moves/dragon-pulse.md)<br>3. [Aqua Tail](../pokedex/moves/aqua-tail.md)<br>4. [Mirror Coat](../pokedex/moves/mirror-coat.md) |
 
-
-**CHAMPION IRIS - - Round Two**
+**○ CHAMPION IRIS - - Round Two**
 
 **Mode:** Challenge mode
 
@@ -5725,7 +5287,6 @@ This fight has not yet been updated as of v1.2.0.
 | ![heatran](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/485.gif){ .sprite }<br>[Heatran](../pokedex/pokemon/heatran.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F08030 0%, #F08030dd 100%);">Fire</span> <span class="type-badge" style="background: linear-gradient(135deg, #B8B8D0 0%, #B8B8D0dd 100%);">Steel</span></div> | **Level:** 96<br>**Ability:** [Flash Fire](../pokedex/abilities/flash-fire.md)<br>**Item:** ![Air Balloon](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/air-balloon.png){ .item-sprite } [Air Balloon](../pokedex/items/air-balloon.md) | 1. [Magma Storm](../pokedex/moves/magma-storm.md)<br>2. [Flash Cannon](../pokedex/moves/flash-cannon.md)<br>3. [Earth Power](../pokedex/moves/earth-power.md)<br>4. [Flame Charge](../pokedex/moves/flame-charge.md) |
 | ![serperior](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/497.gif){ .sprite }<br>[Serperior](../pokedex/pokemon/serperior.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span> <span class="type-badge" style="background: linear-gradient(135deg, #7038F8 0%, #7038F8dd 100%);">Dragon</span></div> | **Level:** 96<br>**Ability:** [Contrary](../pokedex/abilities/contrary.md)<br>**Item:** ![Focus Sash](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/focus-sash.png){ .item-sprite } [Focus Sash](../pokedex/items/focus-sash.md) | 1. [Leaf Storm](../pokedex/moves/leaf-storm.md)<br>2. [Draco Meteor](../pokedex/moves/draco-meteor.md)<br>3. [Glare](../pokedex/moves/glare.md)<br>4. [Substitute](../pokedex/moves/substitute.md) |
 | ![rayquaza](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/384.gif){ .sprite }<br>[Rayquaza](../pokedex/pokemon/rayquaza.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #7038F8 0%, #7038F8dd 100%);">Dragon</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 98<br>**Ability:** [Air Lock](../pokedex/abilities/air-lock.md)<br>**Item:** ![Life Orb](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/life-orb.png){ .item-sprite } [Life Orb](../pokedex/items/life-orb.md) | 1. [Outrage](../pokedex/moves/outrage.md)<br>2. [V Create](../pokedex/moves/v-create.md)<br>3. [Dragon Dance](../pokedex/moves/dragon-dance.md)<br>4. [Hurricane](../pokedex/moves/hurricane.md) |
-
 
 ### Undella Town - Postgame
 
@@ -5762,7 +5323,6 @@ This fight has not yet been updated as of v1.2.0.
 	| ![samurott](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/503.gif){ .sprite }<br>[Samurott](../pokedex/pokemon/samurott.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> <span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span></div> | **Level:** 78<br>**Ability:** [Shell Armor](../pokedex/abilities/shell-armor.md)<br>**Item:** ![Leftovers](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/leftovers.png){ .item-sprite } [Leftovers](../pokedex/items/leftovers.md) | 1. [Secret Sword](../pokedex/moves/secret-sword.md)<br>2. [Hydro Pump](../pokedex/moves/hydro-pump.md)<br>3. [Megahorn](../pokedex/moves/megahorn.md)<br>4. [Shell Smash](../pokedex/moves/shell-smash.md) |
 	| ![camerupt](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/323.gif){ .sprite }<br>[Camerupt](../pokedex/pokemon/camerupt.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F08030 0%, #F08030dd 100%);">Fire</span> <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span></div> | **Level:** 76<br>**Ability:** [Simple](../pokedex/abilities/simple.md)<br>**Item:** ![Passho Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/passho-berry.png){ .item-sprite } [Passho Berry](../pokedex/items/passho-berry.md) | 1. [Flamethrower](../pokedex/moves/flamethrower.md)<br>2. [Rock Climb](../pokedex/moves/rock-climb.md)<br>3. [Earthquake](../pokedex/moves/earthquake.md)<br>4. [Rock Polish](../pokedex/moves/rock-polish.md) |
 
-
 === "Oshawott"
 
 	| Pokémon | Type(s) | Attributes | Moves |
@@ -5796,10 +5356,9 @@ This fight has not yet been updated as of v1.2.0.
 	| ![samurott](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/503.gif){ .sprite }<br>[Samurott](../pokedex/pokemon/samurott.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> <span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span></div> | **Level:** 84<br>**Ability:** [Shell Armor](../pokedex/abilities/shell-armor.md)<br>**Item:** ![Leftovers](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/leftovers.png){ .item-sprite } [Leftovers](../pokedex/items/leftovers.md) | 1. [Secret Sword](../pokedex/moves/secret-sword.md)<br>2. [Hydro Pump](../pokedex/moves/hydro-pump.md)<br>3. [Megahorn](../pokedex/moves/megahorn.md)<br>4. [Shell Smash](../pokedex/moves/shell-smash.md) |
 	| ![camerupt](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/323.gif){ .sprite }<br>[Camerupt](../pokedex/pokemon/camerupt.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F08030 0%, #F08030dd 100%);">Fire</span> <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span></div> | **Level:** 82<br>**Ability:** [Simple](../pokedex/abilities/simple.md)<br>**Item:** ![Passho Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/passho-berry.png){ .item-sprite } [Passho Berry](../pokedex/items/passho-berry.md) | 1. [Flamethrower](../pokedex/moves/flamethrower.md)<br>2. [Rock Climb](../pokedex/moves/rock-climb.md)<br>3. [Earthquake](../pokedex/moves/earthquake.md)<br>4. [Rock Polish](../pokedex/moves/rock-polish.md) |
 
-
 ### P2 Laboratory - Plasma Frigate (Postgame)
 
-**COLRESS**
+**○ COLRESS**
 
 	| Pokémon | Type(s) | Attributes | Moves |
 	|:-------:|:-------:|:-----------|:------|
@@ -5810,10 +5369,9 @@ This fight has not yet been updated as of v1.2.0.
 	| ![beheeyem](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/606.gif){ .sprite }<br>[Beheeyem](../pokedex/pokemon/beheeyem.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span></div> | **Level:** 86<br>**Ability:** [Analytic](../pokedex/abilities/analytic.md)<br>**Item:** ![Colbur Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/colbur-berry.png){ .item-sprite } [Colbur Berry](../pokedex/items/colbur-berry.md) | 1. [Psychic](../pokedex/moves/psychic.md)<br>2. [Thunderbolt](../pokedex/moves/thunderbolt.md)<br>3. [Trick Room](../pokedex/moves/trick-room.md)<br>4. [Bug Buzz](../pokedex/moves/bug-buzz.md) |
 	| ![klinklang](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/601.gif){ .sprite }<br>[Klinklang](../pokedex/pokemon/klinklang.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #B8B8D0 0%, #B8B8D0dd 100%);">Steel</span></div> | **Level:** 88<br>**Ability:** [Levitate](../pokedex/abilities/levitate.md)<br>**Item:** ![Air Balloon](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/air-balloon.png){ .item-sprite } [Air Balloon](../pokedex/items/air-balloon.md) | 1. [Gear Grind](../pokedex/moves/gear-grind.md)<br>2. [Shift Gear](../pokedex/moves/shift-gear.md)<br>3. [Wild Charge](../pokedex/moves/wild-charge.md)<br>4. [Superpower](../pokedex/moves/superpower.md) |
 
-
 ### Icirrus City - Postgame
 
-**Shadow Triad**
+**○ Shadow Triad**
 
 	| Pokémon | Type(s) | Attributes | Moves |
 	|:-------:|:-------:|:-----------|:------|
@@ -5823,8 +5381,7 @@ This fight has not yet been updated as of v1.2.0.
 	| ![flygon](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/330.gif){ .sprite }<br>[Flygon](../pokedex/pokemon/flygon.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> <span class="type-badge" style="background: linear-gradient(135deg, #7038F8 0%, #7038F8dd 100%);">Dragon</span></div> | **Level:** 81<br>**Ability:** [Levitate](../pokedex/abilities/levitate.md)<br>**Item:** ![Life Orb](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/life-orb.png){ .item-sprite } [Life Orb](../pokedex/items/life-orb.md) | 1. [Quiver Dance](../pokedex/moves/quiver-dance.md)<br>2. [Bug Buzz](../pokedex/moves/bug-buzz.md)<br>3. [Flamethrower](../pokedex/moves/flamethrower.md)<br>4. [Dragon Pulse](../pokedex/moves/dragon-pulse.md) |
 	| ![absol](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/359.gif){ .sprite }<br>[Absol](../pokedex/pokemon/absol.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span></div> | **Level:** 83<br>**Ability:** [Super Luck](../pokedex/abilities/super-luck.md)<br>**Item:** ![Scope Lens](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/scope-lens.png){ .item-sprite } [Scope Lens](../pokedex/items/scope-lens.md) | 1. [Night Slash](../pokedex/moves/night-slash.md)<br>2. [Megahorn](../pokedex/moves/megahorn.md)<br>3. [Sucker Punch](../pokedex/moves/sucker-punch.md)<br>4. [Psycho Cut](../pokedex/moves/psycho-cut.md) |
 
-
-**Shadow Triad**
+**○ Shadow Triad**
 
 	| Pokémon | Type(s) | Attributes | Moves |
 	|:-------:|:-------:|:-----------|:------|
@@ -5834,8 +5391,7 @@ This fight has not yet been updated as of v1.2.0.
 	| ![electrode](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/101.gif){ .sprite }<br>[Electrode](../pokedex/pokemon/electrode.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F8D030 0%, #F8D030dd 100%);">Electric</span></div> | **Level:** 81<br>**Ability:** [Aftermath](../pokedex/abilities/aftermath.md)<br>**Item:** ![Light Clay](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/light-clay.png){ .item-sprite } [Light Clay](../pokedex/items/light-clay.md) | 1. [Light Screen](../pokedex/moves/light-screen.md)<br>2. [Thunderbolt](../pokedex/moves/thunderbolt.md)<br>3. [Hidden Power](../pokedex/moves/hidden-power.md)<br>4. [Torment](../pokedex/moves/torment.md) |
 	| ![accelgor](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/617.gif){ .sprite }<br>[Accelgor](../pokedex/pokemon/accelgor.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span></div> | **Level:** 83<br>**Ability:** [Unburden](../pokedex/abilities/unburden.md)<br>**Item:** ![Focus Sash](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/focus-sash.png){ .item-sprite } [Focus Sash](../pokedex/items/focus-sash.md) | 1. [Bug Buzz](../pokedex/moves/bug-buzz.md)<br>2. [Focus Blast](../pokedex/moves/focus-blast.md)<br>3. [Giga Drain](../pokedex/moves/giga-drain.md)<br>4. [Final Gambit](../pokedex/moves/final-gambit.md) |
 
-
-**Shadow Triad**
+**○ Shadow Triad**
 
 	| Pokémon | Type(s) | Attributes | Moves |
 	|:-------:|:-------:|:-----------|:------|
@@ -5844,7 +5400,6 @@ This fight has not yet been updated as of v1.2.0.
 	| ![venomoth](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/49.gif){ .sprite }<br>[Venomoth](../pokedex/pokemon/venomoth.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> <span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span></div> | **Level:** 81<br>**Ability:** [Tinted Lens](../pokedex/abilities/tinted-lens.md)<br>**Item:** ![Focus Sash](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/focus-sash.png){ .item-sprite } [Focus Sash](../pokedex/items/focus-sash.md) | 1. [Bug Buzz](../pokedex/moves/bug-buzz.md)<br>2. [Psychic](../pokedex/moves/psychic.md)<br>3. [Sleep Powder](../pokedex/moves/sleep-powder.md)<br>4. [Quiver Dance](../pokedex/moves/quiver-dance.md) |
 	| ![weavile](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/461.gif){ .sprite }<br>[Weavile](../pokedex/pokemon/weavile.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> <span class="type-badge" style="background: linear-gradient(135deg, #98D8D8 0%, #98D8D8dd 100%);">Ice</span></div> | **Level:** 81<br>**Ability:** [Pressure](../pokedex/abilities/pressure.md)<br>**Item:** ![Razor Claw](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/razor-claw.png){ .item-sprite } [Razor Claw](../pokedex/items/razor-claw.md) | 1. [Feint Attack](../pokedex/moves/feint-attack.md)<br>2. [Ice Shard](../pokedex/moves/ice-shard.md)<br>3. [Low Kick](../pokedex/moves/low-kick.md)<br>4. [Fake Out](../pokedex/moves/fake-out.md) |
 	| ![gengar](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/94.gif){ .sprite }<br>[Gengar](../pokedex/pokemon/gengar.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> <span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span></div> | **Level:** 83<br>**Ability:** [Levitate](../pokedex/abilities/levitate.md)<br>**Item:** ![Life Orb](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/life-orb.png){ .item-sprite } [Life Orb](../pokedex/items/life-orb.md) | 1. [Shadow Ball](../pokedex/moves/shadow-ball.md)<br>2. [Thunderbolt](../pokedex/moves/thunderbolt.md)<br>3. [Focus Blast](../pokedex/moves/focus-blast.md)<br>4. [Sludge Bomb](../pokedex/moves/sludge-bomb.md) |
-
 
 ### Castelia City
 
@@ -5857,7 +5412,6 @@ This fight has not yet been updated as of v1.2.0.
 	| ![zebstrika](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/523.gif){ .sprite }<br>[Zebstrika](../pokedex/pokemon/zebstrika.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F8D030 0%, #F8D030dd 100%);">Electric</span></div> | **Level:** 90<br>**Ability:** [Sap Sipper](../pokedex/abilities/sap-sipper.md)<br>**Item:** ![Power Herb](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/power-herb.png){ .item-sprite } [Power Herb](../pokedex/items/power-herb.md) | 1. [Bounce](../pokedex/moves/bounce.md) |
 	| ![mew](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/151.gif){ .sprite }<br>[Mew](../pokedex/pokemon/mew.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span></div> | **Level:** 92<br>**Ability:** [Levitate](../pokedex/abilities/levitate.md)<br>**Item:** ![Power Herb](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/power-herb.png){ .item-sprite } [Power Herb](../pokedex/items/power-herb.md) | 1. [Dive](../pokedex/moves/dive.md)<br>2. [Dig](../pokedex/moves/dig.md)<br>3. [Fly](../pokedex/moves/fly.md)<br>4. [Bounce](../pokedex/moves/bounce.md) |
 
-
 	| Pokémon | Type(s) | Attributes | Moves |
 	|:-------:|:-------:|:-----------|:------|
 	| ![clefable](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/36.gif){ .sprite }<br>[Clefable](../pokedex/pokemon/clefable.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span></div> | **Level:** 90<br>**Ability:** [Magic Guard](../pokedex/abilities/magic-guard.md)<br>**Item:** ![Leftovers](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/leftovers.png){ .item-sprite } [Leftovers](../pokedex/items/leftovers.md) | 1. [Gravity](../pokedex/moves/gravity.md)<br>2. [Thunder](../pokedex/moves/thunder.md)<br>3. [Blizzard](../pokedex/moves/blizzard.md)<br>4. [Moonblast](../pokedex/moves/moonblast.md) |
@@ -5867,10 +5421,9 @@ This fight has not yet been updated as of v1.2.0.
 	| ![blissey](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/242.gif){ .sprite }<br>[Blissey](../pokedex/pokemon/blissey.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span></div> | **Level:** 90<br>**Ability:** [Serene Grace](../pokedex/abilities/serene-grace.md)<br>**Item:** ![Chople Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/chople-berry.png){ .item-sprite } [Chople Berry](../pokedex/items/chople-berry.md) | 1. [Gravity](../pokedex/moves/gravity.md)<br>2. [Soft Boiled](../pokedex/moves/soft-boiled.md)<br>3. [Thunder](../pokedex/moves/thunder.md)<br>4. [Focus Blast](../pokedex/moves/focus-blast.md) |
 	| ![snorlax](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/143.gif){ .sprite }<br>[Snorlax](../pokedex/pokemon/snorlax.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span></div> | **Level:** 92<br>**Ability:** [Thick Fat](../pokedex/abilities/thick-fat.md)<br>**Item:** ![Leftovers](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/leftovers.png){ .item-sprite } [Leftovers](../pokedex/items/leftovers.md) | 1. [Slack Off](../pokedex/moves/slack-off.md)<br>2. [Gunk Shot](../pokedex/moves/gunk-shot.md)<br>3. [Strength](../pokedex/moves/strength.md)<br>4. [Earthquake](../pokedex/moves/earthquake.md) |
 
-
 ### Nature Preserve
 
-**HILBERT**
+**○ HILBERT**
 
 	| Pokémon | Type(s) | Attributes | Moves |
 	|:-------:|:-------:|:-----------|:------|
@@ -5881,8 +5434,7 @@ This fight has not yet been updated as of v1.2.0.
 	| ![musharna](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/518.gif){ .sprite }<br>[Musharna](../pokedex/pokemon/musharna.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span> <span class="type-badge" style="background: linear-gradient(135deg, #EE99AC 0%, #EE99ACdd 100%);">Fairy</span></div> | **Level:** 98<br>**Ability:** [Telepathy](../pokedex/abilities/telepathy.md)<br>**Item:** ![Leftovers](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/leftovers.png){ .item-sprite } [Leftovers](../pokedex/items/leftovers.md) | 1. [Moonblast](../pokedex/moves/moonblast.md)<br>2. [Psyshock](../pokedex/moves/psyshock.md)<br>3. [Psych Up](../pokedex/moves/psych-up.md)<br>4. [Shadow Ball](../pokedex/moves/shadow-ball.md) |
 	| ![volcarona](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/637.gif){ .sprite }<br>[Volcarona](../pokedex/pokemon/volcarona.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> <span class="type-badge" style="background: linear-gradient(135deg, #F08030 0%, #F08030dd 100%);">Fire</span></div> | **Level:** 98<br>**Ability:** [Flame Body](../pokedex/abilities/flame-body.md)<br>**Item:** ![Life Orb](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/life-orb.png){ .item-sprite } [Life Orb](../pokedex/items/life-orb.md) | 1. [Quiver Dance](../pokedex/moves/quiver-dance.md)<br>2. [Giga Drain](../pokedex/moves/giga-drain.md)<br>3. [Fire Blast](../pokedex/moves/fire-blast.md)<br>4. [Bug Buzz](../pokedex/moves/bug-buzz.md) |
 
-
-**HILDA**
+**○ HILDA**
 
 	| Pokémon | Type(s) | Attributes | Moves |
 	|:-------:|:-------:|:-----------|:------|
@@ -5893,10 +5445,9 @@ This fight has not yet been updated as of v1.2.0.
 	| ![musharna](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/518.gif){ .sprite }<br>[Musharna](../pokedex/pokemon/musharna.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span> <span class="type-badge" style="background: linear-gradient(135deg, #EE99AC 0%, #EE99ACdd 100%);">Fairy</span></div> | **Level:** 98<br>**Ability:** [Telepathy](../pokedex/abilities/telepathy.md)<br>**Item:** ![Leftovers](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/leftovers.png){ .item-sprite } [Leftovers](../pokedex/items/leftovers.md) | 1. [Moonblast](../pokedex/moves/moonblast.md)<br>2. [Psyshock](../pokedex/moves/psyshock.md)<br>3. [Psych Up](../pokedex/moves/psych-up.md)<br>4. [Shadow Ball](../pokedex/moves/shadow-ball.md) |
 	| ![volcarona](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/637.gif){ .sprite }<br>[Volcarona](../pokedex/pokemon/volcarona.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> <span class="type-badge" style="background: linear-gradient(135deg, #F08030 0%, #F08030dd 100%);">Fire</span></div> | **Level:** 98<br>**Ability:** [Flame Body](../pokedex/abilities/flame-body.md)<br>**Item:** ![Life Orb](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/life-orb.png){ .item-sprite } [Life Orb](../pokedex/items/life-orb.md) | 1. [Quiver Dance](../pokedex/moves/quiver-dance.md)<br>2. [Giga Drain](../pokedex/moves/giga-drain.md)<br>3. [Fire Blast](../pokedex/moves/fire-blast.md)<br>4. [Bug Buzz](../pokedex/moves/bug-buzz.md) |
 
-
 ### Striation City
 
-**LEADER CILAN**
+**○ LEADER CILAN**
 
 	| Pokémon | Type(s) | Attributes | Moves |
 	|:-------:|:-------:|:-----------|:------|
@@ -5904,8 +5455,7 @@ This fight has not yet been updated as of v1.2.0.
 	| ![lilligant](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/549.gif){ .sprite }<br>[Lilligant](../pokedex/pokemon/lilligant.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span></div> | **Level:** 82<br>**Ability:** [Own Tempo](../pokedex/abilities/own-tempo.md)<br>**Item:** ![Wide Lens](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/wide-lens.png){ .item-sprite } [Wide Lens](../pokedex/items/wide-lens.md) | 1. [Petal Dance](../pokedex/moves/petal-dance.md)<br>2. [Sleep Powder](../pokedex/moves/sleep-powder.md)<br>3. [Extrasensory](../pokedex/moves/extrasensory.md)<br>4. [Quiver Dance](../pokedex/moves/quiver-dance.md) |
 	| ![simisage](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/512.gif){ .sprite }<br>[Simisage](../pokedex/pokemon/simisage.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span></div> | **Level:** 84<br>**Ability:** [Overgrow](../pokedex/abilities/overgrow.md)<br>**Item:** ![White Herb](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/white-herb.png){ .item-sprite } [White Herb](../pokedex/items/white-herb.md) | 1. [Leaf Storm](../pokedex/moves/leaf-storm.md)<br>2. [Acrobatics](../pokedex/moves/acrobatics.md)<br>3. [Focus Blast](../pokedex/moves/focus-blast.md)<br>4. [Rock Slide](../pokedex/moves/rock-slide.md) |
 
-
-**LEADER CRESS**
+**○ LEADER CRESS**
 
 	| Pokémon | Type(s) | Attributes | Moves |
 	|:-------:|:-------:|:-----------|:------|
@@ -5913,8 +5463,7 @@ This fight has not yet been updated as of v1.2.0.
 	| ![slowking](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/199.gif){ .sprite }<br>[Slowking](../pokedex/pokemon/slowking.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> <span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span></div> | **Level:** 82<br>**Ability:** [Regenerator](../pokedex/abilities/regenerator.md)<br>**Item:** ![Leftovers](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/leftovers.png){ .item-sprite } [Leftovers](../pokedex/items/leftovers.md) | 1. [Scald](../pokedex/moves/scald.md)<br>2. [Psychic](../pokedex/moves/psychic.md)<br>3. [Flamethrower](../pokedex/moves/flamethrower.md)<br>4. [Slack Off](../pokedex/moves/slack-off.md) |
 	| ![simipour](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/516.gif){ .sprite }<br>[Simipour](../pokedex/pokemon/simipour.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span></div> | **Level:** 84<br>**Ability:** [Torrent](../pokedex/abilities/torrent.md)<br>**Item:** ![White Herb](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/white-herb.png){ .item-sprite } [White Herb](../pokedex/items/white-herb.md) | 1. [Hydro Pump](../pokedex/moves/hydro-pump.md)<br>2. [Ice Beam](../pokedex/moves/ice-beam.md)<br>3. [Superpower](../pokedex/moves/superpower.md)<br>4. [Acrobatics](../pokedex/moves/acrobatics.md) |
 
-
-**LEADER CHILI**
+**○ LEADER CHILI**
 
 	| Pokémon | Type(s) | Attributes | Moves |
 	|:-------:|:-------:|:-----------|:------|
@@ -5922,10 +5471,9 @@ This fight has not yet been updated as of v1.2.0.
 	| ![darmanitan-standard](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/555.gif){ .sprite }<br>[Darmanitan Standard](../pokedex/pokemon/darmanitan-standard.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F08030 0%, #F08030dd 100%);">Fire</span></div> | **Level:** 82<br>**Ability:** [Sheer Force](../pokedex/abilities/sheer-force.md)<br>**Item:** ![Life Orb](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/life-orb.png){ .item-sprite } [Life Orb](../pokedex/items/life-orb.md) | 1. [Flare Blitz](../pokedex/moves/flare-blitz.md)<br>2. [Rock Slide](../pokedex/moves/rock-slide.md)<br>3. [Zen Headbutt](../pokedex/moves/zen-headbutt.md)<br>4. [Yawn](../pokedex/moves/yawn.md) |
 	| ![simisear](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/514.gif){ .sprite }<br>[Simisear](../pokedex/pokemon/simisear.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F08030 0%, #F08030dd 100%);">Fire</span></div> | **Level:** 84<br>**Ability:** [Blaze](../pokedex/abilities/blaze.md)<br>**Item:** ![White Herb](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/white-herb.png){ .item-sprite } [White Herb](../pokedex/items/white-herb.md) | 1. [Overheat](../pokedex/moves/overheat.md)<br>2. [Focus Blast](../pokedex/moves/focus-blast.md)<br>3. [Acrobatics](../pokedex/moves/acrobatics.md)<br>4. [Grass Knot](../pokedex/moves/grass-knot.md) |
 
-
 ### Black Tower & White Treehollow - Postgame
 
-**BENGA - White Tree Hollow**
+**○ BENGA - White Tree Hollow**
 
 	| Pokémon | Type(s) | Attributes | Moves |
 	|:-------:|:-------:|:-----------|:------|
@@ -5935,8 +5483,7 @@ This fight has not yet been updated as of v1.2.0.
 	| ![latios](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/381.gif){ .sprite }<br>[Latios](../pokedex/pokemon/latios.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #7038F8 0%, #7038F8dd 100%);">Dragon</span> <span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span></div> | **Level:** 100<br>**Ability:** [Levitate](../pokedex/abilities/levitate.md)<br>**Item:** ![Soul Dew](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/soul-dew.png){ .item-sprite } [Soul Dew](../pokedex/items/soul-dew.md) | 1. [Dragon Pulse](../pokedex/moves/dragon-pulse.md)<br>2. [Thunder](../pokedex/moves/thunder.md)<br>3. [Surf](../pokedex/moves/surf.md)<br>4. [Roost](../pokedex/moves/roost.md) |
 	| ![volcarona](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/637.gif){ .sprite }<br>[Volcarona](../pokedex/pokemon/volcarona.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> <span class="type-badge" style="background: linear-gradient(135deg, #F08030 0%, #F08030dd 100%);">Fire</span></div> | **Level:** 100<br>**Ability:** [Swarm](../pokedex/abilities/swarm.md)<br>**Item:** ![Leftovers](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/leftovers.png){ .item-sprite } [Leftovers](../pokedex/items/leftovers.md) | 1. [Quiver Dance](../pokedex/moves/quiver-dance.md)<br>2. [Bug Buzz](../pokedex/moves/bug-buzz.md)<br>3. [Hurricane](../pokedex/moves/hurricane.md)<br>4. [Giga Drain](../pokedex/moves/giga-drain.md) |
 
-
-**BENGA - Black Skyscraper**
+**○ BENGA - Black Skyscraper**
 
 	| Pokémon | Type(s) | Attributes | Moves |
 	|:-------:|:-------:|:-----------|:------|
@@ -5946,10 +5493,9 @@ This fight has not yet been updated as of v1.2.0.
 	| ![latias](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/380.gif){ .sprite }<br>[Latias](../pokedex/pokemon/latias.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #7038F8 0%, #7038F8dd 100%);">Dragon</span> <span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span></div> | **Level:** 100<br>**Ability:** [Levitate](../pokedex/abilities/levitate.md)<br>**Item:** ![Soul Dew](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/soul-dew.png){ .item-sprite } [Soul Dew](../pokedex/items/soul-dew.md) | 1. [Dragon Pulse](../pokedex/moves/dragon-pulse.md)<br>2. [Psychic](../pokedex/moves/psychic.md)<br>3. [Solar Beam](../pokedex/moves/solar-beam.md)<br>4. [Mystical Fire](../pokedex/moves/mystical-fire.md) |
 	| ![volcarona](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/637.gif){ .sprite }<br>[Volcarona](../pokedex/pokemon/volcarona.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> <span class="type-badge" style="background: linear-gradient(135deg, #F08030 0%, #F08030dd 100%);">Fire</span></div> | **Level:** 100<br>**Ability:** [Swarm](../pokedex/abilities/swarm.md)<br>**Item:** ![Leftovers](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/leftovers.png){ .item-sprite } [Leftovers](../pokedex/items/leftovers.md) | 1. [Quiver Dance](../pokedex/moves/quiver-dance.md)<br>2. [Fiery Dance](../pokedex/moves/fiery-dance.md)<br>3. [Bug Buzz](../pokedex/moves/bug-buzz.md)<br>4. [Morning Sun](../pokedex/moves/morning-sun.md) |
 
-
 ### Wellspring Cave
 
-**BLUE**
+**○ BLUE**
 
 	| Pokémon | Type(s) | Attributes | Moves |
 	|:-------:|:-------:|:-----------|:------|
@@ -5960,13 +5506,12 @@ This fight has not yet been updated as of v1.2.0.
 	| ![gyarados](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/130.gif){ .sprite }<br>[Gyarados](../pokedex/pokemon/gyarados.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 85<br>**Ability:** [Moxie](../pokedex/abilities/moxie.md)<br>**Item:** ![Focus Sash](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/focus-sash.png){ .item-sprite } [Focus Sash](../pokedex/items/focus-sash.md) | 1. [Power Whip](../pokedex/moves/power-whip.md)<br>2. [Waterfall](../pokedex/moves/waterfall.md)<br>3. [Dragon Dance](../pokedex/moves/dragon-dance.md)<br>4. [Earthquake](../pokedex/moves/earthquake.md) |
 	| ![machamp](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/68.gif){ .sprite }<br>[Machamp](../pokedex/pokemon/machamp.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span></div> | **Level:** 85<br>**Ability:** [No Guard](../pokedex/abilities/no-guard.md)<br>**Item:** ![Fighting Gem](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/fighting-gem.png){ .item-sprite } [Fighting Gem](../pokedex/items/fighting-gem.md) | 1. [Dynamic Punch](../pokedex/moves/dynamic-punch.md)<br>2. [Stone Edge](../pokedex/moves/stone-edge.md)<br>3. [Thunder Punch](../pokedex/moves/thunder-punch.md) |
 
-
 ### Faraway Island
 
 Levels +7(!) on Challenge Mode
 
 
-**RED**
+**○ RED**
 
 	| Pokémon | Type(s) | Attributes | Moves |
 	|:-------:|:-------:|:-----------|:------|
@@ -5977,33 +5522,30 @@ Levels +7(!) on Challenge Mode
 	| ![blastoise](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/9.gif){ .sprite }<br>[Blastoise](../pokedex/pokemon/blastoise.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span></div> | **Level:** 100<br>**Ability:** [Shell Armor](../pokedex/abilities/shell-armor.md)<br>**Item:** ![White Herb](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/white-herb.png){ .item-sprite } [White Herb](../pokedex/items/white-herb.md) | 1. [Shell Smash](../pokedex/moves/shell-smash.md)<br>2. [Ice Beam](../pokedex/moves/ice-beam.md)<br>3. [Aura Sphere](../pokedex/moves/aura-sphere.md)<br>4. [Surf](../pokedex/moves/surf.md) |
 	| ![venusaur](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/3.gif){ .sprite }<br>[Venusaur](../pokedex/pokemon/venusaur.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span> <span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span></div> | **Level:** 100<br>**Ability:** [Solar Power](../pokedex/abilities/solar-power.md)<br>**Item:** ![Black Sludge](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/black-sludge.png){ .item-sprite } [Black Sludge](../pokedex/items/black-sludge.md) | 1. [Giga Drain](../pokedex/moves/giga-drain.md)<br>2. [Leech Seed](../pokedex/moves/leech-seed.md)<br>3. [Toxic](../pokedex/moves/toxic.md)<br>4. [Sludge Bomb](../pokedex/moves/sludge-bomb.md) |
 
-
 ### N's Castle
 
 #### Blaze Black 2 Redux
 
 
-**N - First Battle**
+**○ N - First Battle**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
 | ![zekrom](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/644.gif){ .sprite }<br>[Zekrom](../pokedex/pokemon/zekrom.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #7038F8 0%, #7038F8dd 100%);">Dragon</span> <span class="type-badge" style="background: linear-gradient(135deg, #F8D030 0%, #F8D030dd 100%);">Electric</span></div> | **Level:** 100<br>**Ability:** [Teravolt](../pokedex/abilities/teravolt.md)<br>**Item:** ![Leftovers](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/leftovers.png){ .item-sprite } [Leftovers](../pokedex/items/leftovers.md) | 1. [Bolt Strike](../pokedex/moves/bolt-strike.md)<br>2. [Outrage](../pokedex/moves/outrage.md)<br>3. [Dragon Dance](../pokedex/moves/dragon-dance.md)<br>4. [Stone Edge](../pokedex/moves/stone-edge.md) |
 
-
 #### Volt White 2 Redux
 
 
-**N - First Battle**
+**○ N - First Battle**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
 | ![reshiram](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/643.gif){ .sprite }<br>[Reshiram](../pokedex/pokemon/reshiram.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #7038F8 0%, #7038F8dd 100%);">Dragon</span> <span class="type-badge" style="background: linear-gradient(135deg, #F08030 0%, #F08030dd 100%);">Fire</span></div> | **Level:** 100<br>**Ability:** [Turboblaze](../pokedex/abilities/turboblaze.md)<br>**Item:** ![Leftovers](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/leftovers.png){ .item-sprite } [Leftovers](../pokedex/items/leftovers.md) | 1. [Blue Flare](../pokedex/moves/blue-flare.md)<br>2. [Dragon Pulse](../pokedex/moves/dragon-pulse.md)<br>3. [Earth Power](../pokedex/moves/earth-power.md)<br>4. [Psychic](../pokedex/moves/psychic.md) |
 
-
 #### Spring
 
 
-**N - N's Castle**
+**○ N - N's Castle**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -6014,11 +5556,10 @@ Levels +7(!) on Challenge Mode
 | ![gorebyss](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/368.gif){ .sprite }<br>[Gorebyss](../pokedex/pokemon/gorebyss.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span></div> | **Level:** 90<br>**Ability:** [Swift Swim](../pokedex/abilities/swift-swim.md)<br>**Item:** ![Life Orb](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/life-orb.png){ .item-sprite } [Life Orb](../pokedex/items/life-orb.md) | 1. [Shell Smash](../pokedex/moves/shell-smash.md)<br>2. [Blizzard](../pokedex/moves/blizzard.md)<br>3. [Hydro Pump](../pokedex/moves/hydro-pump.md)<br>4. [Psychic](../pokedex/moves/psychic.md) |
 | ![rotom](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/479.gif){ .sprite }<br>[Rotom](../pokedex/pokemon/rotom.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F8D030 0%, #F8D030dd 100%);">Electric</span> <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span></div> | **Level:** 90<br>**Ability:** [Levitate](../pokedex/abilities/levitate.md)<br>**Item:** ![Rindo Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/rindo-berry.png){ .item-sprite } [Rindo Berry](../pokedex/items/rindo-berry.md) | 1. [Hydro Pump](../pokedex/moves/hydro-pump.md)<br>2. [Thunder](../pokedex/moves/thunder.md)<br>3. [Signal Beam](../pokedex/moves/signal-beam.md)<br>4. [Thunder Wave](../pokedex/moves/thunder-wave.md) |
 
-
 #### Summer
 
 
-**N - N's Castle**
+**○ N - N's Castle**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -6029,11 +5570,10 @@ Levels +7(!) on Challenge Mode
 | ![rotom](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/479.gif){ .sprite }<br>[Rotom](../pokedex/pokemon/rotom.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F8D030 0%, #F8D030dd 100%);">Electric</span> <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span></div> | **Level:** 90<br>**Ability:** [Levitate](../pokedex/abilities/levitate.md)<br>**Item:** ![Charti Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/charti-berry.png){ .item-sprite } [Charti Berry](../pokedex/items/charti-berry.md) | 1. [Thunderbolt](../pokedex/moves/thunderbolt.md)<br>2. [Overheat](../pokedex/moves/overheat.md)<br>3. [Volt Switch](../pokedex/moves/volt-switch.md)<br>4. [Thunder Wave](../pokedex/moves/thunder-wave.md) |
 | ![sawsbuck](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/586.gif){ .sprite }<br>[Sawsbuck](../pokedex/pokemon/sawsbuck.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> <span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span></div> | **Level:** 90<br>**Ability:** [Chlorophyll](../pokedex/abilities/chlorophyll.md)<br>**Item:** ![Life Orb](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/life-orb.png){ .item-sprite } [Life Orb](../pokedex/items/life-orb.md) | 1. [Horn Leech](../pokedex/moves/horn-leech.md)<br>2. [Double Edge](../pokedex/moves/double-edge.md)<br>3. [Jump Kick](../pokedex/moves/jump-kick.md)<br>4. [Megahorn](../pokedex/moves/megahorn.md) |
 
-
 #### Autumn
 
 
-**N - N's Castle**
+**○ N - N's Castle**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -6044,11 +5584,10 @@ Levels +7(!) on Challenge Mode
 | ![mandibuzz](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/630.gif){ .sprite }<br>[Mandibuzz](../pokedex/pokemon/mandibuzz.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 90<br>**Ability:** [Overcoat](../pokedex/abilities/overcoat.md)<br>**Item:** ![Leftovers](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/leftovers.png){ .item-sprite } [Leftovers](../pokedex/items/leftovers.md) | 1. [Toxic](../pokedex/moves/toxic.md)<br>2. [Protect](../pokedex/moves/protect.md)<br>3. [Roost](../pokedex/moves/roost.md)<br>4. [Brave Bird](../pokedex/moves/brave-bird.md) |
 | ![stoutland](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/508.gif){ .sprite }<br>[Stoutland](../pokedex/pokemon/stoutland.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span></div> | **Level:** 90<br>**Ability:** [Sand Rush](../pokedex/abilities/sand-rush.md)<br>**Item:** ![Life Orb](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/life-orb.png){ .item-sprite } [Life Orb](../pokedex/items/life-orb.md) | 1. [Retaliate](../pokedex/moves/retaliate.md)<br>2. [Return](../pokedex/moves/return.md)<br>3. [Crunch](../pokedex/moves/crunch.md)<br>4. [Wild Charge](../pokedex/moves/wild-charge.md) |
 
-
 #### December
 
 
-**N - N's Castle**
+**○ N - N's Castle**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -6059,10 +5598,9 @@ Levels +7(!) on Challenge Mode
 | ![mamoswine](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/473.gif){ .sprite }<br>[Mamoswine](../pokedex/pokemon/mamoswine.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #98D8D8 0%, #98D8D8dd 100%);">Ice</span> <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span></div> | **Level:** 90<br>**Ability:** [Snow Cloak](../pokedex/abilities/snow-cloak.md)<br>**Item:** ![Leftovers](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/leftovers.png){ .item-sprite } [Leftovers](../pokedex/items/leftovers.md) | 1. [Earthquake](../pokedex/moves/earthquake.md)<br>2. [Ice Shard](../pokedex/moves/ice-shard.md)<br>3. [Icicle Crash](../pokedex/moves/icicle-crash.md)<br>4. [Stone Edge](../pokedex/moves/stone-edge.md) |
 | ![jynx](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/124.gif){ .sprite }<br>[Jynx](../pokedex/pokemon/jynx.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #98D8D8 0%, #98D8D8dd 100%);">Ice</span> <span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span></div> | **Level:** 90<br>**Ability:** [Trace](../pokedex/abilities/trace.md)<br>**Item:** ![Quick Claw](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/quick-claw.png){ .item-sprite } [Quick Claw](../pokedex/items/quick-claw.md) | 1. [Psycho Boost](../pokedex/moves/psycho-boost.md)<br>2. [Blizzard](../pokedex/moves/blizzard.md)<br>3. [Psyshock](../pokedex/moves/psyshock.md)<br>4. [Focus Blast](../pokedex/moves/focus-blast.md) |
 
-
 ### Nacrene City - Postgame
 
-**LEADER CHEREN - Rematch**
+**○ LEADER CHEREN - Rematch**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -6073,12 +5611,11 @@ Levels +7(!) on Challenge Mode
 | ![exploud](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/295.gif){ .sprite }<br>[Exploud](../pokedex/pokemon/exploud.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span></div> | **Level:** 85<br>**Ability:** [Scrappy](../pokedex/abilities/scrappy.md)<br>**Item:** ![Life Orb](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/life-orb.png){ .item-sprite } [Life Orb](../pokedex/items/life-orb.md) | 1. [Boomburst](../pokedex/moves/boomburst.md)<br>2. [Surf](../pokedex/moves/surf.md)<br>3. [Fire Blast](../pokedex/moves/fire-blast.md)<br>4. [Extrasensory](../pokedex/moves/extrasensory.md) |
 | ![stoutland](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/508.gif){ .sprite }<br>[Stoutland](../pokedex/pokemon/stoutland.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span></div> | **Level:** 87<br>**Ability:** [Intimidate](../pokedex/abilities/intimidate.md)<br>**Item:** ![Chople Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/chople-berry.png){ .item-sprite } [Chople Berry](../pokedex/items/chople-berry.md) | 1. [Strength](../pokedex/moves/strength.md)<br>2. [Thunder Wave](../pokedex/moves/thunder-wave.md)<br>3. [Crunch](../pokedex/moves/crunch.md)<br>4. [Ice Fang](../pokedex/moves/ice-fang.md) |
 
-
 Cheren gets some minor level bonuses on account of beating the Elite Four in the first
 game.
 
 
-**LEADER ROXIE - Rematch**
+**○ LEADER ROXIE - Rematch**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -6089,8 +5626,7 @@ game.
 | ![crobat](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/169.gif){ .sprite }<br>[Crobat](../pokedex/pokemon/crobat.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 83<br>**Ability:** [Infiltrator](../pokedex/abilities/infiltrator.md)<br>**Item:** ![Flying Gem](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/flying-gem.png){ .item-sprite } [Flying Gem](../pokedex/items/flying-gem.md) | 1. [Acrobatics](../pokedex/moves/acrobatics.md)<br>2. [X Scissor](../pokedex/moves/x-scissor.md)<br>3. [Tailwind](../pokedex/moves/tailwind.md)<br>4. [Hypnosis](../pokedex/moves/hypnosis.md) |
 | ![scolipede](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/545.gif){ .sprite }<br>[Scolipede](../pokedex/pokemon/scolipede.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> <span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span></div> | **Level:** 85<br>**Ability:** [Speed Boost](../pokedex/abilities/speed-boost.md)<br>**Item:** ![Focus Sash](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/focus-sash.png){ .item-sprite } [Focus Sash](../pokedex/items/focus-sash.md) | 1. [Megahorn](../pokedex/moves/megahorn.md)<br>2. [Earthquake](../pokedex/moves/earthquake.md)<br>3. [Poison Tail](../pokedex/moves/poison-tail.md)<br>4. [Swords Dance](../pokedex/moves/swords-dance.md) |
 
-
-**LEADER BURGH - Rematch**
+**○ LEADER BURGH - Rematch**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -6101,8 +5637,7 @@ game.
 | ![heracross](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/214.gif){ .sprite }<br>[Heracross](../pokedex/pokemon/heracross.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> <span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span></div> | **Level:** 83<br>**Ability:** [Skill Link](../pokedex/abilities/skill-link.md)<br>**Item:** ![Metronome](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/metronome.png){ .item-sprite } [Metronome](../pokedex/items/metronome.md) | 1. [Pin Missile](../pokedex/moves/pin-missile.md)<br>2. [Arm Thrust](../pokedex/moves/arm-thrust.md)<br>3. [Rock Blast](../pokedex/moves/rock-blast.md)<br>4. [Swords Dance](../pokedex/moves/swords-dance.md) |
 | ![leavanny](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/542.gif){ .sprite }<br>[Leavanny](../pokedex/pokemon/leavanny.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> <span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span></div> | **Level:** 85<br>**Ability:** [Swarm](../pokedex/abilities/swarm.md)<br>**Item:** ![Focus Sash](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/focus-sash.png){ .item-sprite } [Focus Sash](../pokedex/items/focus-sash.md) | 1. [Leaf Blade](../pokedex/moves/leaf-blade.md)<br>2. [X Scissor](../pokedex/moves/x-scissor.md)<br>3. [Aerial Ace](../pokedex/moves/aerial-ace.md)<br>4. [Swords Dance](../pokedex/moves/swords-dance.md) |
 
-
-**LEADER ELESA - Rematch**
+**○ LEADER ELESA - Rematch**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -6113,8 +5648,7 @@ game.
 | ![eelektross](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/604.gif){ .sprite }<br>[Eelektross](../pokedex/pokemon/eelektross.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F8D030 0%, #F8D030dd 100%);">Electric</span></div> | **Level:** 83<br>**Ability:** [Levitate](../pokedex/abilities/levitate.md)<br>**Item:** ![Expert Belt](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/expert-belt.png){ .item-sprite } [Expert Belt](../pokedex/items/expert-belt.md) | 1. [Discharge](../pokedex/moves/discharge.md)<br>2. [Flamethrower](../pokedex/moves/flamethrower.md)<br>3. [Grass Knot](../pokedex/moves/grass-knot.md)<br>4. [Aqua Tail](../pokedex/moves/aqua-tail.md) |
 | ![zebstrika](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/523.gif){ .sprite }<br>[Zebstrika](../pokedex/pokemon/zebstrika.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F8D030 0%, #F8D030dd 100%);">Electric</span></div> | **Level:** 85<br>**Ability:** [Sap Sipper](../pokedex/abilities/sap-sipper.md)<br>**Item:** ![Focus Sash](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/focus-sash.png){ .item-sprite } [Focus Sash](../pokedex/items/focus-sash.md) | 1. [Wild Charge](../pokedex/moves/wild-charge.md)<br>2. [Flare Blitz](../pokedex/moves/flare-blitz.md)<br>3. [High Horsepower](../pokedex/moves/high-horsepower.md)<br>4. [Volt Switch](../pokedex/moves/volt-switch.md) |
 
-
-**LEADER CLAY - Rematch**
+**○ LEADER CLAY - Rematch**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -6125,8 +5659,7 @@ game.
 | ![golurk](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/623.gif){ .sprite }<br>[Golurk](../pokedex/pokemon/golurk.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span></div> | **Level:** 83<br>**Ability:** [Iron Fist](../pokedex/abilities/iron-fist.md)<br>**Item:** ![Expert Belt](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/expert-belt.png){ .item-sprite } [Expert Belt](../pokedex/items/expert-belt.md) | 1. [Earthquake](../pokedex/moves/earthquake.md)<br>2. [Shadow Punch](../pokedex/moves/shadow-punch.md)<br>3. [Thunder Punch](../pokedex/moves/thunder-punch.md)<br>4. [Ice Punch](../pokedex/moves/ice-punch.md) |
 | ![excadrill](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/530.gif){ .sprite }<br>[Excadrill](../pokedex/pokemon/excadrill.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> <span class="type-badge" style="background: linear-gradient(135deg, #B8B8D0 0%, #B8B8D0dd 100%);">Steel</span></div> | **Level:** 85<br>**Ability:** [Sand Rush](../pokedex/abilities/sand-rush.md)<br>**Item:** ![Life Orb](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/life-orb.png){ .item-sprite } [Life Orb](../pokedex/items/life-orb.md) | 1. [Swords Dance](../pokedex/moves/swords-dance.md)<br>2. [Earthquake](../pokedex/moves/earthquake.md)<br>3. [Rock Slide](../pokedex/moves/rock-slide.md)<br>4. [Iron Head](../pokedex/moves/iron-head.md) |
 
-
-**LEADER SKYLA - Rematch**
+**○ LEADER SKYLA - Rematch**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -6137,8 +5670,7 @@ game.
 | ![archeops](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/567.gif){ .sprite }<br>[Archeops](../pokedex/pokemon/archeops.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 83<br>**Ability:** [Defeatist](../pokedex/abilities/defeatist.md)<br>**Item:** ![Flying Gem](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/flying-gem.png){ .item-sprite } [Flying Gem](../pokedex/items/flying-gem.md) | 1. [Acrobatics](../pokedex/moves/acrobatics.md)<br>2. [Earthquake](../pokedex/moves/earthquake.md)<br>3. [Stone Edge](../pokedex/moves/stone-edge.md)<br>4. [U Turn](../pokedex/moves/u-turn.md) |
 | ![staraptor](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/398.gif){ .sprite }<br>[Staraptor](../pokedex/pokemon/staraptor.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 83<br>**Ability:** [Reckless](../pokedex/abilities/reckless.md)<br>**Item:** ![Life Orb](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/life-orb.png){ .item-sprite } [Life Orb](../pokedex/items/life-orb.md) | 1. [Brave Bird](../pokedex/moves/brave-bird.md)<br>2. [Double Edge](../pokedex/moves/double-edge.md)<br>3. [Close Combat](../pokedex/moves/close-combat.md)<br>4. [U Turn](../pokedex/moves/u-turn.md) |
 
-
-**LEADER DRAYDEN - Rematch**
+**○ LEADER DRAYDEN - Rematch**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -6149,8 +5681,7 @@ game.
 | ![garchomp](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/445.gif){ .sprite }<br>[Garchomp](../pokedex/pokemon/garchomp.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #7038F8 0%, #7038F8dd 100%);">Dragon</span> <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span></div> | **Level:** 87<br>**Ability:** [Rough Skin](../pokedex/abilities/rough-skin.md)<br>**Item:** ![Rocky Helmet](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/rocky-helmet.png){ .item-sprite } [Rocky Helmet](../pokedex/items/rocky-helmet.md) | 1. [Outrage](../pokedex/moves/outrage.md)<br>2. [Earthquake](../pokedex/moves/earthquake.md)<br>3. [Swords Dance](../pokedex/moves/swords-dance.md)<br>4. [Fire Fang](../pokedex/moves/fire-fang.md) |
 | ![haxorus](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/612.gif){ .sprite }<br>[Haxorus](../pokedex/pokemon/haxorus.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #7038F8 0%, #7038F8dd 100%);">Dragon</span></div> | **Level:** 89<br>**Ability:** [Mold Breaker](../pokedex/abilities/mold-breaker.md)<br>**Item:** ![Focus Sash](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/focus-sash.png){ .item-sprite } [Focus Sash](../pokedex/items/focus-sash.md) | 1. [Outrage](../pokedex/moves/outrage.md)<br>2. [Earthquake](../pokedex/moves/earthquake.md)<br>3. [Cross Poison](../pokedex/moves/cross-poison.md)<br>4. [Dragon Dance](../pokedex/moves/dragon-dance.md) |
 
-
-**LEADER MARLON - Rematch**
+**○ LEADER MARLON - Rematch**
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|

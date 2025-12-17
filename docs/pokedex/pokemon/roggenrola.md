@@ -21,8 +21,7 @@
 
 	---
 
-	- [Weak Armor](../../pokedex/abilities/weak-armor.md)
-	- [Weak Armor](../../pokedex/abilities/weak-armor.md)
+	- [Sturdy](../../pokedex/abilities/sturdy.md)
 	- [Sand Force](../../pokedex/abilities/sand-force.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**

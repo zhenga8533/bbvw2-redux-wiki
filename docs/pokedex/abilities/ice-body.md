@@ -52,6 +52,24 @@
 
 	**#378 [Regice](../pokemon/regice.md)**
 
+-	[![Vanillite](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/582.gif){: .pokemon-sprite-img }](../pokemon/vanillite.md)
+
+	***
+
+	**#582 [Vanillite](../pokemon/vanillite.md)**
+
+-	[![Vanillish](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/583.gif){: .pokemon-sprite-img }](../pokemon/vanillish.md)
+
+	***
+
+	**#583 [Vanillish](../pokemon/vanillish.md)**
+
+-	[![Vanilluxe](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/584.gif){: .pokemon-sprite-img }](../pokemon/vanilluxe.md)
+
+	***
+
+	**#584 [Vanilluxe](../pokemon/vanilluxe.md)**
+
 </div>
 
 ### :material-eye-off: Hidden Ability

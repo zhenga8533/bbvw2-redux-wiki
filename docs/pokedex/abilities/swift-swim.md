@@ -154,6 +154,12 @@
 
 	**#348 [Armaldo](../pokemon/armaldo.md)**
 
+-	[![Feebas](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/349.gif){: .pokemon-sprite-img }](../pokemon/feebas.md)
+
+	***
+
+	**#349 [Feebas](../pokemon/feebas.md)**
+
 -	[![Huntail](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/367.gif){: .pokemon-sprite-img }](../pokemon/huntail.md)
 
 	***

@@ -148,6 +148,24 @@
 
 	**#476 [Probopass](../pokemon/probopass.md)**
 
+-	[![Roggenrola](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/524.gif){: .pokemon-sprite-img }](../pokemon/roggenrola.md)
+
+	***
+
+	**#524 [Roggenrola](../pokemon/roggenrola.md)**
+
+-	[![Boldore](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/525.gif){: .pokemon-sprite-img }](../pokemon/boldore.md)
+
+	***
+
+	**#525 [Boldore](../pokemon/boldore.md)**
+
+-	[![Gigalith](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/526.gif){: .pokemon-sprite-img }](../pokemon/gigalith.md)
+
+	***
+
+	**#526 [Gigalith](../pokemon/gigalith.md)**
+
 -	[![Sawk](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/539.gif){: .pokemon-sprite-img }](../pokemon/sawk.md)
 
 	***

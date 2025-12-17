@@ -20,8 +20,7 @@
 
 	---
 
-	- [Oblivious](../../pokedex/abilities/oblivious.md)
-	- [Oblivious](../../pokedex/abilities/oblivious.md)
+	- [Swift Swim](../../pokedex/abilities/swift-swim.md)
 	- [Adaptability](../../pokedex/abilities/adaptability.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**

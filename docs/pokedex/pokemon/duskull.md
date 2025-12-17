@@ -20,8 +20,7 @@
 
 	---
 
-	- [Frisk](../../pokedex/abilities/frisk.md)
-	- [Frisk](../../pokedex/abilities/frisk.md) :material-eye-off:
+	- [Levitate](../../pokedex/abilities/levitate.md)
 
 - **:material-ruler: Physical Attributes**
 

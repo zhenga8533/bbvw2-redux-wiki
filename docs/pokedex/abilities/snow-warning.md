@@ -40,11 +40,5 @@
 
 	**#460 [Abomasnow](../pokemon/abomasnow.md)**
 
--	[![Vanilluxe](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/584.gif){: .pokemon-sprite-img }](../pokemon/vanilluxe.md)
-
-	***
-
-	**#584 [Vanilluxe](../pokemon/vanilluxe.md)**
-
 </div>
 

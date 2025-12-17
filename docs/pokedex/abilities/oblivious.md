@@ -28,18 +28,6 @@
 
 	**#322 [Numel](../pokemon/numel.md)**
 
--	[![Feebas](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/349.gif){: .pokemon-sprite-img }](../pokemon/feebas.md)
-
-	***
-
-	**#349 [Feebas](../pokemon/feebas.md)**
-
--	[![Feebas](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/349.gif){: .pokemon-sprite-img }](../pokemon/feebas.md)
-
-	***
-
-	**#349 [Feebas](../pokemon/feebas.md)**
-
 </div>
 
 ### :material-eye-off: Hidden Ability

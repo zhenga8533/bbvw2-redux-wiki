@@ -76,17 +76,5 @@
 
 	**#044 [Gloom](../pokemon/gloom.md)**
 
--	[![Koffing](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/109.gif){: .pokemon-sprite-img }](../pokemon/koffing.md)
-
-	***
-
-	**#109 [Koffing](../pokemon/koffing.md)**
-
--	[![Weezing](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/110.gif){: .pokemon-sprite-img }](../pokemon/weezing.md)
-
-	***
-
-	**#110 [Weezing](../pokemon/weezing.md)**
-
 </div>
 

@@ -40,6 +40,18 @@
 
 	**#094 [Gengar](../pokemon/gengar.md)**
 
+-	[![Koffing](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/109.gif){: .pokemon-sprite-img }](../pokemon/koffing.md)
+
+	***
+
+	**#109 [Koffing](../pokemon/koffing.md)**
+
+-	[![Weezing](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/110.gif){: .pokemon-sprite-img }](../pokemon/weezing.md)
+
+	***
+
+	**#110 [Weezing](../pokemon/weezing.md)**
+
 -	[![Unown](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/201.gif){: .pokemon-sprite-img }](../pokemon/unown.md)
 
 	***
@@ -81,6 +93,12 @@
 	***
 
 	**#344 [Claydol](../pokemon/claydol.md)**
+
+-	[![Duskull](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/355.gif){: .pokemon-sprite-img }](../pokemon/duskull.md)
+
+	***
+
+	**#355 [Duskull](../pokemon/duskull.md)**
 
 -	[![Chimecho](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/358.gif){: .pokemon-sprite-img }](../pokemon/chimecho.md)
 

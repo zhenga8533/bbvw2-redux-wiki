@@ -34,12 +34,6 @@
 
 	**#340 [Whiscash](../pokemon/whiscash.md)**
 
--	[![Ferrothorn](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/598.gif){: .pokemon-sprite-img }](../pokemon/ferrothorn.md)
-
-	***
-
-	**#598 [Ferrothorn](../pokemon/ferrothorn.md)**
-
 </div>
 
 ### :material-eye-off: Hidden Ability
@@ -51,12 +45,6 @@
 	***
 
 	**#133 [Eevee](../pokemon/eevee.md)**
-
--	[![Ferrothorn](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/598.gif){: .pokemon-sprite-img }](../pokemon/ferrothorn.md)
-
-	***
-
-	**#598 [Ferrothorn](../pokemon/ferrothorn.md)**
 
 </div>
 

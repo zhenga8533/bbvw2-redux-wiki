@@ -20,8 +20,7 @@
 
 	---
 
-	- Competitive
-	- Competitive
+	- [Marvel Scale](../../pokedex/abilities/marvel-scale.md)
 	- [Cute Charm](../../pokedex/abilities/cute-charm.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**

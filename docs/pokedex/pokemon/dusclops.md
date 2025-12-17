@@ -20,8 +20,7 @@
 
 	---
 
-	- [Frisk](../../pokedex/abilities/frisk.md)
-	- [Frisk](../../pokedex/abilities/frisk.md) :material-eye-off:
+	- [Pressure](../../pokedex/abilities/pressure.md)
 
 - **:material-ruler: Physical Attributes**
 

@@ -40,18 +40,6 @@
 
 	**#354 [Banette](../pokemon/banette.md)**
 
--	[![Duskull](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/355.gif){: .pokemon-sprite-img }](../pokemon/duskull.md)
-
-	***
-
-	**#355 [Duskull](../pokemon/duskull.md)**
-
--	[![Dusclops](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/356.gif){: .pokemon-sprite-img }](../pokemon/dusclops.md)
-
-	***
-
-	**#356 [Dusclops](../pokemon/dusclops.md)**
-
 -	[![Gothita](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/574.gif){: .pokemon-sprite-img }](../pokemon/gothita.md)
 
 	***
@@ -87,18 +75,6 @@
 	***
 
 	**#193 [Yanma](../pokemon/yanma.md)**
-
--	[![Duskull](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/355.gif){: .pokemon-sprite-img }](../pokemon/duskull.md)
-
-	***
-
-	**#355 [Duskull](../pokemon/duskull.md)**
-
--	[![Dusclops](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/356.gif){: .pokemon-sprite-img }](../pokemon/dusclops.md)
-
-	***
-
-	**#356 [Dusclops](../pokemon/dusclops.md)**
 
 -	[![Yanmega](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/469.gif){: .pokemon-sprite-img }](../pokemon/yanmega.md)
 

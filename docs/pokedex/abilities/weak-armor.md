@@ -28,18 +28,6 @@
 
 	**#095 [Onix](../pokemon/onix.md)**
 
--	[![Roggenrola](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/524.gif){: .pokemon-sprite-img }](../pokemon/roggenrola.md)
-
-	***
-
-	**#524 [Roggenrola](../pokemon/roggenrola.md)**
-
--	[![Boldore](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/525.gif){: .pokemon-sprite-img }](../pokemon/boldore.md)
-
-	***
-
-	**#525 [Boldore](../pokemon/boldore.md)**
-
 -	[![Vullaby](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/629.gif){: .pokemon-sprite-img }](../pokemon/vullaby.md)
 
 	***

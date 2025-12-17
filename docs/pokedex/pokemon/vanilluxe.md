@@ -21,8 +21,7 @@
 
 	---
 
-	- [Snow Warning](../../pokedex/abilities/snow-warning.md)
-	- [Snow Warning](../../pokedex/abilities/snow-warning.md)
+	- [Ice Body](../../pokedex/abilities/ice-body.md)
 	- [Weak Armor](../../pokedex/abilities/weak-armor.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**

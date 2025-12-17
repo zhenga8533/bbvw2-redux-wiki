@@ -70,6 +70,12 @@
 
 	**#321 [Wailord](../pokemon/wailord.md)**
 
+-	[![Dusclops](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/356.gif){: .pokemon-sprite-img }](../pokemon/dusclops.md)
+
+	***
+
+	**#356 [Dusclops](../pokemon/dusclops.md)**
+
 -	[![Deoxys Normal](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/386.gif){: .pokemon-sprite-img }](../pokemon/deoxys-normal.md)
 
 	***

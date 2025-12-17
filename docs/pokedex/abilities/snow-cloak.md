@@ -52,18 +52,6 @@
 
 	**#478 [Froslass](../pokemon/froslass.md)**
 
--	[![Vanillite](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/582.gif){: .pokemon-sprite-img }](../pokemon/vanillite.md)
-
-	***
-
-	**#582 [Vanillite](../pokemon/vanillite.md)**
-
--	[![Vanillish](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/583.gif){: .pokemon-sprite-img }](../pokemon/vanillish.md)
-
-	***
-
-	**#583 [Vanillish](../pokemon/vanillish.md)**
-
 -	[![Cubchoo](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/613.gif){: .pokemon-sprite-img }](../pokemon/cubchoo.md)
 
 	***

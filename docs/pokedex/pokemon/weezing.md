@@ -20,9 +20,7 @@
 
 	---
 
-	- Neutralizing Gas
-	- Neutralizing Gas
-	- [Stench](../../pokedex/abilities/stench.md) :material-eye-off:
+	- [Levitate](../../pokedex/abilities/levitate.md)
 
 - **:material-ruler: Physical Attributes**
 

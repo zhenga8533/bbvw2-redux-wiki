@@ -21,8 +21,7 @@
 
 	---
 
-	- [Snow Cloak](../../pokedex/abilities/snow-cloak.md)
-	- [Snow Cloak](../../pokedex/abilities/snow-cloak.md)
+	- [Ice Body](../../pokedex/abilities/ice-body.md)
 	- [Weak Armor](../../pokedex/abilities/weak-armor.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**

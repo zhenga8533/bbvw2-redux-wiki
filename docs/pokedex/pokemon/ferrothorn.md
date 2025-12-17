@@ -21,8 +21,7 @@
 
 	---
 
-	- [Anticipation](../../pokedex/abilities/anticipation.md)
-	- [Anticipation](../../pokedex/abilities/anticipation.md) :material-eye-off:
+	- [Iron Barbs](../../pokedex/abilities/iron-barbs.md)
 
 - **:material-ruler: Physical Attributes**
 

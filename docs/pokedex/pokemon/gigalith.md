@@ -21,8 +21,7 @@
 
 	---
 
-	- [Sand Stream](../../pokedex/abilities/sand-stream.md)
-	- [Sand Stream](../../pokedex/abilities/sand-stream.md)
+	- [Sturdy](../../pokedex/abilities/sturdy.md)
 	- [Sand Force](../../pokedex/abilities/sand-force.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
