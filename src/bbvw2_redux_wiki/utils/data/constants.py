@@ -31,6 +31,13 @@ ITEM_DISPLAY_ABBREVIATIONS: dict[str, str] = {
     "kings rock": "King's Rock",
 }
 
+MOVE_DISPLAY_CASES: dict[str, str] = {
+    "u turn": "U-turn",
+    "x scissor": "X-Scissor",
+    "will o wisp": "Will-O-Wisp",
+    "v create": "V-create",
+}
+
 # ============================================================================
 # Type-Related Constants
 # ============================================================================

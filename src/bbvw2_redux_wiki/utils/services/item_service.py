@@ -14,8 +14,9 @@ from bbvw2_redux_wiki.utils.core.config import (
 )
 from bbvw2_redux_wiki.utils.core.loader import PokeDBLoader
 from bbvw2_redux_wiki.utils.core.logger import get_logger
+from bbvw2_redux_wiki.utils.data.constants import MOVE_DISPLAY_CASES
 from bbvw2_redux_wiki.utils.services.move_service import MoveService
-from bbvw2_redux_wiki.utils.text.text_util import name_to_id
+from bbvw2_redux_wiki.utils.text.text_util import format_display_name, name_to_id
 
 logger = get_logger(__name__)
 
@@ -151,8 +152,8 @@ class ItemService:
                 )
                 return False
 
-        # Get the properly formatted move name from the move data
-        proper_move_name = move.name.replace("-", " ").title()
+        # Format move name with special cases (e.g., "u-turn" -> "U-turn", "dragon-claw" -> "Dragon Claw")
+        proper_move_name = format_display_name(move.name, special_cases=MOVE_DISPLAY_CASES)
 
         # Update the effect and short_effect to reference the new move
         tm_item.effect = f"Teaches {proper_move_name} to a compatible Pokémon."

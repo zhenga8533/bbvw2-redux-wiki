@@ -31,7 +31,7 @@
 
 	---
 
-	₽100
+	₽1,000
 
 - **:material-fire: Fling Power**
 
