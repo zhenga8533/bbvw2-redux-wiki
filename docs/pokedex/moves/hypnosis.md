@@ -26,7 +26,7 @@
 
 	---
 
-	70%
+	60%
 
 - **:material-counter: PP**
 

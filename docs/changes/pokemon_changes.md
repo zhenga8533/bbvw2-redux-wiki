@@ -390,7 +390,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 22 | [Bubble Beam](../pokedex/moves/bubble-beam.md) | <span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> | Special | <input type="checkbox" disabled /> |
 | 25 | [Aqua Ring](../pokedex/moves/aqua-ring.md) | <span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> | Status | <input type="checkbox" disabled /> |
 | 28 | [Avalanche](../pokedex/moves/avalanche.md) | <span class="type-badge" style="background: linear-gradient(135deg, #98D8D8 0%, #98D8D8dd 100%);">Ice</span> | Physical | <input type="checkbox" disabled /> |
-| 31 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
+| 31 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 34 | [Skull Bash](../pokedex/moves/skull-bash.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 37 | [Body Slam](../pokedex/moves/body-slam.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 40 | [Muddy Water](../pokedex/moves/muddy-water.md) | <span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> | Special | <input type="checkbox" disabled /> |
@@ -432,7 +432,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 22 | [Bubble Beam](../pokedex/moves/bubble-beam.md) | <span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> | Special | <input type="checkbox" disabled /> |
 | 25 | [Aqua Ring](../pokedex/moves/aqua-ring.md) | <span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> | Status | <input type="checkbox" disabled /> |
 | 28 | [Avalanche](../pokedex/moves/avalanche.md) | <span class="type-badge" style="background: linear-gradient(135deg, #98D8D8 0%, #98D8D8dd 100%);">Ice</span> | Physical | <input type="checkbox" disabled /> |
-| 31 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
+| 31 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 34 | [Skull Bash](../pokedex/moves/skull-bash.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 37 | [Body Slam](../pokedex/moves/body-slam.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 40 | [Muddy Water](../pokedex/moves/muddy-water.md) | <span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> | Special | <input type="checkbox" disabled /> |
@@ -483,7 +483,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 22 | [Bubble Beam](../pokedex/moves/bubble-beam.md) | <span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> | Special | <input type="checkbox" disabled /> |
 | 25 | [Aqua Ring](../pokedex/moves/aqua-ring.md) | <span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> | Status | <input type="checkbox" disabled /> |
 | 28 | [Avalanche](../pokedex/moves/avalanche.md) | <span class="type-badge" style="background: linear-gradient(135deg, #98D8D8 0%, #98D8D8dd 100%);">Ice</span> | Physical | <input type="checkbox" disabled /> |
-| 31 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
+| 31 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 34 | [Skull Bash](../pokedex/moves/skull-bash.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 36 | [Iron Defense](../pokedex/moves/iron-defense.md) | <span class="type-badge" style="background: linear-gradient(135deg, #B8B8D0 0%, #B8B8D0dd 100%);">Steel</span> | Status | <input type="checkbox" disabled /> |
 | 37 | [Body Slam](../pokedex/moves/body-slam.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
@@ -570,7 +570,7 @@ All new type changes are omitted in the Classic version of Redux.
 |:------|:-----|:-----|:------|:------|
 | 1 | [Struggle Bug](../pokedex/moves/struggle-bug.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> | Special | <input type="checkbox" disabled /> |
 | 13 | [Confusion](../pokedex/moves/confusion.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span> | Special | <input type="checkbox" disabled /> |
-| 13 | [Gust](../pokedex/moves/gust.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Special | <input type="checkbox" disabled /> |
+| 13 | [Gust](../pokedex/moves/gust.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span> | Special | <input type="checkbox" disabled /> |
 | 15 | [Poison Powder](../pokedex/moves/poison-powder.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span> | Status | <input type="checkbox" disabled /> |
 | 15 | [Stun Spore](../pokedex/moves/stun-spore.md) | <span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span> | Status | <input type="checkbox" disabled /> |
 | 15 | [Sleep Powder](../pokedex/moves/sleep-powder.md) | <span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span> | Status | <input type="checkbox" disabled /> |
@@ -704,9 +704,9 @@ All new type changes are omitted in the Classic version of Redux.
 |:------|:-----|:-----|:------|:------|
 | 1 | [Foresight](../pokedex/moves/foresight.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 1 | [Mud Slap](../pokedex/moves/mud-slap.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Special | <input type="checkbox" disabled /> |
-| 1 | [Sand Attack](../pokedex/moves/sand-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
+| 1 | [Sand Attack](../pokedex/moves/sand-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Status | <input type="checkbox" disabled /> |
 | 1 | [Tackle](../pokedex/moves/tackle.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
-| 3 | [Gust](../pokedex/moves/gust.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Special | <input type="checkbox" disabled /> |
+| 3 | [Gust](../pokedex/moves/gust.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span> | Special | <input type="checkbox" disabled /> |
 | 5 | [Echoed Voice](../pokedex/moves/echoed-voice.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Special | <input type="checkbox" disabled /> |
 | 7 | [Twister](../pokedex/moves/twister.md) | <span class="type-badge" style="background: linear-gradient(135deg, #7038F8 0%, #7038F8dd 100%);">Dragon</span> | Special | <input type="checkbox" disabled /> |
 | 9 | [Quick Attack](../pokedex/moves/quick-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
@@ -753,9 +753,9 @@ All new type changes are omitted in the Classic version of Redux.
 |:------|:-----|:-----|:------|:------|
 | 1 | [Foresight](../pokedex/moves/foresight.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 1 | [Mud Slap](../pokedex/moves/mud-slap.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Special | <input type="checkbox" disabled /> |
-| 1 | [Sand Attack](../pokedex/moves/sand-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
+| 1 | [Sand Attack](../pokedex/moves/sand-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Status | <input type="checkbox" disabled /> |
 | 1 | [Tackle](../pokedex/moves/tackle.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
-| 3 | [Gust](../pokedex/moves/gust.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Special | <input type="checkbox" disabled /> |
+| 3 | [Gust](../pokedex/moves/gust.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span> | Special | <input type="checkbox" disabled /> |
 | 5 | [Echoed Voice](../pokedex/moves/echoed-voice.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Special | <input type="checkbox" disabled /> |
 | 7 | [Twister](../pokedex/moves/twister.md) | <span class="type-badge" style="background: linear-gradient(135deg, #7038F8 0%, #7038F8dd 100%);">Dragon</span> | Special | <input type="checkbox" disabled /> |
 | 9 | [Quick Attack](../pokedex/moves/quick-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
@@ -805,9 +805,9 @@ All new type changes are omitted in the Classic version of Redux.
 |:------|:-----|:-----|:------|:------|
 | 1 | [Foresight](../pokedex/moves/foresight.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 1 | [Mud Slap](../pokedex/moves/mud-slap.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Special | <input type="checkbox" disabled /> |
-| 1 | [Sand Attack](../pokedex/moves/sand-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
+| 1 | [Sand Attack](../pokedex/moves/sand-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Status | <input type="checkbox" disabled /> |
 | 1 | [Tackle](../pokedex/moves/tackle.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
-| 3 | [Gust](../pokedex/moves/gust.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Special | <input type="checkbox" disabled /> |
+| 3 | [Gust](../pokedex/moves/gust.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span> | Special | <input type="checkbox" disabled /> |
 | 5 | [Echoed Voice](../pokedex/moves/echoed-voice.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Special | <input type="checkbox" disabled /> |
 | 7 | [Twister](../pokedex/moves/twister.md) | <span class="type-badge" style="background: linear-gradient(135deg, #7038F8 0%, #7038F8dd 100%);">Dragon</span> | Special | <input type="checkbox" disabled /> |
 | 9 | [Quick Attack](../pokedex/moves/quick-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
@@ -852,7 +852,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 | Level | Move | Type | Class | Event |
 |:------|:-----|:-----|:------|:------|
-| 1 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
+| 1 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 1 | [Me First](../pokedex/moves/me-first.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 1 | [Tackle](../pokedex/moves/tackle.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 1 | [Tail Whip](../pokedex/moves/tail-whip.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
@@ -906,7 +906,7 @@ All new type changes are omitted in the Classic version of Redux.
 | Level | Move | Type | Class | Event |
 |:------|:-----|:-----|:------|:------|
 | 1 | [Revenge](../pokedex/moves/revenge.md) | <span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span> | Physical | <input type="checkbox" disabled /> |
-| 1 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
+| 1 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 1 | [Me First](../pokedex/moves/me-first.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 1 | [Tackle](../pokedex/moves/tackle.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 4 | [Focus Energy](../pokedex/moves/focus-energy.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
@@ -1063,7 +1063,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 1 | [Leer](../pokedex/moves/leer.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 1 | [Wrap](../pokedex/moves/wrap.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 1 | [Poison Sting](../pokedex/moves/poison-sting.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span> | Physical | <input type="checkbox" disabled /> |
-| 4 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
+| 4 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 7 | [Acid](../pokedex/moves/acid.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span> | Special | <input type="checkbox" disabled /> |
 | 10 | [Glare](../pokedex/moves/glare.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 13 | [Mud Bomb](../pokedex/moves/mud-bomb.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Special | <input type="checkbox" disabled /> |
@@ -1106,7 +1106,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 1 | [Leer](../pokedex/moves/leer.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 1 | [Wrap](../pokedex/moves/wrap.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 1 | [Poison Sting](../pokedex/moves/poison-sting.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span> | Physical | <input type="checkbox" disabled /> |
-| 4 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
+| 4 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 7 | [Acid](../pokedex/moves/acid.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span> | Special | <input type="checkbox" disabled /> |
 | 10 | [Glare](../pokedex/moves/glare.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 13 | [Mud Bomb](../pokedex/moves/mud-bomb.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Special | <input type="checkbox" disabled /> |
@@ -1246,7 +1246,7 @@ All new type changes are omitted in the Classic version of Redux.
 |:------|:-----|:-----|:------|:------|
 | 1 | [Defense Curl](../pokedex/moves/defense-curl.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 1 | [Rollout](../pokedex/moves/rollout.md) | <span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span> | Physical | <input type="checkbox" disabled /> |
-| 1 | [Sand Attack](../pokedex/moves/sand-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
+| 1 | [Sand Attack](../pokedex/moves/sand-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Status | <input type="checkbox" disabled /> |
 | 1 | [Scratch](../pokedex/moves/scratch.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 4 | [Poison Sting](../pokedex/moves/poison-sting.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span> | Physical | <input type="checkbox" disabled /> |
 | 7 | [Magnitude](../pokedex/moves/magnitude.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Physical | <input type="checkbox" disabled /> |
@@ -1828,11 +1828,11 @@ All new type changes are omitted in the Classic version of Redux.
 | Level | Move | Type | Class | Event |
 |:------|:-----|:-----|:------|:------|
 | 1 | [Absorb](../pokedex/moves/absorb.md) | <span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span> | Special | <input type="checkbox" disabled /> |
-| 1 | [Gust](../pokedex/moves/gust.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Special | <input type="checkbox" disabled /> |
+| 1 | [Gust](../pokedex/moves/gust.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span> | Special | <input type="checkbox" disabled /> |
 | 1 | [Screech](../pokedex/moves/screech.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 1 | [Quick Attack](../pokedex/moves/quick-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 4 | [Poison Sting](../pokedex/moves/poison-sting.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span> | Physical | <input type="checkbox" disabled /> |
-| 7 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
+| 7 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 10 | [Wing Attack](../pokedex/moves/wing-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span> | Physical | <input type="checkbox" disabled /> |
 | 13 | [Confuse Ray](../pokedex/moves/confuse-ray.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Status | <input type="checkbox" disabled /> |
 | 16 | [Poison Fang](../pokedex/moves/poison-fang.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span> | Physical | <input type="checkbox" disabled /> |
@@ -1874,11 +1874,11 @@ All new type changes are omitted in the Classic version of Redux.
 | Level | Move | Type | Class | Event |
 |:------|:-----|:-----|:------|:------|
 | 1 | [Absorb](../pokedex/moves/absorb.md) | <span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span> | Special | <input type="checkbox" disabled /> |
-| 1 | [Gust](../pokedex/moves/gust.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Special | <input type="checkbox" disabled /> |
+| 1 | [Gust](../pokedex/moves/gust.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span> | Special | <input type="checkbox" disabled /> |
 | 1 | [Screech](../pokedex/moves/screech.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 1 | [Quick Attack](../pokedex/moves/quick-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 4 | [Poison Sting](../pokedex/moves/poison-sting.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span> | Physical | <input type="checkbox" disabled /> |
-| 7 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
+| 7 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 10 | [Wing Attack](../pokedex/moves/wing-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span> | Physical | <input type="checkbox" disabled /> |
 | 13 | [Confuse Ray](../pokedex/moves/confuse-ray.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Status | <input type="checkbox" disabled /> |
 | 16 | [Poison Fang](../pokedex/moves/poison-fang.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span> | Physical | <input type="checkbox" disabled /> |
@@ -2228,7 +2228,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 1 | [Growl](../pokedex/moves/growl.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 1 | [Mud Slap](../pokedex/moves/mud-slap.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Special | <input type="checkbox" disabled /> |
 | 1 | [Scratch](../pokedex/moves/scratch.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
-| 4 | [Sand Attack](../pokedex/moves/sand-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
+| 4 | [Sand Attack](../pokedex/moves/sand-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Status | <input type="checkbox" disabled /> |
 | 7 | [Mud Bomb](../pokedex/moves/mud-bomb.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Special | <input type="checkbox" disabled /> |
 | 10 | [Ancient Power](../pokedex/moves/ancient-power.md) | <span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span> | Special | <input type="checkbox" disabled /> |
 | 13 | [Magnitude](../pokedex/moves/magnitude.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Physical | <input type="checkbox" disabled /> |
@@ -2269,7 +2269,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 1 | [Growl](../pokedex/moves/growl.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 1 | [Mud Slap](../pokedex/moves/mud-slap.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Special | <input type="checkbox" disabled /> |
 | 1 | [Scratch](../pokedex/moves/scratch.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
-| 4 | [Sand Attack](../pokedex/moves/sand-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
+| 4 | [Sand Attack](../pokedex/moves/sand-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Status | <input type="checkbox" disabled /> |
 | 7 | [Mud Bomb](../pokedex/moves/mud-bomb.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Special | <input type="checkbox" disabled /> |
 | 10 | [Ancient Power](../pokedex/moves/ancient-power.md) | <span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span> | Special | <input type="checkbox" disabled /> |
 | 13 | [Magnitude](../pokedex/moves/magnitude.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Physical | <input type="checkbox" disabled /> |
@@ -2313,7 +2313,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 1 | [Scratch](../pokedex/moves/scratch.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 1 | [Growl](../pokedex/moves/growl.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 1 | [Assist](../pokedex/moves/assist.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
-| 6 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
+| 6 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 8 | [Fake Out](../pokedex/moves/fake-out.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 10 | [Fury Swipes](../pokedex/moves/fury-swipes.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 12 | [Pay Day](../pokedex/moves/pay-day.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
@@ -2361,7 +2361,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 1 | [Scratch](../pokedex/moves/scratch.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 1 | [Growl](../pokedex/moves/growl.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 1 | [Assist](../pokedex/moves/assist.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
-| 6 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
+| 6 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 8 | [Fake Out](../pokedex/moves/fake-out.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 10 | [Fury Swipes](../pokedex/moves/fury-swipes.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 12 | [Pay Day](../pokedex/moves/pay-day.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
@@ -2510,7 +2510,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 10 | [Pursuit](../pokedex/moves/pursuit.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 12 | [Seismic Toss](../pokedex/moves/seismic-toss.md) | <span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span> | Physical | <input type="checkbox" disabled /> |
 | 14 | [Payback](../pokedex/moves/payback.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
-| 16 | [Karate Chop](../pokedex/moves/karate-chop.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
+| 16 | [Karate Chop](../pokedex/moves/karate-chop.md) | <span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span> | Physical | <input type="checkbox" disabled /> |
 | 18 | [Acupressure](../pokedex/moves/acupressure.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 20 | [Bulldoze](../pokedex/moves/bulldoze.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Physical | <input type="checkbox" disabled /> |
 | 23 | [Assurance](../pokedex/moves/assurance.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
@@ -2556,7 +2556,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 10 | [Pursuit](../pokedex/moves/pursuit.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 12 | [Seismic Toss](../pokedex/moves/seismic-toss.md) | <span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span> | Physical | <input type="checkbox" disabled /> |
 | 14 | [Payback](../pokedex/moves/payback.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
-| 16 | [Karate Chop](../pokedex/moves/karate-chop.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
+| 16 | [Karate Chop](../pokedex/moves/karate-chop.md) | <span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span> | Physical | <input type="checkbox" disabled /> |
 | 18 | [Acupressure](../pokedex/moves/acupressure.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 20 | [Bulldoze](../pokedex/moves/bulldoze.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Physical | <input type="checkbox" disabled /> |
 | 23 | [Assurance](../pokedex/moves/assurance.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
@@ -2601,7 +2601,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 13 | [Helping Hand](../pokedex/moves/helping-hand.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 16 | [Covet](../pokedex/moves/covet.md) | <span class="type-badge" style="background: linear-gradient(135deg, #EE99AC 0%, #EE99ACdd 100%);">Fairy</span> | Physical | <input type="checkbox" disabled /> |
 | 18 | [Flame Wheel](../pokedex/moves/flame-wheel.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F08030 0%, #F08030dd 100%);">Fire</span> | Physical | <input type="checkbox" disabled /> |
-| 20 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
+| 20 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 22 | [Reversal](../pokedex/moves/reversal.md) | <span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span> | Physical | <input type="checkbox" disabled /> |
 | 24 | [Dragon Breath](../pokedex/moves/dragon-breath.md) | <span class="type-badge" style="background: linear-gradient(135deg, #7038F8 0%, #7038F8dd 100%);">Dragon</span> | Special | <input type="checkbox" disabled /> |
 | 26 | [Take Down](../pokedex/moves/take-down.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
@@ -2893,7 +2893,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 | Level | Move | Type | Class | Event |
 |:------|:-----|:-----|:------|:------|
-| 1 | [Karate Chop](../pokedex/moves/karate-chop.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
+| 1 | [Karate Chop](../pokedex/moves/karate-chop.md) | <span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span> | Physical | <input type="checkbox" disabled /> |
 | 1 | [Leer](../pokedex/moves/leer.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 1 | [Meditate](../pokedex/moves/meditate.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span> | Status | <input type="checkbox" disabled /> |
 | 4 | [Counter](../pokedex/moves/counter.md) | <span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span> | Physical | <input type="checkbox" disabled /> |
@@ -2940,7 +2940,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 | Level | Move | Type | Class | Event |
 |:------|:-----|:-----|:------|:------|
-| 1 | [Karate Chop](../pokedex/moves/karate-chop.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
+| 1 | [Karate Chop](../pokedex/moves/karate-chop.md) | <span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span> | Physical | <input type="checkbox" disabled /> |
 | 1 | [Leer](../pokedex/moves/leer.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 1 | [Meditate](../pokedex/moves/meditate.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span> | Status | <input type="checkbox" disabled /> |
 | 4 | [Counter](../pokedex/moves/counter.md) | <span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span> | Physical | <input type="checkbox" disabled /> |
@@ -2984,7 +2984,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 | Level | Move | Type | Class | Event |
 |:------|:-----|:-----|:------|:------|
-| 1 | [Karate Chop](../pokedex/moves/karate-chop.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
+| 1 | [Karate Chop](../pokedex/moves/karate-chop.md) | <span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span> | Physical | <input type="checkbox" disabled /> |
 | 1 | [Leer](../pokedex/moves/leer.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 1 | [Meditate](../pokedex/moves/meditate.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span> | Status | <input type="checkbox" disabled /> |
 | 4 | [Counter](../pokedex/moves/counter.md) | <span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span> | Physical | <input type="checkbox" disabled /> |
@@ -3223,7 +3223,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 10 | [Bulldoze](../pokedex/moves/bulldoze.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Physical | <input type="checkbox" disabled /> |
 | 13 | [Rock Throw](../pokedex/moves/rock-throw.md) | <span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span> | Physical | <input type="checkbox" disabled /> |
 | 16 | [Rapid Spin](../pokedex/moves/rapid-spin.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
-| 19 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #777777 0%, #777777dd 100%);">Unknown</span> | Status | <input type="checkbox" disabled /> |
+| 19 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Status | <input type="checkbox" disabled /> |
 | 22 | [Fling](../pokedex/moves/fling.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 25 | [Accelerock](../pokedex/moves/accelerock.md) | <span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span> | Physical | <input type="checkbox" disabled /> |
 | 28 | [Stealth Rock](../pokedex/moves/stealth-rock.md) | <span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span> | Status | <input type="checkbox" disabled /> |
@@ -3266,7 +3266,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 10 | [Bulldoze](../pokedex/moves/bulldoze.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Physical | <input type="checkbox" disabled /> |
 | 13 | [Rock Throw](../pokedex/moves/rock-throw.md) | <span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span> | Physical | <input type="checkbox" disabled /> |
 | 16 | [Rapid Spin](../pokedex/moves/rapid-spin.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
-| 19 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #777777 0%, #777777dd 100%);">Unknown</span> | Status | <input type="checkbox" disabled /> |
+| 19 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Status | <input type="checkbox" disabled /> |
 | 22 | [Fling](../pokedex/moves/fling.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 25 | [Accelerock](../pokedex/moves/accelerock.md) | <span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span> | Physical | <input type="checkbox" disabled /> |
 | 29 | [Stealth Rock](../pokedex/moves/stealth-rock.md) | <span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span> | Status | <input type="checkbox" disabled /> |
@@ -3305,7 +3305,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 10 | [Bulldoze](../pokedex/moves/bulldoze.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Physical | <input type="checkbox" disabled /> |
 | 13 | [Rock Throw](../pokedex/moves/rock-throw.md) | <span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span> | Physical | <input type="checkbox" disabled /> |
 | 16 | [Rapid Spin](../pokedex/moves/rapid-spin.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
-| 19 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #777777 0%, #777777dd 100%);">Unknown</span> | Status | <input type="checkbox" disabled /> |
+| 19 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Status | <input type="checkbox" disabled /> |
 | 22 | [Fling](../pokedex/moves/fling.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 25 | [Accelerock](../pokedex/moves/accelerock.md) | <span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span> | Physical | <input type="checkbox" disabled /> |
 | 29 | [Stealth Rock](../pokedex/moves/stealth-rock.md) | <span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span> | Status | <input type="checkbox" disabled /> |
@@ -3450,7 +3450,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 | Level | Move | Type | Class | Event |
 |:------|:-----|:-----|:------|:------|
-| 1 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #777777 0%, #777777dd 100%);">Unknown</span> | Status | <input type="checkbox" disabled /> |
+| 1 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Status | <input type="checkbox" disabled /> |
 | 1 | [Yawn](../pokedex/moves/yawn.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 1 | [Tackle](../pokedex/moves/tackle.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 4 | [Growl](../pokedex/moves/growl.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
@@ -3494,7 +3494,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 | Level | Move | Type | Class | Event |
 |:------|:-----|:-----|:------|:------|
-| 1 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #777777 0%, #777777dd 100%);">Unknown</span> | Status | <input type="checkbox" disabled /> |
+| 1 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Status | <input type="checkbox" disabled /> |
 | 1 | [Yawn](../pokedex/moves/yawn.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 1 | [Tackle](../pokedex/moves/tackle.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 4 | [Growl](../pokedex/moves/growl.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
@@ -3641,7 +3641,7 @@ All new type changes are omitted in the Classic version of Redux.
 |:------|:-----|:-----|:------|:------|
 | 1 | [Leer](../pokedex/moves/leer.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 1 | [Peck](../pokedex/moves/peck.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span> | Physical | <input type="checkbox" disabled /> |
-| 1 | [Sand Attack](../pokedex/moves/sand-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
+| 1 | [Sand Attack](../pokedex/moves/sand-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Status | <input type="checkbox" disabled /> |
 | 4 | [Feint](../pokedex/moves/feint.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 7 | [Quick Attack](../pokedex/moves/quick-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 10 | [Air Cutter](../pokedex/moves/air-cutter.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span> | Special | <input type="checkbox" disabled /> |
@@ -3923,7 +3923,7 @@ All new type changes are omitted in the Classic version of Redux.
 |:------|:-----|:-----|:------|:------|
 | 1 | [Moonblast](../pokedex/moves/moonblast.md) | <span class="type-badge" style="background: linear-gradient(135deg, #EE99AC 0%, #EE99ACdd 100%);">Fairy</span> | Special | <input type="checkbox" disabled /> |
 | 1 | [Clear Smog](../pokedex/moves/clear-smog.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span> | Special | <input type="checkbox" disabled /> |
-| 1 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #777777 0%, #777777dd 100%);">Unknown</span> | Status | <input type="checkbox" disabled /> |
+| 1 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Status | <input type="checkbox" disabled /> |
 | 1 | [Toxic Spikes](../pokedex/moves/toxic-spikes.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span> | Status | <input type="checkbox" disabled /> |
 | 4 | [Harden](../pokedex/moves/harden.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 7 | [Mud Slap](../pokedex/moves/mud-slap.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Special | <input type="checkbox" disabled /> |
@@ -4056,7 +4056,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 10 | [Hypnosis](../pokedex/moves/hypnosis.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span> | Status | <input type="checkbox" disabled /> |
 | 13 | [Night Shade](../pokedex/moves/night-shade.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Special | <input type="checkbox" disabled /> |
 | 16 | [Ominous Wind](../pokedex/moves/ominous-wind.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Special | <input type="checkbox" disabled /> |
-| 19 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #777777 0%, #777777dd 100%);">Unknown</span> | Status | <input type="checkbox" disabled /> |
+| 19 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Status | <input type="checkbox" disabled /> |
 | 21 | [Poison Gas](../pokedex/moves/poison-gas.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span> | Status | <input type="checkbox" disabled /> |
 | 23 | [Clear Smog](../pokedex/moves/clear-smog.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span> | Special | <input type="checkbox" disabled /> |
 | 25 | [Disable](../pokedex/moves/disable.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
@@ -4105,7 +4105,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 10 | [Hypnosis](../pokedex/moves/hypnosis.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span> | Status | <input type="checkbox" disabled /> |
 | 13 | [Night Shade](../pokedex/moves/night-shade.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Special | <input type="checkbox" disabled /> |
 | 16 | [Ominous Wind](../pokedex/moves/ominous-wind.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Special | <input type="checkbox" disabled /> |
-| 19 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #777777 0%, #777777dd 100%);">Unknown</span> | Status | <input type="checkbox" disabled /> |
+| 19 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Status | <input type="checkbox" disabled /> |
 | 21 | [Poison Gas](../pokedex/moves/poison-gas.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span> | Status | <input type="checkbox" disabled /> |
 | 23 | [Clear Smog](../pokedex/moves/clear-smog.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span> | Special | <input type="checkbox" disabled /> |
 | 24 | [Shadow Punch](../pokedex/moves/shadow-punch.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Physical | <input type="checkbox" disabled /> |
@@ -4153,7 +4153,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 10 | [Hypnosis](../pokedex/moves/hypnosis.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span> | Status | <input type="checkbox" disabled /> |
 | 13 | [Night Shade](../pokedex/moves/night-shade.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Special | <input type="checkbox" disabled /> |
 | 16 | [Ominous Wind](../pokedex/moves/ominous-wind.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Special | <input type="checkbox" disabled /> |
-| 19 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #777777 0%, #777777dd 100%);">Unknown</span> | Status | <input type="checkbox" disabled /> |
+| 19 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Status | <input type="checkbox" disabled /> |
 | 21 | [Poison Gas](../pokedex/moves/poison-gas.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span> | Status | <input type="checkbox" disabled /> |
 | 23 | [Clear Smog](../pokedex/moves/clear-smog.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span> | Special | <input type="checkbox" disabled /> |
 | 24 | [Shadow Punch](../pokedex/moves/shadow-punch.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Physical | <input type="checkbox" disabled /> |
@@ -4198,7 +4198,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 1 | [Tackle](../pokedex/moves/tackle.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 1 | [Harden](../pokedex/moves/harden.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 1 | [Bind](../pokedex/moves/bind.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
-| 4 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #777777 0%, #777777dd 100%);">Unknown</span> | Status | <input type="checkbox" disabled /> |
+| 4 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Status | <input type="checkbox" disabled /> |
 | 7 | [Rock Throw](../pokedex/moves/rock-throw.md) | <span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span> | Physical | <input type="checkbox" disabled /> |
 | 10 | [Bulldoze](../pokedex/moves/bulldoze.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Physical | <input type="checkbox" disabled /> |
 | 13 | [Rollout](../pokedex/moves/rollout.md) | <span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span> | Physical | <input type="checkbox" disabled /> |
@@ -4608,7 +4608,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 21 | [Retaliate](../pokedex/moves/retaliate.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 24 | [Endeavor](../pokedex/moves/endeavor.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 27 | [Bone Rush](../pokedex/moves/bone-rush.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Physical | <input type="checkbox" disabled /> |
-| 30 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #777777 0%, #777777dd 100%);">Unknown</span> | Status | <input type="checkbox" disabled /> |
+| 30 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Status | <input type="checkbox" disabled /> |
 | 33 | [Chip Away](../pokedex/moves/chip-away.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 36 | [Rock Slide](../pokedex/moves/rock-slide.md) | <span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span> | Physical | <input type="checkbox" disabled /> |
 | 40 | [Body Slam](../pokedex/moves/body-slam.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
@@ -4653,7 +4653,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 21 | [Retaliate](../pokedex/moves/retaliate.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 24 | [Endeavor](../pokedex/moves/endeavor.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 27 | [Bone Rush](../pokedex/moves/bone-rush.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Physical | <input type="checkbox" disabled /> |
-| 31 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #777777 0%, #777777dd 100%);">Unknown</span> | Status | <input type="checkbox" disabled /> |
+| 31 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Status | <input type="checkbox" disabled /> |
 | 34 | [Chip Away](../pokedex/moves/chip-away.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 37 | [Rock Slide](../pokedex/moves/rock-slide.md) | <span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span> | Physical | <input type="checkbox" disabled /> |
 | 41 | [Body Slam](../pokedex/moves/body-slam.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
@@ -4777,7 +4777,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 7 | [Refresh](../pokedex/moves/refresh.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 10 | [Screech](../pokedex/moves/screech.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 13 | [Me First](../pokedex/moves/me-first.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
-| 16 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #777777 0%, #777777dd 100%);">Unknown</span> | Status | <input type="checkbox" disabled /> |
+| 16 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Status | <input type="checkbox" disabled /> |
 | 19 | [Stomp](../pokedex/moves/stomp.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 22 | [Helping Hand](../pokedex/moves/helping-hand.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 25 | [Disable](../pokedex/moves/disable.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
@@ -4900,7 +4900,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 7 | [Stomp](../pokedex/moves/stomp.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 10 | [Horn Attack](../pokedex/moves/horn-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 13 | [Bulldoze](../pokedex/moves/bulldoze.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Physical | <input type="checkbox" disabled /> |
-| 16 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #777777 0%, #777777dd 100%);">Unknown</span> | Status | <input type="checkbox" disabled /> |
+| 16 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Status | <input type="checkbox" disabled /> |
 | 19 | [Rock Blast](../pokedex/moves/rock-blast.md) | <span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span> | Physical | <input type="checkbox" disabled /> |
 | 22 | [Chip Away](../pokedex/moves/chip-away.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 25 | [Reversal](../pokedex/moves/reversal.md) | <span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span> | Physical | <input type="checkbox" disabled /> |
@@ -4940,7 +4940,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 7 | [Stomp](../pokedex/moves/stomp.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 10 | [Horn Attack](../pokedex/moves/horn-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 13 | [Bulldoze](../pokedex/moves/bulldoze.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Physical | <input type="checkbox" disabled /> |
-| 16 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #777777 0%, #777777dd 100%);">Unknown</span> | Status | <input type="checkbox" disabled /> |
+| 16 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Status | <input type="checkbox" disabled /> |
 | 19 | [Rock Blast](../pokedex/moves/rock-blast.md) | <span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span> | Physical | <input type="checkbox" disabled /> |
 | 22 | [Chip Away](../pokedex/moves/chip-away.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 25 | [Reversal](../pokedex/moves/reversal.md) | <span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span> | Physical | <input type="checkbox" disabled /> |
@@ -5072,7 +5072,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 4 | [Rage](../pokedex/moves/rage.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 7 | [Disable](../pokedex/moves/disable.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 10 | [Double Hit](../pokedex/moves/double-hit.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
-| 13 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
+| 13 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 16 | [Covet](../pokedex/moves/covet.md) | <span class="type-badge" style="background: linear-gradient(135deg, #EE99AC 0%, #EE99ACdd 100%);">Fairy</span> | Physical | <input type="checkbox" disabled /> |
 | 19 | [Helping Hand](../pokedex/moves/helping-hand.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 22 | [Chip Away](../pokedex/moves/chip-away.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
@@ -5732,7 +5732,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 1 | [Flail](../pokedex/moves/flail.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 1 | [Tackle](../pokedex/moves/tackle.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 1 | [Rage](../pokedex/moves/rage.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
-| 20 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
+| 20 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 23 | [Whirlpool](../pokedex/moves/whirlpool.md) | <span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> | Special | <input type="checkbox" disabled /> |
 | 26 | [Twister](../pokedex/moves/twister.md) | <span class="type-badge" style="background: linear-gradient(135deg, #7038F8 0%, #7038F8dd 100%);">Dragon</span> | Special | <input type="checkbox" disabled /> |
 | 29 | [Water Pulse](../pokedex/moves/water-pulse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> | Special | <input type="checkbox" disabled /> |
@@ -5845,11 +5845,11 @@ All new type changes are omitted in the Classic version of Redux.
 | 1 | [Fake Tears](../pokedex/moves/fake-tears.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Status | <input type="checkbox" disabled /> |
 | 1 | [Stored Power](../pokedex/moves/stored-power.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span> | Special | <input type="checkbox" disabled /> |
 | 1 | [Tickle](../pokedex/moves/tickle.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
-| 3 | [Sand Attack](../pokedex/moves/sand-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
+| 3 | [Sand Attack](../pokedex/moves/sand-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Status | <input type="checkbox" disabled /> |
 | 5 | [Captivate](../pokedex/moves/captivate.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 7 | [Helping Hand](../pokedex/moves/helping-hand.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 10 | [Quick Attack](../pokedex/moves/quick-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
-| 13 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
+| 13 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 16 | [Swift](../pokedex/moves/swift.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Special | <input type="checkbox" disabled /> |
 | 19 | [Double Kick](../pokedex/moves/double-kick.md) | <span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span> | Physical | <input type="checkbox" disabled /> |
 | 22 | [Covet](../pokedex/moves/covet.md) | <span class="type-badge" style="background: linear-gradient(135deg, #EE99AC 0%, #EE99ACdd 100%);">Fairy</span> | Physical | <input type="checkbox" disabled /> |
@@ -5899,7 +5899,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 5 | [Captivate](../pokedex/moves/captivate.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 7 | [Helping Hand](../pokedex/moves/helping-hand.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 10 | [Quick Attack](../pokedex/moves/quick-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
-| 13 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
+| 13 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 16 | [Swift](../pokedex/moves/swift.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Special | <input type="checkbox" disabled /> |
 | 19 | [Double Kick](../pokedex/moves/double-kick.md) | <span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span> | Physical | <input type="checkbox" disabled /> |
 | 22 | [Covet](../pokedex/moves/covet.md) | <span class="type-badge" style="background: linear-gradient(135deg, #EE99AC 0%, #EE99ACdd 100%);">Fairy</span> | Physical | <input type="checkbox" disabled /> |
@@ -5948,7 +5948,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 5 | [Captivate](../pokedex/moves/captivate.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 7 | [Helping Hand](../pokedex/moves/helping-hand.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 10 | [Quick Attack](../pokedex/moves/quick-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
-| 13 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
+| 13 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 16 | [Swift](../pokedex/moves/swift.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Special | <input type="checkbox" disabled /> |
 | 19 | [Double Kick](../pokedex/moves/double-kick.md) | <span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span> | Physical | <input type="checkbox" disabled /> |
 | 22 | [Covet](../pokedex/moves/covet.md) | <span class="type-badge" style="background: linear-gradient(135deg, #EE99AC 0%, #EE99ACdd 100%);">Fairy</span> | Physical | <input type="checkbox" disabled /> |
@@ -6002,7 +6002,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 5 | [Captivate](../pokedex/moves/captivate.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 7 | [Helping Hand](../pokedex/moves/helping-hand.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 10 | [Quick Attack](../pokedex/moves/quick-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
-| 13 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
+| 13 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 16 | [Swift](../pokedex/moves/swift.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Special | <input type="checkbox" disabled /> |
 | 19 | [Double Kick](../pokedex/moves/double-kick.md) | <span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span> | Physical | <input type="checkbox" disabled /> |
 | 22 | [Covet](../pokedex/moves/covet.md) | <span class="type-badge" style="background: linear-gradient(135deg, #EE99AC 0%, #EE99ACdd 100%);">Fairy</span> | Physical | <input type="checkbox" disabled /> |
@@ -6080,7 +6080,7 @@ All new type changes are omitted in the Classic version of Redux.
 |:------|:-----|:-----|:------|:------|
 | 1 | [Water Gun](../pokedex/moves/water-gun.md) | <span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> | Special | <input type="checkbox" disabled /> |
 | 1 | [Withdraw](../pokedex/moves/withdraw.md) | <span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> | Status | <input type="checkbox" disabled /> |
-| 7 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
+| 7 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 10 | [Water Gun](../pokedex/moves/water-gun.md) | <span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> | Special | <input type="checkbox" disabled /> |
 | 16 | [Mud Shot](../pokedex/moves/mud-shot.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Special | <input type="checkbox" disabled /> |
 | 19 | [Aurora Beam](../pokedex/moves/aurora-beam.md) | <span class="type-badge" style="background: linear-gradient(135deg, #98D8D8 0%, #98D8D8dd 100%);">Ice</span> | Special | <input type="checkbox" disabled /> |
@@ -6117,7 +6117,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 1 | [Water Gun](../pokedex/moves/water-gun.md) | <span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> | Special | <input type="checkbox" disabled /> |
 | 4 | [Withdraw](../pokedex/moves/withdraw.md) | <span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> | Status | <input type="checkbox" disabled /> |
 | 7 | [Leer](../pokedex/moves/leer.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
-| 10 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
+| 10 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 16 | [Mud Shot](../pokedex/moves/mud-shot.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Special | <input type="checkbox" disabled /> |
 | 19 | [Aurora Beam](../pokedex/moves/aurora-beam.md) | <span class="type-badge" style="background: linear-gradient(135deg, #98D8D8 0%, #98D8D8dd 100%);">Ice</span> | Special | <input type="checkbox" disabled /> |
 | 22 | [Brine](../pokedex/moves/brine.md) | <span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> | Special | <input type="checkbox" disabled /> |
@@ -6221,7 +6221,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 1 | [Fire Fang](../pokedex/moves/fire-fang.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F08030 0%, #F08030dd 100%);">Fire</span> | Physical | <input type="checkbox" disabled /> |
 | 1 | [Thunder Fang](../pokedex/moves/thunder-fang.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F8D030 0%, #F8D030dd 100%);">Electric</span> | Physical | <input type="checkbox" disabled /> |
 | 1 | [Psychic Fangs](../pokedex/moves/psychic-fangs.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span> | Physical | <input type="checkbox" disabled /> |
-| 1 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
+| 1 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 1 | [Scary Face](../pokedex/moves/scary-face.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 9 | [Roar](../pokedex/moves/roar.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 13 | [Agility](../pokedex/moves/agility.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span> | Status | <input type="checkbox" disabled /> |
@@ -6262,7 +6262,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 4 | [Metronome](../pokedex/moves/metronome.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 7 | [Pursuit](../pokedex/moves/pursuit.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 10 | [Recycle](../pokedex/moves/recycle.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
-| 14 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #777777 0%, #777777dd 100%);">Unknown</span> | Status | <input type="checkbox" disabled /> |
+| 14 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Status | <input type="checkbox" disabled /> |
 | 18 | [Chip Away](../pokedex/moves/chip-away.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 22 | [Whirlwind](../pokedex/moves/whirlwind.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 26 | [Gastro Acid](../pokedex/moves/gastro-acid.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span> | Status | <input type="checkbox" disabled /> |
@@ -6303,7 +6303,7 @@ All new type changes are omitted in the Classic version of Redux.
 | Level | Move | Type | Class | Event |
 |:------|:-----|:-----|:------|:------|
 | 1 | [Extrasensory](../pokedex/moves/extrasensory.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span> | Special | <input type="checkbox" disabled checked /> |
-| 1 | [Gust](../pokedex/moves/gust.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Special | <input type="checkbox" disabled /> |
+| 1 | [Gust](../pokedex/moves/gust.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span> | Special | <input type="checkbox" disabled /> |
 | 1 | [Powder Snow](../pokedex/moves/powder-snow.md) | <span class="type-badge" style="background: linear-gradient(135deg, #98D8D8 0%, #98D8D8dd 100%);">Ice</span> | Special | <input type="checkbox" disabled /> |
 | 8 | [Mist](../pokedex/moves/mist.md) | <span class="type-badge" style="background: linear-gradient(135deg, #98D8D8 0%, #98D8D8dd 100%);">Ice</span> | Status | <input type="checkbox" disabled /> |
 | 11 | [Ice Shard](../pokedex/moves/ice-shard.md) | <span class="type-badge" style="background: linear-gradient(135deg, #98D8D8 0%, #98D8D8dd 100%);">Ice</span> | Physical | <input type="checkbox" disabled /> |
@@ -6892,7 +6892,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 1 | [Leer](../pokedex/moves/leer.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 5 | [Water Gun](../pokedex/moves/water-gun.md) | <span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> | Special | <input type="checkbox" disabled /> |
 | 7 | [Rage](../pokedex/moves/rage.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
-| 10 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
+| 10 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 13 | [Scary Face](../pokedex/moves/scary-face.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 16 | [Ice Fang](../pokedex/moves/ice-fang.md) | <span class="type-badge" style="background: linear-gradient(135deg, #98D8D8 0%, #98D8D8dd 100%);">Ice</span> | Physical | <input type="checkbox" disabled /> |
 | 20 | [Metal Claw](../pokedex/moves/metal-claw.md) | <span class="type-badge" style="background: linear-gradient(135deg, #B8B8D0 0%, #B8B8D0dd 100%);">Steel</span> | Physical | <input type="checkbox" disabled /> |
@@ -6937,7 +6937,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 1 | [Leer](../pokedex/moves/leer.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 5 | [Water Gun](../pokedex/moves/water-gun.md) | <span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> | Special | <input type="checkbox" disabled /> |
 | 7 | [Rage](../pokedex/moves/rage.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
-| 10 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
+| 10 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 13 | [Scary Face](../pokedex/moves/scary-face.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 16 | [Ice Fang](../pokedex/moves/ice-fang.md) | <span class="type-badge" style="background: linear-gradient(135deg, #98D8D8 0%, #98D8D8dd 100%);">Ice</span> | Physical | <input type="checkbox" disabled /> |
 | 18 | [Aqua Jet](../pokedex/moves/aqua-jet.md) | <span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> | Physical | <input type="checkbox" disabled /> |
@@ -6984,7 +6984,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 1 | [Scratch](../pokedex/moves/scratch.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 5 | [Water Gun](../pokedex/moves/water-gun.md) | <span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> | Special | <input type="checkbox" disabled /> |
 | 7 | [Rage](../pokedex/moves/rage.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
-| 10 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
+| 10 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 13 | [Scary Face](../pokedex/moves/scary-face.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 16 | [Ice Fang](../pokedex/moves/ice-fang.md) | <span class="type-badge" style="background: linear-gradient(135deg, #98D8D8 0%, #98D8D8dd 100%);">Ice</span> | Physical | <input type="checkbox" disabled /> |
 | 18 | [Aqua Jet](../pokedex/moves/aqua-jet.md) | <span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> | Physical | <input type="checkbox" disabled /> |
@@ -7234,7 +7234,7 @@ All new type changes are omitted in the Classic version of Redux.
 |:------|:-----|:-----|:------|:------|
 | 1 | [String Shot](../pokedex/moves/string-shot.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> | Status | <input type="checkbox" disabled /> |
 | 1 | [Swift](../pokedex/moves/swift.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Special | <input type="checkbox" disabled /> |
-| 1 | [Gust](../pokedex/moves/gust.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Special | <input type="checkbox" disabled /> |
+| 1 | [Gust](../pokedex/moves/gust.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span> | Special | <input type="checkbox" disabled /> |
 | 5 | [Struggle Bug](../pokedex/moves/struggle-bug.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> | Special | <input type="checkbox" disabled /> |
 | 7 | [Safeguard](../pokedex/moves/safeguard.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 9 | [Mach Punch](../pokedex/moves/mach-punch.md) | <span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span> | Physical | <input type="checkbox" disabled /> |
@@ -7287,7 +7287,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 1 | [Meteor Mash](../pokedex/moves/meteor-mash.md) | <span class="type-badge" style="background: linear-gradient(135deg, #B8B8D0 0%, #B8B8D0dd 100%);">Steel</span> | Physical | <input type="checkbox" disabled /> |
 | 1 | [String Shot](../pokedex/moves/string-shot.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> | Status | <input type="checkbox" disabled /> |
 | 1 | [Swift](../pokedex/moves/swift.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Special | <input type="checkbox" disabled /> |
-| 1 | [Gust](../pokedex/moves/gust.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Special | <input type="checkbox" disabled /> |
+| 1 | [Gust](../pokedex/moves/gust.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span> | Special | <input type="checkbox" disabled /> |
 | 5 | [Struggle Bug](../pokedex/moves/struggle-bug.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> | Special | <input type="checkbox" disabled /> |
 | 7 | [Safeguard](../pokedex/moves/safeguard.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 9 | [Mach Punch](../pokedex/moves/mach-punch.md) | <span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span> | Physical | <input type="checkbox" disabled /> |
@@ -7429,11 +7429,11 @@ All new type changes are omitted in the Classic version of Redux.
 |:------|:-----|:-----|:------|:------|
 | 1 | [Cross Poison](../pokedex/moves/cross-poison.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span> | Physical | <input type="checkbox" disabled /> |
 | 1 | [Dual Wingbeat](../pokedex/moves/dual-wingbeat.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span> | Physical | <input type="checkbox" disabled /> |
-| 1 | [Gust](../pokedex/moves/gust.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Special | <input type="checkbox" disabled /> |
+| 1 | [Gust](../pokedex/moves/gust.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span> | Special | <input type="checkbox" disabled /> |
 | 1 | [Screech](../pokedex/moves/screech.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 1 | [Quick Attack](../pokedex/moves/quick-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 4 | [Poison Sting](../pokedex/moves/poison-sting.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span> | Physical | <input type="checkbox" disabled /> |
-| 7 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
+| 7 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 10 | [Wing Attack](../pokedex/moves/wing-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span> | Physical | <input type="checkbox" disabled /> |
 | 13 | [Confuse Ray](../pokedex/moves/confuse-ray.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Status | <input type="checkbox" disabled /> |
 | 16 | [Poison Fang](../pokedex/moves/poison-fang.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span> | Physical | <input type="checkbox" disabled /> |
@@ -7851,7 +7851,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 1 | [Growl](../pokedex/moves/growl.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 4 | [Tackle](../pokedex/moves/tackle.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 6 | [Thunder Shock](../pokedex/moves/thunder-shock.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F8D030 0%, #F8D030dd 100%);">Electric</span> | Special | <input type="checkbox" disabled /> |
-| 8 | [Sand Attack](../pokedex/moves/sand-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
+| 8 | [Sand Attack](../pokedex/moves/sand-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Status | <input type="checkbox" disabled /> |
 | 10 | [Swift](../pokedex/moves/swift.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Special | <input type="checkbox" disabled /> |
 | 12 | [Thunder Wave](../pokedex/moves/thunder-wave.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F8D030 0%, #F8D030dd 100%);">Electric</span> | Status | <input type="checkbox" disabled /> |
 | 14 | [Electroweb](../pokedex/moves/electroweb.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F8D030 0%, #F8D030dd 100%);">Electric</span> | Special | <input type="checkbox" disabled /> |
@@ -7899,7 +7899,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 1 | [Growl](../pokedex/moves/growl.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 4 | [Tackle](../pokedex/moves/tackle.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 6 | [Thunder Shock](../pokedex/moves/thunder-shock.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F8D030 0%, #F8D030dd 100%);">Electric</span> | Special | <input type="checkbox" disabled /> |
-| 8 | [Sand Attack](../pokedex/moves/sand-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
+| 8 | [Sand Attack](../pokedex/moves/sand-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Status | <input type="checkbox" disabled /> |
 | 10 | [Swift](../pokedex/moves/swift.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Special | <input type="checkbox" disabled /> |
 | 12 | [Thunder Wave](../pokedex/moves/thunder-wave.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F8D030 0%, #F8D030dd 100%);">Electric</span> | Status | <input type="checkbox" disabled /> |
 | 14 | [Electroweb](../pokedex/moves/electroweb.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F8D030 0%, #F8D030dd 100%);">Electric</span> | Special | <input type="checkbox" disabled /> |
@@ -7953,7 +7953,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 1 | [Growl](../pokedex/moves/growl.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 4 | [Tackle](../pokedex/moves/tackle.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 6 | [Thunder Shock](../pokedex/moves/thunder-shock.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F8D030 0%, #F8D030dd 100%);">Electric</span> | Special | <input type="checkbox" disabled /> |
-| 8 | [Sand Attack](../pokedex/moves/sand-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
+| 8 | [Sand Attack](../pokedex/moves/sand-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Status | <input type="checkbox" disabled /> |
 | 10 | [Swift](../pokedex/moves/swift.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Special | <input type="checkbox" disabled /> |
 | 12 | [Thunder Wave](../pokedex/moves/thunder-wave.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F8D030 0%, #F8D030dd 100%);">Electric</span> | Status | <input type="checkbox" disabled /> |
 | 14 | [Electroweb](../pokedex/moves/electroweb.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F8D030 0%, #F8D030dd 100%);">Electric</span> | Special | <input type="checkbox" disabled /> |
@@ -8080,7 +8080,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 | Level | Move | Type | Class | Event |
 |:------|:-----|:-----|:------|:------|
-| 1 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #777777 0%, #777777dd 100%);">Unknown</span> | Status | <input type="checkbox" disabled /> |
+| 1 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Status | <input type="checkbox" disabled /> |
 | 1 | [Refresh](../pokedex/moves/refresh.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 1 | [Tackle](../pokedex/moves/tackle.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 1 | [Tail Whip](../pokedex/moves/tail-whip.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
@@ -8150,7 +8150,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 44 | [Role Play](../pokedex/moves/role-play.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span> | Status | <input type="checkbox" disabled /> |
 | 48 | [Fake Tears](../pokedex/moves/fake-tears.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Status | <input type="checkbox" disabled /> |
 | 52 | [Head Smash](../pokedex/moves/head-smash.md) | <span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span> | Physical | <input type="checkbox" disabled /> |
-| 56 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #777777 0%, #777777dd 100%);">Unknown</span> | Status | <input type="checkbox" disabled /> |
+| 56 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Status | <input type="checkbox" disabled /> |
 | 60 | [Double Edge](../pokedex/moves/double-edge.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 64 | [Baton Pass](../pokedex/moves/baton-pass.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 
@@ -8216,7 +8216,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 1 | [Absorb](../pokedex/moves/absorb.md) | <span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span> | Special | <input type="checkbox" disabled /> |
 | 4 | [Tackle](../pokedex/moves/tackle.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 6 | [Bullet Seed](../pokedex/moves/bullet-seed.md) | <span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span> | Physical | <input type="checkbox" disabled /> |
-| 8 | [Gust](../pokedex/moves/gust.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Special | <input type="checkbox" disabled /> |
+| 8 | [Gust](../pokedex/moves/gust.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span> | Special | <input type="checkbox" disabled /> |
 | 10 | [Stun Spore](../pokedex/moves/stun-spore.md) | <span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span> | Status | <input type="checkbox" disabled /> |
 | 12 | [Mega Drain](../pokedex/moves/mega-drain.md) | <span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span> | Special | <input type="checkbox" disabled /> |
 | 14 | [Worry Seed](../pokedex/moves/worry-seed.md) | <span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span> | Status | <input type="checkbox" disabled /> |
@@ -8263,7 +8263,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 1 | [Synthesis](../pokedex/moves/synthesis.md) | <span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span> | Status | <input type="checkbox" disabled /> |
 | 4 | [Tackle](../pokedex/moves/tackle.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 6 | [Bullet Seed](../pokedex/moves/bullet-seed.md) | <span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span> | Physical | <input type="checkbox" disabled /> |
-| 8 | [Gust](../pokedex/moves/gust.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Special | <input type="checkbox" disabled /> |
+| 8 | [Gust](../pokedex/moves/gust.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span> | Special | <input type="checkbox" disabled /> |
 | 10 | [Stun Spore](../pokedex/moves/stun-spore.md) | <span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span> | Status | <input type="checkbox" disabled /> |
 | 12 | [Mega Drain](../pokedex/moves/mega-drain.md) | <span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span> | Special | <input type="checkbox" disabled /> |
 | 14 | [Worry Seed](../pokedex/moves/worry-seed.md) | <span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span> | Status | <input type="checkbox" disabled /> |
@@ -8316,7 +8316,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 1 | [Synthesis](../pokedex/moves/synthesis.md) | <span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span> | Status | <input type="checkbox" disabled /> |
 | 4 | [Tackle](../pokedex/moves/tackle.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 6 | [Bullet Seed](../pokedex/moves/bullet-seed.md) | <span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span> | Physical | <input type="checkbox" disabled /> |
-| 8 | [Gust](../pokedex/moves/gust.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Special | <input type="checkbox" disabled /> |
+| 8 | [Gust](../pokedex/moves/gust.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span> | Special | <input type="checkbox" disabled /> |
 | 10 | [Stun Spore](../pokedex/moves/stun-spore.md) | <span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span> | Status | <input type="checkbox" disabled /> |
 | 12 | [Mega Drain](../pokedex/moves/mega-drain.md) | <span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span> | Special | <input type="checkbox" disabled /> |
 | 14 | [Worry Seed](../pokedex/moves/worry-seed.md) | <span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span> | Status | <input type="checkbox" disabled /> |
@@ -8358,7 +8358,7 @@ All new type changes are omitted in the Classic version of Redux.
 |:------|:-----|:-----|:------|:------|
 | 1 | [Scratch](../pokedex/moves/scratch.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 1 | [Tail Whip](../pokedex/moves/tail-whip.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
-| 1 | [Sand Attack](../pokedex/moves/sand-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
+| 1 | [Sand Attack](../pokedex/moves/sand-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Status | <input type="checkbox" disabled /> |
 | 5 | [Astonish](../pokedex/moves/astonish.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Physical | <input type="checkbox" disabled /> |
 | 8 | [Tickle](../pokedex/moves/tickle.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 11 | [Baton Pass](../pokedex/moves/baton-pass.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
@@ -8486,7 +8486,7 @@ All new type changes are omitted in the Classic version of Redux.
 | Level | Move | Type | Class | Event |
 |:------|:-----|:-----|:------|:------|
 | 1 | [Foresight](../pokedex/moves/foresight.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
-| 1 | [Gust](../pokedex/moves/gust.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Special | <input type="checkbox" disabled /> |
+| 1 | [Gust](../pokedex/moves/gust.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span> | Special | <input type="checkbox" disabled /> |
 | 1 | [Tackle](../pokedex/moves/tackle.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 4 | [Quick Attack](../pokedex/moves/quick-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 7 | [Screech](../pokedex/moves/screech.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
@@ -8543,7 +8543,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 30 | [Counter](../pokedex/moves/counter.md) | <span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span> | Physical | <input type="checkbox" disabled /> |
 | 32 | [Body Slam](../pokedex/moves/body-slam.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 35 | [Muddy Water](../pokedex/moves/muddy-water.md) | <span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> | Special | <input type="checkbox" disabled /> |
-| 38 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #777777 0%, #777777dd 100%);">Unknown</span> | Status | <input type="checkbox" disabled /> |
+| 38 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Status | <input type="checkbox" disabled /> |
 | 41 | [Spikes](../pokedex/moves/spikes.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Status | <input type="checkbox" disabled /> |
 | 45 | [Double Edge](../pokedex/moves/double-edge.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 49 | [Focus Punch](../pokedex/moves/focus-punch.md) | <span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span> | Physical | <input type="checkbox" disabled /> |
@@ -8589,7 +8589,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 33 | [Counter](../pokedex/moves/counter.md) | <span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span> | Physical | <input type="checkbox" disabled /> |
 | 36 | [Body Slam](../pokedex/moves/body-slam.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 39 | [Muddy Water](../pokedex/moves/muddy-water.md) | <span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> | Special | <input type="checkbox" disabled /> |
-| 43 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #777777 0%, #777777dd 100%);">Unknown</span> | Status | <input type="checkbox" disabled /> |
+| 43 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Status | <input type="checkbox" disabled /> |
 | 47 | [Spikes](../pokedex/moves/spikes.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Status | <input type="checkbox" disabled /> |
 | 51 | [Double Edge](../pokedex/moves/double-edge.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 55 | [Focus Punch](../pokedex/moves/focus-punch.md) | <span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span> | Physical | <input type="checkbox" disabled /> |
@@ -8632,7 +8632,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 5 | [Captivate](../pokedex/moves/captivate.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 7 | [Helping Hand](../pokedex/moves/helping-hand.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 10 | [Quick Attack](../pokedex/moves/quick-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
-| 13 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
+| 13 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 16 | [Swift](../pokedex/moves/swift.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Special | <input type="checkbox" disabled /> |
 | 19 | [Double Kick](../pokedex/moves/double-kick.md) | <span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span> | Physical | <input type="checkbox" disabled /> |
 | 22 | [Covet](../pokedex/moves/covet.md) | <span class="type-badge" style="background: linear-gradient(135deg, #EE99AC 0%, #EE99ACdd 100%);">Fairy</span> | Physical | <input type="checkbox" disabled /> |
@@ -8684,7 +8684,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 5 | [Captivate](../pokedex/moves/captivate.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 7 | [Helping Hand](../pokedex/moves/helping-hand.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 10 | [Quick Attack](../pokedex/moves/quick-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
-| 13 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
+| 13 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 16 | [Swift](../pokedex/moves/swift.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Special | <input type="checkbox" disabled /> |
 | 19 | [Double Kick](../pokedex/moves/double-kick.md) | <span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span> | Physical | <input type="checkbox" disabled /> |
 | 22 | [Covet](../pokedex/moves/covet.md) | <span class="type-badge" style="background: linear-gradient(135deg, #EE99AC 0%, #EE99ACdd 100%);">Fairy</span> | Physical | <input type="checkbox" disabled /> |
@@ -8766,7 +8766,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 | Level | Move | Type | Class | Event |
 |:------|:-----|:-----|:------|:------|
-| 1 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #777777 0%, #777777dd 100%);">Unknown</span> | Status | <input type="checkbox" disabled /> |
+| 1 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Status | <input type="checkbox" disabled /> |
 | 1 | [Yawn](../pokedex/moves/yawn.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 1 | [Tackle](../pokedex/moves/tackle.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 4 | [Growl](../pokedex/moves/growl.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
@@ -8825,7 +8825,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 24 | [Pain Split](../pokedex/moves/pain-split.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 27 | [Torment](../pokedex/moves/torment.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Status | <input type="checkbox" disabled /> |
 | 30 | [Mean Look](../pokedex/moves/mean-look.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
-| 33 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #777777 0%, #777777dd 100%);">Unknown</span> | Status | <input type="checkbox" disabled /> |
+| 33 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Status | <input type="checkbox" disabled /> |
 | 36 | [Hex](../pokedex/moves/hex.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Special | <input type="checkbox" disabled /> |
 | 39 | [Draining Kiss](../pokedex/moves/draining-kiss.md) | <span class="type-badge" style="background: linear-gradient(135deg, #EE99AC 0%, #EE99ACdd 100%);">Fairy</span> | Special | <input type="checkbox" disabled /> |
 | 42 | [Grudge](../pokedex/moves/grudge.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Status | <input type="checkbox" disabled /> |
@@ -9056,14 +9056,14 @@ All new type changes are omitted in the Classic version of Redux.
 | 1 | [Defense Curl](../pokedex/moves/defense-curl.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 1 | [Mud Slap](../pokedex/moves/mud-slap.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Special | <input type="checkbox" disabled /> |
 | 1 | [Rollout](../pokedex/moves/rollout.md) | <span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span> | Physical | <input type="checkbox" disabled /> |
-| 4 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
+| 4 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 7 | [Spite](../pokedex/moves/spite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Status | <input type="checkbox" disabled /> |
 | 10 | [Pursuit](../pokedex/moves/pursuit.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 13 | [Screech](../pokedex/moves/screech.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 16 | [Yawn](../pokedex/moves/yawn.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 19 | [Headbutt](../pokedex/moves/headbutt.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 22 | [Hex](../pokedex/moves/hex.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Special | <input type="checkbox" disabled /> |
-| 25 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #777777 0%, #777777dd 100%);">Unknown</span> | Status | <input type="checkbox" disabled /> |
+| 25 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Status | <input type="checkbox" disabled /> |
 | 28 | [Ancient Power](../pokedex/moves/ancient-power.md) | <span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span> | Special | <input type="checkbox" disabled /> |
 | 31 | [Take Down](../pokedex/moves/take-down.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 34 | [Endeavor](../pokedex/moves/endeavor.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
@@ -9106,7 +9106,7 @@ All new type changes are omitted in the Classic version of Redux.
 |:------|:-----|:-----|:------|:------|
 | 1 | [Harden](../pokedex/moves/harden.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 1 | [Poison Sting](../pokedex/moves/poison-sting.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span> | Physical | <input type="checkbox" disabled /> |
-| 1 | [Sand Attack](../pokedex/moves/sand-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
+| 1 | [Sand Attack](../pokedex/moves/sand-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Status | <input type="checkbox" disabled /> |
 | 4 | [Feint](../pokedex/moves/feint.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 7 | [Quick Attack](../pokedex/moves/quick-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 10 | [Fury Cutter](../pokedex/moves/fury-cutter.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> | Physical | <input type="checkbox" disabled /> |
@@ -9151,7 +9151,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 1 | [Tackle](../pokedex/moves/tackle.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 1 | [Harden](../pokedex/moves/harden.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 1 | [Bind](../pokedex/moves/bind.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
-| 4 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #777777 0%, #777777dd 100%);">Unknown</span> | Status | <input type="checkbox" disabled /> |
+| 4 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Status | <input type="checkbox" disabled /> |
 | 7 | [Rock Throw](../pokedex/moves/rock-throw.md) | <span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span> | Physical | <input type="checkbox" disabled /> |
 | 10 | [Bulldoze](../pokedex/moves/bulldoze.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Physical | <input type="checkbox" disabled /> |
 | 13 | [Rollout](../pokedex/moves/rollout.md) | <span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span> | Physical | <input type="checkbox" disabled /> |
@@ -9200,7 +9200,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 1 | [Tail Whip](../pokedex/moves/tail-whip.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 1 | [Odor Sleuth](../pokedex/moves/odor-sleuth.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 4 | [Detect](../pokedex/moves/detect.md) | <span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span> | Status | <input type="checkbox" disabled /> |
-| 7 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
+| 7 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 10 | [Lick](../pokedex/moves/lick.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Physical | <input type="checkbox" disabled /> |
 | 13 | [Charm](../pokedex/moves/charm.md) | <span class="type-badge" style="background: linear-gradient(135deg, #EE99AC 0%, #EE99ACdd 100%);">Fairy</span> | Status | <input type="checkbox" disabled /> |
 | 16 | [Payback](../pokedex/moves/payback.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
@@ -9246,7 +9246,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 1 | [Tail Whip](../pokedex/moves/tail-whip.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 1 | [Odor Sleuth](../pokedex/moves/odor-sleuth.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 4 | [Detect](../pokedex/moves/detect.md) | <span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span> | Status | <input type="checkbox" disabled /> |
-| 7 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
+| 7 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 10 | [Lick](../pokedex/moves/lick.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Physical | <input type="checkbox" disabled /> |
 | 13 | [Charm](../pokedex/moves/charm.md) | <span class="type-badge" style="background: linear-gradient(135deg, #EE99AC 0%, #EE99ACdd 100%);">Fairy</span> | Status | <input type="checkbox" disabled /> |
 | 16 | [Payback](../pokedex/moves/payback.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
@@ -9519,7 +9519,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 1 | [Fake Tears](../pokedex/moves/fake-tears.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Status | <input type="checkbox" disabled /> |
 | 1 | [Fling](../pokedex/moves/fling.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 4 | [Fury Swipes](../pokedex/moves/fury-swipes.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
-| 7 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #777777 0%, #777777dd 100%);">Unknown</span> | Status | <input type="checkbox" disabled /> |
+| 7 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Status | <input type="checkbox" disabled /> |
 | 10 | [Metal Claw](../pokedex/moves/metal-claw.md) | <span class="type-badge" style="background: linear-gradient(135deg, #B8B8D0 0%, #B8B8D0dd 100%);">Steel</span> | Physical | <input type="checkbox" disabled /> |
 | 13 | [Headbutt](../pokedex/moves/headbutt.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 16 | [Bulldoze](../pokedex/moves/bulldoze.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Physical | <input type="checkbox" disabled /> |
@@ -9565,7 +9565,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 1 | [Fake Tears](../pokedex/moves/fake-tears.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Status | <input type="checkbox" disabled /> |
 | 1 | [Fling](../pokedex/moves/fling.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 4 | [Fury Swipes](../pokedex/moves/fury-swipes.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
-| 7 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #777777 0%, #777777dd 100%);">Unknown</span> | Status | <input type="checkbox" disabled /> |
+| 7 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Status | <input type="checkbox" disabled /> |
 | 10 | [Metal Claw](../pokedex/moves/metal-claw.md) | <span class="type-badge" style="background: linear-gradient(135deg, #B8B8D0 0%, #B8B8D0dd 100%);">Steel</span> | Physical | <input type="checkbox" disabled /> |
 | 13 | [Headbutt](../pokedex/moves/headbutt.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 16 | [Bulldoze](../pokedex/moves/bulldoze.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Physical | <input type="checkbox" disabled /> |
@@ -9625,7 +9625,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 12 | [Mud Slap](../pokedex/moves/mud-slap.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Special | <input type="checkbox" disabled /> |
 | 14 | [Amnesia](../pokedex/moves/amnesia.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span> | Status | <input type="checkbox" disabled /> |
 | 16 | [Yawn](../pokedex/moves/yawn.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
-| 18 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #777777 0%, #777777dd 100%);">Unknown</span> | Status | <input type="checkbox" disabled /> |
+| 18 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Status | <input type="checkbox" disabled /> |
 | 20 | [Flame Burst](../pokedex/moves/flame-burst.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F08030 0%, #F08030dd 100%);">Fire</span> | Special | <input type="checkbox" disabled /> |
 | 23 | [Ancient Power](../pokedex/moves/ancient-power.md) | <span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span> | Special | <input type="checkbox" disabled /> |
 | 26 | [Pain Split](../pokedex/moves/pain-split.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
@@ -9674,7 +9674,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 12 | [Mud Slap](../pokedex/moves/mud-slap.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Special | <input type="checkbox" disabled /> |
 | 14 | [Amnesia](../pokedex/moves/amnesia.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span> | Status | <input type="checkbox" disabled /> |
 | 16 | [Yawn](../pokedex/moves/yawn.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
-| 18 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #777777 0%, #777777dd 100%);">Unknown</span> | Status | <input type="checkbox" disabled /> |
+| 18 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Status | <input type="checkbox" disabled /> |
 | 20 | [Flame Burst](../pokedex/moves/flame-burst.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F08030 0%, #F08030dd 100%);">Fire</span> | Special | <input type="checkbox" disabled /> |
 | 23 | [Ancient Power](../pokedex/moves/ancient-power.md) | <span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span> | Special | <input type="checkbox" disabled /> |
 | 26 | [Pain Split](../pokedex/moves/pain-split.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
@@ -9711,12 +9711,12 @@ All new type changes are omitted in the Classic version of Redux.
 | 1 | [Odor Sleuth](../pokedex/moves/odor-sleuth.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 1 | [Tackle](../pokedex/moves/tackle.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 4 | [Peck](../pokedex/moves/peck.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span> | Physical | <input type="checkbox" disabled /> |
-| 6 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
+| 6 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 8 | [Powder Snow](../pokedex/moves/powder-snow.md) | <span class="type-badge" style="background: linear-gradient(135deg, #98D8D8 0%, #98D8D8dd 100%);">Ice</span> | Special | <input type="checkbox" disabled /> |
 | 10 | [Flail](../pokedex/moves/flail.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 12 | [Mud Bomb](../pokedex/moves/mud-bomb.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Special | <input type="checkbox" disabled /> |
 | 14 | [Ice Shard](../pokedex/moves/ice-shard.md) | <span class="type-badge" style="background: linear-gradient(135deg, #98D8D8 0%, #98D8D8dd 100%);">Ice</span> | Physical | <input type="checkbox" disabled /> |
-| 16 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #777777 0%, #777777dd 100%);">Unknown</span> | Status | <input type="checkbox" disabled /> |
+| 16 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Status | <input type="checkbox" disabled /> |
 | 18 | [Bulldoze](../pokedex/moves/bulldoze.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Physical | <input type="checkbox" disabled /> |
 | 21 | [Knock Off](../pokedex/moves/knock-off.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 24 | [Icicle Spear](../pokedex/moves/icicle-spear.md) | <span class="type-badge" style="background: linear-gradient(135deg, #98D8D8 0%, #98D8D8dd 100%);">Ice</span> | Physical | <input type="checkbox" disabled /> |
@@ -9753,12 +9753,12 @@ All new type changes are omitted in the Classic version of Redux.
 | 1 | [Odor Sleuth](../pokedex/moves/odor-sleuth.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 1 | [Tackle](../pokedex/moves/tackle.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 4 | [Peck](../pokedex/moves/peck.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span> | Physical | <input type="checkbox" disabled /> |
-| 6 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
+| 6 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 8 | [Powder Snow](../pokedex/moves/powder-snow.md) | <span class="type-badge" style="background: linear-gradient(135deg, #98D8D8 0%, #98D8D8dd 100%);">Ice</span> | Special | <input type="checkbox" disabled /> |
 | 10 | [Flail](../pokedex/moves/flail.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 12 | [Mud Bomb](../pokedex/moves/mud-bomb.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Special | <input type="checkbox" disabled /> |
 | 14 | [Ice Shard](../pokedex/moves/ice-shard.md) | <span class="type-badge" style="background: linear-gradient(135deg, #98D8D8 0%, #98D8D8dd 100%);">Ice</span> | Physical | <input type="checkbox" disabled /> |
-| 16 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #777777 0%, #777777dd 100%);">Unknown</span> | Status | <input type="checkbox" disabled /> |
+| 16 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Status | <input type="checkbox" disabled /> |
 | 18 | [Bulldoze](../pokedex/moves/bulldoze.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Physical | <input type="checkbox" disabled /> |
 | 21 | [Knock Off](../pokedex/moves/knock-off.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 24 | [Icicle Spear](../pokedex/moves/icicle-spear.md) | <span class="type-badge" style="background: linear-gradient(135deg, #98D8D8 0%, #98D8D8dd 100%);">Ice</span> | Physical | <input type="checkbox" disabled /> |
@@ -9802,7 +9802,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 10 | [Refresh](../pokedex/moves/refresh.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 13 | [Ancient Power](../pokedex/moves/ancient-power.md) | <span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span> | Special | <input type="checkbox" disabled /> |
 | 16 | [Brine](../pokedex/moves/brine.md) | <span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> | Special | <input type="checkbox" disabled /> |
-| 19 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #777777 0%, #777777dd 100%);">Unknown</span> | Status | <input type="checkbox" disabled /> |
+| 19 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Status | <input type="checkbox" disabled /> |
 | 22 | [Lucky Chant](../pokedex/moves/lucky-chant.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 25 | [Bubble Beam](../pokedex/moves/bubble-beam.md) | <span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> | Special | <input type="checkbox" disabled /> |
 | 28 | [Iron Defense](../pokedex/moves/iron-defense.md) | <span class="type-badge" style="background: linear-gradient(135deg, #B8B8D0 0%, #B8B8D0dd 100%);">Steel</span> | Status | <input type="checkbox" disabled /> |
@@ -10020,8 +10020,8 @@ All new type changes are omitted in the Classic version of Redux.
 | 1 | [Counter](../pokedex/moves/counter.md) | <span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span> | Physical | <input type="checkbox" disabled /> |
 | 1 | [Leer](../pokedex/moves/leer.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 1 | [Peck](../pokedex/moves/peck.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span> | Physical | <input type="checkbox" disabled /> |
-| 1 | [Sand Attack](../pokedex/moves/sand-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
-| 4 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #777777 0%, #777777dd 100%);">Unknown</span> | Status | <input type="checkbox" disabled /> |
+| 1 | [Sand Attack](../pokedex/moves/sand-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Status | <input type="checkbox" disabled /> |
+| 4 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Status | <input type="checkbox" disabled /> |
 | 7 | [Fury Attack](../pokedex/moves/fury-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 10 | [Iron Defense](../pokedex/moves/iron-defense.md) | <span class="type-badge" style="background: linear-gradient(135deg, #B8B8D0 0%, #B8B8D0dd 100%);">Steel</span> | Status | <input type="checkbox" disabled /> |
 | 13 | [Air Cutter](../pokedex/moves/air-cutter.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span> | Special | <input type="checkbox" disabled /> |
@@ -10066,7 +10066,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 1 | [Leer](../pokedex/moves/leer.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 4 | [Howl](../pokedex/moves/howl.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 7 | [Ember](../pokedex/moves/ember.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F08030 0%, #F08030dd 100%);">Fire</span> | Special | <input type="checkbox" disabled /> |
-| 9 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
+| 9 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 11 | [Spite](../pokedex/moves/spite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Status | <input type="checkbox" disabled /> |
 | 13 | [Taunt](../pokedex/moves/taunt.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Status | <input type="checkbox" disabled /> |
 | 16 | [Fire Fang](../pokedex/moves/fire-fang.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F08030 0%, #F08030dd 100%);">Fire</span> | Physical | <input type="checkbox" disabled /> |
@@ -10113,7 +10113,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 1 | [Leer](../pokedex/moves/leer.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 4 | [Howl](../pokedex/moves/howl.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 7 | [Ember](../pokedex/moves/ember.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F08030 0%, #F08030dd 100%);">Fire</span> | Special | <input type="checkbox" disabled /> |
-| 9 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
+| 9 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 11 | [Spite](../pokedex/moves/spite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Status | <input type="checkbox" disabled /> |
 | 13 | [Taunt](../pokedex/moves/taunt.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Status | <input type="checkbox" disabled /> |
 | 16 | [Fire Fang](../pokedex/moves/fire-fang.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F08030 0%, #F08030dd 100%);">Fire</span> | Physical | <input type="checkbox" disabled /> |
@@ -10329,7 +10329,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 1 | [Hypnosis](../pokedex/moves/hypnosis.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span> | Status | <input type="checkbox" disabled /> |
 | 1 | [Leer](../pokedex/moves/leer.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 7 | [Astonish](../pokedex/moves/astonish.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Physical | <input type="checkbox" disabled /> |
-| 10 | [Sand Attack](../pokedex/moves/sand-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
+| 10 | [Sand Attack](../pokedex/moves/sand-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Status | <input type="checkbox" disabled /> |
 | 13 | [Stomp](../pokedex/moves/stomp.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 16 | [Me First](../pokedex/moves/me-first.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 19 | [Confuse Ray](../pokedex/moves/confuse-ray.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Status | <input type="checkbox" disabled /> |
@@ -10610,7 +10610,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 1 | [Growl](../pokedex/moves/growl.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 1 | [Seismic Toss](../pokedex/moves/seismic-toss.md) | <span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span> | Physical | <input type="checkbox" disabled /> |
 | 1 | [Tackle](../pokedex/moves/tackle.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
-| 4 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #777777 0%, #777777dd 100%);">Unknown</span> | Status | <input type="checkbox" disabled /> |
+| 4 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Status | <input type="checkbox" disabled /> |
 | 7 | [Charm](../pokedex/moves/charm.md) | <span class="type-badge" style="background: linear-gradient(135deg, #EE99AC 0%, #EE99ACdd 100%);">Fairy</span> | Status | <input type="checkbox" disabled /> |
 | 10 | [Present](../pokedex/moves/present.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 13 | [Defense Curl](../pokedex/moves/defense-curl.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
@@ -10687,7 +10687,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 1 | [Weather Ball](../pokedex/moves/weather-ball.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Special | <input type="checkbox" disabled checked /> |
 | 1 | [Zap Cannon](../pokedex/moves/zap-cannon.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F8D030 0%, #F8D030dd 100%);">Electric</span> | Special | <input type="checkbox" disabled checked /> |
 | 1 | [Extreme Speed](../pokedex/moves/extreme-speed.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled checked /> |
-| 1 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
+| 1 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 1 | [Roar](../pokedex/moves/roar.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 6 | [Thunder Shock](../pokedex/moves/thunder-shock.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F8D030 0%, #F8D030dd 100%);">Electric</span> | Special | <input type="checkbox" disabled /> |
 | 10 | [Quick Attack](../pokedex/moves/quick-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
@@ -10718,7 +10718,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 1 | [Scorching Sands](../pokedex/moves/scorching-sands.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Special | <input type="checkbox" disabled /> |
 | 1 | [Extreme Speed](../pokedex/moves/extreme-speed.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled checked /> |
 | 1 | [Crush Claw](../pokedex/moves/crush-claw.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled checked /> |
-| 1 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
+| 1 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 1 | [Roar](../pokedex/moves/roar.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 6 | [Ember](../pokedex/moves/ember.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F08030 0%, #F08030dd 100%);">Fire</span> | Special | <input type="checkbox" disabled /> |
 | 10 | [Fire Spin](../pokedex/moves/fire-spin.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F08030 0%, #F08030dd 100%);">Fire</span> | Special | <input type="checkbox" disabled /> |
@@ -10756,9 +10756,9 @@ All new type changes are omitted in the Classic version of Redux.
 | 1 | [Sheer Cold](../pokedex/moves/sheer-cold.md) | <span class="type-badge" style="background: linear-gradient(135deg, #98D8D8 0%, #98D8D8dd 100%);">Ice</span> | Special | <input type="checkbox" disabled checked /> |
 | 1 | [Extreme Speed](../pokedex/moves/extreme-speed.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled checked /> |
 | 1 | [Aqua Ring](../pokedex/moves/aqua-ring.md) | <span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> | Status | <input type="checkbox" disabled checked /> |
-| 1 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
+| 1 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 6 | [Water Pulse](../pokedex/moves/water-pulse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> | Special | <input type="checkbox" disabled /> |
-| 10 | [Gust](../pokedex/moves/gust.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Special | <input type="checkbox" disabled /> |
+| 10 | [Gust](../pokedex/moves/gust.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span> | Special | <input type="checkbox" disabled /> |
 | 14 | [Aurora Beam](../pokedex/moves/aurora-beam.md) | <span class="type-badge" style="background: linear-gradient(135deg, #98D8D8 0%, #98D8D8dd 100%);">Ice</span> | Special | <input type="checkbox" disabled /> |
 | 18 | [Mist](../pokedex/moves/mist.md) | <span class="type-badge" style="background: linear-gradient(135deg, #98D8D8 0%, #98D8D8dd 100%);">Ice</span> | Status | <input type="checkbox" disabled /> |
 | 22 | [Mirror Coat](../pokedex/moves/mirror-coat.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span> | Special | <input type="checkbox" disabled /> |
@@ -10792,7 +10792,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 | Level | Move | Type | Class | Event |
 |:------|:-----|:-----|:------|:------|
-| 1 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
+| 1 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 1 | [Leer](../pokedex/moves/leer.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 5 | [Sandstorm](../pokedex/moves/sandstorm.md) | <span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span> | Status | <input type="checkbox" disabled /> |
 | 10 | [Screech](../pokedex/moves/screech.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
@@ -10803,7 +10803,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 25 | [Payback](../pokedex/moves/payback.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 28 | [Chip Away](../pokedex/moves/chip-away.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 30 | [Withdraw](../pokedex/moves/withdraw.md) | <span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> | Status | <input type="checkbox" disabled /> |
-| 34 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #777777 0%, #777777dd 100%);">Unknown</span> | Status | <input type="checkbox" disabled /> |
+| 34 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Status | <input type="checkbox" disabled /> |
 | 38 | [Assurance](../pokedex/moves/assurance.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 42 | [Earthquake](../pokedex/moves/earthquake.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Physical | <input type="checkbox" disabled /> |
 | 46 | [Stone Edge](../pokedex/moves/stone-edge.md) | <span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span> | Physical | <input type="checkbox" disabled /> |
@@ -10831,7 +10831,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 | Level | Move | Type | Class | Event |
 |:------|:-----|:-----|:------|:------|
-| 1 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
+| 1 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 1 | [Leer](../pokedex/moves/leer.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 5 | [Sandstorm](../pokedex/moves/sandstorm.md) | <span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span> | Status | <input type="checkbox" disabled /> |
 | 10 | [Screech](../pokedex/moves/screech.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
@@ -10843,7 +10843,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 28 | [Chip Away](../pokedex/moves/chip-away.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 30 | [Iron Defense](../pokedex/moves/iron-defense.md) | <span class="type-badge" style="background: linear-gradient(135deg, #B8B8D0 0%, #B8B8D0dd 100%);">Steel</span> | Status | <input type="checkbox" disabled /> |
 | 31 | [Dark Pulse](../pokedex/moves/dark-pulse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Special | <input type="checkbox" disabled /> |
-| 35 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #777777 0%, #777777dd 100%);">Unknown</span> | Status | <input type="checkbox" disabled /> |
+| 35 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Status | <input type="checkbox" disabled /> |
 | 39 | [Assurance](../pokedex/moves/assurance.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 43 | [Earthquake](../pokedex/moves/earthquake.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Physical | <input type="checkbox" disabled /> |
 | 47 | [Stone Edge](../pokedex/moves/stone-edge.md) | <span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span> | Physical | <input type="checkbox" disabled /> |
@@ -10887,7 +10887,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 28 | [Chip Away](../pokedex/moves/chip-away.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 30 | [Iron Defense](../pokedex/moves/iron-defense.md) | <span class="type-badge" style="background: linear-gradient(135deg, #B8B8D0 0%, #B8B8D0dd 100%);">Steel</span> | Status | <input type="checkbox" disabled /> |
 | 31 | [Dark Pulse](../pokedex/moves/dark-pulse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Special | <input type="checkbox" disabled /> |
-| 35 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #777777 0%, #777777dd 100%);">Unknown</span> | Status | <input type="checkbox" disabled /> |
+| 35 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Status | <input type="checkbox" disabled /> |
 | 39 | [Assurance](../pokedex/moves/assurance.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 43 | [Earthquake](../pokedex/moves/earthquake.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Physical | <input type="checkbox" disabled /> |
 | 47 | [Stone Edge](../pokedex/moves/stone-edge.md) | <span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span> | Physical | <input type="checkbox" disabled /> |
@@ -10914,7 +10914,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 1 | [Psycho Boost](../pokedex/moves/psycho-boost.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span> | Special | <input type="checkbox" disabled checked /> |
 | 1 | [Whirlwind](../pokedex/moves/whirlwind.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 1 | [Weather Ball](../pokedex/moves/weather-ball.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Special | <input type="checkbox" disabled /> |
-| 1 | [Gust](../pokedex/moves/gust.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Special | <input type="checkbox" disabled /> |
+| 1 | [Gust](../pokedex/moves/gust.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span> | Special | <input type="checkbox" disabled /> |
 | 6 | [Psyshield Bash](../pokedex/moves/psyshield-bash.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span> | Physical | <input type="checkbox" disabled /> |
 | 10 | [Extrasensory](../pokedex/moves/extrasensory.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span> | Special | <input type="checkbox" disabled /> |
 | 14 | [Natural Gift](../pokedex/moves/natural-gift.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
@@ -10948,7 +10948,7 @@ All new type changes are omitted in the Classic version of Redux.
 |:------|:-----|:-----|:------|:------|
 | 1 | [Whirlwind](../pokedex/moves/whirlwind.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 1 | [Weather Ball](../pokedex/moves/weather-ball.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Special | <input type="checkbox" disabled /> |
-| 1 | [Gust](../pokedex/moves/gust.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Special | <input type="checkbox" disabled /> |
+| 1 | [Gust](../pokedex/moves/gust.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span> | Special | <input type="checkbox" disabled /> |
 | 6 | [Calm Mind](../pokedex/moves/calm-mind.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span> | Status | <input type="checkbox" disabled /> |
 | 10 | [Extrasensory](../pokedex/moves/extrasensory.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span> | Special | <input type="checkbox" disabled /> |
 | 14 | [Natural Gift](../pokedex/moves/natural-gift.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
@@ -11150,7 +11150,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 1 | [Scratch](../pokedex/moves/scratch.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 1 | [Growl](../pokedex/moves/growl.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 5 | [Ember](../pokedex/moves/ember.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F08030 0%, #F08030dd 100%);">Fire</span> | Special | <input type="checkbox" disabled /> |
-| 7 | [Sand Attack](../pokedex/moves/sand-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
+| 7 | [Sand Attack](../pokedex/moves/sand-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Status | <input type="checkbox" disabled /> |
 | 10 | [Peck](../pokedex/moves/peck.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span> | Physical | <input type="checkbox" disabled /> |
 | 13 | [Flame Charge](../pokedex/moves/flame-charge.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F08030 0%, #F08030dd 100%);">Fire</span> | Physical | <input type="checkbox" disabled /> |
 | 17 | [Focus Energy](../pokedex/moves/focus-energy.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
@@ -11190,7 +11190,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 1 | [Scratch](../pokedex/moves/scratch.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 1 | [Growl](../pokedex/moves/growl.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 5 | [Ember](../pokedex/moves/ember.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F08030 0%, #F08030dd 100%);">Fire</span> | Special | <input type="checkbox" disabled /> |
-| 7 | [Sand Attack](../pokedex/moves/sand-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
+| 7 | [Sand Attack](../pokedex/moves/sand-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Status | <input type="checkbox" disabled /> |
 | 10 | [Peck](../pokedex/moves/peck.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span> | Physical | <input type="checkbox" disabled /> |
 | 13 | [Flame Charge](../pokedex/moves/flame-charge.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F08030 0%, #F08030dd 100%);">Fire</span> | Physical | <input type="checkbox" disabled /> |
 | 16 | [Double Kick](../pokedex/moves/double-kick.md) | <span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span> | Physical | <input type="checkbox" disabled /> |
@@ -11234,7 +11234,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 1 | [Scratch](../pokedex/moves/scratch.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 1 | [Growl](../pokedex/moves/growl.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 5 | [Ember](../pokedex/moves/ember.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F08030 0%, #F08030dd 100%);">Fire</span> | Special | <input type="checkbox" disabled /> |
-| 7 | [Sand Attack](../pokedex/moves/sand-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
+| 7 | [Sand Attack](../pokedex/moves/sand-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Status | <input type="checkbox" disabled /> |
 | 10 | [Peck](../pokedex/moves/peck.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span> | Physical | <input type="checkbox" disabled /> |
 | 13 | [Flame Charge](../pokedex/moves/flame-charge.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F08030 0%, #F08030dd 100%);">Fire</span> | Physical | <input type="checkbox" disabled /> |
 | 16 | [Double Kick](../pokedex/moves/double-kick.md) | <span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span> | Physical | <input type="checkbox" disabled /> |
@@ -11285,7 +11285,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 19 | [Rock Throw](../pokedex/moves/rock-throw.md) | <span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span> | Physical | <input type="checkbox" disabled /> |
 | 22 | [Aqua Tail](../pokedex/moves/aqua-tail.md) | <span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> | Physical | <input type="checkbox" disabled /> |
 | 25 | [Avalanche](../pokedex/moves/avalanche.md) | <span class="type-badge" style="background: linear-gradient(135deg, #98D8D8 0%, #98D8D8dd 100%);">Ice</span> | Physical | <input type="checkbox" disabled /> |
-| 28 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #777777 0%, #777777dd 100%);">Unknown</span> | Status | <input type="checkbox" disabled /> |
+| 28 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Status | <input type="checkbox" disabled /> |
 | 31 | [Whirlpool](../pokedex/moves/whirlpool.md) | <span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> | Special | <input type="checkbox" disabled /> |
 | 34 | [Take Down](../pokedex/moves/take-down.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 37 | [Yawn](../pokedex/moves/yawn.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
@@ -11323,7 +11323,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 20 | [Rock Throw](../pokedex/moves/rock-throw.md) | <span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span> | Physical | <input type="checkbox" disabled /> |
 | 22 | [Aqua Tail](../pokedex/moves/aqua-tail.md) | <span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> | Physical | <input type="checkbox" disabled /> |
 | 25 | [Avalanche](../pokedex/moves/avalanche.md) | <span class="type-badge" style="background: linear-gradient(135deg, #98D8D8 0%, #98D8D8dd 100%);">Ice</span> | Physical | <input type="checkbox" disabled /> |
-| 28 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #777777 0%, #777777dd 100%);">Unknown</span> | Status | <input type="checkbox" disabled /> |
+| 28 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Status | <input type="checkbox" disabled /> |
 | 31 | [Whirlpool](../pokedex/moves/whirlpool.md) | <span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> | Special | <input type="checkbox" disabled /> |
 | 34 | [Take Down](../pokedex/moves/take-down.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 37 | [Yawn](../pokedex/moves/yawn.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
@@ -11364,7 +11364,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 20 | [Rock Throw](../pokedex/moves/rock-throw.md) | <span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span> | Physical | <input type="checkbox" disabled /> |
 | 22 | [Aqua Tail](../pokedex/moves/aqua-tail.md) | <span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> | Physical | <input type="checkbox" disabled /> |
 | 25 | [Avalanche](../pokedex/moves/avalanche.md) | <span class="type-badge" style="background: linear-gradient(135deg, #98D8D8 0%, #98D8D8dd 100%);">Ice</span> | Physical | <input type="checkbox" disabled /> |
-| 28 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #777777 0%, #777777dd 100%);">Unknown</span> | Status | <input type="checkbox" disabled /> |
+| 28 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Status | <input type="checkbox" disabled /> |
 | 31 | [Whirlpool](../pokedex/moves/whirlpool.md) | <span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> | Special | <input type="checkbox" disabled /> |
 | 34 | [Take Down](../pokedex/moves/take-down.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 36 | [Hammer Arm](../pokedex/moves/hammer-arm.md) | <span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span> | Physical | <input type="checkbox" disabled /> |
@@ -11401,9 +11401,9 @@ All new type changes are omitted in the Classic version of Redux.
 | 1 | [Tackle](../pokedex/moves/tackle.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 1 | [Astonish](../pokedex/moves/astonish.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Physical | <input type="checkbox" disabled /> |
 | 1 | [Lick](../pokedex/moves/lick.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Physical | <input type="checkbox" disabled /> |
-| 1 | [Sand Attack](../pokedex/moves/sand-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
+| 1 | [Sand Attack](../pokedex/moves/sand-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Status | <input type="checkbox" disabled /> |
 | 4 | [Howl](../pokedex/moves/howl.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
-| 6 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
+| 6 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 8 | [Mud Slap](../pokedex/moves/mud-slap.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Special | <input type="checkbox" disabled /> |
 | 10 | [Spite](../pokedex/moves/spite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Status | <input type="checkbox" disabled /> |
 | 12 | [Headbutt](../pokedex/moves/headbutt.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
@@ -11450,9 +11450,9 @@ All new type changes are omitted in the Classic version of Redux.
 | 1 | [Tackle](../pokedex/moves/tackle.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 1 | [Astonish](../pokedex/moves/astonish.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Physical | <input type="checkbox" disabled /> |
 | 1 | [Lick](../pokedex/moves/lick.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Physical | <input type="checkbox" disabled /> |
-| 1 | [Sand Attack](../pokedex/moves/sand-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
+| 1 | [Sand Attack](../pokedex/moves/sand-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Status | <input type="checkbox" disabled /> |
 | 4 | [Howl](../pokedex/moves/howl.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
-| 6 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
+| 6 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 8 | [Mud Slap](../pokedex/moves/mud-slap.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Special | <input type="checkbox" disabled /> |
 | 10 | [Spite](../pokedex/moves/spite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Status | <input type="checkbox" disabled /> |
 | 12 | [Headbutt](../pokedex/moves/headbutt.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
@@ -11496,7 +11496,7 @@ All new type changes are omitted in the Classic version of Redux.
 |:------|:-----|:-----|:------|:------|
 | 1 | [Tackle](../pokedex/moves/tackle.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 1 | [Tail Whip](../pokedex/moves/tail-whip.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
-| 4 | [Sand Attack](../pokedex/moves/sand-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
+| 4 | [Sand Attack](../pokedex/moves/sand-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Status | <input type="checkbox" disabled /> |
 | 7 | [Odor Sleuth](../pokedex/moves/odor-sleuth.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 10 | [Helping Hand](../pokedex/moves/helping-hand.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 12 | [Pursuit](../pokedex/moves/pursuit.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
@@ -11541,7 +11541,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 1 | [Switcheroo](../pokedex/moves/switcheroo.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Status | <input type="checkbox" disabled /> |
 | 1 | [Tackle](../pokedex/moves/tackle.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 1 | [Tail Whip](../pokedex/moves/tail-whip.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
-| 4 | [Sand Attack](../pokedex/moves/sand-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
+| 4 | [Sand Attack](../pokedex/moves/sand-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Status | <input type="checkbox" disabled /> |
 | 7 | [Odor Sleuth](../pokedex/moves/odor-sleuth.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 10 | [Helping Hand](../pokedex/moves/helping-hand.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 12 | [Pursuit](../pokedex/moves/pursuit.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
@@ -11631,7 +11631,7 @@ All new type changes are omitted in the Classic version of Redux.
 | Level | Move | Type | Class | Event |
 |:------|:-----|:-----|:------|:------|
 | 1 | [Absorb](../pokedex/moves/absorb.md) | <span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span> | Special | <input type="checkbox" disabled /> |
-| 13 | [Gust](../pokedex/moves/gust.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Special | <input type="checkbox" disabled /> |
+| 13 | [Gust](../pokedex/moves/gust.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span> | Special | <input type="checkbox" disabled /> |
 | 13 | [Mega Drain](../pokedex/moves/mega-drain.md) | <span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span> | Special | <input type="checkbox" disabled /> |
 | 15 | [Stun Spore](../pokedex/moves/stun-spore.md) | <span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span> | Status | <input type="checkbox" disabled /> |
 | 17 | [Silver Wind](../pokedex/moves/silver-wind.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> | Special | <input type="checkbox" disabled /> |
@@ -11694,7 +11694,7 @@ All new type changes are omitted in the Classic version of Redux.
 | Level | Move | Type | Class | Event |
 |:------|:-----|:-----|:------|:------|
 | 1 | [Confusion](../pokedex/moves/confusion.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span> | Special | <input type="checkbox" disabled /> |
-| 13 | [Gust](../pokedex/moves/gust.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Special | <input type="checkbox" disabled /> |
+| 13 | [Gust](../pokedex/moves/gust.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span> | Special | <input type="checkbox" disabled /> |
 | 13 | [Confusion](../pokedex/moves/confusion.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span> | Special | <input type="checkbox" disabled /> |
 | 15 | [Poison Powder](../pokedex/moves/poison-powder.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span> | Status | <input type="checkbox" disabled /> |
 | 17 | [Silver Wind](../pokedex/moves/silver-wind.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> | Special | <input type="checkbox" disabled /> |
@@ -12055,7 +12055,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 1 | [Water Gun](../pokedex/moves/water-gun.md) | <span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> | Special | <input type="checkbox" disabled /> |
 | 4 | [Wing Attack](../pokedex/moves/wing-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span> | Physical | <input type="checkbox" disabled /> |
 | 7 | [Mist](../pokedex/moves/mist.md) | <span class="type-badge" style="background: linear-gradient(135deg, #98D8D8 0%, #98D8D8dd 100%);">Ice</span> | Status | <input type="checkbox" disabled /> |
-| 10 | [Gust](../pokedex/moves/gust.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Special | <input type="checkbox" disabled /> |
+| 10 | [Gust](../pokedex/moves/gust.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span> | Special | <input type="checkbox" disabled /> |
 | 13 | [Water Pulse](../pokedex/moves/water-pulse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> | Special | <input type="checkbox" disabled /> |
 | 16 | [Twister](../pokedex/moves/twister.md) | <span class="type-badge" style="background: linear-gradient(135deg, #7038F8 0%, #7038F8dd 100%);">Dragon</span> | Special | <input type="checkbox" disabled /> |
 | 19 | [Pursuit](../pokedex/moves/pursuit.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
@@ -12102,7 +12102,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 1 | [Water Gun](../pokedex/moves/water-gun.md) | <span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> | Special | <input type="checkbox" disabled /> |
 | 4 | [Wing Attack](../pokedex/moves/wing-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span> | Physical | <input type="checkbox" disabled /> |
 | 7 | [Mist](../pokedex/moves/mist.md) | <span class="type-badge" style="background: linear-gradient(135deg, #98D8D8 0%, #98D8D8dd 100%);">Ice</span> | Status | <input type="checkbox" disabled /> |
-| 10 | [Gust](../pokedex/moves/gust.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Special | <input type="checkbox" disabled /> |
+| 10 | [Gust](../pokedex/moves/gust.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span> | Special | <input type="checkbox" disabled /> |
 | 13 | [Water Pulse](../pokedex/moves/water-pulse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> | Special | <input type="checkbox" disabled /> |
 | 16 | [Twister](../pokedex/moves/twister.md) | <span class="type-badge" style="background: linear-gradient(135deg, #7038F8 0%, #7038F8dd 100%);">Dragon</span> | Special | <input type="checkbox" disabled /> |
 | 19 | [Pursuit](../pokedex/moves/pursuit.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
@@ -12475,7 +12475,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 25 | [Night Slash](../pokedex/moves/night-slash.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 28 | [Tickle](../pokedex/moves/tickle.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 31 | [Chip Away](../pokedex/moves/chip-away.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
-| 34 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #777777 0%, #777777dd 100%);">Unknown</span> | Status | <input type="checkbox" disabled /> |
+| 34 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Status | <input type="checkbox" disabled /> |
 | 37 | [Body Slam](../pokedex/moves/body-slam.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 40 | [Hammer Arm](../pokedex/moves/hammer-arm.md) | <span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span> | Physical | <input type="checkbox" disabled /> |
 | 43 | [Play Rough](../pokedex/moves/play-rough.md) | <span class="type-badge" style="background: linear-gradient(135deg, #EE99AC 0%, #EE99ACdd 100%);">Fairy</span> | Physical | <input type="checkbox" disabled /> |
@@ -12559,7 +12559,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 30 | [Raging Fury](../pokedex/moves/raging-fury.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F08030 0%, #F08030dd 100%);">Fire</span> | Physical | <input type="checkbox" disabled /> |
 | 32 | [Crush Claw](../pokedex/moves/crush-claw.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 35 | [Chip Away](../pokedex/moves/chip-away.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
-| 36 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #777777 0%, #777777dd 100%);">Unknown</span> | Status | <input type="checkbox" disabled /> |
+| 36 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Status | <input type="checkbox" disabled /> |
 | 40 | [Body Slam](../pokedex/moves/body-slam.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 44 | [Hammer Arm](../pokedex/moves/hammer-arm.md) | <span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span> | Physical | <input type="checkbox" disabled /> |
 | 48 | [Play Rough](../pokedex/moves/play-rough.md) | <span class="type-badge" style="background: linear-gradient(135deg, #EE99AC 0%, #EE99ACdd 100%);">Fairy</span> | Physical | <input type="checkbox" disabled /> |
@@ -12589,12 +12589,12 @@ All new type changes are omitted in the Classic version of Redux.
 | 1 | [Absorb](../pokedex/moves/absorb.md) | <span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span> | Special | <input type="checkbox" disabled /> |
 | 1 | [Harden](../pokedex/moves/harden.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 1 | [Scratch](../pokedex/moves/scratch.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
-| 4 | [Sand Attack](../pokedex/moves/sand-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
+| 4 | [Sand Attack](../pokedex/moves/sand-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Status | <input type="checkbox" disabled /> |
 | 6 | [Fury Swipes](../pokedex/moves/fury-swipes.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 8 | [String Shot](../pokedex/moves/string-shot.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> | Status | <input type="checkbox" disabled /> |
 | 10 | [Mud Slap](../pokedex/moves/mud-slap.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Special | <input type="checkbox" disabled /> |
 | 12 | [Bug Bite](../pokedex/moves/bug-bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> | Physical | <input type="checkbox" disabled /> |
-| 14 | [Gust](../pokedex/moves/gust.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Special | <input type="checkbox" disabled /> |
+| 14 | [Gust](../pokedex/moves/gust.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span> | Special | <input type="checkbox" disabled /> |
 | 16 | [Fury Cutter](../pokedex/moves/fury-cutter.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> | Physical | <input type="checkbox" disabled /> |
 | 18 | [Metal Claw](../pokedex/moves/metal-claw.md) | <span class="type-badge" style="background: linear-gradient(135deg, #B8B8D0 0%, #B8B8D0dd 100%);">Steel</span> | Physical | <input type="checkbox" disabled /> |
 | 20 | [Struggle Bug](../pokedex/moves/struggle-bug.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> | Special | <input type="checkbox" disabled /> |
@@ -12630,12 +12630,12 @@ All new type changes are omitted in the Classic version of Redux.
 | 1 | [Absorb](../pokedex/moves/absorb.md) | <span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span> | Special | <input type="checkbox" disabled /> |
 | 1 | [Harden](../pokedex/moves/harden.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 1 | [Scratch](../pokedex/moves/scratch.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
-| 4 | [Sand Attack](../pokedex/moves/sand-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
+| 4 | [Sand Attack](../pokedex/moves/sand-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Status | <input type="checkbox" disabled /> |
 | 6 | [Fury Swipes](../pokedex/moves/fury-swipes.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 8 | [String Shot](../pokedex/moves/string-shot.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> | Status | <input type="checkbox" disabled /> |
 | 10 | [Mud Slap](../pokedex/moves/mud-slap.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Special | <input type="checkbox" disabled /> |
 | 12 | [Bug Bite](../pokedex/moves/bug-bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> | Physical | <input type="checkbox" disabled /> |
-| 14 | [Gust](../pokedex/moves/gust.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Special | <input type="checkbox" disabled /> |
+| 14 | [Gust](../pokedex/moves/gust.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span> | Special | <input type="checkbox" disabled /> |
 | 16 | [Fury Cutter](../pokedex/moves/fury-cutter.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> | Physical | <input type="checkbox" disabled /> |
 | 18 | [Metal Claw](../pokedex/moves/metal-claw.md) | <span class="type-badge" style="background: linear-gradient(135deg, #B8B8D0 0%, #B8B8D0dd 100%);">Steel</span> | Physical | <input type="checkbox" disabled /> |
 | 20 | [Struggle Bug](../pokedex/moves/struggle-bug.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> | Special | <input type="checkbox" disabled /> |
@@ -12675,12 +12675,12 @@ All new type changes are omitted in the Classic version of Redux.
 | 1 | [Sucker Punch](../pokedex/moves/sucker-punch.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 1 | [Absorb](../pokedex/moves/absorb.md) | <span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span> | Special | <input type="checkbox" disabled /> |
 | 1 | [Scratch](../pokedex/moves/scratch.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
-| 4 | [Sand Attack](../pokedex/moves/sand-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
+| 4 | [Sand Attack](../pokedex/moves/sand-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Status | <input type="checkbox" disabled /> |
 | 6 | [Fury Swipes](../pokedex/moves/fury-swipes.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 8 | [String Shot](../pokedex/moves/string-shot.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> | Status | <input type="checkbox" disabled /> |
 | 10 | [Mud Slap](../pokedex/moves/mud-slap.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Special | <input type="checkbox" disabled /> |
 | 12 | [Bug Bite](../pokedex/moves/bug-bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> | Physical | <input type="checkbox" disabled /> |
-| 14 | [Gust](../pokedex/moves/gust.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Special | <input type="checkbox" disabled /> |
+| 14 | [Gust](../pokedex/moves/gust.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span> | Special | <input type="checkbox" disabled /> |
 | 16 | [Fury Cutter](../pokedex/moves/fury-cutter.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> | Physical | <input type="checkbox" disabled /> |
 | 18 | [Metal Claw](../pokedex/moves/metal-claw.md) | <span class="type-badge" style="background: linear-gradient(135deg, #B8B8D0 0%, #B8B8D0dd 100%);">Steel</span> | Physical | <input type="checkbox" disabled /> |
 | 20 | [Struggle Bug](../pokedex/moves/struggle-bug.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> | Special | <input type="checkbox" disabled /> |
@@ -12768,7 +12768,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 13 | [Screech](../pokedex/moves/screech.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 16 | [Disarming Voice](../pokedex/moves/disarming-voice.md) | <span class="type-badge" style="background: linear-gradient(135deg, #EE99AC 0%, #EE99ACdd 100%);">Fairy</span> | Special | <input type="checkbox" disabled /> |
 | 19 | [Uproar](../pokedex/moves/uproar.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Special | <input type="checkbox" disabled /> |
-| 20 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
+| 20 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 22 | [Fake Tears](../pokedex/moves/fake-tears.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Status | <input type="checkbox" disabled /> |
 | 26 | [Chatter](../pokedex/moves/chatter.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span> | Special | <input type="checkbox" disabled /> |
 | 29 | [Take Down](../pokedex/moves/take-down.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
@@ -12815,7 +12815,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 13 | [Screech](../pokedex/moves/screech.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 16 | [Disarming Voice](../pokedex/moves/disarming-voice.md) | <span class="type-badge" style="background: linear-gradient(135deg, #EE99AC 0%, #EE99ACdd 100%);">Fairy</span> | Special | <input type="checkbox" disabled /> |
 | 19 | [Uproar](../pokedex/moves/uproar.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Special | <input type="checkbox" disabled /> |
-| 20 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
+| 20 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 22 | [Fake Tears](../pokedex/moves/fake-tears.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Status | <input type="checkbox" disabled /> |
 | 26 | [Chatter](../pokedex/moves/chatter.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span> | Special | <input type="checkbox" disabled /> |
 | 29 | [Take Down](../pokedex/moves/take-down.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
@@ -12848,7 +12848,7 @@ All new type changes are omitted in the Classic version of Redux.
 |:------|:-----|:-----|:------|:------|
 | 1 | [Tackle](../pokedex/moves/tackle.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 1 | [Focus Energy](../pokedex/moves/focus-energy.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
-| 4 | [Sand Attack](../pokedex/moves/sand-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
+| 4 | [Sand Attack](../pokedex/moves/sand-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Status | <input type="checkbox" disabled /> |
 | 7 | [Arm Thrust](../pokedex/moves/arm-thrust.md) | <span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span> | Physical | <input type="checkbox" disabled /> |
 | 9 | [Fake Out](../pokedex/moves/fake-out.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 11 | [Force Palm](../pokedex/moves/force-palm.md) | <span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span> | Physical | <input type="checkbox" disabled /> |
@@ -12888,7 +12888,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 1 | [Bullet Punch](../pokedex/moves/bullet-punch.md) | <span class="type-badge" style="background: linear-gradient(135deg, #B8B8D0 0%, #B8B8D0dd 100%);">Steel</span> | Physical | <input type="checkbox" disabled /> |
 | 1 | [Tackle](../pokedex/moves/tackle.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 1 | [Focus Energy](../pokedex/moves/focus-energy.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
-| 4 | [Sand Attack](../pokedex/moves/sand-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
+| 4 | [Sand Attack](../pokedex/moves/sand-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Status | <input type="checkbox" disabled /> |
 | 7 | [Arm Thrust](../pokedex/moves/arm-thrust.md) | <span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span> | Physical | <input type="checkbox" disabled /> |
 | 9 | [Fake Out](../pokedex/moves/fake-out.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 11 | [Force Palm](../pokedex/moves/force-palm.md) | <span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span> | Physical | <input type="checkbox" disabled /> |
@@ -13158,7 +13158,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 1 | [Astonish](../pokedex/moves/astonish.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Physical | <input type="checkbox" disabled /> |
 | 1 | [Growl](../pokedex/moves/growl.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 1 | [Fake Tears](../pokedex/moves/fake-tears.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Status | <input type="checkbox" disabled /> |
-| 4 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
+| 4 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 7 | [Tickle](../pokedex/moves/tickle.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 10 | [Pain Split](../pokedex/moves/pain-split.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 13 | [Seismic Toss](../pokedex/moves/seismic-toss.md) | <span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span> | Physical | <input type="checkbox" disabled /> |
@@ -13212,7 +13212,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 19 | [Screech](../pokedex/moves/screech.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 22 | [Endeavor](../pokedex/moves/endeavor.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 25 | [Autotomize](../pokedex/moves/autotomize.md) | <span class="type-badge" style="background: linear-gradient(135deg, #B8B8D0 0%, #B8B8D0dd 100%);">Steel</span> | Status | <input type="checkbox" disabled /> |
-| 28 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #777777 0%, #777777dd 100%);">Unknown</span> | Status | <input type="checkbox" disabled /> |
+| 28 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Status | <input type="checkbox" disabled /> |
 | 31 | [Metal Burst](../pokedex/moves/metal-burst.md) | <span class="type-badge" style="background: linear-gradient(135deg, #B8B8D0 0%, #B8B8D0dd 100%);">Steel</span> | Physical | <input type="checkbox" disabled /> |
 | 34 | [Take Down](../pokedex/moves/take-down.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 37 | [Body Slam](../pokedex/moves/body-slam.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
@@ -13256,7 +13256,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 22 | [Endeavor](../pokedex/moves/endeavor.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 24 | [Iron Defense](../pokedex/moves/iron-defense.md) | <span class="type-badge" style="background: linear-gradient(135deg, #B8B8D0 0%, #B8B8D0dd 100%);">Steel</span> | Status | <input type="checkbox" disabled /> |
 | 27 | [Autotomize](../pokedex/moves/autotomize.md) | <span class="type-badge" style="background: linear-gradient(135deg, #B8B8D0 0%, #B8B8D0dd 100%);">Steel</span> | Status | <input type="checkbox" disabled /> |
-| 30 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #777777 0%, #777777dd 100%);">Unknown</span> | Status | <input type="checkbox" disabled /> |
+| 30 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Status | <input type="checkbox" disabled /> |
 | 33 | [Metal Burst](../pokedex/moves/metal-burst.md) | <span class="type-badge" style="background: linear-gradient(135deg, #B8B8D0 0%, #B8B8D0dd 100%);">Steel</span> | Physical | <input type="checkbox" disabled /> |
 | 36 | [Take Down](../pokedex/moves/take-down.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 40 | [Body Slam](../pokedex/moves/body-slam.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
@@ -13303,7 +13303,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 22 | [Endeavor](../pokedex/moves/endeavor.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 24 | [Iron Defense](../pokedex/moves/iron-defense.md) | <span class="type-badge" style="background: linear-gradient(135deg, #B8B8D0 0%, #B8B8D0dd 100%);">Steel</span> | Status | <input type="checkbox" disabled /> |
 | 27 | [Autotomize](../pokedex/moves/autotomize.md) | <span class="type-badge" style="background: linear-gradient(135deg, #B8B8D0 0%, #B8B8D0dd 100%);">Steel</span> | Status | <input type="checkbox" disabled /> |
-| 30 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #777777 0%, #777777dd 100%);">Unknown</span> | Status | <input type="checkbox" disabled /> |
+| 30 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Status | <input type="checkbox" disabled /> |
 | 33 | [Metal Burst](../pokedex/moves/metal-burst.md) | <span class="type-badge" style="background: linear-gradient(135deg, #B8B8D0 0%, #B8B8D0dd 100%);">Steel</span> | Physical | <input type="checkbox" disabled /> |
 | 36 | [Take Down](../pokedex/moves/take-down.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 40 | [Smart Strike](../pokedex/moves/smart-strike.md) | <span class="type-badge" style="background: linear-gradient(135deg, #B8B8D0 0%, #B8B8D0dd 100%);">Steel</span> | Physical | <input type="checkbox" disabled /> |
@@ -13431,7 +13431,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 7 | [Thunder Wave](../pokedex/moves/thunder-wave.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F8D030 0%, #F8D030dd 100%);">Electric</span> | Status | <input type="checkbox" disabled /> |
 | 10 | [Quick Attack](../pokedex/moves/quick-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 12 | [Spark](../pokedex/moves/spark.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F8D030 0%, #F8D030dd 100%);">Electric</span> | Physical | <input type="checkbox" disabled /> |
-| 14 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
+| 14 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 16 | [Charge Beam](../pokedex/moves/charge-beam.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F8D030 0%, #F8D030dd 100%);">Electric</span> | Special | <input type="checkbox" disabled /> |
 | 18 | [Psychic Fangs](../pokedex/moves/psychic-fangs.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span> | Physical | <input type="checkbox" disabled /> |
 | 20 | [Nuzzle](../pokedex/moves/nuzzle.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F8D030 0%, #F8D030dd 100%);">Electric</span> | Physical | <input type="checkbox" disabled /> |
@@ -13475,7 +13475,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 7 | [Thunder Wave](../pokedex/moves/thunder-wave.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F8D030 0%, #F8D030dd 100%);">Electric</span> | Status | <input type="checkbox" disabled /> |
 | 10 | [Quick Attack](../pokedex/moves/quick-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 12 | [Spark](../pokedex/moves/spark.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F8D030 0%, #F8D030dd 100%);">Electric</span> | Physical | <input type="checkbox" disabled /> |
-| 14 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
+| 14 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 16 | [Charge Beam](../pokedex/moves/charge-beam.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F8D030 0%, #F8D030dd 100%);">Electric</span> | Special | <input type="checkbox" disabled /> |
 | 18 | [Psychic Fangs](../pokedex/moves/psychic-fangs.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span> | Physical | <input type="checkbox" disabled /> |
 | 20 | [Nuzzle](../pokedex/moves/nuzzle.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F8D030 0%, #F8D030dd 100%);">Electric</span> | Physical | <input type="checkbox" disabled /> |
@@ -13751,7 +13751,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 26 | [Body Slam](../pokedex/moves/body-slam.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 28 | [Sludge Bomb](../pokedex/moves/sludge-bomb.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span> | Special | <input type="checkbox" disabled /> |
 | 31 | [Toxic](../pokedex/moves/toxic.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span> | Status | <input type="checkbox" disabled /> |
-| 34 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #777777 0%, #777777dd 100%);">Unknown</span> | Status | <input type="checkbox" disabled /> |
+| 34 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Status | <input type="checkbox" disabled /> |
 | 38 | [Pain Split](../pokedex/moves/pain-split.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 42 | [Encore](../pokedex/moves/encore.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 46 | [Gunk Shot](../pokedex/moves/gunk-shot.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span> | Physical | <input type="checkbox" disabled /> |
@@ -13793,7 +13793,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 26 | [Body Slam](../pokedex/moves/body-slam.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 29 | [Sludge Bomb](../pokedex/moves/sludge-bomb.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span> | Special | <input type="checkbox" disabled /> |
 | 32 | [Toxic](../pokedex/moves/toxic.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span> | Status | <input type="checkbox" disabled /> |
-| 36 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #777777 0%, #777777dd 100%);">Unknown</span> | Status | <input type="checkbox" disabled /> |
+| 36 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Status | <input type="checkbox" disabled /> |
 | 40 | [Pain Split](../pokedex/moves/pain-split.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 44 | [Encore](../pokedex/moves/encore.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 48 | [Gunk Shot](../pokedex/moves/gunk-shot.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span> | Physical | <input type="checkbox" disabled /> |
@@ -13827,7 +13827,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 | Level | Move | Type | Class | Event |
 |:------|:-----|:-----|:------|:------|
-| 1 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
+| 1 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 1 | [Endure](../pokedex/moves/endure.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 1 | [Focus Energy](../pokedex/moves/focus-energy.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 4 | [Water Pulse](../pokedex/moves/water-pulse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> | Special | <input type="checkbox" disabled /> |
@@ -13872,7 +13872,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 | Level | Move | Type | Class | Event |
 |:------|:-----|:-----|:------|:------|
-| 1 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
+| 1 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 1 | [Endure](../pokedex/moves/endure.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 1 | [Focus Energy](../pokedex/moves/focus-energy.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 4 | [Water Pulse](../pokedex/moves/water-pulse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> | Special | <input type="checkbox" disabled /> |
@@ -13932,7 +13932,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 32 | [Heavy Slam](../pokedex/moves/heavy-slam.md) | <span class="type-badge" style="background: linear-gradient(135deg, #B8B8D0 0%, #B8B8D0dd 100%);">Steel</span> | Physical | <input type="checkbox" disabled /> |
 | 36 | [Brine](../pokedex/moves/brine.md) | <span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> | Special | <input type="checkbox" disabled /> |
 | 40 | [Final Gambit](../pokedex/moves/final-gambit.md) | <span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span> | Special | <input type="checkbox" disabled /> |
-| 44 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #777777 0%, #777777dd 100%);">Unknown</span> | Status | <input type="checkbox" disabled /> |
+| 44 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Status | <input type="checkbox" disabled /> |
 | 48 | [Hyper Voice](../pokedex/moves/hyper-voice.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Special | <input type="checkbox" disabled /> |
 | 52 | [Soak](../pokedex/moves/soak.md) | <span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> | Status | <input type="checkbox" disabled /> |
 | 56 | [Hydro Pump](../pokedex/moves/hydro-pump.md) | <span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> | Special | <input type="checkbox" disabled /> |
@@ -14016,7 +14016,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 7 | [Headbutt](../pokedex/moves/headbutt.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 10 | [Ember](../pokedex/moves/ember.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F08030 0%, #F08030dd 100%);">Fire</span> | Special | <input type="checkbox" disabled /> |
 | 13 | [Scary Face](../pokedex/moves/scary-face.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
-| 16 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #777777 0%, #777777dd 100%);">Unknown</span> | Status | <input type="checkbox" disabled /> |
+| 16 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Status | <input type="checkbox" disabled /> |
 | 19 | [Bulldoze](../pokedex/moves/bulldoze.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Physical | <input type="checkbox" disabled /> |
 | 22 | [Flame Burst](../pokedex/moves/flame-burst.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F08030 0%, #F08030dd 100%);">Fire</span> | Special | <input type="checkbox" disabled /> |
 | 25 | [Mud Bomb](../pokedex/moves/mud-bomb.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Special | <input type="checkbox" disabled /> |
@@ -14066,7 +14066,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 7 | [Headbutt](../pokedex/moves/headbutt.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 10 | [Ember](../pokedex/moves/ember.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F08030 0%, #F08030dd 100%);">Fire</span> | Special | <input type="checkbox" disabled /> |
 | 13 | [Scary Face](../pokedex/moves/scary-face.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
-| 16 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #777777 0%, #777777dd 100%);">Unknown</span> | Status | <input type="checkbox" disabled /> |
+| 16 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Status | <input type="checkbox" disabled /> |
 | 19 | [Bulldoze](../pokedex/moves/bulldoze.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Physical | <input type="checkbox" disabled /> |
 | 22 | [Flame Burst](../pokedex/moves/flame-burst.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F08030 0%, #F08030dd 100%);">Fire</span> | Special | <input type="checkbox" disabled /> |
 | 25 | [Mud Bomb](../pokedex/moves/mud-bomb.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Special | <input type="checkbox" disabled /> |
@@ -14113,7 +14113,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 10 | [Fire Spin](../pokedex/moves/fire-spin.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F08030 0%, #F08030dd 100%);">Fire</span> | Special | <input type="checkbox" disabled /> |
 | 13 | [Smokescreen](../pokedex/moves/smokescreen.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 16 | [Flame Wheel](../pokedex/moves/flame-wheel.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F08030 0%, #F08030dd 100%);">Fire</span> | Physical | <input type="checkbox" disabled /> |
-| 19 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #777777 0%, #777777dd 100%);">Unknown</span> | Status | <input type="checkbox" disabled /> |
+| 19 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Status | <input type="checkbox" disabled /> |
 | 22 | [Body Slam](../pokedex/moves/body-slam.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 25 | [Clear Smog](../pokedex/moves/clear-smog.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span> | Special | <input type="checkbox" disabled /> |
 | 28 | [Protect](../pokedex/moves/protect.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
@@ -14276,8 +14276,8 @@ All new type changes are omitted in the Classic version of Redux.
 | Level | Move | Type | Class | Event |
 |:------|:-----|:-----|:------|:------|
 | 1 | [Astonish](../pokedex/moves/astonish.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Physical | <input type="checkbox" disabled /> |
-| 1 | [Sand Attack](../pokedex/moves/sand-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
-| 1 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
+| 1 | [Sand Attack](../pokedex/moves/sand-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Status | <input type="checkbox" disabled /> |
+| 1 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 4 | [Quick Attack](../pokedex/moves/quick-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 7 | [Mud Slap](../pokedex/moves/mud-slap.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Special | <input type="checkbox" disabled /> |
 | 10 | [Flail](../pokedex/moves/flail.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
@@ -14287,7 +14287,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 22 | [Rock Tomb](../pokedex/moves/rock-tomb.md) | <span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span> | Physical | <input type="checkbox" disabled /> |
 | 25 | [Crunch](../pokedex/moves/crunch.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 28 | [Fury Cutter](../pokedex/moves/fury-cutter.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> | Physical | <input type="checkbox" disabled /> |
-| 30 | [Gust](../pokedex/moves/gust.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Special | <input type="checkbox" disabled /> |
+| 30 | [Gust](../pokedex/moves/gust.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span> | Special | <input type="checkbox" disabled /> |
 | 33 | [Signal Beam](../pokedex/moves/signal-beam.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> | Special | <input type="checkbox" disabled /> |
 | 36 | [Dig](../pokedex/moves/dig.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Physical | <input type="checkbox" disabled /> |
 | 39 | [High Horsepower](../pokedex/moves/high-horsepower.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Physical | <input type="checkbox" disabled /> |
@@ -14329,8 +14329,8 @@ All new type changes are omitted in the Classic version of Redux.
 | Level | Move | Type | Class | Event |
 |:------|:-----|:-----|:------|:------|
 | 1 | [Astonish](../pokedex/moves/astonish.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Physical | <input type="checkbox" disabled /> |
-| 1 | [Sand Attack](../pokedex/moves/sand-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
-| 1 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
+| 1 | [Sand Attack](../pokedex/moves/sand-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Status | <input type="checkbox" disabled /> |
+| 1 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 4 | [Quick Attack](../pokedex/moves/quick-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 7 | [Mud Slap](../pokedex/moves/mud-slap.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Special | <input type="checkbox" disabled /> |
 | 10 | [Flail](../pokedex/moves/flail.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
@@ -14340,7 +14340,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 22 | [Twister](../pokedex/moves/twister.md) | <span class="type-badge" style="background: linear-gradient(135deg, #7038F8 0%, #7038F8dd 100%);">Dragon</span> | Special | <input type="checkbox" disabled /> |
 | 25 | [Crunch](../pokedex/moves/crunch.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 28 | [Fury Cutter](../pokedex/moves/fury-cutter.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> | Physical | <input type="checkbox" disabled /> |
-| 30 | [Gust](../pokedex/moves/gust.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Special | <input type="checkbox" disabled /> |
+| 30 | [Gust](../pokedex/moves/gust.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span> | Special | <input type="checkbox" disabled /> |
 | 31 | [Struggle Bug](../pokedex/moves/struggle-bug.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> | Special | <input type="checkbox" disabled /> |
 | 33 | [Uproar](../pokedex/moves/uproar.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Special | <input type="checkbox" disabled /> |
 | 36 | [Dragon Breath](../pokedex/moves/dragon-breath.md) | <span class="type-badge" style="background: linear-gradient(135deg, #7038F8 0%, #7038F8dd 100%);">Dragon</span> | Special | <input type="checkbox" disabled /> |
@@ -14380,7 +14380,7 @@ All new type changes are omitted in the Classic version of Redux.
 |:------|:-----|:-----|:------|:------|
 | 1 | [High Horsepower](../pokedex/moves/high-horsepower.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Physical | <input type="checkbox" disabled /> |
 | 1 | [Astonish](../pokedex/moves/astonish.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Physical | <input type="checkbox" disabled /> |
-| 1 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
+| 1 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 4 | [Quick Attack](../pokedex/moves/quick-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 10 | [Flail](../pokedex/moves/flail.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 16 | [Sonic Boom](../pokedex/moves/sonic-boom.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Special | <input type="checkbox" disabled /> |
@@ -14388,7 +14388,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 22 | [Twister](../pokedex/moves/twister.md) | <span class="type-badge" style="background: linear-gradient(135deg, #7038F8 0%, #7038F8dd 100%);">Dragon</span> | Special | <input type="checkbox" disabled /> |
 | 25 | [Crunch](../pokedex/moves/crunch.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 28 | [Fury Cutter](../pokedex/moves/fury-cutter.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> | Physical | <input type="checkbox" disabled /> |
-| 30 | [Gust](../pokedex/moves/gust.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Special | <input type="checkbox" disabled /> |
+| 30 | [Gust](../pokedex/moves/gust.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span> | Special | <input type="checkbox" disabled /> |
 | 31 | [Struggle Bug](../pokedex/moves/struggle-bug.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> | Special | <input type="checkbox" disabled /> |
 | 33 | [Uproar](../pokedex/moves/uproar.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Special | <input type="checkbox" disabled /> |
 | 36 | [Dragon Breath](../pokedex/moves/dragon-breath.md) | <span class="type-badge" style="background: linear-gradient(135deg, #7038F8 0%, #7038F8dd 100%);">Dragon</span> | Special | <input type="checkbox" disabled /> |
@@ -14432,7 +14432,7 @@ All new type changes are omitted in the Classic version of Redux.
 |:------|:-----|:-----|:------|:------|
 | 1 | [Absorb](../pokedex/moves/absorb.md) | <span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span> | Special | <input type="checkbox" disabled /> |
 | 1 | [Poison Sting](../pokedex/moves/poison-sting.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span> | Physical | <input type="checkbox" disabled /> |
-| 1 | [Sand Attack](../pokedex/moves/sand-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
+| 1 | [Sand Attack](../pokedex/moves/sand-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Status | <input type="checkbox" disabled /> |
 | 4 | [Cotton Spore](../pokedex/moves/cotton-spore.md) | <span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span> | Status | <input type="checkbox" disabled /> |
 | 7 | [Growth](../pokedex/moves/growth.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 10 | [Magical Leaf](../pokedex/moves/magical-leaf.md) | <span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span> | Special | <input type="checkbox" disabled /> |
@@ -14482,7 +14482,7 @@ All new type changes are omitted in the Classic version of Redux.
 |:------|:-----|:-----|:------|:------|
 | 1 | [Absorb](../pokedex/moves/absorb.md) | <span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span> | Special | <input type="checkbox" disabled /> |
 | 1 | [Poison Sting](../pokedex/moves/poison-sting.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span> | Physical | <input type="checkbox" disabled /> |
-| 1 | [Sand Attack](../pokedex/moves/sand-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
+| 1 | [Sand Attack](../pokedex/moves/sand-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Status | <input type="checkbox" disabled /> |
 | 4 | [Cotton Spore](../pokedex/moves/cotton-spore.md) | <span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span> | Status | <input type="checkbox" disabled /> |
 | 7 | [Growth](../pokedex/moves/growth.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 10 | [Magical Leaf](../pokedex/moves/magical-leaf.md) | <span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span> | Special | <input type="checkbox" disabled /> |
@@ -14673,7 +14673,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 | Level | Move | Type | Class | Event |
 |:------|:-----|:-----|:------|:------|
-| 1 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
+| 1 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 1 | [Leer](../pokedex/moves/leer.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 1 | [Lick](../pokedex/moves/lick.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Physical | <input type="checkbox" disabled /> |
 | 4 | [Screech](../pokedex/moves/screech.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
@@ -14808,7 +14808,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 1 | [Mud Slap](../pokedex/moves/mud-slap.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Special | <input type="checkbox" disabled /> |
 | 1 | [Water Gun](../pokedex/moves/water-gun.md) | <span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> | Special | <input type="checkbox" disabled /> |
 | 1 | [Flail](../pokedex/moves/flail.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
-| 4 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #777777 0%, #777777dd 100%);">Unknown</span> | Status | <input type="checkbox" disabled /> |
+| 4 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Status | <input type="checkbox" disabled /> |
 | 7 | [Whirlpool](../pokedex/moves/whirlpool.md) | <span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> | Special | <input type="checkbox" disabled /> |
 | 10 | [Amnesia](../pokedex/moves/amnesia.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span> | Status | <input type="checkbox" disabled /> |
 | 13 | [Mud Bomb](../pokedex/moves/mud-bomb.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Special | <input type="checkbox" disabled /> |
@@ -14855,7 +14855,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 1 | [Mud Slap](../pokedex/moves/mud-slap.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Special | <input type="checkbox" disabled /> |
 | 1 | [Water Gun](../pokedex/moves/water-gun.md) | <span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> | Special | <input type="checkbox" disabled /> |
 | 1 | [Flail](../pokedex/moves/flail.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
-| 4 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #777777 0%, #777777dd 100%);">Unknown</span> | Status | <input type="checkbox" disabled /> |
+| 4 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Status | <input type="checkbox" disabled /> |
 | 7 | [Whirlpool](../pokedex/moves/whirlpool.md) | <span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> | Special | <input type="checkbox" disabled /> |
 | 10 | [Amnesia](../pokedex/moves/amnesia.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span> | Status | <input type="checkbox" disabled /> |
 | 13 | [Mud Bomb](../pokedex/moves/mud-bomb.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Special | <input type="checkbox" disabled /> |
@@ -15154,7 +15154,7 @@ All new type changes are omitted in the Classic version of Redux.
 |:------|:-----|:-----|:------|:------|
 | 1 | [Harden](../pokedex/moves/harden.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 1 | [Water Gun](../pokedex/moves/water-gun.md) | <span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> | Special | <input type="checkbox" disabled /> |
-| 5 | [Sand Attack](../pokedex/moves/sand-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
+| 5 | [Sand Attack](../pokedex/moves/sand-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Status | <input type="checkbox" disabled /> |
 | 9 | [Iron Defense](../pokedex/moves/iron-defense.md) | <span class="type-badge" style="background: linear-gradient(135deg, #B8B8D0 0%, #B8B8D0dd 100%);">Steel</span> | Status | <input type="checkbox" disabled /> |
 | 13 | [Brine](../pokedex/moves/brine.md) | <span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> | Special | <input type="checkbox" disabled /> |
 | 17 | [Rapid Spin](../pokedex/moves/rapid-spin.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
@@ -15164,7 +15164,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 28 | [Night Slash](../pokedex/moves/night-slash.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 31 | [Rock Blast](../pokedex/moves/rock-blast.md) | <span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span> | Physical | <input type="checkbox" disabled /> |
 | 34 | [Fury Cutter](../pokedex/moves/fury-cutter.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> | Physical | <input type="checkbox" disabled /> |
-| 37 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #777777 0%, #777777dd 100%);">Unknown</span> | Status | <input type="checkbox" disabled /> |
+| 37 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Status | <input type="checkbox" disabled /> |
 | 40 | [Lunge](../pokedex/moves/lunge.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> | Physical | <input type="checkbox" disabled /> |
 | 43 | [Aqua Jet](../pokedex/moves/aqua-jet.md) | <span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> | Physical | <input type="checkbox" disabled /> |
 | 46 | [Cross Poison](../pokedex/moves/cross-poison.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span> | Physical | <input type="checkbox" disabled /> |
@@ -15197,7 +15197,7 @@ All new type changes are omitted in the Classic version of Redux.
 |:------|:-----|:-----|:------|:------|
 | 1 | [Harden](../pokedex/moves/harden.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 1 | [Water Gun](../pokedex/moves/water-gun.md) | <span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> | Special | <input type="checkbox" disabled /> |
-| 5 | [Sand Attack](../pokedex/moves/sand-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
+| 5 | [Sand Attack](../pokedex/moves/sand-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Status | <input type="checkbox" disabled /> |
 | 9 | [Iron Defense](../pokedex/moves/iron-defense.md) | <span class="type-badge" style="background: linear-gradient(135deg, #B8B8D0 0%, #B8B8D0dd 100%);">Steel</span> | Status | <input type="checkbox" disabled /> |
 | 13 | [Brine](../pokedex/moves/brine.md) | <span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> | Special | <input type="checkbox" disabled /> |
 | 17 | [Rapid Spin](../pokedex/moves/rapid-spin.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
@@ -15208,7 +15208,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 30 | [Body Slam](../pokedex/moves/body-slam.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 33 | [Rock Blast](../pokedex/moves/rock-blast.md) | <span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span> | Physical | <input type="checkbox" disabled /> |
 | 35 | [Fury Cutter](../pokedex/moves/fury-cutter.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> | Physical | <input type="checkbox" disabled /> |
-| 39 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #777777 0%, #777777dd 100%);">Unknown</span> | Status | <input type="checkbox" disabled /> |
+| 39 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Status | <input type="checkbox" disabled /> |
 | 43 | [Lunge](../pokedex/moves/lunge.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> | Physical | <input type="checkbox" disabled /> |
 | 47 | [Aqua Jet](../pokedex/moves/aqua-jet.md) | <span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> | Physical | <input type="checkbox" disabled /> |
 | 51 | [Cross Poison](../pokedex/moves/cross-poison.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span> | Physical | <input type="checkbox" disabled /> |
@@ -15405,7 +15405,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 16 | [Will O Wisp](../pokedex/moves/will-o-wisp.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F08030 0%, #F08030dd 100%);">Fire</span> | Status | <input type="checkbox" disabled /> |
 | 19 | [Feint Attack](../pokedex/moves/feint-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 22 | [Ominous Wind](../pokedex/moves/ominous-wind.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Special | <input type="checkbox" disabled /> |
-| 25 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #777777 0%, #777777dd 100%);">Unknown</span> | Status | <input type="checkbox" disabled /> |
+| 25 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Status | <input type="checkbox" disabled /> |
 | 28 | [Hex](../pokedex/moves/hex.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Special | <input type="checkbox" disabled /> |
 | 31 | [Embargo](../pokedex/moves/embargo.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Status | <input type="checkbox" disabled /> |
 | 34 | [Sucker Punch](../pokedex/moves/sucker-punch.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
@@ -15451,7 +15451,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 16 | [Will O Wisp](../pokedex/moves/will-o-wisp.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F08030 0%, #F08030dd 100%);">Fire</span> | Status | <input type="checkbox" disabled /> |
 | 19 | [Feint Attack](../pokedex/moves/feint-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 22 | [Ominous Wind](../pokedex/moves/ominous-wind.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Special | <input type="checkbox" disabled /> |
-| 25 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #777777 0%, #777777dd 100%);">Unknown</span> | Status | <input type="checkbox" disabled /> |
+| 25 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Status | <input type="checkbox" disabled /> |
 | 28 | [Hex](../pokedex/moves/hex.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Special | <input type="checkbox" disabled /> |
 | 31 | [Embargo](../pokedex/moves/embargo.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Status | <input type="checkbox" disabled /> |
 | 32 | [Shadow Claw](../pokedex/moves/shadow-claw.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Physical | <input type="checkbox" disabled /> |
@@ -15487,7 +15487,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 1 | [Absorb](../pokedex/moves/absorb.md) | <span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span> | Special | <input type="checkbox" disabled /> |
 | 4 | [Disable](../pokedex/moves/disable.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 7 | [Foresight](../pokedex/moves/foresight.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
-| 10 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #777777 0%, #777777dd 100%);">Unknown</span> | Status | <input type="checkbox" disabled /> |
+| 10 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Status | <input type="checkbox" disabled /> |
 | 13 | [Night Shade](../pokedex/moves/night-shade.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Special | <input type="checkbox" disabled /> |
 | 16 | [Haze](../pokedex/moves/haze.md) | <span class="type-badge" style="background: linear-gradient(135deg, #98D8D8 0%, #98D8D8dd 100%);">Ice</span> | Status | <input type="checkbox" disabled /> |
 | 19 | [Mean Look](../pokedex/moves/mean-look.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
@@ -15528,7 +15528,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 1 | [Absorb](../pokedex/moves/absorb.md) | <span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span> | Special | <input type="checkbox" disabled /> |
 | 4 | [Disable](../pokedex/moves/disable.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 7 | [Foresight](../pokedex/moves/foresight.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
-| 10 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #777777 0%, #777777dd 100%);">Unknown</span> | Status | <input type="checkbox" disabled /> |
+| 10 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Status | <input type="checkbox" disabled /> |
 | 13 | [Night Shade](../pokedex/moves/night-shade.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Special | <input type="checkbox" disabled /> |
 | 16 | [Haze](../pokedex/moves/haze.md) | <span class="type-badge" style="background: linear-gradient(135deg, #98D8D8 0%, #98D8D8dd 100%);">Ice</span> | Status | <input type="checkbox" disabled /> |
 | 19 | [Mean Look](../pokedex/moves/mean-look.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
@@ -15574,14 +15574,14 @@ All new type changes are omitted in the Classic version of Redux.
 |:------|:-----|:-----|:------|:------|
 | 1 | [Breaking Swipe](../pokedex/moves/breaking-swipe.md) | <span class="type-badge" style="background: linear-gradient(135deg, #7038F8 0%, #7038F8dd 100%);">Dragon</span> | Physical | <input type="checkbox" disabled /> |
 | 1 | [Growth](../pokedex/moves/growth.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
-| 1 | [Gust](../pokedex/moves/gust.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Special | <input type="checkbox" disabled /> |
+| 1 | [Gust](../pokedex/moves/gust.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span> | Special | <input type="checkbox" disabled /> |
 | 1 | [Leer](../pokedex/moves/leer.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 1 | [Razor Leaf](../pokedex/moves/razor-leaf.md) | <span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span> | Physical | <input type="checkbox" disabled /> |
 | 4 | [Headbutt](../pokedex/moves/headbutt.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 7 | [Whirlwind](../pokedex/moves/whirlwind.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 10 | [Stomp](../pokedex/moves/stomp.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 14 | [Magical Leaf](../pokedex/moves/magical-leaf.md) | <span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span> | Special | <input type="checkbox" disabled /> |
-| 18 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #777777 0%, #777777dd 100%);">Unknown</span> | Status | <input type="checkbox" disabled /> |
+| 18 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Status | <input type="checkbox" disabled /> |
 | 22 | [Bullet Seed](../pokedex/moves/bullet-seed.md) | <span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span> | Physical | <input type="checkbox" disabled /> |
 | 26 | [Leaf Tornado](../pokedex/moves/leaf-tornado.md) | <span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span> | Special | <input type="checkbox" disabled /> |
 | 30 | [Nature Power](../pokedex/moves/nature-power.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
@@ -15677,7 +15677,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 7 | [Quick Attack](../pokedex/moves/quick-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 10 | [Pursuit](../pokedex/moves/pursuit.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 13 | [Taunt](../pokedex/moves/taunt.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Status | <input type="checkbox" disabled /> |
-| 16 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
+| 16 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 19 | [Double Team](../pokedex/moves/double-team.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 22 | [Slash](../pokedex/moves/slash.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 22 | [Night Slash](../pokedex/moves/night-slash.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
@@ -15743,7 +15743,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 6 | [Spite](../pokedex/moves/spite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Status | <input type="checkbox" disabled /> |
 | 9 | [Ice Shard](../pokedex/moves/ice-shard.md) | <span class="type-badge" style="background: linear-gradient(135deg, #98D8D8 0%, #98D8D8dd 100%);">Ice</span> | Physical | <input type="checkbox" disabled /> |
 | 12 | [Spikes](../pokedex/moves/spikes.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Status | <input type="checkbox" disabled /> |
-| 15 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
+| 15 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 18 | [Disable](../pokedex/moves/disable.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 21 | [Ice Fang](../pokedex/moves/ice-fang.md) | <span class="type-badge" style="background: linear-gradient(135deg, #98D8D8 0%, #98D8D8dd 100%);">Ice</span> | Physical | <input type="checkbox" disabled /> |
 | 24 | [Headbutt](../pokedex/moves/headbutt.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
@@ -15795,7 +15795,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 6 | [Spite](../pokedex/moves/spite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Status | <input type="checkbox" disabled /> |
 | 9 | [Ice Shard](../pokedex/moves/ice-shard.md) | <span class="type-badge" style="background: linear-gradient(135deg, #98D8D8 0%, #98D8D8dd 100%);">Ice</span> | Physical | <input type="checkbox" disabled /> |
 | 12 | [Spikes](../pokedex/moves/spikes.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Status | <input type="checkbox" disabled /> |
-| 15 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
+| 15 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 18 | [Disable](../pokedex/moves/disable.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 21 | [Ice Fang](../pokedex/moves/ice-fang.md) | <span class="type-badge" style="background: linear-gradient(135deg, #98D8D8 0%, #98D8D8dd 100%);">Ice</span> | Physical | <input type="checkbox" disabled /> |
 | 24 | [Headbutt](../pokedex/moves/headbutt.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
@@ -15846,7 +15846,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 38 | [Aqua Ring](../pokedex/moves/aqua-ring.md) | <span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> | Status | <input type="checkbox" disabled /> |
 | 42 | [Aqua Tail](../pokedex/moves/aqua-tail.md) | <span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> | Physical | <input type="checkbox" disabled /> |
 | 46 | [Block](../pokedex/moves/block.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
-| 50 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #777777 0%, #777777dd 100%);">Unknown</span> | Status | <input type="checkbox" disabled /> |
+| 50 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Status | <input type="checkbox" disabled /> |
 | 54 | [Crunch](../pokedex/moves/crunch.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 58 | [Fissure](../pokedex/moves/fissure.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Physical | <input type="checkbox" disabled /> |
 
@@ -15887,7 +15887,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 40 | [Aqua Ring](../pokedex/moves/aqua-ring.md) | <span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> | Status | <input type="checkbox" disabled /> |
 | 44 | [Aqua Tail](../pokedex/moves/aqua-tail.md) | <span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> | Physical | <input type="checkbox" disabled /> |
 | 48 | [Block](../pokedex/moves/block.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
-| 52 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #777777 0%, #777777dd 100%);">Unknown</span> | Status | <input type="checkbox" disabled /> |
+| 52 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Status | <input type="checkbox" disabled /> |
 | 56 | [Crunch](../pokedex/moves/crunch.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 60 | [Fissure](../pokedex/moves/fissure.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Physical | <input type="checkbox" disabled /> |
 | 64 | [Sheer Cold](../pokedex/moves/sheer-cold.md) | <span class="type-badge" style="background: linear-gradient(135deg, #98D8D8 0%, #98D8D8dd 100%);">Ice</span> | Special | <input type="checkbox" disabled /> |
@@ -15923,7 +15923,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 44 | [Aqua Ring](../pokedex/moves/aqua-ring.md) | <span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> | Status | <input type="checkbox" disabled /> |
 | 48 | [Aqua Tail](../pokedex/moves/aqua-tail.md) | <span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> | Physical | <input type="checkbox" disabled /> |
 | 52 | [Block](../pokedex/moves/block.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
-| 56 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #777777 0%, #777777dd 100%);">Unknown</span> | Status | <input type="checkbox" disabled /> |
+| 56 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Status | <input type="checkbox" disabled /> |
 | 60 | [Crunch](../pokedex/moves/crunch.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 64 | [Fissure](../pokedex/moves/fissure.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Physical | <input type="checkbox" disabled /> |
 | 68 | [Sheer Cold](../pokedex/moves/sheer-cold.md) | <span class="type-badge" style="background: linear-gradient(135deg, #98D8D8 0%, #98D8D8dd 100%);">Ice</span> | Special | <input type="checkbox" disabled /> |
@@ -15975,7 +15975,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 | Level | Move | Type | Class | Event |
 |:------|:-----|:-----|:------|:------|
-| 1 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
+| 1 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 1 | [Screech](../pokedex/moves/screech.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 1 | [Water Gun](../pokedex/moves/water-gun.md) | <span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> | Special | <input type="checkbox" disabled /> |
 | 4 | [Whirlpool](../pokedex/moves/whirlpool.md) | <span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> | Special | <input type="checkbox" disabled /> |
@@ -16156,7 +16156,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 1 | [Twister](../pokedex/moves/twister.md) | <span class="type-badge" style="background: linear-gradient(135deg, #7038F8 0%, #7038F8dd 100%);">Dragon</span> | Special | <input type="checkbox" disabled /> |
 | 3 | [Ember](../pokedex/moves/ember.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F08030 0%, #F08030dd 100%);">Fire</span> | Special | <input type="checkbox" disabled /> |
 | 7 | [Dragon Breath](../pokedex/moves/dragon-breath.md) | <span class="type-badge" style="background: linear-gradient(135deg, #7038F8 0%, #7038F8dd 100%);">Dragon</span> | Special | <input type="checkbox" disabled /> |
-| 10 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
+| 10 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 12 | [Defense Curl](../pokedex/moves/defense-curl.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 14 | [Breaking Swipe](../pokedex/moves/breaking-swipe.md) | <span class="type-badge" style="background: linear-gradient(135deg, #7038F8 0%, #7038F8dd 100%);">Dragon</span> | Physical | <input type="checkbox" disabled /> |
 | 16 | [Headbutt](../pokedex/moves/headbutt.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
@@ -16202,7 +16202,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 1 | [Twister](../pokedex/moves/twister.md) | <span class="type-badge" style="background: linear-gradient(135deg, #7038F8 0%, #7038F8dd 100%);">Dragon</span> | Special | <input type="checkbox" disabled /> |
 | 3 | [Ember](../pokedex/moves/ember.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F08030 0%, #F08030dd 100%);">Fire</span> | Special | <input type="checkbox" disabled /> |
 | 7 | [Dragon Breath](../pokedex/moves/dragon-breath.md) | <span class="type-badge" style="background: linear-gradient(135deg, #7038F8 0%, #7038F8dd 100%);">Dragon</span> | Special | <input type="checkbox" disabled /> |
-| 10 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
+| 10 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 12 | [Defense Curl](../pokedex/moves/defense-curl.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 14 | [Breaking Swipe](../pokedex/moves/breaking-swipe.md) | <span class="type-badge" style="background: linear-gradient(135deg, #7038F8 0%, #7038F8dd 100%);">Dragon</span> | Physical | <input type="checkbox" disabled /> |
 | 16 | [Headbutt](../pokedex/moves/headbutt.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
@@ -16248,7 +16248,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 1 | [Twister](../pokedex/moves/twister.md) | <span class="type-badge" style="background: linear-gradient(135deg, #7038F8 0%, #7038F8dd 100%);">Dragon</span> | Special | <input type="checkbox" disabled /> |
 | 3 | [Ember](../pokedex/moves/ember.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F08030 0%, #F08030dd 100%);">Fire</span> | Special | <input type="checkbox" disabled /> |
 | 7 | [Dragon Breath](../pokedex/moves/dragon-breath.md) | <span class="type-badge" style="background: linear-gradient(135deg, #7038F8 0%, #7038F8dd 100%);">Dragon</span> | Special | <input type="checkbox" disabled /> |
-| 10 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
+| 10 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 13 | [Breaking Swipe](../pokedex/moves/breaking-swipe.md) | <span class="type-badge" style="background: linear-gradient(135deg, #7038F8 0%, #7038F8dd 100%);">Dragon</span> | Physical | <input type="checkbox" disabled /> |
 | 16 | [Headbutt](../pokedex/moves/headbutt.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 18 | [Scary Face](../pokedex/moves/scary-face.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
@@ -16411,7 +16411,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 6 | [Rock Throw](../pokedex/moves/rock-throw.md) | <span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span> | Physical | <input type="checkbox" disabled /> |
 | 10 | [Charge Beam](../pokedex/moves/charge-beam.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F8D030 0%, #F8D030dd 100%);">Electric</span> | Special | <input type="checkbox" disabled /> |
 | 14 | [Block](../pokedex/moves/block.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
-| 18 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #777777 0%, #777777dd 100%);">Unknown</span> | Status | <input type="checkbox" disabled /> |
+| 18 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Status | <input type="checkbox" disabled /> |
 | 22 | [Ancient Power](../pokedex/moves/ancient-power.md) | <span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span> | Special | <input type="checkbox" disabled /> |
 | 26 | [Iron Defense](../pokedex/moves/iron-defense.md) | <span class="type-badge" style="background: linear-gradient(135deg, #B8B8D0 0%, #B8B8D0dd 100%);">Steel</span> | Status | <input type="checkbox" disabled /> |
 | 30 | [Hammer Arm](../pokedex/moves/hammer-arm.md) | <span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span> | Physical | <input type="checkbox" disabled /> |
@@ -16445,7 +16445,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 6 | [Icy Wind](../pokedex/moves/icy-wind.md) | <span class="type-badge" style="background: linear-gradient(135deg, #98D8D8 0%, #98D8D8dd 100%);">Ice</span> | Special | <input type="checkbox" disabled /> |
 | 10 | [Charge Beam](../pokedex/moves/charge-beam.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F8D030 0%, #F8D030dd 100%);">Electric</span> | Special | <input type="checkbox" disabled /> |
 | 14 | [Block](../pokedex/moves/block.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
-| 18 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #777777 0%, #777777dd 100%);">Unknown</span> | Status | <input type="checkbox" disabled /> |
+| 18 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Status | <input type="checkbox" disabled /> |
 | 22 | [Ancient Power](../pokedex/moves/ancient-power.md) | <span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span> | Special | <input type="checkbox" disabled /> |
 | 26 | [Amnesia](../pokedex/moves/amnesia.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span> | Status | <input type="checkbox" disabled /> |
 | 30 | [Hammer Arm](../pokedex/moves/hammer-arm.md) | <span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span> | Physical | <input type="checkbox" disabled /> |
@@ -16479,7 +16479,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 6 | [Metal Claw](../pokedex/moves/metal-claw.md) | <span class="type-badge" style="background: linear-gradient(135deg, #B8B8D0 0%, #B8B8D0dd 100%);">Steel</span> | Physical | <input type="checkbox" disabled /> |
 | 10 | [Charge Beam](../pokedex/moves/charge-beam.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F8D030 0%, #F8D030dd 100%);">Electric</span> | Special | <input type="checkbox" disabled /> |
 | 14 | [Block](../pokedex/moves/block.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
-| 18 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #777777 0%, #777777dd 100%);">Unknown</span> | Status | <input type="checkbox" disabled /> |
+| 18 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Status | <input type="checkbox" disabled /> |
 | 22 | [Ancient Power](../pokedex/moves/ancient-power.md) | <span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span> | Special | <input type="checkbox" disabled /> |
 | 26 | [Iron Defense](../pokedex/moves/iron-defense.md) | <span class="type-badge" style="background: linear-gradient(135deg, #B8B8D0 0%, #B8B8D0dd 100%);">Steel</span> | Status | <input type="checkbox" disabled /> |
 | 26 | [Amnesia](../pokedex/moves/amnesia.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span> | Status | <input type="checkbox" disabled /> |
@@ -16845,9 +16845,9 @@ All new type changes are omitted in the Classic version of Redux.
 | 1 | [Withdraw](../pokedex/moves/withdraw.md) | <span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> | Status | <input type="checkbox" disabled /> |
 | 5 | [Absorb](../pokedex/moves/absorb.md) | <span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span> | Special | <input type="checkbox" disabled /> |
 | 7 | [Razor Leaf](../pokedex/moves/razor-leaf.md) | <span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span> | Physical | <input type="checkbox" disabled /> |
-| 10 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #777777 0%, #777777dd 100%);">Unknown</span> | Status | <input type="checkbox" disabled /> |
+| 10 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Status | <input type="checkbox" disabled /> |
 | 13 | [Bullet Seed](../pokedex/moves/bullet-seed.md) | <span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span> | Physical | <input type="checkbox" disabled /> |
-| 16 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
+| 16 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 19 | [Growth](../pokedex/moves/growth.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 22 | [Mega Drain](../pokedex/moves/mega-drain.md) | <span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span> | Special | <input type="checkbox" disabled /> |
 | 25 | [Amnesia](../pokedex/moves/amnesia.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span> | Status | <input type="checkbox" disabled /> |
@@ -16884,9 +16884,9 @@ All new type changes are omitted in the Classic version of Redux.
 | 1 | [Withdraw](../pokedex/moves/withdraw.md) | <span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> | Status | <input type="checkbox" disabled /> |
 | 5 | [Absorb](../pokedex/moves/absorb.md) | <span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span> | Special | <input type="checkbox" disabled /> |
 | 7 | [Razor Leaf](../pokedex/moves/razor-leaf.md) | <span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span> | Physical | <input type="checkbox" disabled /> |
-| 10 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #777777 0%, #777777dd 100%);">Unknown</span> | Status | <input type="checkbox" disabled /> |
+| 10 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Status | <input type="checkbox" disabled /> |
 | 13 | [Bullet Seed](../pokedex/moves/bullet-seed.md) | <span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span> | Physical | <input type="checkbox" disabled /> |
-| 16 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
+| 16 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 18 | [Bulldoze](../pokedex/moves/bulldoze.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Physical | <input type="checkbox" disabled /> |
 | 20 | [Growth](../pokedex/moves/growth.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 22 | [Mega Drain](../pokedex/moves/mega-drain.md) | <span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span> | Special | <input type="checkbox" disabled /> |
@@ -16928,9 +16928,9 @@ All new type changes are omitted in the Classic version of Redux.
 | 1 | [Sunny Day](../pokedex/moves/sunny-day.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F08030 0%, #F08030dd 100%);">Fire</span> | Status | <input type="checkbox" disabled /> |
 | 5 | [Absorb](../pokedex/moves/absorb.md) | <span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span> | Special | <input type="checkbox" disabled /> |
 | 7 | [Razor Leaf](../pokedex/moves/razor-leaf.md) | <span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span> | Physical | <input type="checkbox" disabled /> |
-| 10 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #777777 0%, #777777dd 100%);">Unknown</span> | Status | <input type="checkbox" disabled /> |
+| 10 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Status | <input type="checkbox" disabled /> |
 | 13 | [Bullet Seed](../pokedex/moves/bullet-seed.md) | <span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span> | Physical | <input type="checkbox" disabled /> |
-| 16 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
+| 16 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 18 | [Bulldoze](../pokedex/moves/bulldoze.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Physical | <input type="checkbox" disabled /> |
 | 20 | [Growth](../pokedex/moves/growth.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 22 | [Mega Drain](../pokedex/moves/mega-drain.md) | <span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span> | Special | <input type="checkbox" disabled /> |
@@ -17229,7 +17229,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 1 | [Growl](../pokedex/moves/growl.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 1 | [Tackle](../pokedex/moves/tackle.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 1 | [Astonish](../pokedex/moves/astonish.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Physical | <input type="checkbox" disabled /> |
-| 1 | [Sand Attack](../pokedex/moves/sand-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
+| 1 | [Sand Attack](../pokedex/moves/sand-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Status | <input type="checkbox" disabled /> |
 | 5 | [Quick Attack](../pokedex/moves/quick-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 8 | [Wing Attack](../pokedex/moves/wing-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span> | Physical | <input type="checkbox" disabled /> |
 | 10 | [Pursuit](../pokedex/moves/pursuit.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
@@ -17266,7 +17266,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 1 | [Growl](../pokedex/moves/growl.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 1 | [Tackle](../pokedex/moves/tackle.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 1 | [Astonish](../pokedex/moves/astonish.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Physical | <input type="checkbox" disabled /> |
-| 1 | [Sand Attack](../pokedex/moves/sand-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
+| 1 | [Sand Attack](../pokedex/moves/sand-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Status | <input type="checkbox" disabled /> |
 | 5 | [Quick Attack](../pokedex/moves/quick-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 8 | [Wing Attack](../pokedex/moves/wing-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span> | Physical | <input type="checkbox" disabled /> |
 | 10 | [Pursuit](../pokedex/moves/pursuit.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
@@ -17311,7 +17311,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 1 | [Growl](../pokedex/moves/growl.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 1 | [Tackle](../pokedex/moves/tackle.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 1 | [Astonish](../pokedex/moves/astonish.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Physical | <input type="checkbox" disabled /> |
-| 1 | [Sand Attack](../pokedex/moves/sand-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
+| 1 | [Sand Attack](../pokedex/moves/sand-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Status | <input type="checkbox" disabled /> |
 | 5 | [Quick Attack](../pokedex/moves/quick-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 8 | [Wing Attack](../pokedex/moves/wing-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span> | Physical | <input type="checkbox" disabled /> |
 | 10 | [Pursuit](../pokedex/moves/pursuit.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
@@ -17356,12 +17356,12 @@ All new type changes are omitted in the Classic version of Redux.
 | 1 | [Tackle](../pokedex/moves/tackle.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 4 | [Endure](../pokedex/moves/endure.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 7 | [Covet](../pokedex/moves/covet.md) | <span class="type-badge" style="background: linear-gradient(135deg, #EE99AC 0%, #EE99ACdd 100%);">Fairy</span> | Physical | <input type="checkbox" disabled /> |
-| 10 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
+| 10 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 12 | [Headbutt](../pokedex/moves/headbutt.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 14 | [Quick Attack](../pokedex/moves/quick-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 16 | [Yawn](../pokedex/moves/yawn.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 18 | [Hyper Fang](../pokedex/moves/hyper-fang.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
-| 20 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #777777 0%, #777777dd 100%);">Unknown</span> | Status | <input type="checkbox" disabled /> |
+| 20 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Status | <input type="checkbox" disabled /> |
 | 22 | [Super Fang](../pokedex/moves/super-fang.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 25 | [Fling](../pokedex/moves/fling.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 28 | [Skull Bash](../pokedex/moves/skull-bash.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
@@ -17397,13 +17397,13 @@ All new type changes are omitted in the Classic version of Redux.
 | 1 | [Tackle](../pokedex/moves/tackle.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 4 | [Endure](../pokedex/moves/endure.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 7 | [Covet](../pokedex/moves/covet.md) | <span class="type-badge" style="background: linear-gradient(135deg, #EE99AC 0%, #EE99ACdd 100%);">Fairy</span> | Physical | <input type="checkbox" disabled /> |
-| 10 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
+| 10 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 12 | [Headbutt](../pokedex/moves/headbutt.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 14 | [Quick Attack](../pokedex/moves/quick-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 15 | [Water Pulse](../pokedex/moves/water-pulse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> | Special | <input type="checkbox" disabled /> |
 | 17 | [Yawn](../pokedex/moves/yawn.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 19 | [Hyper Fang](../pokedex/moves/hyper-fang.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
-| 21 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #777777 0%, #777777dd 100%);">Unknown</span> | Status | <input type="checkbox" disabled /> |
+| 21 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Status | <input type="checkbox" disabled /> |
 | 23 | [Super Fang](../pokedex/moves/super-fang.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 25 | [Aqua Jet](../pokedex/moves/aqua-jet.md) | <span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> | Physical | <input type="checkbox" disabled /> |
 | 27 | [Fling](../pokedex/moves/fling.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
@@ -17518,7 +17518,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 7 | [Howl](../pokedex/moves/howl.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 9 | [Helping Hand](../pokedex/moves/helping-hand.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 11 | [Spark](../pokedex/moves/spark.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F8D030 0%, #F8D030dd 100%);">Electric</span> | Physical | <input type="checkbox" disabled /> |
-| 14 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
+| 14 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 16 | [Double Kick](../pokedex/moves/double-kick.md) | <span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span> | Physical | <input type="checkbox" disabled /> |
 | 18 | [Nuzzle](../pokedex/moves/nuzzle.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F8D030 0%, #F8D030dd 100%);">Electric</span> | Physical | <input type="checkbox" disabled /> |
 | 20 | [Fire Fang](../pokedex/moves/fire-fang.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F08030 0%, #F08030dd 100%);">Fire</span> | Physical | <input type="checkbox" disabled /> |
@@ -17561,7 +17561,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 7 | [Howl](../pokedex/moves/howl.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 9 | [Helping Hand](../pokedex/moves/helping-hand.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 11 | [Spark](../pokedex/moves/spark.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F8D030 0%, #F8D030dd 100%);">Electric</span> | Physical | <input type="checkbox" disabled /> |
-| 14 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
+| 14 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 16 | [Double Kick](../pokedex/moves/double-kick.md) | <span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span> | Physical | <input type="checkbox" disabled /> |
 | 18 | [Nuzzle](../pokedex/moves/nuzzle.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F8D030 0%, #F8D030dd 100%);">Electric</span> | Physical | <input type="checkbox" disabled /> |
 | 21 | [Fire Fang](../pokedex/moves/fire-fang.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F08030 0%, #F08030dd 100%);">Fire</span> | Physical | <input type="checkbox" disabled /> |
@@ -17605,7 +17605,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 7 | [Howl](../pokedex/moves/howl.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 9 | [Helping Hand](../pokedex/moves/helping-hand.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 11 | [Spark](../pokedex/moves/spark.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F8D030 0%, #F8D030dd 100%);">Electric</span> | Physical | <input type="checkbox" disabled /> |
-| 14 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
+| 14 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 16 | [Double Kick](../pokedex/moves/double-kick.md) | <span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span> | Physical | <input type="checkbox" disabled /> |
 | 18 | [Nuzzle](../pokedex/moves/nuzzle.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F8D030 0%, #F8D030dd 100%);">Electric</span> | Physical | <input type="checkbox" disabled /> |
 | 21 | [Fire Fang](../pokedex/moves/fire-fang.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F08030 0%, #F08030dd 100%);">Fire</span> | Physical | <input type="checkbox" disabled /> |
@@ -17809,7 +17809,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 36 | [Rock Blast](../pokedex/moves/rock-blast.md) | <span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span> | Physical | <input type="checkbox" disabled /> |
 | 39 | [Heavy Slam](../pokedex/moves/heavy-slam.md) | <span class="type-badge" style="background: linear-gradient(135deg, #B8B8D0 0%, #B8B8D0dd 100%);">Steel</span> | Physical | <input type="checkbox" disabled /> |
 | 42 | [Wide Guard](../pokedex/moves/wide-guard.md) | <span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span> | Status | <input type="checkbox" disabled /> |
-| 45 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #777777 0%, #777777dd 100%);">Unknown</span> | Status | <input type="checkbox" disabled /> |
+| 45 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Status | <input type="checkbox" disabled /> |
 | 50 | [Metal Burst](../pokedex/moves/metal-burst.md) | <span class="type-badge" style="background: linear-gradient(135deg, #B8B8D0 0%, #B8B8D0dd 100%);">Steel</span> | Physical | <input type="checkbox" disabled /> |
 
 ### #411 Bastiodon
@@ -17854,7 +17854,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 35 | [Rock Blast](../pokedex/moves/rock-blast.md) | <span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span> | Physical | <input type="checkbox" disabled /> |
 | 39 | [Heavy Slam](../pokedex/moves/heavy-slam.md) | <span class="type-badge" style="background: linear-gradient(135deg, #B8B8D0 0%, #B8B8D0dd 100%);">Steel</span> | Physical | <input type="checkbox" disabled /> |
 | 43 | [Wide Guard](../pokedex/moves/wide-guard.md) | <span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span> | Status | <input type="checkbox" disabled /> |
-| 47 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #777777 0%, #777777dd 100%);">Unknown</span> | Status | <input type="checkbox" disabled /> |
+| 47 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Status | <input type="checkbox" disabled /> |
 | 51 | [Stealth Rock](../pokedex/moves/stealth-rock.md) | <span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span> | Status | <input type="checkbox" disabled /> |
 | 55 | [Metal Burst](../pokedex/moves/metal-burst.md) | <span class="type-badge" style="background: linear-gradient(135deg, #B8B8D0 0%, #B8B8D0dd 100%);">Steel</span> | Physical | <input type="checkbox" disabled /> |
 
@@ -18057,7 +18057,7 @@ All new type changes are omitted in the Classic version of Redux.
 | Level | Move | Type | Class | Event |
 |:------|:-----|:-----|:------|:------|
 | 1 | [Sweet Scent](../pokedex/moves/sweet-scent.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
-| 1 | [Gust](../pokedex/moves/gust.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Special | <input type="checkbox" disabled /> |
+| 1 | [Gust](../pokedex/moves/gust.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span> | Special | <input type="checkbox" disabled /> |
 | 1 | [Bug Bite](../pokedex/moves/bug-bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> | Physical | <input type="checkbox" disabled /> |
 | 1 | [Struggle Bug](../pokedex/moves/struggle-bug.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> | Special | <input type="checkbox" disabled /> |
 | 15 | [Bug Buzz](../pokedex/moves/bug-buzz.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> | Special | <input type="checkbox" disabled /> |
@@ -18087,7 +18087,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 | Level | Move | Type | Class | Event |
 |:------|:-----|:-----|:------|:------|
-| 1 | [Gust](../pokedex/moves/gust.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Special | <input type="checkbox" disabled /> |
+| 1 | [Gust](../pokedex/moves/gust.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span> | Special | <input type="checkbox" disabled /> |
 | 1 | [Bug Bite](../pokedex/moves/bug-bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> | Physical | <input type="checkbox" disabled /> |
 | 1 | [Pin Missile](../pokedex/moves/pin-missile.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> | Physical | <input type="checkbox" disabled /> |
 | 1 | [Toxic Spikes](../pokedex/moves/toxic-spikes.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span> | Status | <input type="checkbox" disabled /> |
@@ -18132,7 +18132,7 @@ All new type changes are omitted in the Classic version of Redux.
 | Level | Move | Type | Class | Event |
 |:------|:-----|:-----|:------|:------|
 | 1 | [Charge](../pokedex/moves/charge.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F8D030 0%, #F8D030dd 100%);">Electric</span> | Status | <input type="checkbox" disabled /> |
-| 1 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
+| 1 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 1 | [Growl](../pokedex/moves/growl.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 4 | [Tail Whip](../pokedex/moves/tail-whip.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 7 | [Spark](../pokedex/moves/spark.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F8D030 0%, #F8D030dd 100%);">Electric</span> | Physical | <input type="checkbox" disabled /> |
@@ -18363,7 +18363,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 26 | [Clear Smog](../pokedex/moves/clear-smog.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span> | Special | <input type="checkbox" disabled /> |
 | 28 | [Muddy Water](../pokedex/moves/muddy-water.md) | <span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> | Special | <input type="checkbox" disabled /> |
 | 30 | [Mud Bomb](../pokedex/moves/mud-bomb.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Special | <input type="checkbox" disabled /> |
-| 31 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #777777 0%, #777777dd 100%);">Unknown</span> | Status | <input type="checkbox" disabled /> |
+| 31 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Status | <input type="checkbox" disabled /> |
 | 34 | [Brine](../pokedex/moves/brine.md) | <span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> | Special | <input type="checkbox" disabled /> |
 | 37 | [Counter](../pokedex/moves/counter.md) | <span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span> | Physical | <input type="checkbox" disabled /> |
 | 37 | [Mirror Coat](../pokedex/moves/mirror-coat.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span> | Special | <input type="checkbox" disabled /> |
@@ -18401,7 +18401,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 26 | [Clear Smog](../pokedex/moves/clear-smog.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span> | Special | <input type="checkbox" disabled /> |
 | 28 | [Muddy Water](../pokedex/moves/muddy-water.md) | <span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> | Special | <input type="checkbox" disabled /> |
 | 30 | [Mud Bomb](../pokedex/moves/mud-bomb.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Special | <input type="checkbox" disabled /> |
-| 33 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #777777 0%, #777777dd 100%);">Unknown</span> | Status | <input type="checkbox" disabled /> |
+| 33 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Status | <input type="checkbox" disabled /> |
 | 37 | [Brine](../pokedex/moves/brine.md) | <span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> | Special | <input type="checkbox" disabled /> |
 | 41 | [Counter](../pokedex/moves/counter.md) | <span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span> | Physical | <input type="checkbox" disabled /> |
 | 41 | [Mirror Coat](../pokedex/moves/mirror-coat.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span> | Special | <input type="checkbox" disabled /> |
@@ -18439,7 +18439,7 @@ All new type changes are omitted in the Classic version of Redux.
 |:------|:-----|:-----|:------|:------|
 | 1 | [Scratch](../pokedex/moves/scratch.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 1 | [Tail Whip](../pokedex/moves/tail-whip.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
-| 1 | [Sand Attack](../pokedex/moves/sand-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
+| 1 | [Sand Attack](../pokedex/moves/sand-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Status | <input type="checkbox" disabled /> |
 | 5 | [Astonish](../pokedex/moves/astonish.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Physical | <input type="checkbox" disabled /> |
 | 8 | [Tickle](../pokedex/moves/tickle.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 11 | [Baton Pass](../pokedex/moves/baton-pass.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
@@ -18483,7 +18483,7 @@ All new type changes are omitted in the Classic version of Redux.
 |:------|:-----|:-----|:------|:------|
 | 1 | [Astonish](../pokedex/moves/astonish.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Physical | <input type="checkbox" disabled /> |
 | 4 | [Minimize](../pokedex/moves/minimize.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
-| 7 | [Gust](../pokedex/moves/gust.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Special | <input type="checkbox" disabled /> |
+| 7 | [Gust](../pokedex/moves/gust.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span> | Special | <input type="checkbox" disabled /> |
 | 10 | [Focus Energy](../pokedex/moves/focus-energy.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 13 | [Payback](../pokedex/moves/payback.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 16 | [Ominous Wind](../pokedex/moves/ominous-wind.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Special | <input type="checkbox" disabled /> |
@@ -18528,7 +18528,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 1 | [Tailwind](../pokedex/moves/tailwind.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span> | Status | <input type="checkbox" disabled /> |
 | 1 | [Astonish](../pokedex/moves/astonish.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Physical | <input type="checkbox" disabled /> |
 | 4 | [Minimize](../pokedex/moves/minimize.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
-| 7 | [Gust](../pokedex/moves/gust.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Special | <input type="checkbox" disabled /> |
+| 7 | [Gust](../pokedex/moves/gust.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span> | Special | <input type="checkbox" disabled /> |
 | 10 | [Focus Energy](../pokedex/moves/focus-energy.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 13 | [Payback](../pokedex/moves/payback.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 16 | [Ominous Wind](../pokedex/moves/ominous-wind.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Special | <input type="checkbox" disabled /> |
@@ -18734,7 +18734,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 | Level | Move | Type | Class | Event |
 |:------|:-----|:-----|:------|:------|
-| 1 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
+| 1 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 1 | [Growl](../pokedex/moves/growl.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 1 | [Scratch](../pokedex/moves/scratch.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 1 | [Quick Attack](../pokedex/moves/quick-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
@@ -18779,7 +18779,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 1 | [Fury Cutter](../pokedex/moves/fury-cutter.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> | Physical | <input type="checkbox" disabled /> |
 | 1 | [Rollout](../pokedex/moves/rollout.md) | <span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span> | Physical | <input type="checkbox" disabled /> |
 | 1 | [Assist](../pokedex/moves/assist.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
-| 1 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
+| 1 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 1 | [Growl](../pokedex/moves/growl.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 1 | [Scratch](../pokedex/moves/scratch.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 1 | [Quick Attack](../pokedex/moves/quick-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
@@ -18871,7 +18871,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 | Level | Move | Type | Class | Event |
 |:------|:-----|:-----|:------|:------|
-| 1 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
+| 1 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 1 | [Poison Gas](../pokedex/moves/poison-gas.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span> | Status | <input type="checkbox" disabled /> |
 | 1 | [Scratch](../pokedex/moves/scratch.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 1 | [Smokescreen](../pokedex/moves/smokescreen.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
@@ -18916,7 +18916,7 @@ All new type changes are omitted in the Classic version of Redux.
 | Level | Move | Type | Class | Event |
 |:------|:-----|:-----|:------|:------|
 | 1 | [Fire Spin](../pokedex/moves/fire-spin.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F08030 0%, #F08030dd 100%);">Fire</span> | Special | <input type="checkbox" disabled /> |
-| 1 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
+| 1 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 1 | [Poison Gas](../pokedex/moves/poison-gas.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span> | Status | <input type="checkbox" disabled /> |
 | 1 | [Scratch](../pokedex/moves/scratch.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 1 | [Smokescreen](../pokedex/moves/smokescreen.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
@@ -19053,7 +19053,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 42 | [Role Play](../pokedex/moves/role-play.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span> | Status | <input type="checkbox" disabled /> |
 | 46 | [Fake Tears](../pokedex/moves/fake-tears.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Status | <input type="checkbox" disabled /> |
 | 50 | [Head Smash](../pokedex/moves/head-smash.md) | <span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span> | Physical | <input type="checkbox" disabled /> |
-| 54 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #777777 0%, #777777dd 100%);">Unknown</span> | Status | <input type="checkbox" disabled /> |
+| 54 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Status | <input type="checkbox" disabled /> |
 | 58 | [Double Edge](../pokedex/moves/double-edge.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 
 ### #439 Mime Jr.
@@ -19169,7 +19169,7 @@ All new type changes are omitted in the Classic version of Redux.
 | Level | Move | Type | Class | Event |
 |:------|:-----|:-----|:------|:------|
 | 1 | [Growl](../pokedex/moves/growl.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
-| 1 | [Gust](../pokedex/moves/gust.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Special | <input type="checkbox" disabled /> |
+| 1 | [Gust](../pokedex/moves/gust.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span> | Special | <input type="checkbox" disabled /> |
 | 1 | [Peck](../pokedex/moves/peck.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span> | Physical | <input type="checkbox" disabled /> |
 | 1 | [Twister](../pokedex/moves/twister.md) | <span class="type-badge" style="background: linear-gradient(135deg, #7038F8 0%, #7038F8dd 100%);">Dragon</span> | Special | <input type="checkbox" disabled /> |
 | 4 | [Fury Attack](../pokedex/moves/fury-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
@@ -19220,7 +19220,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 16 | [Imprison](../pokedex/moves/imprison.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span> | Status | <input type="checkbox" disabled /> |
 | 19 | [Ominous Wind](../pokedex/moves/ominous-wind.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Special | <input type="checkbox" disabled /> |
 | 22 | [Disable](../pokedex/moves/disable.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
-| 25 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #777777 0%, #777777dd 100%);">Unknown</span> | Status | <input type="checkbox" disabled /> |
+| 25 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Status | <input type="checkbox" disabled /> |
 | 28 | [Hex](../pokedex/moves/hex.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Special | <input type="checkbox" disabled /> |
 | 31 | [Ally Switch](../pokedex/moves/ally-switch.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span> | Status | <input type="checkbox" disabled /> |
 | 34 | [Sucker Punch](../pokedex/moves/sucker-punch.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
@@ -19256,7 +19256,7 @@ All new type changes are omitted in the Classic version of Redux.
 | Level | Move | Type | Class | Event |
 |:------|:-----|:-----|:------|:------|
 | 1 | [Tackle](../pokedex/moves/tackle.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
-| 1 | [Sand Attack](../pokedex/moves/sand-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
+| 1 | [Sand Attack](../pokedex/moves/sand-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Status | <input type="checkbox" disabled /> |
 | 7 | [Dragon Breath](../pokedex/moves/dragon-breath.md) | <span class="type-badge" style="background: linear-gradient(135deg, #7038F8 0%, #7038F8dd 100%);">Dragon</span> | Special | <input type="checkbox" disabled /> |
 | 10 | [Mud Shot](../pokedex/moves/mud-shot.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Special | <input type="checkbox" disabled /> |
 | 13 | [Take Down](../pokedex/moves/take-down.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
@@ -19296,7 +19296,7 @@ All new type changes are omitted in the Classic version of Redux.
 | Level | Move | Type | Class | Event |
 |:------|:-----|:-----|:------|:------|
 | 1 | [Tackle](../pokedex/moves/tackle.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
-| 1 | [Sand Attack](../pokedex/moves/sand-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
+| 1 | [Sand Attack](../pokedex/moves/sand-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Status | <input type="checkbox" disabled /> |
 | 7 | [Dragon Breath](../pokedex/moves/dragon-breath.md) | <span class="type-badge" style="background: linear-gradient(135deg, #7038F8 0%, #7038F8dd 100%);">Dragon</span> | Special | <input type="checkbox" disabled /> |
 | 10 | [Mud Shot](../pokedex/moves/mud-shot.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Special | <input type="checkbox" disabled /> |
 | 13 | [Take Down](../pokedex/moves/take-down.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
@@ -19340,7 +19340,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 1 | [Whirlpool](../pokedex/moves/whirlpool.md) | <span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> | Special | <input type="checkbox" disabled /> |
 | 1 | [Fire Fang](../pokedex/moves/fire-fang.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F08030 0%, #F08030dd 100%);">Fire</span> | Physical | <input type="checkbox" disabled /> |
 | 1 | [Body Slam](../pokedex/moves/body-slam.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
-| 1 | [Sand Attack](../pokedex/moves/sand-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
+| 1 | [Sand Attack](../pokedex/moves/sand-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Status | <input type="checkbox" disabled /> |
 | 7 | [Dragon Breath](../pokedex/moves/dragon-breath.md) | <span class="type-badge" style="background: linear-gradient(135deg, #7038F8 0%, #7038F8dd 100%);">Dragon</span> | Special | <input type="checkbox" disabled /> |
 | 10 | [Mud Shot](../pokedex/moves/mud-shot.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Special | <input type="checkbox" disabled /> |
 | 13 | [Take Down](../pokedex/moves/take-down.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
@@ -19383,7 +19383,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 4 | [Metronome](../pokedex/moves/metronome.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 7 | [Pursuit](../pokedex/moves/pursuit.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 10 | [Recycle](../pokedex/moves/recycle.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
-| 14 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #777777 0%, #777777dd 100%);">Unknown</span> | Status | <input type="checkbox" disabled /> |
+| 14 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Status | <input type="checkbox" disabled /> |
 | 18 | [Chip Away](../pokedex/moves/chip-away.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 22 | [Whirlwind](../pokedex/moves/whirlwind.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 26 | [Gastro Acid](../pokedex/moves/gastro-acid.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span> | Status | <input type="checkbox" disabled /> |
@@ -19420,7 +19420,7 @@ All new type changes are omitted in the Classic version of Redux.
 |:------|:-----|:-----|:------|:------|
 | 1 | [Foresight](../pokedex/moves/foresight.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 1 | [Mind Reader](../pokedex/moves/mind-reader.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
-| 1 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
+| 1 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 1 | [Copycat](../pokedex/moves/copycat.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 4 | [Counter](../pokedex/moves/counter.md) | <span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span> | Physical | <input type="checkbox" disabled /> |
 | 7 | [Follow Me](../pokedex/moves/follow-me.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
@@ -19428,7 +19428,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 12 | [Howl](../pokedex/moves/howl.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 14 | [Metal Claw](../pokedex/moves/metal-claw.md) | <span class="type-badge" style="background: linear-gradient(135deg, #B8B8D0 0%, #B8B8D0dd 100%);">Steel</span> | Physical | <input type="checkbox" disabled /> |
 | 16 | [Force Palm](../pokedex/moves/force-palm.md) | <span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span> | Physical | <input type="checkbox" disabled /> |
-| 18 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
+| 18 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 20 | [Reversal](../pokedex/moves/reversal.md) | <span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span> | Physical | <input type="checkbox" disabled /> |
 | 22 | [Screech](../pokedex/moves/screech.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 24 | [Crunch](../pokedex/moves/crunch.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
@@ -19503,8 +19503,8 @@ All new type changes are omitted in the Classic version of Redux.
 | Level | Move | Type | Class | Event |
 |:------|:-----|:-----|:------|:------|
 | 1 | [Tackle](../pokedex/moves/tackle.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
-| 1 | [Sand Attack](../pokedex/moves/sand-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
-| 7 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
+| 1 | [Sand Attack](../pokedex/moves/sand-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Status | <input type="checkbox" disabled /> |
+| 7 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 11 | [Yawn](../pokedex/moves/yawn.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 15 | [Bulldoze](../pokedex/moves/bulldoze.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Physical | <input type="checkbox" disabled /> |
 | 19 | [Take Down](../pokedex/moves/take-down.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
@@ -19543,8 +19543,8 @@ All new type changes are omitted in the Classic version of Redux.
 | 1 | [Ice Fang](../pokedex/moves/ice-fang.md) | <span class="type-badge" style="background: linear-gradient(135deg, #98D8D8 0%, #98D8D8dd 100%);">Ice</span> | Physical | <input type="checkbox" disabled /> |
 | 1 | [Fire Fang](../pokedex/moves/fire-fang.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F08030 0%, #F08030dd 100%);">Fire</span> | Physical | <input type="checkbox" disabled /> |
 | 1 | [Thunder Fang](../pokedex/moves/thunder-fang.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F8D030 0%, #F8D030dd 100%);">Electric</span> | Physical | <input type="checkbox" disabled /> |
-| 1 | [Sand Attack](../pokedex/moves/sand-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
-| 7 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
+| 1 | [Sand Attack](../pokedex/moves/sand-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Status | <input type="checkbox" disabled /> |
+| 7 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 11 | [Yawn](../pokedex/moves/yawn.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 15 | [Bulldoze](../pokedex/moves/bulldoze.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Physical | <input type="checkbox" disabled /> |
 | 19 | [Take Down](../pokedex/moves/take-down.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
@@ -19552,7 +19552,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 27 | [Crunch](../pokedex/moves/crunch.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 31 | [Body Slam](../pokedex/moves/body-slam.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 34 | [Scorching Sands](../pokedex/moves/scorching-sands.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Special | <input type="checkbox" disabled /> |
-| 34 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #777777 0%, #777777dd 100%);">Unknown</span> | Status | <input type="checkbox" disabled /> |
+| 34 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Status | <input type="checkbox" disabled /> |
 | 38 | [Stockpile](../pokedex/moves/stockpile.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 38 | [Swallow](../pokedex/moves/swallow.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 38 | [Spit Up](../pokedex/moves/spit-up.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Special | <input type="checkbox" disabled /> |
@@ -19581,7 +19581,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 | Level | Move | Type | Class | Event |
 |:------|:-----|:-----|:------|:------|
-| 1 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
+| 1 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 1 | [Poison Sting](../pokedex/moves/poison-sting.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span> | Physical | <input type="checkbox" disabled /> |
 | 1 | [Leer](../pokedex/moves/leer.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 6 | [Knock Off](../pokedex/moves/knock-off.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
@@ -19744,7 +19744,7 @@ All new type changes are omitted in the Classic version of Redux.
 |:------|:-----|:-----|:------|:------|
 | 1 | [Bind](../pokedex/moves/bind.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 1 | [Growth](../pokedex/moves/growth.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
-| 1 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
+| 1 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 6 | [Vine Whip](../pokedex/moves/vine-whip.md) | <span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span> | Physical | <input type="checkbox" disabled /> |
 | 9 | [Bug Bite](../pokedex/moves/bug-bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> | Physical | <input type="checkbox" disabled /> |
 | 14 | [Razor Leaf](../pokedex/moves/razor-leaf.md) | <span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span> | Physical | <input type="checkbox" disabled /> |
@@ -19790,7 +19790,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 1 | [Charm](../pokedex/moves/charm.md) | <span class="type-badge" style="background: linear-gradient(135deg, #EE99AC 0%, #EE99ACdd 100%);">Fairy</span> | Status | <input type="checkbox" disabled /> |
 | 6 | [Water Gun](../pokedex/moves/water-gun.md) | <span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> | Special | <input type="checkbox" disabled /> |
 | 8 | [Attract](../pokedex/moves/attract.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
-| 10 | [Gust](../pokedex/moves/gust.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Special | <input type="checkbox" disabled /> |
+| 10 | [Gust](../pokedex/moves/gust.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span> | Special | <input type="checkbox" disabled /> |
 | 12 | [Water Pulse](../pokedex/moves/water-pulse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> | Special | <input type="checkbox" disabled /> |
 | 14 | [Psybeam](../pokedex/moves/psybeam.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span> | Special | <input type="checkbox" disabled /> |
 | 16 | [Whirlpool](../pokedex/moves/whirlpool.md) | <span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> | Special | <input type="checkbox" disabled /> |
@@ -19834,7 +19834,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 1 | [Charm](../pokedex/moves/charm.md) | <span class="type-badge" style="background: linear-gradient(135deg, #EE99AC 0%, #EE99ACdd 100%);">Fairy</span> | Status | <input type="checkbox" disabled /> |
 | 6 | [Water Gun](../pokedex/moves/water-gun.md) | <span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> | Special | <input type="checkbox" disabled /> |
 | 8 | [Attract](../pokedex/moves/attract.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
-| 10 | [Gust](../pokedex/moves/gust.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Special | <input type="checkbox" disabled /> |
+| 10 | [Gust](../pokedex/moves/gust.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span> | Special | <input type="checkbox" disabled /> |
 | 12 | [Water Pulse](../pokedex/moves/water-pulse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> | Special | <input type="checkbox" disabled /> |
 | 14 | [Psybeam](../pokedex/moves/psybeam.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span> | Special | <input type="checkbox" disabled /> |
 | 16 | [Whirlpool](../pokedex/moves/whirlpool.md) | <span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> | Special | <input type="checkbox" disabled /> |
@@ -20108,7 +20108,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 7 | [Refresh](../pokedex/moves/refresh.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 10 | [Screech](../pokedex/moves/screech.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 13 | [Me First](../pokedex/moves/me-first.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
-| 16 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #777777 0%, #777777dd 100%);">Unknown</span> | Status | <input type="checkbox" disabled /> |
+| 16 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Status | <input type="checkbox" disabled /> |
 | 19 | [Stomp](../pokedex/moves/stomp.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 22 | [Helping Hand](../pokedex/moves/helping-hand.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 25 | [Disable](../pokedex/moves/disable.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
@@ -20147,7 +20147,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 7 | [Stomp](../pokedex/moves/stomp.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 10 | [Horn Attack](../pokedex/moves/horn-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 13 | [Bulldoze](../pokedex/moves/bulldoze.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Physical | <input type="checkbox" disabled /> |
-| 16 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #777777 0%, #777777dd 100%);">Unknown</span> | Status | <input type="checkbox" disabled /> |
+| 16 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Status | <input type="checkbox" disabled /> |
 | 19 | [Rock Blast](../pokedex/moves/rock-blast.md) | <span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span> | Physical | <input type="checkbox" disabled /> |
 | 22 | [Chip Away](../pokedex/moves/chip-away.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 25 | [Reversal](../pokedex/moves/reversal.md) | <span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span> | Physical | <input type="checkbox" disabled /> |
@@ -20364,7 +20364,7 @@ All new type changes are omitted in the Classic version of Redux.
 |:------|:-----|:-----|:------|:------|
 | 1 | [Night Slash](../pokedex/moves/night-slash.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 1 | [Foresight](../pokedex/moves/foresight.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
-| 1 | [Gust](../pokedex/moves/gust.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Special | <input type="checkbox" disabled /> |
+| 1 | [Gust](../pokedex/moves/gust.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span> | Special | <input type="checkbox" disabled /> |
 | 1 | [Tackle](../pokedex/moves/tackle.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 4 | [Quick Attack](../pokedex/moves/quick-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 7 | [Screech](../pokedex/moves/screech.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
@@ -20419,7 +20419,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 5 | [Captivate](../pokedex/moves/captivate.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 7 | [Helping Hand](../pokedex/moves/helping-hand.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 10 | [Quick Attack](../pokedex/moves/quick-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
-| 13 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
+| 13 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 16 | [Swift](../pokedex/moves/swift.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Special | <input type="checkbox" disabled /> |
 | 19 | [Double Kick](../pokedex/moves/double-kick.md) | <span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span> | Physical | <input type="checkbox" disabled /> |
 | 22 | [Covet](../pokedex/moves/covet.md) | <span class="type-badge" style="background: linear-gradient(135deg, #EE99AC 0%, #EE99ACdd 100%);">Fairy</span> | Physical | <input type="checkbox" disabled /> |
@@ -20473,7 +20473,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 5 | [Captivate](../pokedex/moves/captivate.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 7 | [Helping Hand](../pokedex/moves/helping-hand.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 10 | [Quick Attack](../pokedex/moves/quick-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
-| 13 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
+| 13 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 16 | [Swift](../pokedex/moves/swift.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Special | <input type="checkbox" disabled /> |
 | 19 | [Double Kick](../pokedex/moves/double-kick.md) | <span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span> | Physical | <input type="checkbox" disabled /> |
 | 22 | [Covet](../pokedex/moves/covet.md) | <span class="type-badge" style="background: linear-gradient(135deg, #EE99AC 0%, #EE99ACdd 100%);">Fairy</span> | Physical | <input type="checkbox" disabled /> |
@@ -20516,7 +20516,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 1 | [Ice Fang](../pokedex/moves/ice-fang.md) | <span class="type-badge" style="background: linear-gradient(135deg, #98D8D8 0%, #98D8D8dd 100%);">Ice</span> | Physical | <input type="checkbox" disabled /> |
 | 1 | [Thunder Fang](../pokedex/moves/thunder-fang.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F8D030 0%, #F8D030dd 100%);">Electric</span> | Physical | <input type="checkbox" disabled /> |
 | 1 | [Poison Sting](../pokedex/moves/poison-sting.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span> | Physical | <input type="checkbox" disabled /> |
-| 1 | [Sand Attack](../pokedex/moves/sand-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
+| 1 | [Sand Attack](../pokedex/moves/sand-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Status | <input type="checkbox" disabled /> |
 | 4 | [Feint](../pokedex/moves/feint.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 7 | [Quick Attack](../pokedex/moves/quick-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 10 | [Fury Cutter](../pokedex/moves/fury-cutter.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> | Physical | <input type="checkbox" disabled /> |
@@ -20560,12 +20560,12 @@ All new type changes are omitted in the Classic version of Redux.
 | 1 | [Tackle](../pokedex/moves/tackle.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 1 | [Thunder Fang](../pokedex/moves/thunder-fang.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F8D030 0%, #F8D030dd 100%);">Electric</span> | Physical | <input type="checkbox" disabled /> |
 | 4 | [Peck](../pokedex/moves/peck.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span> | Physical | <input type="checkbox" disabled /> |
-| 6 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
+| 6 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 8 | [Powder Snow](../pokedex/moves/powder-snow.md) | <span class="type-badge" style="background: linear-gradient(135deg, #98D8D8 0%, #98D8D8dd 100%);">Ice</span> | Special | <input type="checkbox" disabled /> |
 | 10 | [Flail](../pokedex/moves/flail.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 12 | [Mud Bomb](../pokedex/moves/mud-bomb.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Special | <input type="checkbox" disabled /> |
 | 14 | [Ice Shard](../pokedex/moves/ice-shard.md) | <span class="type-badge" style="background: linear-gradient(135deg, #98D8D8 0%, #98D8D8dd 100%);">Ice</span> | Physical | <input type="checkbox" disabled /> |
-| 16 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #777777 0%, #777777dd 100%);">Unknown</span> | Status | <input type="checkbox" disabled /> |
+| 16 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Status | <input type="checkbox" disabled /> |
 | 18 | [Bulldoze](../pokedex/moves/bulldoze.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Physical | <input type="checkbox" disabled /> |
 | 21 | [Knock Off](../pokedex/moves/knock-off.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 24 | [Icicle Spear](../pokedex/moves/icicle-spear.md) | <span class="type-badge" style="background: linear-gradient(135deg, #98D8D8 0%, #98D8D8dd 100%);">Ice</span> | Physical | <input type="checkbox" disabled /> |
@@ -20753,7 +20753,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 1 | [Absorb](../pokedex/moves/absorb.md) | <span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span> | Special | <input type="checkbox" disabled /> |
 | 4 | [Disable](../pokedex/moves/disable.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 7 | [Foresight](../pokedex/moves/foresight.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
-| 10 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #777777 0%, #777777dd 100%);">Unknown</span> | Status | <input type="checkbox" disabled /> |
+| 10 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Status | <input type="checkbox" disabled /> |
 | 13 | [Night Shade](../pokedex/moves/night-shade.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Special | <input type="checkbox" disabled /> |
 | 16 | [Haze](../pokedex/moves/haze.md) | <span class="type-badge" style="background: linear-gradient(135deg, #98D8D8 0%, #98D8D8dd 100%);">Ice</span> | Status | <input type="checkbox" disabled /> |
 | 19 | [Mean Look](../pokedex/moves/mean-look.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
@@ -20802,7 +20802,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 6 | [Spite](../pokedex/moves/spite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Status | <input type="checkbox" disabled /> |
 | 9 | [Ice Shard](../pokedex/moves/ice-shard.md) | <span class="type-badge" style="background: linear-gradient(135deg, #98D8D8 0%, #98D8D8dd 100%);">Ice</span> | Physical | <input type="checkbox" disabled /> |
 | 12 | [Spikes](../pokedex/moves/spikes.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Status | <input type="checkbox" disabled /> |
-| 15 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
+| 15 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 18 | [Disable](../pokedex/moves/disable.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 21 | [Draining Kiss](../pokedex/moves/draining-kiss.md) | <span class="type-badge" style="background: linear-gradient(135deg, #EE99AC 0%, #EE99ACdd 100%);">Fairy</span> | Special | <input type="checkbox" disabled /> |
 | 24 | [Will O Wisp](../pokedex/moves/will-o-wisp.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F08030 0%, #F08030dd 100%);">Fire</span> | Status | <input type="checkbox" disabled /> |
@@ -21558,7 +21558,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 7 | [Smog](../pokedex/moves/smog.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span> | Special | <input type="checkbox" disabled /> |
 | 10 | [Defense Curl](../pokedex/moves/defense-curl.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 13 | [Flame Charge](../pokedex/moves/flame-charge.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F08030 0%, #F08030dd 100%);">Fire</span> | Physical | <input type="checkbox" disabled /> |
-| 16 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #777777 0%, #777777dd 100%);">Unknown</span> | Status | <input type="checkbox" disabled /> |
+| 16 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Status | <input type="checkbox" disabled /> |
 | 19 | [Assurance](../pokedex/moves/assurance.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 22 | [Rollout](../pokedex/moves/rollout.md) | <span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span> | Physical | <input type="checkbox" disabled /> |
 | 25 | [Assurance](../pokedex/moves/assurance.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
@@ -21603,7 +21603,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 7 | [Smog](../pokedex/moves/smog.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span> | Special | <input type="checkbox" disabled /> |
 | 10 | [Defense Curl](../pokedex/moves/defense-curl.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 13 | [Flame Charge](../pokedex/moves/flame-charge.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F08030 0%, #F08030dd 100%);">Fire</span> | Physical | <input type="checkbox" disabled /> |
-| 16 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #777777 0%, #777777dd 100%);">Unknown</span> | Status | <input type="checkbox" disabled /> |
+| 16 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Status | <input type="checkbox" disabled /> |
 | 17 | [Mud Shot](../pokedex/moves/mud-shot.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Special | <input type="checkbox" disabled /> |
 | 20 | [Assurance](../pokedex/moves/assurance.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 22 | [Rollout](../pokedex/moves/rollout.md) | <span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span> | Physical | <input type="checkbox" disabled /> |
@@ -21654,7 +21654,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 7 | [Smog](../pokedex/moves/smog.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span> | Special | <input type="checkbox" disabled /> |
 | 10 | [Defense Curl](../pokedex/moves/defense-curl.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 13 | [Flame Charge](../pokedex/moves/flame-charge.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F08030 0%, #F08030dd 100%);">Fire</span> | Physical | <input type="checkbox" disabled /> |
-| 16 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #777777 0%, #777777dd 100%);">Unknown</span> | Status | <input type="checkbox" disabled /> |
+| 16 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Status | <input type="checkbox" disabled /> |
 | 17 | [Mud Shot](../pokedex/moves/mud-shot.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Special | <input type="checkbox" disabled /> |
 | 20 | [Assurance](../pokedex/moves/assurance.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 22 | [Rollout](../pokedex/moves/rollout.md) | <span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span> | Physical | <input type="checkbox" disabled /> |
@@ -21846,7 +21846,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 1 | [Leer](../pokedex/moves/leer.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 1 | [Tackle](../pokedex/moves/tackle.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 4 | [Bide](../pokedex/moves/bide.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
-| 7 | [Sand Attack](../pokedex/moves/sand-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
+| 7 | [Sand Attack](../pokedex/moves/sand-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Status | <input type="checkbox" disabled /> |
 | 9 | [Pursuit](../pokedex/moves/pursuit.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 11 | [Headbutt](../pokedex/moves/headbutt.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 13 | [Low Kick](../pokedex/moves/low-kick.md) | <span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span> | Physical | <input type="checkbox" disabled /> |
@@ -21895,7 +21895,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 1 | [Mean Look](../pokedex/moves/mean-look.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 1 | [Tackle](../pokedex/moves/tackle.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 4 | [Bide](../pokedex/moves/bide.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
-| 7 | [Sand Attack](../pokedex/moves/sand-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
+| 7 | [Sand Attack](../pokedex/moves/sand-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Status | <input type="checkbox" disabled /> |
 | 9 | [Pursuit](../pokedex/moves/pursuit.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 11 | [Headbutt](../pokedex/moves/headbutt.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 13 | [Low Kick](../pokedex/moves/low-kick.md) | <span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span> | Physical | <input type="checkbox" disabled /> |
@@ -21934,7 +21934,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 1 | [Mud Slap](../pokedex/moves/mud-slap.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Special | <input type="checkbox" disabled /> |
 | 1 | [Tackle](../pokedex/moves/tackle.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 4 | [Lick](../pokedex/moves/lick.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Physical | <input type="checkbox" disabled /> |
-| 6 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
+| 6 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 8 | [Odor Sleuth](../pokedex/moves/odor-sleuth.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 10 | [Howl](../pokedex/moves/howl.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 12 | [Retaliate](../pokedex/moves/retaliate.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
@@ -21970,7 +21970,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 1 | [Mud Slap](../pokedex/moves/mud-slap.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Special | <input type="checkbox" disabled /> |
 | 1 | [Tackle](../pokedex/moves/tackle.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 4 | [Lick](../pokedex/moves/lick.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Physical | <input type="checkbox" disabled /> |
-| 6 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
+| 6 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 8 | [Odor Sleuth](../pokedex/moves/odor-sleuth.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 10 | [Howl](../pokedex/moves/howl.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 12 | [Retaliate](../pokedex/moves/retaliate.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
@@ -22010,7 +22010,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 1 | [Mud Slap](../pokedex/moves/mud-slap.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Special | <input type="checkbox" disabled /> |
 | 1 | [Tackle](../pokedex/moves/tackle.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 4 | [Lick](../pokedex/moves/lick.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Physical | <input type="checkbox" disabled /> |
-| 6 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
+| 6 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 8 | [Odor Sleuth](../pokedex/moves/odor-sleuth.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 10 | [Howl](../pokedex/moves/howl.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 12 | [Retaliate](../pokedex/moves/retaliate.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
@@ -22056,7 +22056,7 @@ All new type changes are omitted in the Classic version of Redux.
 |:------|:-----|:-----|:------|:------|
 | 1 | [Growl](../pokedex/moves/growl.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 1 | [Scratch](../pokedex/moves/scratch.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
-| 1 | [Sand Attack](../pokedex/moves/sand-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
+| 1 | [Sand Attack](../pokedex/moves/sand-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Status | <input type="checkbox" disabled /> |
 | 4 | [Pursuit](../pokedex/moves/pursuit.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 6 | [Pay Day](../pokedex/moves/pay-day.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 8 | [Assist](../pokedex/moves/assist.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
@@ -22168,7 +22168,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 12 | [Disarming Voice](../pokedex/moves/disarming-voice.md) | <span class="type-badge" style="background: linear-gradient(135deg, #EE99AC 0%, #EE99ACdd 100%);">Fairy</span> | Special | <input type="checkbox" disabled /> |
 | 14 | [Leech Seed](../pokedex/moves/leech-seed.md) | <span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span> | Status | <input type="checkbox" disabled /> |
 | 16 | [Bullet Seed](../pokedex/moves/bullet-seed.md) | <span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span> | Physical | <input type="checkbox" disabled /> |
-| 18 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
+| 18 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 20 | [Seed Bomb](../pokedex/moves/seed-bomb.md) | <span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span> | Physical | <input type="checkbox" disabled /> |
 | 22 | [Torment](../pokedex/moves/torment.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Status | <input type="checkbox" disabled /> |
 | 24 | [Endeavor](../pokedex/moves/endeavor.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
@@ -22268,7 +22268,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 12 | [Disarming Voice](../pokedex/moves/disarming-voice.md) | <span class="type-badge" style="background: linear-gradient(135deg, #EE99AC 0%, #EE99ACdd 100%);">Fairy</span> | Special | <input type="checkbox" disabled /> |
 | 14 | [Flame Charge](../pokedex/moves/flame-charge.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F08030 0%, #F08030dd 100%);">Fire</span> | Physical | <input type="checkbox" disabled /> |
 | 16 | [Low Kick](../pokedex/moves/low-kick.md) | <span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span> | Physical | <input type="checkbox" disabled /> |
-| 18 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
+| 18 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 20 | [Fire Punch](../pokedex/moves/fire-punch.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F08030 0%, #F08030dd 100%);">Fire</span> | Physical | <input type="checkbox" disabled /> |
 | 22 | [Amnesia](../pokedex/moves/amnesia.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span> | Status | <input type="checkbox" disabled /> |
 | 24 | [Endeavor](../pokedex/moves/endeavor.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
@@ -22367,7 +22367,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 12 | [Disarming Voice](../pokedex/moves/disarming-voice.md) | <span class="type-badge" style="background: linear-gradient(135deg, #EE99AC 0%, #EE99ACdd 100%);">Fairy</span> | Special | <input type="checkbox" disabled /> |
 | 14 | [Brine](../pokedex/moves/brine.md) | <span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> | Special | <input type="checkbox" disabled /> |
 | 16 | [Aqua Ring](../pokedex/moves/aqua-ring.md) | <span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> | Status | <input type="checkbox" disabled /> |
-| 18 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
+| 18 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 20 | [Scald](../pokedex/moves/scald.md) | <span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> | Special | <input type="checkbox" disabled /> |
 | 22 | [Taunt](../pokedex/moves/taunt.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Status | <input type="checkbox" disabled /> |
 | 24 | [Endeavor](../pokedex/moves/endeavor.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
@@ -22531,7 +22531,7 @@ All new type changes are omitted in the Classic version of Redux.
 | Level | Move | Type | Class | Event |
 |:------|:-----|:-----|:------|:------|
 | 1 | [Growl](../pokedex/moves/growl.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
-| 1 | [Gust](../pokedex/moves/gust.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Special | <input type="checkbox" disabled /> |
+| 1 | [Gust](../pokedex/moves/gust.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span> | Special | <input type="checkbox" disabled /> |
 | 1 | [Mud Slap](../pokedex/moves/mud-slap.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Special | <input type="checkbox" disabled /> |
 | 4 | [Leer](../pokedex/moves/leer.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 6 | [Quick Attack](../pokedex/moves/quick-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
@@ -22577,7 +22577,7 @@ All new type changes are omitted in the Classic version of Redux.
 | Level | Move | Type | Class | Event |
 |:------|:-----|:-----|:------|:------|
 | 1 | [Growl](../pokedex/moves/growl.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
-| 1 | [Gust](../pokedex/moves/gust.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Special | <input type="checkbox" disabled /> |
+| 1 | [Gust](../pokedex/moves/gust.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span> | Special | <input type="checkbox" disabled /> |
 | 1 | [Mud Slap](../pokedex/moves/mud-slap.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Special | <input type="checkbox" disabled /> |
 | 4 | [Leer](../pokedex/moves/leer.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 6 | [Quick Attack](../pokedex/moves/quick-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
@@ -22620,7 +22620,7 @@ All new type changes are omitted in the Classic version of Redux.
 | Level | Move | Type | Class | Event |
 |:------|:-----|:-----|:------|:------|
 | 1 | [Growl](../pokedex/moves/growl.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
-| 1 | [Gust](../pokedex/moves/gust.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Special | <input type="checkbox" disabled /> |
+| 1 | [Gust](../pokedex/moves/gust.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span> | Special | <input type="checkbox" disabled /> |
 | 1 | [Mud Slap](../pokedex/moves/mud-slap.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Special | <input type="checkbox" disabled /> |
 | 4 | [Leer](../pokedex/moves/leer.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 6 | [Quick Attack](../pokedex/moves/quick-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
@@ -22670,7 +22670,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 1 | [Tail Whip](../pokedex/moves/tail-whip.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 4 | [Charge](../pokedex/moves/charge.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F8D030 0%, #F8D030dd 100%);">Electric</span> | Status | <input type="checkbox" disabled /> |
 | 6 | [Shock Wave](../pokedex/moves/shock-wave.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F8D030 0%, #F8D030dd 100%);">Electric</span> | Special | <input type="checkbox" disabled /> |
-| 8 | [Sand Attack](../pokedex/moves/sand-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
+| 8 | [Sand Attack](../pokedex/moves/sand-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Status | <input type="checkbox" disabled /> |
 | 10 | [Me First](../pokedex/moves/me-first.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 13 | [Spark](../pokedex/moves/spark.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F8D030 0%, #F8D030dd 100%);">Electric</span> | Physical | <input type="checkbox" disabled /> |
 | 16 | [Screech](../pokedex/moves/screech.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
@@ -22715,7 +22715,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 1 | [Tail Whip](../pokedex/moves/tail-whip.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 4 | [Charge](../pokedex/moves/charge.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F8D030 0%, #F8D030dd 100%);">Electric</span> | Status | <input type="checkbox" disabled /> |
 | 6 | [Shock Wave](../pokedex/moves/shock-wave.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F8D030 0%, #F8D030dd 100%);">Electric</span> | Special | <input type="checkbox" disabled /> |
-| 8 | [Sand Attack](../pokedex/moves/sand-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
+| 8 | [Sand Attack](../pokedex/moves/sand-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Status | <input type="checkbox" disabled /> |
 | 10 | [Me First](../pokedex/moves/me-first.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 13 | [Spark](../pokedex/moves/spark.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F8D030 0%, #F8D030dd 100%);">Electric</span> | Physical | <input type="checkbox" disabled /> |
 | 16 | [Screech](../pokedex/moves/screech.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
@@ -22754,11 +22754,11 @@ All new type changes are omitted in the Classic version of Redux.
 | Level | Move | Type | Class | Event |
 |:------|:-----|:-----|:------|:------|
 | 1 | [Harden](../pokedex/moves/harden.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
-| 1 | [Sand Attack](../pokedex/moves/sand-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
+| 1 | [Sand Attack](../pokedex/moves/sand-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Status | <input type="checkbox" disabled /> |
 | 1 | [Tackle](../pokedex/moves/tackle.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 7 | [Mud Slap](../pokedex/moves/mud-slap.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Special | <input type="checkbox" disabled /> |
 | 10 | [Headbutt](../pokedex/moves/headbutt.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
-| 13 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #777777 0%, #777777dd 100%);">Unknown</span> | Status | <input type="checkbox" disabled /> |
+| 13 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Status | <input type="checkbox" disabled /> |
 | 16 | [Magnitude](../pokedex/moves/magnitude.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Physical | <input type="checkbox" disabled /> |
 | 19 | [Rock Tomb](../pokedex/moves/rock-tomb.md) | <span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span> | Physical | <input type="checkbox" disabled /> |
 | 22 | [Gravity](../pokedex/moves/gravity.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span> | Status | <input type="checkbox" disabled /> |
@@ -22796,11 +22796,11 @@ All new type changes are omitted in the Classic version of Redux.
 | Level | Move | Type | Class | Event |
 |:------|:-----|:-----|:------|:------|
 | 1 | [Harden](../pokedex/moves/harden.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
-| 1 | [Sand Attack](../pokedex/moves/sand-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
+| 1 | [Sand Attack](../pokedex/moves/sand-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Status | <input type="checkbox" disabled /> |
 | 1 | [Tackle](../pokedex/moves/tackle.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 7 | [Mud Slap](../pokedex/moves/mud-slap.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Special | <input type="checkbox" disabled /> |
 | 10 | [Headbutt](../pokedex/moves/headbutt.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
-| 13 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #777777 0%, #777777dd 100%);">Unknown</span> | Status | <input type="checkbox" disabled /> |
+| 13 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Status | <input type="checkbox" disabled /> |
 | 16 | [Magnitude](../pokedex/moves/magnitude.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Physical | <input type="checkbox" disabled /> |
 | 19 | [Rock Tomb](../pokedex/moves/rock-tomb.md) | <span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span> | Physical | <input type="checkbox" disabled /> |
 | 22 | [Gravity](../pokedex/moves/gravity.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span> | Status | <input type="checkbox" disabled /> |
@@ -22838,11 +22838,11 @@ All new type changes are omitted in the Classic version of Redux.
 | Level | Move | Type | Class | Event |
 |:------|:-----|:-----|:------|:------|
 | 1 | [Harden](../pokedex/moves/harden.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
-| 1 | [Sand Attack](../pokedex/moves/sand-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
+| 1 | [Sand Attack](../pokedex/moves/sand-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Status | <input type="checkbox" disabled /> |
 | 1 | [Tackle](../pokedex/moves/tackle.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 7 | [Mud Slap](../pokedex/moves/mud-slap.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Special | <input type="checkbox" disabled /> |
 | 10 | [Headbutt](../pokedex/moves/headbutt.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
-| 13 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #777777 0%, #777777dd 100%);">Unknown</span> | Status | <input type="checkbox" disabled /> |
+| 13 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Status | <input type="checkbox" disabled /> |
 | 16 | [Magnitude](../pokedex/moves/magnitude.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Physical | <input type="checkbox" disabled /> |
 | 19 | [Rock Tomb](../pokedex/moves/rock-tomb.md) | <span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span> | Physical | <input type="checkbox" disabled /> |
 | 22 | [Gravity](../pokedex/moves/gravity.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span> | Status | <input type="checkbox" disabled /> |
@@ -22887,7 +22887,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 1 | [Odor Sleuth](../pokedex/moves/odor-sleuth.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 4 | [Supersonic](../pokedex/moves/supersonic.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 7 | [Swift](../pokedex/moves/swift.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Special | <input type="checkbox" disabled /> |
-| 10 | [Gust](../pokedex/moves/gust.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Special | <input type="checkbox" disabled /> |
+| 10 | [Gust](../pokedex/moves/gust.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span> | Special | <input type="checkbox" disabled /> |
 | 13 | [Confusion](../pokedex/moves/confusion.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span> | Special | <input type="checkbox" disabled /> |
 | 16 | [After You](../pokedex/moves/after-you.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 19 | [Helping Hand](../pokedex/moves/helping-hand.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
@@ -22935,7 +22935,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 1 | [Odor Sleuth](../pokedex/moves/odor-sleuth.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 4 | [Supersonic](../pokedex/moves/supersonic.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 7 | [Swift](../pokedex/moves/swift.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Special | <input type="checkbox" disabled /> |
-| 10 | [Gust](../pokedex/moves/gust.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Special | <input type="checkbox" disabled /> |
+| 10 | [Gust](../pokedex/moves/gust.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span> | Special | <input type="checkbox" disabled /> |
 | 13 | [Confusion](../pokedex/moves/confusion.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span> | Special | <input type="checkbox" disabled /> |
 | 16 | [After You](../pokedex/moves/after-you.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 19 | [Helping Hand](../pokedex/moves/helping-hand.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
@@ -23382,7 +23382,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 7 | [Scary Face](../pokedex/moves/scary-face.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 11 | [Seismic Toss](../pokedex/moves/seismic-toss.md) | <span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span> | Physical | <input type="checkbox" disabled /> |
 | 15 | [Endure](../pokedex/moves/endure.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
-| 19 | [Karate Chop](../pokedex/moves/karate-chop.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
+| 19 | [Karate Chop](../pokedex/moves/karate-chop.md) | <span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span> | Physical | <input type="checkbox" disabled /> |
 | 22 | [Body Slam](../pokedex/moves/body-slam.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 25 | [Brick Break](../pokedex/moves/brick-break.md) | <span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span> | Physical | <input type="checkbox" disabled /> |
 | 28 | [Knock Off](../pokedex/moves/knock-off.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
@@ -23532,7 +23532,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 8 | [Protect](../pokedex/moves/protect.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 11 | [Poison Fang](../pokedex/moves/poison-fang.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span> | Physical | <input type="checkbox" disabled /> |
 | 14 | [Screech](../pokedex/moves/screech.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
-| 16 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
+| 16 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 18 | [Bug Bite](../pokedex/moves/bug-bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> | Physical | <input type="checkbox" disabled /> |
 | 20 | [Coil](../pokedex/moves/coil.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span> | Status | <input type="checkbox" disabled /> |
 | 23 | [Fury Cutter](../pokedex/moves/fury-cutter.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> | Physical | <input type="checkbox" disabled /> |
@@ -23576,7 +23576,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 8 | [Protect](../pokedex/moves/protect.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 12 | [Poison Fang](../pokedex/moves/poison-fang.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span> | Physical | <input type="checkbox" disabled /> |
 | 14 | [Screech](../pokedex/moves/screech.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
-| 16 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
+| 16 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 18 | [Bug Bite](../pokedex/moves/bug-bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> | Physical | <input type="checkbox" disabled /> |
 | 20 | [Coil](../pokedex/moves/coil.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span> | Status | <input type="checkbox" disabled /> |
 | 20 | [Iron Defense](../pokedex/moves/iron-defense.md) | <span class="type-badge" style="background: linear-gradient(135deg, #B8B8D0 0%, #B8B8D0dd 100%);">Steel</span> | Status | <input type="checkbox" disabled /> |
@@ -23621,7 +23621,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 8 | [Protect](../pokedex/moves/protect.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 12 | [Poison Fang](../pokedex/moves/poison-fang.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span> | Physical | <input type="checkbox" disabled /> |
 | 14 | [Screech](../pokedex/moves/screech.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
-| 16 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
+| 16 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 18 | [Bug Bite](../pokedex/moves/bug-bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> | Physical | <input type="checkbox" disabled /> |
 | 20 | [Coil](../pokedex/moves/coil.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span> | Status | <input type="checkbox" disabled /> |
 | 20 | [Iron Defense](../pokedex/moves/iron-defense.md) | <span class="type-badge" style="background: linear-gradient(135deg, #B8B8D0 0%, #B8B8D0dd 100%);">Steel</span> | Status | <input type="checkbox" disabled /> |
@@ -23697,7 +23697,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 1 | [Stun Spore](../pokedex/moves/stun-spore.md) | <span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span> | Status | <input type="checkbox" disabled /> |
 | 1 | [Growth](../pokedex/moves/growth.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 1 | [Switcheroo](../pokedex/moves/switcheroo.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Status | <input type="checkbox" disabled /> |
-| 25 | [Gust](../pokedex/moves/gust.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Special | <input type="checkbox" disabled /> |
+| 25 | [Gust](../pokedex/moves/gust.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span> | Special | <input type="checkbox" disabled /> |
 | 35 | [Leech Seed](../pokedex/moves/leech-seed.md) | <span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span> | Status | <input type="checkbox" disabled /> |
 | 40 | [Helping Hand](../pokedex/moves/helping-hand.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 50 | [Moonblast](../pokedex/moves/moonblast.md) | <span class="type-badge" style="background: linear-gradient(135deg, #EE99AC 0%, #EE99ACdd 100%);">Fairy</span> | Special | <input type="checkbox" disabled /> |
@@ -23797,7 +23797,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 4 | [Tackle](../pokedex/moves/tackle.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 8 | [Flail](../pokedex/moves/flail.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 12 | [Aqua Jet](../pokedex/moves/aqua-jet.md) | <span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> | Physical | <input type="checkbox" disabled /> |
-| 16 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
+| 16 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 20 | [Scary Face](../pokedex/moves/scary-face.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 24 | [Headbutt](../pokedex/moves/headbutt.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 28 | [Soak](../pokedex/moves/soak.md) | <span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> | Status | <input type="checkbox" disabled /> |
@@ -23832,10 +23832,10 @@ All new type changes are omitted in the Classic version of Redux.
 |:------|:-----|:-----|:------|:------|
 | 1 | [Leer](../pokedex/moves/leer.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 1 | [Rage](../pokedex/moves/rage.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
-| 1 | [Sand Attack](../pokedex/moves/sand-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
+| 1 | [Sand Attack](../pokedex/moves/sand-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Status | <input type="checkbox" disabled /> |
 | 4 | [Mud Slap](../pokedex/moves/mud-slap.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Special | <input type="checkbox" disabled /> |
 | 7 | [Scary Face](../pokedex/moves/scary-face.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
-| 10 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
+| 10 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 13 | [Torment](../pokedex/moves/torment.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Status | <input type="checkbox" disabled /> |
 | 16 | [Hone Claws](../pokedex/moves/hone-claws.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Status | <input type="checkbox" disabled /> |
 | 19 | [Mud Shot](../pokedex/moves/mud-shot.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Special | <input type="checkbox" disabled /> |
@@ -23868,10 +23868,10 @@ All new type changes are omitted in the Classic version of Redux.
 |:------|:-----|:-----|:------|:------|
 | 1 | [Leer](../pokedex/moves/leer.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 1 | [Rage](../pokedex/moves/rage.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
-| 1 | [Sand Attack](../pokedex/moves/sand-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
+| 1 | [Sand Attack](../pokedex/moves/sand-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Status | <input type="checkbox" disabled /> |
 | 4 | [Mud Slap](../pokedex/moves/mud-slap.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Special | <input type="checkbox" disabled /> |
 | 7 | [Scary Face](../pokedex/moves/scary-face.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
-| 10 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
+| 10 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 13 | [Torment](../pokedex/moves/torment.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Status | <input type="checkbox" disabled /> |
 | 16 | [Hone Claws](../pokedex/moves/hone-claws.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Status | <input type="checkbox" disabled /> |
 | 19 | [Mud Shot](../pokedex/moves/mud-shot.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Special | <input type="checkbox" disabled /> |
@@ -23907,10 +23907,10 @@ All new type changes are omitted in the Classic version of Redux.
 |:------|:-----|:-----|:------|:------|
 | 1 | [Counter](../pokedex/moves/counter.md) | <span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span> | Physical | <input type="checkbox" disabled /> |
 | 1 | [Rage](../pokedex/moves/rage.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
-| 1 | [Sand Attack](../pokedex/moves/sand-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
+| 1 | [Sand Attack](../pokedex/moves/sand-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Status | <input type="checkbox" disabled /> |
 | 4 | [Mud Slap](../pokedex/moves/mud-slap.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Special | <input type="checkbox" disabled /> |
 | 7 | [Scary Face](../pokedex/moves/scary-face.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
-| 10 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
+| 10 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 13 | [Torment](../pokedex/moves/torment.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Status | <input type="checkbox" disabled /> |
 | 16 | [Hone Claws](../pokedex/moves/hone-claws.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Status | <input type="checkbox" disabled /> |
 | 19 | [Mud Shot](../pokedex/moves/mud-shot.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Special | <input type="checkbox" disabled /> |
@@ -24072,9 +24072,9 @@ All new type changes are omitted in the Classic version of Redux.
 
 | Level | Move | Type | Class | Event |
 |:------|:-----|:-----|:------|:------|
-| 1 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #777777 0%, #777777dd 100%);">Unknown</span> | Status | <input type="checkbox" disabled /> |
+| 1 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Status | <input type="checkbox" disabled /> |
 | 1 | [Fury Cutter](../pokedex/moves/fury-cutter.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> | Physical | <input type="checkbox" disabled /> |
-| 1 | [Sand Attack](../pokedex/moves/sand-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
+| 1 | [Sand Attack](../pokedex/moves/sand-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Status | <input type="checkbox" disabled /> |
 | 4 | [Withdraw](../pokedex/moves/withdraw.md) | <span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> | Status | <input type="checkbox" disabled /> |
 | 8 | [Rock Tomb](../pokedex/moves/rock-tomb.md) | <span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span> | Physical | <input type="checkbox" disabled /> |
 | 12 | [Bug Bite](../pokedex/moves/bug-bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> | Physical | <input type="checkbox" disabled /> |
@@ -24109,9 +24109,9 @@ All new type changes are omitted in the Classic version of Redux.
 
 | Level | Move | Type | Class | Event |
 |:------|:-----|:-----|:------|:------|
-| 1 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #777777 0%, #777777dd 100%);">Unknown</span> | Status | <input type="checkbox" disabled /> |
+| 1 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Status | <input type="checkbox" disabled /> |
 | 1 | [Fury Cutter](../pokedex/moves/fury-cutter.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> | Physical | <input type="checkbox" disabled /> |
-| 1 | [Sand Attack](../pokedex/moves/sand-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
+| 1 | [Sand Attack](../pokedex/moves/sand-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Status | <input type="checkbox" disabled /> |
 | 4 | [Withdraw](../pokedex/moves/withdraw.md) | <span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> | Status | <input type="checkbox" disabled /> |
 | 8 | [Rock Tomb](../pokedex/moves/rock-tomb.md) | <span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span> | Physical | <input type="checkbox" disabled /> |
 | 12 | [Bug Bite](../pokedex/moves/bug-bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> | Physical | <input type="checkbox" disabled /> |
@@ -24155,7 +24155,7 @@ All new type changes are omitted in the Classic version of Redux.
 |:------|:-----|:-----|:------|:------|
 | 1 | [Headbutt](../pokedex/moves/headbutt.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 1 | [Leer](../pokedex/moves/leer.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
-| 1 | [Sand Attack](../pokedex/moves/sand-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
+| 1 | [Sand Attack](../pokedex/moves/sand-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Status | <input type="checkbox" disabled /> |
 | 4 | [Beat Up](../pokedex/moves/beat-up.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 7 | [Quick Guard](../pokedex/moves/quick-guard.md) | <span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span> | Status | <input type="checkbox" disabled /> |
 | 10 | [Acid Spray](../pokedex/moves/acid-spray.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span> | Special | <input type="checkbox" disabled /> |
@@ -24195,7 +24195,7 @@ All new type changes are omitted in the Classic version of Redux.
 |:------|:-----|:-----|:------|:------|
 | 1 | [Headbutt](../pokedex/moves/headbutt.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 1 | [Leer](../pokedex/moves/leer.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
-| 1 | [Sand Attack](../pokedex/moves/sand-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
+| 1 | [Sand Attack](../pokedex/moves/sand-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Status | <input type="checkbox" disabled /> |
 | 4 | [Beat Up](../pokedex/moves/beat-up.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 7 | [Quick Guard](../pokedex/moves/quick-guard.md) | <span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span> | Status | <input type="checkbox" disabled /> |
 | 10 | [Acid Spray](../pokedex/moves/acid-spray.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span> | Special | <input type="checkbox" disabled /> |
@@ -24250,7 +24250,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 7 | [Hypnosis](../pokedex/moves/hypnosis.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span> | Status | <input type="checkbox" disabled /> |
 | 10 | [Psywave](../pokedex/moves/psywave.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span> | Special | <input type="checkbox" disabled /> |
 | 13 | [Stored Power](../pokedex/moves/stored-power.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span> | Special | <input type="checkbox" disabled /> |
-| 16 | [Gust](../pokedex/moves/gust.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Special | <input type="checkbox" disabled /> |
+| 16 | [Gust](../pokedex/moves/gust.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span> | Special | <input type="checkbox" disabled /> |
 | 19 | [Psycho Shift](../pokedex/moves/psycho-shift.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span> | Status | <input type="checkbox" disabled /> |
 | 22 | [Ancient Power](../pokedex/moves/ancient-power.md) | <span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span> | Special | <input type="checkbox" disabled /> |
 | 25 | [Air Cutter](../pokedex/moves/air-cutter.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span> | Special | <input type="checkbox" disabled /> |
@@ -24297,7 +24297,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 22 | [Night Shade](../pokedex/moves/night-shade.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Special | <input type="checkbox" disabled /> |
 | 25 | [Ally Switch](../pokedex/moves/ally-switch.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span> | Status | <input type="checkbox" disabled /> |
 | 28 | [Ominous Wind](../pokedex/moves/ominous-wind.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Special | <input type="checkbox" disabled /> |
-| 31 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #777777 0%, #777777dd 100%);">Unknown</span> | Status | <input type="checkbox" disabled /> |
+| 31 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Status | <input type="checkbox" disabled /> |
 | 34 | [Iron Defense](../pokedex/moves/iron-defense.md) | <span class="type-badge" style="background: linear-gradient(135deg, #B8B8D0 0%, #B8B8D0dd 100%);">Steel</span> | Status | <input type="checkbox" disabled /> |
 | 37 | [Hex](../pokedex/moves/hex.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Special | <input type="checkbox" disabled /> |
 | 40 | [Mean Look](../pokedex/moves/mean-look.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
@@ -24344,7 +24344,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 22 | [Night Shade](../pokedex/moves/night-shade.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Special | <input type="checkbox" disabled /> |
 | 25 | [Ally Switch](../pokedex/moves/ally-switch.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span> | Status | <input type="checkbox" disabled /> |
 | 28 | [Ominous Wind](../pokedex/moves/ominous-wind.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Special | <input type="checkbox" disabled /> |
-| 31 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #777777 0%, #777777dd 100%);">Unknown</span> | Status | <input type="checkbox" disabled /> |
+| 31 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Status | <input type="checkbox" disabled /> |
 | 34 | [Iron Defense](../pokedex/moves/iron-defense.md) | <span class="type-badge" style="background: linear-gradient(135deg, #B8B8D0 0%, #B8B8D0dd 100%);">Steel</span> | Status | <input type="checkbox" disabled /> |
 | 34 | [Scary Face](../pokedex/moves/scary-face.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 38 | [Hex](../pokedex/moves/hex.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Special | <input type="checkbox" disabled /> |
@@ -24381,12 +24381,12 @@ All new type changes are omitted in the Classic version of Redux.
 | 6 | [Aqua Jet](../pokedex/moves/aqua-jet.md) | <span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> | Physical | <input type="checkbox" disabled /> |
 | 9 | [Smack Down](../pokedex/moves/smack-down.md) | <span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span> | Physical | <input type="checkbox" disabled /> |
 | 12 | [Ancient Power](../pokedex/moves/ancient-power.md) | <span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span> | Special | <input type="checkbox" disabled /> |
-| 15 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
+| 15 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 18 | [Whirlpool](../pokedex/moves/whirlpool.md) | <span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> | Special | <input type="checkbox" disabled /> |
 | 21 | [Razor Shell](../pokedex/moves/razor-shell.md) | <span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> | Physical | <input type="checkbox" disabled /> |
 | 24 | [Rock Slide](../pokedex/moves/rock-slide.md) | <span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span> | Physical | <input type="checkbox" disabled /> |
 | 27 | [Crunch](../pokedex/moves/crunch.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
-| 30 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #777777 0%, #777777dd 100%);">Unknown</span> | Status | <input type="checkbox" disabled /> |
+| 30 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Status | <input type="checkbox" disabled /> |
 | 33 | [Iron Defense](../pokedex/moves/iron-defense.md) | <span class="type-badge" style="background: linear-gradient(135deg, #B8B8D0 0%, #B8B8D0dd 100%);">Steel</span> | Status | <input type="checkbox" disabled /> |
 | 36 | [Aqua Tail](../pokedex/moves/aqua-tail.md) | <span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> | Physical | <input type="checkbox" disabled /> |
 | 39 | [Body Slam](../pokedex/moves/body-slam.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
@@ -24421,12 +24421,12 @@ All new type changes are omitted in the Classic version of Redux.
 | 1 | [Withdraw](../pokedex/moves/withdraw.md) | <span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> | Status | <input type="checkbox" disabled /> |
 | 9 | [Smack Down](../pokedex/moves/smack-down.md) | <span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span> | Physical | <input type="checkbox" disabled /> |
 | 12 | [Ancient Power](../pokedex/moves/ancient-power.md) | <span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span> | Special | <input type="checkbox" disabled /> |
-| 15 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
+| 15 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 18 | [Whirlpool](../pokedex/moves/whirlpool.md) | <span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> | Special | <input type="checkbox" disabled /> |
 | 21 | [Razor Shell](../pokedex/moves/razor-shell.md) | <span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> | Physical | <input type="checkbox" disabled /> |
 | 24 | [Rock Slide](../pokedex/moves/rock-slide.md) | <span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span> | Physical | <input type="checkbox" disabled /> |
 | 27 | [Crunch](../pokedex/moves/crunch.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
-| 30 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #777777 0%, #777777dd 100%);">Unknown</span> | Status | <input type="checkbox" disabled /> |
+| 30 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Status | <input type="checkbox" disabled /> |
 | 33 | [Iron Defense](../pokedex/moves/iron-defense.md) | <span class="type-badge" style="background: linear-gradient(135deg, #B8B8D0 0%, #B8B8D0dd 100%);">Steel</span> | Status | <input type="checkbox" disabled /> |
 | 36 | [Aqua Tail](../pokedex/moves/aqua-tail.md) | <span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> | Physical | <input type="checkbox" disabled /> |
 | 37 | [Rapid Spin](../pokedex/moves/rapid-spin.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
@@ -24456,7 +24456,7 @@ All new type changes are omitted in the Classic version of Redux.
 |:------|:-----|:-----|:------|:------|
 | 1 | [Leer](../pokedex/moves/leer.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 1 | [Quick Attack](../pokedex/moves/quick-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
-| 3 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
+| 3 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 6 | [Wing Attack](../pokedex/moves/wing-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span> | Physical | <input type="checkbox" disabled /> |
 | 9 | [Dragon Breath](../pokedex/moves/dragon-breath.md) | <span class="type-badge" style="background: linear-gradient(135deg, #7038F8 0%, #7038F8dd 100%);">Dragon</span> | Special | <input type="checkbox" disabled /> |
 | 12 | [Ancient Power](../pokedex/moves/ancient-power.md) | <span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span> | Special | <input type="checkbox" disabled /> |
@@ -24494,7 +24494,7 @@ All new type changes are omitted in the Classic version of Redux.
 |:------|:-----|:-----|:------|:------|
 | 1 | [Leer](../pokedex/moves/leer.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 1 | [Quick Attack](../pokedex/moves/quick-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
-| 3 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
+| 3 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 6 | [Wing Attack](../pokedex/moves/wing-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span> | Physical | <input type="checkbox" disabled /> |
 | 9 | [Dragon Breath](../pokedex/moves/dragon-breath.md) | <span class="type-badge" style="background: linear-gradient(135deg, #7038F8 0%, #7038F8dd 100%);">Dragon</span> | Special | <input type="checkbox" disabled /> |
 | 12 | [Ancient Power](../pokedex/moves/ancient-power.md) | <span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span> | Special | <input type="checkbox" disabled /> |
@@ -24537,9 +24537,9 @@ All new type changes are omitted in the Classic version of Redux.
 |:------|:-----|:-----|:------|:------|
 | 1 | [Wide Guard](../pokedex/moves/wide-guard.md) | <span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span> | Status | <input type="checkbox" disabled /> |
 | 1 | [Pound](../pokedex/moves/pound.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
-| 1 | [Sand Attack](../pokedex/moves/sand-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
+| 1 | [Sand Attack](../pokedex/moves/sand-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Status | <input type="checkbox" disabled /> |
 | 4 | [Mud Slap](../pokedex/moves/mud-slap.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Special | <input type="checkbox" disabled /> |
-| 7 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #777777 0%, #777777dd 100%);">Unknown</span> | Status | <input type="checkbox" disabled /> |
+| 7 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Status | <input type="checkbox" disabled /> |
 | 10 | [Rock Blast](../pokedex/moves/rock-blast.md) | <span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span> | Physical | <input type="checkbox" disabled /> |
 | 13 | [Acid Spray](../pokedex/moves/acid-spray.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span> | Special | <input type="checkbox" disabled /> |
 | 16 | [Toxic](../pokedex/moves/toxic.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span> | Status | <input type="checkbox" disabled /> |
@@ -24583,7 +24583,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 1 | [Spite](../pokedex/moves/spite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Status | <input type="checkbox" disabled /> |
 | 1 | [Wide Guard](../pokedex/moves/wide-guard.md) | <span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span> | Status | <input type="checkbox" disabled /> |
 | 4 | [Mud Slap](../pokedex/moves/mud-slap.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Special | <input type="checkbox" disabled /> |
-| 7 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #777777 0%, #777777dd 100%);">Unknown</span> | Status | <input type="checkbox" disabled /> |
+| 7 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Status | <input type="checkbox" disabled /> |
 | 10 | [Rock Blast](../pokedex/moves/rock-blast.md) | <span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span> | Physical | <input type="checkbox" disabled /> |
 | 13 | [Acid Spray](../pokedex/moves/acid-spray.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span> | Special | <input type="checkbox" disabled /> |
 | 16 | [Toxic](../pokedex/moves/toxic.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span> | Status | <input type="checkbox" disabled /> |
@@ -25053,7 +25053,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 7 | [Wing Attack](../pokedex/moves/wing-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span> | Physical | <input type="checkbox" disabled /> |
 | 10 | [Lucky Chant](../pokedex/moves/lucky-chant.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 13 | [Aerial Ace](../pokedex/moves/aerial-ace.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span> | Physical | <input type="checkbox" disabled /> |
-| 16 | [Gust](../pokedex/moves/gust.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Special | <input type="checkbox" disabled /> |
+| 16 | [Gust](../pokedex/moves/gust.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span> | Special | <input type="checkbox" disabled /> |
 | 19 | [Water Pulse](../pokedex/moves/water-pulse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> | Special | <input type="checkbox" disabled /> |
 | 22 | [Aqua Jet](../pokedex/moves/aqua-jet.md) | <span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> | Physical | <input type="checkbox" disabled /> |
 | 25 | [Air Cutter](../pokedex/moves/air-cutter.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span> | Special | <input type="checkbox" disabled /> |
@@ -25098,7 +25098,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 7 | [Wing Attack](../pokedex/moves/wing-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span> | Physical | <input type="checkbox" disabled /> |
 | 10 | [Lucky Chant](../pokedex/moves/lucky-chant.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 13 | [Aerial Ace](../pokedex/moves/aerial-ace.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span> | Physical | <input type="checkbox" disabled /> |
-| 16 | [Gust](../pokedex/moves/gust.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Special | <input type="checkbox" disabled /> |
+| 16 | [Gust](../pokedex/moves/gust.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span> | Special | <input type="checkbox" disabled /> |
 | 19 | [Water Pulse](../pokedex/moves/water-pulse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> | Special | <input type="checkbox" disabled /> |
 | 22 | [Aqua Jet](../pokedex/moves/aqua-jet.md) | <span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> | Physical | <input type="checkbox" disabled /> |
 | 25 | [Air Cutter](../pokedex/moves/air-cutter.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span> | Special | <input type="checkbox" disabled /> |
@@ -25266,7 +25266,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 1 | [Camouflage](../pokedex/moves/camouflage.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 1 | [Tackle](../pokedex/moves/tackle.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 4 | [Growl](../pokedex/moves/growl.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
-| 7 | [Sand Attack](../pokedex/moves/sand-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
+| 7 | [Sand Attack](../pokedex/moves/sand-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Status | <input type="checkbox" disabled /> |
 | 10 | [Double Kick](../pokedex/moves/double-kick.md) | <span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span> | Physical | <input type="checkbox" disabled /> |
 | 13 | [Leech Seed](../pokedex/moves/leech-seed.md) | <span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span> | Status | <input type="checkbox" disabled /> |
 | 16 | [Feint Attack](../pokedex/moves/feint-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
@@ -25312,7 +25312,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 1 | [Camouflage](../pokedex/moves/camouflage.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 1 | [Tackle](../pokedex/moves/tackle.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 4 | [Growl](../pokedex/moves/growl.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
-| 7 | [Sand Attack](../pokedex/moves/sand-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
+| 7 | [Sand Attack](../pokedex/moves/sand-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Status | <input type="checkbox" disabled /> |
 | 10 | [Double Kick](../pokedex/moves/double-kick.md) | <span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span> | Physical | <input type="checkbox" disabled /> |
 | 13 | [Leech Seed](../pokedex/moves/leech-seed.md) | <span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span> | Status | <input type="checkbox" disabled /> |
 | 16 | [Feint Attack](../pokedex/moves/feint-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
@@ -25773,7 +25773,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 1 | [Harden](../pokedex/moves/harden.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 1 | [Tackle](../pokedex/moves/tackle.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 7 | [Acid Spray](../pokedex/moves/acid-spray.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span> | Special | <input type="checkbox" disabled /> |
-| 10 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #777777 0%, #777777dd 100%);">Unknown</span> | Status | <input type="checkbox" disabled /> |
+| 10 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Status | <input type="checkbox" disabled /> |
 | 13 | [Payback](../pokedex/moves/payback.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 16 | [Pin Missile](../pokedex/moves/pin-missile.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> | Physical | <input type="checkbox" disabled /> |
 | 19 | [Rollout](../pokedex/moves/rollout.md) | <span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span> | Physical | <input type="checkbox" disabled /> |
@@ -25812,7 +25812,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 1 | [Harden](../pokedex/moves/harden.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 1 | [Tackle](../pokedex/moves/tackle.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 7 | [Acid Spray](../pokedex/moves/acid-spray.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span> | Special | <input type="checkbox" disabled /> |
-| 10 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #777777 0%, #777777dd 100%);">Unknown</span> | Status | <input type="checkbox" disabled /> |
+| 10 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Status | <input type="checkbox" disabled /> |
 | 13 | [Payback](../pokedex/moves/payback.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 16 | [Pin Missile](../pokedex/moves/pin-missile.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> | Physical | <input type="checkbox" disabled /> |
 | 19 | [Rollout](../pokedex/moves/rollout.md) | <span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span> | Physical | <input type="checkbox" disabled /> |
@@ -26194,7 +26194,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 26 | [Hex](../pokedex/moves/hex.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Special | <input type="checkbox" disabled /> |
 | 29 | [Acid Armor](../pokedex/moves/acid-armor.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span> | Status | <input type="checkbox" disabled /> |
 | 32 | [Ally Switch](../pokedex/moves/ally-switch.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span> | Status | <input type="checkbox" disabled /> |
-| 35 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #777777 0%, #777777dd 100%);">Unknown</span> | Status | <input type="checkbox" disabled /> |
+| 35 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Status | <input type="checkbox" disabled /> |
 | 38 | [Pain Split](../pokedex/moves/pain-split.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 42 | [Inferno](../pokedex/moves/inferno.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F08030 0%, #F08030dd 100%);">Fire</span> | Special | <input type="checkbox" disabled /> |
 | 46 | [Shadow Ball](../pokedex/moves/shadow-ball.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Special | <input type="checkbox" disabled /> |
@@ -26241,7 +26241,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 27 | [Flame Burst](../pokedex/moves/flame-burst.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F08030 0%, #F08030dd 100%);">Fire</span> | Special | <input type="checkbox" disabled /> |
 | 29 | [Acid Armor](../pokedex/moves/acid-armor.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span> | Status | <input type="checkbox" disabled /> |
 | 33 | [Ally Switch](../pokedex/moves/ally-switch.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span> | Status | <input type="checkbox" disabled /> |
-| 37 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #777777 0%, #777777dd 100%);">Unknown</span> | Status | <input type="checkbox" disabled /> |
+| 37 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Status | <input type="checkbox" disabled /> |
 | 41 | [Pain Split](../pokedex/moves/pain-split.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 45 | [Inferno](../pokedex/moves/inferno.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F08030 0%, #F08030dd 100%);">Fire</span> | Special | <input type="checkbox" disabled /> |
 | 49 | [Shadow Ball](../pokedex/moves/shadow-ball.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Special | <input type="checkbox" disabled /> |
@@ -26304,7 +26304,7 @@ All new type changes are omitted in the Classic version of Redux.
 |:------|:-----|:-----|:------|:------|
 | 1 | [Leer](../pokedex/moves/leer.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 1 | [Scratch](../pokedex/moves/scratch.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
-| 3 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
+| 3 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 6 | [False Swipe](../pokedex/moves/false-swipe.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 9 | [Assurance](../pokedex/moves/assurance.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 12 | [Taunt](../pokedex/moves/taunt.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Status | <input type="checkbox" disabled /> |
@@ -26342,7 +26342,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 | Level | Move | Type | Class | Event |
 |:------|:-----|:-----|:------|:------|
-| 1 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
+| 1 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 1 | [False Swipe](../pokedex/moves/false-swipe.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 1 | [Leer](../pokedex/moves/leer.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 1 | [Scratch](../pokedex/moves/scratch.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
@@ -26563,7 +26563,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 1 | [Protect](../pokedex/moves/protect.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 1 | [Mud Slap](../pokedex/moves/mud-slap.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Special | <input type="checkbox" disabled /> |
 | 4 | [Acid](../pokedex/moves/acid.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span> | Special | <input type="checkbox" disabled /> |
-| 7 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #777777 0%, #777777dd 100%);">Unknown</span> | Status | <input type="checkbox" disabled /> |
+| 7 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Status | <input type="checkbox" disabled /> |
 | 10 | [Yawn](../pokedex/moves/yawn.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 13 | [Pursuit](../pokedex/moves/pursuit.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 16 | [Gastro Acid](../pokedex/moves/gastro-acid.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span> | Status | <input type="checkbox" disabled /> |
@@ -26663,7 +26663,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 40 | [Muddy Water](../pokedex/moves/muddy-water.md) | <span class="type-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Water</span> | Special | <input type="checkbox" disabled /> |
 | 44 | [Pain Split](../pokedex/moves/pain-split.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 48 | [Thunderbolt](../pokedex/moves/thunderbolt.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F8D030 0%, #F8D030dd 100%);">Electric</span> | Special | <input type="checkbox" disabled /> |
-| 52 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #777777 0%, #777777dd 100%);">Unknown</span> | Status | <input type="checkbox" disabled /> |
+| 52 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Status | <input type="checkbox" disabled /> |
 | 56 | [Flail](../pokedex/moves/flail.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 60 | [Earthquake](../pokedex/moves/earthquake.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Physical | <input type="checkbox" disabled /> |
 | 64 | [Thunder](../pokedex/moves/thunder.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F8D030 0%, #F8D030dd 100%);">Electric</span> | Special | <input type="checkbox" disabled /> |
@@ -26782,7 +26782,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 1 | [Thunder Fang](../pokedex/moves/thunder-fang.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F8D030 0%, #F8D030dd 100%);">Electric</span> | Physical | <input type="checkbox" disabled /> |
 | 1 | [Scratch](../pokedex/moves/scratch.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 1 | [Leer](../pokedex/moves/leer.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
-| 5 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
+| 5 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 10 | [Dragon Tail](../pokedex/moves/dragon-tail.md) | <span class="type-badge" style="background: linear-gradient(135deg, #7038F8 0%, #7038F8dd 100%);">Dragon</span> | Physical | <input type="checkbox" disabled /> |
 | 13 | [Metal Claw](../pokedex/moves/metal-claw.md) | <span class="type-badge" style="background: linear-gradient(135deg, #B8B8D0 0%, #B8B8D0dd 100%);">Steel</span> | Physical | <input type="checkbox" disabled /> |
 | 16 | [Spikes](../pokedex/moves/spikes.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Status | <input type="checkbox" disabled /> |
@@ -26829,7 +26829,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 1 | [Astonish](../pokedex/moves/astonish.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Physical | <input type="checkbox" disabled /> |
 | 1 | [Mud Slap](../pokedex/moves/mud-slap.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Special | <input type="checkbox" disabled /> |
 | 1 | [Pound](../pokedex/moves/pound.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
-| 4 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #777777 0%, #777777dd 100%);">Unknown</span> | Status | <input type="checkbox" disabled /> |
+| 4 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Status | <input type="checkbox" disabled /> |
 | 7 | [Fling](../pokedex/moves/fling.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 10 | [Rollout](../pokedex/moves/rollout.md) | <span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span> | Physical | <input type="checkbox" disabled /> |
 | 13 | [Defense Curl](../pokedex/moves/defense-curl.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
@@ -26875,7 +26875,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 1 | [Focus Punch](../pokedex/moves/focus-punch.md) | <span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span> | Physical | <input type="checkbox" disabled /> |
 | 1 | [Astonish](../pokedex/moves/astonish.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Physical | <input type="checkbox" disabled /> |
 | 1 | [Mud Slap](../pokedex/moves/mud-slap.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Special | <input type="checkbox" disabled /> |
-| 4 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #777777 0%, #777777dd 100%);">Unknown</span> | Status | <input type="checkbox" disabled /> |
+| 4 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Status | <input type="checkbox" disabled /> |
 | 7 | [Fling](../pokedex/moves/fling.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 10 | [Rollout](../pokedex/moves/rollout.md) | <span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span> | Physical | <input type="checkbox" disabled /> |
 | 13 | [Defense Curl](../pokedex/moves/defense-curl.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
@@ -27131,7 +27131,7 @@ All new type changes are omitted in the Classic version of Redux.
 | Level | Move | Type | Class | Event |
 |:------|:-----|:-----|:------|:------|
 | 1 | [Leer](../pokedex/moves/leer.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
-| 1 | [Gust](../pokedex/moves/gust.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Special | <input type="checkbox" disabled /> |
+| 1 | [Gust](../pokedex/moves/gust.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span> | Special | <input type="checkbox" disabled /> |
 | 6 | [Flatter](../pokedex/moves/flatter.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Status | <input type="checkbox" disabled /> |
 | 12 | [Wing Attack](../pokedex/moves/wing-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span> | Physical | <input type="checkbox" disabled /> |
 | 15 | [Pluck](../pokedex/moves/pluck.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span> | Physical | <input type="checkbox" disabled /> |
@@ -27177,7 +27177,7 @@ All new type changes are omitted in the Classic version of Redux.
 | Level | Move | Type | Class | Event |
 |:------|:-----|:-----|:------|:------|
 | 1 | [Leer](../pokedex/moves/leer.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
-| 1 | [Gust](../pokedex/moves/gust.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Special | <input type="checkbox" disabled /> |
+| 1 | [Gust](../pokedex/moves/gust.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span> | Special | <input type="checkbox" disabled /> |
 | 6 | [Flatter](../pokedex/moves/flatter.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Status | <input type="checkbox" disabled /> |
 | 12 | [Wing Attack](../pokedex/moves/wing-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span> | Physical | <input type="checkbox" disabled /> |
 | 15 | [Pluck](../pokedex/moves/pluck.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span> | Physical | <input type="checkbox" disabled /> |
@@ -27236,7 +27236,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 20 | [Swallow](../pokedex/moves/swallow.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 25 | [Slash](../pokedex/moves/slash.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 25 | [Night Slash](../pokedex/moves/night-slash.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
-| 28 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #777777 0%, #777777dd 100%);">Unknown</span> | Status | <input type="checkbox" disabled /> |
+| 28 | [Curse](../pokedex/moves/curse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Status | <input type="checkbox" disabled /> |
 | 32 | [Scorching Sands](../pokedex/moves/scorching-sands.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Special | <input type="checkbox" disabled /> |
 | 36 | [Flame Burst](../pokedex/moves/flame-burst.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F08030 0%, #F08030dd 100%);">Fire</span> | Special | <input type="checkbox" disabled /> |
 | 40 | [Hone Claws](../pokedex/moves/hone-claws.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Status | <input type="checkbox" disabled /> |
@@ -27275,12 +27275,12 @@ All new type changes are omitted in the Classic version of Redux.
 | Level | Move | Type | Class | Event |
 |:------|:-----|:-----|:------|:------|
 | 1 | [Fury Cutter](../pokedex/moves/fury-cutter.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> | Physical | <input type="checkbox" disabled /> |
-| 1 | [Sand Attack](../pokedex/moves/sand-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
+| 1 | [Sand Attack](../pokedex/moves/sand-attack.md) | <span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> | Status | <input type="checkbox" disabled /> |
 | 5 | [Infestation](../pokedex/moves/infestation.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> | Special | <input type="checkbox" disabled /> |
 | 11 | [Metal Claw](../pokedex/moves/metal-claw.md) | <span class="type-badge" style="background: linear-gradient(135deg, #B8B8D0 0%, #B8B8D0dd 100%);">Steel</span> | Physical | <input type="checkbox" disabled /> |
 | 14 | [Beat Up](../pokedex/moves/beat-up.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 17 | [Bug Bite](../pokedex/moves/bug-bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> | Physical | <input type="checkbox" disabled /> |
-| 20 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
+| 20 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 25 | [Agility](../pokedex/moves/agility.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span> | Status | <input type="checkbox" disabled /> |
 | 28 | [Flail](../pokedex/moves/flail.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 32 | [X Scissor](../pokedex/moves/x-scissor.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> | Physical | <input type="checkbox" disabled /> |
@@ -27316,7 +27316,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 1 | [Focus Energy](../pokedex/moves/focus-energy.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 1 | [Tackle](../pokedex/moves/tackle.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
 | 1 | [Dragon Breath](../pokedex/moves/dragon-breath.md) | <span class="type-badge" style="background: linear-gradient(135deg, #7038F8 0%, #7038F8dd 100%);">Dragon</span> | Special | <input type="checkbox" disabled /> |
-| 7 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
+| 7 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 10 | [Roar](../pokedex/moves/roar.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 13 | [Screech](../pokedex/moves/screech.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 17 | [Assurance](../pokedex/moves/assurance.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
@@ -27351,7 +27351,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 | Level | Move | Type | Class | Event |
 |:------|:-----|:-----|:------|:------|
-| 1 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
+| 1 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 1 | [Dragon Breath](../pokedex/moves/dragon-breath.md) | <span class="type-badge" style="background: linear-gradient(135deg, #7038F8 0%, #7038F8dd 100%);">Dragon</span> | Special | <input type="checkbox" disabled /> |
 | 1 | [Focus Energy](../pokedex/moves/focus-energy.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 1 | [Tackle](../pokedex/moves/tackle.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
@@ -27470,7 +27470,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 1 | [Magnet Rise](../pokedex/moves/magnet-rise.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F8D030 0%, #F8D030dd 100%);">Electric</span> | Status | <input type="checkbox" disabled /> |
 | 1 | [Tailwind](../pokedex/moves/tailwind.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span> | Status | <input type="checkbox" disabled /> |
 | 1 | [Absorb](../pokedex/moves/absorb.md) | <span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span> | Special | <input type="checkbox" disabled /> |
-| 1 | [Gust](../pokedex/moves/gust.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Special | <input type="checkbox" disabled /> |
+| 1 | [Gust](../pokedex/moves/gust.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span> | Special | <input type="checkbox" disabled /> |
 | 1 | [String Shot](../pokedex/moves/string-shot.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> | Status | <input type="checkbox" disabled /> |
 | 1 | [Whirlwind](../pokedex/moves/whirlwind.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 18 | [Bug Bite](../pokedex/moves/bug-bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> | Physical | <input type="checkbox" disabled /> |
@@ -27627,10 +27627,10 @@ All new type changes are omitted in the Classic version of Redux.
 | Level | Move | Type | Class | Event |
 |:------|:-----|:-----|:------|:------|
 | 1 | [Astonish](../pokedex/moves/astonish.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | Physical | <input type="checkbox" disabled /> |
-| 1 | [Gust](../pokedex/moves/gust.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Special | <input type="checkbox" disabled /> |
+| 1 | [Gust](../pokedex/moves/gust.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span> | Special | <input type="checkbox" disabled /> |
 | 5 | [Leer](../pokedex/moves/leer.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 10 | [Swagger](../pokedex/moves/swagger.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
-| 15 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
+| 15 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 20 | [Air Cutter](../pokedex/moves/air-cutter.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span> | Special | <input type="checkbox" disabled /> |
 | 23 | [Agility](../pokedex/moves/agility.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span> | Status | <input type="checkbox" disabled /> |
 | 26 | [Tailwind](../pokedex/moves/tailwind.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span> | Status | <input type="checkbox" disabled /> |
@@ -27661,7 +27661,7 @@ All new type changes are omitted in the Classic version of Redux.
 | 1 | [Thunder Shock](../pokedex/moves/thunder-shock.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F8D030 0%, #F8D030dd 100%);">Electric</span> | Special | <input type="checkbox" disabled /> |
 | 5 | [Leer](../pokedex/moves/leer.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Status | <input type="checkbox" disabled /> |
 | 10 | [Nasty Plot](../pokedex/moves/nasty-plot.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Status | <input type="checkbox" disabled /> |
-| 15 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | Physical | <input type="checkbox" disabled /> |
+| 15 | [Bite](../pokedex/moves/bite.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | Physical | <input type="checkbox" disabled /> |
 | 20 | [Shock Wave](../pokedex/moves/shock-wave.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F8D030 0%, #F8D030dd 100%);">Electric</span> | Special | <input type="checkbox" disabled /> |
 | 23 | [Agility](../pokedex/moves/agility.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span> | Status | <input type="checkbox" disabled /> |
 | 26 | [Charge](../pokedex/moves/charge.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F8D030 0%, #F8D030dd 100%);">Electric</span> | Status | <input type="checkbox" disabled /> |

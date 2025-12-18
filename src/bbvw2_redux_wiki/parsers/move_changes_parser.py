@@ -9,6 +9,9 @@ This parser:
 
 import re
 
+import orjson
+from bbvw2_redux_wiki.utils.core.config import POKEDB_GENERATIONS
+from bbvw2_redux_wiki.utils.core.loader import PokeDBLoader
 from bbvw2_redux_wiki.utils.formatters.markdown_formatter import (
     format_checkbox,
     format_move,
@@ -54,12 +57,116 @@ class MoveChangesParser(BaseParser):
         self._current_move = ""
         self._is_move_open = False
 
+    def _update_all_moves_to_gen8(self) -> None:
+        """Update all existing moves in parsed data to match gen8 stats.
+
+        This method:
+        1. Loads all moves from gen8 source data
+        2. For each move that exists in parsed data, updates its stats to match gen8
+        3. Skips moves that don't exist in parsed data (they'll be copied separately)
+
+        Updates the following attributes:
+        - Power
+        - Accuracy
+        - PP
+        - Priority
+        - Effect Chance
+        """
+        # Get the data directory
+        data_dir = PokeDBLoader.get_data_dir()
+
+        # Get gen8 source directory
+        source_gen = POKEDB_GENERATIONS[-1]  # "gen8"
+        source_move_dir = data_dir.parent / source_gen / "move"
+        parsed_move_dir = data_dir / "move"
+
+        if not source_move_dir.exists():
+            self.logger.warning(f"Gen8 source directory not found: {source_move_dir}")
+            return
+
+        if not parsed_move_dir.exists():
+            self.logger.warning(f"Parsed move directory not found: {parsed_move_dir}")
+            return
+
+        # Iterate over all moves in parsed data
+        updated_count = 0
+        skipped_count = 0
+
+        for move_file in parsed_move_dir.glob("*.json"):
+            move_id = move_file.stem
+            source_file = source_move_dir / f"{move_id}.json"
+
+            # Skip if move doesn't exist in gen8
+            if not source_file.exists():
+                skipped_count += 1
+                continue
+
+            # Load both moves
+            move = PokeDBLoader.load_move(move_id)
+            if move is None:
+                skipped_count += 1
+                continue
+
+            # Load gen8 source data
+            try:
+                with open(source_file, "rb") as f:
+                    gen8_data = orjson.loads(f.read())
+            except (OSError, IOError, ValueError) as e:
+                self.logger.warning(f"Error loading gen8 data for {move_id}: {e}")
+                skipped_count += 1
+                continue
+
+            # Helper function to extract value from gen8 data
+            def get_gen8_value(field_data):
+                """Extract the most recent value from gen8 field data."""
+                if isinstance(field_data, dict):
+                    # Get the last version group's value (most recent in gen8)
+                    return list(field_data.values())[-1]
+                return field_data
+
+            # Update attributes from gen8
+            # Note: We only update if the attribute exists in gen8 data
+            if "power" in gen8_data:
+                gen8_value = get_gen8_value(gen8_data["power"])
+                for version_key in move.power.keys():
+                    setattr(move.power, version_key, gen8_value)
+
+            if "accuracy" in gen8_data:
+                gen8_value = get_gen8_value(gen8_data["accuracy"])
+                for version_key in move.accuracy.keys():
+                    setattr(move.accuracy, version_key, gen8_value)
+
+            if "pp" in gen8_data:
+                gen8_value = get_gen8_value(gen8_data["pp"])
+                for version_key in move.pp.keys():
+                    setattr(move.pp, version_key, gen8_value)
+
+            if "priority" in gen8_data:
+                move.priority = gen8_data["priority"]
+
+            if "effect_chance" in gen8_data:
+                gen8_value = get_gen8_value(gen8_data["effect_chance"])
+                for version_key in move.effect_chance.keys():
+                    setattr(move.effect_chance, version_key, gen8_value)
+
+            # Save the updated move
+            PokeDBLoader.save_move(move_id, move)
+            updated_count += 1
+
+        self.logger.info(
+            f"Updated {updated_count} moves to gen8 stats (skipped {skipped_count})"
+        )
+
     def handle_section_change(self, new_section: str) -> None:
         """Handle state reset on section change.
 
         Args:
             new_section (str): The new section being parsed.
         """
+
+        if new_section == "General Changes":
+            self._update_all_moves_to_gen8()
+
         if self._is_table_open:
             self._is_table_open = False
             self._markdown += "\n"
@@ -123,6 +230,13 @@ class MoveChangesParser(BaseParser):
             if new_type.endswith(" [!]"):
                 new_type = new_type[:-4]
                 custom = True
+
+            # Update the move's type in the data
+            MoveService.update_move_attribute(
+                move_name=self._current_move,
+                attribute="Type",
+                new_value=new_type,
+            )
 
             self._markdown += f"| {format_type_badge(old_type)} | {format_type_badge(new_type)} | {format_checkbox(custom)} |"
         # Default: regular text line

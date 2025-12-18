@@ -20,7 +20,7 @@
 
 	---
 
-	50
+	90
 
 - **:material-target: Accuracy**
 

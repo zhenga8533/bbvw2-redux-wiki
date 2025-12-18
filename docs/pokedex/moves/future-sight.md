@@ -26,13 +26,13 @@
 
 	---
 
-	90%
+	100%
 
 - **:material-counter: PP**
 
 	---
 
-	15
+	10
 
 - **:material-priority-high: Priority**
 

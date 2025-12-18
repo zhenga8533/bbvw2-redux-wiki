@@ -46,11 +46,11 @@
 
 !!! info "Description"
 
-    Until the end of this turn, any moves that opposing Pokémon target solely at the user’s ally will instead target the user. If both Pokémon on the same side of the field use this move on the same turn, the Pokémon that uses it last will become the target. This effect takes priority over lightning rod and storm drain. If the user’s ally switches out, opposing Pokémon may still hit it with pursuit. This move cannot be selected by assist or metronome.
+    Inflicts regular damage. Has a $effect_chance% chance to poison the target.
 
 !!! tip "Quick Summary"
 
-    Redirects the target’s single-target effects to the user for this turn.
+    Has a $effect_chance% chance to poison the target.
 
 ## :material-book-open: In-Game Description
 

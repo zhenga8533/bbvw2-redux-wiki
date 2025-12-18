@@ -20,13 +20,13 @@
 
 	---
 
-	15
+	35
 
 - **:material-target: Accuracy**
 
 	---
 
-	70%
+	85%
 
 - **:material-counter: PP**
 
