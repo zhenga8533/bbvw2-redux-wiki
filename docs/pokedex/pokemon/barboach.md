@@ -12,6 +12,16 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Abilities:** `oblivious / anticipation / hydration` → `simple / anticipation / hydration`
+
+    **Level-up Moves:** `14 moves` → `22 moves`
+
+    **TM/HM Compatibility:** `24 moves` → `25 moves (added: wave-crash)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

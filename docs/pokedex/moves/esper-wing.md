@@ -1,5 +1,11 @@
 # Esper Wing
 
+
+!!! info "ROM Changes
+
+    **Power:** `80` → `70`
+
+
 ## :material-chart-box: Stats
 
 <div class="grid cards" markdown>

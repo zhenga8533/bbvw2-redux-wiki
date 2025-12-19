@@ -1,5 +1,13 @@
 # Sludge
 
+
+!!! info "ROM Changes
+
+    **Power:** `65` → `70`
+
+    **Pp:** `20` → `15`
+
+
 ## :material-chart-box: Stats
 
 <div class="grid cards" markdown>

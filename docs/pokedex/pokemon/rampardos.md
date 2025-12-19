@@ -12,6 +12,16 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Abilities:** `mold-breaker / sheer-force` → `mold-breaker / sheer-force / sheer-force`
+
+    **Level-up Moves:** `13 moves` → `23 moves`
+
+    **TM/HM Compatibility:** `44 moves` → `45 moves (added: work-up)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

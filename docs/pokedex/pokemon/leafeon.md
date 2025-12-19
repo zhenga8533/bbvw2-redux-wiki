@@ -12,6 +12,16 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+
+    **Abilities:** `leaf-guard / chlorophyll` → `super-luck / chlorophyll / chlorophyll`
+
+    **TM/HM Compatibility:** `31 moves` → `34 moves (added: tri-attack, play-rough, cut)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

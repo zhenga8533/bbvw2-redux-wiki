@@ -1,5 +1,11 @@
 # Blaze Kick
 
+
+!!! info "ROM Changes
+
+    **Accuracy:** `90` → `100`
+
+
 ## :material-chart-box: Stats
 
 <div class="grid cards" markdown>

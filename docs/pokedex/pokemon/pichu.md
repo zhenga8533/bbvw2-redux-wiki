@@ -13,6 +13,18 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Abilities:** `static / lightning-rod` → `static / lightning-rod / lightning-rod`
+
+    **Base Happiness:** `70` → `180`
+
+    **Level-up Moves:** `?, ?, ?, ?, ?, ?` → `13 moves`
+
+    **TM/HM Compatibility:** `24 moves` → `25 moves (added: surf)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

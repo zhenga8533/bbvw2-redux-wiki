@@ -13,6 +13,18 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+
+    **Abilities:** `keen-eye / sheer-force / defiant` → `defiant / sheer-force / defiant`
+
+    **Level-up Moves:** `19 moves` → `23 moves`
+
+    **TM/HM Compatibility:** `31 moves` → `32 moves (added: quash)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

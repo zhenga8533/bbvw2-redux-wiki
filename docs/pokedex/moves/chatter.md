@@ -1,5 +1,13 @@
 # Chatter
 
+
+!!! info "ROM Changes
+
+    **Power:** `65` → `90`
+
+    **Pp:** `20` → `10`
+
+
 ## :material-chart-box: Stats
 
 <div class="grid cards" markdown>

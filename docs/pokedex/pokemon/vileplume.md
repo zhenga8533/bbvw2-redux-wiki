@@ -12,6 +12,14 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Abilities:** `chlorophyll / effect-spore` → `thick-fat / effect-spore / effect-spore`
+
+    **Level-up Moves:** `?, ?, ?, ?, ?, ?` → `15 moves`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

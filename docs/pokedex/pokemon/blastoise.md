@@ -12,6 +12,18 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Base Stats:** `79 HP / 83 Atk / 100 Def / 85 SAtk / 105 SDef / 78 Spd` → `79 HP / 83 Atk / 100 Def / 90 SAtk / 105 SDef / 78 Spd`
+
+    **Abilities:** `torrent / rain-dish` → `shell-armor / torrent / rain-dish`
+
+    **Level-up Moves:** `18 moves` → `25 moves`
+
+    **TM/HM Compatibility:** `37 moves` → `40 moves (added: tri-attack, aura-sphere, wave-crash)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

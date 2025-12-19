@@ -12,6 +12,18 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Base Stats:** `140 HP / 70 Atk / 45 Def / 75 SAtk / 50 SDef / 45 Spd` → `140 HP / 60 Atk / 45 Def / 95 SAtk / 50 SDef / 45 Spd`
+
+    **Abilities:** `cute-charm / frisk` → `huge-power / friend-guard / frisk`
+
+    **Level-up Moves:** `?, ?, ?, ?` → `?, ?, ?, ?, ?, ?, ?, ?, ?, ?`
+
+    **TM/HM Compatibility:** `45 moves` → `47 moves (added: low-sweep, power-gem)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

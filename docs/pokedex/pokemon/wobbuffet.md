@@ -12,6 +12,14 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Abilities:** `shadow-tag / telepathy` → `shadow-tag / telepathy / telepathy`
+
+    **Level-up Moves:** `?, ?, ?, ?` → `?, ?, ?, ?, ?, ?, ?`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

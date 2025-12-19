@@ -1,5 +1,11 @@
 # Arm Thrust
 
+
+!!! info "ROM Changes
+
+    **Power:** `15` → `20`
+
+
 ## :material-chart-box: Stats
 
 <div class="grid cards" markdown>

@@ -12,6 +12,18 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Base Stats:** `77 HP / 85 Atk / 51 Def / 55 SAtk / 51 SDef / 65 Spd` → `75 HP / 95 Atk / 57 Def / 71 SAtk / 57 SDef / 70 Spd`
+
+    **Abilities:** `swarm / technician` → `technician / soundproof / swarm`
+
+    **Level-up Moves:** `13 moves` → `22 moves`
+
+    **TM/HM Compatibility:** `29 moves` → `32 moves (added: low-sweep, bug-buzz, snarl)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

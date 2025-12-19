@@ -12,6 +12,14 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Abilities:** `clear-body / liquid-ooze / rain-dish` → `clear-body / rain-dish / liquid-ooze`
+
+    **Level-up Moves:** `18 moves` → `21 moves`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

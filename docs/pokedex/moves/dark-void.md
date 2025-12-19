@@ -1,5 +1,11 @@
 # Dark Void
 
+
+!!! info "ROM Changes
+
+    **Accuracy:** `50` → `90`
+
+
 ## :material-chart-box: Stats
 
 <div class="grid cards" markdown>

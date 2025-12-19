@@ -12,6 +12,16 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Base Stats:** `55 HP / 45 Atk / 50 Def / 45 SAtk / 65 SDef / 80 Spd` → `55 HP / 45 Atk / 50 Def / 55 SAtk / 65 SDef / 90 Spd`
+
+    **Abilities:** `chlorophyll / leaf-guard / infiltrator` → `prankster / leaf-guard / infiltrator`
+
+    **Level-up Moves:** `21 moves` → `25 moves`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

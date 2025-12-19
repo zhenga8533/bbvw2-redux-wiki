@@ -1,5 +1,11 @@
 # Dragon Breath
 
+
+!!! info "ROM Changes
+
+    **Power:** `60` → `70`
+
+
 ## :material-chart-box: Stats
 
 <div class="grid cards" markdown>

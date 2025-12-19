@@ -12,6 +12,18 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+
+    **Base Stats:** `65 HP / 60 Atk / 110 Def / 130 SAtk / 95 SDef / 65 Spd` → `65 HP / 60 Atk / 110 Def / 130 SAtk / 65 SDef / 95 Spd`
+
+    **Abilities:** `snow-cloak / ice-body` → `snow-cloak / serene-grace / serene-grace`
+
+    **TM/HM Compatibility:** `28 moves` → `31 moves (added: tri-attack, dazzling-gleam, grass-knot)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

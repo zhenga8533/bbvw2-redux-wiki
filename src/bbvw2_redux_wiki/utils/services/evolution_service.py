@@ -15,11 +15,12 @@ from bbvw2_redux_wiki.utils.data.models import (
     EvolutionDetails,
     EvolutionNode,
 )
+from bbvw2_redux_wiki.utils.services.base_service import BaseService
 
 logger = get_logger(__name__)
 
 
-class EvolutionService:
+class EvolutionService(BaseService):
     """
     Service for managing Pokemon evolution chain updates.
 
@@ -297,6 +298,14 @@ class EvolutionService:
                         continue
 
                 # Update the evolution chain and save
+                # Record change (simple message since evolution chains are complex)
+                BaseService.record_change(
+                    pokemon_data,
+                    field="Evolution Chain",
+                    old_value="Updated",
+                    new_value="Modified evolution method or target",
+                    source="evolution_service",
+                )
                 pokemon_data.evolution_chain = evolution_chain
                 PokeDBLoader.save_pokemon(form_name, pokemon_data, subfolder=category)
 

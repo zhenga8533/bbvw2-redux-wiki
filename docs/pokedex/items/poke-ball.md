@@ -11,6 +11,12 @@
 		</div>
 	</div>
 
+
+!!! info "ROM Changes
+
+    **Cost:** `$200` → `$50`
+
+
 ## :material-information: Effect
 
 !!! tip "Quick Summary"

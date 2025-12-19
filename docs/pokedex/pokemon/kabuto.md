@@ -12,6 +12,14 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+
+    **Level-up Moves:** `12 moves` → `14 moves`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

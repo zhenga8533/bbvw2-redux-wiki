@@ -12,6 +12,16 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Abilities:** `swarm / guts / moxie` → `moxie / skill-link / guts`
+
+    **Level-up Moves:** `22 moves` → `25 moves`
+
+    **TM/HM Compatibility:** `39 moves` → `40 moves (added: bug-buzz)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

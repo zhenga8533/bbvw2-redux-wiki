@@ -1,5 +1,13 @@
 # Mud Slap
 
+
+!!! info "ROM Changes
+
+    **Power:** `20` → `30`
+
+    **Pp:** `10` → `20`
+
+
 ## :material-chart-box: Stats
 
 <div class="grid cards" markdown>

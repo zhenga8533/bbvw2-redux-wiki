@@ -1,5 +1,11 @@
 # Razor Shell
 
+
+!!! info "ROM Changes
+
+    **Accuracy:** `95` → `100`
+
+
 ## :material-chart-box: Stats
 
 <div class="grid cards" markdown>

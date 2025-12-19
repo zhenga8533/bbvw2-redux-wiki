@@ -13,6 +13,18 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+
+    **Abilities:** `telepathy / synchronize / analytic` → `analytic / synchronize / analytic`
+
+    **Level-up Moves:** `18 moves` → `24 moves`
+
+    **TM/HM Compatibility:** `35 moves` → `41 moves (added: tri-attack, dazzling-gleam, mystical-fire, power-gem, bug-buzz...)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

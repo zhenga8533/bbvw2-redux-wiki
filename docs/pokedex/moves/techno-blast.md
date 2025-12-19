@@ -1,5 +1,11 @@
 # Techno Blast
 
+
+!!! info "ROM Changes
+
+    **Power:** `120` → `140`
+
+
 ## :material-chart-box: Stats
 
 <div class="grid cards" markdown>

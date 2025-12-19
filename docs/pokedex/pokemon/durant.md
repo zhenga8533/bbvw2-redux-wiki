@@ -13,6 +13,16 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Abilities:** `swarm / hustle / truant` → `heatproof / hustle / truant`
+
+    **Level-up Moves:** `15 moves` → `20 moves`
+
+    **TM/HM Compatibility:** `31 moves` → `35 moves (added: low-sweep, bug-buzz, work-up, rock-climb)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

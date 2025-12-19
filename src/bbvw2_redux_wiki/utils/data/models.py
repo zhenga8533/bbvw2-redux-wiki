@@ -243,6 +243,7 @@ class Item:
     short_effect: str
     flavor_text: GameVersionStringMap
     sprite: str
+    changes: list[dict[str, str]] = field(default_factory=list)
 
     def __post_init__(self):
         """Construct nested objects and validate."""
@@ -308,6 +309,7 @@ class Ability:
     effect: Optional[GameVersionStringMap]
     short_effect: Optional[str]
     flavor_text: GameVersionStringMap
+    changes: list[dict[str, str]] = field(default_factory=list)
 
     def __post_init__(self):
         """Construct nested objects and validate."""
@@ -470,6 +472,7 @@ class Move:
     stat_changes: list[StatChange]
     machine: Optional[str]
     metadata: MoveMetadata
+    changes: list[dict[str, str]] = field(default_factory=list)
 
     def __post_init__(self):
         """Construct nested objects and validate."""
@@ -1325,6 +1328,7 @@ class Pokemon:
     held_items: dict[str, dict[str, int]]
     moves: PokemonMoves
     forms: list[Form]
+    changes: list[dict[str, str]] = field(default_factory=list)
 
     def __post_init__(self):
         """Construct nested objects and validate."""

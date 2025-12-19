@@ -13,6 +13,16 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+
+    **Abilities:** `steadfast / inner-focus / prankster` → `prankster / steadfast / inner-focus`
+
+    **Level-up Moves:** `15 moves` → `21 moves`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

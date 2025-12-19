@@ -12,6 +12,18 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Base Stats:** `84 HP / 86 Atk / 88 Def / 111 SAtk / 101 SDef / 60 Spd` → `84 HP / 91 Atk / 88 Def / 111 SAtk / 101 SDef / 60 Spd`
+
+    **Abilities:** `defiant / competitive` → `defiant / torrent / defiant`
+
+    **Level-up Moves:** `17 moves` → `25 moves`
+
+    **TM/HM Compatibility:** `42 moves` → `43 moves (added: wave-crash)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

@@ -12,6 +12,18 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Base Stats:** `80 HP / 82 Atk / 83 Def / 100 SAtk / 100 SDef / 80 Spd` → `80 HP / 87 Atk / 85 Def / 103 SAtk / 100 SDef / 80 Spd`
+
+    **Abilities:** `overgrow / chlorophyll` → `solar-power / overgrow / chlorophyll`
+
+    **Level-up Moves:** `18 moves` → `25 moves`
+
+    **TM/HM Compatibility:** `31 moves` → `33 moves (added: sludge-wave, weather-ball)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

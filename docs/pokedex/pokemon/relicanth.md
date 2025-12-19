@@ -12,6 +12,16 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Abilities:** `swift-swim / rock-head / sturdy` → `sturdy / rock-head / sturdy`
+
+    **Level-up Moves:** `13 moves` → `21 moves`
+
+    **TM/HM Compatibility:** `34 moves` → `35 moves (added: wave-crash)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

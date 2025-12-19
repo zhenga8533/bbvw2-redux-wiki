@@ -1,5 +1,11 @@
 # Dragon Rush
 
+
+!!! info "ROM Changes
+
+    **Accuracy:** `75` → `80`
+
+
 ## :material-chart-box: Stats
 
 <div class="grid cards" markdown>

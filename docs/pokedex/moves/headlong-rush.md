@@ -1,5 +1,11 @@
 # Headlong Rush
 
+
+!!! info "ROM Changes
+
+    **Accuracy:** `100` → `90`
+
+
 ## :material-chart-box: Stats
 
 <div class="grid cards" markdown>

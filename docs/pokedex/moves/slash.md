@@ -1,5 +1,11 @@
 # Slash
 
+
+!!! info "ROM Changes
+
+    **Pp:** `20` → `15`
+
+
 ## :material-chart-box: Stats
 
 <div class="grid cards" markdown>

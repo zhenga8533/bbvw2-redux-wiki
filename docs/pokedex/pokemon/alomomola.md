@@ -13,6 +13,14 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Abilities:** `healer / hydration / regenerator` → `regenerator / hydration / regenerator`
+
+    **Level-up Moves:** `17 moves` → `20 moves`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

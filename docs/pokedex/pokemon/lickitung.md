@@ -12,6 +12,14 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Abilities:** `own-tempo / oblivious / cloud-nine` → `cloud-nine / gluttony / cloud-nine`
+
+    **Level-up Moves:** `15 moves` → `23 moves`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

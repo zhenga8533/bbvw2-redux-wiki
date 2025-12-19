@@ -12,6 +12,18 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Base Stats:** `65 HP / 95 Atk / 75 Def / 55 SAtk / 55 SDef / 85 Spd` → `65 HP / 95 Atk / 95 Def / 45 SAtk / 55 SDef / 95 Spd`
+
+    **Abilities:** `poison-point / swift-swim / intimidate` → `intimidate / swift-swim / poison-point`
+
+    **Level-up Moves:** `18 moves` → `25 moves`
+
+    **TM/HM Compatibility:** `30 moves` → `31 moves (added: wave-crash)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

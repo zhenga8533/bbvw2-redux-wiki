@@ -12,6 +12,16 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Abilities:** `insomnia / keen-eye / tinted-lens` → `tinted-lens / insomnia / keen-eye`
+
+    **Level-up Moves:** `17 moves` → `22 moves`
+
+    **TM/HM Compatibility:** `25 moves` → `26 moves (added: flash)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

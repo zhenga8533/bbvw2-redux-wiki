@@ -13,6 +13,20 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+
+    **Base Stats:** `89 HP / 124 Atk / 80 Def / 55 SAtk / 80 SDef / 55 Spd` → `115 HP / 125 Atk / 85 Def / 55 SAtk / 85 SDef / 55 Spd`
+
+    **Abilities:** `iron-fist / klutz / no-guard` → `iron-fist / no-guard / klutz`
+
+    **Level-up Moves:** `17 moves` → `24 moves`
+
+    **TM/HM Compatibility:** `40 moves` → `42 moves (added: power-up-punch, aura-sphere)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

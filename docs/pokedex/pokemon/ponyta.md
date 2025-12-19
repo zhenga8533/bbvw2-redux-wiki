@@ -12,6 +12,18 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+
+    **Abilities:** `run-away / flash-fire / flame-body` → `flame-body / flame-body`
+
+    **Level-up Moves:** `14 moves` → `23 moves`
+
+    **TM/HM Compatibility:** `23 moves` → `24 moves (added: low-sweep)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

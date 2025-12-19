@@ -1,5 +1,13 @@
 # Smog
 
+
+!!! info "ROM Changes
+
+    **Power:** `30` → `35`
+
+    **Accuracy:** `70` → `90`
+
+
 ## :material-chart-box: Stats
 
 <div class="grid cards" markdown>

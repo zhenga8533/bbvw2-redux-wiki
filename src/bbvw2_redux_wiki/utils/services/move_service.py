@@ -5,16 +5,17 @@ Service for copying new moves from newer generation to parsed data folder.
 from typing import Any
 
 import orjson
-from bbvw2_redux_wiki.utils.core.config import POKEDB_GENERATIONS, POKEDB_VERSION_GROUPS
+from bbvw2_redux_wiki.utils.core.config import POKEDB_GENERATIONS, POKEDB_VERSION_GROUPS, VERSION_GROUP
 from bbvw2_redux_wiki.utils.core.loader import PokeDBLoader
 from bbvw2_redux_wiki.utils.core.logger import get_logger
+from bbvw2_redux_wiki.utils.services.base_service import BaseService
 from bbvw2_redux_wiki.utils.text.dict_util import get_most_common_value
 from bbvw2_redux_wiki.utils.text.text_util import name_to_id
 
 logger = get_logger(__name__)
 
 
-class MoveService:
+class MoveService(BaseService):
     """Service for copying moves from newer generation to parsed folder."""
 
     @staticmethod
@@ -162,9 +163,21 @@ class MoveService:
             if move is None:
                 return False
 
+            # Capture old value for change tracking
+            old_type = getattr(move.type, VERSION_GROUP, "unknown")
+
             # Update type for all version groups
             for version_key in move.type.__slots__:
                 setattr(move.type, version_key, type_id)
+
+            # Record change
+            BaseService.record_change(
+                move,
+                field="Type",
+                old_value=old_type,
+                new_value=type_id,
+                source="move_service",
+            )
 
             # Save using PokeDBLoader
             PokeDBLoader.save_move(move_id, move)
@@ -221,6 +234,14 @@ class MoveService:
 
             field_obj = getattr(move, field_name)
 
+            # Capture old value for change tracking
+            if hasattr(field_obj, "keys"):
+                # Version group object
+                old_value_raw = getattr(field_obj, VERSION_GROUP, "unknown")
+            else:
+                # Plain value
+                old_value_raw = field_obj
+
             # Process the new value based on attribute type
             if attribute == "type":
                 processed_value = name_to_id(new_value)
@@ -244,6 +265,15 @@ class MoveService:
             else:
                 # Plain value - set directly on the move object
                 setattr(move, field_name, processed_value)
+
+            # Record change
+            BaseService.record_change(
+                move,
+                field=field_name.replace("_", " ").title(),
+                old_value=str(old_value_raw) if old_value_raw is not None else "None",
+                new_value=str(processed_value) if processed_value is not None else "None",
+                source="move_service",
+            )
 
             # Save using PokeDBLoader
             PokeDBLoader.save_move(move_id, move)

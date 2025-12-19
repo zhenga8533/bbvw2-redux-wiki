@@ -12,6 +12,16 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Abilities:** `insomnia / super-luck / moxie` → `moxie / super-luck / moxie`
+
+    **Level-up Moves:** `?, ?, ?, ?, ?, ?, ?, ?, ?, ?` → `11 moves`
+
+    **TM/HM Compatibility:** `34 moves` → `35 moves (added: hurricane)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

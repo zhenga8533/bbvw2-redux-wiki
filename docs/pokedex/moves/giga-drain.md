@@ -1,5 +1,11 @@
 # Giga Drain
 
+
+!!! info "ROM Changes
+
+    **Power:** `75` → `80`
+
+
 ## :material-chart-box: Stats
 
 <div class="grid cards" markdown>

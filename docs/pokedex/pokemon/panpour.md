@@ -13,6 +13,16 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Abilities:** `gluttony / torrent` → `gluttony / torrent / torrent`
+
+    **Level-up Moves:** `15 moves` → `25 moves`
+
+    **TM/HM Compatibility:** `35 moves` → `38 moves (added: power-up-punch, quash, play-rough)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

@@ -13,6 +13,16 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Abilities:** `inner-focus / regenerator / reckless` → `reckless / regenerator / reckless`
+
+    **Level-up Moves:** `19 moves` → `23 moves`
+
+    **TM/HM Compatibility:** `40 moves` → `41 moves (added: rock-climb)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

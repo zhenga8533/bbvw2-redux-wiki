@@ -1,5 +1,11 @@
 # Absorb
 
+
+!!! info "ROM Changes
+
+    **Power:** `20` → `35`
+
+
 ## :material-chart-box: Stats
 
 <div class="grid cards" markdown>

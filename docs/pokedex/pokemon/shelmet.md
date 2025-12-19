@@ -13,6 +13,16 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+
+    **Abilities:** `hydration / shell-armor / overcoat` → `overcoat / shell-armor / hydration`
+
+    **Level-up Moves:** `15 moves` → `19 moves`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

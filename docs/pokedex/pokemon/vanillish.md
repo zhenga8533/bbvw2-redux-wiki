@@ -13,6 +13,16 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+
+    **Level-up Moves:** `18 moves` → `22 moves`
+
+    **TM/HM Compatibility:** `21 moves` → `23 moves (added: dazzling-gleam, power-gem)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

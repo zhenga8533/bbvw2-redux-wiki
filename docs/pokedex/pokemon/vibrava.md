@@ -12,6 +12,22 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+
+    **Base Stats:** `50 HP / 70 Atk / 50 Def / 50 SAtk / 50 SDef / 70 Spd` → `60 HP / 80 Atk / 70 Def / 90 SAtk / 70 SDef / 80 Spd`
+
+    **Type:** `ground / dragon` → `bug / dragon`
+
+    **EV Yield:** `1 Atk, 1 Spd` → `2 SAtk`
+
+    **Level-up Moves:** `24 moves` → `23 moves`
+
+    **TM/HM Compatibility:** `26 moves` → `27 moves (added: hurricane)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

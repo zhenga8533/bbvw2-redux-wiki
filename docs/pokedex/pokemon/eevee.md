@@ -12,6 +12,18 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+
+    **Abilities:** `run-away / adaptability / anticipation` → `adaptability / run-away / anticipation`
+
+    **Level-up Moves:** `22 moves` → `25 moves`
+
+    **TM/HM Compatibility:** `19 moves` → `21 moves (added: tri-attack, grass-knot)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

@@ -13,6 +13,14 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Level-up Moves:** `16 moves` → `21 moves`
+
+    **TM/HM Compatibility:** `44 moves` → `47 moves (added: quash, work-up, rock-climb)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

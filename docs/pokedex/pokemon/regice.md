@@ -13,6 +13,14 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Abilities:** `clear-body / ice-body` → `filter / ice-body / clear-body`
+
+    **Level-up Moves:** `13 moves` → `15 moves`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

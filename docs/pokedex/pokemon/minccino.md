@@ -13,6 +13,14 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Abilities:** `cute-charm / technician / skill-link` → `skill-link / technician / cute-charm`
+
+    **Level-up Moves:** `17 moves` → `21 moves`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

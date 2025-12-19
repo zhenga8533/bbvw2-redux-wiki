@@ -13,6 +13,16 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Abilities:** `quick feet / swarm / speed-boost` → `speed-boost / poison-point / swarm`
+
+    **Level-up Moves:** `18 moves` → `25 moves`
+
+    **TM/HM Compatibility:** `32 moves` → `34 moves (added: bug-buzz, work-up)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

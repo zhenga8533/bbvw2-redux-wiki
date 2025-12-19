@@ -12,6 +12,14 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Abilities:** `run-away / pickup / skill-link` → `skill-link / technician / pickup`
+
+    **Level-up Moves:** `14 moves` → `18 moves`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

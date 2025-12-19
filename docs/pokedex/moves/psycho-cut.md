@@ -1,5 +1,13 @@
 # Psycho Cut
 
+
+!!! info "ROM Changes
+
+    **Power:** `70` → `90`
+
+    **Pp:** `20` → `10`
+
+
 ## :material-chart-box: Stats
 
 <div class="grid cards" markdown>

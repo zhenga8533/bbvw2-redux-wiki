@@ -12,6 +12,16 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+
+    **Abilities:** `oblivious / snow-cloak / thick-fat` → `thick-fat / snow-cloak / oblivious`
+
+    **Level-up Moves:** `24 moves` → `22 moves`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

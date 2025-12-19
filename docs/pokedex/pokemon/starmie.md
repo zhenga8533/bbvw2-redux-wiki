@@ -12,6 +12,16 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Abilities:** `illuminate / natural-cure / analytic` → `analytic / natural-cure / analytic`
+
+    **Level-up Moves:** `?, ?, ?, ?, ?, ?` → `?, ?, ?, ?, ?, ?, ?, ?`
+
+    **TM/HM Compatibility:** `36 moves` → `37 moves (added: tri-attack)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

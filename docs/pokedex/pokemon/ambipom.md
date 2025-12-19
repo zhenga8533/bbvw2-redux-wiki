@@ -12,6 +12,18 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Base Stats:** `75 HP / 100 Atk / 66 Def / 60 SAtk / 66 SDef / 115 Spd` → `75 HP / 105 Atk / 66 Def / 68 SAtk / 66 SDef / 115 Spd`
+
+    **Abilities:** `technician / pickup / skill-link` → `skill-link / technician / pickup`
+
+    **Level-up Moves:** `16 moves` → `21 moves`
+
+    **TM/HM Compatibility:** `40 moves` → `42 moves (added: quash, play-rough)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

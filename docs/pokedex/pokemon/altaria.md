@@ -12,6 +12,18 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Base Stats:** `75 HP / 70 Atk / 90 Def / 70 SAtk / 105 SDef / 80 Spd` → `95 HP / 80 Atk / 90 Def / 70 SAtk / 105 SDef / 80 Spd`
+
+    **Abilities:** `natural-cure / cloud-nine` → `natural-cure / cloud-nine / cloud-nine`
+
+    **Type:** `dragon / flying` → `dragon / fairy`
+
+    **Level-up Moves:** `33 moves` → `25 moves`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

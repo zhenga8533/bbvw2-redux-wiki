@@ -12,6 +12,16 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Abilities:** `overgrow / leaf-guard` → `serene-grace / overgrow / leaf-guard`
+
+    **Level-up Moves:** `14 moves` → `18 moves`
+
+    **TM/HM Compatibility:** `23 moves` → `24 moves (added: dazzling-gleam)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

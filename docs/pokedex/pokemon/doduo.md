@@ -12,6 +12,16 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Abilities:** `run-away / early-bird / tangled-feet` → `tangled-feet / early-bird / tangled-feet`
+
+    **Level-up Moves:** `13 moves` → `22 moves`
+
+    **TM/HM Compatibility:** `19 moves` → `21 moves (added: low-sweep, rock-climb)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

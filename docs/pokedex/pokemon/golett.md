@@ -13,6 +13,18 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+
+    **Abilities:** `iron-fist / klutz / no-guard` → `iron-fist / no-guard / klutz`
+
+    **Level-up Moves:** `15 moves` → `19 moves`
+
+    **TM/HM Compatibility:** `32 moves` → `33 moves (added: power-up-punch)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

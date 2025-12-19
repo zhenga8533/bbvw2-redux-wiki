@@ -12,6 +12,20 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Base Stats:** `60 HP / 60 Atk / 60 Def / 105 SAtk / 105 SDef / 105 Spd` → `60 HP / 64 Atk / 66 Def / 105 SAtk / 105 SDef / 95 Spd`
+
+    **Abilities:** `levitate` → `infiltrator`
+
+    **Type:** `ghost` → `ghost / fairy`
+
+    **Level-up Moves:** `?, ?, ?, ?, ?, ?` → `11 moves`
+
+    **TM/HM Compatibility:** `37 moves` → `39 moves (added: mystical-fire, power-gem)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

@@ -427,6 +427,9 @@ class MoveGenerator(BaseGenerator):
         # Start building the markdown with title
         md = f"# {display_name}\n\n"
 
+        if hasattr(entry, "changes") and entry.changes:
+            md += "\n" + self.format_changes_info_box(entry.changes) + "\n"
+
         # Add sections
         md += self._generate_stats_section(entry)
         md += self._generate_effect_section(entry)

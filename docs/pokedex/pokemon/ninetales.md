@@ -12,6 +12,20 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Base Stats:** `73 HP / 76 Atk / 75 Def / 81 SAtk / 100 SDef / 100 Spd` → `73 HP / 67 Atk / 75 Def / 81 SAtk / 100 SDef / 109 Spd`
+
+    **Abilities:** `flash-fire / drought` → `drought / flash-fire / drought`
+
+    **Type:** `fire` → `fire / fairy`
+
+    **Level-up Moves:** `?, ?, ?, ?, ?` → `15 moves`
+
+    **TM/HM Compatibility:** `31 moves` → `36 moves (added: tri-attack, psychic, shadow-ball, dazzling-gleam, power-gem)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

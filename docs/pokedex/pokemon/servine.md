@@ -13,6 +13,16 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Abilities:** `overgrow / contrary` → `contrary / overgrow / contrary`
+
+    **Type:** `grass` → `grass / dragon`
+
+    **Level-up Moves:** `18 moves` → `21 moves`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

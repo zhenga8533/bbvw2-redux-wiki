@@ -12,6 +12,16 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+
+    **Abilities:** `synchronize / magic-bounce` → `synchronize / magic-bounce / magic-bounce`
+
+    **TM/HM Compatibility:** `33 moves` → `37 moves (added: tri-attack, aura-sphere, mystical-fire, power-gem)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

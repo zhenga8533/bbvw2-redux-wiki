@@ -12,6 +12,16 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Abilities:** `hyper-cutter / mold-breaker / moxie` → `moxie / mold-breaker / moxie`
+
+    **Level-up Moves:** `24 moves` → `18 moves`
+
+    **TM/HM Compatibility:** `35 moves` → `39 moves (added: hone-claws, acrobatics, bug-buzz, work-up)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

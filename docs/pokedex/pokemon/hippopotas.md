@@ -12,6 +12,14 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Abilities:** `sand-stream / sand-force` → `sand-stream / sand-force / sand-force`
+
+    **Level-up Moves:** `11 moves` → `19 moves`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

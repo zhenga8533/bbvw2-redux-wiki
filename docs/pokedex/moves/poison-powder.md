@@ -1,5 +1,11 @@
 # Poison Powder
 
+
+!!! info "ROM Changes
+
+    **Pp:** `35` → `20`
+
+
 ## :material-chart-box: Stats
 
 <div class="grid cards" markdown>

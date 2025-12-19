@@ -12,6 +12,16 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Type:** `water` → `water / ice`
+
+    **Level-up Moves:** `16 moves` → `23 moves`
+
+    **TM/HM Compatibility:** `20 moves` → `21 moves (added: waterfall)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

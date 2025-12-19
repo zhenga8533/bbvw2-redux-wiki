@@ -12,6 +12,14 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Abilities:** `chlorophyll / leaf-guard / regenerator` → `regenerator / leaf-guard / regenerator`
+
+    **Level-up Moves:** `34 moves` → `25 moves`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

@@ -12,6 +12,18 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Base Stats:** `65 HP / 130 Atk / 60 Def / 75 SAtk / 60 SDef / 75 Spd` → `65 HP / 130 Atk / 60 Def / 85 SAtk / 60 SDef / 85 Spd`
+
+    **Abilities:** `pressure / super-luck / justified` → `justified / super-luck / pressure`
+
+    **Level-up Moves:** `32 moves` → `21 moves`
+
+    **TM/HM Compatibility:** `52 moves` → `56 moves (added: aura-sphere, low-sweep, quash, rock-climb)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

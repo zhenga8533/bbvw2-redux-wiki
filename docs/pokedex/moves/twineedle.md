@@ -1,5 +1,11 @@
 # Twineedle
 
+
+!!! info "ROM Changes
+
+    **Power:** `25` → `40`
+
+
 ## :material-chart-box: Stats
 
 <div class="grid cards" markdown>

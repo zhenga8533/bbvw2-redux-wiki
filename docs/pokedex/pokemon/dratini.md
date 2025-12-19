@@ -12,6 +12,14 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Abilities:** `shed-skin / marvel-scale` → `shed-skin / marvel-scale / marvel-scale`
+
+    **Level-up Moves:** `14 moves` → `20 moves`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

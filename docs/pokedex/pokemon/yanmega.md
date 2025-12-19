@@ -12,6 +12,14 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Level-up Moves:** `20 moves` → `21 moves`
+
+    **TM/HM Compatibility:** `25 moves` → `27 moves (added: hurricane, fly)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

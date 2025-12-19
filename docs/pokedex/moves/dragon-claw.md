@@ -1,5 +1,13 @@
 # Dragon Claw
 
+
+!!! info "ROM Changes
+
+    **Power:** `80` → `85`
+
+    **Pp:** `15` → `10`
+
+
 ## :material-chart-box: Stats
 
 <div class="grid cards" markdown>

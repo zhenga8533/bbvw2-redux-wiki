@@ -12,6 +12,16 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Abilities:** `overgrow / chlorophyll` → `solar-power / overgrow / chlorophyll`
+
+    **Level-up Moves:** `14 moves` → `20 moves`
+
+    **TM/HM Compatibility:** `26 moves` → `27 moves (added: weather-ball)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

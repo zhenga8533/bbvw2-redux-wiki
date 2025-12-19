@@ -12,6 +12,16 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Abilities:** `aftermath / unburden / flare-boost` → `flare-boost / unburden / aftermath`
+
+    **Level-up Moves:** `27 moves` → `21 moves`
+
+    **TM/HM Compatibility:** `33 moves` → `34 moves (added: hurricane)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

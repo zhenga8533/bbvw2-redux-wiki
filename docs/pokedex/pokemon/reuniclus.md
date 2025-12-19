@@ -13,6 +13,16 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Abilities:** `overcoat / magic-guard / regenerator` → `regenerator / magic-guard / overcoat`
+
+    **Level-up Moves:** `20 moves` → `24 moves`
+
+    **TM/HM Compatibility:** `41 moves` → `42 moves (added: quash)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

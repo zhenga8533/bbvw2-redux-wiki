@@ -12,6 +12,14 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Abilities:** `chlorophyll / run-away` → `chlorophyll / run-away / run-away`
+
+    **Level-up Moves:** `12 moves` → `21 moves`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

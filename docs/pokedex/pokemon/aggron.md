@@ -12,6 +12,20 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+
+    **Base Stats:** `70 HP / 110 Atk / 180 Def / 60 SAtk / 60 SDef / 50 Spd` → `70 HP / 110 Atk / 160 Def / 50 SAtk / 80 SDef / 60 Spd`
+
+    **Abilities:** `sturdy / rock-head / heavy-metal` → `filter / rock-head / sturdy`
+
+    **Level-up Moves:** `33 moves` → `25 moves`
+
+    **TM/HM Compatibility:** `50 moves` → `51 moves (added: work-up)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

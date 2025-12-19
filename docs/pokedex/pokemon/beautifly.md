@@ -12,6 +12,18 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Base Stats:** `60 HP / 70 Atk / 50 Def / 90 SAtk / 50 SDef / 65 Spd` → `60 HP / 70 Atk / 57 Def / 120 SAtk / 58 SDef / 85 Spd`
+
+    **Abilities:** `swarm / rivalry` → `rivalry / swarm / rivalry`
+
+    **Level-up Moves:** `12 moves` → `16 moves`
+
+    **TM/HM Compatibility:** `27 moves` → `29 moves (added: hurricane, fly)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

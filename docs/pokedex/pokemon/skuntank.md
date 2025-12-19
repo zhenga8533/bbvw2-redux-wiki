@@ -12,6 +12,18 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+
+    **Base Stats:** `103 HP / 93 Atk / 67 Def / 71 SAtk / 61 SDef / 84 Spd` → `115 HP / 95 Atk / 70 Def / 70 SAtk / 60 SDef / 85 Spd`
+
+    **Level-up Moves:** `15 moves` → `23 moves`
+
+    **TM/HM Compatibility:** `36 moves` → `37 moves (added: quash)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

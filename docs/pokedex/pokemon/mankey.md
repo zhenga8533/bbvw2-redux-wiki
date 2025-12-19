@@ -12,6 +12,16 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Abilities:** `vital-spirit / anger-point / defiant` → `defiant / anger-point / vital-spirit`
+
+    **Level-up Moves:** `16 moves` → `23 moves`
+
+    **TM/HM Compatibility:** `40 moves` → `41 moves (added: cut)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

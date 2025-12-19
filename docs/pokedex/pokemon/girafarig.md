@@ -12,6 +12,18 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Base Stats:** `70 HP / 80 Atk / 65 Def / 90 SAtk / 65 SDef / 85 Spd` → `70 HP / 90 Atk / 65 Def / 95 SAtk / 65 SDef / 90 Spd`
+
+    **Abilities:** `inner-focus / early-bird / sap-sipper` → `sap-sipper / rattled / sap-sipper`
+
+    **Level-up Moves:** `16 moves` → `25 moves`
+
+    **TM/HM Compatibility:** `39 moves` → `41 moves (added: low-sweep, quash)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

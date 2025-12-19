@@ -13,6 +13,20 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+
+    **Abilities:** `frisk / shadow-tag` → `shadow-tag / frisk / frisk`
+
+    **Type:** `psychic` → `psychic / dark`
+
+    **Level-up Moves:** `16 moves` → `19 moves`
+
+    **TM/HM Compatibility:** `38 moves` → `39 moves (added: will-o-wisp)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

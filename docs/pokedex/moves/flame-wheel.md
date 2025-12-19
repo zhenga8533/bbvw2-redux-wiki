@@ -1,5 +1,13 @@
 # Flame Wheel
 
+
+!!! info "ROM Changes
+
+    **Power:** `60` → `75`
+
+    **Pp:** `25` → `20`
+
+
 ## :material-chart-box: Stats
 
 <div class="grid cards" markdown>

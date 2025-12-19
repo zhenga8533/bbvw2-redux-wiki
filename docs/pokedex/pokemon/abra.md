@@ -12,6 +12,18 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+
+    **Abilities:** `synchronize / inner-focus / magic-guard` → `synchronize / magic-guard / inner-focus`
+
+    **Level-up Moves:** `?` → `?, ?, ?`
+
+    **TM/HM Compatibility:** `36 moves` → `37 moves (added: aura-sphere)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

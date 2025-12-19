@@ -12,6 +12,22 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+
+    **Base Stats:** `80 HP / 80 Atk / 80 Def / 80 SAtk / 80 SDef / 80 Spd` → `80 HP / 110 Atk / 110 Def / 60 SAtk / 60 SDef / 80 Spd`
+
+    **Abilities:** `inner-focus / ice-body / moody` → `levitate`
+
+    **Type:** `ice` → `ice / rock`
+
+    **Level-up Moves:** `15 moves` → `19 moves`
+
+    **TM/HM Compatibility:** `30 moves` → `38 moves (added: smack-down, rock-tomb, power-gem, rock-polish, stone-edge...)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

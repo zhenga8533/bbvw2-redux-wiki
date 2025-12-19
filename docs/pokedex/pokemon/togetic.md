@@ -12,6 +12,16 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Abilities:** `hustle / serene-grace / super-luck` → `super-luck / serene-grace / super-luck`
+
+    **Level-up Moves:** `18 moves` → `25 moves`
+
+    **TM/HM Compatibility:** `40 moves` → `42 moves (added: tri-attack, hurricane)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

@@ -12,6 +12,18 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+
+    **Base Stats:** `60 HP / 79 Atk / 105 Def / 59 SAtk / 85 SDef / 36 Spd` → `66 HP / 99 Atk / 105 Def / 59 SAtk / 85 SDef / 36 Spd`
+
+    **Abilities:** `anticipation / overcoat` → `rough-skin / overcoat / overcoat`
+
+    **Level-up Moves:** `13 moves` → `20 moves`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

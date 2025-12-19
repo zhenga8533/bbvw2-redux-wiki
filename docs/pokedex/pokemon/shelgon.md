@@ -12,6 +12,16 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Abilities:** `rock-head / overcoat` → `rock-head / overcoat / overcoat`
+
+    **Level-up Moves:** `16 moves` → `23 moves`
+
+    **TM/HM Compatibility:** `28 moves` → `29 moves (added: work-up)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

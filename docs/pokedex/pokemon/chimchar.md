@@ -12,6 +12,14 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Abilities:** `blaze / iron-fist` → `iron-fist / blaze / iron-fist`
+
+    **Level-up Moves:** `13 moves` → `18 moves`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

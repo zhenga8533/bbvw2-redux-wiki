@@ -394,6 +394,9 @@ class ItemGenerator(BaseGenerator):
         # Add item header with sprite and category
         md += self._generate_item_header(entry)
 
+        if hasattr(entry, "changes") and entry.changes:
+            md += "\n" + self.format_changes_info_box(entry.changes) + "\n"
+
         # Add sections
         md += self._generate_effect_section(entry)
         md += self._generate_attributes_section(entry)

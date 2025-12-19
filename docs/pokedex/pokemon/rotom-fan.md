@@ -12,6 +12,12 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Abilities:** `levitate` → `motor-drive`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

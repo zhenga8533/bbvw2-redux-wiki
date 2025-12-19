@@ -12,6 +12,16 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Abilities:** `defiant / competitive` → `defiant / torrent / defiant`
+
+    **Level-up Moves:** `13 moves` → `18 moves`
+
+    **TM/HM Compatibility:** `30 moves` → `31 moves (added: wave-crash)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

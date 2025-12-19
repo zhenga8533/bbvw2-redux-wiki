@@ -12,6 +12,16 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Abilities:** `white-smoke / shell-armor` → `drought / shell-armor / white-smoke`
+
+    **Level-up Moves:** `17 moves` → `22 moves`
+
+    **TM/HM Compatibility:** `32 moves` → `33 moves (added: mystical-fire)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

@@ -12,6 +12,16 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Abilities:** `poison-point / rivalry / sheer-force` → `sheer-force / poison-point / rivalry`
+
+    **Level-up Moves:** `?, ?, ?, ?, ?, ?, ?, ?` → `14 moves`
+
+    **TM/HM Compatibility:** `53 moves` → `54 moves (added: low-sweep)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

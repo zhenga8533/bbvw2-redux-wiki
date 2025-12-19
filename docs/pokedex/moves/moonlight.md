@@ -1,5 +1,11 @@
 # Moonlight
 
+
+!!! info "ROM Changes
+
+    **Type:** `normal` → `fairy`
+
+
 ## :material-chart-box: Stats
 
 <div class="grid cards" markdown>

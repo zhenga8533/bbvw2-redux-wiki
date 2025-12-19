@@ -1,5 +1,13 @@
 # Glaciate
 
+
+!!! info "ROM Changes
+
+    **Power:** `65` → `85`
+
+    **Accuracy:** `95` → `100`
+
+
 ## :material-chart-box: Stats
 
 <div class="grid cards" markdown>

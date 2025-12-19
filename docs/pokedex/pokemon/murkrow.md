@@ -12,6 +12,16 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Abilities:** `insomnia / super-luck / prankster` → `prankster / super-luck / prankster`
+
+    **Level-up Moves:** `15 moves` → `20 moves`
+
+    **TM/HM Compatibility:** `31 moves` → `32 moves (added: hurricane)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

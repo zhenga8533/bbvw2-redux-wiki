@@ -12,6 +12,14 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Abilities:** `chlorophyll / healer` → `chlorophyll / cloud-nine / healer`
+
+    **Level-up Moves:** `?, ?, ?, ?, ?, ?, ?` → `15 moves`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

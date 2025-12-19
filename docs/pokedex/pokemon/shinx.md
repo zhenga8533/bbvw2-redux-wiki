@@ -12,6 +12,12 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Level-up Moves:** `12 moves` → `24 moves`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

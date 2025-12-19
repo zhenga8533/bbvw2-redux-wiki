@@ -12,6 +12,14 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Abilities:** `overgrow / unburden` → `unburden / overgrow / unburden`
+
+    **Level-up Moves:** `12 moves` → `19 moves`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

@@ -12,6 +12,18 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+
+    **Abilities:** `water-absorb / damp / drizzle` → `water-absorb / drizzle / drizzle`
+
+    **Level-up Moves:** `?, ?, ?, ?, ?, ?, ?` → `12 moves`
+
+    **TM/HM Compatibility:** `34 moves` → `35 moves (added: wave-crash)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

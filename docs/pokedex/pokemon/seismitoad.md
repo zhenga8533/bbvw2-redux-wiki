@@ -13,6 +13,14 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Abilities:** `swift-swim / poison-touch / water-absorb` → `water-absorb / poison-touch / swift-swim`
+
+    **Level-up Moves:** `18 moves` → `20 moves`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

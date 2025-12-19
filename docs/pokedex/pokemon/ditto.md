@@ -12,6 +12,12 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Abilities:** `limber / imposter` → `imposter`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

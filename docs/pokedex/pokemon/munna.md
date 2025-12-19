@@ -13,6 +13,16 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Abilities:** `forewarn / synchronize / telepathy` → `analytic / synchronize / telepathy`
+
+    **Type:** `psychic` → `psychic / fairy`
+
+    **Level-up Moves:** `17 moves` → `23 moves`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

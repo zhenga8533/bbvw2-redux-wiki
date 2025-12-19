@@ -13,6 +13,18 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+
+    **Abilities:** `big-pecks / overcoat / weak-armor` → `overcoat / weak-armor / overcoat`
+
+    **Level-up Moves:** `19 moves` → `23 moves`
+
+    **TM/HM Compatibility:** `33 moves` → `35 moves (added: hurricane, quash)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

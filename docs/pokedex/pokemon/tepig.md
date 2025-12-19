@@ -13,6 +13,14 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Abilities:** `blaze / thick-fat` → `sheer-force / blaze / sheer-force`
+
+    **Level-up Moves:** `15 moves` → `18 moves`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

@@ -13,6 +13,16 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Abilities:** `pressure` → `moody / pressure`
+
+    **Level-up Moves:** `14 moves` → `16 moves`
+
+    **TM/HM Compatibility:** `50 moves` → `51 moves (added: work-up)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

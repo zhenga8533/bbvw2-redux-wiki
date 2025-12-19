@@ -1,5 +1,11 @@
 # Power Up Punch
 
+
+!!! info "ROM Changes
+
+    **Power:** `40` → `50`
+
+
 ## :material-chart-box: Stats
 
 <div class="grid cards" markdown>

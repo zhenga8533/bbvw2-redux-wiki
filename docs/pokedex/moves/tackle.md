@@ -1,5 +1,13 @@
 # Tackle
 
+
+!!! info "ROM Changes
+
+    **Power:** `40` → `50`
+
+    **Pp:** `35` → `30`
+
+
 ## :material-chart-box: Stats
 
 <div class="grid cards" markdown>

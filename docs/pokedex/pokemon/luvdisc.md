@@ -12,6 +12,20 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Base Stats:** `43 HP / 30 Atk / 55 Def / 40 SAtk / 65 SDef / 97 Spd` → `53 HP / 30 Atk / 65 Def / 90 SAtk / 65 SDef / 117 Spd`
+
+    **Abilities:** `swift-swim / hydration` → `swift-swim / hydration / hydration`
+
+    **Type:** `water` → `water / fairy`
+
+    **Level-up Moves:** `14 moves` → `20 moves`
+
+    **TM/HM Compatibility:** `22 moves` → `26 moves (added: dazzling-gleam, wave-crash, quash, frost-breath)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

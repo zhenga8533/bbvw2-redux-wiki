@@ -1,5 +1,11 @@
 # Astonish
 
+
+!!! info "ROM Changes
+
+    **Power:** `30` → `35`
+
+
 ## :material-chart-box: Stats
 
 <div class="grid cards" markdown>

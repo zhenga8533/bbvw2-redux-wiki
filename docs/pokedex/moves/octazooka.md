@@ -1,5 +1,13 @@
 # Octazooka
 
+
+!!! info "ROM Changes
+
+    **Power:** `65` → `90`
+
+    **Pp:** `10` → `5`
+
+
 ## :material-chart-box: Stats
 
 <div class="grid cards" markdown>

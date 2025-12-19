@@ -12,6 +12,18 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Base Stats:** `60 HP / 48 Atk / 45 Def / 43 SAtk / 90 SDef / 42 Spd` → `70 HP / 48 Atk / 45 Def / 45 SAtk / 90 SDef / 42 Spd`
+
+    **Abilities:** `insomnia / forewarn / inner-focus` → `bad-dreams / insomnia / forewarn`
+
+    **Level-up Moves:** `17 moves` → `19 moves`
+
+    **TM/HM Compatibility:** `34 moves` → `35 moves (added: aura-sphere)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

@@ -13,6 +13,18 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Base Stats:** `75 HP / 98 Atk / 63 Def / 98 SAtk / 63 SDef / 101 Spd` → `75 HP / 99 Atk / 63 Def / 99 SAtk / 63 SDef / 101 Spd`
+
+    **Abilities:** `gluttony / torrent` → `gluttony / torrent / torrent`
+
+    **Level-up Moves:** `?, ?, ?, ?` → `15 moves`
+
+    **TM/HM Compatibility:** `40 moves` → `42 moves (added: quash, play-rough)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

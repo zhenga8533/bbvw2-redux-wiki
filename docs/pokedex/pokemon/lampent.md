@@ -13,6 +13,18 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+
+    **Abilities:** `shadow tag / flame-body / infiltrator` → `flash-fire / flame-body / infiltrator`
+
+    **Level-up Moves:** `19 moves` → `25 moves`
+
+    **TM/HM Compatibility:** `34 moves` → `35 moves (added: mystical-fire)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

@@ -13,6 +13,14 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Abilities:** `snow-cloak / rattled` → `snow-cloak / rattled / rattled`
+
+    **Level-up Moves:** `15 moves` → `21 moves`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

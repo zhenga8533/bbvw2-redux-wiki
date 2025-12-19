@@ -12,6 +12,18 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Base Stats:** `65 HP / 80 Atk / 40 Def / 45 SAtk / 80 SDef / 75 Spd` → `65 HP / 105 Atk / 50 Def / 55 SAtk / 95 SDef / 85 Spd`
+
+    **Abilities:** `swarm / sniper` → `adaptability / sniper / swarm`
+
+    **Level-up Moves:** `12 moves` → `15 moves`
+
+    **TM/HM Compatibility:** `32 moves` → `35 moves (added: bug-buzz, work-up, fly)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

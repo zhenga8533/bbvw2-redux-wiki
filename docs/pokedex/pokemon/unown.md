@@ -12,6 +12,16 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Base Stats:** `48 HP / 72 Atk / 48 Def / 72 SAtk / 48 SDef / 48 Spd` → `48 HP / 72 Atk / 48 Def / 102 SAtk / 48 SDef / 78 Spd`
+
+    **Catch Rate:** `225` → `255`
+
+    **Level-up Moves:** `?` → `?, ?, ?, ?, ?, ?, ?`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

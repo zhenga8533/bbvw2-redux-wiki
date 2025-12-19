@@ -12,6 +12,16 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Base Stats:** `37 HP / 25 Atk / 41 Def / 25 SAtk / 41 SDef / 25 Spd` → `37 HP / 35 Atk / 41 Def / 35 SAtk / 41 SDef / 25 Spd`
+
+    **Abilities:** `shed-skin / run-away` → `shed-skin / run-away / swarm`
+
+    **Level-up Moves:** `?, ?, ?, ?` → `?, ?, ?, ?, ?, ?`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

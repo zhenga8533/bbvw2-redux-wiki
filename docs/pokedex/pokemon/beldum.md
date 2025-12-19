@@ -12,6 +12,16 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Abilities:** `clear-body / light-metal` → `clear-body / rock-head / heavy-metal`
+
+    **Catch Rate:** `3` → `45`
+
+    **Level-up Moves:** `?` → `?, ?, ?, ?, ?`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

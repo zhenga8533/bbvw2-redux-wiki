@@ -12,6 +12,20 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+
+    **Base Stats:** `75 HP / 95 Atk / 67 Def / 125 SAtk / 95 SDef / 83 Spd` → `75 HP / 95 Atk / 62 Def / 130 SAtk / 85 SDef / 93 Spd`
+
+    **Abilities:** `flame-body / vital-spirit` → `flame-body / vital-spirit / vital-spirit`
+
+    **Level-up Moves:** `29 moves` → `25 moves`
+
+    **TM/HM Compatibility:** `37 moves` → `40 moves (added: tri-attack, sludge-bomb, aura-sphere)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

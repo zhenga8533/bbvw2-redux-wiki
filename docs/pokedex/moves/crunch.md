@@ -1,5 +1,11 @@
 # Crunch
 
+
+!!! info "ROM Changes
+
+    **Pp:** `15` → `10`
+
+
 ## :material-chart-box: Stats
 
 <div class="grid cards" markdown>

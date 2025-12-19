@@ -12,6 +12,16 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Abilities:** `sand-stream / unnerve` → `sand-stream / battle-armor / unnerve`
+
+    **Level-up Moves:** `20 moves` → `24 moves`
+
+    **TM/HM Compatibility:** `51 moves` → `52 moves (added: work-up)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

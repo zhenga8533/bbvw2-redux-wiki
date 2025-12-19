@@ -1,5 +1,11 @@
 # Rollout
 
+
+!!! info "ROM Changes
+
+    **Power:** `30` → `40`
+
+
 ## :material-chart-box: Stats
 
 <div class="grid cards" markdown>

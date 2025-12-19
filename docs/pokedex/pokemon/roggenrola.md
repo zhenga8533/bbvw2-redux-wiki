@@ -13,6 +13,16 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+
+    **Level-up Moves:** `13 moves` → `18 moves`
+
+    **TM/HM Compatibility:** `24 moves` → `25 moves (added: rock-climb)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

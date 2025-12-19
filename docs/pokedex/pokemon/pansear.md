@@ -13,6 +13,16 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Abilities:** `gluttony / blaze` → `gluttony / blaze / blaze`
+
+    **Level-up Moves:** `15 moves` → `25 moves`
+
+    **TM/HM Compatibility:** `35 moves` → `39 moves (added: power-up-punch, mystical-fire, quash, play-rough)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

@@ -12,6 +12,20 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Base Stats:** `65 HP / 47 Atk / 55 Def / 73 SAtk / 75 SDef / 85 Spd` → `70 HP / 33 Atk / 85 Def / 87 SAtk / 95 SDef / 100 Spd`
+
+    **Abilities:** `oblivious / tinted-lens / prankster` → `prankster / tinted-lens / oblivious`
+
+    **Type:** `bug` → `bug / fairy`
+
+    **Level-up Moves:** `12 moves` → `20 moves`
+
+    **TM/HM Compatibility:** `30 moves` → `32 moves (added: mystical-fire, quash)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

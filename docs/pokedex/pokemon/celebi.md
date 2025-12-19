@@ -13,6 +13,14 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Level-up Moves:** `14 moves` → `15 moves`
+
+    **TM/HM Compatibility:** `37 moves` → `38 moves (added: aura-sphere)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

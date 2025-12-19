@@ -1,5 +1,11 @@
 # Storm Throw
 
+
+!!! info "ROM Changes
+
+    **Power:** `60` → `50`
+
+
 ## :material-chart-box: Stats
 
 <div class="grid cards" markdown>

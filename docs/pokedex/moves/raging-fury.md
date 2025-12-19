@@ -1,5 +1,11 @@
 # Raging Fury
 
+
+!!! info "ROM Changes
+
+    **Power:** `120` → `95`
+
+
 ## :material-chart-box: Stats
 
 <div class="grid cards" markdown>

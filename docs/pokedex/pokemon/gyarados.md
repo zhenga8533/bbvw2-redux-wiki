@@ -12,6 +12,16 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Abilities:** `intimidate / moxie` → `intimidate / moxie / moxie`
+
+    **Level-up Moves:** `11 moves` → `21 moves`
+
+    **TM/HM Compatibility:** `39 moves` → `42 moves (added: wave-crash, hurricane, work-up)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

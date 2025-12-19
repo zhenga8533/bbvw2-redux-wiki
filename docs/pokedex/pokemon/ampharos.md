@@ -12,6 +12,20 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Base Stats:** `90 HP / 75 Atk / 75 Def / 115 SAtk / 90 SDef / 55 Spd` → `95 HP / 80 Atk / 90 Def / 115 SAtk / 90 SDef / 55 Spd`
+
+    **Abilities:** `static / plus` → `static / overcoat / plus`
+
+    **Type:** `electric` → `electric / dragon`
+
+    **Level-up Moves:** `31 moves` → `25 moves`
+
+    **TM/HM Compatibility:** `31 moves` → `35 moves (added: dazzling-gleam, energy-ball, power-gem, flash-cannon)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

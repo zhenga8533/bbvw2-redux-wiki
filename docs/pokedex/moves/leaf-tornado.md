@@ -1,5 +1,13 @@
 # Leaf Tornado
 
+
+!!! info "ROM Changes
+
+    **Power:** `65` → `70`
+
+    **Accuracy:** `90` → `100`
+
+
 ## :material-chart-box: Stats
 
 <div class="grid cards" markdown>

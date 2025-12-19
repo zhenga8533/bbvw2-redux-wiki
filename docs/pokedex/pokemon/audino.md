@@ -13,6 +13,16 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Abilities:** `healer / regenerator / klutz` → `natural-cure / regenerator / klutz`
+
+    **Type:** `normal` → `normal / fairy`
+
+    **Level-up Moves:** `14 moves` → `24 moves`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

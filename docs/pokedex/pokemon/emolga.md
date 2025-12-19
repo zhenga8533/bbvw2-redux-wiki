@@ -13,6 +13,18 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Base Stats:** `55 HP / 75 Atk / 60 Def / 75 SAtk / 60 SDef / 103 Spd` → `60 HP / 75 Atk / 60 Def / 90 SAtk / 60 SDef / 105 Spd`
+
+    **Abilities:** `static / motor-drive` → `static / motor-drive / motor-drive`
+
+    **Level-up Moves:** `15 moves` → `23 moves`
+
+    **TM/HM Compatibility:** `27 moves` → `28 moves (added: quash)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

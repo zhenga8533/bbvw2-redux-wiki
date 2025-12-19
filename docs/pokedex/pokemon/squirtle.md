@@ -12,6 +12,14 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Abilities:** `torrent / rain-dish` → `shell-armor / torrent / rain-dish`
+
+    **Level-up Moves:** `14 moves` → `20 moves`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

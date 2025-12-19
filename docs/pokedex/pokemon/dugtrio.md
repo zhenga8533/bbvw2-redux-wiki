@@ -12,6 +12,14 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Abilities:** `sand-veil / arena-trap / sand-force` → `sand-force / arena-trap / sand-force`
+
+    **Level-up Moves:** `18 moves` → `24 moves`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

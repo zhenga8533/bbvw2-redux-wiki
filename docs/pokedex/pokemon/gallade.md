@@ -12,6 +12,18 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Base Stats:** `68 HP / 125 Atk / 65 Def / 65 SAtk / 115 SDef / 80 Spd` → `68 HP / 125 Atk / 65 Def / 65 SAtk / 110 SDef / 85 Spd`
+
+    **Abilities:** `steadfast / justified` → `justified / hyper-cutter / justified`
+
+    **Level-up Moves:** `20 moves` → `25 moves`
+
+    **TM/HM Compatibility:** `58 moves` → `59 moves (added: hone-claws)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

@@ -1,5 +1,11 @@
 # Judgment
 
+
+!!! info "ROM Changes
+
+    **Power:** `100` → `150`
+
+
 ## :material-chart-box: Stats
 
 <div class="grid cards" markdown>

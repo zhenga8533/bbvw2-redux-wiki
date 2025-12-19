@@ -12,6 +12,16 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Abilities:** `soundproof / scrappy` → `soundproof / scrappy / rattled`
+
+    **Level-up Moves:** `16 moves` → `18 moves`
+
+    **TM/HM Compatibility:** `37 moves` → `38 moves (added: bug-buzz)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

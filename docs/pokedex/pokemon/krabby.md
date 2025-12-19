@@ -12,6 +12,16 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Abilities:** `hyper-cutter / shell-armor / sheer-force` → `sheer-force / shell-armor / sheer-force`
+
+    **Level-up Moves:** `15 moves` → `20 moves`
+
+    **TM/HM Compatibility:** `32 moves` → `35 moves (added: shadow-claw, rock-climb, waterfall)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

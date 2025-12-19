@@ -12,6 +12,18 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Base Stats:** `110 HP / 78 Atk / 73 Def / 76 SAtk / 71 SDef / 60 Spd` → `110 HP / 93 Atk / 88 Def / 76 SAtk / 73 SDef / 60 Spd`
+
+    **Abilities:** `oblivious / anticipation / hydration` → `simple / anticipation / hydration`
+
+    **Level-up Moves:** `18 moves` → `23 moves`
+
+    **TM/HM Compatibility:** `30 moves` → `31 moves (added: wave-crash)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

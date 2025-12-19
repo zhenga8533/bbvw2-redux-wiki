@@ -12,6 +12,16 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Abilities:** `blaze / solar-power` → `defiant / blaze / solar-power`
+
+    **Level-up Moves:** `12 moves` → `20 moves`
+
+    **TM/HM Compatibility:** `33 moves` → `35 moves (added: false-swipe, acrobatics)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

@@ -12,6 +12,18 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+
+    **Base Stats:** `100 HP / 50 Atk / 80 Def / 50 SAtk / 80 SDef / 50 Spd` → `100 HP / 50 Atk / 80 Def / 80 SAtk / 80 SDef / 50 Spd`
+
+    **Abilities:** `thick-fat / huge-power / sap-sipper` → `huge-power / thick-fat / sap-sipper`
+
+    **Level-up Moves:** `29 moves` → `25 moves`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

@@ -12,6 +12,20 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+
+    **Base Stats:** `40 HP / 45 Atk / 65 Def / 100 SAtk / 120 SDef / 90 Spd` → `40 HP / 35 Atk / 65 Def / 110 SAtk / 120 SDef / 95 Spd`
+
+    **Abilities:** `soundproof / filter / technician` → `technician / filter / technician`
+
+    **Level-up Moves:** `26 moves` → `24 moves`
+
+    **TM/HM Compatibility:** `43 moves` → `48 moves (added: tri-attack, aura-sphere, mystical-fire, quash, power-gem)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

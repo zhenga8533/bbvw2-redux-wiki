@@ -12,6 +12,18 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+
+    **Abilities:** `rough-skin / speed-boost` → `rough-skin / speed-boost / speed-boost`
+
+    **Level-up Moves:** `13 moves` → `22 moves`
+
+    **TM/HM Compatibility:** `26 moves` → `27 moves (added: wave-crash)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

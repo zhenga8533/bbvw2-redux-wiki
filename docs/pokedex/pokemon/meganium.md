@@ -12,6 +12,20 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Base Stats:** `80 HP / 82 Atk / 100 Def / 83 SAtk / 100 SDef / 80 Spd` → `80 HP / 82 Atk / 100 Def / 93 SAtk / 100 SDef / 80 Spd`
+
+    **Abilities:** `overgrow / leaf-guard` → `serene-grace / overgrow / leaf-guard`
+
+    **Type:** `grass` → `grass / fairy`
+
+    **Level-up Moves:** `17 moves` → `24 moves`
+
+    **TM/HM Compatibility:** `30 moves` → `32 moves (added: dazzling-gleam, play-rough)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

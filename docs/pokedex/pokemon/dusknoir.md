@@ -12,6 +12,18 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+
+    **Abilities:** `pressure` → `iron-fist / cursed-body / pressure`
+
+    **Level-up Moves:** `21 moves` → `25 moves`
+
+    **TM/HM Compatibility:** `42 moves` → `43 moves (added: quash)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

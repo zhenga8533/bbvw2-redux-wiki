@@ -12,6 +12,20 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+
+    **Base Stats:** `70 HP / 65 Atk / 60 Def / 90 SAtk / 75 SDef / 90 Spd` → `70 HP / 55 Atk / 60 Def / 100 SAtk / 75 SDef / 90 Spd`
+
+    **Abilities:** `shield-dust / tinted-lens / wonder-skin` → `wonder-skin / tinted-lens / shield-dust`
+
+    **Level-up Moves:** `19 moves` → `24 moves`
+
+    **TM/HM Compatibility:** `26 moves` → `29 moves (added: hurricane, bug-buzz, fly)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

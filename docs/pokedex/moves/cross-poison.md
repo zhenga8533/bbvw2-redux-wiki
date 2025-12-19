@@ -1,5 +1,13 @@
 # Cross Poison
 
+
+!!! info "ROM Changes
+
+    **Power:** `70` → `90`
+
+    **Pp:** `20` → `15`
+
+
 ## :material-chart-box: Stats
 
 <div class="grid cards" markdown>

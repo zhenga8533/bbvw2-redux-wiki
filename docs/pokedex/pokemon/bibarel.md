@@ -12,6 +12,14 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Base Stats:** `79 HP / 85 Atk / 60 Def / 55 SAtk / 60 SDef / 71 Spd` → `84 HP / 95 Atk / 65 Def / 55 SAtk / 65 SDef / 71 Spd`
+
+    **Level-up Moves:** `14 moves` → `25 moves`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

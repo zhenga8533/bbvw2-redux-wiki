@@ -1,5 +1,11 @@
 # Acid
 
+
+!!! info "ROM Changes
+
+    **Power:** `40` → `35`
+
+
 ## :material-chart-box: Stats
 
 <div class="grid cards" markdown>

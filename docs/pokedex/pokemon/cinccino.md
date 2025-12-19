@@ -13,6 +13,18 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Base Stats:** `75 HP / 95 Atk / 60 Def / 65 SAtk / 60 SDef / 115 Spd` → `80 HP / 100 Atk / 60 Def / 65 SAtk / 60 SDef / 115 Spd`
+
+    **Abilities:** `cute-charm / technician / skill-link` → `skill-link / technician / cute-charm`
+
+    **Level-up Moves:** `?, ?, ?, ?, ?, ?` → `?, ?, ?, ?, ?, ?, ?, ?, ?`
+
+    **TM/HM Compatibility:** `31 moves` → `32 moves (added: low-sweep)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

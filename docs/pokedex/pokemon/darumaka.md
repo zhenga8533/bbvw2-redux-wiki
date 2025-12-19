@@ -13,6 +13,14 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Abilities:** `hustle / inner-focus` → `sheer-force / sheer-force / inner-focus`
+
+    **Level-up Moves:** `16 moves` → `18 moves`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

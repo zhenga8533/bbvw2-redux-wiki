@@ -12,6 +12,16 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Abilities:** `sturdy / gluttony / contrary` → `sturdy / contrary / gluttony`
+
+    **Level-up Moves:** `29 moves` → `21 moves`
+
+    **TM/HM Compatibility:** `31 moves` → `32 moves (added: bug-buzz)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

@@ -12,6 +12,18 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Base Stats:** `75 HP / 100 Atk / 95 Def / 40 SAtk / 70 SDef / 110 Spd` → `75 HP / 110 Atk / 95 Def / 40 SAtk / 70 SDef / 110 Spd`
+
+    **Abilities:** `intimidate / anger-point / sheer-force` → `intimidate / sheer-force / anger-point`
+
+    **Level-up Moves:** `14 moves` → `21 moves`
+
+    **TM/HM Compatibility:** `37 moves` → `38 moves (added: brutal-swing)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

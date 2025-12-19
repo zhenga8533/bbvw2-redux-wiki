@@ -12,6 +12,18 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+
+    **Abilities:** `oblivious / own-tempo / regenerator` → `regenerator / own-tempo / regenerator`
+
+    **Level-up Moves:** `18 moves` → `22 moves`
+
+    **TM/HM Compatibility:** `48 moves` → `49 moves (added: waterfall)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

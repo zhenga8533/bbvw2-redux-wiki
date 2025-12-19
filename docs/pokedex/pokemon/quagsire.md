@@ -12,6 +12,16 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Abilities:** `damp / water-absorb / unaware` → `water-absorb / unaware / damp`
+
+    **Base Stats:** `95 HP / 85 Atk / 85 Def / 65 SAtk / 65 SDef / 35 Spd` → `95 HP / 95 Atk / 95 Def / 65 SAtk / 65 SDef / 35 Spd`
+
+    **Level-up Moves:** `14 moves` → `25 moves`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

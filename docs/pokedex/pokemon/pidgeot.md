@@ -12,6 +12,18 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Base Stats:** `83 HP / 80 Atk / 75 Def / 70 SAtk / 70 SDef / 91 Spd` → `83 HP / 60 Atk / 70 Def / 115 SAtk / 70 SDef / 101 Spd`
+
+    **Abilities:** `keen-eye / tangled-feet / big-pecks` → `no-guard / tangled-feet / keen-eye`
+
+    **Level-up Moves:** `17 moves` → `25 moves`
+
+    **TM/HM Compatibility:** `22 moves` → `24 moves (added: echoed-voice, hurricane)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

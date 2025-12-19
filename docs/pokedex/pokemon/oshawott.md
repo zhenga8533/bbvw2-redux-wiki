@@ -13,6 +13,16 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Abilities:** `torrent / shell-armor` → `shell-armor / torrent / shell-armor`
+
+    **Level-up Moves:** `15 moves` → `19 moves`
+
+    **TM/HM Compatibility:** `31 moves` → `32 moves (added: wave-crash)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

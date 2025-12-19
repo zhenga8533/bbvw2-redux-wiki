@@ -12,6 +12,18 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+
+    **Abilities:** `stench / sticky-hold / poison-touch` → `poison-touch / stench / poison-touch`
+
+    **Level-up Moves:** `27 moves` → `25 moves`
+
+    **TM/HM Compatibility:** `39 moves` → `40 moves (added: quash)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

@@ -12,6 +12,22 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+
+    **Base Stats:** `45 HP / 100 Atk / 45 Def / 45 SAtk / 45 SDef / 10 Spd` → `55 HP / 100 Atk / 45 Def / 45 SAtk / 45 SDef / 10 Spd`
+
+    **Abilities:** `hyper-cutter / arena-trap / sheer-force` → `hyper-cutter / sheer-force / arena-trap`
+
+    **Type:** `ground` → `bug / ground`
+
+    **Level-up Moves:** `28 moves` → `22 moves`
+
+    **TM/HM Compatibility:** `24 moves` → `25 moves (added: bug-buzz)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

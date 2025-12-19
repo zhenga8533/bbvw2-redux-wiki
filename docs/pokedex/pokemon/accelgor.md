@@ -13,6 +13,18 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+
+    **Abilities:** `hydration / sticky-hold / unburden` → `infiltrator / unburden / sticky-hold`
+
+    **Level-up Moves:** `18 moves` → `25 moves`
+
+    **TM/HM Compatibility:** `22 moves` → `23 moves (added: acrobatics)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

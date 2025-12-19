@@ -12,6 +12,18 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+
+    **Abilities:** `levitate` → `levitate / cursed-body / levitate`
+
+    **Level-up Moves:** `17 moves` → `25 moves`
+
+    **TM/HM Compatibility:** `34 moves` → `35 moves (added: aura-sphere)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

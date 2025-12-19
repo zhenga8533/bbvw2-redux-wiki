@@ -12,6 +12,16 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Abilities:** `sand-veil / water-absorb` → `unnerve / water-absorb / water-absorb`
+
+    **Level-up Moves:** `19 moves` → `25 moves`
+
+    **TM/HM Compatibility:** `31 moves` → `33 moves (added: low-sweep, rock-climb)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

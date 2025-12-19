@@ -12,6 +12,22 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Base Stats:** `52 HP / 90 Atk / 55 Def / 58 SAtk / 62 SDef / 60 Spd` → `55 HP / 110 Atk / 65 Def / 75 SAtk / 65 SDef / 100 Spd`
+
+    **Abilities:** `keen-eye / inner-focus / defiant` → `defeatist`
+
+    **Type:** `normal / flying` → `fighting / flying`
+
+    **EV Yield:** `1 Atk` → `2 Atk`
+
+    **Level-up Moves:** `18 moves` → `24 moves`
+
+    **TM/HM Compatibility:** `26 moves` → `30 moves (added: brick-break, low-sweep, focus-blast, hurricane)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

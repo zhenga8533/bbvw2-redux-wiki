@@ -1,5 +1,11 @@
 # Magma Storm
 
+
+!!! info "ROM Changes
+
+    **Power:** `100` → `120`
+
+
 ## :material-chart-box: Stats
 
 <div class="grid cards" markdown>

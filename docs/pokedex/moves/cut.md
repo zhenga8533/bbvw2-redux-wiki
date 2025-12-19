@@ -1,5 +1,11 @@
 # Cut
 
+
+!!! info "ROM Changes
+
+    **Type:** `normal` → `grass`
+
+
 ## :material-chart-box: Stats
 
 <div class="grid cards" markdown>

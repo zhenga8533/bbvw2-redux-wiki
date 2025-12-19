@@ -12,6 +12,14 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Abilities:** `compound-eyes / run-away` → `compound-eyes / run-away / run-away`
+
+    **Level-up Moves:** `?, ?, ?, ?, ?, ?, ?, ?, ?, ?` → `22 moves`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

@@ -12,6 +12,18 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Abilities:** `clear-body / light-metal` → `clear-body / iron-fist / heavy-metal`
+
+    **Catch Rate:** `3` → `45`
+
+    **Level-up Moves:** `25 moves` → `24 moves`
+
+    **TM/HM Compatibility:** `40 moves` → `42 moves (added: rock-climb, fly)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

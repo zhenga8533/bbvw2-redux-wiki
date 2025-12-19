@@ -12,6 +12,18 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Base Stats:** `115 HP / 45 Atk / 20 Def / 45 SAtk / 25 SDef / 20 Spd` → `115 HP / 35 Atk / 20 Def / 55 SAtk / 25 SDef / 20 Spd`
+
+    **Abilities:** `cute-charm / friend-guard` → `cute-charm / friend-guard / friend-guard`
+
+    **Level-up Moves:** `14 moves` → `22 moves`
+
+    **TM/HM Compatibility:** `42 moves` → `43 moves (added: power-gem)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

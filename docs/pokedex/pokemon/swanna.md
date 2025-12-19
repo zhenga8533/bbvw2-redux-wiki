@@ -13,6 +13,18 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Base Stats:** `75 HP / 87 Atk / 63 Def / 87 SAtk / 63 SDef / 98 Spd` → `82 HP / 63 Atk / 65 Def / 109 SAtk / 83 SDef / 98 Spd`
+
+    **Abilities:** `keen-eye / big-pecks / hydration` → `friend-guard / big-pecks / hydration`
+
+    **Level-up Moves:** `18 moves` → `23 moves`
+
+    **TM/HM Compatibility:** `23 moves` → `24 moves (added: hurricane)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

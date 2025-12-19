@@ -13,6 +13,16 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Abilities:** `slow-start` → `slow-start / defeatist / slow-start`
+
+    **Level-up Moves:** `14 moves` → `15 moves`
+
+    **TM/HM Compatibility:** `33 moves` → `36 moves (added: low-sweep, quash, work-up)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

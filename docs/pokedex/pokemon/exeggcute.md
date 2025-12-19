@@ -12,6 +12,16 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Abilities:** `chlorophyll / harvest` → `chlorophyll / harvest / harvest`
+
+    **Level-up Moves:** `16 moves` → `25 moves`
+
+    **TM/HM Compatibility:** `29 moves` → `30 moves (added: tri-attack)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

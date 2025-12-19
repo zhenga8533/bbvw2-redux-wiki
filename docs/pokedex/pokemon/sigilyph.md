@@ -13,6 +13,16 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Abilities:** `wonder-skin / magic-guard / tinted-lens` → `tinted-lens / magic-guard / wonder-skin`
+
+    **Level-up Moves:** `17 moves` → `23 moves`
+
+    **TM/HM Compatibility:** `37 moves` → `42 moves (added: tri-attack, mystical-fire, hurricane, quash, power-gem)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

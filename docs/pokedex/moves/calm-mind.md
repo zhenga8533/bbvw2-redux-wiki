@@ -1,5 +1,11 @@
 # Calm Mind
 
+
+!!! info "ROM Changes
+
+    **Pp:** `20` → `10`
+
+
 ## :material-chart-box: Stats
 
 <div class="grid cards" markdown>

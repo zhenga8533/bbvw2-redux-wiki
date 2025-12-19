@@ -13,6 +13,12 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **TM/HM Compatibility:** `47 moves` → `49 moves (added: low-sweep, work-up)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

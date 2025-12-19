@@ -13,6 +13,18 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+
+    **Abilities:** `quick feet / swarm / speed-boost` → `quick-feet / poison-point / swarm`
+
+    **Level-up Moves:** `14 moves` → `19 moves`
+
+    **TM/HM Compatibility:** `21 moves` → `22 moves (added: bug-buzz)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

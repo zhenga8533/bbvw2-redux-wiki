@@ -12,6 +12,16 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+
+    **Abilities:** `water-absorb / hydration` → `water-absorb / hydration / hydration`
+
+    **TM/HM Compatibility:** `31 moves` → `33 moves (added: tri-attack, grass-knot)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

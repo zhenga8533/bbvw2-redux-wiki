@@ -12,6 +12,18 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+
+    **Abilities:** `hyper-cutter / sand-veil / poison-heal` → `hyper-cutter / poison-heal / poison-heal`
+
+    **Level-up Moves:** `34 moves` → `25 moves`
+
+    **TM/HM Compatibility:** `44 moves` → `47 moves (added: bug-buzz, fly, rock-climb)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

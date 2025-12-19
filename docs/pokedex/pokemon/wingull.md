@@ -12,6 +12,16 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Abilities:** `keen-eye / rain-dish` → `hydration / rain-dish / keen-eye`
+
+    **Level-up Moves:** `23 moves` → `21 moves`
+
+    **TM/HM Compatibility:** `23 moves` → `24 moves (added: acrobatics)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

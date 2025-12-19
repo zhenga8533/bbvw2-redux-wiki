@@ -13,6 +13,16 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Abilities:** `shadow tag / flame-body / infiltrator` → `flash-fire / flame-body / shadow-tag`
+
+    **Level-up Moves:** `?, ?, ?, ?` → `?, ?, ?, ?, ?, ?, ?, ?, ?, ?`
+
+    **TM/HM Compatibility:** `36 moves` → `38 moves (added: dazzling-gleam, mystical-fire)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

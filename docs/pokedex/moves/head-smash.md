@@ -1,5 +1,11 @@
 # Head Smash
 
+
+!!! info "ROM Changes
+
+    **Accuracy:** `80` → `85`
+
+
 ## :material-chart-box: Stats
 
 <div class="grid cards" markdown>

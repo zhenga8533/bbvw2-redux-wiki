@@ -1,5 +1,11 @@
 # Flame Charge
 
+
+!!! info "ROM Changes
+
+    **Power:** `50` → `60`
+
+
 ## :material-chart-box: Stats
 
 <div class="grid cards" markdown>

@@ -1,5 +1,11 @@
 # Lick
 
+
+!!! info "ROM Changes
+
+    **Pp:** `30` → `25`
+
+
 ## :material-chart-box: Stats
 
 <div class="grid cards" markdown>

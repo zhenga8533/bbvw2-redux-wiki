@@ -1,5 +1,11 @@
 # Aura Sphere
 
+
+!!! info "ROM Changes
+
+    **Power:** `80` → `90`
+
+
 ## :material-chart-box: Stats
 
 <div class="grid cards" markdown>

@@ -12,6 +12,18 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Base Stats:** `170 HP / 90 Atk / 45 Def / 90 SAtk / 45 SDef / 60 Spd` → `200 HP / 90 Atk / 45 Def / 90 SAtk / 45 SDef / 60 Spd`
+
+    **Abilities:** `water-veil / oblivious / pressure` → `water-veil / pressure / pressure`
+
+    **Level-up Moves:** `19 moves` → `23 moves`
+
+    **TM/HM Compatibility:** `29 moves` → `31 moves (added: weather-ball, quash)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

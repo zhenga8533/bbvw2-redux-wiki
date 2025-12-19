@@ -1,5 +1,13 @@
 # Hurricane
 
+
+!!! info "ROM Changes
+
+    **Accuracy:** `70` → `80`
+
+    **Pp:** `10` → `5`
+
+
 ## :material-chart-box: Stats
 
 <div class="grid cards" markdown>

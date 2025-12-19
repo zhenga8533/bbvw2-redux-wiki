@@ -12,6 +12,16 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Abilities:** `static / lightning-rod / minus` → `intimidate / static / lightning-rod`
+
+    **Level-up Moves:** `18 moves` → `24 moves`
+
+    **TM/HM Compatibility:** `29 moves` → `30 moves (added: energy-ball)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

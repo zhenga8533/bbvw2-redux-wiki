@@ -1,5 +1,11 @@
 # Aurora Beam
 
+
+!!! info "ROM Changes
+
+    **Power:** `65` → `75`
+
+
 ## :material-chart-box: Stats
 
 <div class="grid cards" markdown>

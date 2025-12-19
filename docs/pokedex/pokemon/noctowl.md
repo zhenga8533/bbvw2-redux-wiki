@@ -12,6 +12,20 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Base Stats:** `100 HP / 50 Atk / 50 Def / 76 SAtk / 96 SDef / 70 Spd` → `100 HP / 40 Atk / 40 Def / 106 SAtk / 116 SDef / 60 Spd`
+
+    **Abilities:** `insomnia / keen-eye / tinted-lens` → `tinted-lens / insomnia / keen-eye`
+
+    **Type:** `normal / flying` → `psychic / flying`
+
+    **Level-up Moves:** `19 moves` → `25 moves`
+
+    **TM/HM Compatibility:** `27 moves` → `29 moves (added: mystical-fire, flash)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

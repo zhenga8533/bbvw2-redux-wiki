@@ -12,6 +12,16 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Abilities:** `inner-focus / multiscale` → `inner-focus / multiscale / multiscale`
+
+    **Level-up Moves:** `21 moves` → `25 moves`
+
+    **TM/HM Compatibility:** `49 moves` → `50 moves (added: hurricane)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

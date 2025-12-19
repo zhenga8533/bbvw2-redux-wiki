@@ -12,6 +12,14 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Abilities:** `poison-point / rivalry / hustle` → `hustle / poison-point / rivalry`
+
+    **Level-up Moves:** `13 moves` → `21 moves`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

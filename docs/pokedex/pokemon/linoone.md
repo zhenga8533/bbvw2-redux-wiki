@@ -12,6 +12,16 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Base Stats:** `78 HP / 70 Atk / 61 Def / 50 SAtk / 61 SDef / 100 Spd` → `85 HP / 85 Atk / 60 Def / 60 SAtk / 60 SDef / 100 Spd`
+
+    **Level-up Moves:** `17 moves` → `22 moves`
+
+    **TM/HM Compatibility:** `37 moves` → `39 moves (added: low-sweep, rock-climb)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

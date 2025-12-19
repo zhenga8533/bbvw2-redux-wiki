@@ -12,6 +12,16 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Abilities:** `inner-focus / infiltrator` → `inner-focus / infiltrator / infiltrator`
+
+    **Level-up Moves:** `27 moves` → `23 moves`
+
+    **TM/HM Compatibility:** `28 moves` → `29 moves (added: hurricane)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

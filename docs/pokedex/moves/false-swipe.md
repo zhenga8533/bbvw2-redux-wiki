@@ -1,5 +1,11 @@
 # False Swipe
 
+
+!!! info "ROM Changes
+
+    **Pp:** `40` → `30`
+
+
 ## :material-chart-box: Stats
 
 <div class="grid cards" markdown>

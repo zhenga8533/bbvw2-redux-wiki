@@ -12,6 +12,20 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Base Stats:** `30 HP / 45 Atk / 135 Def / 45 SAtk / 90 SDef / 30 Spd` → `30 HP / 35 Atk / 135 Def / 55 SAtk / 90 SDef / 30 Spd`
+
+    **Abilities:** `sturdy / magnet-pull / sand-force` → `sturdy / sand-force / magnet-pull`
+
+    **Base Experience:** `75` → `65`
+
+    **Level-up Moves:** `29 moves` → `21 moves`
+
+    **TM/HM Compatibility:** `30 moves` → `32 moves (added: charge-beam, power-gem)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

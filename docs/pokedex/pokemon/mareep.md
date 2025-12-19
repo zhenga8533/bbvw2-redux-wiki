@@ -12,6 +12,18 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Base Stats:** `55 HP / 40 Atk / 40 Def / 65 SAtk / 45 SDef / 35 Spd` → `55 HP / 40 Atk / 45 Def / 65 SAtk / 45 SDef / 35 Spd`
+
+    **Abilities:** `static / plus` → `static / overcoat / plus`
+
+    **Level-up Moves:** `27 moves` → `23 moves`
+
+    **TM/HM Compatibility:** `22 moves` → `23 moves (added: power-gem)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

@@ -12,6 +12,14 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Level-up Moves:** `18 moves` → `22 moves`
+
+    **TM/HM Compatibility:** `27 moves` → `33 moves (added: tri-attack, aura-sphere, overheat, energy-ball, weather-ball...)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

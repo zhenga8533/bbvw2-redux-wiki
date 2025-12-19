@@ -12,6 +12,16 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Abilities:** `intimidate / reckless` → `reckless / intimidate / reckless`
+
+    **Level-up Moves:** `15 moves` → `24 moves`
+
+    **TM/HM Compatibility:** `24 moves` → `25 moves (added: hurricane)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

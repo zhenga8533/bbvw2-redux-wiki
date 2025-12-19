@@ -13,6 +13,18 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Base Stats:** `75 HP / 86 Atk / 67 Def / 106 SAtk / 67 SDef / 60 Spd` → `75 HP / 106 Atk / 72 Def / 86 SAtk / 81 SDef / 60 Spd`
+
+    **Abilities:** `water-absorb / chlorophyll / storm-drain` → `water-absorb / storm-drain / storm-drain`
+
+    **Level-up Moves:** `18 moves` → `22 moves`
+
+    **TM/HM Compatibility:** `19 moves` → `20 moves (added: scald)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

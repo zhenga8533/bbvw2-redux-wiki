@@ -12,6 +12,20 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+
+    **Base Stats:** `70 HP / 65 Atk / 65 Def / 55 SAtk / 55 SDef / 70 Spd` → `70 HP / 95 Atk / 65 Def / 85 SAtk / 75 SDef / 95 Spd`
+
+    **Abilities:** `cute-charm / normalize / wonder-skin` → `wonder-skin / normalize / wonder-skin`
+
+    **Level-up Moves:** `?, ?, ?, ?` → `13 moves`
+
+    **TM/HM Compatibility:** `38 moves` → `41 moves (added: hone-claws, power-gem, cut)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

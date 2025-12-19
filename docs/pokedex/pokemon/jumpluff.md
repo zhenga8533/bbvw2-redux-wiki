@@ -12,6 +12,18 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Base Stats:** `75 HP / 55 Atk / 70 Def / 55 SAtk / 85 SDef / 110 Spd` → `75 HP / 55 Atk / 70 Def / 75 SAtk / 95 SDef / 110 Spd`
+
+    **Abilities:** `chlorophyll / leaf-guard / infiltrator` → `prankster / leaf-guard / infiltrator`
+
+    **Level-up Moves:** `21 moves` → `25 moves`
+
+    **TM/HM Compatibility:** `25 moves` → `27 moves (added: hurricane, fly)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

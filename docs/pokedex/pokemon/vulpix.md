@@ -12,6 +12,16 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Abilities:** `flash-fire / drought` → `drought / flash-fire / drought`
+
+    **Level-up Moves:** `33 moves` → `21 moves`
+
+    **TM/HM Compatibility:** `25 moves` → `28 moves (added: tri-attack, dazzling-gleam, power-gem)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

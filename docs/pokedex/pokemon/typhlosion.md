@@ -12,6 +12,18 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Base Stats:** `78 HP / 84 Atk / 78 Def / 109 SAtk / 85 SDef / 100 Spd` → `78 HP / 84 Atk / 78 Def / 110 SAtk / 85 SDef / 100 Spd`
+
+    **Abilities:** `blaze / flash-fire` → `flash-fire / blaze / flash-fire`
+
+    **Level-up Moves:** `18 moves` → `25 moves`
+
+    **TM/HM Compatibility:** `38 moves` → `39 moves (added: mystical-fire)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

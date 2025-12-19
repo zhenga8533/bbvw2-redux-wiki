@@ -12,6 +12,18 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Base Stats:** `40 HP / 20 Atk / 30 Def / 40 SAtk / 80 SDef / 55 Spd` → `40 HP / 60 Atk / 30 Def / 45 SAtk / 80 SDef / 55 Spd`
+
+    **Abilities:** `swarm / early-bird / rattled` → `rattled / iron-fist / swarm`
+
+    **Level-up Moves:** `13 moves` → `24 moves`
+
+    **TM/HM Compatibility:** `27 moves` → `28 moves (added: bug-buzz)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

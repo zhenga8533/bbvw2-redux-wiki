@@ -1,5 +1,11 @@
 # Needle Arm
 
+
+!!! info "ROM Changes
+
+    **Power:** `60` → `100`
+
+
 ## :material-chart-box: Stats
 
 <div class="grid cards" markdown>

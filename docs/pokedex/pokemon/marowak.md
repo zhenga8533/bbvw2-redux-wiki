@@ -12,6 +12,18 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+
+    **Abilities:** `rock-head / lightning-rod / battle-armor` → `battle-armor / lightning-rod / rock-head`
+
+    **Level-up Moves:** `18 moves` → `24 moves`
+
+    **TM/HM Compatibility:** `39 moves` → `40 moves (added: low-sweep)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

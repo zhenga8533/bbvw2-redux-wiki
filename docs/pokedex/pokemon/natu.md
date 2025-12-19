@@ -12,6 +12,14 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Abilities:** `synchronize / early-bird / magic-bounce` → `synchronize / magic-bounce / magic-bounce`
+
+    **Level-up Moves:** `16 moves` → `20 moves`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

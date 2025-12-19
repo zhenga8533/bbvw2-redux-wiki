@@ -13,6 +13,16 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Abilities:** `guts / inner-focus / mold-breaker` → `guts / mold-breaker / mold-breaker`
+
+    **Level-up Moves:** `15 moves` → `22 moves`
+
+    **TM/HM Compatibility:** `34 moves` → `35 moves (added: quash)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

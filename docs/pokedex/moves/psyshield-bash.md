@@ -1,5 +1,11 @@
 # Psyshield Bash
 
+
+!!! info "ROM Changes
+
+    **Accuracy:** `90` → `95`
+
+
 ## :material-chart-box: Stats
 
 <div class="grid cards" markdown>

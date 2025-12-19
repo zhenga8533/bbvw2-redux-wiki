@@ -13,6 +13,20 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Base Stats:** `95 HP / 110 Atk / 80 Def / 70 SAtk / 80 SDef / 50 Spd` → `105 HP / 130 Atk / 80 Def / 70 SAtk / 80 SDef / 55 Spd`
+
+    **Abilities:** `snow-cloak / swift-swim` → `snow-cloak / sheer-force / swift-swim`
+
+    **Type:** `ice` → `ice / fighting`
+
+    **Level-up Moves:** `21 moves` → `24 moves`
+
+    **TM/HM Compatibility:** `41 moves` → `45 moves (added: earthquake, low-sweep, work-up, waterfall)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

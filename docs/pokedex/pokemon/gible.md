@@ -12,6 +12,16 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Abilities:** `sand-veil / rough-skin` → `sand-veil / rough-skin / rough-skin`
+
+    **Level-up Moves:** `?, ?, ?, ?, ?, ?, ?, ?, ?, ?` → `17 moves`
+
+    **TM/HM Compatibility:** `32 moves` → `33 moves (added: work-up)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

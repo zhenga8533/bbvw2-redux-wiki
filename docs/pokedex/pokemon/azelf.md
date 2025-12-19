@@ -13,6 +13,14 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Type:** `psychic` → `psychic / fairy`
+
+    **Level-up Moves:** `12 moves` → `15 moves`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

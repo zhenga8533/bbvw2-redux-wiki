@@ -13,6 +13,16 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Abilities:** `limber / unburden / prankster` → `prankster / unburden / prankster`
+
+    **Level-up Moves:** `16 moves` → `25 moves`
+
+    **TM/HM Compatibility:** `31 moves` → `32 moves (added: quash)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

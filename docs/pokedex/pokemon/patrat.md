@@ -13,6 +13,18 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Base Stats:** `45 HP / 55 Atk / 39 Def / 35 SAtk / 39 SDef / 42 Spd` → `50 HP / 55 Atk / 40 Def / 35 SAtk / 40 SDef / 43 Spd`
+
+    **Abilities:** `run-away / keen-eye / analytic` → `analytic / keen-eye / analytic`
+
+    **Level-up Moves:** `15 moves` → `22 moves`
+
+    **TM/HM Compatibility:** `23 moves` → `24 moves (added: quash)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

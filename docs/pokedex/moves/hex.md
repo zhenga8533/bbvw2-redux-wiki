@@ -1,5 +1,11 @@
 # Hex
 
+
+!!! info "ROM Changes
+
+    **Pp:** `10` → `15`
+
+
 ## :material-chart-box: Stats
 
 <div class="grid cards" markdown>

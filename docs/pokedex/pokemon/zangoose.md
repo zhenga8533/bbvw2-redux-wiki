@@ -12,6 +12,18 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Base Stats:** `73 HP / 115 Atk / 60 Def / 60 SAtk / 60 SDef / 90 Spd` → `75 HP / 115 Atk / 60 Def / 60 SAtk / 60 SDef / 95 Spd`
+
+    **Abilities:** `immunity / toxic-boost` → `immunity / toxic-boost / toxic-boost`
+
+    **Level-up Moves:** `26 moves` → `22 moves`
+
+    **TM/HM Compatibility:** `45 moves` → `48 moves (added: low-sweep, acrobatics, cut)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

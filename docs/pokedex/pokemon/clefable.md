@@ -12,6 +12,16 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Abilities:** `cute-charm / magic-guard / unaware` → `unaware / magic-guard / unaware`
+
+    **Level-up Moves:** `?, ?, ?, ?` → `?, ?, ?, ?, ?, ?, ?`
+
+    **TM/HM Compatibility:** `47 moves` → `48 moves (added: power-gem)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

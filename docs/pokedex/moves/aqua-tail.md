@@ -1,5 +1,13 @@
 # Aqua Tail
 
+
+!!! info "ROM Changes
+
+    **Power:** `90` → `100`
+
+    **Accuracy:** `90` → `85`
+
+
 ## :material-chart-box: Stats
 
 <div class="grid cards" markdown>

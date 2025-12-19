@@ -12,6 +12,20 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+
+    **Base Stats:** `70 HP / 80 Atk / 70 Def / 80 SAtk / 70 SDef / 110 Spd` → `70 HP / 70 Atk / 70 Def / 110 SAtk / 70 SDef / 110 Spd`
+
+    **Abilities:** `snow-cloak / cursed-body` → `snow-cloak / cursed-body / cursed-body`
+
+    **Level-up Moves:** `15 moves` → `19 moves`
+
+    **TM/HM Compatibility:** `35 moves` → `36 moves (added: mystical-fire)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

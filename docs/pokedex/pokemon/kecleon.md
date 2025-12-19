@@ -12,6 +12,18 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Base Stats:** `60 HP / 90 Atk / 70 Def / 60 SAtk / 120 SDef / 40 Spd` → `60 HP / 100 Atk / 70 Def / 60 SAtk / 120 SDef / 40 Spd`
+
+    **Abilities:** `color-change` → `color-change / adaptability / adaptability`
+
+    **Level-up Moves:** `18 moves` → `22 moves`
+
+    **TM/HM Compatibility:** `43 moves` → `44 moves (added: acrobatics)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

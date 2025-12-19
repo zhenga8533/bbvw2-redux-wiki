@@ -12,6 +12,16 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Type:** `normal` → `fighting / fairy`
+
+    **Level-up Moves:** `16 moves` → `25 moves`
+
+    **TM/HM Compatibility:** `48 moves` → `49 moves (added: cut)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

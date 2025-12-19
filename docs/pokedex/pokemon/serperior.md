@@ -13,6 +13,20 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Base Stats:** `75 HP / 75 Atk / 95 Def / 75 SAtk / 95 SDef / 113 Spd` → `80 HP / 75 Atk / 95 Def / 77 SAtk / 95 SDef / 113 Spd`
+
+    **Abilities:** `overgrow / contrary` → `contrary / overgrow / contrary`
+
+    **Type:** `grass` → `grass / dragon`
+
+    **Level-up Moves:** `18 moves` → `25 moves`
+
+    **TM/HM Compatibility:** `31 moves` → `32 moves (added: quash)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

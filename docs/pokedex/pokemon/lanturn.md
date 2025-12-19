@@ -12,6 +12,18 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Base Stats:** `125 HP / 58 Atk / 58 Def / 76 SAtk / 76 SDef / 67 Spd` → `125 HP / 58 Atk / 58 Def / 91 SAtk / 86 SDef / 67 Spd`
+
+    **Abilities:** `volt-absorb / illuminate / water-absorb` → `volt-absorb / water-absorb / illuminate`
+
+    **Level-up Moves:** `19 moves` → `25 moves`
+
+    **TM/HM Compatibility:** `29 moves` → `31 moves (added: tri-attack, dazzling-gleam)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

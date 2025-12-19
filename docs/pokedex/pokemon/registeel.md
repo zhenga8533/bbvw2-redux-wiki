@@ -13,6 +13,14 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Abilities:** `clear-body / light-metal` → `heatproof / clear-body / light-metal`
+
+    **Level-up Moves:** `15 moves` → `17 moves`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

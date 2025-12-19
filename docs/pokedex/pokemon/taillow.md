@@ -12,6 +12,16 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Abilities:** `guts / scrappy` → `early-bird / scrappy / scrappy`
+
+    **Level-up Moves:** `?, ?, ?, ?, ?, ?, ?, ?, ?, ?` → `21 moves`
+
+    **TM/HM Compatibility:** `21 moves` → `22 moves (added: hurricane)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

@@ -13,6 +13,16 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Held Items:** `None` → `griseous-orb`
+
+    **Level-up Moves:** `13 moves` → `14 moves`
+
+    **TM/HM Compatibility:** `43 moves` → `44 moves (added: work-up)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

@@ -12,6 +12,12 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Abilities:** `shed-skin` → `shell-armor / shed-skin / shed-skin`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

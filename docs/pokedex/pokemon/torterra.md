@@ -12,6 +12,16 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Base Stats:** `95 HP / 109 Atk / 105 Def / 75 SAtk / 85 SDef / 56 Spd` → `105 HP / 109 Atk / 110 Def / 65 SAtk / 85 SDef / 61 Spd`
+
+    **Abilities:** `overgrow / shell-armor` → `rock-head / overgrow / shell-armor`
+
+    **Level-up Moves:** `17 moves` → `25 moves`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

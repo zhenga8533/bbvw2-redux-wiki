@@ -12,6 +12,18 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Base Stats:** `65 HP / 50 Atk / 35 Def / 115 SAtk / 95 SDef / 95 Spd` → `75 HP / 43 Atk / 65 Def / 125 SAtk / 96 SDef / 96 Spd`
+
+    **Abilities:** `oblivious / forewarn / dry-skin` → `trace / dry-skin / dry-skin`
+
+    **Level-up Moves:** `18 moves` → `24 moves`
+
+    **TM/HM Compatibility:** `40 moves` → `42 moves (added: aura-sphere, power-gem)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

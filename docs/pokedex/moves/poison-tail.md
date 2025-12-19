@@ -1,5 +1,13 @@
 # Poison Tail
 
+
+!!! info "ROM Changes
+
+    **Power:** `50` → `80`
+
+    **Pp:** `25` → `10`
+
+
 ## :material-chart-box: Stats
 
 <div class="grid cards" markdown>

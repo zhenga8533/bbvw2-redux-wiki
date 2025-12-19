@@ -1,5 +1,11 @@
 # Ice Shard
 
+
+!!! info "ROM Changes
+
+    **Pp:** `30` → `20`
+
+
 ## :material-chart-box: Stats
 
 <div class="grid cards" markdown>

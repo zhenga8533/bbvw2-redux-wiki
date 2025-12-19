@@ -12,6 +12,16 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Abilities:** `chlorophyll / early-bird / pickpocket` → `chlorophyll / rattled / early-bird`
+
+    **Level-up Moves:** `?, ?, ?, ?, ?, ?` → `13 moves`
+
+    **TM/HM Compatibility:** `42 moves` → `43 moves (added: quash)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

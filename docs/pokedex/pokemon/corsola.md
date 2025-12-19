@@ -12,6 +12,16 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Base Stats:** `55 HP / 55 Atk / 85 Def / 65 SAtk / 85 SDef / 35 Spd` → `65 HP / 45 Atk / 115 Def / 90 SAtk / 115 SDef / 35 Spd`
+
+    **Abilities:** `hustle / natural-cure / regenerator` → `regenerator / natural-cure / hustle`
+
+    **Level-up Moves:** `28 moves` → `21 moves`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

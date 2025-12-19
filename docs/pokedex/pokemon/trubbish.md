@@ -13,6 +13,16 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Base Stats:** `50 HP / 50 Atk / 62 Def / 40 SAtk / 62 SDef / 65 Spd` → `65 HP / 50 Atk / 62 Def / 45 SAtk / 62 SDef / 65 Spd`
+
+    **Abilities:** `stench / sticky-hold / aftermath` → `aftermath / stench / sticky-hold`
+
+    **Level-up Moves:** `16 moves` → `22 moves`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

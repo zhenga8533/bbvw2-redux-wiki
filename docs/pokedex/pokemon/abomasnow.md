@@ -12,6 +12,16 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Abilities:** `snow-warning / soundproof` → `snow-warning / soundproof / soundproof`
+
+    **Level-up Moves:** `15 moves` → `25 moves`
+
+    **TM/HM Compatibility:** `36 moves` → `38 moves (added: power-up-punch, work-up)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

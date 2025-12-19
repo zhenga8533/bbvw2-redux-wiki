@@ -12,6 +12,14 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Level-up Moves:** `26 moves` → `20 moves`
+
+    **TM/HM Compatibility:** `30 moves` → `31 moves (added: sludge-wave)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

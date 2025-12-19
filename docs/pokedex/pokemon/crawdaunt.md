@@ -12,6 +12,14 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Abilities:** `hyper-cutter / shell-armor / adaptability` → `adaptability / hyper-cutter / adaptability`
+
+    **Level-up Moves:** `17 moves` → `24 moves`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

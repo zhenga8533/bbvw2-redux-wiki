@@ -12,6 +12,18 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Base Stats:** `65 HP / 76 Atk / 84 Def / 54 SAtk / 96 SDef / 105 Spd` → `65 HP / 96 Atk / 84 Def / 54 SAtk / 96 SDef / 105 Spd`
+
+    **Abilities:** `cute-charm / klutz / limber` → `scrappy / scrappy / limber`
+
+    **Type:** `normal` → `normal / fighting`
+
+    **Level-up Moves:** `18 moves` → `25 moves`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

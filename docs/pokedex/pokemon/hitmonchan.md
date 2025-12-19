@@ -12,6 +12,14 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Abilities:** `keen-eye / iron-fist / inner-focus` → `iron-fist / keen-eye / inner-focus`
+
+    **Level-up Moves:** `18 moves` → `25 moves`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

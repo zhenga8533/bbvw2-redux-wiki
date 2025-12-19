@@ -1,5 +1,13 @@
 # Stun Spore
 
+
+!!! info "ROM Changes
+
+    **Pp:** `30` → `20`
+
+    **Accuracy:** `75` → `90`
+
+
 ## :material-chart-box: Stats
 
 <div class="grid cards" markdown>

@@ -1,5 +1,11 @@
 # Thunder
 
+
+!!! info "ROM Changes
+
+    **Pp:** `10` → `5`
+
+
 ## :material-chart-box: Stats
 
 <div class="grid cards" markdown>

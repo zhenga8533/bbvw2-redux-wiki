@@ -361,6 +361,30 @@ class BaseGenerator(ABC):
         """
         raise NotImplementedError("Subclasses must implement format_row()")
 
+    def format_changes_info_box(self, changes: list[dict[str, str]]) -> str:
+        """Format changes as a markdown info box.
+
+        Args:
+            changes: List of change dictionaries with keys: field, old_value, new_value, timestamp, source
+
+        Returns:
+            str: Markdown formatted info box, or empty string if no changes
+        """
+        if not changes:
+            return ""
+
+        md = '!!! info "ROM Changes\n\n'
+
+        for change in changes:
+            field = change.get("field", "Unknown")
+            old_val = change.get("old_value", "?")
+            new_val = change.get("new_value", "?")
+
+            # Format the change line with code blocks for values
+            md += f"    **{field}:** `{old_val}` → `{new_val}`\n\n"
+
+        return md
+
     def generate(self) -> bool:
         """
         Execute the full generation process.

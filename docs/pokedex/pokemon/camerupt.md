@@ -12,6 +12,18 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Base Stats:** `70 HP / 100 Atk / 70 Def / 105 SAtk / 75 SDef / 40 Spd` → `90 HP / 110 Atk / 70 Def / 105 SAtk / 75 SDef / 40 Spd`
+
+    **Abilities:** `magma-armor / solid-rock / anger-point` → `solid-rock / simple / anger-point`
+
+    **Level-up Moves:** `29 moves` → `24 moves`
+
+    **TM/HM Compatibility:** `36 moves` → `38 moves (added: power-gem, rock-climb)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

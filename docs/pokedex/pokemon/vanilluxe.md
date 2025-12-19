@@ -13,6 +13,16 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Type:** `ice` → `ice / fairy`
+
+    **Level-up Moves:** `19 moves` → `25 moves`
+
+    **TM/HM Compatibility:** `23 moves` → `25 moves (added: dazzling-gleam, power-gem)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

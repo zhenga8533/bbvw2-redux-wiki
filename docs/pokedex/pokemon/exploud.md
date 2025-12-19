@@ -12,6 +12,18 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Base Stats:** `104 HP / 91 Atk / 63 Def / 91 SAtk / 63 SDef / 68 Spd` → `104 HP / 101 Atk / 63 Def / 101 SAtk / 73 SDef / 78 Spd`
+
+    **Abilities:** `soundproof / scrappy` → `soundproof / scrappy / rattled`
+
+    **Level-up Moves:** `21 moves` → `24 moves`
+
+    **TM/HM Compatibility:** `41 moves` → `42 moves (added: bug-buzz)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

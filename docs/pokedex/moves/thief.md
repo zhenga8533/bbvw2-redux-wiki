@@ -1,5 +1,13 @@
 # Thief
 
+
+!!! info "ROM Changes
+
+    **Power:** `60` → `50`
+
+    **Pp:** `25` → `15`
+
+
 ## :material-chart-box: Stats
 
 <div class="grid cards" markdown>

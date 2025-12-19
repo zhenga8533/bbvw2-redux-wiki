@@ -12,6 +12,18 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+
+    **Abilities:** `motor-drive / vital-spirit` → `motor-drive / vital-spirit / vital-spirit`
+
+    **Type:** `electric` → `electric / fighting`
+
+    **Level-up Moves:** `29 moves` → `25 moves`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

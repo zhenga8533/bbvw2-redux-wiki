@@ -12,6 +12,18 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Base Stats:** `45 HP / 67 Atk / 60 Def / 35 SAtk / 50 SDef / 63 Spd` → `45 HP / 77 Atk / 60 Def / 25 SAtk / 50 SDef / 73 Spd`
+
+    **Abilities:** `swift-swim / water-veil / lightning-rod` → `lightning-rod / swift-swim / water-veil`
+
+    **Level-up Moves:** `14 moves` → `23 moves`
+
+    **TM/HM Compatibility:** `21 moves` → `22 moves (added: wave-crash)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

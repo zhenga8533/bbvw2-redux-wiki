@@ -1,5 +1,11 @@
 # Air Cutter
 
+
+!!! info "ROM Changes
+
+    **Pp:** `25` → `15`
+
+
 ## :material-chart-box: Stats
 
 <div class="grid cards" markdown>

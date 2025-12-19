@@ -13,6 +13,14 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Abilities:** `sturdy / inner-focus / mold-breaker` → `sturdy / mold-breaker / mold-breaker`
+
+    **Level-up Moves:** `15 moves` → `22 moves`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

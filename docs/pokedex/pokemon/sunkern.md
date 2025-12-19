@@ -12,6 +12,16 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Base Stats:** `30 HP / 30 Atk / 30 Def / 30 SAtk / 30 SDef / 30 Spd` → `50 HP / 30 Atk / 50 Def / 30 SAtk / 50 SDef / 30 Spd`
+
+    **Abilities:** `chlorophyll / solar-power / early-bird` → `chlorophyll / solar-power / chlorophyll`
+
+    **Level-up Moves:** `27 moves` → `22 moves`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

@@ -1,5 +1,13 @@
 # Dragon Pulse
 
+
+!!! info "ROM Changes
+
+    **Power:** `85` → `90`
+
+    **Accuracy:** `100` → `None`
+
+
 ## :material-chart-box: Stats
 
 <div class="grid cards" markdown>

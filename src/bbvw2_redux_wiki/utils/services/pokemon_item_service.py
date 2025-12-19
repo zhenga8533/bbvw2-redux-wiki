@@ -7,12 +7,13 @@ import re
 from bbvw2_redux_wiki.utils.core.config import VERSION_GROUP
 from bbvw2_redux_wiki.utils.core.loader import PokeDBLoader
 from bbvw2_redux_wiki.utils.core.logger import get_logger
+from bbvw2_redux_wiki.utils.services.base_service import BaseService
 from bbvw2_redux_wiki.utils.text.text_util import name_to_id, parse_pokemon_forme
 
 logger = get_logger(__name__)
 
 
-class PokemonItemService:
+class PokemonItemService(BaseService):
     """Service for updating Pokemon held item data."""
 
     @staticmethod
@@ -71,12 +72,27 @@ class PokemonItemService:
                     f"Item '{item_name}' (ID: {item_id}) not found in database. Skipping validation but saving anyway."
                 )
 
+            # Capture old held items for change tracking
+            old_held_items = list(pokemon_data.held_items.keys())
+
             # Update held_items
             # Structure: {item_name: {version_group: rarity}}
             if item_id not in pokemon_data.held_items:
                 pokemon_data.held_items[item_id] = {}
 
             pokemon_data.held_items[item_id][VERSION_GROUP] = rarity
+
+            # Record change
+            new_held_items = list(pokemon_data.held_items.keys())
+            if item_id not in old_held_items:
+                # New item added
+                BaseService.record_change(
+                    pokemon_data,
+                    field="Held Items",
+                    old_value=", ".join(old_held_items) if old_held_items else "None",
+                    new_value=", ".join(new_held_items),
+                    source="pokemon_item_service",
+                )
 
             # Save using PokeDBLoader
             PokeDBLoader.save_pokemon(pokemon_id, pokemon_data)

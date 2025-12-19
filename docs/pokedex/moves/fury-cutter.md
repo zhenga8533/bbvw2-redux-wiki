@@ -1,5 +1,11 @@
 # Fury Cutter
 
+
+!!! info "ROM Changes
+
+    **Power:** `40` → `30`
+
+
 ## :material-chart-box: Stats
 
 <div class="grid cards" markdown>

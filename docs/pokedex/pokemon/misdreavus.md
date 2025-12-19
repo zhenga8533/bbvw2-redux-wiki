@@ -12,6 +12,18 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Abilities:** `levitate` → `infiltrator`
+
+    **Type:** `ghost` → `ghost / fairy`
+
+    **Level-up Moves:** `14 moves` → `20 moves`
+
+    **TM/HM Compatibility:** `34 moves` → `36 moves (added: mystical-fire, power-gem)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

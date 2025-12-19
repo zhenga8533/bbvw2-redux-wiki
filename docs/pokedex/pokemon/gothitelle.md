@@ -13,6 +13,18 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Abilities:** `frisk / shadow-tag` → `shadow-tag / frisk / frisk`
+
+    **Type:** `psychic` → `psychic / dark`
+
+    **Level-up Moves:** `19 moves` → `23 moves`
+
+    **TM/HM Compatibility:** `42 moves` → `44 moves (added: focus-blast, will-o-wisp)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

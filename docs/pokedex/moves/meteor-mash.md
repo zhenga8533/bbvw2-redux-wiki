@@ -1,5 +1,11 @@
 # Meteor Mash
 
+
+!!! info "ROM Changes
+
+    **Power:** `90` → `95`
+
+
 ## :material-chart-box: Stats
 
 <div class="grid cards" markdown>

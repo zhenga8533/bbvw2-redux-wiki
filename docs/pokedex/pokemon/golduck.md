@@ -12,6 +12,20 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+
+    **Abilities:** `damp / cloud-nine / swift-swim` → `cloud-nine / swift-swim / damp`
+
+    **Type:** `water` → `water / psychic`
+
+    **Level-up Moves:** `32 moves` → `25 moves`
+
+    **TM/HM Compatibility:** `39 moves` → `42 moves (added: aura-sphere, wave-crash, power-gem)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

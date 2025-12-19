@@ -12,6 +12,16 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+
+    **Abilities:** `flame-body / vital-spirit` → `flame-body / vital-spirit / vital-spirit`
+
+    **TM/HM Compatibility:** `29 moves` → `30 moves (added: aura-sphere)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

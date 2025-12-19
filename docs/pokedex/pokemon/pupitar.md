@@ -12,6 +12,16 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Abilities:** `shed-skin` → `shed-skin / shell-armor / shed-skin`
+
+    **Level-up Moves:** `16 moves` → `18 moves`
+
+    **TM/HM Compatibility:** `31 moves` → `32 moves (added: work-up)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

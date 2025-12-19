@@ -12,6 +12,20 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Base Stats:** `78 HP / 84 Atk / 78 Def / 109 SAtk / 85 SDef / 100 Spd` → `75 HP / 101 Atk / 75 Def / 109 SAtk / 75 SDef / 100 Spd`
+
+    **Abilities:** `blaze / solar-power` → `defiant / blaze / solar-power`
+
+    **Type:** `fire / flying` → `fire / dragon`
+
+    **Level-up Moves:** `20 moves` → `25 moves`
+
+    **TM/HM Compatibility:** `43 moves` → `47 moves (added: low-sweep, false-swipe, hurricane, acrobatics)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

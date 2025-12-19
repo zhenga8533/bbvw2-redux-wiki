@@ -1,5 +1,11 @@
 # Triple Axel
 
+
+!!! info "ROM Changes
+
+    **Power:** `20` → `30`
+
+
 ## :material-chart-box: Stats
 
 <div class="grid cards" markdown>

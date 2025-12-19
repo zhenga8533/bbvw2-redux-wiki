@@ -13,6 +13,16 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Abilities:** `gluttony / flash-fire / white-smoke` → `mold-breaker / flash-fire / white-smoke`
+
+    **Level-up Moves:** `16 moves` → `24 moves`
+
+    **TM/HM Compatibility:** `31 moves` → `34 moves (added: low-sweep, work-up, rock-climb)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

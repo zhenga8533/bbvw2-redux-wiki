@@ -1,5 +1,13 @@
 # Poison Gas
 
+
+!!! info "ROM Changes
+
+    **Pp:** `40` → `20`
+
+    **Accuracy:** `90` → `100`
+
+
 ## :material-chart-box: Stats
 
 <div class="grid cards" markdown>

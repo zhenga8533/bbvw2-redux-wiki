@@ -1,5 +1,11 @@
 # Gust
 
+
+!!! info "ROM Changes
+
+    **Pp:** `35` → `25`
+
+
 ## :material-chart-box: Stats
 
 <div class="grid cards" markdown>

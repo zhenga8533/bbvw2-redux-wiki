@@ -12,6 +12,16 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Type:** `normal` → `normal / ground`
+
+    **Level-up Moves:** `14 moves` → `23 moves`
+
+    **TM/HM Compatibility:** `36 moves` → `37 moves (added: rock-climb)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

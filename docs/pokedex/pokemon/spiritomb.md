@@ -12,6 +12,14 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Abilities:** `pressure / infiltrator` → `pressure / infiltrator / infiltrator`
+
+    **Level-up Moves:** `13 moves` → `22 moves`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

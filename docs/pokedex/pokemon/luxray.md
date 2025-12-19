@@ -12,6 +12,16 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Abilities:** `rivalry / intimidate / guts` → `guts / intimidate / guts`
+
+    **Type:** `electric` → `electric / dark`
+
+    **Level-up Moves:** `14 moves` → `25 moves`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

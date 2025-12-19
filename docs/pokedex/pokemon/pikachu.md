@@ -12,6 +12,18 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Base Stats:** `35 HP / 55 Atk / 30 Def / 50 SAtk / 40 SDef / 90 Spd` → `40 HP / 65 Atk / 30 Def / 65 SAtk / 40 SDef / 100 Spd`
+
+    **Abilities:** `static / lightning-rod` → `static / lightning-rod / lightning-rod`
+
+    **Level-up Moves:** `14 moves` → `25 moves`
+
+    **TM/HM Compatibility:** `28 moves` → `31 moves (added: cut, fly, surf)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

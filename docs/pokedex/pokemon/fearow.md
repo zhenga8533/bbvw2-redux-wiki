@@ -12,6 +12,22 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+
+    **Base Stats:** `65 HP / 90 Atk / 65 Def / 61 SAtk / 61 SDef / 100 Spd` → `85 HP / 95 Atk / 80 Def / 61 SAtk / 64 SDef / 100 Spd`
+
+    **Abilities:** `keen-eye / sniper` → `intimidate / sniper / sniper`
+
+    **Type:** `normal / flying` → `flying`
+
+    **Level-up Moves:** `15 moves` → `23 moves`
+
+    **TM/HM Compatibility:** `24 moves` → `31 moves (added: hone-claws, taunt, hurricane, quash, shadow-claw...)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

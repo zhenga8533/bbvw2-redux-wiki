@@ -12,6 +12,14 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Abilities:** `truant` → `truant / slow-start / truant`
+
+    **Level-up Moves:** `?, ?, ?, ?, ?, ?, ?, ?, ?, ?` → `19 moves`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

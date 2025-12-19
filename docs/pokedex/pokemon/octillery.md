@@ -12,6 +12,18 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Base Stats:** `75 HP / 105 Atk / 75 Def / 105 SAtk / 75 SDef / 45 Spd` → `75 HP / 115 Atk / 75 Def / 115 SAtk / 75 SDef / 45 Spd`
+
+    **Abilities:** `suction-cups / sniper / moody` → `mold-breaker / sniper / suction-cups`
+
+    **Level-up Moves:** `27 moves` → `24 moves`
+
+    **TM/HM Compatibility:** `35 moves` → `37 moves (added: tri-attack, work-up)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

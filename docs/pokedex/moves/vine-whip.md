@@ -1,5 +1,11 @@
 # Vine Whip
 
+
+!!! info "ROM Changes
+
+    **Power:** `45` → `40`
+
+
 ## :material-chart-box: Stats
 
 <div class="grid cards" markdown>

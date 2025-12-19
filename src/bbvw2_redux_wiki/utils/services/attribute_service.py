@@ -7,12 +7,13 @@ import re
 from bbvw2_redux_wiki.utils.core.loader import PokeDBLoader
 from bbvw2_redux_wiki.utils.core.logger import get_logger
 from bbvw2_redux_wiki.utils.data.models import Pokemon
+from bbvw2_redux_wiki.utils.services.base_service import BaseService
 from bbvw2_redux_wiki.utils.text.text_util import name_to_id, parse_pokemon_forme
 
 logger = get_logger(__name__)
 
 
-class AttributeService:
+class AttributeService(BaseService):
     """Service for updating Pokemon attributes in parsed data folder."""
 
     @staticmethod
@@ -146,6 +147,9 @@ class AttributeService:
             sp_defense = int(parts[4].split()[0])
             speed = int(parts[5].split()[0])
 
+            # Capture old value for change tracking
+            old_value, _ = BaseService.format_stat_change(pokemon_data.stats, None)
+
             # Update stats object
             pokemon_data.stats.hp = hp
             pokemon_data.stats.attack = attack
@@ -153,6 +157,16 @@ class AttributeService:
             pokemon_data.stats.special_attack = sp_attack
             pokemon_data.stats.special_defense = sp_defense
             pokemon_data.stats.speed = speed
+
+            # Record change
+            _, new_value = BaseService.format_stat_change(None, pokemon_data.stats)
+            BaseService.record_change(
+                pokemon_data,
+                field="Base Stats",
+                old_value=old_value,
+                new_value=new_value,
+                source="attribute_service",
+            )
 
             # Save using PokeDBLoader
             PokeDBLoader.save_pokemon(pokemon_id, pokemon_data)
@@ -181,8 +195,21 @@ class AttributeService:
         # Parse: "Fire / Dragon" or "Fire"
         types = [name_to_id(t.strip()) for t in value.split(" / ")]
 
+        # Capture old value for change tracking
+        old_types = pokemon_data.types.copy()
+
         # Update types list (single or dual)
         pokemon_data.types = types
+
+        # Record change
+        old_value, new_value = BaseService.format_type_change(old_types, types)
+        BaseService.record_change(
+            pokemon_data,
+            field="Type",
+            old_value=old_value,
+            new_value=new_value,
+            source="attribute_service",
+        )
 
         # Save using PokeDBLoader
         PokeDBLoader.save_pokemon(pokemon_id, pokemon_data)
@@ -209,6 +236,15 @@ class AttributeService:
             logger.warning(f"Invalid ability format (expected 3 abilities): {value}")
             return False
 
+        # Capture old value for change tracking
+        # Handle both dict and object formats
+        old_abilities = []
+        for a in pokemon_data.abilities:
+            if isinstance(a, dict):
+                old_abilities.append(a)
+            else:
+                old_abilities.append({"name": a.name, "is_hidden": a.is_hidden, "slot": a.slot})
+
         # Build new abilities list
         # Structure: [{"name": str, "is_hidden": bool, "slot": int}]
         new_abilities = []
@@ -228,6 +264,16 @@ class AttributeService:
 
         # Update abilities
         pokemon_data.abilities = new_abilities
+
+        # Record change
+        old_value, new_value = BaseService.format_ability_change(old_abilities, new_abilities)
+        BaseService.record_change(
+            pokemon_data,
+            field="Abilities",
+            old_value=old_value,
+            new_value=new_value,
+            source="attribute_service",
+        )
 
         # Save using PokeDBLoader
         PokeDBLoader.save_pokemon(pokemon_id, pokemon_data)
@@ -276,8 +322,27 @@ class AttributeService:
 
             ev_yields.append({"stat": stat_map[stat_short], "effort": effort})
 
+        # Capture old value for change tracking
+        # Handle both dict and object formats
+        old_ev_yield = []
+        for ev in pokemon_data.ev_yield:
+            if isinstance(ev, dict):
+                old_ev_yield.append(ev)
+            else:
+                old_ev_yield.append({"stat": ev.stat, "effort": ev.effort})
+
         # Update EV yield
         pokemon_data.ev_yield = ev_yields
+
+        # Record change
+        old_value, new_value = BaseService.format_ev_yield_change(old_ev_yield, ev_yields)
+        BaseService.record_change(
+            pokemon_data,
+            field="EV Yield",
+            old_value=old_value,
+            new_value=new_value,
+            source="attribute_service",
+        )
 
         # Save using PokeDBLoader
         PokeDBLoader.save_pokemon(pokemon_id, pokemon_data)
@@ -300,7 +365,21 @@ class AttributeService:
         """
         try:
             base_happiness = int(value.strip())
+
+            # Capture old value for change tracking
+            old_happiness = pokemon_data.base_happiness
+
+            # Update
             pokemon_data.base_happiness = base_happiness
+
+            # Record change
+            BaseService.record_change(
+                pokemon_data,
+                field="Base Happiness",
+                old_value=str(old_happiness),
+                new_value=str(base_happiness),
+                source="attribute_service",
+            )
 
             # Save using PokeDBLoader
             PokeDBLoader.save_pokemon(pokemon_id, pokemon_data)
@@ -327,7 +406,21 @@ class AttributeService:
         """
         try:
             base_experience = int(value.strip())
+
+            # Capture old value for change tracking
+            old_experience = pokemon_data.base_experience
+
+            # Update
             pokemon_data.base_experience = base_experience
+
+            # Record change
+            BaseService.record_change(
+                pokemon_data,
+                field="Base Experience",
+                old_value=str(old_experience),
+                new_value=str(base_experience),
+                source="attribute_service",
+            )
 
             # Save using PokeDBLoader
             PokeDBLoader.save_pokemon(pokemon_id, pokemon_data)
@@ -354,7 +447,21 @@ class AttributeService:
         """
         try:
             catch_rate = int(value.strip())
+
+            # Capture old value for change tracking
+            old_catch_rate = pokemon_data.capture_rate
+
+            # Update
             pokemon_data.capture_rate = catch_rate
+
+            # Record change
+            BaseService.record_change(
+                pokemon_data,
+                field="Catch Rate",
+                old_value=str(old_catch_rate),
+                new_value=str(catch_rate),
+                source="attribute_service",
+            )
 
             # Save using PokeDBLoader
             PokeDBLoader.save_pokemon(pokemon_id, pokemon_data)
@@ -415,7 +522,21 @@ class AttributeService:
 
             gender_rate = gender_rate_map[female_percent]
 
+        # Capture old value for change tracking
+        old_gender_rate = pokemon_data.gender_rate
+
+        # Update
         pokemon_data.gender_rate = gender_rate
+
+        # Record change
+        old_value, new_value = BaseService.format_gender_ratio_change(old_gender_rate, gender_rate)
+        BaseService.record_change(
+            pokemon_data,
+            field="Gender Ratio",
+            old_value=old_value,
+            new_value=new_value,
+            source="attribute_service",
+        )
 
         # Save using PokeDBLoader
         PokeDBLoader.save_pokemon(pokemon_id, pokemon_data)

@@ -13,6 +13,16 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Abilities:** `cute-charm / friend-guard` → `cute-charm / friend-guard / friend-guard`
+
+    **Base Happiness:** `70` → `180`
+
+    **Level-up Moves:** `?, ?, ?, ?, ?, ?` → `?, ?, ?, ?, ?, ?, ?, ?`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

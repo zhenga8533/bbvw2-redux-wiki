@@ -1,5 +1,11 @@
 # Inferno
 
+
+!!! info "ROM Changes
+
+    **Accuracy:** `50` → `65`
+
+
 ## :material-chart-box: Stats
 
 <div class="grid cards" markdown>

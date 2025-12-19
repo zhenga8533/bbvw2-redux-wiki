@@ -12,6 +12,16 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+
+    **Abilities:** `synchronize / inner-focus` → `synchronize / poison-touch / poison-touch`
+
+    **TM/HM Compatibility:** `30 moves` → `35 moves (added: tri-attack, mystical-fire, quash, power-gem, grass-knot)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

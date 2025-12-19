@@ -12,6 +12,16 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Abilities:** `magnet-pull / sturdy / analytic` → `analytic / sturdy / magnet-pull`
+
+    **Level-up Moves:** `30 moves` → `21 moves`
+
+    **TM/HM Compatibility:** `26 moves` → `27 moves (added: bug-buzz)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

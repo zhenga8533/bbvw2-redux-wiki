@@ -12,6 +12,14 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Abilities:** `vital-spirit` → `vital-spirit / sheer-force / vital-spirit`
+
+    **Level-up Moves:** `13 moves` → `23 moves`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

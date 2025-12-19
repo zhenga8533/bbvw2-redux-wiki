@@ -13,6 +13,16 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Abilities:** `lightning-rod / motor-drive / sap-sipper` → `motor-drive / sap-sipper / lightning-rod`
+
+    **Level-up Moves:** `16 moves` → `23 moves`
+
+    **TM/HM Compatibility:** `26 moves` → `28 moves (added: low-sweep, work-up)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

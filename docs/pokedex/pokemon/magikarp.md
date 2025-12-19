@@ -12,6 +12,14 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Abilities:** `swift-swim / rattled` → `swift-swim / rattled / rattled`
+
+    **Level-up Moves:** `?, ?, ?` → `?, ?, ?, ?, ?`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

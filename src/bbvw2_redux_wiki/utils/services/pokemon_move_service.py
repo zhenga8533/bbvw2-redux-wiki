@@ -6,12 +6,13 @@ from bbvw2_redux_wiki.utils.core.config import VERSION_GROUP
 from bbvw2_redux_wiki.utils.core.loader import PokeDBLoader
 from bbvw2_redux_wiki.utils.core.logger import get_logger
 from bbvw2_redux_wiki.utils.data.models import MoveLearn
+from bbvw2_redux_wiki.utils.services.base_service import BaseService
 from bbvw2_redux_wiki.utils.text.text_util import name_to_id
 
 logger = get_logger(__name__)
 
 
-class PokemonMoveService:
+class PokemonMoveService(BaseService):
     """Service for updating Pokemon move-related data."""
 
     @staticmethod
@@ -62,8 +63,22 @@ class PokemonMoveService:
                 )
                 new_levelup_moves.append(new_move)
 
+            # Capture old moves for change tracking
+            old_moves = [m.__dict__ if hasattr(m, "__dict__") else {"name": m.name, "level_learned_at": m.level_learned_at} for m in pokemon_data.moves.level_up]
+            new_moves_dict = [{"name": m.name, "level_learned_at": m.level_learned_at} for m in new_levelup_moves]
+
             # Replace level_up moves
             pokemon_data.moves.level_up = new_levelup_moves
+
+            # Record change
+            old_value, new_value = BaseService.format_move_list_change(old_moves, new_moves_dict)
+            BaseService.record_change(
+                pokemon_data,
+                field="Level-up Moves",
+                old_value=old_value,
+                new_value=new_value,
+                source="pokemon_move_service",
+            )
 
             # Save using PokeDBLoader
             PokeDBLoader.save_pokemon(pokemon_id, pokemon_data)
@@ -105,8 +120,12 @@ class PokemonMoveService:
                 )
                 return False
 
+            # Capture old machine moves for change tracking
+            old_machine_moves = [m.name for m in pokemon_data.moves.machine]
+
             # Add new machine moves
             # Note: pokemon_data.moves.machine is a list of MoveLearn objects
+            added_moves = []
             for machine_type, number, move_name in moves:
                 move_id = name_to_id(move_name)
 
@@ -136,6 +155,18 @@ class PokemonMoveService:
                         version_groups=[VERSION_GROUP],
                     )
                     pokemon_data.moves.machine.append(new_move)
+                    added_moves.append(move_id)
+
+            # Record change (only if moves were added)
+            if added_moves:
+                new_machine_moves = [m.name for m in pokemon_data.moves.machine]
+                BaseService.record_change(
+                    pokemon_data,
+                    field="TM/HM Compatibility",
+                    old_value=f"{len(old_machine_moves)} moves",
+                    new_value=f"{len(new_machine_moves)} moves (added: {', '.join(added_moves[:5])}{'...' if len(added_moves) > 5 else ''})",
+                    source="pokemon_move_service",
+                )
 
             # Save using PokeDBLoader
             PokeDBLoader.save_pokemon(pokemon_id, pokemon_data)

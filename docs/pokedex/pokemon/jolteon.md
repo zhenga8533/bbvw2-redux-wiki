@@ -12,6 +12,16 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+
+    **Abilities:** `volt-absorb / quick-feet` → `volt-absorb / quick-feet / quick-feet`
+
+    **TM/HM Compatibility:** `32 moves` → `34 moves (added: tri-attack, grass-knot)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

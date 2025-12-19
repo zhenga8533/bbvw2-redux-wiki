@@ -12,6 +12,18 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Base Stats:** `73 HP / 95 Atk / 62 Def / 85 SAtk / 65 SDef / 85 Spd` → `73 HP / 95 Atk / 62 Def / 95 SAtk / 75 SDef / 85 Spd`
+
+    **Abilities:** `intimidate / frisk / sap-sipper` → `sap-sipper / frisk / intimidate`
+
+    **Level-up Moves:** `15 moves` → `24 moves`
+
+    **TM/HM Compatibility:** `38 moves` → `41 moves (added: tri-attack, aura-sphere, power-gem)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

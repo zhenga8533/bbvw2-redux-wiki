@@ -1,5 +1,13 @@
 # Covet
 
+
+!!! info "ROM Changes
+
+    **Type:** `normal` → `fairy`
+
+    **Pp:** `25` → `20`
+
+
 ## :material-chart-box: Stats
 
 <div class="grid cards" markdown>

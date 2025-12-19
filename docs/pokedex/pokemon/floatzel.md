@@ -12,6 +12,16 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Abilities:** `swift-swim / water-veil` → `swift-swim / water-veil / water-veil`
+
+    **Level-up Moves:** `29 moves` → `24 moves`
+
+    **TM/HM Compatibility:** `34 moves` → `37 moves (added: low-sweep, wave-crash, cut)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

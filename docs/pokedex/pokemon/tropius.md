@@ -12,6 +12,18 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Base Stats:** `99 HP / 68 Atk / 83 Def / 72 SAtk / 87 SDef / 51 Spd` → `99 HP / 98 Atk / 83 Def / 82 SAtk / 87 SDef / 51 Spd`
+
+    **Base Experience:** `161` → `219`
+
+    **Level-up Moves:** `16 moves` → `22 moves`
+
+    **TM/HM Compatibility:** `29 moves` → `31 moves (added: hurricane, dragon-pulse)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

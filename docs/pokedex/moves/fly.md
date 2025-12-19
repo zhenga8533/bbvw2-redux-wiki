@@ -1,5 +1,13 @@
 # Fly
 
+
+!!! info "ROM Changes
+
+    **Power:** `90` → `80`
+
+    **Accuracy:** `95` → `100`
+
+
 ## :material-chart-box: Stats
 
 <div class="grid cards" markdown>

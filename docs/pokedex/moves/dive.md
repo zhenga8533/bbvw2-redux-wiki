@@ -1,5 +1,11 @@
 # Dive
 
+
+!!! info "ROM Changes
+
+    **Power:** `80` → `100`
+
+
 ## :material-chart-box: Stats
 
 <div class="grid cards" markdown>

@@ -12,6 +12,22 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+
+    **Base Stats:** `64 HP / 115 Atk / 65 Def / 83 SAtk / 63 SDef / 65 Spd` → `64 HP / 125 Atk / 65 Def / 93 SAtk / 63 SDef / 65 Spd`
+
+    **Abilities:** `insomnia / frisk / cursed-body` → `cursed-body / frisk / cursed-body`
+
+    **Type:** `ghost` → `ghost / normal`
+
+    **Level-up Moves:** `32 moves` → `20 moves`
+
+    **TM/HM Compatibility:** `36 moves` → `39 moves (added: hone-claws, work-up, cut)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

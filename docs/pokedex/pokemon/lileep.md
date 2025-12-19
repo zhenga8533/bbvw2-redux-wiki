@@ -12,6 +12,18 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+
+    **Abilities:** `suction-cups / storm-drain` → `suction-cups / storm-drain / storm-drain`
+
+    **Base Experience:** `71` → `65`
+
+    **Level-up Moves:** `13 moves` → `19 moves`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

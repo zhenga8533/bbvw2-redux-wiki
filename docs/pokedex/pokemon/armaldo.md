@@ -12,6 +12,18 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+
+    **Abilities:** `battle-armor / swift-swim` → `battle-armor / swift-swim / swift-swim`
+
+    **Level-up Moves:** `14 moves` → `19 moves`
+
+    **TM/HM Compatibility:** `35 moves` → `38 moves (added: wave-crash, bug-buzz, rock-climb)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

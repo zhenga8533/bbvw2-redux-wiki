@@ -1,5 +1,15 @@
 # Gear Grind
 
+
+!!! info "ROM Changes
+
+    **Power:** `50` → `65`
+
+    **Accuracy:** `85` → `95`
+
+    **Pp:** `15` → `10`
+
+
 ## :material-chart-box: Stats
 
 <div class="grid cards" markdown>

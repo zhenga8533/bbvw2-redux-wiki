@@ -12,6 +12,18 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Abilities:** `sand-veil / water-absorb` → `unnerve / water-absorb / water-absorb`
+
+    **Type:** `grass` → `grass / dark`
+
+    **Level-up Moves:** `16 moves` → `24 moves`
+
+    **TM/HM Compatibility:** `25 moves` → `26 moves (added: rock-climb)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

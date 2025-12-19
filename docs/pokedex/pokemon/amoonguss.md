@@ -13,6 +13,14 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Abilities:** `effect-spore / regenerator` → `effect-spore / regenerator / regenerator`
+
+    **Level-up Moves:** `18 moves` → `22 moves`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

@@ -13,6 +13,18 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Abilities:** `blaze / thick-fat` → `sheer-force / blaze / sheer-force`
+
+    **Type:** `fire / fighting` → `fire / ground`
+
+    **Level-up Moves:** `19 moves` → `21 moves`
+
+    **TM/HM Compatibility:** `38 moves` → `39 moves (added: quash)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

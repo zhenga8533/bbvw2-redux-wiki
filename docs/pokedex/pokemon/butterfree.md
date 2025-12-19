@@ -12,6 +12,18 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Base Stats:** `60 HP / 45 Atk / 50 Def / 80 SAtk / 80 SDef / 70 Spd` → `65 HP / 45 Atk / 60 Def / 100 SAtk / 90 SDef / 90 Spd`
+
+    **Abilities:** `compound-eyes / tinted-lens` → `compound-eyes / tinted-lens / tinted-lens`
+
+    **Level-up Moves:** `16 moves` → `18 moves`
+
+    **TM/HM Compatibility:** `30 moves` → `32 moves (added: hurricane, fly)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

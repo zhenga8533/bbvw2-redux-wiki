@@ -12,6 +12,16 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Abilities:** `honey-gather / hustle` → `honey-gather / hustle / hustle`
+
+    **Gender Ratio:** `87.5% Male / 12.5% Female` → `50.0% Male / 50.0% Female`
+
+    **Level-up Moves:** `?, ?, ?, ?` → `?, ?, ?, ?, ?`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

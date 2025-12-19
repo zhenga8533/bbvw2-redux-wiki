@@ -12,6 +12,18 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+
+    **Base Stats:** `65 HP / 130 Atk / 60 Def / 95 SAtk / 110 SDef / 65 Spd` → `65 HP / 130 Atk / 60 Def / 65 SAtk / 110 SDef / 95 Spd`
+
+    **Abilities:** `flash-fire / guts` → `flash-fire / guts / guts`
+
+    **TM/HM Compatibility:** `30 moves` → `35 moves (added: tri-attack, rock-slide, grass-knot, wild-charge, cut)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

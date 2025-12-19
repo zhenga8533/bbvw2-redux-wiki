@@ -12,6 +12,18 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Base Stats:** `60 HP / 45 Atk / 70 Def / 45 SAtk / 90 SDef / 95 Spd` → `65 HP / 60 Atk / 80 Def / 60 SAtk / 90 SDef / 95 Spd`
+
+    **Abilities:** `run-away / pickup / volt-absorb` → `volt-absorb / pickup / run-away`
+
+    **Level-up Moves:** `14 moves` → `20 moves`
+
+    **TM/HM Compatibility:** `26 moves` → `27 moves (added: play-rough)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

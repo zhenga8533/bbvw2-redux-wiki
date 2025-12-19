@@ -12,6 +12,16 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Abilities:** `run-away / guts / hustle` → `hustle / guts / run-away`
+
+    **Level-up Moves:** `13 moves` → `23 moves`
+
+    **TM/HM Compatibility:** `32 moves` → `34 moves (added: hone-claws, quash)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

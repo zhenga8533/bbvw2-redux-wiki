@@ -12,6 +12,18 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Base Stats:** `65 HP / 75 Atk / 70 Def / 95 SAtk / 70 SDef / 95 Spd` → `65 HP / 65 Atk / 70 Def / 105 SAtk / 80 SDef / 95 Spd`
+
+    **Abilities:** `synchronize / early-bird / magic-bounce` → `synchronize / magic-bounce / magic-bounce`
+
+    **Level-up Moves:** `17 moves` → `25 moves`
+
+    **TM/HM Compatibility:** `36 moves` → `39 moves (added: aura-sphere, mystical-fire, hurricane)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

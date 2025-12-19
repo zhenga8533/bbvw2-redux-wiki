@@ -13,6 +13,18 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+
+    **Abilities:** `guts / sheer-force / iron-fist` → `sheer-force / iron-fist / sheer-force`
+
+    **Level-up Moves:** `18 moves` → `23 moves`
+
+    **TM/HM Compatibility:** `32 moves` → `33 moves (added: rock-climb)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

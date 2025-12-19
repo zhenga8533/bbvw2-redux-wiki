@@ -13,6 +13,14 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Abilities:** `pressure` → `download / pressure`
+
+    **Level-up Moves:** `14 moves` → `16 moves`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

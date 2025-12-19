@@ -12,6 +12,18 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Base Stats:** `70 HP / 85 Atk / 65 Def / 105 SAtk / 85 SDef / 120 Spd` → `70 HP / 105 Atk / 67 Def / 85 SAtk / 88 SDef / 120 Spd`
+
+    **Abilities:** `overgrow / unburden` → `unburden / overgrow / unburden`
+
+    **Type:** `grass` → `grass / dragon`
+
+    **Level-up Moves:** `16 moves` → `25 moves`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

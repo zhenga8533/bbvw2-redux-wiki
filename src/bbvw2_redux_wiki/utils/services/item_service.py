@@ -15,13 +15,14 @@ from bbvw2_redux_wiki.utils.core.config import (
 from bbvw2_redux_wiki.utils.core.loader import PokeDBLoader
 from bbvw2_redux_wiki.utils.core.logger import get_logger
 from bbvw2_redux_wiki.utils.data.constants import MOVE_DISPLAY_CASES
+from bbvw2_redux_wiki.utils.services.base_service import BaseService
 from bbvw2_redux_wiki.utils.services.move_service import MoveService
 from bbvw2_redux_wiki.utils.text.text_util import format_display_name, name_to_id
 
 logger = get_logger(__name__)
 
 
-class ItemService:
+class ItemService(BaseService):
     """Service for updating item data."""
 
     @staticmethod
@@ -45,6 +46,15 @@ class ItemService:
 
         old_cost = item.cost
         item.cost = new_cost
+
+        # Record change
+        BaseService.record_change(
+            item,
+            field="Cost",
+            old_value=f"${old_cost}",
+            new_value=f"${new_cost}",
+            source="item_service",
+        )
 
         # Save the updated item
         PokeDBLoader.save_item(item_id, item)
@@ -152,6 +162,11 @@ class ItemService:
                 )
                 return False
 
+        # Capture old move name from effect (for change tracking)
+        # Extract move name from "Teaches [Move Name] to a compatible Pokémon."
+        old_effect = tm_item.effect
+        old_move_name = old_effect.replace("Teaches ", "").replace(" to a compatible Pokémon.", "")
+
         # Format move name with special cases (e.g., "u-turn" -> "U-turn", "dragon-claw" -> "Dragon Claw")
         proper_move_name = format_display_name(move.name, special_cases=MOVE_DISPLAY_CASES)
 
@@ -171,6 +186,15 @@ class ItemService:
                     logger.debug(
                         f"No flavor text for {move_id} in version group {version_group}"
                     )
+
+        # Record change
+        BaseService.record_change(
+            tm_item,
+            field="Teaches Move",
+            old_value=old_move_name,
+            new_value=proper_move_name,
+            source="item_service",
+        )
 
         # Save the updated TM
         PokeDBLoader.save_item(tm_id, tm_item)

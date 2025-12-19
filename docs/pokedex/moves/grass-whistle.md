@@ -1,5 +1,11 @@
 # Grass Whistle
 
+
+!!! info "ROM Changes
+
+    **Accuracy:** `55` → `65`
+
+
 ## :material-chart-box: Stats
 
 <div class="grid cards" markdown>

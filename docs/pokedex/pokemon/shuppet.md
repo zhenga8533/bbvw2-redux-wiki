@@ -12,6 +12,18 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+
+    **Abilities:** `insomnia / frisk / cursed-body` → `cursed-body / frisk / cursed-body`
+
+    **Level-up Moves:** `29 moves` → `18 moves`
+
+    **TM/HM Compatibility:** `32 moves` → `33 moves (added: work-up)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

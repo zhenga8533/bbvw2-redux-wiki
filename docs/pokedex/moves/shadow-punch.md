@@ -1,5 +1,11 @@
 # Shadow Punch
 
+
+!!! info "ROM Changes
+
+    **Power:** `60` → `90`
+
+
 ## :material-chart-box: Stats
 
 <div class="grid cards" markdown>

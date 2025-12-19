@@ -12,6 +12,20 @@
 	</div>
 </div>
 
+
+!!! info "ROM Changes
+
+    **Base Stats:** `45 HP / 55 Atk / 45 Def / 65 SAtk / 45 SDef / 75 Spd` → `55 HP / 95 Atk / 65 Def / 65 SAtk / 65 SDef / 95 Spd`
+
+    **Abilities:** `vital-spirit / hustle / insomnia` → `technician / sheer-force / insomnia`
+
+    **EV Yield:** `1 Spd` → `1 SAtk, 1 Spd`
+
+    **Level-up Moves:** `?` → `18 moves`
+
+    **TM/HM Compatibility:** `23 moves` → `30 moves (added: hone-claws, hurricane, acrobatics, work-up, u-turn...)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

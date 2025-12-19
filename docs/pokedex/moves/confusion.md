@@ -1,5 +1,11 @@
 # Confusion
 
+
+!!! info "ROM Changes
+
+    **Pp:** `25` → `20`
+
+
 ## :material-chart-box: Stats
 
 <div class="grid cards" markdown>
