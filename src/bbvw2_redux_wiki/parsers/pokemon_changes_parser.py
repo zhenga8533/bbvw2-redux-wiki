@@ -9,6 +9,7 @@ This parser:
 
 import re
 
+from rom_wiki_core.parsers.base_parser import BaseParser
 from rom_wiki_core.utils.core.loader import PokeDBLoader
 from rom_wiki_core.utils.formatters.markdown_formatter import (
     format_ability,
@@ -22,8 +23,6 @@ from rom_wiki_core.utils.formatters.markdown_formatter import (
 from rom_wiki_core.utils.services.attribute_service import AttributeService
 from rom_wiki_core.utils.services.pokemon_item_service import PokemonItemService
 from rom_wiki_core.utils.services.pokemon_move_service import PokemonMoveService
-
-from .base_parser import BaseParser
 
 
 class PokemonChangesParser(BaseParser):

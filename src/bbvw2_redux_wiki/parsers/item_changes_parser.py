@@ -9,13 +9,12 @@ This parser:
 
 import re
 
+from rom_wiki_core.parsers.base_parser import BaseParser
 from rom_wiki_core.utils.formatters.markdown_formatter import (
     format_checkbox,
     format_item,
 )
 from rom_wiki_core.utils.services.item_service import ItemService
-
-from .base_parser import BaseParser
 
 
 class ItemChangesParser(BaseParser):

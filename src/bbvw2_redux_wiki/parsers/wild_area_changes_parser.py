@@ -9,6 +9,7 @@ This parser:
 
 import re
 
+from rom_wiki_core.parsers.location_parser import LocationParser
 from rom_wiki_core.utils.core.loader import PokeDBLoader
 from rom_wiki_core.utils.formatters.markdown_formatter import (
     format_pokemon,
@@ -19,8 +20,6 @@ from rom_wiki_core.utils.text.text_util import (
     strip_common_prefix,
     strip_common_suffix,
 )
-
-from .location_parser import LocationParser
 
 
 class WildAreaChangesParser(LocationParser):

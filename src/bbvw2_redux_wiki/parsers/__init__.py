@@ -2,8 +2,6 @@
 Parser package for processing documentation files.
 """
 
-from .base_parser import BaseParser
-from .location_parser import LocationParser
 from .evolution_changes_parser import EvolutionChangesParser
 from .gift_pokemon_parser import GiftPokemonParser
 from .item_changes_parser import ItemChangesParser
@@ -16,8 +14,6 @@ from .type_changes_parser import TypeChangesParser
 from .wild_area_changes_parser import WildAreaChangesParser
 
 __all__ = [
-    "BaseParser",
-    "LocationParser",
     "EvolutionChangesParser",
     "GiftPokemonParser",
     "ItemChangesParser",

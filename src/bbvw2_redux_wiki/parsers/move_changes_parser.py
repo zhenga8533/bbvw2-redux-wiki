@@ -10,6 +10,7 @@ This parser:
 import re
 
 import orjson
+from rom_wiki_core.parsers.base_parser import BaseParser
 from rom_wiki_core.utils.core.loader import PokeDBLoader
 from rom_wiki_core.utils.formatters.markdown_formatter import (
     format_checkbox,
@@ -17,10 +18,6 @@ from rom_wiki_core.utils.formatters.markdown_formatter import (
     format_type_badge,
 )
 from rom_wiki_core.utils.services.move_service import MoveService
-
-from bbvw2_redux_wiki.config import CONFIG
-
-from .base_parser import BaseParser
 
 
 class MoveChangesParser(BaseParser):
