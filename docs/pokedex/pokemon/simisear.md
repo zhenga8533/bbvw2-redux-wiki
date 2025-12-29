@@ -20,7 +20,7 @@
 
     **Abilities:** `gluttony / blaze` → `gluttony / blaze / blaze`
 
-    **Level-up Moves:** `?, ?, ?, ?` → `14 moves`
+    **Level-up Moves:** `4 moves` → `14 moves`
 
     **TM/HM Compatibility:** `40 moves` → `43 moves (added: mystical-fire, quash, play-rough)`
 

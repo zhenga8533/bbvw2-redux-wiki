@@ -17,7 +17,7 @@
 
     **Abilities:** `poison-point / rivalry / sheer-force` → `sheer-force / poison-point / rivalry`
 
-    **Level-up Moves:** `?, ?, ?, ?, ?, ?, ?, ?` → `14 moves`
+    **Level-up Moves:** `8 moves` → `14 moves`
 
     **TM/HM Compatibility:** `52 moves` → `53 moves (added: low-sweep)`
 

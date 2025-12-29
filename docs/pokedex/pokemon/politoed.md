@@ -19,7 +19,7 @@
 
     **Abilities:** `water-absorb / damp / drizzle` → `water-absorb / drizzle / drizzle`
 
-    **Level-up Moves:** `?, ?, ?, ?, ?, ?, ?` → `12 moves`
+    **Level-up Moves:** `7 moves` → `12 moves`
 
     **TM/HM Compatibility:** `34 moves` → `35 moves (added: wave-crash)`
 

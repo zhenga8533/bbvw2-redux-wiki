@@ -18,7 +18,7 @@
 
     **Evolution Chain:** `Updated` → `Modified evolution method or target`
 
-    **Level-up Moves:** `?, ?, ?, ?, ?, ?, ?, ?` → `13 moves`
+    **Level-up Moves:** `8 moves` → `13 moves`
 
     **TM/HM Compatibility:** `24 moves` → `25 moves (added: hone-claws)`
 

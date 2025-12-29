@@ -18,7 +18,7 @@
 
     **Abilities:** `shadow tag / flame-body / infiltrator` → `flash-fire / flame-body / shadow-tag`
 
-    **Level-up Moves:** `?, ?, ?, ?` → `?, ?, ?, ?, ?, ?, ?, ?, ?, ?`
+    **Level-up Moves:** `4 moves` → `10 moves`
 
     **TM/HM Compatibility:** `36 moves` → `38 moves (added: dazzling-gleam, mystical-fire)`
 

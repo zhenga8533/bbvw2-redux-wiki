@@ -17,7 +17,7 @@
 
     **Abilities:** `guts / scrappy` → `early-bird / scrappy / scrappy`
 
-    **Level-up Moves:** `?, ?, ?, ?, ?, ?, ?, ?, ?, ?` → `21 moves`
+    **Level-up Moves:** `10 moves` → `21 moves`
 
     **TM/HM Compatibility:** `21 moves` → `22 moves (added: hurricane)`
 

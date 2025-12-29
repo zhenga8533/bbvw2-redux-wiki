@@ -16,7 +16,7 @@
 
 !!! info "ROM Changes
 
-    **Level-up Moves:** `?, ?, ?, ?, ?, ?, ?` → `?, ?, ?, ?, ?, ?, ?, ?, ?, ?`
+    **Level-up Moves:** `7 moves` → `10 moves`
 
 
 ## :material-information: Basic Information

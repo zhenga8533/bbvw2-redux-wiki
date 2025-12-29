@@ -17,7 +17,7 @@
 
     **Abilities:** `insomnia / super-luck / moxie` → `moxie / super-luck / moxie`
 
-    **Level-up Moves:** `?, ?, ?, ?, ?, ?, ?, ?, ?, ?` → `11 moves`
+    **Level-up Moves:** `10 moves` → `11 moves`
 
     **TM/HM Compatibility:** `34 moves` → `35 moves (added: hurricane)`
 

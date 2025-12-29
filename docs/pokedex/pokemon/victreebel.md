@@ -17,7 +17,7 @@
 
     **Abilities:** `chlorophyll / gluttony` → `chlorophyll / gluttony / chlorophyll`
 
-    **Level-up Moves:** `?, ?, ?, ?, ?, ?, ?, ?, ?, ?` → `12 moves`
+    **Level-up Moves:** `10 moves` → `12 moves`
 
 
 ## :material-information: Basic Information

@@ -19,7 +19,7 @@
 
     **Abilities:** `synchronize / inner-focus / magic-guard` → `synchronize / magic-guard / inner-focus`
 
-    **Level-up Moves:** `?` → `?, ?, ?`
+    **Level-up Moves:** `1 move` → `3 moves`
 
     **TM/HM Compatibility:** `36 moves` → `37 moves (added: aura-sphere)`
 

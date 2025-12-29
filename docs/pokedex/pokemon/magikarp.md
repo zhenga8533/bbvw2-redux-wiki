@@ -17,7 +17,7 @@
 
     **Abilities:** `swift-swim / rattled` → `swift-swim / rattled / rattled`
 
-    **Level-up Moves:** `?, ?, ?` → `?, ?, ?, ?, ?`
+    **Level-up Moves:** `3 moves` → `5 moves`
 
 
 ## :material-information: Basic Information

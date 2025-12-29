@@ -19,7 +19,7 @@
 
     **Abilities:** `cute-charm / frisk` → `huge-power / friend-guard / frisk`
 
-    **Level-up Moves:** `?, ?, ?, ?` → `?, ?, ?, ?, ?, ?, ?, ?, ?, ?`
+    **Level-up Moves:** `4 moves` → `10 moves`
 
     **TM/HM Compatibility:** `45 moves` → `47 moves (added: low-sweep, power-gem)`
 

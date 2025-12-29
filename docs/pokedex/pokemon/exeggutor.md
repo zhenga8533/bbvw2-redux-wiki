@@ -17,7 +17,7 @@
 
     **Abilities:** `chlorophyll / harvest` → `chlorophyll / harvest / harvest`
 
-    **Level-up Moves:** `?, ?, ?, ?, ?, ?, ?, ?, ?` → `?, ?, ?, ?, ?, ?, ?, ?, ?, ?`
+    **Level-up Moves:** `9 moves` → `10 moves`
 
     **TM/HM Compatibility:** `32 moves` → `33 moves (added: tri-attack)`
 

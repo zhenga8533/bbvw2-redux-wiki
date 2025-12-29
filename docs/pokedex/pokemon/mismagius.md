@@ -21,7 +21,7 @@
 
     **Type:** `ghost` → `ghost / fairy`
 
-    **Level-up Moves:** `?, ?, ?, ?, ?, ?` → `11 moves`
+    **Level-up Moves:** `6 moves` → `11 moves`
 
     **TM/HM Compatibility:** `37 moves` → `39 moves (added: mystical-fire, power-gem)`
 

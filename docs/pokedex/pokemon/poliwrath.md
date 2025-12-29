@@ -21,7 +21,7 @@
 
     **Abilities:** `water-absorb / damp / swift-swim` → `water-absorb / swift-swim / damp`
 
-    **Level-up Moves:** `?, ?, ?, ?, ?, ?, ?` → `12 moves`
+    **Level-up Moves:** `7 moves` → `12 moves`
 
     **TM/HM Compatibility:** `39 moves` → `40 moves (added: wave-crash)`
 

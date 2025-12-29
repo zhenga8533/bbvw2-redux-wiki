@@ -21,7 +21,7 @@
 
     **EV Yield:** `1 Spd` → `1 SAtk, 1 Spd`
 
-    **Level-up Moves:** `?` → `18 moves`
+    **Level-up Moves:** `1 move` → `18 moves`
 
     **TM/HM Compatibility:** `23 moves` → `30 moves (added: hone-claws, hurricane, acrobatics, work-up, u-turn...)`
 

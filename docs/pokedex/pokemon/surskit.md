@@ -19,7 +19,7 @@
 
     **Abilities:** `swift-swim / rain-dish` → `swift-swim / rain-dish / rain-dish`
 
-    **Level-up Moves:** `?, ?, ?, ?, ?, ?, ?, ?, ?` → `19 moves`
+    **Level-up Moves:** `9 moves` → `19 moves`
 
     **TM/HM Compatibility:** `23 moves` → `26 moves (added: bug-buzz, surf, waterfall)`
 

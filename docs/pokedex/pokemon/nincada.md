@@ -17,7 +17,7 @@
 
     **Abilities:** `compound-eyes / run-away` → `compound-eyes / run-away / run-away`
 
-    **Level-up Moves:** `?, ?, ?, ?, ?, ?, ?, ?, ?, ?` → `22 moves`
+    **Level-up Moves:** `10 moves` → `22 moves`
 
 
 ## :material-information: Basic Information

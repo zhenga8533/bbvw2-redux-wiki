@@ -15,7 +15,7 @@
 
 !!! info "ROM Changes
 
-    **Level-up Moves:** `?, ?, ?, ?, ?, ?, ?` → `?, ?, ?, ?, ?, ?, ?, ?, ?`
+    **Level-up Moves:** `7 moves` → `9 moves`
 
     **TM/HM Compatibility:** `33 moves` → `34 moves (added: hone-claws)`
 

@@ -17,7 +17,7 @@
 
     **Abilities:** `chlorophyll / early-bird / pickpocket` → `chlorophyll / rattled / early-bird`
 
-    **Level-up Moves:** `?, ?, ?, ?, ?, ?` → `13 moves`
+    **Level-up Moves:** `6 moves` → `13 moves`
 
     **TM/HM Compatibility:** `42 moves` → `43 moves (added: quash)`
 

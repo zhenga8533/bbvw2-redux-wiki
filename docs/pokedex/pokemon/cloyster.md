@@ -15,7 +15,7 @@
 
 !!! info "ROM Changes
 
-    **Level-up Moves:** `?, ?, ?, ?, ?, ?, ?, ?` → `13 moves`
+    **Level-up Moves:** `8 moves` → `13 moves`
 
     **TM/HM Compatibility:** `25 moves` → `26 moves (added: waterfall)`
 

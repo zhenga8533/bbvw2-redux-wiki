@@ -19,7 +19,7 @@
 
     **Catch Rate:** `3` → `45`
 
-    **Level-up Moves:** `?` → `?, ?, ?, ?, ?`
+    **Level-up Moves:** `1 move` → `5 moves`
 
 
 ## :material-information: Basic Information

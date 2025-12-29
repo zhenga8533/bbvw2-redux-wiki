@@ -20,7 +20,7 @@
 
     **Base Happiness:** `70` → `180`
 
-    **Level-up Moves:** `?, ?, ?, ?, ?, ?` → `13 moves`
+    **Level-up Moves:** `6 moves` → `13 moves`
 
     **TM/HM Compatibility:** `24 moves` → `25 moves (added: surf)`
 

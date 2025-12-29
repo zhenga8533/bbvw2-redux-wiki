@@ -21,7 +21,7 @@
 
     **Abilities:** `cute-charm / normalize / wonder-skin` → `wonder-skin / normalize / wonder-skin`
 
-    **Level-up Moves:** `?, ?, ?, ?` → `13 moves`
+    **Level-up Moves:** `4 moves` → `13 moves`
 
     **TM/HM Compatibility:** `38 moves` → `41 moves (added: hone-claws, power-gem, cut)`
 

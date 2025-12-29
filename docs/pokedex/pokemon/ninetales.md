@@ -21,7 +21,7 @@
 
     **Type:** `fire` → `fire / fairy`
 
-    **Level-up Moves:** `?, ?, ?, ?, ?` → `15 moves`
+    **Level-up Moves:** `5 moves` → `15 moves`
 
     **TM/HM Compatibility:** `31 moves` → `36 moves (added: tri-attack, psychic, shadow-ball, dazzling-gleam, power-gem)`
 

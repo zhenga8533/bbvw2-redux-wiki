@@ -17,7 +17,7 @@
 
     **Evolution Chain:** `Updated` → `Modified evolution method or target`
 
-    **Level-up Moves:** `?, ?, ?, ?, ?` → `?, ?, ?, ?, ?, ?, ?, ?`
+    **Level-up Moves:** `5 moves` → `8 moves`
 
 
 ## :material-information: Basic Information

@@ -17,7 +17,7 @@
 
     **Abilities:** `hustle / serene-grace / super-luck` → `super-luck / serene-grace / super-luck`
 
-    **Level-up Moves:** `?, ?, ?, ?` → `12 moves`
+    **Level-up Moves:** `4 moves` → `12 moves`
 
     **TM/HM Compatibility:** `41 moves` → `43 moves (added: tri-attack, hurricane)`
 

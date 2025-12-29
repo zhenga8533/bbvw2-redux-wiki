@@ -17,7 +17,7 @@
 
     **Abilities:** `chlorophyll / effect-spore` → `thick-fat / effect-spore / effect-spore`
 
-    **Level-up Moves:** `?, ?, ?, ?, ?, ?` → `15 moves`
+    **Level-up Moves:** `6 moves` → `15 moves`
 
 
 ## :material-information: Basic Information

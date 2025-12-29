@@ -17,7 +17,7 @@
 
     **Abilities:** `shadow-tag / telepathy` → `shadow-tag / telepathy / telepathy`
 
-    **Level-up Moves:** `?, ?, ?, ?` → `?, ?, ?, ?, ?, ?, ?`
+    **Level-up Moves:** `4 moves` → `7 moves`
 
 
 ## :material-information: Basic Information

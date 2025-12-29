@@ -20,7 +20,7 @@
 
     **Abilities:** `cute-charm / technician / skill-link` → `skill-link / technician / cute-charm`
 
-    **Level-up Moves:** `?, ?, ?, ?, ?, ?` → `?, ?, ?, ?, ?, ?, ?, ?, ?`
+    **Level-up Moves:** `6 moves` → `9 moves`
 
     **TM/HM Compatibility:** `31 moves` → `32 moves (added: low-sweep)`
 

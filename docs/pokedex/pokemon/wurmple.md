@@ -17,7 +17,7 @@
 
     **Abilities:** `shield-dust / run-away` → `shield-dust / run-away / run-away`
 
-    **Level-up Moves:** `?, ?, ?, ?` → `?, ?, ?, ?, ?`
+    **Level-up Moves:** `4 moves` → `5 moves`
 
 
 ## :material-information: Basic Information

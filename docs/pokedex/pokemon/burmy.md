@@ -21,7 +21,7 @@
 
     **Abilities:** `shed-skin / overcoat` → `shed-skin / overcoat / overcoat`
 
-    **Level-up Moves:** `?, ?, ?, ?` → `?, ?, ?, ?, ?, ?, ?`
+    **Level-up Moves:** `4 moves` → `7 moves`
 
 
 ## :material-information: Basic Information

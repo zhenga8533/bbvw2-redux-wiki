@@ -17,7 +17,7 @@
 
     **Abilities:** `truant` → `truant / slow-start / truant`
 
-    **Level-up Moves:** `?, ?, ?, ?, ?, ?, ?, ?, ?, ?` → `19 moves`
+    **Level-up Moves:** `10 moves` → `19 moves`
 
 
 ## :material-information: Basic Information

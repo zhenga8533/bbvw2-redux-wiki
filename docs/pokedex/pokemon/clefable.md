@@ -17,7 +17,7 @@
 
     **Abilities:** `cute-charm / magic-guard / unaware` → `unaware / magic-guard / unaware`
 
-    **Level-up Moves:** `?, ?, ?, ?` → `?, ?, ?, ?, ?, ?, ?`
+    **Level-up Moves:** `4 moves` → `7 moves`
 
     **TM/HM Compatibility:** `47 moves` → `48 moves (added: power-gem)`
 

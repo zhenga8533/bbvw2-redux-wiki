@@ -20,7 +20,7 @@
 
     **Base Happiness:** `140` → `180`
 
-    **Level-up Moves:** `?, ?, ?, ?, ?` → `13 moves`
+    **Level-up Moves:** `5 moves` → `13 moves`
 
 
 ## :material-information: Basic Information

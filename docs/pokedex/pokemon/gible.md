@@ -17,7 +17,7 @@
 
     **Abilities:** `sand-veil / rough-skin` → `sand-veil / rough-skin / rough-skin`
 
-    **Level-up Moves:** `?, ?, ?, ?, ?, ?, ?, ?, ?, ?` → `17 moves`
+    **Level-up Moves:** `10 moves` → `17 moves`
 
     **TM/HM Compatibility:** `32 moves` → `33 moves (added: work-up)`
 

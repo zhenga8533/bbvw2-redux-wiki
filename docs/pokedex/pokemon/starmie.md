@@ -17,7 +17,7 @@
 
     **Abilities:** `illuminate / natural-cure / analytic` → `analytic / natural-cure / analytic`
 
-    **Level-up Moves:** `?, ?, ?, ?, ?, ?` → `?, ?, ?, ?, ?, ?, ?, ?`
+    **Level-up Moves:** `6 moves` → `8 moves`
 
     **TM/HM Compatibility:** `36 moves` → `37 moves (added: tri-attack)`
 

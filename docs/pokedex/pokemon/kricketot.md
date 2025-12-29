@@ -19,7 +19,7 @@
 
     **Abilities:** `shed-skin / run-away` → `shed-skin / run-away / swarm`
 
-    **Level-up Moves:** `?, ?, ?, ?` → `?, ?, ?, ?, ?, ?`
+    **Level-up Moves:** `4 moves` → `6 moves`
 
 
 ## :material-information: Basic Information

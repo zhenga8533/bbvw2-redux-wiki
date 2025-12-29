@@ -20,7 +20,7 @@
 
     **Type:** `psychic` → `psychic / fairy`
 
-    **Level-up Moves:** `?, ?, ?, ?` → `13 moves`
+    **Level-up Moves:** `4 moves` → `13 moves`
 
     **TM/HM Compatibility:** `34 moves` → `35 moves (added: tri-attack)`
 

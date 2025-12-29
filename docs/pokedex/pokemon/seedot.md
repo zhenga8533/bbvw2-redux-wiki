@@ -17,7 +17,7 @@
 
     **Abilities:** `chlorophyll / early-bird / pickpocket` → `chlorophyll / rattled / early-bird`
 
-    **Level-up Moves:** `?, ?, ?, ?, ?, ?, ?` → `20 moves`
+    **Level-up Moves:** `7 moves` → `20 moves`
 
 
 ## :material-information: Basic Information

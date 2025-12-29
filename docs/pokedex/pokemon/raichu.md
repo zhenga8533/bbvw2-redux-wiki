@@ -19,7 +19,7 @@
 
     **Abilities:** `static / lightning-rod` → `static / lightning-rod / lightning-rod`
 
-    **Level-up Moves:** `?, ?, ?, ?` → `11 moves`
+    **Level-up Moves:** `4 moves` → `11 moves`
 
     **TM/HM Compatibility:** `32 moves` → `36 moves (added: psychic, cut, fly, surf)`
 

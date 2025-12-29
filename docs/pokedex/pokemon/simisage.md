@@ -20,7 +20,7 @@
 
     **Abilities:** `gluttony / overgrow` → `gluttony / overgrow / overgrow`
 
-    **Level-up Moves:** `?, ?, ?, ?` → `15 moves`
+    **Level-up Moves:** `4 moves` → `15 moves`
 
     **TM/HM Compatibility:** `36 moves` → `38 moves (added: quash, play-rough)`
 

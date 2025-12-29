@@ -18,7 +18,7 @@
 
     **Base Stats:** `70 HP / 60 Atk / 75 Def / 110 SAtk / 75 SDef / 90 Spd` → `70 HP / 60 Atk / 75 Def / 115 SAtk / 75 SDef / 95 Spd`
 
-    **Level-up Moves:** `?, ?, ?, ?, ?, ?, ?` → `?, ?, ?, ?, ?, ?, ?, ?, ?, ?`
+    **Level-up Moves:** `7 moves` → `10 moves`
 
 
 ## :material-information: Basic Information

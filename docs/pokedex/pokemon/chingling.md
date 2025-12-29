@@ -22,7 +22,7 @@
 
     **Base Happiness:** `70` → `180`
 
-    **Level-up Moves:** `?, ?, ?, ?, ?, ?, ?` → `14 moves`
+    **Level-up Moves:** `7 moves` → `14 moves`
 
     **TM/HM Compatibility:** `32 moves` → `33 moves (added: weather-ball)`
 

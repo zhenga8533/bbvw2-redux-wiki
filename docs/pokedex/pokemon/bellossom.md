@@ -17,7 +17,7 @@
 
     **Abilities:** `chlorophyll / healer` → `chlorophyll / cloud-nine / healer`
 
-    **Level-up Moves:** `?, ?, ?, ?, ?, ?, ?` → `15 moves`
+    **Level-up Moves:** `7 moves` → `15 moves`
 
 
 ## :material-information: Basic Information

@@ -20,7 +20,7 @@
 
     **Base Stats:** `55 HP / 63 Atk / 90 Def / 50 SAtk / 80 SDef / 42 Spd` → `70 HP / 63 Atk / 90 Def / 50 SAtk / 80 SDef / 42 Spd`
 
-    **Level-up Moves:** `?, ?, ?, ?, ?, ?` → `?, ?, ?, ?, ?, ?, ?, ?`
+    **Level-up Moves:** `6 moves` → `8 moves`
 
     **TM/HM Compatibility:** `24 moves` → `25 moves (added: hone-claws)`
 

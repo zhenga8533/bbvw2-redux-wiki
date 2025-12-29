@@ -19,7 +19,7 @@
 
     **Gender Ratio:** `87.5% Male / 12.5% Female` → `50.0% Male / 50.0% Female`
 
-    **Level-up Moves:** `?, ?, ?, ?` → `?, ?, ?, ?, ?`
+    **Level-up Moves:** `4 moves` → `5 moves`
 
 
 ## :material-information: Basic Information

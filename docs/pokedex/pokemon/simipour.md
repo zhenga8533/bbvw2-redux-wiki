@@ -20,7 +20,7 @@
 
     **Abilities:** `gluttony / torrent` → `gluttony / torrent / torrent`
 
-    **Level-up Moves:** `?, ?, ?, ?` → `15 moves`
+    **Level-up Moves:** `4 moves` → `15 moves`
 
     **TM/HM Compatibility:** `40 moves` → `42 moves (added: quash, play-rough)`
 
