@@ -10,14 +10,14 @@ This parser:
 import re
 from typing import Optional
 
-from bbvw2_redux_wiki.utils.core.loader import PokeDBLoader
-from bbvw2_redux_wiki.utils.data.models import EvolutionChain, EvolutionDetails, Gender
-from bbvw2_redux_wiki.utils.formatters.markdown_formatter import (
+from rom_wiki_core.utils.core.loader import PokeDBLoader
+from rom_wiki_core.utils.data.models import EvolutionChain, EvolutionDetails, Gender
+from rom_wiki_core.utils.formatters.markdown_formatter import (
     format_item,
     format_pokemon,
 )
-from bbvw2_redux_wiki.utils.services.evolution_service import EvolutionService
-from bbvw2_redux_wiki.utils.text.text_util import name_to_id, parse_pokemon_forme
+from rom_wiki_core.utils.services.evolution_service import EvolutionService
+from rom_wiki_core.utils.text.text_util import name_to_id, parse_pokemon_forme
 
 from .base_parser import BaseParser
 
@@ -37,6 +37,7 @@ class EvolutionChangesParser(BaseParser):
             output_dir (str, optional): Path to the output directory. Defaults to "docs".
         """
         super().__init__(input_file=input_file, output_dir=output_dir)
+        self.evolution_service = EvolutionService()
         self._sections = ["General Notes", "Evolution Changes"]
 
         # Evolution Changes states
@@ -262,7 +263,7 @@ class EvolutionChangesParser(BaseParser):
                     evolution_details.gender = gender
 
                 # Use the evolution service to update the chain
-                EvolutionService.update_evolution_chain(
+                self.evolution_service.update_evolution_chain(
                     pokemon_id,
                     evolution_id,
                     evolution_chain,

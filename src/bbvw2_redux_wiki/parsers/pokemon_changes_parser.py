@@ -9,9 +9,8 @@ This parser:
 
 import re
 
-from bbvw2_redux_wiki.utils.core.config import VERSION_GROUP
-from bbvw2_redux_wiki.utils.core.loader import PokeDBLoader
-from bbvw2_redux_wiki.utils.formatters.markdown_formatter import (
+from rom_wiki_core.utils.core.loader import PokeDBLoader
+from rom_wiki_core.utils.formatters.markdown_formatter import (
     format_ability,
     format_checkbox,
     format_item,
@@ -20,9 +19,9 @@ from bbvw2_redux_wiki.utils.formatters.markdown_formatter import (
     format_pokemon_card_grid,
     format_type_badge,
 )
-from bbvw2_redux_wiki.utils.services.attribute_service import AttributeService
-from bbvw2_redux_wiki.utils.services.pokemon_item_service import PokemonItemService
-from bbvw2_redux_wiki.utils.services.pokemon_move_service import PokemonMoveService
+from rom_wiki_core.utils.services.attribute_service import AttributeService
+from rom_wiki_core.utils.services.pokemon_item_service import PokemonItemService
+from rom_wiki_core.utils.services.pokemon_move_service import PokemonMoveService
 
 from .base_parser import BaseParser
 
@@ -42,6 +41,9 @@ class PokemonChangesParser(BaseParser):
             output_dir (str, optional): Path to the output directory. Defaults to "docs".
         """
         super().__init__(input_file=input_file, output_dir=output_dir)
+        self.attribute_service = AttributeService()
+        self.pokemon_item_service = PokemonItemService()
+        self.pokemon_move_service = PokemonMoveService()
         self._sections = [
             "General Notes",
             "Type Changes",
@@ -100,7 +102,7 @@ class PokemonChangesParser(BaseParser):
 
         # Update level-up moves if we have any
         if self._levelup_moves:
-            PokemonMoveService.update_levelup_moves(
+            self.pokemon_move_service.update_levelup_moves(
                 pokemon=self._current_pokemon,
                 moves=self._levelup_moves,
                 forme=self._current_forme,
@@ -109,7 +111,7 @@ class PokemonChangesParser(BaseParser):
 
         # Update TM/HM moves if we have any
         if self._tm_hm_moves:
-            PokemonMoveService.update_machine_moves(
+            self.pokemon_move_service.update_machine_moves(
                 pokemon=self._current_pokemon,
                 moves=self._tm_hm_moves,
                 forme=self._current_forme,
@@ -187,7 +189,7 @@ class PokemonChangesParser(BaseParser):
             self._markdown += "\n"
 
             # Update Pokemon attribute in JSON file
-            AttributeService.update_attribute(
+            self.attribute_service.update_attribute(
                 pokemon=self._current_pokemon,
                 attribute=self._current_attribute,
                 value=line,
@@ -308,7 +310,11 @@ class PokemonChangesParser(BaseParser):
 
         # Load move data from PokeDB
         move_data = PokeDBLoader.load_move(move)
-        move_type = getattr(move_data.type, VERSION_GROUP, None) if move_data else None
+        move_type = (
+            getattr(move_data.type, self.config.version_group, None)
+            if move_data
+            else None
+        )
         move_type = move_type.title() if move_type else "Unknown"
         move_class = move_data.damage_class.title() if move_data else "Unknown"
 
@@ -372,7 +378,7 @@ class PokemonChangesParser(BaseParser):
         rarity = int(match.group(2))  # 100
 
         # Update held item immediately (no accumulation needed)
-        PokemonItemService.update_held_item(
+        self.pokemon_item_service.update_held_item(
             pokemon=self._current_pokemon,
             item_name=item_name,
             rarity=rarity,
@@ -403,7 +409,7 @@ class PokemonChangesParser(BaseParser):
         growth_rate = match.group(1)  # "fast", "medium-fast", "slow", etc.
 
         # Update growth rate immediately (no accumulation needed)
-        AttributeService.update_attribute(
+        self.attribute_service.update_attribute(
             pokemon=self._current_pokemon,
             attribute="growth_rate",
             value=growth_rate,
@@ -425,7 +431,7 @@ class PokemonChangesParser(BaseParser):
             return ability_text
 
         # Split by " / " and format each ability
-        abilities = [a.strip() for a in ability_text.split("/")]
+        abilities = [a.strip() for a in ability_text.split("/") if a.strip()]
         formatted_abilities = [
             format_ability(ability, is_linked=True) for ability in abilities
         ]

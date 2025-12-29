@@ -8,7 +8,9 @@ from abc import ABC
 from pathlib import Path
 from typing import Optional
 
-from bbvw2_redux_wiki.utils.core.logger import get_logger
+from rom_wiki_core.utils.core.logger import get_logger
+
+from bbvw2_redux_wiki.config import CONFIG
 
 
 class BaseParser(ABC):
@@ -46,6 +48,8 @@ class BaseParser(ABC):
         self._lines = []
         self._line_index = 0
         self._last_line = ""
+
+        self.config = CONFIG
 
         # Set up logger for this parser instance
         self.logger = get_logger(self.__class__.__module__)

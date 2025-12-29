@@ -10,14 +10,15 @@ This parser:
 import re
 
 import orjson
-from bbvw2_redux_wiki.utils.core.config import POKEDB_GENERATIONS
-from bbvw2_redux_wiki.utils.core.loader import PokeDBLoader
-from bbvw2_redux_wiki.utils.formatters.markdown_formatter import (
+from rom_wiki_core.utils.core.loader import PokeDBLoader
+from rom_wiki_core.utils.formatters.markdown_formatter import (
     format_checkbox,
     format_move,
     format_type_badge,
 )
-from bbvw2_redux_wiki.utils.services.move_service import MoveService
+from rom_wiki_core.utils.services.move_service import MoveService
+
+from bbvw2_redux_wiki.config import CONFIG
 
 from .base_parser import BaseParser
 
@@ -37,6 +38,7 @@ class MoveChangesParser(BaseParser):
             output_dir (str, optional): Path to the output directory. Defaults to "docs".
         """
         super().__init__(input_file=input_file, output_dir=output_dir)
+        self.move_service = MoveService()
         self._sections = [
             "General Changes",
             "Move Replacements",
@@ -76,7 +78,7 @@ class MoveChangesParser(BaseParser):
         data_dir = PokeDBLoader.get_data_dir()
 
         # Get gen8 source directory
-        source_gen = POKEDB_GENERATIONS[-1]  # "gen8"
+        source_gen = self.config.pokedb_generations[-1]
         source_move_dir = data_dir.parent / source_gen / "move"
         parsed_move_dir = data_dir / "move"
 
@@ -199,7 +201,7 @@ class MoveChangesParser(BaseParser):
             old_move, new_move = re.split(r"\s{3,}", line)
 
             # Copy the new move from latest generation to parsed data
-            MoveService.copy_new_move(new_move)
+            self.move_service.copy_new_move(new_move)
 
             old_move_html = format_move(old_move)
             new_move_html = format_move(new_move)
@@ -232,7 +234,7 @@ class MoveChangesParser(BaseParser):
                 custom = True
 
             # Update the move's type in the data
-            MoveService.update_move_attribute(
+            self.move_service.update_move_attribute(
                 move_name=self._current_move,
                 attribute="Type",
                 new_value=new_type,
@@ -299,7 +301,7 @@ class MoveChangesParser(BaseParser):
         # Update move data if attribute is supported
         supported_attributes = ["Power", "PP", "Priority", "Accuracy", "Type"]
         if attribute in supported_attributes:
-            MoveService.update_move_attribute(
+            self.move_service.update_move_attribute(
                 move_name=self._current_move,
                 attribute=attribute,
                 new_value=new_field,

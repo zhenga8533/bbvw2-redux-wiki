@@ -9,13 +9,13 @@ This parser:
 
 import re
 
-from bbvw2_redux_wiki.utils.core.loader import PokeDBLoader
-from bbvw2_redux_wiki.utils.formatters.markdown_formatter import (
+from rom_wiki_core.utils.core.loader import PokeDBLoader
+from rom_wiki_core.utils.formatters.markdown_formatter import (
     format_pokemon,
     format_pokemon_card_grid,
     format_type_badge,
 )
-from bbvw2_redux_wiki.utils.text.text_util import (
+from rom_wiki_core.utils.text.text_util import (
     strip_common_prefix,
     strip_common_suffix,
 )

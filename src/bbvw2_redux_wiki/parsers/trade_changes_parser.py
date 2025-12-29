@@ -8,7 +8,7 @@ This parser:
 
 import re
 
-from bbvw2_redux_wiki.utils.formatters.markdown_formatter import (
+from rom_wiki_core.utils.formatters.markdown_formatter import (
     format_pokemon_card_grid,
 )
 

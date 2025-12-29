@@ -10,7 +10,7 @@ import json
 from pathlib import Path
 from typing import Any, Dict, Optional
 
-from bbvw2_redux_wiki.utils.text.text_util import sanitize_filename
+from rom_wiki_core.utils.text.text_util import sanitize_filename
 
 from .base_parser import BaseParser
 

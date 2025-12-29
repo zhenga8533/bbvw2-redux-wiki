@@ -9,13 +9,11 @@ description = "Documentation generator for Pokémon Blaze Black/Volt White 2 Red
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "rom-wiki-core @ git+https://github.com/zhenga8533/rom-wiki-core.git",
     "mkdocs",
     "mkdocs-material",
     "mkdocs-git-authors-plugin",
     "mkdocs-git-committers-plugin",
-    "dacite",
-    "orjson",
-    "requests",
 ]
 
 [project.scripts]
