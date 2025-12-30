@@ -100,9 +100,7 @@ Fish, Normal, Route 21
 
 **Battle Type:** Tag
 
-Plasma Grunt
-
-**Battle Type:** Left Side
+Plasma Grunt (Left Side)
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -110,9 +108,7 @@ Plasma Grunt
 | ![chatot](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/441.gif){ .sprite }<br>[Chatot](../../pokedex/pokemon/chatot.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 61<br>**Ability:** [Tangled Feet](../../pokedex/abilities/tangled-feet.md) | 1. [Hyper Voice](../../pokedex/moves/hyper-voice.md)<br>2. [Hurricane](../../pokedex/moves/hurricane.md)<br>3. [Nasty Plot](../../pokedex/moves/nasty-plot.md)<br>4. [Agility](../../pokedex/moves/agility.md) |
 | ![electrode](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/101.gif){ .sprite }<br>[Electrode](../../pokedex/pokemon/electrode.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F8D030 0%, #F8D030dd 100%);">Electric</span></div> | **Level:** 61<br>**Ability:** [Static](../../pokedex/abilities/static.md) | 1. [Thunder](../../pokedex/moves/thunder.md)<br>2. [Magnet Rise](../../pokedex/moves/magnet-rise.md)<br>3. [Thunder Wave](../../pokedex/moves/thunder-wave.md)<br>4. [Light Screen](../../pokedex/moves/light-screen.md) |
 
-Plasma Grunt
-
-**Battle Type:** Right Side
+Plasma Grunt (Right Side)
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -228,9 +224,7 @@ Partner Hugh
 
 **Battle Type:** and Plasma Grunt #797
 
-Zinzolin
-
-**Battle Type:** Left Side
+Zinzolin (Left Side)
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -238,9 +232,7 @@ Zinzolin
 | ![drifblim](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/426.gif){ .sprite }<br>[Drifblim](../../pokedex/pokemon/drifblim.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 63<br>**Ability:** [Unburden](../../pokedex/abilities/unburden.md)<br>**Item:** ![Flying Gem](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/flying-gem.png){ .item-sprite } [Flying Gem](../../pokedex/items/flying-gem.md) | 1. [Acrobatics](../../pokedex/moves/acrobatics.md)<br>2. [Shadow Ball](../../pokedex/moves/shadow-ball.md)<br>3. [Thunderbolt](../../pokedex/moves/thunderbolt.md)<br>4. [Hypnosis](../../pokedex/moves/hypnosis.md) |
 | ![weavile](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/461.gif){ .sprite }<br>[Weavile](../../pokedex/pokemon/weavile.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> <span class="type-badge" style="background: linear-gradient(135deg, #98D8D8 0%, #98D8D8dd 100%);">Ice</span></div> | **Level:** 64<br>**Ability:** [Pressure](../../pokedex/abilities/pressure.md)<br>**Item:** ![Life Orb](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/life-orb.png){ .item-sprite } [Life Orb](../../pokedex/items/life-orb.md) | 1. [Knock Off](../../pokedex/moves/knock-off.md)<br>2. [Icicle Crash](../../pokedex/moves/icicle-crash.md)<br>3. [Ice Shard](../../pokedex/moves/ice-shard.md)<br>4. [Low Kick](../../pokedex/moves/low-kick.md) |
 
-Plasma Grunt
-
-**Battle Type:** Right Side
+Plasma Grunt (Right Side)
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|

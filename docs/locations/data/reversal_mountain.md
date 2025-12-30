@@ -60,9 +60,7 @@
 
 **Battle Type:** Tag
 
-Plasma Grunt
-
-**Battle Type:** Left Side
+Plasma Grunt (Left Side)
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -71,9 +69,7 @@ Plasma Grunt
 | ![wormadam-trash](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/10005.gif){ .sprite }<br>[Wormadam Trash](../../pokedex/pokemon/wormadam-trash.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> <span class="type-badge" style="background: linear-gradient(135deg, #B8B8D0 0%, #B8B8D0dd 100%);">Steel</span></div> | **Level:** 51<br>**Ability:** [Wonder Skin](../../pokedex/abilities/wonder-skin.md) | 1. [Ally Switch](../../pokedex/moves/ally-switch.md)<br>2. [Electroweb](../../pokedex/moves/electroweb.md)<br>3. [Metal Burst](../../pokedex/moves/metal-burst.md)<br>4. [Protect](../../pokedex/moves/protect.md) |
 | ![metagross](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/376.gif){ .sprite }<br>[Metagross](../../pokedex/pokemon/metagross.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #B8B8D0 0%, #B8B8D0dd 100%);">Steel</span> <span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span></div> | **Level:** 51<br>**Ability:** [Iron Fist](../../pokedex/abilities/iron-fist.md) | 1. [Agility](../../pokedex/moves/agility.md)<br>2. [Meteor Mash](../../pokedex/moves/meteor-mash.md)<br>3. [Hammer Arm](../../pokedex/moves/hammer-arm.md)<br>4. [Bullet Punch](../../pokedex/moves/bullet-punch.md) |
 
-Plasma Grunt
-
-**Battle Type:** Right Side
+Plasma Grunt (Right Side)
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -85,9 +81,7 @@ Plasma Grunt
 
 **Battle Type:** Tag
 
-Ace Trainer
-
-**Battle Type:** Left Side
+Ace Trainer (Left Side)
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -95,9 +89,7 @@ Ace Trainer
 | ![archeops](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/567.gif){ .sprite }<br>[Archeops](../../pokedex/pokemon/archeops.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 51<br>**Ability:** [Defeatist](../../pokedex/abilities/defeatist.md) | 1. [Rock Slide](../../pokedex/moves/rock-slide.md)<br>2. [Acrobatics](../../pokedex/moves/acrobatics.md)<br>3. [Lunge](../../pokedex/moves/lunge.md)<br>4. [Endeavor](../../pokedex/moves/endeavor.md) |
 | ![galvantula](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/596.gif){ .sprite }<br>[Galvantula](../../pokedex/pokemon/galvantula.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> <span class="type-badge" style="background: linear-gradient(135deg, #F8D030 0%, #F8D030dd 100%);">Electric</span></div> | **Level:** 51<br>**Ability:** [Compound Eyes](../../pokedex/abilities/compound-eyes.md) | 1. [Thunder](../../pokedex/moves/thunder.md)<br>2. [Giga Drain](../../pokedex/moves/giga-drain.md)<br>3. [Cross Poison](../../pokedex/moves/cross-poison.md)<br>4. [Bug Buzz](../../pokedex/moves/bug-buzz.md) |
 
-Ace Trainer
-
-**Battle Type:** Right Side
+Ace Trainer (Right Side)
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|

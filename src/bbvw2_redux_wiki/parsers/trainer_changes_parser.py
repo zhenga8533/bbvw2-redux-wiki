@@ -287,8 +287,41 @@ class TrainerChangesParser(LocationParser):
                 self._current_trainer_data["starter_variations"][starter] = {"team": []}
 
             self._markdown += f'{"\t" * (self._indent_level - 1)}=== "{starter}"\n\n'
+        # Match: "Left side" or "Right side" or patterns like "Plasma Grunt (Left Side):"
+        # (team variations for double battles)
+        # Matches patterns like:
+        # - "Left side:", "Left side: Liza", "Right side:", "Right side: Tate"
+        # - "Plasma Grunt (Left Side):", "Partner Hugh (Right Side):"
+        elif match := re.match(r"^(?:(.+?)\s+)?\(?(Left [Ss]ide|Right [Ss]ide)\)?(?::\s*(.+?))?:?$", line):
+            prefix = match.group(1) if match.group(1) else ""
+            side = match.group(2)
+            suffix = match.group(3) if match.group(3) else ""
+
+            # Construct the label based on what we have:
+            # - If we have a suffix (e.g., "Left side: Liza"), use suffix only
+            # - If we have a prefix (e.g., "Plasma Grunt (Left Side)"), use prefix + side in parens
+            # - Otherwise, just use the side
+            if suffix:
+                side_label = suffix.strip()
+            elif prefix:
+                # Include the side to differentiate (e.g., "Plasma Grunt (Left Side)")
+                side_label = f"{prefix.strip()} ({side})"
+            else:
+                side_label = side
+
+            self._indent_level = 1
+            self._is_table_open = False
+
+            # Handle team variations in data
+            if self._current_trainer_data:
+                if "team_variations" not in self._current_trainer_data:
+                    self._current_trainer_data["team_variations"] = {}
+                self._current_trainer_data["team_variations"][side_label] = {"team": []}
+
+            self._markdown += f'{side_label}\n\n'
         # Match: "<trainer>:"
-        elif match := re.match(r"^(.*):$", line):
+        # Don't match note lines (those starting with " - ") or URLs (containing "://")
+        elif (match := re.match(r"^(.*):$", line)) and not line.strip().startswith("-") and "://" not in line:
             # Save captured description before first trainer and output to markdown
             if self._capturing_description and self._location_description_lines:
                 self._save_location_description()
@@ -604,8 +637,20 @@ class TrainerChangesParser(LocationParser):
         if item:
             pokemon_entry["item"] = item
 
-        # Check if we're in a starter variation
+        # Check if we're in a team variation (Left side/Right side)
         if (
+            "team_variations" in self._current_trainer_data
+            and self._current_trainer_data["team_variations"]
+        ):
+            # Add to the last team variation
+            last_variation = list(
+                self._current_trainer_data["team_variations"].keys()
+            )[-1]
+            self._current_trainer_data["team_variations"][last_variation][
+                "team"
+            ].append(pokemon_entry)
+        # Check if we're in a starter variation
+        elif (
             "starter_variations" in self._current_trainer_data
             and self._current_trainer_data["starter_variations"]
         ):

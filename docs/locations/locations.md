@@ -13,7 +13,7 @@ Complete list of all locations in **Blaze Black 2 & Volt White 2 Redux**.
 | [Aspertia City](data/aspertia_city.md) | 6 | ✓ | — |
 | [Black Tower & White Treehollow](data/black_tower_white_treehollow.md) | 2 | — | — |
 | [Castelia City](data/castelia_city.md) | 18 | ✓ | — |
-| [Castelia Sewers](data/castelia_sewers.md) | 11 | ✓ | — |
+| [Castelia Sewers](data/castelia_sewers.md) | 9 | ✓ | — |
 | [Celestial Tower](data/celestial_tower.md) | 10 | ✓ | — |
 | [Chargestone Cave](data/chargestone_cave.md) | 13 | ✓ | — |
 | [Clay Tunnel](data/clay_tunnel.md) | 9 | ✓ | — |
@@ -25,10 +25,10 @@ Complete list of all locations in **Blaze Black 2 & Volt White 2 Redux**.
 | [Faraway Island](data/faraway_island.md) | 1 | — | — |
 | [Floccesy Ranch](data/floccesy_ranch.md) | 5 | ✓ | ✓ |
 | [Floccesy Town](data/floccesy_town.md) | 2 | — | — |
-| [Giant Chasm](data/giant_chasm.md) | 22 | ✓ | ✓ |
-| [Humilau City](data/humilau_city.md) | 12 | ✓ | — |
+| [Giant Chasm](data/giant_chasm.md) | 20 | ✓ | ✓ |
+| [Humilau City](data/humilau_city.md) | 10 | ✓ | — |
 | [Icirrus City](data/icirrus_city.md) | 3 | ✓ | — |
-| [Lacunosa Town](data/lacunosa_town.md) | 4 | — | — |
+| [Lacunosa Town](data/lacunosa_town.md) | 2 | — | — |
 | [Liberty Garden](data/liberty_garden.md) | 1 | — | — |
 | [Lostlorn Forest](data/lostlorn_forest.md) | 4 | ✓ | ✓ |
 | [Marvellous Bridge](data/marvellous_bridge.md) | — | ✓ | — |
@@ -37,14 +37,14 @@ Complete list of all locations in **Blaze Black 2 & Volt White 2 Redux**.
 | [N's Castle](data/ns_castle.md) | 6 | — | — |
 | [Nacrene City](data/nacrene_city.md) | 8 | — | — |
 | [Nature Preserve](data/nature_preserve.md) | 2 | — | — |
-| [Nimbasa City](data/nimbasa_city.md) | 12 | — | — |
+| [Nimbasa City](data/nimbasa_city.md) | 8 | — | — |
 | [Opelucid City](data/opelucid_city.md) | 14 | — | — |
 | [P2 Laboratory](data/p2_laboratory.md) | 1 | ✓ | — |
-| [PWT](data/pwt.md) | 12 | — | — |
+| [PWT](data/pwt.md) | 8 | — | — |
 | [Pinwheel Forest](data/pinwheel_forest.md) | — | ✓ | ✓ |
 | [Relic Castle](data/relic_castle.md) | 3 | ✓ | — |
 | [Relic Passage](data/relic_passage.md) | 12 | ✓ | — |
-| [Reversal Mountain](data/reversal_mountain.md) | 18 | ✓ | — |
+| [Reversal Mountain](data/reversal_mountain.md) | 12 | ✓ | — |
 | [Route 1](data/route_1.md) | — | ✓ | — |
 | [Route 11](data/route_11.md) | 3 | ✓ | — |
 | [Route 12](data/route_12.md) | 5 | ✓ | — |
@@ -57,7 +57,7 @@ Complete list of all locations in **Blaze Black 2 & Volt White 2 Redux**.
 | [Route 19](data/route_19.md) | — | ✓ | — |
 | [Route 2](data/route_2.md) | — | ✓ | ✓ |
 | [Route 20](data/route_20.md) | 13 | ✓ | — |
-| [Route 21](data/route_21.md) | 24 | ✓ | — |
+| [Route 21](data/route_21.md) | 20 | ✓ | — |
 | [Route 22](data/route_22.md) | 6 | ✓ | ✓ |
 | [Route 23](data/route_23.md) | 12 | ✓ | ✓ |
 | [Route 3](data/route_3.md) | — | ✓ | ✓ |
@@ -72,11 +72,11 @@ Complete list of all locations in **Blaze Black 2 & Volt White 2 Redux**.
 | [Striation City](data/striation_city.md) | 3 | ✓ | — |
 | [The Nature Preserve](data/the_nature_preserve.md) | — | ✓ | — |
 | [The Pokémon League](data/the_pokmon_league.md) | 20 | — | — |
-| [Twist Mountain](data/twist_mountain.md) | 3 | ✓ | — |
+| [Twist Mountain](data/twist_mountain.md) | 2 | ✓ | — |
 | [Undella Bay](data/undella_bay.md) | 6 | ✓ | — |
 | [Undella Town](data/undella_town.md) | 1 | ✓ | — |
 | [Underground Ruins](data/underground_ruins.md) | — | ✓ | — |
-| [Victory Road](data/victory_road.md) | 30 | ✓ | — |
+| [Victory Road](data/victory_road.md) | 26 | ✓ | — |
 | [Village Bridge](data/village_bridge.md) | 9 | ✓ | — |
 | [Virbank City](data/virbank_city.md) | 9 | ✓ | — |
 | [Virbank Complex](data/virbank_complex.md) | 6 | ✓ | — |

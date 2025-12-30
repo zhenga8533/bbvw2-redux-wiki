@@ -1840,6 +1840,7 @@ Twist Mountain - Mistralton Side
 ●♛ COLRESS - [Easy and Normal mode]:
 ---
 Colress will show off Plasma technology with his new creations!
+
  - Some creative liberty has been taken in regards to the moves these creations have learned.
  - For details on stats and typing, see this page:
    https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9star_Studios_opponents#List_of_opponents
@@ -2706,10 +2707,10 @@ Humilau City
  - No level shift based on difficulty, levels are as stated.
 
 ○♕ TATE AND LIZA (2x) - {TM17 Protect} [Easy and Normal mode]:
-Left side:
+Left side: Liza
 Reuniclus [Magic Guard], lv.62: Trick Room, Psychic, Focus Blast, Energy Ball
 Lunatone [Levitate], lv.63 @Sitrus Berry: Cosmic Power, Stored Power, Power Gem, Night Daze
-Right side:
+Right side: Tate
 Gothitelle [Frisk], lv.62: Fake Out, Ally Switch, Night Daze, Psyshock
 Solrock [Levitate], lv.63 @Sitrus Berry: Psyshield Bash, Helping Hand, Rock Slide, Hypnosis
 

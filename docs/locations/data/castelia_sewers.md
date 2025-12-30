@@ -48,9 +48,7 @@
 
 **Battle Type:** Tag
 
-Plasma Grunt
-
-**Battle Type:** Left Side
+Plasma Grunt (Left Side)
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -58,9 +56,7 @@ Plasma Grunt
 | ![golbat](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/42.gif){ .sprite }<br>[Golbat](../../pokedex/pokemon/golbat.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 23<br>**Ability:** [Inner Focus](../../pokedex/abilities/inner-focus.md) | 1. [Confuse Ray](../../pokedex/moves/confuse-ray.md)<br>2. [Bite](../../pokedex/moves/bite.md)<br>3. [Air Cutter](../../pokedex/moves/air-cutter.md)<br>4. [Leech Life](../../pokedex/moves/leech-life.md) |
 | ![farfetchd](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/83.gif){ .sprite }<br>[Farfetchˈd](../../pokedex/pokemon/farfetchd.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 23<br>**Ability:** [Defeatist](../../pokedex/abilities/defeatist.md) | 1. [Aerial Ace](../../pokedex/moves/aerial-ace.md)<br>2. [Slash](../../pokedex/moves/slash.md)<br>3. [Night Slash](../../pokedex/moves/night-slash.md)<br>4. [Revenge](../../pokedex/moves/revenge.md) |
 
-Plasma Grunt
-
-**Battle Type:** Right Side
+Plasma Grunt (Right Side)
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|

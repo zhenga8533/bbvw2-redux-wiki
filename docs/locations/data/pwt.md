@@ -28,9 +28,7 @@
 
 **Battle Type:** Tag
 
-Plasma Grunt
-
-**Battle Type:** Left Side
+Plasma Grunt (Left Side)
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -38,9 +36,7 @@ Plasma Grunt
 | ![muk](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/89.gif){ .sprite }<br>[Muk](../../pokedex/pokemon/muk.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span></div> | **Level:** 40<br>**Ability:** [Stench](../../pokedex/abilities/stench.md) | 1. [Poison Jab](../../pokedex/moves/poison-jab.md)<br>2. [Shadow Sneak](../../pokedex/moves/shadow-sneak.md)<br>3. [Disable](../../pokedex/moves/disable.md)<br>4. [Rock Slide](../../pokedex/moves/rock-slide.md) |
 | ![throh](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/538.gif){ .sprite }<br>[Throh](../../pokedex/pokemon/throh.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span></div> | **Level:** 40<br>**Ability:** [Guts](../../pokedex/abilities/guts.md) | 1. [Storm Throw](../../pokedex/moves/storm-throw.md)<br>2. [Knock Off](../../pokedex/moves/knock-off.md)<br>3. [Zen Headbutt](../../pokedex/moves/zen-headbutt.md)<br>4. [Rock Tomb](../../pokedex/moves/rock-tomb.md) |
 
-Plasma Grunt
-
-**Battle Type:** Right Side
+Plasma Grunt (Right Side)
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -60,9 +56,7 @@ Partner Cheren
 
 **Battle Type:** Tag
 
-Plasma Grunt
-
-**Battle Type:** Left Side
+Plasma Grunt (Left Side)
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -70,9 +64,7 @@ Plasma Grunt
 | ![mightyena](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/262.gif){ .sprite }<br>[Mightyena](../../pokedex/pokemon/mightyena.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span></div> | **Level:** 40<br>**Ability:** [Intimidate](../../pokedex/abilities/intimidate.md) | 1. [Play Rough](../../pokedex/moves/play-rough.md)<br>2. [Ice Fang](../../pokedex/moves/ice-fang.md)<br>3. [Crunch](../../pokedex/moves/crunch.md)<br>4. [Sucker Punch](../../pokedex/moves/sucker-punch.md) |
 | ![weezing](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/110.gif){ .sprite }<br>[Weezing](../../pokedex/pokemon/weezing.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span></div> | **Level:** 40<br>**Ability:** [Levitate](../../pokedex/abilities/levitate.md) | 1. [Haze](../../pokedex/moves/haze.md)<br>2. [Gunk Shot](../../pokedex/moves/gunk-shot.md)<br>3. [Will O Wisp](../../pokedex/moves/will-o-wisp.md)<br>4. [Incinerate](../../pokedex/moves/incinerate.md) |
 
-Plasma Grunt
-
-**Battle Type:** Right Side
+Plasma Grunt (Right Side)
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|

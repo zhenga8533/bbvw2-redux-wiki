@@ -22,18 +22,14 @@
 
 **Battle Type:** 2x
 
-Hawes
-
-**Battle Type:** Left Side
+Hawes - (Left Side)
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
 | ![gigalith](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/526.gif){ .sprite }<br>[Gigalith](../../pokedex/pokemon/gigalith.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #B8A038 0%, #B8A038dd 100%);">Rock</span></div> | **Level:** 31<br>**Ability:** [Sand Stream](../../pokedex/abilities/sand-stream.md)<br>**Item:** ![Wide Lens](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/wide-lens.png){ .item-sprite } [Wide Lens](../../pokedex/items/wide-lens.md) | 1. [Stealth Rock](../../pokedex/moves/stealth-rock.md)<br>2. [Sandstorm](../../pokedex/moves/sandstorm.md)<br>3. [Heavy Slam](../../pokedex/moves/heavy-slam.md)<br>4. [Rock Slide](../../pokedex/moves/rock-slide.md) |
 | ![machamp](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/68.gif){ .sprite }<br>[Machamp](../../pokedex/pokemon/machamp.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Fighting</span></div> | **Level:** 31<br>**Ability:** [No Guard](../../pokedex/abilities/no-guard.md)<br>**Item:** ![Sitrus Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/sitrus-berry.png){ .item-sprite } [Sitrus Berry](../../pokedex/items/sitrus-berry.md) | 1. [Dynamic Punch](../../pokedex/moves/dynamic-punch.md)<br>2. [Bullet Punch](../../pokedex/moves/bullet-punch.md)<br>3. [Ice Punch](../../pokedex/moves/ice-punch.md)<br>4. [Cross Poison](../../pokedex/moves/cross-poison.md) |
 
-Lenora
-
-**Battle Type:** Right Side
+Lenora - (Right Side)
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -44,18 +40,14 @@ Lenora
 
 **Battle Type:** Tag
 
-Emmet
-
-**Battle Type:** Left Side
+Emmet (Left Side)
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
 | ![eelektross](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/604.gif){ .sprite }<br>[Eelektross](../../pokedex/pokemon/eelektross.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #F8D030 0%, #F8D030dd 100%);">Electric</span></div> | **Level:** 34<br>**Ability:** [Levitate](../../pokedex/abilities/levitate.md)<br>**Item:** ![Magnet](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/magnet.png){ .item-sprite } [Magnet](../../pokedex/items/magnet.md) | 1. [Thunderbolt](../../pokedex/moves/thunderbolt.md)<br>2. [Brick Break](../../pokedex/moves/brick-break.md)<br>3. [Protect](../../pokedex/moves/protect.md)<br>4. [Thunder Wave](../../pokedex/moves/thunder-wave.md) |
 | ![umbreon](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/197.gif){ .sprite }<br>[Umbreon](../../pokedex/pokemon/umbreon.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span></div> | **Level:** 34<br>**Ability:** [Synchronize](../../pokedex/abilities/synchronize.md)<br>**Item:** ![Leftovers](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/leftovers.png){ .item-sprite } [Leftovers](../../pokedex/items/leftovers.md) | 1. [Helping Hand](../../pokedex/moves/helping-hand.md)<br>2. [Foul Play](../../pokedex/moves/foul-play.md)<br>3. [Fake Tears](../../pokedex/moves/fake-tears.md)<br>4. [Assurance](../../pokedex/moves/assurance.md) |
 
-Ingo
-
-**Battle Type:** Right Side
+Ingo (Right Side)
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|

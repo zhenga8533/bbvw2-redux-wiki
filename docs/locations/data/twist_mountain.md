@@ -46,7 +46,11 @@ Cave, Ice Room, Normal
 
 **Mode:** Easy and Normal mode
 
-For details on stats and typing, see this page
+Colress will show off Plasma technology with his new creations!
+
+ - Some creative liberty has been taken in regards to the moves these creations have learned.
+ - For details on stats and typing, see this page:
+   https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9star_Studios_opponents#List_of_opponents
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
