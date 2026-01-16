@@ -19,15 +19,11 @@
 
 	- `poliwhirl > politoed: trade (held: kings-rock)` → `poliwhirl > politoed: use-item (king's-rock)`
 
-	**Abilities Changes:**
-
-	- `water-absorb / damp / swift-swim` → `water-absorb / swift-swim / damp`
-
 	**Level-up Moves Changes:**
 
 	- `15 moves` → `19 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `29 moves` → `30 moves (added: wave-crash)`
 
@@ -41,8 +37,8 @@
 	---
 
 	- [Water Absorb](../../pokedex/abilities/water-absorb.md)
-	- [Swift Swim](../../pokedex/abilities/swift-swim.md)
-	- [Damp](../../pokedex/abilities/damp.md) :material-eye-off:
+	- [Damp](../../pokedex/abilities/damp.md)
+	- [Swift Swim](../../pokedex/abilities/swift-swim.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

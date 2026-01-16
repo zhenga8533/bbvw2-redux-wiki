@@ -3,7 +3,7 @@
 
 ??? note "Thunder ROM Changes"
 
-	**Pp Changes:**
+	**PP Changes:**
 
 	- `10` → `5`
 

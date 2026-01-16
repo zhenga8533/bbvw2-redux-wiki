@@ -3,7 +3,7 @@
 
 ??? note "Poison Jab ROM Changes"
 
-	**Pp Changes:**
+	**PP Changes:**
 
 	- `20` → `10`
 

@@ -15,15 +15,11 @@
 
 ??? note "Castform ROM Changes"
 
-	**Base Stats Changes:**
-
-	- `70 HP / 70 Atk / 70 Def / 70 SAtk / 70 SDef / 70 Spd` → `60 HP / 70 Atk / 60 Def / 100 SAtk / 70 SDef / 90 Spd`
-
 	**Level-up Moves Changes:**
 
 	- `20 moves` → `23 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `33 moves` → `35 moves (added: tri-attack, hurricane)`
 
@@ -123,13 +119,13 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Stat | Base | Min | Max | Distribution |
 |------|-----:|----:|----:|:-------------|
-| **HP** | **60** | 230 | 324 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 23.52941176470588%;"></div></div> |
+| **HP** | **70** | 250 | 344 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 27.450980392156865%;"></div></div> |
 | **Attack** | **70** | 130 | 262 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 27.450980392156865%;"></div></div> |
-| **Defense** | **60** | 112 | 240 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 23.52941176470588%;"></div></div> |
-| **Sp. Atk** | **100** | 184 | 328 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 39.21568627450981%;"></div></div> |
+| **Defense** | **70** | 130 | 262 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 27.450980392156865%;"></div></div> |
+| **Sp. Atk** | **70** | 130 | 262 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 27.450980392156865%;"></div></div> |
 | **Sp. Def** | **70** | 130 | 262 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 27.450980392156865%;"></div></div> |
-| **Speed** | **90** | 166 | 306 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 35.294117647058826%;"></div></div> |
-| **Base Stat Total** | **450** | | | |
+| **Speed** | **70** | 130 | 262 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 27.450980392156865%;"></div></div> |
+| **Base Stat Total** | **420** | | | |
 
 > **Min/Max Stats:** Calculated at Level 100.
 >

@@ -19,15 +19,11 @@
 
 	- `meditite > medicham: level-up (level 37)` → `meditite > medicham: level-up (level 34)`
 
-	**Base Stats Changes:**
-
-	- `60 HP / 60 Atk / 75 Def / 60 SAtk / 75 SDef / 80 Spd` → `60 HP / 65 Atk / 80 Def / 75 SAtk / 80 SDef / 90 Spd`
-
 	**Level-up Moves Changes:**
 
 	- `21 moves` → `22 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `40 moves` → `41 moves (added: acrobatics)`
 
@@ -123,12 +119,12 @@
 | Stat | Base | Min | Max | Distribution |
 |------|-----:|----:|----:|:-------------|
 | **HP** | **60** | 230 | 324 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 23.52941176470588%;"></div></div> |
-| **Attack** | **65** | 121 | 251 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 25.49019607843137%;"></div></div> |
-| **Defense** | **80** | 148 | 284 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 31.372549019607842%;"></div></div> |
-| **Sp. Atk** | **75** | 139 | 273 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 29.411764705882355%;"></div></div> |
-| **Sp. Def** | **80** | 148 | 284 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 31.372549019607842%;"></div></div> |
-| **Speed** | **90** | 166 | 306 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 35.294117647058826%;"></div></div> |
-| **Base Stat Total** | **450** | | | |
+| **Attack** | **60** | 112 | 240 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 23.52941176470588%;"></div></div> |
+| **Defense** | **75** | 139 | 273 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 29.411764705882355%;"></div></div> |
+| **Sp. Atk** | **60** | 112 | 240 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 23.52941176470588%;"></div></div> |
+| **Sp. Def** | **75** | 139 | 273 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 29.411764705882355%;"></div></div> |
+| **Speed** | **80** | 148 | 284 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 31.372549019607842%;"></div></div> |
+| **Base Stat Total** | **410** | | | |
 
 > **Min/Max Stats:** Calculated at Level 100.
 >

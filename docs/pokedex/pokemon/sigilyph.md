@@ -16,15 +16,11 @@
 
 ??? note "Sigilyph ROM Changes"
 
-	**Abilities Changes:**
-
-	- `wonder-skin / magic-guard / tinted-lens` → `tinted-lens / magic-guard / wonder-skin`
-
 	**Level-up Moves Changes:**
 
 	- `17 moves` → `23 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `37 moves` → `42 moves (added: tri-attack, mystical-fire, hurricane, quash, power-gem)`
 
@@ -37,9 +33,9 @@
 
 	---
 
-	- [Tinted Lens](../../pokedex/abilities/tinted-lens.md)
+	- [Wonder Skin](../../pokedex/abilities/wonder-skin.md)
 	- [Magic Guard](../../pokedex/abilities/magic-guard.md)
-	- [Wonder Skin](../../pokedex/abilities/wonder-skin.md) :material-eye-off:
+	- [Tinted Lens](../../pokedex/abilities/tinted-lens.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

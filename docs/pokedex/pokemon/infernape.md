@@ -15,14 +15,6 @@
 
 ??? note "Infernape ROM Changes"
 
-	**Base Stats Changes:**
-
-	- `76 HP / 104 Atk / 71 Def / 104 SAtk / 71 SDef / 108 Spd` → `76 HP / 104 Atk / 71 Def / 104 SAtk / 71 SDef / 109 Spd`
-
-	**Abilities Changes:**
-
-	- `blaze / iron-fist` → `iron-fist / blaze / iron-fist`
-
 	**Level-up Moves Changes:**
 
 	- `16 moves` → `25 moves`
@@ -36,7 +28,6 @@
 
 	---
 
-	- [Iron Fist](../../pokedex/abilities/iron-fist.md)
 	- [Blaze](../../pokedex/abilities/blaze.md)
 	- [Iron Fist](../../pokedex/abilities/iron-fist.md) :material-eye-off:
 
@@ -125,8 +116,8 @@
 | **Defense** | **71** | 132 | 265 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 27.84313725490196%;"></div></div> |
 | **Sp. Atk** | **104** | 191 | 337 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 40.78431372549019%;"></div></div> |
 | **Sp. Def** | **71** | 132 | 265 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 27.84313725490196%;"></div></div> |
-| **Speed** | **109** | 200 | 348 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 42.745098039215684%;"></div></div> |
-| **Base Stat Total** | **535** | | | |
+| **Speed** | **108** | 198 | 346 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 42.35294117647059%;"></div></div> |
+| **Base Stat Total** | **534** | | | |
 
 > **Min/Max Stats:** Calculated at Level 100.
 >

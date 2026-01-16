@@ -22,66 +22,6 @@
 
 <div class="grid cards" markdown>
 
--	[![Hoppip](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/187.gif){: .pokemon-sprite-img }](../pokemon/hoppip.md)
-
-	***
-
-	**#187 [Hoppip](../pokemon/hoppip.md)**
-
--	[![Skiploom](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/188.gif){: .pokemon-sprite-img }](../pokemon/skiploom.md)
-
-	***
-
-	**#188 [Skiploom](../pokemon/skiploom.md)**
-
--	[![Jumpluff](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/189.gif){: .pokemon-sprite-img }](../pokemon/jumpluff.md)
-
-	***
-
-	**#189 [Jumpluff](../pokemon/jumpluff.md)**
-
--	[![Murkrow](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/198.gif){: .pokemon-sprite-img }](../pokemon/murkrow.md)
-
-	***
-
-	**#198 [Murkrow](../pokemon/murkrow.md)**
-
--	[![Sableye](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/302.gif){: .pokemon-sprite-img }](../pokemon/sableye.md)
-
-	***
-
-	**#302 [Sableye](../pokemon/sableye.md)**
-
--	[![Volbeat](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/313.gif){: .pokemon-sprite-img }](../pokemon/volbeat.md)
-
-	***
-
-	**#313 [Volbeat](../pokemon/volbeat.md)**
-
--	[![Illumise](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/314.gif){: .pokemon-sprite-img }](../pokemon/illumise.md)
-
-	***
-
-	**#314 [Illumise](../pokemon/illumise.md)**
-
--	[![Riolu](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/447.gif){: .pokemon-sprite-img }](../pokemon/riolu.md)
-
-	***
-
-	**#447 [Riolu](../pokemon/riolu.md)**
-
--	[![Purrloin](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/509.gif){: .pokemon-sprite-img }](../pokemon/purrloin.md)
-
-	***
-
-	**#509 [Purrloin](../pokemon/purrloin.md)**
-
--	[![Liepard](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/510.gif){: .pokemon-sprite-img }](../pokemon/liepard.md)
-
-	***
-
-	**#510 [Liepard](../pokemon/liepard.md)**
-
 -	[![Cottonee](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/546.gif){: .pokemon-sprite-img }](../pokemon/cottonee.md)
 
 	***
@@ -117,6 +57,30 @@
 	***
 
 	**#198 [Murkrow](../pokemon/murkrow.md)**
+
+-	[![Sableye](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/302.gif){: .pokemon-sprite-img }](../pokemon/sableye.md)
+
+	***
+
+	**#302 [Sableye](../pokemon/sableye.md)**
+
+-	[![Volbeat](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/313.gif){: .pokemon-sprite-img }](../pokemon/volbeat.md)
+
+	***
+
+	**#313 [Volbeat](../pokemon/volbeat.md)**
+
+-	[![Illumise](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/314.gif){: .pokemon-sprite-img }](../pokemon/illumise.md)
+
+	***
+
+	**#314 [Illumise](../pokemon/illumise.md)**
+
+-	[![Riolu](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/447.gif){: .pokemon-sprite-img }](../pokemon/riolu.md)
+
+	***
+
+	**#447 [Riolu](../pokemon/riolu.md)**
 
 -	[![Purrloin](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/509.gif){: .pokemon-sprite-img }](../pokemon/purrloin.md)
 

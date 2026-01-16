@@ -15,15 +15,11 @@
 
 ??? note "Salamence ROM Changes"
 
-	**Abilities Changes:**
-
-	- `intimidate / moxie` → `intimidate / moxie / moxie`
-
 	**Level-up Moves Changes:**
 
 	- `20 moves` → `25 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `35 moves` → `36 moves (added: work-up)`
 
@@ -37,7 +33,6 @@
 	---
 
 	- [Intimidate](../../pokedex/abilities/intimidate.md)
-	- [Moxie](../../pokedex/abilities/moxie.md)
 	- [Moxie](../../pokedex/abilities/moxie.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**

@@ -19,10 +19,6 @@
 
 	- `lileep > cradily: level-up (level 40)` → `lileep > cradily: level-up (level 30)`
 
-	**Abilities Changes:**
-
-	- `suction-cups / storm-drain` → `suction-cups / storm-drain / storm-drain`
-
 	**Level-up Moves Changes:**
 
 	- `15 moves` → `22 moves`
@@ -37,7 +33,6 @@
 	---
 
 	- [Suction Cups](../../pokedex/abilities/suction-cups.md)
-	- [Storm Drain](../../pokedex/abilities/storm-drain.md)
 	- [Storm Drain](../../pokedex/abilities/storm-drain.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**

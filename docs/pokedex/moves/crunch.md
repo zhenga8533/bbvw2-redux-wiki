@@ -3,7 +3,7 @@
 
 ??? note "Crunch ROM Changes"
 
-	**Pp Changes:**
+	**PP Changes:**
 
 	- `15` → `10`
 

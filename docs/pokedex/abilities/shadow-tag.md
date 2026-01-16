@@ -34,6 +34,12 @@
 
 	**#360 [Wynaut](../pokemon/wynaut.md)**
 
+</div>
+
+### :material-eye-off: Hidden Ability
+
+<div class="grid cards" markdown>
+
 -	[![Gothita](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/574.gif){: .pokemon-sprite-img }](../pokemon/gothita.md)
 
 	***
@@ -51,18 +57,6 @@
 	***
 
 	**#576 [Gothitelle](../pokemon/gothitelle.md)**
-
-</div>
-
-### :material-eye-off: Hidden Ability
-
-<div class="grid cards" markdown>
-
--	[![Chandelure](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/609.gif){: .pokemon-sprite-img }](../pokemon/chandelure.md)
-
-	***
-
-	**#609 [Chandelure](../pokemon/chandelure.md)**
 
 </div>
 

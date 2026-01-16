@@ -11,6 +11,7 @@ import re
 
 from rom_wiki_core.parsers.base_parser import BaseParser
 from rom_wiki_core.utils.core.loader import PokeDBLoader
+from rom_wiki_core.utils.data.models import MoveLearn
 from rom_wiki_core.utils.formatters.markdown_formatter import (
     format_ability,
     format_checkbox,
@@ -23,6 +24,7 @@ from rom_wiki_core.utils.formatters.markdown_formatter import (
 from rom_wiki_core.utils.services.attribute_service import AttributeService
 from rom_wiki_core.utils.services.pokemon_item_service import PokemonItemService
 from rom_wiki_core.utils.services.pokemon_move_service import PokemonMoveService
+from rom_wiki_core.utils.text.text_util import name_to_id
 
 
 class PokemonChangesParser(BaseParser):
@@ -91,28 +93,149 @@ class PokemonChangesParser(BaseParser):
         else:
             self.parse_default(line)
 
+    def _get_pokemon_id(self) -> str:
+        """Get the pokemon ID from current pokemon name and forme.
+
+        Returns:
+            str: The pokemon ID (e.g., "pikachu", "deoxys-attack").
+        """
+        pokemon_id = name_to_id(self._current_pokemon)
+        if self._current_forme:
+            pokemon_id = f"{pokemon_id}-{self._current_forme}"
+        return pokemon_id
+
     def _flush_accumulated_data(self) -> None:
         """Flush accumulated data (level-up moves, TMs) to Pokemon JSON."""
         if not self._current_pokemon:
             return
 
+        pokemon_id = self._get_pokemon_id()
+
         # Update level-up moves if we have any
         if self._levelup_moves:
+            # Convert tuples to MoveLearn objects
+            move_learns = [
+                MoveLearn(
+                    name=name_to_id(move_name),
+                    level_learned_at=level,
+                    version_groups=[self.config.version_group],
+                )
+                for level, move_name in self._levelup_moves
+            ]
             PokemonMoveService.update_levelup_moves(
-                pokemon=self._current_pokemon,
-                moves=self._levelup_moves,
-                forme=self._current_forme,
+                pokemon_id=pokemon_id,
+                moves=move_learns,
             )
             self._levelup_moves = []
 
         # Update TM/HM moves if we have any
         if self._tm_hm_moves:
-            PokemonMoveService.update_machine_moves(
-                pokemon=self._current_pokemon,
-                moves=self._tm_hm_moves,
-                forme=self._current_forme,
+            # Convert tuples to move IDs
+            move_ids = [name_to_id(move_name) for _, _, move_name in self._tm_hm_moves]
+            PokemonMoveService.update_move_category(
+                pokemon_id=pokemon_id,
+                category="machine",
+                move_ids=move_ids,
             )
             self._tm_hm_moves = []
+
+    def _update_pokemon_attribute(self, attribute: str, value: str) -> None:
+        """Update a Pokemon attribute using the appropriate service method.
+
+        Args:
+            attribute: The attribute name (e.g., "Type", "Ability 1").
+            value: The new value as a string.
+        """
+        pokemon_id = self._get_pokemon_id()
+
+        # Handle Type changes
+        if attribute.startswith("Type"):
+            # Parse "Fire / Dragon" into ["fire", "dragon"]
+            types = [name_to_id(t.strip()) for t in value.split("/")]
+            AttributeService.update_type(pokemon_id, types)
+
+        # Handle Ability changes
+        elif attribute.startswith("Ability"):
+            # Extract slot number from attribute name (e.g., "Ability 1" -> 1)
+            slot = None
+            if " " in attribute:
+                try:
+                    slot = int(attribute.split()[-1])
+                except ValueError:
+                    pass
+
+            # Parse abilities - value might be "Ability1 / Ability2 / Ability3"
+            abilities = [name_to_id(a.strip()) for a in value.split("/") if a.strip()]
+
+            # If there's a slot number, update that specific slot
+            if slot is not None and len(abilities) == 1:
+                AttributeService.update_ability_slot(pokemon_id, abilities[0], slot)
+            # Otherwise update all abilities (this handles bulk ability changes)
+            elif abilities:
+                AttributeService.update_ability_slot(pokemon_id, abilities[0], slot)
+
+        # Handle Base Happiness
+        elif attribute == "Base Happiness":
+            try:
+                AttributeService.update_base_happiness(pokemon_id, int(value))
+            except ValueError:
+                self.logger.warning(f"Invalid base happiness value: {value}")
+
+        # Handle Base Experience
+        elif attribute == "Base Experience":
+            try:
+                AttributeService.update_base_experience(pokemon_id, int(value))
+            except ValueError:
+                self.logger.warning(f"Invalid base experience value: {value}")
+
+        # Handle Catch Rate
+        elif attribute == "Catch Rate":
+            try:
+                AttributeService.update_catch_rate(pokemon_id, int(value))
+            except ValueError:
+                self.logger.warning(f"Invalid catch rate value: {value}")
+
+        # Handle Gender Ratio
+        elif attribute == "Gender Ratio":
+            # Parse gender ratio string to gender_rate int
+            # Common formats: "100% Male", "75% Male / 25% Female", "Genderless"
+            gender_rate = self._parse_gender_ratio(value)
+            if gender_rate is not None:
+                AttributeService.update_gender_ratio(pokemon_id, gender_rate)
+
+        # Handle Base Stats and EVs - these are handled separately in the parser
+        # as they have complex multi-value formats
+
+    def _parse_gender_ratio(self, value: str) -> int | None:
+        """Parse gender ratio string to gender_rate int.
+
+        Args:
+            value: Gender ratio string (e.g., "100% Male", "75% Male / 25% Female").
+
+        Returns:
+            Gender rate value (-1 to 8), or None if parsing fails.
+        """
+        value = value.lower().strip()
+
+        if "genderless" in value:
+            return -1
+        if "100% male" in value:
+            return 0
+        if "100% female" in value:
+            return 8
+
+        # Try to parse percentage format
+        if "% female" in value:
+            try:
+                # Extract female percentage
+                female_pct = float(value.split("%")[0].split()[-1])
+                # Convert percentage to eighths (0-8 scale)
+                return round(female_pct / 12.5)
+            except (ValueError, IndexError):
+                pass
+
+        self.logger.warning(f"Could not parse gender ratio: {value}")
+        return None
 
     def parse_specific_changes(self, line: str) -> None:
         """Parse specific changes section.
@@ -185,12 +308,7 @@ class PokemonChangesParser(BaseParser):
             self._markdown += "\n"
 
             # Update Pokemon attribute in JSON file
-            AttributeService.update_attribute(
-                pokemon=self._current_pokemon,
-                attribute=self._current_attribute,
-                value=line,
-                forme=self._current_forme,
-            )
+            self._update_pokemon_attribute(self._current_attribute, line)
         # Match: special attribute continuation lines (Moves, Evolution, etc.)
         elif self._current_attribute in [
             "Moves",
@@ -375,10 +493,9 @@ class PokemonChangesParser(BaseParser):
 
         # Update held item immediately (no accumulation needed)
         PokemonItemService.update_held_item(
-            pokemon=self._current_pokemon,
-            item_name=item_name,
+            pokemon_id=self._get_pokemon_id(),
+            item_id=name_to_id(item_name),
             rarity=rarity,
-            forme=self._current_forme,
         )
 
         # Format the line with linked item for markdown output
@@ -405,11 +522,9 @@ class PokemonChangesParser(BaseParser):
         growth_rate = match.group(1)  # "fast", "medium-fast", "slow", etc.
 
         # Update growth rate immediately (no accumulation needed)
-        AttributeService.update_attribute(
-            pokemon=self._current_pokemon,
-            attribute="growth_rate",
-            value=growth_rate,
-            forme=self._current_forme,
+        AttributeService.update_growth_rate(
+            pokemon_id=self._get_pokemon_id(),
+            growth_rate=growth_rate,
         )
 
         return line

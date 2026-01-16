@@ -15,14 +15,6 @@
 
 ??? note "Wooper ROM Changes"
 
-	**Abilities Changes:**
-
-	- `damp / water-absorb / unaware` → `water-absorb / unaware / damp`
-
-	**Base Stats Changes:**
-
-	- `55 HP / 45 Atk / 45 Def / 25 SAtk / 25 SDef / 15 Spd` → `55 HP / 55 Atk / 55 Def / 25 SAtk / 25 SDef / 15 Spd`
-
 	**Level-up Moves Changes:**
 
 	- `13 moves` → `23 moves`
@@ -36,9 +28,9 @@
 
 	---
 
+	- [Damp](../../pokedex/abilities/damp.md)
 	- [Water Absorb](../../pokedex/abilities/water-absorb.md)
-	- [Unaware](../../pokedex/abilities/unaware.md)
-	- [Damp](../../pokedex/abilities/damp.md) :material-eye-off:
+	- [Unaware](../../pokedex/abilities/unaware.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 
@@ -129,12 +121,12 @@
 | Stat | Base | Min | Max | Distribution |
 |------|-----:|----:|----:|:-------------|
 | **HP** | **55** | 220 | 314 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 21.568627450980394%;"></div></div> |
-| **Attack** | **55** | 103 | 229 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 21.568627450980394%;"></div></div> |
-| **Defense** | **55** | 103 | 229 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 21.568627450980394%;"></div></div> |
+| **Attack** | **45** | 85 | 207 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 17.647058823529413%;"></div></div> |
+| **Defense** | **45** | 85 | 207 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 17.647058823529413%;"></div></div> |
 | **Sp. Atk** | **25** | 49 | 163 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 9.803921568627452%;"></div></div> |
 | **Sp. Def** | **25** | 49 | 163 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 9.803921568627452%;"></div></div> |
 | **Speed** | **15** | 31 | 141 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 5.88235294117647%;"></div></div> |
-| **Base Stat Total** | **230** | | | |
+| **Base Stat Total** | **210** | | | |
 
 > **Min/Max Stats:** Calculated at Level 100.
 >

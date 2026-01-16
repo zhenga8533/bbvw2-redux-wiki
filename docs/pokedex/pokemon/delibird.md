@@ -15,23 +15,15 @@
 
 ??? note "Delibird ROM Changes"
 
-	**Base Stats Changes:**
+	**Ability Changes:**
 
-	- `45 HP / 55 Atk / 45 Def / 65 SAtk / 45 SDef / 75 Spd` → `55 HP / 95 Atk / 65 Def / 65 SAtk / 65 SDef / 95 Spd`
-
-	**Abilities Changes:**
-
-	- `vital-spirit / hustle / insomnia` → `technician / sheer-force / insomnia`
-
-	**EV Yield Changes:**
-
-	- `1 Spd` → `1 SAtk, 1 Spd`
+	- `insomnia` → `technician`
 
 	**Level-up Moves Changes:**
 
 	- `1 move` → `18 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `23 moves` → `30 moves (added: hone-claws, hurricane, acrobatics, work-up, u-turn...)`
 
@@ -44,9 +36,9 @@
 
 	---
 
-	- [Technician](../../pokedex/abilities/technician.md)
-	- [Sheer Force](../../pokedex/abilities/sheer-force.md)
-	- [Insomnia](../../pokedex/abilities/insomnia.md) :material-eye-off:
+	- [Vital Spirit](../../pokedex/abilities/vital-spirit.md)
+	- [Hustle](../../pokedex/abilities/hustle.md)
+	- [Technician](../../pokedex/abilities/technician.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 
@@ -71,7 +63,7 @@
 
 	**Habitat:** Mountain
 
-	**EV Yield:** +1 Special Attack, +1 Speed
+	**EV Yield:** +1 Speed
 
 
 - **:material-egg: Breeding**
@@ -139,13 +131,13 @@
 
 | Stat | Base | Min | Max | Distribution |
 |------|-----:|----:|----:|:-------------|
-| **HP** | **55** | 220 | 314 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 21.568627450980394%;"></div></div> |
-| **Attack** | **95** | 175 | 317 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 37.254901960784316%;"></div></div> |
-| **Defense** | **65** | 121 | 251 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 25.49019607843137%;"></div></div> |
+| **HP** | **45** | 200 | 294 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 17.647058823529413%;"></div></div> |
+| **Attack** | **55** | 103 | 229 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 21.568627450980394%;"></div></div> |
+| **Defense** | **45** | 85 | 207 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 17.647058823529413%;"></div></div> |
 | **Sp. Atk** | **65** | 121 | 251 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 25.49019607843137%;"></div></div> |
-| **Sp. Def** | **65** | 121 | 251 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 25.49019607843137%;"></div></div> |
-| **Speed** | **95** | 175 | 317 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 37.254901960784316%;"></div></div> |
-| **Base Stat Total** | **440** | | | |
+| **Sp. Def** | **45** | 85 | 207 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 17.647058823529413%;"></div></div> |
+| **Speed** | **75** | 139 | 273 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 29.411764705882355%;"></div></div> |
+| **Base Stat Total** | **330** | | | |
 
 > **Min/Max Stats:** Calculated at Level 100.
 >

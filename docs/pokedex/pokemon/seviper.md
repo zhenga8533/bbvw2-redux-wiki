@@ -15,19 +15,11 @@
 
 ??? note "Seviper ROM Changes"
 
-	**Base Stats Changes:**
-
-	- `73 HP / 100 Atk / 60 Def / 100 SAtk / 60 SDef / 65 Spd` → `75 HP / 115 Atk / 60 Def / 80 SAtk / 60 SDef / 75 Spd`
-
-	**Abilities Changes:**
-
-	- `shed-skin / infiltrator` → `shed-skin / infiltrator / infiltrator`
-
 	**Level-up Moves Changes:**
 
 	- `30 moves` → `22 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `30 moves` → `32 moves (added: work-up, cut)`
 
@@ -41,7 +33,6 @@
 	---
 
 	- [Shed Skin](../../pokedex/abilities/shed-skin.md)
-	- [Infiltrator](../../pokedex/abilities/infiltrator.md)
 	- [Infiltrator](../../pokedex/abilities/infiltrator.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
@@ -121,13 +112,13 @@
 
 | Stat | Base | Min | Max | Distribution |
 |------|-----:|----:|----:|:-------------|
-| **HP** | **75** | 260 | 354 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 29.411764705882355%;"></div></div> |
-| **Attack** | **115** | 211 | 361 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 45.09803921568628%;"></div></div> |
+| **HP** | **73** | 256 | 350 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 28.627450980392155%;"></div></div> |
+| **Attack** | **100** | 184 | 328 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 39.21568627450981%;"></div></div> |
 | **Defense** | **60** | 112 | 240 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 23.52941176470588%;"></div></div> |
-| **Sp. Atk** | **80** | 148 | 284 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 31.372549019607842%;"></div></div> |
+| **Sp. Atk** | **100** | 184 | 328 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 39.21568627450981%;"></div></div> |
 | **Sp. Def** | **60** | 112 | 240 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 23.52941176470588%;"></div></div> |
-| **Speed** | **75** | 139 | 273 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 29.411764705882355%;"></div></div> |
-| **Base Stat Total** | **465** | | | |
+| **Speed** | **65** | 121 | 251 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 25.49019607843137%;"></div></div> |
+| **Base Stat Total** | **458** | | | |
 
 > **Min/Max Stats:** Calculated at Level 100.
 >

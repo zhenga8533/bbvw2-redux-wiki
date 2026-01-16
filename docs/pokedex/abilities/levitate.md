@@ -52,6 +52,12 @@
 
 	**#110 [Weezing](../pokemon/weezing.md)**
 
+-	[![Misdreavus](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/200.gif){: .pokemon-sprite-img }](../pokemon/misdreavus.md)
+
+	***
+
+	**#200 [Misdreavus](../pokemon/misdreavus.md)**
+
 -	[![Unown](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/201.gif){: .pokemon-sprite-img }](../pokemon/unown.md)
 
 	***
@@ -106,12 +112,6 @@
 
 	**#358 [Chimecho](../pokemon/chimecho.md)**
 
--	[![Glalie](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/362.gif){: .pokemon-sprite-img }](../pokemon/glalie.md)
-
-	***
-
-	**#362 [Glalie](../pokemon/glalie.md)**
-
 -	[![Latias](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/380.gif){: .pokemon-sprite-img }](../pokemon/latias.md)
 
 	***
@@ -123,6 +123,12 @@
 	***
 
 	**#381 [Latios](../pokemon/latios.md)**
+
+-	[![Mismagius](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/429.gif){: .pokemon-sprite-img }](../pokemon/mismagius.md)
+
+	***
+
+	**#429 [Mismagius](../pokemon/mismagius.md)**
 
 -	[![Chingling](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/433.gif){: .pokemon-sprite-img }](../pokemon/chingling.md)
 
@@ -178,24 +184,6 @@
 
 	**#488 [Cresselia](../pokemon/cresselia.md)**
 
--	[![Klink](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/599.gif){: .pokemon-sprite-img }](../pokemon/klink.md)
-
-	***
-
-	**#599 [Klink](../pokemon/klink.md)**
-
--	[![Klang](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/600.gif){: .pokemon-sprite-img }](../pokemon/klang.md)
-
-	***
-
-	**#600 [Klang](../pokemon/klang.md)**
-
--	[![Klinklang](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/601.gif){: .pokemon-sprite-img }](../pokemon/klinklang.md)
-
-	***
-
-	**#601 [Klinklang](../pokemon/klinklang.md)**
-
 -	[![Tynamo](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/602.gif){: .pokemon-sprite-img }](../pokemon/tynamo.md)
 
 	***
@@ -232,23 +220,29 @@
 
 <div class="grid cards" markdown>
 
--	[![Gastly](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/92.gif){: .pokemon-sprite-img }](../pokemon/gastly.md)
+-	[![Glalie](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/362.gif){: .pokemon-sprite-img }](../pokemon/glalie.md)
 
 	***
 
-	**#092 [Gastly](../pokemon/gastly.md)**
+	**#362 [Glalie](../pokemon/glalie.md)**
 
--	[![Haunter](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/93.gif){: .pokemon-sprite-img }](../pokemon/haunter.md)
-
-	***
-
-	**#093 [Haunter](../pokemon/haunter.md)**
-
--	[![Gengar](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/94.gif){: .pokemon-sprite-img }](../pokemon/gengar.md)
+-	[![Klink](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/599.gif){: .pokemon-sprite-img }](../pokemon/klink.md)
 
 	***
 
-	**#094 [Gengar](../pokemon/gengar.md)**
+	**#599 [Klink](../pokemon/klink.md)**
+
+-	[![Klang](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/600.gif){: .pokemon-sprite-img }](../pokemon/klang.md)
+
+	***
+
+	**#600 [Klang](../pokemon/klang.md)**
+
+-	[![Klinklang](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/601.gif){: .pokemon-sprite-img }](../pokemon/klinklang.md)
+
+	***
+
+	**#601 [Klinklang](../pokemon/klinklang.md)**
 
 </div>
 

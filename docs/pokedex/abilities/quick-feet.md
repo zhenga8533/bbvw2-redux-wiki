@@ -22,24 +22,6 @@
 
 <div class="grid cards" markdown>
 
--	[![Jolteon](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/135.gif){: .pokemon-sprite-img }](../pokemon/jolteon.md)
-
-	***
-
-	**#135 [Jolteon](../pokemon/jolteon.md)**
-
--	[![Sentret](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/161.gif){: .pokemon-sprite-img }](../pokemon/sentret.md)
-
-	***
-
-	**#161 [Sentret](../pokemon/sentret.md)**
-
--	[![Furret](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/162.gif){: .pokemon-sprite-img }](../pokemon/furret.md)
-
-	***
-
-	**#162 [Furret](../pokemon/furret.md)**
-
 -	[![Granbull](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/210.gif){: .pokemon-sprite-img }](../pokemon/granbull.md)
 
 	***
@@ -70,11 +52,17 @@
 
 	**#256 [Combusken](../pokemon/combusken.md)**
 
--	[![Venipede](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/543.gif){: .pokemon-sprite-img }](../pokemon/venipede.md)
+-	[![Poochyena](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/261.gif){: .pokemon-sprite-img }](../pokemon/poochyena.md)
 
 	***
 
-	**#543 [Venipede](../pokemon/venipede.md)**
+	**#261 [Poochyena](../pokemon/poochyena.md)**
+
+-	[![Mightyena](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/262.gif){: .pokemon-sprite-img }](../pokemon/mightyena.md)
+
+	***
+
+	**#262 [Mightyena](../pokemon/mightyena.md)**
 
 </div>
 
@@ -87,30 +75,6 @@
 	***
 
 	**#135 [Jolteon](../pokemon/jolteon.md)**
-
--	[![Torchic](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/255.gif){: .pokemon-sprite-img }](../pokemon/torchic.md)
-
-	***
-
-	**#255 [Torchic](../pokemon/torchic.md)**
-
--	[![Combusken](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/256.gif){: .pokemon-sprite-img }](../pokemon/combusken.md)
-
-	***
-
-	**#256 [Combusken](../pokemon/combusken.md)**
-
--	[![Poochyena](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/261.gif){: .pokemon-sprite-img }](../pokemon/poochyena.md)
-
-	***
-
-	**#261 [Poochyena](../pokemon/poochyena.md)**
-
--	[![Mightyena](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/262.gif){: .pokemon-sprite-img }](../pokemon/mightyena.md)
-
-	***
-
-	**#262 [Mightyena](../pokemon/mightyena.md)**
 
 -	[![Zigzagoon](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/263.gif){: .pokemon-sprite-img }](../pokemon/zigzagoon.md)
 
@@ -129,6 +93,18 @@
 	***
 
 	**#285 [Shroomish](../pokemon/shroomish.md)**
+
+-	[![Venipede](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/543.gif){: .pokemon-sprite-img }](../pokemon/venipede.md)
+
+	***
+
+	**#543 [Venipede](../pokemon/venipede.md)**
+
+-	[![Whirlipede](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/544.gif){: .pokemon-sprite-img }](../pokemon/whirlipede.md)
+
+	***
+
+	**#544 [Whirlipede](../pokemon/whirlipede.md)**
 
 </div>
 

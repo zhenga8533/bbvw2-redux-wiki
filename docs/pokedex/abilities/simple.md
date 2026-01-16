@@ -28,24 +28,6 @@
 
 	**#322 [Numel](../pokemon/numel.md)**
 
--	[![Camerupt](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/323.gif){: .pokemon-sprite-img }](../pokemon/camerupt.md)
-
-	***
-
-	**#323 [Camerupt](../pokemon/camerupt.md)**
-
--	[![Barboach](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/339.gif){: .pokemon-sprite-img }](../pokemon/barboach.md)
-
-	***
-
-	**#339 [Barboach](../pokemon/barboach.md)**
-
--	[![Whiscash](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/340.gif){: .pokemon-sprite-img }](../pokemon/whiscash.md)
-
-	***
-
-	**#340 [Whiscash](../pokemon/whiscash.md)**
-
 -	[![Bidoof](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/399.gif){: .pokemon-sprite-img }](../pokemon/bidoof.md)
 
 	***
@@ -58,23 +40,23 @@
 
 	**#400 [Bibarel](../pokemon/bibarel.md)**
 
--	[![Woobat](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/527.gif){: .pokemon-sprite-img }](../pokemon/woobat.md)
-
-	***
-
-	**#527 [Woobat](../pokemon/woobat.md)**
-
--	[![Swoobat](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/528.gif){: .pokemon-sprite-img }](../pokemon/swoobat.md)
-
-	***
-
-	**#528 [Swoobat](../pokemon/swoobat.md)**
-
 </div>
 
 ### :material-eye-off: Hidden Ability
 
 <div class="grid cards" markdown>
+
+-	[![Barboach](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/339.gif){: .pokemon-sprite-img }](../pokemon/barboach.md)
+
+	***
+
+	**#339 [Barboach](../pokemon/barboach.md)**
+
+-	[![Whiscash](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/340.gif){: .pokemon-sprite-img }](../pokemon/whiscash.md)
+
+	***
+
+	**#340 [Whiscash](../pokemon/whiscash.md)**
 
 -	[![Woobat](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/527.gif){: .pokemon-sprite-img }](../pokemon/woobat.md)
 

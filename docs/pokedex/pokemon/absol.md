@@ -15,19 +15,11 @@
 
 ??? note "Absol ROM Changes"
 
-	**Base Stats Changes:**
-
-	- `65 HP / 130 Atk / 60 Def / 75 SAtk / 60 SDef / 75 Spd` → `65 HP / 130 Atk / 60 Def / 85 SAtk / 60 SDef / 85 Spd`
-
-	**Abilities Changes:**
-
-	- `pressure / super-luck / justified` → `justified / super-luck / pressure`
-
 	**Level-up Moves Changes:**
 
 	- `32 moves` → `21 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `52 moves` → `56 moves (added: aura-sphere, low-sweep, quash, rock-climb)`
 
@@ -40,9 +32,9 @@
 
 	---
 
-	- [Justified](../../pokedex/abilities/justified.md)
+	- [Pressure](../../pokedex/abilities/pressure.md)
 	- [Super Luck](../../pokedex/abilities/super-luck.md)
-	- [Pressure](../../pokedex/abilities/pressure.md) :material-eye-off:
+	- [Justified](../../pokedex/abilities/justified.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 
@@ -133,10 +125,10 @@
 | **HP** | **65** | 240 | 334 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 25.49019607843137%;"></div></div> |
 | **Attack** | **130** | 238 | 394 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 50.98039215686274%;"></div></div> |
 | **Defense** | **60** | 112 | 240 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 23.52941176470588%;"></div></div> |
-| **Sp. Atk** | **85** | 157 | 295 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 33.33333333333333%;"></div></div> |
+| **Sp. Atk** | **75** | 139 | 273 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 29.411764705882355%;"></div></div> |
 | **Sp. Def** | **60** | 112 | 240 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 23.52941176470588%;"></div></div> |
-| **Speed** | **85** | 157 | 295 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 33.33333333333333%;"></div></div> |
-| **Base Stat Total** | **485** | | | |
+| **Speed** | **75** | 139 | 273 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 29.411764705882355%;"></div></div> |
+| **Base Stat Total** | **465** | | | |
 
 > **Min/Max Stats:** Calculated at Level 100.
 >

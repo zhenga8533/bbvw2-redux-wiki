@@ -15,15 +15,11 @@
 
 ??? note "Dewgong ROM Changes"
 
-	**Base Stats Changes:**
-
-	- `90 HP / 70 Atk / 80 Def / 70 SAtk / 95 SDef / 70 Spd` → `90 HP / 90 Atk / 80 Def / 70 SAtk / 95 SDef / 70 Spd`
-
 	**Level-up Moves Changes:**
 
 	- `21 moves` → `24 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `26 moves` → `27 moves (added: wave-crash)`
 
@@ -123,12 +119,12 @@
 | Stat | Base | Min | Max | Distribution |
 |------|-----:|----:|----:|:-------------|
 | **HP** | **90** | 290 | 384 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 35.294117647058826%;"></div></div> |
-| **Attack** | **90** | 166 | 306 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 35.294117647058826%;"></div></div> |
+| **Attack** | **70** | 130 | 262 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 27.450980392156865%;"></div></div> |
 | **Defense** | **80** | 148 | 284 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 31.372549019607842%;"></div></div> |
 | **Sp. Atk** | **70** | 130 | 262 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 27.450980392156865%;"></div></div> |
 | **Sp. Def** | **95** | 175 | 317 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 37.254901960784316%;"></div></div> |
 | **Speed** | **70** | 130 | 262 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 27.450980392156865%;"></div></div> |
-| **Base Stat Total** | **495** | | | |
+| **Base Stat Total** | **475** | | | |
 
 > **Min/Max Stats:** Calculated at Level 100.
 >

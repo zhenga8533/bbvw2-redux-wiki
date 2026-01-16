@@ -15,14 +15,6 @@
 
 ??? note "Luvdisc ROM Changes"
 
-	**Base Stats Changes:**
-
-	- `43 HP / 30 Atk / 55 Def / 40 SAtk / 65 SDef / 97 Spd` → `53 HP / 30 Atk / 65 Def / 90 SAtk / 65 SDef / 117 Spd`
-
-	**Abilities Changes:**
-
-	- `swift-swim / hydration` → `swift-swim / hydration / hydration`
-
 	**Type Changes:**
 
 	- `water` → `water / fairy`
@@ -31,7 +23,7 @@
 
 	- `14 moves` → `20 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `22 moves` → `26 moves (added: dazzling-gleam, wave-crash, quash, frost-breath)`
 
@@ -45,7 +37,6 @@
 	---
 
 	- [Swift Swim](../../pokedex/abilities/swift-swim.md)
-	- [Hydration](../../pokedex/abilities/hydration.md)
 	- [Hydration](../../pokedex/abilities/hydration.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
@@ -142,13 +133,13 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Stat | Base | Min | Max | Distribution |
 |------|-----:|----:|----:|:-------------|
-| **HP** | **53** | 216 | 310 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 20.784313725490197%;"></div></div> |
+| **HP** | **43** | 196 | 290 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 16.862745098039216%;"></div></div> |
 | **Attack** | **30** | 58 | 174 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 11.76470588235294%;"></div></div> |
-| **Defense** | **65** | 121 | 251 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 25.49019607843137%;"></div></div> |
-| **Sp. Atk** | **90** | 166 | 306 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 35.294117647058826%;"></div></div> |
+| **Defense** | **55** | 103 | 229 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 21.568627450980394%;"></div></div> |
+| **Sp. Atk** | **40** | 76 | 196 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 15.686274509803921%;"></div></div> |
 | **Sp. Def** | **65** | 121 | 251 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 25.49019607843137%;"></div></div> |
-| **Speed** | **117** | 215 | 366 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 45.88235294117647%;"></div></div> |
-| **Base Stat Total** | **420** | | | |
+| **Speed** | **97** | 179 | 322 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 38.03921568627451%;"></div></div> |
+| **Base Stat Total** | **330** | | | |
 
 > **Min/Max Stats:** Calculated at Level 100.
 >

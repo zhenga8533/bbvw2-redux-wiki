@@ -22,24 +22,6 @@
 
 <div class="grid cards" markdown>
 
--	[![Clefable](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/36.gif){: .pokemon-sprite-img }](../pokemon/clefable.md)
-
-	***
-
-	**#036 [Clefable](../pokemon/clefable.md)**
-
--	[![Wooper](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/194.gif){: .pokemon-sprite-img }](../pokemon/wooper.md)
-
-	***
-
-	**#194 [Wooper](../pokemon/wooper.md)**
-
--	[![Quagsire](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/195.gif){: .pokemon-sprite-img }](../pokemon/quagsire.md)
-
-	***
-
-	**#195 [Quagsire](../pokemon/quagsire.md)**
-
 -	[![Bidoof](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/399.gif){: .pokemon-sprite-img }](../pokemon/bidoof.md)
 
 	***
@@ -51,24 +33,6 @@
 	***
 
 	**#400 [Bibarel](../pokemon/bibarel.md)**
-
--	[![Pidove](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/519.gif){: .pokemon-sprite-img }](../pokemon/pidove.md)
-
-	***
-
-	**#519 [Pidove](../pokemon/pidove.md)**
-
--	[![Tranquill](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/520.gif){: .pokemon-sprite-img }](../pokemon/tranquill.md)
-
-	***
-
-	**#520 [Tranquill](../pokemon/tranquill.md)**
-
--	[![Unfezant](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/521.gif){: .pokemon-sprite-img }](../pokemon/unfezant.md)
-
-	***
-
-	**#521 [Unfezant](../pokemon/unfezant.md)**
 
 -	[![Woobat](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/527.gif){: .pokemon-sprite-img }](../pokemon/woobat.md)
 
@@ -93,6 +57,36 @@
 	***
 
 	**#036 [Clefable](../pokemon/clefable.md)**
+
+-	[![Wooper](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/194.gif){: .pokemon-sprite-img }](../pokemon/wooper.md)
+
+	***
+
+	**#194 [Wooper](../pokemon/wooper.md)**
+
+-	[![Quagsire](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/195.gif){: .pokemon-sprite-img }](../pokemon/quagsire.md)
+
+	***
+
+	**#195 [Quagsire](../pokemon/quagsire.md)**
+
+-	[![Pidove](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/519.gif){: .pokemon-sprite-img }](../pokemon/pidove.md)
+
+	***
+
+	**#519 [Pidove](../pokemon/pidove.md)**
+
+-	[![Tranquill](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/520.gif){: .pokemon-sprite-img }](../pokemon/tranquill.md)
+
+	***
+
+	**#520 [Tranquill](../pokemon/tranquill.md)**
+
+-	[![Unfezant](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/521.gif){: .pokemon-sprite-img }](../pokemon/unfezant.md)
+
+	***
+
+	**#521 [Unfezant](../pokemon/unfezant.md)**
 
 </div>
 

@@ -15,13 +15,9 @@
 
 ??? note "Blaziken ROM Changes"
 
-	**Base Stats Changes:**
+	**Ability Changes:**
 
-	- `80 HP / 120 Atk / 70 Def / 110 SAtk / 70 SDef / 80 Spd` → `80 HP / 120 Atk / 65 Def / 110 SAtk / 65 SDef / 95 Spd`
-
-	**Abilities Changes:**
-
-	- `blaze / speed-boost` → `reckless / blaze / reckless`
+	- `(none)` → `reckless`
 
 	**Level-up Moves Changes:**
 
@@ -36,9 +32,9 @@
 
 	---
 
-	- [Reckless](../../pokedex/abilities/reckless.md)
 	- [Blaze](../../pokedex/abilities/blaze.md)
-	- [Reckless](../../pokedex/abilities/reckless.md) :material-eye-off:
+	- [Speed Boost](../../pokedex/abilities/speed-boost.md) :material-eye-off:
+	- [Reckless](../../pokedex/abilities/reckless.md)
 
 - **:material-ruler: Physical Attributes**
 
@@ -126,11 +122,11 @@
 |------|-----:|----:|----:|:-------------|
 | **HP** | **80** | 270 | 364 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 31.372549019607842%;"></div></div> |
 | **Attack** | **120** | 220 | 372 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 47.05882352941176%;"></div></div> |
-| **Defense** | **65** | 121 | 251 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 25.49019607843137%;"></div></div> |
+| **Defense** | **70** | 130 | 262 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 27.450980392156865%;"></div></div> |
 | **Sp. Atk** | **110** | 202 | 350 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 43.13725490196079%;"></div></div> |
-| **Sp. Def** | **65** | 121 | 251 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 25.49019607843137%;"></div></div> |
-| **Speed** | **95** | 175 | 317 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 37.254901960784316%;"></div></div> |
-| **Base Stat Total** | **535** | | | |
+| **Sp. Def** | **70** | 130 | 262 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 27.450980392156865%;"></div></div> |
+| **Speed** | **80** | 148 | 284 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 31.372549019607842%;"></div></div> |
+| **Base Stat Total** | **530** | | | |
 
 > **Min/Max Stats:** Calculated at Level 100.
 >

@@ -21,14 +21,6 @@
 
 	- `burmy > mothim: level-up (level 20)` → `burmy > mothim: level-up (level 25)`
 
-	**Base Stats Changes:**
-
-	- `60 HP / 79 Atk / 105 Def / 59 SAtk / 85 SDef / 36 Spd` → `66 HP / 99 Atk / 105 Def / 59 SAtk / 85 SDef / 36 Spd`
-
-	**Abilities Changes:**
-
-	- `anticipation / overcoat` → `rough-skin / overcoat / overcoat`
-
 	**Level-up Moves Changes:**
 
 	- `13 moves` → `20 moves`
@@ -42,8 +34,7 @@
 
 	---
 
-	- [Rough Skin](../../pokedex/abilities/rough-skin.md)
-	- [Overcoat](../../pokedex/abilities/overcoat.md)
+	- [Anticipation](../../pokedex/abilities/anticipation.md)
 	- [Overcoat](../../pokedex/abilities/overcoat.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
@@ -138,13 +129,13 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Stat | Base | Min | Max | Distribution |
 |------|-----:|----:|----:|:-------------|
-| **HP** | **66** | 242 | 336 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 25.882352941176475%;"></div></div> |
-| **Attack** | **99** | 182 | 326 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 38.82352941176471%;"></div></div> |
+| **HP** | **60** | 230 | 324 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 23.52941176470588%;"></div></div> |
+| **Attack** | **79** | 146 | 282 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 30.980392156862745%;"></div></div> |
 | **Defense** | **105** | 193 | 339 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 41.17647058823529%;"></div></div> |
 | **Sp. Atk** | **59** | 110 | 238 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 23.137254901960784%;"></div></div> |
 | **Sp. Def** | **85** | 157 | 295 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 33.33333333333333%;"></div></div> |
 | **Speed** | **36** | 69 | 188 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 14.117647058823529%;"></div></div> |
-| **Base Stat Total** | **450** | | | |
+| **Base Stat Total** | **424** | | | |
 
 > **Min/Max Stats:** Calculated at Level 100.
 >

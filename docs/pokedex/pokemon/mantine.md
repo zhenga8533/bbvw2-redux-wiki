@@ -23,7 +23,7 @@
 
 	- `30 moves` → `22 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `28 moves` → `30 moves (added: wave-crash, fly)`
 

@@ -15,10 +15,6 @@
 
 ??? note "Makuhita ROM Changes"
 
-	**Base Stats Changes:**
-
-	- `72 HP / 60 Atk / 30 Def / 20 SAtk / 30 SDef / 25 Spd` → `75 HP / 65 Atk / 35 Def / 20 SAtk / 35 SDef / 25 Spd`
-
 	**Level-up Moves Changes:**
 
 	- `17 moves` → `20 moves`
@@ -113,13 +109,13 @@
 
 | Stat | Base | Min | Max | Distribution |
 |------|-----:|----:|----:|:-------------|
-| **HP** | **75** | 260 | 354 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 29.411764705882355%;"></div></div> |
-| **Attack** | **65** | 121 | 251 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 25.49019607843137%;"></div></div> |
-| **Defense** | **35** | 67 | 185 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 13.725490196078432%;"></div></div> |
+| **HP** | **72** | 254 | 348 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 28.235294117647058%;"></div></div> |
+| **Attack** | **60** | 112 | 240 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 23.52941176470588%;"></div></div> |
+| **Defense** | **30** | 58 | 174 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 11.76470588235294%;"></div></div> |
 | **Sp. Atk** | **20** | 40 | 152 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 7.8431372549019605%;"></div></div> |
-| **Sp. Def** | **35** | 67 | 185 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 13.725490196078432%;"></div></div> |
+| **Sp. Def** | **30** | 58 | 174 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 11.76470588235294%;"></div></div> |
 | **Speed** | **25** | 49 | 163 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 9.803921568627452%;"></div></div> |
-| **Base Stat Total** | **255** | | | |
+| **Base Stat Total** | **237** | | | |
 
 > **Min/Max Stats:** Calculated at Level 100.
 >

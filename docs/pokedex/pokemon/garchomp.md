@@ -15,15 +15,11 @@
 
 ??? note "Garchomp ROM Changes"
 
-	**Abilities Changes:**
-
-	- `sand-veil / rough-skin` → `sand-veil / rough-skin / rough-skin`
-
 	**Level-up Moves Changes:**
 
 	- `16 moves` → `23 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `41 moves` → `43 moves (added: work-up, fly)`
 
@@ -37,7 +33,6 @@
 	---
 
 	- [Sand Veil](../../pokedex/abilities/sand-veil.md)
-	- [Rough Skin](../../pokedex/abilities/rough-skin.md)
 	- [Rough Skin](../../pokedex/abilities/rough-skin.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**

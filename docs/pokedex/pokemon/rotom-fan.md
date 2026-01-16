@@ -12,14 +12,6 @@
 	</div>
 </div>
 
-
-??? note "Rotom Fan ROM Changes"
-
-	**Abilities Changes:**
-
-	- `levitate` → `motor-drive`
-
-
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>
@@ -28,7 +20,7 @@
 
 	---
 
-	- [Motor Drive](../../pokedex/abilities/motor-drive.md)
+	- [Levitate](../../pokedex/abilities/levitate.md)
 
 - **:material-ruler: Physical Attributes**
 

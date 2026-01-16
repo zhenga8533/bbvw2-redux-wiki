@@ -16,7 +16,7 @@
 
 ??? note "Darmanitan Standard ROM Changes"
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `45 moves` → `46 moves (added: low-sweep)`
 

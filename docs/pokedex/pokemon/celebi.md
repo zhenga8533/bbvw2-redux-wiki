@@ -20,7 +20,7 @@
 
 	- `14 moves` → `15 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `37 moves` → `38 moves (added: aura-sphere)`
 

@@ -16,19 +16,15 @@
 
 ??? note "Simisear ROM Changes"
 
-	**Base Stats Changes:**
+	**Growth Rate Changes:**
 
-	- `75 HP / 98 Atk / 63 Def / 98 SAtk / 63 SDef / 101 Spd` → `75 HP / 99 Atk / 63 Def / 99 SAtk / 63 SDef / 101 Spd`
-
-	**Abilities Changes:**
-
-	- `gluttony / blaze` → `gluttony / blaze / blaze`
+	- `medium` → `fast`
 
 	**Level-up Moves Changes:**
 
 	- `4 moves` → `14 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `40 moves` → `43 moves (added: mystical-fire, quash, play-rough)`
 
@@ -42,7 +38,6 @@
 	---
 
 	- [Gluttony](../../pokedex/abilities/gluttony.md)
-	- [Blaze](../../pokedex/abilities/blaze.md)
 	- [Blaze](../../pokedex/abilities/blaze.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
@@ -64,7 +59,7 @@
 
 	**Capture Rate:** 75
 
-	**Growth Rate:** Medium
+	**Growth Rate:** Fast
 
 	**EV Yield:** +2 Speed
 
@@ -130,12 +125,12 @@ These items can be found when catching or defeating this Pokémon in the wild:
 | Stat | Base | Min | Max | Distribution |
 |------|-----:|----:|----:|:-------------|
 | **HP** | **75** | 260 | 354 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 29.411764705882355%;"></div></div> |
-| **Attack** | **99** | 182 | 326 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 38.82352941176471%;"></div></div> |
+| **Attack** | **98** | 180 | 324 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 38.43137254901961%;"></div></div> |
 | **Defense** | **63** | 117 | 247 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 24.705882352941178%;"></div></div> |
-| **Sp. Atk** | **99** | 182 | 326 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 38.82352941176471%;"></div></div> |
+| **Sp. Atk** | **98** | 180 | 324 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 38.43137254901961%;"></div></div> |
 | **Sp. Def** | **63** | 117 | 247 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 24.705882352941178%;"></div></div> |
 | **Speed** | **101** | 186 | 331 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 39.6078431372549%;"></div></div> |
-| **Base Stat Total** | **500** | | | |
+| **Base Stat Total** | **498** | | | |
 
 > **Min/Max Stats:** Calculated at Level 100.
 >

@@ -15,15 +15,11 @@
 
 ??? note "Tyranitar ROM Changes"
 
-	**Abilities Changes:**
-
-	- `sand-stream / unnerve` → `sand-stream / battle-armor / unnerve`
-
 	**Level-up Moves Changes:**
 
 	- `20 moves` → `24 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `51 moves` → `52 moves (added: work-up)`
 
@@ -37,7 +33,6 @@
 	---
 
 	- [Sand Stream](../../pokedex/abilities/sand-stream.md)
-	- [Battle Armor](../../pokedex/abilities/battle-armor.md)
 	- [Unnerve](../../pokedex/abilities/unnerve.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**

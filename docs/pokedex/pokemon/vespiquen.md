@@ -15,19 +15,15 @@
 
 ??? note "Vespiquen ROM Changes"
 
-	**Base Stats Changes:**
+	**Ability Changes:**
 
-	- `70 HP / 80 Atk / 102 Def / 80 SAtk / 102 SDef / 40 Spd` → `81 HP / 95 Atk / 102 Def / 80 SAtk / 102 SDef / 40 Spd`
-
-	**Abilities Changes:**
-
-	- `pressure / unnerve` → `intimidate / pressure / unnerve`
+	- `(none)` → `intimidate`
 
 	**Level-up Moves Changes:**
 
 	- `31 moves` → `19 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `29 moves` → `31 moves (added: hurricane, work-up)`
 
@@ -40,9 +36,9 @@
 
 	---
 
-	- [Intimidate](../../pokedex/abilities/intimidate.md)
 	- [Pressure](../../pokedex/abilities/pressure.md)
 	- [Unnerve](../../pokedex/abilities/unnerve.md) :material-eye-off:
+	- [Intimidate](../../pokedex/abilities/intimidate.md)
 
 - **:material-ruler: Physical Attributes**
 
@@ -146,13 +142,13 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Stat | Base | Min | Max | Distribution |
 |------|-----:|----:|----:|:-------------|
-| **HP** | **81** | 272 | 366 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 31.76470588235294%;"></div></div> |
-| **Attack** | **95** | 175 | 317 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 37.254901960784316%;"></div></div> |
+| **HP** | **70** | 250 | 344 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 27.450980392156865%;"></div></div> |
+| **Attack** | **80** | 148 | 284 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 31.372549019607842%;"></div></div> |
 | **Defense** | **102** | 188 | 333 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 40.0%;"></div></div> |
 | **Sp. Atk** | **80** | 148 | 284 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 31.372549019607842%;"></div></div> |
 | **Sp. Def** | **102** | 188 | 333 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 40.0%;"></div></div> |
 | **Speed** | **40** | 76 | 196 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 15.686274509803921%;"></div></div> |
-| **Base Stat Total** | **500** | | | |
+| **Base Stat Total** | **474** | | | |
 
 > **Min/Max Stats:** Calculated at Level 100.
 >

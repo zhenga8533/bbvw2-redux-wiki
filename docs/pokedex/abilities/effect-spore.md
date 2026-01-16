@@ -22,12 +22,6 @@
 
 <div class="grid cards" markdown>
 
--	[![Vileplume](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/45.gif){: .pokemon-sprite-img }](../pokemon/vileplume.md)
-
-	***
-
-	**#045 [Vileplume](../pokemon/vileplume.md)**
-
 -	[![Paras](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/46.gif){: .pokemon-sprite-img }](../pokemon/paras.md)
 
 	***
@@ -45,6 +39,12 @@
 	***
 
 	**#285 [Shroomish](../pokemon/shroomish.md)**
+
+-	[![Breloom](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/286.gif){: .pokemon-sprite-img }](../pokemon/breloom.md)
+
+	***
+
+	**#286 [Breloom](../pokemon/breloom.md)**
 
 -	[![Foongus](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/590.gif){: .pokemon-sprite-img }](../pokemon/foongus.md)
 

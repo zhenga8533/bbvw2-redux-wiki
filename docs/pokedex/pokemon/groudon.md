@@ -16,7 +16,7 @@
 
 ??? note "Groudon ROM Changes"
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `47 moves` → `49 moves (added: low-sweep, work-up)`
 

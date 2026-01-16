@@ -16,15 +16,15 @@
 
 ??? note "Heatmor ROM Changes"
 
-	**Abilities Changes:**
+	**Ability Changes:**
 
-	- `gluttony / flash-fire / white-smoke` → `mold-breaker / flash-fire / white-smoke`
+	- `white-smoke` → `mold-breaker`
 
 	**Level-up Moves Changes:**
 
 	- `16 moves` → `24 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `31 moves` → `34 moves (added: low-sweep, work-up, rock-climb)`
 
@@ -37,9 +37,9 @@
 
 	---
 
-	- [Mold Breaker](../../pokedex/abilities/mold-breaker.md)
+	- [Gluttony](../../pokedex/abilities/gluttony.md)
 	- [Flash Fire](../../pokedex/abilities/flash-fire.md)
-	- [White Smoke](../../pokedex/abilities/white-smoke.md) :material-eye-off:
+	- [Mold Breaker](../../pokedex/abilities/mold-breaker.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

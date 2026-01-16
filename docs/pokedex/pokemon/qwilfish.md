@@ -15,19 +15,11 @@
 
 ??? note "Qwilfish ROM Changes"
 
-	**Base Stats Changes:**
-
-	- `65 HP / 95 Atk / 75 Def / 55 SAtk / 55 SDef / 85 Spd` → `65 HP / 95 Atk / 95 Def / 45 SAtk / 55 SDef / 95 Spd`
-
-	**Abilities Changes:**
-
-	- `poison-point / swift-swim / intimidate` → `intimidate / swift-swim / poison-point`
-
 	**Level-up Moves Changes:**
 
 	- `18 moves` → `25 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `30 moves` → `31 moves (added: wave-crash)`
 
@@ -40,9 +32,9 @@
 
 	---
 
-	- [Intimidate](../../pokedex/abilities/intimidate.md)
+	- [Poison Point](../../pokedex/abilities/poison-point.md)
 	- [Swift Swim](../../pokedex/abilities/swift-swim.md)
-	- [Poison Point](../../pokedex/abilities/poison-point.md) :material-eye-off:
+	- [Intimidate](../../pokedex/abilities/intimidate.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 
@@ -131,11 +123,11 @@ These items can be found when catching or defeating this Pokémon in the wild:
 |------|-----:|----:|----:|:-------------|
 | **HP** | **65** | 240 | 334 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 25.49019607843137%;"></div></div> |
 | **Attack** | **95** | 175 | 317 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 37.254901960784316%;"></div></div> |
-| **Defense** | **95** | 175 | 317 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 37.254901960784316%;"></div></div> |
-| **Sp. Atk** | **45** | 85 | 207 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 17.647058823529413%;"></div></div> |
+| **Defense** | **75** | 139 | 273 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 29.411764705882355%;"></div></div> |
+| **Sp. Atk** | **55** | 103 | 229 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 21.568627450980394%;"></div></div> |
 | **Sp. Def** | **55** | 103 | 229 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 21.568627450980394%;"></div></div> |
-| **Speed** | **95** | 175 | 317 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 37.254901960784316%;"></div></div> |
-| **Base Stat Total** | **450** | | | |
+| **Speed** | **85** | 157 | 295 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 33.33333333333333%;"></div></div> |
+| **Base Stat Total** | **430** | | | |
 
 > **Min/Max Stats:** Calculated at Level 100.
 >

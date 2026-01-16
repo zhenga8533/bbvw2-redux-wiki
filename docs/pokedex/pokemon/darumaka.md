@@ -16,9 +16,9 @@
 
 ??? note "Darumaka ROM Changes"
 
-	**Abilities Changes:**
+	**Ability Changes:**
 
-	- `hustle / inner-focus` → `sheer-force / sheer-force / inner-focus`
+	- `(none)` → `sheer-force`
 
 	**Level-up Moves Changes:**
 
@@ -33,9 +33,9 @@
 
 	---
 
-	- [Sheer Force](../../pokedex/abilities/sheer-force.md)
-	- [Sheer Force](../../pokedex/abilities/sheer-force.md)
+	- [Hustle](../../pokedex/abilities/hustle.md)
 	- [Inner Focus](../../pokedex/abilities/inner-focus.md) :material-eye-off:
+	- [Sheer Force](../../pokedex/abilities/sheer-force.md)
 
 - **:material-ruler: Physical Attributes**
 

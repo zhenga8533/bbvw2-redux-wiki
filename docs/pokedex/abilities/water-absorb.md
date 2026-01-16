@@ -52,18 +52,6 @@
 
 	**#134 [Vaporeon](../pokemon/vaporeon.md)**
 
--	[![Chinchou](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/170.gif){: .pokemon-sprite-img }](../pokemon/chinchou.md)
-
-	***
-
-	**#170 [Chinchou](../pokemon/chinchou.md)**
-
--	[![Lanturn](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/171.gif){: .pokemon-sprite-img }](../pokemon/lanturn.md)
-
-	***
-
-	**#171 [Lanturn](../pokemon/lanturn.md)**
-
 -	[![Politoed](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/186.gif){: .pokemon-sprite-img }](../pokemon/politoed.md)
 
 	***
@@ -88,41 +76,11 @@
 
 	**#226 [Mantine](../pokemon/mantine.md)**
 
--	[![Cacnea](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/331.gif){: .pokemon-sprite-img }](../pokemon/cacnea.md)
-
-	***
-
-	**#331 [Cacnea](../pokemon/cacnea.md)**
-
--	[![Cacturne](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/332.gif){: .pokemon-sprite-img }](../pokemon/cacturne.md)
-
-	***
-
-	**#332 [Cacturne](../pokemon/cacturne.md)**
-
 -	[![Mantyke](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/458.gif){: .pokemon-sprite-img }](../pokemon/mantyke.md)
 
 	***
 
 	**#458 [Mantyke](../pokemon/mantyke.md)**
-
--	[![Tympole](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/535.gif){: .pokemon-sprite-img }](../pokemon/tympole.md)
-
-	***
-
-	**#535 [Tympole](../pokemon/tympole.md)**
-
--	[![Palpitoad](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/536.gif){: .pokemon-sprite-img }](../pokemon/palpitoad.md)
-
-	***
-
-	**#536 [Palpitoad](../pokemon/palpitoad.md)**
-
--	[![Seismitoad](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/537.gif){: .pokemon-sprite-img }](../pokemon/seismitoad.md)
-
-	***
-
-	**#537 [Seismitoad](../pokemon/seismitoad.md)**
 
 -	[![Maractus](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/556.gif){: .pokemon-sprite-img }](../pokemon/maractus.md)
 
@@ -148,6 +106,18 @@
 
 <div class="grid cards" markdown>
 
+-	[![Chinchou](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/170.gif){: .pokemon-sprite-img }](../pokemon/chinchou.md)
+
+	***
+
+	**#170 [Chinchou](../pokemon/chinchou.md)**
+
+-	[![Lanturn](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/171.gif){: .pokemon-sprite-img }](../pokemon/lanturn.md)
+
+	***
+
+	**#171 [Lanturn](../pokemon/lanturn.md)**
+
 -	[![Cacnea](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/331.gif){: .pokemon-sprite-img }](../pokemon/cacnea.md)
 
 	***
@@ -159,6 +129,24 @@
 	***
 
 	**#332 [Cacturne](../pokemon/cacturne.md)**
+
+-	[![Tympole](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/535.gif){: .pokemon-sprite-img }](../pokemon/tympole.md)
+
+	***
+
+	**#535 [Tympole](../pokemon/tympole.md)**
+
+-	[![Palpitoad](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/536.gif){: .pokemon-sprite-img }](../pokemon/palpitoad.md)
+
+	***
+
+	**#536 [Palpitoad](../pokemon/palpitoad.md)**
+
+-	[![Seismitoad](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/537.gif){: .pokemon-sprite-img }](../pokemon/seismitoad.md)
+
+	***
+
+	**#537 [Seismitoad](../pokemon/seismitoad.md)**
 
 </div>
 

@@ -19,19 +19,15 @@
 
 	- `lairon > aggron: unknown` → `lairon > aggron: level-up (level 40)`
 
-	**Base Stats Changes:**
+	**Ability Changes:**
 
-	- `70 HP / 110 Atk / 180 Def / 60 SAtk / 60 SDef / 50 Spd` → `70 HP / 110 Atk / 160 Def / 50 SAtk / 80 SDef / 60 Spd`
-
-	**Abilities Changes:**
-
-	- `sturdy / rock-head / heavy-metal` → `filter / rock-head / sturdy`
+	- `heavy-metal` → `filter`
 
 	**Level-up Moves Changes:**
 
 	- `33 moves` → `25 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `50 moves` → `51 moves (added: work-up)`
 
@@ -44,9 +40,9 @@
 
 	---
 
-	- [Filter](../../pokedex/abilities/filter.md)
+	- [Sturdy](../../pokedex/abilities/sturdy.md)
 	- [Rock Head](../../pokedex/abilities/rock-head.md)
-	- [Sturdy](../../pokedex/abilities/sturdy.md) :material-eye-off:
+	- [Filter](../../pokedex/abilities/filter.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 
@@ -154,10 +150,10 @@ These items can be found when catching or defeating this Pokémon in the wild:
 |------|-----:|----:|----:|:-------------|
 | **HP** | **70** | 250 | 344 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 27.450980392156865%;"></div></div> |
 | **Attack** | **110** | 202 | 350 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 43.13725490196079%;"></div></div> |
-| **Defense** | **160** | 292 | 460 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 62.745098039215684%;"></div></div> |
-| **Sp. Atk** | **50** | 94 | 218 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 19.607843137254903%;"></div></div> |
-| **Sp. Def** | **80** | 148 | 284 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 31.372549019607842%;"></div></div> |
-| **Speed** | **60** | 112 | 240 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 23.52941176470588%;"></div></div> |
+| **Defense** | **180** | 328 | 504 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 70.58823529411765%;"></div></div> |
+| **Sp. Atk** | **60** | 112 | 240 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 23.52941176470588%;"></div></div> |
+| **Sp. Def** | **60** | 112 | 240 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 23.52941176470588%;"></div></div> |
+| **Speed** | **50** | 94 | 218 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 19.607843137254903%;"></div></div> |
 | **Base Stat Total** | **530** | | | |
 
 > **Min/Max Stats:** Calculated at Level 100.

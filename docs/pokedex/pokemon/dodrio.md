@@ -15,15 +15,17 @@
 
 ??? note "Dodrio ROM Changes"
 
-	**Abilities Changes:**
+	**Ability Changes:**
 
-	- `run-away / early-bird / tangled-feet` → `anger-point / early-bird / tangled-feet`
+	- `tangled-feet` → `anger-point`
+
+	- `anger-point` → `tangled-feet`
 
 	**Level-up Moves Changes:**
 
 	- `16 moves` → `24 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `24 moves` → `26 moves (added: low-sweep, rock-climb)`
 
@@ -36,7 +38,7 @@
 
 	---
 
-	- [Anger Point](../../pokedex/abilities/anger-point.md)
+	- [Run Away](../../pokedex/abilities/run-away.md)
 	- [Early Bird](../../pokedex/abilities/early-bird.md)
 	- [Tangled Feet](../../pokedex/abilities/tangled-feet.md) :material-eye-off:
 

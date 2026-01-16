@@ -16,15 +16,11 @@
 
 ??? note "Articuno ROM Changes"
 
-	**Abilities Changes:**
-
-	- `pressure / snow-cloak` → `pressure / snow-warning / snow-cloak`
-
 	**Level-up Moves Changes:**
 
 	- `15 moves` → `16 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `28 moves` → `29 moves (added: hurricane)`
 
@@ -38,7 +34,6 @@
 	---
 
 	- [Pressure](../../pokedex/abilities/pressure.md)
-	- [Snow Warning](../../pokedex/abilities/snow-warning.md)
 	- [Snow Cloak](../../pokedex/abilities/snow-cloak.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**

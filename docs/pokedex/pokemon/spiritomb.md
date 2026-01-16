@@ -15,10 +15,6 @@
 
 ??? note "Spiritomb ROM Changes"
 
-	**Abilities Changes:**
-
-	- `pressure / infiltrator` → `pressure / infiltrator / infiltrator`
-
 	**Level-up Moves Changes:**
 
 	- `13 moves` → `22 moves`
@@ -33,7 +29,6 @@
 	---
 
 	- [Pressure](../../pokedex/abilities/pressure.md)
-	- [Infiltrator](../../pokedex/abilities/infiltrator.md)
 	- [Infiltrator](../../pokedex/abilities/infiltrator.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**

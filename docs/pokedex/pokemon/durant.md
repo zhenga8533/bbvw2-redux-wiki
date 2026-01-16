@@ -16,15 +16,15 @@
 
 ??? note "Durant ROM Changes"
 
-	**Abilities Changes:**
+	**Ability Changes:**
 
-	- `swarm / hustle / truant` → `heatproof / hustle / truant`
+	- `truant` → `heatproof`
 
 	**Level-up Moves Changes:**
 
 	- `15 moves` → `20 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `31 moves` → `35 moves (added: low-sweep, bug-buzz, work-up, rock-climb)`
 
@@ -37,9 +37,9 @@
 
 	---
 
-	- [Heatproof](../../pokedex/abilities/heatproof.md)
+	- [Swarm](../../pokedex/abilities/swarm.md)
 	- [Hustle](../../pokedex/abilities/hustle.md)
-	- [Truant](../../pokedex/abilities/truant.md) :material-eye-off:
+	- [Heatproof](../../pokedex/abilities/heatproof.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

@@ -16,7 +16,7 @@
 
 ??? note "Rayquaza ROM Changes"
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `53 moves` → `54 moves (added: work-up)`
 

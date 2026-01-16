@@ -15,9 +15,9 @@
 
 ??? note "Wartortle ROM Changes"
 
-	**Abilities Changes:**
+	**Ability Changes:**
 
-	- `torrent / rain-dish` → `shell-armor / torrent / rain-dish`
+	- `(none)` → `shell-armor`
 
 	**Level-up Moves Changes:**
 
@@ -32,9 +32,9 @@
 
 	---
 
-	- [Shell Armor](../../pokedex/abilities/shell-armor.md)
 	- [Torrent](../../pokedex/abilities/torrent.md)
 	- [Rain Dish](../../pokedex/abilities/rain-dish.md) :material-eye-off:
+	- [Shell Armor](../../pokedex/abilities/shell-armor.md)
 
 - **:material-ruler: Physical Attributes**
 

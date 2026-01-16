@@ -15,10 +15,6 @@
 
 ??? note "Wurmple ROM Changes"
 
-	**Abilities Changes:**
-
-	- `shield-dust / run-away` → `shield-dust / run-away / run-away`
-
 	**Level-up Moves Changes:**
 
 	- `4 moves` → `5 moves`
@@ -33,7 +29,6 @@
 	---
 
 	- [Shield Dust](../../pokedex/abilities/shield-dust.md)
-	- [Run Away](../../pokedex/abilities/run-away.md)
 	- [Run Away](../../pokedex/abilities/run-away.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**

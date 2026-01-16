@@ -19,15 +19,11 @@
 
 	- `cubone > marowak: level-up (level 28)` → `cubone > marowak: level-up (level 27)`
 
-	**Abilities Changes:**
-
-	- `rock-head / lightning-rod / battle-armor` → `battle-armor / lightning-rod / rock-head`
-
 	**Level-up Moves Changes:**
 
 	- `18 moves` → `24 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `39 moves` → `40 moves (added: low-sweep)`
 
@@ -40,9 +36,9 @@
 
 	---
 
-	- [Battle Armor](../../pokedex/abilities/battle-armor.md)
+	- [Rock Head](../../pokedex/abilities/rock-head.md)
 	- [Lightning Rod](../../pokedex/abilities/lightning-rod.md)
-	- [Rock Head](../../pokedex/abilities/rock-head.md) :material-eye-off:
+	- [Battle Armor](../../pokedex/abilities/battle-armor.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

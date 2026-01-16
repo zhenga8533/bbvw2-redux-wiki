@@ -34,6 +34,12 @@
 
 	**#080 [Slowbro](../pokemon/slowbro.md)**
 
+-	[![Lickitung](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/108.gif){: .pokemon-sprite-img }](../pokemon/lickitung.md)
+
+	***
+
+	**#108 [Lickitung](../pokemon/lickitung.md)**
+
 -	[![Slowking](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/199.gif){: .pokemon-sprite-img }](../pokemon/slowking.md)
 
 	***
@@ -58,11 +64,29 @@
 
 	**#326 [Grumpig](../pokemon/grumpig.md)**
 
+-	[![Spinda](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/327.gif){: .pokemon-sprite-img }](../pokemon/spinda.md)
+
+	***
+
+	**#327 [Spinda](../pokemon/spinda.md)**
+
 -	[![Glameow](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/431.gif){: .pokemon-sprite-img }](../pokemon/glameow.md)
 
 	***
 
 	**#431 [Glameow](../pokemon/glameow.md)**
+
+-	[![Purugly](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/432.gif){: .pokemon-sprite-img }](../pokemon/purugly.md)
+
+	***
+
+	**#432 [Purugly](../pokemon/purugly.md)**
+
+-	[![Lickilicky](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/463.gif){: .pokemon-sprite-img }](../pokemon/lickilicky.md)
+
+	***
+
+	**#463 [Lickilicky](../pokemon/lickilicky.md)**
 
 -	[![Petilil](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/548.gif){: .pokemon-sprite-img }](../pokemon/petilil.md)
 

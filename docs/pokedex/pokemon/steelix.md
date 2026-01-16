@@ -19,14 +19,6 @@
 
 	- `onix > steelix: trade (held: metal-coat)` → `onix > steelix: use-item (metal-coat)`
 
-	**Base Stats Changes:**
-
-	- `75 HP / 85 Atk / 200 Def / 55 SAtk / 65 SDef / 30 Spd` → `75 HP / 105 Atk / 200 Def / 45 SAtk / 65 SDef / 30 Spd`
-
-	**Abilities Changes:**
-
-	- `rock-head / sturdy / sheer-force` → `sheer-force / sturdy / rock-head`
-
 	**Level-up Moves Changes:**
 
 	- `38 moves` → `25 moves`
@@ -40,9 +32,9 @@
 
 	---
 
-	- [Sheer Force](../../pokedex/abilities/sheer-force.md)
+	- [Rock Head](../../pokedex/abilities/rock-head.md)
 	- [Sturdy](../../pokedex/abilities/sturdy.md)
-	- [Rock Head](../../pokedex/abilities/rock-head.md) :material-eye-off:
+	- [Sheer Force](../../pokedex/abilities/sheer-force.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 
@@ -146,12 +138,12 @@ These items can be found when catching or defeating this Pokémon in the wild:
 | Stat | Base | Min | Max | Distribution |
 |------|-----:|----:|----:|:-------------|
 | **HP** | **75** | 260 | 354 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 29.411764705882355%;"></div></div> |
-| **Attack** | **105** | 193 | 339 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 41.17647058823529%;"></div></div> |
+| **Attack** | **85** | 157 | 295 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 33.33333333333333%;"></div></div> |
 | **Defense** | **200** | 364 | 548 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 78.43137254901961%;"></div></div> |
-| **Sp. Atk** | **45** | 85 | 207 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 17.647058823529413%;"></div></div> |
+| **Sp. Atk** | **55** | 103 | 229 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 21.568627450980394%;"></div></div> |
 | **Sp. Def** | **65** | 121 | 251 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 25.49019607843137%;"></div></div> |
 | **Speed** | **30** | 58 | 174 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 11.76470588235294%;"></div></div> |
-| **Base Stat Total** | **520** | | | |
+| **Base Stat Total** | **510** | | | |
 
 > **Min/Max Stats:** Calculated at Level 100.
 >

@@ -28,6 +28,12 @@
 
 	**#361 [Snorunt](../pokemon/snorunt.md)**
 
+-	[![Glalie](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/362.gif){: .pokemon-sprite-img }](../pokemon/glalie.md)
+
+	***
+
+	**#362 [Glalie](../pokemon/glalie.md)**
+
 -	[![Spheal](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/363.gif){: .pokemon-sprite-img }](../pokemon/spheal.md)
 
 	***
@@ -45,12 +51,6 @@
 	***
 
 	**#365 [Walrein](../pokemon/walrein.md)**
-
--	[![Regice](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/378.gif){: .pokemon-sprite-img }](../pokemon/regice.md)
-
-	***
-
-	**#378 [Regice](../pokemon/regice.md)**
 
 -	[![Vanillite](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/582.gif){: .pokemon-sprite-img }](../pokemon/vanillite.md)
 
@@ -87,6 +87,18 @@
 	***
 
 	**#087 [Dewgong](../pokemon/dewgong.md)**
+
+-	[![Regice](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/378.gif){: .pokemon-sprite-img }](../pokemon/regice.md)
+
+	***
+
+	**#378 [Regice](../pokemon/regice.md)**
+
+-	[![Glaceon](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/471.gif){: .pokemon-sprite-img }](../pokemon/glaceon.md)
+
+	***
+
+	**#471 [Glaceon](../pokemon/glaceon.md)**
 
 </div>
 

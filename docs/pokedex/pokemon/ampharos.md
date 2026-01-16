@@ -15,14 +15,6 @@
 
 ??? note "Ampharos ROM Changes"
 
-	**Base Stats Changes:**
-
-	- `90 HP / 75 Atk / 75 Def / 115 SAtk / 90 SDef / 55 Spd` → `95 HP / 80 Atk / 90 Def / 115 SAtk / 90 SDef / 55 Spd`
-
-	**Abilities Changes:**
-
-	- `static / plus` → `static / overcoat / plus`
-
 	**Type Changes:**
 
 	- `electric` → `electric / dragon`
@@ -31,7 +23,7 @@
 
 	- `31 moves` → `25 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `31 moves` → `35 moves (added: dazzling-gleam, energy-ball, power-gem, flash-cannon)`
 
@@ -45,7 +37,6 @@
 	---
 
 	- [Static](../../pokedex/abilities/static.md)
-	- [Overcoat](../../pokedex/abilities/overcoat.md)
 	- [Plus](../../pokedex/abilities/plus.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
@@ -130,13 +121,13 @@
 
 | Stat | Base | Min | Max | Distribution |
 |------|-----:|----:|----:|:-------------|
-| **HP** | **95** | 300 | 394 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 37.254901960784316%;"></div></div> |
-| **Attack** | **80** | 148 | 284 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 31.372549019607842%;"></div></div> |
-| **Defense** | **90** | 166 | 306 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 35.294117647058826%;"></div></div> |
+| **HP** | **90** | 290 | 384 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 35.294117647058826%;"></div></div> |
+| **Attack** | **75** | 139 | 273 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 29.411764705882355%;"></div></div> |
+| **Defense** | **75** | 139 | 273 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 29.411764705882355%;"></div></div> |
 | **Sp. Atk** | **115** | 211 | 361 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 45.09803921568628%;"></div></div> |
 | **Sp. Def** | **90** | 166 | 306 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 35.294117647058826%;"></div></div> |
 | **Speed** | **55** | 103 | 229 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 21.568627450980394%;"></div></div> |
-| **Base Stat Total** | **525** | | | |
+| **Base Stat Total** | **500** | | | |
 
 > **Min/Max Stats:** Calculated at Level 100.
 >

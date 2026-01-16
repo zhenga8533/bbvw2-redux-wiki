@@ -34,6 +34,12 @@
 
 	**#013 [Weedle](../pokemon/weedle.md)**
 
+-	[![Venomoth](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/49.gif){: .pokemon-sprite-img }](../pokemon/venomoth.md)
+
+	***
+
+	**#049 [Venomoth](../pokemon/venomoth.md)**
+
 -	[![Wurmple](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/265.gif){: .pokemon-sprite-img }](../pokemon/wurmple.md)
 
 	***
@@ -45,24 +51,6 @@
 	***
 
 	**#269 [Dustox](../pokemon/dustox.md)**
-
--	[![Wormadam Plant](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/413.gif){: .pokemon-sprite-img }](../pokemon/wormadam-plant.md)
-
-	***
-
-	**#413 [Wormadam Plant](../pokemon/wormadam-plant.md)**
-
-</div>
-
-### :material-eye-off: Hidden Ability
-
-<div class="grid cards" markdown>
-
--	[![Venomoth](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/49.gif){: .pokemon-sprite-img }](../pokemon/venomoth.md)
-
-	***
-
-	**#049 [Venomoth](../pokemon/venomoth.md)**
 
 </div>
 

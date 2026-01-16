@@ -15,19 +15,11 @@
 
 ??? note "Camerupt ROM Changes"
 
-	**Base Stats Changes:**
-
-	- `70 HP / 100 Atk / 70 Def / 105 SAtk / 75 SDef / 40 Spd` → `90 HP / 110 Atk / 70 Def / 105 SAtk / 75 SDef / 40 Spd`
-
-	**Abilities Changes:**
-
-	- `magma-armor / solid-rock / anger-point` → `solid-rock / simple / anger-point`
-
 	**Level-up Moves Changes:**
 
 	- `29 moves` → `24 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `36 moves` → `38 moves (added: power-gem, rock-climb)`
 
@@ -40,8 +32,8 @@
 
 	---
 
+	- [Magma Armor](../../pokedex/abilities/magma-armor.md)
 	- [Solid Rock](../../pokedex/abilities/solid-rock.md)
-	- [Simple](../../pokedex/abilities/simple.md)
 	- [Anger Point](../../pokedex/abilities/anger-point.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
@@ -145,13 +137,13 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Stat | Base | Min | Max | Distribution |
 |------|-----:|----:|----:|:-------------|
-| **HP** | **90** | 290 | 384 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 35.294117647058826%;"></div></div> |
-| **Attack** | **110** | 202 | 350 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 43.13725490196079%;"></div></div> |
+| **HP** | **70** | 250 | 344 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 27.450980392156865%;"></div></div> |
+| **Attack** | **100** | 184 | 328 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 39.21568627450981%;"></div></div> |
 | **Defense** | **70** | 130 | 262 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 27.450980392156865%;"></div></div> |
 | **Sp. Atk** | **105** | 193 | 339 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 41.17647058823529%;"></div></div> |
 | **Sp. Def** | **75** | 139 | 273 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 29.411764705882355%;"></div></div> |
 | **Speed** | **40** | 76 | 196 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 15.686274509803921%;"></div></div> |
-| **Base Stat Total** | **490** | | | |
+| **Base Stat Total** | **460** | | | |
 
 > **Min/Max Stats:** Calculated at Level 100.
 >

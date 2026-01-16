@@ -16,13 +16,9 @@
 
 ??? note "Smoochum ROM Changes"
 
-	**Base Stats Changes:**
+	**Ability Changes:**
 
-	- `45 HP / 30 Atk / 15 Def / 85 SAtk / 65 SDef / 65 Spd` → `50 HP / 37 Atk / 37 Def / 90 SAtk / 65 SDef / 80 Spd`
-
-	**Abilities Changes:**
-
-	- `oblivious / forewarn / hydration` → `dry-skin / forewarn / oblivious`
+	- `hydration` → `dry-skin`
 
 	**Level-up Moves Changes:**
 
@@ -37,9 +33,9 @@
 
 	---
 
-	- [Dry Skin](../../pokedex/abilities/dry-skin.md)
+	- [Oblivious](../../pokedex/abilities/oblivious.md)
 	- [Forewarn](../../pokedex/abilities/forewarn.md)
-	- [Oblivious](../../pokedex/abilities/oblivious.md) :material-eye-off:
+	- [Dry Skin](../../pokedex/abilities/dry-skin.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 
@@ -126,13 +122,13 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Stat | Base | Min | Max | Distribution |
 |------|-----:|----:|----:|:-------------|
-| **HP** | **50** | 210 | 304 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 19.607843137254903%;"></div></div> |
-| **Attack** | **37** | 71 | 190 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 14.50980392156863%;"></div></div> |
-| **Defense** | **37** | 71 | 190 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 14.50980392156863%;"></div></div> |
-| **Sp. Atk** | **90** | 166 | 306 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 35.294117647058826%;"></div></div> |
+| **HP** | **45** | 200 | 294 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 17.647058823529413%;"></div></div> |
+| **Attack** | **30** | 58 | 174 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 11.76470588235294%;"></div></div> |
+| **Defense** | **15** | 31 | 141 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 5.88235294117647%;"></div></div> |
+| **Sp. Atk** | **85** | 157 | 295 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 33.33333333333333%;"></div></div> |
 | **Sp. Def** | **65** | 121 | 251 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 25.49019607843137%;"></div></div> |
-| **Speed** | **80** | 148 | 284 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 31.372549019607842%;"></div></div> |
-| **Base Stat Total** | **359** | | | |
+| **Speed** | **65** | 121 | 251 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 25.49019607843137%;"></div></div> |
+| **Base Stat Total** | **305** | | | |
 
 > **Min/Max Stats:** Calculated at Level 100.
 >

@@ -15,15 +15,11 @@
 
 ??? note "Vulpix ROM Changes"
 
-	**Abilities Changes:**
-
-	- `flash-fire / drought` → `drought / flash-fire / drought`
-
 	**Level-up Moves Changes:**
 
 	- `33 moves` → `21 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `25 moves` → `28 moves (added: tri-attack, dazzling-gleam, power-gem)`
 
@@ -36,7 +32,6 @@
 
 	---
 
-	- [Drought](../../pokedex/abilities/drought.md)
 	- [Flash Fire](../../pokedex/abilities/flash-fire.md)
 	- [Drought](../../pokedex/abilities/drought.md) :material-eye-off:
 

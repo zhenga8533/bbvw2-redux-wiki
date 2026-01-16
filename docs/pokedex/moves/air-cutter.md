@@ -3,7 +3,7 @@
 
 ??? note "Air Cutter ROM Changes"
 
-	**Pp Changes:**
+	**PP Changes:**
 
 	- `25` → `15`
 

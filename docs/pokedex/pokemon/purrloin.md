@@ -16,15 +16,11 @@
 
 ??? note "Purrloin ROM Changes"
 
-	**Abilities Changes:**
-
-	- `limber / unburden / prankster` → `prankster / unburden / prankster`
-
 	**Level-up Moves Changes:**
 
 	- `16 moves` → `25 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `31 moves` → `32 moves (added: quash)`
 
@@ -37,7 +33,7 @@
 
 	---
 
-	- [Prankster](../../pokedex/abilities/prankster.md)
+	- [Limber](../../pokedex/abilities/limber.md)
 	- [Unburden](../../pokedex/abilities/unburden.md)
 	- [Prankster](../../pokedex/abilities/prankster.md) :material-eye-off:
 

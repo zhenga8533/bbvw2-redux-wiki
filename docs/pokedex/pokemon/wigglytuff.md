@@ -15,19 +15,15 @@
 
 ??? note "Wigglytuff ROM Changes"
 
-	**Base Stats Changes:**
+	**Ability Changes:**
 
-	- `140 HP / 70 Atk / 45 Def / 75 SAtk / 50 SDef / 45 Spd` → `140 HP / 60 Atk / 45 Def / 95 SAtk / 50 SDef / 45 Spd`
-
-	**Abilities Changes:**
-
-	- `cute-charm / frisk` → `huge-power / friend-guard / frisk`
+	- `(none)` → `huge-power`
 
 	**Level-up Moves Changes:**
 
 	- `4 moves` → `10 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `45 moves` → `47 moves (added: low-sweep, power-gem)`
 
@@ -40,9 +36,9 @@
 
 	---
 
-	- [Huge Power](../../pokedex/abilities/huge-power.md)
-	- [Friend Guard](../../pokedex/abilities/friend-guard.md)
+	- [Cute Charm](../../pokedex/abilities/cute-charm.md)
 	- [Frisk](../../pokedex/abilities/frisk.md) :material-eye-off:
+	- [Huge Power](../../pokedex/abilities/huge-power.md)
 
 - **:material-ruler: Physical Attributes**
 
@@ -122,12 +118,12 @@
 | Stat | Base | Min | Max | Distribution |
 |------|-----:|----:|----:|:-------------|
 | **HP** | **140** | 390 | 484 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 54.90196078431373%;"></div></div> |
-| **Attack** | **60** | 112 | 240 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 23.52941176470588%;"></div></div> |
+| **Attack** | **70** | 130 | 262 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 27.450980392156865%;"></div></div> |
 | **Defense** | **45** | 85 | 207 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 17.647058823529413%;"></div></div> |
-| **Sp. Atk** | **95** | 175 | 317 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 37.254901960784316%;"></div></div> |
+| **Sp. Atk** | **75** | 139 | 273 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 29.411764705882355%;"></div></div> |
 | **Sp. Def** | **50** | 94 | 218 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 19.607843137254903%;"></div></div> |
 | **Speed** | **45** | 85 | 207 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 17.647058823529413%;"></div></div> |
-| **Base Stat Total** | **435** | | | |
+| **Base Stat Total** | **425** | | | |
 
 > **Min/Max Stats:** Calculated at Level 100.
 >

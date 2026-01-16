@@ -22,42 +22,6 @@
 
 <div class="grid cards" markdown>
 
--	[![Pinsir](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/127.gif){: .pokemon-sprite-img }](../pokemon/pinsir.md)
-
-	***
-
-	**#127 [Pinsir](../pokemon/pinsir.md)**
-
--	[![Gyarados](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/130.gif){: .pokemon-sprite-img }](../pokemon/gyarados.md)
-
-	***
-
-	**#130 [Gyarados](../pokemon/gyarados.md)**
-
--	[![Heracross](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/214.gif){: .pokemon-sprite-img }](../pokemon/heracross.md)
-
-	***
-
-	**#214 [Heracross](../pokemon/heracross.md)**
-
--	[![Mightyena](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/262.gif){: .pokemon-sprite-img }](../pokemon/mightyena.md)
-
-	***
-
-	**#262 [Mightyena](../pokemon/mightyena.md)**
-
--	[![Salamence](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/373.gif){: .pokemon-sprite-img }](../pokemon/salamence.md)
-
-	***
-
-	**#373 [Salamence](../pokemon/salamence.md)**
-
--	[![Honchkrow](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/430.gif){: .pokemon-sprite-img }](../pokemon/honchkrow.md)
-
-	***
-
-	**#430 [Honchkrow](../pokemon/honchkrow.md)**
-
 -	[![Sandile](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/551.gif){: .pokemon-sprite-img }](../pokemon/sandile.md)
 
 	***
@@ -105,6 +69,18 @@
 	***
 
 	**#130 [Gyarados](../pokemon/gyarados.md)**
+
+-	[![Heracross](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/214.gif){: .pokemon-sprite-img }](../pokemon/heracross.md)
+
+	***
+
+	**#214 [Heracross](../pokemon/heracross.md)**
+
+-	[![Mightyena](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/262.gif){: .pokemon-sprite-img }](../pokemon/mightyena.md)
+
+	***
+
+	**#262 [Mightyena](../pokemon/mightyena.md)**
 
 -	[![Salamence](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/373.gif){: .pokemon-sprite-img }](../pokemon/salamence.md)
 

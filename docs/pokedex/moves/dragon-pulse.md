@@ -9,7 +9,7 @@
 
 	**Accuracy Changes:**
 
-	- `100` → `None`
+	- `100` → `Never Misses`
 
 
 ## :material-chart-box: Stats

@@ -18,6 +18,24 @@
 
 ## :material-pokeball: Pokémon with this Ability
 
+### :material-star: Standard Ability
+
+<div class="grid cards" markdown>
+
+-	[![Audino](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/531.gif){: .pokemon-sprite-img }](../pokemon/audino.md)
+
+	***
+
+	**#531 [Audino](../pokemon/audino.md)**
+
+-	[![Alomomola](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/594.gif){: .pokemon-sprite-img }](../pokemon/alomomola.md)
+
+	***
+
+	**#594 [Alomomola](../pokemon/alomomola.md)**
+
+</div>
+
 ### :material-eye-off: Hidden Ability
 
 <div class="grid cards" markdown>

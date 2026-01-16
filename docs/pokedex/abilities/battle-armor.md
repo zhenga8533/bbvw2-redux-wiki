@@ -22,30 +22,6 @@
 
 <div class="grid cards" markdown>
 
--	[![Metapod](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/11.gif){: .pokemon-sprite-img }](../pokemon/metapod.md)
-
-	***
-
-	**#011 [Metapod](../pokemon/metapod.md)**
-
--	[![Kakuna](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/14.gif){: .pokemon-sprite-img }](../pokemon/kakuna.md)
-
-	***
-
-	**#014 [Kakuna](../pokemon/kakuna.md)**
-
--	[![Cubone](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/104.gif){: .pokemon-sprite-img }](../pokemon/cubone.md)
-
-	***
-
-	**#104 [Cubone](../pokemon/cubone.md)**
-
--	[![Marowak](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/105.gif){: .pokemon-sprite-img }](../pokemon/marowak.md)
-
-	***
-
-	**#105 [Marowak](../pokemon/marowak.md)**
-
 -	[![Kabuto](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/140.gif){: .pokemon-sprite-img }](../pokemon/kabuto.md)
 
 	***
@@ -57,12 +33,6 @@
 	***
 
 	**#141 [Kabutops](../pokemon/kabutops.md)**
-
--	[![Tyranitar](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/248.gif){: .pokemon-sprite-img }](../pokemon/tyranitar.md)
-
-	***
-
-	**#248 [Tyranitar](../pokemon/tyranitar.md)**
 
 -	[![Anorith](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/347.gif){: .pokemon-sprite-img }](../pokemon/anorith.md)
 
@@ -87,6 +57,24 @@
 	***
 
 	**#452 [Drapion](../pokemon/drapion.md)**
+
+</div>
+
+### :material-eye-off: Hidden Ability
+
+<div class="grid cards" markdown>
+
+-	[![Cubone](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/104.gif){: .pokemon-sprite-img }](../pokemon/cubone.md)
+
+	***
+
+	**#104 [Cubone](../pokemon/cubone.md)**
+
+-	[![Marowak](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/105.gif){: .pokemon-sprite-img }](../pokemon/marowak.md)
+
+	***
+
+	**#105 [Marowak](../pokemon/marowak.md)**
 
 </div>
 

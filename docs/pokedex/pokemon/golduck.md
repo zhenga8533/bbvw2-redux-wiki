@@ -19,10 +19,6 @@
 
 	- `psyduck > golduck: level-up (level 33)` → `psyduck > golduck: level-up (level 25)`
 
-	**Abilities Changes:**
-
-	- `damp / cloud-nine / swift-swim` → `cloud-nine / swift-swim / damp`
-
 	**Type Changes:**
 
 	- `water` → `water / psychic`
@@ -31,7 +27,7 @@
 
 	- `32 moves` → `25 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `39 moves` → `42 moves (added: aura-sphere, wave-crash, power-gem)`
 
@@ -44,9 +40,9 @@
 
 	---
 
+	- [Damp](../../pokedex/abilities/damp.md)
 	- [Cloud Nine](../../pokedex/abilities/cloud-nine.md)
-	- [Swift Swim](../../pokedex/abilities/swift-swim.md)
-	- [Damp](../../pokedex/abilities/damp.md) :material-eye-off:
+	- [Swift Swim](../../pokedex/abilities/swift-swim.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

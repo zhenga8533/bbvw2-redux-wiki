@@ -22,12 +22,6 @@
 
 <div class="grid cards" markdown>
 
--	[![Jynx](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/124.gif){: .pokemon-sprite-img }](../pokemon/jynx.md)
-
-	***
-
-	**#124 [Jynx](../pokemon/jynx.md)**
-
 -	[![Porygon](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/137.gif){: .pokemon-sprite-img }](../pokemon/porygon.md)
 
 	***

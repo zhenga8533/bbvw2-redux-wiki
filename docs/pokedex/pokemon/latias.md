@@ -20,7 +20,7 @@
 
 	- `18 moves` → `21 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `49 moves` → `50 moves (added: hurricane)`
 

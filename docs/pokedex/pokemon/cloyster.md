@@ -19,7 +19,7 @@
 
 	- `8 moves` → `13 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `25 moves` → `26 moves (added: waterfall)`
 

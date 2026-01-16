@@ -15,10 +15,6 @@
 
 ??? note "Zubat ROM Changes"
 
-	**Abilities Changes:**
-
-	- `inner-focus / infiltrator` → `inner-focus / infiltrator / infiltrator`
-
 	**Level-up Moves Changes:**
 
 	- `21 moves` → `23 moves`
@@ -33,7 +29,6 @@
 	---
 
 	- [Inner Focus](../../pokedex/abilities/inner-focus.md)
-	- [Infiltrator](../../pokedex/abilities/infiltrator.md)
 	- [Infiltrator](../../pokedex/abilities/infiltrator.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**

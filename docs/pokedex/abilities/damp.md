@@ -18,21 +18,9 @@
 
 ## :material-pokeball: Pokémon with this Ability
 
-### :material-eye-off: Hidden Ability
+### :material-star: Standard Ability
 
 <div class="grid cards" markdown>
-
--	[![Paras](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/46.gif){: .pokemon-sprite-img }](../pokemon/paras.md)
-
-	***
-
-	**#046 [Paras](../pokemon/paras.md)**
-
--	[![Parasect](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/47.gif){: .pokemon-sprite-img }](../pokemon/parasect.md)
-
-	***
-
-	**#047 [Parasect](../pokemon/parasect.md)**
 
 -	[![Psyduck](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/54.gif){: .pokemon-sprite-img }](../pokemon/psyduck.md)
 
@@ -64,17 +52,11 @@
 
 	**#062 [Poliwrath](../pokemon/poliwrath.md)**
 
--	[![Horsea](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/116.gif){: .pokemon-sprite-img }](../pokemon/horsea.md)
+-	[![Politoed](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/186.gif){: .pokemon-sprite-img }](../pokemon/politoed.md)
 
 	***
 
-	**#116 [Horsea](../pokemon/horsea.md)**
-
--	[![Seadra](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/117.gif){: .pokemon-sprite-img }](../pokemon/seadra.md)
-
-	***
-
-	**#117 [Seadra](../pokemon/seadra.md)**
+	**#186 [Politoed](../pokemon/politoed.md)**
 
 -	[![Wooper](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/194.gif){: .pokemon-sprite-img }](../pokemon/wooper.md)
 
@@ -87,6 +69,36 @@
 	***
 
 	**#195 [Quagsire](../pokemon/quagsire.md)**
+
+</div>
+
+### :material-eye-off: Hidden Ability
+
+<div class="grid cards" markdown>
+
+-	[![Paras](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/46.gif){: .pokemon-sprite-img }](../pokemon/paras.md)
+
+	***
+
+	**#046 [Paras](../pokemon/paras.md)**
+
+-	[![Parasect](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/47.gif){: .pokemon-sprite-img }](../pokemon/parasect.md)
+
+	***
+
+	**#047 [Parasect](../pokemon/parasect.md)**
+
+-	[![Horsea](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/116.gif){: .pokemon-sprite-img }](../pokemon/horsea.md)
+
+	***
+
+	**#116 [Horsea](../pokemon/horsea.md)**
+
+-	[![Seadra](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/117.gif){: .pokemon-sprite-img }](../pokemon/seadra.md)
+
+	***
+
+	**#117 [Seadra](../pokemon/seadra.md)**
 
 -	[![Kingdra](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/230.gif){: .pokemon-sprite-img }](../pokemon/kingdra.md)
 

@@ -3,7 +3,7 @@
 
 ??? note "Gust ROM Changes"
 
-	**Pp Changes:**
+	**PP Changes:**
 
 	- `35` → `25`
 

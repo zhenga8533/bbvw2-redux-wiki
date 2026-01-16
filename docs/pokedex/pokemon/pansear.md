@@ -16,15 +16,15 @@
 
 ??? note "Pansear ROM Changes"
 
-	**Abilities Changes:**
+	**Growth Rate Changes:**
 
-	- `gluttony / blaze` → `gluttony / blaze / blaze`
+	- `medium` → `fast`
 
 	**Level-up Moves Changes:**
 
 	- `15 moves` → `25 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `35 moves` → `39 moves (added: power-up-punch, mystical-fire, quash, play-rough)`
 
@@ -38,7 +38,6 @@
 	---
 
 	- [Gluttony](../../pokedex/abilities/gluttony.md)
-	- [Blaze](../../pokedex/abilities/blaze.md)
 	- [Blaze](../../pokedex/abilities/blaze.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
@@ -60,7 +59,7 @@
 
 	**Capture Rate:** 190
 
-	**Growth Rate:** Medium
+	**Growth Rate:** Fast
 
 	**EV Yield:** +1 Speed
 

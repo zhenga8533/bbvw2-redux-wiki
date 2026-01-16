@@ -15,19 +15,15 @@
 
 ??? note "Blastoise ROM Changes"
 
-	**Base Stats Changes:**
+	**Ability Changes:**
 
-	- `79 HP / 83 Atk / 100 Def / 85 SAtk / 105 SDef / 78 Spd` → `79 HP / 83 Atk / 100 Def / 90 SAtk / 105 SDef / 78 Spd`
-
-	**Abilities Changes:**
-
-	- `torrent / rain-dish` → `shell-armor / torrent / rain-dish`
+	- `(none)` → `shell-armor`
 
 	**Level-up Moves Changes:**
 
 	- `18 moves` → `25 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `37 moves` → `40 moves (added: tri-attack, aura-sphere, wave-crash)`
 
@@ -40,9 +36,9 @@
 
 	---
 
-	- [Shell Armor](../../pokedex/abilities/shell-armor.md)
 	- [Torrent](../../pokedex/abilities/torrent.md)
 	- [Rain Dish](../../pokedex/abilities/rain-dish.md) :material-eye-off:
+	- [Shell Armor](../../pokedex/abilities/shell-armor.md)
 
 - **:material-ruler: Physical Attributes**
 
@@ -124,10 +120,10 @@
 | **HP** | **79** | 268 | 362 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 30.980392156862745%;"></div></div> |
 | **Attack** | **83** | 153 | 291 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 32.549019607843135%;"></div></div> |
 | **Defense** | **100** | 184 | 328 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 39.21568627450981%;"></div></div> |
-| **Sp. Atk** | **90** | 166 | 306 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 35.294117647058826%;"></div></div> |
+| **Sp. Atk** | **85** | 157 | 295 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 33.33333333333333%;"></div></div> |
 | **Sp. Def** | **105** | 193 | 339 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 41.17647058823529%;"></div></div> |
 | **Speed** | **78** | 144 | 280 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 30.58823529411765%;"></div></div> |
-| **Base Stat Total** | **535** | | | |
+| **Base Stat Total** | **530** | | | |
 
 > **Min/Max Stats:** Calculated at Level 100.
 >

@@ -15,19 +15,11 @@
 
 ??? note "Surskit ROM Changes"
 
-	**Base Stats Changes:**
-
-	- `40 HP / 30 Atk / 32 Def / 50 SAtk / 52 SDef / 65 Spd` → `40 HP / 30 Atk / 30 Def / 55 SAtk / 55 SDef / 65 Spd`
-
-	**Abilities Changes:**
-
-	- `swift-swim / rain-dish` → `swift-swim / rain-dish / rain-dish`
-
 	**Level-up Moves Changes:**
 
 	- `9 moves` → `19 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `23 moves` → `26 moves (added: bug-buzz, surf, waterfall)`
 
@@ -41,7 +33,6 @@
 	---
 
 	- [Swift Swim](../../pokedex/abilities/swift-swim.md)
-	- [Rain Dish](../../pokedex/abilities/rain-dish.md)
 	- [Rain Dish](../../pokedex/abilities/rain-dish.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
@@ -123,11 +114,11 @@
 |------|-----:|----:|----:|:-------------|
 | **HP** | **40** | 190 | 284 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 15.686274509803921%;"></div></div> |
 | **Attack** | **30** | 58 | 174 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 11.76470588235294%;"></div></div> |
-| **Defense** | **30** | 58 | 174 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 11.76470588235294%;"></div></div> |
-| **Sp. Atk** | **55** | 103 | 229 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 21.568627450980394%;"></div></div> |
-| **Sp. Def** | **55** | 103 | 229 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 21.568627450980394%;"></div></div> |
+| **Defense** | **32** | 62 | 179 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 12.549019607843137%;"></div></div> |
+| **Sp. Atk** | **50** | 94 | 218 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 19.607843137254903%;"></div></div> |
+| **Sp. Def** | **52** | 98 | 223 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 20.392156862745097%;"></div></div> |
 | **Speed** | **65** | 121 | 251 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 25.49019607843137%;"></div></div> |
-| **Base Stat Total** | **275** | | | |
+| **Base Stat Total** | **269** | | | |
 
 > **Min/Max Stats:** Calculated at Level 100.
 >

@@ -22,18 +22,6 @@
 
 <div class="grid cards" markdown>
 
--	[![Sandshrew](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/27.gif){: .pokemon-sprite-img }](../pokemon/sandshrew.md)
-
-	***
-
-	**#027 [Sandshrew](../pokemon/sandshrew.md)**
-
--	[![Sandslash](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/28.gif){: .pokemon-sprite-img }](../pokemon/sandslash.md)
-
-	***
-
-	**#028 [Sandslash](../pokemon/sandslash.md)**
-
 -	[![Herdier](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/507.gif){: .pokemon-sprite-img }](../pokemon/herdier.md)
 
 	***

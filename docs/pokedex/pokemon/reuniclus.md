@@ -16,15 +16,11 @@
 
 ??? note "Reuniclus ROM Changes"
 
-	**Abilities Changes:**
-
-	- `overcoat / magic-guard / regenerator` → `regenerator / magic-guard / overcoat`
-
 	**Level-up Moves Changes:**
 
 	- `20 moves` → `24 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `41 moves` → `42 moves (added: quash)`
 
@@ -37,9 +33,9 @@
 
 	---
 
-	- [Regenerator](../../pokedex/abilities/regenerator.md)
+	- [Overcoat](../../pokedex/abilities/overcoat.md)
 	- [Magic Guard](../../pokedex/abilities/magic-guard.md)
-	- [Overcoat](../../pokedex/abilities/overcoat.md) :material-eye-off:
+	- [Regenerator](../../pokedex/abilities/regenerator.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

@@ -16,15 +16,15 @@
 
 ??? note "Ducklett ROM Changes"
 
-	**Abilities Changes:**
+	**Ability Changes:**
 
-	- `keen-eye / big-pecks / hydration` → `friend-guard / big-pecks / hydration`
+	- `hydration` → `friend-guard`
 
 	**Level-up Moves Changes:**
 
 	- `15 moves` → `20 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `21 moves` → `22 moves (added: hurricane)`
 
@@ -37,9 +37,9 @@
 
 	---
 
-	- [Friend Guard](../../pokedex/abilities/friend-guard.md)
+	- [Keen Eye](../../pokedex/abilities/keen-eye.md)
 	- [Big Pecks](../../pokedex/abilities/big-pecks.md)
-	- [Hydration](../../pokedex/abilities/hydration.md) :material-eye-off:
+	- [Friend Guard](../../pokedex/abilities/friend-guard.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

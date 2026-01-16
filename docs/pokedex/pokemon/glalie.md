@@ -19,13 +19,9 @@
 
 	- `snorunt > glalie: level-up (level 42)` → `snorunt > glalie: use-item (ice-stone)`
 
-	**Base Stats Changes:**
+	**Ability Changes:**
 
-	- `80 HP / 80 Atk / 80 Def / 80 SAtk / 80 SDef / 80 Spd` → `80 HP / 110 Atk / 110 Def / 60 SAtk / 60 SDef / 80 Spd`
-
-	**Abilities Changes:**
-
-	- `inner-focus / ice-body / moody` → `levitate`
+	- `moody` → `levitate`
 
 	**Type Changes:**
 
@@ -35,7 +31,7 @@
 
 	- `15 moves` → `19 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `30 moves` → `38 moves (added: smack-down, rock-tomb, power-gem, rock-polish, stone-edge...)`
 
@@ -48,7 +44,9 @@
 
 	---
 
-	- [Levitate](../../pokedex/abilities/levitate.md)
+	- [Inner Focus](../../pokedex/abilities/inner-focus.md)
+	- [Ice Body](../../pokedex/abilities/ice-body.md)
+	- [Levitate](../../pokedex/abilities/levitate.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 
@@ -141,12 +139,12 @@ These items can be found when catching or defeating this Pokémon in the wild:
 | Stat | Base | Min | Max | Distribution |
 |------|-----:|----:|----:|:-------------|
 | **HP** | **80** | 270 | 364 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 31.372549019607842%;"></div></div> |
-| **Attack** | **110** | 202 | 350 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 43.13725490196079%;"></div></div> |
-| **Defense** | **110** | 202 | 350 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 43.13725490196079%;"></div></div> |
-| **Sp. Atk** | **60** | 112 | 240 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 23.52941176470588%;"></div></div> |
-| **Sp. Def** | **60** | 112 | 240 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 23.52941176470588%;"></div></div> |
+| **Attack** | **80** | 148 | 284 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 31.372549019607842%;"></div></div> |
+| **Defense** | **80** | 148 | 284 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 31.372549019607842%;"></div></div> |
+| **Sp. Atk** | **80** | 148 | 284 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 31.372549019607842%;"></div></div> |
+| **Sp. Def** | **80** | 148 | 284 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 31.372549019607842%;"></div></div> |
 | **Speed** | **80** | 148 | 284 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 31.372549019607842%;"></div></div> |
-| **Base Stat Total** | **500** | | | |
+| **Base Stat Total** | **480** | | | |
 
 > **Min/Max Stats:** Calculated at Level 100.
 >

@@ -12,14 +12,6 @@
 	</div>
 </div>
 
-
-??? note "Kakuna ROM Changes"
-
-	**Abilities Changes:**
-
-	- `shed-skin` → `shed-skin / battle-armor / shed-skin`
-
-
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>
@@ -29,8 +21,6 @@
 	---
 
 	- [Shed Skin](../../pokedex/abilities/shed-skin.md)
-	- [Battle Armor](../../pokedex/abilities/battle-armor.md)
-	- [Shed Skin](../../pokedex/abilities/shed-skin.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

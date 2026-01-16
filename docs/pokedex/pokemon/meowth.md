@@ -15,14 +15,6 @@
 
 ??? note "Meowth ROM Changes"
 
-	**Base Stats Changes:**
-
-	- `40 HP / 45 Atk / 35 Def / 40 SAtk / 40 SDef / 90 Spd` → `45 HP / 60 Atk / 35 Def / 30 SAtk / 40 SDef / 90 Spd`
-
-	**Abilities Changes:**
-
-	- `pickup / technician / unnerve` → `unnerve / technician / pickup`
-
 	**Level-up Moves Changes:**
 
 	- `15 moves` → `22 moves`
@@ -36,9 +28,9 @@
 
 	---
 
-	- [Unnerve](../../pokedex/abilities/unnerve.md)
+	- [Pickup](../../pokedex/abilities/pickup.md)
 	- [Technician](../../pokedex/abilities/technician.md)
-	- [Pickup](../../pokedex/abilities/pickup.md) :material-eye-off:
+	- [Unnerve](../../pokedex/abilities/unnerve.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 
@@ -125,13 +117,13 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Stat | Base | Min | Max | Distribution |
 |------|-----:|----:|----:|:-------------|
-| **HP** | **45** | 200 | 294 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 17.647058823529413%;"></div></div> |
-| **Attack** | **60** | 112 | 240 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 23.52941176470588%;"></div></div> |
+| **HP** | **40** | 190 | 284 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 15.686274509803921%;"></div></div> |
+| **Attack** | **45** | 85 | 207 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 17.647058823529413%;"></div></div> |
 | **Defense** | **35** | 67 | 185 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 13.725490196078432%;"></div></div> |
-| **Sp. Atk** | **30** | 58 | 174 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 11.76470588235294%;"></div></div> |
+| **Sp. Atk** | **40** | 76 | 196 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 15.686274509803921%;"></div></div> |
 | **Sp. Def** | **40** | 76 | 196 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 15.686274509803921%;"></div></div> |
 | **Speed** | **90** | 166 | 306 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 35.294117647058826%;"></div></div> |
-| **Base Stat Total** | **300** | | | |
+| **Base Stat Total** | **290** | | | |
 
 > **Min/Max Stats:** Calculated at Level 100.
 >

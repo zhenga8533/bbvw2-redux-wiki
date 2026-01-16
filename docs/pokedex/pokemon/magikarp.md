@@ -15,10 +15,6 @@
 
 ??? note "Magikarp ROM Changes"
 
-	**Abilities Changes:**
-
-	- `swift-swim / rattled` → `swift-swim / rattled / rattled`
-
 	**Level-up Moves Changes:**
 
 	- `3 moves` → `5 moves`
@@ -33,7 +29,6 @@
 	---
 
 	- [Swift Swim](../../pokedex/abilities/swift-swim.md)
-	- [Rattled](../../pokedex/abilities/rattled.md)
 	- [Rattled](../../pokedex/abilities/rattled.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**

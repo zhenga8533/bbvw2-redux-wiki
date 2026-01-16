@@ -16,19 +16,11 @@
 
 ??? note "Watchog ROM Changes"
 
-	**Base Stats Changes:**
-
-	- `60 HP / 85 Atk / 69 Def / 60 SAtk / 69 SDef / 77 Spd` → `60 HP / 90 Atk / 75 Def / 60 SAtk / 75 SDef / 79 Spd`
-
-	**Abilities Changes:**
-
-	- `illuminate / keen-eye / analytic` → `analytic / keen-eye / analytic`
-
 	**Level-up Moves Changes:**
 
 	- `19 moves` → `25 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `35 moves` → `37 moves (added: low-sweep, quash)`
 
@@ -41,7 +33,7 @@
 
 	---
 
-	- [Analytic](../../pokedex/abilities/analytic.md)
+	- [Illuminate](../../pokedex/abilities/illuminate.md)
 	- [Keen Eye](../../pokedex/abilities/keen-eye.md)
 	- [Analytic](../../pokedex/abilities/analytic.md) :material-eye-off:
 
@@ -121,12 +113,12 @@
 | Stat | Base | Min | Max | Distribution |
 |------|-----:|----:|----:|:-------------|
 | **HP** | **60** | 230 | 324 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 23.52941176470588%;"></div></div> |
-| **Attack** | **90** | 166 | 306 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 35.294117647058826%;"></div></div> |
-| **Defense** | **75** | 139 | 273 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 29.411764705882355%;"></div></div> |
+| **Attack** | **85** | 157 | 295 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 33.33333333333333%;"></div></div> |
+| **Defense** | **69** | 128 | 260 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 27.058823529411764%;"></div></div> |
 | **Sp. Atk** | **60** | 112 | 240 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 23.52941176470588%;"></div></div> |
-| **Sp. Def** | **75** | 139 | 273 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 29.411764705882355%;"></div></div> |
-| **Speed** | **79** | 146 | 282 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 30.980392156862745%;"></div></div> |
-| **Base Stat Total** | **439** | | | |
+| **Sp. Def** | **69** | 128 | 260 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 27.058823529411764%;"></div></div> |
+| **Speed** | **77** | 143 | 278 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 30.19607843137255%;"></div></div> |
+| **Base Stat Total** | **420** | | | |
 
 > **Min/Max Stats:** Calculated at Level 100.
 >

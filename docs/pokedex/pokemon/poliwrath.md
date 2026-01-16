@@ -19,19 +19,11 @@
 
 	- `poliwhirl > politoed: trade (held: kings-rock)` → `poliwhirl > politoed: use-item (king's-rock)`
 
-	**Base Stats Changes:**
-
-	- `90 HP / 85 Atk / 95 Def / 70 SAtk / 90 SDef / 70 Spd` → `90 HP / 105 Atk / 95 Def / 60 SAtk / 90 SDef / 70 Spd`
-
-	**Abilities Changes:**
-
-	- `water-absorb / damp / swift-swim` → `water-absorb / swift-swim / damp`
-
 	**Level-up Moves Changes:**
 
 	- `7 moves` → `12 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `39 moves` → `40 moves (added: wave-crash)`
 
@@ -45,8 +37,8 @@
 	---
 
 	- [Water Absorb](../../pokedex/abilities/water-absorb.md)
-	- [Swift Swim](../../pokedex/abilities/swift-swim.md)
-	- [Damp](../../pokedex/abilities/damp.md) :material-eye-off:
+	- [Damp](../../pokedex/abilities/damp.md)
+	- [Swift Swim](../../pokedex/abilities/swift-swim.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 
@@ -134,12 +126,12 @@ These items can be found when catching or defeating this Pokémon in the wild:
 | Stat | Base | Min | Max | Distribution |
 |------|-----:|----:|----:|:-------------|
 | **HP** | **90** | 290 | 384 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 35.294117647058826%;"></div></div> |
-| **Attack** | **105** | 193 | 339 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 41.17647058823529%;"></div></div> |
+| **Attack** | **85** | 157 | 295 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 33.33333333333333%;"></div></div> |
 | **Defense** | **95** | 175 | 317 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 37.254901960784316%;"></div></div> |
-| **Sp. Atk** | **60** | 112 | 240 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 23.52941176470588%;"></div></div> |
+| **Sp. Atk** | **70** | 130 | 262 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 27.450980392156865%;"></div></div> |
 | **Sp. Def** | **90** | 166 | 306 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 35.294117647058826%;"></div></div> |
 | **Speed** | **70** | 130 | 262 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 27.450980392156865%;"></div></div> |
-| **Base Stat Total** | **510** | | | |
+| **Base Stat Total** | **500** | | | |
 
 > **Min/Max Stats:** Calculated at Level 100.
 >

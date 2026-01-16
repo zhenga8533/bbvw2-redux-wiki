@@ -15,9 +15,9 @@
 
 ??? note "Charmeleon ROM Changes"
 
-	**Abilities Changes:**
+	**Ability Changes:**
 
-	- `blaze / solar-power` → `defiant / blaze / solar-power`
+	- `(none)` → `defiant`
 
 	**Type Changes:**
 
@@ -27,7 +27,7 @@
 
 	- `13 moves` → `23 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `33 moves` → `36 moves (added: low-sweep, false-swipe, acrobatics)`
 
@@ -40,9 +40,9 @@
 
 	---
 
-	- [Defiant](../../pokedex/abilities/defiant.md)
 	- [Blaze](../../pokedex/abilities/blaze.md)
 	- [Solar Power](../../pokedex/abilities/solar-power.md) :material-eye-off:
+	- [Defiant](../../pokedex/abilities/defiant.md)
 
 - **:material-ruler: Physical Attributes**
 

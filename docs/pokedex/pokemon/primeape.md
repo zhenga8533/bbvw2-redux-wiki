@@ -15,15 +15,11 @@
 
 ??? note "Primeape ROM Changes"
 
-	**Abilities Changes:**
-
-	- `vital-spirit / anger-point / defiant` → `defiant / anger-point / vital-spirit`
-
 	**Level-up Moves Changes:**
 
 	- `17 moves` → `25 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `43 moves` → `44 moves (added: cut)`
 
@@ -36,9 +32,9 @@
 
 	---
 
-	- [Defiant](../../pokedex/abilities/defiant.md)
+	- [Vital Spirit](../../pokedex/abilities/vital-spirit.md)
 	- [Anger Point](../../pokedex/abilities/anger-point.md)
-	- [Vital Spirit](../../pokedex/abilities/vital-spirit.md) :material-eye-off:
+	- [Defiant](../../pokedex/abilities/defiant.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

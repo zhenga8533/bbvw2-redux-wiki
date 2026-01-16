@@ -16,10 +16,6 @@
 
 ??? note "Larvesta ROM Changes"
 
-	**Abilities Changes:**
-
-	- `flame-body / swarm` → `flame-body / swarm / swarm`
-
 	**Level-up Moves Changes:**
 
 	- `12 moves` → `17 moves`
@@ -34,7 +30,6 @@
 	---
 
 	- [Flame Body](../../pokedex/abilities/flame-body.md)
-	- [Swarm](../../pokedex/abilities/swarm.md)
 	- [Swarm](../../pokedex/abilities/swarm.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**

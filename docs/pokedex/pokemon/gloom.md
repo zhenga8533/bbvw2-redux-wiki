@@ -15,10 +15,6 @@
 
 ??? note "Gloom ROM Changes"
 
-	**Abilities Changes:**
-
-	- `chlorophyll / stench` → `chlorophyll / stench / stench`
-
 	**Level-up Moves Changes:**
 
 	- `14 moves` → `22 moves`
@@ -33,7 +29,6 @@
 	---
 
 	- [Chlorophyll](../../pokedex/abilities/chlorophyll.md)
-	- [Stench](../../pokedex/abilities/stench.md)
 	- [Stench](../../pokedex/abilities/stench.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**

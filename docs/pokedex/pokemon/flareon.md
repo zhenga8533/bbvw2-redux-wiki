@@ -25,15 +25,7 @@
 
 	- `eevee > glaceon: level-up (at sinnoh-route-217)` → `eevee > glaceon: use-item (ice-stone)`
 
-	**Base Stats Changes:**
-
-	- `65 HP / 130 Atk / 60 Def / 95 SAtk / 110 SDef / 65 Spd` → `65 HP / 130 Atk / 60 Def / 65 SAtk / 110 SDef / 95 Spd`
-
-	**Abilities Changes:**
-
-	- `flash-fire / guts` → `flash-fire / guts / guts`
-
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `30 moves` → `35 moves (added: tri-attack, rock-slide, grass-knot, wild-charge, cut)`
 
@@ -47,7 +39,6 @@
 	---
 
 	- [Flash Fire](../../pokedex/abilities/flash-fire.md)
-	- [Guts](../../pokedex/abilities/guts.md)
 	- [Guts](../../pokedex/abilities/guts.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
@@ -130,9 +121,9 @@
 | **HP** | **65** | 240 | 334 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 25.49019607843137%;"></div></div> |
 | **Attack** | **130** | 238 | 394 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 50.98039215686274%;"></div></div> |
 | **Defense** | **60** | 112 | 240 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 23.52941176470588%;"></div></div> |
-| **Sp. Atk** | **65** | 121 | 251 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 25.49019607843137%;"></div></div> |
+| **Sp. Atk** | **95** | 175 | 317 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 37.254901960784316%;"></div></div> |
 | **Sp. Def** | **110** | 202 | 350 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 43.13725490196079%;"></div></div> |
-| **Speed** | **95** | 175 | 317 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 37.254901960784316%;"></div></div> |
+| **Speed** | **65** | 121 | 251 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 25.49019607843137%;"></div></div> |
 | **Base Stat Total** | **525** | | | |
 
 > **Min/Max Stats:** Calculated at Level 100.

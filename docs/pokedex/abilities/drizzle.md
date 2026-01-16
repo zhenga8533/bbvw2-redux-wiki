@@ -22,12 +22,6 @@
 
 <div class="grid cards" markdown>
 
--	[![Politoed](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/186.gif){: .pokemon-sprite-img }](../pokemon/politoed.md)
-
-	***
-
-	**#186 [Politoed](../pokemon/politoed.md)**
-
 -	[![Pelipper](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/279.gif){: .pokemon-sprite-img }](../pokemon/pelipper.md)
 
 	***

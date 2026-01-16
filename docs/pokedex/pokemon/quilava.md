@@ -15,10 +15,6 @@
 
 ??? note "Quilava ROM Changes"
 
-	**Abilities Changes:**
-
-	- `blaze / flash-fire` → `flash-fire / blaze / flash-fire`
-
 	**Level-up Moves Changes:**
 
 	- `16 moves` → `21 moves`
@@ -32,7 +28,6 @@
 
 	---
 
-	- [Flash Fire](../../pokedex/abilities/flash-fire.md)
 	- [Blaze](../../pokedex/abilities/blaze.md)
 	- [Flash Fire](../../pokedex/abilities/flash-fire.md) :material-eye-off:
 

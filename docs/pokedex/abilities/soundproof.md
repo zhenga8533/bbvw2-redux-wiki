@@ -34,6 +34,12 @@
 
 	**#101 [Electrode](../pokemon/electrode.md)**
 
+-	[![Mr. Mime](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/122.gif){: .pokemon-sprite-img }](../pokemon/mr-mime.md)
+
+	***
+
+	**#122 [Mr. Mime](../pokemon/mr-mime.md)**
+
 -	[![Whismur](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/293.gif){: .pokemon-sprite-img }](../pokemon/whismur.md)
 
 	***
@@ -52,41 +58,11 @@
 
 	**#295 [Exploud](../pokemon/exploud.md)**
 
--	[![Kricketune](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/402.gif){: .pokemon-sprite-img }](../pokemon/kricketune.md)
+-	[![Mime Jr.](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/439.gif){: .pokemon-sprite-img }](../pokemon/mime-jr.md)
 
 	***
 
-	**#402 [Kricketune](../pokemon/kricketune.md)**
-
--	[![Shieldon](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/410.gif){: .pokemon-sprite-img }](../pokemon/shieldon.md)
-
-	***
-
-	**#410 [Shieldon](../pokemon/shieldon.md)**
-
--	[![Bastiodon](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/411.gif){: .pokemon-sprite-img }](../pokemon/bastiodon.md)
-
-	***
-
-	**#411 [Bastiodon](../pokemon/bastiodon.md)**
-
--	[![Chatot](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/441.gif){: .pokemon-sprite-img }](../pokemon/chatot.md)
-
-	***
-
-	**#441 [Chatot](../pokemon/chatot.md)**
-
--	[![Snover](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/459.gif){: .pokemon-sprite-img }](../pokemon/snover.md)
-
-	***
-
-	**#459 [Snover](../pokemon/snover.md)**
-
--	[![Abomasnow](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/460.gif){: .pokemon-sprite-img }](../pokemon/abomasnow.md)
-
-	***
-
-	**#460 [Abomasnow](../pokemon/abomasnow.md)**
+	**#439 [Mime Jr.](../pokemon/mime-jr.md)**
 
 </div>
 
@@ -106,11 +82,11 @@
 
 	**#411 [Bastiodon](../pokemon/bastiodon.md)**
 
--	[![Mime Jr.](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/439.gif){: .pokemon-sprite-img }](../pokemon/mime-jr.md)
+-	[![Chatot](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/441.gif){: .pokemon-sprite-img }](../pokemon/chatot.md)
 
 	***
 
-	**#439 [Mime Jr.](../pokemon/mime-jr.md)**
+	**#441 [Chatot](../pokemon/chatot.md)**
 
 -	[![Snover](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/459.gif){: .pokemon-sprite-img }](../pokemon/snover.md)
 

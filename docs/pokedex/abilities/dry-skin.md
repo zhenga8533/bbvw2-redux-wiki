@@ -34,18 +34,6 @@
 
 	**#047 [Parasect](../pokemon/parasect.md)**
 
--	[![Jynx](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/124.gif){: .pokemon-sprite-img }](../pokemon/jynx.md)
-
-	***
-
-	**#124 [Jynx](../pokemon/jynx.md)**
-
--	[![Smoochum](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/238.gif){: .pokemon-sprite-img }](../pokemon/smoochum.md)
-
-	***
-
-	**#238 [Smoochum](../pokemon/smoochum.md)**
-
 -	[![Croagunk](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/453.gif){: .pokemon-sprite-img }](../pokemon/croagunk.md)
 
 	***
@@ -69,6 +57,12 @@
 	***
 
 	**#124 [Jynx](../pokemon/jynx.md)**
+
+-	[![Smoochum](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/238.gif){: .pokemon-sprite-img }](../pokemon/smoochum.md)
+
+	***
+
+	**#238 [Smoochum](../pokemon/smoochum.md)**
 
 </div>
 

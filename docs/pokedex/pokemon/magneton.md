@@ -15,15 +15,11 @@
 
 ??? note "Magneton ROM Changes"
 
-	**Abilities Changes:**
-
-	- `magnet-pull / sturdy / analytic` → `analytic / sturdy / magnet-pull`
-
 	**Level-up Moves Changes:**
 
 	- `36 moves` → `22 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `28 moves` → `29 moves (added: bug-buzz)`
 
@@ -36,9 +32,9 @@
 
 	---
 
-	- [Analytic](../../pokedex/abilities/analytic.md)
+	- [Magnet Pull](../../pokedex/abilities/magnet-pull.md)
 	- [Sturdy](../../pokedex/abilities/sturdy.md)
-	- [Magnet Pull](../../pokedex/abilities/magnet-pull.md) :material-eye-off:
+	- [Analytic](../../pokedex/abilities/analytic.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

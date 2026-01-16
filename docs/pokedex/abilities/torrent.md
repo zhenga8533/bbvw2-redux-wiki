@@ -76,24 +76,6 @@
 
 	**#260 [Swampert](../pokemon/swampert.md)**
 
--	[![Piplup](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/393.gif){: .pokemon-sprite-img }](../pokemon/piplup.md)
-
-	***
-
-	**#393 [Piplup](../pokemon/piplup.md)**
-
--	[![Prinplup](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/394.gif){: .pokemon-sprite-img }](../pokemon/prinplup.md)
-
-	***
-
-	**#394 [Prinplup](../pokemon/prinplup.md)**
-
--	[![Empoleon](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/395.gif){: .pokemon-sprite-img }](../pokemon/empoleon.md)
-
-	***
-
-	**#395 [Empoleon](../pokemon/empoleon.md)**
-
 -	[![Oshawott](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/501.gif){: .pokemon-sprite-img }](../pokemon/oshawott.md)
 
 	***
@@ -111,18 +93,6 @@
 	***
 
 	**#503 [Samurott](../pokemon/samurott.md)**
-
--	[![Panpour](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/515.gif){: .pokemon-sprite-img }](../pokemon/panpour.md)
-
-	***
-
-	**#515 [Panpour](../pokemon/panpour.md)**
-
--	[![Simipour](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/516.gif){: .pokemon-sprite-img }](../pokemon/simipour.md)
-
-	***
-
-	**#516 [Simipour](../pokemon/simipour.md)**
 
 </div>
 

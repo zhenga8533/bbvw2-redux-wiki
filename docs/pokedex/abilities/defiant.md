@@ -40,18 +40,6 @@
 
 	**#006 [Charizard](../pokemon/charizard.md)**
 
--	[![Mankey](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/56.gif){: .pokemon-sprite-img }](../pokemon/mankey.md)
-
-	***
-
-	**#056 [Mankey](../pokemon/mankey.md)**
-
--	[![Primeape](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/57.gif){: .pokemon-sprite-img }](../pokemon/primeape.md)
-
-	***
-
-	**#057 [Primeape](../pokemon/primeape.md)**
-
 -	[![Piplup](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/393.gif){: .pokemon-sprite-img }](../pokemon/piplup.md)
 
 	***
@@ -69,12 +57,6 @@
 	***
 
 	**#395 [Empoleon](../pokemon/empoleon.md)**
-
--	[![Purugly](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/432.gif){: .pokemon-sprite-img }](../pokemon/purugly.md)
-
-	***
-
-	**#432 [Purugly](../pokemon/purugly.md)**
 
 -	[![Pawniard](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/624.gif){: .pokemon-sprite-img }](../pokemon/pawniard.md)
 
@@ -88,35 +70,29 @@
 
 	**#625 [Bisharp](../pokemon/bisharp.md)**
 
--	[![Braviary](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/628.gif){: .pokemon-sprite-img }](../pokemon/braviary.md)
-
-	***
-
-	**#628 [Braviary](../pokemon/braviary.md)**
-
 </div>
 
 ### :material-eye-off: Hidden Ability
 
 <div class="grid cards" markdown>
 
--	[![Piplup](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/393.gif){: .pokemon-sprite-img }](../pokemon/piplup.md)
+-	[![Mankey](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/56.gif){: .pokemon-sprite-img }](../pokemon/mankey.md)
 
 	***
 
-	**#393 [Piplup](../pokemon/piplup.md)**
+	**#056 [Mankey](../pokemon/mankey.md)**
 
--	[![Prinplup](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/394.gif){: .pokemon-sprite-img }](../pokemon/prinplup.md)
-
-	***
-
-	**#394 [Prinplup](../pokemon/prinplup.md)**
-
--	[![Empoleon](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/395.gif){: .pokemon-sprite-img }](../pokemon/empoleon.md)
+-	[![Primeape](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/57.gif){: .pokemon-sprite-img }](../pokemon/primeape.md)
 
 	***
 
-	**#395 [Empoleon](../pokemon/empoleon.md)**
+	**#057 [Primeape](../pokemon/primeape.md)**
+
+-	[![Farfetchˈd](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/83.gif){: .pokemon-sprite-img }](../pokemon/farfetchd.md)
+
+	***
+
+	**#083 [Farfetchˈd](../pokemon/farfetchd.md)**
 
 -	[![Purugly](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/432.gif){: .pokemon-sprite-img }](../pokemon/purugly.md)
 

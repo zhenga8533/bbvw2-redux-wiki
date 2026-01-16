@@ -15,15 +15,11 @@
 
 ??? note "Clefable ROM Changes"
 
-	**Abilities Changes:**
-
-	- `cute-charm / magic-guard / unaware` → `unaware / magic-guard / unaware`
-
 	**Level-up Moves Changes:**
 
 	- `4 moves` → `7 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `47 moves` → `48 moves (added: power-gem)`
 
@@ -36,7 +32,7 @@
 
 	---
 
-	- [Unaware](../../pokedex/abilities/unaware.md)
+	- [Cute Charm](../../pokedex/abilities/cute-charm.md)
 	- [Magic Guard](../../pokedex/abilities/magic-guard.md)
 	- [Unaware](../../pokedex/abilities/unaware.md) :material-eye-off:
 

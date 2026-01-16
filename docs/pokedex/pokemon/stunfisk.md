@@ -16,14 +16,6 @@
 
 ??? note "Stunfisk ROM Changes"
 
-	**Base Stats Changes:**
-
-	- `109 HP / 66 Atk / 84 Def / 81 SAtk / 99 SDef / 32 Spd` → `109 HP / 66 Atk / 84 Def / 90 SAtk / 99 SDef / 32 Spd`
-
-	**Abilities Changes:**
-
-	- `static / limber / sand-veil` → `static / lightning-rod / sand-veil`
-
 	**Level-up Moves Changes:**
 
 	- `15 moves` → `21 moves`
@@ -38,7 +30,7 @@
 	---
 
 	- [Static](../../pokedex/abilities/static.md)
-	- [Lightning Rod](../../pokedex/abilities/lightning-rod.md)
+	- [Limber](../../pokedex/abilities/limber.md)
 	- [Sand Veil](../../pokedex/abilities/sand-veil.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
@@ -136,10 +128,10 @@ These items can be found when catching or defeating this Pokémon in the wild:
 | **HP** | **109** | 328 | 422 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 42.745098039215684%;"></div></div> |
 | **Attack** | **66** | 123 | 254 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 25.882352941176475%;"></div></div> |
 | **Defense** | **84** | 155 | 293 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 32.94117647058823%;"></div></div> |
-| **Sp. Atk** | **90** | 166 | 306 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 35.294117647058826%;"></div></div> |
+| **Sp. Atk** | **81** | 150 | 287 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 31.76470588235294%;"></div></div> |
 | **Sp. Def** | **99** | 182 | 326 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 38.82352941176471%;"></div></div> |
 | **Speed** | **32** | 62 | 179 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 12.549019607843137%;"></div></div> |
-| **Base Stat Total** | **480** | | | |
+| **Base Stat Total** | **471** | | | |
 
 > **Min/Max Stats:** Calculated at Level 100.
 >

@@ -15,19 +15,11 @@
 
 ??? note "Beautifly ROM Changes"
 
-	**Base Stats Changes:**
-
-	- `60 HP / 70 Atk / 50 Def / 90 SAtk / 50 SDef / 65 Spd` → `60 HP / 70 Atk / 57 Def / 120 SAtk / 58 SDef / 85 Spd`
-
-	**Abilities Changes:**
-
-	- `swarm / rivalry` → `rivalry / swarm / rivalry`
-
 	**Level-up Moves Changes:**
 
 	- `12 moves` → `16 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `27 moves` → `29 moves (added: hurricane, fly)`
 
@@ -40,7 +32,6 @@
 
 	---
 
-	- [Rivalry](../../pokedex/abilities/rivalry.md)
 	- [Swarm](../../pokedex/abilities/swarm.md)
 	- [Rivalry](../../pokedex/abilities/rivalry.md) :material-eye-off:
 
@@ -152,11 +143,11 @@ These items can be found when catching or defeating this Pokémon in the wild:
 |------|-----:|----:|----:|:-------------|
 | **HP** | **60** | 230 | 324 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 23.52941176470588%;"></div></div> |
 | **Attack** | **70** | 130 | 262 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 27.450980392156865%;"></div></div> |
-| **Defense** | **57** | 107 | 234 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 22.35294117647059%;"></div></div> |
-| **Sp. Atk** | **120** | 220 | 372 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 47.05882352941176%;"></div></div> |
-| **Sp. Def** | **58** | 108 | 236 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 22.745098039215687%;"></div></div> |
-| **Speed** | **85** | 157 | 295 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 33.33333333333333%;"></div></div> |
-| **Base Stat Total** | **450** | | | |
+| **Defense** | **50** | 94 | 218 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 19.607843137254903%;"></div></div> |
+| **Sp. Atk** | **90** | 166 | 306 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 35.294117647058826%;"></div></div> |
+| **Sp. Def** | **50** | 94 | 218 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 19.607843137254903%;"></div></div> |
+| **Speed** | **65** | 121 | 251 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 25.49019607843137%;"></div></div> |
+| **Base Stat Total** | **385** | | | |
 
 > **Min/Max Stats:** Calculated at Level 100.
 >

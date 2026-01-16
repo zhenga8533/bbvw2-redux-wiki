@@ -21,7 +21,7 @@
 
 	- `17 moves` → `25 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `45 moves` → `46 moves (added: acrobatics)`
 

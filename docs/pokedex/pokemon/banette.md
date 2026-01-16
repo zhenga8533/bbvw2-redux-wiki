@@ -19,14 +19,6 @@
 
 	- `shuppet > banette: level-up (level 37)` → `shuppet > banette: level-up (level 32)`
 
-	**Base Stats Changes:**
-
-	- `64 HP / 115 Atk / 65 Def / 83 SAtk / 63 SDef / 65 Spd` → `64 HP / 125 Atk / 65 Def / 93 SAtk / 63 SDef / 65 Spd`
-
-	**Abilities Changes:**
-
-	- `insomnia / frisk / cursed-body` → `cursed-body / frisk / cursed-body`
-
 	**Type Changes:**
 
 	- `ghost` → `ghost / normal`
@@ -35,7 +27,7 @@
 
 	- `32 moves` → `20 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `36 moves` → `39 moves (added: hone-claws, work-up, cut)`
 
@@ -48,7 +40,7 @@
 
 	---
 
-	- [Cursed Body](../../pokedex/abilities/cursed-body.md)
+	- [Insomnia](../../pokedex/abilities/insomnia.md)
 	- [Frisk](../../pokedex/abilities/frisk.md)
 	- [Cursed Body](../../pokedex/abilities/cursed-body.md) :material-eye-off:
 
@@ -147,12 +139,12 @@ These items can be found when catching or defeating this Pokémon in the wild:
 | Stat | Base | Min | Max | Distribution |
 |------|-----:|----:|----:|:-------------|
 | **HP** | **64** | 238 | 332 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 25.098039215686274%;"></div></div> |
-| **Attack** | **125** | 229 | 383 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 49.01960784313725%;"></div></div> |
+| **Attack** | **115** | 211 | 361 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 45.09803921568628%;"></div></div> |
 | **Defense** | **65** | 121 | 251 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 25.49019607843137%;"></div></div> |
-| **Sp. Atk** | **93** | 171 | 313 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 36.470588235294116%;"></div></div> |
+| **Sp. Atk** | **83** | 153 | 291 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 32.549019607843135%;"></div></div> |
 | **Sp. Def** | **63** | 117 | 247 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 24.705882352941178%;"></div></div> |
 | **Speed** | **65** | 121 | 251 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 25.49019607843137%;"></div></div> |
-| **Base Stat Total** | **475** | | | |
+| **Base Stat Total** | **455** | | | |
 
 > **Min/Max Stats:** Calculated at Level 100.
 >

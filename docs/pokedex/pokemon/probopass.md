@@ -15,14 +15,6 @@
 
 ??? note "Probopass ROM Changes"
 
-	**Base Stats Changes:**
-
-	- `60 HP / 55 Atk / 145 Def / 75 SAtk / 150 SDef / 40 Spd` → `70 HP / 50 Atk / 135 Def / 90 SAtk / 140 SDef / 40 Spd`
-
-	**Abilities Changes:**
-
-	- `sturdy / magnet-pull / sand-force` → `sturdy / clear-body / magnet-pull`
-
 	**Type Changes:**
 
 	- `rock / steel` → `rock / electric`
@@ -31,7 +23,7 @@
 
 	- `34 moves` → `21 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `33 moves` → `36 moves (added: energy-ball, charge-beam, power-gem)`
 
@@ -45,8 +37,8 @@
 	---
 
 	- [Sturdy](../../pokedex/abilities/sturdy.md)
-	- [Clear Body](../../pokedex/abilities/clear-body.md)
-	- [Magnet Pull](../../pokedex/abilities/magnet-pull.md) :material-eye-off:
+	- [Magnet Pull](../../pokedex/abilities/magnet-pull.md)
+	- [Sand Force](../../pokedex/abilities/sand-force.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 
@@ -141,11 +133,11 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Stat | Base | Min | Max | Distribution |
 |------|-----:|----:|----:|:-------------|
-| **HP** | **70** | 250 | 344 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 27.450980392156865%;"></div></div> |
-| **Attack** | **50** | 94 | 218 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 19.607843137254903%;"></div></div> |
-| **Defense** | **135** | 247 | 405 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 52.94117647058824%;"></div></div> |
-| **Sp. Atk** | **90** | 166 | 306 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 35.294117647058826%;"></div></div> |
-| **Sp. Def** | **140** | 256 | 416 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 54.90196078431373%;"></div></div> |
+| **HP** | **60** | 230 | 324 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 23.52941176470588%;"></div></div> |
+| **Attack** | **55** | 103 | 229 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 21.568627450980394%;"></div></div> |
+| **Defense** | **145** | 265 | 427 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 56.86274509803921%;"></div></div> |
+| **Sp. Atk** | **75** | 139 | 273 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 29.411764705882355%;"></div></div> |
+| **Sp. Def** | **150** | 274 | 438 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 58.82352941176471%;"></div></div> |
 | **Speed** | **40** | 76 | 196 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 15.686274509803921%;"></div></div> |
 | **Base Stat Total** | **525** | | | |
 

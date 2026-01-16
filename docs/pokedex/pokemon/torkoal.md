@@ -15,15 +15,15 @@
 
 ??? note "Torkoal ROM Changes"
 
-	**Abilities Changes:**
+	**Ability Changes:**
 
-	- `white-smoke / shell-armor` → `drought / shell-armor / white-smoke`
+	- `(none)` → `drought`
 
 	**Level-up Moves Changes:**
 
 	- `17 moves` → `22 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `32 moves` → `33 moves (added: mystical-fire)`
 
@@ -36,9 +36,9 @@
 
 	---
 
+	- [White Smoke](../../pokedex/abilities/white-smoke.md)
+	- [Shell Armor](../../pokedex/abilities/shell-armor.md) :material-eye-off:
 	- [Drought](../../pokedex/abilities/drought.md)
-	- [Shell Armor](../../pokedex/abilities/shell-armor.md)
-	- [White Smoke](../../pokedex/abilities/white-smoke.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

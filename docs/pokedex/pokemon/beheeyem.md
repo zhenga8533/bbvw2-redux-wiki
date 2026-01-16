@@ -20,15 +20,11 @@
 
 	- `elgyem > beheeyem: level-up (level 42)` → `elgyem > beheeyem: level-up (level 37)`
 
-	**Abilities Changes:**
-
-	- `telepathy / synchronize / analytic` → `analytic / synchronize / analytic`
-
 	**Level-up Moves Changes:**
 
 	- `21 moves` → `25 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `37 moves` → `43 moves (added: tri-attack, dazzling-gleam, mystical-fire, power-gem, bug-buzz...)`
 
@@ -41,7 +37,7 @@
 
 	---
 
-	- [Analytic](../../pokedex/abilities/analytic.md)
+	- [Telepathy](../../pokedex/abilities/telepathy.md)
 	- [Synchronize](../../pokedex/abilities/synchronize.md)
 	- [Analytic](../../pokedex/abilities/analytic.md) :material-eye-off:
 

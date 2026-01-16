@@ -3,7 +3,7 @@
 
 ??? note "Ice Shard ROM Changes"
 
-	**Pp Changes:**
+	**PP Changes:**
 
 	- `30` → `20`
 

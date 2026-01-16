@@ -19,15 +19,11 @@
 
 	- `ponyta > rapidash: level-up (level 40)` → `ponyta > rapidash: level-up (level 35)`
 
-	**Abilities Changes:**
-
-	- `run-away / flash-fire / flame-body` → `flame-body / flame-body`
-
 	**Level-up Moves Changes:**
 
 	- `14 moves` → `23 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `23 moves` → `24 moves (added: low-sweep)`
 
@@ -40,7 +36,8 @@
 
 	---
 
-	- [Flame Body](../../pokedex/abilities/flame-body.md)
+	- [Run Away](../../pokedex/abilities/run-away.md)
+	- [Flash Fire](../../pokedex/abilities/flash-fire.md)
 	- [Flame Body](../../pokedex/abilities/flame-body.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**

@@ -15,15 +15,11 @@
 
 ??? note "Heracross ROM Changes"
 
-	**Abilities Changes:**
-
-	- `swarm / guts / moxie` → `moxie / skill-link / guts`
-
 	**Level-up Moves Changes:**
 
 	- `22 moves` → `25 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `39 moves` → `40 moves (added: bug-buzz)`
 
@@ -36,9 +32,9 @@
 
 	---
 
-	- [Moxie](../../pokedex/abilities/moxie.md)
-	- [Skill Link](../../pokedex/abilities/skill-link.md)
-	- [Guts](../../pokedex/abilities/guts.md) :material-eye-off:
+	- [Swarm](../../pokedex/abilities/swarm.md)
+	- [Guts](../../pokedex/abilities/guts.md)
+	- [Moxie](../../pokedex/abilities/moxie.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

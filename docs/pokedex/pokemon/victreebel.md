@@ -15,10 +15,6 @@
 
 ??? note "Victreebel ROM Changes"
 
-	**Abilities Changes:**
-
-	- `chlorophyll / gluttony` → `chlorophyll / gluttony / chlorophyll`
-
 	**Level-up Moves Changes:**
 
 	- `10 moves` → `12 moves`
@@ -33,8 +29,7 @@
 	---
 
 	- [Chlorophyll](../../pokedex/abilities/chlorophyll.md)
-	- [Gluttony](../../pokedex/abilities/gluttony.md)
-	- [Chlorophyll](../../pokedex/abilities/chlorophyll.md) :material-eye-off:
+	- [Gluttony](../../pokedex/abilities/gluttony.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

@@ -21,19 +21,11 @@
 
 	- `burmy > mothim: level-up (level 20)` → `burmy > mothim: level-up (level 25)`
 
-	**Base Stats Changes:**
-
-	- `70 HP / 94 Atk / 50 Def / 94 SAtk / 50 SDef / 66 Spd` → `70 HP / 94 Atk / 50 Def / 94 SAtk / 50 SDef / 92 Spd`
-
-	**Abilities Changes:**
-
-	- `swarm / tinted-lens` → `swarm / tinted-lens / tinted-lens`
-
 	**Level-up Moves Changes:**
 
 	- `14 moves` → `19 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `30 moves` → `31 moves (added: hurricane)`
 
@@ -47,7 +39,6 @@
 	---
 
 	- [Swarm](../../pokedex/abilities/swarm.md)
-	- [Tinted Lens](../../pokedex/abilities/tinted-lens.md)
 	- [Tinted Lens](../../pokedex/abilities/tinted-lens.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
@@ -157,8 +148,8 @@ These items can be found when catching or defeating this Pokémon in the wild:
 | **Defense** | **50** | 94 | 218 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 19.607843137254903%;"></div></div> |
 | **Sp. Atk** | **94** | 173 | 315 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 36.86274509803922%;"></div></div> |
 | **Sp. Def** | **50** | 94 | 218 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 19.607843137254903%;"></div></div> |
-| **Speed** | **92** | 170 | 311 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 36.07843137254902%;"></div></div> |
-| **Base Stat Total** | **450** | | | |
+| **Speed** | **66** | 123 | 254 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 25.882352941176475%;"></div></div> |
+| **Base Stat Total** | **424** | | | |
 
 > **Min/Max Stats:** Calculated at Level 100.
 >

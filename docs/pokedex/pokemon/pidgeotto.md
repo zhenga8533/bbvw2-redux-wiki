@@ -15,19 +15,11 @@
 
 ??? note "Pidgeotto ROM Changes"
 
-	**Base Stats Changes:**
-
-	- `63 HP / 60 Atk / 55 Def / 50 SAtk / 50 SDef / 71 Spd` → `63 HP / 50 Atk / 50 Def / 65 SAtk / 50 SDef / 71 Spd`
-
-	**Abilities Changes:**
-
-	- `keen-eye / tangled-feet / big-pecks` → `big-pecks / tangled-feet / keen-eye`
-
 	**Level-up Moves Changes:**
 
 	- `16 moves` → `24 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `20 moves` → `22 moves (added: echoed-voice, hurricane)`
 
@@ -40,9 +32,9 @@
 
 	---
 
-	- [Big Pecks](../../pokedex/abilities/big-pecks.md)
+	- [Keen Eye](../../pokedex/abilities/keen-eye.md)
 	- [Tangled Feet](../../pokedex/abilities/tangled-feet.md)
-	- [Keen Eye](../../pokedex/abilities/keen-eye.md) :material-eye-off:
+	- [Big Pecks](../../pokedex/abilities/big-pecks.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 
@@ -131,9 +123,9 @@
 | Stat | Base | Min | Max | Distribution |
 |------|-----:|----:|----:|:-------------|
 | **HP** | **63** | 236 | 330 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 24.705882352941178%;"></div></div> |
-| **Attack** | **50** | 94 | 218 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 19.607843137254903%;"></div></div> |
-| **Defense** | **50** | 94 | 218 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 19.607843137254903%;"></div></div> |
-| **Sp. Atk** | **65** | 121 | 251 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 25.49019607843137%;"></div></div> |
+| **Attack** | **60** | 112 | 240 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 23.52941176470588%;"></div></div> |
+| **Defense** | **55** | 103 | 229 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 21.568627450980394%;"></div></div> |
+| **Sp. Atk** | **50** | 94 | 218 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 19.607843137254903%;"></div></div> |
 | **Sp. Def** | **50** | 94 | 218 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 19.607843137254903%;"></div></div> |
 | **Speed** | **71** | 132 | 265 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 27.84313725490196%;"></div></div> |
 | **Base Stat Total** | **349** | | | |

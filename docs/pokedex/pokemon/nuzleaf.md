@@ -15,10 +15,6 @@
 
 ??? note "Nuzleaf ROM Changes"
 
-	**Abilities Changes:**
-
-	- `chlorophyll / early-bird / pickpocket` → `chlorophyll / rattled / early-bird`
-
 	**Level-up Moves Changes:**
 
 	- `11 moves` → `24 moves`
@@ -33,8 +29,8 @@
 	---
 
 	- [Chlorophyll](../../pokedex/abilities/chlorophyll.md)
-	- [Rattled](../../pokedex/abilities/rattled.md)
-	- [Early Bird](../../pokedex/abilities/early-bird.md) :material-eye-off:
+	- [Early Bird](../../pokedex/abilities/early-bird.md)
+	- [Pickpocket](../../pokedex/abilities/pickpocket.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

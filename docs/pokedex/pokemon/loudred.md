@@ -15,15 +15,11 @@
 
 ??? note "Loudred ROM Changes"
 
-	**Abilities Changes:**
-
-	- `soundproof / scrappy` → `soundproof / scrappy / rattled`
-
 	**Level-up Moves Changes:**
 
 	- `16 moves` → `18 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `37 moves` → `38 moves (added: bug-buzz)`
 
@@ -37,8 +33,7 @@
 	---
 
 	- [Soundproof](../../pokedex/abilities/soundproof.md)
-	- [Scrappy](../../pokedex/abilities/scrappy.md)
-	- [Rattled](../../pokedex/abilities/rattled.md) :material-eye-off:
+	- [Scrappy](../../pokedex/abilities/scrappy.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

@@ -15,19 +15,11 @@
 
 ??? note "Wailord ROM Changes"
 
-	**Base Stats Changes:**
-
-	- `170 HP / 90 Atk / 45 Def / 90 SAtk / 45 SDef / 60 Spd` → `200 HP / 90 Atk / 45 Def / 90 SAtk / 45 SDef / 60 Spd`
-
-	**Abilities Changes:**
-
-	- `water-veil / oblivious / pressure` → `water-veil / pressure / pressure`
-
 	**Level-up Moves Changes:**
 
 	- `19 moves` → `23 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `29 moves` → `31 moves (added: weather-ball, quash)`
 
@@ -41,7 +33,7 @@
 	---
 
 	- [Water Veil](../../pokedex/abilities/water-veil.md)
-	- [Pressure](../../pokedex/abilities/pressure.md)
+	- [Oblivious](../../pokedex/abilities/oblivious.md)
 	- [Pressure](../../pokedex/abilities/pressure.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
@@ -121,13 +113,13 @@
 
 | Stat | Base | Min | Max | Distribution |
 |------|-----:|----:|----:|:-------------|
-| **HP** | **200** | 510 | 604 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 78.43137254901961%;"></div></div> |
+| **HP** | **170** | 450 | 544 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 66.66666666666666%;"></div></div> |
 | **Attack** | **90** | 166 | 306 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 35.294117647058826%;"></div></div> |
 | **Defense** | **45** | 85 | 207 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 17.647058823529413%;"></div></div> |
 | **Sp. Atk** | **90** | 166 | 306 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 35.294117647058826%;"></div></div> |
 | **Sp. Def** | **45** | 85 | 207 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 17.647058823529413%;"></div></div> |
 | **Speed** | **60** | 112 | 240 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 23.52941176470588%;"></div></div> |
-| **Base Stat Total** | **530** | | | |
+| **Base Stat Total** | **500** | | | |
 
 > **Min/Max Stats:** Calculated at Level 100.
 >

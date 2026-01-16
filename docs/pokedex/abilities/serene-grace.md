@@ -88,12 +88,6 @@
 
 	**#468 [Togekiss](../pokemon/togekiss.md)**
 
--	[![Glaceon](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/471.gif){: .pokemon-sprite-img }](../pokemon/glaceon.md)
-
-	***
-
-	**#471 [Glaceon](../pokemon/glaceon.md)**
-
 -	[![Meloetta Aria](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/648.gif){: .pokemon-sprite-img }](../pokemon/meloetta-aria.md)
 
 	***
@@ -105,12 +99,6 @@
 ### :material-eye-off: Hidden Ability
 
 <div class="grid cards" markdown>
-
--	[![Glaceon](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/471.gif){: .pokemon-sprite-img }](../pokemon/glaceon.md)
-
-	***
-
-	**#471 [Glaceon](../pokemon/glaceon.md)**
 
 -	[![Deerling](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/585.gif){: .pokemon-sprite-img }](../pokemon/deerling.md)
 

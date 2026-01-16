@@ -22,17 +22,17 @@
 
 <div class="grid cards" markdown>
 
--	[![Wobbuffet](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/202.gif){: .pokemon-sprite-img }](../pokemon/wobbuffet.md)
+-	[![Elgyem](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/605.gif){: .pokemon-sprite-img }](../pokemon/elgyem.md)
 
 	***
 
-	**#202 [Wobbuffet](../pokemon/wobbuffet.md)**
+	**#605 [Elgyem](../pokemon/elgyem.md)**
 
--	[![Wynaut](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/360.gif){: .pokemon-sprite-img }](../pokemon/wynaut.md)
+-	[![Beheeyem](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/606.gif){: .pokemon-sprite-img }](../pokemon/beheeyem.md)
 
 	***
 
-	**#360 [Wynaut](../pokemon/wynaut.md)**
+	**#606 [Beheeyem](../pokemon/beheeyem.md)**
 
 </div>
 
@@ -99,18 +99,6 @@
 	***
 
 	**#487 [Giratina Altered](../pokemon/giratina-altered.md)**
-
--	[![Munna](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/517.gif){: .pokemon-sprite-img }](../pokemon/munna.md)
-
-	***
-
-	**#517 [Munna](../pokemon/munna.md)**
-
--	[![Musharna](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/518.gif){: .pokemon-sprite-img }](../pokemon/musharna.md)
-
-	***
-
-	**#518 [Musharna](../pokemon/musharna.md)**
 
 </div>
 

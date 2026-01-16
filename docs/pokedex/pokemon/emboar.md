@@ -16,13 +16,9 @@
 
 ??? note "Emboar ROM Changes"
 
-	**Base Stats Changes:**
+	**Ability Changes:**
 
-	- `110 HP / 123 Atk / 65 Def / 100 SAtk / 65 SDef / 65 Spd` → `115 HP / 125 Atk / 80 Def / 70 SAtk / 80 SDef / 65 Spd`
-
-	**Abilities Changes:**
-
-	- `blaze / reckless` → `mold-breaker / blaze / reckless`
+	- `(none)` → `mold-breaker`
 
 	**Type Changes:**
 
@@ -32,7 +28,7 @@
 
 	- `20 moves` → `25 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `44 moves` → `46 moves (added: quash, rock-climb)`
 
@@ -45,9 +41,9 @@
 
 	---
 
-	- [Mold Breaker](../../pokedex/abilities/mold-breaker.md)
 	- [Blaze](../../pokedex/abilities/blaze.md)
 	- [Reckless](../../pokedex/abilities/reckless.md) :material-eye-off:
+	- [Mold Breaker](../../pokedex/abilities/mold-breaker.md)
 
 - **:material-ruler: Physical Attributes**
 
@@ -138,13 +134,13 @@
 
 | Stat | Base | Min | Max | Distribution |
 |------|-----:|----:|----:|:-------------|
-| **HP** | **115** | 340 | 434 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 45.09803921568628%;"></div></div> |
-| **Attack** | **125** | 229 | 383 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 49.01960784313725%;"></div></div> |
-| **Defense** | **80** | 148 | 284 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 31.372549019607842%;"></div></div> |
-| **Sp. Atk** | **70** | 130 | 262 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 27.450980392156865%;"></div></div> |
-| **Sp. Def** | **80** | 148 | 284 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 31.372549019607842%;"></div></div> |
+| **HP** | **110** | 330 | 424 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 43.13725490196079%;"></div></div> |
+| **Attack** | **123** | 225 | 379 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 48.23529411764706%;"></div></div> |
+| **Defense** | **65** | 121 | 251 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 25.49019607843137%;"></div></div> |
+| **Sp. Atk** | **100** | 184 | 328 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 39.21568627450981%;"></div></div> |
+| **Sp. Def** | **65** | 121 | 251 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 25.49019607843137%;"></div></div> |
 | **Speed** | **65** | 121 | 251 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 25.49019607843137%;"></div></div> |
-| **Base Stat Total** | **535** | | | |
+| **Base Stat Total** | **528** | | | |
 
 > **Min/Max Stats:** Calculated at Level 100.
 >

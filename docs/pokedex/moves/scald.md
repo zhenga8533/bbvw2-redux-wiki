@@ -3,7 +3,7 @@
 
 ??? note "Scald ROM Changes"
 
-	**Pp Changes:**
+	**PP Changes:**
 
 	- `15` → `10`
 

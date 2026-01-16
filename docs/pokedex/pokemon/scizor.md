@@ -23,7 +23,7 @@
 
 	- `18 moves` → `24 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `34 moves` → `36 moves (added: hone-claws, bug-buzz)`
 

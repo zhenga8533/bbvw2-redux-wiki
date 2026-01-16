@@ -34,12 +34,6 @@
 
 	**#286 [Breloom](../pokemon/breloom.md)**
 
--	[![Gliscor](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/472.gif){: .pokemon-sprite-img }](../pokemon/gliscor.md)
-
-	***
-
-	**#472 [Gliscor](../pokemon/gliscor.md)**
-
 </div>
 
 ### :material-eye-off: Hidden Ability

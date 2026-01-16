@@ -15,14 +15,6 @@
 
 ??? note "Poochyena ROM Changes"
 
-	**Base Stats Changes:**
-
-	- `35 HP / 55 Atk / 35 Def / 30 SAtk / 30 SDef / 35 Spd` → `35 HP / 65 Atk / 35 Def / 30 SAtk / 30 SDef / 55 Spd`
-
-	**Abilities Changes:**
-
-	- `run-away / quick-feet / rattled` → `rattled / run-away / quick-feet`
-
 	**Level-up Moves Changes:**
 
 	- `14 moves` → `24 moves`
@@ -36,9 +28,9 @@
 
 	---
 
-	- [Rattled](../../pokedex/abilities/rattled.md)
 	- [Run Away](../../pokedex/abilities/run-away.md)
-	- [Quick Feet](../../pokedex/abilities/quick-feet.md) :material-eye-off:
+	- [Quick Feet](../../pokedex/abilities/quick-feet.md)
+	- [Rattled](../../pokedex/abilities/rattled.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 
@@ -135,12 +127,12 @@ These items can be found when catching or defeating this Pokémon in the wild:
 | Stat | Base | Min | Max | Distribution |
 |------|-----:|----:|----:|:-------------|
 | **HP** | **35** | 180 | 274 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 13.725490196078432%;"></div></div> |
-| **Attack** | **65** | 121 | 251 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 25.49019607843137%;"></div></div> |
+| **Attack** | **55** | 103 | 229 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 21.568627450980394%;"></div></div> |
 | **Defense** | **35** | 67 | 185 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 13.725490196078432%;"></div></div> |
 | **Sp. Atk** | **30** | 58 | 174 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 11.76470588235294%;"></div></div> |
 | **Sp. Def** | **30** | 58 | 174 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 11.76470588235294%;"></div></div> |
-| **Speed** | **55** | 103 | 229 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 21.568627450980394%;"></div></div> |
-| **Base Stat Total** | **250** | | | |
+| **Speed** | **35** | 67 | 185 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 13.725490196078432%;"></div></div> |
+| **Base Stat Total** | **220** | | | |
 
 > **Min/Max Stats:** Calculated at Level 100.
 >

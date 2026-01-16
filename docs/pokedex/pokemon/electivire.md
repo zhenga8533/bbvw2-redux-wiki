@@ -19,10 +19,6 @@
 
 	- `electabuzz > electivire: trade (held: electirizer)` → `electabuzz > electivire: use-item (electirizer)`
 
-	**Abilities Changes:**
-
-	- `motor-drive / vital-spirit` → `motor-drive / vital-spirit / vital-spirit`
-
 	**Type Changes:**
 
 	- `electric` → `electric / fighting`
@@ -43,7 +39,6 @@
 	---
 
 	- [Motor Drive](../../pokedex/abilities/motor-drive.md)
-	- [Vital Spirit](../../pokedex/abilities/vital-spirit.md)
 	- [Vital Spirit](../../pokedex/abilities/vital-spirit.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**

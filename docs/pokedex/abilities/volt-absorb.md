@@ -40,29 +40,17 @@
 
 	**#171 [Lanturn](../pokemon/lanturn.md)**
 
--	[![Minun](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/312.gif){: .pokemon-sprite-img }](../pokemon/minun.md)
-
-	***
-
-	**#312 [Minun](../pokemon/minun.md)**
-
--	[![Pachirisu](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/417.gif){: .pokemon-sprite-img }](../pokemon/pachirisu.md)
-
-	***
-
-	**#417 [Pachirisu](../pokemon/pachirisu.md)**
-
 </div>
 
 ### :material-eye-off: Hidden Ability
 
 <div class="grid cards" markdown>
 
--	[![Minun](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/312.gif){: .pokemon-sprite-img }](../pokemon/minun.md)
+-	[![Pachirisu](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/417.gif){: .pokemon-sprite-img }](../pokemon/pachirisu.md)
 
 	***
 
-	**#312 [Minun](../pokemon/minun.md)**
+	**#417 [Pachirisu](../pokemon/pachirisu.md)**
 
 </div>
 

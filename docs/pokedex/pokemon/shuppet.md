@@ -19,15 +19,11 @@
 
 	- `shuppet > banette: level-up (level 37)` → `shuppet > banette: level-up (level 32)`
 
-	**Abilities Changes:**
-
-	- `insomnia / frisk / cursed-body` → `cursed-body / frisk / cursed-body`
-
 	**Level-up Moves Changes:**
 
 	- `29 moves` → `18 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `32 moves` → `33 moves (added: work-up)`
 
@@ -40,7 +36,7 @@
 
 	---
 
-	- [Cursed Body](../../pokedex/abilities/cursed-body.md)
+	- [Insomnia](../../pokedex/abilities/insomnia.md)
 	- [Frisk](../../pokedex/abilities/frisk.md)
 	- [Cursed Body](../../pokedex/abilities/cursed-body.md) :material-eye-off:
 

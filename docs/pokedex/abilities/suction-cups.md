@@ -22,6 +22,12 @@
 
 <div class="grid cards" markdown>
 
+-	[![Octillery](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/224.gif){: .pokemon-sprite-img }](../pokemon/octillery.md)
+
+	***
+
+	**#224 [Octillery](../pokemon/octillery.md)**
+
 -	[![Lileep](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/345.gif){: .pokemon-sprite-img }](../pokemon/lileep.md)
 
 	***
@@ -33,18 +39,6 @@
 	***
 
 	**#346 [Cradily](../pokemon/cradily.md)**
-
-</div>
-
-### :material-eye-off: Hidden Ability
-
-<div class="grid cards" markdown>
-
--	[![Octillery](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/224.gif){: .pokemon-sprite-img }](../pokemon/octillery.md)
-
-	***
-
-	**#224 [Octillery](../pokemon/octillery.md)**
 
 </div>
 

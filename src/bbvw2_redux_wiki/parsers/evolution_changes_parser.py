@@ -36,7 +36,6 @@ class EvolutionChangesParser(BaseParser):
             output_dir (str, optional): Path to the output directory. Defaults to "docs".
         """
         super().__init__(input_file=input_file, output_dir=output_dir)
-        self.evolution_service = EvolutionService()
         self._sections = ["General Notes", "Evolution Changes"]
 
         # Evolution Changes states
@@ -262,7 +261,7 @@ class EvolutionChangesParser(BaseParser):
                     evolution_details.gender = gender
 
                 # Use the evolution service to update the chain
-                self.evolution_service.update_evolution_chain(
+                EvolutionService.update_evolution_chain(
                     pokemon_id,
                     evolution_id,
                     evolution_chain,

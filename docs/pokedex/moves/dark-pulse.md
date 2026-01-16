@@ -3,13 +3,13 @@
 
 ??? note "Dark Pulse ROM Changes"
 
-	**Pp Changes:**
+	**PP Changes:**
 
 	- `15` → `10`
 
 	**Accuracy Changes:**
 
-	- `100` → `None`
+	- `100` → `Never Misses`
 
 
 ## :material-chart-box: Stats

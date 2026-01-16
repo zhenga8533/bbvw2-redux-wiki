@@ -16,14 +16,6 @@
 
 ??? note "Beartic ROM Changes"
 
-	**Base Stats Changes:**
-
-	- `95 HP / 110 Atk / 80 Def / 70 SAtk / 80 SDef / 50 Spd` → `105 HP / 130 Atk / 80 Def / 70 SAtk / 80 SDef / 55 Spd`
-
-	**Abilities Changes:**
-
-	- `snow-cloak / swift-swim` → `snow-cloak / sheer-force / swift-swim`
-
 	**Type Changes:**
 
 	- `ice` → `ice / fighting`
@@ -32,7 +24,7 @@
 
 	- `21 moves` → `24 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `41 moves` → `45 moves (added: earthquake, low-sweep, work-up, waterfall)`
 
@@ -46,7 +38,6 @@
 	---
 
 	- [Snow Cloak](../../pokedex/abilities/snow-cloak.md)
-	- [Sheer Force](../../pokedex/abilities/sheer-force.md)
 	- [Swift Swim](../../pokedex/abilities/swift-swim.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
@@ -132,13 +123,13 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Stat | Base | Min | Max | Distribution |
 |------|-----:|----:|----:|:-------------|
-| **HP** | **105** | 320 | 414 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 41.17647058823529%;"></div></div> |
-| **Attack** | **130** | 238 | 394 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 50.98039215686274%;"></div></div> |
+| **HP** | **95** | 300 | 394 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 37.254901960784316%;"></div></div> |
+| **Attack** | **110** | 202 | 350 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 43.13725490196079%;"></div></div> |
 | **Defense** | **80** | 148 | 284 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 31.372549019607842%;"></div></div> |
 | **Sp. Atk** | **70** | 130 | 262 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 27.450980392156865%;"></div></div> |
 | **Sp. Def** | **80** | 148 | 284 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 31.372549019607842%;"></div></div> |
-| **Speed** | **55** | 103 | 229 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 21.568627450980394%;"></div></div> |
-| **Base Stat Total** | **520** | | | |
+| **Speed** | **50** | 94 | 218 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 19.607843137254903%;"></div></div> |
+| **Base Stat Total** | **485** | | | |
 
 > **Min/Max Stats:** Calculated at Level 100.
 >

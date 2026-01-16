@@ -16,13 +16,13 @@
 
 ??? note "Deoxys Attack ROM Changes"
 
-	**Abilities Changes:**
-
-	- `pressure` → `download / pressure`
-
 	**Level-up Moves Changes:**
 
 	- `14 moves` → `16 moves`
+
+	**Ability Changes:**
+
+	- `(none)` → `regenerator`
 
 
 ## :material-information: Basic Information
@@ -33,8 +33,8 @@
 
 	---
 
-	- [Download](../../pokedex/abilities/download.md)
 	- [Pressure](../../pokedex/abilities/pressure.md)
+	- [Regenerator](../../pokedex/abilities/regenerator.md)
 
 - **:material-ruler: Physical Attributes**
 

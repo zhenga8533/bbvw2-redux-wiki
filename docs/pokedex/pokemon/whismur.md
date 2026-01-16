@@ -15,15 +15,11 @@
 
 ??? note "Whismur ROM Changes"
 
-	**Abilities Changes:**
-
-	- `soundproof / rattled` → `soundproof / scrappy / rattled`
-
 	**Level-up Moves Changes:**
 
 	- `12 moves` → `17 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `26 moves` → `27 moves (added: bug-buzz)`
 
@@ -37,7 +33,6 @@
 	---
 
 	- [Soundproof](../../pokedex/abilities/soundproof.md)
-	- [Scrappy](../../pokedex/abilities/scrappy.md)
 	- [Rattled](../../pokedex/abilities/rattled.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**

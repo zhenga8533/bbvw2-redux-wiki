@@ -46,24 +46,6 @@
 
 	**#319 [Sharpedo](../pokemon/sharpedo.md)**
 
--	[![Gible](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/443.gif){: .pokemon-sprite-img }](../pokemon/gible.md)
-
-	***
-
-	**#443 [Gible](../pokemon/gible.md)**
-
--	[![Gabite](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/444.gif){: .pokemon-sprite-img }](../pokemon/gabite.md)
-
-	***
-
-	**#444 [Gabite](../pokemon/gabite.md)**
-
--	[![Garchomp](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/445.gif){: .pokemon-sprite-img }](../pokemon/garchomp.md)
-
-	***
-
-	**#445 [Garchomp](../pokemon/garchomp.md)**
-
 -	[![Druddigon](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/621.gif){: .pokemon-sprite-img }](../pokemon/druddigon.md)
 
 	***

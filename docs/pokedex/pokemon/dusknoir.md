@@ -19,15 +19,15 @@
 
 	- `dusclops > dusknoir: unknown` → `dusclops > dusknoir: use-item (reaper-cloth)`
 
-	**Abilities Changes:**
+	**Ability Changes:**
 
-	- `pressure` → `iron-fist / cursed-body / pressure`
+	- `(none)` → `iron-fist`
 
 	**Level-up Moves Changes:**
 
 	- `21 moves` → `25 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `42 moves` → `43 moves (added: quash)`
 
@@ -40,9 +40,8 @@
 
 	---
 
+	- [Pressure](../../pokedex/abilities/pressure.md)
 	- [Iron Fist](../../pokedex/abilities/iron-fist.md)
-	- [Cursed Body](../../pokedex/abilities/cursed-body.md)
-	- [Pressure](../../pokedex/abilities/pressure.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

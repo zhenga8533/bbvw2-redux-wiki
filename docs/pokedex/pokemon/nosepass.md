@@ -15,14 +15,6 @@
 
 ??? note "Nosepass ROM Changes"
 
-	**Base Stats Changes:**
-
-	- `30 HP / 45 Atk / 135 Def / 45 SAtk / 90 SDef / 30 Spd` → `30 HP / 35 Atk / 135 Def / 55 SAtk / 90 SDef / 30 Spd`
-
-	**Abilities Changes:**
-
-	- `sturdy / magnet-pull / sand-force` → `sturdy / sand-force / magnet-pull`
-
 	**Base Experience Changes:**
 
 	- `75` → `65`
@@ -31,7 +23,7 @@
 
 	- `29 moves` → `21 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `30 moves` → `32 moves (added: charge-beam, power-gem)`
 
@@ -45,8 +37,8 @@
 	---
 
 	- [Sturdy](../../pokedex/abilities/sturdy.md)
-	- [Sand Force](../../pokedex/abilities/sand-force.md)
-	- [Magnet Pull](../../pokedex/abilities/magnet-pull.md) :material-eye-off:
+	- [Magnet Pull](../../pokedex/abilities/magnet-pull.md)
+	- [Sand Force](../../pokedex/abilities/sand-force.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 
@@ -134,9 +126,9 @@ These items can be found when catching or defeating this Pokémon in the wild:
 | Stat | Base | Min | Max | Distribution |
 |------|-----:|----:|----:|:-------------|
 | **HP** | **30** | 170 | 264 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 11.76470588235294%;"></div></div> |
-| **Attack** | **35** | 67 | 185 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 13.725490196078432%;"></div></div> |
+| **Attack** | **45** | 85 | 207 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 17.647058823529413%;"></div></div> |
 | **Defense** | **135** | 247 | 405 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 52.94117647058824%;"></div></div> |
-| **Sp. Atk** | **55** | 103 | 229 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 21.568627450980394%;"></div></div> |
+| **Sp. Atk** | **45** | 85 | 207 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 17.647058823529413%;"></div></div> |
 | **Sp. Def** | **90** | 166 | 306 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 35.294117647058826%;"></div></div> |
 | **Speed** | **30** | 58 | 174 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 11.76470588235294%;"></div></div> |
 | **Base Stat Total** | **375** | | | |

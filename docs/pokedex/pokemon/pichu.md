@@ -16,10 +16,6 @@
 
 ??? note "Pichu ROM Changes"
 
-	**Abilities Changes:**
-
-	- `static / lightning-rod` → `static / lightning-rod / lightning-rod`
-
 	**Base Happiness Changes:**
 
 	- `70` → `180`
@@ -28,7 +24,7 @@
 
 	- `6 moves` → `13 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `24 moves` → `25 moves (added: surf)`
 
@@ -42,7 +38,6 @@
 	---
 
 	- [Static](../../pokedex/abilities/static.md)
-	- [Lightning Rod](../../pokedex/abilities/lightning-rod.md)
 	- [Lightning Rod](../../pokedex/abilities/lightning-rod.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**

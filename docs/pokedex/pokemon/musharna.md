@@ -16,9 +16,9 @@
 
 ??? note "Musharna ROM Changes"
 
-	**Abilities Changes:**
+	**Ability Changes:**
 
-	- `forewarn / synchronize / telepathy` → `analytic / synchronize / telepathy`
+	- `telepathy` → `analytic`
 
 	**Type Changes:**
 
@@ -28,7 +28,7 @@
 
 	- `4 moves` → `13 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `34 moves` → `35 moves (added: tri-attack)`
 
@@ -41,9 +41,9 @@
 
 	---
 
-	- [Analytic](../../pokedex/abilities/analytic.md)
+	- [Forewarn](../../pokedex/abilities/forewarn.md)
 	- [Synchronize](../../pokedex/abilities/synchronize.md)
-	- [Telepathy](../../pokedex/abilities/telepathy.md) :material-eye-off:
+	- [Analytic](../../pokedex/abilities/analytic.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

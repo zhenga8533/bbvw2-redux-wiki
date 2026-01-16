@@ -18,7 +18,7 @@
 
 ## :material-pokeball: Pokémon with this Ability
 
-### :material-star: Standard Ability
+### :material-eye-off: Hidden Ability
 
 <div class="grid cards" markdown>
 
@@ -27,36 +27,6 @@
 	***
 
 	**#213 [Shuckle](../pokemon/shuckle.md)**
-
--	[![Spinda](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/327.gif){: .pokemon-sprite-img }](../pokemon/spinda.md)
-
-	***
-
-	**#327 [Spinda](../pokemon/spinda.md)**
-
--	[![Snivy](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/495.gif){: .pokemon-sprite-img }](../pokemon/snivy.md)
-
-	***
-
-	**#495 [Snivy](../pokemon/snivy.md)**
-
--	[![Servine](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/496.gif){: .pokemon-sprite-img }](../pokemon/servine.md)
-
-	***
-
-	**#496 [Servine](../pokemon/servine.md)**
-
--	[![Serperior](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/497.gif){: .pokemon-sprite-img }](../pokemon/serperior.md)
-
-	***
-
-	**#497 [Serperior](../pokemon/serperior.md)**
-
-</div>
-
-### :material-eye-off: Hidden Ability
-
-<div class="grid cards" markdown>
 
 -	[![Spinda](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/327.gif){: .pokemon-sprite-img }](../pokemon/spinda.md)
 

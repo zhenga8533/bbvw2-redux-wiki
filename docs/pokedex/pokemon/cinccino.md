@@ -16,19 +16,11 @@
 
 ??? note "Cinccino ROM Changes"
 
-	**Base Stats Changes:**
-
-	- `75 HP / 95 Atk / 60 Def / 65 SAtk / 60 SDef / 115 Spd` → `80 HP / 100 Atk / 60 Def / 65 SAtk / 60 SDef / 115 Spd`
-
-	**Abilities Changes:**
-
-	- `cute-charm / technician / skill-link` → `skill-link / technician / cute-charm`
-
 	**Level-up Moves Changes:**
 
 	- `6 moves` → `9 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `31 moves` → `32 moves (added: low-sweep)`
 
@@ -41,9 +33,9 @@
 
 	---
 
-	- [Skill Link](../../pokedex/abilities/skill-link.md)
+	- [Cute Charm](../../pokedex/abilities/cute-charm.md)
 	- [Technician](../../pokedex/abilities/technician.md)
-	- [Cute Charm](../../pokedex/abilities/cute-charm.md) :material-eye-off:
+	- [Skill Link](../../pokedex/abilities/skill-link.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 
@@ -128,13 +120,13 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Stat | Base | Min | Max | Distribution |
 |------|-----:|----:|----:|:-------------|
-| **HP** | **80** | 270 | 364 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 31.372549019607842%;"></div></div> |
-| **Attack** | **100** | 184 | 328 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 39.21568627450981%;"></div></div> |
+| **HP** | **75** | 260 | 354 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 29.411764705882355%;"></div></div> |
+| **Attack** | **95** | 175 | 317 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 37.254901960784316%;"></div></div> |
 | **Defense** | **60** | 112 | 240 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 23.52941176470588%;"></div></div> |
 | **Sp. Atk** | **65** | 121 | 251 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 25.49019607843137%;"></div></div> |
 | **Sp. Def** | **60** | 112 | 240 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 23.52941176470588%;"></div></div> |
 | **Speed** | **115** | 211 | 361 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 45.09803921568628%;"></div></div> |
-| **Base Stat Total** | **480** | | | |
+| **Base Stat Total** | **470** | | | |
 
 > **Min/Max Stats:** Calculated at Level 100.
 >

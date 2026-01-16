@@ -15,15 +15,11 @@
 
 ??? note "Starmie ROM Changes"
 
-	**Abilities Changes:**
-
-	- `illuminate / natural-cure / analytic` → `analytic / natural-cure / analytic`
-
 	**Level-up Moves Changes:**
 
 	- `6 moves` → `8 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `36 moves` → `37 moves (added: tri-attack)`
 
@@ -36,7 +32,7 @@
 
 	---
 
-	- [Analytic](../../pokedex/abilities/analytic.md)
+	- [Illuminate](../../pokedex/abilities/illuminate.md)
 	- [Natural Cure](../../pokedex/abilities/natural-cure.md)
 	- [Analytic](../../pokedex/abilities/analytic.md) :material-eye-off:
 

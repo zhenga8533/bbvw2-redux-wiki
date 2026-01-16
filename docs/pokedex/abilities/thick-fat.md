@@ -58,18 +58,6 @@
 
 	**#184 [Azumarill](../pokemon/azumarill.md)**
 
--	[![Swinub](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/220.gif){: .pokemon-sprite-img }](../pokemon/swinub.md)
-
-	***
-
-	**#220 [Swinub](../pokemon/swinub.md)**
-
--	[![Piloswine](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/221.gif){: .pokemon-sprite-img }](../pokemon/piloswine.md)
-
-	***
-
-	**#221 [Piloswine](../pokemon/piloswine.md)**
-
 -	[![Miltank](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/241.gif){: .pokemon-sprite-img }](../pokemon/miltank.md)
 
 	***
@@ -136,11 +124,41 @@
 
 	**#446 [Munchlax](../pokemon/munchlax.md)**
 
+</div>
+
+### :material-eye-off: Hidden Ability
+
+<div class="grid cards" markdown>
+
+-	[![Swinub](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/220.gif){: .pokemon-sprite-img }](../pokemon/swinub.md)
+
+	***
+
+	**#220 [Swinub](../pokemon/swinub.md)**
+
+-	[![Piloswine](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/221.gif){: .pokemon-sprite-img }](../pokemon/piloswine.md)
+
+	***
+
+	**#221 [Piloswine](../pokemon/piloswine.md)**
+
 -	[![Mamoswine](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/473.gif){: .pokemon-sprite-img }](../pokemon/mamoswine.md)
 
 	***
 
 	**#473 [Mamoswine](../pokemon/mamoswine.md)**
+
+-	[![Tepig](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/498.gif){: .pokemon-sprite-img }](../pokemon/tepig.md)
+
+	***
+
+	**#498 [Tepig](../pokemon/tepig.md)**
+
+-	[![Pignite](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/499.gif){: .pokemon-sprite-img }](../pokemon/pignite.md)
+
+	***
+
+	**#499 [Pignite](../pokemon/pignite.md)**
 
 </div>
 

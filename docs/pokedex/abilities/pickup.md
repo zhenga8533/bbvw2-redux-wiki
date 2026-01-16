@@ -22,6 +22,18 @@
 
 <div class="grid cards" markdown>
 
+-	[![Meowth](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/52.gif){: .pokemon-sprite-img }](../pokemon/meowth.md)
+
+	***
+
+	**#052 [Meowth](../pokemon/meowth.md)**
+
+-	[![Aipom](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/190.gif){: .pokemon-sprite-img }](../pokemon/aipom.md)
+
+	***
+
+	**#190 [Aipom](../pokemon/aipom.md)**
+
 -	[![Teddiursa](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/216.gif){: .pokemon-sprite-img }](../pokemon/teddiursa.md)
 
 	***
@@ -52,6 +64,12 @@
 
 	**#417 [Pachirisu](../pokemon/pachirisu.md)**
 
+-	[![Ambipom](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/424.gif){: .pokemon-sprite-img }](../pokemon/ambipom.md)
+
+	***
+
+	**#424 [Ambipom](../pokemon/ambipom.md)**
+
 -	[![Munchlax](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/446.gif){: .pokemon-sprite-img }](../pokemon/munchlax.md)
 
 	***
@@ -63,36 +81,6 @@
 	***
 
 	**#506 [Lillipup](../pokemon/lillipup.md)**
-
-</div>
-
-### :material-eye-off: Hidden Ability
-
-<div class="grid cards" markdown>
-
--	[![Meowth](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/52.gif){: .pokemon-sprite-img }](../pokemon/meowth.md)
-
-	***
-
-	**#052 [Meowth](../pokemon/meowth.md)**
-
--	[![Persian](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/53.gif){: .pokemon-sprite-img }](../pokemon/persian.md)
-
-	***
-
-	**#053 [Persian](../pokemon/persian.md)**
-
--	[![Aipom](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/190.gif){: .pokemon-sprite-img }](../pokemon/aipom.md)
-
-	***
-
-	**#190 [Aipom](../pokemon/aipom.md)**
-
--	[![Ambipom](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/424.gif){: .pokemon-sprite-img }](../pokemon/ambipom.md)
-
-	***
-
-	**#424 [Ambipom](../pokemon/ambipom.md)**
 
 </div>
 

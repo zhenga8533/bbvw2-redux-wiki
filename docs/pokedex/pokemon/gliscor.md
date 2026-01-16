@@ -19,15 +19,11 @@
 
 	- `gligar > gliscor: level-up (held: razor-fang)` → `gligar > gliscor: use-item (razor-fang)`
 
-	**Abilities Changes:**
-
-	- `hyper-cutter / sand-veil / poison-heal` → `hyper-cutter / poison-heal / poison-heal`
-
 	**Level-up Moves Changes:**
 
 	- `34 moves` → `25 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `44 moves` → `47 moves (added: bug-buzz, fly, rock-climb)`
 
@@ -41,7 +37,7 @@
 	---
 
 	- [Hyper Cutter](../../pokedex/abilities/hyper-cutter.md)
-	- [Poison Heal](../../pokedex/abilities/poison-heal.md)
+	- [Sand Veil](../../pokedex/abilities/sand-veil.md)
 	- [Poison Heal](../../pokedex/abilities/poison-heal.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**

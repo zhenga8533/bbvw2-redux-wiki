@@ -20,15 +20,11 @@
 
 	- `rufflet > braviary: level-up (level 54)` → `rufflet > braviary: level-up (level 40)`
 
-	**Abilities Changes:**
-
-	- `keen-eye / sheer-force / defiant` → `defiant / sheer-force / defiant`
-
 	**Level-up Moves Changes:**
 
 	- `19 moves` → `23 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `31 moves` → `32 moves (added: quash)`
 
@@ -41,7 +37,7 @@
 
 	---
 
-	- [Defiant](../../pokedex/abilities/defiant.md)
+	- [Keen Eye](../../pokedex/abilities/keen-eye.md)
 	- [Sheer Force](../../pokedex/abilities/sheer-force.md)
 	- [Defiant](../../pokedex/abilities/defiant.md) :material-eye-off:
 

@@ -15,15 +15,11 @@
 
 ??? note "Hoothoot ROM Changes"
 
-	**Abilities Changes:**
-
-	- `insomnia / keen-eye / tinted-lens` → `tinted-lens / insomnia / keen-eye`
-
 	**Level-up Moves Changes:**
 
 	- `17 moves` → `22 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `25 moves` → `26 moves (added: flash)`
 
@@ -36,9 +32,9 @@
 
 	---
 
-	- [Tinted Lens](../../pokedex/abilities/tinted-lens.md)
 	- [Insomnia](../../pokedex/abilities/insomnia.md)
-	- [Keen Eye](../../pokedex/abilities/keen-eye.md) :material-eye-off:
+	- [Keen Eye](../../pokedex/abilities/keen-eye.md)
+	- [Tinted Lens](../../pokedex/abilities/tinted-lens.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

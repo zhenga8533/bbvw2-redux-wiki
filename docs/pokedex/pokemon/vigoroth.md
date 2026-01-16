@@ -15,10 +15,6 @@
 
 ??? note "Vigoroth ROM Changes"
 
-	**Abilities Changes:**
-
-	- `vital-spirit` → `vital-spirit / sheer-force / vital-spirit`
-
 	**Level-up Moves Changes:**
 
 	- `13 moves` → `23 moves`
@@ -33,8 +29,6 @@
 	---
 
 	- [Vital Spirit](../../pokedex/abilities/vital-spirit.md)
-	- [Sheer Force](../../pokedex/abilities/sheer-force.md)
-	- [Vital Spirit](../../pokedex/abilities/vital-spirit.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

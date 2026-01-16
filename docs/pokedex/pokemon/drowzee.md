@@ -15,19 +15,15 @@
 
 ??? note "Drowzee ROM Changes"
 
-	**Base Stats Changes:**
+	**Ability Changes:**
 
-	- `60 HP / 48 Atk / 45 Def / 43 SAtk / 90 SDef / 42 Spd` → `70 HP / 48 Atk / 45 Def / 45 SAtk / 90 SDef / 42 Spd`
-
-	**Abilities Changes:**
-
-	- `insomnia / forewarn / inner-focus` → `bad-dreams / insomnia / forewarn`
+	- `inner-focus` → `bad-dreams`
 
 	**Level-up Moves Changes:**
 
 	- `17 moves` → `19 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `34 moves` → `35 moves (added: aura-sphere)`
 
@@ -40,9 +36,9 @@
 
 	---
 
-	- [Bad Dreams](../../pokedex/abilities/bad-dreams.md)
 	- [Insomnia](../../pokedex/abilities/insomnia.md)
-	- [Forewarn](../../pokedex/abilities/forewarn.md) :material-eye-off:
+	- [Forewarn](../../pokedex/abilities/forewarn.md)
+	- [Bad Dreams](../../pokedex/abilities/bad-dreams.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 
@@ -121,13 +117,13 @@
 
 | Stat | Base | Min | Max | Distribution |
 |------|-----:|----:|----:|:-------------|
-| **HP** | **70** | 250 | 344 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 27.450980392156865%;"></div></div> |
+| **HP** | **60** | 230 | 324 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 23.52941176470588%;"></div></div> |
 | **Attack** | **48** | 90 | 214 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 18.823529411764707%;"></div></div> |
 | **Defense** | **45** | 85 | 207 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 17.647058823529413%;"></div></div> |
-| **Sp. Atk** | **45** | 85 | 207 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 17.647058823529413%;"></div></div> |
+| **Sp. Atk** | **43** | 81 | 203 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 16.862745098039216%;"></div></div> |
 | **Sp. Def** | **90** | 166 | 306 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 35.294117647058826%;"></div></div> |
 | **Speed** | **42** | 80 | 201 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 16.470588235294116%;"></div></div> |
-| **Base Stat Total** | **340** | | | |
+| **Base Stat Total** | **328** | | | |
 
 > **Min/Max Stats:** Calculated at Level 100.
 >

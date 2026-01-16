@@ -22,24 +22,6 @@
 
 <div class="grid cards" markdown>
 
--	[![Vulpix](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/37.gif){: .pokemon-sprite-img }](../pokemon/vulpix.md)
-
-	***
-
-	**#037 [Vulpix](../pokemon/vulpix.md)**
-
--	[![Ninetales](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/38.gif){: .pokemon-sprite-img }](../pokemon/ninetales.md)
-
-	***
-
-	**#038 [Ninetales](../pokemon/ninetales.md)**
-
--	[![Sunflora](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/192.gif){: .pokemon-sprite-img }](../pokemon/sunflora.md)
-
-	***
-
-	**#192 [Sunflora](../pokemon/sunflora.md)**
-
 -	[![Torkoal](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/324.gif){: .pokemon-sprite-img }](../pokemon/torkoal.md)
 
 	***
@@ -69,6 +51,12 @@
 	***
 
 	**#038 [Ninetales](../pokemon/ninetales.md)**
+
+-	[![Sunflora](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/192.gif){: .pokemon-sprite-img }](../pokemon/sunflora.md)
+
+	***
+
+	**#192 [Sunflora](../pokemon/sunflora.md)**
 
 </div>
 

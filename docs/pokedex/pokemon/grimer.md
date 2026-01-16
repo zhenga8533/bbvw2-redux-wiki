@@ -19,19 +19,11 @@
 
 	- `grimer > muk: level-up (level 38)` → `grimer > muk: level-up (level 35)`
 
-	**Base Stats Changes:**
-
-	- `80 HP / 80 Atk / 50 Def / 40 SAtk / 50 SDef / 25 Spd` → `80 HP / 80 Atk / 50 Def / 40 SAtk / 70 SDef / 25 Spd`
-
-	**Abilities Changes:**
-
-	- `stench / sticky-hold / poison-touch` → `poison-touch / stench / poison-touch`
-
 	**Level-up Moves Changes:**
 
 	- `25 moves` → `21 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `34 moves` → `35 moves (added: quash)`
 
@@ -44,8 +36,8 @@
 
 	---
 
-	- [Poison Touch](../../pokedex/abilities/poison-touch.md)
 	- [Stench](../../pokedex/abilities/stench.md)
+	- [Sticky Hold](../../pokedex/abilities/sticky-hold.md)
 	- [Poison Touch](../../pokedex/abilities/poison-touch.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
@@ -138,9 +130,9 @@ These items can be found when catching or defeating this Pokémon in the wild:
 | **Attack** | **80** | 148 | 284 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 31.372549019607842%;"></div></div> |
 | **Defense** | **50** | 94 | 218 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 19.607843137254903%;"></div></div> |
 | **Sp. Atk** | **40** | 76 | 196 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 15.686274509803921%;"></div></div> |
-| **Sp. Def** | **70** | 130 | 262 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 27.450980392156865%;"></div></div> |
+| **Sp. Def** | **50** | 94 | 218 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 19.607843137254903%;"></div></div> |
 | **Speed** | **25** | 49 | 163 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 9.803921568627452%;"></div></div> |
-| **Base Stat Total** | **345** | | | |
+| **Base Stat Total** | **325** | | | |
 
 > **Min/Max Stats:** Calculated at Level 100.
 >

@@ -22,6 +22,18 @@
 
 <div class="grid cards" markdown>
 
+-	[![Goldeen](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/118.gif){: .pokemon-sprite-img }](../pokemon/goldeen.md)
+
+	***
+
+	**#118 [Goldeen](../pokemon/goldeen.md)**
+
+-	[![Seaking](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/119.gif){: .pokemon-sprite-img }](../pokemon/seaking.md)
+
+	***
+
+	**#119 [Seaking](../pokemon/seaking.md)**
+
 -	[![Mudkip](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/258.gif){: .pokemon-sprite-img }](../pokemon/mudkip.md)
 
 	***
@@ -52,35 +64,11 @@
 
 	**#321 [Wailord](../pokemon/wailord.md)**
 
--	[![Buizel](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/418.gif){: .pokemon-sprite-img }](../pokemon/buizel.md)
-
-	***
-
-	**#418 [Buizel](../pokemon/buizel.md)**
-
--	[![Floatzel](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/419.gif){: .pokemon-sprite-img }](../pokemon/floatzel.md)
-
-	***
-
-	**#419 [Floatzel](../pokemon/floatzel.md)**
-
 </div>
 
 ### :material-eye-off: Hidden Ability
 
 <div class="grid cards" markdown>
-
--	[![Goldeen](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/118.gif){: .pokemon-sprite-img }](../pokemon/goldeen.md)
-
-	***
-
-	**#118 [Goldeen](../pokemon/goldeen.md)**
-
--	[![Seaking](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/119.gif){: .pokemon-sprite-img }](../pokemon/seaking.md)
-
-	***
-
-	**#119 [Seaking](../pokemon/seaking.md)**
 
 -	[![Mantine](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/226.gif){: .pokemon-sprite-img }](../pokemon/mantine.md)
 

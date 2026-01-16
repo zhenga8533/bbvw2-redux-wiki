@@ -28,5 +28,23 @@
 
 	**#312 [Minun](../pokemon/minun.md)**
 
+-	[![Klink](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/599.gif){: .pokemon-sprite-img }](../pokemon/klink.md)
+
+	***
+
+	**#599 [Klink](../pokemon/klink.md)**
+
+-	[![Klang](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/600.gif){: .pokemon-sprite-img }](../pokemon/klang.md)
+
+	***
+
+	**#600 [Klang](../pokemon/klang.md)**
+
+-	[![Klinklang](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/601.gif){: .pokemon-sprite-img }](../pokemon/klinklang.md)
+
+	***
+
+	**#601 [Klinklang](../pokemon/klinklang.md)**
+
 </div>
 

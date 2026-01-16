@@ -15,15 +15,11 @@
 
 ??? note "Staraptor ROM Changes"
 
-	**Abilities Changes:**
-
-	- `intimidate / reckless` → `reckless / intimidate / reckless`
-
 	**Level-up Moves Changes:**
 
 	- `15 moves` → `24 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `24 moves` → `25 moves (added: hurricane)`
 
@@ -36,7 +32,6 @@
 
 	---
 
-	- [Reckless](../../pokedex/abilities/reckless.md)
 	- [Intimidate](../../pokedex/abilities/intimidate.md)
 	- [Reckless](../../pokedex/abilities/reckless.md) :material-eye-off:
 

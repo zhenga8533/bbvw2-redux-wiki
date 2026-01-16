@@ -22,10 +22,6 @@
 
 	- `karrablast > escavalier: use-item (metal-coat)` → `karrablast > escavalier: level-up`
 
-	**Abilities Changes:**
-
-	- `swarm / shed-skin / no-guard` → `swarm / no-guard / shed-skin`
-
 	**Level-up Moves Changes:**
 
 	- `15 moves` → `19 moves`
@@ -40,8 +36,8 @@
 	---
 
 	- [Swarm](../../pokedex/abilities/swarm.md)
-	- [No Guard](../../pokedex/abilities/no-guard.md)
-	- [Shed Skin](../../pokedex/abilities/shed-skin.md) :material-eye-off:
+	- [Shed Skin](../../pokedex/abilities/shed-skin.md)
+	- [No Guard](../../pokedex/abilities/no-guard.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

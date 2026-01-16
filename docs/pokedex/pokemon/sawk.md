@@ -16,10 +16,6 @@
 
 ??? note "Sawk ROM Changes"
 
-	**Abilities Changes:**
-
-	- `sturdy / inner-focus / mold-breaker` → `sturdy / mold-breaker / mold-breaker`
-
 	**Level-up Moves Changes:**
 
 	- `15 moves` → `22 moves`
@@ -34,7 +30,7 @@
 	---
 
 	- [Sturdy](../../pokedex/abilities/sturdy.md)
-	- [Mold Breaker](../../pokedex/abilities/mold-breaker.md)
+	- [Inner Focus](../../pokedex/abilities/inner-focus.md)
 	- [Mold Breaker](../../pokedex/abilities/mold-breaker.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**

@@ -16,15 +16,11 @@
 
 ??? note "Oshawott ROM Changes"
 
-	**Abilities Changes:**
-
-	- `torrent / shell-armor` → `shell-armor / torrent / shell-armor`
-
 	**Level-up Moves Changes:**
 
 	- `15 moves` → `19 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `31 moves` → `32 moves (added: wave-crash)`
 
@@ -37,7 +33,6 @@
 
 	---
 
-	- [Shell Armor](../../pokedex/abilities/shell-armor.md)
 	- [Torrent](../../pokedex/abilities/torrent.md)
 	- [Shell Armor](../../pokedex/abilities/shell-armor.md) :material-eye-off:
 

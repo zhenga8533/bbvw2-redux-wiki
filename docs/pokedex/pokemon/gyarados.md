@@ -15,15 +15,11 @@
 
 ??? note "Gyarados ROM Changes"
 
-	**Abilities Changes:**
-
-	- `intimidate / moxie` → `intimidate / moxie / moxie`
-
 	**Level-up Moves Changes:**
 
 	- `11 moves` → `21 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `39 moves` → `42 moves (added: wave-crash, hurricane, work-up)`
 
@@ -37,7 +33,6 @@
 	---
 
 	- [Intimidate](../../pokedex/abilities/intimidate.md)
-	- [Moxie](../../pokedex/abilities/moxie.md)
 	- [Moxie](../../pokedex/abilities/moxie.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**

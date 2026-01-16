@@ -15,19 +15,11 @@
 
 ??? note "Goldeen ROM Changes"
 
-	**Base Stats Changes:**
-
-	- `45 HP / 67 Atk / 60 Def / 35 SAtk / 50 SDef / 63 Spd` → `45 HP / 77 Atk / 60 Def / 25 SAtk / 50 SDef / 73 Spd`
-
-	**Abilities Changes:**
-
-	- `swift-swim / water-veil / lightning-rod` → `lightning-rod / swift-swim / water-veil`
-
 	**Level-up Moves Changes:**
 
 	- `14 moves` → `23 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `21 moves` → `22 moves (added: wave-crash)`
 
@@ -40,9 +32,9 @@
 
 	---
 
-	- [Lightning Rod](../../pokedex/abilities/lightning-rod.md)
 	- [Swift Swim](../../pokedex/abilities/swift-swim.md)
-	- [Water Veil](../../pokedex/abilities/water-veil.md) :material-eye-off:
+	- [Water Veil](../../pokedex/abilities/water-veil.md)
+	- [Lightning Rod](../../pokedex/abilities/lightning-rod.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 
@@ -124,12 +116,12 @@
 | Stat | Base | Min | Max | Distribution |
 |------|-----:|----:|----:|:-------------|
 | **HP** | **45** | 200 | 294 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 17.647058823529413%;"></div></div> |
-| **Attack** | **77** | 143 | 278 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 30.19607843137255%;"></div></div> |
+| **Attack** | **67** | 125 | 256 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 26.27450980392157%;"></div></div> |
 | **Defense** | **60** | 112 | 240 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 23.52941176470588%;"></div></div> |
-| **Sp. Atk** | **25** | 49 | 163 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 9.803921568627452%;"></div></div> |
+| **Sp. Atk** | **35** | 67 | 185 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 13.725490196078432%;"></div></div> |
 | **Sp. Def** | **50** | 94 | 218 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 19.607843137254903%;"></div></div> |
-| **Speed** | **73** | 135 | 269 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 28.627450980392155%;"></div></div> |
-| **Base Stat Total** | **330** | | | |
+| **Speed** | **63** | 117 | 247 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 24.705882352941178%;"></div></div> |
+| **Base Stat Total** | **320** | | | |
 
 > **Min/Max Stats:** Calculated at Level 100.
 >

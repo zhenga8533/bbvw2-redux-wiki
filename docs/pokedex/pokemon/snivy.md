@@ -16,10 +16,6 @@
 
 ??? note "Snivy ROM Changes"
 
-	**Abilities Changes:**
-
-	- `overgrow / contrary` → `contrary / overgrow / contrary`
-
 	**Level-up Moves Changes:**
 
 	- `15 moves` → `18 moves`
@@ -33,7 +29,6 @@
 
 	---
 
-	- [Contrary](../../pokedex/abilities/contrary.md)
 	- [Overgrow](../../pokedex/abilities/overgrow.md)
 	- [Contrary](../../pokedex/abilities/contrary.md) :material-eye-off:
 

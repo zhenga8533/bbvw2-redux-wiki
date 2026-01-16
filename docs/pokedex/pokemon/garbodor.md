@@ -16,14 +16,6 @@
 
 ??? note "Garbodor ROM Changes"
 
-	**Base Stats Changes:**
-
-	- `80 HP / 95 Atk / 82 Def / 60 SAtk / 82 SDef / 75 Spd` → `100 HP / 95 Atk / 82 Def / 60 SAtk / 82 SDef / 75 Spd`
-
-	**Abilities Changes:**
-
-	- `stench / weak-armor / aftermath` → `aftermath / stench / sticky-hold`
-
 	**Level-up Moves Changes:**
 
 	- `18 moves` → `25 moves`
@@ -37,9 +29,9 @@
 
 	---
 
-	- [Aftermath](../../pokedex/abilities/aftermath.md)
 	- [Stench](../../pokedex/abilities/stench.md)
-	- [Sticky Hold](../../pokedex/abilities/sticky-hold.md) :material-eye-off:
+	- [Weak Armor](../../pokedex/abilities/weak-armor.md)
+	- [Aftermath](../../pokedex/abilities/aftermath.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 
@@ -126,13 +118,13 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Stat | Base | Min | Max | Distribution |
 |------|-----:|----:|----:|:-------------|
-| **HP** | **100** | 310 | 404 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 39.21568627450981%;"></div></div> |
+| **HP** | **80** | 270 | 364 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 31.372549019607842%;"></div></div> |
 | **Attack** | **95** | 175 | 317 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 37.254901960784316%;"></div></div> |
 | **Defense** | **82** | 152 | 289 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 32.15686274509804%;"></div></div> |
 | **Sp. Atk** | **60** | 112 | 240 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 23.52941176470588%;"></div></div> |
 | **Sp. Def** | **82** | 152 | 289 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 32.15686274509804%;"></div></div> |
 | **Speed** | **75** | 139 | 273 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 29.411764705882355%;"></div></div> |
-| **Base Stat Total** | **494** | | | |
+| **Base Stat Total** | **474** | | | |
 
 > **Min/Max Stats:** Calculated at Level 100.
 >

@@ -15,13 +15,9 @@
 
 ??? note "Torterra ROM Changes"
 
-	**Base Stats Changes:**
+	**Ability Changes:**
 
-	- `95 HP / 109 Atk / 105 Def / 75 SAtk / 85 SDef / 56 Spd` → `105 HP / 109 Atk / 110 Def / 65 SAtk / 85 SDef / 61 Spd`
-
-	**Abilities Changes:**
-
-	- `overgrow / shell-armor` → `rock-head / overgrow / shell-armor`
+	- `(none)` → `rock-head`
 
 	**Level-up Moves Changes:**
 
@@ -36,9 +32,9 @@
 
 	---
 
-	- [Rock Head](../../pokedex/abilities/rock-head.md)
 	- [Overgrow](../../pokedex/abilities/overgrow.md)
 	- [Shell Armor](../../pokedex/abilities/shell-armor.md) :material-eye-off:
+	- [Rock Head](../../pokedex/abilities/rock-head.md)
 
 - **:material-ruler: Physical Attributes**
 
@@ -129,13 +125,13 @@
 
 | Stat | Base | Min | Max | Distribution |
 |------|-----:|----:|----:|:-------------|
-| **HP** | **105** | 320 | 414 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 41.17647058823529%;"></div></div> |
+| **HP** | **95** | 300 | 394 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 37.254901960784316%;"></div></div> |
 | **Attack** | **109** | 200 | 348 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 42.745098039215684%;"></div></div> |
-| **Defense** | **110** | 202 | 350 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 43.13725490196079%;"></div></div> |
-| **Sp. Atk** | **65** | 121 | 251 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 25.49019607843137%;"></div></div> |
+| **Defense** | **105** | 193 | 339 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 41.17647058823529%;"></div></div> |
+| **Sp. Atk** | **75** | 139 | 273 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 29.411764705882355%;"></div></div> |
 | **Sp. Def** | **85** | 157 | 295 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 33.33333333333333%;"></div></div> |
-| **Speed** | **61** | 114 | 243 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 23.92156862745098%;"></div></div> |
-| **Base Stat Total** | **535** | | | |
+| **Speed** | **56** | 105 | 232 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 21.96078431372549%;"></div></div> |
+| **Base Stat Total** | **525** | | | |
 
 > **Min/Max Stats:** Calculated at Level 100.
 >

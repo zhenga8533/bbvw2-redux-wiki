@@ -19,14 +19,6 @@
 
 	- `glameow > purugly: level-up (level 38)` → `glameow > purugly: level-up (level 26)`
 
-	**Base Stats Changes:**
-
-	- `71 HP / 82 Atk / 64 Def / 64 SAtk / 59 SDef / 112 Spd` → `90 HP / 95 Atk / 70 Def / 65 SAtk / 60 SDef / 115 Spd`
-
-	**Abilities Changes:**
-
-	- `thick-fat / own-tempo / defiant` → `thick-fat / defiant / defiant`
-
 	**Level-up Moves Changes:**
 
 	- `16 moves` → `25 moves`
@@ -41,7 +33,7 @@
 	---
 
 	- [Thick Fat](../../pokedex/abilities/thick-fat.md)
-	- [Defiant](../../pokedex/abilities/defiant.md)
+	- [Own Tempo](../../pokedex/abilities/own-tempo.md)
 	- [Defiant](../../pokedex/abilities/defiant.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
@@ -127,13 +119,13 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Stat | Base | Min | Max | Distribution |
 |------|-----:|----:|----:|:-------------|
-| **HP** | **90** | 290 | 384 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 35.294117647058826%;"></div></div> |
-| **Attack** | **95** | 175 | 317 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 37.254901960784316%;"></div></div> |
-| **Defense** | **70** | 130 | 262 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 27.450980392156865%;"></div></div> |
-| **Sp. Atk** | **65** | 121 | 251 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 25.49019607843137%;"></div></div> |
-| **Sp. Def** | **60** | 112 | 240 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 23.52941176470588%;"></div></div> |
-| **Speed** | **115** | 211 | 361 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 45.09803921568628%;"></div></div> |
-| **Base Stat Total** | **495** | | | |
+| **HP** | **71** | 252 | 346 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 27.84313725490196%;"></div></div> |
+| **Attack** | **82** | 152 | 289 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 32.15686274509804%;"></div></div> |
+| **Defense** | **64** | 119 | 249 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 25.098039215686274%;"></div></div> |
+| **Sp. Atk** | **64** | 119 | 249 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 25.098039215686274%;"></div></div> |
+| **Sp. Def** | **59** | 110 | 238 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 23.137254901960784%;"></div></div> |
+| **Speed** | **112** | 206 | 355 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 43.92156862745098%;"></div></div> |
+| **Base Stat Total** | **452** | | | |
 
 > **Min/Max Stats:** Calculated at Level 100.
 >

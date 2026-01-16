@@ -34,48 +34,6 @@
 
 	**#241 [Miltank](../pokemon/miltank.md)**
 
--	[![Taillow](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/276.gif){: .pokemon-sprite-img }](../pokemon/taillow.md)
-
-	***
-
-	**#276 [Taillow](../pokemon/taillow.md)**
-
--	[![Swellow](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/277.gif){: .pokemon-sprite-img }](../pokemon/swellow.md)
-
-	***
-
-	**#277 [Swellow](../pokemon/swellow.md)**
-
--	[![Whismur](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/293.gif){: .pokemon-sprite-img }](../pokemon/whismur.md)
-
-	***
-
-	**#293 [Whismur](../pokemon/whismur.md)**
-
--	[![Loudred](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/294.gif){: .pokemon-sprite-img }](../pokemon/loudred.md)
-
-	***
-
-	**#294 [Loudred](../pokemon/loudred.md)**
-
--	[![Exploud](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/295.gif){: .pokemon-sprite-img }](../pokemon/exploud.md)
-
-	***
-
-	**#295 [Exploud](../pokemon/exploud.md)**
-
--	[![Lopunny](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/428.gif){: .pokemon-sprite-img }](../pokemon/lopunny.md)
-
-	***
-
-	**#428 [Lopunny](../pokemon/lopunny.md)**
-
--	[![Lopunny](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/428.gif){: .pokemon-sprite-img }](../pokemon/lopunny.md)
-
-	***
-
-	**#428 [Lopunny](../pokemon/lopunny.md)**
-
 </div>
 
 ### :material-eye-off: Hidden Ability
@@ -93,6 +51,18 @@
 	***
 
 	**#277 [Swellow](../pokemon/swellow.md)**
+
+-	[![Loudred](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/294.gif){: .pokemon-sprite-img }](../pokemon/loudred.md)
+
+	***
+
+	**#294 [Loudred](../pokemon/loudred.md)**
+
+-	[![Exploud](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/295.gif){: .pokemon-sprite-img }](../pokemon/exploud.md)
+
+	***
+
+	**#295 [Exploud](../pokemon/exploud.md)**
 
 -	[![Herdier](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/507.gif){: .pokemon-sprite-img }](../pokemon/herdier.md)
 

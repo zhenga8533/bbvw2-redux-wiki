@@ -15,10 +15,6 @@
 
 ??? note "Tentacool ROM Changes"
 
-	**Abilities Changes:**
-
-	- `clear-body / liquid-ooze / rain-dish` → `clear-body / rain-dish / liquid-ooze`
-
 	**Level-up Moves Changes:**
 
 	- `16 moves` → `20 moves`
@@ -33,8 +29,8 @@
 	---
 
 	- [Clear Body](../../pokedex/abilities/clear-body.md)
-	- [Rain Dish](../../pokedex/abilities/rain-dish.md)
-	- [Liquid Ooze](../../pokedex/abilities/liquid-ooze.md) :material-eye-off:
+	- [Liquid Ooze](../../pokedex/abilities/liquid-ooze.md)
+	- [Rain Dish](../../pokedex/abilities/rain-dish.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

@@ -15,19 +15,11 @@
 
 ??? note "Ledyba ROM Changes"
 
-	**Base Stats Changes:**
-
-	- `40 HP / 20 Atk / 30 Def / 40 SAtk / 80 SDef / 55 Spd` → `40 HP / 60 Atk / 30 Def / 45 SAtk / 80 SDef / 55 Spd`
-
-	**Abilities Changes:**
-
-	- `swarm / early-bird / rattled` → `rattled / iron-fist / swarm`
-
 	**Level-up Moves Changes:**
 
 	- `13 moves` → `24 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `27 moves` → `28 moves (added: bug-buzz)`
 
@@ -40,9 +32,9 @@
 
 	---
 
-	- [Rattled](../../pokedex/abilities/rattled.md)
-	- [Iron Fist](../../pokedex/abilities/iron-fist.md)
-	- [Swarm](../../pokedex/abilities/swarm.md) :material-eye-off:
+	- [Swarm](../../pokedex/abilities/swarm.md)
+	- [Early Bird](../../pokedex/abilities/early-bird.md)
+	- [Rattled](../../pokedex/abilities/rattled.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 
@@ -143,12 +135,12 @@
 | Stat | Base | Min | Max | Distribution |
 |------|-----:|----:|----:|:-------------|
 | **HP** | **40** | 190 | 284 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 15.686274509803921%;"></div></div> |
-| **Attack** | **60** | 112 | 240 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 23.52941176470588%;"></div></div> |
+| **Attack** | **20** | 40 | 152 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 7.8431372549019605%;"></div></div> |
 | **Defense** | **30** | 58 | 174 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 11.76470588235294%;"></div></div> |
-| **Sp. Atk** | **45** | 85 | 207 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 17.647058823529413%;"></div></div> |
+| **Sp. Atk** | **40** | 76 | 196 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 15.686274509803921%;"></div></div> |
 | **Sp. Def** | **80** | 148 | 284 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 31.372549019607842%;"></div></div> |
 | **Speed** | **55** | 103 | 229 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 21.568627450980394%;"></div></div> |
-| **Base Stat Total** | **310** | | | |
+| **Base Stat Total** | **265** | | | |
 
 > **Min/Max Stats:** Calculated at Level 100.
 >

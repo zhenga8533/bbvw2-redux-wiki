@@ -15,15 +15,11 @@
 
 ??? note "Abomasnow ROM Changes"
 
-	**Abilities Changes:**
-
-	- `snow-warning / soundproof` → `snow-warning / soundproof / soundproof`
-
 	**Level-up Moves Changes:**
 
 	- `15 moves` → `25 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `36 moves` → `38 moves (added: power-up-punch, work-up)`
 
@@ -37,7 +33,6 @@
 	---
 
 	- [Snow Warning](../../pokedex/abilities/snow-warning.md)
-	- [Soundproof](../../pokedex/abilities/soundproof.md)
 	- [Soundproof](../../pokedex/abilities/soundproof.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**

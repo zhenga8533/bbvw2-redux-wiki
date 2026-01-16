@@ -16,15 +16,11 @@
 
 ??? note "Mienfoo ROM Changes"
 
-	**Abilities Changes:**
-
-	- `inner-focus / regenerator / reckless` → `reckless / regenerator / reckless`
-
 	**Level-up Moves Changes:**
 
 	- `16 moves` → `20 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `38 moves` → `39 moves (added: rock-climb)`
 
@@ -37,7 +33,7 @@
 
 	---
 
-	- [Reckless](../../pokedex/abilities/reckless.md)
+	- [Inner Focus](../../pokedex/abilities/inner-focus.md)
 	- [Regenerator](../../pokedex/abilities/regenerator.md)
 	- [Reckless](../../pokedex/abilities/reckless.md) :material-eye-off:
 

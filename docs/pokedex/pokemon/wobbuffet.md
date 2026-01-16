@@ -15,10 +15,6 @@
 
 ??? note "Wobbuffet ROM Changes"
 
-	**Abilities Changes:**
-
-	- `shadow-tag / telepathy` → `shadow-tag / telepathy / telepathy`
-
 	**Level-up Moves Changes:**
 
 	- `4 moves` → `7 moves`
@@ -33,7 +29,6 @@
 	---
 
 	- [Shadow Tag](../../pokedex/abilities/shadow-tag.md)
-	- [Telepathy](../../pokedex/abilities/telepathy.md)
 	- [Telepathy](../../pokedex/abilities/telepathy.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**

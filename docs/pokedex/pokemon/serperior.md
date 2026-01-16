@@ -16,14 +16,6 @@
 
 ??? note "Serperior ROM Changes"
 
-	**Base Stats Changes:**
-
-	- `75 HP / 75 Atk / 95 Def / 75 SAtk / 95 SDef / 113 Spd` → `80 HP / 75 Atk / 95 Def / 77 SAtk / 95 SDef / 113 Spd`
-
-	**Abilities Changes:**
-
-	- `overgrow / contrary` → `contrary / overgrow / contrary`
-
 	**Type Changes:**
 
 	- `grass` → `grass / dragon`
@@ -32,7 +24,7 @@
 
 	- `18 moves` → `25 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `31 moves` → `32 moves (added: quash)`
 
@@ -45,7 +37,6 @@
 
 	---
 
-	- [Contrary](../../pokedex/abilities/contrary.md)
 	- [Overgrow](../../pokedex/abilities/overgrow.md)
 	- [Contrary](../../pokedex/abilities/contrary.md) :material-eye-off:
 
@@ -134,13 +125,13 @@
 
 | Stat | Base | Min | Max | Distribution |
 |------|-----:|----:|----:|:-------------|
-| **HP** | **80** | 270 | 364 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 31.372549019607842%;"></div></div> |
+| **HP** | **75** | 260 | 354 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 29.411764705882355%;"></div></div> |
 | **Attack** | **75** | 139 | 273 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 29.411764705882355%;"></div></div> |
 | **Defense** | **95** | 175 | 317 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 37.254901960784316%;"></div></div> |
-| **Sp. Atk** | **77** | 143 | 278 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 30.19607843137255%;"></div></div> |
+| **Sp. Atk** | **75** | 139 | 273 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 29.411764705882355%;"></div></div> |
 | **Sp. Def** | **95** | 175 | 317 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 37.254901960784316%;"></div></div> |
 | **Speed** | **113** | 207 | 357 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 44.31372549019608%;"></div></div> |
-| **Base Stat Total** | **535** | | | |
+| **Base Stat Total** | **528** | | | |
 
 > **Min/Max Stats:** Calculated at Level 100.
 >

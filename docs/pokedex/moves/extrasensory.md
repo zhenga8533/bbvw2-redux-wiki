@@ -3,7 +3,7 @@
 
 ??? note "Extrasensory ROM Changes"
 
-	**Pp Changes:**
+	**PP Changes:**
 
 	- `20` → `15`
 

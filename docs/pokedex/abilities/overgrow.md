@@ -112,18 +112,6 @@
 
 	**#497 [Serperior](../pokemon/serperior.md)**
 
--	[![Pansage](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/511.gif){: .pokemon-sprite-img }](../pokemon/pansage.md)
-
-	***
-
-	**#511 [Pansage](../pokemon/pansage.md)**
-
--	[![Simisage](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/512.gif){: .pokemon-sprite-img }](../pokemon/simisage.md)
-
-	***
-
-	**#512 [Simisage](../pokemon/simisage.md)**
-
 </div>
 
 ### :material-eye-off: Hidden Ability

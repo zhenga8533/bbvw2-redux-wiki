@@ -15,19 +15,15 @@
 
 ??? note "Chatot ROM Changes"
 
-	**Base Stats Changes:**
+	**Ability Changes:**
 
-	- `76 HP / 65 Atk / 45 Def / 92 SAtk / 42 SDef / 91 Spd` → `75 HP / 65 Atk / 50 Def / 105 SAtk / 50 SDef / 96 Spd`
-
-	**Abilities Changes:**
-
-	- `keen-eye / tangled-feet / big-pecks` → `soundproof / tangled-feet / big-pecks`
+	- `big-pecks` → `soundproof`
 
 	**Level-up Moves Changes:**
 
 	- `15 moves` → `23 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `23 moves` → `25 moves (added: hurricane, bug-buzz)`
 
@@ -40,9 +36,9 @@
 
 	---
 
-	- [Soundproof](../../pokedex/abilities/soundproof.md)
+	- [Keen Eye](../../pokedex/abilities/keen-eye.md)
 	- [Tangled Feet](../../pokedex/abilities/tangled-feet.md)
-	- [Big Pecks](../../pokedex/abilities/big-pecks.md) :material-eye-off:
+	- [Soundproof](../../pokedex/abilities/soundproof.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 
@@ -136,13 +132,13 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Stat | Base | Min | Max | Distribution |
 |------|-----:|----:|----:|:-------------|
-| **HP** | **75** | 260 | 354 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 29.411764705882355%;"></div></div> |
+| **HP** | **76** | 262 | 356 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 29.80392156862745%;"></div></div> |
 | **Attack** | **65** | 121 | 251 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 25.49019607843137%;"></div></div> |
-| **Defense** | **50** | 94 | 218 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 19.607843137254903%;"></div></div> |
-| **Sp. Atk** | **105** | 193 | 339 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 41.17647058823529%;"></div></div> |
-| **Sp. Def** | **50** | 94 | 218 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 19.607843137254903%;"></div></div> |
-| **Speed** | **96** | 177 | 320 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 37.64705882352941%;"></div></div> |
-| **Base Stat Total** | **441** | | | |
+| **Defense** | **45** | 85 | 207 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 17.647058823529413%;"></div></div> |
+| **Sp. Atk** | **92** | 170 | 311 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 36.07843137254902%;"></div></div> |
+| **Sp. Def** | **42** | 80 | 201 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 16.470588235294116%;"></div></div> |
+| **Speed** | **91** | 168 | 309 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 35.68627450980392%;"></div></div> |
+| **Base Stat Total** | **411** | | | |
 
 > **Min/Max Stats:** Calculated at Level 100.
 >

@@ -15,15 +15,15 @@
 
 ??? note "Taillow ROM Changes"
 
-	**Abilities Changes:**
+	**Ability Changes:**
 
-	- `guts / scrappy` → `early-bird / scrappy / scrappy`
+	- `(none)` → `early-bird`
 
 	**Level-up Moves Changes:**
 
 	- `10 moves` → `21 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `21 moves` → `22 moves (added: hurricane)`
 
@@ -36,9 +36,9 @@
 
 	---
 
-	- [Early Bird](../../pokedex/abilities/early-bird.md)
-	- [Scrappy](../../pokedex/abilities/scrappy.md)
+	- [Guts](../../pokedex/abilities/guts.md)
 	- [Scrappy](../../pokedex/abilities/scrappy.md) :material-eye-off:
+	- [Early Bird](../../pokedex/abilities/early-bird.md)
 
 - **:material-ruler: Physical Attributes**
 

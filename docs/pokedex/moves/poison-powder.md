@@ -3,7 +3,7 @@
 
 ??? note "Poison Powder ROM Changes"
 
-	**Pp Changes:**
+	**PP Changes:**
 
 	- `35` → `20`
 

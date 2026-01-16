@@ -20,15 +20,15 @@
 
 	- `litwick > lampent: level-up (level 41)` → `litwick > lampent: level-up (level 27)`
 
-	**Abilities Changes:**
+	**Ability Changes:**
 
-	- `shadow tag / flame-body / infiltrator` → `flash-fire / flame-body / infiltrator`
+	- `infiltrator` → `flash-fire`
 
 	**Level-up Moves Changes:**
 
 	- `17 moves` → `22 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `34 moves` → `35 moves (added: mystical-fire)`
 
@@ -41,9 +41,9 @@
 
 	---
 
-	- [Flash Fire](../../pokedex/abilities/flash-fire.md)
+	- [Shadow Tag](../../pokedex/abilities/shadow-tag.md)
 	- [Flame Body](../../pokedex/abilities/flame-body.md)
-	- [Infiltrator](../../pokedex/abilities/infiltrator.md) :material-eye-off:
+	- [Flash Fire](../../pokedex/abilities/flash-fire.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

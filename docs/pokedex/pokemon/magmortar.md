@@ -19,19 +19,11 @@
 
 	- `magmar > magmortar: trade (held: magmarizer)` → `magmar > magmortar: use-item (magmarizer)`
 
-	**Base Stats Changes:**
-
-	- `75 HP / 95 Atk / 67 Def / 125 SAtk / 95 SDef / 83 Spd` → `75 HP / 95 Atk / 62 Def / 130 SAtk / 85 SDef / 93 Spd`
-
-	**Abilities Changes:**
-
-	- `flame-body / vital-spirit` → `flame-body / vital-spirit / vital-spirit`
-
 	**Level-up Moves Changes:**
 
 	- `29 moves` → `25 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `37 moves` → `40 moves (added: tri-attack, sludge-bomb, aura-sphere)`
 
@@ -47,7 +39,6 @@
 	---
 
 	- [Flame Body](../../pokedex/abilities/flame-body.md)
-	- [Vital Spirit](../../pokedex/abilities/vital-spirit.md)
 	- [Vital Spirit](../../pokedex/abilities/vital-spirit.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
@@ -135,10 +126,10 @@ These items can be found when catching or defeating this Pokémon in the wild:
 |------|-----:|----:|----:|:-------------|
 | **HP** | **75** | 260 | 354 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 29.411764705882355%;"></div></div> |
 | **Attack** | **95** | 175 | 317 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 37.254901960784316%;"></div></div> |
-| **Defense** | **62** | 116 | 245 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 24.313725490196077%;"></div></div> |
-| **Sp. Atk** | **130** | 238 | 394 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 50.98039215686274%;"></div></div> |
-| **Sp. Def** | **85** | 157 | 295 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 33.33333333333333%;"></div></div> |
-| **Speed** | **93** | 171 | 313 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 36.470588235294116%;"></div></div> |
+| **Defense** | **67** | 125 | 256 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 26.27450980392157%;"></div></div> |
+| **Sp. Atk** | **125** | 229 | 383 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 49.01960784313725%;"></div></div> |
+| **Sp. Def** | **95** | 175 | 317 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 37.254901960784316%;"></div></div> |
+| **Speed** | **83** | 153 | 291 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 32.549019607843135%;"></div></div> |
 | **Base Stat Total** | **540** | | | |
 
 > **Min/Max Stats:** Calculated at Level 100.

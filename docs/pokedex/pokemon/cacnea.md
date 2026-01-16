@@ -15,9 +15,9 @@
 
 ??? note "Cacnea ROM Changes"
 
-	**Abilities Changes:**
+	**Ability Changes:**
 
-	- `sand-veil / water-absorb` → `unnerve / water-absorb / water-absorb`
+	- `(none)` → `unnerve`
 
 	**Type Changes:**
 
@@ -27,7 +27,7 @@
 
 	- `16 moves` → `24 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `25 moves` → `26 moves (added: rock-climb)`
 
@@ -40,9 +40,9 @@
 
 	---
 
-	- [Unnerve](../../pokedex/abilities/unnerve.md)
-	- [Water Absorb](../../pokedex/abilities/water-absorb.md)
+	- [Sand Veil](../../pokedex/abilities/sand-veil.md)
 	- [Water Absorb](../../pokedex/abilities/water-absorb.md) :material-eye-off:
+	- [Unnerve](../../pokedex/abilities/unnerve.md)
 
 - **:material-ruler: Physical Attributes**
 

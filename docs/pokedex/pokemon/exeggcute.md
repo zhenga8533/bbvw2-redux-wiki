@@ -15,15 +15,11 @@
 
 ??? note "Exeggcute ROM Changes"
 
-	**Abilities Changes:**
-
-	- `chlorophyll / harvest` → `chlorophyll / harvest / harvest`
-
 	**Level-up Moves Changes:**
 
 	- `16 moves` → `25 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `29 moves` → `30 moves (added: tri-attack)`
 
@@ -37,7 +33,6 @@
 	---
 
 	- [Chlorophyll](../../pokedex/abilities/chlorophyll.md)
-	- [Harvest](../../pokedex/abilities/harvest.md)
 	- [Harvest](../../pokedex/abilities/harvest.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**

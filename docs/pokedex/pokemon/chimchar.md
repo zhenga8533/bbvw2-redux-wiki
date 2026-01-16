@@ -15,10 +15,6 @@
 
 ??? note "Chimchar ROM Changes"
 
-	**Abilities Changes:**
-
-	- `blaze / iron-fist` → `iron-fist / blaze / iron-fist`
-
 	**Level-up Moves Changes:**
 
 	- `13 moves` → `18 moves`
@@ -32,7 +28,6 @@
 
 	---
 
-	- [Iron Fist](../../pokedex/abilities/iron-fist.md)
 	- [Blaze](../../pokedex/abilities/blaze.md)
 	- [Iron Fist](../../pokedex/abilities/iron-fist.md) :material-eye-off:
 

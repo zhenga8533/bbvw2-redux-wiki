@@ -19,7 +19,7 @@
 
 	- `26 moves` → `20 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `30 moves` → `31 moves (added: sludge-wave)`
 

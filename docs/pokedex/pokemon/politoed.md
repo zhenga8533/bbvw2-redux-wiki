@@ -19,15 +19,11 @@
 
 	- `poliwhirl > politoed: trade (held: kings-rock)` → `poliwhirl > politoed: use-item (king's-rock)`
 
-	**Abilities Changes:**
-
-	- `water-absorb / damp / drizzle` → `water-absorb / drizzle / drizzle`
-
 	**Level-up Moves Changes:**
 
 	- `7 moves` → `12 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `34 moves` → `35 moves (added: wave-crash)`
 
@@ -41,7 +37,7 @@
 	---
 
 	- [Water Absorb](../../pokedex/abilities/water-absorb.md)
-	- [Drizzle](../../pokedex/abilities/drizzle.md)
+	- [Damp](../../pokedex/abilities/damp.md)
 	- [Drizzle](../../pokedex/abilities/drizzle.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**

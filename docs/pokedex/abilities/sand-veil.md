@@ -22,6 +22,48 @@
 
 <div class="grid cards" markdown>
 
+-	[![Sandshrew](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/27.gif){: .pokemon-sprite-img }](../pokemon/sandshrew.md)
+
+	***
+
+	**#027 [Sandshrew](../pokemon/sandshrew.md)**
+
+-	[![Sandslash](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/28.gif){: .pokemon-sprite-img }](../pokemon/sandslash.md)
+
+	***
+
+	**#028 [Sandslash](../pokemon/sandslash.md)**
+
+-	[![Diglett](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/50.gif){: .pokemon-sprite-img }](../pokemon/diglett.md)
+
+	***
+
+	**#050 [Diglett](../pokemon/diglett.md)**
+
+-	[![Dugtrio](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/51.gif){: .pokemon-sprite-img }](../pokemon/dugtrio.md)
+
+	***
+
+	**#051 [Dugtrio](../pokemon/dugtrio.md)**
+
+-	[![Gligar](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/207.gif){: .pokemon-sprite-img }](../pokemon/gligar.md)
+
+	***
+
+	**#207 [Gligar](../pokemon/gligar.md)**
+
+-	[![Cacnea](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/331.gif){: .pokemon-sprite-img }](../pokemon/cacnea.md)
+
+	***
+
+	**#331 [Cacnea](../pokemon/cacnea.md)**
+
+-	[![Cacturne](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/332.gif){: .pokemon-sprite-img }](../pokemon/cacturne.md)
+
+	***
+
+	**#332 [Cacturne](../pokemon/cacturne.md)**
+
 -	[![Gible](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/443.gif){: .pokemon-sprite-img }](../pokemon/gible.md)
 
 	***
@@ -39,6 +81,12 @@
 	***
 
 	**#445 [Garchomp](../pokemon/garchomp.md)**
+
+-	[![Gliscor](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/472.gif){: .pokemon-sprite-img }](../pokemon/gliscor.md)
+
+	***
+
+	**#472 [Gliscor](../pokemon/gliscor.md)**
 
 </div>
 

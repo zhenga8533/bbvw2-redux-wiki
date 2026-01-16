@@ -16,9 +16,9 @@
 
 ??? note "Registeel ROM Changes"
 
-	**Abilities Changes:**
+	**Ability Changes:**
 
-	- `clear-body / light-metal` → `heatproof / clear-body / light-metal`
+	- `(none)` → `heatproof`
 
 	**Level-up Moves Changes:**
 
@@ -33,9 +33,9 @@
 
 	---
 
-	- [Heatproof](../../pokedex/abilities/heatproof.md)
 	- [Clear Body](../../pokedex/abilities/clear-body.md)
 	- [Light Metal](../../pokedex/abilities/light-metal.md) :material-eye-off:
+	- [Heatproof](../../pokedex/abilities/heatproof.md)
 
 - **:material-ruler: Physical Attributes**
 

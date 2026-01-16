@@ -15,19 +15,11 @@
 
 ??? note "Exploud ROM Changes"
 
-	**Base Stats Changes:**
-
-	- `104 HP / 91 Atk / 63 Def / 91 SAtk / 63 SDef / 68 Spd` → `104 HP / 101 Atk / 63 Def / 101 SAtk / 73 SDef / 78 Spd`
-
-	**Abilities Changes:**
-
-	- `soundproof / scrappy` → `soundproof / scrappy / rattled`
-
 	**Level-up Moves Changes:**
 
 	- `21 moves` → `24 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `41 moves` → `42 moves (added: bug-buzz)`
 
@@ -41,8 +33,7 @@
 	---
 
 	- [Soundproof](../../pokedex/abilities/soundproof.md)
-	- [Scrappy](../../pokedex/abilities/scrappy.md)
-	- [Rattled](../../pokedex/abilities/rattled.md) :material-eye-off:
+	- [Scrappy](../../pokedex/abilities/scrappy.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 
@@ -130,12 +121,12 @@ These items can be found when catching or defeating this Pokémon in the wild:
 | Stat | Base | Min | Max | Distribution |
 |------|-----:|----:|----:|:-------------|
 | **HP** | **104** | 318 | 412 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 40.78431372549019%;"></div></div> |
-| **Attack** | **101** | 186 | 331 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 39.6078431372549%;"></div></div> |
+| **Attack** | **91** | 168 | 309 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 35.68627450980392%;"></div></div> |
 | **Defense** | **63** | 117 | 247 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 24.705882352941178%;"></div></div> |
-| **Sp. Atk** | **101** | 186 | 331 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 39.6078431372549%;"></div></div> |
-| **Sp. Def** | **73** | 135 | 269 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 28.627450980392155%;"></div></div> |
-| **Speed** | **78** | 144 | 280 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 30.58823529411765%;"></div></div> |
-| **Base Stat Total** | **520** | | | |
+| **Sp. Atk** | **91** | 168 | 309 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 35.68627450980392%;"></div></div> |
+| **Sp. Def** | **63** | 117 | 247 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 24.705882352941178%;"></div></div> |
+| **Speed** | **68** | 126 | 258 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 26.666666666666668%;"></div></div> |
+| **Base Stat Total** | **480** | | | |
 
 > **Min/Max Stats:** Calculated at Level 100.
 >

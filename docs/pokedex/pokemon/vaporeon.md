@@ -25,11 +25,7 @@
 
 	- `eevee > glaceon: level-up (at sinnoh-route-217)` → `eevee > glaceon: use-item (ice-stone)`
 
-	**Abilities Changes:**
-
-	- `water-absorb / hydration` → `water-absorb / hydration / hydration`
-
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `31 moves` → `33 moves (added: tri-attack, grass-knot)`
 
@@ -43,7 +39,6 @@
 	---
 
 	- [Water Absorb](../../pokedex/abilities/water-absorb.md)
-	- [Hydration](../../pokedex/abilities/hydration.md)
 	- [Hydration](../../pokedex/abilities/hydration.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**

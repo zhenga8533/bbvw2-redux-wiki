@@ -16,10 +16,6 @@
 
 ??? note "Togepi ROM Changes"
 
-	**Abilities Changes:**
-
-	- `hustle / serene-grace / super-luck` → `super-luck / serene-grace / super-luck`
-
 	**Base Happiness Changes:**
 
 	- `70` → `180`
@@ -37,7 +33,7 @@
 
 	---
 
-	- [Super Luck](../../pokedex/abilities/super-luck.md)
+	- [Hustle](../../pokedex/abilities/hustle.md)
 	- [Serene Grace](../../pokedex/abilities/serene-grace.md)
 	- [Super Luck](../../pokedex/abilities/super-luck.md) :material-eye-off:
 

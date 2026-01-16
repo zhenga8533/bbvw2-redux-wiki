@@ -19,7 +19,7 @@
 
 	- `17 moves` → `22 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `39 moves` → `41 moves (added: work-up, cut)`
 

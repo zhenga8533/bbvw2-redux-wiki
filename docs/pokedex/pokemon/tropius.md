@@ -15,10 +15,6 @@
 
 ??? note "Tropius ROM Changes"
 
-	**Base Stats Changes:**
-
-	- `99 HP / 68 Atk / 83 Def / 72 SAtk / 87 SDef / 51 Spd` → `99 HP / 98 Atk / 83 Def / 82 SAtk / 87 SDef / 51 Spd`
-
 	**Base Experience Changes:**
 
 	- `161` → `219`
@@ -27,7 +23,7 @@
 
 	- `16 moves` → `22 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `29 moves` → `31 moves (added: hurricane, dragon-pulse)`
 
@@ -141,12 +137,12 @@
 | Stat | Base | Min | Max | Distribution |
 |------|-----:|----:|----:|:-------------|
 | **HP** | **99** | 308 | 402 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 38.82352941176471%;"></div></div> |
-| **Attack** | **98** | 180 | 324 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 38.43137254901961%;"></div></div> |
+| **Attack** | **68** | 126 | 258 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 26.666666666666668%;"></div></div> |
 | **Defense** | **83** | 153 | 291 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 32.549019607843135%;"></div></div> |
-| **Sp. Atk** | **82** | 152 | 289 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 32.15686274509804%;"></div></div> |
+| **Sp. Atk** | **72** | 134 | 267 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 28.235294117647058%;"></div></div> |
 | **Sp. Def** | **87** | 161 | 300 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 34.11764705882353%;"></div></div> |
 | **Speed** | **51** | 96 | 221 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 20.0%;"></div></div> |
-| **Base Stat Total** | **500** | | | |
+| **Base Stat Total** | **460** | | | |
 
 > **Min/Max Stats:** Calculated at Level 100.
 >

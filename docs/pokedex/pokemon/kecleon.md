@@ -15,19 +15,11 @@
 
 ??? note "Kecleon ROM Changes"
 
-	**Base Stats Changes:**
-
-	- `60 HP / 90 Atk / 70 Def / 60 SAtk / 120 SDef / 40 Spd` → `60 HP / 100 Atk / 70 Def / 60 SAtk / 120 SDef / 40 Spd`
-
-	**Abilities Changes:**
-
-	- `color-change` → `color-change / adaptability / adaptability`
-
 	**Level-up Moves Changes:**
 
 	- `18 moves` → `22 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `43 moves` → `44 moves (added: acrobatics)`
 
@@ -41,8 +33,6 @@
 	---
 
 	- [Color Change](../../pokedex/abilities/color-change.md)
-	- [Adaptability](../../pokedex/abilities/adaptability.md)
-	- [Adaptability](../../pokedex/abilities/adaptability.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 
@@ -130,12 +120,12 @@ These items can be found when catching or defeating this Pokémon in the wild:
 | Stat | Base | Min | Max | Distribution |
 |------|-----:|----:|----:|:-------------|
 | **HP** | **60** | 230 | 324 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 23.52941176470588%;"></div></div> |
-| **Attack** | **100** | 184 | 328 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 39.21568627450981%;"></div></div> |
+| **Attack** | **90** | 166 | 306 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 35.294117647058826%;"></div></div> |
 | **Defense** | **70** | 130 | 262 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 27.450980392156865%;"></div></div> |
 | **Sp. Atk** | **60** | 112 | 240 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 23.52941176470588%;"></div></div> |
 | **Sp. Def** | **120** | 220 | 372 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 47.05882352941176%;"></div></div> |
 | **Speed** | **40** | 76 | 196 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 15.686274509803921%;"></div></div> |
-| **Base Stat Total** | **450** | | | |
+| **Base Stat Total** | **440** | | | |
 
 > **Min/Max Stats:** Calculated at Level 100.
 >

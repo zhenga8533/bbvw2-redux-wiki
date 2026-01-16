@@ -21,10 +21,6 @@
 
 	- `elekid > electabuzz: level-up (level 30)` → `elekid > electabuzz: level-up (level 29)`
 
-	**Abilities Changes:**
-
-	- `static / vital-spirit` → `static / vital-spirit / vital-spirit`
-
 	- `electabuzz > electivire: unknown` → `electabuzz > electivire: use-item (electirizer)`
 
 
@@ -37,7 +33,6 @@
 	---
 
 	- [Static](../../pokedex/abilities/static.md)
-	- [Vital Spirit](../../pokedex/abilities/vital-spirit.md)
 	- [Vital Spirit](../../pokedex/abilities/vital-spirit.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**

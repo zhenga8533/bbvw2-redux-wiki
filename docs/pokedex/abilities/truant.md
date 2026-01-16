@@ -36,27 +36,3 @@
 
 </div>
 
-### :material-eye-off: Hidden Ability
-
-<div class="grid cards" markdown>
-
--	[![Slakoth](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/287.gif){: .pokemon-sprite-img }](../pokemon/slakoth.md)
-
-	***
-
-	**#287 [Slakoth](../pokemon/slakoth.md)**
-
--	[![Slaking](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/289.gif){: .pokemon-sprite-img }](../pokemon/slaking.md)
-
-	***
-
-	**#289 [Slaking](../pokemon/slaking.md)**
-
--	[![Durant](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/632.gif){: .pokemon-sprite-img }](../pokemon/durant.md)
-
-	***
-
-	**#632 [Durant](../pokemon/durant.md)**
-
-</div>
-

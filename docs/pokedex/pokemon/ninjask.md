@@ -15,10 +15,6 @@
 
 ??? note "Ninjask ROM Changes"
 
-	**Abilities Changes:**
-
-	- `speed-boost / infiltrator` → `speed-boost / infiltrator / infiltrator`
-
 	**Level-up Moves Changes:**
 
 	- `17 moves` → `25 moves`
@@ -33,7 +29,6 @@
 	---
 
 	- [Speed Boost](../../pokedex/abilities/speed-boost.md)
-	- [Infiltrator](../../pokedex/abilities/infiltrator.md)
 	- [Infiltrator](../../pokedex/abilities/infiltrator.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**

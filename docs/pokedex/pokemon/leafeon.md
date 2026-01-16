@@ -25,11 +25,11 @@
 
 	- `eevee > glaceon: level-up (at sinnoh-route-217)` → `eevee > glaceon: use-item (ice-stone)`
 
-	**Abilities Changes:**
+	**Ability Changes:**
 
-	- `leaf-guard / chlorophyll` → `super-luck / chlorophyll / chlorophyll`
+	- `(none)` → `super-luck`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `31 moves` → `34 moves (added: tri-attack, play-rough, cut)`
 
@@ -42,9 +42,9 @@
 
 	---
 
-	- [Super Luck](../../pokedex/abilities/super-luck.md)
-	- [Chlorophyll](../../pokedex/abilities/chlorophyll.md)
+	- [Leaf Guard](../../pokedex/abilities/leaf-guard.md)
 	- [Chlorophyll](../../pokedex/abilities/chlorophyll.md) :material-eye-off:
+	- [Super Luck](../../pokedex/abilities/super-luck.md)
 
 - **:material-ruler: Physical Attributes**
 

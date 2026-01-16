@@ -15,10 +15,6 @@
 
 ??? note "Beldum ROM Changes"
 
-	**Abilities Changes:**
-
-	- `clear-body / light-metal` → `clear-body / rock-head / heavy-metal`
-
 	**Catch Rate Changes:**
 
 	- `3` → `45`
@@ -37,8 +33,7 @@
 	---
 
 	- [Clear Body](../../pokedex/abilities/clear-body.md)
-	- [Rock Head](../../pokedex/abilities/rock-head.md)
-	- [Heavy Metal](../../pokedex/abilities/heavy-metal.md) :material-eye-off:
+	- [Light Metal](../../pokedex/abilities/light-metal.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

@@ -3,7 +3,7 @@
 
 ??? note "Slash ROM Changes"
 
-	**Pp Changes:**
+	**PP Changes:**
 
 	- `20` → `15`
 

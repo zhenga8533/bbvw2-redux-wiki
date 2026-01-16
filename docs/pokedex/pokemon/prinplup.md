@@ -15,15 +15,11 @@
 
 ??? note "Prinplup ROM Changes"
 
-	**Abilities Changes:**
-
-	- `defiant / competitive` → `defiant / torrent / defiant`
-
 	**Level-up Moves Changes:**
 
 	- `15 moves` → `21 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `34 moves` → `35 moves (added: wave-crash)`
 
@@ -37,8 +33,7 @@
 	---
 
 	- [Defiant](../../pokedex/abilities/defiant.md)
-	- [Torrent](../../pokedex/abilities/torrent.md)
-	- [Defiant](../../pokedex/abilities/defiant.md) :material-eye-off:
+	- Competitive :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

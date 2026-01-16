@@ -34,6 +34,12 @@
 
 	**#044 [Gloom](../pokemon/gloom.md)**
 
+-	[![Vileplume](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/45.gif){: .pokemon-sprite-img }](../pokemon/vileplume.md)
+
+	***
+
+	**#045 [Vileplume](../pokemon/vileplume.md)**
+
 -	[![Bellsprout](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/69.gif){: .pokemon-sprite-img }](../pokemon/bellsprout.md)
 
 	***
@@ -64,17 +70,47 @@
 
 	**#103 [Exeggutor](../pokemon/exeggutor.md)**
 
+-	[![Tangela](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/114.gif){: .pokemon-sprite-img }](../pokemon/tangela.md)
+
+	***
+
+	**#114 [Tangela](../pokemon/tangela.md)**
+
 -	[![Bellossom](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/182.gif){: .pokemon-sprite-img }](../pokemon/bellossom.md)
 
 	***
 
 	**#182 [Bellossom](../pokemon/bellossom.md)**
 
+-	[![Hoppip](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/187.gif){: .pokemon-sprite-img }](../pokemon/hoppip.md)
+
+	***
+
+	**#187 [Hoppip](../pokemon/hoppip.md)**
+
+-	[![Skiploom](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/188.gif){: .pokemon-sprite-img }](../pokemon/skiploom.md)
+
+	***
+
+	**#188 [Skiploom](../pokemon/skiploom.md)**
+
+-	[![Jumpluff](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/189.gif){: .pokemon-sprite-img }](../pokemon/jumpluff.md)
+
+	***
+
+	**#189 [Jumpluff](../pokemon/jumpluff.md)**
+
 -	[![Sunkern](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/191.gif){: .pokemon-sprite-img }](../pokemon/sunkern.md)
 
 	***
 
 	**#191 [Sunkern](../pokemon/sunkern.md)**
+
+-	[![Sunflora](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/192.gif){: .pokemon-sprite-img }](../pokemon/sunflora.md)
+
+	***
+
+	**#192 [Sunflora](../pokemon/sunflora.md)**
 
 -	[![Seedot](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/273.gif){: .pokemon-sprite-img }](../pokemon/seedot.md)
 
@@ -106,11 +142,11 @@
 
 	**#420 [Cherubi](../pokemon/cherubi.md)**
 
--	[![Leafeon](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/470.gif){: .pokemon-sprite-img }](../pokemon/leafeon.md)
+-	[![Tangrowth](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/465.gif){: .pokemon-sprite-img }](../pokemon/tangrowth.md)
 
 	***
 
-	**#470 [Leafeon](../pokemon/leafeon.md)**
+	**#465 [Tangrowth](../pokemon/tangrowth.md)**
 
 -	[![Sewaddle](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/540.gif){: .pokemon-sprite-img }](../pokemon/sewaddle.md)
 
@@ -141,6 +177,12 @@
 	***
 
 	**#549 [Lilligant](../pokemon/lilligant.md)**
+
+-	[![Maractus](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/556.gif){: .pokemon-sprite-img }](../pokemon/maractus.md)
+
+	***
+
+	**#556 [Maractus](../pokemon/maractus.md)**
 
 -	[![Deerling](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/585.gif){: .pokemon-sprite-img }](../pokemon/deerling.md)
 
@@ -177,36 +219,6 @@
 	***
 
 	**#003 [Venusaur](../pokemon/venusaur.md)**
-
--	[![Bellsprout](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/69.gif){: .pokemon-sprite-img }](../pokemon/bellsprout.md)
-
-	***
-
-	**#069 [Bellsprout](../pokemon/bellsprout.md)**
-
--	[![Weepinbell](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/70.gif){: .pokemon-sprite-img }](../pokemon/weepinbell.md)
-
-	***
-
-	**#070 [Weepinbell](../pokemon/weepinbell.md)**
-
--	[![Victreebel](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/71.gif){: .pokemon-sprite-img }](../pokemon/victreebel.md)
-
-	***
-
-	**#071 [Victreebel](../pokemon/victreebel.md)**
-
--	[![Sunkern](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/191.gif){: .pokemon-sprite-img }](../pokemon/sunkern.md)
-
-	***
-
-	**#191 [Sunkern](../pokemon/sunkern.md)**
-
--	[![Sunflora](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/192.gif){: .pokemon-sprite-img }](../pokemon/sunflora.md)
-
-	***
-
-	**#192 [Sunflora](../pokemon/sunflora.md)**
 
 -	[![Leafeon](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/470.gif){: .pokemon-sprite-img }](../pokemon/leafeon.md)
 

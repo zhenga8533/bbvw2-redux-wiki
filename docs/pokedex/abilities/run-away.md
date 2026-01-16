@@ -22,29 +22,65 @@
 
 <div class="grid cards" markdown>
 
--	[![Caterpie](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/10.gif){: .pokemon-sprite-img }](../pokemon/caterpie.md)
+-	[![Rattata](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/19.gif){: .pokemon-sprite-img }](../pokemon/rattata.md)
 
 	***
 
-	**#010 [Caterpie](../pokemon/caterpie.md)**
+	**#019 [Rattata](../pokemon/rattata.md)**
 
--	[![Weedle](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/13.gif){: .pokemon-sprite-img }](../pokemon/weedle.md)
-
-	***
-
-	**#013 [Weedle](../pokemon/weedle.md)**
-
--	[![Oddish](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/43.gif){: .pokemon-sprite-img }](../pokemon/oddish.md)
+-	[![Raticate](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/20.gif){: .pokemon-sprite-img }](../pokemon/raticate.md)
 
 	***
 
-	**#043 [Oddish](../pokemon/oddish.md)**
+	**#020 [Raticate](../pokemon/raticate.md)**
+
+-	[![Ponyta](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/77.gif){: .pokemon-sprite-img }](../pokemon/ponyta.md)
+
+	***
+
+	**#077 [Ponyta](../pokemon/ponyta.md)**
+
+-	[![Rapidash](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/78.gif){: .pokemon-sprite-img }](../pokemon/rapidash.md)
+
+	***
+
+	**#078 [Rapidash](../pokemon/rapidash.md)**
+
+-	[![Doduo](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/84.gif){: .pokemon-sprite-img }](../pokemon/doduo.md)
+
+	***
+
+	**#084 [Doduo](../pokemon/doduo.md)**
+
+-	[![Dodrio](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/85.gif){: .pokemon-sprite-img }](../pokemon/dodrio.md)
+
+	***
+
+	**#085 [Dodrio](../pokemon/dodrio.md)**
 
 -	[![Eevee](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/133.gif){: .pokemon-sprite-img }](../pokemon/eevee.md)
 
 	***
 
 	**#133 [Eevee](../pokemon/eevee.md)**
+
+-	[![Sentret](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/161.gif){: .pokemon-sprite-img }](../pokemon/sentret.md)
+
+	***
+
+	**#161 [Sentret](../pokemon/sentret.md)**
+
+-	[![Furret](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/162.gif){: .pokemon-sprite-img }](../pokemon/furret.md)
+
+	***
+
+	**#162 [Furret](../pokemon/furret.md)**
+
+-	[![Aipom](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/190.gif){: .pokemon-sprite-img }](../pokemon/aipom.md)
+
+	***
+
+	**#190 [Aipom](../pokemon/aipom.md)**
 
 -	[![Dunsparce](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/206.gif){: .pokemon-sprite-img }](../pokemon/dunsparce.md)
 
@@ -64,29 +100,23 @@
 
 	**#261 [Poochyena](../pokemon/poochyena.md)**
 
--	[![Wurmple](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/265.gif){: .pokemon-sprite-img }](../pokemon/wurmple.md)
+-	[![Pachirisu](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/417.gif){: .pokemon-sprite-img }](../pokemon/pachirisu.md)
 
 	***
 
-	**#265 [Wurmple](../pokemon/wurmple.md)**
-
--	[![Nincada](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/290.gif){: .pokemon-sprite-img }](../pokemon/nincada.md)
-
-	***
-
-	**#290 [Nincada](../pokemon/nincada.md)**
-
--	[![Kricketot](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/401.gif){: .pokemon-sprite-img }](../pokemon/kricketot.md)
-
-	***
-
-	**#401 [Kricketot](../pokemon/kricketot.md)**
+	**#417 [Pachirisu](../pokemon/pachirisu.md)**
 
 -	[![Buneary](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/427.gif){: .pokemon-sprite-img }](../pokemon/buneary.md)
 
 	***
 
 	**#427 [Buneary](../pokemon/buneary.md)**
+
+-	[![Patrat](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/504.gif){: .pokemon-sprite-img }](../pokemon/patrat.md)
+
+	***
+
+	**#504 [Patrat](../pokemon/patrat.md)**
 
 </div>
 
@@ -106,18 +136,6 @@
 
 	**#013 [Weedle](../pokemon/weedle.md)**
 
--	[![Rattata](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/19.gif){: .pokemon-sprite-img }](../pokemon/rattata.md)
-
-	***
-
-	**#019 [Rattata](../pokemon/rattata.md)**
-
--	[![Raticate](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/20.gif){: .pokemon-sprite-img }](../pokemon/raticate.md)
-
-	***
-
-	**#020 [Raticate](../pokemon/raticate.md)**
-
 -	[![Oddish](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/43.gif){: .pokemon-sprite-img }](../pokemon/oddish.md)
 
 	***
@@ -129,18 +147,6 @@
 	***
 
 	**#048 [Venonat](../pokemon/venonat.md)**
-
--	[![Sentret](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/161.gif){: .pokemon-sprite-img }](../pokemon/sentret.md)
-
-	***
-
-	**#161 [Sentret](../pokemon/sentret.md)**
-
--	[![Furret](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/162.gif){: .pokemon-sprite-img }](../pokemon/furret.md)
-
-	***
-
-	**#162 [Furret](../pokemon/furret.md)**
 
 -	[![Wurmple](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/265.gif){: .pokemon-sprite-img }](../pokemon/wurmple.md)
 
@@ -154,11 +160,17 @@
 
 	**#290 [Nincada](../pokemon/nincada.md)**
 
--	[![Pachirisu](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/417.gif){: .pokemon-sprite-img }](../pokemon/pachirisu.md)
+-	[![Kricketot](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/401.gif){: .pokemon-sprite-img }](../pokemon/kricketot.md)
 
 	***
 
-	**#417 [Pachirisu](../pokemon/pachirisu.md)**
+	**#401 [Kricketot](../pokemon/kricketot.md)**
+
+-	[![Lopunny](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/428.gif){: .pokemon-sprite-img }](../pokemon/lopunny.md)
+
+	***
+
+	**#428 [Lopunny](../pokemon/lopunny.md)**
 
 -	[![Lillipup](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/506.gif){: .pokemon-sprite-img }](../pokemon/lillipup.md)
 

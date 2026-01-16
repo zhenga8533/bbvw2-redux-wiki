@@ -3,7 +3,7 @@
 
 ??? note "Mach Punch ROM Changes"
 
-	**Pp Changes:**
+	**PP Changes:**
 
 	- `30` → `20`
 

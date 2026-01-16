@@ -19,13 +19,9 @@
 
 	- `spearow > fearow: level-up (level 20)` → `spearow > fearow: level-up (level 21)`
 
-	**Base Stats Changes:**
+	**Ability Changes:**
 
-	- `65 HP / 90 Atk / 65 Def / 61 SAtk / 61 SDef / 100 Spd` → `85 HP / 95 Atk / 80 Def / 61 SAtk / 64 SDef / 100 Spd`
-
-	**Abilities Changes:**
-
-	- `keen-eye / sniper` → `intimidate / sniper / sniper`
+	- `(none)` → `intimidate`
 
 	**Type Changes:**
 
@@ -35,7 +31,7 @@
 
 	- `15 moves` → `23 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `24 moves` → `31 moves (added: hone-claws, taunt, hurricane, quash, shadow-claw...)`
 
@@ -48,9 +44,9 @@
 
 	---
 
-	- [Intimidate](../../pokedex/abilities/intimidate.md)
-	- [Sniper](../../pokedex/abilities/sniper.md)
+	- [Keen Eye](../../pokedex/abilities/keen-eye.md)
 	- [Sniper](../../pokedex/abilities/sniper.md) :material-eye-off:
+	- [Intimidate](../../pokedex/abilities/intimidate.md)
 
 - **:material-ruler: Physical Attributes**
 
@@ -146,13 +142,13 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Stat | Base | Min | Max | Distribution |
 |------|-----:|----:|----:|:-------------|
-| **HP** | **85** | 280 | 374 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 33.33333333333333%;"></div></div> |
-| **Attack** | **95** | 175 | 317 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 37.254901960784316%;"></div></div> |
-| **Defense** | **80** | 148 | 284 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 31.372549019607842%;"></div></div> |
+| **HP** | **65** | 240 | 334 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 25.49019607843137%;"></div></div> |
+| **Attack** | **90** | 166 | 306 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 35.294117647058826%;"></div></div> |
+| **Defense** | **65** | 121 | 251 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 25.49019607843137%;"></div></div> |
 | **Sp. Atk** | **61** | 114 | 243 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 23.92156862745098%;"></div></div> |
-| **Sp. Def** | **64** | 119 | 249 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 25.098039215686274%;"></div></div> |
+| **Sp. Def** | **61** | 114 | 243 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 23.92156862745098%;"></div></div> |
 | **Speed** | **100** | 184 | 328 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 39.21568627450981%;"></div></div> |
-| **Base Stat Total** | **485** | | | |
+| **Base Stat Total** | **442** | | | |
 
 > **Min/Max Stats:** Calculated at Level 100.
 >

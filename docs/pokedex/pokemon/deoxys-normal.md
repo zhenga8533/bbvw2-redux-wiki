@@ -16,17 +16,9 @@
 
 ??? note "Deoxys Normal ROM Changes"
 
-	**Abilities Changes:**
+	**Ability Changes:**
 
-	- `pressure` → `moody / pressure`
-
-	**Level-up Moves Changes:**
-
-	- `14 moves` → `16 moves`
-
-	**TM/HM Compatibility Changes:**
-
-	- `50 moves` → `51 moves (added: work-up)`
+	- `(none)` → `moody`
 
 
 ## :material-information: Basic Information
@@ -37,8 +29,8 @@
 
 	---
 
-	- [Moody](../../pokedex/abilities/moody.md)
 	- [Pressure](../../pokedex/abilities/pressure.md)
+	- [Moody](../../pokedex/abilities/moody.md)
 
 - **:material-ruler: Physical Attributes**
 
@@ -207,22 +199,20 @@
 
 	| Level | Move | Type | Category | Power | Accuracy | PP |
 	|:------|:-----|:-----|:---------|:------|:---------|:---|
-	| 1 | [Meteor Mash](../../pokedex/moves/meteor-mash.md) | <span class="type-badge" style="background: linear-gradient(135deg, #B8B8D0 0%, #B8B8D0dd 100%);">Steel</span> | <span class="category-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Physical</span> | 95 | 90 | 10 |
-	| 1 | [Dark Pulse](../../pokedex/moves/dark-pulse.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | <span class="category-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Special</span> | 80 | — | 10 |
-	| 1 | [Leer](../../pokedex/moves/leer.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | <span class="category-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Status</span> | — | 100 | 30 |
 	| 1 | [Wrap](../../pokedex/moves/wrap.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | <span class="category-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Physical</span> | 15 | 90 | 20 |
-	| 6 | [Night Shade](../../pokedex/moves/night-shade.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | <span class="category-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Special</span> | — | 100 | 15 |
-	| 10 | [Teleport](../../pokedex/moves/teleport.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span> | <span class="category-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Status</span> | — | — | 20 |
-	| 14 | [Knock Off](../../pokedex/moves/knock-off.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | <span class="category-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Physical</span> | 65 | 100 | 20 |
-	| 18 | [Pursuit](../../pokedex/moves/pursuit.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | <span class="category-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Physical</span> | 40 | 100 | 20 |
-	| 22 | [Psychic](../../pokedex/moves/psychic.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span> | <span class="category-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Special</span> | 90 | 100 | 10 |
-	| 26 | [Snatch](../../pokedex/moves/snatch.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | <span class="category-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Status</span> | — | — | 10 |
-	| 30 | [Psycho Shift](../../pokedex/moves/psycho-shift.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span> | <span class="category-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Status</span> | — | 100 | 10 |
-	| 34 | [Zen Headbutt](../../pokedex/moves/zen-headbutt.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span> | <span class="category-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Physical</span> | 80 | 90 | 10 |
-	| 38 | [Cosmic Power](../../pokedex/moves/cosmic-power.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span> | <span class="category-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Status</span> | — | — | 20 |
-	| 42 | [Recover](../../pokedex/moves/recover.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | <span class="category-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Status</span> | — | — | 5 |
-	| 46 | [Psycho Boost](../../pokedex/moves/psycho-boost.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span> | <span class="category-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Special</span> | 140 | 90 | 5 |
-	| 50 | [Hyper Beam](../../pokedex/moves/hyper-beam.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | <span class="category-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Special</span> | 150 | 90 | 5 |
+	| 1 | [Leer](../../pokedex/moves/leer.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | <span class="category-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Status</span> | — | 100 | 30 |
+	| 9 | [Night Shade](../../pokedex/moves/night-shade.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> | <span class="category-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Special</span> | — | 100 | 15 |
+	| 17 | [Teleport](../../pokedex/moves/teleport.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span> | <span class="category-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Status</span> | — | — | 20 |
+	| 25 | [Knock Off](../../pokedex/moves/knock-off.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | <span class="category-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Physical</span> | 65 | 100 | 20 |
+	| 33 | [Pursuit](../../pokedex/moves/pursuit.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | <span class="category-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Physical</span> | 40 | 100 | 20 |
+	| 41 | [Psychic](../../pokedex/moves/psychic.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span> | <span class="category-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Special</span> | 90 | 100 | 10 |
+	| 49 | [Snatch](../../pokedex/moves/snatch.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | <span class="category-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Status</span> | — | — | 10 |
+	| 57 | [Psycho Shift](../../pokedex/moves/psycho-shift.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span> | <span class="category-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Status</span> | — | 100 | 10 |
+	| 65 | [Zen Headbutt](../../pokedex/moves/zen-headbutt.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span> | <span class="category-badge" style="background: linear-gradient(135deg, #C03028 0%, #C03028dd 100%);">Physical</span> | 80 | 90 | 10 |
+	| 73 | [Cosmic Power](../../pokedex/moves/cosmic-power.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span> | <span class="category-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Status</span> | — | — | 20 |
+	| 81 | [Recover](../../pokedex/moves/recover.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | <span class="category-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Status</span> | — | — | 5 |
+	| 89 | [Psycho Boost](../../pokedex/moves/psycho-boost.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span> | <span class="category-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Special</span> | 140 | 90 | 5 |
+	| 97 | [Hyper Beam](../../pokedex/moves/hyper-beam.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | <span class="category-badge" style="background: linear-gradient(135deg, #6890F0 0%, #6890F0dd 100%);">Special</span> | 150 | 90 | 5 |
 
 === ":material-disc: TM/HM"
 
@@ -278,7 +268,6 @@
 	| [Torment](../../pokedex/moves/torment.md) | <span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> | <span class="category-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Status</span> | — | 100 | 15 |
 	| [Toxic](../../pokedex/moves/toxic.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A040A0 0%, #A040A0dd 100%);">Poison</span> | <span class="category-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Status</span> | — | 90 | 10 |
 	| [Trick Room](../../pokedex/moves/trick-room.md) | <span class="type-badge" style="background: linear-gradient(135deg, #F85888 0%, #F85888dd 100%);">Psychic</span> | <span class="category-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Status</span> | — | — | 5 |
-	| [Work Up](../../pokedex/moves/work-up.md) | <span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span> | <span class="category-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Status</span> | — | — | 30 |
 
 === ":material-egg-outline: Egg Moves"
 

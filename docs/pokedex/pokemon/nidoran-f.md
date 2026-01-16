@@ -15,10 +15,6 @@
 
 ??? note "Nidoran♀ ROM Changes"
 
-	**Abilities Changes:**
-
-	- `poison-point / rivalry / hustle` → `hustle / poison-point / rivalry`
-
 	**Level-up Moves Changes:**
 
 	- `13 moves` → `21 moves`
@@ -32,9 +28,9 @@
 
 	---
 
-	- [Hustle](../../pokedex/abilities/hustle.md)
 	- [Poison Point](../../pokedex/abilities/poison-point.md)
-	- [Rivalry](../../pokedex/abilities/rivalry.md) :material-eye-off:
+	- [Rivalry](../../pokedex/abilities/rivalry.md)
+	- [Hustle](../../pokedex/abilities/hustle.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

@@ -22,89 +22,11 @@
 
 <div class="grid cards" markdown>
 
--	[![Slowpoke](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/79.gif){: .pokemon-sprite-img }](../pokemon/slowpoke.md)
-
-	***
-
-	**#079 [Slowpoke](../pokemon/slowpoke.md)**
-
--	[![Slowbro](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/80.gif){: .pokemon-sprite-img }](../pokemon/slowbro.md)
-
-	***
-
-	**#080 [Slowbro](../pokemon/slowbro.md)**
-
--	[![Tangela](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/114.gif){: .pokemon-sprite-img }](../pokemon/tangela.md)
-
-	***
-
-	**#114 [Tangela](../pokemon/tangela.md)**
-
--	[![Staryu](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/120.gif){: .pokemon-sprite-img }](../pokemon/staryu.md)
-
-	***
-
-	**#120 [Staryu](../pokemon/staryu.md)**
-
--	[![Slowking](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/199.gif){: .pokemon-sprite-img }](../pokemon/slowking.md)
-
-	***
-
-	**#199 [Slowking](../pokemon/slowking.md)**
-
--	[![Corsola](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/222.gif){: .pokemon-sprite-img }](../pokemon/corsola.md)
-
-	***
-
-	**#222 [Corsola](../pokemon/corsola.md)**
-
--	[![Tangrowth](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/465.gif){: .pokemon-sprite-img }](../pokemon/tangrowth.md)
-
-	***
-
-	**#465 [Tangrowth](../pokemon/tangrowth.md)**
-
 -	[![Audino](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/531.gif){: .pokemon-sprite-img }](../pokemon/audino.md)
 
 	***
 
 	**#531 [Audino](../pokemon/audino.md)**
-
--	[![Solosis](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/577.gif){: .pokemon-sprite-img }](../pokemon/solosis.md)
-
-	***
-
-	**#577 [Solosis](../pokemon/solosis.md)**
-
--	[![Duosion](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/578.gif){: .pokemon-sprite-img }](../pokemon/duosion.md)
-
-	***
-
-	**#578 [Duosion](../pokemon/duosion.md)**
-
--	[![Reuniclus](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/579.gif){: .pokemon-sprite-img }](../pokemon/reuniclus.md)
-
-	***
-
-	**#579 [Reuniclus](../pokemon/reuniclus.md)**
-
--	[![Foongus](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/590.gif){: .pokemon-sprite-img }](../pokemon/foongus.md)
-
-	***
-
-	**#590 [Foongus](../pokemon/foongus.md)**
-
--	[![Amoonguss](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/591.gif){: .pokemon-sprite-img }](../pokemon/amoonguss.md)
-
-	***
-
-	**#591 [Amoonguss](../pokemon/amoonguss.md)**
-
--	[![Alomomola](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/594.gif){: .pokemon-sprite-img }](../pokemon/alomomola.md)
-
-	***
-
-	**#594 [Alomomola](../pokemon/alomomola.md)**
 
 -	[![Mienfoo](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/619.gif){: .pokemon-sprite-img }](../pokemon/mienfoo.md)
 
@@ -142,11 +64,23 @@
 
 	**#114 [Tangela](../pokemon/tangela.md)**
 
+-	[![Staryu](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/120.gif){: .pokemon-sprite-img }](../pokemon/staryu.md)
+
+	***
+
+	**#120 [Staryu](../pokemon/staryu.md)**
+
 -	[![Slowking](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/199.gif){: .pokemon-sprite-img }](../pokemon/slowking.md)
 
 	***
 
 	**#199 [Slowking](../pokemon/slowking.md)**
+
+-	[![Corsola](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/222.gif){: .pokemon-sprite-img }](../pokemon/corsola.md)
+
+	***
+
+	**#222 [Corsola](../pokemon/corsola.md)**
 
 -	[![Ho-Oh](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/250.gif){: .pokemon-sprite-img }](../pokemon/ho-oh.md)
 
@@ -159,6 +93,24 @@
 	***
 
 	**#465 [Tangrowth](../pokemon/tangrowth.md)**
+
+-	[![Solosis](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/577.gif){: .pokemon-sprite-img }](../pokemon/solosis.md)
+
+	***
+
+	**#577 [Solosis](../pokemon/solosis.md)**
+
+-	[![Duosion](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/578.gif){: .pokemon-sprite-img }](../pokemon/duosion.md)
+
+	***
+
+	**#578 [Duosion](../pokemon/duosion.md)**
+
+-	[![Reuniclus](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/579.gif){: .pokemon-sprite-img }](../pokemon/reuniclus.md)
+
+	***
+
+	**#579 [Reuniclus](../pokemon/reuniclus.md)**
 
 -	[![Foongus](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/590.gif){: .pokemon-sprite-img }](../pokemon/foongus.md)
 

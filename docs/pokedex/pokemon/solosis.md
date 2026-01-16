@@ -20,10 +20,6 @@
 
 	- `solosis > duosion: level-up (level 32)` → `solosis > duosion: level-up (level 30)`
 
-	**Abilities Changes:**
-
-	- `overcoat / magic-guard / regenerator` → `regenerator / magic-guard / overcoat`
-
 	**Level-up Moves Changes:**
 
 	- `16 moves` → `19 moves`
@@ -37,9 +33,9 @@
 
 	---
 
-	- [Regenerator](../../pokedex/abilities/regenerator.md)
+	- [Overcoat](../../pokedex/abilities/overcoat.md)
 	- [Magic Guard](../../pokedex/abilities/magic-guard.md)
-	- [Overcoat](../../pokedex/abilities/overcoat.md) :material-eye-off:
+	- [Regenerator](../../pokedex/abilities/regenerator.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

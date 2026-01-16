@@ -18,18 +18,6 @@
 
 ## :material-pokeball: Pokémon with this Ability
 
-### :material-star: Standard Ability
-
-<div class="grid cards" markdown>
-
--	[![Dragonite](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/149.gif){: .pokemon-sprite-img }](../pokemon/dragonite.md)
-
-	***
-
-	**#149 [Dragonite](../pokemon/dragonite.md)**
-
-</div>
-
 ### :material-eye-off: Hidden Ability
 
 <div class="grid cards" markdown>

@@ -15,10 +15,6 @@
 
 ??? note "Bellossom ROM Changes"
 
-	**Abilities Changes:**
-
-	- `chlorophyll / healer` → `chlorophyll / cloud-nine / healer`
-
 	**Level-up Moves Changes:**
 
 	- `7 moves` → `15 moves`
@@ -33,7 +29,6 @@
 	---
 
 	- [Chlorophyll](../../pokedex/abilities/chlorophyll.md)
-	- [Cloud Nine](../../pokedex/abilities/cloud-nine.md)
 	- [Healer](../../pokedex/abilities/healer.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**

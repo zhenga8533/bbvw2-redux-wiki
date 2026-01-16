@@ -20,15 +20,15 @@
 
 	- `venipede > whirlipede: level-up (level 22)` → `venipede > whirlipede: level-up (level 20)`
 
-	**Abilities Changes:**
+	**Ability Changes:**
 
-	- `quick feet / swarm / speed-boost` → `quick-feet / poison-point / swarm`
+	- `speed-boost` → `quick-feet`
 
 	**Level-up Moves Changes:**
 
 	- `14 moves` → `19 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `21 moves` → `22 moves (added: bug-buzz)`
 
@@ -42,8 +42,8 @@
 	---
 
 	- [Quick Feet](../../pokedex/abilities/quick-feet.md)
-	- [Poison Point](../../pokedex/abilities/poison-point.md)
-	- [Swarm](../../pokedex/abilities/swarm.md) :material-eye-off:
+	- [Swarm](../../pokedex/abilities/swarm.md)
+	- [Quick Feet](../../pokedex/abilities/quick-feet.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

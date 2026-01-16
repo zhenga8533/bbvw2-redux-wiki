@@ -16,9 +16,9 @@
 
 ??? note "Pignite ROM Changes"
 
-	**Abilities Changes:**
+	**Ability Changes:**
 
-	- `blaze / thick-fat` → `sheer-force / blaze / sheer-force`
+	- `(none)` → `sheer-force`
 
 	**Type Changes:**
 
@@ -28,7 +28,7 @@
 
 	- `19 moves` → `21 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `38 moves` → `39 moves (added: quash)`
 
@@ -41,9 +41,9 @@
 
 	---
 
-	- [Sheer Force](../../pokedex/abilities/sheer-force.md)
 	- [Blaze](../../pokedex/abilities/blaze.md)
-	- [Sheer Force](../../pokedex/abilities/sheer-force.md) :material-eye-off:
+	- [Thick Fat](../../pokedex/abilities/thick-fat.md) :material-eye-off:
+	- [Sheer Force](../../pokedex/abilities/sheer-force.md)
 
 - **:material-ruler: Physical Attributes**
 

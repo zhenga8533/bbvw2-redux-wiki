@@ -16,9 +16,9 @@
 
 ??? note "Audino ROM Changes"
 
-	**Abilities Changes:**
+	**Ability Changes:**
 
-	- `healer / regenerator / klutz` → `natural-cure / regenerator / klutz`
+	- `klutz` → `natural-cure`
 
 	**Type Changes:**
 
@@ -37,9 +37,9 @@
 
 	---
 
-	- [Natural Cure](../../pokedex/abilities/natural-cure.md)
+	- [Healer](../../pokedex/abilities/healer.md)
 	- [Regenerator](../../pokedex/abilities/regenerator.md)
-	- [Klutz](../../pokedex/abilities/klutz.md) :material-eye-off:
+	- [Natural Cure](../../pokedex/abilities/natural-cure.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

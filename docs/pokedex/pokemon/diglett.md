@@ -15,10 +15,6 @@
 
 ??? note "Diglett ROM Changes"
 
-	**Abilities Changes:**
-
-	- `sand-veil / arena-trap / sand-force` → `sand-force / arena-trap / sand-force`
-
 	**Level-up Moves Changes:**
 
 	- `14 moves` → `22 moves`
@@ -32,7 +28,7 @@
 
 	---
 
-	- [Sand Force](../../pokedex/abilities/sand-force.md)
+	- [Sand Veil](../../pokedex/abilities/sand-veil.md)
 	- [Arena Trap](../../pokedex/abilities/arena-trap.md)
 	- [Sand Force](../../pokedex/abilities/sand-force.md) :material-eye-off:
 

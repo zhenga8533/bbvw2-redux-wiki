@@ -15,10 +15,6 @@
 
 ??? note "Oddish ROM Changes"
 
-	**Abilities Changes:**
-
-	- `chlorophyll / run-away` → `chlorophyll / run-away / run-away`
-
 	**Level-up Moves Changes:**
 
 	- `12 moves` → `21 moves`
@@ -33,7 +29,6 @@
 	---
 
 	- [Chlorophyll](../../pokedex/abilities/chlorophyll.md)
-	- [Run Away](../../pokedex/abilities/run-away.md)
 	- [Run Away](../../pokedex/abilities/run-away.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**

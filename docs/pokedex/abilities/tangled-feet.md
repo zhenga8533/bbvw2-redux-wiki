@@ -40,12 +40,6 @@
 
 	**#018 [Pidgeot](../pokemon/pidgeot.md)**
 
--	[![Doduo](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/84.gif){: .pokemon-sprite-img }](../pokemon/doduo.md)
-
-	***
-
-	**#084 [Doduo](../pokemon/doduo.md)**
-
 -	[![Spinda](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/327.gif){: .pokemon-sprite-img }](../pokemon/spinda.md)
 
 	***

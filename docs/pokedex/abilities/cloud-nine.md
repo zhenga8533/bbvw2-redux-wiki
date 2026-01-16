@@ -34,36 +34,6 @@
 
 	**#055 [Golduck](../pokemon/golduck.md)**
 
--	[![Lickitung](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/108.gif){: .pokemon-sprite-img }](../pokemon/lickitung.md)
-
-	***
-
-	**#108 [Lickitung](../pokemon/lickitung.md)**
-
--	[![Bellossom](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/182.gif){: .pokemon-sprite-img }](../pokemon/bellossom.md)
-
-	***
-
-	**#182 [Bellossom](../pokemon/bellossom.md)**
-
--	[![Swablu](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/333.gif){: .pokemon-sprite-img }](../pokemon/swablu.md)
-
-	***
-
-	**#333 [Swablu](../pokemon/swablu.md)**
-
--	[![Altaria](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/334.gif){: .pokemon-sprite-img }](../pokemon/altaria.md)
-
-	***
-
-	**#334 [Altaria](../pokemon/altaria.md)**
-
--	[![Lickilicky](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/463.gif){: .pokemon-sprite-img }](../pokemon/lickilicky.md)
-
-	***
-
-	**#463 [Lickilicky](../pokemon/lickilicky.md)**
-
 </div>
 
 ### :material-eye-off: Hidden Ability

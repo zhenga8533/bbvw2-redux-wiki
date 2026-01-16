@@ -15,19 +15,11 @@
 
 ??? note "Typhlosion ROM Changes"
 
-	**Base Stats Changes:**
-
-	- `78 HP / 84 Atk / 78 Def / 109 SAtk / 85 SDef / 100 Spd` → `78 HP / 84 Atk / 78 Def / 110 SAtk / 85 SDef / 100 Spd`
-
-	**Abilities Changes:**
-
-	- `blaze / flash-fire` → `flash-fire / blaze / flash-fire`
-
 	**Level-up Moves Changes:**
 
 	- `18 moves` → `25 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `38 moves` → `39 moves (added: mystical-fire)`
 
@@ -40,7 +32,6 @@
 
 	---
 
-	- [Flash Fire](../../pokedex/abilities/flash-fire.md)
 	- [Blaze](../../pokedex/abilities/blaze.md)
 	- [Flash Fire](../../pokedex/abilities/flash-fire.md) :material-eye-off:
 
@@ -124,10 +115,10 @@
 | **HP** | **78** | 266 | 360 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 30.58823529411765%;"></div></div> |
 | **Attack** | **84** | 155 | 293 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 32.94117647058823%;"></div></div> |
 | **Defense** | **78** | 144 | 280 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 30.58823529411765%;"></div></div> |
-| **Sp. Atk** | **110** | 202 | 350 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 43.13725490196079%;"></div></div> |
+| **Sp. Atk** | **109** | 200 | 348 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 42.745098039215684%;"></div></div> |
 | **Sp. Def** | **85** | 157 | 295 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 33.33333333333333%;"></div></div> |
 | **Speed** | **100** | 184 | 328 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 39.21568627450981%;"></div></div> |
-| **Base Stat Total** | **535** | | | |
+| **Base Stat Total** | **534** | | | |
 
 > **Min/Max Stats:** Calculated at Level 100.
 >

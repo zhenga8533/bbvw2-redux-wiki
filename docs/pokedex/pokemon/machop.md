@@ -19,10 +19,6 @@
 
 	- `machoke > machamp: trade` → `machoke > machamp: use-item (link-cable)`
 
-	**Abilities Changes:**
-
-	- `guts / no-guard / steadfast` → `steadfast / no-guard / steadfast`
-
 	**Level-up Moves Changes:**
 
 	- `14 moves` → `24 moves`
@@ -36,7 +32,7 @@
 
 	---
 
-	- [Steadfast](../../pokedex/abilities/steadfast.md)
+	- [Guts](../../pokedex/abilities/guts.md)
 	- [No Guard](../../pokedex/abilities/no-guard.md)
 	- [Steadfast](../../pokedex/abilities/steadfast.md) :material-eye-off:
 

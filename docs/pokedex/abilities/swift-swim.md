@@ -22,36 +22,6 @@
 
 <div class="grid cards" markdown>
 
--	[![Psyduck](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/54.gif){: .pokemon-sprite-img }](../pokemon/psyduck.md)
-
-	***
-
-	**#054 [Psyduck](../pokemon/psyduck.md)**
-
--	[![Golduck](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/55.gif){: .pokemon-sprite-img }](../pokemon/golduck.md)
-
-	***
-
-	**#055 [Golduck](../pokemon/golduck.md)**
-
--	[![Poliwag](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/60.gif){: .pokemon-sprite-img }](../pokemon/poliwag.md)
-
-	***
-
-	**#060 [Poliwag](../pokemon/poliwag.md)**
-
--	[![Poliwhirl](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/61.gif){: .pokemon-sprite-img }](../pokemon/poliwhirl.md)
-
-	***
-
-	**#061 [Poliwhirl](../pokemon/poliwhirl.md)**
-
--	[![Poliwrath](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/62.gif){: .pokemon-sprite-img }](../pokemon/poliwrath.md)
-
-	***
-
-	**#062 [Poliwrath](../pokemon/poliwrath.md)**
-
 -	[![Horsea](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/116.gif){: .pokemon-sprite-img }](../pokemon/horsea.md)
 
 	***
@@ -142,18 +112,6 @@
 
 	**#283 [Surskit](../pokemon/surskit.md)**
 
--	[![Anorith](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/347.gif){: .pokemon-sprite-img }](../pokemon/anorith.md)
-
-	***
-
-	**#347 [Anorith](../pokemon/anorith.md)**
-
--	[![Armaldo](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/348.gif){: .pokemon-sprite-img }](../pokemon/armaldo.md)
-
-	***
-
-	**#348 [Armaldo](../pokemon/armaldo.md)**
-
 -	[![Feebas](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/349.gif){: .pokemon-sprite-img }](../pokemon/feebas.md)
 
 	***
@@ -171,6 +129,12 @@
 	***
 
 	**#368 [Gorebyss](../pokemon/gorebyss.md)**
+
+-	[![Relicanth](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/369.gif){: .pokemon-sprite-img }](../pokemon/relicanth.md)
+
+	***
+
+	**#369 [Relicanth](../pokemon/relicanth.md)**
 
 -	[![Luvdisc](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/370.gif){: .pokemon-sprite-img }](../pokemon/luvdisc.md)
 
@@ -208,24 +172,6 @@
 
 	**#458 [Mantyke](../pokemon/mantyke.md)**
 
-</div>
-
-### :material-eye-off: Hidden Ability
-
-<div class="grid cards" markdown>
-
--	[![Anorith](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/347.gif){: .pokemon-sprite-img }](../pokemon/anorith.md)
-
-	***
-
-	**#347 [Anorith](../pokemon/anorith.md)**
-
--	[![Armaldo](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/348.gif){: .pokemon-sprite-img }](../pokemon/armaldo.md)
-
-	***
-
-	**#348 [Armaldo](../pokemon/armaldo.md)**
-
 -	[![Tympole](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/535.gif){: .pokemon-sprite-img }](../pokemon/tympole.md)
 
 	***
@@ -243,6 +189,54 @@
 	***
 
 	**#537 [Seismitoad](../pokemon/seismitoad.md)**
+
+</div>
+
+### :material-eye-off: Hidden Ability
+
+<div class="grid cards" markdown>
+
+-	[![Psyduck](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/54.gif){: .pokemon-sprite-img }](../pokemon/psyduck.md)
+
+	***
+
+	**#054 [Psyduck](../pokemon/psyduck.md)**
+
+-	[![Golduck](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/55.gif){: .pokemon-sprite-img }](../pokemon/golduck.md)
+
+	***
+
+	**#055 [Golduck](../pokemon/golduck.md)**
+
+-	[![Poliwag](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/60.gif){: .pokemon-sprite-img }](../pokemon/poliwag.md)
+
+	***
+
+	**#060 [Poliwag](../pokemon/poliwag.md)**
+
+-	[![Poliwhirl](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/61.gif){: .pokemon-sprite-img }](../pokemon/poliwhirl.md)
+
+	***
+
+	**#061 [Poliwhirl](../pokemon/poliwhirl.md)**
+
+-	[![Poliwrath](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/62.gif){: .pokemon-sprite-img }](../pokemon/poliwrath.md)
+
+	***
+
+	**#062 [Poliwrath](../pokemon/poliwrath.md)**
+
+-	[![Anorith](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/347.gif){: .pokemon-sprite-img }](../pokemon/anorith.md)
+
+	***
+
+	**#347 [Anorith](../pokemon/anorith.md)**
+
+-	[![Armaldo](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/348.gif){: .pokemon-sprite-img }](../pokemon/armaldo.md)
+
+	***
+
+	**#348 [Armaldo](../pokemon/armaldo.md)**
 
 -	[![Tirtouga](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/564.gif){: .pokemon-sprite-img }](../pokemon/tirtouga.md)
 

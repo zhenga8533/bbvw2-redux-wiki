@@ -15,15 +15,11 @@
 
 ??? note "Drifloon ROM Changes"
 
-	**Abilities Changes:**
-
-	- `aftermath / unburden / flare-boost` → `flare-boost / unburden / aftermath`
-
 	**Level-up Moves Changes:**
 
 	- `27 moves` → `21 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `33 moves` → `34 moves (added: hurricane)`
 
@@ -36,9 +32,9 @@
 
 	---
 
-	- [Flare Boost](../../pokedex/abilities/flare-boost.md)
+	- [Aftermath](../../pokedex/abilities/aftermath.md)
 	- [Unburden](../../pokedex/abilities/unburden.md)
-	- [Aftermath](../../pokedex/abilities/aftermath.md) :material-eye-off:
+	- [Flare Boost](../../pokedex/abilities/flare-boost.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

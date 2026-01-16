@@ -22,24 +22,6 @@
 
 <div class="grid cards" markdown>
 
--	[![Beedrill](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/15.gif){: .pokemon-sprite-img }](../pokemon/beedrill.md)
-
-	***
-
-	**#015 [Beedrill](../pokemon/beedrill.md)**
-
--	[![Spearow](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/21.gif){: .pokemon-sprite-img }](../pokemon/spearow.md)
-
-	***
-
-	**#021 [Spearow](../pokemon/spearow.md)**
-
--	[![Fearow](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/22.gif){: .pokemon-sprite-img }](../pokemon/fearow.md)
-
-	***
-
-	**#022 [Fearow](../pokemon/fearow.md)**
-
 -	[![Horsea](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/116.gif){: .pokemon-sprite-img }](../pokemon/horsea.md)
 
 	***
@@ -51,18 +33,6 @@
 	***
 
 	**#117 [Seadra](../pokemon/seadra.md)**
-
--	[![Spinarak](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/167.gif){: .pokemon-sprite-img }](../pokemon/spinarak.md)
-
-	***
-
-	**#167 [Spinarak](../pokemon/spinarak.md)**
-
--	[![Ariados](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/168.gif){: .pokemon-sprite-img }](../pokemon/ariados.md)
-
-	***
-
-	**#168 [Ariados](../pokemon/ariados.md)**
 
 -	[![Remoraid](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/223.gif){: .pokemon-sprite-img }](../pokemon/remoraid.md)
 
@@ -99,6 +69,12 @@
 ### :material-eye-off: Hidden Ability
 
 <div class="grid cards" markdown>
+
+-	[![Beedrill](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/15.gif){: .pokemon-sprite-img }](../pokemon/beedrill.md)
+
+	***
+
+	**#015 [Beedrill](../pokemon/beedrill.md)**
 
 -	[![Spearow](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/21.gif){: .pokemon-sprite-img }](../pokemon/spearow.md)
 

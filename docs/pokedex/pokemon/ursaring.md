@@ -23,7 +23,7 @@
 
 	- `14 moves` → `24 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `41 moves` → `42 moves (added: rock-climb)`
 

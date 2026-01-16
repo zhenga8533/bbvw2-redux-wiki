@@ -21,9 +21,9 @@
 
 	- `lairon > aggron: unknown` → `lairon > aggron: level-up (level 40)`
 
-	**Abilities Changes:**
+	**Ability Changes:**
 
-	- `sturdy / rock-head / heavy-metal` → `filter / rock-head / sturdy`
+	- `heavy-metal` → `filter`
 
 	**Level-up Moves Changes:**
 
@@ -38,9 +38,9 @@
 
 	---
 
-	- [Filter](../../pokedex/abilities/filter.md)
+	- [Sturdy](../../pokedex/abilities/sturdy.md)
 	- [Rock Head](../../pokedex/abilities/rock-head.md)
-	- [Sturdy](../../pokedex/abilities/sturdy.md) :material-eye-off:
+	- [Filter](../../pokedex/abilities/filter.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

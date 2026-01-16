@@ -46,11 +46,5 @@
 
 	**#298 [Azurill](../pokemon/azurill.md)**
 
--	[![Mawile](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/303.gif){: .pokemon-sprite-img }](../pokemon/mawile.md)
-
-	***
-
-	**#303 [Mawile](../pokemon/mawile.md)**
-
 </div>
 

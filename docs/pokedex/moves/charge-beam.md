@@ -3,7 +3,7 @@
 
 ??? note "Charge Beam ROM Changes"
 
-	**Pp Changes:**
+	**PP Changes:**
 
 	- `10` → `15`
 

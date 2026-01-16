@@ -15,19 +15,11 @@
 
 ??? note "Lanturn ROM Changes"
 
-	**Base Stats Changes:**
-
-	- `125 HP / 58 Atk / 58 Def / 76 SAtk / 76 SDef / 67 Spd` → `125 HP / 58 Atk / 58 Def / 91 SAtk / 86 SDef / 67 Spd`
-
-	**Abilities Changes:**
-
-	- `volt-absorb / illuminate / water-absorb` → `volt-absorb / water-absorb / illuminate`
-
 	**Level-up Moves Changes:**
 
 	- `19 moves` → `25 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `29 moves` → `31 moves (added: tri-attack, dazzling-gleam)`
 
@@ -41,8 +33,8 @@
 	---
 
 	- [Volt Absorb](../../pokedex/abilities/volt-absorb.md)
-	- [Water Absorb](../../pokedex/abilities/water-absorb.md)
-	- [Illuminate](../../pokedex/abilities/illuminate.md) :material-eye-off:
+	- [Illuminate](../../pokedex/abilities/illuminate.md)
+	- [Water Absorb](../../pokedex/abilities/water-absorb.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 
@@ -137,10 +129,10 @@ These items can be found when catching or defeating this Pokémon in the wild:
 | **HP** | **125** | 360 | 454 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 49.01960784313725%;"></div></div> |
 | **Attack** | **58** | 108 | 236 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 22.745098039215687%;"></div></div> |
 | **Defense** | **58** | 108 | 236 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 22.745098039215687%;"></div></div> |
-| **Sp. Atk** | **91** | 168 | 309 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 35.68627450980392%;"></div></div> |
-| **Sp. Def** | **86** | 159 | 298 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 33.72549019607843%;"></div></div> |
+| **Sp. Atk** | **76** | 141 | 276 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 29.80392156862745%;"></div></div> |
+| **Sp. Def** | **76** | 141 | 276 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 29.80392156862745%;"></div></div> |
 | **Speed** | **67** | 125 | 256 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 26.27450980392157%;"></div></div> |
-| **Base Stat Total** | **485** | | | |
+| **Base Stat Total** | **460** | | | |
 
 > **Min/Max Stats:** Calculated at Level 100.
 >

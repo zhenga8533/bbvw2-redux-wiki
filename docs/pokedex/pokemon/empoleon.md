@@ -15,19 +15,11 @@
 
 ??? note "Empoleon ROM Changes"
 
-	**Base Stats Changes:**
-
-	- `84 HP / 86 Atk / 88 Def / 111 SAtk / 101 SDef / 60 Spd` → `84 HP / 91 Atk / 88 Def / 111 SAtk / 101 SDef / 60 Spd`
-
-	**Abilities Changes:**
-
-	- `defiant / competitive` → `defiant / torrent / defiant`
-
 	**Level-up Moves Changes:**
 
 	- `17 moves` → `25 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `42 moves` → `43 moves (added: wave-crash)`
 
@@ -41,8 +33,7 @@
 	---
 
 	- [Defiant](../../pokedex/abilities/defiant.md)
-	- [Torrent](../../pokedex/abilities/torrent.md)
-	- [Defiant](../../pokedex/abilities/defiant.md) :material-eye-off:
+	- Competitive :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 
@@ -134,12 +125,12 @@
 | Stat | Base | Min | Max | Distribution |
 |------|-----:|----:|----:|:-------------|
 | **HP** | **84** | 278 | 372 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 32.94117647058823%;"></div></div> |
-| **Attack** | **91** | 168 | 309 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 35.68627450980392%;"></div></div> |
+| **Attack** | **86** | 159 | 298 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 33.72549019607843%;"></div></div> |
 | **Defense** | **88** | 162 | 302 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 34.509803921568626%;"></div></div> |
 | **Sp. Atk** | **111** | 204 | 353 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 43.529411764705884%;"></div></div> |
 | **Sp. Def** | **101** | 186 | 331 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 39.6078431372549%;"></div></div> |
 | **Speed** | **60** | 112 | 240 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 23.52941176470588%;"></div></div> |
-| **Base Stat Total** | **535** | | | |
+| **Base Stat Total** | **530** | | | |
 
 > **Min/Max Stats:** Calculated at Level 100.
 >

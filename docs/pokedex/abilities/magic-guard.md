@@ -34,24 +34,6 @@
 
 	**#036 [Clefable](../pokemon/clefable.md)**
 
--	[![Abra](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/63.gif){: .pokemon-sprite-img }](../pokemon/abra.md)
-
-	***
-
-	**#063 [Abra](../pokemon/abra.md)**
-
--	[![Kadabra](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/64.gif){: .pokemon-sprite-img }](../pokemon/kadabra.md)
-
-	***
-
-	**#064 [Kadabra](../pokemon/kadabra.md)**
-
--	[![Alakazam](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/65.gif){: .pokemon-sprite-img }](../pokemon/alakazam.md)
-
-	***
-
-	**#065 [Alakazam](../pokemon/alakazam.md)**
-
 -	[![Cleffa](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/173.gif){: .pokemon-sprite-img }](../pokemon/cleffa.md)
 
 	***
@@ -81,6 +63,30 @@
 	***
 
 	**#579 [Reuniclus](../pokemon/reuniclus.md)**
+
+</div>
+
+### :material-eye-off: Hidden Ability
+
+<div class="grid cards" markdown>
+
+-	[![Abra](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/63.gif){: .pokemon-sprite-img }](../pokemon/abra.md)
+
+	***
+
+	**#063 [Abra](../pokemon/abra.md)**
+
+-	[![Kadabra](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/64.gif){: .pokemon-sprite-img }](../pokemon/kadabra.md)
+
+	***
+
+	**#064 [Kadabra](../pokemon/kadabra.md)**
+
+-	[![Alakazam](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/65.gif){: .pokemon-sprite-img }](../pokemon/alakazam.md)
+
+	***
+
+	**#065 [Alakazam](../pokemon/alakazam.md)**
 
 </div>
 

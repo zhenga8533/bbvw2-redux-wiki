@@ -15,19 +15,11 @@
 
 ??? note "Swellow ROM Changes"
 
-	**Base Stats Changes:**
-
-	- `60 HP / 85 Atk / 60 Def / 50 SAtk / 50 SDef / 125 Spd` → `60 HP / 85 Atk / 60 Def / 85 SAtk / 50 SDef / 125 Spd`
-
-	**Abilities Changes:**
-
-	- `guts / scrappy` → `guts / scrappy / scrappy`
-
 	**Level-up Moves Changes:**
 
 	- `13 moves` → `25 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `23 moves` → `24 moves (added: hurricane)`
 
@@ -41,7 +33,6 @@
 	---
 
 	- [Guts](../../pokedex/abilities/guts.md)
-	- [Scrappy](../../pokedex/abilities/scrappy.md)
 	- [Scrappy](../../pokedex/abilities/scrappy.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
@@ -141,10 +132,10 @@ These items can be found when catching or defeating this Pokémon in the wild:
 | **HP** | **60** | 230 | 324 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 23.52941176470588%;"></div></div> |
 | **Attack** | **85** | 157 | 295 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 33.33333333333333%;"></div></div> |
 | **Defense** | **60** | 112 | 240 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 23.52941176470588%;"></div></div> |
-| **Sp. Atk** | **85** | 157 | 295 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 33.33333333333333%;"></div></div> |
+| **Sp. Atk** | **50** | 94 | 218 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 19.607843137254903%;"></div></div> |
 | **Sp. Def** | **50** | 94 | 218 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 19.607843137254903%;"></div></div> |
 | **Speed** | **125** | 229 | 383 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 49.01960784313725%;"></div></div> |
-| **Base Stat Total** | **465** | | | |
+| **Base Stat Total** | **430** | | | |
 
 > **Min/Max Stats:** Calculated at Level 100.
 >

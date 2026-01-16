@@ -28,17 +28,35 @@
 
 	**#029 [Nidoran♀](../pokemon/nidoran-f.md)**
 
+-	[![Nidorina](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/30.gif){: .pokemon-sprite-img }](../pokemon/nidorina.md)
+
+	***
+
+	**#030 [Nidorina](../pokemon/nidorina.md)**
+
+-	[![Nidoqueen](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/31.gif){: .pokemon-sprite-img }](../pokemon/nidoqueen.md)
+
+	***
+
+	**#031 [Nidoqueen](../pokemon/nidoqueen.md)**
+
 -	[![Nidoran♂](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/32.gif){: .pokemon-sprite-img }](../pokemon/nidoran-m.md)
 
 	***
 
 	**#032 [Nidoran♂](../pokemon/nidoran-m.md)**
 
--	[![Beautifly](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/267.gif){: .pokemon-sprite-img }](../pokemon/beautifly.md)
+-	[![Nidorino](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/33.gif){: .pokemon-sprite-img }](../pokemon/nidorino.md)
 
 	***
 
-	**#267 [Beautifly](../pokemon/beautifly.md)**
+	**#033 [Nidorino](../pokemon/nidorino.md)**
+
+-	[![Nidoking](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/34.gif){: .pokemon-sprite-img }](../pokemon/nidoking.md)
+
+	***
+
+	**#034 [Nidoking](../pokemon/nidoking.md)**
 
 -	[![Shinx](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/403.gif){: .pokemon-sprite-img }](../pokemon/shinx.md)
 
@@ -51,6 +69,12 @@
 	***
 
 	**#404 [Luxio](../pokemon/luxio.md)**
+
+-	[![Luxray](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/405.gif){: .pokemon-sprite-img }](../pokemon/luxray.md)
+
+	***
+
+	**#405 [Luxray](../pokemon/luxray.md)**
 
 -	[![Axew](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/610.gif){: .pokemon-sprite-img }](../pokemon/axew.md)
 
@@ -76,53 +100,11 @@
 
 <div class="grid cards" markdown>
 
--	[![Nidorina](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/30.gif){: .pokemon-sprite-img }](../pokemon/nidorina.md)
-
-	***
-
-	**#030 [Nidorina](../pokemon/nidorina.md)**
-
--	[![Nidoqueen](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/31.gif){: .pokemon-sprite-img }](../pokemon/nidoqueen.md)
-
-	***
-
-	**#031 [Nidoqueen](../pokemon/nidoqueen.md)**
-
--	[![Nidorino](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/33.gif){: .pokemon-sprite-img }](../pokemon/nidorino.md)
-
-	***
-
-	**#033 [Nidorino](../pokemon/nidorino.md)**
-
--	[![Nidoking](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/34.gif){: .pokemon-sprite-img }](../pokemon/nidoking.md)
-
-	***
-
-	**#034 [Nidoking](../pokemon/nidoking.md)**
-
 -	[![Beautifly](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/267.gif){: .pokemon-sprite-img }](../pokemon/beautifly.md)
 
 	***
 
 	**#267 [Beautifly](../pokemon/beautifly.md)**
-
--	[![Pidove](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/519.gif){: .pokemon-sprite-img }](../pokemon/pidove.md)
-
-	***
-
-	**#519 [Pidove](../pokemon/pidove.md)**
-
--	[![Tranquill](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/520.gif){: .pokemon-sprite-img }](../pokemon/tranquill.md)
-
-	***
-
-	**#520 [Tranquill](../pokemon/tranquill.md)**
-
--	[![Unfezant](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/521.gif){: .pokemon-sprite-img }](../pokemon/unfezant.md)
-
-	***
-
-	**#521 [Unfezant](../pokemon/unfezant.md)**
 
 </div>
 

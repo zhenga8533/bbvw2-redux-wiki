@@ -15,9 +15,9 @@
 
 ??? note "Bayleef ROM Changes"
 
-	**Abilities Changes:**
+	**Ability Changes:**
 
-	- `overgrow / leaf-guard` → `serene-grace / overgrow / leaf-guard`
+	- `(none)` → `serene-grace`
 
 	**Type Changes:**
 
@@ -27,7 +27,7 @@
 
 	- `16 moves` → `21 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `25 moves` → `26 moves (added: dazzling-gleam)`
 
@@ -40,9 +40,9 @@
 
 	---
 
-	- [Serene Grace](../../pokedex/abilities/serene-grace.md)
 	- [Overgrow](../../pokedex/abilities/overgrow.md)
 	- [Leaf Guard](../../pokedex/abilities/leaf-guard.md) :material-eye-off:
+	- [Serene Grace](../../pokedex/abilities/serene-grace.md)
 
 - **:material-ruler: Physical Attributes**
 

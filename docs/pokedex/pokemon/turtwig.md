@@ -15,10 +15,6 @@
 
 ??? note "Turtwig ROM Changes"
 
-	**Abilities Changes:**
-
-	- `overgrow / shell-armor` → `shell-armor / overgrow / shell-armor`
-
 	**Level-up Moves Changes:**
 
 	- `12 moves` → `18 moves`
@@ -32,7 +28,6 @@
 
 	---
 
-	- [Shell Armor](../../pokedex/abilities/shell-armor.md)
 	- [Overgrow](../../pokedex/abilities/overgrow.md)
 	- [Shell Armor](../../pokedex/abilities/shell-armor.md) :material-eye-off:
 

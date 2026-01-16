@@ -15,15 +15,11 @@
 
 ??? note "Murkrow ROM Changes"
 
-	**Abilities Changes:**
-
-	- `insomnia / super-luck / prankster` → `prankster / super-luck / prankster`
-
 	**Level-up Moves Changes:**
 
 	- `15 moves` → `20 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `31 moves` → `32 moves (added: hurricane)`
 
@@ -36,7 +32,7 @@
 
 	---
 
-	- [Prankster](../../pokedex/abilities/prankster.md)
+	- [Insomnia](../../pokedex/abilities/insomnia.md)
 	- [Super Luck](../../pokedex/abilities/super-luck.md)
 	- [Prankster](../../pokedex/abilities/prankster.md) :material-eye-off:
 

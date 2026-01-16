@@ -15,19 +15,11 @@
 
 ??? note "Feraligatr ROM Changes"
 
-	**Base Stats Changes:**
-
-	- `85 HP / 105 Atk / 100 Def / 79 SAtk / 83 SDef / 78 Spd` → `85 HP / 110 Atk / 100 Def / 69 SAtk / 83 SDef / 88 Spd`
-
-	**Abilities Changes:**
-
-	- `torrent / sheer-force` → `sheer-force / torrent / sheer-force`
-
 	**Level-up Moves Changes:**
 
 	- `19 moves` → `25 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `40 moves` → `41 moves (added: wave-crash)`
 
@@ -40,7 +32,6 @@
 
 	---
 
-	- [Sheer Force](../../pokedex/abilities/sheer-force.md)
 	- [Torrent](../../pokedex/abilities/torrent.md)
 	- [Sheer Force](../../pokedex/abilities/sheer-force.md) :material-eye-off:
 
@@ -122,12 +113,12 @@
 | Stat | Base | Min | Max | Distribution |
 |------|-----:|----:|----:|:-------------|
 | **HP** | **85** | 280 | 374 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 33.33333333333333%;"></div></div> |
-| **Attack** | **110** | 202 | 350 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 43.13725490196079%;"></div></div> |
+| **Attack** | **105** | 193 | 339 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 41.17647058823529%;"></div></div> |
 | **Defense** | **100** | 184 | 328 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 39.21568627450981%;"></div></div> |
-| **Sp. Atk** | **69** | 128 | 260 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 27.058823529411764%;"></div></div> |
+| **Sp. Atk** | **79** | 146 | 282 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 30.980392156862745%;"></div></div> |
 | **Sp. Def** | **83** | 153 | 291 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 32.549019607843135%;"></div></div> |
-| **Speed** | **88** | 162 | 302 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 34.509803921568626%;"></div></div> |
-| **Base Stat Total** | **535** | | | |
+| **Speed** | **78** | 144 | 280 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 30.58823529411765%;"></div></div> |
+| **Base Stat Total** | **530** | | | |
 
 > **Min/Max Stats:** Calculated at Level 100.
 >

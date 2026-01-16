@@ -15,9 +15,9 @@
 
 ??? note "Vileplume ROM Changes"
 
-	**Abilities Changes:**
+	**Ability Changes:**
 
-	- `chlorophyll / effect-spore` → `thick-fat / effect-spore / effect-spore`
+	- `(none)` → `thick-fat`
 
 	**Level-up Moves Changes:**
 
@@ -32,9 +32,9 @@
 
 	---
 
-	- [Thick Fat](../../pokedex/abilities/thick-fat.md)
-	- [Effect Spore](../../pokedex/abilities/effect-spore.md)
+	- [Chlorophyll](../../pokedex/abilities/chlorophyll.md)
 	- [Effect Spore](../../pokedex/abilities/effect-spore.md) :material-eye-off:
+	- [Thick Fat](../../pokedex/abilities/thick-fat.md)
 
 - **:material-ruler: Physical Attributes**
 

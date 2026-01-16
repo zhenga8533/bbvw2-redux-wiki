@@ -20,15 +20,11 @@
 
 	- `vullaby > mandibuzz: level-up (level 54)` → `vullaby > mandibuzz: level-up (level 40)`
 
-	**Abilities Changes:**
-
-	- `big-pecks / overcoat / weak-armor` → `overcoat / weak-armor / overcoat`
-
 	**Level-up Moves Changes:**
 
 	- `16 moves` → `22 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `31 moves` → `32 moves (added: hurricane)`
 
@@ -41,9 +37,9 @@
 
 	---
 
+	- [Big Pecks](../../pokedex/abilities/big-pecks.md)
 	- [Overcoat](../../pokedex/abilities/overcoat.md)
-	- [Weak Armor](../../pokedex/abilities/weak-armor.md)
-	- [Overcoat](../../pokedex/abilities/overcoat.md) :material-eye-off:
+	- [Weak Armor](../../pokedex/abilities/weak-armor.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

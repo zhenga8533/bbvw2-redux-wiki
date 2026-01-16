@@ -19,10 +19,6 @@
 
 	- `riolu > lucario: level-up (happiness, day)` → `riolu > lucario: level-up (knows aura-sphere)`
 
-	**Abilities Changes:**
-
-	- `steadfast / inner-focus / justified` → `justified / steadfast / inner-focus`
-
 	**Level-up Moves Changes:**
 
 	- `23 moves` → `25 moves`
@@ -36,9 +32,9 @@
 
 	---
 
-	- [Justified](../../pokedex/abilities/justified.md)
 	- [Steadfast](../../pokedex/abilities/steadfast.md)
-	- [Inner Focus](../../pokedex/abilities/inner-focus.md) :material-eye-off:
+	- [Inner Focus](../../pokedex/abilities/inner-focus.md)
+	- [Justified](../../pokedex/abilities/justified.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

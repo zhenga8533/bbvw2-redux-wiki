@@ -52,6 +52,12 @@
 
 	**#465 [Tangrowth](../pokemon/tangrowth.md)**
 
+-	[![Leafeon](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/470.gif){: .pokemon-sprite-img }](../pokemon/leafeon.md)
+
+	***
+
+	**#470 [Leafeon](../pokemon/leafeon.md)**
+
 -	[![Swadloon](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/541.gif){: .pokemon-sprite-img }](../pokemon/swadloon.md)
 
 	***

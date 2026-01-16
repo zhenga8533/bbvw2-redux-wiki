@@ -15,19 +15,11 @@
 
 ??? note "Raticate ROM Changes"
 
-	**Base Stats Changes:**
-
-	- `55 HP / 81 Atk / 60 Def / 50 SAtk / 70 SDef / 97 Spd` → `60 HP / 92 Atk / 60 Def / 50 SAtk / 70 SDef / 108 Spd`
-
-	**Abilities Changes:**
-
-	- `run-away / guts / hustle` → `hustle / guts / run-away`
-
 	**Level-up Moves Changes:**
 
 	- `17 moves` → `25 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `37 moves` → `43 moves (added: hone-claws, aerial-ace, false-swipe, quash, shadow-claw...)`
 
@@ -40,9 +32,9 @@
 
 	---
 
-	- [Hustle](../../pokedex/abilities/hustle.md)
+	- [Run Away](../../pokedex/abilities/run-away.md)
 	- [Guts](../../pokedex/abilities/guts.md)
-	- [Run Away](../../pokedex/abilities/run-away.md) :material-eye-off:
+	- [Hustle](../../pokedex/abilities/hustle.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 
@@ -131,13 +123,13 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Stat | Base | Min | Max | Distribution |
 |------|-----:|----:|----:|:-------------|
-| **HP** | **60** | 230 | 324 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 23.52941176470588%;"></div></div> |
-| **Attack** | **92** | 170 | 311 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 36.07843137254902%;"></div></div> |
+| **HP** | **55** | 220 | 314 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 21.568627450980394%;"></div></div> |
+| **Attack** | **81** | 150 | 287 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 31.76470588235294%;"></div></div> |
 | **Defense** | **60** | 112 | 240 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 23.52941176470588%;"></div></div> |
 | **Sp. Atk** | **50** | 94 | 218 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 19.607843137254903%;"></div></div> |
 | **Sp. Def** | **70** | 130 | 262 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 27.450980392156865%;"></div></div> |
-| **Speed** | **108** | 198 | 346 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 42.35294117647059%;"></div></div> |
-| **Base Stat Total** | **440** | | | |
+| **Speed** | **97** | 179 | 322 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 38.03921568627451%;"></div></div> |
+| **Base Stat Total** | **413** | | | |
 
 > **Min/Max Stats:** Calculated at Level 100.
 >

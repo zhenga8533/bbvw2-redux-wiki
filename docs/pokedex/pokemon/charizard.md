@@ -15,13 +15,9 @@
 
 ??? note "Charizard ROM Changes"
 
-	**Base Stats Changes:**
+	**Ability Changes:**
 
-	- `78 HP / 84 Atk / 78 Def / 109 SAtk / 85 SDef / 100 Spd` → `75 HP / 101 Atk / 75 Def / 109 SAtk / 75 SDef / 100 Spd`
-
-	**Abilities Changes:**
-
-	- `blaze / solar-power` → `defiant / blaze / solar-power`
+	- `(none)` → `defiant`
 
 	**Type Changes:**
 
@@ -31,7 +27,7 @@
 
 	- `20 moves` → `25 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `43 moves` → `47 moves (added: low-sweep, false-swipe, hurricane, acrobatics)`
 
@@ -44,9 +40,9 @@
 
 	---
 
-	- [Defiant](../../pokedex/abilities/defiant.md)
 	- [Blaze](../../pokedex/abilities/blaze.md)
 	- [Solar Power](../../pokedex/abilities/solar-power.md) :material-eye-off:
+	- [Defiant](../../pokedex/abilities/defiant.md)
 
 - **:material-ruler: Physical Attributes**
 
@@ -130,13 +126,13 @@
 
 | Stat | Base | Min | Max | Distribution |
 |------|-----:|----:|----:|:-------------|
-| **HP** | **75** | 260 | 354 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 29.411764705882355%;"></div></div> |
-| **Attack** | **101** | 186 | 331 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 39.6078431372549%;"></div></div> |
-| **Defense** | **75** | 139 | 273 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 29.411764705882355%;"></div></div> |
+| **HP** | **78** | 266 | 360 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 30.58823529411765%;"></div></div> |
+| **Attack** | **84** | 155 | 293 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 32.94117647058823%;"></div></div> |
+| **Defense** | **78** | 144 | 280 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 30.58823529411765%;"></div></div> |
 | **Sp. Atk** | **109** | 200 | 348 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 42.745098039215684%;"></div></div> |
-| **Sp. Def** | **75** | 139 | 273 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 29.411764705882355%;"></div></div> |
+| **Sp. Def** | **85** | 157 | 295 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 33.33333333333333%;"></div></div> |
 | **Speed** | **100** | 184 | 328 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 39.21568627450981%;"></div></div> |
-| **Base Stat Total** | **535** | | | |
+| **Base Stat Total** | **534** | | | |
 
 > **Min/Max Stats:** Calculated at Level 100.
 >

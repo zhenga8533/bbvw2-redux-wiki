@@ -15,10 +15,6 @@
 
 ??? note "Combee ROM Changes"
 
-	**Abilities Changes:**
-
-	- `honey-gather / hustle` → `honey-gather / hustle / hustle`
-
 	**Gender Ratio Changes:**
 
 	- `87.5% Male / 12.5% Female` → `50.0% Male / 50.0% Female`
@@ -37,7 +33,6 @@
 	---
 
 	- [Honey Gather](../../pokedex/abilities/honey-gather.md)
-	- [Hustle](../../pokedex/abilities/hustle.md)
 	- [Hustle](../../pokedex/abilities/hustle.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**

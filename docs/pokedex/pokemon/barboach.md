@@ -15,15 +15,15 @@
 
 ??? note "Barboach ROM Changes"
 
-	**Abilities Changes:**
+	**Ability Changes:**
 
-	- `oblivious / anticipation / hydration` → `simple / anticipation / hydration`
+	- `hydration` → `simple`
 
 	**Level-up Moves Changes:**
 
 	- `14 moves` → `22 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `24 moves` → `25 moves (added: wave-crash)`
 
@@ -36,9 +36,9 @@
 
 	---
 
-	- [Simple](../../pokedex/abilities/simple.md)
+	- [Oblivious](../../pokedex/abilities/oblivious.md)
 	- [Anticipation](../../pokedex/abilities/anticipation.md)
-	- [Hydration](../../pokedex/abilities/hydration.md) :material-eye-off:
+	- [Simple](../../pokedex/abilities/simple.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

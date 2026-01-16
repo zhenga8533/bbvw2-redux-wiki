@@ -15,15 +15,15 @@
 
 ??? note "Wingull ROM Changes"
 
-	**Abilities Changes:**
+	**Ability Changes:**
 
-	- `keen-eye / rain-dish` → `hydration / rain-dish / keen-eye`
+	- `(none)` → `hydration`
 
 	**Level-up Moves Changes:**
 
 	- `23 moves` → `21 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `23 moves` → `24 moves (added: acrobatics)`
 
@@ -36,9 +36,9 @@
 
 	---
 
+	- [Keen Eye](../../pokedex/abilities/keen-eye.md)
+	- [Rain Dish](../../pokedex/abilities/rain-dish.md) :material-eye-off:
 	- [Hydration](../../pokedex/abilities/hydration.md)
-	- [Rain Dish](../../pokedex/abilities/rain-dish.md)
-	- [Keen Eye](../../pokedex/abilities/keen-eye.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

@@ -22,24 +22,6 @@
 
 <div class="grid cards" markdown>
 
--	[![Gulpin](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/316.gif){: .pokemon-sprite-img }](../pokemon/gulpin.md)
-
-	***
-
-	**#316 [Gulpin](../pokemon/gulpin.md)**
-
--	[![Swalot](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/317.gif){: .pokemon-sprite-img }](../pokemon/swalot.md)
-
-	***
-
-	**#317 [Swalot](../pokemon/swalot.md)**
-
-</div>
-
-### :material-eye-off: Hidden Ability
-
-<div class="grid cards" markdown>
-
 -	[![Tentacool](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/72.gif){: .pokemon-sprite-img }](../pokemon/tentacool.md)
 
 	***
@@ -51,6 +33,18 @@
 	***
 
 	**#073 [Tentacruel](../pokemon/tentacruel.md)**
+
+-	[![Gulpin](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/316.gif){: .pokemon-sprite-img }](../pokemon/gulpin.md)
+
+	***
+
+	**#316 [Gulpin](../pokemon/gulpin.md)**
+
+-	[![Swalot](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/317.gif){: .pokemon-sprite-img }](../pokemon/swalot.md)
+
+	***
+
+	**#317 [Swalot](../pokemon/swalot.md)**
 
 </div>
 

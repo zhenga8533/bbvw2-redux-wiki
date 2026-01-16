@@ -3,7 +3,7 @@
 
 ??? note "Poison Gas ROM Changes"
 
-	**Pp Changes:**
+	**PP Changes:**
 
 	- `40` → `20`
 

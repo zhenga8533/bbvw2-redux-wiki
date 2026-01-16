@@ -94,42 +94,6 @@
 
 	**#412 [Burmy](../pokemon/burmy.md)**
 
-</div>
-
-### :material-eye-off: Hidden Ability
-
-<div class="grid cards" markdown>
-
--	[![Metapod](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/11.gif){: .pokemon-sprite-img }](../pokemon/metapod.md)
-
-	***
-
-	**#011 [Metapod](../pokemon/metapod.md)**
-
--	[![Kakuna](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/14.gif){: .pokemon-sprite-img }](../pokemon/kakuna.md)
-
-	***
-
-	**#014 [Kakuna](../pokemon/kakuna.md)**
-
--	[![Pupitar](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/247.gif){: .pokemon-sprite-img }](../pokemon/pupitar.md)
-
-	***
-
-	**#247 [Pupitar](../pokemon/pupitar.md)**
-
--	[![Silcoon](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/266.gif){: .pokemon-sprite-img }](../pokemon/silcoon.md)
-
-	***
-
-	**#266 [Silcoon](../pokemon/silcoon.md)**
-
--	[![Cascoon](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/268.gif){: .pokemon-sprite-img }](../pokemon/cascoon.md)
-
-	***
-
-	**#268 [Cascoon](../pokemon/cascoon.md)**
-
 -	[![Scraggy](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/559.gif){: .pokemon-sprite-img }](../pokemon/scraggy.md)
 
 	***

@@ -34,23 +34,11 @@
 
 	**#087 [Dewgong](../pokemon/dewgong.md)**
 
--	[![Vaporeon](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/134.gif){: .pokemon-sprite-img }](../pokemon/vaporeon.md)
-
-	***
-
-	**#134 [Vaporeon](../pokemon/vaporeon.md)**
-
 -	[![Wingull](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/278.gif){: .pokemon-sprite-img }](../pokemon/wingull.md)
 
 	***
 
 	**#278 [Wingull](../pokemon/wingull.md)**
-
--	[![Luvdisc](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/370.gif){: .pokemon-sprite-img }](../pokemon/luvdisc.md)
-
-	***
-
-	**#370 [Luvdisc](../pokemon/luvdisc.md)**
 
 -	[![Phione](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/489.gif){: .pokemon-sprite-img }](../pokemon/phione.md)
 
@@ -82,6 +70,18 @@
 
 	**#594 [Alomomola](../pokemon/alomomola.md)**
 
+-	[![Shelmet](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/616.gif){: .pokemon-sprite-img }](../pokemon/shelmet.md)
+
+	***
+
+	**#616 [Shelmet](../pokemon/shelmet.md)**
+
+-	[![Accelgor](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/617.gif){: .pokemon-sprite-img }](../pokemon/accelgor.md)
+
+	***
+
+	**#617 [Accelgor](../pokemon/accelgor.md)**
+
 </div>
 
 ### :material-eye-off: Hidden Ability
@@ -100,18 +100,6 @@
 
 	**#134 [Vaporeon](../pokemon/vaporeon.md)**
 
--	[![Barboach](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/339.gif){: .pokemon-sprite-img }](../pokemon/barboach.md)
-
-	***
-
-	**#339 [Barboach](../pokemon/barboach.md)**
-
--	[![Whiscash](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/340.gif){: .pokemon-sprite-img }](../pokemon/whiscash.md)
-
-	***
-
-	**#340 [Whiscash](../pokemon/whiscash.md)**
-
 -	[![Gorebyss](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/368.gif){: .pokemon-sprite-img }](../pokemon/gorebyss.md)
 
 	***
@@ -123,24 +111,6 @@
 	***
 
 	**#370 [Luvdisc](../pokemon/luvdisc.md)**
-
--	[![Ducklett](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/580.gif){: .pokemon-sprite-img }](../pokemon/ducklett.md)
-
-	***
-
-	**#580 [Ducklett](../pokemon/ducklett.md)**
-
--	[![Swanna](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/581.gif){: .pokemon-sprite-img }](../pokemon/swanna.md)
-
-	***
-
-	**#581 [Swanna](../pokemon/swanna.md)**
-
--	[![Shelmet](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/616.gif){: .pokemon-sprite-img }](../pokemon/shelmet.md)
-
-	***
-
-	**#616 [Shelmet](../pokemon/shelmet.md)**
 
 </div>
 

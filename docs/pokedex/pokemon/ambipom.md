@@ -15,19 +15,11 @@
 
 ??? note "Ambipom ROM Changes"
 
-	**Base Stats Changes:**
-
-	- `75 HP / 100 Atk / 66 Def / 60 SAtk / 66 SDef / 115 Spd` → `75 HP / 105 Atk / 66 Def / 68 SAtk / 66 SDef / 115 Spd`
-
-	**Abilities Changes:**
-
-	- `technician / pickup / skill-link` → `skill-link / technician / pickup`
-
 	**Level-up Moves Changes:**
 
 	- `16 moves` → `21 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `40 moves` → `42 moves (added: quash, play-rough)`
 
@@ -40,9 +32,9 @@
 
 	---
 
-	- [Skill Link](../../pokedex/abilities/skill-link.md)
 	- [Technician](../../pokedex/abilities/technician.md)
-	- [Pickup](../../pokedex/abilities/pickup.md) :material-eye-off:
+	- [Pickup](../../pokedex/abilities/pickup.md)
+	- [Skill Link](../../pokedex/abilities/skill-link.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 
@@ -122,12 +114,12 @@
 | Stat | Base | Min | Max | Distribution |
 |------|-----:|----:|----:|:-------------|
 | **HP** | **75** | 260 | 354 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 29.411764705882355%;"></div></div> |
-| **Attack** | **105** | 193 | 339 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 41.17647058823529%;"></div></div> |
+| **Attack** | **100** | 184 | 328 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 39.21568627450981%;"></div></div> |
 | **Defense** | **66** | 123 | 254 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 25.882352941176475%;"></div></div> |
-| **Sp. Atk** | **68** | 126 | 258 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 26.666666666666668%;"></div></div> |
+| **Sp. Atk** | **60** | 112 | 240 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 23.52941176470588%;"></div></div> |
 | **Sp. Def** | **66** | 123 | 254 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 25.882352941176475%;"></div></div> |
 | **Speed** | **115** | 211 | 361 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 45.09803921568628%;"></div></div> |
-| **Base Stat Total** | **495** | | | |
+| **Base Stat Total** | **482** | | | |
 
 > **Min/Max Stats:** Calculated at Level 100.
 >

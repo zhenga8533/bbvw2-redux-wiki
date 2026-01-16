@@ -15,19 +15,15 @@
 
 ??? note "Octillery ROM Changes"
 
-	**Base Stats Changes:**
+	**Ability Changes:**
 
-	- `75 HP / 105 Atk / 75 Def / 105 SAtk / 75 SDef / 45 Spd` → `75 HP / 115 Atk / 75 Def / 115 SAtk / 75 SDef / 45 Spd`
-
-	**Abilities Changes:**
-
-	- `suction-cups / sniper / moody` → `mold-breaker / sniper / suction-cups`
+	- `moody` → `mold-breaker`
 
 	**Level-up Moves Changes:**
 
 	- `27 moves` → `24 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `35 moves` → `37 moves (added: tri-attack, work-up)`
 
@@ -40,9 +36,9 @@
 
 	---
 
-	- [Mold Breaker](../../pokedex/abilities/mold-breaker.md)
+	- [Suction Cups](../../pokedex/abilities/suction-cups.md)
 	- [Sniper](../../pokedex/abilities/sniper.md)
-	- [Suction Cups](../../pokedex/abilities/suction-cups.md) :material-eye-off:
+	- [Mold Breaker](../../pokedex/abilities/mold-breaker.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 
@@ -124,12 +120,12 @@
 | Stat | Base | Min | Max | Distribution |
 |------|-----:|----:|----:|:-------------|
 | **HP** | **75** | 260 | 354 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 29.411764705882355%;"></div></div> |
-| **Attack** | **115** | 211 | 361 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 45.09803921568628%;"></div></div> |
+| **Attack** | **105** | 193 | 339 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 41.17647058823529%;"></div></div> |
 | **Defense** | **75** | 139 | 273 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 29.411764705882355%;"></div></div> |
-| **Sp. Atk** | **115** | 211 | 361 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 45.09803921568628%;"></div></div> |
+| **Sp. Atk** | **105** | 193 | 339 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 41.17647058823529%;"></div></div> |
 | **Sp. Def** | **75** | 139 | 273 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 29.411764705882355%;"></div></div> |
 | **Speed** | **45** | 85 | 207 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 17.647058823529413%;"></div></div> |
-| **Base Stat Total** | **500** | | | |
+| **Base Stat Total** | **480** | | | |
 
 > **Min/Max Stats:** Calculated at Level 100.
 >

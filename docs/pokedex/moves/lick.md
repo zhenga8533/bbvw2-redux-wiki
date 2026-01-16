@@ -3,7 +3,7 @@
 
 ??? note "Lick ROM Changes"
 
-	**Pp Changes:**
+	**PP Changes:**
 
 	- `30` → `25`
 

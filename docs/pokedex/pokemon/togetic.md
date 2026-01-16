@@ -15,15 +15,11 @@
 
 ??? note "Togetic ROM Changes"
 
-	**Abilities Changes:**
-
-	- `hustle / serene-grace / super-luck` → `super-luck / serene-grace / super-luck`
-
 	**Level-up Moves Changes:**
 
 	- `18 moves` → `25 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `40 moves` → `42 moves (added: tri-attack, hurricane)`
 
@@ -36,7 +32,7 @@
 
 	---
 
-	- [Super Luck](../../pokedex/abilities/super-luck.md)
+	- [Hustle](../../pokedex/abilities/hustle.md)
 	- [Serene Grace](../../pokedex/abilities/serene-grace.md)
 	- [Super Luck](../../pokedex/abilities/super-luck.md) :material-eye-off:
 

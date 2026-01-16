@@ -16,15 +16,11 @@
 
 ??? note "Regigigas ROM Changes"
 
-	**Abilities Changes:**
-
-	- `slow-start` → `slow-start / defeatist / slow-start`
-
 	**Level-up Moves Changes:**
 
 	- `14 moves` → `15 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `33 moves` → `36 moves (added: low-sweep, quash, work-up)`
 
@@ -38,8 +34,6 @@
 	---
 
 	- [Slow Start](../../pokedex/abilities/slow-start.md)
-	- [Defeatist](../../pokedex/abilities/defeatist.md)
-	- [Slow Start](../../pokedex/abilities/slow-start.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

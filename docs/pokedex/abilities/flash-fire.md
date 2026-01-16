@@ -46,29 +46,23 @@
 
 	**#059 [Arcanine](../pokemon/arcanine.md)**
 
+-	[![Ponyta](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/77.gif){: .pokemon-sprite-img }](../pokemon/ponyta.md)
+
+	***
+
+	**#077 [Ponyta](../pokemon/ponyta.md)**
+
+-	[![Rapidash](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/78.gif){: .pokemon-sprite-img }](../pokemon/rapidash.md)
+
+	***
+
+	**#078 [Rapidash](../pokemon/rapidash.md)**
+
 -	[![Flareon](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/136.gif){: .pokemon-sprite-img }](../pokemon/flareon.md)
 
 	***
 
 	**#136 [Flareon](../pokemon/flareon.md)**
-
--	[![Cyndaquil](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/155.gif){: .pokemon-sprite-img }](../pokemon/cyndaquil.md)
-
-	***
-
-	**#155 [Cyndaquil](../pokemon/cyndaquil.md)**
-
--	[![Quilava](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/156.gif){: .pokemon-sprite-img }](../pokemon/quilava.md)
-
-	***
-
-	**#156 [Quilava](../pokemon/quilava.md)**
-
--	[![Typhlosion](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/157.gif){: .pokemon-sprite-img }](../pokemon/typhlosion.md)
-
-	***
-
-	**#157 [Typhlosion](../pokemon/typhlosion.md)**
 
 -	[![Houndour](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/228.gif){: .pokemon-sprite-img }](../pokemon/houndour.md)
 
@@ -87,24 +81,6 @@
 	***
 
 	**#485 [Heatran](../pokemon/heatran.md)**
-
--	[![Litwick](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/607.gif){: .pokemon-sprite-img }](../pokemon/litwick.md)
-
-	***
-
-	**#607 [Litwick](../pokemon/litwick.md)**
-
--	[![Lampent](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/608.gif){: .pokemon-sprite-img }](../pokemon/lampent.md)
-
-	***
-
-	**#608 [Lampent](../pokemon/lampent.md)**
-
--	[![Chandelure](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/609.gif){: .pokemon-sprite-img }](../pokemon/chandelure.md)
-
-	***
-
-	**#609 [Chandelure](../pokemon/chandelure.md)**
 
 -	[![Heatmor](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/631.gif){: .pokemon-sprite-img }](../pokemon/heatmor.md)
 
@@ -135,6 +111,24 @@
 	***
 
 	**#157 [Typhlosion](../pokemon/typhlosion.md)**
+
+-	[![Litwick](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/607.gif){: .pokemon-sprite-img }](../pokemon/litwick.md)
+
+	***
+
+	**#607 [Litwick](../pokemon/litwick.md)**
+
+-	[![Lampent](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/608.gif){: .pokemon-sprite-img }](../pokemon/lampent.md)
+
+	***
+
+	**#608 [Lampent](../pokemon/lampent.md)**
+
+-	[![Chandelure](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/609.gif){: .pokemon-sprite-img }](../pokemon/chandelure.md)
+
+	***
+
+	**#609 [Chandelure](../pokemon/chandelure.md)**
 
 </div>
 

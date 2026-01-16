@@ -15,10 +15,6 @@
 
 ??? note "Natu ROM Changes"
 
-	**Abilities Changes:**
-
-	- `synchronize / early-bird / magic-bounce` → `synchronize / magic-bounce / magic-bounce`
-
 	**Level-up Moves Changes:**
 
 	- `16 moves` → `20 moves`
@@ -33,7 +29,7 @@
 	---
 
 	- [Synchronize](../../pokedex/abilities/synchronize.md)
-	- [Magic Bounce](../../pokedex/abilities/magic-bounce.md)
+	- [Early Bird](../../pokedex/abilities/early-bird.md)
 	- [Magic Bounce](../../pokedex/abilities/magic-bounce.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**

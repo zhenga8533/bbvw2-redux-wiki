@@ -22,10 +22,6 @@
 
 	- `shelmet > accelgor: use-item (reaper-cloth)` → `shelmet > accelgor: level-up`
 
-	**Abilities Changes:**
-
-	- `hydration / shell-armor / overcoat` → `overcoat / shell-armor / hydration`
-
 	**Level-up Moves Changes:**
 
 	- `15 moves` → `19 moves`
@@ -39,9 +35,9 @@
 
 	---
 
-	- [Overcoat](../../pokedex/abilities/overcoat.md)
+	- [Hydration](../../pokedex/abilities/hydration.md)
 	- [Shell Armor](../../pokedex/abilities/shell-armor.md)
-	- [Hydration](../../pokedex/abilities/hydration.md) :material-eye-off:
+	- [Overcoat](../../pokedex/abilities/overcoat.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

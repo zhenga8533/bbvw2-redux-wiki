@@ -19,15 +19,11 @@
 
 	- `carvanha > sharpedo: level-up (level 30)` → `carvanha > sharpedo: level-up (level 26)`
 
-	**Abilities Changes:**
-
-	- `rough-skin / speed-boost` → `rough-skin / speed-boost / speed-boost`
-
 	**Level-up Moves Changes:**
 
 	- `19 moves` → `25 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `35 moves` → `36 moves (added: wave-crash)`
 
@@ -41,7 +37,6 @@
 	---
 
 	- [Rough Skin](../../pokedex/abilities/rough-skin.md)
-	- [Speed Boost](../../pokedex/abilities/speed-boost.md)
 	- [Speed Boost](../../pokedex/abilities/speed-boost.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**

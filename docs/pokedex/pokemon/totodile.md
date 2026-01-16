@@ -15,15 +15,11 @@
 
 ??? note "Totodile ROM Changes"
 
-	**Abilities Changes:**
-
-	- `torrent / sheer-force` → `sheer-force / torrent / sheer-force`
-
 	**Level-up Moves Changes:**
 
 	- `16 moves` → `19 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `31 moves` → `32 moves (added: wave-crash)`
 
@@ -36,7 +32,6 @@
 
 	---
 
-	- [Sheer Force](../../pokedex/abilities/sheer-force.md)
 	- [Torrent](../../pokedex/abilities/torrent.md)
 	- [Sheer Force](../../pokedex/abilities/sheer-force.md) :material-eye-off:
 

@@ -15,15 +15,11 @@
 
 ??? note "Pinsir ROM Changes"
 
-	**Abilities Changes:**
-
-	- `hyper-cutter / mold-breaker / moxie` → `moxie / mold-breaker / moxie`
-
 	**Level-up Moves Changes:**
 
 	- `24 moves` → `18 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `35 moves` → `39 moves (added: hone-claws, acrobatics, bug-buzz, work-up)`
 
@@ -36,7 +32,7 @@
 
 	---
 
-	- [Moxie](../../pokedex/abilities/moxie.md)
+	- [Hyper Cutter](../../pokedex/abilities/hyper-cutter.md)
 	- [Mold Breaker](../../pokedex/abilities/mold-breaker.md)
 	- [Moxie](../../pokedex/abilities/moxie.md) :material-eye-off:
 

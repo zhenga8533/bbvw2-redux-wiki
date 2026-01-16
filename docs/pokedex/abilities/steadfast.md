@@ -22,18 +22,6 @@
 
 <div class="grid cards" markdown>
 
--	[![Machop](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/66.gif){: .pokemon-sprite-img }](../pokemon/machop.md)
-
-	***
-
-	**#066 [Machop](../pokemon/machop.md)**
-
--	[![Machoke](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/67.gif){: .pokemon-sprite-img }](../pokemon/machoke.md)
-
-	***
-
-	**#067 [Machoke](../pokemon/machoke.md)**
-
 -	[![Tyrogue](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/236.gif){: .pokemon-sprite-img }](../pokemon/tyrogue.md)
 
 	***
@@ -51,6 +39,12 @@
 	***
 
 	**#448 [Lucario](../pokemon/lucario.md)**
+
+-	[![Gallade](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/475.gif){: .pokemon-sprite-img }](../pokemon/gallade.md)
+
+	***
+
+	**#475 [Gallade](../pokemon/gallade.md)**
 
 </div>
 

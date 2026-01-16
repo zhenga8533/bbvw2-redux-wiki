@@ -15,10 +15,6 @@
 
 ??? note "Hitmonchan ROM Changes"
 
-	**Abilities Changes:**
-
-	- `keen-eye / iron-fist / inner-focus` → `iron-fist / keen-eye / inner-focus`
-
 	**Level-up Moves Changes:**
 
 	- `18 moves` → `25 moves`
@@ -32,8 +28,8 @@
 
 	---
 
-	- [Iron Fist](../../pokedex/abilities/iron-fist.md)
 	- [Keen Eye](../../pokedex/abilities/keen-eye.md)
+	- [Iron Fist](../../pokedex/abilities/iron-fist.md)
 	- [Inner Focus](../../pokedex/abilities/inner-focus.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**

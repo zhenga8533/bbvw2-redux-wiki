@@ -15,13 +15,9 @@
 
 ??? note "Meganium ROM Changes"
 
-	**Base Stats Changes:**
+	**Ability Changes:**
 
-	- `80 HP / 82 Atk / 100 Def / 83 SAtk / 100 SDef / 80 Spd` → `80 HP / 82 Atk / 100 Def / 93 SAtk / 100 SDef / 80 Spd`
-
-	**Abilities Changes:**
-
-	- `overgrow / leaf-guard` → `serene-grace / overgrow / leaf-guard`
+	- `(none)` → `serene-grace`
 
 	**Type Changes:**
 
@@ -31,7 +27,7 @@
 
 	- `17 moves` → `24 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `30 moves` → `32 moves (added: dazzling-gleam, play-rough)`
 
@@ -44,9 +40,9 @@
 
 	---
 
-	- [Serene Grace](../../pokedex/abilities/serene-grace.md)
 	- [Overgrow](../../pokedex/abilities/overgrow.md)
 	- [Leaf Guard](../../pokedex/abilities/leaf-guard.md) :material-eye-off:
+	- [Serene Grace](../../pokedex/abilities/serene-grace.md)
 
 - **:material-ruler: Physical Attributes**
 
@@ -144,10 +140,10 @@
 | **HP** | **80** | 270 | 364 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 31.372549019607842%;"></div></div> |
 | **Attack** | **82** | 152 | 289 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 32.15686274509804%;"></div></div> |
 | **Defense** | **100** | 184 | 328 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 39.21568627450981%;"></div></div> |
-| **Sp. Atk** | **93** | 171 | 313 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 36.470588235294116%;"></div></div> |
+| **Sp. Atk** | **83** | 153 | 291 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 32.549019607843135%;"></div></div> |
 | **Sp. Def** | **100** | 184 | 328 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 39.21568627450981%;"></div></div> |
 | **Speed** | **80** | 148 | 284 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 31.372549019607842%;"></div></div> |
-| **Base Stat Total** | **535** | | | |
+| **Base Stat Total** | **525** | | | |
 
 > **Min/Max Stats:** Calculated at Level 100.
 >

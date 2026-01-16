@@ -15,10 +15,6 @@
 
 ??? note "Cyndaquil ROM Changes"
 
-	**Abilities Changes:**
-
-	- `blaze / flash-fire` → `flash-fire / blaze / flash-fire`
-
 	**Level-up Moves Changes:**
 
 	- `15 moves` → `18 moves`
@@ -32,7 +28,6 @@
 
 	---
 
-	- [Flash Fire](../../pokedex/abilities/flash-fire.md)
 	- [Blaze](../../pokedex/abilities/blaze.md)
 	- [Flash Fire](../../pokedex/abilities/flash-fire.md) :material-eye-off:
 

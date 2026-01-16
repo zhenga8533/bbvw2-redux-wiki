@@ -20,19 +20,11 @@
 
 	- `woobat > swoobat: level-up (happiness)` → `woobat > swoobat: level-up (level 25)`
 
-	**Base Stats Changes:**
-
-	- `67 HP / 57 Atk / 55 Def / 77 SAtk / 55 SDef / 114 Spd` → `70 HP / 57 Atk / 63 Def / 86 SAtk / 75 SDef / 114 Spd`
-
-	**Abilities Changes:**
-
-	- `unaware / klutz / simple` → `unaware / simple / simple`
-
 	**Level-up Moves Changes:**
 
 	- `17 moves` → `24 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `40 moves` → `42 moves (added: mystical-fire, hurricane)`
 
@@ -46,7 +38,7 @@
 	---
 
 	- [Unaware](../../pokedex/abilities/unaware.md)
-	- [Simple](../../pokedex/abilities/simple.md)
+	- [Klutz](../../pokedex/abilities/klutz.md)
 	- [Simple](../../pokedex/abilities/simple.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
@@ -138,13 +130,13 @@
 
 | Stat | Base | Min | Max | Distribution |
 |------|-----:|----:|----:|:-------------|
-| **HP** | **70** | 250 | 344 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 27.450980392156865%;"></div></div> |
+| **HP** | **67** | 244 | 338 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 26.27450980392157%;"></div></div> |
 | **Attack** | **57** | 107 | 234 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 22.35294117647059%;"></div></div> |
-| **Defense** | **63** | 117 | 247 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 24.705882352941178%;"></div></div> |
-| **Sp. Atk** | **86** | 159 | 298 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 33.72549019607843%;"></div></div> |
-| **Sp. Def** | **75** | 139 | 273 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 29.411764705882355%;"></div></div> |
+| **Defense** | **55** | 103 | 229 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 21.568627450980394%;"></div></div> |
+| **Sp. Atk** | **77** | 143 | 278 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 30.19607843137255%;"></div></div> |
+| **Sp. Def** | **55** | 103 | 229 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 21.568627450980394%;"></div></div> |
 | **Speed** | **114** | 209 | 359 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 44.70588235294118%;"></div></div> |
-| **Base Stat Total** | **465** | | | |
+| **Base Stat Total** | **425** | | | |
 
 > **Min/Max Stats:** Calculated at Level 100.
 >

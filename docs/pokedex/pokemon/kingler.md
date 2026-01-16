@@ -15,15 +15,11 @@
 
 ??? note "Kingler ROM Changes"
 
-	**Abilities Changes:**
-
-	- `hyper-cutter / shell-armor / sheer-force` → `sheer-force / shell-armor / sheer-force`
-
 	**Level-up Moves Changes:**
 
 	- `18 moves` → `23 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `35 moves` → `39 moves (added: low-sweep, shadow-claw, rock-climb, waterfall)`
 
@@ -36,7 +32,7 @@
 
 	---
 
-	- [Sheer Force](../../pokedex/abilities/sheer-force.md)
+	- [Hyper Cutter](../../pokedex/abilities/hyper-cutter.md)
 	- [Shell Armor](../../pokedex/abilities/shell-armor.md)
 	- [Sheer Force](../../pokedex/abilities/sheer-force.md) :material-eye-off:
 

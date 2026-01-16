@@ -15,9 +15,9 @@
 
 ??? note "Grotle ROM Changes"
 
-	**Abilities Changes:**
+	**Ability Changes:**
 
-	- `overgrow / shell-armor` → `rock-head / overgrow / shell-armor`
+	- `(none)` → `rock-head`
 
 	**Level-up Moves Changes:**
 
@@ -32,9 +32,9 @@
 
 	---
 
-	- [Rock Head](../../pokedex/abilities/rock-head.md)
 	- [Overgrow](../../pokedex/abilities/overgrow.md)
 	- [Shell Armor](../../pokedex/abilities/shell-armor.md) :material-eye-off:
+	- [Rock Head](../../pokedex/abilities/rock-head.md)
 
 - **:material-ruler: Physical Attributes**
 

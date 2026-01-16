@@ -25,11 +25,7 @@
 
 	- `eevee > glaceon: level-up (at sinnoh-route-217)` → `eevee > glaceon: use-item (ice-stone)`
 
-	**Abilities Changes:**
-
-	- `synchronize / magic-bounce` → `synchronize / magic-bounce / magic-bounce`
-
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `33 moves` → `37 moves (added: tri-attack, aura-sphere, mystical-fire, power-gem)`
 
@@ -43,7 +39,6 @@
 	---
 
 	- [Synchronize](../../pokedex/abilities/synchronize.md)
-	- [Magic Bounce](../../pokedex/abilities/magic-bounce.md)
 	- [Magic Bounce](../../pokedex/abilities/magic-bounce.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**

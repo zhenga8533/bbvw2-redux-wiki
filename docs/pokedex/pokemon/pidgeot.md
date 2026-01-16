@@ -15,19 +15,17 @@
 
 ??? note "Pidgeot ROM Changes"
 
-	**Base Stats Changes:**
+	**Ability Changes:**
 
-	- `83 HP / 80 Atk / 75 Def / 70 SAtk / 70 SDef / 91 Spd` → `83 HP / 60 Atk / 70 Def / 115 SAtk / 70 SDef / 101 Spd`
+	- `big-pecks` → `no-guard`
 
-	**Abilities Changes:**
-
-	- `keen-eye / tangled-feet / big-pecks` → `no-guard / tangled-feet / keen-eye`
+	- `no-guard` → `big-pecks`
 
 	**Level-up Moves Changes:**
 
 	- `17 moves` → `25 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `22 moves` → `24 moves (added: echoed-voice, hurricane)`
 
@@ -40,9 +38,9 @@
 
 	---
 
-	- [No Guard](../../pokedex/abilities/no-guard.md)
+	- [Keen Eye](../../pokedex/abilities/keen-eye.md)
 	- [Tangled Feet](../../pokedex/abilities/tangled-feet.md)
-	- [Keen Eye](../../pokedex/abilities/keen-eye.md) :material-eye-off:
+	- [Big Pecks](../../pokedex/abilities/big-pecks.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 
@@ -131,12 +129,12 @@
 | Stat | Base | Min | Max | Distribution |
 |------|-----:|----:|----:|:-------------|
 | **HP** | **83** | 276 | 370 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 32.549019607843135%;"></div></div> |
-| **Attack** | **60** | 112 | 240 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 23.52941176470588%;"></div></div> |
-| **Defense** | **70** | 130 | 262 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 27.450980392156865%;"></div></div> |
-| **Sp. Atk** | **115** | 211 | 361 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 45.09803921568628%;"></div></div> |
+| **Attack** | **80** | 148 | 284 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 31.372549019607842%;"></div></div> |
+| **Defense** | **75** | 139 | 273 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 29.411764705882355%;"></div></div> |
+| **Sp. Atk** | **70** | 130 | 262 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 27.450980392156865%;"></div></div> |
 | **Sp. Def** | **70** | 130 | 262 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 27.450980392156865%;"></div></div> |
-| **Speed** | **101** | 186 | 331 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 39.6078431372549%;"></div></div> |
-| **Base Stat Total** | **499** | | | |
+| **Speed** | **91** | 168 | 309 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 35.68627450980392%;"></div></div> |
+| **Base Stat Total** | **469** | | | |
 
 > **Min/Max Stats:** Calculated at Level 100.
 >

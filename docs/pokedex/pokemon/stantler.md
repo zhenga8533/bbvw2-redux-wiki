@@ -15,19 +15,11 @@
 
 ??? note "Stantler ROM Changes"
 
-	**Base Stats Changes:**
-
-	- `73 HP / 95 Atk / 62 Def / 85 SAtk / 65 SDef / 85 Spd` → `73 HP / 95 Atk / 62 Def / 95 SAtk / 75 SDef / 85 Spd`
-
-	**Abilities Changes:**
-
-	- `intimidate / frisk / sap-sipper` → `sap-sipper / frisk / intimidate`
-
 	**Level-up Moves Changes:**
 
 	- `15 moves` → `24 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `38 moves` → `41 moves (added: tri-attack, aura-sphere, power-gem)`
 
@@ -40,9 +32,9 @@
 
 	---
 
-	- [Sap Sipper](../../pokedex/abilities/sap-sipper.md)
+	- [Intimidate](../../pokedex/abilities/intimidate.md)
 	- [Frisk](../../pokedex/abilities/frisk.md)
-	- [Intimidate](../../pokedex/abilities/intimidate.md) :material-eye-off:
+	- [Sap Sipper](../../pokedex/abilities/sap-sipper.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 
@@ -124,10 +116,10 @@
 | **HP** | **73** | 256 | 350 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 28.627450980392155%;"></div></div> |
 | **Attack** | **95** | 175 | 317 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 37.254901960784316%;"></div></div> |
 | **Defense** | **62** | 116 | 245 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 24.313725490196077%;"></div></div> |
-| **Sp. Atk** | **95** | 175 | 317 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 37.254901960784316%;"></div></div> |
-| **Sp. Def** | **75** | 139 | 273 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 29.411764705882355%;"></div></div> |
+| **Sp. Atk** | **85** | 157 | 295 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 33.33333333333333%;"></div></div> |
+| **Sp. Def** | **65** | 121 | 251 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 25.49019607843137%;"></div></div> |
 | **Speed** | **85** | 157 | 295 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 33.33333333333333%;"></div></div> |
-| **Base Stat Total** | **485** | | | |
+| **Base Stat Total** | **465** | | | |
 
 > **Min/Max Stats:** Calculated at Level 100.
 >

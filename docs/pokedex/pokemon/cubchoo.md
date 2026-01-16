@@ -16,10 +16,6 @@
 
 ??? note "Cubchoo ROM Changes"
 
-	**Abilities Changes:**
-
-	- `snow-cloak / rattled` → `snow-cloak / rattled / rattled`
-
 	**Level-up Moves Changes:**
 
 	- `15 moves` → `21 moves`
@@ -34,7 +30,6 @@
 	---
 
 	- [Snow Cloak](../../pokedex/abilities/snow-cloak.md)
-	- [Rattled](../../pokedex/abilities/rattled.md)
 	- [Rattled](../../pokedex/abilities/rattled.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**

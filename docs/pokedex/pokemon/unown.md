@@ -15,10 +15,6 @@
 
 ??? note "Unown ROM Changes"
 
-	**Base Stats Changes:**
-
-	- `48 HP / 72 Atk / 48 Def / 72 SAtk / 48 SDef / 48 Spd` → `48 HP / 72 Atk / 48 Def / 102 SAtk / 48 SDef / 78 Spd`
-
 	**Catch Rate Changes:**
 
 	- `225` → `255`
@@ -118,10 +114,10 @@
 | **HP** | **48** | 206 | 300 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 18.823529411764707%;"></div></div> |
 | **Attack** | **72** | 134 | 267 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 28.235294117647058%;"></div></div> |
 | **Defense** | **48** | 90 | 214 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 18.823529411764707%;"></div></div> |
-| **Sp. Atk** | **102** | 188 | 333 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 40.0%;"></div></div> |
+| **Sp. Atk** | **72** | 134 | 267 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 28.235294117647058%;"></div></div> |
 | **Sp. Def** | **48** | 90 | 214 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 18.823529411764707%;"></div></div> |
-| **Speed** | **78** | 144 | 280 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 30.58823529411765%;"></div></div> |
-| **Base Stat Total** | **396** | | | |
+| **Speed** | **48** | 90 | 214 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 18.823529411764707%;"></div></div> |
+| **Base Stat Total** | **336** | | | |
 
 > **Min/Max Stats:** Calculated at Level 100.
 >

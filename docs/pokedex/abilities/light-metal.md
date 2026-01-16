@@ -28,6 +28,24 @@
 
 	**#212 [Scizor](../pokemon/scizor.md)**
 
+-	[![Beldum](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/374.gif){: .pokemon-sprite-img }](../pokemon/beldum.md)
+
+	***
+
+	**#374 [Beldum](../pokemon/beldum.md)**
+
+-	[![Metang](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/375.gif){: .pokemon-sprite-img }](../pokemon/metang.md)
+
+	***
+
+	**#375 [Metang](../pokemon/metang.md)**
+
+-	[![Metagross](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/376.gif){: .pokemon-sprite-img }](../pokemon/metagross.md)
+
+	***
+
+	**#376 [Metagross](../pokemon/metagross.md)**
+
 -	[![Registeel](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/379.gif){: .pokemon-sprite-img }](../pokemon/registeel.md)
 
 	***

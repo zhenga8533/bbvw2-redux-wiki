@@ -15,15 +15,11 @@
 
 ??? note "Shuckle ROM Changes"
 
-	**Abilities Changes:**
-
-	- `sturdy / gluttony / contrary` → `sturdy / contrary / gluttony`
-
 	**Level-up Moves Changes:**
 
 	- `29 moves` → `21 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `31 moves` → `32 moves (added: bug-buzz)`
 
@@ -37,8 +33,8 @@
 	---
 
 	- [Sturdy](../../pokedex/abilities/sturdy.md)
-	- [Contrary](../../pokedex/abilities/contrary.md)
-	- [Gluttony](../../pokedex/abilities/gluttony.md) :material-eye-off:
+	- [Gluttony](../../pokedex/abilities/gluttony.md)
+	- [Contrary](../../pokedex/abilities/contrary.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

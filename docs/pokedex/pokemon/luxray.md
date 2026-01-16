@@ -15,10 +15,6 @@
 
 ??? note "Luxray ROM Changes"
 
-	**Abilities Changes:**
-
-	- `rivalry / intimidate / guts` → `guts / intimidate / guts`
-
 	**Type Changes:**
 
 	- `electric` → `electric / dark`
@@ -36,7 +32,7 @@
 
 	---
 
-	- [Guts](../../pokedex/abilities/guts.md)
+	- [Rivalry](../../pokedex/abilities/rivalry.md)
 	- [Intimidate](../../pokedex/abilities/intimidate.md)
 	- [Guts](../../pokedex/abilities/guts.md) :material-eye-off:
 

@@ -15,15 +15,15 @@
 
 ??? note "Ivysaur ROM Changes"
 
-	**Abilities Changes:**
+	**Ability Changes:**
 
-	- `overgrow / chlorophyll` → `solar-power / overgrow / chlorophyll`
+	- `(none)` → `solar-power`
 
 	**Level-up Moves Changes:**
 
 	- `16 moves` → `23 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `26 moves` → `27 moves (added: weather-ball)`
 
@@ -36,9 +36,9 @@
 
 	---
 
-	- [Solar Power](../../pokedex/abilities/solar-power.md)
 	- [Overgrow](../../pokedex/abilities/overgrow.md)
 	- [Chlorophyll](../../pokedex/abilities/chlorophyll.md) :material-eye-off:
+	- [Solar Power](../../pokedex/abilities/solar-power.md)
 
 - **:material-ruler: Physical Attributes**
 

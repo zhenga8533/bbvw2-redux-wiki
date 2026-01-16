@@ -20,15 +20,11 @@
 
 	- `golett > golurk: level-up (level 43)` → `golett > golurk: level-up (level 40)`
 
-	**Abilities Changes:**
-
-	- `iron-fist / klutz / no-guard` → `iron-fist / no-guard / klutz`
-
 	**Level-up Moves Changes:**
 
 	- `15 moves` → `19 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `32 moves` → `33 moves (added: power-up-punch)`
 
@@ -42,8 +38,8 @@
 	---
 
 	- [Iron Fist](../../pokedex/abilities/iron-fist.md)
-	- [No Guard](../../pokedex/abilities/no-guard.md)
-	- [Klutz](../../pokedex/abilities/klutz.md) :material-eye-off:
+	- [Klutz](../../pokedex/abilities/klutz.md)
+	- [No Guard](../../pokedex/abilities/no-guard.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

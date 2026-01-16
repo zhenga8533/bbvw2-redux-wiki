@@ -34,35 +34,11 @@
 
 	**#291 [Ninjask](../pokemon/ninjask.md)**
 
--	[![Carvanha](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/318.gif){: .pokemon-sprite-img }](../pokemon/carvanha.md)
-
-	***
-
-	**#318 [Carvanha](../pokemon/carvanha.md)**
-
--	[![Sharpedo](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/319.gif){: .pokemon-sprite-img }](../pokemon/sharpedo.md)
-
-	***
-
-	**#319 [Sharpedo](../pokemon/sharpedo.md)**
-
 -	[![Yanmega](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/469.gif){: .pokemon-sprite-img }](../pokemon/yanmega.md)
 
 	***
 
 	**#469 [Yanmega](../pokemon/yanmega.md)**
-
--	[![Whirlipede](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/544.gif){: .pokemon-sprite-img }](../pokemon/whirlipede.md)
-
-	***
-
-	**#544 [Whirlipede](../pokemon/whirlipede.md)**
-
--	[![Scolipede](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/545.gif){: .pokemon-sprite-img }](../pokemon/scolipede.md)
-
-	***
-
-	**#545 [Scolipede](../pokemon/scolipede.md)**
 
 </div>
 
@@ -70,6 +46,24 @@
 
 <div class="grid cards" markdown>
 
+-	[![Torchic](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/255.gif){: .pokemon-sprite-img }](../pokemon/torchic.md)
+
+	***
+
+	**#255 [Torchic](../pokemon/torchic.md)**
+
+-	[![Combusken](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/256.gif){: .pokemon-sprite-img }](../pokemon/combusken.md)
+
+	***
+
+	**#256 [Combusken](../pokemon/combusken.md)**
+
+-	[![Blaziken](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/257.gif){: .pokemon-sprite-img }](../pokemon/blaziken.md)
+
+	***
+
+	**#257 [Blaziken](../pokemon/blaziken.md)**
+
 -	[![Carvanha](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/318.gif){: .pokemon-sprite-img }](../pokemon/carvanha.md)
 
 	***
@@ -81,6 +75,12 @@
 	***
 
 	**#319 [Sharpedo](../pokemon/sharpedo.md)**
+
+-	[![Scolipede](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/545.gif){: .pokemon-sprite-img }](../pokemon/scolipede.md)
+
+	***
+
+	**#545 [Scolipede](../pokemon/scolipede.md)**
 
 </div>
 

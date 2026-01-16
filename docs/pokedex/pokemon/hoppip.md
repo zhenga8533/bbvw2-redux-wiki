@@ -15,13 +15,11 @@
 
 ??? note "Hoppip ROM Changes"
 
-	**Base Stats Changes:**
+	**Ability Changes:**
 
-	- `35 HP / 35 Atk / 40 Def / 35 SAtk / 55 SDef / 50 Spd` → `35 HP / 35 Atk / 40 Def / 45 SAtk / 55 SDef / 70 Spd`
+	- `infiltrator` → `prankster`
 
-	**Abilities Changes:**
-
-	- `chlorophyll / leaf-guard / infiltrator` → `prankster / leaf-guard / infiltrator`
+	- `prankster` → `infiltrator`
 
 	**Level-up Moves Changes:**
 
@@ -36,7 +34,7 @@
 
 	---
 
-	- [Prankster](../../pokedex/abilities/prankster.md)
+	- [Chlorophyll](../../pokedex/abilities/chlorophyll.md)
 	- [Leaf Guard](../../pokedex/abilities/leaf-guard.md)
 	- [Infiltrator](../../pokedex/abilities/infiltrator.md) :material-eye-off:
 
@@ -139,10 +137,10 @@
 | **HP** | **35** | 180 | 274 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 13.725490196078432%;"></div></div> |
 | **Attack** | **35** | 67 | 185 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 13.725490196078432%;"></div></div> |
 | **Defense** | **40** | 76 | 196 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 15.686274509803921%;"></div></div> |
-| **Sp. Atk** | **45** | 85 | 207 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 17.647058823529413%;"></div></div> |
+| **Sp. Atk** | **35** | 67 | 185 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 13.725490196078432%;"></div></div> |
 | **Sp. Def** | **55** | 103 | 229 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 21.568627450980394%;"></div></div> |
-| **Speed** | **70** | 130 | 262 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 27.450980392156865%;"></div></div> |
-| **Base Stat Total** | **280** | | | |
+| **Speed** | **50** | 94 | 218 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 19.607843137254903%;"></div></div> |
+| **Base Stat Total** | **250** | | | |
 
 > **Min/Max Stats:** Calculated at Level 100.
 >

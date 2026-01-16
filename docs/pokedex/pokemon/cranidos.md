@@ -15,15 +15,11 @@
 
 ??? note "Cranidos ROM Changes"
 
-	**Abilities Changes:**
-
-	- `mold-breaker / sheer-force` → `mold-breaker / sheer-force / sheer-force`
-
 	**Level-up Moves Changes:**
 
 	- `12 moves` → `18 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `37 moves` → `38 moves (added: work-up)`
 
@@ -37,7 +33,6 @@
 	---
 
 	- [Mold Breaker](../../pokedex/abilities/mold-breaker.md)
-	- [Sheer Force](../../pokedex/abilities/sheer-force.md)
 	- [Sheer Force](../../pokedex/abilities/sheer-force.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**

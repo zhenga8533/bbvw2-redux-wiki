@@ -15,15 +15,11 @@
 
 ??? note "Dragonite ROM Changes"
 
-	**Abilities Changes:**
-
-	- `inner-focus / multiscale` → `inner-focus / multiscale / multiscale`
-
 	**Level-up Moves Changes:**
 
 	- `21 moves` → `25 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `49 moves` → `50 moves (added: hurricane)`
 
@@ -37,7 +33,6 @@
 	---
 
 	- [Inner Focus](../../pokedex/abilities/inner-focus.md)
-	- [Multiscale](../../pokedex/abilities/multiscale.md)
 	- [Multiscale](../../pokedex/abilities/multiscale.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**

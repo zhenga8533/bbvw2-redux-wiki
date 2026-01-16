@@ -21,7 +21,7 @@
 
 	- `15 moves` → `17 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `39 moves` → `42 moves (added: frost-breath, work-up, rock-climb)`
 

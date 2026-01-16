@@ -18,24 +18,6 @@
 
 ## :material-pokeball: Pokémon with this Ability
 
-### :material-star: Standard Ability
-
-<div class="grid cards" markdown>
-
--	[![Exeggcute](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/102.gif){: .pokemon-sprite-img }](../pokemon/exeggcute.md)
-
-	***
-
-	**#102 [Exeggcute](../pokemon/exeggcute.md)**
-
--	[![Exeggutor](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/103.gif){: .pokemon-sprite-img }](../pokemon/exeggutor.md)
-
-	***
-
-	**#103 [Exeggutor](../pokemon/exeggutor.md)**
-
-</div>
-
 ### :material-eye-off: Hidden Ability
 
 <div class="grid cards" markdown>

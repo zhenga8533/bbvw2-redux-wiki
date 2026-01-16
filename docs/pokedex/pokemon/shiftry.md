@@ -15,15 +15,11 @@
 
 ??? note "Shiftry ROM Changes"
 
-	**Abilities Changes:**
-
-	- `chlorophyll / early-bird / pickpocket` → `chlorophyll / rattled / early-bird`
-
 	**Level-up Moves Changes:**
 
 	- `6 moves` → `13 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `42 moves` → `43 moves (added: quash)`
 
@@ -37,8 +33,8 @@
 	---
 
 	- [Chlorophyll](../../pokedex/abilities/chlorophyll.md)
-	- [Rattled](../../pokedex/abilities/rattled.md)
-	- [Early Bird](../../pokedex/abilities/early-bird.md) :material-eye-off:
+	- [Early Bird](../../pokedex/abilities/early-bird.md)
+	- [Pickpocket](../../pokedex/abilities/pickpocket.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

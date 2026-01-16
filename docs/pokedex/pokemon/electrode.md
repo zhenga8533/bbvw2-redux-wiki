@@ -19,7 +19,7 @@
 
 	- `18 moves` → `22 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `27 moves` → `33 moves (added: tri-attack, aura-sphere, overheat, energy-ball, weather-ball...)`
 

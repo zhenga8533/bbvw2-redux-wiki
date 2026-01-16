@@ -15,14 +15,6 @@
 
 ??? note "Noctowl ROM Changes"
 
-	**Base Stats Changes:**
-
-	- `100 HP / 50 Atk / 50 Def / 76 SAtk / 96 SDef / 70 Spd` → `100 HP / 40 Atk / 40 Def / 106 SAtk / 116 SDef / 60 Spd`
-
-	**Abilities Changes:**
-
-	- `insomnia / keen-eye / tinted-lens` → `tinted-lens / insomnia / keen-eye`
-
 	**Type Changes:**
 
 	- `normal / flying` → `psychic / flying`
@@ -31,7 +23,7 @@
 
 	- `19 moves` → `25 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `27 moves` → `29 moves (added: mystical-fire, flash)`
 
@@ -44,9 +36,9 @@
 
 	---
 
-	- [Tinted Lens](../../pokedex/abilities/tinted-lens.md)
 	- [Insomnia](../../pokedex/abilities/insomnia.md)
-	- [Keen Eye](../../pokedex/abilities/keen-eye.md) :material-eye-off:
+	- [Keen Eye](../../pokedex/abilities/keen-eye.md)
+	- [Tinted Lens](../../pokedex/abilities/tinted-lens.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 
@@ -140,12 +132,12 @@
 | Stat | Base | Min | Max | Distribution |
 |------|-----:|----:|----:|:-------------|
 | **HP** | **100** | 310 | 404 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 39.21568627450981%;"></div></div> |
-| **Attack** | **40** | 76 | 196 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 15.686274509803921%;"></div></div> |
-| **Defense** | **40** | 76 | 196 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 15.686274509803921%;"></div></div> |
-| **Sp. Atk** | **106** | 195 | 342 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 41.568627450980394%;"></div></div> |
-| **Sp. Def** | **116** | 213 | 364 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 45.490196078431374%;"></div></div> |
-| **Speed** | **60** | 112 | 240 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 23.52941176470588%;"></div></div> |
-| **Base Stat Total** | **462** | | | |
+| **Attack** | **50** | 94 | 218 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 19.607843137254903%;"></div></div> |
+| **Defense** | **50** | 94 | 218 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 19.607843137254903%;"></div></div> |
+| **Sp. Atk** | **76** | 141 | 276 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 29.80392156862745%;"></div></div> |
+| **Sp. Def** | **96** | 177 | 320 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 37.64705882352941%;"></div></div> |
+| **Speed** | **70** | 130 | 262 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 27.450980392156865%;"></div></div> |
+| **Base Stat Total** | **442** | | | |
 
 > **Min/Max Stats:** Calculated at Level 100.
 >

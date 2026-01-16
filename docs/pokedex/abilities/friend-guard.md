@@ -18,42 +18,6 @@
 
 ## :material-pokeball: Pokémon with this Ability
 
-### :material-star: Standard Ability
-
-<div class="grid cards" markdown>
-
--	[![Jigglypuff](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/39.gif){: .pokemon-sprite-img }](../pokemon/jigglypuff.md)
-
-	***
-
-	**#039 [Jigglypuff](../pokemon/jigglypuff.md)**
-
--	[![Wigglytuff](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/40.gif){: .pokemon-sprite-img }](../pokemon/wigglytuff.md)
-
-	***
-
-	**#040 [Wigglytuff](../pokemon/wigglytuff.md)**
-
--	[![Igglybuff](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/174.gif){: .pokemon-sprite-img }](../pokemon/igglybuff.md)
-
-	***
-
-	**#174 [Igglybuff](../pokemon/igglybuff.md)**
-
--	[![Ducklett](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/580.gif){: .pokemon-sprite-img }](../pokemon/ducklett.md)
-
-	***
-
-	**#580 [Ducklett](../pokemon/ducklett.md)**
-
--	[![Swanna](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/581.gif){: .pokemon-sprite-img }](../pokemon/swanna.md)
-
-	***
-
-	**#581 [Swanna](../pokemon/swanna.md)**
-
-</div>
-
 ### :material-eye-off: Hidden Ability
 
 <div class="grid cards" markdown>
@@ -87,6 +51,18 @@
 	***
 
 	**#440 [Happiny](../pokemon/happiny.md)**
+
+-	[![Ducklett](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/580.gif){: .pokemon-sprite-img }](../pokemon/ducklett.md)
+
+	***
+
+	**#580 [Ducklett](../pokemon/ducklett.md)**
+
+-	[![Swanna](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/581.gif){: .pokemon-sprite-img }](../pokemon/swanna.md)
+
+	***
+
+	**#581 [Swanna](../pokemon/swanna.md)**
 
 </div>
 

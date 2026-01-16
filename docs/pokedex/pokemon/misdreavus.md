@@ -15,9 +15,9 @@
 
 ??? note "Misdreavus ROM Changes"
 
-	**Abilities Changes:**
+	**Ability Changes:**
 
-	- `levitate` → `infiltrator`
+	- `(none)` → `infiltrator`
 
 	**Type Changes:**
 
@@ -27,7 +27,7 @@
 
 	- `14 moves` → `20 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `34 moves` → `36 moves (added: mystical-fire, power-gem)`
 
@@ -40,6 +40,7 @@
 
 	---
 
+	- [Levitate](../../pokedex/abilities/levitate.md)
 	- [Infiltrator](../../pokedex/abilities/infiltrator.md)
 
 - **:material-ruler: Physical Attributes**

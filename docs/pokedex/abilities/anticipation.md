@@ -34,6 +34,24 @@
 
 	**#340 [Whiscash](../pokemon/whiscash.md)**
 
+-	[![Wormadam Plant](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/413.gif){: .pokemon-sprite-img }](../pokemon/wormadam-plant.md)
+
+	***
+
+	**#413 [Wormadam Plant](../pokemon/wormadam-plant.md)**
+
+-	[![Croagunk](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/453.gif){: .pokemon-sprite-img }](../pokemon/croagunk.md)
+
+	***
+
+	**#453 [Croagunk](../pokemon/croagunk.md)**
+
+-	[![Toxicroak](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/454.gif){: .pokemon-sprite-img }](../pokemon/toxicroak.md)
+
+	***
+
+	**#454 [Toxicroak](../pokemon/toxicroak.md)**
+
 </div>
 
 ### :material-eye-off: Hidden Ability

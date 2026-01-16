@@ -15,15 +15,11 @@
 
 ??? note "Hypno ROM Changes"
 
-	**Base Stats Changes:**
+	**Ability Changes:**
 
-	- `85 HP / 73 Atk / 70 Def / 73 SAtk / 115 SDef / 67 Spd` → `92 HP / 73 Atk / 70 Def / 73 SAtk / 115 SDef / 62 Spd`
+	- `inner-focus` → `bad-dreams`
 
-	**Abilities Changes:**
-
-	- `insomnia / forewarn / inner-focus` → `bad-dreams / insomnia / forewarn`
-
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `37 moves` → `38 moves (added: aura-sphere)`
 
@@ -36,9 +32,9 @@
 
 	---
 
-	- [Bad Dreams](../../pokedex/abilities/bad-dreams.md)
 	- [Insomnia](../../pokedex/abilities/insomnia.md)
-	- [Forewarn](../../pokedex/abilities/forewarn.md) :material-eye-off:
+	- [Forewarn](../../pokedex/abilities/forewarn.md)
+	- [Bad Dreams](../../pokedex/abilities/bad-dreams.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 
@@ -119,13 +115,13 @@
 
 | Stat | Base | Min | Max | Distribution |
 |------|-----:|----:|----:|:-------------|
-| **HP** | **92** | 294 | 388 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 36.07843137254902%;"></div></div> |
+| **HP** | **85** | 280 | 374 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 33.33333333333333%;"></div></div> |
 | **Attack** | **73** | 135 | 269 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 28.627450980392155%;"></div></div> |
 | **Defense** | **70** | 130 | 262 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 27.450980392156865%;"></div></div> |
 | **Sp. Atk** | **73** | 135 | 269 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 28.627450980392155%;"></div></div> |
 | **Sp. Def** | **115** | 211 | 361 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 45.09803921568628%;"></div></div> |
-| **Speed** | **62** | 116 | 245 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 24.313725490196077%;"></div></div> |
-| **Base Stat Total** | **485** | | | |
+| **Speed** | **67** | 125 | 256 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 26.27450980392157%;"></div></div> |
+| **Base Stat Total** | **483** | | | |
 
 > **Min/Max Stats:** Calculated at Level 100.
 >

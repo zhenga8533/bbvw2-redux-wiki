@@ -16,10 +16,6 @@
 
 ??? note "Foongus ROM Changes"
 
-	**Abilities Changes:**
-
-	- `effect-spore / regenerator` → `effect-spore / regenerator / regenerator`
-
 	**Level-up Moves Changes:**
 
 	- `15 moves` → `21 moves`
@@ -34,7 +30,6 @@
 	---
 
 	- [Effect Spore](../../pokedex/abilities/effect-spore.md)
-	- [Regenerator](../../pokedex/abilities/regenerator.md)
 	- [Regenerator](../../pokedex/abilities/regenerator.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**

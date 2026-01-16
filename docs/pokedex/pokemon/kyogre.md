@@ -16,7 +16,7 @@
 
 ??? note "Kyogre ROM Changes"
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `35 moves` → `38 moves (added: wave-crash, frost-breath, work-up)`
 

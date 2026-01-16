@@ -15,14 +15,6 @@
 
 ??? note "Kricketot ROM Changes"
 
-	**Base Stats Changes:**
-
-	- `37 HP / 25 Atk / 41 Def / 25 SAtk / 41 SDef / 25 Spd` → `37 HP / 35 Atk / 41 Def / 35 SAtk / 41 SDef / 25 Spd`
-
-	**Abilities Changes:**
-
-	- `shed-skin / run-away` → `shed-skin / run-away / swarm`
-
 	**Level-up Moves Changes:**
 
 	- `4 moves` → `6 moves`
@@ -37,8 +29,7 @@
 	---
 
 	- [Shed Skin](../../pokedex/abilities/shed-skin.md)
-	- [Run Away](../../pokedex/abilities/run-away.md)
-	- [Swarm](../../pokedex/abilities/swarm.md) :material-eye-off:
+	- [Run Away](../../pokedex/abilities/run-away.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 
@@ -126,12 +117,12 @@ These items can be found when catching or defeating this Pokémon in the wild:
 | Stat | Base | Min | Max | Distribution |
 |------|-----:|----:|----:|:-------------|
 | **HP** | **37** | 184 | 278 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 14.50980392156863%;"></div></div> |
-| **Attack** | **35** | 67 | 185 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 13.725490196078432%;"></div></div> |
+| **Attack** | **25** | 49 | 163 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 9.803921568627452%;"></div></div> |
 | **Defense** | **41** | 78 | 199 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 16.07843137254902%;"></div></div> |
-| **Sp. Atk** | **35** | 67 | 185 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 13.725490196078432%;"></div></div> |
+| **Sp. Atk** | **25** | 49 | 163 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 9.803921568627452%;"></div></div> |
 | **Sp. Def** | **41** | 78 | 199 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 16.07843137254902%;"></div></div> |
 | **Speed** | **25** | 49 | 163 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 9.803921568627452%;"></div></div> |
-| **Base Stat Total** | **214** | | | |
+| **Base Stat Total** | **194** | | | |
 
 > **Min/Max Stats:** Calculated at Level 100.
 >

@@ -15,10 +15,6 @@
 
 ??? note "Chinchou ROM Changes"
 
-	**Abilities Changes:**
-
-	- `volt-absorb / illuminate / water-absorb` → `volt-absorb / water-absorb / illuminate`
-
 	**Level-up Moves Changes:**
 
 	- `15 moves` → `21 moves`
@@ -33,8 +29,8 @@
 	---
 
 	- [Volt Absorb](../../pokedex/abilities/volt-absorb.md)
-	- [Water Absorb](../../pokedex/abilities/water-absorb.md)
-	- [Illuminate](../../pokedex/abilities/illuminate.md) :material-eye-off:
+	- [Illuminate](../../pokedex/abilities/illuminate.md)
+	- [Water Absorb](../../pokedex/abilities/water-absorb.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

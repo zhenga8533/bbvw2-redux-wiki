@@ -15,10 +15,6 @@
 
 ??? note "Metang ROM Changes"
 
-	**Abilities Changes:**
-
-	- `clear-body / light-metal` → `clear-body / iron-fist / heavy-metal`
-
 	**Catch Rate Changes:**
 
 	- `3` → `45`
@@ -27,7 +23,7 @@
 
 	- `24 moves` → `19 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `39 moves` → `40 moves (added: fly)`
 
@@ -41,8 +37,7 @@
 	---
 
 	- [Clear Body](../../pokedex/abilities/clear-body.md)
-	- [Iron Fist](../../pokedex/abilities/iron-fist.md)
-	- [Heavy Metal](../../pokedex/abilities/heavy-metal.md) :material-eye-off:
+	- [Light Metal](../../pokedex/abilities/light-metal.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

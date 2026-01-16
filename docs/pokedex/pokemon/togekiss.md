@@ -15,15 +15,11 @@
 
 ??? note "Togekiss ROM Changes"
 
-	**Abilities Changes:**
-
-	- `hustle / serene-grace / super-luck` → `super-luck / serene-grace / super-luck`
-
 	**Level-up Moves Changes:**
 
 	- `4 moves` → `12 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `41 moves` → `43 moves (added: tri-attack, hurricane)`
 
@@ -36,7 +32,7 @@
 
 	---
 
-	- [Super Luck](../../pokedex/abilities/super-luck.md)
+	- [Hustle](../../pokedex/abilities/hustle.md)
 	- [Serene Grace](../../pokedex/abilities/serene-grace.md)
 	- [Super Luck](../../pokedex/abilities/super-luck.md) :material-eye-off:
 

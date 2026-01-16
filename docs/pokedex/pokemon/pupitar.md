@@ -15,15 +15,11 @@
 
 ??? note "Pupitar ROM Changes"
 
-	**Abilities Changes:**
-
-	- `shed-skin` → `shed-skin / shell-armor / shed-skin`
-
 	**Level-up Moves Changes:**
 
 	- `16 moves` → `18 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `31 moves` → `32 moves (added: work-up)`
 
@@ -37,8 +33,6 @@
 	---
 
 	- [Shed Skin](../../pokedex/abilities/shed-skin.md)
-	- [Shell Armor](../../pokedex/abilities/shell-armor.md)
-	- [Shed Skin](../../pokedex/abilities/shed-skin.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

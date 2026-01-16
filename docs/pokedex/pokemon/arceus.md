@@ -20,7 +20,7 @@
 
 	- `14 moves` → `19 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `72 moves` → `74 moves (added: mystical-fire, hurricane)`
 

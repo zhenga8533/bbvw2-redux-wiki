@@ -15,19 +15,11 @@
 
 ??? note "Gallade ROM Changes"
 
-	**Base Stats Changes:**
-
-	- `68 HP / 125 Atk / 65 Def / 65 SAtk / 115 SDef / 80 Spd` → `68 HP / 125 Atk / 65 Def / 65 SAtk / 110 SDef / 85 Spd`
-
-	**Abilities Changes:**
-
-	- `steadfast / justified` → `justified / hyper-cutter / justified`
-
 	**Level-up Moves Changes:**
 
 	- `20 moves` → `25 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `58 moves` → `59 moves (added: hone-claws)`
 
@@ -40,8 +32,7 @@
 
 	---
 
-	- [Justified](../../pokedex/abilities/justified.md)
-	- [Hyper Cutter](../../pokedex/abilities/hyper-cutter.md)
+	- [Steadfast](../../pokedex/abilities/steadfast.md)
 	- [Justified](../../pokedex/abilities/justified.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
@@ -123,8 +114,8 @@
 | **Attack** | **125** | 229 | 383 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 49.01960784313725%;"></div></div> |
 | **Defense** | **65** | 121 | 251 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 25.49019607843137%;"></div></div> |
 | **Sp. Atk** | **65** | 121 | 251 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 25.49019607843137%;"></div></div> |
-| **Sp. Def** | **110** | 202 | 350 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 43.13725490196079%;"></div></div> |
-| **Speed** | **85** | 157 | 295 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 33.33333333333333%;"></div></div> |
+| **Sp. Def** | **115** | 211 | 361 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 45.09803921568628%;"></div></div> |
+| **Speed** | **80** | 148 | 284 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 31.372549019607842%;"></div></div> |
 | **Base Stat Total** | **518** | | | |
 
 > **Min/Max Stats:** Calculated at Level 100.

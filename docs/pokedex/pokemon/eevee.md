@@ -25,15 +25,11 @@
 
 	- `eevee > glaceon: level-up (at sinnoh-route-217)` → `eevee > glaceon: use-item (ice-stone)`
 
-	**Abilities Changes:**
-
-	- `run-away / adaptability / anticipation` → `adaptability / run-away / anticipation`
-
 	**Level-up Moves Changes:**
 
 	- `22 moves` → `25 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `19 moves` → `21 moves (added: tri-attack, grass-knot)`
 
@@ -46,8 +42,8 @@
 
 	---
 
-	- [Adaptability](../../pokedex/abilities/adaptability.md)
 	- [Run Away](../../pokedex/abilities/run-away.md)
+	- [Adaptability](../../pokedex/abilities/adaptability.md)
 	- [Anticipation](../../pokedex/abilities/anticipation.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**

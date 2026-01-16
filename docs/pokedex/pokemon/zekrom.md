@@ -17,7 +17,7 @@
 
 ??? note "Zekrom ROM Changes"
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `42 moves` → `44 moves (added: earthquake, rock-climb)`
 

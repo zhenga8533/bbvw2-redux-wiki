@@ -15,15 +15,11 @@
 
 ??? note "Doduo ROM Changes"
 
-	**Abilities Changes:**
-
-	- `run-away / early-bird / tangled-feet` → `tangled-feet / early-bird / tangled-feet`
-
 	**Level-up Moves Changes:**
 
 	- `13 moves` → `22 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `19 moves` → `21 moves (added: low-sweep, rock-climb)`
 
@@ -36,7 +32,7 @@
 
 	---
 
-	- [Tangled Feet](../../pokedex/abilities/tangled-feet.md)
+	- [Run Away](../../pokedex/abilities/run-away.md)
 	- [Early Bird](../../pokedex/abilities/early-bird.md)
 	- [Tangled Feet](../../pokedex/abilities/tangled-feet.md) :material-eye-off:
 

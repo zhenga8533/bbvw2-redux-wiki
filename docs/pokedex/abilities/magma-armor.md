@@ -28,5 +28,17 @@
 
 	**#218 [Slugma](../pokemon/slugma.md)**
 
+-	[![Magcargo](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/219.gif){: .pokemon-sprite-img }](../pokemon/magcargo.md)
+
+	***
+
+	**#219 [Magcargo](../pokemon/magcargo.md)**
+
+-	[![Camerupt](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/323.gif){: .pokemon-sprite-img }](../pokemon/camerupt.md)
+
+	***
+
+	**#323 [Camerupt](../pokemon/camerupt.md)**
+
 </div>
 

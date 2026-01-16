@@ -16,14 +16,6 @@
 
 ??? note "Trubbish ROM Changes"
 
-	**Base Stats Changes:**
-
-	- `50 HP / 50 Atk / 62 Def / 40 SAtk / 62 SDef / 65 Spd` → `65 HP / 50 Atk / 62 Def / 45 SAtk / 62 SDef / 65 Spd`
-
-	**Abilities Changes:**
-
-	- `stench / sticky-hold / aftermath` → `aftermath / stench / sticky-hold`
-
 	**Level-up Moves Changes:**
 
 	- `16 moves` → `22 moves`
@@ -37,9 +29,9 @@
 
 	---
 
-	- [Aftermath](../../pokedex/abilities/aftermath.md)
 	- [Stench](../../pokedex/abilities/stench.md)
-	- [Sticky Hold](../../pokedex/abilities/sticky-hold.md) :material-eye-off:
+	- [Sticky Hold](../../pokedex/abilities/sticky-hold.md)
+	- [Aftermath](../../pokedex/abilities/aftermath.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 
@@ -125,13 +117,13 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Stat | Base | Min | Max | Distribution |
 |------|-----:|----:|----:|:-------------|
-| **HP** | **65** | 240 | 334 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 25.49019607843137%;"></div></div> |
+| **HP** | **50** | 210 | 304 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 19.607843137254903%;"></div></div> |
 | **Attack** | **50** | 94 | 218 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 19.607843137254903%;"></div></div> |
 | **Defense** | **62** | 116 | 245 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 24.313725490196077%;"></div></div> |
-| **Sp. Atk** | **45** | 85 | 207 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 17.647058823529413%;"></div></div> |
+| **Sp. Atk** | **40** | 76 | 196 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 15.686274509803921%;"></div></div> |
 | **Sp. Def** | **62** | 116 | 245 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 24.313725490196077%;"></div></div> |
 | **Speed** | **65** | 121 | 251 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 25.49019607843137%;"></div></div> |
-| **Base Stat Total** | **349** | | | |
+| **Base Stat Total** | **329** | | | |
 
 > **Min/Max Stats:** Calculated at Level 100.
 >

@@ -3,7 +3,7 @@
 
 ??? note "Bite ROM Changes"
 
-	**Pp Changes:**
+	**PP Changes:**
 
 	- `25` → `20`
 

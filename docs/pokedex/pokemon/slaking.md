@@ -15,10 +15,6 @@
 
 ??? note "Slaking ROM Changes"
 
-	**Abilities Changes:**
-
-	- `truant` → `truant / slow-start / truant`
-
 	**Level-up Moves Changes:**
 
 	- `16 moves` → `25 moves`
@@ -33,8 +29,6 @@
 	---
 
 	- [Truant](../../pokedex/abilities/truant.md)
-	- [Slow Start](../../pokedex/abilities/slow-start.md)
-	- [Truant](../../pokedex/abilities/truant.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

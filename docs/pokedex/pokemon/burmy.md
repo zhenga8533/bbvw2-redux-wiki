@@ -21,14 +21,6 @@
 
 	- `burmy > mothim: level-up (level 20)` → `burmy > mothim: level-up (level 25)`
 
-	**Base Stats Changes:**
-
-	- `40 HP / 29 Atk / 45 Def / 29 SAtk / 45 SDef / 36 Spd` → `40 HP / 20 Atk / 45 Def / 45 SAtk / 45 SDef / 30 Spd`
-
-	**Abilities Changes:**
-
-	- `shed-skin / overcoat` → `shed-skin / overcoat / overcoat`
-
 	**Level-up Moves Changes:**
 
 	- `4 moves` → `7 moves`
@@ -43,7 +35,6 @@
 	---
 
 	- [Shed Skin](../../pokedex/abilities/shed-skin.md)
-	- [Overcoat](../../pokedex/abilities/overcoat.md)
 	- [Overcoat](../../pokedex/abilities/overcoat.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
@@ -122,12 +113,12 @@
 | Stat | Base | Min | Max | Distribution |
 |------|-----:|----:|----:|:-------------|
 | **HP** | **40** | 190 | 284 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 15.686274509803921%;"></div></div> |
-| **Attack** | **20** | 40 | 152 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 7.8431372549019605%;"></div></div> |
+| **Attack** | **29** | 56 | 172 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 11.372549019607844%;"></div></div> |
 | **Defense** | **45** | 85 | 207 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 17.647058823529413%;"></div></div> |
-| **Sp. Atk** | **45** | 85 | 207 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 17.647058823529413%;"></div></div> |
+| **Sp. Atk** | **29** | 56 | 172 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 11.372549019607844%;"></div></div> |
 | **Sp. Def** | **45** | 85 | 207 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 17.647058823529413%;"></div></div> |
-| **Speed** | **30** | 58 | 174 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 11.76470588235294%;"></div></div> |
-| **Base Stat Total** | **225** | | | |
+| **Speed** | **36** | 69 | 188 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 14.117647058823529%;"></div></div> |
+| **Base Stat Total** | **224** | | | |
 
 > **Min/Max Stats:** Calculated at Level 100.
 >

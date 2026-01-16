@@ -16,15 +16,11 @@
 
 ??? note "Throh ROM Changes"
 
-	**Abilities Changes:**
-
-	- `guts / inner-focus / mold-breaker` → `guts / mold-breaker / mold-breaker`
-
 	**Level-up Moves Changes:**
 
 	- `15 moves` → `22 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `34 moves` → `35 moves (added: quash)`
 
@@ -38,7 +34,7 @@
 	---
 
 	- [Guts](../../pokedex/abilities/guts.md)
-	- [Mold Breaker](../../pokedex/abilities/mold-breaker.md)
+	- [Inner Focus](../../pokedex/abilities/inner-focus.md)
 	- [Mold Breaker](../../pokedex/abilities/mold-breaker.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**

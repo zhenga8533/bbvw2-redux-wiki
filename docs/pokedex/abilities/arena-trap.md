@@ -34,12 +34,6 @@
 
 	**#051 [Dugtrio](../pokemon/dugtrio.md)**
 
-</div>
-
-### :material-eye-off: Hidden Ability
-
-<div class="grid cards" markdown>
-
 -	[![Trapinch](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/328.gif){: .pokemon-sprite-img }](../pokemon/trapinch.md)
 
 	***

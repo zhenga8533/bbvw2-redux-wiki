@@ -19,15 +19,11 @@
 
 	- `kadabra > alakazam: trade` → `kadabra > alakazam: use-item (link-cable)`
 
-	**Abilities Changes:**
-
-	- `synchronize / inner-focus / magic-guard` → `synchronize / magic-guard / inner-focus`
-
 	**Level-up Moves Changes:**
 
 	- `16 moves` → `20 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `39 moves` → `40 moves (added: aura-sphere)`
 
@@ -41,8 +37,8 @@
 	---
 
 	- [Synchronize](../../pokedex/abilities/synchronize.md)
-	- [Magic Guard](../../pokedex/abilities/magic-guard.md)
-	- [Inner Focus](../../pokedex/abilities/inner-focus.md) :material-eye-off:
+	- [Inner Focus](../../pokedex/abilities/inner-focus.md)
+	- [Magic Guard](../../pokedex/abilities/magic-guard.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

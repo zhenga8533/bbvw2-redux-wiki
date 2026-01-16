@@ -22,18 +22,6 @@
 
 <div class="grid cards" markdown>
 
--	[![Smoochum](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/238.gif){: .pokemon-sprite-img }](../pokemon/smoochum.md)
-
-	***
-
-	**#238 [Smoochum](../pokemon/smoochum.md)**
-
-</div>
-
-### :material-eye-off: Hidden Ability
-
-<div class="grid cards" markdown>
-
 -	[![Drowzee](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/96.gif){: .pokemon-sprite-img }](../pokemon/drowzee.md)
 
 	***
@@ -45,6 +33,30 @@
 	***
 
 	**#097 [Hypno](../pokemon/hypno.md)**
+
+-	[![Jynx](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/124.gif){: .pokemon-sprite-img }](../pokemon/jynx.md)
+
+	***
+
+	**#124 [Jynx](../pokemon/jynx.md)**
+
+-	[![Smoochum](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/238.gif){: .pokemon-sprite-img }](../pokemon/smoochum.md)
+
+	***
+
+	**#238 [Smoochum](../pokemon/smoochum.md)**
+
+-	[![Munna](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/517.gif){: .pokemon-sprite-img }](../pokemon/munna.md)
+
+	***
+
+	**#517 [Munna](../pokemon/munna.md)**
+
+-	[![Musharna](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/518.gif){: .pokemon-sprite-img }](../pokemon/musharna.md)
+
+	***
+
+	**#518 [Musharna](../pokemon/musharna.md)**
 
 </div>
 

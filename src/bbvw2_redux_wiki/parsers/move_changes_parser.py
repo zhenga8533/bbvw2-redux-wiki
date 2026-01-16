@@ -18,6 +18,7 @@ from rom_wiki_core.utils.formatters.markdown_formatter import (
     format_type_badge,
 )
 from rom_wiki_core.utils.services.move_service import MoveService
+from rom_wiki_core.utils.text.text_util import name_to_id
 
 
 class MoveChangesParser(BaseParser):
@@ -35,7 +36,6 @@ class MoveChangesParser(BaseParser):
             output_dir (str, optional): Path to the output directory. Defaults to "docs".
         """
         super().__init__(input_file=input_file, output_dir=output_dir)
-        self.move_service = MoveService()
         self._sections = [
             "General Changes",
             "Move Replacements",
@@ -198,7 +198,7 @@ class MoveChangesParser(BaseParser):
             old_move, new_move = re.split(r"\s{3,}", line)
 
             # Copy the new move from latest generation to parsed data
-            self.move_service.copy_new_move(new_move)
+            MoveService.copy_new_move(new_move)
 
             old_move_html = format_move(old_move)
             new_move_html = format_move(new_move)
@@ -231,10 +231,9 @@ class MoveChangesParser(BaseParser):
                 custom = True
 
             # Update the move's type in the data
-            self.move_service.update_move_attribute(
-                move_name=self._current_move,
-                attribute="Type",
-                new_value=new_type,
+            MoveService.update_move_type(
+                move_id=name_to_id(self._current_move),
+                type_id=name_to_id(new_type),
             )
 
             self._markdown += f"| {format_type_badge(old_type)} | {format_type_badge(new_type)} | {format_checkbox(custom)} |"
@@ -295,14 +294,23 @@ class MoveChangesParser(BaseParser):
             new_field = new_field[:-5]
             la = True
 
+        new_field = new_field.strip("*")
+
         # Update move data if attribute is supported
-        supported_attributes = ["Power", "PP", "Priority", "Accuracy", "Type"]
-        if attribute in supported_attributes:
-            self.move_service.update_move_attribute(
-                move_name=self._current_move,
-                attribute=attribute,
-                new_value=new_field,
-            )
+        move_id = name_to_id(self._current_move)
+        if attribute == "Power":
+            power = int(new_field) if new_field != "—" else None
+            MoveService.update_move_power(move_id, power)
+        elif attribute == "PP":
+            MoveService.update_move_pp(move_id, int(new_field))
+        elif attribute == "Priority":
+            priority = new_field.strip("+")
+            MoveService.update_move_priority(move_id, int(priority))
+        elif attribute == "Accuracy":
+            accuracy = int(new_field) if "Never Miss" not in new_field else None
+            MoveService.update_move_accuracy(move_id, accuracy)
+        elif attribute == "Type":
+            MoveService.update_move_type(move_id, name_to_id(new_field))
 
         # Add to markdown table
         move_html = "└──"

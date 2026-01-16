@@ -20,19 +20,11 @@
 
 	- `mime-jr > mr-mime: level-up (knows mimic)` → `mime-jr > mr-mime: level-up (level 25)`
 
-	**Base Stats Changes:**
-
-	- `20 HP / 25 Atk / 45 Def / 70 SAtk / 90 SDef / 60 Spd` → `20 HP / 15 Atk / 45 Def / 80 SAtk / 90 SDef / 65 Spd`
-
-	**Abilities Changes:**
-
-	- `soundproof / filter / technician` → `technician / filter / soundproof`
-
 	**Level-up Moves Changes:**
 
 	- `21 moves` → `22 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `37 moves` → `38 moves (added: tri-attack)`
 
@@ -45,9 +37,9 @@
 
 	---
 
-	- [Technician](../../pokedex/abilities/technician.md)
+	- [Soundproof](../../pokedex/abilities/soundproof.md)
 	- [Filter](../../pokedex/abilities/filter.md)
-	- [Soundproof](../../pokedex/abilities/soundproof.md) :material-eye-off:
+	- [Technician](../../pokedex/abilities/technician.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 
@@ -147,12 +139,12 @@ These items can be found when catching or defeating this Pokémon in the wild:
 | Stat | Base | Min | Max | Distribution |
 |------|-----:|----:|----:|:-------------|
 | **HP** | **20** | 150 | 244 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 7.8431372549019605%;"></div></div> |
-| **Attack** | **15** | 31 | 141 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 5.88235294117647%;"></div></div> |
+| **Attack** | **25** | 49 | 163 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 9.803921568627452%;"></div></div> |
 | **Defense** | **45** | 85 | 207 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 17.647058823529413%;"></div></div> |
-| **Sp. Atk** | **80** | 148 | 284 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 31.372549019607842%;"></div></div> |
+| **Sp. Atk** | **70** | 130 | 262 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 27.450980392156865%;"></div></div> |
 | **Sp. Def** | **90** | 166 | 306 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 35.294117647058826%;"></div></div> |
-| **Speed** | **65** | 121 | 251 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 25.49019607843137%;"></div></div> |
-| **Base Stat Total** | **315** | | | |
+| **Speed** | **60** | 112 | 240 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 23.52941176470588%;"></div></div> |
+| **Base Stat Total** | **310** | | | |
 
 > **Min/Max Stats:** Calculated at Level 100.
 >

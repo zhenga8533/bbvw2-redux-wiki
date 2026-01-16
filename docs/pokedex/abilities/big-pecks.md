@@ -22,17 +22,23 @@
 
 <div class="grid cards" markdown>
 
--	[![Pidgey](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/16.gif){: .pokemon-sprite-img }](../pokemon/pidgey.md)
+-	[![Pidove](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/519.gif){: .pokemon-sprite-img }](../pokemon/pidove.md)
 
 	***
 
-	**#016 [Pidgey](../pokemon/pidgey.md)**
+	**#519 [Pidove](../pokemon/pidove.md)**
 
--	[![Pidgeotto](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/17.gif){: .pokemon-sprite-img }](../pokemon/pidgeotto.md)
+-	[![Tranquill](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/520.gif){: .pokemon-sprite-img }](../pokemon/tranquill.md)
 
 	***
 
-	**#017 [Pidgeotto](../pokemon/pidgeotto.md)**
+	**#520 [Tranquill](../pokemon/tranquill.md)**
+
+-	[![Unfezant](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/521.gif){: .pokemon-sprite-img }](../pokemon/unfezant.md)
+
+	***
+
+	**#521 [Unfezant](../pokemon/unfezant.md)**
 
 -	[![Ducklett](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/580.gif){: .pokemon-sprite-img }](../pokemon/ducklett.md)
 
@@ -46,17 +52,41 @@
 
 	**#581 [Swanna](../pokemon/swanna.md)**
 
+-	[![Vullaby](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/629.gif){: .pokemon-sprite-img }](../pokemon/vullaby.md)
+
+	***
+
+	**#629 [Vullaby](../pokemon/vullaby.md)**
+
+-	[![Mandibuzz](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/630.gif){: .pokemon-sprite-img }](../pokemon/mandibuzz.md)
+
+	***
+
+	**#630 [Mandibuzz](../pokemon/mandibuzz.md)**
+
 </div>
 
 ### :material-eye-off: Hidden Ability
 
 <div class="grid cards" markdown>
 
--	[![Chatot](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/441.gif){: .pokemon-sprite-img }](../pokemon/chatot.md)
+-	[![Pidgey](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/16.gif){: .pokemon-sprite-img }](../pokemon/pidgey.md)
 
 	***
 
-	**#441 [Chatot](../pokemon/chatot.md)**
+	**#016 [Pidgey](../pokemon/pidgey.md)**
+
+-	[![Pidgeotto](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/17.gif){: .pokemon-sprite-img }](../pokemon/pidgeotto.md)
+
+	***
+
+	**#017 [Pidgeotto](../pokemon/pidgeotto.md)**
+
+-	[![Pidgeot](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/18.gif){: .pokemon-sprite-img }](../pokemon/pidgeot.md)
+
+	***
+
+	**#018 [Pidgeot](../pokemon/pidgeot.md)**
 
 </div>
 

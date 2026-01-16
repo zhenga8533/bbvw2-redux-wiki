@@ -15,15 +15,15 @@
 
 ??? note "Chikorita ROM Changes"
 
-	**Abilities Changes:**
+	**Ability Changes:**
 
-	- `overgrow / leaf-guard` → `serene-grace / overgrow / leaf-guard`
+	- `(none)` → `serene-grace`
 
 	**Level-up Moves Changes:**
 
 	- `14 moves` → `18 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `23 moves` → `24 moves (added: dazzling-gleam)`
 
@@ -36,9 +36,9 @@
 
 	---
 
-	- [Serene Grace](../../pokedex/abilities/serene-grace.md)
 	- [Overgrow](../../pokedex/abilities/overgrow.md)
 	- [Leaf Guard](../../pokedex/abilities/leaf-guard.md) :material-eye-off:
+	- [Serene Grace](../../pokedex/abilities/serene-grace.md)
 
 - **:material-ruler: Physical Attributes**
 

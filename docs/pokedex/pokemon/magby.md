@@ -22,10 +22,6 @@
 
 	- `magby > magmar: level-up (level 30)` → `magby > magmar: level-up (level 29)`
 
-	**Abilities Changes:**
-
-	- `flame-body / vital-spirit` → `flame-body / vital-spirit / vital-spirit`
-
 	**Level-up Moves Changes:**
 
 	- `25 moves` → `22 moves`
@@ -42,7 +38,6 @@
 	---
 
 	- [Flame Body](../../pokedex/abilities/flame-body.md)
-	- [Vital Spirit](../../pokedex/abilities/vital-spirit.md)
 	- [Vital Spirit](../../pokedex/abilities/vital-spirit.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**

@@ -3,7 +3,7 @@
 
 ??? note "False Swipe ROM Changes"
 
-	**Pp Changes:**
+	**PP Changes:**
 
 	- `40` → `30`
 

@@ -22,18 +22,6 @@
 
 <div class="grid cards" markdown>
 
--	[![Tentacool](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/72.gif){: .pokemon-sprite-img }](../pokemon/tentacool.md)
-
-	***
-
-	**#072 [Tentacool](../pokemon/tentacool.md)**
-
--	[![Tentacruel](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/73.gif){: .pokemon-sprite-img }](../pokemon/tentacruel.md)
-
-	***
-
-	**#073 [Tentacruel](../pokemon/tentacruel.md)**
-
 -	[![Lotad](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/270.gif){: .pokemon-sprite-img }](../pokemon/lotad.md)
 
 	***
@@ -51,24 +39,6 @@
 	***
 
 	**#272 [Ludicolo](../pokemon/ludicolo.md)**
-
--	[![Wingull](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/278.gif){: .pokemon-sprite-img }](../pokemon/wingull.md)
-
-	***
-
-	**#278 [Wingull](../pokemon/wingull.md)**
-
--	[![Pelipper](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/279.gif){: .pokemon-sprite-img }](../pokemon/pelipper.md)
-
-	***
-
-	**#279 [Pelipper](../pokemon/pelipper.md)**
-
--	[![Surskit](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/283.gif){: .pokemon-sprite-img }](../pokemon/surskit.md)
-
-	***
-
-	**#283 [Surskit](../pokemon/surskit.md)**
 
 </div>
 
@@ -93,6 +63,30 @@
 	***
 
 	**#009 [Blastoise](../pokemon/blastoise.md)**
+
+-	[![Tentacool](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/72.gif){: .pokemon-sprite-img }](../pokemon/tentacool.md)
+
+	***
+
+	**#072 [Tentacool](../pokemon/tentacool.md)**
+
+-	[![Tentacruel](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/73.gif){: .pokemon-sprite-img }](../pokemon/tentacruel.md)
+
+	***
+
+	**#073 [Tentacruel](../pokemon/tentacruel.md)**
+
+-	[![Wingull](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/278.gif){: .pokemon-sprite-img }](../pokemon/wingull.md)
+
+	***
+
+	**#278 [Wingull](../pokemon/wingull.md)**
+
+-	[![Pelipper](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/279.gif){: .pokemon-sprite-img }](../pokemon/pelipper.md)
+
+	***
+
+	**#279 [Pelipper](../pokemon/pelipper.md)**
 
 -	[![Surskit](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/283.gif){: .pokemon-sprite-img }](../pokemon/surskit.md)
 

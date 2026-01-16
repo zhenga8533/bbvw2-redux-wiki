@@ -15,15 +15,11 @@
 
 ??? note "Bagon ROM Changes"
 
-	**Abilities Changes:**
-
-	- `rock-head / sheer-force` → `rock-head / sheer-force / sheer-force`
-
 	**Level-up Moves Changes:**
 
 	- `12 moves` → `22 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `28 moves` → `29 moves (added: work-up)`
 
@@ -37,7 +33,6 @@
 	---
 
 	- [Rock Head](../../pokedex/abilities/rock-head.md)
-	- [Sheer Force](../../pokedex/abilities/sheer-force.md)
 	- [Sheer Force](../../pokedex/abilities/sheer-force.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**

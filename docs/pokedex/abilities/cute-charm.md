@@ -28,11 +28,23 @@
 
 	**#035 [Clefairy](../pokemon/clefairy.md)**
 
+-	[![Clefable](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/36.gif){: .pokemon-sprite-img }](../pokemon/clefable.md)
+
+	***
+
+	**#036 [Clefable](../pokemon/clefable.md)**
+
 -	[![Jigglypuff](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/39.gif){: .pokemon-sprite-img }](../pokemon/jigglypuff.md)
 
 	***
 
 	**#039 [Jigglypuff](../pokemon/jigglypuff.md)**
+
+-	[![Wigglytuff](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/40.gif){: .pokemon-sprite-img }](../pokemon/wigglytuff.md)
+
+	***
+
+	**#040 [Wigglytuff](../pokemon/wigglytuff.md)**
 
 -	[![Cleffa](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/173.gif){: .pokemon-sprite-img }](../pokemon/cleffa.md)
 
@@ -46,17 +58,23 @@
 
 	**#174 [Igglybuff](../pokemon/igglybuff.md)**
 
-</div>
-
-### :material-eye-off: Hidden Ability
-
-<div class="grid cards" markdown>
-
--	[![Milotic](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/350.gif){: .pokemon-sprite-img }](../pokemon/milotic.md)
+-	[![Skitty](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/300.gif){: .pokemon-sprite-img }](../pokemon/skitty.md)
 
 	***
 
-	**#350 [Milotic](../pokemon/milotic.md)**
+	**#300 [Skitty](../pokemon/skitty.md)**
+
+-	[![Delcatty](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/301.gif){: .pokemon-sprite-img }](../pokemon/delcatty.md)
+
+	***
+
+	**#301 [Delcatty](../pokemon/delcatty.md)**
+
+-	[![Lopunny](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/428.gif){: .pokemon-sprite-img }](../pokemon/lopunny.md)
+
+	***
+
+	**#428 [Lopunny](../pokemon/lopunny.md)**
 
 -	[![Minccino](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/572.gif){: .pokemon-sprite-img }](../pokemon/minccino.md)
 
@@ -69,6 +87,18 @@
 	***
 
 	**#573 [Cinccino](../pokemon/cinccino.md)**
+
+</div>
+
+### :material-eye-off: Hidden Ability
+
+<div class="grid cards" markdown>
+
+-	[![Milotic](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/350.gif){: .pokemon-sprite-img }](../pokemon/milotic.md)
+
+	***
+
+	**#350 [Milotic](../pokemon/milotic.md)**
 
 </div>
 

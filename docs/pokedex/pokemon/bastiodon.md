@@ -15,19 +15,11 @@
 
 ??? note "Bastiodon ROM Changes"
 
-	**Base Stats Changes:**
-
-	- `60 HP / 52 Atk / 168 Def / 47 SAtk / 138 SDef / 30 Spd` → `60 HP / 72 Atk / 168 Def / 27 SAtk / 138 SDef / 30 Spd`
-
-	**Abilities Changes:**
-
-	- `sturdy / soundproof` → `sturdy / soundproof / soundproof`
-
 	**Level-up Moves Changes:**
 
 	- `15 moves` → `20 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `38 moves` → `40 moves (added: quash, rock-climb)`
 
@@ -41,7 +33,6 @@
 	---
 
 	- [Sturdy](../../pokedex/abilities/sturdy.md)
-	- [Soundproof](../../pokedex/abilities/soundproof.md)
 	- [Soundproof](../../pokedex/abilities/soundproof.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
@@ -139,9 +130,9 @@
 | Stat | Base | Min | Max | Distribution |
 |------|-----:|----:|----:|:-------------|
 | **HP** | **60** | 230 | 324 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 23.52941176470588%;"></div></div> |
-| **Attack** | **72** | 134 | 267 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 28.235294117647058%;"></div></div> |
+| **Attack** | **52** | 98 | 223 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 20.392156862745097%;"></div></div> |
 | **Defense** | **168** | 306 | 478 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 65.88235294117646%;"></div></div> |
-| **Sp. Atk** | **27** | 53 | 168 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 10.588235294117647%;"></div></div> |
+| **Sp. Atk** | **47** | 89 | 212 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 18.43137254901961%;"></div></div> |
 | **Sp. Def** | **138** | 252 | 412 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 54.11764705882353%;"></div></div> |
 | **Speed** | **30** | 58 | 174 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 11.76470588235294%;"></div></div> |
 | **Base Stat Total** | **495** | | | |

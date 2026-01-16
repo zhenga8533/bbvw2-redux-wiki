@@ -112,18 +112,6 @@
 
 	**#500 [Emboar](../pokemon/emboar.md)**
 
--	[![Pansear](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/513.gif){: .pokemon-sprite-img }](../pokemon/pansear.md)
-
-	***
-
-	**#513 [Pansear](../pokemon/pansear.md)**
-
--	[![Simisear](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/514.gif){: .pokemon-sprite-img }](../pokemon/simisear.md)
-
-	***
-
-	**#514 [Simisear](../pokemon/simisear.md)**
-
 </div>
 
 ### :material-eye-off: Hidden Ability

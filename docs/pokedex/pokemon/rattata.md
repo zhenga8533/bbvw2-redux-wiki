@@ -15,15 +15,11 @@
 
 ??? note "Rattata ROM Changes"
 
-	**Abilities Changes:**
-
-	- `run-away / guts / hustle` → `hustle / guts / run-away`
-
 	**Level-up Moves Changes:**
 
 	- `13 moves` → `23 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `32 moves` → `34 moves (added: hone-claws, quash)`
 
@@ -36,9 +32,9 @@
 
 	---
 
-	- [Hustle](../../pokedex/abilities/hustle.md)
+	- [Run Away](../../pokedex/abilities/run-away.md)
 	- [Guts](../../pokedex/abilities/guts.md)
-	- [Run Away](../../pokedex/abilities/run-away.md) :material-eye-off:
+	- [Hustle](../../pokedex/abilities/hustle.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

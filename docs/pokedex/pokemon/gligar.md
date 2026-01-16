@@ -19,15 +19,11 @@
 
 	- `gligar > gliscor: level-up (held: razor-fang)` → `gligar > gliscor: use-item (razor-fang)`
 
-	**Abilities Changes:**
-
-	- `hyper-cutter / sand-veil / immunity` → `hyper-cutter / immunity / immunity`
-
 	**Level-up Moves Changes:**
 
 	- `28 moves` → `23 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `42 moves` → `44 moves (added: bug-buzz, rock-climb)`
 
@@ -41,7 +37,7 @@
 	---
 
 	- [Hyper Cutter](../../pokedex/abilities/hyper-cutter.md)
-	- [Immunity](../../pokedex/abilities/immunity.md)
+	- [Sand Veil](../../pokedex/abilities/sand-veil.md)
 	- [Immunity](../../pokedex/abilities/immunity.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**

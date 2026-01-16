@@ -15,10 +15,6 @@
 
 ??? note "Dratini ROM Changes"
 
-	**Abilities Changes:**
-
-	- `shed-skin / marvel-scale` → `shed-skin / marvel-scale / marvel-scale`
-
 	**Level-up Moves Changes:**
 
 	- `14 moves` → `20 moves`
@@ -33,7 +29,6 @@
 	---
 
 	- [Shed Skin](../../pokedex/abilities/shed-skin.md)
-	- [Marvel Scale](../../pokedex/abilities/marvel-scale.md)
 	- [Marvel Scale](../../pokedex/abilities/marvel-scale.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**

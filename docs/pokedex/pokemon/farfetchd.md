@@ -15,27 +15,21 @@
 
 ??? note "Farfetchˈd ROM Changes"
 
-	**Base Stats Changes:**
+	**Ability Changes:**
 
-	- `52 HP / 90 Atk / 55 Def / 58 SAtk / 62 SDef / 60 Spd` → `55 HP / 110 Atk / 65 Def / 75 SAtk / 65 SDef / 100 Spd`
+	- `defiant` → `defeatist`
 
-	**Abilities Changes:**
-
-	- `keen-eye / inner-focus / defiant` → `defeatist`
+	- `defeatist` → `defiant`
 
 	**Type Changes:**
 
 	- `normal / flying` → `fighting / flying`
 
-	**EV Yield Changes:**
-
-	- `1 Atk` → `2 Atk`
-
 	**Level-up Moves Changes:**
 
 	- `18 moves` → `24 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `26 moves` → `30 moves (added: brick-break, low-sweep, focus-blast, hurricane)`
 
@@ -48,7 +42,9 @@
 
 	---
 
-	- [Defeatist](../../pokedex/abilities/defeatist.md)
+	- [Keen Eye](../../pokedex/abilities/keen-eye.md)
+	- [Inner Focus](../../pokedex/abilities/inner-focus.md)
+	- [Defiant](../../pokedex/abilities/defiant.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 
@@ -73,7 +69,7 @@
 
 	**Habitat:** Grassland
 
-	**EV Yield:** +2 Attack
+	**EV Yield:** +1 Attack
 
 
 - **:material-egg: Breeding**
@@ -149,13 +145,13 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Stat | Base | Min | Max | Distribution |
 |------|-----:|----:|----:|:-------------|
-| **HP** | **55** | 220 | 314 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 21.568627450980394%;"></div></div> |
-| **Attack** | **110** | 202 | 350 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 43.13725490196079%;"></div></div> |
-| **Defense** | **65** | 121 | 251 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 25.49019607843137%;"></div></div> |
-| **Sp. Atk** | **75** | 139 | 273 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 29.411764705882355%;"></div></div> |
-| **Sp. Def** | **65** | 121 | 251 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 25.49019607843137%;"></div></div> |
-| **Speed** | **100** | 184 | 328 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 39.21568627450981%;"></div></div> |
-| **Base Stat Total** | **470** | | | |
+| **HP** | **52** | 214 | 308 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 20.392156862745097%;"></div></div> |
+| **Attack** | **90** | 166 | 306 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 35.294117647058826%;"></div></div> |
+| **Defense** | **55** | 103 | 229 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 21.568627450980394%;"></div></div> |
+| **Sp. Atk** | **58** | 108 | 236 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 22.745098039215687%;"></div></div> |
+| **Sp. Def** | **62** | 116 | 245 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 24.313725490196077%;"></div></div> |
+| **Speed** | **60** | 112 | 240 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 23.52941176470588%;"></div></div> |
+| **Base Stat Total** | **377** | | | |
 
 > **Min/Max Stats:** Calculated at Level 100.
 >

@@ -40,6 +40,12 @@
 
 	**#437 [Bronzong](../pokemon/bronzong.md)**
 
+</div>
+
+### :material-eye-off: Hidden Ability
+
+<div class="grid cards" markdown>
+
 -	[![Durant](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/632.gif){: .pokemon-sprite-img }](../pokemon/durant.md)
 
 	***

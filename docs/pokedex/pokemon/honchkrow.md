@@ -15,15 +15,11 @@
 
 ??? note "Honchkrow ROM Changes"
 
-	**Abilities Changes:**
-
-	- `insomnia / super-luck / moxie` → `moxie / super-luck / moxie`
-
 	**Level-up Moves Changes:**
 
 	- `10 moves` → `11 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `34 moves` → `35 moves (added: hurricane)`
 
@@ -36,7 +32,7 @@
 
 	---
 
-	- [Moxie](../../pokedex/abilities/moxie.md)
+	- [Insomnia](../../pokedex/abilities/insomnia.md)
 	- [Super Luck](../../pokedex/abilities/super-luck.md)
 	- [Moxie](../../pokedex/abilities/moxie.md) :material-eye-off:
 

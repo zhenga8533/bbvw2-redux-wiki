@@ -16,15 +16,15 @@
 
 ??? note "Chandelure ROM Changes"
 
-	**Abilities Changes:**
+	**Ability Changes:**
 
-	- `shadow tag / flame-body / infiltrator` → `flash-fire / flame-body / shadow-tag`
+	- `infiltrator` → `flash-fire`
 
 	**Level-up Moves Changes:**
 
 	- `4 moves` → `10 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `36 moves` → `38 moves (added: dazzling-gleam, mystical-fire)`
 
@@ -37,9 +37,9 @@
 
 	---
 
-	- [Flash Fire](../../pokedex/abilities/flash-fire.md)
+	- [Shadow Tag](../../pokedex/abilities/shadow-tag.md)
 	- [Flame Body](../../pokedex/abilities/flame-body.md)
-	- [Shadow Tag](../../pokedex/abilities/shadow-tag.md) :material-eye-off:
+	- [Flash Fire](../../pokedex/abilities/flash-fire.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

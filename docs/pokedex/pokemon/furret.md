@@ -15,19 +15,17 @@
 
 ??? note "Furret ROM Changes"
 
-	**Base Stats Changes:**
+	**Ability Changes:**
 
-	- `85 HP / 76 Atk / 64 Def / 45 SAtk / 55 SDef / 90 Spd` → `90 HP / 85 Atk / 65 Def / 45 SAtk / 55 SDef / 105 Spd`
+	- `frisk` → `quick-feet`
 
-	**Abilities Changes:**
-
-	- `run-away / keen-eye / frisk` → `quick-feet / hustle / run-away`
+	- `quick-feet` → `frisk`
 
 	**Level-up Moves Changes:**
 
 	- `16 moves` → `25 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `40 moves` → `42 moves (added: quash, play-rough)`
 
@@ -40,9 +38,9 @@
 
 	---
 
-	- [Quick Feet](../../pokedex/abilities/quick-feet.md)
-	- [Hustle](../../pokedex/abilities/hustle.md)
-	- [Run Away](../../pokedex/abilities/run-away.md) :material-eye-off:
+	- [Run Away](../../pokedex/abilities/run-away.md)
+	- [Keen Eye](../../pokedex/abilities/keen-eye.md)
+	- [Frisk](../../pokedex/abilities/frisk.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 
@@ -130,13 +128,13 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Stat | Base | Min | Max | Distribution |
 |------|-----:|----:|----:|:-------------|
-| **HP** | **90** | 290 | 384 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 35.294117647058826%;"></div></div> |
-| **Attack** | **85** | 157 | 295 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 33.33333333333333%;"></div></div> |
-| **Defense** | **65** | 121 | 251 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 25.49019607843137%;"></div></div> |
+| **HP** | **85** | 280 | 374 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 33.33333333333333%;"></div></div> |
+| **Attack** | **76** | 141 | 276 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 29.80392156862745%;"></div></div> |
+| **Defense** | **64** | 119 | 249 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 25.098039215686274%;"></div></div> |
 | **Sp. Atk** | **45** | 85 | 207 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 17.647058823529413%;"></div></div> |
 | **Sp. Def** | **55** | 103 | 229 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 21.568627450980394%;"></div></div> |
-| **Speed** | **105** | 193 | 339 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 41.17647058823529%;"></div></div> |
-| **Base Stat Total** | **445** | | | |
+| **Speed** | **90** | 166 | 306 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 35.294117647058826%;"></div></div> |
+| **Base Stat Total** | **415** | | | |
 
 > **Min/Max Stats:** Calculated at Level 100.
 >

@@ -15,19 +15,15 @@
 
 ??? note "Whiscash ROM Changes"
 
-	**Base Stats Changes:**
+	**Ability Changes:**
 
-	- `110 HP / 78 Atk / 73 Def / 76 SAtk / 71 SDef / 60 Spd` → `110 HP / 93 Atk / 88 Def / 76 SAtk / 73 SDef / 60 Spd`
-
-	**Abilities Changes:**
-
-	- `oblivious / anticipation / hydration` → `simple / anticipation / hydration`
+	- `hydration` → `simple`
 
 	**Level-up Moves Changes:**
 
 	- `18 moves` → `23 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `30 moves` → `31 moves (added: wave-crash)`
 
@@ -40,9 +36,9 @@
 
 	---
 
-	- [Simple](../../pokedex/abilities/simple.md)
+	- [Oblivious](../../pokedex/abilities/oblivious.md)
 	- [Anticipation](../../pokedex/abilities/anticipation.md)
-	- [Hydration](../../pokedex/abilities/hydration.md) :material-eye-off:
+	- [Simple](../../pokedex/abilities/simple.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 
@@ -131,12 +127,12 @@
 | Stat | Base | Min | Max | Distribution |
 |------|-----:|----:|----:|:-------------|
 | **HP** | **110** | 330 | 424 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 43.13725490196079%;"></div></div> |
-| **Attack** | **93** | 171 | 313 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 36.470588235294116%;"></div></div> |
-| **Defense** | **88** | 162 | 302 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 34.509803921568626%;"></div></div> |
+| **Attack** | **78** | 144 | 280 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 30.58823529411765%;"></div></div> |
+| **Defense** | **73** | 135 | 269 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 28.627450980392155%;"></div></div> |
 | **Sp. Atk** | **76** | 141 | 276 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 29.80392156862745%;"></div></div> |
-| **Sp. Def** | **73** | 135 | 269 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 28.627450980392155%;"></div></div> |
+| **Sp. Def** | **71** | 132 | 265 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 27.84313725490196%;"></div></div> |
 | **Speed** | **60** | 112 | 240 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 23.52941176470588%;"></div></div> |
-| **Base Stat Total** | **500** | | | |
+| **Base Stat Total** | **468** | | | |
 
 > **Min/Max Stats:** Calculated at Level 100.
 >

@@ -19,10 +19,6 @@
 
 	- `anorith > armaldo: level-up (level 40)` → `anorith > armaldo: level-up (level 30)`
 
-	**Abilities Changes:**
-
-	- `battle-armor / swift-swim` → `battle-armor / swift-swim / swift-swim`
-
 	**Base Experience Changes:**
 
 	- `71` → `65`
@@ -31,7 +27,7 @@
 
 	- `12 moves` → `18 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `28 moves` → `31 moves (added: wave-crash, bug-buzz, rock-climb)`
 
@@ -45,7 +41,6 @@
 	---
 
 	- [Battle Armor](../../pokedex/abilities/battle-armor.md)
-	- [Swift Swim](../../pokedex/abilities/swift-swim.md)
 	- [Swift Swim](../../pokedex/abilities/swift-swim.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**

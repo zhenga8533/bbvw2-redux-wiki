@@ -15,15 +15,11 @@
 
 ??? note "Relicanth ROM Changes"
 
-	**Abilities Changes:**
-
-	- `swift-swim / rock-head / sturdy` → `sturdy / rock-head / sturdy`
-
 	**Level-up Moves Changes:**
 
 	- `13 moves` → `21 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `34 moves` → `35 moves (added: wave-crash)`
 
@@ -36,7 +32,7 @@
 
 	---
 
-	- [Sturdy](../../pokedex/abilities/sturdy.md)
+	- [Swift Swim](../../pokedex/abilities/swift-swim.md)
 	- [Rock Head](../../pokedex/abilities/rock-head.md)
 	- [Sturdy](../../pokedex/abilities/sturdy.md) :material-eye-off:
 

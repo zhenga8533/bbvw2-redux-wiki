@@ -15,15 +15,11 @@
 
 ??? note "Larvitar ROM Changes"
 
-	**Abilities Changes:**
-
-	- `guts / sand-veil` → `guts / hustle / sand-veil`
-
 	**Level-up Moves Changes:**
 
 	- `14 moves` → `16 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `31 moves` → `32 moves (added: work-up)`
 
@@ -37,7 +33,6 @@
 	---
 
 	- [Guts](../../pokedex/abilities/guts.md)
-	- [Hustle](../../pokedex/abilities/hustle.md)
 	- [Sand Veil](../../pokedex/abilities/sand-veil.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**

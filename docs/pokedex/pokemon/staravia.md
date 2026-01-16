@@ -15,10 +15,6 @@
 
 ??? note "Staravia ROM Changes"
 
-	**Abilities Changes:**
-
-	- `intimidate / reckless` → `reckless / intimidate / reckless`
-
 	**Level-up Moves Changes:**
 
 	- `13 moves` → `21 moves`
@@ -32,7 +28,6 @@
 
 	---
 
-	- [Reckless](../../pokedex/abilities/reckless.md)
 	- [Intimidate](../../pokedex/abilities/intimidate.md)
 	- [Reckless](../../pokedex/abilities/reckless.md) :material-eye-off:
 

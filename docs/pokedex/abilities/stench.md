@@ -22,12 +22,6 @@
 
 <div class="grid cards" markdown>
 
--	[![Gloom](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/44.gif){: .pokemon-sprite-img }](../pokemon/gloom.md)
-
-	***
-
-	**#044 [Gloom](../pokemon/gloom.md)**
-
 -	[![Grimer](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/88.gif){: .pokemon-sprite-img }](../pokemon/grimer.md)
 
 	***

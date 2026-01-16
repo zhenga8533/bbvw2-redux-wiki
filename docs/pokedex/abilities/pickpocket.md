@@ -28,6 +28,24 @@
 
 	**#215 [Sneasel](../pokemon/sneasel.md)**
 
+-	[![Seedot](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/273.gif){: .pokemon-sprite-img }](../pokemon/seedot.md)
+
+	***
+
+	**#273 [Seedot](../pokemon/seedot.md)**
+
+-	[![Nuzleaf](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/274.gif){: .pokemon-sprite-img }](../pokemon/nuzleaf.md)
+
+	***
+
+	**#274 [Nuzleaf](../pokemon/nuzleaf.md)**
+
+-	[![Shiftry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/275.gif){: .pokemon-sprite-img }](../pokemon/shiftry.md)
+
+	***
+
+	**#275 [Shiftry](../pokemon/shiftry.md)**
+
 -	[![Weavile](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/461.gif){: .pokemon-sprite-img }](../pokemon/weavile.md)
 
 	***

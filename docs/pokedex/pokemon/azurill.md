@@ -20,14 +20,6 @@
 
 	- `marill > azumarill: level-up (level 18)` → `marill > azumarill: level-up (level 21)`
 
-	**Base Stats Changes:**
-
-	- `50 HP / 20 Atk / 40 Def / 20 SAtk / 40 SDef / 20 Spd` → `50 HP / 20 Atk / 40 Def / 30 SAtk / 40 SDef / 20 Spd`
-
-	**Abilities Changes:**
-
-	- `thick-fat / huge-power / sap-sipper` → `huge-power / thick-fat / sap-sipper`
-
 	**Base Happiness Changes:**
 
 	- `70` → `180`
@@ -45,8 +37,8 @@
 
 	---
 
-	- [Huge Power](../../pokedex/abilities/huge-power.md)
 	- [Thick Fat](../../pokedex/abilities/thick-fat.md)
+	- [Huge Power](../../pokedex/abilities/huge-power.md)
 	- [Sap Sipper](../../pokedex/abilities/sap-sipper.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
@@ -129,10 +121,10 @@
 | **HP** | **50** | 210 | 304 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 19.607843137254903%;"></div></div> |
 | **Attack** | **20** | 40 | 152 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 7.8431372549019605%;"></div></div> |
 | **Defense** | **40** | 76 | 196 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 15.686274509803921%;"></div></div> |
-| **Sp. Atk** | **30** | 58 | 174 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 11.76470588235294%;"></div></div> |
+| **Sp. Atk** | **20** | 40 | 152 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 7.8431372549019605%;"></div></div> |
 | **Sp. Def** | **40** | 76 | 196 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 15.686274509803921%;"></div></div> |
 | **Speed** | **20** | 40 | 152 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 7.8431372549019605%;"></div></div> |
-| **Base Stat Total** | **200** | | | |
+| **Base Stat Total** | **190** | | | |
 
 > **Min/Max Stats:** Calculated at Level 100.
 >

@@ -13,14 +13,6 @@
 	</div>
 </div>
 
-
-??? note "Wynaut ROM Changes"
-
-	**Abilities Changes:**
-
-	- `shadow-tag / telepathy` → `shadow-tag / telepathy / telepathy`
-
-
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>
@@ -30,7 +22,6 @@
 	---
 
 	- [Shadow Tag](../../pokedex/abilities/shadow-tag.md)
-	- [Telepathy](../../pokedex/abilities/telepathy.md)
 	- [Telepathy](../../pokedex/abilities/telepathy.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**

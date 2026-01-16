@@ -7,7 +7,7 @@
 
 	- `normal` → `fairy`
 
-	**Pp Changes:**
+	**PP Changes:**
 
 	- `25` → `20`
 

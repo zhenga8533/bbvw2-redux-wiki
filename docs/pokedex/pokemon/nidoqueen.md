@@ -15,15 +15,11 @@
 
 ??? note "Nidoqueen ROM Changes"
 
-	**Abilities Changes:**
-
-	- `poison-point / rivalry / sheer-force` → `sheer-force / poison-point / rivalry`
-
 	**Level-up Moves Changes:**
 
 	- `8 moves` → `14 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `53 moves` → `54 moves (added: low-sweep)`
 
@@ -36,9 +32,9 @@
 
 	---
 
-	- [Sheer Force](../../pokedex/abilities/sheer-force.md)
 	- [Poison Point](../../pokedex/abilities/poison-point.md)
-	- [Rivalry](../../pokedex/abilities/rivalry.md) :material-eye-off:
+	- [Rivalry](../../pokedex/abilities/rivalry.md)
+	- [Sheer Force](../../pokedex/abilities/sheer-force.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

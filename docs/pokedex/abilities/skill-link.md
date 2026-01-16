@@ -34,17 +34,17 @@
 
 	**#091 [Cloyster](../pokemon/cloyster.md)**
 
+</div>
+
+### :material-eye-off: Hidden Ability
+
+<div class="grid cards" markdown>
+
 -	[![Aipom](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/190.gif){: .pokemon-sprite-img }](../pokemon/aipom.md)
 
 	***
 
 	**#190 [Aipom](../pokemon/aipom.md)**
-
--	[![Heracross](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/214.gif){: .pokemon-sprite-img }](../pokemon/heracross.md)
-
-	***
-
-	**#214 [Heracross](../pokemon/heracross.md)**
 
 -	[![Ambipom](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/424.gif){: .pokemon-sprite-img }](../pokemon/ambipom.md)
 

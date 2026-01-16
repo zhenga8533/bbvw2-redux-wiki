@@ -16,10 +16,6 @@
 
 ??? note "Palpitoad ROM Changes"
 
-	**Abilities Changes:**
-
-	- `swift-swim / hydration / water-absorb` → `water-absorb / hydration / swift-swim`
-
 	**Level-up Moves Changes:**
 
 	- `16 moves` → `19 moves`
@@ -33,9 +29,9 @@
 
 	---
 
-	- [Water Absorb](../../pokedex/abilities/water-absorb.md)
+	- [Swift Swim](../../pokedex/abilities/swift-swim.md)
 	- [Hydration](../../pokedex/abilities/hydration.md)
-	- [Swift Swim](../../pokedex/abilities/swift-swim.md) :material-eye-off:
+	- [Water Absorb](../../pokedex/abilities/water-absorb.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

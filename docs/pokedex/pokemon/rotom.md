@@ -15,6 +15,10 @@
 
 ??? note "Rotom ROM Changes"
 
+	**Ability Changes:**
+
+	- `(none)` → `motor-drive`
+
 	**Level-up Moves Changes:**
 
 	- `14 moves` → `22 moves`
@@ -29,6 +33,7 @@
 	---
 
 	- [Levitate](../../pokedex/abilities/levitate.md)
+	- [Motor Drive](../../pokedex/abilities/motor-drive.md)
 
 - **:material-ruler: Physical Attributes**
 

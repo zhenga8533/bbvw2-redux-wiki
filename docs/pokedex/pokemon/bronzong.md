@@ -19,7 +19,7 @@
 
 	- `33 moves` → `21 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `42 moves` → `44 moves (added: weather-ball, fly)`
 

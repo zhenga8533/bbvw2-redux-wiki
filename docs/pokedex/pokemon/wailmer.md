@@ -15,10 +15,6 @@
 
 ??? note "Wailmer ROM Changes"
 
-	**Abilities Changes:**
-
-	- `water-veil / oblivious / pressure` → `water-veil / pressure / pressure`
-
 	**Level-up Moves Changes:**
 
 	- `16 moves` → `21 moves`
@@ -33,7 +29,7 @@
 	---
 
 	- [Water Veil](../../pokedex/abilities/water-veil.md)
-	- [Pressure](../../pokedex/abilities/pressure.md)
+	- [Oblivious](../../pokedex/abilities/oblivious.md)
 	- [Pressure](../../pokedex/abilities/pressure.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**

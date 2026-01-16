@@ -82,12 +82,6 @@
 
 	**#139 [Omastar](../pokemon/omastar.md)**
 
--	[![Pupitar](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/247.gif){: .pokemon-sprite-img }](../pokemon/pupitar.md)
-
-	***
-
-	**#247 [Pupitar](../pokemon/pupitar.md)**
-
 -	[![Silcoon](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/266.gif){: .pokemon-sprite-img }](../pokemon/silcoon.md)
 
 	***
@@ -100,41 +94,23 @@
 
 	**#268 [Cascoon](../pokemon/cascoon.md)**
 
--	[![Torkoal](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/324.gif){: .pokemon-sprite-img }](../pokemon/torkoal.md)
+-	[![Corphish](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/341.gif){: .pokemon-sprite-img }](../pokemon/corphish.md)
 
 	***
 
-	**#324 [Torkoal](../pokemon/torkoal.md)**
+	**#341 [Corphish](../pokemon/corphish.md)**
+
+-	[![Crawdaunt](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/342.gif){: .pokemon-sprite-img }](../pokemon/crawdaunt.md)
+
+	***
+
+	**#342 [Crawdaunt](../pokemon/crawdaunt.md)**
 
 -	[![Clamperl](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/366.gif){: .pokemon-sprite-img }](../pokemon/clamperl.md)
 
 	***
 
 	**#366 [Clamperl](../pokemon/clamperl.md)**
-
--	[![Turtwig](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/387.gif){: .pokemon-sprite-img }](../pokemon/turtwig.md)
-
-	***
-
-	**#387 [Turtwig](../pokemon/turtwig.md)**
-
--	[![Oshawott](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/501.gif){: .pokemon-sprite-img }](../pokemon/oshawott.md)
-
-	***
-
-	**#501 [Oshawott](../pokemon/oshawott.md)**
-
--	[![Dewott](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/502.gif){: .pokemon-sprite-img }](../pokemon/dewott.md)
-
-	***
-
-	**#502 [Dewott](../pokemon/dewott.md)**
-
--	[![Samurott](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/503.gif){: .pokemon-sprite-img }](../pokemon/samurott.md)
-
-	***
-
-	**#503 [Samurott](../pokemon/samurott.md)**
 
 -	[![Dwebble](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/557.gif){: .pokemon-sprite-img }](../pokemon/dwebble.md)
 
@@ -165,6 +141,12 @@
 ### :material-eye-off: Hidden Ability
 
 <div class="grid cards" markdown>
+
+-	[![Torkoal](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/324.gif){: .pokemon-sprite-img }](../pokemon/torkoal.md)
+
+	***
+
+	**#324 [Torkoal](../pokemon/torkoal.md)**
 
 -	[![Turtwig](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/387.gif){: .pokemon-sprite-img }](../pokemon/turtwig.md)
 

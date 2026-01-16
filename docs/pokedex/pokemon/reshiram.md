@@ -17,7 +17,7 @@
 
 ??? note "Reshiram ROM Changes"
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `41 moves` → `43 moves (added: earthquake, rock-climb)`
 

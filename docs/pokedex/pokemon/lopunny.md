@@ -15,13 +15,11 @@
 
 ??? note "Lopunny ROM Changes"
 
-	**Base Stats Changes:**
+	**Ability Changes:**
 
-	- `65 HP / 76 Atk / 84 Def / 54 SAtk / 96 SDef / 105 Spd` → `65 HP / 96 Atk / 84 Def / 54 SAtk / 96 SDef / 105 Spd`
+	- `limber` → `scrappy`
 
-	**Abilities Changes:**
-
-	- `cute-charm / klutz / limber` → `scrappy / scrappy / limber`
+	- `scrappy` → `run-away`
 
 	**Type Changes:**
 
@@ -30,6 +28,8 @@
 	**Level-up Moves Changes:**
 
 	- `18 moves` → `25 moves`
+
+	- `run-away` → `scrappy`
 
 
 ## :material-information: Basic Information
@@ -40,9 +40,9 @@
 
 	---
 
-	- [Scrappy](../../pokedex/abilities/scrappy.md)
-	- [Scrappy](../../pokedex/abilities/scrappy.md)
-	- [Limber](../../pokedex/abilities/limber.md) :material-eye-off:
+	- [Cute Charm](../../pokedex/abilities/cute-charm.md)
+	- [Klutz](../../pokedex/abilities/klutz.md)
+	- [Run Away](../../pokedex/abilities/run-away.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 
@@ -138,12 +138,12 @@ These items can be found when catching or defeating this Pokémon in the wild:
 | Stat | Base | Min | Max | Distribution |
 |------|-----:|----:|----:|:-------------|
 | **HP** | **65** | 240 | 334 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 25.49019607843137%;"></div></div> |
-| **Attack** | **96** | 177 | 320 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 37.64705882352941%;"></div></div> |
+| **Attack** | **76** | 141 | 276 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 29.80392156862745%;"></div></div> |
 | **Defense** | **84** | 155 | 293 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 32.94117647058823%;"></div></div> |
 | **Sp. Atk** | **54** | 101 | 227 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 21.176470588235293%;"></div></div> |
 | **Sp. Def** | **96** | 177 | 320 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 37.64705882352941%;"></div></div> |
 | **Speed** | **105** | 193 | 339 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 41.17647058823529%;"></div></div> |
-| **Base Stat Total** | **500** | | | |
+| **Base Stat Total** | **480** | | | |
 
 > **Min/Max Stats:** Calculated at Level 100.
 >

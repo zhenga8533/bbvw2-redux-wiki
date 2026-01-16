@@ -21,14 +21,6 @@
 
 	- `vibrava > flygon: unknown` → `vibrava > flygon: level-up (level 55)`
 
-	**Base Stats Changes:**
-
-	- `45 HP / 100 Atk / 45 Def / 45 SAtk / 45 SDef / 10 Spd` → `55 HP / 100 Atk / 45 Def / 45 SAtk / 45 SDef / 10 Spd`
-
-	**Abilities Changes:**
-
-	- `hyper-cutter / arena-trap / sheer-force` → `hyper-cutter / sheer-force / arena-trap`
-
 	**Type Changes:**
 
 	- `ground` → `bug / ground`
@@ -37,7 +29,7 @@
 
 	- `28 moves` → `22 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `24 moves` → `25 moves (added: bug-buzz)`
 
@@ -51,8 +43,8 @@
 	---
 
 	- [Hyper Cutter](../../pokedex/abilities/hyper-cutter.md)
-	- [Sheer Force](../../pokedex/abilities/sheer-force.md)
-	- [Arena Trap](../../pokedex/abilities/arena-trap.md) :material-eye-off:
+	- [Arena Trap](../../pokedex/abilities/arena-trap.md)
+	- [Sheer Force](../../pokedex/abilities/sheer-force.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 
@@ -148,13 +140,13 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Stat | Base | Min | Max | Distribution |
 |------|-----:|----:|----:|:-------------|
-| **HP** | **55** | 220 | 314 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 21.568627450980394%;"></div></div> |
+| **HP** | **45** | 200 | 294 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 17.647058823529413%;"></div></div> |
 | **Attack** | **100** | 184 | 328 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 39.21568627450981%;"></div></div> |
 | **Defense** | **45** | 85 | 207 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 17.647058823529413%;"></div></div> |
 | **Sp. Atk** | **45** | 85 | 207 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 17.647058823529413%;"></div></div> |
 | **Sp. Def** | **45** | 85 | 207 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 17.647058823529413%;"></div></div> |
 | **Speed** | **10** | 22 | 130 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 3.9215686274509802%;"></div></div> |
-| **Base Stat Total** | **300** | | | |
+| **Base Stat Total** | **290** | | | |
 
 > **Min/Max Stats:** Calculated at Level 100.
 >

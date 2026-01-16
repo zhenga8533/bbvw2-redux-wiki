@@ -16,10 +16,6 @@
 
 ??? note "Servine ROM Changes"
 
-	**Abilities Changes:**
-
-	- `overgrow / contrary` → `contrary / overgrow / contrary`
-
 	**Type Changes:**
 
 	- `grass` → `grass / dragon`
@@ -37,7 +33,6 @@
 
 	---
 
-	- [Contrary](../../pokedex/abilities/contrary.md)
 	- [Overgrow](../../pokedex/abilities/overgrow.md)
 	- [Contrary](../../pokedex/abilities/contrary.md) :material-eye-off:
 

@@ -16,10 +16,6 @@
 
 ??? note "Gothitelle ROM Changes"
 
-	**Abilities Changes:**
-
-	- `frisk / shadow-tag` → `shadow-tag / frisk / frisk`
-
 	**Type Changes:**
 
 	- `psychic` → `psychic / dark`
@@ -28,7 +24,7 @@
 
 	- `19 moves` → `23 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `42 moves` → `44 moves (added: focus-blast, will-o-wisp)`
 
@@ -41,9 +37,8 @@
 
 	---
 
-	- [Shadow Tag](../../pokedex/abilities/shadow-tag.md)
 	- [Frisk](../../pokedex/abilities/frisk.md)
-	- [Frisk](../../pokedex/abilities/frisk.md) :material-eye-off:
+	- [Shadow Tag](../../pokedex/abilities/shadow-tag.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

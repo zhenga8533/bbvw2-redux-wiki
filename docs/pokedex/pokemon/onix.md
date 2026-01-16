@@ -19,14 +19,6 @@
 
 	- `onix > steelix: trade (held: metal-coat)` → `onix > steelix: use-item (metal-coat)`
 
-	**Base Stats Changes:**
-
-	- `35 HP / 45 Atk / 160 Def / 30 SAtk / 45 SDef / 70 Spd` → `55 HP / 85 Atk / 160 Def / 30 SAtk / 45 SDef / 90 Spd`
-
-	**Abilities Changes:**
-
-	- `rock-head / sturdy / weak-armor` → `weak-armor / sturdy / rock-head`
-
 	**Level-up Moves Changes:**
 
 	- `35 moves` → `25 moves`
@@ -40,9 +32,9 @@
 
 	---
 
-	- [Weak Armor](../../pokedex/abilities/weak-armor.md)
+	- [Rock Head](../../pokedex/abilities/rock-head.md)
 	- [Sturdy](../../pokedex/abilities/sturdy.md)
-	- [Rock Head](../../pokedex/abilities/rock-head.md) :material-eye-off:
+	- [Weak Armor](../../pokedex/abilities/weak-armor.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 
@@ -140,13 +132,13 @@
 
 | Stat | Base | Min | Max | Distribution |
 |------|-----:|----:|----:|:-------------|
-| **HP** | **55** | 220 | 314 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 21.568627450980394%;"></div></div> |
-| **Attack** | **85** | 157 | 295 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 33.33333333333333%;"></div></div> |
+| **HP** | **35** | 180 | 274 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 13.725490196078432%;"></div></div> |
+| **Attack** | **45** | 85 | 207 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 17.647058823529413%;"></div></div> |
 | **Defense** | **160** | 292 | 460 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 62.745098039215684%;"></div></div> |
 | **Sp. Atk** | **30** | 58 | 174 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 11.76470588235294%;"></div></div> |
 | **Sp. Def** | **45** | 85 | 207 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 17.647058823529413%;"></div></div> |
-| **Speed** | **90** | 166 | 306 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 35.294117647058826%;"></div></div> |
-| **Base Stat Total** | **465** | | | |
+| **Speed** | **70** | 130 | 262 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 27.450980392156865%;"></div></div> |
+| **Base Stat Total** | **385** | | | |
 
 > **Min/Max Stats:** Calculated at Level 100.
 >

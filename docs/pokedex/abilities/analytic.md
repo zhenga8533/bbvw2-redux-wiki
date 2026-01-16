@@ -18,7 +18,7 @@
 
 ## :material-pokeball: Pokémon with this Ability
 
-### :material-star: Standard Ability
+### :material-eye-off: Hidden Ability
 
 <div class="grid cards" markdown>
 
@@ -40,11 +40,29 @@
 
 	**#121 [Starmie](../pokemon/starmie.md)**
 
+-	[![Porygon](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/137.gif){: .pokemon-sprite-img }](../pokemon/porygon.md)
+
+	***
+
+	**#137 [Porygon](../pokemon/porygon.md)**
+
+-	[![Porygon2](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/233.gif){: .pokemon-sprite-img }](../pokemon/porygon2.md)
+
+	***
+
+	**#233 [Porygon2](../pokemon/porygon2.md)**
+
 -	[![Magnezone](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/462.gif){: .pokemon-sprite-img }](../pokemon/magnezone.md)
 
 	***
 
 	**#462 [Magnezone](../pokemon/magnezone.md)**
+
+-	[![Porygon Z](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/474.gif){: .pokemon-sprite-img }](../pokemon/porygon-z.md)
+
+	***
+
+	**#474 [Porygon Z](../pokemon/porygon-z.md)**
 
 -	[![Patrat](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/504.gif){: .pokemon-sprite-img }](../pokemon/patrat.md)
 
@@ -69,66 +87,6 @@
 	***
 
 	**#518 [Musharna](../pokemon/musharna.md)**
-
--	[![Elgyem](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/605.gif){: .pokemon-sprite-img }](../pokemon/elgyem.md)
-
-	***
-
-	**#605 [Elgyem](../pokemon/elgyem.md)**
-
--	[![Beheeyem](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/606.gif){: .pokemon-sprite-img }](../pokemon/beheeyem.md)
-
-	***
-
-	**#606 [Beheeyem](../pokemon/beheeyem.md)**
-
-</div>
-
-### :material-eye-off: Hidden Ability
-
-<div class="grid cards" markdown>
-
--	[![Staryu](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/120.gif){: .pokemon-sprite-img }](../pokemon/staryu.md)
-
-	***
-
-	**#120 [Staryu](../pokemon/staryu.md)**
-
--	[![Starmie](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/121.gif){: .pokemon-sprite-img }](../pokemon/starmie.md)
-
-	***
-
-	**#121 [Starmie](../pokemon/starmie.md)**
-
--	[![Porygon](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/137.gif){: .pokemon-sprite-img }](../pokemon/porygon.md)
-
-	***
-
-	**#137 [Porygon](../pokemon/porygon.md)**
-
--	[![Porygon2](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/233.gif){: .pokemon-sprite-img }](../pokemon/porygon2.md)
-
-	***
-
-	**#233 [Porygon2](../pokemon/porygon2.md)**
-
--	[![Porygon Z](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/474.gif){: .pokemon-sprite-img }](../pokemon/porygon-z.md)
-
-	***
-
-	**#474 [Porygon Z](../pokemon/porygon-z.md)**
-
--	[![Patrat](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/504.gif){: .pokemon-sprite-img }](../pokemon/patrat.md)
-
-	***
-
-	**#504 [Patrat](../pokemon/patrat.md)**
-
--	[![Watchog](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/505.gif){: .pokemon-sprite-img }](../pokemon/watchog.md)
-
-	***
-
-	**#505 [Watchog](../pokemon/watchog.md)**
 
 -	[![Elgyem](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/605.gif){: .pokemon-sprite-img }](../pokemon/elgyem.md)
 

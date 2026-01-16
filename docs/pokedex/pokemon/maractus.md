@@ -16,19 +16,11 @@
 
 ??? note "Maractus ROM Changes"
 
-	**Base Stats Changes:**
-
-	- `75 HP / 86 Atk / 67 Def / 106 SAtk / 67 SDef / 60 Spd` → `75 HP / 106 Atk / 72 Def / 86 SAtk / 81 SDef / 60 Spd`
-
-	**Abilities Changes:**
-
-	- `water-absorb / chlorophyll / storm-drain` → `water-absorb / storm-drain / storm-drain`
-
 	**Level-up Moves Changes:**
 
 	- `18 moves` → `22 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `19 moves` → `20 moves (added: scald)`
 
@@ -42,7 +34,7 @@
 	---
 
 	- [Water Absorb](../../pokedex/abilities/water-absorb.md)
-	- [Storm Drain](../../pokedex/abilities/storm-drain.md)
+	- [Chlorophyll](../../pokedex/abilities/chlorophyll.md)
 	- [Storm Drain](../../pokedex/abilities/storm-drain.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
@@ -129,12 +121,12 @@ These items can be found when catching or defeating this Pokémon in the wild:
 | Stat | Base | Min | Max | Distribution |
 |------|-----:|----:|----:|:-------------|
 | **HP** | **75** | 260 | 354 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 29.411764705882355%;"></div></div> |
-| **Attack** | **106** | 195 | 342 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 41.568627450980394%;"></div></div> |
-| **Defense** | **72** | 134 | 267 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 28.235294117647058%;"></div></div> |
-| **Sp. Atk** | **86** | 159 | 298 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 33.72549019607843%;"></div></div> |
-| **Sp. Def** | **81** | 150 | 287 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 31.76470588235294%;"></div></div> |
+| **Attack** | **86** | 159 | 298 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 33.72549019607843%;"></div></div> |
+| **Defense** | **67** | 125 | 256 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 26.27450980392157%;"></div></div> |
+| **Sp. Atk** | **106** | 195 | 342 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 41.568627450980394%;"></div></div> |
+| **Sp. Def** | **67** | 125 | 256 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 26.27450980392157%;"></div></div> |
 | **Speed** | **60** | 112 | 240 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 23.52941176470588%;"></div></div> |
-| **Base Stat Total** | **480** | | | |
+| **Base Stat Total** | **461** | | | |
 
 > **Min/Max Stats:** Calculated at Level 100.
 >

@@ -16,13 +16,13 @@
 
 ??? note "Deoxys Defense ROM Changes"
 
-	**Abilities Changes:**
-
-	- `pressure` → `regenerator / pressure`
-
 	**Level-up Moves Changes:**
 
 	- `14 moves` → `18 moves`
+
+	**Ability Changes:**
+
+	- `(none)` → `inner-focus`
 
 
 ## :material-information: Basic Information
@@ -33,8 +33,8 @@
 
 	---
 
-	- [Regenerator](../../pokedex/abilities/regenerator.md)
 	- [Pressure](../../pokedex/abilities/pressure.md)
+	- [Inner Focus](../../pokedex/abilities/inner-focus.md)
 
 - **:material-ruler: Physical Attributes**
 

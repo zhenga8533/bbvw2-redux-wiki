@@ -16,9 +16,9 @@
 
 ??? note "Munna ROM Changes"
 
-	**Abilities Changes:**
+	**Ability Changes:**
 
-	- `forewarn / synchronize / telepathy` → `analytic / synchronize / telepathy`
+	- `telepathy` → `analytic`
 
 	**Type Changes:**
 
@@ -37,9 +37,9 @@
 
 	---
 
-	- [Analytic](../../pokedex/abilities/analytic.md)
+	- [Forewarn](../../pokedex/abilities/forewarn.md)
 	- [Synchronize](../../pokedex/abilities/synchronize.md)
-	- [Telepathy](../../pokedex/abilities/telepathy.md) :material-eye-off:
+	- [Analytic](../../pokedex/abilities/analytic.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

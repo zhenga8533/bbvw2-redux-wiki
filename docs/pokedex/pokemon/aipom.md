@@ -15,10 +15,6 @@
 
 ??? note "Aipom ROM Changes"
 
-	**Abilities Changes:**
-
-	- `run-away / pickup / skill-link` → `skill-link / technician / pickup`
-
 	**Level-up Moves Changes:**
 
 	- `14 moves` → `18 moves`
@@ -32,9 +28,9 @@
 
 	---
 
-	- [Skill Link](../../pokedex/abilities/skill-link.md)
-	- [Technician](../../pokedex/abilities/technician.md)
-	- [Pickup](../../pokedex/abilities/pickup.md) :material-eye-off:
+	- [Run Away](../../pokedex/abilities/run-away.md)
+	- [Pickup](../../pokedex/abilities/pickup.md)
+	- [Skill Link](../../pokedex/abilities/skill-link.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

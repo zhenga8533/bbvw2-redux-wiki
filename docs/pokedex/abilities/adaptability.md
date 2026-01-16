@@ -34,24 +34,6 @@
 
 	**#133 [Eevee](../pokemon/eevee.md)**
 
--	[![Corphish](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/341.gif){: .pokemon-sprite-img }](../pokemon/corphish.md)
-
-	***
-
-	**#341 [Corphish](../pokemon/corphish.md)**
-
--	[![Crawdaunt](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/342.gif){: .pokemon-sprite-img }](../pokemon/crawdaunt.md)
-
-	***
-
-	**#342 [Crawdaunt](../pokemon/crawdaunt.md)**
-
--	[![Kecleon](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/352.gif){: .pokemon-sprite-img }](../pokemon/kecleon.md)
-
-	***
-
-	**#352 [Kecleon](../pokemon/kecleon.md)**
-
 -	[![Porygon Z](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/474.gif){: .pokemon-sprite-img }](../pokemon/porygon-z.md)
 
 	***
@@ -87,12 +69,6 @@
 	***
 
 	**#349 [Feebas](../pokemon/feebas.md)**
-
--	[![Kecleon](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/352.gif){: .pokemon-sprite-img }](../pokemon/kecleon.md)
-
-	***
-
-	**#352 [Kecleon](../pokemon/kecleon.md)**
 
 </div>
 

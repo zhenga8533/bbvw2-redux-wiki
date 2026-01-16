@@ -15,9 +15,9 @@
 
 ??? note "Swampert ROM Changes"
 
-	**Abilities Changes:**
+	**Ability Changes:**
 
-	- `torrent / damp` → `water-veil / torrent / damp`
+	- `(none)` → `water-veil`
 
 	**Level-up Moves Changes:**
 
@@ -32,9 +32,9 @@
 
 	---
 
-	- [Water Veil](../../pokedex/abilities/water-veil.md)
 	- [Torrent](../../pokedex/abilities/torrent.md)
 	- [Damp](../../pokedex/abilities/damp.md) :material-eye-off:
+	- [Water Veil](../../pokedex/abilities/water-veil.md)
 
 - **:material-ruler: Physical Attributes**
 

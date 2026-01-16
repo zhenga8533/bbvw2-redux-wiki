@@ -28,12 +28,6 @@
 
 	**#127 [Pinsir](../pokemon/pinsir.md)**
 
--	[![Octillery](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/224.gif){: .pokemon-sprite-img }](../pokemon/octillery.md)
-
-	***
-
-	**#224 [Octillery](../pokemon/octillery.md)**
-
 -	[![Cranidos](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/408.gif){: .pokemon-sprite-img }](../pokemon/cranidos.md)
 
 	***
@@ -51,6 +45,36 @@
 	***
 
 	**#500 [Emboar](../pokemon/emboar.md)**
+
+-	[![Axew](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/610.gif){: .pokemon-sprite-img }](../pokemon/axew.md)
+
+	***
+
+	**#610 [Axew](../pokemon/axew.md)**
+
+-	[![Fraxure](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/611.gif){: .pokemon-sprite-img }](../pokemon/fraxure.md)
+
+	***
+
+	**#611 [Fraxure](../pokemon/fraxure.md)**
+
+-	[![Haxorus](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/612.gif){: .pokemon-sprite-img }](../pokemon/haxorus.md)
+
+	***
+
+	**#612 [Haxorus](../pokemon/haxorus.md)**
+
+</div>
+
+### :material-eye-off: Hidden Ability
+
+<div class="grid cards" markdown>
+
+-	[![Octillery](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/224.gif){: .pokemon-sprite-img }](../pokemon/octillery.md)
+
+	***
+
+	**#224 [Octillery](../pokemon/octillery.md)**
 
 -	[![Drilbur](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/529.gif){: .pokemon-sprite-img }](../pokemon/drilbur.md)
 
@@ -76,48 +100,6 @@
 
 	**#539 [Sawk](../pokemon/sawk.md)**
 
--	[![Axew](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/610.gif){: .pokemon-sprite-img }](../pokemon/axew.md)
-
-	***
-
-	**#610 [Axew](../pokemon/axew.md)**
-
--	[![Fraxure](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/611.gif){: .pokemon-sprite-img }](../pokemon/fraxure.md)
-
-	***
-
-	**#611 [Fraxure](../pokemon/fraxure.md)**
-
--	[![Haxorus](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/612.gif){: .pokemon-sprite-img }](../pokemon/haxorus.md)
-
-	***
-
-	**#612 [Haxorus](../pokemon/haxorus.md)**
-
--	[![Heatmor](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/631.gif){: .pokemon-sprite-img }](../pokemon/heatmor.md)
-
-	***
-
-	**#631 [Heatmor](../pokemon/heatmor.md)**
-
-</div>
-
-### :material-eye-off: Hidden Ability
-
-<div class="grid cards" markdown>
-
--	[![Throh](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/538.gif){: .pokemon-sprite-img }](../pokemon/throh.md)
-
-	***
-
-	**#538 [Throh](../pokemon/throh.md)**
-
--	[![Sawk](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/539.gif){: .pokemon-sprite-img }](../pokemon/sawk.md)
-
-	***
-
-	**#539 [Sawk](../pokemon/sawk.md)**
-
 -	[![Basculin Red Striped](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/550.gif){: .pokemon-sprite-img }](../pokemon/basculin-red-striped.md)
 
 	***
@@ -129,6 +111,12 @@
 	***
 
 	**#621 [Druddigon](../pokemon/druddigon.md)**
+
+-	[![Heatmor](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/631.gif){: .pokemon-sprite-img }](../pokemon/heatmor.md)
+
+	***
+
+	**#631 [Heatmor](../pokemon/heatmor.md)**
 
 </div>
 

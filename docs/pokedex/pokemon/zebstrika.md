@@ -16,15 +16,11 @@
 
 ??? note "Zebstrika ROM Changes"
 
-	**Abilities Changes:**
-
-	- `lightning-rod / motor-drive / sap-sipper` → `motor-drive / sap-sipper / lightning-rod`
-
 	**Level-up Moves Changes:**
 
 	- `16 moves` → `23 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `26 moves` → `28 moves (added: low-sweep, work-up)`
 
@@ -37,9 +33,9 @@
 
 	---
 
+	- [Lightning Rod](../../pokedex/abilities/lightning-rod.md)
 	- [Motor Drive](../../pokedex/abilities/motor-drive.md)
-	- [Sap Sipper](../../pokedex/abilities/sap-sipper.md)
-	- [Lightning Rod](../../pokedex/abilities/lightning-rod.md) :material-eye-off:
+	- [Sap Sipper](../../pokedex/abilities/sap-sipper.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

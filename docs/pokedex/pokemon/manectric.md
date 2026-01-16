@@ -15,15 +15,15 @@
 
 ??? note "Manectric ROM Changes"
 
-	**Abilities Changes:**
+	**Ability Changes:**
 
-	- `static / lightning-rod / minus` → `intimidate / static / lightning-rod`
+	- `minus` → `intimidate`
 
 	**Level-up Moves Changes:**
 
 	- `18 moves` → `24 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `29 moves` → `30 moves (added: energy-ball)`
 
@@ -36,9 +36,9 @@
 
 	---
 
-	- [Intimidate](../../pokedex/abilities/intimidate.md)
 	- [Static](../../pokedex/abilities/static.md)
-	- [Lightning Rod](../../pokedex/abilities/lightning-rod.md) :material-eye-off:
+	- [Lightning Rod](../../pokedex/abilities/lightning-rod.md)
+	- [Intimidate](../../pokedex/abilities/intimidate.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

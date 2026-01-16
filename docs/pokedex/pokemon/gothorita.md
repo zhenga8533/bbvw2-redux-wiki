@@ -20,10 +20,6 @@
 
 	- `gothita > gothorita: level-up (level 32)` → `gothita > gothorita: level-up (level 30)`
 
-	**Abilities Changes:**
-
-	- `frisk / shadow-tag` → `shadow-tag / frisk / frisk`
-
 	**Type Changes:**
 
 	- `psychic` → `psychic / dark`
@@ -32,7 +28,7 @@
 
 	- `19 moves` → `20 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `38 moves` → `39 moves (added: will-o-wisp)`
 
@@ -45,9 +41,8 @@
 
 	---
 
-	- [Shadow Tag](../../pokedex/abilities/shadow-tag.md)
 	- [Frisk](../../pokedex/abilities/frisk.md)
-	- [Frisk](../../pokedex/abilities/frisk.md) :material-eye-off:
+	- [Shadow Tag](../../pokedex/abilities/shadow-tag.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

@@ -21,15 +21,11 @@
 
 	- `slowpoke > slowking: trade (held: kings-rock)` → `slowpoke > slowking: use-item (king's-rock)`
 
-	**Abilities Changes:**
-
-	- `oblivious / own-tempo / regenerator` → `regenerator / own-tempo / regenerator`
-
 	**Level-up Moves Changes:**
 
 	- `18 moves` → `22 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `48 moves` → `49 moves (added: waterfall)`
 
@@ -42,7 +38,7 @@
 
 	---
 
-	- [Regenerator](../../pokedex/abilities/regenerator.md)
+	- [Oblivious](../../pokedex/abilities/oblivious.md)
 	- [Own Tempo](../../pokedex/abilities/own-tempo.md)
 	- [Regenerator](../../pokedex/abilities/regenerator.md) :material-eye-off:
 

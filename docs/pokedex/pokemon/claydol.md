@@ -19,7 +19,7 @@
 
 	- `36 moves` → `22 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `45 moves` → `48 moves (added: tri-attack, power-gem, fly)`
 

@@ -15,10 +15,6 @@
 
 ??? note "Buneary ROM Changes"
 
-	**Abilities Changes:**
-
-	- `run-away / klutz / limber` → `run-away / limber / klutz`
-
 	**Level-up Moves Changes:**
 
 	- `16 moves` → `20 moves`
@@ -33,8 +29,8 @@
 	---
 
 	- [Run Away](../../pokedex/abilities/run-away.md)
-	- [Limber](../../pokedex/abilities/limber.md)
-	- [Klutz](../../pokedex/abilities/klutz.md) :material-eye-off:
+	- [Klutz](../../pokedex/abilities/klutz.md)
+	- [Limber](../../pokedex/abilities/limber.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

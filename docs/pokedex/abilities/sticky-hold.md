@@ -22,6 +22,18 @@
 
 <div class="grid cards" markdown>
 
+-	[![Grimer](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/88.gif){: .pokemon-sprite-img }](../pokemon/grimer.md)
+
+	***
+
+	**#088 [Grimer](../pokemon/grimer.md)**
+
+-	[![Muk](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/89.gif){: .pokemon-sprite-img }](../pokemon/muk.md)
+
+	***
+
+	**#089 [Muk](../pokemon/muk.md)**
+
 -	[![Gulpin](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/316.gif){: .pokemon-sprite-img }](../pokemon/gulpin.md)
 
 	***
@@ -46,23 +58,11 @@
 
 	**#423 [Gastrodon](../pokemon/gastrodon.md)**
 
-</div>
-
-### :material-eye-off: Hidden Ability
-
-<div class="grid cards" markdown>
-
 -	[![Trubbish](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/568.gif){: .pokemon-sprite-img }](../pokemon/trubbish.md)
 
 	***
 
 	**#568 [Trubbish](../pokemon/trubbish.md)**
-
--	[![Garbodor](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/569.gif){: .pokemon-sprite-img }](../pokemon/garbodor.md)
-
-	***
-
-	**#569 [Garbodor](../pokemon/garbodor.md)**
 
 -	[![Accelgor](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/617.gif){: .pokemon-sprite-img }](../pokemon/accelgor.md)
 

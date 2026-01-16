@@ -15,15 +15,15 @@
 
 ??? note "Sandslash ROM Changes"
 
-	**Abilities Changes:**
+	**Ability Changes:**
 
-	- `sand-veil / sand-rush` → `rough-skin / sand-rush / sand-rush`
+	- `(none)` → `rough-skin`
 
 	**Level-up Moves Changes:**
 
 	- `32 moves` → `25 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `37 moves` → `40 moves (added: smack-down, low-sweep, rock-polish)`
 
@@ -36,9 +36,9 @@
 
 	---
 
-	- [Rough Skin](../../pokedex/abilities/rough-skin.md)
-	- [Sand Rush](../../pokedex/abilities/sand-rush.md)
+	- [Sand Veil](../../pokedex/abilities/sand-veil.md)
 	- [Sand Rush](../../pokedex/abilities/sand-rush.md) :material-eye-off:
+	- [Rough Skin](../../pokedex/abilities/rough-skin.md)
 
 - **:material-ruler: Physical Attributes**
 

@@ -21,17 +21,19 @@
 
 	- `burmy > mothim: level-up (level 20)` → `burmy > mothim: level-up (level 25)`
 
-	**Base Stats Changes:**
+	**Ability Changes:**
 
-	- `60 HP / 69 Atk / 95 Def / 69 SAtk / 95 SDef / 36 Spd` → `66 HP / 77 Atk / 97 Def / 77 SAtk / 97 SDef / 36 Spd`
+	- `(none)` → `shield-dust`
 
-	**Abilities Changes:**
+	- `overcoat` → `rough-skin`
 
-	- `anticipation / overcoat` → `wonder-skin / overcoat / overcoat`
+	- `rough-skin` → `wonder-skin`
 
 	**Level-up Moves Changes:**
 
 	- `13 moves` → `20 moves`
+
+	- `wonder-skin` → `rough-skin`
 
 
 ## :material-information: Basic Information
@@ -42,9 +44,9 @@
 
 	---
 
-	- [Wonder Skin](../../pokedex/abilities/wonder-skin.md)
-	- [Overcoat](../../pokedex/abilities/overcoat.md)
-	- [Overcoat](../../pokedex/abilities/overcoat.md) :material-eye-off:
+	- [Anticipation](../../pokedex/abilities/anticipation.md)
+	- [Wonder Skin](../../pokedex/abilities/wonder-skin.md) :material-eye-off:
+	- [Shield Dust](../../pokedex/abilities/shield-dust.md)
 
 - **:material-ruler: Physical Attributes**
 
@@ -143,13 +145,13 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Stat | Base | Min | Max | Distribution |
 |------|-----:|----:|----:|:-------------|
-| **HP** | **66** | 242 | 336 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 25.882352941176475%;"></div></div> |
-| **Attack** | **77** | 143 | 278 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 30.19607843137255%;"></div></div> |
-| **Defense** | **97** | 179 | 322 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 38.03921568627451%;"></div></div> |
-| **Sp. Atk** | **77** | 143 | 278 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 30.19607843137255%;"></div></div> |
-| **Sp. Def** | **97** | 179 | 322 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 38.03921568627451%;"></div></div> |
+| **HP** | **60** | 230 | 324 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 23.52941176470588%;"></div></div> |
+| **Attack** | **69** | 128 | 260 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 27.058823529411764%;"></div></div> |
+| **Defense** | **95** | 175 | 317 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 37.254901960784316%;"></div></div> |
+| **Sp. Atk** | **69** | 128 | 260 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 27.058823529411764%;"></div></div> |
+| **Sp. Def** | **95** | 175 | 317 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 37.254901960784316%;"></div></div> |
 | **Speed** | **36** | 69 | 188 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 14.117647058823529%;"></div></div> |
-| **Base Stat Total** | **450** | | | |
+| **Base Stat Total** | **424** | | | |
 
 > **Min/Max Stats:** Calculated at Level 100.
 >

@@ -15,15 +15,11 @@
 
 ??? note "Buizel ROM Changes"
 
-	**Abilities Changes:**
-
-	- `swift-swim / water-veil` → `swift-swim / water-veil / water-veil`
-
 	**Level-up Moves Changes:**
 
 	- `25 moves` → `22 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `27 moves` → `29 moves (added: wave-crash, cut)`
 
@@ -37,7 +33,6 @@
 	---
 
 	- [Swift Swim](../../pokedex/abilities/swift-swim.md)
-	- [Water Veil](../../pokedex/abilities/water-veil.md)
 	- [Water Veil](../../pokedex/abilities/water-veil.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**

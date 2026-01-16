@@ -16,10 +16,6 @@
 
 ??? note "Deoxys Speed ROM Changes"
 
-	**Abilities Changes:**
-
-	- `pressure` → `inner-focus / pressure`
-
 	**Level-up Moves Changes:**
 
 	- `14 moves` → `16 moves`
@@ -33,7 +29,6 @@
 
 	---
 
-	- [Inner Focus](../../pokedex/abilities/inner-focus.md)
 	- [Pressure](../../pokedex/abilities/pressure.md)
 
 - **:material-ruler: Physical Attributes**

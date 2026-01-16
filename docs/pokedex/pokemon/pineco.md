@@ -15,15 +15,11 @@
 
 ??? note "Pineco ROM Changes"
 
-	**Abilities Changes:**
-
-	- `sturdy / overcoat` → `sturdy / overcoat / overcoat`
-
 	**Level-up Moves Changes:**
 
 	- `14 moves` → `19 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `29 moves` → `30 moves (added: bug-buzz)`
 
@@ -37,7 +33,6 @@
 	---
 
 	- [Sturdy](../../pokedex/abilities/sturdy.md)
-	- [Overcoat](../../pokedex/abilities/overcoat.md)
 	- [Overcoat](../../pokedex/abilities/overcoat.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**

@@ -16,13 +16,9 @@
 
 ??? note "Pidove ROM Changes"
 
-	**Base Stats Changes:**
+	**Ability Changes:**
 
-	- `50 HP / 55 Atk / 50 Def / 36 SAtk / 30 SDef / 43 Spd` → `50 HP / 36 Atk / 50 Def / 55 SAtk / 30 SDef / 43 Spd`
-
-	**Abilities Changes:**
-
-	- `big-pecks / super-luck / rivalry` → `unaware / super-luck / rivalry`
+	- `rivalry` → `unaware`
 
 	**Level-up Moves Changes:**
 
@@ -37,9 +33,9 @@
 
 	---
 
-	- [Unaware](../../pokedex/abilities/unaware.md)
+	- [Big Pecks](../../pokedex/abilities/big-pecks.md)
 	- [Super Luck](../../pokedex/abilities/super-luck.md)
-	- [Rivalry](../../pokedex/abilities/rivalry.md) :material-eye-off:
+	- [Unaware](../../pokedex/abilities/unaware.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 
@@ -126,9 +122,9 @@
 | Stat | Base | Min | Max | Distribution |
 |------|-----:|----:|----:|:-------------|
 | **HP** | **50** | 210 | 304 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 19.607843137254903%;"></div></div> |
-| **Attack** | **36** | 69 | 188 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 14.117647058823529%;"></div></div> |
+| **Attack** | **55** | 103 | 229 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 21.568627450980394%;"></div></div> |
 | **Defense** | **50** | 94 | 218 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 19.607843137254903%;"></div></div> |
-| **Sp. Atk** | **55** | 103 | 229 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 21.568627450980394%;"></div></div> |
+| **Sp. Atk** | **36** | 69 | 188 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 14.117647058823529%;"></div></div> |
 | **Sp. Def** | **30** | 58 | 174 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 11.76470588235294%;"></div></div> |
 | **Speed** | **43** | 81 | 203 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 16.862745098039216%;"></div></div> |
 | **Base Stat Total** | **264** | | | |

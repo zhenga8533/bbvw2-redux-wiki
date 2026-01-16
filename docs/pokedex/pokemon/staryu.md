@@ -15,15 +15,15 @@
 
 ??? note "Staryu ROM Changes"
 
-	**Abilities Changes:**
+	**Ability Changes:**
 
-	- `illuminate / natural-cure / analytic` → `regenerator / natural-cure / analytic`
+	- `analytic` → `regenerator`
 
 	**Level-up Moves Changes:**
 
 	- `27 moves` → `25 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `29 moves` → `31 moves (added: tri-attack, power-gem)`
 
@@ -36,9 +36,9 @@
 
 	---
 
-	- [Regenerator](../../pokedex/abilities/regenerator.md)
+	- [Illuminate](../../pokedex/abilities/illuminate.md)
 	- [Natural Cure](../../pokedex/abilities/natural-cure.md)
-	- [Analytic](../../pokedex/abilities/analytic.md) :material-eye-off:
+	- [Regenerator](../../pokedex/abilities/regenerator.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

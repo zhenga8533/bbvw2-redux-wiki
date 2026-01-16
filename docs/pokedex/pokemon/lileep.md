@@ -19,10 +19,6 @@
 
 	- `lileep > cradily: level-up (level 40)` → `lileep > cradily: level-up (level 30)`
 
-	**Abilities Changes:**
-
-	- `suction-cups / storm-drain` → `suction-cups / storm-drain / storm-drain`
-
 	**Base Experience Changes:**
 
 	- `71` → `65`
@@ -41,7 +37,6 @@
 	---
 
 	- [Suction Cups](../../pokedex/abilities/suction-cups.md)
-	- [Storm Drain](../../pokedex/abilities/storm-drain.md)
 	- [Storm Drain](../../pokedex/abilities/storm-drain.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**

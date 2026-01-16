@@ -22,53 +22,17 @@
 
 <div class="grid cards" markdown>
 
--	[![Zubat](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/41.gif){: .pokemon-sprite-img }](../pokemon/zubat.md)
-
-	***
-
-	**#041 [Zubat](../pokemon/zubat.md)**
-
--	[![Golbat](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/42.gif){: .pokemon-sprite-img }](../pokemon/golbat.md)
-
-	***
-
-	**#042 [Golbat](../pokemon/golbat.md)**
-
--	[![Crobat](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/169.gif){: .pokemon-sprite-img }](../pokemon/crobat.md)
-
-	***
-
-	**#169 [Crobat](../pokemon/crobat.md)**
-
 -	[![Misdreavus](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/200.gif){: .pokemon-sprite-img }](../pokemon/misdreavus.md)
 
 	***
 
 	**#200 [Misdreavus](../pokemon/misdreavus.md)**
 
--	[![Ninjask](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/291.gif){: .pokemon-sprite-img }](../pokemon/ninjask.md)
-
-	***
-
-	**#291 [Ninjask](../pokemon/ninjask.md)**
-
--	[![Seviper](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/336.gif){: .pokemon-sprite-img }](../pokemon/seviper.md)
-
-	***
-
-	**#336 [Seviper](../pokemon/seviper.md)**
-
 -	[![Mismagius](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/429.gif){: .pokemon-sprite-img }](../pokemon/mismagius.md)
 
 	***
 
 	**#429 [Mismagius](../pokemon/mismagius.md)**
-
--	[![Spiritomb](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/442.gif){: .pokemon-sprite-img }](../pokemon/spiritomb.md)
-
-	***
-
-	**#442 [Spiritomb](../pokemon/spiritomb.md)**
 
 -	[![Cottonee](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/546.gif){: .pokemon-sprite-img }](../pokemon/cottonee.md)
 
@@ -81,12 +45,6 @@
 	***
 
 	**#547 [Whimsicott](../pokemon/whimsicott.md)**
-
--	[![Accelgor](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/617.gif){: .pokemon-sprite-img }](../pokemon/accelgor.md)
-
-	***
-
-	**#617 [Accelgor](../pokemon/accelgor.md)**
 
 </div>
 
@@ -148,17 +106,11 @@
 
 	**#442 [Spiritomb](../pokemon/spiritomb.md)**
 
--	[![Litwick](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/607.gif){: .pokemon-sprite-img }](../pokemon/litwick.md)
+-	[![Accelgor](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/617.gif){: .pokemon-sprite-img }](../pokemon/accelgor.md)
 
 	***
 
-	**#607 [Litwick](../pokemon/litwick.md)**
-
--	[![Lampent](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/608.gif){: .pokemon-sprite-img }](../pokemon/lampent.md)
-
-	***
-
-	**#608 [Lampent](../pokemon/lampent.md)**
+	**#617 [Accelgor](../pokemon/accelgor.md)**
 
 </div>
 

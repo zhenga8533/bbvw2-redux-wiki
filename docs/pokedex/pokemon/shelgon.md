@@ -15,15 +15,11 @@
 
 ??? note "Shelgon ROM Changes"
 
-	**Abilities Changes:**
-
-	- `rock-head / overcoat` → `rock-head / overcoat / overcoat`
-
 	**Level-up Moves Changes:**
 
 	- `16 moves` → `23 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `28 moves` → `29 moves (added: work-up)`
 
@@ -37,7 +33,6 @@
 	---
 
 	- [Rock Head](../../pokedex/abilities/rock-head.md)
-	- [Overcoat](../../pokedex/abilities/overcoat.md)
 	- [Overcoat](../../pokedex/abilities/overcoat.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**

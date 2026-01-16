@@ -15,19 +15,15 @@
 
 ??? note "Venusaur ROM Changes"
 
-	**Base Stats Changes:**
+	**Ability Changes:**
 
-	- `80 HP / 82 Atk / 83 Def / 100 SAtk / 100 SDef / 80 Spd` → `80 HP / 87 Atk / 85 Def / 103 SAtk / 100 SDef / 80 Spd`
-
-	**Abilities Changes:**
-
-	- `overgrow / chlorophyll` → `solar-power / overgrow / chlorophyll`
+	- `(none)` → `solar-power`
 
 	**Level-up Moves Changes:**
 
 	- `18 moves` → `25 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `31 moves` → `33 moves (added: sludge-wave, weather-ball)`
 
@@ -40,9 +36,9 @@
 
 	---
 
-	- [Solar Power](../../pokedex/abilities/solar-power.md)
 	- [Overgrow](../../pokedex/abilities/overgrow.md)
 	- [Chlorophyll](../../pokedex/abilities/chlorophyll.md) :material-eye-off:
+	- [Solar Power](../../pokedex/abilities/solar-power.md)
 
 - **:material-ruler: Physical Attributes**
 
@@ -129,12 +125,12 @@
 | Stat | Base | Min | Max | Distribution |
 |------|-----:|----:|----:|:-------------|
 | **HP** | **80** | 270 | 364 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 31.372549019607842%;"></div></div> |
-| **Attack** | **87** | 161 | 300 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 34.11764705882353%;"></div></div> |
-| **Defense** | **85** | 157 | 295 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 33.33333333333333%;"></div></div> |
-| **Sp. Atk** | **103** | 189 | 335 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 40.3921568627451%;"></div></div> |
+| **Attack** | **82** | 152 | 289 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 32.15686274509804%;"></div></div> |
+| **Defense** | **83** | 153 | 291 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 32.549019607843135%;"></div></div> |
+| **Sp. Atk** | **100** | 184 | 328 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 39.21568627450981%;"></div></div> |
 | **Sp. Def** | **100** | 184 | 328 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 39.21568627450981%;"></div></div> |
 | **Speed** | **80** | 148 | 284 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 31.372549019607842%;"></div></div> |
-| **Base Stat Total** | **535** | | | |
+| **Base Stat Total** | **525** | | | |
 
 > **Min/Max Stats:** Calculated at Level 100.
 >

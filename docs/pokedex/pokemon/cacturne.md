@@ -15,15 +15,15 @@
 
 ??? note "Cacturne ROM Changes"
 
-	**Abilities Changes:**
+	**Ability Changes:**
 
-	- `sand-veil / water-absorb` → `unnerve / water-absorb / water-absorb`
+	- `(none)` → `unnerve`
 
 	**Level-up Moves Changes:**
 
 	- `19 moves` → `25 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `31 moves` → `33 moves (added: low-sweep, rock-climb)`
 
@@ -36,9 +36,9 @@
 
 	---
 
-	- [Unnerve](../../pokedex/abilities/unnerve.md)
-	- [Water Absorb](../../pokedex/abilities/water-absorb.md)
+	- [Sand Veil](../../pokedex/abilities/sand-veil.md)
 	- [Water Absorb](../../pokedex/abilities/water-absorb.md) :material-eye-off:
+	- [Unnerve](../../pokedex/abilities/unnerve.md)
 
 - **:material-ruler: Physical Attributes**
 

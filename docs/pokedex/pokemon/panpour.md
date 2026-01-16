@@ -16,15 +16,15 @@
 
 ??? note "Panpour ROM Changes"
 
-	**Abilities Changes:**
+	**Growth Rate Changes:**
 
-	- `gluttony / torrent` → `gluttony / torrent / torrent`
+	- `medium` → `fast`
 
 	**Level-up Moves Changes:**
 
 	- `15 moves` → `25 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `35 moves` → `38 moves (added: power-up-punch, quash, play-rough)`
 
@@ -38,7 +38,6 @@
 	---
 
 	- [Gluttony](../../pokedex/abilities/gluttony.md)
-	- [Torrent](../../pokedex/abilities/torrent.md)
 	- [Torrent](../../pokedex/abilities/torrent.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
@@ -60,7 +59,7 @@
 
 	**Capture Rate:** 190
 
-	**Growth Rate:** Medium
+	**Growth Rate:** Fast
 
 	**EV Yield:** +1 Speed
 

@@ -3,7 +3,7 @@
 
 ??? note "Venoshock ROM Changes"
 
-	**Pp Changes:**
+	**PP Changes:**
 
 	- `10` → `15`
 

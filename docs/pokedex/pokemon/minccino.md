@@ -16,10 +16,6 @@
 
 ??? note "Minccino ROM Changes"
 
-	**Abilities Changes:**
-
-	- `cute-charm / technician / skill-link` → `skill-link / technician / cute-charm`
-
 	**Level-up Moves Changes:**
 
 	- `17 moves` → `21 moves`
@@ -33,9 +29,9 @@
 
 	---
 
-	- [Skill Link](../../pokedex/abilities/skill-link.md)
+	- [Cute Charm](../../pokedex/abilities/cute-charm.md)
 	- [Technician](../../pokedex/abilities/technician.md)
-	- [Cute Charm](../../pokedex/abilities/cute-charm.md) :material-eye-off:
+	- [Skill Link](../../pokedex/abilities/skill-link.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

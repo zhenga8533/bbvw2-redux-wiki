@@ -16,15 +16,15 @@
 
 ??? note "Klinklang ROM Changes"
 
-	**Abilities Changes:**
+	**Ability Changes:**
 
-	- `plus / minus / clear-body` → `levitate`
+	- `clear-body` → `levitate`
 
 	**Level-up Moves Changes:**
 
 	- `18 moves` → `22 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `24 moves` → `26 moves (added: tri-attack, power-gem)`
 
@@ -37,7 +37,9 @@
 
 	---
 
-	- [Levitate](../../pokedex/abilities/levitate.md)
+	- [Plus](../../pokedex/abilities/plus.md)
+	- [Minus](../../pokedex/abilities/minus.md)
+	- [Levitate](../../pokedex/abilities/levitate.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

@@ -15,14 +15,6 @@
 
 ??? note "Ninetales ROM Changes"
 
-	**Base Stats Changes:**
-
-	- `73 HP / 76 Atk / 75 Def / 81 SAtk / 100 SDef / 100 Spd` → `73 HP / 67 Atk / 75 Def / 81 SAtk / 100 SDef / 109 Spd`
-
-	**Abilities Changes:**
-
-	- `flash-fire / drought` → `drought / flash-fire / drought`
-
 	**Type Changes:**
 
 	- `fire` → `fire / fairy`
@@ -31,7 +23,7 @@
 
 	- `5 moves` → `15 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `31 moves` → `36 moves (added: tri-attack, psychic, shadow-ball, dazzling-gleam, power-gem)`
 
@@ -44,7 +36,6 @@
 
 	---
 
-	- [Drought](../../pokedex/abilities/drought.md)
 	- [Flash Fire](../../pokedex/abilities/flash-fire.md)
 	- [Drought](../../pokedex/abilities/drought.md) :material-eye-off:
 
@@ -148,11 +139,11 @@ These items can be found when catching or defeating this Pokémon in the wild:
 | Stat | Base | Min | Max | Distribution |
 |------|-----:|----:|----:|:-------------|
 | **HP** | **73** | 256 | 350 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 28.627450980392155%;"></div></div> |
-| **Attack** | **67** | 125 | 256 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 26.27450980392157%;"></div></div> |
+| **Attack** | **76** | 141 | 276 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 29.80392156862745%;"></div></div> |
 | **Defense** | **75** | 139 | 273 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 29.411764705882355%;"></div></div> |
 | **Sp. Atk** | **81** | 150 | 287 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 31.76470588235294%;"></div></div> |
 | **Sp. Def** | **100** | 184 | 328 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 39.21568627450981%;"></div></div> |
-| **Speed** | **109** | 200 | 348 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 42.745098039215684%;"></div></div> |
+| **Speed** | **100** | 184 | 328 | <div style="background: var(--md-default-fg-color--lightest); border-radius: 4px; overflow: hidden; height: 20px; width: 100%;"><div style="background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); height: 100%; width: 39.21568627450981%;"></div></div> |
 | **Base Stat Total** | **505** | | | |
 
 > **Min/Max Stats:** Calculated at Level 100.

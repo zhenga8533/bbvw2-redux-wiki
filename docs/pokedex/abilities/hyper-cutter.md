@@ -22,11 +22,35 @@
 
 <div class="grid cards" markdown>
 
+-	[![Krabby](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/98.gif){: .pokemon-sprite-img }](../pokemon/krabby.md)
+
+	***
+
+	**#098 [Krabby](../pokemon/krabby.md)**
+
+-	[![Kingler](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/99.gif){: .pokemon-sprite-img }](../pokemon/kingler.md)
+
+	***
+
+	**#099 [Kingler](../pokemon/kingler.md)**
+
+-	[![Pinsir](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/127.gif){: .pokemon-sprite-img }](../pokemon/pinsir.md)
+
+	***
+
+	**#127 [Pinsir](../pokemon/pinsir.md)**
+
 -	[![Gligar](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/207.gif){: .pokemon-sprite-img }](../pokemon/gligar.md)
 
 	***
 
 	**#207 [Gligar](../pokemon/gligar.md)**
+
+-	[![Mawile](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/303.gif){: .pokemon-sprite-img }](../pokemon/mawile.md)
+
+	***
+
+	**#303 [Mawile](../pokemon/mawile.md)**
 
 -	[![Trapinch](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/328.gif){: .pokemon-sprite-img }](../pokemon/trapinch.md)
 
@@ -51,12 +75,6 @@
 	***
 
 	**#472 [Gliscor](../pokemon/gliscor.md)**
-
--	[![Gallade](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/475.gif){: .pokemon-sprite-img }](../pokemon/gallade.md)
-
-	***
-
-	**#475 [Gallade](../pokemon/gallade.md)**
 
 </div>
 

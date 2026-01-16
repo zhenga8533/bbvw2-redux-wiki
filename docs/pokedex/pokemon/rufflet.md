@@ -20,10 +20,6 @@
 
 	- `rufflet > braviary: level-up (level 54)` → `rufflet > braviary: level-up (level 40)`
 
-	**Abilities Changes:**
-
-	- `keen-eye / sheer-force / hustle` → `hustle / sheer-force / hustle`
-
 	**Level-up Moves Changes:**
 
 	- `16 moves` → `23 moves`
@@ -37,7 +33,7 @@
 
 	---
 
-	- [Hustle](../../pokedex/abilities/hustle.md)
+	- [Keen Eye](../../pokedex/abilities/keen-eye.md)
 	- [Sheer Force](../../pokedex/abilities/sheer-force.md)
 	- [Hustle](../../pokedex/abilities/hustle.md) :material-eye-off:
 

@@ -144,7 +144,7 @@ With that out of the way, here are the changes to moves made in Redux:
 | └── | Accuracy | 95 | 100 | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled /> |
 | [Focus Energy](../pokedex/moves/focus-energy.md) | PP | 30 | 20  | <input type="checkbox" disabled /> | <input type="checkbox" disabled checked /> |
 | [Follow Me](../pokedex/moves/follow-me.md) | Priority | +3 | +2 | <input type="checkbox" disabled /> | <input type="checkbox" disabled /> |
-| [Frost Breath](../pokedex/moves/frost-breath.md) | Power | 60 | 50** | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled /> |
+| [Frost Breath](../pokedex/moves/frost-breath.md) | Power | 60 | 50 | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled /> |
 | [Fury Cutter](../pokedex/moves/fury-cutter.md) | Power | 20 | 30 | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled /> |
 | [Future Sight](../pokedex/moves/future-sight.md) | Power | 100 | 120 | <input type="checkbox" disabled /> | <input type="checkbox" disabled /> |
 | [Gear Grind](../pokedex/moves/gear-grind.md) | Power | 50 | 65 | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled /> |

@@ -3,7 +3,7 @@
 
 ??? note "Thunder Shock ROM Changes"
 
-	**Pp Changes:**
+	**PP Changes:**
 
 	- `30` → `25`
 

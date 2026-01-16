@@ -15,9 +15,9 @@
 
 ??? note "Torchic ROM Changes"
 
-	**Abilities Changes:**
+	**Ability Changes:**
 
-	- `blaze / speed-boost` → `quick-feet / blaze / quick-feet`
+	- `(none)` → `quick-feet`
 
 	**Level-up Moves Changes:**
 
@@ -32,9 +32,9 @@
 
 	---
 
-	- [Quick Feet](../../pokedex/abilities/quick-feet.md)
 	- [Blaze](../../pokedex/abilities/blaze.md)
-	- [Quick Feet](../../pokedex/abilities/quick-feet.md) :material-eye-off:
+	- [Speed Boost](../../pokedex/abilities/speed-boost.md) :material-eye-off:
+	- [Quick Feet](../../pokedex/abilities/quick-feet.md)
 
 - **:material-ruler: Physical Attributes**
 

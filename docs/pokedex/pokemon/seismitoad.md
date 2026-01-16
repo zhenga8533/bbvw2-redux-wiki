@@ -16,10 +16,6 @@
 
 ??? note "Seismitoad ROM Changes"
 
-	**Abilities Changes:**
-
-	- `swift-swim / poison-touch / water-absorb` → `water-absorb / poison-touch / swift-swim`
-
 	**Level-up Moves Changes:**
 
 	- `18 moves` → `20 moves`
@@ -33,9 +29,9 @@
 
 	---
 
-	- [Water Absorb](../../pokedex/abilities/water-absorb.md)
+	- [Swift Swim](../../pokedex/abilities/swift-swim.md)
 	- [Poison Touch](../../pokedex/abilities/poison-touch.md)
-	- [Swift Swim](../../pokedex/abilities/swift-swim.md) :material-eye-off:
+	- [Water Absorb](../../pokedex/abilities/water-absorb.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

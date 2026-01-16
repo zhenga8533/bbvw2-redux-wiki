@@ -19,15 +19,11 @@
 
 	- `haunter > gengar: trade` → `haunter > gengar: use-item (link-cable)`
 
-	**Abilities Changes:**
-
-	- `levitate` → `levitate / cursed-body / levitate`
-
 	**Level-up Moves Changes:**
 
 	- `15 moves` → `23 moves`
 
-	**TM/HM Compatibility Changes:**
+	**Machine Moves Changes:**
 
 	- `31 moves` → `32 moves (added: aura-sphere)`
 
@@ -41,8 +37,6 @@
 	---
 
 	- [Levitate](../../pokedex/abilities/levitate.md)
-	- [Cursed Body](../../pokedex/abilities/cursed-body.md)
-	- [Levitate](../../pokedex/abilities/levitate.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

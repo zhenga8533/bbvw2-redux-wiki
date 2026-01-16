@@ -3,7 +3,7 @@
 
 ??? note "Shadow Claw ROM Changes"
 
-	**Pp Changes:**
+	**PP Changes:**
 
 	- `15` → `90`
 

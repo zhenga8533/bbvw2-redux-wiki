@@ -22,35 +22,17 @@
 
 <div class="grid cards" markdown>
 
--	[![Diglett](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/50.gif){: .pokemon-sprite-img }](../pokemon/diglett.md)
+-	[![Drilbur](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/529.gif){: .pokemon-sprite-img }](../pokemon/drilbur.md)
 
 	***
 
-	**#050 [Diglett](../pokemon/diglett.md)**
+	**#529 [Drilbur](../pokemon/drilbur.md)**
 
--	[![Dugtrio](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/51.gif){: .pokemon-sprite-img }](../pokemon/dugtrio.md)
-
-	***
-
-	**#051 [Dugtrio](../pokemon/dugtrio.md)**
-
--	[![Nosepass](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/299.gif){: .pokemon-sprite-img }](../pokemon/nosepass.md)
+-	[![Excadrill](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/530.gif){: .pokemon-sprite-img }](../pokemon/excadrill.md)
 
 	***
 
-	**#299 [Nosepass](../pokemon/nosepass.md)**
-
--	[![Hippopotas](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/449.gif){: .pokemon-sprite-img }](../pokemon/hippopotas.md)
-
-	***
-
-	**#449 [Hippopotas](../pokemon/hippopotas.md)**
-
--	[![Hippowdon](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/450.gif){: .pokemon-sprite-img }](../pokemon/hippowdon.md)
-
-	***
-
-	**#450 [Hippowdon](../pokemon/hippowdon.md)**
+	**#530 [Excadrill](../pokemon/excadrill.md)**
 
 -	[![Landorus Incarnate](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/645.gif){: .pokemon-sprite-img }](../pokemon/landorus-incarnate.md)
 
@@ -76,6 +58,12 @@
 
 	**#051 [Dugtrio](../pokemon/dugtrio.md)**
 
+-	[![Nosepass](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/299.gif){: .pokemon-sprite-img }](../pokemon/nosepass.md)
+
+	***
+
+	**#299 [Nosepass](../pokemon/nosepass.md)**
+
 -	[![Shellos](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/422.gif){: .pokemon-sprite-img }](../pokemon/shellos.md)
 
 	***
@@ -100,6 +88,12 @@
 
 	**#450 [Hippowdon](../pokemon/hippowdon.md)**
 
+-	[![Probopass](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/476.gif){: .pokemon-sprite-img }](../pokemon/probopass.md)
+
+	***
+
+	**#476 [Probopass](../pokemon/probopass.md)**
+
 -	[![Roggenrola](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/524.gif){: .pokemon-sprite-img }](../pokemon/roggenrola.md)
 
 	***
@@ -117,18 +111,6 @@
 	***
 
 	**#526 [Gigalith](../pokemon/gigalith.md)**
-
--	[![Drilbur](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/529.gif){: .pokemon-sprite-img }](../pokemon/drilbur.md)
-
-	***
-
-	**#529 [Drilbur](../pokemon/drilbur.md)**
-
--	[![Excadrill](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/530.gif){: .pokemon-sprite-img }](../pokemon/excadrill.md)
-
-	***
-
-	**#530 [Excadrill](../pokemon/excadrill.md)**
 
 </div>
 
