@@ -1,9 +1,11 @@
 # Zen Headbutt
 
 
-!!! info "ROM Changes
+??? note "Zen Headbutt ROM Changes"
 
-    **Pp:** `15` → `10`
+	**Pp Changes:**
+
+	- `15` → `10`
 
 
 ## :material-chart-box: Stats

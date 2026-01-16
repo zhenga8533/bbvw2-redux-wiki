@@ -13,13 +13,25 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Leafeon ROM Changes"
 
-    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+	**Evolution Chain Changes:**
 
-    **Abilities:** `leaf-guard / chlorophyll` → `super-luck / chlorophyll / chlorophyll`
+	- `eevee > espeon: level-up (happiness, day)` → `eevee > espeon: use-item (sun-stone)`
 
-    **TM/HM Compatibility:** `31 moves` → `34 moves (added: tri-attack, play-rough, cut)`
+	- `eevee > umbreon: level-up (happiness, night)` → `eevee > umbreon: use-item (moon-stone)`
+
+	- `eevee > leafeon: level-up (at eterna-forest)` → `eevee > leafeon: use-item (leaf-stone)`
+
+	- `eevee > glaceon: level-up (at sinnoh-route-217)` → `eevee > glaceon: use-item (ice-stone)`
+
+	**Abilities Changes:**
+
+	- `leaf-guard / chlorophyll` → `super-luck / chlorophyll / chlorophyll`
+
+	**TM/HM Compatibility Changes:**
+
+	- `31 moves` → `34 moves (added: tri-attack, play-rough, cut)`
 
 
 ## :material-information: Basic Information
@@ -72,7 +84,7 @@
 
 	---
 
-	**Generation:** Generation Iv
+	**Generation:** Generation IV
 
 	**Color:** Green
 

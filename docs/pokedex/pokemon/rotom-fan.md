@@ -13,9 +13,11 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Rotom Fan ROM Changes"
 
-    **Abilities:** `levitate` → `motor-drive`
+	**Abilities Changes:**
+
+	- `levitate` → `motor-drive`
 
 
 ## :material-information: Basic Information
@@ -66,7 +68,7 @@
 
 	---
 
-	**Generation:** Generation Iv
+	**Generation:** Generation IV
 
 	**Color:** Red
 

@@ -14,11 +14,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Manaphy ROM Changes"
 
-    **Level-up Moves:** `13 moves` → `15 moves`
+	**Level-up Moves Changes:**
 
-    **TM/HM Compatibility:** `33 moves` → `34 moves (added: wave-crash)`
+	- `13 moves` → `15 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `33 moves` → `34 moves (added: wave-crash)`
 
 
 ## :material-information: Basic Information
@@ -69,7 +73,7 @@
 
 	---
 
-	**Generation:** Generation Iv
+	**Generation:** Generation IV
 
 	**Color:** Blue
 

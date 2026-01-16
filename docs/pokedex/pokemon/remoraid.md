@@ -13,9 +13,11 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Remoraid ROM Changes"
 
-    **Level-up Moves:** `21 moves` → `20 moves`
+	**Level-up Moves Changes:**
+
+	- `21 moves` → `20 moves`
 
 
 ## :material-information: Basic Information
@@ -70,7 +72,7 @@
 
 	---
 
-	**Generation:** Generation Ii
+	**Generation:** Generation II
 
 	**Color:** Gray
 
@@ -133,7 +135,7 @@
 
 	**#223 [Remoraid](./remoraid.md)**
 
-	
+
 
 	***You are here***
 

@@ -13,15 +13,23 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Pachirisu ROM Changes"
 
-    **Base Stats:** `60 HP / 45 Atk / 70 Def / 45 SAtk / 90 SDef / 95 Spd` → `65 HP / 60 Atk / 80 Def / 60 SAtk / 90 SDef / 95 Spd`
+	**Base Stats Changes:**
 
-    **Abilities:** `run-away / pickup / volt-absorb` → `volt-absorb / pickup / run-away`
+	- `60 HP / 45 Atk / 70 Def / 45 SAtk / 90 SDef / 95 Spd` → `65 HP / 60 Atk / 80 Def / 60 SAtk / 90 SDef / 95 Spd`
 
-    **Level-up Moves:** `14 moves` → `20 moves`
+	**Abilities Changes:**
 
-    **TM/HM Compatibility:** `26 moves` → `27 moves (added: play-rough)`
+	- `run-away / pickup / volt-absorb` → `volt-absorb / pickup / run-away`
+
+	**Level-up Moves Changes:**
+
+	- `14 moves` → `20 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `26 moves` → `27 moves (added: play-rough)`
 
 
 ## :material-information: Basic Information
@@ -76,7 +84,7 @@
 
 	---
 
-	**Generation:** Generation Iv
+	**Generation:** Generation IV
 
 	**Color:** White
 

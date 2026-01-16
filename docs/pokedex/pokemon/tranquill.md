@@ -14,15 +14,23 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Tranquill ROM Changes"
 
-    **Base Stats:** `62 HP / 77 Atk / 62 Def / 50 SAtk / 42 SDef / 65 Spd` → `65 HP / 50 Atk / 65 Def / 77 SAtk / 42 SDef / 66 Spd`
+	**Base Stats Changes:**
 
-    **Abilities:** `big-pecks / super-luck / rivalry` → `unaware / super-luck / rivalry`
+	- `62 HP / 77 Atk / 62 Def / 50 SAtk / 42 SDef / 65 Spd` → `65 HP / 50 Atk / 65 Def / 77 SAtk / 42 SDef / 66 Spd`
 
-    **Level-up Moves:** `18 moves` → `22 moves`
+	**Abilities Changes:**
 
-    **TM/HM Compatibility:** `21 moves` → `22 moves (added: hurricane)`
+	- `big-pecks / super-luck / rivalry` → `unaware / super-luck / rivalry`
+
+	**Level-up Moves Changes:**
+
+	- `18 moves` → `22 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `21 moves` → `22 moves (added: hurricane)`
 
 
 ## :material-information: Basic Information

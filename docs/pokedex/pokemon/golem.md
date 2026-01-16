@@ -13,11 +13,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Golem ROM Changes"
 
-    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+	**Evolution Chain Changes:**
 
-    **Level-up Moves:** `19 moves` → `25 moves`
+	- `graveler > golem: trade` → `graveler > golem: use-item (link-cable)`
+
+	**Level-up Moves Changes:**
+
+	- `19 moves` → `25 moves`
 
 
 ## :material-information: Basic Information
@@ -87,7 +91,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Everstone](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/everstone.png){ .item-sprite } [Everstone](../../pokedex/items/everstone.md) | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Everstone](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/everstone.png){ .item-sprite } [Everstone](../../pokedex/items/everstone.md)</span> | 5% | 5% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 

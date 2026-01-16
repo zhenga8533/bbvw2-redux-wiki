@@ -14,13 +14,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Klinklang ROM Changes"
 
-    **Abilities:** `plus / minus / clear-body` → `levitate`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `18 moves` → `22 moves`
+	- `plus / minus / clear-body` → `levitate`
 
-    **TM/HM Compatibility:** `24 moves` → `26 moves (added: tri-attack, power-gem)`
+	**Level-up Moves Changes:**
+
+	- `18 moves` → `22 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `24 moves` → `26 moves (added: tri-attack, power-gem)`
 
 
 ## :material-information: Basic Information

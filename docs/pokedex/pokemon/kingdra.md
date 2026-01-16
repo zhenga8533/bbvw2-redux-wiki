@@ -13,13 +13,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Kingdra ROM Changes"
 
-    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+	**Evolution Chain Changes:**
 
-    **Level-up Moves:** `16 moves` → `24 moves`
+	- `seadra > kingdra: trade (held: dragon-scale)` → `seadra > kingdra: use-item (dragon-scale)`
 
-    **TM/HM Compatibility:** `24 moves` → `25 moves (added: hurricane)`
+	**Level-up Moves Changes:**
+
+	- `16 moves` → `24 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `24 moves` → `25 moves (added: hurricane)`
 
 
 ## :material-information: Basic Information
@@ -74,7 +80,7 @@
 
 	---
 
-	**Generation:** Generation Ii
+	**Generation:** Generation II
 
 	**Color:** Blue
 
@@ -89,7 +95,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Dragon Scale](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dragon-scale.png){ .item-sprite } [Dragon Scale](../../pokedex/items/dragon-scale.md) | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Dragon Scale](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dragon-scale.png){ .item-sprite } [Dragon Scale](../../pokedex/items/dragon-scale.md)</span> | 5% | 5% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 

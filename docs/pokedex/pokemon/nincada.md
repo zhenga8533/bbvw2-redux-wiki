@@ -13,11 +13,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Nincada ROM Changes"
 
-    **Abilities:** `compound-eyes / run-away` → `compound-eyes / run-away / run-away`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `10 moves` → `22 moves`
+	- `compound-eyes / run-away` → `compound-eyes / run-away / run-away`
+
+	**Level-up Moves Changes:**
+
+	- `10 moves` → `22 moves`
 
 
 ## :material-information: Basic Information
@@ -72,7 +76,7 @@
 
 	---
 
-	**Generation:** Generation Iii
+	**Generation:** Generation III
 
 	**Color:** Gray
 
@@ -144,7 +148,7 @@
 
 	**#290 [Nincada](./nincada.md)**
 
-	
+
 
 	***You are here***
 

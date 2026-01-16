@@ -77,7 +77,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Rawst Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/rawst-berry.png){ .item-sprite } [Rawst Berry](../../pokedex/items/rawst-berry.md) | 50% | 50% | 50% | 50% |
+| <span style="white-space: nowrap;">![Rawst Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/rawst-berry.png){ .item-sprite } [Rawst Berry](../../pokedex/items/rawst-berry.md)</span> | 50% | 50% | 50% | 50% |
 
 ## :material-shield-half-full: Type Effectiveness
 

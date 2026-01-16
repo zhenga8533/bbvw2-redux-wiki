@@ -1,13 +1,19 @@
 # Steamroller
 
 
-!!! info "ROM Changes
+??? note "Steamroller ROM Changes"
 
-    **Power:** `65` → `100`
+	**Power Changes:**
 
-    **Accuracy:** `100` → `90`
+	- `65` → `100`
 
-    **Pp:** `20` → `10`
+	**Accuracy Changes:**
+
+	- `100` → `90`
+
+	**Pp Changes:**
+
+	- `20` → `10`
 
 
 ## :material-chart-box: Stats

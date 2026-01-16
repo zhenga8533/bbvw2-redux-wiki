@@ -1,9 +1,11 @@
 # Aurora Beam
 
 
-!!! info "ROM Changes
+??? note "Aurora Beam ROM Changes"
 
-    **Power:** `65` → `75`
+	**Power Changes:**
+
+	- `65` → `75`
 
 
 ## :material-chart-box: Stats

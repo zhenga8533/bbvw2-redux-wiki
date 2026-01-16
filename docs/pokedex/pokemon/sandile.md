@@ -14,11 +14,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Sandile ROM Changes"
 
-    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+	**Evolution Chain Changes:**
 
-    **Level-up Moves:** `17 moves` → `21 moves`
+	- `sandile > krokorok: level-up (level 29)` → `sandile > krokorok: level-up (level 27)`
+
+	**Level-up Moves Changes:**
+
+	- `17 moves` → `21 moves`
 
 
 ## :material-information: Basic Information
@@ -143,7 +147,7 @@
 
 	**#551 [Sandile](./sandile.md)**
 
-	
+
 
 	***You are here***
 

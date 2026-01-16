@@ -13,13 +13,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Whismur ROM Changes"
 
-    **Abilities:** `soundproof / rattled` → `soundproof / scrappy / rattled`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `12 moves` → `17 moves`
+	- `soundproof / rattled` → `soundproof / scrappy / rattled`
 
-    **TM/HM Compatibility:** `26 moves` → `27 moves (added: bug-buzz)`
+	**Level-up Moves Changes:**
+
+	- `12 moves` → `17 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `26 moves` → `27 moves (added: bug-buzz)`
 
 
 ## :material-information: Basic Information
@@ -74,7 +80,7 @@
 
 	---
 
-	**Generation:** Generation Iii
+	**Generation:** Generation III
 
 	**Color:** Pink
 
@@ -89,7 +95,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Chesto Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/chesto-berry.png){ .item-sprite } [Chesto Berry](../../pokedex/items/chesto-berry.md) | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Chesto Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/chesto-berry.png){ .item-sprite } [Chesto Berry](../../pokedex/items/chesto-berry.md)</span> | 5% | 5% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 
@@ -145,7 +151,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 	**#293 [Whismur](./whismur.md)**
 
-	
+
 
 	***You are here***
 

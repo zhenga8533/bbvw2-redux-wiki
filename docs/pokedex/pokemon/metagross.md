@@ -13,15 +13,23 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Metagross ROM Changes"
 
-    **Abilities:** `clear-body / light-metal` → `clear-body / iron-fist / heavy-metal`
+	**Abilities Changes:**
 
-    **Catch Rate:** `3` → `45`
+	- `clear-body / light-metal` → `clear-body / iron-fist / heavy-metal`
 
-    **Level-up Moves:** `25 moves` → `24 moves`
+	**Catch Rate Changes:**
 
-    **TM/HM Compatibility:** `40 moves` → `42 moves (added: rock-climb, fly)`
+	- `3` → `45`
+
+	**Level-up Moves Changes:**
+
+	- `25 moves` → `24 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `40 moves` → `42 moves (added: rock-climb, fly)`
 
 
 ## :material-information: Basic Information
@@ -76,7 +84,7 @@
 
 	---
 
-	**Generation:** Generation Iii
+	**Generation:** Generation III
 
 	**Color:** Blue
 
@@ -91,7 +99,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Metal Coat](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/metal-coat.png){ .item-sprite } [Metal Coat](../../pokedex/items/metal-coat.md) | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Metal Coat](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/metal-coat.png){ .item-sprite } [Metal Coat](../../pokedex/items/metal-coat.md)</span> | 5% | 5% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 

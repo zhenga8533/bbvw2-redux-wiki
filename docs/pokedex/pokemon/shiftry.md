@@ -13,13 +13,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Shiftry ROM Changes"
 
-    **Abilities:** `chlorophyll / early-bird / pickpocket` → `chlorophyll / rattled / early-bird`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `6 moves` → `13 moves`
+	- `chlorophyll / early-bird / pickpocket` → `chlorophyll / rattled / early-bird`
 
-    **TM/HM Compatibility:** `42 moves` → `43 moves (added: quash)`
+	**Level-up Moves Changes:**
+
+	- `6 moves` → `13 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `42 moves` → `43 moves (added: quash)`
 
 
 ## :material-information: Basic Information
@@ -76,7 +82,7 @@
 
 	---
 
-	**Generation:** Generation Iii
+	**Generation:** Generation III
 
 	**Color:** Brown
 

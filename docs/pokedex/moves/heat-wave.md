@@ -1,9 +1,11 @@
 # Heat Wave
 
 
-!!! info "ROM Changes
+??? note "Heat Wave ROM Changes"
 
-    **Power:** `95` → `100`
+	**Power Changes:**
+
+	- `95` → `100`
 
 
 ## :material-chart-box: Stats

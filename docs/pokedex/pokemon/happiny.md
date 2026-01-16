@@ -14,13 +14,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Happiny ROM Changes"
 
-    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+	**Evolution Chain Changes:**
 
-    **Base Happiness:** `140` → `180`
+	- `happiny > chansey: level-up (held: oval-stone)` → `happiny > chansey: level-up (level 30)`
 
-    **Level-up Moves:** `5 moves` → `13 moves`
+	**Base Happiness Changes:**
+
+	- `140` → `180`
+
+	**Level-up Moves Changes:**
+
+	- `5 moves` → `13 moves`
 
 
 ## :material-information: Basic Information
@@ -73,7 +79,7 @@
 
 	---
 
-	**Generation:** Generation Iv
+	**Generation:** Generation IV
 
 	**Color:** Pink
 
@@ -88,8 +94,8 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Lucky Egg](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/lucky-egg.png){ .item-sprite } [Lucky Egg](../../pokedex/items/lucky-egg.md) | 5% | 5% | 5% | 5% |
-| ![Oval Stone](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/oval-stone.png){ .item-sprite } [Oval Stone](../../pokedex/items/oval-stone.md) | 50% | 50% | 50% | 50% |
+| <span style="white-space: nowrap;">![Lucky Egg](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/lucky-egg.png){ .item-sprite } [Lucky Egg](../../pokedex/items/lucky-egg.md)</span> | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Oval Stone](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/oval-stone.png){ .item-sprite } [Oval Stone](../../pokedex/items/oval-stone.md)</span> | 50% | 50% | 50% | 50% |
 
 ## :material-shield-half-full: Type Effectiveness
 
@@ -145,7 +151,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 	**#440 [Happiny](./happiny.md)**
 
-	
+
 
 	***You are here***
 

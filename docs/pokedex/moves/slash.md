@@ -1,9 +1,11 @@
 # Slash
 
 
-!!! info "ROM Changes
+??? note "Slash ROM Changes"
 
-    **Pp:** `20` → `15`
+	**Pp Changes:**
+
+	- `20` → `15`
 
 
 ## :material-chart-box: Stats

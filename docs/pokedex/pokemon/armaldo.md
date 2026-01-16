@@ -13,15 +13,23 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Armaldo ROM Changes"
 
-    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+	**Evolution Chain Changes:**
 
-    **Abilities:** `battle-armor / swift-swim` → `battle-armor / swift-swim / swift-swim`
+	- `anorith > armaldo: level-up (level 40)` → `anorith > armaldo: level-up (level 30)`
 
-    **Level-up Moves:** `14 moves` → `19 moves`
+	**Abilities Changes:**
 
-    **TM/HM Compatibility:** `35 moves` → `38 moves (added: wave-crash, bug-buzz, rock-climb)`
+	- `battle-armor / swift-swim` → `battle-armor / swift-swim / swift-swim`
+
+	**Level-up Moves Changes:**
+
+	- `14 moves` → `19 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `35 moves` → `38 moves (added: wave-crash, bug-buzz, rock-climb)`
 
 
 ## :material-information: Basic Information
@@ -76,7 +84,7 @@
 
 	---
 
-	**Generation:** Generation Iii
+	**Generation:** Generation III
 
 	**Color:** Gray
 

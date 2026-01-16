@@ -14,13 +14,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Unfezant ROM Changes"
 
-    **Base Stats:** `80 HP / 105 Atk / 80 Def / 65 SAtk / 55 SDef / 93 Spd` → `80 HP / 65 Atk / 80 Def / 110 SAtk / 55 SDef / 95 Spd`
+	**Base Stats Changes:**
 
-    **Abilities:** `big-pecks / super-luck / rivalry` → `unaware / super-luck / rivalry`
+	- `80 HP / 105 Atk / 80 Def / 65 SAtk / 55 SDef / 93 Spd` → `80 HP / 65 Atk / 80 Def / 110 SAtk / 55 SDef / 95 Spd`
 
-    **Level-up Moves:** `18 moves` → `24 moves`
+	**Abilities Changes:**
+
+	- `big-pecks / super-luck / rivalry` → `unaware / super-luck / rivalry`
+
+	**Level-up Moves Changes:**
+
+	- `18 moves` → `24 moves`
 
 
 ## :material-information: Basic Information

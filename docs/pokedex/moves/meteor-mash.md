@@ -1,9 +1,11 @@
 # Meteor Mash
 
 
-!!! info "ROM Changes
+??? note "Meteor Mash ROM Changes"
 
-    **Power:** `90` → `95`
+	**Power Changes:**
+
+	- `90` → `95`
 
 
 ## :material-chart-box: Stats

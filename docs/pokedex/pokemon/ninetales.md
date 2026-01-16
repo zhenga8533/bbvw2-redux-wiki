@@ -13,17 +13,27 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Ninetales ROM Changes"
 
-    **Base Stats:** `73 HP / 76 Atk / 75 Def / 81 SAtk / 100 SDef / 100 Spd` → `73 HP / 67 Atk / 75 Def / 81 SAtk / 100 SDef / 109 Spd`
+	**Base Stats Changes:**
 
-    **Abilities:** `flash-fire / drought` → `drought / flash-fire / drought`
+	- `73 HP / 76 Atk / 75 Def / 81 SAtk / 100 SDef / 100 Spd` → `73 HP / 67 Atk / 75 Def / 81 SAtk / 100 SDef / 109 Spd`
 
-    **Type:** `fire` → `fire / fairy`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `5 moves` → `15 moves`
+	- `flash-fire / drought` → `drought / flash-fire / drought`
 
-    **TM/HM Compatibility:** `31 moves` → `36 moves (added: tri-attack, psychic, shadow-ball, dazzling-gleam, power-gem)`
+	**Type Changes:**
+
+	- `fire` → `fire / fairy`
+
+	**Level-up Moves Changes:**
+
+	- `5 moves` → `15 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `31 moves` → `36 moves (added: tri-attack, psychic, shadow-ball, dazzling-gleam, power-gem)`
 
 
 ## :material-information: Basic Information
@@ -93,7 +103,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Rawst Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/rawst-berry.png){ .item-sprite } [Rawst Berry](../../pokedex/items/rawst-berry.md) | 100% | 100% | 100% | 100% |
+| <span style="white-space: nowrap;">![Rawst Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/rawst-berry.png){ .item-sprite } [Rawst Berry](../../pokedex/items/rawst-berry.md)</span> | 100% | 100% | 100% | 100% |
 
 ## :material-shield-half-full: Type Effectiveness
 

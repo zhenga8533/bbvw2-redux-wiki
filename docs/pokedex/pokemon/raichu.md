@@ -13,15 +13,23 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Raichu ROM Changes"
 
-    **Base Stats:** `60 HP / 90 Atk / 55 Def / 90 SAtk / 80 SDef / 100 Spd` → `60 HP / 95 Atk / 55 Def / 95 SAtk / 80 SDef / 110 Spd`
+	**Base Stats Changes:**
 
-    **Abilities:** `static / lightning-rod` → `static / lightning-rod / lightning-rod`
+	- `60 HP / 90 Atk / 55 Def / 90 SAtk / 80 SDef / 100 Spd` → `60 HP / 95 Atk / 55 Def / 95 SAtk / 80 SDef / 110 Spd`
 
-    **Level-up Moves:** `4 moves` → `11 moves`
+	**Abilities Changes:**
 
-    **TM/HM Compatibility:** `32 moves` → `36 moves (added: psychic, cut, fly, surf)`
+	- `static / lightning-rod` → `static / lightning-rod / lightning-rod`
+
+	**Level-up Moves Changes:**
+
+	- `4 moves` → `11 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `32 moves` → `36 moves (added: psychic, cut, fly, surf)`
 
 
 ## :material-information: Basic Information
@@ -93,7 +101,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Oran Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/oran-berry.png){ .item-sprite } [Oran Berry](../../pokedex/items/oran-berry.md) | 50% | 50% | — | — |
+| <span style="white-space: nowrap;">![Oran Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/oran-berry.png){ .item-sprite } [Oran Berry](../../pokedex/items/oran-berry.md)</span> | 50% | 50% | — | — |
 
 ## :material-shield-half-full: Type Effectiveness
 

@@ -13,11 +13,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Wailmer ROM Changes"
 
-    **Abilities:** `water-veil / oblivious / pressure` → `water-veil / pressure / pressure`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `16 moves` → `21 moves`
+	- `water-veil / oblivious / pressure` → `water-veil / pressure / pressure`
+
+	**Level-up Moves Changes:**
+
+	- `16 moves` → `21 moves`
 
 
 ## :material-information: Basic Information
@@ -72,7 +76,7 @@
 
 	---
 
-	**Generation:** Generation Iii
+	**Generation:** Generation III
 
 	**Color:** Blue
 
@@ -135,7 +139,7 @@
 
 	**#320 [Wailmer](./wailmer.md)**
 
-	
+
 
 	***You are here***
 

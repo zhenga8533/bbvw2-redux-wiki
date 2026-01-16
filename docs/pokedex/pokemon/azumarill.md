@@ -13,15 +13,23 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Azumarill ROM Changes"
 
-    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+	**Evolution Chain Changes:**
 
-    **Base Stats:** `100 HP / 50 Atk / 80 Def / 50 SAtk / 80 SDef / 50 Spd` → `100 HP / 50 Atk / 80 Def / 80 SAtk / 80 SDef / 50 Spd`
+	- `marill > azumarill: level-up (level 18)` → `marill > azumarill: level-up (level 21)`
 
-    **Abilities:** `thick-fat / huge-power / sap-sipper` → `huge-power / thick-fat / sap-sipper`
+	**Base Stats Changes:**
 
-    **Level-up Moves:** `29 moves` → `25 moves`
+	- `100 HP / 50 Atk / 80 Def / 50 SAtk / 80 SDef / 50 Spd` → `100 HP / 50 Atk / 80 Def / 80 SAtk / 80 SDef / 50 Spd`
+
+	**Abilities Changes:**
+
+	- `thick-fat / huge-power / sap-sipper` → `huge-power / thick-fat / sap-sipper`
+
+	**Level-up Moves Changes:**
+
+	- `29 moves` → `25 moves`
 
 
 ## :material-information: Basic Information
@@ -76,7 +84,7 @@
 
 	---
 
-	**Generation:** Generation Ii
+	**Generation:** Generation II
 
 	**Color:** Blue
 

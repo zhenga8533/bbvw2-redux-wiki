@@ -13,11 +13,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Electabuzz ROM Changes"
 
-    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+	**Evolution Chain Changes:**
 
-    **Abilities:** `static / vital-spirit` → `static / vital-spirit / vital-spirit`
+	- `electabuzz > electivire: trade (held: electirizer)` → `electabuzz > electivire: use-item (electirizer)`
+
+	- `elekid > electabuzz: level-up (level 30)` → `elekid > electabuzz: level-up (level 29)`
+
+	**Abilities Changes:**
+
+	- `static / vital-spirit` → `static / vital-spirit / vital-spirit`
+
+	- `electabuzz > electivire: unknown` → `electabuzz > electivire: use-item (electirizer)`
 
 
 ## :material-information: Basic Information

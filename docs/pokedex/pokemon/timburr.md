@@ -14,15 +14,23 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Timburr ROM Changes"
 
-    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+	**Evolution Chain Changes:**
 
-    **Abilities:** `guts / sheer-force / iron-fist` → `sheer-force / iron-fist / sheer-force`
+	- `gurdurr > conkeldurr: trade` → `gurdurr > conkeldurr: use-item (link-cable)`
 
-    **Level-up Moves:** `16 moves` → `21 moves`
+	**Abilities Changes:**
 
-    **TM/HM Compatibility:** `32 moves` → `33 moves (added: rock-climb)`
+	- `guts / sheer-force / iron-fist` → `sheer-force / iron-fist / sheer-force`
+
+	**Level-up Moves Changes:**
+
+	- `16 moves` → `21 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `32 moves` → `33 moves (added: rock-climb)`
 
 
 ## :material-information: Basic Information
@@ -138,7 +146,7 @@
 
 	**#532 [Timburr](./timburr.md)**
 
-	
+
 
 	***You are here***
 

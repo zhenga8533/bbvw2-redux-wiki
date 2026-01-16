@@ -14,13 +14,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Garbodor ROM Changes"
 
-    **Base Stats:** `80 HP / 95 Atk / 82 Def / 60 SAtk / 82 SDef / 75 Spd` → `100 HP / 95 Atk / 82 Def / 60 SAtk / 82 SDef / 75 Spd`
+	**Base Stats Changes:**
 
-    **Abilities:** `stench / weak-armor / aftermath` → `aftermath / stench / sticky-hold`
+	- `80 HP / 95 Atk / 82 Def / 60 SAtk / 82 SDef / 75 Spd` → `100 HP / 95 Atk / 82 Def / 60 SAtk / 82 SDef / 75 Spd`
 
-    **Level-up Moves:** `18 moves` → `25 moves`
+	**Abilities Changes:**
+
+	- `stench / weak-armor / aftermath` → `aftermath / stench / sticky-hold`
+
+	**Level-up Moves Changes:**
+
+	- `18 moves` → `25 moves`
 
 
 ## :material-information: Basic Information
@@ -88,9 +94,9 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Big Nugget](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/big-nugget.png){ .item-sprite } [Big Nugget](../../pokedex/items/big-nugget.md) | 1% | 1% | 1% | 1% |
-| ![Black Sludge](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/black-sludge.png){ .item-sprite } [Black Sludge](../../pokedex/items/black-sludge.md) | 50% | 50% | 50% | 50% |
-| ![Nugget](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/nugget.png){ .item-sprite } [Nugget](../../pokedex/items/nugget.md) | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Big Nugget](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/big-nugget.png){ .item-sprite } [Big Nugget](../../pokedex/items/big-nugget.md)</span> | 1% | 1% | 1% | 1% |
+| <span style="white-space: nowrap;">![Black Sludge](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/black-sludge.png){ .item-sprite } [Black Sludge](../../pokedex/items/black-sludge.md)</span> | 50% | 50% | 50% | 50% |
+| <span style="white-space: nowrap;">![Nugget](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/nugget.png){ .item-sprite } [Nugget](../../pokedex/items/nugget.md)</span> | 5% | 5% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 

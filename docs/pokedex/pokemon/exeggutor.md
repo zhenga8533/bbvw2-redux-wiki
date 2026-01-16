@@ -13,13 +13,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Exeggutor ROM Changes"
 
-    **Abilities:** `chlorophyll / harvest` → `chlorophyll / harvest / harvest`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `9 moves` → `10 moves`
+	- `chlorophyll / harvest` → `chlorophyll / harvest / harvest`
 
-    **TM/HM Compatibility:** `32 moves` → `33 moves (added: tri-attack)`
+	**Level-up Moves Changes:**
+
+	- `9 moves` → `10 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `32 moves` → `33 moves (added: tri-attack)`
 
 
 ## :material-information: Basic Information

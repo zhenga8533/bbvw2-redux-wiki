@@ -15,11 +15,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Virizion ROM Changes"
 
-    **Level-up Moves:** `14 moves` → `22 moves`
+	**Level-up Moves Changes:**
 
-    **TM/HM Compatibility:** `36 moves` → `38 moves (added: low-sweep, rock-climb)`
+	- `14 moves` → `22 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `36 moves` → `38 moves (added: low-sweep, rock-climb)`
 
 
 ## :material-information: Basic Information

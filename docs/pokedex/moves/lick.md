@@ -1,9 +1,11 @@
 # Lick
 
 
-!!! info "ROM Changes
+??? note "Lick ROM Changes"
 
-    **Pp:** `30` → `25`
+	**Pp Changes:**
+
+	- `30` → `25`
 
 
 ## :material-chart-box: Stats

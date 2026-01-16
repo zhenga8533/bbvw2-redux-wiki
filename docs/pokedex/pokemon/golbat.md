@@ -13,13 +13,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Golbat ROM Changes"
 
-    **Abilities:** `inner-focus / infiltrator` → `inner-focus / infiltrator / infiltrator`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `27 moves` → `23 moves`
+	- `inner-focus / infiltrator` → `inner-focus / infiltrator / infiltrator`
 
-    **TM/HM Compatibility:** `28 moves` → `29 moves (added: hurricane)`
+	**Level-up Moves Changes:**
+
+	- `27 moves` → `23 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `28 moves` → `29 moves (added: hurricane)`
 
 
 ## :material-information: Basic Information

@@ -14,11 +14,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Haxorus ROM Changes"
 
-    **Level-up Moves:** `19 moves` → `24 moves`
+	**Level-up Moves Changes:**
 
-    **TM/HM Compatibility:** `42 moves` → `44 moves (added: work-up, rock-climb)`
+	- `19 moves` → `24 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `42 moves` → `44 moves (added: work-up, rock-climb)`
 
 
 ## :material-information: Basic Information

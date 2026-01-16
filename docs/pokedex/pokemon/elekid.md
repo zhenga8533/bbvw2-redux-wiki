@@ -14,13 +14,23 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Elekid ROM Changes"
 
-    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+	**Evolution Chain Changes:**
 
-    **Abilities:** `static / vital-spirit` → `static / vital-spirit / vital-spirit`
+	- `electabuzz > electivire: trade (held: electirizer)` → `electabuzz > electivire: use-item (electirizer)`
 
-    **Level-up Moves:** `24 moves` → `22 moves`
+	- `elekid > electabuzz: level-up (level 30)` → `elekid > electabuzz: level-up (level 29)`
+
+	**Abilities Changes:**
+
+	- `static / vital-spirit` → `static / vital-spirit / vital-spirit`
+
+	**Level-up Moves Changes:**
+
+	- `24 moves` → `22 moves`
+
+	- `electabuzz > electivire: unknown` → `electabuzz > electivire: use-item (electirizer)`
 
 
 ## :material-information: Basic Information
@@ -75,7 +85,7 @@
 
 	---
 
-	**Generation:** Generation Ii
+	**Generation:** Generation II
 
 	**Color:** Yellow
 
@@ -138,7 +148,7 @@
 
 	**#239 [Elekid](./elekid.md)**
 
-	
+
 
 	***You are here***
 

@@ -73,7 +73,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM56](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM56](../pokedex/items/tm56.md), [Weather Ball](../pokedex/moves/weather-ball.md).
+- Now compatible with <span style="white-space: nowrap;">![TM56](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM56](../pokedex/items/tm56.md), [Weather Ball](../pokedex/moves/weather-ball.md)</span>.
 
 **Level Up**:
 
@@ -118,7 +118,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM56](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM56](../pokedex/items/tm56.md), [Weather Ball](../pokedex/moves/weather-ball.md).
+- Now compatible with <span style="white-space: nowrap;">![TM56](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM56](../pokedex/items/tm56.md), [Weather Ball](../pokedex/moves/weather-ball.md)</span>.
 
 **Level Up**:
 
@@ -168,8 +168,8 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM34](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM34](../pokedex/items/tm34.md), [Sludge Wave](../pokedex/moves/sludge-wave.md).
-- Now compatible with ![TM56](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM56](../pokedex/items/tm56.md), [Weather Ball](../pokedex/moves/weather-ball.md).
+- Now compatible with <span style="white-space: nowrap;">![TM34](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM34](../pokedex/items/tm34.md), [Sludge Wave](../pokedex/moves/sludge-wave.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM56](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM56](../pokedex/items/tm56.md), [Weather Ball](../pokedex/moves/weather-ball.md)</span>.
 
 **Level Up**:
 
@@ -219,8 +219,8 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM54](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM54](../pokedex/items/tm54.md), [False Swipe](../pokedex/moves/false-swipe.md). [\*]
-- Now compatible with ![TM62](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM62](../pokedex/items/tm62.md), [Acrobatics](../pokedex/moves/acrobatics.md). [\*]
+- Now compatible with <span style="white-space: nowrap;">![TM54](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM54](../pokedex/items/tm54.md), [False Swipe](../pokedex/moves/false-swipe.md)</span>. [\*]
+- Now compatible with <span style="white-space: nowrap;">![TM62](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM62](../pokedex/items/tm62.md), [Acrobatics](../pokedex/moves/acrobatics.md)</span>. [\*]
 
 **Level Up**:
 
@@ -266,9 +266,9 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM47](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM47](../pokedex/items/tm47.md), [Low Sweep](../pokedex/moves/low-sweep.md).
-- Now compatible with ![TM54](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM54](../pokedex/items/tm54.md), [False Swipe](../pokedex/moves/false-swipe.md). [\*]
-- Now compatible with ![TM62](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM62](../pokedex/items/tm62.md), [Acrobatics](../pokedex/moves/acrobatics.md). [\*]
+- Now compatible with <span style="white-space: nowrap;">![TM47](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM47](../pokedex/items/tm47.md), [Low Sweep](../pokedex/moves/low-sweep.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM54](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM54](../pokedex/items/tm54.md), [False Swipe](../pokedex/moves/false-swipe.md)</span>. [\*]
+- Now compatible with <span style="white-space: nowrap;">![TM62](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM62](../pokedex/items/tm62.md), [Acrobatics](../pokedex/moves/acrobatics.md)</span>. [\*]
 
 
 **Level Up**:
@@ -320,10 +320,10 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM47](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM47](../pokedex/items/tm47.md), [Low Sweep](../pokedex/moves/low-sweep.md).
-- Now compatible with ![TM54](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM54](../pokedex/items/tm54.md), [False Swipe](../pokedex/moves/false-swipe.md). [\*]
-- Now compatible with ![TM58](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM58](../pokedex/items/tm58.md), [Hurricane](../pokedex/moves/hurricane.md).
-- Now compatible with ![TM62](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM62](../pokedex/items/tm62.md), [Acrobatics](../pokedex/moves/acrobatics.md). [\*]
+- Now compatible with <span style="white-space: nowrap;">![TM47](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM47](../pokedex/items/tm47.md), [Low Sweep](../pokedex/moves/low-sweep.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM54](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM54](../pokedex/items/tm54.md), [False Swipe](../pokedex/moves/false-swipe.md)</span>. [\*]
+- Now compatible with <span style="white-space: nowrap;">![TM58](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM58](../pokedex/items/tm58.md), [Hurricane](../pokedex/moves/hurricane.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM62](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM62](../pokedex/items/tm62.md), [Acrobatics](../pokedex/moves/acrobatics.md)</span>. [\*]
 - Now compatible with Draco Meteor from the Move Tutor.
 
 
@@ -462,9 +462,9 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM20](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM20](../pokedex/items/tm20.md), [Tri Attack](../pokedex/moves/tri-attack.md).
-- Now compatible with ![TM46](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM46](../pokedex/items/tm46.md), [Aura Sphere](../pokedex/moves/aura-sphere.md).
-- Now compatible with ![TM51](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM51](../pokedex/items/tm51.md), [Wave Crash](../pokedex/moves/wave-crash.md).
+- Now compatible with <span style="white-space: nowrap;">![TM20](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM20](../pokedex/items/tm20.md), [Tri Attack](../pokedex/moves/tri-attack.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM46](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM46](../pokedex/items/tm46.md), [Aura Sphere](../pokedex/moves/aura-sphere.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM51](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM51](../pokedex/items/tm51.md), [Wave Crash](../pokedex/moves/wave-crash.md)</span>.
 
 **Level Up**:
 
@@ -561,8 +561,8 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM58](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM58](../pokedex/items/tm58.md), [Hurricane](../pokedex/moves/hurricane.md).
-- Now compatible with ![HM02](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hm-normal.png){ .item-sprite } [HM02](../pokedex/items/hm02.md), [Fly](../pokedex/moves/fly.md).
+- Now compatible with <span style="white-space: nowrap;">![TM58](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM58](../pokedex/items/tm58.md), [Hurricane](../pokedex/moves/hurricane.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![HM02](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hm-normal.png){ .item-sprite } [HM02](../pokedex/items/hm02.md), [Fly](../pokedex/moves/fly.md)</span>.
 
 **Level Up**:
 
@@ -654,9 +654,9 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM76](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM76](../pokedex/items/tm76.md), [Bug Buzz](../pokedex/moves/bug-buzz.md).
-- Now compatible with ![TM83](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM83](../pokedex/items/tm83.md), [Work Up](../pokedex/moves/work-up.md).
-- Now compatible with ![HM02](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hm-normal.png){ .item-sprite } [HM02](../pokedex/items/hm02.md), [Fly](../pokedex/moves/fly.md).
+- Now compatible with <span style="white-space: nowrap;">![TM76](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM76](../pokedex/items/tm76.md), [Bug Buzz](../pokedex/moves/bug-buzz.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM83](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM83](../pokedex/items/tm83.md), [Work Up](../pokedex/moves/work-up.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![HM02](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hm-normal.png){ .item-sprite } [HM02](../pokedex/items/hm02.md), [Fly](../pokedex/moves/fly.md)</span>.
 
 **Level Up**:
 
@@ -696,7 +696,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM49](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM49](../pokedex/items/tm49.md), [Echoed Voice](../pokedex/moves/echoed-voice.md).
+- Now compatible with <span style="white-space: nowrap;">![TM49](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM49](../pokedex/items/tm49.md), [Echoed Voice](../pokedex/moves/echoed-voice.md)</span>.
 
 **Level Up**:
 
@@ -744,8 +744,8 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM49](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM49](../pokedex/items/tm49.md), [Echoed Voice](../pokedex/moves/echoed-voice.md).
-- Now compatible with ![TM58](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM58](../pokedex/items/tm58.md), [Hurricane](../pokedex/moves/hurricane.md).
+- Now compatible with <span style="white-space: nowrap;">![TM49](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM49](../pokedex/items/tm49.md), [Echoed Voice](../pokedex/moves/echoed-voice.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM58](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM58](../pokedex/items/tm58.md), [Hurricane](../pokedex/moves/hurricane.md)</span>.
 
 **Level Up**:
 
@@ -796,8 +796,8 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM49](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM49](../pokedex/items/tm49.md), [Echoed Voice](../pokedex/moves/echoed-voice.md).
-- Now compatible with ![TM58](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM58](../pokedex/items/tm58.md), [Hurricane](../pokedex/moves/hurricane.md).
+- Now compatible with <span style="white-space: nowrap;">![TM49](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM49](../pokedex/items/tm49.md), [Echoed Voice](../pokedex/moves/echoed-voice.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM58](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM58](../pokedex/items/tm58.md), [Hurricane](../pokedex/moves/hurricane.md)</span>.
 
 **Level Up**:
 
@@ -845,8 +845,8 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM01](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM01](../pokedex/items/tm01.md), [Hone Claws](../pokedex/moves/hone-claws.md).
-- Now compatible with ![TM60](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM60](../pokedex/items/tm60.md), [Quash](../pokedex/moves/quash.md).
+- Now compatible with <span style="white-space: nowrap;">![TM01](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM01](../pokedex/items/tm01.md), [Hone Claws](../pokedex/moves/hone-claws.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM60](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM60](../pokedex/items/tm60.md), [Quash](../pokedex/moves/quash.md)</span>.
 
 **Level Up**:
 
@@ -894,12 +894,12 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM01](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM01](../pokedex/items/tm01.md), [Hone Claws](../pokedex/moves/hone-claws.md).
-- Now compatible with ![TM40](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM40](../pokedex/items/tm40.md), [Aerial Ace](../pokedex/moves/aerial-ace.md).
-- Now compatible with ![TM54](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM54](../pokedex/items/tm54.md), [False Swipe](../pokedex/moves/false-swipe.md).
-- Now compatible with ![TM60](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM60](../pokedex/items/tm60.md), [Quash](../pokedex/moves/quash.md).
-- Now compatible with ![TM65](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM65](../pokedex/items/tm65.md), [Shadow Claw](../pokedex/moves/shadow-claw.md).
-- Now compatible with ![TM87](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM87](../pokedex/items/tm87.md), [Rock Climb](../pokedex/moves/rock-climb.md).
+- Now compatible with <span style="white-space: nowrap;">![TM01](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM01](../pokedex/items/tm01.md), [Hone Claws](../pokedex/moves/hone-claws.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM40](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM40](../pokedex/items/tm40.md), [Aerial Ace](../pokedex/moves/aerial-ace.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM54](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM54](../pokedex/items/tm54.md), [False Swipe](../pokedex/moves/false-swipe.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM60](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM60](../pokedex/items/tm60.md), [Quash](../pokedex/moves/quash.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM65](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM65](../pokedex/items/tm65.md), [Shadow Claw](../pokedex/moves/shadow-claw.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM87](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM87](../pokedex/items/tm87.md), [Rock Climb](../pokedex/moves/rock-climb.md)</span>.
 
 **Level Up**:
 
@@ -956,8 +956,8 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM12](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM12](../pokedex/items/tm12.md), [Taunt](../pokedex/moves/taunt.md).
-- Now compatible with ![TM58](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM58](../pokedex/items/tm58.md), [Hurricane](../pokedex/moves/hurricane.md).
+- Now compatible with <span style="white-space: nowrap;">![TM12](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM12](../pokedex/items/tm12.md), [Taunt](../pokedex/moves/taunt.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM58](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM58](../pokedex/items/tm58.md), [Hurricane](../pokedex/moves/hurricane.md)</span>.
 
 
 **Level Up**:
@@ -1006,13 +1006,13 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM01](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM01](../pokedex/items/tm01.md), [Hone Claws](../pokedex/moves/hone-claws.md).
-- Now compatible with ![TM12](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM12](../pokedex/items/tm12.md), [Taunt](../pokedex/moves/taunt.md).
-- Now compatible with ![TM58](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM58](../pokedex/items/tm58.md), [Hurricane](../pokedex/moves/hurricane.md).
-- Now compatible with ![TM60](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM60](../pokedex/items/tm60.md), [Quash](../pokedex/moves/quash.md).
-- Now compatible with ![TM65](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM65](../pokedex/items/tm65.md), [Shadow Claw](../pokedex/moves/shadow-claw.md).
-- Now compatible with ![TM95](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM95](../pokedex/items/tm95.md), [Snarl](../pokedex/moves/snarl.md).
-- Now compatible with ![HM01](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hm-normal.png){ .item-sprite } [HM01](../pokedex/items/hm01.md), [Cut](../pokedex/moves/cut.md).
+- Now compatible with <span style="white-space: nowrap;">![TM01](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM01](../pokedex/items/tm01.md), [Hone Claws](../pokedex/moves/hone-claws.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM12](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM12](../pokedex/items/tm12.md), [Taunt](../pokedex/moves/taunt.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM58](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM58](../pokedex/items/tm58.md), [Hurricane](../pokedex/moves/hurricane.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM60](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM60](../pokedex/items/tm60.md), [Quash](../pokedex/moves/quash.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM65](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM65](../pokedex/items/tm65.md), [Shadow Claw](../pokedex/moves/shadow-claw.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM95](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM95](../pokedex/items/tm95.md), [Snarl](../pokedex/moves/snarl.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![HM01](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hm-normal.png){ .item-sprite } [HM01](../pokedex/items/hm01.md), [Cut](../pokedex/moves/cut.md)</span>.
 
 **Level Up**:
 
@@ -1147,9 +1147,9 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![HM01](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hm-normal.png){ .item-sprite } [HM01](../pokedex/items/hm01.md), [Cut](../pokedex/moves/cut.md).
-- Now compatible with ![HM02](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hm-normal.png){ .item-sprite } [HM02](../pokedex/items/hm02.md), [Fly](../pokedex/moves/fly.md). [\*]
-- Now compatible with ![HM03](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hm-normal.png){ .item-sprite } [HM03](../pokedex/items/hm03.md), [Surf](../pokedex/moves/surf.md). [\*]
+- Now compatible with <span style="white-space: nowrap;">![HM01](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hm-normal.png){ .item-sprite } [HM01](../pokedex/items/hm01.md), [Cut](../pokedex/moves/cut.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![HM02](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hm-normal.png){ .item-sprite } [HM02](../pokedex/items/hm02.md), [Fly](../pokedex/moves/fly.md)</span>. [\*]
+- Now compatible with <span style="white-space: nowrap;">![HM03](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hm-normal.png){ .item-sprite } [HM03](../pokedex/items/hm03.md), [Surf](../pokedex/moves/surf.md)</span>. [\*]
 
 **Level Up**:
 
@@ -1199,10 +1199,10 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM29](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM29](../pokedex/items/tm29.md), [Psychic](../pokedex/moves/psychic.md).
-- Now compatible with ![HM01](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hm-normal.png){ .item-sprite } [HM01](../pokedex/items/hm01.md), [Cut](../pokedex/moves/cut.md).
-- Now compatible with ![HM02](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hm-normal.png){ .item-sprite } [HM02](../pokedex/items/hm02.md), [Fly](../pokedex/moves/fly.md). [\*]
-- Now compatible with ![HM03](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hm-normal.png){ .item-sprite } [HM03](../pokedex/items/hm03.md), [Surf](../pokedex/moves/surf.md). [\*]
+- Now compatible with <span style="white-space: nowrap;">![TM29](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM29](../pokedex/items/tm29.md), [Psychic](../pokedex/moves/psychic.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![HM01](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hm-normal.png){ .item-sprite } [HM01](../pokedex/items/hm01.md), [Cut](../pokedex/moves/cut.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![HM02](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hm-normal.png){ .item-sprite } [HM02](../pokedex/items/hm02.md), [Fly](../pokedex/moves/fly.md)</span>. [\*]
+- Now compatible with <span style="white-space: nowrap;">![HM03](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hm-normal.png){ .item-sprite } [HM03](../pokedex/items/hm03.md), [Surf](../pokedex/moves/surf.md)</span>. [\*]
 
 **Level Up**:
 
@@ -1238,7 +1238,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM23](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM23](../pokedex/items/tm23.md), [Smack Down](../pokedex/moves/smack-down.md).
+- Now compatible with <span style="white-space: nowrap;">![TM23](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM23](../pokedex/items/tm23.md), [Smack Down](../pokedex/moves/smack-down.md)</span>.
 
 **Level Up**:
 
@@ -1286,9 +1286,9 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM23](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM23](../pokedex/items/tm23.md), [Smack Down](../pokedex/moves/smack-down.md).
-- Now compatible with ![TM47](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM47](../pokedex/items/tm47.md), [Low Sweep](../pokedex/moves/low-sweep.md).
-- Now compatible with ![TM69](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM69](../pokedex/items/tm69.md), [Rock Polish](../pokedex/moves/rock-polish.md).
+- Now compatible with <span style="white-space: nowrap;">![TM23](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM23](../pokedex/items/tm23.md), [Smack Down](../pokedex/moves/smack-down.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM47](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM47](../pokedex/items/tm47.md), [Low Sweep](../pokedex/moves/low-sweep.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM69](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM69](../pokedex/items/tm69.md), [Rock Polish](../pokedex/moves/rock-polish.md)</span>.
 
 **Level Up**:
 
@@ -1416,7 +1416,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM47](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM47](../pokedex/items/tm47.md), [Low Sweep](../pokedex/moves/low-sweep.md).
+- Now compatible with <span style="white-space: nowrap;">![TM47](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM47](../pokedex/items/tm47.md), [Low Sweep](../pokedex/moves/low-sweep.md)</span>.
 
 **Level Up**:
 
@@ -1533,7 +1533,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM47](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM47](../pokedex/items/tm47.md), [Low Sweep](../pokedex/moves/low-sweep.md).
+- Now compatible with <span style="white-space: nowrap;">![TM47](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM47](../pokedex/items/tm47.md), [Low Sweep](../pokedex/moves/low-sweep.md)</span>.
 
 **Level Up**:
 
@@ -1570,7 +1570,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM66](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM66](../pokedex/items/tm66.md), [Power Gem](../pokedex/moves/power-gem.md).
+- Now compatible with <span style="white-space: nowrap;">![TM66](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM66](../pokedex/items/tm66.md), [Power Gem](../pokedex/moves/power-gem.md)</span>.
 
 **Level Up**:
 
@@ -1617,7 +1617,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM66](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM66](../pokedex/items/tm66.md), [Power Gem](../pokedex/moves/power-gem.md).
+- Now compatible with <span style="white-space: nowrap;">![TM66](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM66](../pokedex/items/tm66.md), [Power Gem](../pokedex/moves/power-gem.md)</span>.
 
 **Level Up**:
 
@@ -1647,9 +1647,9 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM20](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM20](../pokedex/items/tm20.md), [Tri Attack](../pokedex/moves/tri-attack.md).
-- Now compatible with ![TM32](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM32](../pokedex/items/tm32.md), [Dazzling Gleam](../pokedex/moves/dazzling-gleam.md).
-- Now compatible with ![TM66](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM66](../pokedex/items/tm66.md), [Power Gem](../pokedex/moves/power-gem.md).
+- Now compatible with <span style="white-space: nowrap;">![TM20](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM20](../pokedex/items/tm20.md), [Tri Attack](../pokedex/moves/tri-attack.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM32](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM32](../pokedex/items/tm32.md), [Dazzling Gleam](../pokedex/moves/dazzling-gleam.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM66](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM66](../pokedex/items/tm66.md), [Power Gem](../pokedex/moves/power-gem.md)</span>.
 
 **Level Up**:
 
@@ -1696,11 +1696,11 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM20](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM20](../pokedex/items/tm20.md), [Tri Attack](../pokedex/moves/tri-attack.md).
-- Now compatible with ![TM29](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM29](../pokedex/items/tm29.md), [Psychic](../pokedex/moves/psychic.md).
-- Now compatible with ![TM30](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM30](../pokedex/items/tm30.md), [Shadow Ball](../pokedex/moves/shadow-ball.md).
-- Now compatible with ![TM32](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM32](../pokedex/items/tm32.md), [Dazzling Gleam](../pokedex/moves/dazzling-gleam.md).
-- Now compatible with ![TM66](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM66](../pokedex/items/tm66.md), [Power Gem](../pokedex/moves/power-gem.md).
+- Now compatible with <span style="white-space: nowrap;">![TM20](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM20](../pokedex/items/tm20.md), [Tri Attack](../pokedex/moves/tri-attack.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM29](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM29](../pokedex/items/tm29.md), [Psychic](../pokedex/moves/psychic.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM30](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM30](../pokedex/items/tm30.md), [Shadow Ball](../pokedex/moves/shadow-ball.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM32](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM32](../pokedex/items/tm32.md), [Dazzling Gleam](../pokedex/moves/dazzling-gleam.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM66](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM66](../pokedex/items/tm66.md), [Power Gem](../pokedex/moves/power-gem.md)</span>.
 - Now compatible with TM70, Flash
 
 
@@ -1742,7 +1742,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM66](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM66](../pokedex/items/tm66.md), [Power Gem](../pokedex/moves/power-gem.md).
+- Now compatible with <span style="white-space: nowrap;">![TM66](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM66](../pokedex/items/tm66.md), [Power Gem](../pokedex/moves/power-gem.md)</span>.
 
 **Level Up**:
 
@@ -1791,8 +1791,8 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM47](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM47](../pokedex/items/tm47.md), [Low Sweep](../pokedex/moves/low-sweep.md).
-- Now compatible with ![TM66](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM66](../pokedex/items/tm66.md), [Power Gem](../pokedex/moves/power-gem.md).
+- Now compatible with <span style="white-space: nowrap;">![TM47](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM47](../pokedex/items/tm47.md), [Low Sweep](../pokedex/moves/low-sweep.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM66](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM66](../pokedex/items/tm66.md), [Power Gem](../pokedex/moves/power-gem.md)</span>.
 
 **Level Up**:
 
@@ -1867,7 +1867,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM58](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM58](../pokedex/items/tm58.md), [Hurricane](../pokedex/moves/hurricane.md).
+- Now compatible with <span style="white-space: nowrap;">![TM58](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM58](../pokedex/items/tm58.md), [Hurricane](../pokedex/moves/hurricane.md)</span>.
 
 **Level Up**:
 
@@ -2026,7 +2026,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 </div>**Moves**:
 
-- Now compatible with ![TM76](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM76](../pokedex/items/tm76.md), [Bug Buzz](../pokedex/moves/bug-buzz.md).
+- Now compatible with <span style="white-space: nowrap;">![TM76](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM76](../pokedex/items/tm76.md), [Bug Buzz](../pokedex/moves/bug-buzz.md)</span>.
 
 **Level Up**:
 
@@ -2072,7 +2072,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM76](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM76](../pokedex/items/tm76.md), [Bug Buzz](../pokedex/moves/bug-buzz.md).
+- Now compatible with <span style="white-space: nowrap;">![TM76](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM76](../pokedex/items/tm76.md), [Bug Buzz](../pokedex/moves/bug-buzz.md)</span>.
 
 **Level Up**:
 
@@ -2122,7 +2122,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM76](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM76](../pokedex/items/tm76.md), [Bug Buzz](../pokedex/moves/bug-buzz.md).
+- Now compatible with <span style="white-space: nowrap;">![TM76](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM76](../pokedex/items/tm76.md), [Bug Buzz](../pokedex/moves/bug-buzz.md)</span>.
 
 **Evolution**:
 
@@ -2173,9 +2173,9 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM58](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM58](../pokedex/items/tm58.md), [Hurricane](../pokedex/moves/hurricane.md).
-- Now compatible with ![TM76](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM76](../pokedex/items/tm76.md), [Bug Buzz](../pokedex/moves/bug-buzz.md).
-- Now compatible with ![HM02](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hm-normal.png){ .item-sprite } [HM02](../pokedex/items/hm02.md), [Fly](../pokedex/moves/fly.md).
+- Now compatible with <span style="white-space: nowrap;">![TM58](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM58](../pokedex/items/tm58.md), [Hurricane](../pokedex/moves/hurricane.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM76](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM76](../pokedex/items/tm76.md), [Bug Buzz](../pokedex/moves/bug-buzz.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![HM02](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hm-normal.png){ .item-sprite } [HM02](../pokedex/items/hm02.md), [Fly](../pokedex/moves/fly.md)</span>.
 
 **Level Up**:
 
@@ -2351,7 +2351,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM60](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM60](../pokedex/items/tm60.md), [Quash](../pokedex/moves/quash.md).
+- Now compatible with <span style="white-space: nowrap;">![TM60](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM60](../pokedex/items/tm60.md), [Quash](../pokedex/moves/quash.md)</span>.
 
 **Level Up**:
 
@@ -2445,9 +2445,9 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM46](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM46](../pokedex/items/tm46.md), [Aura Sphere](../pokedex/moves/aura-sphere.md).
-- Now compatible with ![TM51](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM51](../pokedex/items/tm51.md), [Wave Crash](../pokedex/moves/wave-crash.md).
-- Now compatible with ![TM66](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM66](../pokedex/items/tm66.md), [Power Gem](../pokedex/moves/power-gem.md).
+- Now compatible with <span style="white-space: nowrap;">![TM46](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM46](../pokedex/items/tm46.md), [Aura Sphere](../pokedex/moves/aura-sphere.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM51](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM51](../pokedex/items/tm51.md), [Wave Crash](../pokedex/moves/wave-crash.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM66](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM66](../pokedex/items/tm66.md), [Power Gem](../pokedex/moves/power-gem.md)</span>.
 
 
 **Level Up**:
@@ -2496,7 +2496,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![HM01](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hm-normal.png){ .item-sprite } [HM01](../pokedex/items/hm01.md), [Cut](../pokedex/moves/cut.md).
+- Now compatible with <span style="white-space: nowrap;">![HM01](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hm-normal.png){ .item-sprite } [HM01](../pokedex/items/hm01.md), [Cut](../pokedex/moves/cut.md)</span>.
 
 **Level Up**:
 
@@ -2542,7 +2542,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![HM01](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hm-normal.png){ .item-sprite } [HM01](../pokedex/items/hm01.md), [Cut](../pokedex/moves/cut.md).
+- Now compatible with <span style="white-space: nowrap;">![HM01](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hm-normal.png){ .item-sprite } [HM01](../pokedex/items/hm01.md), [Cut](../pokedex/moves/cut.md)</span>.
 
 **Level Up**:
 
@@ -2586,7 +2586,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 </div>**Moves**:
 
-- Now compatible with ![TM01](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM01](../pokedex/items/tm01.md), [Hone Claws](../pokedex/moves/hone-claws.md).
+- Now compatible with <span style="white-space: nowrap;">![TM01](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM01](../pokedex/items/tm01.md), [Hone Claws](../pokedex/moves/hone-claws.md)</span>.
 
 **Level Up**:
 
@@ -2629,7 +2629,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 </div>**Moves**:
 
-- Now compatible with ![TM01](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM01](../pokedex/items/tm01.md), [Hone Claws](../pokedex/moves/hone-claws.md).
+- Now compatible with <span style="white-space: nowrap;">![TM01](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM01](../pokedex/items/tm01.md), [Hone Claws](../pokedex/moves/hone-claws.md)</span>.
 
 **Level Up**:
 
@@ -2686,14 +2686,14 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM51](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM51](../pokedex/items/tm51.md), [Wave Crash](../pokedex/moves/wave-crash.md).
+- Now compatible with <span style="white-space: nowrap;">![TM51](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM51](../pokedex/items/tm51.md), [Wave Crash](../pokedex/moves/wave-crash.md)</span>.
 
 - Level Up
 
 
 **Moves**:
 
-- Now compatible with ![TM51](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM51](../pokedex/items/tm51.md), [Wave Crash](../pokedex/moves/wave-crash.md).
+- Now compatible with <span style="white-space: nowrap;">![TM51](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM51](../pokedex/items/tm51.md), [Wave Crash](../pokedex/moves/wave-crash.md)</span>.
 
 **Evolution**:
 
@@ -2741,7 +2741,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM51](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM51](../pokedex/items/tm51.md), [Wave Crash](../pokedex/moves/wave-crash.md).
+- Now compatible with <span style="white-space: nowrap;">![TM51](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM51](../pokedex/items/tm51.md), [Wave Crash](../pokedex/moves/wave-crash.md)</span>.
 
 **Level Up**:
 
@@ -2776,7 +2776,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM46](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM46](../pokedex/items/tm46.md), [Aura Sphere](../pokedex/moves/aura-sphere.md).
+- Now compatible with <span style="white-space: nowrap;">![TM46](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM46](../pokedex/items/tm46.md), [Aura Sphere](../pokedex/moves/aura-sphere.md)</span>.
 
 **Level Up**:
 
@@ -2806,7 +2806,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM46](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM46](../pokedex/items/tm46.md), [Aura Sphere](../pokedex/moves/aura-sphere.md).
+- Now compatible with <span style="white-space: nowrap;">![TM46](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM46](../pokedex/items/tm46.md), [Aura Sphere](../pokedex/moves/aura-sphere.md)</span>.
 
 **Level Up**:
 
@@ -2848,7 +2848,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM46](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM46](../pokedex/items/tm46.md), [Aura Sphere](../pokedex/moves/aura-sphere.md).
+- Now compatible with <span style="white-space: nowrap;">![TM46](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM46](../pokedex/items/tm46.md), [Aura Sphere](../pokedex/moves/aura-sphere.md)</span>.
 
 **Level Up**:
 
@@ -3338,7 +3338,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM47](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM47](../pokedex/items/tm47.md), [Low Sweep](../pokedex/moves/low-sweep.md).
+- Now compatible with <span style="white-space: nowrap;">![TM47](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM47](../pokedex/items/tm47.md), [Low Sweep](../pokedex/moves/low-sweep.md)</span>.
 
 **Evolution**:
 
@@ -3391,7 +3391,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM47](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM47](../pokedex/items/tm47.md), [Low Sweep](../pokedex/moves/low-sweep.md).
+- Now compatible with <span style="white-space: nowrap;">![TM47](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM47](../pokedex/items/tm47.md), [Low Sweep](../pokedex/moves/low-sweep.md)</span>.
 
 
 **Level Up**:
@@ -3444,7 +3444,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![HM05](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hm-normal.png){ .item-sprite } [HM05](../pokedex/items/hm05.md), [Waterfall](../pokedex/moves/waterfall.md).
+- Now compatible with <span style="white-space: nowrap;">![HM05](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hm-normal.png){ .item-sprite } [HM05](../pokedex/items/hm05.md), [Waterfall](../pokedex/moves/waterfall.md)</span>.
 
 **Level Up**:
 
@@ -3488,7 +3488,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![HM05](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hm-normal.png){ .item-sprite } [HM05](../pokedex/items/hm05.md), [Waterfall](../pokedex/moves/waterfall.md).
+- Now compatible with <span style="white-space: nowrap;">![HM05](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hm-normal.png){ .item-sprite } [HM05](../pokedex/items/hm05.md), [Waterfall](../pokedex/moves/waterfall.md)</span>.
 
 **Level Up**:
 
@@ -3533,7 +3533,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM76](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM76](../pokedex/items/tm76.md), [Bug Buzz](../pokedex/moves/bug-buzz.md).
+- Now compatible with <span style="white-space: nowrap;">![TM76](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM76](../pokedex/items/tm76.md), [Bug Buzz](../pokedex/moves/bug-buzz.md)</span>.
 
 **Level Up**:
 
@@ -3577,7 +3577,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM76](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM76](../pokedex/items/tm76.md), [Bug Buzz](../pokedex/moves/bug-buzz.md).
+- Now compatible with <span style="white-space: nowrap;">![TM76](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM76](../pokedex/items/tm76.md), [Bug Buzz](../pokedex/moves/bug-buzz.md)</span>.
 
 **Level Up**:
 
@@ -3628,10 +3628,10 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM31](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM31](../pokedex/items/tm31.md), [Brick Break](../pokedex/moves/brick-break.md).
-- Now compatible with ![TM47](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM47](../pokedex/items/tm47.md), [Low Sweep](../pokedex/moves/low-sweep.md).
-- Now compatible with ![TM52](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM52](../pokedex/items/tm52.md), [Focus Blast](../pokedex/moves/focus-blast.md).
-- Now compatible with ![TM58](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM58](../pokedex/items/tm58.md), [Hurricane](../pokedex/moves/hurricane.md).
+- Now compatible with <span style="white-space: nowrap;">![TM31](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM31](../pokedex/items/tm31.md), [Brick Break](../pokedex/moves/brick-break.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM47](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM47](../pokedex/items/tm47.md), [Low Sweep](../pokedex/moves/low-sweep.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM52](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM52](../pokedex/items/tm52.md), [Focus Blast](../pokedex/moves/focus-blast.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM58](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM58](../pokedex/items/tm58.md), [Hurricane](../pokedex/moves/hurricane.md)</span>.
 
 
 
@@ -3682,8 +3682,8 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM47](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM47](../pokedex/items/tm47.md), [Low Sweep](../pokedex/moves/low-sweep.md).
-- Now compatible with ![TM87](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM87](../pokedex/items/tm87.md), [Rock Climb](../pokedex/moves/rock-climb.md).
+- Now compatible with <span style="white-space: nowrap;">![TM47](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM47](../pokedex/items/tm47.md), [Low Sweep](../pokedex/moves/low-sweep.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM87](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM87](../pokedex/items/tm87.md), [Rock Climb](../pokedex/moves/rock-climb.md)</span>.
 
 **Level Up**:
 
@@ -3730,8 +3730,8 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM47](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM47](../pokedex/items/tm47.md), [Low Sweep](../pokedex/moves/low-sweep.md).
-- Now compatible with ![TM87](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM87](../pokedex/items/tm87.md), [Rock Climb](../pokedex/moves/rock-climb.md).
+- Now compatible with <span style="white-space: nowrap;">![TM47](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM47](../pokedex/items/tm47.md), [Low Sweep](../pokedex/moves/low-sweep.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM87](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM87](../pokedex/items/tm87.md), [Rock Climb](../pokedex/moves/rock-climb.md)</span>.
 
 **Level Up**:
 
@@ -3774,7 +3774,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 </div>**Moves**:
 
-- Now compatible with ![TM51](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM51](../pokedex/items/tm51.md), [Wave Crash](../pokedex/moves/wave-crash.md).
+- Now compatible with <span style="white-space: nowrap;">![TM51](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM51](../pokedex/items/tm51.md), [Wave Crash](../pokedex/moves/wave-crash.md)</span>.
 
 **Level Up**:
 
@@ -3818,7 +3818,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM51](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM51](../pokedex/items/tm51.md), [Wave Crash](../pokedex/moves/wave-crash.md).
+- Now compatible with <span style="white-space: nowrap;">![TM51](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM51](../pokedex/items/tm51.md), [Wave Crash](../pokedex/moves/wave-crash.md)</span>.
 
 **Level Up**:
 
@@ -3867,7 +3867,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM60](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM60](../pokedex/items/tm60.md), [Quash](../pokedex/moves/quash.md).
+- Now compatible with <span style="white-space: nowrap;">![TM60](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM60](../pokedex/items/tm60.md), [Quash](../pokedex/moves/quash.md)</span>.
 
 **Evolution**:
 
@@ -3915,7 +3915,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM60](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM60](../pokedex/items/tm60.md), [Quash](../pokedex/moves/quash.md).
+- Now compatible with <span style="white-space: nowrap;">![TM60](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM60](../pokedex/items/tm60.md), [Quash](../pokedex/moves/quash.md)</span>.
 
 **Level Up**:
 
@@ -3959,7 +3959,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 </div>**Moves**:
 
-- Now compatible with ![HM05](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hm-normal.png){ .item-sprite } [HM05](../pokedex/items/hm05.md), [Waterfall](../pokedex/moves/waterfall.md).
+- Now compatible with <span style="white-space: nowrap;">![HM05](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hm-normal.png){ .item-sprite } [HM05](../pokedex/items/hm05.md), [Waterfall](../pokedex/moves/waterfall.md)</span>.
 
 | Attribute | Old Value | New Value |
 |:----------|:----------|:----------|
@@ -4005,7 +4005,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 </div>**Moves**:
 
-- Now compatible with ![HM05](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hm-normal.png){ .item-sprite } [HM05](../pokedex/items/hm05.md), [Waterfall](../pokedex/moves/waterfall.md).
+- Now compatible with <span style="white-space: nowrap;">![HM05](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hm-normal.png){ .item-sprite } [HM05](../pokedex/items/hm05.md), [Waterfall](../pokedex/moves/waterfall.md)</span>.
 
 **Level Up**:
 
@@ -4041,7 +4041,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM46](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM46](../pokedex/items/tm46.md), [Aura Sphere](../pokedex/moves/aura-sphere.md).
+- Now compatible with <span style="white-space: nowrap;">![TM46](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM46](../pokedex/items/tm46.md), [Aura Sphere](../pokedex/moves/aura-sphere.md)</span>.
 
 **Level Up**:
 
@@ -4091,7 +4091,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM46](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM46](../pokedex/items/tm46.md), [Aura Sphere](../pokedex/moves/aura-sphere.md).
+- Now compatible with <span style="white-space: nowrap;">![TM46](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM46](../pokedex/items/tm46.md), [Aura Sphere](../pokedex/moves/aura-sphere.md)</span>.
 
 **Level Up**:
 
@@ -4139,7 +4139,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM46](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM46](../pokedex/items/tm46.md), [Aura Sphere](../pokedex/moves/aura-sphere.md).
+- Now compatible with <span style="white-space: nowrap;">![TM46](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM46](../pokedex/items/tm46.md), [Aura Sphere](../pokedex/moves/aura-sphere.md)</span>.
 
 **Level Up**:
 
@@ -4239,7 +4239,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM46](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM46](../pokedex/items/tm46.md), [Aura Sphere](../pokedex/moves/aura-sphere.md).
+- Now compatible with <span style="white-space: nowrap;">![TM46](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM46](../pokedex/items/tm46.md), [Aura Sphere](../pokedex/moves/aura-sphere.md)</span>.
 
 **Level Up**:
 
@@ -4283,7 +4283,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM46](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM46](../pokedex/items/tm46.md), [Aura Sphere](../pokedex/moves/aura-sphere.md).
+- Now compatible with <span style="white-space: nowrap;">![TM46](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM46](../pokedex/items/tm46.md), [Aura Sphere](../pokedex/moves/aura-sphere.md)</span>.
 
 **Level Up**:
 
@@ -4327,9 +4327,9 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM65](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM65](../pokedex/items/tm65.md), [Shadow Claw](../pokedex/moves/shadow-claw.md).
-- Now compatible with ![TM87](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM87](../pokedex/items/tm87.md), [Rock Climb](../pokedex/moves/rock-climb.md).
-- Now compatible with ![HM05](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hm-normal.png){ .item-sprite } [HM05](../pokedex/items/hm05.md), [Waterfall](../pokedex/moves/waterfall.md).
+- Now compatible with <span style="white-space: nowrap;">![TM65](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM65](../pokedex/items/tm65.md), [Shadow Claw](../pokedex/moves/shadow-claw.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM87](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM87](../pokedex/items/tm87.md), [Rock Climb](../pokedex/moves/rock-climb.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![HM05](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hm-normal.png){ .item-sprite } [HM05](../pokedex/items/hm05.md), [Waterfall](../pokedex/moves/waterfall.md)</span>.
 
 **Level Up**:
 
@@ -4372,10 +4372,10 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM47](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM47](../pokedex/items/tm47.md), [Low Sweep](../pokedex/moves/low-sweep.md).
-- Now compatible with ![TM65](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM65](../pokedex/items/tm65.md), [Shadow Claw](../pokedex/moves/shadow-claw.md).
-- Now compatible with ![TM87](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM87](../pokedex/items/tm87.md), [Rock Climb](../pokedex/moves/rock-climb.md).
-- Now compatible with ![HM05](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hm-normal.png){ .item-sprite } [HM05](../pokedex/items/hm05.md), [Waterfall](../pokedex/moves/waterfall.md).
+- Now compatible with <span style="white-space: nowrap;">![TM47](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM47](../pokedex/items/tm47.md), [Low Sweep](../pokedex/moves/low-sweep.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM65](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM65](../pokedex/items/tm65.md), [Shadow Claw](../pokedex/moves/shadow-claw.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM87](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM87](../pokedex/items/tm87.md), [Rock Climb](../pokedex/moves/rock-climb.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![HM05](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hm-normal.png){ .item-sprite } [HM05](../pokedex/items/hm05.md), [Waterfall](../pokedex/moves/waterfall.md)</span>.
 
 **Level Up**:
 
@@ -4456,12 +4456,12 @@ All new type changes are omitted in the Classic version of Redux.
 
 </div>**Moves**:
 
-- Now compatible with ![TM20](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM20](../pokedex/items/tm20.md), [Tri Attack](../pokedex/moves/tri-attack.md).
-- Now compatible with ![TM46](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM46](../pokedex/items/tm46.md), [Aura Sphere](../pokedex/moves/aura-sphere.md).
-- Now compatible with ![TM50](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM50](../pokedex/items/tm50.md), [Overheat](../pokedex/moves/overheat.md).
-- Now compatible with ![TM53](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM53](../pokedex/items/tm53.md), [Energy Ball](../pokedex/moves/energy-ball.md).
-- Now compatible with ![TM56](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM56](../pokedex/items/tm56.md), [Weather Ball](../pokedex/moves/weather-ball.md).
-- Now compatible with ![TM76](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM76](../pokedex/items/tm76.md), [Bug Buzz](../pokedex/moves/bug-buzz.md).
+- Now compatible with <span style="white-space: nowrap;">![TM20](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM20](../pokedex/items/tm20.md), [Tri Attack](../pokedex/moves/tri-attack.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM46](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM46](../pokedex/items/tm46.md), [Aura Sphere](../pokedex/moves/aura-sphere.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM50](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM50](../pokedex/items/tm50.md), [Overheat](../pokedex/moves/overheat.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM53](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM53](../pokedex/items/tm53.md), [Energy Ball](../pokedex/moves/energy-ball.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM56](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM56](../pokedex/items/tm56.md), [Weather Ball](../pokedex/moves/weather-ball.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM76](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM76](../pokedex/items/tm76.md), [Bug Buzz](../pokedex/moves/bug-buzz.md)</span>.
 
 **Level Up**:
 
@@ -4506,7 +4506,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM20](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM20](../pokedex/items/tm20.md), [Tri Attack](../pokedex/moves/tri-attack.md).
+- Now compatible with <span style="white-space: nowrap;">![TM20](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM20](../pokedex/items/tm20.md), [Tri Attack](../pokedex/moves/tri-attack.md)</span>.
 
 **Level Up**:
 
@@ -4554,7 +4554,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM20](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM20](../pokedex/items/tm20.md), [Tri Attack](../pokedex/moves/tri-attack.md).
+- Now compatible with <span style="white-space: nowrap;">![TM20](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM20](../pokedex/items/tm20.md), [Tri Attack](../pokedex/moves/tri-attack.md)</span>.
 
 **Level Up**:
 
@@ -4633,7 +4633,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM47](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM47](../pokedex/items/tm47.md), [Low Sweep](../pokedex/moves/low-sweep.md).
+- Now compatible with <span style="white-space: nowrap;">![TM47](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM47](../pokedex/items/tm47.md), [Low Sweep](../pokedex/moves/low-sweep.md)</span>.
 
 **Level Up**:
 
@@ -4806,7 +4806,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 </div>**Moves**:
 
-- Now compatible with ![TM34](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM34](../pokedex/items/tm34.md), [Sludge Wave](../pokedex/moves/sludge-wave.md).
+- Now compatible with <span style="white-space: nowrap;">![TM34](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM34](../pokedex/items/tm34.md), [Sludge Wave](../pokedex/moves/sludge-wave.md)</span>.
 
 **Level Up**:
 
@@ -4845,7 +4845,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 </div>**Moves**:
 
-- Now compatible with ![TM34](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM34](../pokedex/items/tm34.md), [Sludge Wave](../pokedex/moves/sludge-wave.md).
+- Now compatible with <span style="white-space: nowrap;">![TM34](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM34](../pokedex/items/tm34.md), [Sludge Wave](../pokedex/moves/sludge-wave.md)</span>.
 
 **Level Up**:
 
@@ -5054,10 +5054,10 @@ All new type changes are omitted in the Classic version of Redux.
 
 </div>**Moves**:
 
-- Now compatible with ![TM01](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM01](../pokedex/items/tm01.md), [Hone Claws](../pokedex/moves/hone-claws.md).
-- Now compatible with ![TM47](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM47](../pokedex/items/tm47.md), [Low Sweep](../pokedex/moves/low-sweep.md).
-- Now compatible with ![TM60](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM60](../pokedex/items/tm60.md), [Quash](../pokedex/moves/quash.md).
-- Now compatible with ![TM85](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM85](../pokedex/items/tm85.md), [Play Rough](../pokedex/moves/play-rough.md).
+- Now compatible with <span style="white-space: nowrap;">![TM01](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM01](../pokedex/items/tm01.md), [Hone Claws](../pokedex/moves/hone-claws.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM47](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM47](../pokedex/items/tm47.md), [Low Sweep](../pokedex/moves/low-sweep.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM60](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM60](../pokedex/items/tm60.md), [Quash](../pokedex/moves/quash.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM85](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM85](../pokedex/items/tm85.md), [Play Rough](../pokedex/moves/play-rough.md)</span>.
 
 **Level Up**:
 
@@ -5183,7 +5183,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM51](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM51](../pokedex/items/tm51.md), [Wave Crash](../pokedex/moves/wave-crash.md).
+- Now compatible with <span style="white-space: nowrap;">![TM51](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM51](../pokedex/items/tm51.md), [Wave Crash](../pokedex/moves/wave-crash.md)</span>.
 
 **Level Up**:
 
@@ -5231,7 +5231,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM51](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM51](../pokedex/items/tm51.md), [Wave Crash](../pokedex/moves/wave-crash.md).
+- Now compatible with <span style="white-space: nowrap;">![TM51](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM51](../pokedex/items/tm51.md), [Wave Crash](../pokedex/moves/wave-crash.md)</span>.
 
 **Level Up**:
 
@@ -5278,8 +5278,8 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM20](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM20](../pokedex/items/tm20.md), [Tri Attack](../pokedex/moves/tri-attack.md).
-- Now compatible with ![TM66](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM66](../pokedex/items/tm66.md), [Power Gem](../pokedex/moves/power-gem.md).
+- Now compatible with <span style="white-space: nowrap;">![TM20](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM20](../pokedex/items/tm20.md), [Tri Attack](../pokedex/moves/tri-attack.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM66](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM66](../pokedex/items/tm66.md), [Power Gem](../pokedex/moves/power-gem.md)</span>.
 
 **Level Up**:
 
@@ -5327,7 +5327,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM20](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM20](../pokedex/items/tm20.md), [Tri Attack](../pokedex/moves/tri-attack.md).
+- Now compatible with <span style="white-space: nowrap;">![TM20](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM20](../pokedex/items/tm20.md), [Tri Attack](../pokedex/moves/tri-attack.md)</span>.
 
 **Level Up**:
 
@@ -5360,11 +5360,11 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM20](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM20](../pokedex/items/tm20.md), [Tri Attack](../pokedex/moves/tri-attack.md).
-- Now compatible with ![TM46](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM46](../pokedex/items/tm46.md), [Aura Sphere](../pokedex/moves/aura-sphere.md).
-- Now compatible with ![TM48](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM48](../pokedex/items/tm48.md), [Mystical Fire](../pokedex/moves/mystical-fire.md).
-- Now compatible with ![TM60](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM60](../pokedex/items/tm60.md), [Quash](../pokedex/moves/quash.md).
-- Now compatible with ![TM66](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM66](../pokedex/items/tm66.md), [Power Gem](../pokedex/moves/power-gem.md).
+- Now compatible with <span style="white-space: nowrap;">![TM20](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM20](../pokedex/items/tm20.md), [Tri Attack](../pokedex/moves/tri-attack.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM46](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM46](../pokedex/items/tm46.md), [Aura Sphere](../pokedex/moves/aura-sphere.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM48](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM48](../pokedex/items/tm48.md), [Mystical Fire](../pokedex/moves/mystical-fire.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM60](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM60](../pokedex/items/tm60.md), [Quash](../pokedex/moves/quash.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM66](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM66](../pokedex/items/tm66.md), [Power Gem](../pokedex/moves/power-gem.md)</span>.
 
 **Level Up**:
 
@@ -5458,8 +5458,8 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM46](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM46](../pokedex/items/tm46.md), [Aura Sphere](../pokedex/moves/aura-sphere.md).
-- Now compatible with ![TM66](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM66](../pokedex/items/tm66.md), [Power Gem](../pokedex/moves/power-gem.md).
+- Now compatible with <span style="white-space: nowrap;">![TM46](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM46](../pokedex/items/tm46.md), [Aura Sphere](../pokedex/moves/aura-sphere.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM66](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM66](../pokedex/items/tm66.md), [Power Gem](../pokedex/moves/power-gem.md)</span>.
 
 **Level Up**:
 
@@ -5554,7 +5554,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM46](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM46](../pokedex/items/tm46.md), [Aura Sphere](../pokedex/moves/aura-sphere.md).
+- Now compatible with <span style="white-space: nowrap;">![TM46](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM46](../pokedex/items/tm46.md), [Aura Sphere](../pokedex/moves/aura-sphere.md)</span>.
 
 **Evolution**:
 
@@ -5606,10 +5606,10 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM01](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM01](../pokedex/items/tm01.md), [Hone Claws](../pokedex/moves/hone-claws.md).
-- Now compatible with ![TM62](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM62](../pokedex/items/tm62.md), [Acrobatics](../pokedex/moves/acrobatics.md).
-- Now compatible with ![TM76](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM76](../pokedex/items/tm76.md), [Bug Buzz](../pokedex/moves/bug-buzz.md).
-- Now compatible with ![TM83](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM83](../pokedex/items/tm83.md), [Work Up](../pokedex/moves/work-up.md).
+- Now compatible with <span style="white-space: nowrap;">![TM01](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM01](../pokedex/items/tm01.md), [Hone Claws](../pokedex/moves/hone-claws.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM62](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM62](../pokedex/items/tm62.md), [Acrobatics](../pokedex/moves/acrobatics.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM76](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM76](../pokedex/items/tm76.md), [Bug Buzz](../pokedex/moves/bug-buzz.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM83](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM83](../pokedex/items/tm83.md), [Work Up](../pokedex/moves/work-up.md)</span>.
 
 **Level Up**:
 
@@ -5652,7 +5652,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM63](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM63](../pokedex/items/tm63.md), [Brutal Swing](../pokedex/moves/brutal-swing.md).
+- Now compatible with <span style="white-space: nowrap;">![TM63](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM63](../pokedex/items/tm63.md), [Brutal Swing](../pokedex/moves/brutal-swing.md)</span>.
 
 **Level Up**:
 
@@ -5720,9 +5720,9 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM51](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM51](../pokedex/items/tm51.md), [Wave Crash](../pokedex/moves/wave-crash.md).
-- Now compatible with ![TM58](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM58](../pokedex/items/tm58.md), [Hurricane](../pokedex/moves/hurricane.md).
-- Now compatible with ![TM83](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM83](../pokedex/items/tm83.md), [Work Up](../pokedex/moves/work-up.md).
+- Now compatible with <span style="white-space: nowrap;">![TM51](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM51](../pokedex/items/tm51.md), [Wave Crash](../pokedex/moves/wave-crash.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM58](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM58](../pokedex/items/tm58.md), [Hurricane](../pokedex/moves/hurricane.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM83](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM83](../pokedex/items/tm83.md), [Work Up](../pokedex/moves/work-up.md)</span>.
 
 **Level Up**:
 
@@ -5762,7 +5762,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 </div>**Moves**:
 
-- Now compatible with ![TM51](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM51](../pokedex/items/tm51.md), [Wave Crash](../pokedex/moves/wave-crash.md).
+- Now compatible with <span style="white-space: nowrap;">![TM51](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM51](../pokedex/items/tm51.md), [Wave Crash](../pokedex/moves/wave-crash.md)</span>.
 
 **Level Up**:
 
@@ -5825,8 +5825,8 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM20](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM20](../pokedex/items/tm20.md), [Tri Attack](../pokedex/moves/tri-attack.md).
-- Now compatible with ![TM86](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM86](../pokedex/items/tm86.md), [Grass Knot](../pokedex/moves/grass-knot.md).
+- Now compatible with <span style="white-space: nowrap;">![TM20](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM20](../pokedex/items/tm20.md), [Tri Attack](../pokedex/moves/tri-attack.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM86](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM86](../pokedex/items/tm86.md), [Grass Knot](../pokedex/moves/grass-knot.md)</span>.
 
 **Evolution**:
 
@@ -5881,8 +5881,8 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM20](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM20](../pokedex/items/tm20.md), [Tri Attack](../pokedex/moves/tri-attack.md).
-- Now compatible with ![TM86](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM86](../pokedex/items/tm86.md), [Grass Knot](../pokedex/moves/grass-knot.md).
+- Now compatible with <span style="white-space: nowrap;">![TM20](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM20](../pokedex/items/tm20.md), [Tri Attack](../pokedex/moves/tri-attack.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM86](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM86](../pokedex/items/tm86.md), [Grass Knot](../pokedex/moves/grass-knot.md)</span>.
 
 **Level Up**:
 
@@ -5930,8 +5930,8 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM20](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM20](../pokedex/items/tm20.md), [Tri Attack](../pokedex/moves/tri-attack.md).
-- Now compatible with ![TM86](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM86](../pokedex/items/tm86.md), [Grass Knot](../pokedex/moves/grass-knot.md).
+- Now compatible with <span style="white-space: nowrap;">![TM20](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM20](../pokedex/items/tm20.md), [Tri Attack](../pokedex/moves/tri-attack.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM86](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM86](../pokedex/items/tm86.md), [Grass Knot](../pokedex/moves/grass-knot.md)</span>.
 
 **Level Up**:
 
@@ -5981,11 +5981,11 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM20](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM20](../pokedex/items/tm20.md), [Tri Attack](../pokedex/moves/tri-attack.md).
-- Now compatible with ![TM80](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM80](../pokedex/items/tm80.md), [Rock Slide](../pokedex/moves/rock-slide.md).
-- Now compatible with ![TM86](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM86](../pokedex/items/tm86.md), [Grass Knot](../pokedex/moves/grass-knot.md).
-- Now compatible with ![TM93](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM93](../pokedex/items/tm93.md), [Wild Charge](../pokedex/moves/wild-charge.md).
-- Now compatible with ![HM01](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hm-normal.png){ .item-sprite } [HM01](../pokedex/items/hm01.md), [Cut](../pokedex/moves/cut.md).
+- Now compatible with <span style="white-space: nowrap;">![TM20](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM20](../pokedex/items/tm20.md), [Tri Attack](../pokedex/moves/tri-attack.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM80](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM80](../pokedex/items/tm80.md), [Rock Slide](../pokedex/moves/rock-slide.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM86](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM86](../pokedex/items/tm86.md), [Grass Knot](../pokedex/moves/grass-knot.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM93](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM93](../pokedex/items/tm93.md), [Wild Charge](../pokedex/moves/wild-charge.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![HM01](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hm-normal.png){ .item-sprite } [HM01](../pokedex/items/hm01.md), [Cut](../pokedex/moves/cut.md)</span>.
 
 **Level Up**:
 
@@ -6106,7 +6106,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 </div>**Moves**:
 
-- Now compatible with ![TM66](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM66](../pokedex/items/tm66.md), [Power Gem](../pokedex/moves/power-gem.md).
+- Now compatible with <span style="white-space: nowrap;">![TM66](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM66](../pokedex/items/tm66.md), [Power Gem](../pokedex/moves/power-gem.md)</span>.
 
 **Level Up**:
 
@@ -6210,8 +6210,8 @@ All new type changes are omitted in the Classic version of Redux.
 
 </div>**Moves**:
 
-- Now compatible with ![TM83](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM83](../pokedex/items/tm83.md), [Work Up](../pokedex/moves/work-up.md).
-- Now compatible with ![HM01](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hm-normal.png){ .item-sprite } [HM01](../pokedex/items/hm01.md), [Cut](../pokedex/moves/cut.md).
+- Now compatible with <span style="white-space: nowrap;">![TM83](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM83](../pokedex/items/tm83.md), [Work Up](../pokedex/moves/work-up.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![HM01](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hm-normal.png){ .item-sprite } [HM01](../pokedex/items/hm01.md), [Cut](../pokedex/moves/cut.md)</span>.
 
 **Level Up**:
 
@@ -6296,7 +6296,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM58](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM58](../pokedex/items/tm58.md), [Hurricane](../pokedex/moves/hurricane.md).
+- Now compatible with <span style="white-space: nowrap;">![TM58](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM58](../pokedex/items/tm58.md), [Hurricane](../pokedex/moves/hurricane.md)</span>.
 
 **Level Up**:
 
@@ -6331,7 +6331,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 </div>**Moves**:
 
-- Now compatible with ![TM58](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM58](../pokedex/items/tm58.md), [Hurricane](../pokedex/moves/hurricane.md).
+- Now compatible with <span style="white-space: nowrap;">![TM58](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM58](../pokedex/items/tm58.md), [Hurricane](../pokedex/moves/hurricane.md)</span>.
 
 **Level Up**:
 
@@ -6366,7 +6366,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 </div>**Moves**:
 
-- Now compatible with ![TM58](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM58](../pokedex/items/tm58.md), [Hurricane](../pokedex/moves/hurricane.md).
+- Now compatible with <span style="white-space: nowrap;">![TM58](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM58](../pokedex/items/tm58.md), [Hurricane](../pokedex/moves/hurricane.md)</span>.
 
 **Level Up**:
 
@@ -6485,7 +6485,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM58](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM58](../pokedex/items/tm58.md), [Hurricane](../pokedex/moves/hurricane.md).
+- Now compatible with <span style="white-space: nowrap;">![TM58](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM58](../pokedex/items/tm58.md), [Hurricane](../pokedex/moves/hurricane.md)</span>.
 
 **Level Up**:
 
@@ -6529,8 +6529,8 @@ All new type changes are omitted in the Classic version of Redux.
 
 </div>**Moves**:
 
-- Now compatible with ![TM58](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM58](../pokedex/items/tm58.md), [Hurricane](../pokedex/moves/hurricane.md).
-- Now compatible with ![TM83](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM83](../pokedex/items/tm83.md), [Work Up](../pokedex/moves/work-up.md).
+- Now compatible with <span style="white-space: nowrap;">![TM58](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM58](../pokedex/items/tm58.md), [Hurricane](../pokedex/moves/hurricane.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM83](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM83](../pokedex/items/tm83.md), [Work Up](../pokedex/moves/work-up.md)</span>.
 
 **Level Up**:
 
@@ -6611,7 +6611,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM32](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM32](../pokedex/items/tm32.md), [Dazzling Gleam](../pokedex/moves/dazzling-gleam.md).
+- Now compatible with <span style="white-space: nowrap;">![TM32](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM32](../pokedex/items/tm32.md), [Dazzling Gleam](../pokedex/moves/dazzling-gleam.md)</span>.
 
 **Level Up**:
 
@@ -6655,7 +6655,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM32](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM32](../pokedex/items/tm32.md), [Dazzling Gleam](../pokedex/moves/dazzling-gleam.md).
+- Now compatible with <span style="white-space: nowrap;">![TM32](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM32](../pokedex/items/tm32.md), [Dazzling Gleam](../pokedex/moves/dazzling-gleam.md)</span>.
 
 
 **Level Up**:
@@ -6705,8 +6705,8 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM32](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM32](../pokedex/items/tm32.md), [Dazzling Gleam](../pokedex/moves/dazzling-gleam.md).
-- Now compatible with ![TM85](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM85](../pokedex/items/tm85.md), [Play Rough](../pokedex/moves/play-rough.md).
+- Now compatible with <span style="white-space: nowrap;">![TM32](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM32](../pokedex/items/tm32.md), [Dazzling Gleam](../pokedex/moves/dazzling-gleam.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM85](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM85](../pokedex/items/tm85.md), [Play Rough](../pokedex/moves/play-rough.md)</span>.
 
 
 **Level Up**:
@@ -6833,7 +6833,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM48](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM48](../pokedex/items/tm48.md), [Mystical Fire](../pokedex/moves/mystical-fire.md).
+- Now compatible with <span style="white-space: nowrap;">![TM48](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM48](../pokedex/items/tm48.md), [Mystical Fire](../pokedex/moves/mystical-fire.md)</span>.
 
 **Level Up**:
 
@@ -6881,8 +6881,8 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM02](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM02](../pokedex/items/tm02.md), [Dragon Claw](../pokedex/moves/dragon-claw.md).
-- Now compatible with ![TM51](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM51](../pokedex/items/tm51.md), [Wave Crash](../pokedex/moves/wave-crash.md).
+- Now compatible with <span style="white-space: nowrap;">![TM02](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM02](../pokedex/items/tm02.md), [Dragon Claw](../pokedex/moves/dragon-claw.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM51](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM51](../pokedex/items/tm51.md), [Wave Crash](../pokedex/moves/wave-crash.md)</span>.
 
 **Level Up**:
 
@@ -6926,8 +6926,8 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM02](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM02](../pokedex/items/tm02.md), [Dragon Claw](../pokedex/moves/dragon-claw.md).
-- Now compatible with ![TM51](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM51](../pokedex/items/tm51.md), [Wave Crash](../pokedex/moves/wave-crash.md).
+- Now compatible with <span style="white-space: nowrap;">![TM02](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM02](../pokedex/items/tm02.md), [Dragon Claw](../pokedex/moves/dragon-claw.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM51](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM51](../pokedex/items/tm51.md), [Wave Crash](../pokedex/moves/wave-crash.md)</span>.
 
 **Level Up**:
 
@@ -6974,7 +6974,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM51](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM51](../pokedex/items/tm51.md), [Wave Crash](../pokedex/moves/wave-crash.md).
+- Now compatible with <span style="white-space: nowrap;">![TM51](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM51](../pokedex/items/tm51.md), [Wave Crash](../pokedex/moves/wave-crash.md)</span>.
 
 **Level Up**:
 
@@ -7026,7 +7026,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM60](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM60](../pokedex/items/tm60.md), [Quash](../pokedex/moves/quash.md).
+- Now compatible with <span style="white-space: nowrap;">![TM60](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM60](../pokedex/items/tm60.md), [Quash](../pokedex/moves/quash.md)</span>.
 
 **Level Up**:
 
@@ -7075,8 +7075,8 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM60](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM60](../pokedex/items/tm60.md), [Quash](../pokedex/moves/quash.md).
-- Now compatible with ![TM85](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM85](../pokedex/items/tm85.md), [Play Rough](../pokedex/moves/play-rough.md).
+- Now compatible with <span style="white-space: nowrap;">![TM60](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM60](../pokedex/items/tm60.md), [Quash](../pokedex/moves/quash.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM85](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM85](../pokedex/items/tm85.md), [Play Rough](../pokedex/moves/play-rough.md)</span>.
 
 **Level Up**:
 
@@ -7124,7 +7124,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM70](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM70](../pokedex/items/tm70.md), [Flash](../pokedex/moves/flash.md).
+- Now compatible with <span style="white-space: nowrap;">![TM70](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM70](../pokedex/items/tm70.md), [Flash](../pokedex/moves/flash.md)</span>.
 
 **Level Up**:
 
@@ -7172,8 +7172,8 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM48](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM48](../pokedex/items/tm48.md), [Mystical Fire](../pokedex/moves/mystical-fire.md).
-- Now compatible with ![TM70](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM70](../pokedex/items/tm70.md), [Flash](../pokedex/moves/flash.md).
+- Now compatible with <span style="white-space: nowrap;">![TM48](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM48](../pokedex/items/tm48.md), [Mystical Fire](../pokedex/moves/mystical-fire.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM70](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM70](../pokedex/items/tm70.md), [Flash](../pokedex/moves/flash.md)</span>.
 
 
 **Level Up**:
@@ -7226,7 +7226,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM76](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM76](../pokedex/items/tm76.md), [Bug Buzz](../pokedex/moves/bug-buzz.md).
+- Now compatible with <span style="white-space: nowrap;">![TM76](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM76](../pokedex/items/tm76.md), [Bug Buzz](../pokedex/moves/bug-buzz.md)</span>.
 
 **Level Up**:
 
@@ -7277,8 +7277,8 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM76](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM76](../pokedex/items/tm76.md), [Bug Buzz](../pokedex/moves/bug-buzz.md).
-- Now compatible with ![HM02](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hm-normal.png){ .item-sprite } [HM02](../pokedex/items/hm02.md), [Fly](../pokedex/moves/fly.md).
+- Now compatible with <span style="white-space: nowrap;">![TM76](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM76](../pokedex/items/tm76.md), [Bug Buzz](../pokedex/moves/bug-buzz.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![HM02](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hm-normal.png){ .item-sprite } [HM02](../pokedex/items/hm02.md), [Fly](../pokedex/moves/fly.md)</span>.
 
 **Level Up**:
 
@@ -7328,8 +7328,8 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM60](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM60](../pokedex/items/tm60.md), [Quash](../pokedex/moves/quash.md).
-- Now compatible with ![TM76](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM76](../pokedex/items/tm76.md), [Bug Buzz](../pokedex/moves/bug-buzz.md).
+- Now compatible with <span style="white-space: nowrap;">![TM60](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM60](../pokedex/items/tm60.md), [Quash](../pokedex/moves/quash.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM76](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM76](../pokedex/items/tm76.md), [Bug Buzz](../pokedex/moves/bug-buzz.md)</span>.
 
 **Level Up**:
 
@@ -7376,8 +7376,8 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM60](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM60](../pokedex/items/tm60.md), [Quash](../pokedex/moves/quash.md).
-- Now compatible with ![TM76](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM76](../pokedex/items/tm76.md), [Bug Buzz](../pokedex/moves/bug-buzz.md).
+- Now compatible with <span style="white-space: nowrap;">![TM60](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM60](../pokedex/items/tm60.md), [Quash](../pokedex/moves/quash.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM76](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM76](../pokedex/items/tm76.md), [Bug Buzz](../pokedex/moves/bug-buzz.md)</span>.
 
 **Level Up**:
 
@@ -7510,8 +7510,8 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM20](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM20](../pokedex/items/tm20.md), [Tri Attack](../pokedex/moves/tri-attack.md).
-- Now compatible with ![TM32](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM32](../pokedex/items/tm32.md), [Dazzling Gleam](../pokedex/moves/dazzling-gleam.md).
+- Now compatible with <span style="white-space: nowrap;">![TM20](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM20](../pokedex/items/tm20.md), [Tri Attack](../pokedex/moves/tri-attack.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM32](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM32](../pokedex/items/tm32.md), [Dazzling Gleam](../pokedex/moves/dazzling-gleam.md)</span>.
 
 **Level Up**:
 
@@ -7561,7 +7561,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![HM03](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hm-normal.png){ .item-sprite } [HM03](../pokedex/items/hm03.md), [Surf](../pokedex/moves/surf.md). [\*]
+- Now compatible with <span style="white-space: nowrap;">![HM03](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hm-normal.png){ .item-sprite } [HM03](../pokedex/items/hm03.md), [Surf](../pokedex/moves/surf.md)</span>. [\*]
 
 **Level Up**:
 
@@ -7698,8 +7698,8 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM20](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM20](../pokedex/items/tm20.md), [Tri Attack](../pokedex/moves/tri-attack.md). [\*]
-- Now compatible with ![TM58](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM58](../pokedex/items/tm58.md), [Hurricane](../pokedex/moves/hurricane.md).
+- Now compatible with <span style="white-space: nowrap;">![TM20](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM20](../pokedex/items/tm20.md), [Tri Attack](../pokedex/moves/tri-attack.md)</span>. [\*]
+- Now compatible with <span style="white-space: nowrap;">![TM58](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM58](../pokedex/items/tm58.md), [Hurricane](../pokedex/moves/hurricane.md)</span>.
 
 **Level Up**:
 
@@ -7788,9 +7788,9 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM46](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM46](../pokedex/items/tm46.md), [Aura Sphere](../pokedex/moves/aura-sphere.md).
-- Now compatible with ![TM48](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM48](../pokedex/items/tm48.md), [Mystical Fire](../pokedex/moves/mystical-fire.md).
-- Now compatible with ![TM58](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM58](../pokedex/items/tm58.md), [Hurricane](../pokedex/moves/hurricane.md).
+- Now compatible with <span style="white-space: nowrap;">![TM46](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM46](../pokedex/items/tm46.md), [Aura Sphere](../pokedex/moves/aura-sphere.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM48](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM48](../pokedex/items/tm48.md), [Mystical Fire](../pokedex/moves/mystical-fire.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM58](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM58](../pokedex/items/tm58.md), [Hurricane](../pokedex/moves/hurricane.md)</span>.
 
 **Level Up**:
 
@@ -7840,7 +7840,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM66](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM66](../pokedex/items/tm66.md), [Power Gem](../pokedex/moves/power-gem.md).
+- Now compatible with <span style="white-space: nowrap;">![TM66](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM66](../pokedex/items/tm66.md), [Power Gem](../pokedex/moves/power-gem.md)</span>.
 
 **Level Up**:
 
@@ -7888,7 +7888,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM66](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM66](../pokedex/items/tm66.md), [Power Gem](../pokedex/moves/power-gem.md).
+- Now compatible with <span style="white-space: nowrap;">![TM66](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM66](../pokedex/items/tm66.md), [Power Gem](../pokedex/moves/power-gem.md)</span>.
 
 **Level Up**:
 
@@ -7938,10 +7938,10 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM32](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM32](../pokedex/items/tm32.md), [Dazzling Gleam](../pokedex/moves/dazzling-gleam.md).
-- Now compatible with ![TM53](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM53](../pokedex/items/tm53.md), [Energy Ball](../pokedex/moves/energy-ball.md).
-- Now compatible with ![TM66](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM66](../pokedex/items/tm66.md), [Power Gem](../pokedex/moves/power-gem.md).
-- Now compatible with ![TM91](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM91](../pokedex/items/tm91.md), [Flash Cannon](../pokedex/moves/flash-cannon.md).
+- Now compatible with <span style="white-space: nowrap;">![TM32](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM32](../pokedex/items/tm32.md), [Dazzling Gleam](../pokedex/moves/dazzling-gleam.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM53](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM53](../pokedex/items/tm53.md), [Energy Ball](../pokedex/moves/energy-ball.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM66](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM66](../pokedex/items/tm66.md), [Power Gem](../pokedex/moves/power-gem.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM91](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM91](../pokedex/items/tm91.md), [Flash Cannon](../pokedex/moves/flash-cannon.md)</span>.
 - Now compatible with Draco Meteor from the Move Tutor.
 
 
@@ -8122,7 +8122,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM47](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM47](../pokedex/items/tm47.md), [Low Sweep](../pokedex/moves/low-sweep.md).
+- Now compatible with <span style="white-space: nowrap;">![TM47](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM47](../pokedex/items/tm47.md), [Low Sweep](../pokedex/moves/low-sweep.md)</span>.
 
 **Level Up**:
 
@@ -8170,7 +8170,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM51](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM51](../pokedex/items/tm51.md), [Wave Crash](../pokedex/moves/wave-crash.md).
+- Now compatible with <span style="white-space: nowrap;">![TM51](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM51](../pokedex/items/tm51.md), [Wave Crash](../pokedex/moves/wave-crash.md)</span>.
 
 **Level Up**:
 
@@ -8305,8 +8305,8 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM58](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM58](../pokedex/items/tm58.md), [Hurricane](../pokedex/moves/hurricane.md).
-- Now compatible with ![HM02](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hm-normal.png){ .item-sprite } [HM02](../pokedex/items/hm02.md), [Fly](../pokedex/moves/fly.md).
+- Now compatible with <span style="white-space: nowrap;">![TM58](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM58](../pokedex/items/tm58.md), [Hurricane](../pokedex/moves/hurricane.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![HM02](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hm-normal.png){ .item-sprite } [HM02](../pokedex/items/hm02.md), [Fly](../pokedex/moves/fly.md)</span>.
 
 **Level Up**:
 
@@ -8436,7 +8436,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM56](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM56](../pokedex/items/tm56.md), [Weather Ball](../pokedex/moves/weather-ball.md).
+- Now compatible with <span style="white-space: nowrap;">![TM56](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM56](../pokedex/items/tm56.md), [Weather Ball](../pokedex/moves/weather-ball.md)</span>.
 
 **Level Up**:
 
@@ -8479,7 +8479,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 </div>**Moves**:
 
-- Now compatible with ![TM58](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM58](../pokedex/items/tm58.md), [Hurricane](../pokedex/moves/hurricane.md).
+- Now compatible with <span style="white-space: nowrap;">![TM58](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM58](../pokedex/items/tm58.md), [Hurricane](../pokedex/moves/hurricane.md)</span>.
 
 **Level Up**:
 
@@ -8612,10 +8612,10 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM20](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM20](../pokedex/items/tm20.md), [Tri Attack](../pokedex/moves/tri-attack.md).
-- Now compatible with ![TM46](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM46](../pokedex/items/tm46.md), [Aura Sphere](../pokedex/moves/aura-sphere.md).
-- Now compatible with ![TM48](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM48](../pokedex/items/tm48.md), [Mystical Fire](../pokedex/moves/mystical-fire.md).
-- Now compatible with ![TM66](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM66](../pokedex/items/tm66.md), [Power Gem](../pokedex/moves/power-gem.md).
+- Now compatible with <span style="white-space: nowrap;">![TM20](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM20](../pokedex/items/tm20.md), [Tri Attack](../pokedex/moves/tri-attack.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM46](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM46](../pokedex/items/tm46.md), [Aura Sphere](../pokedex/moves/aura-sphere.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM48](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM48](../pokedex/items/tm48.md), [Mystical Fire](../pokedex/moves/mystical-fire.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM66](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM66](../pokedex/items/tm66.md), [Power Gem](../pokedex/moves/power-gem.md)</span>.
 
 **Level Up**:
 
@@ -8663,11 +8663,11 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM20](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM20](../pokedex/items/tm20.md), [Tri Attack](../pokedex/moves/tri-attack.md).
-- Now compatible with ![TM48](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM48](../pokedex/items/tm48.md), [Mystical Fire](../pokedex/moves/mystical-fire.md).
-- Now compatible with ![TM60](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM60](../pokedex/items/tm60.md), [Quash](../pokedex/moves/quash.md).
-- Now compatible with ![TM66](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM66](../pokedex/items/tm66.md), [Power Gem](../pokedex/moves/power-gem.md).
-- Now compatible with ![TM86](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM86](../pokedex/items/tm86.md), [Grass Knot](../pokedex/moves/grass-knot.md).
+- Now compatible with <span style="white-space: nowrap;">![TM20](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM20](../pokedex/items/tm20.md), [Tri Attack](../pokedex/moves/tri-attack.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM48](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM48](../pokedex/items/tm48.md), [Mystical Fire](../pokedex/moves/mystical-fire.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM60](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM60](../pokedex/items/tm60.md), [Quash](../pokedex/moves/quash.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM66](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM66](../pokedex/items/tm66.md), [Power Gem](../pokedex/moves/power-gem.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM86](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM86](../pokedex/items/tm86.md), [Grass Knot](../pokedex/moves/grass-knot.md)</span>.
 
 **Level Up**:
 
@@ -8715,7 +8715,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM58](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM58](../pokedex/items/tm58.md), [Hurricane](../pokedex/moves/hurricane.md).
+- Now compatible with <span style="white-space: nowrap;">![TM58](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM58](../pokedex/items/tm58.md), [Hurricane](../pokedex/moves/hurricane.md)</span>.
 
 **Level Up**:
 
@@ -8758,9 +8758,9 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM46](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM46](../pokedex/items/tm46.md), [Aura Sphere](../pokedex/moves/aura-sphere.md).
-- Now compatible with ![TM66](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM66](../pokedex/items/tm66.md), [Power Gem](../pokedex/moves/power-gem.md).
-- Now compatible with ![HM05](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hm-normal.png){ .item-sprite } [HM05](../pokedex/items/hm05.md), [Waterfall](../pokedex/moves/waterfall.md).
+- Now compatible with <span style="white-space: nowrap;">![TM46](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM46](../pokedex/items/tm46.md), [Aura Sphere](../pokedex/moves/aura-sphere.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM66](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM66](../pokedex/items/tm66.md), [Power Gem](../pokedex/moves/power-gem.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![HM05](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hm-normal.png){ .item-sprite } [HM05](../pokedex/items/hm05.md), [Waterfall](../pokedex/moves/waterfall.md)</span>.
 
 **Level Up**:
 
@@ -8801,8 +8801,8 @@ All new type changes are omitted in the Classic version of Redux.
 
 </div>**Moves**:
 
-- Now compatible with ![TM48](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM48](../pokedex/items/tm48.md), [Mystical Fire](../pokedex/moves/mystical-fire.md).
-- Now compatible with ![TM66](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM66](../pokedex/items/tm66.md), [Power Gem](../pokedex/moves/power-gem.md).
+- Now compatible with <span style="white-space: nowrap;">![TM48](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM48](../pokedex/items/tm48.md), [Mystical Fire](../pokedex/moves/mystical-fire.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM66](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM66](../pokedex/items/tm66.md), [Power Gem](../pokedex/moves/power-gem.md)</span>.
 
 | Attribute | Old Value | New Value |
 |:----------|:----------|:----------|
@@ -8909,8 +8909,8 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM47](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM47](../pokedex/items/tm47.md), [Low Sweep](../pokedex/moves/low-sweep.md).
-- Now compatible with ![TM60](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM60](../pokedex/items/tm60.md), [Quash](../pokedex/moves/quash.md).
+- Now compatible with <span style="white-space: nowrap;">![TM47](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM47](../pokedex/items/tm47.md), [Low Sweep](../pokedex/moves/low-sweep.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM60](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM60](../pokedex/items/tm60.md), [Quash](../pokedex/moves/quash.md)</span>.
 
 **Level Up**:
 
@@ -8958,7 +8958,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM76](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM76](../pokedex/items/tm76.md), [Bug Buzz](../pokedex/moves/bug-buzz.md).
+- Now compatible with <span style="white-space: nowrap;">![TM76](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM76](../pokedex/items/tm76.md), [Bug Buzz](../pokedex/moves/bug-buzz.md)</span>.
 
 **Level Up**:
 
@@ -9000,7 +9000,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM76](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM76](../pokedex/items/tm76.md), [Bug Buzz](../pokedex/moves/bug-buzz.md).
+- Now compatible with <span style="white-space: nowrap;">![TM76](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM76](../pokedex/items/tm76.md), [Bug Buzz](../pokedex/moves/bug-buzz.md)</span>.
 
 **Level Up**:
 
@@ -9045,7 +9045,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM01](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM01](../pokedex/items/tm01.md), [Hone Claws](../pokedex/moves/hone-claws.md).
+- Now compatible with <span style="white-space: nowrap;">![TM01](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM01](../pokedex/items/tm01.md), [Hone Claws](../pokedex/moves/hone-claws.md)</span>.
 
 **Level Up**:
 
@@ -9097,8 +9097,8 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM76](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM76](../pokedex/items/tm76.md), [Bug Buzz](../pokedex/moves/bug-buzz.md).
-- Now compatible with ![TM87](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM87](../pokedex/items/tm87.md), [Rock Climb](../pokedex/moves/rock-climb.md).
+- Now compatible with <span style="white-space: nowrap;">![TM76](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM76](../pokedex/items/tm76.md), [Bug Buzz](../pokedex/moves/bug-buzz.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM87](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM87](../pokedex/items/tm87.md), [Rock Climb](../pokedex/moves/rock-climb.md)</span>.
 
 **Level Up**:
 
@@ -9186,7 +9186,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 </div>**Moves**:
 
-- Now compatible with ![HM01](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hm-normal.png){ .item-sprite } [HM01](../pokedex/items/hm01.md), [Cut](../pokedex/moves/cut.md).
+- Now compatible with <span style="white-space: nowrap;">![HM01](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hm-normal.png){ .item-sprite } [HM01](../pokedex/items/hm01.md), [Cut](../pokedex/moves/cut.md)</span>.
 
 | Attribute | Old Value | New Value |
 |:----------|:----------|:----------|
@@ -9230,7 +9230,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 </div>**Moves**:
 
-- Now compatible with ![HM01](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hm-normal.png){ .item-sprite } [HM01](../pokedex/items/hm01.md), [Cut](../pokedex/moves/cut.md).
+- Now compatible with <span style="white-space: nowrap;">![HM01](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hm-normal.png){ .item-sprite } [HM01](../pokedex/items/hm01.md), [Cut](../pokedex/moves/cut.md)</span>.
 
 | Attribute | Old Value | New Value |
 |:----------|:----------|:----------|
@@ -9284,7 +9284,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM51](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM51](../pokedex/items/tm51.md), [Wave Crash](../pokedex/moves/wave-crash.md).
+- Now compatible with <span style="white-space: nowrap;">![TM51](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM51](../pokedex/items/tm51.md), [Wave Crash](../pokedex/moves/wave-crash.md)</span>.
 
 **Level Up**:
 
@@ -9328,8 +9328,8 @@ All new type changes are omitted in the Classic version of Redux.
 
 </div>**Moves**:
 
-- Now compatible with ![TM01](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM01](../pokedex/items/tm01.md), [Hone Claws](../pokedex/moves/hone-claws.md).
-- Now compatible with ![TM76](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM76](../pokedex/items/tm76.md), [Bug Buzz](../pokedex/moves/bug-buzz.md).
+- Now compatible with <span style="white-space: nowrap;">![TM01](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM01](../pokedex/items/tm01.md), [Hone Claws](../pokedex/moves/hone-claws.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM76](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM76](../pokedex/items/tm76.md), [Bug Buzz](../pokedex/moves/bug-buzz.md)</span>.
 
 **Level Up**:
 
@@ -9376,7 +9376,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM76](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM76](../pokedex/items/tm76.md), [Bug Buzz](../pokedex/moves/bug-buzz.md).
+- Now compatible with <span style="white-space: nowrap;">![TM76](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM76](../pokedex/items/tm76.md), [Bug Buzz](../pokedex/moves/bug-buzz.md)</span>.
 
 **Level Up**:
 
@@ -9422,7 +9422,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM76](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM76](../pokedex/items/tm76.md), [Bug Buzz](../pokedex/moves/bug-buzz.md).
+- Now compatible with <span style="white-space: nowrap;">![TM76](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM76](../pokedex/items/tm76.md), [Bug Buzz](../pokedex/moves/bug-buzz.md)</span>.
 
 **Level Up**:
 
@@ -9504,7 +9504,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 </div>**Moves**:
 
-- Now compatible with ![TM87](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM87](../pokedex/items/tm87.md), [Rock Climb](../pokedex/moves/rock-climb.md).
+- Now compatible with <span style="white-space: nowrap;">![TM87](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM87](../pokedex/items/tm87.md), [Rock Climb](../pokedex/moves/rock-climb.md)</span>.
 
 | Attribute | Old Value | New Value |
 |:----------|:----------|:----------|
@@ -9550,7 +9550,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 </div>**Moves**:
 
-- Now compatible with ![TM87](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM87](../pokedex/items/tm87.md), [Rock Climb](../pokedex/moves/rock-climb.md).
+- Now compatible with <span style="white-space: nowrap;">![TM87](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM87](../pokedex/items/tm87.md), [Rock Climb](../pokedex/moves/rock-climb.md)</span>.
 
 | Attribute | Old Value | New Value |
 |:----------|:----------|:----------|
@@ -9608,7 +9608,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM66](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM66](../pokedex/items/tm66.md), [Power Gem](../pokedex/moves/power-gem.md).
+- Now compatible with <span style="white-space: nowrap;">![TM66](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM66](../pokedex/items/tm66.md), [Power Gem](../pokedex/moves/power-gem.md)</span>.
 
 
 **Level Up**:
@@ -9658,7 +9658,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM66](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM66](../pokedex/items/tm66.md), [Power Gem](../pokedex/moves/power-gem.md).
+- Now compatible with <span style="white-space: nowrap;">![TM66](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM66](../pokedex/items/tm66.md), [Power Gem](../pokedex/moves/power-gem.md)</span>.
 
 **Level Up**:
 
@@ -9874,8 +9874,8 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM20](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM20](../pokedex/items/tm20.md), [Tri Attack](../pokedex/moves/tri-attack.md).
-- Now compatible with ![TM83](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM83](../pokedex/items/tm83.md), [Work Up](../pokedex/moves/work-up.md).
+- Now compatible with <span style="white-space: nowrap;">![TM20](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM20](../pokedex/items/tm20.md), [Tri Attack](../pokedex/moves/tri-attack.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM83](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM83](../pokedex/items/tm83.md), [Work Up](../pokedex/moves/work-up.md)</span>.
 
 **Level Up**:
 
@@ -9925,13 +9925,13 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM01](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM01](../pokedex/items/tm01.md), [Hone Claws](../pokedex/moves/hone-claws.md).
-- Now compatible with ![TM58](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM58](../pokedex/items/tm58.md), [Hurricane](../pokedex/moves/hurricane.md).
-- Now compatible with ![TM62](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM62](../pokedex/items/tm62.md), [Acrobatics](../pokedex/moves/acrobatics.md).
-- Now compatible with ![TM83](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM83](../pokedex/items/tm83.md), [Work Up](../pokedex/moves/work-up.md).
-- Now compatible with ![TM89](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM89](../pokedex/items/tm89.md), [U Turn](../pokedex/moves/u-turn.md).
-- Now compatible with ![HM01](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hm-normal.png){ .item-sprite } [HM01](../pokedex/items/hm01.md), [Cut](../pokedex/moves/cut.md).
-- Now compatible with ![HM04](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hm-normal.png){ .item-sprite } [HM04](../pokedex/items/hm04.md), [Strength](../pokedex/moves/strength.md).
+- Now compatible with <span style="white-space: nowrap;">![TM01](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM01](../pokedex/items/tm01.md), [Hone Claws](../pokedex/moves/hone-claws.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM58](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM58](../pokedex/items/tm58.md), [Hurricane](../pokedex/moves/hurricane.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM62](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM62](../pokedex/items/tm62.md), [Acrobatics](../pokedex/moves/acrobatics.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM83](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM83](../pokedex/items/tm83.md), [Work Up](../pokedex/moves/work-up.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM89](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM89](../pokedex/items/tm89.md), [U Turn](../pokedex/moves/u-turn.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![HM01](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hm-normal.png){ .item-sprite } [HM01](../pokedex/items/hm01.md), [Cut](../pokedex/moves/cut.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![HM04](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hm-normal.png){ .item-sprite } [HM04](../pokedex/items/hm04.md), [Strength](../pokedex/moves/strength.md)</span>.
 
 
 **Level Up**:
@@ -9969,8 +9969,8 @@ All new type changes are omitted in the Classic version of Redux.
 
 </div>**Moves**:
 
-- Now compatible with ![TM51](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM51](../pokedex/items/tm51.md), [Wave Crash](../pokedex/moves/wave-crash.md).
-- Now compatible with ![HM02](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hm-normal.png){ .item-sprite } [HM02](../pokedex/items/hm02.md), [Fly](../pokedex/moves/fly.md).
+- Now compatible with <span style="white-space: nowrap;">![TM51](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM51](../pokedex/items/tm51.md), [Wave Crash](../pokedex/moves/wave-crash.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![HM02](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hm-normal.png){ .item-sprite } [HM02](../pokedex/items/hm02.md), [Fly](../pokedex/moves/fly.md)</span>.
 
 **Level Up**:
 
@@ -10011,7 +10011,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 </div>**Moves**:
 
-- Now compatible with ![TM58](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM58](../pokedex/items/tm58.md), [Hurricane](../pokedex/moves/hurricane.md).
+- Now compatible with <span style="white-space: nowrap;">![TM58](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM58](../pokedex/items/tm58.md), [Hurricane](../pokedex/moves/hurricane.md)</span>.
 
 **Level Up**:
 
@@ -10102,7 +10102,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM83](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM83](../pokedex/items/tm83.md), [Work Up](../pokedex/moves/work-up.md).
+- Now compatible with <span style="white-space: nowrap;">![TM83](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM83](../pokedex/items/tm83.md), [Work Up](../pokedex/moves/work-up.md)</span>.
 
 **Level Up**:
 
@@ -10145,7 +10145,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 </div>**Moves**:
 
-- Now compatible with ![TM58](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM58](../pokedex/items/tm58.md), [Hurricane](../pokedex/moves/hurricane.md).
+- Now compatible with <span style="white-space: nowrap;">![TM58](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM58](../pokedex/items/tm58.md), [Hurricane](../pokedex/moves/hurricane.md)</span>.
 
 **Level Up**:
 
@@ -10314,9 +10314,9 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM20](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM20](../pokedex/items/tm20.md), [Tri Attack](../pokedex/moves/tri-attack.md).
-- Now compatible with ![TM46](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM46](../pokedex/items/tm46.md), [Aura Sphere](../pokedex/moves/aura-sphere.md).
-- Now compatible with ![TM66](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM66](../pokedex/items/tm66.md), [Power Gem](../pokedex/moves/power-gem.md).
+- Now compatible with <span style="white-space: nowrap;">![TM20](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM20](../pokedex/items/tm20.md), [Tri Attack](../pokedex/moves/tri-attack.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM46](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM46](../pokedex/items/tm46.md), [Aura Sphere](../pokedex/moves/aura-sphere.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM66](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM66](../pokedex/items/tm66.md), [Power Gem](../pokedex/moves/power-gem.md)</span>.
 
 **Level Up**:
 
@@ -10599,7 +10599,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 </div>**Moves**:
 
-- Now compatible with ![TM47](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM47](../pokedex/items/tm47.md), [Low Sweep](../pokedex/moves/low-sweep.md).
+- Now compatible with <span style="white-space: nowrap;">![TM47](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM47](../pokedex/items/tm47.md), [Low Sweep](../pokedex/moves/low-sweep.md)</span>.
 
 **Level Up**:
 
@@ -10745,9 +10745,9 @@ All new type changes are omitted in the Classic version of Redux.
 
 </div>**Moves**:
 
-- Now compatible with ![TM51](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM51](../pokedex/items/tm51.md), [Wave Crash](../pokedex/moves/wave-crash.md).
-- Now compatible with ![TM58](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM58](../pokedex/items/tm58.md), [Hurricane](../pokedex/moves/hurricane.md).
-- Now compatible with ![TM79](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM79](../pokedex/items/tm79.md), [Frost Breath](../pokedex/moves/frost-breath.md).
+- Now compatible with <span style="white-space: nowrap;">![TM51](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM51](../pokedex/items/tm51.md), [Wave Crash](../pokedex/moves/wave-crash.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM58](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM58](../pokedex/items/tm58.md), [Hurricane](../pokedex/moves/hurricane.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM79](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM79](../pokedex/items/tm79.md), [Frost Breath](../pokedex/moves/frost-breath.md)</span>.
 
 **Level Up**:
 
@@ -10786,7 +10786,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM83](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM83](../pokedex/items/tm83.md), [Work Up](../pokedex/moves/work-up.md).
+- Now compatible with <span style="white-space: nowrap;">![TM83](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM83](../pokedex/items/tm83.md), [Work Up](../pokedex/moves/work-up.md)</span>.
 
 **Level Up**:
 
@@ -10825,7 +10825,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM83](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM83](../pokedex/items/tm83.md), [Work Up](../pokedex/moves/work-up.md).
+- Now compatible with <span style="white-space: nowrap;">![TM83](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM83](../pokedex/items/tm83.md), [Work Up](../pokedex/moves/work-up.md)</span>.
 
 **Level Up**:
 
@@ -10866,7 +10866,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM83](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM83](../pokedex/items/tm83.md), [Work Up](../pokedex/moves/work-up.md).
+- Now compatible with <span style="white-space: nowrap;">![TM83](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM83](../pokedex/items/tm83.md), [Work Up](../pokedex/moves/work-up.md)</span>.
 
 **Level Up**:
 
@@ -10940,7 +10940,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 </div>**Moves**:
 
-- Now compatible with ![TM58](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM58](../pokedex/items/tm58.md), [Hurricane](../pokedex/moves/hurricane.md).
+- Now compatible with <span style="white-space: nowrap;">![TM58](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM58](../pokedex/items/tm58.md), [Hurricane](../pokedex/moves/hurricane.md)</span>.
 
 **Level Up**:
 
@@ -10974,7 +10974,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 </div>**Moves**:
 
-- Now compatible with ![TM46](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM46](../pokedex/items/tm46.md), [Aura Sphere](../pokedex/moves/aura-sphere.md).
+- Now compatible with <span style="white-space: nowrap;">![TM46](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM46](../pokedex/items/tm46.md), [Aura Sphere](../pokedex/moves/aura-sphere.md)</span>.
 
 **Level Up**:
 
@@ -11441,7 +11441,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM60](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM60](../pokedex/items/tm60.md), [Quash](../pokedex/moves/quash.md).
+- Now compatible with <span style="white-space: nowrap;">![TM60](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM60](../pokedex/items/tm60.md), [Quash](../pokedex/moves/quash.md)</span>.
 
 **Level Up**:
 
@@ -11488,7 +11488,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM87](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM87](../pokedex/items/tm87.md), [Rock Climb](../pokedex/moves/rock-climb.md).
+- Now compatible with <span style="white-space: nowrap;">![TM87](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM87](../pokedex/items/tm87.md), [Rock Climb](../pokedex/moves/rock-climb.md)</span>.
 
 **Level Up**:
 
@@ -11530,8 +11530,8 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM47](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM47](../pokedex/items/tm47.md), [Low Sweep](../pokedex/moves/low-sweep.md).
-- Now compatible with ![TM87](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM87](../pokedex/items/tm87.md), [Rock Climb](../pokedex/moves/rock-climb.md).
+- Now compatible with <span style="white-space: nowrap;">![TM47](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM47](../pokedex/items/tm47.md), [Low Sweep](../pokedex/moves/low-sweep.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM87](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM87](../pokedex/items/tm87.md), [Rock Climb](../pokedex/moves/rock-climb.md)</span>.
 
 **Level Up**:
 
@@ -11623,8 +11623,8 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM58](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM58](../pokedex/items/tm58.md), [Hurricane](../pokedex/moves/hurricane.md).
-- Now compatible with ![HM02](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hm-normal.png){ .item-sprite } [HM02](../pokedex/items/hm02.md), [Fly](../pokedex/moves/fly.md).
+- Now compatible with <span style="white-space: nowrap;">![TM58](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM58](../pokedex/items/tm58.md), [Hurricane](../pokedex/moves/hurricane.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![HM02](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hm-normal.png){ .item-sprite } [HM02](../pokedex/items/hm02.md), [Fly](../pokedex/moves/fly.md)</span>.
 
 **Level Up**:
 
@@ -11686,8 +11686,8 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM58](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM58](../pokedex/items/tm58.md), [Hurricane](../pokedex/moves/hurricane.md).
-- Now compatible with ![HM02](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hm-normal.png){ .item-sprite } [HM02](../pokedex/items/hm02.md), [Fly](../pokedex/moves/fly.md).
+- Now compatible with <span style="white-space: nowrap;">![TM58](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM58](../pokedex/items/tm58.md), [Hurricane](../pokedex/moves/hurricane.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![HM02](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hm-normal.png){ .item-sprite } [HM02](../pokedex/items/hm02.md), [Fly](../pokedex/moves/fly.md)</span>.
 
 **Level Up**:
 
@@ -11914,7 +11914,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM60](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM60](../pokedex/items/tm60.md), [Quash](../pokedex/moves/quash.md).
+- Now compatible with <span style="white-space: nowrap;">![TM60](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM60](../pokedex/items/tm60.md), [Quash](../pokedex/moves/quash.md)</span>.
 
 **Level Up**:
 
@@ -11950,7 +11950,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM58](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM58](../pokedex/items/tm58.md), [Hurricane](../pokedex/moves/hurricane.md).
+- Now compatible with <span style="white-space: nowrap;">![TM58](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM58](../pokedex/items/tm58.md), [Hurricane](../pokedex/moves/hurricane.md)</span>.
 
 **Level Up**:
 
@@ -11996,7 +11996,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM58](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM58](../pokedex/items/tm58.md), [Hurricane](../pokedex/moves/hurricane.md).
+- Now compatible with <span style="white-space: nowrap;">![TM58](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM58](../pokedex/items/tm58.md), [Hurricane](../pokedex/moves/hurricane.md)</span>.
 
 **Level Up**:
 
@@ -12044,7 +12044,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM62](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM62](../pokedex/items/tm62.md), [Acrobatics](../pokedex/moves/acrobatics.md).
+- Now compatible with <span style="white-space: nowrap;">![TM62](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM62](../pokedex/items/tm62.md), [Acrobatics](../pokedex/moves/acrobatics.md)</span>.
 
 **Level Up**:
 
@@ -12090,7 +12090,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM62](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM62](../pokedex/items/tm62.md), [Acrobatics](../pokedex/moves/acrobatics.md).
+- Now compatible with <span style="white-space: nowrap;">![TM62](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM62](../pokedex/items/tm62.md), [Acrobatics](../pokedex/moves/acrobatics.md)</span>.
 
 **Level Up**:
 
@@ -12217,7 +12217,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 </div>**Moves**:
 
-- Now compatible with ![TM20](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM20](../pokedex/items/tm20.md), [Tri Attack](../pokedex/moves/tri-attack.md).
+- Now compatible with <span style="white-space: nowrap;">![TM20](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM20](../pokedex/items/tm20.md), [Tri Attack](../pokedex/moves/tri-attack.md)</span>.
 
 **Level Up**:
 
@@ -12266,9 +12266,9 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM76](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM76](../pokedex/items/tm76.md), [Bug Buzz](../pokedex/moves/bug-buzz.md).
-- Now compatible with ![HM03](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hm-normal.png){ .item-sprite } [HM03](../pokedex/items/hm03.md), [Surf](../pokedex/moves/surf.md).
-- Now compatible with ![HM05](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hm-normal.png){ .item-sprite } [HM05](../pokedex/items/hm05.md), [Waterfall](../pokedex/moves/waterfall.md).
+- Now compatible with <span style="white-space: nowrap;">![TM76](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM76](../pokedex/items/tm76.md), [Bug Buzz](../pokedex/moves/bug-buzz.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![HM03](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hm-normal.png){ .item-sprite } [HM03](../pokedex/items/hm03.md), [Surf](../pokedex/moves/surf.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![HM05](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hm-normal.png){ .item-sprite } [HM05](../pokedex/items/hm05.md), [Waterfall](../pokedex/moves/waterfall.md)</span>.
 
 **Level Up**:
 
@@ -12311,13 +12311,13 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM58](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM58](../pokedex/items/tm58.md), [Hurricane](../pokedex/moves/hurricane.md).
-- Now compatible with ![TM62](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM62](../pokedex/items/tm62.md), [Acrobatics](../pokedex/moves/acrobatics.md).
-- Now compatible with ![TM76](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM76](../pokedex/items/tm76.md), [Bug Buzz](../pokedex/moves/bug-buzz.md).
-- Now compatible with ![HM02](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hm-normal.png){ .item-sprite } [HM02](../pokedex/items/hm02.md), [Fly](../pokedex/moves/fly.md).
-- Now compatible with ![HM03](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hm-normal.png){ .item-sprite } [HM03](../pokedex/items/hm03.md), [Surf](../pokedex/moves/surf.md).
-- Now compatible with ![HM05](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hm-normal.png){ .item-sprite } [HM05](../pokedex/items/hm05.md), [Waterfall](../pokedex/moves/waterfall.md).
-- Now compatible with ![HM06](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hm-normal.png){ .item-sprite } [HM06](../pokedex/items/hm06.md), [Dive](../pokedex/moves/dive.md).
+- Now compatible with <span style="white-space: nowrap;">![TM58](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM58](../pokedex/items/tm58.md), [Hurricane](../pokedex/moves/hurricane.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM62](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM62](../pokedex/items/tm62.md), [Acrobatics](../pokedex/moves/acrobatics.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM76](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM76](../pokedex/items/tm76.md), [Bug Buzz](../pokedex/moves/bug-buzz.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![HM02](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hm-normal.png){ .item-sprite } [HM02](../pokedex/items/hm02.md), [Fly](../pokedex/moves/fly.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![HM03](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hm-normal.png){ .item-sprite } [HM03](../pokedex/items/hm03.md), [Surf](../pokedex/moves/surf.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![HM05](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hm-normal.png){ .item-sprite } [HM05](../pokedex/items/hm05.md), [Waterfall](../pokedex/moves/waterfall.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![HM06](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hm-normal.png){ .item-sprite } [HM06](../pokedex/items/hm06.md), [Dive](../pokedex/moves/dive.md)</span>.
 
 
 **Level Up**:
@@ -12412,7 +12412,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM54](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM54](../pokedex/items/tm54.md), [False Swipe](../pokedex/moves/false-swipe.md).
+- Now compatible with <span style="white-space: nowrap;">![TM54](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM54](../pokedex/items/tm54.md), [False Swipe](../pokedex/moves/false-swipe.md)</span>.
 
 **Level Up**:
 
@@ -12665,8 +12665,8 @@ All new type changes are omitted in the Classic version of Redux.
 
 </div>**Moves**:
 
-- Now compatible with ![TM60](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM60](../pokedex/items/tm60.md), [Quash](../pokedex/moves/quash.md).
-- Now compatible with ![TM75](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM75](../pokedex/items/tm75.md), [Swords Dance](../pokedex/moves/swords-dance.md).
+- Now compatible with <span style="white-space: nowrap;">![TM60](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM60](../pokedex/items/tm60.md), [Quash](../pokedex/moves/quash.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM75](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM75](../pokedex/items/tm75.md), [Swords Dance](../pokedex/moves/swords-dance.md)</span>.
 
 **Level Up**:
 
@@ -12714,7 +12714,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM76](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM76](../pokedex/items/tm76.md), [Bug Buzz](../pokedex/moves/bug-buzz.md).
+- Now compatible with <span style="white-space: nowrap;">![TM76](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM76](../pokedex/items/tm76.md), [Bug Buzz](../pokedex/moves/bug-buzz.md)</span>.
 
 **Level Up**:
 
@@ -12754,7 +12754,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM76](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM76](../pokedex/items/tm76.md), [Bug Buzz](../pokedex/moves/bug-buzz.md).
+- Now compatible with <span style="white-space: nowrap;">![TM76](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM76](../pokedex/items/tm76.md), [Bug Buzz](../pokedex/moves/bug-buzz.md)</span>.
 
 **Level Up**:
 
@@ -12797,7 +12797,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM76](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM76](../pokedex/items/tm76.md), [Bug Buzz](../pokedex/moves/bug-buzz.md).
+- Now compatible with <span style="white-space: nowrap;">![TM76](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM76](../pokedex/items/tm76.md), [Bug Buzz](../pokedex/moves/bug-buzz.md)</span>.
 
 **Level Up**:
 
@@ -12879,7 +12879,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 </div>**Moves**:
 
-- Now compatible with ![TM60](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM60](../pokedex/items/tm60.md), [Quash](../pokedex/moves/quash.md).
+- Now compatible with <span style="white-space: nowrap;">![TM60](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM60](../pokedex/items/tm60.md), [Quash](../pokedex/moves/quash.md)</span>.
 
 **Level Up**:
 
@@ -12962,8 +12962,8 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM57](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM57](../pokedex/items/tm57.md), [Charge Beam](../pokedex/moves/charge-beam.md).
-- Now compatible with ![TM66](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM66](../pokedex/items/tm66.md), [Power Gem](../pokedex/moves/power-gem.md).
+- Now compatible with <span style="white-space: nowrap;">![TM57](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM57](../pokedex/items/tm57.md), [Charge Beam](../pokedex/moves/charge-beam.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM66](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM66](../pokedex/items/tm66.md), [Power Gem](../pokedex/moves/power-gem.md)</span>.
 
 
 **Level Up**:
@@ -13014,8 +13014,8 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM01](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM01](../pokedex/items/tm01.md), [Hone Claws](../pokedex/moves/hone-claws.md).
-- Now compatible with ![HM01](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hm-normal.png){ .item-sprite } [HM01](../pokedex/items/hm01.md), [Cut](../pokedex/moves/cut.md).
+- Now compatible with <span style="white-space: nowrap;">![TM01](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM01](../pokedex/items/tm01.md), [Hone Claws](../pokedex/moves/hone-claws.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![HM01](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hm-normal.png){ .item-sprite } [HM01](../pokedex/items/hm01.md), [Cut](../pokedex/moves/cut.md)</span>.
 
 **Level Up**:
 
@@ -13065,9 +13065,9 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM01](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM01](../pokedex/items/tm01.md), [Hone Claws](../pokedex/moves/hone-claws.md).
-- Now compatible with ![TM66](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM66](../pokedex/items/tm66.md), [Power Gem](../pokedex/moves/power-gem.md).
-- Now compatible with ![HM01](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hm-normal.png){ .item-sprite } [HM01](../pokedex/items/hm01.md), [Cut](../pokedex/moves/cut.md).
+- Now compatible with <span style="white-space: nowrap;">![TM01](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM01](../pokedex/items/tm01.md), [Hone Claws](../pokedex/moves/hone-claws.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM66](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM66](../pokedex/items/tm66.md), [Power Gem](../pokedex/moves/power-gem.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![HM01](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hm-normal.png){ .item-sprite } [HM01](../pokedex/items/hm01.md), [Cut](../pokedex/moves/cut.md)</span>.
 
 **Level Up**:
 
@@ -13284,7 +13284,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM83](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM83](../pokedex/items/tm83.md), [Work Up](../pokedex/moves/work-up.md).
+- Now compatible with <span style="white-space: nowrap;">![TM83](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM83](../pokedex/items/tm83.md), [Work Up](../pokedex/moves/work-up.md)</span>.
 
 **Level Up**:
 
@@ -13377,7 +13377,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM62](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM62](../pokedex/items/tm62.md), [Acrobatics](../pokedex/moves/acrobatics.md).
+- Now compatible with <span style="white-space: nowrap;">![TM62](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM62](../pokedex/items/tm62.md), [Acrobatics](../pokedex/moves/acrobatics.md)</span>.
 
 **Level Up**:
 
@@ -13462,7 +13462,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM53](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM53](../pokedex/items/tm53.md), [Energy Ball](../pokedex/moves/energy-ball.md).
+- Now compatible with <span style="white-space: nowrap;">![TM53](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM53](../pokedex/items/tm53.md), [Energy Ball](../pokedex/moves/energy-ball.md)</span>.
 
 **Level Up**:
 
@@ -13511,7 +13511,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM29](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM29](../pokedex/items/tm29.md), [Psychic](../pokedex/moves/psychic.md).
+- Now compatible with <span style="white-space: nowrap;">![TM29](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM29](../pokedex/items/tm29.md), [Psychic](../pokedex/moves/psychic.md)</span>.
 
 **Level Up**:
 
@@ -13559,7 +13559,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM91](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM91](../pokedex/items/tm91.md), [Flash Cannon](../pokedex/moves/flash-cannon.md).
+- Now compatible with <span style="white-space: nowrap;">![TM91](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM91](../pokedex/items/tm91.md), [Flash Cannon](../pokedex/moves/flash-cannon.md)</span>.
 
 **Level Up**:
 
@@ -13610,7 +13610,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM48](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM48](../pokedex/items/tm48.md), [Mystical Fire](../pokedex/moves/mystical-fire.md).
+- Now compatible with <span style="white-space: nowrap;">![TM48](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM48](../pokedex/items/tm48.md), [Mystical Fire](../pokedex/moves/mystical-fire.md)</span>.
 
 
 **Level Up**:
@@ -13657,8 +13657,8 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM48](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM48](../pokedex/items/tm48.md), [Mystical Fire](../pokedex/moves/mystical-fire.md).
-- Now compatible with ![TM60](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM60](../pokedex/items/tm60.md), [Quash](../pokedex/moves/quash.md).
+- Now compatible with <span style="white-space: nowrap;">![TM48](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM48](../pokedex/items/tm48.md), [Mystical Fire](../pokedex/moves/mystical-fire.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM60](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM60](../pokedex/items/tm60.md), [Quash](../pokedex/moves/quash.md)</span>.
 
 
 **Level Up**:
@@ -13771,7 +13771,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 </div>**Moves**:
 
-- Now compatible with ![TM60](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM60](../pokedex/items/tm60.md), [Quash](../pokedex/moves/quash.md).
+- Now compatible with <span style="white-space: nowrap;">![TM60](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM60](../pokedex/items/tm60.md), [Quash](../pokedex/moves/quash.md)</span>.
 
 **Level Up**:
 
@@ -13821,7 +13821,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM51](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM51](../pokedex/items/tm51.md), [Wave Crash](../pokedex/moves/wave-crash.md).
+- Now compatible with <span style="white-space: nowrap;">![TM51](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM51](../pokedex/items/tm51.md), [Wave Crash](../pokedex/moves/wave-crash.md)</span>.
 
 **Level Up**:
 
@@ -13866,7 +13866,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM51](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM51](../pokedex/items/tm51.md), [Wave Crash](../pokedex/moves/wave-crash.md).
+- Now compatible with <span style="white-space: nowrap;">![TM51](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM51](../pokedex/items/tm51.md), [Wave Crash](../pokedex/moves/wave-crash.md)</span>.
 
 **Level Up**:
 
@@ -13956,8 +13956,8 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM56](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM56](../pokedex/items/tm56.md), [Weather Ball](../pokedex/moves/weather-ball.md).
-- Now compatible with ![TM60](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM60](../pokedex/items/tm60.md), [Quash](../pokedex/moves/quash.md).
+- Now compatible with <span style="white-space: nowrap;">![TM56](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM56](../pokedex/items/tm56.md), [Weather Ball](../pokedex/moves/weather-ball.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM60](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM60](../pokedex/items/tm60.md), [Quash](../pokedex/moves/quash.md)</span>.
 
 **Level Up**:
 
@@ -14003,7 +14003,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM87](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM87](../pokedex/items/tm87.md), [Rock Climb](../pokedex/moves/rock-climb.md).
+- Now compatible with <span style="white-space: nowrap;">![TM87](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM87](../pokedex/items/tm87.md), [Rock Climb](../pokedex/moves/rock-climb.md)</span>.
 
 **Level Up**:
 
@@ -14052,8 +14052,8 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM66](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM66](../pokedex/items/tm66.md), [Power Gem](../pokedex/moves/power-gem.md).
-- Now compatible with ![TM87](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM87](../pokedex/items/tm87.md), [Rock Climb](../pokedex/moves/rock-climb.md).
+- Now compatible with <span style="white-space: nowrap;">![TM66](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM66](../pokedex/items/tm66.md), [Power Gem](../pokedex/moves/power-gem.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM87](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM87](../pokedex/items/tm87.md), [Rock Climb](../pokedex/moves/rock-climb.md)</span>.
 
 **Level Up**:
 
@@ -14100,7 +14100,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM48](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM48](../pokedex/items/tm48.md), [Mystical Fire](../pokedex/moves/mystical-fire.md).
+- Now compatible with <span style="white-space: nowrap;">![TM48](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM48](../pokedex/items/tm48.md), [Mystical Fire](../pokedex/moves/mystical-fire.md)</span>.
 
 **Level Up**:
 
@@ -14175,7 +14175,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 </div>**Moves**:
 
-- Now compatible with ![TM20](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM20](../pokedex/items/tm20.md), [Tri Attack](../pokedex/moves/tri-attack.md).
+- Now compatible with <span style="white-space: nowrap;">![TM20](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM20](../pokedex/items/tm20.md), [Tri Attack](../pokedex/moves/tri-attack.md)</span>.
 
 **Level Up**:
 
@@ -14264,7 +14264,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM76](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM76](../pokedex/items/tm76.md), [Bug Buzz](../pokedex/moves/bug-buzz.md).
+- Now compatible with <span style="white-space: nowrap;">![TM76](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM76](../pokedex/items/tm76.md), [Bug Buzz](../pokedex/moves/bug-buzz.md)</span>.
 
 **Evolution**:
 
@@ -14316,7 +14316,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM58](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM58](../pokedex/items/tm58.md), [Hurricane](../pokedex/moves/hurricane.md).
+- Now compatible with <span style="white-space: nowrap;">![TM58](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM58](../pokedex/items/tm58.md), [Hurricane](../pokedex/moves/hurricane.md)</span>.
 
 **Evolution**:
 
@@ -14372,7 +14372,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM58](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM58](../pokedex/items/tm58.md), [Hurricane](../pokedex/moves/hurricane.md).
+- Now compatible with <span style="white-space: nowrap;">![TM58](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM58](../pokedex/items/tm58.md), [Hurricane](../pokedex/moves/hurricane.md)</span>.
 
 **Level Up**:
 
@@ -14423,7 +14423,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM87](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM87](../pokedex/items/tm87.md), [Rock Climb](../pokedex/moves/rock-climb.md).
+- Now compatible with <span style="white-space: nowrap;">![TM87](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM87](../pokedex/items/tm87.md), [Rock Climb](../pokedex/moves/rock-climb.md)</span>.
 
 
 **Level Up**:
@@ -14473,8 +14473,8 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM47](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM47](../pokedex/items/tm47.md), [Low Sweep](../pokedex/moves/low-sweep.md).
-- Now compatible with ![TM87](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM87](../pokedex/items/tm87.md), [Rock Climb](../pokedex/moves/rock-climb.md).
+- Now compatible with <span style="white-space: nowrap;">![TM47](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM47](../pokedex/items/tm47.md), [Low Sweep](../pokedex/moves/low-sweep.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM87](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM87](../pokedex/items/tm87.md), [Rock Climb](../pokedex/moves/rock-climb.md)</span>.
 
 **Level Up**:
 
@@ -14617,9 +14617,9 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM47](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM47](../pokedex/items/tm47.md), [Low Sweep](../pokedex/moves/low-sweep.md).
-- Now compatible with ![TM62](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM62](../pokedex/items/tm62.md), [Acrobatics](../pokedex/moves/acrobatics.md).
-- Now compatible with ![HM01](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hm-normal.png){ .item-sprite } [HM01](../pokedex/items/hm01.md), [Cut](../pokedex/moves/cut.md).
+- Now compatible with <span style="white-space: nowrap;">![TM47](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM47](../pokedex/items/tm47.md), [Low Sweep](../pokedex/moves/low-sweep.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM62](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM62](../pokedex/items/tm62.md), [Acrobatics](../pokedex/moves/acrobatics.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![HM01](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hm-normal.png){ .item-sprite } [HM01](../pokedex/items/hm01.md), [Cut](../pokedex/moves/cut.md)</span>.
 
 **Level Up**:
 
@@ -14666,8 +14666,8 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM83](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM83](../pokedex/items/tm83.md), [Work Up](../pokedex/moves/work-up.md).
-- Now compatible with ![HM01](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hm-normal.png){ .item-sprite } [HM01](../pokedex/items/hm01.md), [Cut](../pokedex/moves/cut.md).
+- Now compatible with <span style="white-space: nowrap;">![TM83](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM83](../pokedex/items/tm83.md), [Work Up](../pokedex/moves/work-up.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![HM01](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hm-normal.png){ .item-sprite } [HM01](../pokedex/items/hm01.md), [Cut](../pokedex/moves/cut.md)</span>.
 
 **Level Up**:
 
@@ -14712,7 +14712,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM66](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM66](../pokedex/items/tm66.md), [Power Gem](../pokedex/moves/power-gem.md).
+- Now compatible with <span style="white-space: nowrap;">![TM66](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM66](../pokedex/items/tm66.md), [Power Gem](../pokedex/moves/power-gem.md)</span>.
 
 **Level Up**:
 
@@ -14755,8 +14755,8 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM48](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM48](../pokedex/items/tm48.md), [Mystical Fire](../pokedex/moves/mystical-fire.md).
-- Now compatible with ![TM66](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM66](../pokedex/items/tm66.md), [Power Gem](../pokedex/moves/power-gem.md).
+- Now compatible with <span style="white-space: nowrap;">![TM48](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM48](../pokedex/items/tm48.md), [Mystical Fire](../pokedex/moves/mystical-fire.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM66](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM66](../pokedex/items/tm66.md), [Power Gem](../pokedex/moves/power-gem.md)</span>.
 
 **Level Up**:
 
@@ -14799,7 +14799,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM51](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM51](../pokedex/items/tm51.md), [Wave Crash](../pokedex/moves/wave-crash.md).
+- Now compatible with <span style="white-space: nowrap;">![TM51](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM51](../pokedex/items/tm51.md), [Wave Crash](../pokedex/moves/wave-crash.md)</span>.
 
 **Level Up**:
 
@@ -14846,7 +14846,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM51](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM51](../pokedex/items/tm51.md), [Wave Crash](../pokedex/moves/wave-crash.md).
+- Now compatible with <span style="white-space: nowrap;">![TM51](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM51](../pokedex/items/tm51.md), [Wave Crash](../pokedex/moves/wave-crash.md)</span>.
 
 **Level Up**:
 
@@ -15006,9 +15006,9 @@ All new type changes are omitted in the Classic version of Redux.
 
 </div>**Moves**:
 
-- Now compatible with ![TM20](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM20](../pokedex/items/tm20.md), [Tri Attack](../pokedex/moves/tri-attack.md).
-- Now compatible with ![TM66](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM66](../pokedex/items/tm66.md), [Power Gem](../pokedex/moves/power-gem.md).
-- Now compatible with ![HM02](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hm-normal.png){ .item-sprite } [HM02](../pokedex/items/hm02.md), [Fly](../pokedex/moves/fly.md).
+- Now compatible with <span style="white-space: nowrap;">![TM20](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM20](../pokedex/items/tm20.md), [Tri Attack](../pokedex/moves/tri-attack.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM66](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM66](../pokedex/items/tm66.md), [Power Gem](../pokedex/moves/power-gem.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![HM02](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hm-normal.png){ .item-sprite } [HM02](../pokedex/items/hm02.md), [Fly](../pokedex/moves/fly.md)</span>.
 
 **Level Up**:
 
@@ -15143,9 +15143,9 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM51](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM51](../pokedex/items/tm51.md), [Wave Crash](../pokedex/moves/wave-crash.md).
-- Now compatible with ![TM76](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM76](../pokedex/items/tm76.md), [Bug Buzz](../pokedex/moves/bug-buzz.md).
-- Now compatible with ![TM87](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM87](../pokedex/items/tm87.md), [Rock Climb](../pokedex/moves/rock-climb.md).
+- Now compatible with <span style="white-space: nowrap;">![TM51](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM51](../pokedex/items/tm51.md), [Wave Crash](../pokedex/moves/wave-crash.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM76](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM76](../pokedex/items/tm76.md), [Bug Buzz](../pokedex/moves/bug-buzz.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM87](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM87](../pokedex/items/tm87.md), [Rock Climb](../pokedex/moves/rock-climb.md)</span>.
 
 
 **Level Up**:
@@ -15187,9 +15187,9 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM51](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM51](../pokedex/items/tm51.md), [Wave Crash](../pokedex/moves/wave-crash.md).
-- Now compatible with ![TM76](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM76](../pokedex/items/tm76.md), [Bug Buzz](../pokedex/moves/bug-buzz.md).
-- Now compatible with ![TM87](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM87](../pokedex/items/tm87.md), [Rock Climb](../pokedex/moves/rock-climb.md).
+- Now compatible with <span style="white-space: nowrap;">![TM51](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM51](../pokedex/items/tm51.md), [Wave Crash](../pokedex/moves/wave-crash.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM76](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM76](../pokedex/items/tm76.md), [Bug Buzz](../pokedex/moves/bug-buzz.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM87](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM87](../pokedex/items/tm87.md), [Rock Climb](../pokedex/moves/rock-climb.md)</span>.
 
 **Level Up**:
 
@@ -15292,8 +15292,8 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM20](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM20](../pokedex/items/tm20.md), [Tri Attack](../pokedex/moves/tri-attack.md).
-- Now compatible with ![TM58](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM58](../pokedex/items/tm58.md), [Hurricane](../pokedex/moves/hurricane.md).
+- Now compatible with <span style="white-space: nowrap;">![TM20](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM20](../pokedex/items/tm20.md), [Tri Attack](../pokedex/moves/tri-attack.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM58](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM58](../pokedex/items/tm58.md), [Hurricane](../pokedex/moves/hurricane.md)</span>.
 
 **Level Up**:
 
@@ -15341,7 +15341,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM62](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM62](../pokedex/items/tm62.md), [Acrobatics](../pokedex/moves/acrobatics.md).
+- Now compatible with <span style="white-space: nowrap;">![TM62](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM62](../pokedex/items/tm62.md), [Acrobatics](../pokedex/moves/acrobatics.md)</span>.
 
 **Level Up**:
 
@@ -15386,7 +15386,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM83](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM83](../pokedex/items/tm83.md), [Work Up](../pokedex/moves/work-up.md).
+- Now compatible with <span style="white-space: nowrap;">![TM83](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM83](../pokedex/items/tm83.md), [Work Up](../pokedex/moves/work-up.md)</span>.
 
 **Evolution**:
 
@@ -15434,9 +15434,9 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM01](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM01](../pokedex/items/tm01.md), [Hone Claws](../pokedex/moves/hone-claws.md).
-- Now compatible with ![TM83](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM83](../pokedex/items/tm83.md), [Work Up](../pokedex/moves/work-up.md).
-- Now compatible with ![HM01](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hm-normal.png){ .item-sprite } [HM01](../pokedex/items/hm01.md), [Cut](../pokedex/moves/cut.md).
+- Now compatible with <span style="white-space: nowrap;">![TM01](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM01](../pokedex/items/tm01.md), [Hone Claws](../pokedex/moves/hone-claws.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM83](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM83](../pokedex/items/tm83.md), [Work Up](../pokedex/moves/work-up.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![HM01](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hm-normal.png){ .item-sprite } [HM01](../pokedex/items/hm01.md), [Cut](../pokedex/moves/cut.md)</span>.
 
 
 **Level Up**:
@@ -15564,8 +15564,8 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM58](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM58](../pokedex/items/tm58.md), [Hurricane](../pokedex/moves/hurricane.md).
-- Now compatible with ![TM59](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM59](../pokedex/items/tm59.md), [Dragon Pulse](../pokedex/moves/dragon-pulse.md).
+- Now compatible with <span style="white-space: nowrap;">![TM58](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM58](../pokedex/items/tm58.md), [Hurricane](../pokedex/moves/hurricane.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM59](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM59](../pokedex/items/tm59.md), [Dragon Pulse](../pokedex/moves/dragon-pulse.md)</span>.
 
 
 **Level Up**:
@@ -15611,8 +15611,8 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM56](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM56](../pokedex/items/tm56.md), [Weather Ball](../pokedex/moves/weather-ball.md).
-- Now compatible with ![TM66](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM66](../pokedex/items/tm66.md), [Power Gem](../pokedex/moves/power-gem.md).
+- Now compatible with <span style="white-space: nowrap;">![TM56](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM56](../pokedex/items/tm56.md), [Weather Ball](../pokedex/moves/weather-ball.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM66](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM66](../pokedex/items/tm66.md), [Power Gem](../pokedex/moves/power-gem.md)</span>.
 
 **Level Up**:
 
@@ -15662,10 +15662,10 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM46](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM46](../pokedex/items/tm46.md), [Aura Sphere](../pokedex/moves/aura-sphere.md).
-- Now compatible with ![TM47](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM47](../pokedex/items/tm47.md), [Low Sweep](../pokedex/moves/low-sweep.md).
-- Now compatible with ![TM60](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM60](../pokedex/items/tm60.md), [Quash](../pokedex/moves/quash.md).
-- Now compatible with ![TM87](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM87](../pokedex/items/tm87.md), [Rock Climb](../pokedex/moves/rock-climb.md).
+- Now compatible with <span style="white-space: nowrap;">![TM46](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM46](../pokedex/items/tm46.md), [Aura Sphere](../pokedex/moves/aura-sphere.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM47](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM47](../pokedex/items/tm47.md), [Low Sweep](../pokedex/moves/low-sweep.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM60](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM60](../pokedex/items/tm60.md), [Quash](../pokedex/moves/quash.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM87](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM87](../pokedex/items/tm87.md), [Rock Climb](../pokedex/moves/rock-climb.md)</span>.
 
 **Level Up**:
 
@@ -15776,14 +15776,14 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM23](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM23](../pokedex/items/tm23.md), [Smack Down](../pokedex/moves/smack-down.md).
-- Now compatible with ![TM39](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM39](../pokedex/items/tm39.md), [Rock Tomb](../pokedex/moves/rock-tomb.md).
-- Now compatible with ![TM66](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM66](../pokedex/items/tm66.md), [Power Gem](../pokedex/moves/power-gem.md).
-- Now compatible with ![TM69](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM69](../pokedex/items/tm69.md), [Rock Polish](../pokedex/moves/rock-polish.md).
-- Now compatible with ![TM71](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM71](../pokedex/items/tm71.md), [Stone Edge](../pokedex/moves/stone-edge.md).
-- Now compatible with ![TM80](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM80](../pokedex/items/tm80.md), [Rock Slide](../pokedex/moves/rock-slide.md).
-- Now compatible with ![TM83](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM83](../pokedex/items/tm83.md), [Work Up](../pokedex/moves/work-up.md).
-- Now compatible with ![TM94](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM94](../pokedex/items/tm94.md), [Rock Smash](../pokedex/moves/rock-smash.md).
+- Now compatible with <span style="white-space: nowrap;">![TM23](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM23](../pokedex/items/tm23.md), [Smack Down](../pokedex/moves/smack-down.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM39](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM39](../pokedex/items/tm39.md), [Rock Tomb](../pokedex/moves/rock-tomb.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM66](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM66](../pokedex/items/tm66.md), [Power Gem](../pokedex/moves/power-gem.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM69](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM69](../pokedex/items/tm69.md), [Rock Polish](../pokedex/moves/rock-polish.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM71](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM71](../pokedex/items/tm71.md), [Stone Edge](../pokedex/moves/stone-edge.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM80](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM80](../pokedex/items/tm80.md), [Rock Slide](../pokedex/moves/rock-slide.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM83](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM83](../pokedex/items/tm83.md), [Work Up](../pokedex/moves/work-up.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM94](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM94](../pokedex/items/tm94.md), [Rock Smash](../pokedex/moves/rock-smash.md)</span>.
 
 
 **Level Up**:
@@ -15968,8 +15968,8 @@ All new type changes are omitted in the Classic version of Redux.
 
 </div>**Moves**:
 
-- Now compatible with ![TM51](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM51](../pokedex/items/tm51.md), [Wave Crash](../pokedex/moves/wave-crash.md).
-- Now compatible with ![HM01](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hm-normal.png){ .item-sprite } [HM01](../pokedex/items/hm01.md), [Cut](../pokedex/moves/cut.md).
+- Now compatible with <span style="white-space: nowrap;">![TM51](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM51](../pokedex/items/tm51.md), [Wave Crash](../pokedex/moves/wave-crash.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![HM01](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hm-normal.png){ .item-sprite } [HM01](../pokedex/items/hm01.md), [Cut](../pokedex/moves/cut.md)</span>.
 
 **Level Up**:
 
@@ -16008,7 +16008,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 </div>**Moves**:
 
-- Now compatible with ![TM51](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM51](../pokedex/items/tm51.md), [Wave Crash](../pokedex/moves/wave-crash.md).
+- Now compatible with <span style="white-space: nowrap;">![TM51](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM51](../pokedex/items/tm51.md), [Wave Crash](../pokedex/moves/wave-crash.md)</span>.
 
 **Level Up**:
 
@@ -16051,7 +16051,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM51](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM51](../pokedex/items/tm51.md), [Wave Crash](../pokedex/moves/wave-crash.md).
+- Now compatible with <span style="white-space: nowrap;">![TM51](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM51](../pokedex/items/tm51.md), [Wave Crash](../pokedex/moves/wave-crash.md)</span>.
 
 **Level Up**:
 
@@ -16098,10 +16098,10 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM32](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM32](../pokedex/items/tm32.md), [Dazzling Gleam](../pokedex/moves/dazzling-gleam.md).
-- Now compatible with ![TM51](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM51](../pokedex/items/tm51.md), [Wave Crash](../pokedex/moves/wave-crash.md).
-- Now compatible with ![TM60](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM60](../pokedex/items/tm60.md), [Quash](../pokedex/moves/quash.md).
-- Now compatible with ![TM79](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM79](../pokedex/items/tm79.md), [Frost Breath](../pokedex/moves/frost-breath.md).
+- Now compatible with <span style="white-space: nowrap;">![TM32](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM32](../pokedex/items/tm32.md), [Dazzling Gleam](../pokedex/moves/dazzling-gleam.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM51](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM51](../pokedex/items/tm51.md), [Wave Crash](../pokedex/moves/wave-crash.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM60](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM60](../pokedex/items/tm60.md), [Quash](../pokedex/moves/quash.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM79](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM79](../pokedex/items/tm79.md), [Frost Breath](../pokedex/moves/frost-breath.md)</span>.
 
 
 **Level Up**:
@@ -16145,7 +16145,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM83](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM83](../pokedex/items/tm83.md), [Work Up](../pokedex/moves/work-up.md).
+- Now compatible with <span style="white-space: nowrap;">![TM83](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM83](../pokedex/items/tm83.md), [Work Up](../pokedex/moves/work-up.md)</span>.
 
 **Level Up**:
 
@@ -16190,7 +16190,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM83](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM83](../pokedex/items/tm83.md), [Work Up](../pokedex/moves/work-up.md).
+- Now compatible with <span style="white-space: nowrap;">![TM83](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM83](../pokedex/items/tm83.md), [Work Up](../pokedex/moves/work-up.md)</span>.
 
 **Level Up**:
 
@@ -16236,7 +16236,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM83](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM83](../pokedex/items/tm83.md), [Work Up](../pokedex/moves/work-up.md).
+- Now compatible with <span style="white-space: nowrap;">![TM83](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM83](../pokedex/items/tm83.md), [Work Up](../pokedex/moves/work-up.md)</span>.
 
 **Level Up**:
 
@@ -16311,7 +16311,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![HM02](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hm-normal.png){ .item-sprite } [HM02](../pokedex/items/hm02.md), [Fly](../pokedex/moves/fly.md).
+- Now compatible with <span style="white-space: nowrap;">![HM02](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hm-normal.png){ .item-sprite } [HM02](../pokedex/items/hm02.md), [Fly](../pokedex/moves/fly.md)</span>.
 
 
 **Level Up**:
@@ -16355,8 +16355,8 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM87](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM87](../pokedex/items/tm87.md), [Rock Climb](../pokedex/moves/rock-climb.md).
-- Now compatible with ![HM02](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hm-normal.png){ .item-sprite } [HM02](../pokedex/items/hm02.md), [Fly](../pokedex/moves/fly.md).
+- Now compatible with <span style="white-space: nowrap;">![TM87](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM87](../pokedex/items/tm87.md), [Rock Climb](../pokedex/moves/rock-climb.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![HM02](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hm-normal.png){ .item-sprite } [HM02](../pokedex/items/hm02.md), [Fly](../pokedex/moves/fly.md)</span>.
 
 
 **Level Up**:
@@ -16504,7 +16504,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 </div>**Moves**:
 
-- Now compatible with ![TM58](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM58](../pokedex/items/tm58.md), [Hurricane](../pokedex/moves/hurricane.md).
+- Now compatible with <span style="white-space: nowrap;">![TM58](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM58](../pokedex/items/tm58.md), [Hurricane](../pokedex/moves/hurricane.md)</span>.
 
 **Level Up**:
 
@@ -16544,7 +16544,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 </div>**Moves**:
 
-- Now compatible with ![TM58](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM58](../pokedex/items/tm58.md), [Hurricane](../pokedex/moves/hurricane.md).
+- Now compatible with <span style="white-space: nowrap;">![TM58](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM58](../pokedex/items/tm58.md), [Hurricane](../pokedex/moves/hurricane.md)</span>.
 
 **Level Up**:
 
@@ -16584,9 +16584,9 @@ All new type changes are omitted in the Classic version of Redux.
 
 </div>**Moves**:
 
-- Now compatible with ![TM51](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM51](../pokedex/items/tm51.md), [Wave Crash](../pokedex/moves/wave-crash.md).
-- Now compatible with ![TM79](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM79](../pokedex/items/tm79.md), [Frost Breath](../pokedex/moves/frost-breath.md).
-- Now compatible with ![TM83](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM83](../pokedex/items/tm83.md), [Work Up](../pokedex/moves/work-up.md).
+- Now compatible with <span style="white-space: nowrap;">![TM51](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM51](../pokedex/items/tm51.md), [Wave Crash](../pokedex/moves/wave-crash.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM79](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM79](../pokedex/items/tm79.md), [Frost Breath](../pokedex/moves/frost-breath.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM83](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM83](../pokedex/items/tm83.md), [Work Up](../pokedex/moves/work-up.md)</span>.
 
 **Level Up**:
 
@@ -16618,8 +16618,8 @@ All new type changes are omitted in the Classic version of Redux.
 
 </div>**Moves**:
 
-- Now compatible with ![TM47](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM47](../pokedex/items/tm47.md), [Low Sweep](../pokedex/moves/low-sweep.md).
-- Now compatible with ![TM83](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM83](../pokedex/items/tm83.md), [Work Up](../pokedex/moves/work-up.md).
+- Now compatible with <span style="white-space: nowrap;">![TM47](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM47](../pokedex/items/tm47.md), [Low Sweep](../pokedex/moves/low-sweep.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM83](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM83](../pokedex/items/tm83.md), [Work Up](../pokedex/moves/work-up.md)</span>.
 
 **Level Up**:
 
@@ -16651,7 +16651,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 </div>**Moves**:
 
-- Now compatible with ![TM83](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM83](../pokedex/items/tm83.md), [Work Up](../pokedex/moves/work-up.md).
+- Now compatible with <span style="white-space: nowrap;">![TM83](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM83](../pokedex/items/tm83.md), [Work Up](../pokedex/moves/work-up.md)</span>.
 
 **Level Up**:
 
@@ -16719,7 +16719,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 </div>**Moves**:
 
-- Now compatible with ![TM83](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM83](../pokedex/items/tm83.md), [Work Up](../pokedex/moves/work-up.md).
+- Now compatible with <span style="white-space: nowrap;">![TM83](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM83](../pokedex/items/tm83.md), [Work Up](../pokedex/moves/work-up.md)</span>.
 
 | Attribute | Old Value | New Value |
 |:----------|:----------|:----------|
@@ -17089,7 +17089,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM51](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM51](../pokedex/items/tm51.md), [Wave Crash](../pokedex/moves/wave-crash.md).
+- Now compatible with <span style="white-space: nowrap;">![TM51](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM51](../pokedex/items/tm51.md), [Wave Crash](../pokedex/moves/wave-crash.md)</span>.
 
 **Level Up**:
 
@@ -17130,7 +17130,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM51](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM51](../pokedex/items/tm51.md), [Wave Crash](../pokedex/moves/wave-crash.md).
+- Now compatible with <span style="white-space: nowrap;">![TM51](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM51](../pokedex/items/tm51.md), [Wave Crash](../pokedex/moves/wave-crash.md)</span>.
 
 **Level Up**:
 
@@ -17176,7 +17176,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM51](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM51](../pokedex/items/tm51.md), [Wave Crash](../pokedex/moves/wave-crash.md).
+- Now compatible with <span style="white-space: nowrap;">![TM51](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM51](../pokedex/items/tm51.md), [Wave Crash](../pokedex/moves/wave-crash.md)</span>.
 
 **Level Up**:
 
@@ -17301,7 +17301,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM58](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM58](../pokedex/items/tm58.md), [Hurricane](../pokedex/moves/hurricane.md).
+- Now compatible with <span style="white-space: nowrap;">![TM58](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM58](../pokedex/items/tm58.md), [Hurricane](../pokedex/moves/hurricane.md)</span>.
 
 **Level Up**:
 
@@ -17344,7 +17344,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 </div>**Moves**:
 
-- Now compatible with ![TM75](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM75](../pokedex/items/tm75.md), [Swords Dance](../pokedex/moves/swords-dance.md).
+- Now compatible with <span style="white-space: nowrap;">![TM75](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM75](../pokedex/items/tm75.md), [Swords Dance](../pokedex/moves/swords-dance.md)</span>.
 
 **Level Up**:
 
@@ -17462,9 +17462,9 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM47](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM47](../pokedex/items/tm47.md), [Low Sweep](../pokedex/moves/low-sweep.md).
-- Now compatible with ![TM76](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM76](../pokedex/items/tm76.md), [Bug Buzz](../pokedex/moves/bug-buzz.md).
-- Now compatible with ![TM95](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM95](../pokedex/items/tm95.md), [Snarl](../pokedex/moves/snarl.md).
+- Now compatible with <span style="white-space: nowrap;">![TM47](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM47](../pokedex/items/tm47.md), [Low Sweep](../pokedex/moves/low-sweep.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM76](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM76](../pokedex/items/tm76.md), [Bug Buzz](../pokedex/moves/bug-buzz.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM95](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM95](../pokedex/items/tm95.md), [Snarl](../pokedex/moves/snarl.md)</span>.
 
 **Level Up**:
 
@@ -17700,7 +17700,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM83](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM83](../pokedex/items/tm83.md), [Work Up](../pokedex/moves/work-up.md).
+- Now compatible with <span style="white-space: nowrap;">![TM83](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM83](../pokedex/items/tm83.md), [Work Up](../pokedex/moves/work-up.md)</span>.
 
 **Level Up**:
 
@@ -17741,7 +17741,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM83](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM83](../pokedex/items/tm83.md), [Work Up](../pokedex/moves/work-up.md).
+- Now compatible with <span style="white-space: nowrap;">![TM83](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM83](../pokedex/items/tm83.md), [Work Up](../pokedex/moves/work-up.md)</span>.
 
 **Level Up**:
 
@@ -17789,7 +17789,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM87](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM87](../pokedex/items/tm87.md), [Rock Climb](../pokedex/moves/rock-climb.md).
+- Now compatible with <span style="white-space: nowrap;">![TM87](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM87](../pokedex/items/tm87.md), [Rock Climb](../pokedex/moves/rock-climb.md)</span>.
 
 **Level Up**:
 
@@ -17830,8 +17830,8 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM60](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM60](../pokedex/items/tm60.md), [Quash](../pokedex/moves/quash.md).
-- Now compatible with ![TM87](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM87](../pokedex/items/tm87.md), [Rock Climb](../pokedex/moves/rock-climb.md).
+- Now compatible with <span style="white-space: nowrap;">![TM60](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM60](../pokedex/items/tm60.md), [Quash](../pokedex/moves/quash.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM87](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM87](../pokedex/items/tm87.md), [Rock Climb](../pokedex/moves/rock-climb.md)</span>.
 
 **Level Up**:
 
@@ -18010,7 +18010,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM58](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM58](../pokedex/items/tm58.md), [Hurricane](../pokedex/moves/hurricane.md).
+- Now compatible with <span style="white-space: nowrap;">![TM58](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM58](../pokedex/items/tm58.md), [Hurricane](../pokedex/moves/hurricane.md)</span>.
 
 **Level Up**:
 
@@ -18080,8 +18080,8 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM58](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM58](../pokedex/items/tm58.md), [Hurricane](../pokedex/moves/hurricane.md).
-- Now compatible with ![TM83](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM83](../pokedex/items/tm83.md), [Work Up](../pokedex/moves/work-up.md).
+- Now compatible with <span style="white-space: nowrap;">![TM58](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM58](../pokedex/items/tm58.md), [Hurricane](../pokedex/moves/hurricane.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM83](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM83](../pokedex/items/tm83.md), [Work Up](../pokedex/moves/work-up.md)</span>.
 
 **Level Up**:
 
@@ -18125,7 +18125,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM85](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM85](../pokedex/items/tm85.md), [Play Rough](../pokedex/moves/play-rough.md).
+- Now compatible with <span style="white-space: nowrap;">![TM85](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM85](../pokedex/items/tm85.md), [Play Rough](../pokedex/moves/play-rough.md)</span>.
 
 **Level Up**:
 
@@ -18168,8 +18168,8 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM51](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM51](../pokedex/items/tm51.md), [Wave Crash](../pokedex/moves/wave-crash.md).
-- Now compatible with ![HM01](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hm-normal.png){ .item-sprite } [HM01](../pokedex/items/hm01.md), [Cut](../pokedex/moves/cut.md).
+- Now compatible with <span style="white-space: nowrap;">![TM51](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM51](../pokedex/items/tm51.md), [Wave Crash](../pokedex/moves/wave-crash.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![HM01](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hm-normal.png){ .item-sprite } [HM01](../pokedex/items/hm01.md), [Cut](../pokedex/moves/cut.md)</span>.
 
 **Level Up**:
 
@@ -18214,9 +18214,9 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM47](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM47](../pokedex/items/tm47.md), [Low Sweep](../pokedex/moves/low-sweep.md).
-- Now compatible with ![TM51](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM51](../pokedex/items/tm51.md), [Wave Crash](../pokedex/moves/wave-crash.md).
-- Now compatible with ![HM01](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hm-normal.png){ .item-sprite } [HM01](../pokedex/items/hm01.md), [Cut](../pokedex/moves/cut.md).
+- Now compatible with <span style="white-space: nowrap;">![TM47](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM47](../pokedex/items/tm47.md), [Low Sweep](../pokedex/moves/low-sweep.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM51](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM51](../pokedex/items/tm51.md), [Wave Crash](../pokedex/moves/wave-crash.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![HM01](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hm-normal.png){ .item-sprite } [HM01](../pokedex/items/hm01.md), [Cut](../pokedex/moves/cut.md)</span>.
 
 **Level Up**:
 
@@ -18430,8 +18430,8 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM60](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM60](../pokedex/items/tm60.md), [Quash](../pokedex/moves/quash.md).
-- Now compatible with ![TM85](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM85](../pokedex/items/tm85.md), [Play Rough](../pokedex/moves/play-rough.md).
+- Now compatible with <span style="white-space: nowrap;">![TM60](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM60](../pokedex/items/tm60.md), [Quash](../pokedex/moves/quash.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM85](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM85](../pokedex/items/tm85.md), [Play Rough](../pokedex/moves/play-rough.md)</span>.
 
 **Level Up**:
 
@@ -18475,7 +18475,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM58](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM58](../pokedex/items/tm58.md), [Hurricane](../pokedex/moves/hurricane.md).
+- Now compatible with <span style="white-space: nowrap;">![TM58](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM58](../pokedex/items/tm58.md), [Hurricane](../pokedex/moves/hurricane.md)</span>.
 
 **Level Up**:
 
@@ -18519,7 +18519,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM58](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM58](../pokedex/items/tm58.md), [Hurricane](../pokedex/moves/hurricane.md).
+- Now compatible with <span style="white-space: nowrap;">![TM58](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM58](../pokedex/items/tm58.md), [Hurricane](../pokedex/moves/hurricane.md)</span>.
 
 **Level Up**:
 
@@ -18656,8 +18656,8 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM48](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM48](../pokedex/items/tm48.md), [Mystical Fire](../pokedex/moves/mystical-fire.md).
-- Now compatible with ![TM66](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM66](../pokedex/items/tm66.md), [Power Gem](../pokedex/moves/power-gem.md).
+- Now compatible with <span style="white-space: nowrap;">![TM48](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM48](../pokedex/items/tm48.md), [Mystical Fire](../pokedex/moves/mystical-fire.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM66](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM66](../pokedex/items/tm66.md), [Power Gem](../pokedex/moves/power-gem.md)</span>.
 
 
 **Level Up**:
@@ -18692,7 +18692,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM58](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM58](../pokedex/items/tm58.md), [Hurricane](../pokedex/moves/hurricane.md).
+- Now compatible with <span style="white-space: nowrap;">![TM58](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM58](../pokedex/items/tm58.md), [Hurricane](../pokedex/moves/hurricane.md)</span>.
 
 **Level Up**:
 
@@ -18819,7 +18819,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM56](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM56](../pokedex/items/tm56.md), [Weather Ball](../pokedex/moves/weather-ball.md).
+- Now compatible with <span style="white-space: nowrap;">![TM56](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM56](../pokedex/items/tm56.md), [Weather Ball](../pokedex/moves/weather-ball.md)</span>.
 
 
 **Evolution**:
@@ -18861,7 +18861,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM60](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM60](../pokedex/items/tm60.md), [Quash](../pokedex/moves/quash.md).
+- Now compatible with <span style="white-space: nowrap;">![TM60](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM60](../pokedex/items/tm60.md), [Quash](../pokedex/moves/quash.md)</span>.
 
 **Evolution**:
 
@@ -18909,7 +18909,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM60](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM60](../pokedex/items/tm60.md), [Quash](../pokedex/moves/quash.md).
+- Now compatible with <span style="white-space: nowrap;">![TM60](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM60](../pokedex/items/tm60.md), [Quash](../pokedex/moves/quash.md)</span>.
 
 **Level Up**:
 
@@ -18983,8 +18983,8 @@ All new type changes are omitted in the Classic version of Redux.
 
 </div>**Moves**:
 
-- Now compatible with ![TM56](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM56](../pokedex/items/tm56.md), [Weather Ball](../pokedex/moves/weather-ball.md).
-- Now compatible with ![HM02](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hm-normal.png){ .item-sprite } [HM02](../pokedex/items/hm02.md), [Fly](../pokedex/moves/fly.md).
+- Now compatible with <span style="white-space: nowrap;">![TM56](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM56](../pokedex/items/tm56.md), [Weather Ball](../pokedex/moves/weather-ball.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![HM02](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hm-normal.png){ .item-sprite } [HM02](../pokedex/items/hm02.md), [Fly](../pokedex/moves/fly.md)</span>.
 
 **Level Up**:
 
@@ -19074,7 +19074,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM20](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM20](../pokedex/items/tm20.md), [Tri Attack](../pokedex/moves/tri-attack.md).
+- Now compatible with <span style="white-space: nowrap;">![TM20](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM20](../pokedex/items/tm20.md), [Tri Attack](../pokedex/moves/tri-attack.md)</span>.
 
 **Evolution**:
 
@@ -19161,8 +19161,8 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM58](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM58](../pokedex/items/tm58.md), [Hurricane](../pokedex/moves/hurricane.md).
-- Now compatible with ![TM76](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM76](../pokedex/items/tm76.md), [Bug Buzz](../pokedex/moves/bug-buzz.md).
+- Now compatible with <span style="white-space: nowrap;">![TM58](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM58](../pokedex/items/tm58.md), [Hurricane](../pokedex/moves/hurricane.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM76](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM76](../pokedex/items/tm76.md), [Bug Buzz](../pokedex/moves/bug-buzz.md)</span>.
 
 **Level Up**:
 
@@ -19249,7 +19249,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM83](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM83](../pokedex/items/tm83.md), [Work Up](../pokedex/moves/work-up.md).
+- Now compatible with <span style="white-space: nowrap;">![TM83](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM83](../pokedex/items/tm83.md), [Work Up](../pokedex/moves/work-up.md)</span>.
 
 **Level Up**:
 
@@ -19289,7 +19289,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM83](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM83](../pokedex/items/tm83.md), [Work Up](../pokedex/moves/work-up.md).
+- Now compatible with <span style="white-space: nowrap;">![TM83](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM83](../pokedex/items/tm83.md), [Work Up](../pokedex/moves/work-up.md)</span>.
 
 **Level Up**:
 
@@ -19330,8 +19330,8 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM83](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM83](../pokedex/items/tm83.md), [Work Up](../pokedex/moves/work-up.md).
-- Now compatible with ![HM02](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hm-normal.png){ .item-sprite } [HM02](../pokedex/items/hm02.md), [Fly](../pokedex/moves/fly.md).
+- Now compatible with <span style="white-space: nowrap;">![TM83](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM83](../pokedex/items/tm83.md), [Work Up](../pokedex/moves/work-up.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![HM02](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hm-normal.png){ .item-sprite } [HM02](../pokedex/items/hm02.md), [Fly](../pokedex/moves/fly.md)</span>.
 
 **Level Up**:
 
@@ -19736,7 +19736,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM60](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM60](../pokedex/items/tm60.md), [Quash](../pokedex/moves/quash.md).
+- Now compatible with <span style="white-space: nowrap;">![TM60](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM60](../pokedex/items/tm60.md), [Quash](../pokedex/moves/quash.md)</span>.
 
 **Level Up**:
 
@@ -19780,7 +19780,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM58](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM58](../pokedex/items/tm58.md), [Hurricane](../pokedex/moves/hurricane.md).
+- Now compatible with <span style="white-space: nowrap;">![TM58](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM58](../pokedex/items/tm58.md), [Hurricane](../pokedex/moves/hurricane.md)</span>.
 
 **Level Up**:
 
@@ -19823,7 +19823,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM58](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM58](../pokedex/items/tm58.md), [Hurricane](../pokedex/moves/hurricane.md).
+- Now compatible with <span style="white-space: nowrap;">![TM58](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM58](../pokedex/items/tm58.md), [Hurricane](../pokedex/moves/hurricane.md)</span>.
 
 **Level Up**:
 
@@ -19866,7 +19866,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 </div>**Moves**:
 
-- Now compatible with ![TM51](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM51](../pokedex/items/tm51.md), [Wave Crash](../pokedex/moves/wave-crash.md).
+- Now compatible with <span style="white-space: nowrap;">![TM51](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM51](../pokedex/items/tm51.md), [Wave Crash](../pokedex/moves/wave-crash.md)</span>.
 
 **Evolution**:
 
@@ -19915,8 +19915,8 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM45](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM45](../pokedex/items/tm45.md), [Power Up Punch](../pokedex/moves/power-up-punch.md).
-- Now compatible with ![TM83](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM83](../pokedex/items/tm83.md), [Work Up](../pokedex/moves/work-up.md).
+- Now compatible with <span style="white-space: nowrap;">![TM45](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM45](../pokedex/items/tm45.md), [Power Up Punch](../pokedex/moves/power-up-punch.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM83](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM83](../pokedex/items/tm83.md), [Work Up](../pokedex/moves/work-up.md)</span>.
 
 **Level Up**:
 
@@ -19960,8 +19960,8 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM45](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM45](../pokedex/items/tm45.md), [Power Up Punch](../pokedex/moves/power-up-punch.md).
-- Now compatible with ![TM83](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM83](../pokedex/items/tm83.md), [Work Up](../pokedex/moves/work-up.md).
+- Now compatible with <span style="white-space: nowrap;">![TM45](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM45](../pokedex/items/tm45.md), [Power Up Punch](../pokedex/moves/power-up-punch.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM83](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM83](../pokedex/items/tm83.md), [Work Up](../pokedex/moves/work-up.md)</span>.
 
 **Level Up**:
 
@@ -20005,7 +20005,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 </div>**Moves**:
 
-- Now compatible with ![TM60](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM60](../pokedex/items/tm60.md), [Quash](../pokedex/moves/quash.md).
+- Now compatible with <span style="white-space: nowrap;">![TM60](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM60](../pokedex/items/tm60.md), [Quash](../pokedex/moves/quash.md)</span>.
 
 **Level Up**:
 
@@ -20051,7 +20051,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM76](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM76](../pokedex/items/tm76.md), [Bug Buzz](../pokedex/moves/bug-buzz.md).
+- Now compatible with <span style="white-space: nowrap;">![TM76](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM76](../pokedex/items/tm76.md), [Bug Buzz](../pokedex/moves/bug-buzz.md)</span>.
 
 **Level Up**:
 
@@ -20273,9 +20273,9 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM20](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM20](../pokedex/items/tm20.md), [Tri Attack](../pokedex/moves/tri-attack.md).
-- Now compatible with ![TM36](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM36](../pokedex/items/tm36.md), [Sludge Bomb](../pokedex/moves/sludge-bomb.md).
-- Now compatible with ![TM46](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM46](../pokedex/items/tm46.md), [Aura Sphere](../pokedex/moves/aura-sphere.md).
+- Now compatible with <span style="white-space: nowrap;">![TM20](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM20](../pokedex/items/tm20.md), [Tri Attack](../pokedex/moves/tri-attack.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM36](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM36](../pokedex/items/tm36.md), [Sludge Bomb](../pokedex/moves/sludge-bomb.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM46](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM46](../pokedex/items/tm46.md), [Aura Sphere](../pokedex/moves/aura-sphere.md)</span>.
 
 **Level Up**:
 
@@ -20323,8 +20323,8 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM20](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM20](../pokedex/items/tm20.md), [Tri Attack](../pokedex/moves/tri-attack.md). [\*]
-- Now compatible with ![TM58](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM58](../pokedex/items/tm58.md), [Hurricane](../pokedex/moves/hurricane.md).
+- Now compatible with <span style="white-space: nowrap;">![TM20](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM20](../pokedex/items/tm20.md), [Tri Attack](../pokedex/moves/tri-attack.md)</span>. [\*]
+- Now compatible with <span style="white-space: nowrap;">![TM58](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM58](../pokedex/items/tm58.md), [Hurricane](../pokedex/moves/hurricane.md)</span>.
 
 **Level Up**:
 
@@ -20355,8 +20355,8 @@ All new type changes are omitted in the Classic version of Redux.
 
 </div>**Moves**:
 
-- Now compatible with ![TM58](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM58](../pokedex/items/tm58.md), [Hurricane](../pokedex/moves/hurricane.md).
-- Now compatible with ![HM02](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hm-normal.png){ .item-sprite } [HM02](../pokedex/items/hm02.md), [Fly](../pokedex/moves/fly.md).
+- Now compatible with <span style="white-space: nowrap;">![TM58](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM58](../pokedex/items/tm58.md), [Hurricane](../pokedex/moves/hurricane.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![HM02](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hm-normal.png){ .item-sprite } [HM02](../pokedex/items/hm02.md), [Fly](../pokedex/moves/fly.md)</span>.
 
 **Level Up**:
 
@@ -20400,9 +20400,9 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM20](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM20](../pokedex/items/tm20.md), [Tri Attack](../pokedex/moves/tri-attack.md).
-- Now compatible with ![TM85](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM85](../pokedex/items/tm85.md), [Play Rough](../pokedex/moves/play-rough.md).
-- Now compatible with ![HM01](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hm-normal.png){ .item-sprite } [HM01](../pokedex/items/hm01.md), [Cut](../pokedex/moves/cut.md).
+- Now compatible with <span style="white-space: nowrap;">![TM20](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM20](../pokedex/items/tm20.md), [Tri Attack](../pokedex/moves/tri-attack.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM85](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM85](../pokedex/items/tm85.md), [Play Rough](../pokedex/moves/play-rough.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![HM01](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hm-normal.png){ .item-sprite } [HM01](../pokedex/items/hm01.md), [Cut](../pokedex/moves/cut.md)</span>.
 
 **Level Up**:
 
@@ -20454,9 +20454,9 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM20](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM20](../pokedex/items/tm20.md), [Tri Attack](../pokedex/moves/tri-attack.md).
-- Now compatible with ![TM32](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM32](../pokedex/items/tm32.md), [Dazzling Gleam](../pokedex/moves/dazzling-gleam.md).
-- Now compatible with ![TM86](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM86](../pokedex/items/tm86.md), [Grass Knot](../pokedex/moves/grass-knot.md).
+- Now compatible with <span style="white-space: nowrap;">![TM20](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM20](../pokedex/items/tm20.md), [Tri Attack](../pokedex/moves/tri-attack.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM32](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM32](../pokedex/items/tm32.md), [Dazzling Gleam](../pokedex/moves/dazzling-gleam.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM86](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM86](../pokedex/items/tm86.md), [Grass Knot](../pokedex/moves/grass-knot.md)</span>.
 
 **Level Up**:
 
@@ -20504,9 +20504,9 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM76](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM76](../pokedex/items/tm76.md), [Bug Buzz](../pokedex/moves/bug-buzz.md).
-- Now compatible with ![HM02](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hm-normal.png){ .item-sprite } [HM02](../pokedex/items/hm02.md), [Fly](../pokedex/moves/fly.md).
-- Now compatible with ![TM87](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM87](../pokedex/items/tm87.md), [Rock Climb](../pokedex/moves/rock-climb.md).
+- Now compatible with <span style="white-space: nowrap;">![TM76](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM76](../pokedex/items/tm76.md), [Bug Buzz](../pokedex/moves/bug-buzz.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![HM02](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hm-normal.png){ .item-sprite } [HM02](../pokedex/items/hm02.md), [Fly](../pokedex/moves/fly.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM87](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM87](../pokedex/items/tm87.md), [Rock Climb](../pokedex/moves/rock-climb.md)</span>.
 
 **Level Up**:
 
@@ -20641,7 +20641,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM01](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM01](../pokedex/items/tm01.md), [Hone Claws](../pokedex/moves/hone-claws.md).
+- Now compatible with <span style="white-space: nowrap;">![TM01](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM01](../pokedex/items/tm01.md), [Hone Claws](../pokedex/moves/hone-claws.md)</span>.
 
 **Level Up**:
 
@@ -20694,9 +20694,9 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM53](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM53](../pokedex/items/tm53.md), [Energy Ball](../pokedex/moves/energy-ball.md).
-- Now compatible with ![TM57](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM57](../pokedex/items/tm57.md), [Charge Beam](../pokedex/moves/charge-beam.md).
-- Now compatible with ![TM66](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM66](../pokedex/items/tm66.md), [Power Gem](../pokedex/moves/power-gem.md).
+- Now compatible with <span style="white-space: nowrap;">![TM53](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM53](../pokedex/items/tm53.md), [Energy Ball](../pokedex/moves/energy-ball.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM57](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM57](../pokedex/items/tm57.md), [Charge Beam](../pokedex/moves/charge-beam.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM66](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM66](../pokedex/items/tm66.md), [Power Gem](../pokedex/moves/power-gem.md)</span>.
 
 
 **Level Up**:
@@ -20741,7 +20741,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM60](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM60](../pokedex/items/tm60.md), [Quash](../pokedex/moves/quash.md).
+- Now compatible with <span style="white-space: nowrap;">![TM60](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM60](../pokedex/items/tm60.md), [Quash](../pokedex/moves/quash.md)</span>.
 
 **Level Up**:
 
@@ -20791,7 +20791,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM48](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM48](../pokedex/items/tm48.md), [Mystical Fire](../pokedex/moves/mystical-fire.md).
+- Now compatible with <span style="white-space: nowrap;">![TM48](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM48](../pokedex/items/tm48.md), [Mystical Fire](../pokedex/moves/mystical-fire.md)</span>.
 
 **Level Up**:
 
@@ -20974,7 +20974,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 </div>**Moves**:
 
-- Now compatible with ![TM83](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM83](../pokedex/items/tm83.md), [Work Up](../pokedex/moves/work-up.md).
+- Now compatible with <span style="white-space: nowrap;">![TM83](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM83](../pokedex/items/tm83.md), [Work Up](../pokedex/moves/work-up.md)</span>.
 
 **Level Up**:
 
@@ -21007,7 +21007,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 </div>**Moves**:
 
-- Now compatible with ![TM83](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM83](../pokedex/items/tm83.md), [Work Up](../pokedex/moves/work-up.md).
+- Now compatible with <span style="white-space: nowrap;">![TM83](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM83](../pokedex/items/tm83.md), [Work Up](../pokedex/moves/work-up.md)</span>.
 
 **Level Up**:
 
@@ -21072,9 +21072,9 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM47](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM47](../pokedex/items/tm47.md), [Low Sweep](../pokedex/moves/low-sweep.md).
-- Now compatible with ![TM60](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM60](../pokedex/items/tm60.md), [Quash](../pokedex/moves/quash.md).
-- Now compatible with ![TM83](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM83](../pokedex/items/tm83.md), [Work Up](../pokedex/moves/work-up.md).
+- Now compatible with <span style="white-space: nowrap;">![TM47](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM47](../pokedex/items/tm47.md), [Low Sweep](../pokedex/moves/low-sweep.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM60](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM60](../pokedex/items/tm60.md), [Quash](../pokedex/moves/quash.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM83](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM83](../pokedex/items/tm83.md), [Work Up](../pokedex/moves/work-up.md)</span>.
 
 **Level Up**:
 
@@ -21108,11 +21108,11 @@ All new type changes are omitted in the Classic version of Redux.
 
 </div>**Moves**:
 
-- Now compatible with ![TM83](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM83](../pokedex/items/tm83.md), [Work Up](../pokedex/moves/work-up.md).
+- Now compatible with <span style="white-space: nowrap;">![TM83](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM83](../pokedex/items/tm83.md), [Work Up](../pokedex/moves/work-up.md)</span>.
 
 **Held Item**:
 
-- Now holds a ![Griseous Orb](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/griseous-orb.png){ .item-sprite } [Griseous Orb](../pokedex/items/griseous-orb.md) with a 100% rate.
+- Now holds a <span style="white-space: nowrap;">![Griseous Orb](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/griseous-orb.png){ .item-sprite } [Griseous Orb](../pokedex/items/griseous-orb.md)</span> with a 100% rate.
 
 **Level Up**:
 
@@ -21145,7 +21145,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 </div>**Moves**:
 
-- Now compatible with ![TM48](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM48](../pokedex/items/tm48.md), [Mystical Fire](../pokedex/moves/mystical-fire.md).
+- Now compatible with <span style="white-space: nowrap;">![TM48](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM48](../pokedex/items/tm48.md), [Mystical Fire](../pokedex/moves/mystical-fire.md)</span>.
 
 **Level Up**:
 
@@ -21179,7 +21179,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 </div>**Moves**:
 
-- Now compatible with ![TM51](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM51](../pokedex/items/tm51.md), [Wave Crash](../pokedex/moves/wave-crash.md).
+- Now compatible with <span style="white-space: nowrap;">![TM51](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM51](../pokedex/items/tm51.md), [Wave Crash](../pokedex/moves/wave-crash.md)</span>.
 
 **Level Up**:
 
@@ -21211,7 +21211,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 </div>**Moves**:
 
-- Now compatible with ![TM51](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM51](../pokedex/items/tm51.md), [Wave Crash](../pokedex/moves/wave-crash.md).
+- Now compatible with <span style="white-space: nowrap;">![TM51](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM51](../pokedex/items/tm51.md), [Wave Crash](../pokedex/moves/wave-crash.md)</span>.
 
 **Level Up**:
 
@@ -21325,8 +21325,8 @@ All new type changes are omitted in the Classic version of Redux.
 
 </div>**Moves**:
 
-- Now compatible with ![TM48](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM48](../pokedex/items/tm48.md), [Mystical Fire](../pokedex/moves/mystical-fire.md).
-- Now compatible with ![TM58](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM58](../pokedex/items/tm58.md), [Hurricane](../pokedex/moves/hurricane.md).
+- Now compatible with <span style="white-space: nowrap;">![TM48](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM48](../pokedex/items/tm48.md), [Mystical Fire](../pokedex/moves/mystical-fire.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM58](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM58](../pokedex/items/tm58.md), [Hurricane](../pokedex/moves/hurricane.md)</span>.
 
 **Level Up**:
 
@@ -21364,7 +21364,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 </div>**Moves**:
 
-- Now compatible with ![TM62](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM62](../pokedex/items/tm62.md), [Acrobatics](../pokedex/moves/acrobatics.md).
+- Now compatible with <span style="white-space: nowrap;">![TM62](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM62](../pokedex/items/tm62.md), [Acrobatics](../pokedex/moves/acrobatics.md)</span>.
 
 **Level Up**:
 
@@ -21498,7 +21498,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM60](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM60](../pokedex/items/tm60.md), [Quash](../pokedex/moves/quash.md).
+- Now compatible with <span style="white-space: nowrap;">![TM60](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM60](../pokedex/items/tm60.md), [Quash](../pokedex/moves/quash.md)</span>.
 - Now compatible with Draco Meteor from the Move Tutor.
 
 
@@ -21590,7 +21590,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM60](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM60](../pokedex/items/tm60.md), [Quash](../pokedex/moves/quash.md).
+- Now compatible with <span style="white-space: nowrap;">![TM60](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM60](../pokedex/items/tm60.md), [Quash](../pokedex/moves/quash.md)</span>.
 
 
 **Level Up**:
@@ -21640,8 +21640,8 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM60](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM60](../pokedex/items/tm60.md), [Quash](../pokedex/moves/quash.md).
-- Now compatible with ![TM87](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM87](../pokedex/items/tm87.md), [Rock Climb](../pokedex/moves/rock-climb.md).
+- Now compatible with <span style="white-space: nowrap;">![TM60](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM60](../pokedex/items/tm60.md), [Quash](../pokedex/moves/quash.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM87](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM87](../pokedex/items/tm87.md), [Rock Climb](../pokedex/moves/rock-climb.md)</span>.
 
 
 **Level Up**:
@@ -21690,7 +21690,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM51](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM51](../pokedex/items/tm51.md), [Wave Crash](../pokedex/moves/wave-crash.md).
+- Now compatible with <span style="white-space: nowrap;">![TM51](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM51](../pokedex/items/tm51.md), [Wave Crash](../pokedex/moves/wave-crash.md)</span>.
 
 **Level Up**:
 
@@ -21733,8 +21733,8 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM47](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM47](../pokedex/items/tm47.md), [Low Sweep](../pokedex/moves/low-sweep.md).
-- Now compatible with ![TM51](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM51](../pokedex/items/tm51.md), [Wave Crash](../pokedex/moves/wave-crash.md).
+- Now compatible with <span style="white-space: nowrap;">![TM47](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM47](../pokedex/items/tm47.md), [Low Sweep](../pokedex/moves/low-sweep.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM51](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM51](../pokedex/items/tm51.md), [Wave Crash](../pokedex/moves/wave-crash.md)</span>.
 
 
 **Level Up**:
@@ -21783,9 +21783,9 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM47](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM47](../pokedex/items/tm47.md), [Low Sweep](../pokedex/moves/low-sweep.md).
-- Now compatible with ![TM51](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM51](../pokedex/items/tm51.md), [Wave Crash](../pokedex/moves/wave-crash.md).
-- Now compatible with ![TM87](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM87](../pokedex/items/tm87.md), [Rock Climb](../pokedex/moves/rock-climb.md).
+- Now compatible with <span style="white-space: nowrap;">![TM47](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM47](../pokedex/items/tm47.md), [Low Sweep](../pokedex/moves/low-sweep.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM51](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM51](../pokedex/items/tm51.md), [Wave Crash](../pokedex/moves/wave-crash.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM87](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM87](../pokedex/items/tm87.md), [Rock Climb](../pokedex/moves/rock-climb.md)</span>.
 
 
 **Level Up**:
@@ -21836,7 +21836,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM60](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM60](../pokedex/items/tm60.md), [Quash](../pokedex/moves/quash.md).
+- Now compatible with <span style="white-space: nowrap;">![TM60](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM60](../pokedex/items/tm60.md), [Quash](../pokedex/moves/quash.md)</span>.
 
 **Level Up**:
 
@@ -21883,8 +21883,8 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM47](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM47](../pokedex/items/tm47.md), [Low Sweep](../pokedex/moves/low-sweep.md).
-- Now compatible with ![TM60](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM60](../pokedex/items/tm60.md), [Quash](../pokedex/moves/quash.md).
+- Now compatible with <span style="white-space: nowrap;">![TM47](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM47](../pokedex/items/tm47.md), [Low Sweep](../pokedex/moves/low-sweep.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM60](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM60](../pokedex/items/tm60.md), [Quash](../pokedex/moves/quash.md)</span>.
 
 **Level Up**:
 
@@ -22048,7 +22048,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM60](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM60](../pokedex/items/tm60.md), [Quash](../pokedex/moves/quash.md).
+- Now compatible with <span style="white-space: nowrap;">![TM60](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM60](../pokedex/items/tm60.md), [Quash](../pokedex/moves/quash.md)</span>.
 
 **Level Up**:
 
@@ -22098,7 +22098,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM60](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM60](../pokedex/items/tm60.md), [Quash](../pokedex/moves/quash.md).
+- Now compatible with <span style="white-space: nowrap;">![TM60](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM60](../pokedex/items/tm60.md), [Quash](../pokedex/moves/quash.md)</span>.
 
 **Level Up**:
 
@@ -22146,9 +22146,9 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM45](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM45](../pokedex/items/tm45.md), [Power Up Punch](../pokedex/moves/power-up-punch.md).
-- Now compatible with ![TM60](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM60](../pokedex/items/tm60.md), [Quash](../pokedex/moves/quash.md).
-- Now compatible with ![TM85](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM85](../pokedex/items/tm85.md), [Play Rough](../pokedex/moves/play-rough.md).
+- Now compatible with <span style="white-space: nowrap;">![TM45](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM45](../pokedex/items/tm45.md), [Power Up Punch](../pokedex/moves/power-up-punch.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM60](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM60](../pokedex/items/tm60.md), [Quash](../pokedex/moves/quash.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM85](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM85](../pokedex/items/tm85.md), [Play Rough](../pokedex/moves/play-rough.md)</span>.
 
 **Growth Rate**:
 
@@ -22202,8 +22202,8 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM60](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM60](../pokedex/items/tm60.md), [Quash](../pokedex/moves/quash.md).
-- Now compatible with ![TM85](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM85](../pokedex/items/tm85.md), [Play Rough](../pokedex/moves/play-rough.md).
+- Now compatible with <span style="white-space: nowrap;">![TM60](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM60](../pokedex/items/tm60.md), [Quash](../pokedex/moves/quash.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM85](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM85](../pokedex/items/tm85.md), [Play Rough](../pokedex/moves/play-rough.md)</span>.
 
 **Growth Rate**:
 
@@ -22245,10 +22245,10 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM45](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM45](../pokedex/items/tm45.md), [Power Up Punch](../pokedex/moves/power-up-punch.md).
-- Now compatible with ![TM48](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM48](../pokedex/items/tm48.md), [Mystical Fire](../pokedex/moves/mystical-fire.md).
-- Now compatible with ![TM60](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM60](../pokedex/items/tm60.md), [Quash](../pokedex/moves/quash.md).
-- Now compatible with ![TM85](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM85](../pokedex/items/tm85.md), [Play Rough](../pokedex/moves/play-rough.md).
+- Now compatible with <span style="white-space: nowrap;">![TM45](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM45](../pokedex/items/tm45.md), [Power Up Punch](../pokedex/moves/power-up-punch.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM48](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM48](../pokedex/items/tm48.md), [Mystical Fire](../pokedex/moves/mystical-fire.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM60](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM60](../pokedex/items/tm60.md), [Quash](../pokedex/moves/quash.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM85](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM85](../pokedex/items/tm85.md), [Play Rough](../pokedex/moves/play-rough.md)</span>.
 
 **Growth Rate**:
 
@@ -22302,9 +22302,9 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM48](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM48](../pokedex/items/tm48.md), [Mystical Fire](../pokedex/moves/mystical-fire.md).
-- Now compatible with ![TM60](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM60](../pokedex/items/tm60.md), [Quash](../pokedex/moves/quash.md).
-- Now compatible with ![TM85](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM85](../pokedex/items/tm85.md), [Play Rough](../pokedex/moves/play-rough.md).
+- Now compatible with <span style="white-space: nowrap;">![TM48](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM48](../pokedex/items/tm48.md), [Mystical Fire](../pokedex/moves/mystical-fire.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM60](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM60](../pokedex/items/tm60.md), [Quash](../pokedex/moves/quash.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM85](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM85](../pokedex/items/tm85.md), [Play Rough](../pokedex/moves/play-rough.md)</span>.
 
 **Growth Rate**:
 
@@ -22345,9 +22345,9 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM45](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM45](../pokedex/items/tm45.md), [Power Up Punch](../pokedex/moves/power-up-punch.md).
-- Now compatible with ![TM60](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM60](../pokedex/items/tm60.md), [Quash](../pokedex/moves/quash.md).
-- Now compatible with ![TM85](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM85](../pokedex/items/tm85.md), [Play Rough](../pokedex/moves/play-rough.md).
+- Now compatible with <span style="white-space: nowrap;">![TM45](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM45](../pokedex/items/tm45.md), [Power Up Punch](../pokedex/moves/power-up-punch.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM60](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM60](../pokedex/items/tm60.md), [Quash](../pokedex/moves/quash.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM85](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM85](../pokedex/items/tm85.md), [Play Rough](../pokedex/moves/play-rough.md)</span>.
 
 **Growth Rate**:
 
@@ -22401,8 +22401,8 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM60](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM60](../pokedex/items/tm60.md), [Quash](../pokedex/moves/quash.md).
-- Now compatible with ![TM85](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM85](../pokedex/items/tm85.md), [Play Rough](../pokedex/moves/play-rough.md).
+- Now compatible with <span style="white-space: nowrap;">![TM60](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM60](../pokedex/items/tm60.md), [Quash](../pokedex/moves/quash.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM85](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM85](../pokedex/items/tm85.md), [Play Rough](../pokedex/moves/play-rough.md)</span>.
 
 **Growth Rate**:
 
@@ -22490,7 +22490,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM20](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM20](../pokedex/items/tm20.md), [Tri Attack](../pokedex/moves/tri-attack.md).
+- Now compatible with <span style="white-space: nowrap;">![TM20](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM20](../pokedex/items/tm20.md), [Tri Attack](../pokedex/moves/tri-attack.md)</span>.
 
 **Level Up**:
 
@@ -22570,7 +22570,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM58](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM58](../pokedex/items/tm58.md), [Hurricane](../pokedex/moves/hurricane.md).
+- Now compatible with <span style="white-space: nowrap;">![TM58](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM58](../pokedex/items/tm58.md), [Hurricane](../pokedex/moves/hurricane.md)</span>.
 
 **Level Up**:
 
@@ -22660,7 +22660,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM47](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM47](../pokedex/items/tm47.md), [Low Sweep](../pokedex/moves/low-sweep.md).
+- Now compatible with <span style="white-space: nowrap;">![TM47](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM47](../pokedex/items/tm47.md), [Low Sweep](../pokedex/moves/low-sweep.md)</span>.
 
 **Level Up**:
 
@@ -22704,8 +22704,8 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM47](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM47](../pokedex/items/tm47.md), [Low Sweep](../pokedex/moves/low-sweep.md).
-- Now compatible with ![TM83](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM83](../pokedex/items/tm83.md), [Work Up](../pokedex/moves/work-up.md).
+- Now compatible with <span style="white-space: nowrap;">![TM47](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM47](../pokedex/items/tm47.md), [Low Sweep](../pokedex/moves/low-sweep.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM83](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM83](../pokedex/items/tm83.md), [Work Up](../pokedex/moves/work-up.md)</span>.
 
 **Level Up**:
 
@@ -22747,7 +22747,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 </div>**Moves**:
 
-- Now compatible with ![TM87](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM87](../pokedex/items/tm87.md), [Rock Climb](../pokedex/moves/rock-climb.md).
+- Now compatible with <span style="white-space: nowrap;">![TM87](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM87](../pokedex/items/tm87.md), [Rock Climb](../pokedex/moves/rock-climb.md)</span>.
 
 **Level Up**:
 
@@ -22784,8 +22784,8 @@ All new type changes are omitted in the Classic version of Redux.
 
 </div>**Moves**:
 
-- Now compatible with ![TM45](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM45](../pokedex/items/tm45.md), [Power Up Punch](../pokedex/moves/power-up-punch.md).
-- Now compatible with ![TM87](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM87](../pokedex/items/tm87.md), [Rock Climb](../pokedex/moves/rock-climb.md).
+- Now compatible with <span style="white-space: nowrap;">![TM45](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM45](../pokedex/items/tm45.md), [Power Up Punch](../pokedex/moves/power-up-punch.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM87](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM87](../pokedex/items/tm87.md), [Rock Climb](../pokedex/moves/rock-climb.md)</span>.
 
 **Evolution**:
 
@@ -22828,10 +22828,10 @@ All new type changes are omitted in the Classic version of Redux.
 
 </div>**Moves**:
 
-- Now compatible with ![TM05](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM05](../pokedex/items/tm05.md), [Roar](../pokedex/moves/roar.md).
-- Now compatible with ![TM45](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM45](../pokedex/items/tm45.md), [Power Up Punch](../pokedex/moves/power-up-punch.md).
-- Now compatible with ![TM60](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM60](../pokedex/items/tm60.md), [Quash](../pokedex/moves/quash.md).
-- Now compatible with ![TM87](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM87](../pokedex/items/tm87.md), [Rock Climb](../pokedex/moves/rock-climb.md).
+- Now compatible with <span style="white-space: nowrap;">![TM05](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM05](../pokedex/items/tm05.md), [Roar](../pokedex/moves/roar.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM45](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM45](../pokedex/items/tm45.md), [Power Up Punch](../pokedex/moves/power-up-punch.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM60](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM60](../pokedex/items/tm60.md), [Quash](../pokedex/moves/quash.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM87](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM87](../pokedex/items/tm87.md), [Rock Climb](../pokedex/moves/rock-climb.md)</span>.
 
 **Level Up**:
 
@@ -22922,8 +22922,8 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM48](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM48](../pokedex/items/tm48.md), [Mystical Fire](../pokedex/moves/mystical-fire.md).
-- Now compatible with ![TM58](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM58](../pokedex/items/tm58.md), [Hurricane](../pokedex/moves/hurricane.md).
+- Now compatible with <span style="white-space: nowrap;">![TM48](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM48](../pokedex/items/tm48.md), [Mystical Fire](../pokedex/moves/mystical-fire.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM58](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM58](../pokedex/items/tm58.md), [Hurricane](../pokedex/moves/hurricane.md)</span>.
 
 **Level Up**:
 
@@ -23091,7 +23091,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM87](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM87](../pokedex/items/tm87.md), [Rock Climb](../pokedex/moves/rock-climb.md).
+- Now compatible with <span style="white-space: nowrap;">![TM87](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM87](../pokedex/items/tm87.md), [Rock Climb](../pokedex/moves/rock-climb.md)</span>.
 
 **Level Up**:
 
@@ -23135,7 +23135,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM87](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM87](../pokedex/items/tm87.md), [Rock Climb](../pokedex/moves/rock-climb.md).
+- Now compatible with <span style="white-space: nowrap;">![TM87](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM87](../pokedex/items/tm87.md), [Rock Climb](../pokedex/moves/rock-climb.md)</span>.
 
 **Level Up**:
 
@@ -23181,7 +23181,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM87](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM87](../pokedex/items/tm87.md), [Rock Climb](../pokedex/moves/rock-climb.md).
+- Now compatible with <span style="white-space: nowrap;">![TM87](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM87](../pokedex/items/tm87.md), [Rock Climb](../pokedex/moves/rock-climb.md)</span>.
 
 **Level Up**:
 
@@ -23487,14 +23487,14 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM60](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM60](../pokedex/items/tm60.md), [Quash](../pokedex/moves/quash.md).
+- Now compatible with <span style="white-space: nowrap;">![TM60](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM60](../pokedex/items/tm60.md), [Quash](../pokedex/moves/quash.md)</span>.
 
 
 
 
 **Moves**:
 
-- Now compatible with ![TM01](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM01](../pokedex/items/tm01.md), [Hone Claws](../pokedex/moves/hone-claws.md).
+- Now compatible with <span style="white-space: nowrap;">![TM01](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM01](../pokedex/items/tm01.md), [Hone Claws](../pokedex/moves/hone-claws.md)</span>.
 
 **Evolution**:
 
@@ -23504,19 +23504,19 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM01](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM01](../pokedex/items/tm01.md), [Hone Claws](../pokedex/moves/hone-claws.md).
+- Now compatible with <span style="white-space: nowrap;">![TM01](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM01](../pokedex/items/tm01.md), [Hone Claws](../pokedex/moves/hone-claws.md)</span>.
 
 
 **Moves**:
 
-- Now compatible with ![TM85](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM85](../pokedex/items/tm85.md), [Play Rough](../pokedex/moves/play-rough.md).
+- Now compatible with <span style="white-space: nowrap;">![TM85](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM85](../pokedex/items/tm85.md), [Play Rough](../pokedex/moves/play-rough.md)</span>.
 
 
 
 
 **Moves**:
 
-- Now compatible with ![TM76](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM76](../pokedex/items/tm76.md), [Bug Buzz](../pokedex/moves/bug-buzz.md).
+- Now compatible with <span style="white-space: nowrap;">![TM76](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM76](../pokedex/items/tm76.md), [Bug Buzz](../pokedex/moves/bug-buzz.md)</span>.
 
 **Evolution**:
 
@@ -23564,7 +23564,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM76](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM76](../pokedex/items/tm76.md), [Bug Buzz](../pokedex/moves/bug-buzz.md).
+- Now compatible with <span style="white-space: nowrap;">![TM76](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM76](../pokedex/items/tm76.md), [Bug Buzz](../pokedex/moves/bug-buzz.md)</span>.
 
 **Level Up**:
 
@@ -23608,8 +23608,8 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM76](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM76](../pokedex/items/tm76.md), [Bug Buzz](../pokedex/moves/bug-buzz.md).
-- Now compatible with ![TM83](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM83](../pokedex/items/tm83.md), [Work Up](../pokedex/moves/work-up.md).
+- Now compatible with <span style="white-space: nowrap;">![TM76](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM76](../pokedex/items/tm76.md), [Bug Buzz](../pokedex/moves/bug-buzz.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM83](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM83](../pokedex/items/tm83.md), [Work Up](../pokedex/moves/work-up.md)</span>.
 
 **Level Up**:
 
@@ -23785,8 +23785,8 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM51](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM51](../pokedex/items/tm51.md), [Wave Crash](../pokedex/moves/wave-crash.md).
-- Now compatible with ![TM83](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM83](../pokedex/items/tm83.md), [Work Up](../pokedex/moves/work-up.md).
+- Now compatible with <span style="white-space: nowrap;">![TM51](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM51](../pokedex/items/tm51.md), [Wave Crash](../pokedex/moves/wave-crash.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM83](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM83](../pokedex/items/tm83.md), [Work Up](../pokedex/moves/work-up.md)</span>.
 
 **Level Up**:
 
@@ -23980,7 +23980,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 </div>**Moves**:
 
-- Now compatible with ![TM47](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM47](../pokedex/items/tm47.md), [Low Sweep](../pokedex/moves/low-sweep.md).
+- Now compatible with <span style="white-space: nowrap;">![TM47](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM47](../pokedex/items/tm47.md), [Low Sweep](../pokedex/moves/low-sweep.md)</span>.
 
 **Level Up**:
 
@@ -24025,7 +24025,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM56](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM56](../pokedex/items/tm56.md), [Scald](../pokedex/moves/scald.md).
+- Now compatible with <span style="white-space: nowrap;">![TM56](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM56](../pokedex/items/tm56.md), [Scald](../pokedex/moves/scald.md)</span>.
 
 **Level Up**:
 
@@ -24066,7 +24066,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 </div>**Moves**:
 
-- Now compatible with ![TM76](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM76](../pokedex/items/tm76.md), [Bug Buzz](../pokedex/moves/bug-buzz.md).
+- Now compatible with <span style="white-space: nowrap;">![TM76](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM76](../pokedex/items/tm76.md), [Bug Buzz](../pokedex/moves/bug-buzz.md)</span>.
 
 **Level Up**:
 
@@ -24103,7 +24103,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 </div>**Moves**:
 
-- Now compatible with ![TM76](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM76](../pokedex/items/tm76.md), [Bug Buzz](../pokedex/moves/bug-buzz.md).
+- Now compatible with <span style="white-space: nowrap;">![TM76](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM76](../pokedex/items/tm76.md), [Bug Buzz](../pokedex/moves/bug-buzz.md)</span>.
 
 **Level Up**:
 
@@ -24232,11 +24232,11 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM20](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM20](../pokedex/items/tm20.md), [Tri Attack](../pokedex/moves/tri-attack.md).
-- Now compatible with ![TM48](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM48](../pokedex/items/tm48.md), [Mystical Fire](../pokedex/moves/mystical-fire.md).
-- Now compatible with ![TM58](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM58](../pokedex/items/tm58.md), [Hurricane](../pokedex/moves/hurricane.md).
-- Now compatible with ![TM60](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM60](../pokedex/items/tm60.md), [Quash](../pokedex/moves/quash.md).
-- Now compatible with ![TM66](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM66](../pokedex/items/tm66.md), [Power Gem](../pokedex/moves/power-gem.md).
+- Now compatible with <span style="white-space: nowrap;">![TM20](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM20](../pokedex/items/tm20.md), [Tri Attack](../pokedex/moves/tri-attack.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM48](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM48](../pokedex/items/tm48.md), [Mystical Fire](../pokedex/moves/mystical-fire.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM58](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM58](../pokedex/items/tm58.md), [Hurricane](../pokedex/moves/hurricane.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM60](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM60](../pokedex/items/tm60.md), [Quash](../pokedex/moves/quash.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM66](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM66](../pokedex/items/tm66.md), [Power Gem](../pokedex/moves/power-gem.md)</span>.
 
 **Level Up**:
 
@@ -24278,7 +24278,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 </div>**Moves**:
 
-- Now compatible with ![TM60](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM60](../pokedex/items/tm60.md), [Quash](../pokedex/moves/quash.md).
+- Now compatible with <span style="white-space: nowrap;">![TM60](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM60](../pokedex/items/tm60.md), [Quash](../pokedex/moves/quash.md)</span>.
 
 **Level Up**:
 
@@ -24325,7 +24325,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM60](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM60](../pokedex/items/tm60.md), [Quash](../pokedex/moves/quash.md).
+- Now compatible with <span style="white-space: nowrap;">![TM60](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM60](../pokedex/items/tm60.md), [Quash](../pokedex/moves/quash.md)</span>.
 
 **Level Up**:
 
@@ -24369,7 +24369,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 </div>**Moves**:
 
-- Now compatible with ![TM51](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM51](../pokedex/items/tm51.md), [Wave Crash](../pokedex/moves/wave-crash.md).
+- Now compatible with <span style="white-space: nowrap;">![TM51](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM51](../pokedex/items/tm51.md), [Wave Crash](../pokedex/moves/wave-crash.md)</span>.
 
 **Level Up**:
 
@@ -24407,7 +24407,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 </div>**Moves**:
 
-- Now compatible with ![TM51](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM51](../pokedex/items/tm51.md), [Wave Crash](../pokedex/moves/wave-crash.md).
+- Now compatible with <span style="white-space: nowrap;">![TM51](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM51](../pokedex/items/tm51.md), [Wave Crash](../pokedex/moves/wave-crash.md)</span>.
 
 **Level Up**:
 
@@ -24486,7 +24486,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 </div>**Moves**:
 
-- Now compatible with ![TM58](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM58](../pokedex/items/tm58.md), [Hurricane](../pokedex/moves/hurricane.md).
+- Now compatible with <span style="white-space: nowrap;">![TM58](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM58](../pokedex/items/tm58.md), [Hurricane](../pokedex/moves/hurricane.md)</span>.
 
 **Level Up**:
 
@@ -24738,7 +24738,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM47](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM47](../pokedex/items/tm47.md), [Low Sweep](../pokedex/moves/low-sweep.md).
+- Now compatible with <span style="white-space: nowrap;">![TM47](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM47](../pokedex/items/tm47.md), [Low Sweep](../pokedex/moves/low-sweep.md)</span>.
 
 **Level Up**:
 
@@ -24771,7 +24771,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM61](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM61](../pokedex/items/tm61.md), [Will O Wisp](../pokedex/moves/will-o-wisp.md).
+- Now compatible with <span style="white-space: nowrap;">![TM61](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM61](../pokedex/items/tm61.md), [Will O Wisp](../pokedex/moves/will-o-wisp.md)</span>.
 
 **Evolution**:
 
@@ -24819,7 +24819,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM61](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM61](../pokedex/items/tm61.md), [Will O Wisp](../pokedex/moves/will-o-wisp.md).
+- Now compatible with <span style="white-space: nowrap;">![TM61](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM61](../pokedex/items/tm61.md), [Will O Wisp](../pokedex/moves/will-o-wisp.md)</span>.
 
 
 **Level Up**:
@@ -24864,8 +24864,8 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM52](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM52](../pokedex/items/tm52.md), [Focus Blast](../pokedex/moves/focus-blast.md).
-- Now compatible with ![TM61](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM61](../pokedex/items/tm61.md), [Will O Wisp](../pokedex/moves/will-o-wisp.md).
+- Now compatible with <span style="white-space: nowrap;">![TM52](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM52](../pokedex/items/tm52.md), [Focus Blast](../pokedex/moves/focus-blast.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM61](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM61](../pokedex/items/tm61.md), [Will O Wisp](../pokedex/moves/will-o-wisp.md)</span>.
 
 
 **Level Up**:
@@ -24993,7 +24993,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM60](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM60](../pokedex/items/tm60.md), [Quash](../pokedex/moves/quash.md).
+- Now compatible with <span style="white-space: nowrap;">![TM60](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM60](../pokedex/items/tm60.md), [Quash](../pokedex/moves/quash.md)</span>.
 
 **Level Up**:
 
@@ -25040,7 +25040,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM58](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM58](../pokedex/items/tm58.md), [Hurricane](../pokedex/moves/hurricane.md).
+- Now compatible with <span style="white-space: nowrap;">![TM58](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM58](../pokedex/items/tm58.md), [Hurricane](../pokedex/moves/hurricane.md)</span>.
 
 **Level Up**:
 
@@ -25085,7 +25085,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM58](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM58](../pokedex/items/tm58.md), [Hurricane](../pokedex/moves/hurricane.md).
+- Now compatible with <span style="white-space: nowrap;">![TM58](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM58](../pokedex/items/tm58.md), [Hurricane](../pokedex/moves/hurricane.md)</span>.
 
 **Level Up**:
 
@@ -25166,8 +25166,8 @@ All new type changes are omitted in the Classic version of Redux.
 
 </div>**Moves**:
 
-- Now compatible with ![TM32](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM32](../pokedex/items/tm32.md), [Dazzling Gleam](../pokedex/moves/dazzling-gleam.md).
-- Now compatible with ![TM66](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM66](../pokedex/items/tm66.md), [Power Gem](../pokedex/moves/power-gem.md).
+- Now compatible with <span style="white-space: nowrap;">![TM32](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM32](../pokedex/items/tm32.md), [Dazzling Gleam](../pokedex/moves/dazzling-gleam.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM66](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM66](../pokedex/items/tm66.md), [Power Gem](../pokedex/moves/power-gem.md)</span>.
 
 **Level Up**:
 
@@ -25212,8 +25212,8 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM32](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM32](../pokedex/items/tm32.md), [Dazzling Gleam](../pokedex/moves/dazzling-gleam.md).
-- Now compatible with ![TM66](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM66](../pokedex/items/tm66.md), [Power Gem](../pokedex/moves/power-gem.md).
+- Now compatible with <span style="white-space: nowrap;">![TM32](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM32](../pokedex/items/tm32.md), [Dazzling Gleam](../pokedex/moves/dazzling-gleam.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM66](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM66](../pokedex/items/tm66.md), [Power Gem](../pokedex/moves/power-gem.md)</span>.
 
 **Level Up**:
 
@@ -25257,7 +25257,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 </div>**Moves**:
 
-- Now compatible with ![TM47](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM47](../pokedex/items/tm47.md), [Low Sweep](../pokedex/moves/low-sweep.md).
+- Now compatible with <span style="white-space: nowrap;">![TM47](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM47](../pokedex/items/tm47.md), [Low Sweep](../pokedex/moves/low-sweep.md)</span>.
 
 **Level Up**:
 
@@ -25298,10 +25298,10 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM40](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM40](../pokedex/items/tm40.md), [Aerial Ace](../pokedex/moves/aerial-ace.md).
-- Now compatible with ![TM47](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM47](../pokedex/items/tm47.md), [Low Sweep](../pokedex/moves/low-sweep.md).
-- Now compatible with ![TM87](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM87](../pokedex/items/tm87.md), [Rock Climb](../pokedex/moves/rock-climb.md).
-- Now compatible with ![HM04](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hm-normal.png){ .item-sprite } [HM04](../pokedex/items/hm04.md), [Strength](../pokedex/moves/strength.md).
+- Now compatible with <span style="white-space: nowrap;">![TM40](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM40](../pokedex/items/tm40.md), [Aerial Ace](../pokedex/moves/aerial-ace.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM47](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM47](../pokedex/items/tm47.md), [Low Sweep](../pokedex/moves/low-sweep.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM87](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM87](../pokedex/items/tm87.md), [Rock Climb](../pokedex/moves/rock-climb.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![HM04](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hm-normal.png){ .item-sprite } [HM04](../pokedex/items/hm04.md), [Strength](../pokedex/moves/strength.md)</span>.
 
 **Level Up**:
 
@@ -25350,7 +25350,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM60](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM60](../pokedex/items/tm60.md), [Quash](../pokedex/moves/quash.md).
+- Now compatible with <span style="white-space: nowrap;">![TM60](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM60](../pokedex/items/tm60.md), [Quash](../pokedex/moves/quash.md)</span>.
 
 **Level Up**:
 
@@ -25439,7 +25439,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM74](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM74](../pokedex/items/tm74.md), [Gyro Ball](../pokedex/moves/gyro-ball.md).
+- Now compatible with <span style="white-space: nowrap;">![TM74](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM74](../pokedex/items/tm74.md), [Gyro Ball](../pokedex/moves/gyro-ball.md)</span>.
 
 **Level Up**:
 
@@ -25672,8 +25672,8 @@ All new type changes are omitted in the Classic version of Redux.
 
 </div>**Moves**:
 
-- Now compatible with ![TM76](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM76](../pokedex/items/tm76.md), [Bug Buzz](../pokedex/moves/bug-buzz.md).
-- Now compatible with ![TM87](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM87](../pokedex/items/tm87.md), [Rock Climb](../pokedex/moves/rock-climb.md).
+- Now compatible with <span style="white-space: nowrap;">![TM76](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM76](../pokedex/items/tm76.md), [Bug Buzz](../pokedex/moves/bug-buzz.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM87](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM87](../pokedex/items/tm87.md), [Rock Climb](../pokedex/moves/rock-climb.md)</span>.
 
 **Evolution**:
 
@@ -25719,8 +25719,8 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM76](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM76](../pokedex/items/tm76.md), [Bug Buzz](../pokedex/moves/bug-buzz.md).
-- Now compatible with ![TM87](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM87](../pokedex/items/tm87.md), [Rock Climb](../pokedex/moves/rock-climb.md).
+- Now compatible with <span style="white-space: nowrap;">![TM76](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM76](../pokedex/items/tm76.md), [Bug Buzz](../pokedex/moves/bug-buzz.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM87](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM87](../pokedex/items/tm87.md), [Rock Climb](../pokedex/moves/rock-climb.md)</span>.
 
 **Level Up**:
 
@@ -25764,7 +25764,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 </div>**Moves**:
 
-- Now compatible with ![TM87](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM87](../pokedex/items/tm87.md), [Rock Climb](../pokedex/moves/rock-climb.md).
+- Now compatible with <span style="white-space: nowrap;">![TM87](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM87](../pokedex/items/tm87.md), [Rock Climb](../pokedex/moves/rock-climb.md)</span>.
 
 **Level Up**:
 
@@ -25802,7 +25802,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 </div>**Moves**:
 
-- Now compatible with ![TM87](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM87](../pokedex/items/tm87.md), [Rock Climb](../pokedex/moves/rock-climb.md).
+- Now compatible with <span style="white-space: nowrap;">![TM87](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM87](../pokedex/items/tm87.md), [Rock Climb](../pokedex/moves/rock-climb.md)</span>.
 
 **Level Up**:
 
@@ -25927,8 +25927,8 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM20](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM20](../pokedex/items/tm20.md), [Tri Attack](../pokedex/moves/tri-attack.md).
-- Now compatible with ![TM66](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM66](../pokedex/items/tm66.md), [Power Gem](../pokedex/moves/power-gem.md).
+- Now compatible with <span style="white-space: nowrap;">![TM20](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM20](../pokedex/items/tm20.md), [Tri Attack](../pokedex/moves/tri-attack.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM66](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM66](../pokedex/items/tm66.md), [Power Gem](../pokedex/moves/power-gem.md)</span>.
 
 **Level Up**:
 
@@ -26059,12 +26059,12 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM20](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM20](../pokedex/items/tm20.md), [Tri Attack](../pokedex/moves/tri-attack.md).
-- Now compatible with ![TM32](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM32](../pokedex/items/tm32.md), [Dazzling Gleam](../pokedex/moves/dazzling-gleam.md).
-- Now compatible with ![TM48](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM48](../pokedex/items/tm48.md), [Mystical Fire](../pokedex/moves/mystical-fire.md).
-- Now compatible with ![TM66](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM66](../pokedex/items/tm66.md), [Power Gem](../pokedex/moves/power-gem.md).
-- Now compatible with ![TM76](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM76](../pokedex/items/tm76.md), [Bug Buzz](../pokedex/moves/bug-buzz.md).
-- Now compatible with ![TM83](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM83](../pokedex/items/tm83.md), [Work Up](../pokedex/moves/work-up.md).
+- Now compatible with <span style="white-space: nowrap;">![TM20](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM20](../pokedex/items/tm20.md), [Tri Attack](../pokedex/moves/tri-attack.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM32](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM32](../pokedex/items/tm32.md), [Dazzling Gleam](../pokedex/moves/dazzling-gleam.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM48](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM48](../pokedex/items/tm48.md), [Mystical Fire](../pokedex/moves/mystical-fire.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM66](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM66](../pokedex/items/tm66.md), [Power Gem](../pokedex/moves/power-gem.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM76](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM76](../pokedex/items/tm76.md), [Bug Buzz](../pokedex/moves/bug-buzz.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM83](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM83](../pokedex/items/tm83.md), [Work Up](../pokedex/moves/work-up.md)</span>.
 
 **Evolution**:
 
@@ -26115,12 +26115,12 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM20](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM20](../pokedex/items/tm20.md), [Tri Attack](../pokedex/moves/tri-attack.md).
-- Now compatible with ![TM32](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM32](../pokedex/items/tm32.md), [Dazzling Gleam](../pokedex/moves/dazzling-gleam.md).
-- Now compatible with ![TM48](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM48](../pokedex/items/tm48.md), [Mystical Fire](../pokedex/moves/mystical-fire.md).
-- Now compatible with ![TM66](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM66](../pokedex/items/tm66.md), [Power Gem](../pokedex/moves/power-gem.md).
-- Now compatible with ![TM76](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM76](../pokedex/items/tm76.md), [Bug Buzz](../pokedex/moves/bug-buzz.md).
-- Now compatible with ![TM83](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM83](../pokedex/items/tm83.md), [Work Up](../pokedex/moves/work-up.md).
+- Now compatible with <span style="white-space: nowrap;">![TM20](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM20](../pokedex/items/tm20.md), [Tri Attack](../pokedex/moves/tri-attack.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM32](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM32](../pokedex/items/tm32.md), [Dazzling Gleam](../pokedex/moves/dazzling-gleam.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM48](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM48](../pokedex/items/tm48.md), [Mystical Fire](../pokedex/moves/mystical-fire.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM66](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM66](../pokedex/items/tm66.md), [Power Gem](../pokedex/moves/power-gem.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM76](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM76](../pokedex/items/tm76.md), [Bug Buzz](../pokedex/moves/bug-buzz.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM83](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM83](../pokedex/items/tm83.md), [Work Up](../pokedex/moves/work-up.md)</span>.
 
 **Level Up**:
 
@@ -26168,7 +26168,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM48](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM48](../pokedex/items/tm48.md), [Mystical Fire](../pokedex/moves/mystical-fire.md).
+- Now compatible with <span style="white-space: nowrap;">![TM48](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM48](../pokedex/items/tm48.md), [Mystical Fire](../pokedex/moves/mystical-fire.md)</span>.
 
 **Evolution**:
 
@@ -26217,7 +26217,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM48](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM48](../pokedex/items/tm48.md), [Mystical Fire](../pokedex/moves/mystical-fire.md).
+- Now compatible with <span style="white-space: nowrap;">![TM48](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM48](../pokedex/items/tm48.md), [Mystical Fire](../pokedex/moves/mystical-fire.md)</span>.
 
 **Level Up**:
 
@@ -26265,8 +26265,8 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM32](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM32](../pokedex/items/tm32.md), [Dazzling Gleam](../pokedex/moves/dazzling-gleam.md).
-- Now compatible with ![TM48](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM48](../pokedex/items/tm48.md), [Mystical Fire](../pokedex/moves/mystical-fire.md).
+- Now compatible with <span style="white-space: nowrap;">![TM32](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM32](../pokedex/items/tm32.md), [Dazzling Gleam](../pokedex/moves/dazzling-gleam.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM48](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM48](../pokedex/items/tm48.md), [Mystical Fire](../pokedex/moves/mystical-fire.md)</span>.
 
 **Level Up**:
 
@@ -26295,8 +26295,8 @@ All new type changes are omitted in the Classic version of Redux.
 
 </div>**Moves**:
 
-- Now compatible with ![TM83](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM83](../pokedex/items/tm83.md), [Work Up](../pokedex/moves/work-up.md).
-- Now compatible with ![TM87](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM87](../pokedex/items/tm87.md), [Rock Climb](../pokedex/moves/rock-climb.md).
+- Now compatible with <span style="white-space: nowrap;">![TM83](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM83](../pokedex/items/tm83.md), [Work Up](../pokedex/moves/work-up.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM87](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM87](../pokedex/items/tm87.md), [Rock Climb](../pokedex/moves/rock-climb.md)</span>.
 
 **Level Up**:
 
@@ -26335,8 +26335,8 @@ All new type changes are omitted in the Classic version of Redux.
 
 </div>**Moves**:
 
-- Now compatible with ![TM83](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM83](../pokedex/items/tm83.md), [Work Up](../pokedex/moves/work-up.md).
-- Now compatible with ![TM87](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM87](../pokedex/items/tm87.md), [Rock Climb](../pokedex/moves/rock-climb.md).
+- Now compatible with <span style="white-space: nowrap;">![TM83](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM83](../pokedex/items/tm83.md), [Work Up](../pokedex/moves/work-up.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM87](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM87](../pokedex/items/tm87.md), [Rock Climb](../pokedex/moves/rock-climb.md)</span>.
 
 **Level Up**:
 
@@ -26376,8 +26376,8 @@ All new type changes are omitted in the Classic version of Redux.
 
 </div>**Moves**:
 
-- Now compatible with ![TM83](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM83](../pokedex/items/tm83.md), [Work Up](../pokedex/moves/work-up.md).
-- Now compatible with ![TM87](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM87](../pokedex/items/tm87.md), [Rock Climb](../pokedex/moves/rock-climb.md).
+- Now compatible with <span style="white-space: nowrap;">![TM83](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM83](../pokedex/items/tm83.md), [Work Up](../pokedex/moves/work-up.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM87](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM87](../pokedex/items/tm87.md), [Rock Climb](../pokedex/moves/rock-climb.md)</span>.
 
 **Level Up**:
 
@@ -26467,10 +26467,10 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM26](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM26](../pokedex/items/tm26.md), [Earthquake](../pokedex/moves/earthquake.md).
-- Now compatible with ![TM47](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM47](../pokedex/items/tm47.md), [Low Sweep](../pokedex/moves/low-sweep.md).
-- Now compatible with ![TM83](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM83](../pokedex/items/tm83.md), [Work Up](../pokedex/moves/work-up.md).
-- Now compatible with ![HM05](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hm-normal.png){ .item-sprite } [HM05](../pokedex/items/hm05.md), [Waterfall](../pokedex/moves/waterfall.md).
+- Now compatible with <span style="white-space: nowrap;">![TM26](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM26](../pokedex/items/tm26.md), [Earthquake](../pokedex/moves/earthquake.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM47](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM47](../pokedex/items/tm47.md), [Low Sweep](../pokedex/moves/low-sweep.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM83](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM83](../pokedex/items/tm83.md), [Work Up](../pokedex/moves/work-up.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![HM05](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hm-normal.png){ .item-sprite } [HM05](../pokedex/items/hm05.md), [Waterfall](../pokedex/moves/waterfall.md)</span>.
 
 
 **Level Up**:
@@ -26595,7 +26595,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM62](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM62](../pokedex/items/tm62.md), [Acrobatics](../pokedex/moves/acrobatics.md).
+- Now compatible with <span style="white-space: nowrap;">![TM62](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM62](../pokedex/items/tm62.md), [Acrobatics](../pokedex/moves/acrobatics.md)</span>.
 
 **Level Up**:
 
@@ -26685,7 +26685,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM87](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM87](../pokedex/items/tm87.md), [Rock Climb](../pokedex/moves/rock-climb.md).
+- Now compatible with <span style="white-space: nowrap;">![TM87](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM87](../pokedex/items/tm87.md), [Rock Climb](../pokedex/moves/rock-climb.md)</span>.
 
 **Level Up**:
 
@@ -26728,7 +26728,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM87](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM87](../pokedex/items/tm87.md), [Rock Climb](../pokedex/moves/rock-climb.md).
+- Now compatible with <span style="white-space: nowrap;">![TM87](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM87](../pokedex/items/tm87.md), [Rock Climb](../pokedex/moves/rock-climb.md)</span>.
 
 **Level Up**:
 
@@ -26770,9 +26770,9 @@ All new type changes are omitted in the Classic version of Redux.
 
 </div>**Moves**:
 
-- Now compatible with ![TM60](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM60](../pokedex/items/tm60.md), [Quash](../pokedex/moves/quash.md).
-- Now compatible with ![TM83](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM83](../pokedex/items/tm83.md), [Work Up](../pokedex/moves/work-up.md).
-- Now compatible with ![TM87](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM87](../pokedex/items/tm87.md), [Rock Climb](../pokedex/moves/rock-climb.md).
+- Now compatible with <span style="white-space: nowrap;">![TM60](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM60](../pokedex/items/tm60.md), [Quash](../pokedex/moves/quash.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM83](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM83](../pokedex/items/tm83.md), [Work Up](../pokedex/moves/work-up.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM87](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM87](../pokedex/items/tm87.md), [Rock Climb](../pokedex/moves/rock-climb.md)</span>.
 
 **Level Up**:
 
@@ -26816,7 +26816,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM45](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM45](../pokedex/items/tm45.md), [Power Up Punch](../pokedex/moves/power-up-punch.md).
+- Now compatible with <span style="white-space: nowrap;">![TM45](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM45](../pokedex/items/tm45.md), [Power Up Punch](../pokedex/moves/power-up-punch.md)</span>.
 
 **Evolution**:
 
@@ -26864,8 +26864,8 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM45](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM45](../pokedex/items/tm45.md), [Power Up Punch](../pokedex/moves/power-up-punch.md).
-- Now compatible with ![TM46](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM46](../pokedex/items/tm46.md), [Aura Sphere](../pokedex/moves/aura-sphere.md).
+- Now compatible with <span style="white-space: nowrap;">![TM45](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM45](../pokedex/items/tm45.md), [Power Up Punch](../pokedex/moves/power-up-punch.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM46](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM46](../pokedex/items/tm46.md), [Aura Sphere](../pokedex/moves/aura-sphere.md)</span>.
 
 **Level Up**:
 
@@ -27074,7 +27074,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM60](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM60](../pokedex/items/tm60.md), [Quash](../pokedex/moves/quash.md).
+- Now compatible with <span style="white-space: nowrap;">![TM60](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM60](../pokedex/items/tm60.md), [Quash](../pokedex/moves/quash.md)</span>.
 
 **Level Up**:
 
@@ -27120,7 +27120,7 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM58](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM58](../pokedex/items/tm58.md), [Hurricane](../pokedex/moves/hurricane.md).
+- Now compatible with <span style="white-space: nowrap;">![TM58](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM58](../pokedex/items/tm58.md), [Hurricane](../pokedex/moves/hurricane.md)</span>.
 
 **Evolution**:
 
@@ -27169,8 +27169,8 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM58](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM58](../pokedex/items/tm58.md), [Hurricane](../pokedex/moves/hurricane.md).
-- Now compatible with ![TM60](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM60](../pokedex/items/tm60.md), [Quash](../pokedex/moves/quash.md).
+- Now compatible with <span style="white-space: nowrap;">![TM58](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM58](../pokedex/items/tm58.md), [Hurricane](../pokedex/moves/hurricane.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM60](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM60](../pokedex/items/tm60.md), [Quash](../pokedex/moves/quash.md)</span>.
 
 **Level Up**:
 
@@ -27216,9 +27216,9 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM47](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM47](../pokedex/items/tm47.md), [Low Sweep](../pokedex/moves/low-sweep.md).
-- Now compatible with ![TM83](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM83](../pokedex/items/tm83.md), [Work Up](../pokedex/moves/work-up.md).
-- Now compatible with ![TM87](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM87](../pokedex/items/tm87.md), [Rock Climb](../pokedex/moves/rock-climb.md).
+- Now compatible with <span style="white-space: nowrap;">![TM47](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM47](../pokedex/items/tm47.md), [Low Sweep](../pokedex/moves/low-sweep.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM83](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM83](../pokedex/items/tm83.md), [Work Up](../pokedex/moves/work-up.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM87](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM87](../pokedex/items/tm87.md), [Rock Climb](../pokedex/moves/rock-climb.md)</span>.
 
 **Level Up**:
 
@@ -27265,10 +27265,10 @@ All new type changes are omitted in the Classic version of Redux.
 
 **Moves**:
 
-- Now compatible with ![TM47](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM47](../pokedex/items/tm47.md), [Low Sweep](../pokedex/moves/low-sweep.md).
-- Now compatible with ![TM76](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM76](../pokedex/items/tm76.md), [Bug Buzz](../pokedex/moves/bug-buzz.md).
-- Now compatible with ![TM83](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM83](../pokedex/items/tm83.md), [Work Up](../pokedex/moves/work-up.md).
-- Now compatible with ![TM87](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM87](../pokedex/items/tm87.md), [Rock Climb](../pokedex/moves/rock-climb.md).
+- Now compatible with <span style="white-space: nowrap;">![TM47](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM47](../pokedex/items/tm47.md), [Low Sweep](../pokedex/moves/low-sweep.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM76](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM76](../pokedex/items/tm76.md), [Bug Buzz](../pokedex/moves/bug-buzz.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM83](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM83](../pokedex/items/tm83.md), [Work Up](../pokedex/moves/work-up.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM87](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM87](../pokedex/items/tm87.md), [Rock Climb](../pokedex/moves/rock-climb.md)</span>.
 
 **Level Up**:
 
@@ -27499,8 +27499,8 @@ All new type changes are omitted in the Classic version of Redux.
 
 </div>**Moves**:
 
-- Now compatible with ![TM47](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM47](../pokedex/items/tm47.md), [Low Sweep](../pokedex/moves/low-sweep.md).
-- Now compatible with ![TM87](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM87](../pokedex/items/tm87.md), [Rock Climb](../pokedex/moves/rock-climb.md).
+- Now compatible with <span style="white-space: nowrap;">![TM47](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM47](../pokedex/items/tm47.md), [Low Sweep](../pokedex/moves/low-sweep.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM87](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM87](../pokedex/items/tm87.md), [Rock Climb](../pokedex/moves/rock-climb.md)</span>.
 
 **Level Up**:
 
@@ -27541,8 +27541,8 @@ All new type changes are omitted in the Classic version of Redux.
 
 </div>**Moves**:
 
-- Now compatible with ![TM47](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM47](../pokedex/items/tm47.md), [Low Sweep](../pokedex/moves/low-sweep.md).
-- Now compatible with ![TM87](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM87](../pokedex/items/tm87.md), [Rock Climb](../pokedex/moves/rock-climb.md).
+- Now compatible with <span style="white-space: nowrap;">![TM47](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM47](../pokedex/items/tm47.md), [Low Sweep](../pokedex/moves/low-sweep.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM87](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM87](../pokedex/items/tm87.md), [Rock Climb](../pokedex/moves/rock-climb.md)</span>.
 
 **Level Up**:
 
@@ -27582,8 +27582,8 @@ All new type changes are omitted in the Classic version of Redux.
 
 </div>**Moves**:
 
-- Now compatible with ![TM47](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM47](../pokedex/items/tm47.md), [Low Sweep](../pokedex/moves/low-sweep.md).
-- Now compatible with ![TM87](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM87](../pokedex/items/tm87.md), [Rock Climb](../pokedex/moves/rock-climb.md).
+- Now compatible with <span style="white-space: nowrap;">![TM47](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM47](../pokedex/items/tm47.md), [Low Sweep](../pokedex/moves/low-sweep.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM87](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM87](../pokedex/items/tm87.md), [Rock Climb](../pokedex/moves/rock-climb.md)</span>.
 
 **Level Up**:
 
@@ -27686,8 +27686,8 @@ All new type changes are omitted in the Classic version of Redux.
 
 </div>**Moves**:
 
-- Now compatible with ![TM26](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM26](../pokedex/items/tm26.md), [Earthquake](../pokedex/moves/earthquake.md).
-- Now compatible with ![TM87](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM87](../pokedex/items/tm87.md), [Rock Climb](../pokedex/moves/rock-climb.md).
+- Now compatible with <span style="white-space: nowrap;">![TM26](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM26](../pokedex/items/tm26.md), [Earthquake](../pokedex/moves/earthquake.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM87](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM87](../pokedex/items/tm87.md), [Rock Climb](../pokedex/moves/rock-climb.md)</span>.
 
 **Level Up**:
 
@@ -27722,8 +27722,8 @@ All new type changes are omitted in the Classic version of Redux.
 
 </div>**Moves**:
 
-- Now compatible with ![TM26](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM26](../pokedex/items/tm26.md), [Earthquake](../pokedex/moves/earthquake.md).
-- Now compatible with ![TM87](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM87](../pokedex/items/tm87.md), [Rock Climb](../pokedex/moves/rock-climb.md).
+- Now compatible with <span style="white-space: nowrap;">![TM26](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM26](../pokedex/items/tm26.md), [Earthquake](../pokedex/moves/earthquake.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM87](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM87](../pokedex/items/tm87.md), [Rock Climb](../pokedex/moves/rock-climb.md)</span>.
 
 **Level Up**:
 
@@ -27790,9 +27790,9 @@ All new type changes are omitted in the Classic version of Redux.
 </div>
 **Moves**:
 
-- Now compatible with ![TM79](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM79](../pokedex/items/tm79.md), [Frost Breath](../pokedex/moves/frost-breath.md).
-- Now compatible with ![TM83](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM83](../pokedex/items/tm83.md), [Work Up](../pokedex/moves/work-up.md).
-- Now compatible with ![TM87](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM87](../pokedex/items/tm87.md), [Rock Climb](../pokedex/moves/rock-climb.md).
+- Now compatible with <span style="white-space: nowrap;">![TM79](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM79](../pokedex/items/tm79.md), [Frost Breath](../pokedex/moves/frost-breath.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM83](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM83](../pokedex/items/tm83.md), [Work Up](../pokedex/moves/work-up.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM87](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM87](../pokedex/items/tm87.md), [Rock Climb](../pokedex/moves/rock-climb.md)</span>.
 
 **Level Up**:
 
@@ -27880,8 +27880,8 @@ All new type changes are omitted in the Classic version of Redux.
 
 </div>**Moves**:
 
-- Now compatible with ![TM47](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM47](../pokedex/items/tm47.md), [Low Sweep](../pokedex/moves/low-sweep.md).
-- Now compatible with ![TM87](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM87](../pokedex/items/tm87.md), [Rock Climb](../pokedex/moves/rock-climb.md).
+- Now compatible with <span style="white-space: nowrap;">![TM47](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM47](../pokedex/items/tm47.md), [Low Sweep](../pokedex/moves/low-sweep.md)</span>.
+- Now compatible with <span style="white-space: nowrap;">![TM87](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png){ .item-sprite } [TM87](../pokedex/items/tm87.md), [Rock Climb](../pokedex/moves/rock-climb.md)</span>.
 
 **Level Up**:
 

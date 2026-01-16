@@ -13,17 +13,27 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Nosepass ROM Changes"
 
-    **Base Stats:** `30 HP / 45 Atk / 135 Def / 45 SAtk / 90 SDef / 30 Spd` → `30 HP / 35 Atk / 135 Def / 55 SAtk / 90 SDef / 30 Spd`
+	**Base Stats Changes:**
 
-    **Abilities:** `sturdy / magnet-pull / sand-force` → `sturdy / sand-force / magnet-pull`
+	- `30 HP / 45 Atk / 135 Def / 45 SAtk / 90 SDef / 30 Spd` → `30 HP / 35 Atk / 135 Def / 55 SAtk / 90 SDef / 30 Spd`
 
-    **Base Experience:** `75` → `65`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `29 moves` → `21 moves`
+	- `sturdy / magnet-pull / sand-force` → `sturdy / sand-force / magnet-pull`
 
-    **TM/HM Compatibility:** `30 moves` → `32 moves (added: charge-beam, power-gem)`
+	**Base Experience Changes:**
+
+	- `75` → `65`
+
+	**Level-up Moves Changes:**
+
+	- `29 moves` → `21 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `30 moves` → `32 moves (added: charge-beam, power-gem)`
 
 
 ## :material-information: Basic Information
@@ -78,7 +88,7 @@
 
 	---
 
-	**Generation:** Generation Iii
+	**Generation:** Generation III
 
 	**Color:** Gray
 
@@ -93,7 +103,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Hard Stone](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hard-stone.png){ .item-sprite } [Hard Stone](../../pokedex/items/hard-stone.md) | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Hard Stone](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hard-stone.png){ .item-sprite } [Hard Stone](../../pokedex/items/hard-stone.md)</span> | 5% | 5% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 
@@ -149,7 +159,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 	**#299 [Nosepass](./nosepass.md)**
 
-	
+
 
 	***You are here***
 

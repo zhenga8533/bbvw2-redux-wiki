@@ -13,11 +13,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Hitmonlee ROM Changes"
 
-    **Abilities:** `limber / reckless / unburden` → `unburden / reckless / limber`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `17 moves` → `25 moves`
+	- `limber / reckless / unburden` → `unburden / reckless / limber`
+
+	**Level-up Moves Changes:**
+
+	- `17 moves` → `25 moves`
 
 
 ## :material-information: Basic Information

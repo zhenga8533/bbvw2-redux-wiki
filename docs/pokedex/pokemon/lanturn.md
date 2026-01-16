@@ -13,15 +13,23 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Lanturn ROM Changes"
 
-    **Base Stats:** `125 HP / 58 Atk / 58 Def / 76 SAtk / 76 SDef / 67 Spd` → `125 HP / 58 Atk / 58 Def / 91 SAtk / 86 SDef / 67 Spd`
+	**Base Stats Changes:**
 
-    **Abilities:** `volt-absorb / illuminate / water-absorb` → `volt-absorb / water-absorb / illuminate`
+	- `125 HP / 58 Atk / 58 Def / 76 SAtk / 76 SDef / 67 Spd` → `125 HP / 58 Atk / 58 Def / 91 SAtk / 86 SDef / 67 Spd`
 
-    **Level-up Moves:** `19 moves` → `25 moves`
+	**Abilities Changes:**
 
-    **TM/HM Compatibility:** `29 moves` → `31 moves (added: tri-attack, dazzling-gleam)`
+	- `volt-absorb / illuminate / water-absorb` → `volt-absorb / water-absorb / illuminate`
+
+	**Level-up Moves Changes:**
+
+	- `19 moves` → `25 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `29 moves` → `31 moves (added: tri-attack, dazzling-gleam)`
 
 
 ## :material-information: Basic Information
@@ -76,7 +84,7 @@
 
 	---
 
-	**Generation:** Generation Ii
+	**Generation:** Generation II
 
 	**Color:** Blue
 
@@ -91,7 +99,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Deep Sea Scale](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/deep-sea-scale.png){ .item-sprite } [Deep Sea Scale](../../pokedex/items/deep-sea-scale.md) | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Deep Sea Scale](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/deep-sea-scale.png){ .item-sprite } [Deep Sea Scale](../../pokedex/items/deep-sea-scale.md)</span> | 5% | 5% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 

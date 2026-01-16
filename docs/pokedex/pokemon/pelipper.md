@@ -13,15 +13,23 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Pelipper ROM Changes"
 
-    **Base Stats:** `60 HP / 50 Atk / 100 Def / 85 SAtk / 70 SDef / 65 Spd` → `60 HP / 50 Atk / 110 Def / 95 SAtk / 80 SDef / 65 Spd`
+	**Base Stats Changes:**
 
-    **Abilities:** `keen-eye / rain-dish` → `drizzle / rain-dish / keen-eye`
+	- `60 HP / 50 Atk / 100 Def / 85 SAtk / 70 SDef / 65 Spd` → `60 HP / 50 Atk / 110 Def / 95 SAtk / 80 SDef / 65 Spd`
 
-    **Level-up Moves:** `31 moves` → `24 moves`
+	**Abilities Changes:**
 
-    **TM/HM Compatibility:** `29 moves` → `30 moves (added: acrobatics)`
+	- `keen-eye / rain-dish` → `drizzle / rain-dish / keen-eye`
+
+	**Level-up Moves Changes:**
+
+	- `31 moves` → `24 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `29 moves` → `30 moves (added: acrobatics)`
 
 
 ## :material-information: Basic Information
@@ -76,7 +84,7 @@
 
 	---
 
-	**Generation:** Generation Iii
+	**Generation:** Generation III
 
 	**Color:** Yellow
 

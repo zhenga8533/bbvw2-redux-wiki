@@ -14,15 +14,23 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Patrat ROM Changes"
 
-    **Base Stats:** `45 HP / 55 Atk / 39 Def / 35 SAtk / 39 SDef / 42 Spd` → `50 HP / 55 Atk / 40 Def / 35 SAtk / 40 SDef / 43 Spd`
+	**Base Stats Changes:**
 
-    **Abilities:** `run-away / keen-eye / analytic` → `analytic / keen-eye / analytic`
+	- `45 HP / 55 Atk / 39 Def / 35 SAtk / 39 SDef / 42 Spd` → `50 HP / 55 Atk / 40 Def / 35 SAtk / 40 SDef / 43 Spd`
 
-    **Level-up Moves:** `15 moves` → `22 moves`
+	**Abilities Changes:**
 
-    **TM/HM Compatibility:** `23 moves` → `24 moves (added: quash)`
+	- `run-away / keen-eye / analytic` → `analytic / keen-eye / analytic`
+
+	**Level-up Moves Changes:**
+
+	- `15 moves` → `22 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `23 moves` → `24 moves (added: quash)`
 
 
 ## :material-information: Basic Information
@@ -138,7 +146,7 @@
 
 	**#504 [Patrat](./patrat.md)**
 
-	
+
 
 	***You are here***
 

@@ -14,11 +14,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Sawk ROM Changes"
 
-    **Abilities:** `sturdy / inner-focus / mold-breaker` → `sturdy / mold-breaker / mold-breaker`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `15 moves` → `22 moves`
+	- `sturdy / inner-focus / mold-breaker` → `sturdy / mold-breaker / mold-breaker`
+
+	**Level-up Moves Changes:**
+
+	- `15 moves` → `22 moves`
 
 
 ## :material-information: Basic Information
@@ -86,8 +90,8 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Black Belt](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/black-belt.png){ .item-sprite } [Black Belt](../../pokedex/items/black-belt.md) | 5% | 5% | 5% | 5% |
-| ![Expert Belt](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/expert-belt.png){ .item-sprite } [Expert Belt](../../pokedex/items/expert-belt.md) | 1% | 1% | 1% | 1% |
+| <span style="white-space: nowrap;">![Black Belt](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/black-belt.png){ .item-sprite } [Black Belt](../../pokedex/items/black-belt.md)</span> | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Expert Belt](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/expert-belt.png){ .item-sprite } [Expert Belt](../../pokedex/items/expert-belt.md)</span> | 1% | 1% | 1% | 1% |
 
 ## :material-shield-half-full: Type Effectiveness
 

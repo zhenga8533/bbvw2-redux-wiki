@@ -13,13 +13,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Hypno ROM Changes"
 
-    **Base Stats:** `85 HP / 73 Atk / 70 Def / 73 SAtk / 115 SDef / 67 Spd` → `92 HP / 73 Atk / 70 Def / 73 SAtk / 115 SDef / 62 Spd`
+	**Base Stats Changes:**
 
-    **Abilities:** `insomnia / forewarn / inner-focus` → `bad-dreams / insomnia / forewarn`
+	- `85 HP / 73 Atk / 70 Def / 73 SAtk / 115 SDef / 67 Spd` → `92 HP / 73 Atk / 70 Def / 73 SAtk / 115 SDef / 62 Spd`
 
-    **TM/HM Compatibility:** `37 moves` → `38 moves (added: aura-sphere)`
+	**Abilities Changes:**
+
+	- `insomnia / forewarn / inner-focus` → `bad-dreams / insomnia / forewarn`
+
+	**TM/HM Compatibility Changes:**
+
+	- `37 moves` → `38 moves (added: aura-sphere)`
 
 
 ## :material-information: Basic Information

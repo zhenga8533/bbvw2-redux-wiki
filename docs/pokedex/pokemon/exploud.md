@@ -13,15 +13,23 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Exploud ROM Changes"
 
-    **Base Stats:** `104 HP / 91 Atk / 63 Def / 91 SAtk / 63 SDef / 68 Spd` → `104 HP / 101 Atk / 63 Def / 101 SAtk / 73 SDef / 78 Spd`
+	**Base Stats Changes:**
 
-    **Abilities:** `soundproof / scrappy` → `soundproof / scrappy / rattled`
+	- `104 HP / 91 Atk / 63 Def / 91 SAtk / 63 SDef / 68 Spd` → `104 HP / 101 Atk / 63 Def / 101 SAtk / 73 SDef / 78 Spd`
 
-    **Level-up Moves:** `21 moves` → `24 moves`
+	**Abilities Changes:**
 
-    **TM/HM Compatibility:** `41 moves` → `42 moves (added: bug-buzz)`
+	- `soundproof / scrappy` → `soundproof / scrappy / rattled`
+
+	**Level-up Moves Changes:**
+
+	- `21 moves` → `24 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `41 moves` → `42 moves (added: bug-buzz)`
 
 
 ## :material-information: Basic Information
@@ -76,7 +84,7 @@
 
 	---
 
-	**Generation:** Generation Iii
+	**Generation:** Generation III
 
 	**Color:** Blue
 
@@ -91,7 +99,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Chesto Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/chesto-berry.png){ .item-sprite } [Chesto Berry](../../pokedex/items/chesto-berry.md) | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Chesto Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/chesto-berry.png){ .item-sprite } [Chesto Berry](../../pokedex/items/chesto-berry.md)</span> | 5% | 5% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 

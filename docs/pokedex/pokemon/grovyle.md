@@ -13,11 +13,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Grovyle ROM Changes"
 
-    **Abilities:** `overgrow / unburden` → `unburden / overgrow / unburden`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `15 moves` → `22 moves`
+	- `overgrow / unburden` → `unburden / overgrow / unburden`
+
+	**Level-up Moves Changes:**
+
+	- `15 moves` → `22 moves`
 
 
 ## :material-information: Basic Information
@@ -72,7 +76,7 @@
 
 	---
 
-	**Generation:** Generation Iii
+	**Generation:** Generation III
 
 	**Color:** Green
 

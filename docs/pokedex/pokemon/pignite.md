@@ -14,15 +14,23 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Pignite ROM Changes"
 
-    **Abilities:** `blaze / thick-fat` → `sheer-force / blaze / sheer-force`
+	**Abilities Changes:**
 
-    **Type:** `fire / fighting` → `fire / ground`
+	- `blaze / thick-fat` → `sheer-force / blaze / sheer-force`
 
-    **Level-up Moves:** `19 moves` → `21 moves`
+	**Type Changes:**
 
-    **TM/HM Compatibility:** `38 moves` → `39 moves (added: quash)`
+	- `fire / fighting` → `fire / ground`
+
+	**Level-up Moves Changes:**
+
+	- `19 moves` → `21 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `38 moves` → `39 moves (added: quash)`
 
 
 ## :material-information: Basic Information

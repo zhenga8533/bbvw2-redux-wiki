@@ -13,19 +13,33 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Trapinch ROM Changes"
 
-    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+	**Evolution Chain Changes:**
 
-    **Base Stats:** `45 HP / 100 Atk / 45 Def / 45 SAtk / 45 SDef / 10 Spd` → `55 HP / 100 Atk / 45 Def / 45 SAtk / 45 SDef / 10 Spd`
+	- `trapinch > vibrava: level-up (level 35)` → `trapinch > vibrava: level-up (level 30)`
 
-    **Abilities:** `hyper-cutter / arena-trap / sheer-force` → `hyper-cutter / sheer-force / arena-trap`
+	- `vibrava > flygon: unknown` → `vibrava > flygon: level-up (level 55)`
 
-    **Type:** `ground` → `bug / ground`
+	**Base Stats Changes:**
 
-    **Level-up Moves:** `28 moves` → `22 moves`
+	- `45 HP / 100 Atk / 45 Def / 45 SAtk / 45 SDef / 10 Spd` → `55 HP / 100 Atk / 45 Def / 45 SAtk / 45 SDef / 10 Spd`
 
-    **TM/HM Compatibility:** `24 moves` → `25 moves (added: bug-buzz)`
+	**Abilities Changes:**
+
+	- `hyper-cutter / arena-trap / sheer-force` → `hyper-cutter / sheer-force / arena-trap`
+
+	**Type Changes:**
+
+	- `ground` → `bug / ground`
+
+	**Level-up Moves Changes:**
+
+	- `28 moves` → `22 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `24 moves` → `25 moves (added: bug-buzz)`
 
 
 ## :material-information: Basic Information
@@ -80,7 +94,7 @@
 
 	---
 
-	**Generation:** Generation Iii
+	**Generation:** Generation III
 
 	**Color:** Brown
 
@@ -95,7 +109,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Soft Sand](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/soft-sand.png){ .item-sprite } [Soft Sand](../../pokedex/items/soft-sand.md) | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Soft Sand](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/soft-sand.png){ .item-sprite } [Soft Sand](../../pokedex/items/soft-sand.md)</span> | 5% | 5% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 
@@ -160,7 +174,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 	**#328 [Trapinch](./trapinch.md)**
 
-	
+
 
 	***You are here***
 

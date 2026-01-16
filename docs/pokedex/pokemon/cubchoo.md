@@ -14,11 +14,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Cubchoo ROM Changes"
 
-    **Abilities:** `snow-cloak / rattled` → `snow-cloak / rattled / rattled`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `15 moves` → `21 moves`
+	- `snow-cloak / rattled` → `snow-cloak / rattled / rattled`
+
+	**Level-up Moves Changes:**
+
+	- `15 moves` → `21 moves`
 
 
 ## :material-information: Basic Information
@@ -86,7 +90,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Aspear Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/aspear-berry.png){ .item-sprite } [Aspear Berry](../../pokedex/items/aspear-berry.md) | 50% | 50% | 50% | 50% |
+| <span style="white-space: nowrap;">![Aspear Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/aspear-berry.png){ .item-sprite } [Aspear Berry](../../pokedex/items/aspear-berry.md)</span> | 50% | 50% | 50% | 50% |
 
 ## :material-shield-half-full: Type Effectiveness
 
@@ -142,7 +146,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 	**#613 [Cubchoo](./cubchoo.md)**
 
-	
+
 
 	***You are here***
 

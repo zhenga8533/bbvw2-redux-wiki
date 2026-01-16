@@ -13,11 +13,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Bellossom ROM Changes"
 
-    **Abilities:** `chlorophyll / healer` → `chlorophyll / cloud-nine / healer`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `7 moves` → `15 moves`
+	- `chlorophyll / healer` → `chlorophyll / cloud-nine / healer`
+
+	**Level-up Moves Changes:**
+
+	- `7 moves` → `15 moves`
 
 
 ## :material-information: Basic Information
@@ -72,7 +76,7 @@
 
 	---
 
-	**Generation:** Generation Ii
+	**Generation:** Generation II
 
 	**Color:** Green
 

@@ -14,13 +14,23 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Magby ROM Changes"
 
-    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+	**Evolution Chain Changes:**
 
-    **Abilities:** `flame-body / vital-spirit` → `flame-body / vital-spirit / vital-spirit`
+	- `magmar > magmortar: trade (held: magmarizer)` → `magmar > magmortar: use-item (magmarizer)`
 
-    **Level-up Moves:** `25 moves` → `22 moves`
+	- `magby > magmar: level-up (level 30)` → `magby > magmar: level-up (level 29)`
+
+	**Abilities Changes:**
+
+	- `flame-body / vital-spirit` → `flame-body / vital-spirit / vital-spirit`
+
+	**Level-up Moves Changes:**
+
+	- `25 moves` → `22 moves`
+
+	- `magmar > magmortar: unknown` → `magmar > magmortar: use-item (magmarizer)`
 
 
 ## :material-information: Basic Information
@@ -75,7 +85,7 @@
 
 	---
 
-	**Generation:** Generation Ii
+	**Generation:** Generation II
 
 	**Color:** Red
 
@@ -138,7 +148,7 @@
 
 	**#240 [Magby](./magby.md)**
 
-	
+
 
 	***You are here***
 

@@ -15,9 +15,11 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Meloetta Aria ROM Changes"
 
-    **Level-up Moves:** `15 moves` → `18 moves`
+	**Level-up Moves Changes:**
+
+	- `15 moves` → `18 moves`
 
 
 ## :material-information: Basic Information
@@ -83,7 +85,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Star Piece](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/star-piece.png){ .item-sprite } [Star Piece](../../pokedex/items/star-piece.md) | 100% | 100% | 100% | 100% |
+| <span style="white-space: nowrap;">![Star Piece](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/star-piece.png){ .item-sprite } [Star Piece](../../pokedex/items/star-piece.md)</span> | 100% | 100% | 100% | 100% |
 
 ## :material-shield-half-full: Type Effectiveness
 

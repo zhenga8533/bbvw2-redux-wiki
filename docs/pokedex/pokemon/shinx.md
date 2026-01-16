@@ -13,9 +13,11 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Shinx ROM Changes"
 
-    **Level-up Moves:** `12 moves` → `24 moves`
+	**Level-up Moves Changes:**
+
+	- `12 moves` → `24 moves`
 
 
 ## :material-information: Basic Information
@@ -70,7 +72,7 @@
 
 	---
 
-	**Generation:** Generation Iv
+	**Generation:** Generation IV
 
 	**Color:** Blue
 
@@ -133,7 +135,7 @@
 
 	**#403 [Shinx](./shinx.md)**
 
-	
+
 
 	***You are here***
 

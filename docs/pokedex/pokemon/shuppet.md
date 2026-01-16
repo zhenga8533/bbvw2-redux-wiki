@@ -13,15 +13,23 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Shuppet ROM Changes"
 
-    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+	**Evolution Chain Changes:**
 
-    **Abilities:** `insomnia / frisk / cursed-body` → `cursed-body / frisk / cursed-body`
+	- `shuppet > banette: level-up (level 37)` → `shuppet > banette: level-up (level 32)`
 
-    **Level-up Moves:** `29 moves` → `18 moves`
+	**Abilities Changes:**
 
-    **TM/HM Compatibility:** `32 moves` → `33 moves (added: work-up)`
+	- `insomnia / frisk / cursed-body` → `cursed-body / frisk / cursed-body`
+
+	**Level-up Moves Changes:**
+
+	- `29 moves` → `18 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `32 moves` → `33 moves (added: work-up)`
 
 
 ## :material-information: Basic Information
@@ -76,7 +84,7 @@
 
 	---
 
-	**Generation:** Generation Iii
+	**Generation:** Generation III
 
 	**Color:** Black
 
@@ -91,7 +99,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Spell Tag](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/spell-tag.png){ .item-sprite } [Spell Tag](../../pokedex/items/spell-tag.md) | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Spell Tag](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/spell-tag.png){ .item-sprite } [Spell Tag](../../pokedex/items/spell-tag.md)</span> | 5% | 5% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 
@@ -156,7 +164,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 	**#353 [Shuppet](./shuppet.md)**
 
-	
+
 
 	***You are here***
 

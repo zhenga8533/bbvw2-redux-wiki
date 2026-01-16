@@ -13,11 +13,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Koffing ROM Changes"
 
-    **Level-up Moves:** `26 moves` → `20 moves`
+	**Level-up Moves Changes:**
 
-    **TM/HM Compatibility:** `30 moves` → `31 moves (added: sludge-wave)`
+	- `26 moves` → `20 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `30 moves` → `31 moves (added: sludge-wave)`
 
 
 ## :material-information: Basic Information
@@ -85,7 +89,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Smoke Ball](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/smoke-ball.png){ .item-sprite } [Smoke Ball](../../pokedex/items/smoke-ball.md) | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Smoke Ball](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/smoke-ball.png){ .item-sprite } [Smoke Ball](../../pokedex/items/smoke-ball.md)</span> | 5% | 5% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 
@@ -141,7 +145,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 	**#109 [Koffing](./koffing.md)**
 
-	
+
 
 	***You are here***
 

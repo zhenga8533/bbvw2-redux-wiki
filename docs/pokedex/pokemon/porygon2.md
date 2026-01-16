@@ -13,11 +13,17 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Porygon2 ROM Changes"
 
-    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+	**Evolution Chain Changes:**
 
-    **Level-up Moves:** `16 moves` → `24 moves`
+	- `porygon > porygon2: trade (held: up-grade)` → `porygon > porygon2: use-item (up-grade)`
+
+	- `porygon2 > porygon-z: unknown` → `porygon2 > porygon-z: use-item (dubious-disc)`
+
+	**Level-up Moves Changes:**
+
+	- `16 moves` → `24 moves`
 
 
 ## :material-information: Basic Information
@@ -72,7 +78,7 @@
 
 	---
 
-	**Generation:** Generation Ii
+	**Generation:** Generation II
 
 	**Color:** Red
 

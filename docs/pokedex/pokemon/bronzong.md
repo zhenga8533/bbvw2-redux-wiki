@@ -13,11 +13,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Bronzong ROM Changes"
 
-    **Level-up Moves:** `33 moves` → `21 moves`
+	**Level-up Moves Changes:**
 
-    **TM/HM Compatibility:** `42 moves` → `44 moves (added: weather-ball, fly)`
+	- `33 moves` → `21 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `42 moves` → `44 moves (added: weather-ball, fly)`
 
 
 ## :material-information: Basic Information
@@ -70,7 +74,7 @@
 
 	---
 
-	**Generation:** Generation Iv
+	**Generation:** Generation IV
 
 	**Color:** Green
 
@@ -85,7 +89,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Metal Coat](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/metal-coat.png){ .item-sprite } [Metal Coat](../../pokedex/items/metal-coat.md) | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Metal Coat](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/metal-coat.png){ .item-sprite } [Metal Coat](../../pokedex/items/metal-coat.md)</span> | 5% | 5% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 

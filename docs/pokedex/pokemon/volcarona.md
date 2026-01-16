@@ -14,11 +14,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Volcarona ROM Changes"
 
-    **Abilities:** `flame-body / swarm` → `flame-body / swarm / swarm`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `15 moves` → `20 moves`
+	- `flame-body / swarm` → `flame-body / swarm / swarm`
+
+	**Level-up Moves Changes:**
+
+	- `15 moves` → `20 moves`
 
 
 ## :material-information: Basic Information
@@ -86,7 +90,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Silver Powder](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/silver-powder.png){ .item-sprite } [Silver Powder](../../pokedex/items/silver-powder.md) | 100% | 100% | 100% | 100% |
+| <span style="white-space: nowrap;">![Silver Powder](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/silver-powder.png){ .item-sprite } [Silver Powder](../../pokedex/items/silver-powder.md)</span> | 100% | 100% | 100% | 100% |
 
 ## :material-shield-half-full: Type Effectiveness
 

@@ -13,13 +13,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Cradily ROM Changes"
 
-    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+	**Evolution Chain Changes:**
 
-    **Abilities:** `suction-cups / storm-drain` → `suction-cups / storm-drain / storm-drain`
+	- `lileep > cradily: level-up (level 40)` → `lileep > cradily: level-up (level 30)`
 
-    **Level-up Moves:** `15 moves` → `22 moves`
+	**Abilities Changes:**
+
+	- `suction-cups / storm-drain` → `suction-cups / storm-drain / storm-drain`
+
+	**Level-up Moves Changes:**
+
+	- `15 moves` → `22 moves`
 
 
 ## :material-information: Basic Information
@@ -74,7 +80,7 @@
 
 	---
 
-	**Generation:** Generation Iii
+	**Generation:** Generation III
 
 	**Color:** Green
 
@@ -89,7 +95,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Big Root](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/big-root.png){ .item-sprite } [Big Root](../../pokedex/items/big-root.md) | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Big Root](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/big-root.png){ .item-sprite } [Big Root](../../pokedex/items/big-root.md)</span> | 5% | 5% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 

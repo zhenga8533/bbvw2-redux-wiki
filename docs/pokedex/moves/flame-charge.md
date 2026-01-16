@@ -1,9 +1,11 @@
 # Flame Charge
 
 
-!!! info "ROM Changes
+??? note "Flame Charge ROM Changes"
 
-    **Power:** `50` → `60`
+	**Power Changes:**
+
+	- `50` → `60`
 
 
 ## :material-chart-box: Stats

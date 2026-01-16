@@ -13,11 +13,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Wartortle ROM Changes"
 
-    **Abilities:** `torrent / rain-dish` → `shell-armor / torrent / rain-dish`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `16 moves` → `23 moves`
+	- `torrent / rain-dish` → `shell-armor / torrent / rain-dish`
+
+	**Level-up Moves Changes:**
+
+	- `16 moves` → `23 moves`
 
 
 ## :material-information: Basic Information

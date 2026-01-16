@@ -13,15 +13,23 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Ledian ROM Changes"
 
-    **Base Stats:** `55 HP / 35 Atk / 50 Def / 55 SAtk / 110 SDef / 85 Spd` → `60 HP / 90 Atk / 50 Def / 55 SAtk / 110 SDef / 85 Spd`
+	**Base Stats Changes:**
 
-    **Abilities:** `swarm / early-bird / iron-fist` → `rattled / iron-fist / swarm`
+	- `55 HP / 35 Atk / 50 Def / 55 SAtk / 110 SDef / 85 Spd` → `60 HP / 90 Atk / 50 Def / 55 SAtk / 110 SDef / 85 Spd`
 
-    **Level-up Moves:** `15 moves` → `25 moves`
+	**Abilities Changes:**
 
-    **TM/HM Compatibility:** `32 moves` → `34 moves (added: bug-buzz, fly)`
+	- `swarm / early-bird / iron-fist` → `rattled / iron-fist / swarm`
+
+	**Level-up Moves Changes:**
+
+	- `15 moves` → `25 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `32 moves` → `34 moves (added: bug-buzz, fly)`
 
 
 ## :material-information: Basic Information
@@ -78,7 +86,7 @@
 
 	---
 
-	**Generation:** Generation Ii
+	**Generation:** Generation II
 
 	**Color:** Red
 

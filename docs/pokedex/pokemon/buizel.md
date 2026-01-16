@@ -13,13 +13,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Buizel ROM Changes"
 
-    **Abilities:** `swift-swim / water-veil` → `swift-swim / water-veil / water-veil`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `25 moves` → `22 moves`
+	- `swift-swim / water-veil` → `swift-swim / water-veil / water-veil`
 
-    **TM/HM Compatibility:** `27 moves` → `29 moves (added: wave-crash, cut)`
+	**Level-up Moves Changes:**
+
+	- `25 moves` → `22 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `27 moves` → `29 moves (added: wave-crash, cut)`
 
 
 ## :material-information: Basic Information
@@ -74,7 +80,7 @@
 
 	---
 
-	**Generation:** Generation Iv
+	**Generation:** Generation IV
 
 	**Color:** Brown
 
@@ -89,7 +95,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Wacan Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/wacan-berry.png){ .item-sprite } [Wacan Berry](../../pokedex/items/wacan-berry.md) | 5% | 5% | — | — |
+| <span style="white-space: nowrap;">![Wacan Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/wacan-berry.png){ .item-sprite } [Wacan Berry](../../pokedex/items/wacan-berry.md)</span> | 5% | 5% | — | — |
 
 ## :material-shield-half-full: Type Effectiveness
 
@@ -145,7 +151,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 	**#418 [Buizel](./buizel.md)**
 
-	
+
 
 	***You are here***
 

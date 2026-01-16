@@ -1,9 +1,11 @@
 # Extrasensory
 
 
-!!! info "ROM Changes
+??? note "Extrasensory ROM Changes"
 
-    **Pp:** `20` → `15`
+	**Pp Changes:**
+
+	- `20` → `15`
 
 
 ## :material-chart-box: Stats

@@ -13,13 +13,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Granbull ROM Changes"
 
-    **Type:** `normal` → `fighting / fairy`
+	**Type Changes:**
 
-    **Level-up Moves:** `16 moves` → `25 moves`
+	- `normal` → `fighting / fairy`
 
-    **TM/HM Compatibility:** `48 moves` → `49 moves (added: cut)`
+	**Level-up Moves Changes:**
+
+	- `16 moves` → `25 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `48 moves` → `49 moves (added: cut)`
 
 
 ## :material-information: Basic Information
@@ -74,7 +80,7 @@
 
 	---
 
-	**Generation:** Generation Ii
+	**Generation:** Generation II
 
 	**Color:** Purple
 

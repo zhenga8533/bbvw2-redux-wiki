@@ -1,11 +1,15 @@
 # Hurricane
 
 
-!!! info "ROM Changes
+??? note "Hurricane ROM Changes"
 
-    **Accuracy:** `70` → `80`
+	**Accuracy Changes:**
 
-    **Pp:** `10` → `5`
+	- `70` → `80`
+
+	**Pp Changes:**
+
+	- `10` → `5`
 
 
 ## :material-chart-box: Stats

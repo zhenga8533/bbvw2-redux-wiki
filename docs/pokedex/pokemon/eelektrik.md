@@ -14,11 +14,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Eelektrik ROM Changes"
 
-    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+	**Evolution Chain Changes:**
 
-    **Level-up Moves:** `15 moves` → `18 moves`
+	- `tynamo > eelektrik: level-up (level 39)` → `tynamo > eelektrik: level-up (level 30)`
+
+	**Level-up Moves Changes:**
+
+	- `15 moves` → `18 moves`
 
 
 ## :material-information: Basic Information

@@ -14,11 +14,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Arceus ROM Changes"
 
-    **Level-up Moves:** `14 moves` → `19 moves`
+	**Level-up Moves Changes:**
 
-    **TM/HM Compatibility:** `72 moves` → `74 moves (added: mystical-fire, hurricane)`
+	- `14 moves` → `19 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `72 moves` → `74 moves (added: mystical-fire, hurricane)`
 
 
 ## :material-information: Basic Information
@@ -69,7 +73,7 @@
 
 	---
 
-	**Generation:** Generation Iv
+	**Generation:** Generation IV
 
 	**Color:** White
 

@@ -13,15 +13,23 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Venonat ROM Changes"
 
-    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+	**Evolution Chain Changes:**
 
-    **Base Stats:** `60 HP / 55 Atk / 50 Def / 40 SAtk / 55 SDef / 45 Spd` → `70 HP / 55 Atk / 55 Def / 50 SAtk / 60 SDef / 45 Spd`
+	- `venonat > venomoth: level-up (level 31)` → `venonat > venomoth: level-up (level 28)`
 
-    **Level-up Moves:** `14 moves` → `22 moves`
+	**Base Stats Changes:**
 
-    **TM/HM Compatibility:** `20 moves` → `21 moves (added: bug-buzz)`
+	- `60 HP / 55 Atk / 50 Def / 40 SAtk / 55 SDef / 45 Spd` → `70 HP / 55 Atk / 55 Def / 50 SAtk / 60 SDef / 45 Spd`
+
+	**Level-up Moves Changes:**
+
+	- `14 moves` → `22 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `20 moves` → `21 moves (added: bug-buzz)`
 
 
 ## :material-information: Basic Information
@@ -144,7 +152,7 @@
 
 	**#048 [Venonat](./venonat.md)**
 
-	
+
 
 	***You are here***
 

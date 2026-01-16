@@ -14,15 +14,25 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Escavalier ROM Changes"
 
-    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+	**Evolution Chain Changes:**
 
-    **Abilities:** `swarm / shell-armor / overcoat` → `shell-armor / no-guard / overcoat`
+	- `karrablast > escavalier: trade` → `karrablast > escavalier: use-item (metal-coat)`
 
-    **Level-up Moves:** `18 moves` → `25 moves`
+	- `karrablast > escavalier: use-item (metal-coat)` → `karrablast > escavalier: level-up`
 
-    **TM/HM Compatibility:** `25 moves` → `26 moves (added: gyro-ball)`
+	**Abilities Changes:**
+
+	- `swarm / shell-armor / overcoat` → `shell-armor / no-guard / overcoat`
+
+	**Level-up Moves Changes:**
+
+	- `18 moves` → `25 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `25 moves` → `26 moves (added: gyro-ball)`
 
 
 ## :material-information: Basic Information

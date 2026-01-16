@@ -13,19 +13,31 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Spearow ROM Changes"
 
-    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+	**Evolution Chain Changes:**
 
-    **Base Stats:** `40 HP / 60 Atk / 30 Def / 31 SAtk / 31 SDef / 70 Spd` → `50 HP / 60 Atk / 40 Def / 31 SAtk / 31 SDef / 70 Spd`
+	- `spearow > fearow: level-up (level 20)` → `spearow > fearow: level-up (level 21)`
 
-    **Abilities:** `keen-eye / sniper` → `intimidate / sniper / sniper`
+	**Base Stats Changes:**
 
-    **Type:** `normal / flying` → `flying`
+	- `40 HP / 60 Atk / 30 Def / 31 SAtk / 31 SDef / 70 Spd` → `50 HP / 60 Atk / 40 Def / 31 SAtk / 31 SDef / 70 Spd`
 
-    **Level-up Moves:** `11 moves` → `19 moves`
+	**Abilities Changes:**
 
-    **TM/HM Compatibility:** `22 moves` → `24 moves (added: taunt, hurricane)`
+	- `keen-eye / sniper` → `intimidate / sniper / sniper`
+
+	**Type Changes:**
+
+	- `normal / flying` → `flying`
+
+	**Level-up Moves Changes:**
+
+	- `11 moves` → `19 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `22 moves` → `24 moves (added: taunt, hurricane)`
 
 
 ## :material-information: Basic Information
@@ -152,7 +164,7 @@
 
 	**#021 [Spearow](./spearow.md)**
 
-	
+
 
 	***You are here***
 

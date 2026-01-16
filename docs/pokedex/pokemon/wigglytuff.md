@@ -13,15 +13,23 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Wigglytuff ROM Changes"
 
-    **Base Stats:** `140 HP / 70 Atk / 45 Def / 75 SAtk / 50 SDef / 45 Spd` → `140 HP / 60 Atk / 45 Def / 95 SAtk / 50 SDef / 45 Spd`
+	**Base Stats Changes:**
 
-    **Abilities:** `cute-charm / frisk` → `huge-power / friend-guard / frisk`
+	- `140 HP / 70 Atk / 45 Def / 75 SAtk / 50 SDef / 45 Spd` → `140 HP / 60 Atk / 45 Def / 95 SAtk / 50 SDef / 45 Spd`
 
-    **Level-up Moves:** `4 moves` → `10 moves`
+	**Abilities Changes:**
 
-    **TM/HM Compatibility:** `45 moves` → `47 moves (added: low-sweep, power-gem)`
+	- `cute-charm / frisk` → `huge-power / friend-guard / frisk`
+
+	**Level-up Moves Changes:**
+
+	- `4 moves` → `10 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `45 moves` → `47 moves (added: low-sweep, power-gem)`
 
 
 ## :material-information: Basic Information

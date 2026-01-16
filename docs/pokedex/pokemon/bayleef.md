@@ -13,15 +13,23 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Bayleef ROM Changes"
 
-    **Abilities:** `overgrow / leaf-guard` → `serene-grace / overgrow / leaf-guard`
+	**Abilities Changes:**
 
-    **Type:** `grass` → `grass / fairy`
+	- `overgrow / leaf-guard` → `serene-grace / overgrow / leaf-guard`
 
-    **Level-up Moves:** `16 moves` → `21 moves`
+	**Type Changes:**
 
-    **TM/HM Compatibility:** `25 moves` → `26 moves (added: dazzling-gleam)`
+	- `grass` → `grass / fairy`
+
+	**Level-up Moves Changes:**
+
+	- `16 moves` → `21 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `25 moves` → `26 moves (added: dazzling-gleam)`
 
 
 ## :material-information: Basic Information
@@ -76,7 +84,7 @@
 
 	---
 
-	**Generation:** Generation Ii
+	**Generation:** Generation II
 
 	**Color:** Green
 

@@ -13,17 +13,27 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Probopass ROM Changes"
 
-    **Base Stats:** `60 HP / 55 Atk / 145 Def / 75 SAtk / 150 SDef / 40 Spd` → `70 HP / 50 Atk / 135 Def / 90 SAtk / 140 SDef / 40 Spd`
+	**Base Stats Changes:**
 
-    **Abilities:** `sturdy / magnet-pull / sand-force` → `sturdy / clear-body / magnet-pull`
+	- `60 HP / 55 Atk / 145 Def / 75 SAtk / 150 SDef / 40 Spd` → `70 HP / 50 Atk / 135 Def / 90 SAtk / 140 SDef / 40 Spd`
 
-    **Type:** `rock / steel` → `rock / electric`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `34 moves` → `21 moves`
+	- `sturdy / magnet-pull / sand-force` → `sturdy / clear-body / magnet-pull`
 
-    **TM/HM Compatibility:** `33 moves` → `36 moves (added: energy-ball, charge-beam, power-gem)`
+	**Type Changes:**
+
+	- `rock / steel` → `rock / electric`
+
+	**Level-up Moves Changes:**
+
+	- `34 moves` → `21 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `33 moves` → `36 moves (added: energy-ball, charge-beam, power-gem)`
 
 
 ## :material-information: Basic Information
@@ -76,7 +86,7 @@
 
 	---
 
-	**Generation:** Generation Iv
+	**Generation:** Generation IV
 
 	**Color:** Gray
 
@@ -91,7 +101,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Hard Stone](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hard-stone.png){ .item-sprite } [Hard Stone](../../pokedex/items/hard-stone.md) | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Hard Stone](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hard-stone.png){ .item-sprite } [Hard Stone](../../pokedex/items/hard-stone.md)</span> | 5% | 5% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 

@@ -13,17 +13,27 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Meganium ROM Changes"
 
-    **Base Stats:** `80 HP / 82 Atk / 100 Def / 83 SAtk / 100 SDef / 80 Spd` → `80 HP / 82 Atk / 100 Def / 93 SAtk / 100 SDef / 80 Spd`
+	**Base Stats Changes:**
 
-    **Abilities:** `overgrow / leaf-guard` → `serene-grace / overgrow / leaf-guard`
+	- `80 HP / 82 Atk / 100 Def / 83 SAtk / 100 SDef / 80 Spd` → `80 HP / 82 Atk / 100 Def / 93 SAtk / 100 SDef / 80 Spd`
 
-    **Type:** `grass` → `grass / fairy`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `17 moves` → `24 moves`
+	- `overgrow / leaf-guard` → `serene-grace / overgrow / leaf-guard`
 
-    **TM/HM Compatibility:** `30 moves` → `32 moves (added: dazzling-gleam, play-rough)`
+	**Type Changes:**
+
+	- `grass` → `grass / fairy`
+
+	**Level-up Moves Changes:**
+
+	- `17 moves` → `24 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `30 moves` → `32 moves (added: dazzling-gleam, play-rough)`
 
 
 ## :material-information: Basic Information
@@ -80,7 +90,7 @@
 
 	---
 
-	**Generation:** Generation Ii
+	**Generation:** Generation II
 
 	**Color:** Green
 

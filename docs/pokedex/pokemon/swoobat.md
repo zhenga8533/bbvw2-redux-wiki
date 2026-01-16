@@ -14,17 +14,27 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Swoobat ROM Changes"
 
-    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+	**Evolution Chain Changes:**
 
-    **Base Stats:** `67 HP / 57 Atk / 55 Def / 77 SAtk / 55 SDef / 114 Spd` → `70 HP / 57 Atk / 63 Def / 86 SAtk / 75 SDef / 114 Spd`
+	- `woobat > swoobat: level-up (happiness)` → `woobat > swoobat: level-up (level 25)`
 
-    **Abilities:** `unaware / klutz / simple` → `unaware / simple / simple`
+	**Base Stats Changes:**
 
-    **Level-up Moves:** `17 moves` → `24 moves`
+	- `67 HP / 57 Atk / 55 Def / 77 SAtk / 55 SDef / 114 Spd` → `70 HP / 57 Atk / 63 Def / 86 SAtk / 75 SDef / 114 Spd`
 
-    **TM/HM Compatibility:** `40 moves` → `42 moves (added: mystical-fire, hurricane)`
+	**Abilities Changes:**
+
+	- `unaware / klutz / simple` → `unaware / simple / simple`
+
+	**Level-up Moves Changes:**
+
+	- `17 moves` → `24 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `40 moves` → `42 moves (added: mystical-fire, hurricane)`
 
 
 ## :material-information: Basic Information

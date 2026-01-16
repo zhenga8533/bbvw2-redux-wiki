@@ -14,15 +14,23 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Galvantula ROM Changes"
 
-    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+	**Evolution Chain Changes:**
 
-    **Base Stats:** `70 HP / 77 Atk / 60 Def / 97 SAtk / 60 SDef / 108 Spd` → `70 HP / 92 Atk / 60 Def / 103 SAtk / 60 SDef / 108 Spd`
+	- `joltik > galvantula: level-up (level 36)` → `joltik > galvantula: level-up (level 39)`
 
-    **Level-up Moves:** `17 moves` → `25 moves`
+	**Base Stats Changes:**
 
-    **TM/HM Compatibility:** `29 moves` → `31 moves (added: bug-buzz, rock-climb)`
+	- `70 HP / 77 Atk / 60 Def / 97 SAtk / 60 SDef / 108 Spd` → `70 HP / 92 Atk / 60 Def / 103 SAtk / 60 SDef / 108 Spd`
+
+	**Level-up Moves Changes:**
+
+	- `17 moves` → `25 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `29 moves` → `31 moves (added: bug-buzz, rock-climb)`
 
 
 ## :material-information: Basic Information

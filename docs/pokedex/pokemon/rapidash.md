@@ -13,17 +13,27 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Rapidash ROM Changes"
 
-    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+	**Evolution Chain Changes:**
 
-    **Abilities:** `run-away / flash-fire / flame-body` → `flame-body / flame-body`
+	- `ponyta > rapidash: level-up (level 40)` → `ponyta > rapidash: level-up (level 35)`
 
-    **Type:** `fire` → `fire / fairy`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `19 moves` → `24 moves`
+	- `run-away / flash-fire / flame-body` → `flame-body / flame-body`
 
-    **TM/HM Compatibility:** `26 moves` → `27 moves (added: low-sweep)`
+	**Type Changes:**
+
+	- `fire` → `fire / fairy`
+
+	**Level-up Moves Changes:**
+
+	- `19 moves` → `24 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `26 moves` → `27 moves (added: low-sweep)`
 
 
 ## :material-information: Basic Information
@@ -92,7 +102,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Shuca Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/shuca-berry.png){ .item-sprite } [Shuca Berry](../../pokedex/items/shuca-berry.md) | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Shuca Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/shuca-berry.png){ .item-sprite } [Shuca Berry](../../pokedex/items/shuca-berry.md)</span> | 5% | 5% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 

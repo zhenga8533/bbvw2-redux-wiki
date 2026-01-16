@@ -13,11 +13,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Forretress ROM Changes"
 
-    **Abilities:** `sturdy / overcoat` → `sturdy / overcoat / overcoat`
+	**Abilities Changes:**
 
-    **TM/HM Compatibility:** `34 moves` → `35 moves (added: bug-buzz)`
+	- `sturdy / overcoat` → `sturdy / overcoat / overcoat`
+
+	**TM/HM Compatibility Changes:**
+
+	- `34 moves` → `35 moves (added: bug-buzz)`
 
 
 ## :material-information: Basic Information
@@ -72,7 +76,7 @@
 
 	---
 
-	**Generation:** Generation Ii
+	**Generation:** Generation II
 
 	**Color:** Purple
 

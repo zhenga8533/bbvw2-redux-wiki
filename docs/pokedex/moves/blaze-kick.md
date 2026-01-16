@@ -1,9 +1,11 @@
 # Blaze Kick
 
 
-!!! info "ROM Changes
+??? note "Blaze Kick ROM Changes"
 
-    **Accuracy:** `90` → `100`
+	**Accuracy Changes:**
+
+	- `90` → `100`
 
 
 ## :material-chart-box: Stats

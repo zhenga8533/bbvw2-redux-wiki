@@ -13,13 +13,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Infernape ROM Changes"
 
-    **Base Stats:** `76 HP / 104 Atk / 71 Def / 104 SAtk / 71 SDef / 108 Spd` → `76 HP / 104 Atk / 71 Def / 104 SAtk / 71 SDef / 109 Spd`
+	**Base Stats Changes:**
 
-    **Abilities:** `blaze / iron-fist` → `iron-fist / blaze / iron-fist`
+	- `76 HP / 104 Atk / 71 Def / 104 SAtk / 71 SDef / 108 Spd` → `76 HP / 104 Atk / 71 Def / 104 SAtk / 71 SDef / 109 Spd`
 
-    **Level-up Moves:** `16 moves` → `25 moves`
+	**Abilities Changes:**
+
+	- `blaze / iron-fist` → `iron-fist / blaze / iron-fist`
+
+	**Level-up Moves Changes:**
+
+	- `16 moves` → `25 moves`
 
 
 ## :material-information: Basic Information
@@ -72,7 +78,7 @@
 
 	---
 
-	**Generation:** Generation Iv
+	**Generation:** Generation IV
 
 	**Color:** Brown
 

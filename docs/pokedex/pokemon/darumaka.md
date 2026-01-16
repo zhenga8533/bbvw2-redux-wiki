@@ -14,11 +14,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Darumaka ROM Changes"
 
-    **Abilities:** `hustle / inner-focus` → `sheer-force / sheer-force / inner-focus`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `16 moves` → `18 moves`
+	- `hustle / inner-focus` → `sheer-force / sheer-force / inner-focus`
+
+	**Level-up Moves Changes:**
+
+	- `16 moves` → `18 moves`
 
 
 ## :material-information: Basic Information
@@ -86,7 +90,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Rawst Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/rawst-berry.png){ .item-sprite } [Rawst Berry](../../pokedex/items/rawst-berry.md) | 50% | 50% | 50% | 50% |
+| <span style="white-space: nowrap;">![Rawst Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/rawst-berry.png){ .item-sprite } [Rawst Berry](../../pokedex/items/rawst-berry.md)</span> | 50% | 50% | 50% | 50% |
 
 ## :material-shield-half-full: Type Effectiveness
 
@@ -142,7 +146,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 	**#554 [Darumaka](./darumaka.md)**
 
-	
+
 
 	***You are here***
 

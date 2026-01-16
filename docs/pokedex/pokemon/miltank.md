@@ -13,11 +13,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Miltank ROM Changes"
 
-    **Level-up Moves:** `13 moves` → `24 moves`
+	**Level-up Moves Changes:**
 
-    **TM/HM Compatibility:** `39 moves` → `40 moves (added: low-sweep)`
+	- `13 moves` → `24 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `39 moves` → `40 moves (added: low-sweep)`
 
 
 ## :material-information: Basic Information
@@ -72,7 +76,7 @@
 
 	---
 
-	**Generation:** Generation Ii
+	**Generation:** Generation II
 
 	**Color:** Pink
 
@@ -87,7 +91,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Moomoo Milk](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/moomoo-milk.png){ .item-sprite } [Moomoo Milk](../../pokedex/items/moomoo-milk.md) | 100% | 100% | 100% | 100% |
+| <span style="white-space: nowrap;">![Moomoo Milk](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/moomoo-milk.png){ .item-sprite } [Moomoo Milk](../../pokedex/items/moomoo-milk.md)</span> | 100% | 100% | 100% | 100% |
 
 ## :material-shield-half-full: Type Effectiveness
 

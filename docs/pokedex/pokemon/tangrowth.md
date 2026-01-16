@@ -13,11 +13,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Tangrowth ROM Changes"
 
-    **Abilities:** `chlorophyll / leaf-guard / regenerator` → `regenerator / leaf-guard / regenerator`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `34 moves` → `25 moves`
+	- `chlorophyll / leaf-guard / regenerator` → `regenerator / leaf-guard / regenerator`
+
+	**Level-up Moves Changes:**
+
+	- `34 moves` → `25 moves`
 
 
 ## :material-information: Basic Information
@@ -72,7 +76,7 @@
 
 	---
 
-	**Generation:** Generation Iv
+	**Generation:** Generation IV
 
 	**Color:** Blue
 

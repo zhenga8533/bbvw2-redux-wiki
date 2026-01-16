@@ -14,13 +14,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Sewaddle ROM Changes"
 
-    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+	**Evolution Chain Changes:**
 
-    **Level-up Moves:** `8 moves` → `13 moves`
+	- `sewaddle > swadloon: level-up (level 20)` → `sewaddle > swadloon: level-up (level 21)`
 
-    **TM/HM Compatibility:** `24 moves` → `25 moves (added: hone-claws)`
+	**Level-up Moves Changes:**
+
+	- `8 moves` → `13 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `24 moves` → `25 moves (added: hone-claws)`
 
 
 ## :material-information: Basic Information
@@ -88,7 +94,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Mental Herb](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/mental-herb.png){ .item-sprite } [Mental Herb](../../pokedex/items/mental-herb.md) | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Mental Herb](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/mental-herb.png){ .item-sprite } [Mental Herb](../../pokedex/items/mental-herb.md)</span> | 5% | 5% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 
@@ -154,7 +160,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 	**#540 [Sewaddle](./sewaddle.md)**
 
-	
+
 
 	***You are here***
 

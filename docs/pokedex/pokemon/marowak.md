@@ -13,15 +13,23 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Marowak ROM Changes"
 
-    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+	**Evolution Chain Changes:**
 
-    **Abilities:** `rock-head / lightning-rod / battle-armor` → `battle-armor / lightning-rod / rock-head`
+	- `cubone > marowak: level-up (level 28)` → `cubone > marowak: level-up (level 27)`
 
-    **Level-up Moves:** `18 moves` → `24 moves`
+	**Abilities Changes:**
 
-    **TM/HM Compatibility:** `39 moves` → `40 moves (added: low-sweep)`
+	- `rock-head / lightning-rod / battle-armor` → `battle-armor / lightning-rod / rock-head`
+
+	**Level-up Moves Changes:**
+
+	- `18 moves` → `24 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `39 moves` → `40 moves (added: low-sweep)`
 
 
 ## :material-information: Basic Information
@@ -91,7 +99,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Thick Club](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/thick-club.png){ .item-sprite } [Thick Club](../../pokedex/items/thick-club.md) | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Thick Club](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/thick-club.png){ .item-sprite } [Thick Club](../../pokedex/items/thick-club.md)</span> | 5% | 5% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 

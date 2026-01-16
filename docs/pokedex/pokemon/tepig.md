@@ -14,11 +14,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Tepig ROM Changes"
 
-    **Abilities:** `blaze / thick-fat` → `sheer-force / blaze / sheer-force`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `15 moves` → `18 moves`
+	- `blaze / thick-fat` → `sheer-force / blaze / sheer-force`
+
+	**Level-up Moves Changes:**
+
+	- `15 moves` → `18 moves`
 
 
 ## :material-information: Basic Information
@@ -134,7 +138,7 @@
 
 	**#498 [Tepig](./tepig.md)**
 
-	
+
 
 	***You are here***
 

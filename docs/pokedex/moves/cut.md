@@ -1,9 +1,11 @@
 # Cut
 
 
-!!! info "ROM Changes
+??? note "Cut ROM Changes"
 
-    **Type:** `normal` → `grass`
+	**Type Changes:**
+
+	- `normal` → `grass`
 
 
 ## :material-chart-box: Stats

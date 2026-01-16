@@ -13,15 +13,23 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Kricketune ROM Changes"
 
-    **Base Stats:** `77 HP / 85 Atk / 51 Def / 55 SAtk / 51 SDef / 65 Spd` → `75 HP / 95 Atk / 57 Def / 71 SAtk / 57 SDef / 70 Spd`
+	**Base Stats Changes:**
 
-    **Abilities:** `swarm / technician` → `technician / soundproof / swarm`
+	- `77 HP / 85 Atk / 51 Def / 55 SAtk / 51 SDef / 65 Spd` → `75 HP / 95 Atk / 57 Def / 71 SAtk / 57 SDef / 70 Spd`
 
-    **Level-up Moves:** `13 moves` → `22 moves`
+	**Abilities Changes:**
 
-    **TM/HM Compatibility:** `29 moves` → `32 moves (added: low-sweep, bug-buzz, snarl)`
+	- `swarm / technician` → `technician / soundproof / swarm`
+
+	**Level-up Moves Changes:**
+
+	- `13 moves` → `22 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `29 moves` → `32 moves (added: low-sweep, bug-buzz, snarl)`
 
 
 ## :material-information: Basic Information
@@ -76,7 +84,7 @@
 
 	---
 
-	**Generation:** Generation Iv
+	**Generation:** Generation IV
 
 	**Color:** Red
 
@@ -91,7 +99,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Metronome](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/metronome.png){ .item-sprite } [Metronome](../../pokedex/items/metronome.md) | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Metronome](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/metronome.png){ .item-sprite } [Metronome](../../pokedex/items/metronome.md)</span> | 5% | 5% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 

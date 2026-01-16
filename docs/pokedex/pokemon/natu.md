@@ -13,11 +13,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Natu ROM Changes"
 
-    **Abilities:** `synchronize / early-bird / magic-bounce` → `synchronize / magic-bounce / magic-bounce`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `16 moves` → `20 moves`
+	- `synchronize / early-bird / magic-bounce` → `synchronize / magic-bounce / magic-bounce`
+
+	**Level-up Moves Changes:**
+
+	- `16 moves` → `20 moves`
 
 
 ## :material-information: Basic Information
@@ -72,7 +76,7 @@
 
 	---
 
-	**Generation:** Generation Ii
+	**Generation:** Generation II
 
 	**Color:** Green
 
@@ -149,7 +153,7 @@
 
 	**#177 [Natu](./natu.md)**
 
-	
+
 
 	***You are here***
 

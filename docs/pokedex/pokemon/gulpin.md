@@ -13,9 +13,11 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Gulpin ROM Changes"
 
-    **Level-up Moves:** `15 moves` → `23 moves`
+	**Level-up Moves Changes:**
+
+	- `15 moves` → `23 moves`
 
 
 ## :material-information: Basic Information
@@ -72,7 +74,7 @@
 
 	---
 
-	**Generation:** Generation Iii
+	**Generation:** Generation III
 
 	**Color:** Green
 
@@ -87,7 +89,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Big Pearl](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/big-pearl.png){ .item-sprite } [Big Pearl](../../pokedex/items/big-pearl.md) | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Big Pearl](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/big-pearl.png){ .item-sprite } [Big Pearl](../../pokedex/items/big-pearl.md)</span> | 5% | 5% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 
@@ -143,7 +145,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 	**#316 [Gulpin](./gulpin.md)**
 
-	
+
 
 	***You are here***
 

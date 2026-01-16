@@ -1,9 +1,11 @@
 # Charge Beam
 
 
-!!! info "ROM Changes
+??? note "Charge Beam ROM Changes"
 
-    **Pp:** `10` → `15`
+	**Pp Changes:**
+
+	- `10` → `15`
 
 
 ## :material-chart-box: Stats

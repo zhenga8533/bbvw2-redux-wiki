@@ -1,9 +1,11 @@
 # Magma Storm
 
 
-!!! info "ROM Changes
+??? note "Magma Storm ROM Changes"
 
-    **Power:** `100` → `120`
+	**Power Changes:**
+
+	- `100` → `120`
 
 
 ## :material-chart-box: Stats

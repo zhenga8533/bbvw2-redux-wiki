@@ -13,13 +13,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Drifloon ROM Changes"
 
-    **Abilities:** `aftermath / unburden / flare-boost` → `flare-boost / unburden / aftermath`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `27 moves` → `21 moves`
+	- `aftermath / unburden / flare-boost` → `flare-boost / unburden / aftermath`
 
-    **TM/HM Compatibility:** `33 moves` → `34 moves (added: hurricane)`
+	**Level-up Moves Changes:**
+
+	- `27 moves` → `21 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `33 moves` → `34 moves (added: hurricane)`
 
 
 ## :material-information: Basic Information
@@ -72,7 +78,7 @@
 
 	---
 
-	**Generation:** Generation Iv
+	**Generation:** Generation IV
 
 	**Color:** Purple
 
@@ -149,7 +155,7 @@
 
 	**#425 [Drifloon](./drifloon.md)**
 
-	
+
 
 	***You are here***
 

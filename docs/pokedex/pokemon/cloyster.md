@@ -13,11 +13,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Cloyster ROM Changes"
 
-    **Level-up Moves:** `8 moves` → `13 moves`
+	**Level-up Moves Changes:**
 
-    **TM/HM Compatibility:** `25 moves` → `26 moves (added: waterfall)`
+	- `8 moves` → `13 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `25 moves` → `26 moves (added: waterfall)`
 
 
 ## :material-information: Basic Information
@@ -87,8 +91,8 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Big Pearl](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/big-pearl.png){ .item-sprite } [Big Pearl](../../pokedex/items/big-pearl.md) | 5% | 5% | 5% | 5% |
-| ![Pearl](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/pearl.png){ .item-sprite } [Pearl](../../pokedex/items/pearl.md) | 50% | 50% | 50% | 50% |
+| <span style="white-space: nowrap;">![Big Pearl](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/big-pearl.png){ .item-sprite } [Big Pearl](../../pokedex/items/big-pearl.md)</span> | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Pearl](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/pearl.png){ .item-sprite } [Pearl](../../pokedex/items/pearl.md)</span> | 50% | 50% | 50% | 50% |
 
 ## :material-shield-half-full: Type Effectiveness
 

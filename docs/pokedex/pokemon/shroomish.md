@@ -13,11 +13,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Shroomish ROM Changes"
 
-    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+	**Evolution Chain Changes:**
 
-    **Level-up Moves:** `12 moves` → `23 moves`
+	- `shroomish > breloom: level-up (level 23)` → `shroomish > breloom: level-up (level 21)`
+
+	**Level-up Moves Changes:**
+
+	- `12 moves` → `23 moves`
 
 
 ## :material-information: Basic Information
@@ -72,7 +76,7 @@
 
 	---
 
-	**Generation:** Generation Iii
+	**Generation:** Generation III
 
 	**Color:** Brown
 
@@ -87,7 +91,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Kebia Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/kebia-berry.png){ .item-sprite } [Kebia Berry](../../pokedex/items/kebia-berry.md) | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Kebia Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/kebia-berry.png){ .item-sprite } [Kebia Berry](../../pokedex/items/kebia-berry.md)</span> | 5% | 5% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 
@@ -143,7 +147,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 	**#285 [Shroomish](./shroomish.md)**
 
-	
+
 
 	***You are here***
 

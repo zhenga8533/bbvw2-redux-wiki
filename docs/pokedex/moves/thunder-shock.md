@@ -1,9 +1,11 @@
 # Thunder Shock
 
 
-!!! info "ROM Changes
+??? note "Thunder Shock ROM Changes"
 
-    **Pp:** `30` → `25`
+	**Pp Changes:**
+
+	- `30` → `25`
 
 
 ## :material-chart-box: Stats

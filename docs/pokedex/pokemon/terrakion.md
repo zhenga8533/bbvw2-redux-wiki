@@ -15,11 +15,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Terrakion ROM Changes"
 
-    **Level-up Moves:** `14 moves` → `21 moves`
+	**Level-up Moves Changes:**
 
-    **TM/HM Compatibility:** `38 moves` → `40 moves (added: low-sweep, rock-climb)`
+	- `14 moves` → `21 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `38 moves` → `40 moves (added: low-sweep, rock-climb)`
 
 
 ## :material-information: Basic Information

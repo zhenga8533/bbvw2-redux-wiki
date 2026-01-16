@@ -14,15 +14,23 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Lampent ROM Changes"
 
-    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+	**Evolution Chain Changes:**
 
-    **Abilities:** `shadow tag / flame-body / infiltrator` → `flash-fire / flame-body / infiltrator`
+	- `litwick > lampent: level-up (level 41)` → `litwick > lampent: level-up (level 27)`
 
-    **Level-up Moves:** `19 moves` → `25 moves`
+	**Abilities Changes:**
 
-    **TM/HM Compatibility:** `34 moves` → `35 moves (added: mystical-fire)`
+	- `shadow tag / flame-body / infiltrator` → `flash-fire / flame-body / infiltrator`
+
+	**Level-up Moves Changes:**
+
+	- `19 moves` → `25 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `34 moves` → `35 moves (added: mystical-fire)`
 
 
 ## :material-information: Basic Information

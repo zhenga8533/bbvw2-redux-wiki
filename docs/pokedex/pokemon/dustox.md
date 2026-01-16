@@ -13,15 +13,23 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Dustox ROM Changes"
 
-    **Base Stats:** `60 HP / 50 Atk / 70 Def / 50 SAtk / 90 SDef / 65 Spd` → `60 HP / 50 Atk / 80 Def / 80 SAtk / 110 SDef / 80 Spd`
+	**Base Stats Changes:**
 
-    **Abilities:** `shield-dust / compound-eyes` → `compound-eyes / shield-dust / compound-eyes`
+	- `60 HP / 50 Atk / 70 Def / 50 SAtk / 90 SDef / 65 Spd` → `60 HP / 50 Atk / 80 Def / 80 SAtk / 110 SDef / 80 Spd`
 
-    **Level-up Moves:** `12 moves` → `16 moves`
+	**Abilities Changes:**
 
-    **TM/HM Compatibility:** `28 moves` → `30 moves (added: hurricane, fly)`
+	- `shield-dust / compound-eyes` → `compound-eyes / shield-dust / compound-eyes`
+
+	**Level-up Moves Changes:**
+
+	- `12 moves` → `16 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `28 moves` → `30 moves (added: hurricane, fly)`
 
 
 ## :material-information: Basic Information
@@ -78,7 +86,7 @@
 
 	---
 
-	**Generation:** Generation Iii
+	**Generation:** Generation III
 
 	**Color:** Green
 
@@ -93,7 +101,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Shed Shell](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/shed-shell.png){ .item-sprite } [Shed Shell](../../pokedex/items/shed-shell.md) | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Shed Shell](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/shed-shell.png){ .item-sprite } [Shed Shell](../../pokedex/items/shed-shell.md)</span> | 5% | 5% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 

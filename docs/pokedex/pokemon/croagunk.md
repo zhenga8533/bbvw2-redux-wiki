@@ -13,13 +13,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Croagunk ROM Changes"
 
-    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+	**Evolution Chain Changes:**
 
-    **Abilities:** `anticipation / dry-skin / poison-touch` → `poison-touch / dry-skin / poison-touch`
+	- `croagunk > toxicroak: level-up (level 37)` → `croagunk > toxicroak: level-up (level 33)`
 
-    **Level-up Moves:** `15 moves` → `20 moves`
+	**Abilities Changes:**
+
+	- `anticipation / dry-skin / poison-touch` → `poison-touch / dry-skin / poison-touch`
+
+	**Level-up Moves Changes:**
+
+	- `15 moves` → `20 moves`
 
 
 ## :material-information: Basic Information
@@ -74,7 +80,7 @@
 
 	---
 
-	**Generation:** Generation Iv
+	**Generation:** Generation IV
 
 	**Color:** Blue
 
@@ -89,7 +95,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Black Sludge](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/black-sludge.png){ .item-sprite } [Black Sludge](../../pokedex/items/black-sludge.md) | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Black Sludge](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/black-sludge.png){ .item-sprite } [Black Sludge](../../pokedex/items/black-sludge.md)</span> | 5% | 5% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 
@@ -155,7 +161,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 	**#453 [Croagunk](./croagunk.md)**
 
-	
+
 
 	***You are here***
 

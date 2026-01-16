@@ -13,11 +13,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Wobbuffet ROM Changes"
 
-    **Abilities:** `shadow-tag / telepathy` → `shadow-tag / telepathy / telepathy`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `4 moves` → `7 moves`
+	- `shadow-tag / telepathy` → `shadow-tag / telepathy / telepathy`
+
+	**Level-up Moves Changes:**
+
+	- `4 moves` → `7 moves`
 
 
 ## :material-information: Basic Information
@@ -74,7 +78,7 @@
 
 	---
 
-	**Generation:** Generation Ii
+	**Generation:** Generation II
 
 	**Color:** Blue
 

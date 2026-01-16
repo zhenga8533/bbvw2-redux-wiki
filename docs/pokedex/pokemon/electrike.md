@@ -13,11 +13,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Electrike ROM Changes"
 
-    **Abilities:** `static / lightning-rod / minus` → `intimidate / static / lightning-rod`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `14 moves` → `21 moves`
+	- `static / lightning-rod / minus` → `intimidate / static / lightning-rod`
+
+	**Level-up Moves Changes:**
+
+	- `14 moves` → `21 moves`
 
 
 ## :material-information: Basic Information
@@ -72,7 +76,7 @@
 
 	---
 
-	**Generation:** Generation Iii
+	**Generation:** Generation III
 
 	**Color:** Green
 
@@ -135,7 +139,7 @@
 
 	**#309 [Electrike](./electrike.md)**
 
-	
+
 
 	***You are here***
 

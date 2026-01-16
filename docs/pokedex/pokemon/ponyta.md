@@ -13,15 +13,23 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Ponyta ROM Changes"
 
-    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+	**Evolution Chain Changes:**
 
-    **Abilities:** `run-away / flash-fire / flame-body` → `flame-body / flame-body`
+	- `ponyta > rapidash: level-up (level 40)` → `ponyta > rapidash: level-up (level 35)`
 
-    **Level-up Moves:** `14 moves` → `23 moves`
+	**Abilities Changes:**
 
-    **TM/HM Compatibility:** `23 moves` → `24 moves (added: low-sweep)`
+	- `run-away / flash-fire / flame-body` → `flame-body / flame-body`
+
+	**Level-up Moves Changes:**
+
+	- `14 moves` → `23 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `23 moves` → `24 moves (added: low-sweep)`
 
 
 ## :material-information: Basic Information
@@ -90,7 +98,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Shuca Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/shuca-berry.png){ .item-sprite } [Shuca Berry](../../pokedex/items/shuca-berry.md) | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Shuca Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/shuca-berry.png){ .item-sprite } [Shuca Berry](../../pokedex/items/shuca-berry.md)</span> | 5% | 5% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 
@@ -146,7 +154,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 	**#077 [Ponyta](./ponyta.md)**
 
-	
+
 
 	***You are here***
 

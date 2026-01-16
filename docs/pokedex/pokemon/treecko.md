@@ -13,11 +13,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Treecko ROM Changes"
 
-    **Abilities:** `overgrow / unburden` → `unburden / overgrow / unburden`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `12 moves` → `19 moves`
+	- `overgrow / unburden` → `unburden / overgrow / unburden`
+
+	**Level-up Moves Changes:**
+
+	- `12 moves` → `19 moves`
 
 
 ## :material-information: Basic Information
@@ -72,7 +76,7 @@
 
 	---
 
-	**Generation:** Generation Iii
+	**Generation:** Generation III
 
 	**Color:** Green
 
@@ -135,7 +139,7 @@
 
 	**#252 [Treecko](./treecko.md)**
 
-	
+
 
 	***You are here***
 

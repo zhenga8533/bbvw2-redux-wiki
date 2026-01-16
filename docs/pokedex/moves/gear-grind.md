@@ -1,13 +1,19 @@
 # Gear Grind
 
 
-!!! info "ROM Changes
+??? note "Gear Grind ROM Changes"
 
-    **Power:** `50` → `65`
+	**Power Changes:**
 
-    **Accuracy:** `85` → `95`
+	- `50` → `65`
 
-    **Pp:** `15` → `10`
+	**Accuracy Changes:**
+
+	- `85` → `95`
+
+	**Pp Changes:**
+
+	- `15` → `10`
 
 
 ## :material-chart-box: Stats

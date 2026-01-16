@@ -14,13 +14,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Durant ROM Changes"
 
-    **Abilities:** `swarm / hustle / truant` → `heatproof / hustle / truant`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `15 moves` → `20 moves`
+	- `swarm / hustle / truant` → `heatproof / hustle / truant`
 
-    **TM/HM Compatibility:** `31 moves` → `35 moves (added: low-sweep, bug-buzz, work-up, rock-climb)`
+	**Level-up Moves Changes:**
+
+	- `15 moves` → `20 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `31 moves` → `35 moves (added: low-sweep, bug-buzz, work-up, rock-climb)`
 
 
 ## :material-information: Basic Information

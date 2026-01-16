@@ -13,11 +13,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Nidorina ROM Changes"
 
-    **Abilities:** `poison-point / rivalry / hustle` → `hustle / poison-point / rivalry`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `13 moves` → `21 moves`
+	- `poison-point / rivalry / hustle` → `hustle / poison-point / rivalry`
+
+	**Level-up Moves Changes:**
+
+	- `13 moves` → `21 moves`
 
 
 ## :material-information: Basic Information

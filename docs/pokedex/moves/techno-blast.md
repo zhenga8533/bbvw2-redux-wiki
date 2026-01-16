@@ -1,9 +1,11 @@
 # Techno Blast
 
 
-!!! info "ROM Changes
+??? note "Techno Blast ROM Changes"
 
-    **Power:** `120` → `140`
+	**Power Changes:**
+
+	- `120` → `140`
 
 
 ## :material-chart-box: Stats

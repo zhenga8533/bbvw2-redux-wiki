@@ -13,11 +13,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Wurmple ROM Changes"
 
-    **Abilities:** `shield-dust / run-away` → `shield-dust / run-away / run-away`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `4 moves` → `5 moves`
+	- `shield-dust / run-away` → `shield-dust / run-away / run-away`
+
+	**Level-up Moves Changes:**
+
+	- `4 moves` → `5 moves`
 
 
 ## :material-information: Basic Information
@@ -72,7 +76,7 @@
 
 	---
 
-	**Generation:** Generation Iii
+	**Generation:** Generation III
 
 	**Color:** Red
 
@@ -135,7 +139,7 @@
 
 	**#265 [Wurmple](./wurmple.md)**
 
-	
+
 
 	***You are here***
 

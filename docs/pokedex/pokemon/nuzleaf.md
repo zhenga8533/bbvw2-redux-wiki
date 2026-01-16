@@ -13,11 +13,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Nuzleaf ROM Changes"
 
-    **Abilities:** `chlorophyll / early-bird / pickpocket` → `chlorophyll / rattled / early-bird`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `11 moves` → `24 moves`
+	- `chlorophyll / early-bird / pickpocket` → `chlorophyll / rattled / early-bird`
+
+	**Level-up Moves Changes:**
+
+	- `11 moves` → `24 moves`
 
 
 ## :material-information: Basic Information
@@ -74,7 +78,7 @@
 
 	---
 
-	**Generation:** Generation Iii
+	**Generation:** Generation III
 
 	**Color:** Brown
 

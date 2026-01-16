@@ -13,15 +13,23 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Zangoose ROM Changes"
 
-    **Base Stats:** `73 HP / 115 Atk / 60 Def / 60 SAtk / 60 SDef / 90 Spd` → `75 HP / 115 Atk / 60 Def / 60 SAtk / 60 SDef / 95 Spd`
+	**Base Stats Changes:**
 
-    **Abilities:** `immunity / toxic-boost` → `immunity / toxic-boost / toxic-boost`
+	- `73 HP / 115 Atk / 60 Def / 60 SAtk / 60 SDef / 90 Spd` → `75 HP / 115 Atk / 60 Def / 60 SAtk / 60 SDef / 95 Spd`
 
-    **Level-up Moves:** `26 moves` → `22 moves`
+	**Abilities Changes:**
 
-    **TM/HM Compatibility:** `45 moves` → `48 moves (added: low-sweep, acrobatics, cut)`
+	- `immunity / toxic-boost` → `immunity / toxic-boost / toxic-boost`
+
+	**Level-up Moves Changes:**
+
+	- `26 moves` → `22 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `45 moves` → `48 moves (added: low-sweep, acrobatics, cut)`
 
 
 ## :material-information: Basic Information
@@ -76,7 +84,7 @@
 
 	---
 
-	**Generation:** Generation Iii
+	**Generation:** Generation III
 
 	**Color:** White
 
@@ -91,7 +99,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Quick Claw](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/quick-claw.png){ .item-sprite } [Quick Claw](../../pokedex/items/quick-claw.md) | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Quick Claw](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/quick-claw.png){ .item-sprite } [Quick Claw](../../pokedex/items/quick-claw.md)</span> | 5% | 5% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 

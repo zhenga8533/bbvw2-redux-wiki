@@ -13,19 +13,31 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Glalie ROM Changes"
 
-    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+	**Evolution Chain Changes:**
 
-    **Base Stats:** `80 HP / 80 Atk / 80 Def / 80 SAtk / 80 SDef / 80 Spd` → `80 HP / 110 Atk / 110 Def / 60 SAtk / 60 SDef / 80 Spd`
+	- `snorunt > glalie: level-up (level 42)` → `snorunt > glalie: use-item (ice-stone)`
 
-    **Abilities:** `inner-focus / ice-body / moody` → `levitate`
+	**Base Stats Changes:**
 
-    **Type:** `ice` → `ice / rock`
+	- `80 HP / 80 Atk / 80 Def / 80 SAtk / 80 SDef / 80 Spd` → `80 HP / 110 Atk / 110 Def / 60 SAtk / 60 SDef / 80 Spd`
 
-    **Level-up Moves:** `15 moves` → `19 moves`
+	**Abilities Changes:**
 
-    **TM/HM Compatibility:** `30 moves` → `38 moves (added: smack-down, rock-tomb, power-gem, rock-polish, stone-edge...)`
+	- `inner-focus / ice-body / moody` → `levitate`
+
+	**Type Changes:**
+
+	- `ice` → `ice / rock`
+
+	**Level-up Moves Changes:**
+
+	- `15 moves` → `19 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `30 moves` → `38 moves (added: smack-down, rock-tomb, power-gem, rock-polish, stone-edge...)`
 
 
 ## :material-information: Basic Information
@@ -78,7 +90,7 @@
 
 	---
 
-	**Generation:** Generation Iii
+	**Generation:** Generation III
 
 	**Color:** Gray
 
@@ -93,7 +105,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Babiri Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/babiri-berry.png){ .item-sprite } [Babiri Berry](../../pokedex/items/babiri-berry.md) | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Babiri Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/babiri-berry.png){ .item-sprite } [Babiri Berry](../../pokedex/items/babiri-berry.md)</span> | 5% | 5% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 

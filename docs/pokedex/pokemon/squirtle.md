@@ -13,11 +13,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Squirtle ROM Changes"
 
-    **Abilities:** `torrent / rain-dish` → `shell-armor / torrent / rain-dish`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `14 moves` → `20 moves`
+	- `torrent / rain-dish` → `shell-armor / torrent / rain-dish`
+
+	**Level-up Moves Changes:**
+
+	- `14 moves` → `20 moves`
 
 
 ## :material-information: Basic Information
@@ -135,7 +139,7 @@
 
 	**#007 [Squirtle](./squirtle.md)**
 
-	
+
 
 	***You are here***
 

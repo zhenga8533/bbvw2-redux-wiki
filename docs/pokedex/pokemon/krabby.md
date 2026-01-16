@@ -13,13 +13,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Krabby ROM Changes"
 
-    **Abilities:** `hyper-cutter / shell-armor / sheer-force` → `sheer-force / shell-armor / sheer-force`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `15 moves` → `20 moves`
+	- `hyper-cutter / shell-armor / sheer-force` → `sheer-force / shell-armor / sheer-force`
 
-    **TM/HM Compatibility:** `32 moves` → `35 moves (added: shadow-claw, rock-climb, waterfall)`
+	**Level-up Moves Changes:**
+
+	- `15 moves` → `20 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `32 moves` → `35 moves (added: shadow-claw, rock-climb, waterfall)`
 
 
 ## :material-information: Basic Information
@@ -137,7 +143,7 @@
 
 	**#098 [Krabby](./krabby.md)**
 
-	
+
 
 	***You are here***
 

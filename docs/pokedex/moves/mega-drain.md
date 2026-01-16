@@ -1,9 +1,11 @@
 # Mega Drain
 
 
-!!! info "ROM Changes
+??? note "Mega Drain ROM Changes"
 
-    **Power:** `40` → `65`
+	**Power Changes:**
+
+	- `40` → `65`
 
 
 ## :material-chart-box: Stats

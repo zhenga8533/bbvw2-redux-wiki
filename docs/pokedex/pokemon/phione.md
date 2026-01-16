@@ -14,11 +14,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Phione ROM Changes"
 
-    **Level-up Moves:** `11 moves` → `13 moves`
+	**Level-up Moves Changes:**
 
-    **TM/HM Compatibility:** `24 moves` → `25 moves (added: wave-crash)`
+	- `11 moves` → `13 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `24 moves` → `25 moves (added: wave-crash)`
 
 
 ## :material-information: Basic Information
@@ -69,7 +73,7 @@
 
 	---
 
-	**Generation:** Generation Iv
+	**Generation:** Generation IV
 
 	**Color:** Blue
 
@@ -132,7 +136,7 @@
 
 	**#489 [Phione](./phione.md)**
 
-	
+
 
 	***You are here***
 

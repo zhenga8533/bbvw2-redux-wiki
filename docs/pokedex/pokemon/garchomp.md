@@ -13,13 +13,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Garchomp ROM Changes"
 
-    **Abilities:** `sand-veil / rough-skin` → `sand-veil / rough-skin / rough-skin`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `16 moves` → `23 moves`
+	- `sand-veil / rough-skin` → `sand-veil / rough-skin / rough-skin`
 
-    **TM/HM Compatibility:** `41 moves` → `43 moves (added: work-up, fly)`
+	**Level-up Moves Changes:**
+
+	- `16 moves` → `23 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `41 moves` → `43 moves (added: work-up, fly)`
 
 
 ## :material-information: Basic Information
@@ -74,7 +80,7 @@
 
 	---
 
-	**Generation:** Generation Iv
+	**Generation:** Generation IV
 
 	**Color:** Blue
 
@@ -89,7 +95,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Haban Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/haban-berry.png){ .item-sprite } [Haban Berry](../../pokedex/items/haban-berry.md) | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Haban Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/haban-berry.png){ .item-sprite } [Haban Berry](../../pokedex/items/haban-berry.md)</span> | 5% | 5% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 

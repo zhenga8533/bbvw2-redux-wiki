@@ -13,11 +13,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Hariyama ROM Changes"
 
-    **Level-up Moves:** `20 moves` → `21 moves`
+	**Level-up Moves Changes:**
 
-    **TM/HM Compatibility:** `35 moves` → `36 moves (added: quash)`
+	- `20 moves` → `21 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `35 moves` → `36 moves (added: quash)`
 
 
 ## :material-information: Basic Information
@@ -72,7 +76,7 @@
 
 	---
 
-	**Generation:** Generation Iii
+	**Generation:** Generation III
 
 	**Color:** Brown
 
@@ -87,7 +91,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![King's Rock](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/kings-rock.png){ .item-sprite } [King's Rock](../../pokedex/items/kings-rock.md) | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![King's Rock](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/kings-rock.png){ .item-sprite } [King's Rock](../../pokedex/items/kings-rock.md)</span> | 5% | 5% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 

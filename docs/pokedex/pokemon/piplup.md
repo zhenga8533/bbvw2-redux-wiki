@@ -13,13 +13,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Piplup ROM Changes"
 
-    **Abilities:** `defiant / competitive` → `defiant / torrent / defiant`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `13 moves` → `18 moves`
+	- `defiant / competitive` → `defiant / torrent / defiant`
 
-    **TM/HM Compatibility:** `30 moves` → `31 moves (added: wave-crash)`
+	**Level-up Moves Changes:**
+
+	- `13 moves` → `18 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `30 moves` → `31 moves (added: wave-crash)`
 
 
 ## :material-information: Basic Information
@@ -72,7 +78,7 @@
 
 	---
 
-	**Generation:** Generation Iv
+	**Generation:** Generation IV
 
 	**Color:** Blue
 
@@ -135,7 +141,7 @@
 
 	**#393 [Piplup](./piplup.md)**
 
-	
+
 
 	***You are here***
 

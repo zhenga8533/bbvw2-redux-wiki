@@ -13,13 +13,25 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Umbreon ROM Changes"
 
-    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+	**Evolution Chain Changes:**
 
-    **Abilities:** `synchronize / inner-focus` → `synchronize / poison-touch / poison-touch`
+	- `eevee > espeon: level-up (happiness, day)` → `eevee > espeon: use-item (sun-stone)`
 
-    **TM/HM Compatibility:** `30 moves` → `35 moves (added: tri-attack, mystical-fire, quash, power-gem, grass-knot)`
+	- `eevee > umbreon: level-up (happiness, night)` → `eevee > umbreon: use-item (moon-stone)`
+
+	- `eevee > leafeon: level-up (at eterna-forest)` → `eevee > leafeon: use-item (leaf-stone)`
+
+	- `eevee > glaceon: level-up (at sinnoh-route-217)` → `eevee > glaceon: use-item (ice-stone)`
+
+	**Abilities Changes:**
+
+	- `synchronize / inner-focus` → `synchronize / poison-touch / poison-touch`
+
+	**TM/HM Compatibility Changes:**
+
+	- `30 moves` → `35 moves (added: tri-attack, mystical-fire, quash, power-gem, grass-knot)`
 
 
 ## :material-information: Basic Information
@@ -74,7 +86,7 @@
 
 	---
 
-	**Generation:** Generation Ii
+	**Generation:** Generation II
 
 	**Color:** Black
 

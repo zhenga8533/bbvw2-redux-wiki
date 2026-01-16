@@ -13,15 +13,23 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Swablu ROM Changes"
 
-    **Base Stats:** `45 HP / 40 Atk / 60 Def / 40 SAtk / 75 SDef / 50 Spd` → `65 HP / 50 Atk / 60 Def / 50 SAtk / 75 SDef / 50 Spd`
+	**Base Stats Changes:**
 
-    **Abilities:** `natural-cure / cloud-nine` → `natural-cure / cloud-nine / cloud-nine`
+	- `45 HP / 40 Atk / 60 Def / 40 SAtk / 75 SDef / 50 Spd` → `65 HP / 50 Atk / 60 Def / 50 SAtk / 75 SDef / 50 Spd`
 
-    **Type:** `normal / flying` → `fairy / flying`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `27 moves` → `22 moves`
+	- `natural-cure / cloud-nine` → `natural-cure / cloud-nine / cloud-nine`
+
+	**Type Changes:**
+
+	- `normal / flying` → `fairy / flying`
+
+	**Level-up Moves Changes:**
+
+	- `27 moves` → `22 moves`
 
 
 ## :material-information: Basic Information
@@ -76,7 +84,7 @@
 
 	---
 
-	**Generation:** Generation Iii
+	**Generation:** Generation III
 
 	**Color:** Blue
 
@@ -153,7 +161,7 @@
 
 	**#333 [Swablu](./swablu.md)**
 
-	
+
 
 	***You are here***
 

@@ -13,13 +13,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Salamence ROM Changes"
 
-    **Abilities:** `intimidate / moxie` → `intimidate / moxie / moxie`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `20 moves` → `25 moves`
+	- `intimidate / moxie` → `intimidate / moxie / moxie`
 
-    **TM/HM Compatibility:** `35 moves` → `36 moves (added: work-up)`
+	**Level-up Moves Changes:**
+
+	- `20 moves` → `25 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `35 moves` → `36 moves (added: work-up)`
 
 
 ## :material-information: Basic Information
@@ -74,7 +80,7 @@
 
 	---
 
-	**Generation:** Generation Iii
+	**Generation:** Generation III
 
 	**Color:** Blue
 
@@ -89,7 +95,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Dragon Fang](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dragon-fang.png){ .item-sprite } [Dragon Fang](../../pokedex/items/dragon-fang.md) | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Dragon Fang](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dragon-fang.png){ .item-sprite } [Dragon Fang](../../pokedex/items/dragon-fang.md)</span> | 5% | 5% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 

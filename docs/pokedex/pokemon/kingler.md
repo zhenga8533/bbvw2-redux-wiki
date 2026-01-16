@@ -13,13 +13,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Kingler ROM Changes"
 
-    **Abilities:** `hyper-cutter / shell-armor / sheer-force` → `sheer-force / shell-armor / sheer-force`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `18 moves` → `23 moves`
+	- `hyper-cutter / shell-armor / sheer-force` → `sheer-force / shell-armor / sheer-force`
 
-    **TM/HM Compatibility:** `35 moves` → `39 moves (added: low-sweep, shadow-claw, rock-climb, waterfall)`
+	**Level-up Moves Changes:**
+
+	- `18 moves` → `23 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `35 moves` → `39 moves (added: low-sweep, shadow-claw, rock-climb, waterfall)`
 
 
 ## :material-information: Basic Information

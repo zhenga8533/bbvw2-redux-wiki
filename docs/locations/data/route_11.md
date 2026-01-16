@@ -14,7 +14,7 @@
 
 ● Ranger♂ Crofton
 
-**Reward:** ![Aspear Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/aspear-berry.png){ .item-sprite } [Aspear Berry](../../pokedex/items/aspear-berry.md)
+**Reward:** <span style="white-space: nowrap;">![Aspear Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/aspear-berry.png){ .item-sprite } [Aspear Berry](../../pokedex/items/aspear-berry.md)</span>
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -26,13 +26,13 @@
 
 ● Ranger♀ Thalia
 
-**Reward:** ![Aspear Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/aspear-berry.png){ .item-sprite } [Aspear Berry](../../pokedex/items/aspear-berry.md)
+**Reward:** <span style="white-space: nowrap;">![Aspear Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/aspear-berry.png){ .item-sprite } [Aspear Berry](../../pokedex/items/aspear-berry.md)</span>
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
 | ![tropius](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/357.gif){ .sprite }<br>[Tropius](../../pokedex/pokemon/tropius.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #78C850 0%, #78C850dd 100%);">Grass</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 55<br>**Ability:** [Solar Power](../../pokedex/abilities/solar-power.md) | 1. [Body Slam](../../pokedex/moves/body-slam.md)<br>2. [Dragon Pulse](../../pokedex/moves/dragon-pulse.md)<br>3. [Leech Seed](../../pokedex/moves/leech-seed.md)<br>4. [Leaf Blade](../../pokedex/moves/leaf-blade.md) |
 | ![wigglytuff](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/40.gif){ .sprite }<br>[Wigglytuff](../../pokedex/pokemon/wigglytuff.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span></div> | **Level:** 55<br>**Ability:** [Huge Power](../../pokedex/abilities/huge-power.md) | 1. [Thunderbolt](../../pokedex/moves/thunderbolt.md)<br>2. [Ice Beam](../../pokedex/moves/ice-beam.md)<br>3. [Hyper Voice](../../pokedex/moves/hyper-voice.md)<br>4. [Play Rough](../../pokedex/moves/play-rough.md) |
-| ![gliscor](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/472.gif){ .sprite }<br>[Gliscor](../../pokedex/pokemon/gliscor.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 55<br>**Ability:** [Poison Heal](../../pokedex/abilities/poison-heal.md)<br>**Item:** ![Toxic Orb](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/toxic-orb.png){ .item-sprite } [Toxic Orb](../../pokedex/items/toxic-orb.md) | 1. [Acrobatics](../../pokedex/moves/acrobatics.md)<br>2. [Fling](../../pokedex/moves/fling.md)<br>3. [Sky Uppercut](../../pokedex/moves/sky-uppercut.md)<br>4. [Earthquake](../../pokedex/moves/earthquake.md) |
+| ![gliscor](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/472.gif){ .sprite }<br>[Gliscor](../../pokedex/pokemon/gliscor.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #E0C068 0%, #E0C068dd 100%);">Ground</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 55<br>**Ability:** [Poison Heal](../../pokedex/abilities/poison-heal.md)<br>**Item:** <span style="white-space: nowrap;">![Toxic Orb](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/toxic-orb.png){ .item-sprite } [Toxic Orb](../../pokedex/items/toxic-orb.md)</span> | 1. [Acrobatics](../../pokedex/moves/acrobatics.md)<br>2. [Fling](../../pokedex/moves/fling.md)<br>3. [Sky Uppercut](../../pokedex/moves/sky-uppercut.md)<br>4. [Earthquake](../../pokedex/moves/earthquake.md) |
 
 ## Wild Encounters
 

@@ -13,11 +13,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Yanmega ROM Changes"
 
-    **Level-up Moves:** `20 moves` → `21 moves`
+	**Level-up Moves Changes:**
 
-    **TM/HM Compatibility:** `25 moves` → `27 moves (added: hurricane, fly)`
+	- `20 moves` → `21 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `25 moves` → `27 moves (added: hurricane, fly)`
 
 
 ## :material-information: Basic Information
@@ -70,7 +74,7 @@
 
 	---
 
-	**Generation:** Generation Iv
+	**Generation:** Generation IV
 
 	**Color:** Green
 
@@ -85,7 +89,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Wide Lens](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/wide-lens.png){ .item-sprite } [Wide Lens](../../pokedex/items/wide-lens.md) | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Wide Lens](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/wide-lens.png){ .item-sprite } [Wide Lens](../../pokedex/items/wide-lens.md)</span> | 5% | 5% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 

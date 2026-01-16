@@ -13,13 +13,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Staraptor ROM Changes"
 
-    **Abilities:** `intimidate / reckless` → `reckless / intimidate / reckless`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `15 moves` → `24 moves`
+	- `intimidate / reckless` → `reckless / intimidate / reckless`
 
-    **TM/HM Compatibility:** `24 moves` → `25 moves (added: hurricane)`
+	**Level-up Moves Changes:**
+
+	- `15 moves` → `24 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `24 moves` → `25 moves (added: hurricane)`
 
 
 ## :material-information: Basic Information
@@ -74,7 +80,7 @@
 
 	---
 
-	**Generation:** Generation Iv
+	**Generation:** Generation IV
 
 	**Color:** Brown
 
@@ -89,7 +95,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Yache Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/yache-berry.png){ .item-sprite } [Yache Berry](../../pokedex/items/yache-berry.md) | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Yache Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/yache-berry.png){ .item-sprite } [Yache Berry](../../pokedex/items/yache-berry.md)</span> | 5% | 5% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 

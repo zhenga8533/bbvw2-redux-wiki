@@ -13,13 +13,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Cacturne ROM Changes"
 
-    **Abilities:** `sand-veil / water-absorb` → `unnerve / water-absorb / water-absorb`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `19 moves` → `25 moves`
+	- `sand-veil / water-absorb` → `unnerve / water-absorb / water-absorb`
 
-    **TM/HM Compatibility:** `31 moves` → `33 moves (added: low-sweep, rock-climb)`
+	**Level-up Moves Changes:**
+
+	- `19 moves` → `25 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `31 moves` → `33 moves (added: low-sweep, rock-climb)`
 
 
 ## :material-information: Basic Information
@@ -76,7 +82,7 @@
 
 	---
 
-	**Generation:** Generation Iii
+	**Generation:** Generation III
 
 	**Color:** Green
 
@@ -91,7 +97,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Sticky Barb](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/sticky-barb.png){ .item-sprite } [Sticky Barb](../../pokedex/items/sticky-barb.md) | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Sticky Barb](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/sticky-barb.png){ .item-sprite } [Sticky Barb](../../pokedex/items/sticky-barb.md)</span> | 5% | 5% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 

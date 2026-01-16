@@ -13,13 +13,21 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Aron ROM Changes"
 
-    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+	**Evolution Chain Changes:**
 
-    **Abilities:** `sturdy / rock-head / heavy-metal` → `filter / rock-head / sturdy`
+	- `aron > lairon: level-up (level 32)` → `aron > lairon: level-up (level 24)`
 
-    **Level-up Moves:** `31 moves` → `20 moves`
+	- `lairon > aggron: unknown` → `lairon > aggron: level-up (level 40)`
+
+	**Abilities Changes:**
+
+	- `sturdy / rock-head / heavy-metal` → `filter / rock-head / sturdy`
+
+	**Level-up Moves Changes:**
+
+	- `31 moves` → `20 moves`
 
 
 ## :material-information: Basic Information
@@ -74,7 +82,7 @@
 
 	---
 
-	**Generation:** Generation Iii
+	**Generation:** Generation III
 
 	**Color:** Gray
 
@@ -89,7 +97,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Hard Stone](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hard-stone.png){ .item-sprite } [Hard Stone](../../pokedex/items/hard-stone.md) | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Hard Stone](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hard-stone.png){ .item-sprite } [Hard Stone](../../pokedex/items/hard-stone.md)</span> | 5% | 5% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 
@@ -164,7 +172,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 	**#304 [Aron](./aron.md)**
 
-	
+
 
 	***You are here***
 

@@ -13,9 +13,11 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Blissey ROM Changes"
 
-    **Level-up Moves:** `17 moves` → `25 moves`
+	**Level-up Moves Changes:**
+
+	- `17 moves` → `25 moves`
 
 
 ## :material-information: Basic Information
@@ -70,7 +72,7 @@
 
 	---
 
-	**Generation:** Generation Ii
+	**Generation:** Generation II
 
 	**Color:** Pink
 
@@ -85,7 +87,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Lucky Egg](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/lucky-egg.png){ .item-sprite } [Lucky Egg](../../pokedex/items/lucky-egg.md) | 100% | 100% | 100% | 100% |
+| <span style="white-space: nowrap;">![Lucky Egg](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/lucky-egg.png){ .item-sprite } [Lucky Egg](../../pokedex/items/lucky-egg.md)</span> | 100% | 100% | 100% | 100% |
 
 ## :material-shield-half-full: Type Effectiveness
 

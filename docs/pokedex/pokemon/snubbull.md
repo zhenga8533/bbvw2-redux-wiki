@@ -13,13 +13,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Snubbull ROM Changes"
 
-    **Type:** `normal` → `fighting / fairy`
+	**Type Changes:**
 
-    **Level-up Moves:** `15 moves` → `21 moves`
+	- `normal` → `fighting / fairy`
 
-    **TM/HM Compatibility:** `42 moves` → `43 moves (added: cut)`
+	**Level-up Moves Changes:**
+
+	- `15 moves` → `21 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `42 moves` → `43 moves (added: cut)`
 
 
 ## :material-information: Basic Information
@@ -74,7 +80,7 @@
 
 	---
 
-	**Generation:** Generation Ii
+	**Generation:** Generation II
 
 	**Color:** Pink
 
@@ -151,7 +157,7 @@
 
 	**#209 [Snubbull](./snubbull.md)**
 
-	
+
 
 	***You are here***
 

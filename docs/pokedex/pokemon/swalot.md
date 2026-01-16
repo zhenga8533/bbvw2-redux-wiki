@@ -13,11 +13,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Swalot ROM Changes"
 
-    **Level-up Moves:** `19 moves` → `23 moves`
+	**Level-up Moves Changes:**
 
-    **TM/HM Compatibility:** `28 moves` → `29 moves (added: quash)`
+	- `19 moves` → `23 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `28 moves` → `29 moves (added: quash)`
 
 
 ## :material-information: Basic Information
@@ -74,7 +78,7 @@
 
 	---
 
-	**Generation:** Generation Iii
+	**Generation:** Generation III
 
 	**Color:** Purple
 
@@ -89,7 +93,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Big Pearl](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/big-pearl.png){ .item-sprite } [Big Pearl](../../pokedex/items/big-pearl.md) | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Big Pearl](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/big-pearl.png){ .item-sprite } [Big Pearl](../../pokedex/items/big-pearl.md)</span> | 5% | 5% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 

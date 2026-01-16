@@ -13,15 +13,23 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Octillery ROM Changes"
 
-    **Base Stats:** `75 HP / 105 Atk / 75 Def / 105 SAtk / 75 SDef / 45 Spd` → `75 HP / 115 Atk / 75 Def / 115 SAtk / 75 SDef / 45 Spd`
+	**Base Stats Changes:**
 
-    **Abilities:** `suction-cups / sniper / moody` → `mold-breaker / sniper / suction-cups`
+	- `75 HP / 105 Atk / 75 Def / 105 SAtk / 75 SDef / 45 Spd` → `75 HP / 115 Atk / 75 Def / 115 SAtk / 75 SDef / 45 Spd`
 
-    **Level-up Moves:** `27 moves` → `24 moves`
+	**Abilities Changes:**
 
-    **TM/HM Compatibility:** `35 moves` → `37 moves (added: tri-attack, work-up)`
+	- `suction-cups / sniper / moody` → `mold-breaker / sniper / suction-cups`
+
+	**Level-up Moves Changes:**
+
+	- `27 moves` → `24 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `35 moves` → `37 moves (added: tri-attack, work-up)`
 
 
 ## :material-information: Basic Information
@@ -78,7 +86,7 @@
 
 	---
 
-	**Generation:** Generation Ii
+	**Generation:** Generation II
 
 	**Color:** Red
 

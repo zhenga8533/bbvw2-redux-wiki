@@ -13,11 +13,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Tangela ROM Changes"
 
-    **Abilities:** `chlorophyll / leaf-guard / regenerator` → `regenerator / leaf-guard / regenerator`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `32 moves` → `25 moves`
+	- `chlorophyll / leaf-guard / regenerator` → `regenerator / leaf-guard / regenerator`
+
+	**Level-up Moves Changes:**
+
+	- `32 moves` → `25 moves`
 
 
 ## :material-information: Basic Information
@@ -135,7 +139,7 @@
 
 	**#114 [Tangela](./tangela.md)**
 
-	
+
 
 	***You are here***
 

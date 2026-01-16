@@ -1,11 +1,15 @@
 # Heart Stamp
 
 
-!!! info "ROM Changes
+??? note "Heart Stamp ROM Changes"
 
-    **Power:** `60` → `75`
+	**Power Changes:**
 
-    **Pp:** `25` → `15`
+	- `60` → `75`
+
+	**Pp Changes:**
+
+	- `25` → `15`
 
 
 ## :material-chart-box: Stats

@@ -13,13 +13,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Arbok ROM Changes"
 
-    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+	**Evolution Chain Changes:**
 
-    **Base Stats:** `60 HP / 85 Atk / 69 Def / 65 SAtk / 79 SDef / 80 Spd` → `60 HP / 110 Atk / 70 Def / 55 SAtk / 80 SDef / 80 Spd`
+	- `ekans > arbok: level-up (level 22)` → `ekans > arbok: level-up (level 21)`
 
-    **Level-up Moves:** `22 moves` → `25 moves`
+	**Base Stats Changes:**
+
+	- `60 HP / 85 Atk / 69 Def / 65 SAtk / 79 SDef / 80 Spd` → `60 HP / 110 Atk / 70 Def / 55 SAtk / 80 SDef / 80 Spd`
+
+	**Level-up Moves Changes:**
+
+	- `22 moves` → `25 moves`
 
 
 ## :material-information: Basic Information

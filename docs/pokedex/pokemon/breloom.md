@@ -13,13 +13,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Breloom ROM Changes"
 
-    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+	**Evolution Chain Changes:**
 
-    **Abilities:** `effect-spore / poison-heal / technician` → `technician / poison-heal / technician`
+	- `shroomish > breloom: level-up (level 23)` → `shroomish > breloom: level-up (level 21)`
 
-    **Level-up Moves:** `16 moves` → `25 moves`
+	**Abilities Changes:**
+
+	- `effect-spore / poison-heal / technician` → `technician / poison-heal / technician`
+
+	**Level-up Moves Changes:**
+
+	- `16 moves` → `25 moves`
 
 
 ## :material-information: Basic Information
@@ -74,7 +80,7 @@
 
 	---
 
-	**Generation:** Generation Iii
+	**Generation:** Generation III
 
 	**Color:** Green
 
@@ -89,7 +95,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Kebia Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/kebia-berry.png){ .item-sprite } [Kebia Berry](../../pokedex/items/kebia-berry.md) | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Kebia Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/kebia-berry.png){ .item-sprite } [Kebia Berry](../../pokedex/items/kebia-berry.md)</span> | 5% | 5% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 

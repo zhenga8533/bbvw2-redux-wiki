@@ -13,15 +13,23 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Steelix ROM Changes"
 
-    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+	**Evolution Chain Changes:**
 
-    **Base Stats:** `75 HP / 85 Atk / 200 Def / 55 SAtk / 65 SDef / 30 Spd` → `75 HP / 105 Atk / 200 Def / 45 SAtk / 65 SDef / 30 Spd`
+	- `onix > steelix: trade (held: metal-coat)` → `onix > steelix: use-item (metal-coat)`
 
-    **Abilities:** `rock-head / sturdy / sheer-force` → `sheer-force / sturdy / rock-head`
+	**Base Stats Changes:**
 
-    **Level-up Moves:** `38 moves` → `25 moves`
+	- `75 HP / 85 Atk / 200 Def / 55 SAtk / 65 SDef / 30 Spd` → `75 HP / 105 Atk / 200 Def / 45 SAtk / 65 SDef / 30 Spd`
+
+	**Abilities Changes:**
+
+	- `rock-head / sturdy / sheer-force` → `sheer-force / sturdy / rock-head`
+
+	**Level-up Moves Changes:**
+
+	- `38 moves` → `25 moves`
 
 
 ## :material-information: Basic Information
@@ -78,7 +86,7 @@
 
 	---
 
-	**Generation:** Generation Ii
+	**Generation:** Generation II
 
 	**Color:** Gray
 
@@ -93,7 +101,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Metal Coat](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/metal-coat.png){ .item-sprite } [Metal Coat](../../pokedex/items/metal-coat.md) | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Metal Coat](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/metal-coat.png){ .item-sprite } [Metal Coat](../../pokedex/items/metal-coat.md)</span> | 5% | 5% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 

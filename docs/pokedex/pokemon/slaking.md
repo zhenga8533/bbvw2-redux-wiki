@@ -13,11 +13,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Slaking ROM Changes"
 
-    **Abilities:** `truant` → `truant / slow-start / truant`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `16 moves` → `25 moves`
+	- `truant` → `truant / slow-start / truant`
+
+	**Level-up Moves Changes:**
+
+	- `16 moves` → `25 moves`
 
 
 ## :material-information: Basic Information
@@ -72,7 +76,7 @@
 
 	---
 
-	**Generation:** Generation Iii
+	**Generation:** Generation III
 
 	**Color:** Brown
 

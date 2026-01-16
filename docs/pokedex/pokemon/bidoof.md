@@ -13,11 +13,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Bidoof ROM Changes"
 
-    **Level-up Moves:** `12 moves` → `22 moves`
+	**Level-up Moves Changes:**
 
-    **TM/HM Compatibility:** `31 moves` → `32 moves (added: swords-dance)`
+	- `12 moves` → `22 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `31 moves` → `32 moves (added: swords-dance)`
 
 
 ## :material-information: Basic Information
@@ -72,7 +76,7 @@
 
 	---
 
-	**Generation:** Generation Iv
+	**Generation:** Generation IV
 
 	**Color:** Brown
 
@@ -135,7 +139,7 @@
 
 	**#399 [Bidoof](./bidoof.md)**
 
-	
+
 
 	***You are here***
 

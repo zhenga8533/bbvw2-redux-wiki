@@ -13,13 +13,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Hoppip ROM Changes"
 
-    **Base Stats:** `35 HP / 35 Atk / 40 Def / 35 SAtk / 55 SDef / 50 Spd` → `35 HP / 35 Atk / 40 Def / 45 SAtk / 55 SDef / 70 Spd`
+	**Base Stats Changes:**
 
-    **Abilities:** `chlorophyll / leaf-guard / infiltrator` → `prankster / leaf-guard / infiltrator`
+	- `35 HP / 35 Atk / 40 Def / 35 SAtk / 55 SDef / 50 Spd` → `35 HP / 35 Atk / 40 Def / 45 SAtk / 55 SDef / 70 Spd`
 
-    **Level-up Moves:** `18 moves` → `25 moves`
+	**Abilities Changes:**
+
+	- `chlorophyll / leaf-guard / infiltrator` → `prankster / leaf-guard / infiltrator`
+
+	**Level-up Moves Changes:**
+
+	- `18 moves` → `25 moves`
 
 
 ## :material-information: Basic Information
@@ -74,7 +80,7 @@
 
 	---
 
-	**Generation:** Generation Ii
+	**Generation:** Generation II
 
 	**Color:** Pink
 
@@ -156,7 +162,7 @@
 
 	**#187 [Hoppip](./hoppip.md)**
 
-	
+
 
 	***You are here***
 

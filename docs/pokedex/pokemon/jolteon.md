@@ -13,13 +13,25 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Jolteon ROM Changes"
 
-    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+	**Evolution Chain Changes:**
 
-    **Abilities:** `volt-absorb / quick-feet` → `volt-absorb / quick-feet / quick-feet`
+	- `eevee > espeon: level-up (happiness, day)` → `eevee > espeon: use-item (sun-stone)`
 
-    **TM/HM Compatibility:** `32 moves` → `34 moves (added: tri-attack, grass-knot)`
+	- `eevee > umbreon: level-up (happiness, night)` → `eevee > umbreon: use-item (moon-stone)`
+
+	- `eevee > leafeon: level-up (at eterna-forest)` → `eevee > leafeon: use-item (leaf-stone)`
+
+	- `eevee > glaceon: level-up (at sinnoh-route-217)` → `eevee > glaceon: use-item (ice-stone)`
+
+	**Abilities Changes:**
+
+	- `volt-absorb / quick-feet` → `volt-absorb / quick-feet / quick-feet`
+
+	**TM/HM Compatibility Changes:**
+
+	- `32 moves` → `34 moves (added: tri-attack, grass-knot)`
 
 
 ## :material-information: Basic Information

@@ -14,9 +14,11 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Wynaut ROM Changes"
 
-    **Abilities:** `shadow-tag / telepathy` → `shadow-tag / telepathy / telepathy`
+	**Abilities Changes:**
+
+	- `shadow-tag / telepathy` → `shadow-tag / telepathy / telepathy`
 
 
 ## :material-information: Basic Information
@@ -71,7 +73,7 @@
 
 	---
 
-	**Generation:** Generation Iii
+	**Generation:** Generation III
 
 	**Color:** Blue
 
@@ -134,7 +136,7 @@
 
 	**#360 [Wynaut](./wynaut.md)**
 
-	
+
 
 	***You are here***
 

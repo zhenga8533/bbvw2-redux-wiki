@@ -14,13 +14,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Igglybuff ROM Changes"
 
-    **Abilities:** `cute-charm / friend-guard` → `cute-charm / friend-guard / friend-guard`
+	**Abilities Changes:**
 
-    **Base Happiness:** `70` → `180`
+	- `cute-charm / friend-guard` → `cute-charm / friend-guard / friend-guard`
 
-    **Level-up Moves:** `6 moves` → `8 moves`
+	**Base Happiness Changes:**
+
+	- `70` → `180`
+
+	**Level-up Moves Changes:**
+
+	- `6 moves` → `8 moves`
 
 
 ## :material-information: Basic Information
@@ -75,7 +81,7 @@
 
 	---
 
-	**Generation:** Generation Ii
+	**Generation:** Generation II
 
 	**Color:** Pink
 
@@ -138,7 +144,7 @@
 
 	**#174 [Igglybuff](./igglybuff.md)**
 
-	
+
 
 	***You are here***
 

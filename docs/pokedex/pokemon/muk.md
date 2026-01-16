@@ -13,15 +13,23 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Muk ROM Changes"
 
-    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+	**Evolution Chain Changes:**
 
-    **Abilities:** `stench / sticky-hold / poison-touch` → `poison-touch / stench / poison-touch`
+	- `grimer > muk: level-up (level 38)` → `grimer > muk: level-up (level 35)`
 
-    **Level-up Moves:** `27 moves` → `25 moves`
+	**Abilities Changes:**
 
-    **TM/HM Compatibility:** `39 moves` → `40 moves (added: quash)`
+	- `stench / sticky-hold / poison-touch` → `poison-touch / stench / poison-touch`
+
+	**Level-up Moves Changes:**
+
+	- `27 moves` → `25 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `39 moves` → `40 moves (added: quash)`
 
 
 ## :material-information: Basic Information
@@ -91,9 +99,9 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Black Sludge](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/black-sludge.png){ .item-sprite } [Black Sludge](../../pokedex/items/black-sludge.md) | — | — | 50% | 50% |
-| ![Nugget](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/nugget.png){ .item-sprite } [Nugget](../../pokedex/items/nugget.md) | 5% | 5% | — | — |
-| ![Toxic Orb](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/toxic-orb.png){ .item-sprite } [Toxic Orb](../../pokedex/items/toxic-orb.md) | — | — | 1% | 1% |
+| <span style="white-space: nowrap;">![Black Sludge](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/black-sludge.png){ .item-sprite } [Black Sludge](../../pokedex/items/black-sludge.md)</span> | — | — | 50% | 50% |
+| <span style="white-space: nowrap;">![Nugget](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/nugget.png){ .item-sprite } [Nugget](../../pokedex/items/nugget.md)</span> | 5% | 5% | — | — |
+| <span style="white-space: nowrap;">![Toxic Orb](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/toxic-orb.png){ .item-sprite } [Toxic Orb](../../pokedex/items/toxic-orb.md)</span> | — | — | 1% | 1% |
 
 ## :material-shield-half-full: Type Effectiveness
 

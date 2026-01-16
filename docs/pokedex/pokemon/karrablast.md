@@ -14,13 +14,21 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Karrablast ROM Changes"
 
-    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+	**Evolution Chain Changes:**
 
-    **Abilities:** `swarm / shed-skin / no-guard` → `swarm / no-guard / shed-skin`
+	- `karrablast > escavalier: trade` → `karrablast > escavalier: use-item (metal-coat)`
 
-    **Level-up Moves:** `15 moves` → `19 moves`
+	- `karrablast > escavalier: use-item (metal-coat)` → `karrablast > escavalier: level-up`
+
+	**Abilities Changes:**
+
+	- `swarm / shed-skin / no-guard` → `swarm / no-guard / shed-skin`
+
+	**Level-up Moves Changes:**
+
+	- `15 moves` → `19 moves`
 
 
 ## :material-information: Basic Information
@@ -136,7 +144,7 @@
 
 	**#588 [Karrablast](./karrablast.md)**
 
-	
+
 
 	***You are here***
 

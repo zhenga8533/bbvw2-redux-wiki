@@ -1,9 +1,11 @@
 # Ice Punch
 
 
-!!! info "ROM Changes
+??? note "Ice Punch ROM Changes"
 
-    **Pp:** `15` → `10`
+	**Pp Changes:**
+
+	- `15` → `10`
 
 
 ## :material-chart-box: Stats

@@ -1,9 +1,11 @@
 # Mach Punch
 
 
-!!! info "ROM Changes
+??? note "Mach Punch ROM Changes"
 
-    **Pp:** `30` → `20`
+	**Pp Changes:**
+
+	- `30` → `20`
 
 
 ## :material-chart-box: Stats

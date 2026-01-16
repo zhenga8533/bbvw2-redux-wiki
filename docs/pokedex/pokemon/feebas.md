@@ -13,11 +13,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Feebas ROM Changes"
 
-    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+	**Evolution Chain Changes:**
 
-    **Level-up Moves:** `3 moves` → `4 moves`
+	- `feebas > milotic: level-up` → `feebas > milotic: use-item (prism-scale)`
+
+	**Level-up Moves Changes:**
+
+	- `3 moves` → `4 moves`
 
 
 ## :material-information: Basic Information
@@ -71,7 +75,7 @@
 
 	---
 
-	**Generation:** Generation Iii
+	**Generation:** Generation III
 
 	**Color:** Brown
 
@@ -134,7 +138,7 @@
 
 	**#349 [Feebas](./feebas.md)**
 
-	
+
 
 	***You are here***
 

@@ -13,11 +13,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Grumpig ROM Changes"
 
-    **Level-up Moves:** `23 moves` → `21 moves`
+	**Level-up Moves Changes:**
 
-    **TM/HM Compatibility:** `39 moves` → `40 moves (added: tri-attack)`
+	- `23 moves` → `21 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `39 moves` → `40 moves (added: tri-attack)`
 
 
 ## :material-information: Basic Information
@@ -72,7 +76,7 @@
 
 	---
 
-	**Generation:** Generation Iii
+	**Generation:** Generation III
 
 	**Color:** Purple
 
@@ -87,8 +91,8 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Persim Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/persim-berry.png){ .item-sprite } [Persim Berry](../../pokedex/items/persim-berry.md) | — | — | 50% | 50% |
-| ![Tanga Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tanga-berry.png){ .item-sprite } [Tanga Berry](../../pokedex/items/tanga-berry.md) | 5% | 5% | — | — |
+| <span style="white-space: nowrap;">![Persim Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/persim-berry.png){ .item-sprite } [Persim Berry](../../pokedex/items/persim-berry.md)</span> | — | — | 50% | 50% |
+| <span style="white-space: nowrap;">![Tanga Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tanga-berry.png){ .item-sprite } [Tanga Berry](../../pokedex/items/tanga-berry.md)</span> | 5% | 5% | — | — |
 
 ## :material-shield-half-full: Type Effectiveness
 

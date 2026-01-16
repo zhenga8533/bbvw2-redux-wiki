@@ -15,7 +15,7 @@
 
 ○ Ranger♂ Forrest
 
-**Reward:** ![Cheri Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/cheri-berry.png){ .item-sprite } [Cheri Berry](../../pokedex/items/cheri-berry.md)
+**Reward:** <span style="white-space: nowrap;">![Cheri Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/cheri-berry.png){ .item-sprite } [Cheri Berry](../../pokedex/items/cheri-berry.md)</span>
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -26,7 +26,7 @@
 
 ○ Ranger♀ Serenity
 
-**Reward:** ![Pecha Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/pecha-berry.png){ .item-sprite } [Pecha Berry](../../pokedex/items/pecha-berry.md)
+**Reward:** <span style="white-space: nowrap;">![Pecha Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/pecha-berry.png){ .item-sprite } [Pecha Berry](../../pokedex/items/pecha-berry.md)</span>
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|

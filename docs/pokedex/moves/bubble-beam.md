@@ -1,9 +1,11 @@
 # Bubble Beam
 
 
-!!! info "ROM Changes
+??? note "Bubble Beam ROM Changes"
 
-    **Power:** `65` → `70`
+	**Power Changes:**
+
+	- `65` → `70`
 
 
 ## :material-chart-box: Stats

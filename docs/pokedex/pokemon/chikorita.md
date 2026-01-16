@@ -13,13 +13,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Chikorita ROM Changes"
 
-    **Abilities:** `overgrow / leaf-guard` → `serene-grace / overgrow / leaf-guard`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `14 moves` → `18 moves`
+	- `overgrow / leaf-guard` → `serene-grace / overgrow / leaf-guard`
 
-    **TM/HM Compatibility:** `23 moves` → `24 moves (added: dazzling-gleam)`
+	**Level-up Moves Changes:**
+
+	- `14 moves` → `18 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `23 moves` → `24 moves (added: dazzling-gleam)`
 
 
 ## :material-information: Basic Information
@@ -74,7 +80,7 @@
 
 	---
 
-	**Generation:** Generation Ii
+	**Generation:** Generation II
 
 	**Color:** Green
 
@@ -137,7 +143,7 @@
 
 	**#152 [Chikorita](./chikorita.md)**
 
-	
+
 
 	***You are here***
 

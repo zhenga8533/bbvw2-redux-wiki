@@ -14,15 +14,23 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Venipede ROM Changes"
 
-    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+	**Evolution Chain Changes:**
 
-    **Abilities:** `quick feet / swarm / speed-boost` → `quick-feet / poison-point / swarm`
+	- `venipede > whirlipede: level-up (level 22)` → `venipede > whirlipede: level-up (level 20)`
 
-    **Level-up Moves:** `14 moves` → `19 moves`
+	**Abilities Changes:**
 
-    **TM/HM Compatibility:** `21 moves` → `22 moves (added: bug-buzz)`
+	- `quick feet / swarm / speed-boost` → `quick-feet / poison-point / swarm`
+
+	**Level-up Moves Changes:**
+
+	- `14 moves` → `19 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `21 moves` → `22 moves (added: bug-buzz)`
 
 
 ## :material-information: Basic Information
@@ -90,8 +98,8 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Pecha Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/pecha-berry.png){ .item-sprite } [Pecha Berry](../../pokedex/items/pecha-berry.md) | 50% | 50% | — | — |
-| ![Poison Barb](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/poison-barb.png){ .item-sprite } [Poison Barb](../../pokedex/items/poison-barb.md) | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Pecha Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/pecha-berry.png){ .item-sprite } [Pecha Berry](../../pokedex/items/pecha-berry.md)</span> | 50% | 50% | — | — |
+| <span style="white-space: nowrap;">![Poison Barb](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/poison-barb.png){ .item-sprite } [Poison Barb](../../pokedex/items/poison-barb.md)</span> | 5% | 5% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 
@@ -152,7 +160,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 	**#543 [Venipede](./venipede.md)**
 
-	
+
 
 	***You are here***
 

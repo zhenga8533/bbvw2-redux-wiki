@@ -13,15 +13,23 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Croconaw ROM Changes"
 
-    **Base Stats:** `65 HP / 80 Atk / 80 Def / 59 SAtk / 63 SDef / 58 Spd` → `75 HP / 80 Atk / 80 Def / 49 SAtk / 68 SDef / 53 Spd`
+	**Base Stats Changes:**
 
-    **Abilities:** `torrent / sheer-force` → `sheer-force / torrent / sheer-force`
+	- `65 HP / 80 Atk / 80 Def / 59 SAtk / 63 SDef / 58 Spd` → `75 HP / 80 Atk / 80 Def / 49 SAtk / 68 SDef / 53 Spd`
 
-    **Level-up Moves:** `17 moves` → `22 moves`
+	**Abilities Changes:**
 
-    **TM/HM Compatibility:** `34 moves` → `35 moves (added: wave-crash)`
+	- `torrent / sheer-force` → `sheer-force / torrent / sheer-force`
+
+	**Level-up Moves Changes:**
+
+	- `17 moves` → `22 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `34 moves` → `35 moves (added: wave-crash)`
 
 
 ## :material-information: Basic Information
@@ -76,7 +84,7 @@
 
 	---
 
-	**Generation:** Generation Ii
+	**Generation:** Generation II
 
 	**Color:** Blue
 

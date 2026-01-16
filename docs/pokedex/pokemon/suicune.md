@@ -14,11 +14,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Suicune ROM Changes"
 
-    **Level-up Moves:** `14 moves` → `16 moves`
+	**Level-up Moves Changes:**
 
-    **TM/HM Compatibility:** `34 moves` → `37 moves (added: wave-crash, hurricane, frost-breath)`
+	- `14 moves` → `16 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `34 moves` → `37 moves (added: wave-crash, hurricane, frost-breath)`
 
 
 ## :material-information: Basic Information
@@ -72,7 +76,7 @@
 
 	---
 
-	**Generation:** Generation Ii
+	**Generation:** Generation II
 
 	**Color:** Blue
 

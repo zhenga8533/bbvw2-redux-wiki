@@ -1,11 +1,15 @@
 # Psycho Cut
 
 
-!!! info "ROM Changes
+??? note "Psycho Cut ROM Changes"
 
-    **Power:** `70` → `90`
+	**Power Changes:**
 
-    **Pp:** `20` → `10`
+	- `70` → `90`
+
+	**Pp Changes:**
+
+	- `20` → `10`
 
 
 ## :material-chart-box: Stats

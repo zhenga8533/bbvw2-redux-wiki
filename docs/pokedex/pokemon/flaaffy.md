@@ -13,15 +13,23 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Flaaffy ROM Changes"
 
-    **Base Stats:** `70 HP / 55 Atk / 55 Def / 80 SAtk / 60 SDef / 45 Spd` → `75 HP / 55 Atk / 60 Def / 85 SAtk / 60 SDef / 45 Spd`
+	**Base Stats Changes:**
 
-    **Abilities:** `static / plus` → `static / overcoat / plus`
+	- `70 HP / 55 Atk / 55 Def / 80 SAtk / 60 SDef / 45 Spd` → `75 HP / 55 Atk / 60 Def / 85 SAtk / 60 SDef / 45 Spd`
 
-    **Level-up Moves:** `28 moves` → `24 moves`
+	**Abilities Changes:**
 
-    **TM/HM Compatibility:** `27 moves` → `28 moves (added: power-gem)`
+	- `static / plus` → `static / overcoat / plus`
+
+	**Level-up Moves Changes:**
+
+	- `28 moves` → `24 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `27 moves` → `28 moves (added: power-gem)`
 
 
 ## :material-information: Basic Information
@@ -76,7 +84,7 @@
 
 	---
 
-	**Generation:** Generation Ii
+	**Generation:** Generation II
 
 	**Color:** Pink
 

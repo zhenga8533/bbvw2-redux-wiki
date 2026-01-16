@@ -13,13 +13,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Taillow ROM Changes"
 
-    **Abilities:** `guts / scrappy` → `early-bird / scrappy / scrappy`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `10 moves` → `21 moves`
+	- `guts / scrappy` → `early-bird / scrappy / scrappy`
 
-    **TM/HM Compatibility:** `21 moves` → `22 moves (added: hurricane)`
+	**Level-up Moves Changes:**
+
+	- `10 moves` → `21 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `21 moves` → `22 moves (added: hurricane)`
 
 
 ## :material-information: Basic Information
@@ -74,7 +80,7 @@
 
 	---
 
-	**Generation:** Generation Iii
+	**Generation:** Generation III
 
 	**Color:** Blue
 
@@ -89,7 +95,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Charti Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/charti-berry.png){ .item-sprite } [Charti Berry](../../pokedex/items/charti-berry.md) | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Charti Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/charti-berry.png){ .item-sprite } [Charti Berry](../../pokedex/items/charti-berry.md)</span> | 5% | 5% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 
@@ -154,7 +160,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 	**#276 [Taillow](./taillow.md)**
 
-	
+
 
 	***You are here***
 

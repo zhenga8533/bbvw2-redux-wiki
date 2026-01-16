@@ -13,15 +13,23 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Vespiquen ROM Changes"
 
-    **Base Stats:** `70 HP / 80 Atk / 102 Def / 80 SAtk / 102 SDef / 40 Spd` → `81 HP / 95 Atk / 102 Def / 80 SAtk / 102 SDef / 40 Spd`
+	**Base Stats Changes:**
 
-    **Abilities:** `pressure / unnerve` → `intimidate / pressure / unnerve`
+	- `70 HP / 80 Atk / 102 Def / 80 SAtk / 102 SDef / 40 Spd` → `81 HP / 95 Atk / 102 Def / 80 SAtk / 102 SDef / 40 Spd`
 
-    **Level-up Moves:** `31 moves` → `19 moves`
+	**Abilities Changes:**
 
-    **TM/HM Compatibility:** `29 moves` → `31 moves (added: hurricane, work-up)`
+	- `pressure / unnerve` → `intimidate / pressure / unnerve`
+
+	**Level-up Moves Changes:**
+
+	- `31 moves` → `19 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `29 moves` → `31 moves (added: hurricane, work-up)`
 
 
 ## :material-information: Basic Information
@@ -74,7 +82,7 @@
 
 	---
 
-	**Generation:** Generation Iv
+	**Generation:** Generation IV
 
 	**Color:** Yellow
 
@@ -89,7 +97,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Poison Barb](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/poison-barb.png){ .item-sprite } [Poison Barb](../../pokedex/items/poison-barb.md) | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Poison Barb](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/poison-barb.png){ .item-sprite } [Poison Barb](../../pokedex/items/poison-barb.md)</span> | 5% | 5% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 

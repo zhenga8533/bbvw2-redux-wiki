@@ -15,9 +15,11 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Thundurus Incarnate ROM Changes"
 
-    **Level-up Moves:** `17 moves` → `16 moves`
+	**Level-up Moves Changes:**
+
+	- `17 moves` → `16 moves`
 
 
 ## :material-information: Basic Information

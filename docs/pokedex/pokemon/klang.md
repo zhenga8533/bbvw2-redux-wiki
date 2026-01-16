@@ -14,13 +14,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Klang ROM Changes"
 
-    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+	**Evolution Chain Changes:**
 
-    **Abilities:** `plus / minus / clear-body` → `levitate`
+	- `klink > klang: level-up (level 38)` → `klink > klang: level-up (level 30)`
 
-    **Level-up Moves:** `18 moves` → `19 moves`
+	**Abilities Changes:**
+
+	- `plus / minus / clear-body` → `levitate`
+
+	**Level-up Moves Changes:**
+
+	- `18 moves` → `19 moves`
 
 
 ## :material-information: Basic Information

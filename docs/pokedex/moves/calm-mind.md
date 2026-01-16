@@ -1,9 +1,11 @@
 # Calm Mind
 
 
-!!! info "ROM Changes
+??? note "Calm Mind ROM Changes"
 
-    **Pp:** `20` → `10`
+	**Pp Changes:**
+
+	- `20` → `10`
 
 
 ## :material-chart-box: Stats

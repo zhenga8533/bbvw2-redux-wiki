@@ -13,19 +13,31 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Banette ROM Changes"
 
-    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+	**Evolution Chain Changes:**
 
-    **Base Stats:** `64 HP / 115 Atk / 65 Def / 83 SAtk / 63 SDef / 65 Spd` → `64 HP / 125 Atk / 65 Def / 93 SAtk / 63 SDef / 65 Spd`
+	- `shuppet > banette: level-up (level 37)` → `shuppet > banette: level-up (level 32)`
 
-    **Abilities:** `insomnia / frisk / cursed-body` → `cursed-body / frisk / cursed-body`
+	**Base Stats Changes:**
 
-    **Type:** `ghost` → `ghost / normal`
+	- `64 HP / 115 Atk / 65 Def / 83 SAtk / 63 SDef / 65 Spd` → `64 HP / 125 Atk / 65 Def / 93 SAtk / 63 SDef / 65 Spd`
 
-    **Level-up Moves:** `32 moves` → `20 moves`
+	**Abilities Changes:**
 
-    **TM/HM Compatibility:** `36 moves` → `39 moves (added: hone-claws, work-up, cut)`
+	- `insomnia / frisk / cursed-body` → `cursed-body / frisk / cursed-body`
+
+	**Type Changes:**
+
+	- `ghost` → `ghost / normal`
+
+	**Level-up Moves Changes:**
+
+	- `32 moves` → `20 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `36 moves` → `39 moves (added: hone-claws, work-up, cut)`
 
 
 ## :material-information: Basic Information
@@ -80,7 +92,7 @@
 
 	---
 
-	**Generation:** Generation Iii
+	**Generation:** Generation III
 
 	**Color:** Black
 
@@ -95,7 +107,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Spell Tag](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/spell-tag.png){ .item-sprite } [Spell Tag](../../pokedex/items/spell-tag.md) | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Spell Tag](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/spell-tag.png){ .item-sprite } [Spell Tag](../../pokedex/items/spell-tag.md)</span> | 5% | 5% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 

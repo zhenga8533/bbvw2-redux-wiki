@@ -13,17 +13,27 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Grimer ROM Changes"
 
-    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+	**Evolution Chain Changes:**
 
-    **Base Stats:** `80 HP / 80 Atk / 50 Def / 40 SAtk / 50 SDef / 25 Spd` → `80 HP / 80 Atk / 50 Def / 40 SAtk / 70 SDef / 25 Spd`
+	- `grimer > muk: level-up (level 38)` → `grimer > muk: level-up (level 35)`
 
-    **Abilities:** `stench / sticky-hold / poison-touch` → `poison-touch / stench / poison-touch`
+	**Base Stats Changes:**
 
-    **Level-up Moves:** `25 moves` → `21 moves`
+	- `80 HP / 80 Atk / 50 Def / 40 SAtk / 50 SDef / 25 Spd` → `80 HP / 80 Atk / 50 Def / 40 SAtk / 70 SDef / 25 Spd`
 
-    **TM/HM Compatibility:** `34 moves` → `35 moves (added: quash)`
+	**Abilities Changes:**
+
+	- `stench / sticky-hold / poison-touch` → `poison-touch / stench / poison-touch`
+
+	**Level-up Moves Changes:**
+
+	- `25 moves` → `21 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `34 moves` → `35 moves (added: quash)`
 
 
 ## :material-information: Basic Information
@@ -93,8 +103,8 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Black Sludge](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/black-sludge.png){ .item-sprite } [Black Sludge](../../pokedex/items/black-sludge.md) | — | — | 5% | 5% |
-| ![Nugget](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/nugget.png){ .item-sprite } [Nugget](../../pokedex/items/nugget.md) | 5% | 5% | — | — |
+| <span style="white-space: nowrap;">![Black Sludge](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/black-sludge.png){ .item-sprite } [Black Sludge](../../pokedex/items/black-sludge.md)</span> | — | — | 5% | 5% |
+| <span style="white-space: nowrap;">![Nugget](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/nugget.png){ .item-sprite } [Nugget](../../pokedex/items/nugget.md)</span> | 5% | 5% | — | — |
 
 ## :material-shield-half-full: Type Effectiveness
 
@@ -150,7 +160,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 	**#088 [Grimer](./grimer.md)**
 
-	
+
 
 	***You are here***
 

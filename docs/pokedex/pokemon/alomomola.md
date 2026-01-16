@@ -14,11 +14,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Alomomola ROM Changes"
 
-    **Abilities:** `healer / hydration / regenerator` → `regenerator / hydration / regenerator`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `17 moves` → `20 moves`
+	- `healer / hydration / regenerator` → `regenerator / hydration / regenerator`
+
+	**Level-up Moves Changes:**
+
+	- `17 moves` → `20 moves`
 
 
 ## :material-information: Basic Information

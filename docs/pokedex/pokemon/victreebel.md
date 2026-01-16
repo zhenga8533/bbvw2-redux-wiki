@@ -13,11 +13,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Victreebel ROM Changes"
 
-    **Abilities:** `chlorophyll / gluttony` → `chlorophyll / gluttony / chlorophyll`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `10 moves` → `12 moves`
+	- `chlorophyll / gluttony` → `chlorophyll / gluttony / chlorophyll`
+
+	**Level-up Moves Changes:**
+
+	- `10 moves` → `12 moves`
 
 
 ## :material-information: Basic Information

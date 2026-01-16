@@ -13,11 +13,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Rhyperior ROM Changes"
 
-    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+	**Evolution Chain Changes:**
 
-    **Level-up Moves:** `18 moves` → `25 moves`
+	- `rhydon > rhyperior: unknown` → `rhydon > rhyperior: use-item (protector)`
+
+	**Level-up Moves Changes:**
+
+	- `18 moves` → `25 moves`
 
 
 ## :material-information: Basic Information
@@ -72,7 +76,7 @@
 
 	---
 
-	**Generation:** Generation Iv
+	**Generation:** Generation IV
 
 	**Color:** Gray
 

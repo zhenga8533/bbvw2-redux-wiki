@@ -13,9 +13,11 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Lombre ROM Changes"
 
-    **Level-up Moves:** `11 moves` → `24 moves`
+	**Level-up Moves Changes:**
+
+	- `11 moves` → `24 moves`
 
 
 ## :material-information: Basic Information
@@ -70,7 +72,7 @@
 
 	---
 
-	**Generation:** Generation Iii
+	**Generation:** Generation III
 
 	**Color:** Green
 

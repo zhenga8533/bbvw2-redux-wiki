@@ -1,9 +1,11 @@
 # Shadow Claw
 
 
-!!! info "ROM Changes
+??? note "Shadow Claw ROM Changes"
 
-    **Pp:** `15` → `90`
+	**Pp Changes:**
+
+	- `15` → `90`
 
 
 ## :material-chart-box: Stats

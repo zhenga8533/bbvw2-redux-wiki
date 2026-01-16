@@ -13,11 +13,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Cyndaquil ROM Changes"
 
-    **Abilities:** `blaze / flash-fire` → `flash-fire / blaze / flash-fire`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `15 moves` → `18 moves`
+	- `blaze / flash-fire` → `flash-fire / blaze / flash-fire`
+
+	**Level-up Moves Changes:**
+
+	- `15 moves` → `18 moves`
 
 
 ## :material-information: Basic Information
@@ -72,7 +76,7 @@
 
 	---
 
-	**Generation:** Generation Ii
+	**Generation:** Generation II
 
 	**Color:** Yellow
 
@@ -135,7 +139,7 @@
 
 	**#155 [Cyndaquil](./cyndaquil.md)**
 
-	
+
 
 	***You are here***
 

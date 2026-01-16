@@ -14,9 +14,11 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Lillipup ROM Changes"
 
-    **Level-up Moves:** `13 moves` → `21 moves`
+	**Level-up Moves Changes:**
+
+	- `13 moves` → `21 moves`
 
 
 ## :material-information: Basic Information
@@ -132,7 +134,7 @@
 
 	**#506 [Lillipup](./lillipup.md)**
 
-	
+
 
 	***You are here***
 

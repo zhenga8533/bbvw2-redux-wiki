@@ -14,13 +14,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Sigilyph ROM Changes"
 
-    **Abilities:** `wonder-skin / magic-guard / tinted-lens` → `tinted-lens / magic-guard / wonder-skin`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `17 moves` → `23 moves`
+	- `wonder-skin / magic-guard / tinted-lens` → `tinted-lens / magic-guard / wonder-skin`
 
-    **TM/HM Compatibility:** `37 moves` → `42 moves (added: tri-attack, mystical-fire, hurricane, quash, power-gem)`
+	**Level-up Moves Changes:**
+
+	- `17 moves` → `23 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `37 moves` → `42 moves (added: tri-attack, mystical-fire, hurricane, quash, power-gem)`
 
 
 ## :material-information: Basic Information

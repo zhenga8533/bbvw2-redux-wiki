@@ -14,13 +14,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Oshawott ROM Changes"
 
-    **Abilities:** `torrent / shell-armor` → `shell-armor / torrent / shell-armor`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `15 moves` → `19 moves`
+	- `torrent / shell-armor` → `shell-armor / torrent / shell-armor`
 
-    **TM/HM Compatibility:** `31 moves` → `32 moves (added: wave-crash)`
+	**Level-up Moves Changes:**
+
+	- `15 moves` → `19 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `31 moves` → `32 moves (added: wave-crash)`
 
 
 ## :material-information: Basic Information
@@ -136,7 +142,7 @@
 
 	**#501 [Oshawott](./oshawott.md)**
 
-	
+
 
 	***You are here***
 

@@ -1,11 +1,15 @@
 # Smog
 
 
-!!! info "ROM Changes
+??? note "Smog ROM Changes"
 
-    **Power:** `30` → `35`
+	**Power Changes:**
 
-    **Accuracy:** `70` → `90`
+	- `30` → `35`
+
+	**Accuracy Changes:**
+
+	- `70` → `90`
 
 
 ## :material-chart-box: Stats

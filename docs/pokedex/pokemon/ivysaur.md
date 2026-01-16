@@ -13,13 +13,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Ivysaur ROM Changes"
 
-    **Abilities:** `overgrow / chlorophyll` → `solar-power / overgrow / chlorophyll`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `16 moves` → `23 moves`
+	- `overgrow / chlorophyll` → `solar-power / overgrow / chlorophyll`
 
-    **TM/HM Compatibility:** `26 moves` → `27 moves (added: weather-ball)`
+	**Level-up Moves Changes:**
+
+	- `16 moves` → `23 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `26 moves` → `27 moves (added: weather-ball)`
 
 
 ## :material-information: Basic Information

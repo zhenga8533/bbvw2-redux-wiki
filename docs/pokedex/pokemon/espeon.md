@@ -13,13 +13,25 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Espeon ROM Changes"
 
-    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+	**Evolution Chain Changes:**
 
-    **Abilities:** `synchronize / magic-bounce` → `synchronize / magic-bounce / magic-bounce`
+	- `eevee > espeon: level-up (happiness, day)` → `eevee > espeon: use-item (sun-stone)`
 
-    **TM/HM Compatibility:** `33 moves` → `37 moves (added: tri-attack, aura-sphere, mystical-fire, power-gem)`
+	- `eevee > umbreon: level-up (happiness, night)` → `eevee > umbreon: use-item (moon-stone)`
+
+	- `eevee > leafeon: level-up (at eterna-forest)` → `eevee > leafeon: use-item (leaf-stone)`
+
+	- `eevee > glaceon: level-up (at sinnoh-route-217)` → `eevee > glaceon: use-item (ice-stone)`
+
+	**Abilities Changes:**
+
+	- `synchronize / magic-bounce` → `synchronize / magic-bounce / magic-bounce`
+
+	**TM/HM Compatibility Changes:**
+
+	- `33 moves` → `37 moves (added: tri-attack, aura-sphere, mystical-fire, power-gem)`
 
 
 ## :material-information: Basic Information
@@ -74,7 +86,7 @@
 
 	---
 
-	**Generation:** Generation Ii
+	**Generation:** Generation II
 
 	**Color:** Purple
 

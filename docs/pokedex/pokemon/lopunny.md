@@ -13,15 +13,23 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Lopunny ROM Changes"
 
-    **Base Stats:** `65 HP / 76 Atk / 84 Def / 54 SAtk / 96 SDef / 105 Spd` → `65 HP / 96 Atk / 84 Def / 54 SAtk / 96 SDef / 105 Spd`
+	**Base Stats Changes:**
 
-    **Abilities:** `cute-charm / klutz / limber` → `scrappy / scrappy / limber`
+	- `65 HP / 76 Atk / 84 Def / 54 SAtk / 96 SDef / 105 Spd` → `65 HP / 96 Atk / 84 Def / 54 SAtk / 96 SDef / 105 Spd`
 
-    **Type:** `normal` → `normal / fighting`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `18 moves` → `25 moves`
+	- `cute-charm / klutz / limber` → `scrappy / scrappy / limber`
+
+	**Type Changes:**
+
+	- `normal` → `normal / fighting`
+
+	**Level-up Moves Changes:**
+
+	- `18 moves` → `25 moves`
 
 
 ## :material-information: Basic Information
@@ -74,7 +82,7 @@
 
 	---
 
-	**Generation:** Generation Iv
+	**Generation:** Generation IV
 
 	**Color:** Brown
 
@@ -89,8 +97,8 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Chople Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/chople-berry.png){ .item-sprite } [Chople Berry](../../pokedex/items/chople-berry.md) | 5% | 5% | — | — |
-| ![Pecha Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/pecha-berry.png){ .item-sprite } [Pecha Berry](../../pokedex/items/pecha-berry.md) | — | — | 50% | 50% |
+| <span style="white-space: nowrap;">![Chople Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/chople-berry.png){ .item-sprite } [Chople Berry](../../pokedex/items/chople-berry.md)</span> | 5% | 5% | — | — |
+| <span style="white-space: nowrap;">![Pecha Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/pecha-berry.png){ .item-sprite } [Pecha Berry](../../pokedex/items/pecha-berry.md)</span> | — | — | 50% | 50% |
 
 ## :material-shield-half-full: Type Effectiveness
 

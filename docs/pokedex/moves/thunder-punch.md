@@ -1,9 +1,11 @@
 # Thunder Punch
 
 
-!!! info "ROM Changes
+??? note "Thunder Punch ROM Changes"
 
-    **Pp:** `15` → `10`
+	**Pp Changes:**
+
+	- `15` → `10`
 
 
 ## :material-chart-box: Stats

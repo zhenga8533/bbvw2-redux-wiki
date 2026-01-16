@@ -13,11 +13,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Chimchar ROM Changes"
 
-    **Abilities:** `blaze / iron-fist` → `iron-fist / blaze / iron-fist`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `13 moves` → `18 moves`
+	- `blaze / iron-fist` → `iron-fist / blaze / iron-fist`
+
+	**Level-up Moves Changes:**
+
+	- `13 moves` → `18 moves`
 
 
 ## :material-information: Basic Information
@@ -70,7 +74,7 @@
 
 	---
 
-	**Generation:** Generation Iv
+	**Generation:** Generation IV
 
 	**Color:** Brown
 
@@ -133,7 +137,7 @@
 
 	**#390 [Chimchar](./chimchar.md)**
 
-	
+
 
 	***You are here***
 

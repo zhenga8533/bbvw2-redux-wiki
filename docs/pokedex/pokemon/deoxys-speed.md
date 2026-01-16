@@ -14,11 +14,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Deoxys Speed ROM Changes"
 
-    **Abilities:** `pressure` → `inner-focus / pressure`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `14 moves` → `16 moves`
+	- `pressure` → `inner-focus / pressure`
+
+	**Level-up Moves Changes:**
+
+	- `14 moves` → `16 moves`
 
 
 ## :material-information: Basic Information
@@ -72,7 +76,7 @@
 
 	---
 
-	**Generation:** Generation Iii
+	**Generation:** Generation III
 
 	**Color:** Red
 

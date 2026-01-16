@@ -14,11 +14,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Minccino ROM Changes"
 
-    **Abilities:** `cute-charm / technician / skill-link` → `skill-link / technician / cute-charm`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `17 moves` → `21 moves`
+	- `cute-charm / technician / skill-link` → `skill-link / technician / cute-charm`
+
+	**Level-up Moves Changes:**
+
+	- `17 moves` → `21 moves`
 
 
 ## :material-information: Basic Information
@@ -86,7 +90,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Chesto Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/chesto-berry.png){ .item-sprite } [Chesto Berry](../../pokedex/items/chesto-berry.md) | 50% | 50% | 50% | 50% |
+| <span style="white-space: nowrap;">![Chesto Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/chesto-berry.png){ .item-sprite } [Chesto Berry](../../pokedex/items/chesto-berry.md)</span> | 50% | 50% | 50% | 50% |
 
 ## :material-shield-half-full: Type Effectiveness
 
@@ -142,7 +146,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 	**#572 [Minccino](./minccino.md)**
 
-	
+
 
 	***You are here***
 

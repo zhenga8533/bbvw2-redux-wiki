@@ -1,9 +1,11 @@
 # Frost Breath
 
 
-!!! info "ROM Changes
+??? note "Frost Breath ROM Changes"
 
-    **Power:** `60` → `50`
+	**Power Changes:**
+
+	- `60` → `50`
 
 
 ## :material-chart-box: Stats

@@ -13,15 +13,23 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Pidgey ROM Changes"
 
-    **Base Stats:** `40 HP / 45 Atk / 40 Def / 35 SAtk / 35 SDef / 56 Spd` → `40 HP / 35 Atk / 35 Def / 50 SAtk / 35 SDef / 56 Spd`
+	**Base Stats Changes:**
 
-    **Abilities:** `keen-eye / tangled-feet / big-pecks` → `big-pecks / tangled-feet / keen-eye`
+	- `40 HP / 45 Atk / 40 Def / 35 SAtk / 35 SDef / 56 Spd` → `40 HP / 35 Atk / 35 Def / 50 SAtk / 35 SDef / 56 Spd`
 
-    **Level-up Moves:** `14 moves` → `23 moves`
+	**Abilities Changes:**
 
-    **TM/HM Compatibility:** `20 moves` → `21 moves (added: echoed-voice)`
+	- `keen-eye / tangled-feet / big-pecks` → `big-pecks / tangled-feet / keen-eye`
+
+	**Level-up Moves Changes:**
+
+	- `14 moves` → `23 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `20 moves` → `21 moves (added: echoed-voice)`
 
 
 ## :material-information: Basic Information
@@ -148,7 +156,7 @@
 
 	**#016 [Pidgey](./pidgey.md)**
 
-	
+
 
 	***You are here***
 

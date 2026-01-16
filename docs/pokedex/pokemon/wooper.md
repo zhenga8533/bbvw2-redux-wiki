@@ -13,13 +13,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Wooper ROM Changes"
 
-    **Abilities:** `damp / water-absorb / unaware` → `water-absorb / unaware / damp`
+	**Abilities Changes:**
 
-    **Base Stats:** `55 HP / 45 Atk / 45 Def / 25 SAtk / 25 SDef / 15 Spd` → `55 HP / 55 Atk / 55 Def / 25 SAtk / 25 SDef / 15 Spd`
+	- `damp / water-absorb / unaware` → `water-absorb / unaware / damp`
 
-    **Level-up Moves:** `13 moves` → `23 moves`
+	**Base Stats Changes:**
+
+	- `55 HP / 45 Atk / 45 Def / 25 SAtk / 25 SDef / 15 Spd` → `55 HP / 55 Atk / 55 Def / 25 SAtk / 25 SDef / 15 Spd`
+
+	**Level-up Moves Changes:**
+
+	- `13 moves` → `23 moves`
 
 
 ## :material-information: Basic Information
@@ -76,7 +82,7 @@
 
 	---
 
-	**Generation:** Generation Ii
+	**Generation:** Generation II
 
 	**Color:** Blue
 
@@ -148,7 +154,7 @@
 
 	**#194 [Wooper](./wooper.md)**
 
-	
+
 
 	***You are here***
 

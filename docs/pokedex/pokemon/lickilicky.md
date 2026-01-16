@@ -13,11 +13,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Lickilicky ROM Changes"
 
-    **Abilities:** `own-tempo / oblivious / cloud-nine` → `cloud-nine / gluttony / cloud-nine`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `16 moves` → `24 moves`
+	- `own-tempo / oblivious / cloud-nine` → `cloud-nine / gluttony / cloud-nine`
+
+	**Level-up Moves Changes:**
+
+	- `16 moves` → `24 moves`
 
 
 ## :material-information: Basic Information
@@ -70,7 +74,7 @@
 
 	---
 
-	**Generation:** Generation Iv
+	**Generation:** Generation IV
 
 	**Color:** Pink
 
@@ -85,7 +89,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Lagging Tail](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/lagging-tail.png){ .item-sprite } [Lagging Tail](../../pokedex/items/lagging-tail.md) | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Lagging Tail](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/lagging-tail.png){ .item-sprite } [Lagging Tail](../../pokedex/items/lagging-tail.md)</span> | 5% | 5% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 

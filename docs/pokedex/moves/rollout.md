@@ -1,9 +1,11 @@
 # Rollout
 
 
-!!! info "ROM Changes
+??? note "Rollout ROM Changes"
 
-    **Power:** `30` → `40`
+	**Power Changes:**
+
+	- `30` → `40`
 
 
 ## :material-chart-box: Stats

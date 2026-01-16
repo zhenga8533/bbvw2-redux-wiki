@@ -13,15 +13,23 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Pidgeotto ROM Changes"
 
-    **Base Stats:** `63 HP / 60 Atk / 55 Def / 50 SAtk / 50 SDef / 71 Spd` → `63 HP / 50 Atk / 50 Def / 65 SAtk / 50 SDef / 71 Spd`
+	**Base Stats Changes:**
 
-    **Abilities:** `keen-eye / tangled-feet / big-pecks` → `big-pecks / tangled-feet / keen-eye`
+	- `63 HP / 60 Atk / 55 Def / 50 SAtk / 50 SDef / 71 Spd` → `63 HP / 50 Atk / 50 Def / 65 SAtk / 50 SDef / 71 Spd`
 
-    **Level-up Moves:** `16 moves` → `24 moves`
+	**Abilities Changes:**
 
-    **TM/HM Compatibility:** `20 moves` → `22 moves (added: echoed-voice, hurricane)`
+	- `keen-eye / tangled-feet / big-pecks` → `big-pecks / tangled-feet / keen-eye`
+
+	**Level-up Moves Changes:**
+
+	- `16 moves` → `24 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `20 moves` → `22 moves (added: echoed-voice, hurricane)`
 
 
 ## :material-information: Basic Information

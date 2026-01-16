@@ -13,11 +13,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Aerodactyl ROM Changes"
 
-    **Level-up Moves:** `17 moves` → `22 moves`
+	**Level-up Moves Changes:**
 
-    **TM/HM Compatibility:** `39 moves` → `41 moves (added: work-up, cut)`
+	- `17 moves` → `22 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `39 moves` → `41 moves (added: work-up, cut)`
 
 
 ## :material-information: Basic Information

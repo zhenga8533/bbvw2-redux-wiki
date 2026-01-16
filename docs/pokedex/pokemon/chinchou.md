@@ -13,11 +13,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Chinchou ROM Changes"
 
-    **Abilities:** `volt-absorb / illuminate / water-absorb` → `volt-absorb / water-absorb / illuminate`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `15 moves` → `21 moves`
+	- `volt-absorb / illuminate / water-absorb` → `volt-absorb / water-absorb / illuminate`
+
+	**Level-up Moves Changes:**
+
+	- `15 moves` → `21 moves`
 
 
 ## :material-information: Basic Information
@@ -72,7 +76,7 @@
 
 	---
 
-	**Generation:** Generation Ii
+	**Generation:** Generation II
 
 	**Color:** Blue
 
@@ -87,7 +91,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Deep Sea Scale](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/deep-sea-scale.png){ .item-sprite } [Deep Sea Scale](../../pokedex/items/deep-sea-scale.md) | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Deep Sea Scale](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/deep-sea-scale.png){ .item-sprite } [Deep Sea Scale](../../pokedex/items/deep-sea-scale.md)</span> | 5% | 5% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 
@@ -148,7 +152,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 	**#170 [Chinchou](./chinchou.md)**
 
-	
+
 
 	***You are here***
 

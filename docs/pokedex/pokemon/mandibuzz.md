@@ -14,15 +14,23 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Mandibuzz ROM Changes"
 
-    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+	**Evolution Chain Changes:**
 
-    **Abilities:** `big-pecks / overcoat / weak-armor` → `overcoat / weak-armor / overcoat`
+	- `vullaby > mandibuzz: level-up (level 54)` → `vullaby > mandibuzz: level-up (level 40)`
 
-    **Level-up Moves:** `19 moves` → `23 moves`
+	**Abilities Changes:**
 
-    **TM/HM Compatibility:** `33 moves` → `35 moves (added: hurricane, quash)`
+	- `big-pecks / overcoat / weak-armor` → `overcoat / weak-armor / overcoat`
+
+	**Level-up Moves Changes:**
+
+	- `19 moves` → `23 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `33 moves` → `35 moves (added: hurricane, quash)`
 
 
 ## :material-information: Basic Information

@@ -1,9 +1,11 @@
 # Dark Void
 
 
-!!! info "ROM Changes
+??? note "Dark Void ROM Changes"
 
-    **Accuracy:** `50` → `90`
+	**Accuracy Changes:**
+
+	- `50` → `90`
 
 
 ## :material-chart-box: Stats

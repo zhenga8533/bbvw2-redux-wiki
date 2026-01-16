@@ -15,9 +15,11 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Kyurem White ROM Changes"
 
-    **Level-up Moves:** `15 moves` → `21 moves`
+	**Level-up Moves Changes:**
+
+	- `15 moves` → `21 moves`
 
 
 ## :material-information: Basic Information

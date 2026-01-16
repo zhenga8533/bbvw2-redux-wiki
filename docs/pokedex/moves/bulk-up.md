@@ -1,9 +1,11 @@
 # Bulk Up
 
 
-!!! info "ROM Changes
+??? note "Bulk Up ROM Changes"
 
-    **Pp:** `20` → `10`
+	**Pp Changes:**
+
+	- `20` → `10`
 
 
 ## :material-chart-box: Stats

@@ -13,13 +13,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Scizor ROM Changes"
 
-    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+	**Evolution Chain Changes:**
 
-    **Level-up Moves:** `18 moves` → `24 moves`
+	- `scyther > scizor: trade (held: metal-coat)` → `scyther > scizor: use-item (metal-coat)`
 
-    **TM/HM Compatibility:** `34 moves` → `36 moves (added: hone-claws, bug-buzz)`
+	**Level-up Moves Changes:**
+
+	- `18 moves` → `24 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `34 moves` → `36 moves (added: hone-claws, bug-buzz)`
 
 
 ## :material-information: Basic Information
@@ -76,7 +82,7 @@
 
 	---
 
-	**Generation:** Generation Ii
+	**Generation:** Generation II
 
 	**Color:** Red
 

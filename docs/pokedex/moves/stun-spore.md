@@ -1,11 +1,15 @@
 # Stun Spore
 
 
-!!! info "ROM Changes
+??? note "Stun Spore ROM Changes"
 
-    **Pp:** `30` → `20`
+	**Pp Changes:**
 
-    **Accuracy:** `75` → `90`
+	- `30` → `20`
+
+	**Accuracy Changes:**
+
+	- `75` → `90`
 
 
 ## :material-chart-box: Stats

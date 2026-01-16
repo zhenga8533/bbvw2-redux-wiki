@@ -14,11 +14,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Yamask ROM Changes"
 
-    **Level-up Moves:** `15 moves` → `24 moves`
+	**Level-up Moves Changes:**
 
-    **TM/HM Compatibility:** `27 moves` → `28 moves (added: quash)`
+	- `15 moves` → `24 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `27 moves` → `28 moves (added: quash)`
 
 
 ## :material-information: Basic Information
@@ -84,7 +88,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Spell Tag](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/spell-tag.png){ .item-sprite } [Spell Tag](../../pokedex/items/spell-tag.md) | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Spell Tag](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/spell-tag.png){ .item-sprite } [Spell Tag](../../pokedex/items/spell-tag.md)</span> | 5% | 5% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 
@@ -149,7 +153,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 	**#562 [Yamask](./yamask.md)**
 
-	
+
 
 	***You are here***
 

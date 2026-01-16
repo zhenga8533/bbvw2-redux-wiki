@@ -13,13 +13,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Beldum ROM Changes"
 
-    **Abilities:** `clear-body / light-metal` → `clear-body / rock-head / heavy-metal`
+	**Abilities Changes:**
 
-    **Catch Rate:** `3` → `45`
+	- `clear-body / light-metal` → `clear-body / rock-head / heavy-metal`
 
-    **Level-up Moves:** `1 move` → `5 moves`
+	**Catch Rate Changes:**
+
+	- `3` → `45`
+
+	**Level-up Moves Changes:**
+
+	- `1 move` → `5 moves`
 
 
 ## :material-information: Basic Information
@@ -74,7 +80,7 @@
 
 	---
 
-	**Generation:** Generation Iii
+	**Generation:** Generation III
 
 	**Color:** Blue
 
@@ -89,7 +95,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Metal Coat](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/metal-coat.png){ .item-sprite } [Metal Coat](../../pokedex/items/metal-coat.md) | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Metal Coat](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/metal-coat.png){ .item-sprite } [Metal Coat](../../pokedex/items/metal-coat.md)</span> | 5% | 5% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 
@@ -159,7 +165,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 	**#374 [Beldum](./beldum.md)**
 
-	
+
 
 	***You are here***
 

@@ -13,13 +13,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Togekiss ROM Changes"
 
-    **Abilities:** `hustle / serene-grace / super-luck` → `super-luck / serene-grace / super-luck`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `4 moves` → `12 moves`
+	- `hustle / serene-grace / super-luck` → `super-luck / serene-grace / super-luck`
 
-    **TM/HM Compatibility:** `41 moves` → `43 moves (added: tri-attack, hurricane)`
+	**Level-up Moves Changes:**
+
+	- `4 moves` → `12 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `41 moves` → `43 moves (added: tri-attack, hurricane)`
 
 
 ## :material-information: Basic Information
@@ -72,7 +78,7 @@
 
 	---
 
-	**Generation:** Generation Iv
+	**Generation:** Generation IV
 
 	**Color:** White
 

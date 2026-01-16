@@ -14,9 +14,11 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Kyogre ROM Changes"
 
-    **TM/HM Compatibility:** `35 moves` → `38 moves (added: wave-crash, frost-breath, work-up)`
+	**TM/HM Compatibility Changes:**
+
+	- `35 moves` → `38 moves (added: wave-crash, frost-breath, work-up)`
 
 
 ## :material-information: Basic Information
@@ -69,7 +71,7 @@
 
 	---
 
-	**Generation:** Generation Iii
+	**Generation:** Generation III
 
 	**Color:** Blue
 

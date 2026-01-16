@@ -14,11 +14,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Registeel ROM Changes"
 
-    **Abilities:** `clear-body / light-metal` → `heatproof / clear-body / light-metal`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `15 moves` → `17 moves`
+	- `clear-body / light-metal` → `heatproof / clear-body / light-metal`
+
+	**Level-up Moves Changes:**
+
+	- `15 moves` → `17 moves`
 
 
 ## :material-information: Basic Information
@@ -73,7 +77,7 @@
 
 	---
 
-	**Generation:** Generation Iii
+	**Generation:** Generation III
 
 	**Color:** Gray
 

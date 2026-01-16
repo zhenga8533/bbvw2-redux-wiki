@@ -14,13 +14,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Heatmor ROM Changes"
 
-    **Abilities:** `gluttony / flash-fire / white-smoke` → `mold-breaker / flash-fire / white-smoke`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `16 moves` → `24 moves`
+	- `gluttony / flash-fire / white-smoke` → `mold-breaker / flash-fire / white-smoke`
 
-    **TM/HM Compatibility:** `31 moves` → `34 moves (added: low-sweep, work-up, rock-climb)`
+	**Level-up Moves Changes:**
+
+	- `16 moves` → `24 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `31 moves` → `34 moves (added: low-sweep, work-up, rock-climb)`
 
 
 ## :material-information: Basic Information
@@ -88,7 +94,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Flame Orb](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/flame-orb.png){ .item-sprite } [Flame Orb](../../pokedex/items/flame-orb.md) | — | — | 1% | 1% |
+| <span style="white-space: nowrap;">![Flame Orb](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/flame-orb.png){ .item-sprite } [Flame Orb](../../pokedex/items/flame-orb.md)</span> | — | — | 1% | 1% |
 
 ## :material-shield-half-full: Type Effectiveness
 

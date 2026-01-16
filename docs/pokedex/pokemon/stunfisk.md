@@ -14,13 +14,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Stunfisk ROM Changes"
 
-    **Base Stats:** `109 HP / 66 Atk / 84 Def / 81 SAtk / 99 SDef / 32 Spd` → `109 HP / 66 Atk / 84 Def / 90 SAtk / 99 SDef / 32 Spd`
+	**Base Stats Changes:**
 
-    **Abilities:** `static / limber / sand-veil` → `static / lightning-rod / sand-veil`
+	- `109 HP / 66 Atk / 84 Def / 81 SAtk / 99 SDef / 32 Spd` → `109 HP / 66 Atk / 84 Def / 90 SAtk / 99 SDef / 32 Spd`
 
-    **Level-up Moves:** `15 moves` → `21 moves`
+	**Abilities Changes:**
+
+	- `static / limber / sand-veil` → `static / lightning-rod / sand-veil`
+
+	**Level-up Moves Changes:**
+
+	- `15 moves` → `21 moves`
 
 
 ## :material-information: Basic Information
@@ -88,7 +94,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Soft Sand](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/soft-sand.png){ .item-sprite } [Soft Sand](../../pokedex/items/soft-sand.md) | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Soft Sand](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/soft-sand.png){ .item-sprite } [Soft Sand](../../pokedex/items/soft-sand.md)</span> | 5% | 5% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 

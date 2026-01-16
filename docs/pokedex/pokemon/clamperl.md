@@ -13,11 +13,17 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Clamperl ROM Changes"
 
-    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+	**Evolution Chain Changes:**
 
-    **Level-up Moves:** `5 moves` → `8 moves`
+	- `clamperl > huntail: trade (held: deep-sea-tooth)` → `clamperl > huntail: use-item (deep-sea-tooth)`
+
+	- `clamperl > gorebyss: trade (held: deep-sea-scale)` → `clamperl > gorebyss: use-item (deep-sea-scale)`
+
+	**Level-up Moves Changes:**
+
+	- `5 moves` → `8 moves`
 
 
 ## :material-information: Basic Information
@@ -71,7 +77,7 @@
 
 	---
 
-	**Generation:** Generation Iii
+	**Generation:** Generation III
 
 	**Color:** Blue
 
@@ -86,7 +92,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Big Pearl](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/big-pearl.png){ .item-sprite } [Big Pearl](../../pokedex/items/big-pearl.md) | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Big Pearl](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/big-pearl.png){ .item-sprite } [Big Pearl](../../pokedex/items/big-pearl.md)</span> | 5% | 5% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 
@@ -142,7 +148,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 	**#366 [Clamperl](./clamperl.md)**
 
-	
+
 
 	***You are here***
 

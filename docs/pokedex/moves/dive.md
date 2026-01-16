@@ -1,9 +1,11 @@
 # Dive
 
 
-!!! info "ROM Changes
+??? note "Dive ROM Changes"
 
-    **Power:** `80` → `100`
+	**Power Changes:**
+
+	- `80` → `100`
 
 
 ## :material-chart-box: Stats

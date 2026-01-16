@@ -13,9 +13,11 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Cherrim Sunshine ROM Changes"
 
-    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+	**Evolution Chain Changes:**
+
+	- `cherubi > cherrim: level-up (level 25)` → `cherubi > cherrim: level-up (level 18)`
 
 
 ## :material-information: Basic Information
@@ -66,7 +68,7 @@
 
 	---
 
-	**Generation:** Generation Iv
+	**Generation:** Generation IV
 
 	**Color:** Purple
 
@@ -81,7 +83,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Miracle Seed](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/miracle-seed.png){ .item-sprite } [Miracle Seed](../../pokedex/items/miracle-seed.md) | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Miracle Seed](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/miracle-seed.png){ .item-sprite } [Miracle Seed](../../pokedex/items/miracle-seed.md)</span> | 5% | 5% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 

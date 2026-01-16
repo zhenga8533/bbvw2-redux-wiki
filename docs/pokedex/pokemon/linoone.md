@@ -13,13 +13,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Linoone ROM Changes"
 
-    **Base Stats:** `78 HP / 70 Atk / 61 Def / 50 SAtk / 61 SDef / 100 Spd` → `85 HP / 85 Atk / 60 Def / 60 SAtk / 60 SDef / 100 Spd`
+	**Base Stats Changes:**
 
-    **Level-up Moves:** `17 moves` → `22 moves`
+	- `78 HP / 70 Atk / 61 Def / 50 SAtk / 61 SDef / 100 Spd` → `85 HP / 85 Atk / 60 Def / 60 SAtk / 60 SDef / 100 Spd`
 
-    **TM/HM Compatibility:** `37 moves` → `39 moves (added: low-sweep, rock-climb)`
+	**Level-up Moves Changes:**
+
+	- `17 moves` → `22 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `37 moves` → `39 moves (added: low-sweep, rock-climb)`
 
 
 ## :material-information: Basic Information
@@ -74,7 +80,7 @@
 
 	---
 
-	**Generation:** Generation Iii
+	**Generation:** Generation III
 
 	**Color:** White
 
@@ -89,8 +95,8 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Oran Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/oran-berry.png){ .item-sprite } [Oran Berry](../../pokedex/items/oran-berry.md) | 50% | 50% | 50% | 50% |
-| ![Sitrus Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/sitrus-berry.png){ .item-sprite } [Sitrus Berry](../../pokedex/items/sitrus-berry.md) | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Oran Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/oran-berry.png){ .item-sprite } [Oran Berry](../../pokedex/items/oran-berry.md)</span> | 50% | 50% | 50% | 50% |
+| <span style="white-space: nowrap;">![Sitrus Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/sitrus-berry.png){ .item-sprite } [Sitrus Berry](../../pokedex/items/sitrus-berry.md)</span> | 5% | 5% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 

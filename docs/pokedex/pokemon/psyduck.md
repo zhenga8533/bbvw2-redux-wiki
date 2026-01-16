@@ -13,13 +13,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Psyduck ROM Changes"
 
-    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+	**Evolution Chain Changes:**
 
-    **Abilities:** `damp / cloud-nine / swift-swim` → `cloud-nine / swift-swim / damp`
+	- `psyduck > golduck: level-up (level 33)` → `psyduck > golduck: level-up (level 25)`
 
-    **Level-up Moves:** `29 moves` → `23 moves`
+	**Abilities Changes:**
+
+	- `damp / cloud-nine / swift-swim` → `cloud-nine / swift-swim / damp`
+
+	**Level-up Moves Changes:**
+
+	- `29 moves` → `23 moves`
 
 
 ## :material-information: Basic Information
@@ -137,7 +143,7 @@
 
 	**#054 [Psyduck](./psyduck.md)**
 
-	
+
 
 	***You are here***
 

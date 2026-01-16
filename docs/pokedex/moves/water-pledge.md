@@ -1,9 +1,11 @@
 # Water Pledge
 
 
-!!! info "ROM Changes
+??? note "Water Pledge ROM Changes"
 
-    **Power:** `80` → `75`
+	**Power Changes:**
+
+	- `80` → `75`
 
 
 ## :material-chart-box: Stats

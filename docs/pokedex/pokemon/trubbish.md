@@ -14,13 +14,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Trubbish ROM Changes"
 
-    **Base Stats:** `50 HP / 50 Atk / 62 Def / 40 SAtk / 62 SDef / 65 Spd` → `65 HP / 50 Atk / 62 Def / 45 SAtk / 62 SDef / 65 Spd`
+	**Base Stats Changes:**
 
-    **Abilities:** `stench / sticky-hold / aftermath` → `aftermath / stench / sticky-hold`
+	- `50 HP / 50 Atk / 62 Def / 40 SAtk / 62 SDef / 65 Spd` → `65 HP / 50 Atk / 62 Def / 45 SAtk / 62 SDef / 65 Spd`
 
-    **Level-up Moves:** `16 moves` → `22 moves`
+	**Abilities Changes:**
+
+	- `stench / sticky-hold / aftermath` → `aftermath / stench / sticky-hold`
+
+	**Level-up Moves Changes:**
+
+	- `16 moves` → `22 moves`
 
 
 ## :material-information: Basic Information
@@ -88,8 +94,8 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Black Sludge](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/black-sludge.png){ .item-sprite } [Black Sludge](../../pokedex/items/black-sludge.md) | 5% | 5% | 5% | 5% |
-| ![Nugget](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/nugget.png){ .item-sprite } [Nugget](../../pokedex/items/nugget.md) | 1% | 1% | 1% | 1% |
+| <span style="white-space: nowrap;">![Black Sludge](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/black-sludge.png){ .item-sprite } [Black Sludge](../../pokedex/items/black-sludge.md)</span> | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Nugget](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/nugget.png){ .item-sprite } [Nugget](../../pokedex/items/nugget.md)</span> | 1% | 1% | 1% | 1% |
 
 ## :material-shield-half-full: Type Effectiveness
 
@@ -145,7 +151,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 	**#568 [Trubbish](./trubbish.md)**
 
-	
+
 
 	***You are here***
 

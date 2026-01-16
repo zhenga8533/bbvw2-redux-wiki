@@ -97,7 +97,7 @@
 
 ○ Ranger♂ Leaf
 
-**Reward:** ![Sitrus Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/sitrus-berry.png){ .item-sprite } [Sitrus Berry](../../pokedex/items/sitrus-berry.md)
+**Reward:** <span style="white-space: nowrap;">![Sitrus Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/sitrus-berry.png){ .item-sprite } [Sitrus Berry](../../pokedex/items/sitrus-berry.md)</span>
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -106,7 +106,7 @@
 
 ○ Ranger♀ Malory
 
-**Reward:** ![Leppa Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/leppa-berry.png){ .item-sprite } [Leppa Berry](../../pokedex/items/leppa-berry.md)
+**Reward:** <span style="white-space: nowrap;">![Leppa Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/leppa-berry.png){ .item-sprite } [Leppa Berry](../../pokedex/items/leppa-berry.md)</span>
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -114,7 +114,7 @@
 
 ○ Ranger♂ Bret
 
-**Reward:** ![Leppa Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/leppa-berry.png){ .item-sprite } [Leppa Berry](../../pokedex/items/leppa-berry.md)
+**Reward:** <span style="white-space: nowrap;">![Leppa Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/leppa-berry.png){ .item-sprite } [Leppa Berry](../../pokedex/items/leppa-berry.md)</span>
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -122,7 +122,7 @@
 
 ○ Ranger♀ Naoko
 
-**Reward:** ![Sitrus Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/sitrus-berry.png){ .item-sprite } [Sitrus Berry](../../pokedex/items/sitrus-berry.md)
+**Reward:** <span style="white-space: nowrap;">![Sitrus Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/sitrus-berry.png){ .item-sprite } [Sitrus Berry](../../pokedex/items/sitrus-berry.md)</span>
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|

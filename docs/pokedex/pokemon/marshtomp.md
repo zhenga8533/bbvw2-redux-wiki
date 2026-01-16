@@ -13,11 +13,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Marshtomp ROM Changes"
 
-    **Abilities:** `torrent / damp` → `water-veil / torrent / damp`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `15 moves` → `21 moves`
+	- `torrent / damp` → `water-veil / torrent / damp`
+
+	**Level-up Moves Changes:**
+
+	- `15 moves` → `21 moves`
 
 
 ## :material-information: Basic Information
@@ -72,7 +76,7 @@
 
 	---
 
-	**Generation:** Generation Iii
+	**Generation:** Generation III
 
 	**Color:** Blue
 

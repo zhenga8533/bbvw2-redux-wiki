@@ -13,13 +13,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Weavile ROM Changes"
 
-    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+	**Evolution Chain Changes:**
 
-    **Level-up Moves:** `30 moves` → `23 moves`
+	- `sneasel > weavile: level-up (held: razor-claw)` → `sneasel > weavile: use-item (razor-claw)`
 
-    **TM/HM Compatibility:** `47 moves` → `48 moves (added: quash)`
+	**Level-up Moves Changes:**
+
+	- `30 moves` → `23 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `47 moves` → `48 moves (added: quash)`
 
 
 ## :material-information: Basic Information
@@ -73,7 +79,7 @@
 
 	---
 
-	**Generation:** Generation Iv
+	**Generation:** Generation IV
 
 	**Color:** Black
 
@@ -88,8 +94,8 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Grip Claw](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/grip-claw.png){ .item-sprite } [Grip Claw](../../pokedex/items/grip-claw.md) | 50% | 50% | 50% | 50% |
-| ![Quick Claw](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/quick-claw.png){ .item-sprite } [Quick Claw](../../pokedex/items/quick-claw.md) | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Grip Claw](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/grip-claw.png){ .item-sprite } [Grip Claw](../../pokedex/items/grip-claw.md)</span> | 50% | 50% | 50% | 50% |
+| <span style="white-space: nowrap;">![Quick Claw](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/quick-claw.png){ .item-sprite } [Quick Claw](../../pokedex/items/quick-claw.md)</span> | 5% | 5% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 

@@ -14,13 +14,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Scraggy ROM Changes"
 
-    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+	**Evolution Chain Changes:**
 
-    **Abilities:** `shed-skin / moxie / intimidate` → `intimidate / moxie / shed-skin`
+	- `scraggy > scrafty: level-up (level 39)` → `scraggy > scrafty: level-up (level 30)`
 
-    **Level-up Moves:** `16 moves` → `21 moves`
+	**Abilities Changes:**
+
+	- `shed-skin / moxie / intimidate` → `intimidate / moxie / shed-skin`
+
+	**Level-up Moves Changes:**
+
+	- `16 moves` → `21 moves`
 
 
 ## :material-information: Basic Information
@@ -88,7 +94,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Shed Shell](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/shed-shell.png){ .item-sprite } [Shed Shell](../../pokedex/items/shed-shell.md) | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Shed Shell](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/shed-shell.png){ .item-sprite } [Shed Shell](../../pokedex/items/shed-shell.md)</span> | 5% | 5% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 
@@ -163,7 +169,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 	**#559 [Scraggy](./scraggy.md)**
 
-	
+
 
 	***You are here***
 

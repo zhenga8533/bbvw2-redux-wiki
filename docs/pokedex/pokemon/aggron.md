@@ -13,17 +13,27 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Aggron ROM Changes"
 
-    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+	**Evolution Chain Changes:**
 
-    **Base Stats:** `70 HP / 110 Atk / 180 Def / 60 SAtk / 60 SDef / 50 Spd` → `70 HP / 110 Atk / 160 Def / 50 SAtk / 80 SDef / 60 Spd`
+	- `lairon > aggron: unknown` → `lairon > aggron: level-up (level 40)`
 
-    **Abilities:** `sturdy / rock-head / heavy-metal` → `filter / rock-head / sturdy`
+	**Base Stats Changes:**
 
-    **Level-up Moves:** `33 moves` → `25 moves`
+	- `70 HP / 110 Atk / 180 Def / 60 SAtk / 60 SDef / 50 Spd` → `70 HP / 110 Atk / 160 Def / 50 SAtk / 80 SDef / 60 Spd`
 
-    **TM/HM Compatibility:** `50 moves` → `51 moves (added: work-up)`
+	**Abilities Changes:**
+
+	- `sturdy / rock-head / heavy-metal` → `filter / rock-head / sturdy`
+
+	**Level-up Moves Changes:**
+
+	- `33 moves` → `25 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `50 moves` → `51 moves (added: work-up)`
 
 
 ## :material-information: Basic Information
@@ -78,7 +88,7 @@
 
 	---
 
-	**Generation:** Generation Iii
+	**Generation:** Generation III
 
 	**Color:** Gray
 
@@ -93,7 +103,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Hard Stone](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hard-stone.png){ .item-sprite } [Hard Stone](../../pokedex/items/hard-stone.md) | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Hard Stone](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hard-stone.png){ .item-sprite } [Hard Stone](../../pokedex/items/hard-stone.md)</span> | 5% | 5% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 

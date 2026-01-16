@@ -1,11 +1,15 @@
 # Aqua Tail
 
 
-!!! info "ROM Changes
+??? note "Aqua Tail ROM Changes"
 
-    **Power:** `90` → `100`
+	**Power Changes:**
 
-    **Accuracy:** `90` → `85`
+	- `90` → `100`
+
+	**Accuracy Changes:**
+
+	- `90` → `85`
 
 
 ## :material-chart-box: Stats

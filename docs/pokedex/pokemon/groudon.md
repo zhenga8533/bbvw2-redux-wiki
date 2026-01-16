@@ -14,9 +14,11 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Groudon ROM Changes"
 
-    **TM/HM Compatibility:** `47 moves` → `49 moves (added: low-sweep, work-up)`
+	**TM/HM Compatibility Changes:**
+
+	- `47 moves` → `49 moves (added: low-sweep, work-up)`
 
 
 ## :material-information: Basic Information
@@ -69,7 +71,7 @@
 
 	---
 
-	**Generation:** Generation Iii
+	**Generation:** Generation III
 
 	**Color:** Red
 

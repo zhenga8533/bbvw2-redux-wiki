@@ -14,17 +14,27 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Chingling ROM Changes"
 
-    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+	**Evolution Chain Changes:**
 
-    **Base Stats:** `45 HP / 30 Atk / 50 Def / 65 SAtk / 50 SDef / 45 Spd` → `45 HP / 30 Atk / 50 Def / 80 SAtk / 60 SDef / 45 Spd`
+	- `chingling > chimecho: level-up (happiness, night)` → `chingling > chimecho: level-up (knows heal-bell)`
 
-    **Base Happiness:** `70` → `180`
+	**Base Stats Changes:**
 
-    **Level-up Moves:** `7 moves` → `14 moves`
+	- `45 HP / 30 Atk / 50 Def / 65 SAtk / 50 SDef / 45 Spd` → `45 HP / 30 Atk / 50 Def / 80 SAtk / 60 SDef / 45 Spd`
 
-    **TM/HM Compatibility:** `32 moves` → `33 moves (added: weather-ball)`
+	**Base Happiness Changes:**
+
+	- `70` → `180`
+
+	**Level-up Moves Changes:**
+
+	- `7 moves` → `14 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `32 moves` → `33 moves (added: weather-ball)`
 
 
 ## :material-information: Basic Information
@@ -75,7 +85,7 @@
 
 	---
 
-	**Generation:** Generation Iv
+	**Generation:** Generation IV
 
 	**Color:** Yellow
 
@@ -90,7 +100,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Colbur Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/colbur-berry.png){ .item-sprite } [Colbur Berry](../../pokedex/items/colbur-berry.md) | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Colbur Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/colbur-berry.png){ .item-sprite } [Colbur Berry](../../pokedex/items/colbur-berry.md)</span> | 5% | 5% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 
@@ -146,7 +156,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 	**#433 [Chingling](./chingling.md)**
 
-	
+
 
 	***You are here***
 

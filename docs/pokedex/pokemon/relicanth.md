@@ -13,13 +13,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Relicanth ROM Changes"
 
-    **Abilities:** `swift-swim / rock-head / sturdy` → `sturdy / rock-head / sturdy`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `13 moves` → `21 moves`
+	- `swift-swim / rock-head / sturdy` → `sturdy / rock-head / sturdy`
 
-    **TM/HM Compatibility:** `34 moves` → `35 moves (added: wave-crash)`
+	**Level-up Moves Changes:**
+
+	- `13 moves` → `21 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `34 moves` → `35 moves (added: wave-crash)`
 
 
 ## :material-information: Basic Information
@@ -76,7 +82,7 @@
 
 	---
 
-	**Generation:** Generation Iii
+	**Generation:** Generation III
 
 	**Color:** Gray
 
@@ -91,7 +97,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Deep Sea Scale](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/deep-sea-scale.png){ .item-sprite } [Deep Sea Scale](../../pokedex/items/deep-sea-scale.md) | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Deep Sea Scale](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/deep-sea-scale.png){ .item-sprite } [Deep Sea Scale](../../pokedex/items/deep-sea-scale.md)</span> | 5% | 5% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 

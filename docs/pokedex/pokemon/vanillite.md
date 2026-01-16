@@ -14,11 +14,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Vanillite ROM Changes"
 
-    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+	**Evolution Chain Changes:**
 
-    **Level-up Moves:** `15 moves` → `20 moves`
+	- `vanillite > vanillish: level-up (level 35)` → `vanillite > vanillish: level-up (level 29)`
+
+	**Level-up Moves Changes:**
+
+	- `15 moves` → `20 moves`
 
 
 ## :material-information: Basic Information
@@ -133,7 +137,7 @@
 
 	**#582 [Vanillite](./vanillite.md)**
 
-	
+
 
 	***You are here***
 

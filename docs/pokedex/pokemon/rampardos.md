@@ -13,13 +13,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Rampardos ROM Changes"
 
-    **Abilities:** `mold-breaker / sheer-force` → `mold-breaker / sheer-force / sheer-force`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `13 moves` → `23 moves`
+	- `mold-breaker / sheer-force` → `mold-breaker / sheer-force / sheer-force`
 
-    **TM/HM Compatibility:** `44 moves` → `45 moves (added: work-up)`
+	**Level-up Moves Changes:**
+
+	- `13 moves` → `23 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `44 moves` → `45 moves (added: work-up)`
 
 
 ## :material-information: Basic Information
@@ -72,7 +78,7 @@
 
 	---
 
-	**Generation:** Generation Iv
+	**Generation:** Generation IV
 
 	**Color:** Blue
 

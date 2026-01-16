@@ -1,9 +1,11 @@
 # Arm Thrust
 
 
-!!! info "ROM Changes
+??? note "Arm Thrust ROM Changes"
 
-    **Power:** `15` → `20`
+	**Power Changes:**
+
+	- `15` → `20`
 
 
 ## :material-chart-box: Stats

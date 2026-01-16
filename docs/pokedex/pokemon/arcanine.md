@@ -13,11 +13,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Arcanine ROM Changes"
 
-    **Level-up Moves:** `7 moves` → `9 moves`
+	**Level-up Moves Changes:**
 
-    **TM/HM Compatibility:** `33 moves` → `34 moves (added: hone-claws)`
+	- `7 moves` → `9 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `33 moves` → `34 moves (added: hone-claws)`
 
 
 ## :material-information: Basic Information
@@ -87,7 +91,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Rawst Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/rawst-berry.png){ .item-sprite } [Rawst Berry](../../pokedex/items/rawst-berry.md) | 100% | 100% | 50% | 50% |
+| <span style="white-space: nowrap;">![Rawst Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/rawst-berry.png){ .item-sprite } [Rawst Berry](../../pokedex/items/rawst-berry.md)</span> | 100% | 100% | 50% | 50% |
 
 ## :material-shield-half-full: Type Effectiveness
 

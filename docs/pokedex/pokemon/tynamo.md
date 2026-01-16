@@ -14,9 +14,11 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Tynamo ROM Changes"
 
-    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+	**Evolution Chain Changes:**
+
+	- `tynamo > eelektrik: level-up (level 39)` → `tynamo > eelektrik: level-up (level 30)`
 
 
 ## :material-information: Basic Information
@@ -130,7 +132,7 @@
 
 	**#602 [Tynamo](./tynamo.md)**
 
-	
+
 
 	***You are here***
 

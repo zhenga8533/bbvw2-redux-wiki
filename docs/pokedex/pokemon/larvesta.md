@@ -14,11 +14,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Larvesta ROM Changes"
 
-    **Abilities:** `flame-body / swarm` → `flame-body / swarm / swarm`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `12 moves` → `17 moves`
+	- `flame-body / swarm` → `flame-body / swarm / swarm`
+
+	**Level-up Moves Changes:**
+
+	- `12 moves` → `17 moves`
 
 
 ## :material-information: Basic Information
@@ -144,7 +148,7 @@
 
 	**#636 [Larvesta](./larvesta.md)**
 
-	
+
 
 	***You are here***
 

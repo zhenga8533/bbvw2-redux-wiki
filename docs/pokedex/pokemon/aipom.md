@@ -13,11 +13,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Aipom ROM Changes"
 
-    **Abilities:** `run-away / pickup / skill-link` → `skill-link / technician / pickup`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `14 moves` → `18 moves`
+	- `run-away / pickup / skill-link` → `skill-link / technician / pickup`
+
+	**Level-up Moves Changes:**
+
+	- `14 moves` → `18 moves`
 
 
 ## :material-information: Basic Information
@@ -74,7 +78,7 @@
 
 	---
 
-	**Generation:** Generation Ii
+	**Generation:** Generation II
 
 	**Color:** Purple
 
@@ -137,7 +141,7 @@
 
 	**#190 [Aipom](./aipom.md)**
 
-	
+
 
 	***You are here***
 

@@ -14,11 +14,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Deerling ROM Changes"
 
-    **Level-up Moves:** `15 moves` → `18 moves`
+	**Level-up Moves Changes:**
 
-    **TM/HM Compatibility:** `26 moves` → `27 moves (added: low-sweep)`
+	- `15 moves` → `18 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `26 moves` → `27 moves (added: low-sweep)`
 
 
 ## :material-information: Basic Information
@@ -143,7 +147,7 @@
 
 	**#585 [Deerling](./deerling.md)**
 
-	
+
 
 	***You are here***
 

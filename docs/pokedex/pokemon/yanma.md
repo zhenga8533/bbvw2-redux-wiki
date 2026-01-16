@@ -13,11 +13,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Yanma ROM Changes"
 
-    **Level-up Moves:** `16 moves` → `20 moves`
+	**Level-up Moves Changes:**
 
-    **TM/HM Compatibility:** `21 moves` → `22 moves (added: hurricane)`
+	- `16 moves` → `20 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `21 moves` → `22 moves (added: hurricane)`
 
 
 ## :material-information: Basic Information
@@ -72,7 +76,7 @@
 
 	---
 
-	**Generation:** Generation Ii
+	**Generation:** Generation II
 
 	**Color:** Red
 
@@ -87,7 +91,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Wide Lens](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/wide-lens.png){ .item-sprite } [Wide Lens](../../pokedex/items/wide-lens.md) | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Wide Lens](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/wide-lens.png){ .item-sprite } [Wide Lens](../../pokedex/items/wide-lens.md)</span> | 5% | 5% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 
@@ -162,7 +166,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 	**#193 [Yanma](./yanma.md)**
 
-	
+
 
 	***You are here***
 

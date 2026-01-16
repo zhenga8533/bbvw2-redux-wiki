@@ -1,9 +1,11 @@
 # Razor Shell
 
 
-!!! info "ROM Changes
+??? note "Razor Shell ROM Changes"
 
-    **Accuracy:** `95` → `100`
+	**Accuracy Changes:**
+
+	- `95` → `100`
 
 
 ## :material-chart-box: Stats

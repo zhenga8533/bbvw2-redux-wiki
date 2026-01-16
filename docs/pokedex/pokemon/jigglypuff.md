@@ -13,15 +13,23 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Jigglypuff ROM Changes"
 
-    **Base Stats:** `115 HP / 45 Atk / 20 Def / 45 SAtk / 25 SDef / 20 Spd` → `115 HP / 35 Atk / 20 Def / 55 SAtk / 25 SDef / 20 Spd`
+	**Base Stats Changes:**
 
-    **Abilities:** `cute-charm / friend-guard` → `cute-charm / friend-guard / friend-guard`
+	- `115 HP / 45 Atk / 20 Def / 45 SAtk / 25 SDef / 20 Spd` → `115 HP / 35 Atk / 20 Def / 55 SAtk / 25 SDef / 20 Spd`
 
-    **Level-up Moves:** `14 moves` → `22 moves`
+	**Abilities Changes:**
 
-    **TM/HM Compatibility:** `42 moves` → `43 moves (added: power-gem)`
+	- `cute-charm / friend-guard` → `cute-charm / friend-guard / friend-guard`
+
+	**Level-up Moves Changes:**
+
+	- `14 moves` → `22 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `42 moves` → `43 moves (added: power-gem)`
 
 
 ## :material-information: Basic Information

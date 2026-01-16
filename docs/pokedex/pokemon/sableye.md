@@ -13,13 +13,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Sableye ROM Changes"
 
-    **Base Stats:** `50 HP / 75 Atk / 75 Def / 65 SAtk / 65 SDef / 50 Spd` → `50 HP / 85 Atk / 95 Def / 85 SAtk / 85 SDef / 50 Spd`
+	**Base Stats Changes:**
 
-    **Abilities:** `keen-eye / stall / prankster` → `prankster / stall / keen-eye`
+	- `50 HP / 75 Atk / 75 Def / 65 SAtk / 65 SDef / 50 Spd` → `50 HP / 85 Atk / 95 Def / 85 SAtk / 85 SDef / 50 Spd`
 
-    **Level-up Moves:** `19 moves` → `23 moves`
+	**Abilities Changes:**
+
+	- `keen-eye / stall / prankster` → `prankster / stall / keen-eye`
+
+	**Level-up Moves Changes:**
+
+	- `19 moves` → `23 moves`
 
 
 ## :material-information: Basic Information
@@ -74,7 +80,7 @@
 
 	---
 
-	**Generation:** Generation Iii
+	**Generation:** Generation III
 
 	**Color:** Purple
 

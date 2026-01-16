@@ -14,9 +14,11 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Zoroark ROM Changes"
 
-    **Level-up Moves:** `20 moves` → `25 moves`
+	**Level-up Moves Changes:**
+
+	- `20 moves` → `25 moves`
 
 
 ## :material-information: Basic Information

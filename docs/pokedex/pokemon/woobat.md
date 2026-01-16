@@ -14,15 +14,23 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Woobat ROM Changes"
 
-    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+	**Evolution Chain Changes:**
 
-    **Base Stats:** `55 HP / 45 Atk / 43 Def / 55 SAtk / 43 SDef / 72 Spd` → `65 HP / 45 Atk / 43 Def / 65 SAtk / 43 SDef / 72 Spd`
+	- `woobat > swoobat: level-up (happiness)` → `woobat > swoobat: level-up (level 25)`
 
-    **Abilities:** `unaware / klutz / simple` → `unaware / simple / simple`
+	**Base Stats Changes:**
 
-    **Level-up Moves:** `14 moves` → `21 moves`
+	- `55 HP / 45 Atk / 43 Def / 55 SAtk / 43 SDef / 72 Spd` → `65 HP / 45 Atk / 43 Def / 65 SAtk / 43 SDef / 72 Spd`
+
+	**Abilities Changes:**
+
+	- `unaware / klutz / simple` → `unaware / simple / simple`
+
+	**Level-up Moves Changes:**
+
+	- `14 moves` → `21 moves`
 
 
 ## :material-information: Basic Information
@@ -152,7 +160,7 @@
 
 	**#527 [Woobat](./woobat.md)**
 
-	
+
 
 	***You are here***
 

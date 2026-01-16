@@ -13,11 +13,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Hippopotas ROM Changes"
 
-    **Abilities:** `sand-stream / sand-force` → `sand-stream / sand-force / sand-force`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `11 moves` → `19 moves`
+	- `sand-stream / sand-force` → `sand-stream / sand-force / sand-force`
+
+	**Level-up Moves Changes:**
+
+	- `11 moves` → `19 moves`
 
 
 ## :material-information: Basic Information
@@ -72,7 +76,7 @@
 
 	---
 
-	**Generation:** Generation Iv
+	**Generation:** Generation IV
 
 	**Color:** Brown
 
@@ -144,7 +148,7 @@
 
 	**#449 [Hippopotas](./hippopotas.md)**
 
-	
+
 
 	***You are here***
 

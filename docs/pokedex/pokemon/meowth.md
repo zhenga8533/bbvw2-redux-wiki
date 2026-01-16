@@ -13,13 +13,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Meowth ROM Changes"
 
-    **Base Stats:** `40 HP / 45 Atk / 35 Def / 40 SAtk / 40 SDef / 90 Spd` → `45 HP / 60 Atk / 35 Def / 30 SAtk / 40 SDef / 90 Spd`
+	**Base Stats Changes:**
 
-    **Abilities:** `pickup / technician / unnerve` → `unnerve / technician / pickup`
+	- `40 HP / 45 Atk / 35 Def / 40 SAtk / 40 SDef / 90 Spd` → `45 HP / 60 Atk / 35 Def / 30 SAtk / 40 SDef / 90 Spd`
 
-    **Level-up Moves:** `15 moves` → `22 moves`
+	**Abilities Changes:**
+
+	- `pickup / technician / unnerve` → `unnerve / technician / pickup`
+
+	**Level-up Moves Changes:**
+
+	- `15 moves` → `22 moves`
 
 
 ## :material-information: Basic Information
@@ -89,7 +95,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Quick Claw](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/quick-claw.png){ .item-sprite } [Quick Claw](../../pokedex/items/quick-claw.md) | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Quick Claw](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/quick-claw.png){ .item-sprite } [Quick Claw](../../pokedex/items/quick-claw.md)</span> | 5% | 5% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 
@@ -145,7 +151,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 	**#052 [Meowth](./meowth.md)**
 
-	
+
 
 	***You are here***
 

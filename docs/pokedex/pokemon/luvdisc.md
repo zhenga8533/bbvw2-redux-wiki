@@ -13,17 +13,27 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Luvdisc ROM Changes"
 
-    **Base Stats:** `43 HP / 30 Atk / 55 Def / 40 SAtk / 65 SDef / 97 Spd` → `53 HP / 30 Atk / 65 Def / 90 SAtk / 65 SDef / 117 Spd`
+	**Base Stats Changes:**
 
-    **Abilities:** `swift-swim / hydration` → `swift-swim / hydration / hydration`
+	- `43 HP / 30 Atk / 55 Def / 40 SAtk / 65 SDef / 97 Spd` → `53 HP / 30 Atk / 65 Def / 90 SAtk / 65 SDef / 117 Spd`
 
-    **Type:** `water` → `water / fairy`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `14 moves` → `20 moves`
+	- `swift-swim / hydration` → `swift-swim / hydration / hydration`
 
-    **TM/HM Compatibility:** `22 moves` → `26 moves (added: dazzling-gleam, wave-crash, quash, frost-breath)`
+	**Type Changes:**
+
+	- `water` → `water / fairy`
+
+	**Level-up Moves Changes:**
+
+	- `14 moves` → `20 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `22 moves` → `26 moves (added: dazzling-gleam, wave-crash, quash, frost-breath)`
 
 
 ## :material-information: Basic Information
@@ -78,7 +88,7 @@
 
 	---
 
-	**Generation:** Generation Iii
+	**Generation:** Generation III
 
 	**Color:** Pink
 
@@ -93,7 +103,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Heart Scale](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/heart-scale.png){ .item-sprite } [Heart Scale](../../pokedex/items/heart-scale.md) | 50% | 50% | 50% | 50% |
+| <span style="white-space: nowrap;">![Heart Scale](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/heart-scale.png){ .item-sprite } [Heart Scale](../../pokedex/items/heart-scale.md)</span> | 50% | 50% | 50% | 50% |
 
 ## :material-shield-half-full: Type Effectiveness
 

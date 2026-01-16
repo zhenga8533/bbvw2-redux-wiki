@@ -14,17 +14,27 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Golurk ROM Changes"
 
-    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+	**Evolution Chain Changes:**
 
-    **Base Stats:** `89 HP / 124 Atk / 80 Def / 55 SAtk / 80 SDef / 55 Spd` → `115 HP / 125 Atk / 85 Def / 55 SAtk / 85 SDef / 55 Spd`
+	- `golett > golurk: level-up (level 43)` → `golett > golurk: level-up (level 40)`
 
-    **Abilities:** `iron-fist / klutz / no-guard` → `iron-fist / no-guard / klutz`
+	**Base Stats Changes:**
 
-    **Level-up Moves:** `17 moves` → `24 moves`
+	- `89 HP / 124 Atk / 80 Def / 55 SAtk / 80 SDef / 55 Spd` → `115 HP / 125 Atk / 85 Def / 55 SAtk / 85 SDef / 55 Spd`
 
-    **TM/HM Compatibility:** `40 moves` → `42 moves (added: power-up-punch, aura-sphere)`
+	**Abilities Changes:**
+
+	- `iron-fist / klutz / no-guard` → `iron-fist / no-guard / klutz`
+
+	**Level-up Moves Changes:**
+
+	- `17 moves` → `24 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `40 moves` → `42 moves (added: power-up-punch, aura-sphere)`
 
 
 ## :material-information: Basic Information
@@ -92,7 +102,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Light Clay](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/light-clay.png){ .item-sprite } [Light Clay](../../pokedex/items/light-clay.md) | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Light Clay](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/light-clay.png){ .item-sprite } [Light Clay](../../pokedex/items/light-clay.md)</span> | 5% | 5% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 

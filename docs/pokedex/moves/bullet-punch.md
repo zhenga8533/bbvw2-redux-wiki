@@ -1,9 +1,11 @@
 # Bullet Punch
 
 
-!!! info "ROM Changes
+??? note "Bullet Punch ROM Changes"
 
-    **Pp:** `30` → `20`
+	**Pp Changes:**
+
+	- `30` → `20`
 
 
 ## :material-chart-box: Stats

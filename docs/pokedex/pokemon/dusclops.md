@@ -13,11 +13,17 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Dusclops ROM Changes"
 
-    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+	**Evolution Chain Changes:**
 
-    **Level-up Moves:** `21 moves` → `23 moves`
+	- `duskull > dusclops: level-up (level 37)` → `duskull > dusclops: level-up (level 32)`
+
+	- `dusclops > dusknoir: unknown` → `dusclops > dusknoir: use-item (reaper-cloth)`
+
+	**Level-up Moves Changes:**
+
+	- `21 moves` → `23 moves`
 
 
 ## :material-information: Basic Information
@@ -70,7 +76,7 @@
 
 	---
 
-	**Generation:** Generation Iii
+	**Generation:** Generation III
 
 	**Color:** Black
 
@@ -85,7 +91,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Kasib Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/kasib-berry.png){ .item-sprite } [Kasib Berry](../../pokedex/items/kasib-berry.md) | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Kasib Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/kasib-berry.png){ .item-sprite } [Kasib Berry](../../pokedex/items/kasib-berry.md)</span> | 5% | 5% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 

@@ -14,13 +14,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Blitzle ROM Changes"
 
-    **Abilities:** `lightning-rod / motor-drive / sap-sipper` → `motor-drive / sap-sipper / lightning-rod`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `13 moves` → `21 moves`
+	- `lightning-rod / motor-drive / sap-sipper` → `motor-drive / sap-sipper / lightning-rod`
 
-    **TM/HM Compatibility:** `22 moves` → `23 moves (added: low-sweep)`
+	**Level-up Moves Changes:**
+
+	- `13 moves` → `21 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `22 moves` → `23 moves (added: low-sweep)`
 
 
 ## :material-information: Basic Information
@@ -88,7 +94,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Cheri Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/cheri-berry.png){ .item-sprite } [Cheri Berry](../../pokedex/items/cheri-berry.md) | 50% | 50% | 50% | 50% |
+| <span style="white-space: nowrap;">![Cheri Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/cheri-berry.png){ .item-sprite } [Cheri Berry](../../pokedex/items/cheri-berry.md)</span> | 50% | 50% | 50% | 50% |
 
 ## :material-shield-half-full: Type Effectiveness
 
@@ -144,7 +150,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 	**#522 [Blitzle](./blitzle.md)**
 
-	
+
 
 	***You are here***
 

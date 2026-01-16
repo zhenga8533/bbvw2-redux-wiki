@@ -13,13 +13,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Barboach ROM Changes"
 
-    **Abilities:** `oblivious / anticipation / hydration` → `simple / anticipation / hydration`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `14 moves` → `22 moves`
+	- `oblivious / anticipation / hydration` → `simple / anticipation / hydration`
 
-    **TM/HM Compatibility:** `24 moves` → `25 moves (added: wave-crash)`
+	**Level-up Moves Changes:**
+
+	- `14 moves` → `22 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `24 moves` → `25 moves (added: wave-crash)`
 
 
 ## :material-information: Basic Information
@@ -74,7 +80,7 @@
 
 	---
 
-	**Generation:** Generation Iii
+	**Generation:** Generation III
 
 	**Color:** Gray
 
@@ -146,7 +152,7 @@
 
 	**#339 [Barboach](./barboach.md)**
 
-	
+
 
 	***You are here***
 

@@ -14,13 +14,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Togepi ROM Changes"
 
-    **Abilities:** `hustle / serene-grace / super-luck` → `super-luck / serene-grace / super-luck`
+	**Abilities Changes:**
 
-    **Base Happiness:** `70` → `180`
+	- `hustle / serene-grace / super-luck` → `super-luck / serene-grace / super-luck`
 
-    **Level-up Moves:** `15 moves` → `21 moves`
+	**Base Happiness Changes:**
+
+	- `70` → `180`
+
+	**Level-up Moves Changes:**
+
+	- `15 moves` → `21 moves`
 
 
 ## :material-information: Basic Information
@@ -75,7 +81,7 @@
 
 	---
 
-	**Generation:** Generation Ii
+	**Generation:** Generation II
 
 	**Color:** White
 
@@ -138,7 +144,7 @@
 
 	**#175 [Togepi](./togepi.md)**
 
-	
+
 
 	***You are here***
 

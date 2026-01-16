@@ -1,9 +1,11 @@
 # Dragon Tail
 
 
-!!! info "ROM Changes
+??? note "Dragon Tail ROM Changes"
 
-    **Accuracy:** `90` → `95`
+	**Accuracy Changes:**
+
+	- `90` → `95`
 
 
 ## :material-chart-box: Stats

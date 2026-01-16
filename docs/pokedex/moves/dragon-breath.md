@@ -1,9 +1,11 @@
 # Dragon Breath
 
 
-!!! info "ROM Changes
+??? note "Dragon Breath ROM Changes"
 
-    **Power:** `60` → `70`
+	**Power Changes:**
+
+	- `60` → `70`
 
 
 ## :material-chart-box: Stats

@@ -13,9 +13,11 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Ditto ROM Changes"
 
-    **Abilities:** `limber / imposter` → `imposter`
+	**Abilities Changes:**
+
+	- `limber / imposter` → `imposter`
 
 
 ## :material-information: Basic Information
@@ -83,8 +85,8 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Metal Powder](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/metal-powder.png){ .item-sprite } [Metal Powder](../../pokedex/items/metal-powder.md) | 5% | 5% | 5% | 5% |
-| ![Quick Powder](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/quick-powder.png){ .item-sprite } [Quick Powder](../../pokedex/items/quick-powder.md) | 50% | 50% | 50% | 50% |
+| <span style="white-space: nowrap;">![Metal Powder](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/metal-powder.png){ .item-sprite } [Metal Powder](../../pokedex/items/metal-powder.md)</span> | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Quick Powder](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/quick-powder.png){ .item-sprite } [Quick Powder](../../pokedex/items/quick-powder.md)</span> | 50% | 50% | 50% | 50% |
 
 ## :material-shield-half-full: Type Effectiveness
 

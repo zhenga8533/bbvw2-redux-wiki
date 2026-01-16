@@ -13,15 +13,23 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Gligar ROM Changes"
 
-    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+	**Evolution Chain Changes:**
 
-    **Abilities:** `hyper-cutter / sand-veil / immunity` → `hyper-cutter / immunity / immunity`
+	- `gligar > gliscor: level-up (held: razor-fang)` → `gligar > gliscor: use-item (razor-fang)`
 
-    **Level-up Moves:** `28 moves` → `23 moves`
+	**Abilities Changes:**
 
-    **TM/HM Compatibility:** `42 moves` → `44 moves (added: bug-buzz, rock-climb)`
+	- `hyper-cutter / sand-veil / immunity` → `hyper-cutter / immunity / immunity`
+
+	**Level-up Moves Changes:**
+
+	- `28 moves` → `23 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `42 moves` → `44 moves (added: bug-buzz, rock-climb)`
 
 
 ## :material-information: Basic Information
@@ -78,7 +86,7 @@
 
 	---
 
-	**Generation:** Generation Ii
+	**Generation:** Generation II
 
 	**Color:** Purple
 
@@ -155,7 +163,7 @@
 
 	**#207 [Gligar](./gligar.md)**
 
-	
+
 
 	***You are here***
 

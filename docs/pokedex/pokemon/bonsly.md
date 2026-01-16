@@ -14,13 +14,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Bonsly ROM Changes"
 
-    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+	**Evolution Chain Changes:**
 
-    **Base Stats:** `50 HP / 80 Atk / 95 Def / 10 SAtk / 45 SDef / 10 Spd` → `60 HP / 85 Atk / 95 Def / 10 SAtk / 55 SDef / 10 Spd`
+	- `bonsly > sudowoodo: level-up (knows mimic)` → `bonsly > sudowoodo: level-up (level 25)`
 
-    **Level-up Moves:** `24 moves` → `21 moves`
+	**Base Stats Changes:**
+
+	- `50 HP / 80 Atk / 95 Def / 10 SAtk / 45 SDef / 10 Spd` → `60 HP / 85 Atk / 95 Def / 10 SAtk / 55 SDef / 10 Spd`
+
+	**Level-up Moves Changes:**
+
+	- `24 moves` → `21 moves`
 
 
 ## :material-information: Basic Information
@@ -73,7 +79,7 @@
 
 	---
 
-	**Generation:** Generation Iv
+	**Generation:** Generation IV
 
 	**Color:** Brown
 
@@ -136,7 +142,7 @@
 
 	**#438 [Bonsly](./bonsly.md)**
 
-	
+
 
 	***You are here***
 

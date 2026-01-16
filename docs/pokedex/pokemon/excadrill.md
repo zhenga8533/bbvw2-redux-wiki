@@ -14,9 +14,11 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Excadrill ROM Changes"
 
-    **Abilities:** `sand-rush / sand-force / mold-breaker` → `sand-rush / mold-breaker / sand-force`
+	**Abilities Changes:**
+
+	- `sand-rush / sand-force / mold-breaker` → `sand-rush / mold-breaker / sand-force`
 
 
 ## :material-information: Basic Information

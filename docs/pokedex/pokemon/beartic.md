@@ -14,17 +14,27 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Beartic ROM Changes"
 
-    **Base Stats:** `95 HP / 110 Atk / 80 Def / 70 SAtk / 80 SDef / 50 Spd` → `105 HP / 130 Atk / 80 Def / 70 SAtk / 80 SDef / 55 Spd`
+	**Base Stats Changes:**
 
-    **Abilities:** `snow-cloak / swift-swim` → `snow-cloak / sheer-force / swift-swim`
+	- `95 HP / 110 Atk / 80 Def / 70 SAtk / 80 SDef / 50 Spd` → `105 HP / 130 Atk / 80 Def / 70 SAtk / 80 SDef / 55 Spd`
 
-    **Type:** `ice` → `ice / fighting`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `21 moves` → `24 moves`
+	- `snow-cloak / swift-swim` → `snow-cloak / sheer-force / swift-swim`
 
-    **TM/HM Compatibility:** `41 moves` → `45 moves (added: earthquake, low-sweep, work-up, waterfall)`
+	**Type Changes:**
+
+	- `ice` → `ice / fighting`
+
+	**Level-up Moves Changes:**
+
+	- `21 moves` → `24 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `41 moves` → `45 moves (added: earthquake, low-sweep, work-up, waterfall)`
 
 
 ## :material-information: Basic Information
@@ -92,7 +102,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Aspear Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/aspear-berry.png){ .item-sprite } [Aspear Berry](../../pokedex/items/aspear-berry.md) | 50% | 50% | 50% | 50% |
+| <span style="white-space: nowrap;">![Aspear Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/aspear-berry.png){ .item-sprite } [Aspear Berry](../../pokedex/items/aspear-berry.md)</span> | 50% | 50% | 50% | 50% |
 
 ## :material-shield-half-full: Type Effectiveness
 

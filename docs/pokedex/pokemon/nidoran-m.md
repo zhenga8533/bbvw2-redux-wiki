@@ -127,7 +127,7 @@
 
 	**#032 [Nidoran♂](./nidoran-m.md)**
 
-	
+
 
 	***You are here***
 

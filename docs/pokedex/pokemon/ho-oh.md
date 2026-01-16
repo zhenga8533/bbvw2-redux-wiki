@@ -14,11 +14,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Ho-Oh ROM Changes"
 
-    **Level-up Moves:** `16 moves` → `15 moves`
+	**Level-up Moves Changes:**
 
-    **TM/HM Compatibility:** `46 moves` → `47 moves (added: hurricane)`
+	- `16 moves` → `15 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `46 moves` → `47 moves (added: hurricane)`
 
 
 ## :material-information: Basic Information
@@ -72,7 +76,7 @@
 
 	---
 
-	**Generation:** Generation Ii
+	**Generation:** Generation II
 
 	**Color:** Red
 
@@ -87,7 +91,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Sacred Ash](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/sacred-ash.png){ .item-sprite } [Sacred Ash](../../pokedex/items/sacred-ash.md) | 100% | 100% | 100% | 100% |
+| <span style="white-space: nowrap;">![Sacred Ash](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/sacred-ash.png){ .item-sprite } [Sacred Ash](../../pokedex/items/sacred-ash.md)</span> | 100% | 100% | 100% | 100% |
 
 ## :material-shield-half-full: Type Effectiveness
 

@@ -13,17 +13,27 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Skitty ROM Changes"
 
-    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+	**Evolution Chain Changes:**
 
-    **Base Stats:** `50 HP / 45 Atk / 45 Def / 35 SAtk / 35 SDef / 50 Spd` → `50 HP / 50 Atk / 50 Def / 40 SAtk / 40 SDef / 60 Spd`
+	- `skitty > delcatty: use-item (moon-stone)` → `skitty > delcatty: level-up (level 25)`
 
-    **Abilities:** `cute-charm / normalize / wonder-skin` → `wonder-skin / normalize / wonder-skin`
+	**Base Stats Changes:**
 
-    **Level-up Moves:** `17 moves` → `25 moves`
+	- `50 HP / 45 Atk / 45 Def / 35 SAtk / 35 SDef / 50 Spd` → `50 HP / 50 Atk / 50 Def / 40 SAtk / 40 SDef / 60 Spd`
 
-    **TM/HM Compatibility:** `34 moves` → `36 moves (added: hone-claws, cut)`
+	**Abilities Changes:**
+
+	- `cute-charm / normalize / wonder-skin` → `wonder-skin / normalize / wonder-skin`
+
+	**Level-up Moves Changes:**
+
+	- `17 moves` → `25 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `34 moves` → `36 moves (added: hone-claws, cut)`
 
 
 ## :material-information: Basic Information
@@ -78,7 +88,7 @@
 
 	---
 
-	**Generation:** Generation Iii
+	**Generation:** Generation III
 
 	**Color:** Pink
 
@@ -93,8 +103,8 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Leppa Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/leppa-berry.png){ .item-sprite } [Leppa Berry](../../pokedex/items/leppa-berry.md) | 5% | 5% | — | — |
-| ![Pecha Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/pecha-berry.png){ .item-sprite } [Pecha Berry](../../pokedex/items/pecha-berry.md) | — | — | 50% | 50% |
+| <span style="white-space: nowrap;">![Leppa Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/leppa-berry.png){ .item-sprite } [Leppa Berry](../../pokedex/items/leppa-berry.md)</span> | 5% | 5% | — | — |
+| <span style="white-space: nowrap;">![Pecha Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/pecha-berry.png){ .item-sprite } [Pecha Berry](../../pokedex/items/pecha-berry.md)</span> | — | — | 50% | 50% |
 
 ## :material-shield-half-full: Type Effectiveness
 
@@ -150,7 +160,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 	**#300 [Skitty](./skitty.md)**
 
-	
+
 
 	***You are here***
 

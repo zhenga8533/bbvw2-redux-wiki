@@ -13,11 +13,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Gardevoir ROM Changes"
 
-    **Level-up Moves:** `19 moves` → `24 moves`
+	**Level-up Moves Changes:**
 
-    **TM/HM Compatibility:** `41 moves` → `42 moves (added: tri-attack)`
+	- `19 moves` → `24 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `41 moves` → `42 moves (added: tri-attack)`
 
 
 ## :material-information: Basic Information
@@ -72,7 +76,7 @@
 
 	---
 
-	**Generation:** Generation Iii
+	**Generation:** Generation III
 
 	**Color:** White
 

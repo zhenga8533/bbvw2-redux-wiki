@@ -13,15 +13,23 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Kecleon ROM Changes"
 
-    **Base Stats:** `60 HP / 90 Atk / 70 Def / 60 SAtk / 120 SDef / 40 Spd` → `60 HP / 100 Atk / 70 Def / 60 SAtk / 120 SDef / 40 Spd`
+	**Base Stats Changes:**
 
-    **Abilities:** `color-change` → `color-change / adaptability / adaptability`
+	- `60 HP / 90 Atk / 70 Def / 60 SAtk / 120 SDef / 40 Spd` → `60 HP / 100 Atk / 70 Def / 60 SAtk / 120 SDef / 40 Spd`
 
-    **Level-up Moves:** `18 moves` → `22 moves`
+	**Abilities Changes:**
 
-    **TM/HM Compatibility:** `43 moves` → `44 moves (added: acrobatics)`
+	- `color-change` → `color-change / adaptability / adaptability`
+
+	**Level-up Moves Changes:**
+
+	- `18 moves` → `22 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `43 moves` → `44 moves (added: acrobatics)`
 
 
 ## :material-information: Basic Information
@@ -76,7 +84,7 @@
 
 	---
 
-	**Generation:** Generation Iii
+	**Generation:** Generation III
 
 	**Color:** Green
 
@@ -91,7 +99,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Persim Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/persim-berry.png){ .item-sprite } [Persim Berry](../../pokedex/items/persim-berry.md) | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Persim Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/persim-berry.png){ .item-sprite } [Persim Berry](../../pokedex/items/persim-berry.md)</span> | 5% | 5% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 

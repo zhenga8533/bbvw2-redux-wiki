@@ -13,15 +13,23 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Beedrill ROM Changes"
 
-    **Base Stats:** `65 HP / 80 Atk / 40 Def / 45 SAtk / 80 SDef / 75 Spd` → `65 HP / 105 Atk / 50 Def / 55 SAtk / 95 SDef / 85 Spd`
+	**Base Stats Changes:**
 
-    **Abilities:** `swarm / sniper` → `adaptability / sniper / swarm`
+	- `65 HP / 80 Atk / 40 Def / 45 SAtk / 80 SDef / 75 Spd` → `65 HP / 105 Atk / 50 Def / 55 SAtk / 95 SDef / 85 Spd`
 
-    **Level-up Moves:** `12 moves` → `15 moves`
+	**Abilities Changes:**
 
-    **TM/HM Compatibility:** `32 moves` → `35 moves (added: bug-buzz, work-up, fly)`
+	- `swarm / sniper` → `adaptability / sniper / swarm`
+
+	**Level-up Moves Changes:**
+
+	- `12 moves` → `15 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `32 moves` → `35 moves (added: bug-buzz, work-up, fly)`
 
 
 ## :material-information: Basic Information
@@ -91,7 +99,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Poison Barb](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/poison-barb.png){ .item-sprite } [Poison Barb](../../pokedex/items/poison-barb.md) | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Poison Barb](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/poison-barb.png){ .item-sprite } [Poison Barb](../../pokedex/items/poison-barb.md)</span> | 5% | 5% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 

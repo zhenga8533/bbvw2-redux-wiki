@@ -14,11 +14,17 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Zweilous ROM Changes"
 
-    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+	**Evolution Chain Changes:**
 
-    **Level-up Moves:** `18 moves` → `21 moves`
+	- `deino > zweilous: level-up (level 50)` → `deino > zweilous: level-up (level 38)`
+
+	- `zweilous > hydreigon: unknown` → `zweilous > hydreigon: level-up (level 58)`
+
+	**Level-up Moves Changes:**
+
+	- `18 moves` → `21 moves`
 
 
 ## :material-information: Basic Information

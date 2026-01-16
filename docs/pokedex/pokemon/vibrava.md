@@ -13,19 +13,33 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Vibrava ROM Changes"
 
-    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+	**Evolution Chain Changes:**
 
-    **Base Stats:** `50 HP / 70 Atk / 50 Def / 50 SAtk / 50 SDef / 70 Spd` → `60 HP / 80 Atk / 70 Def / 90 SAtk / 70 SDef / 80 Spd`
+	- `trapinch > vibrava: level-up (level 35)` → `trapinch > vibrava: level-up (level 30)`
 
-    **Type:** `ground / dragon` → `bug / dragon`
+	- `vibrava > flygon: unknown` → `vibrava > flygon: level-up (level 55)`
 
-    **EV Yield:** `1 Atk, 1 Spd` → `2 SAtk`
+	**Base Stats Changes:**
 
-    **Level-up Moves:** `24 moves` → `23 moves`
+	- `50 HP / 70 Atk / 50 Def / 50 SAtk / 50 SDef / 70 Spd` → `60 HP / 80 Atk / 70 Def / 90 SAtk / 70 SDef / 80 Spd`
 
-    **TM/HM Compatibility:** `26 moves` → `27 moves (added: hurricane)`
+	**Type Changes:**
+
+	- `ground / dragon` → `bug / dragon`
+
+	**EV Yield Changes:**
+
+	- `1 Atk, 1 Spd` → `2 SAtk`
+
+	**Level-up Moves Changes:**
+
+	- `24 moves` → `23 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `26 moves` → `27 moves (added: hurricane)`
 
 
 ## :material-information: Basic Information
@@ -78,7 +92,7 @@
 
 	---
 
-	**Generation:** Generation Iii
+	**Generation:** Generation III
 
 	**Color:** Green
 

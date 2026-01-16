@@ -13,15 +13,23 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Mightyena ROM Changes"
 
-    **Base Stats:** `70 HP / 90 Atk / 70 Def / 60 SAtk / 60 SDef / 70 Spd` → `70 HP / 110 Atk / 70 Def / 60 SAtk / 60 SDef / 90 Spd`
+	**Base Stats Changes:**
 
-    **Abilities:** `intimidate / quick-feet / moxie` → `intimidate / moxie / quick-feet`
+	- `70 HP / 90 Atk / 70 Def / 60 SAtk / 60 SDef / 70 Spd` → `70 HP / 110 Atk / 70 Def / 60 SAtk / 60 SDef / 90 Spd`
 
-    **Level-up Moves:** `17 moves` → `24 moves`
+	**Abilities Changes:**
 
-    **TM/HM Compatibility:** `29 moves` → `30 moves (added: quash)`
+	- `intimidate / quick-feet / moxie` → `intimidate / moxie / quick-feet`
+
+	**Level-up Moves Changes:**
+
+	- `17 moves` → `24 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `29 moves` → `30 moves (added: quash)`
 
 
 ## :material-information: Basic Information
@@ -76,7 +84,7 @@
 
 	---
 
-	**Generation:** Generation Iii
+	**Generation:** Generation III
 
 	**Color:** Gray
 
@@ -91,7 +99,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Pecha Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/pecha-berry.png){ .item-sprite } [Pecha Berry](../../pokedex/items/pecha-berry.md) | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Pecha Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/pecha-berry.png){ .item-sprite } [Pecha Berry](../../pokedex/items/pecha-berry.md)</span> | 5% | 5% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 

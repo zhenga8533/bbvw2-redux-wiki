@@ -13,13 +13,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Hoothoot ROM Changes"
 
-    **Abilities:** `insomnia / keen-eye / tinted-lens` → `tinted-lens / insomnia / keen-eye`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `17 moves` → `22 moves`
+	- `insomnia / keen-eye / tinted-lens` → `tinted-lens / insomnia / keen-eye`
 
-    **TM/HM Compatibility:** `25 moves` → `26 moves (added: flash)`
+	**Level-up Moves Changes:**
+
+	- `17 moves` → `22 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `25 moves` → `26 moves (added: flash)`
 
 
 ## :material-information: Basic Information
@@ -74,7 +80,7 @@
 
 	---
 
-	**Generation:** Generation Ii
+	**Generation:** Generation II
 
 	**Color:** Brown
 
@@ -146,7 +152,7 @@
 
 	**#163 [Hoothoot](./hoothoot.md)**
 
-	
+
 
 	***You are here***
 

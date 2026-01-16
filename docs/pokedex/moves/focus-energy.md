@@ -1,9 +1,11 @@
 # Focus Energy
 
 
-!!! info "ROM Changes
+??? note "Focus Energy ROM Changes"
 
-    **Pp:** `30` → `20`
+	**Pp Changes:**
+
+	- `30` → `20`
 
 
 ## :material-chart-box: Stats

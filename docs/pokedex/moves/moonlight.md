@@ -1,9 +1,11 @@
 # Moonlight
 
 
-!!! info "ROM Changes
+??? note "Moonlight ROM Changes"
 
-    **Type:** `normal` → `fairy`
+	**Type Changes:**
+
+	- `normal` → `fairy`
 
 
 ## :material-chart-box: Stats

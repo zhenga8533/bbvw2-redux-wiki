@@ -13,9 +13,11 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Roserade ROM Changes"
 
-    **Level-up Moves:** `5 moves` → `10 moves`
+	**Level-up Moves Changes:**
+
+	- `5 moves` → `10 moves`
 
 
 ## :material-information: Basic Information
@@ -70,7 +72,7 @@
 
 	---
 
-	**Generation:** Generation Iv
+	**Generation:** Generation IV
 
 	**Color:** Green
 
@@ -85,8 +87,8 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Absorb Bulb](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/absorb-bulb.png){ .item-sprite } [Absorb Bulb](../../pokedex/items/absorb-bulb.md) | — | — | 1% | 1% |
-| ![Poison Barb](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/poison-barb.png){ .item-sprite } [Poison Barb](../../pokedex/items/poison-barb.md) | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Absorb Bulb](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/absorb-bulb.png){ .item-sprite } [Absorb Bulb](../../pokedex/items/absorb-bulb.md)</span> | — | — | 1% | 1% |
+| <span style="white-space: nowrap;">![Poison Barb](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/poison-barb.png){ .item-sprite } [Poison Barb](../../pokedex/items/poison-barb.md)</span> | 5% | 5% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 

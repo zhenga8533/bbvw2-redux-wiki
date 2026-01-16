@@ -13,13 +13,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Manectric ROM Changes"
 
-    **Abilities:** `static / lightning-rod / minus` → `intimidate / static / lightning-rod`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `18 moves` → `24 moves`
+	- `static / lightning-rod / minus` → `intimidate / static / lightning-rod`
 
-    **TM/HM Compatibility:** `29 moves` → `30 moves (added: energy-ball)`
+	**Level-up Moves Changes:**
+
+	- `18 moves` → `24 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `29 moves` → `30 moves (added: energy-ball)`
 
 
 ## :material-information: Basic Information
@@ -74,7 +80,7 @@
 
 	---
 
-	**Generation:** Generation Iii
+	**Generation:** Generation III
 
 	**Color:** Yellow
 

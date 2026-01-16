@@ -14,9 +14,11 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Eelektross ROM Changes"
 
-    **Level-up Moves:** `5 moves` → `15 moves`
+	**Level-up Moves Changes:**
+
+	- `5 moves` → `15 moves`
 
 
 ## :material-information: Basic Information

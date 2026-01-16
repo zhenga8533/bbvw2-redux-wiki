@@ -13,9 +13,11 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Kakuna ROM Changes"
 
-    **Abilities:** `shed-skin` → `shed-skin / battle-armor / shed-skin`
+	**Abilities Changes:**
+
+	- `shed-skin` → `shed-skin / battle-armor / shed-skin`
 
 
 ## :material-information: Basic Information

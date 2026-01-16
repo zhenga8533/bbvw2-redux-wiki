@@ -14,11 +14,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Crustle ROM Changes"
 
-    **Level-up Moves:** `18 moves` → `21 moves`
+	**Level-up Moves Changes:**
 
-    **TM/HM Compatibility:** `34 moves` → `35 moves (added: bug-buzz)`
+	- `18 moves` → `21 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `34 moves` → `35 moves (added: bug-buzz)`
 
 
 ## :material-information: Basic Information
@@ -86,8 +90,8 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Hard Stone](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hard-stone.png){ .item-sprite } [Hard Stone](../../pokedex/items/hard-stone.md) | 5% | 5% | 5% | 5% |
-| ![Rare Bone](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/rare-bone.png){ .item-sprite } [Rare Bone](../../pokedex/items/rare-bone.md) | 1% | 1% | 1% | 1% |
+| <span style="white-space: nowrap;">![Hard Stone](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hard-stone.png){ .item-sprite } [Hard Stone](../../pokedex/items/hard-stone.md)</span> | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Rare Bone](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/rare-bone.png){ .item-sprite } [Rare Bone](../../pokedex/items/rare-bone.md)</span> | 1% | 1% | 1% | 1% |
 
 ## :material-shield-half-full: Type Effectiveness
 

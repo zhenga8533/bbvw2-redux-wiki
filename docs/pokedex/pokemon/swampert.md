@@ -13,11 +13,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Swampert ROM Changes"
 
-    **Abilities:** `torrent / damp` → `water-veil / torrent / damp`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `16 moves` → `25 moves`
+	- `torrent / damp` → `water-veil / torrent / damp`
+
+	**Level-up Moves Changes:**
+
+	- `16 moves` → `25 moves`
 
 
 ## :material-information: Basic Information
@@ -72,7 +76,7 @@
 
 	---
 
-	**Generation:** Generation Iii
+	**Generation:** Generation III
 
 	**Color:** Blue
 

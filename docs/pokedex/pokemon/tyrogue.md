@@ -14,9 +14,11 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Tyrogue ROM Changes"
 
-    **Level-up Moves:** `4 moves` → `13 moves`
+	**Level-up Moves Changes:**
+
+	- `4 moves` → `13 moves`
 
 
 ## :material-information: Basic Information
@@ -71,7 +73,7 @@
 
 	---
 
-	**Generation:** Generation Ii
+	**Generation:** Generation II
 
 	**Color:** Purple
 
@@ -134,7 +136,7 @@
 
 	**#236 [Tyrogue](./tyrogue.md)**
 
-	
+
 
 	***You are here***
 

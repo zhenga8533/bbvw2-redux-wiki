@@ -1,9 +1,11 @@
 # Triple Axel
 
 
-!!! info "ROM Changes
+??? note "Triple Axel ROM Changes"
 
-    **Power:** `20` → `30`
+	**Power Changes:**
+
+	- `20` → `30`
 
 
 ## :material-chart-box: Stats

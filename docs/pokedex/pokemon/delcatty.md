@@ -13,17 +13,27 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Delcatty ROM Changes"
 
-    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+	**Evolution Chain Changes:**
 
-    **Base Stats:** `70 HP / 65 Atk / 65 Def / 55 SAtk / 55 SDef / 70 Spd` → `70 HP / 95 Atk / 65 Def / 85 SAtk / 75 SDef / 95 Spd`
+	- `skitty > delcatty: use-item (moon-stone)` → `skitty > delcatty: level-up (level 25)`
 
-    **Abilities:** `cute-charm / normalize / wonder-skin` → `wonder-skin / normalize / wonder-skin`
+	**Base Stats Changes:**
 
-    **Level-up Moves:** `4 moves` → `13 moves`
+	- `70 HP / 65 Atk / 65 Def / 55 SAtk / 55 SDef / 70 Spd` → `70 HP / 95 Atk / 65 Def / 85 SAtk / 75 SDef / 95 Spd`
 
-    **TM/HM Compatibility:** `38 moves` → `41 moves (added: hone-claws, power-gem, cut)`
+	**Abilities Changes:**
+
+	- `cute-charm / normalize / wonder-skin` → `wonder-skin / normalize / wonder-skin`
+
+	**Level-up Moves Changes:**
+
+	- `4 moves` → `13 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `38 moves` → `41 moves (added: hone-claws, power-gem, cut)`
 
 
 ## :material-information: Basic Information
@@ -78,7 +88,7 @@
 
 	---
 
-	**Generation:** Generation Iii
+	**Generation:** Generation III
 
 	**Color:** Purple
 
@@ -93,8 +103,8 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Leppa Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/leppa-berry.png){ .item-sprite } [Leppa Berry](../../pokedex/items/leppa-berry.md) | 5% | 5% | — | — |
-| ![Pecha Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/pecha-berry.png){ .item-sprite } [Pecha Berry](../../pokedex/items/pecha-berry.md) | — | — | 50% | 50% |
+| <span style="white-space: nowrap;">![Leppa Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/leppa-berry.png){ .item-sprite } [Leppa Berry](../../pokedex/items/leppa-berry.md)</span> | 5% | 5% | — | — |
+| <span style="white-space: nowrap;">![Pecha Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/pecha-berry.png){ .item-sprite } [Pecha Berry](../../pokedex/items/pecha-berry.md)</span> | — | — | 50% | 50% |
 
 ## :material-shield-half-full: Type Effectiveness
 

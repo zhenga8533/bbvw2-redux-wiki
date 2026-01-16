@@ -14,13 +14,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Mantyke ROM Changes"
 
-    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+	**Evolution Chain Changes:**
 
-    **Level-up Moves:** `25 moves` → `21 moves`
+	- `mantyke > mantine: level-up` → `mantyke > mantine: level-up (level 27)`
 
-    **TM/HM Compatibility:** `25 moves` → `26 moves (added: wave-crash)`
+	**Level-up Moves Changes:**
+
+	- `25 moves` → `21 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `25 moves` → `26 moves (added: wave-crash)`
 
 
 ## :material-information: Basic Information
@@ -73,7 +79,7 @@
 
 	---
 
-	**Generation:** Generation Iv
+	**Generation:** Generation IV
 
 	**Color:** Blue
 
@@ -150,7 +156,7 @@
 
 	**#458 [Mantyke](./mantyke.md)**
 
-	
+
 
 	***You are here***
 

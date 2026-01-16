@@ -13,13 +13,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Omastar ROM Changes"
 
-    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+	**Evolution Chain Changes:**
 
-    **Level-up Moves:** `16 moves` → `19 moves`
+	- `omanyte > omastar: level-up (level 40)` → `omanyte > omastar: level-up (level 30)`
 
-    **TM/HM Compatibility:** `31 moves` → `32 moves (added: power-gem)`
+	**Level-up Moves Changes:**
+
+	- `16 moves` → `19 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `31 moves` → `32 moves (added: power-gem)`
 
 
 ## :material-information: Basic Information

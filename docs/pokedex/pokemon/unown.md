@@ -13,13 +13,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Unown ROM Changes"
 
-    **Base Stats:** `48 HP / 72 Atk / 48 Def / 72 SAtk / 48 SDef / 48 Spd` → `48 HP / 72 Atk / 48 Def / 102 SAtk / 48 SDef / 78 Spd`
+	**Base Stats Changes:**
 
-    **Catch Rate:** `225` → `255`
+	- `48 HP / 72 Atk / 48 Def / 72 SAtk / 48 SDef / 48 Spd` → `48 HP / 72 Atk / 48 Def / 102 SAtk / 48 SDef / 78 Spd`
 
-    **Level-up Moves:** `1 move` → `7 moves`
+	**Catch Rate Changes:**
+
+	- `225` → `255`
+
+	**Level-up Moves Changes:**
+
+	- `1 move` → `7 moves`
 
 
 ## :material-information: Basic Information
@@ -72,7 +78,7 @@
 
 	---
 
-	**Generation:** Generation Ii
+	**Generation:** Generation II
 
 	**Color:** Black
 

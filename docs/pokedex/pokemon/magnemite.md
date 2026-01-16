@@ -13,13 +13,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Magnemite ROM Changes"
 
-    **Abilities:** `magnet-pull / sturdy / analytic` → `analytic / sturdy / magnet-pull`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `30 moves` → `21 moves`
+	- `magnet-pull / sturdy / analytic` → `analytic / sturdy / magnet-pull`
 
-    **TM/HM Compatibility:** `26 moves` → `27 moves (added: bug-buzz)`
+	**Level-up Moves Changes:**
+
+	- `30 moves` → `21 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `26 moves` → `27 moves (added: bug-buzz)`
 
 
 ## :material-information: Basic Information
@@ -89,7 +95,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Metal Coat](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/metal-coat.png){ .item-sprite } [Metal Coat](../../pokedex/items/metal-coat.md) | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Metal Coat](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/metal-coat.png){ .item-sprite } [Metal Coat](../../pokedex/items/metal-coat.md)</span> | 5% | 5% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 
@@ -164,7 +170,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 	**#081 [Magnemite](./magnemite.md)**
 
-	
+
 
 	***You are here***
 

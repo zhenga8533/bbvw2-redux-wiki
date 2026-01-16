@@ -13,11 +13,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Voltorb ROM Changes"
 
-    **Base Stats:** `40 HP / 30 Atk / 50 Def / 55 SAtk / 55 SDef / 100 Spd` → `40 HP / 30 Atk / 50 Def / 65 SAtk / 65 SDef / 100 Spd`
+	**Base Stats Changes:**
 
-    **Level-up Moves:** `15 moves` → `20 moves`
+	- `40 HP / 30 Atk / 50 Def / 55 SAtk / 55 SDef / 100 Spd` → `40 HP / 30 Atk / 50 Def / 65 SAtk / 65 SDef / 100 Spd`
+
+	**Level-up Moves Changes:**
+
+	- `15 moves` → `20 moves`
 
 
 ## :material-information: Basic Information
@@ -135,7 +139,7 @@
 
 	**#100 [Voltorb](./voltorb.md)**
 
-	
+
 
 	***You are here***
 

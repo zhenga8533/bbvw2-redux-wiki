@@ -1,9 +1,11 @@
 # Astonish
 
 
-!!! info "ROM Changes
+??? note "Astonish ROM Changes"
 
-    **Power:** `30` → `35`
+	**Power Changes:**
+
+	- `30` → `35`
 
 
 ## :material-chart-box: Stats

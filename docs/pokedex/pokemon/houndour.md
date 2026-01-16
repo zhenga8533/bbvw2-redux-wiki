@@ -13,11 +13,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Houndour ROM Changes"
 
-    **Abilities:** `early-bird / flash-fire / unnerve` → `flash-fire / intimidate / unnerve`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `16 moves` → `22 moves`
+	- `early-bird / flash-fire / unnerve` → `flash-fire / intimidate / unnerve`
+
+	**Level-up Moves Changes:**
+
+	- `16 moves` → `22 moves`
 
 
 ## :material-information: Basic Information
@@ -72,7 +76,7 @@
 
 	---
 
-	**Generation:** Generation Ii
+	**Generation:** Generation II
 
 	**Color:** Black
 
@@ -144,7 +148,7 @@
 
 	**#228 [Houndour](./houndour.md)**
 
-	
+
 
 	***You are here***
 

@@ -13,15 +13,23 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Poliwag ROM Changes"
 
-    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+	**Evolution Chain Changes:**
 
-    **Abilities:** `water-absorb / damp / swift-swim` → `water-absorb / swift-swim / damp`
+	- `poliwhirl > politoed: trade (held: kings-rock)` → `poliwhirl > politoed: use-item (king's-rock)`
 
-    **Level-up Moves:** `13 moves` → `14 moves`
+	**Abilities Changes:**
 
-    **TM/HM Compatibility:** `23 moves` → `24 moves (added: wave-crash)`
+	- `water-absorb / damp / swift-swim` → `water-absorb / swift-swim / damp`
+
+	**Level-up Moves Changes:**
+
+	- `13 moves` → `14 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `23 moves` → `24 moves (added: wave-crash)`
 
 
 ## :material-information: Basic Information
@@ -139,7 +147,7 @@
 
 	**#060 [Poliwag](./poliwag.md)**
 
-	
+
 
 	***You are here***
 

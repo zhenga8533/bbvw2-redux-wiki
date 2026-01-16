@@ -13,11 +13,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Chansey ROM Changes"
 
-    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+	**Evolution Chain Changes:**
 
-    **Level-up Moves:** `17 moves` → `25 moves`
+	- `happiny > chansey: level-up (held: oval-stone)` → `happiny > chansey: level-up (level 30)`
+
+	**Level-up Moves Changes:**
+
+	- `17 moves` → `25 moves`
 
 
 ## :material-information: Basic Information
@@ -87,8 +91,8 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Lucky Egg](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/lucky-egg.png){ .item-sprite } [Lucky Egg](../../pokedex/items/lucky-egg.md) | 5% | 5% | 5% | 5% |
-| ![Lucky Punch](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/lucky-punch.png){ .item-sprite } [Lucky Punch](../../pokedex/items/lucky-punch.md) | 50% | 50% | 50% | 50% |
+| <span style="white-space: nowrap;">![Lucky Egg](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/lucky-egg.png){ .item-sprite } [Lucky Egg](../../pokedex/items/lucky-egg.md)</span> | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Lucky Punch](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/lucky-punch.png){ .item-sprite } [Lucky Punch](../../pokedex/items/lucky-punch.md)</span> | 50% | 50% | 50% | 50% |
 
 ## :material-shield-half-full: Type Effectiveness
 

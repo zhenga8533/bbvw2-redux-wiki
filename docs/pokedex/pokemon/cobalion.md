@@ -15,11 +15,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Cobalion ROM Changes"
 
-    **Level-up Moves:** `14 moves` → `22 moves`
+	**Level-up Moves Changes:**
 
-    **TM/HM Compatibility:** `37 moves` → `39 moves (added: low-sweep, rock-climb)`
+	- `14 moves` → `22 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `37 moves` → `39 moves (added: low-sweep, rock-climb)`
 
 
 ## :material-information: Basic Information

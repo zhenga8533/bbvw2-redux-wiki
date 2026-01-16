@@ -13,13 +13,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Ursaring ROM Changes"
 
-    **Type:** `normal` → `normal / ground`
+	**Type Changes:**
 
-    **Level-up Moves:** `14 moves` → `24 moves`
+	- `normal` → `normal / ground`
 
-    **TM/HM Compatibility:** `41 moves` → `42 moves (added: rock-climb)`
+	**Level-up Moves Changes:**
+
+	- `14 moves` → `24 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `41 moves` → `42 moves (added: rock-climb)`
 
 
 ## :material-information: Basic Information
@@ -76,7 +82,7 @@
 
 	---
 
-	**Generation:** Generation Ii
+	**Generation:** Generation II
 
 	**Color:** Brown
 

@@ -13,13 +13,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Bagon ROM Changes"
 
-    **Abilities:** `rock-head / sheer-force` → `rock-head / sheer-force / sheer-force`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `12 moves` → `22 moves`
+	- `rock-head / sheer-force` → `rock-head / sheer-force / sheer-force`
 
-    **TM/HM Compatibility:** `28 moves` → `29 moves (added: work-up)`
+	**Level-up Moves Changes:**
+
+	- `12 moves` → `22 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `28 moves` → `29 moves (added: work-up)`
 
 
 ## :material-information: Basic Information
@@ -74,7 +80,7 @@
 
 	---
 
-	**Generation:** Generation Iii
+	**Generation:** Generation III
 
 	**Color:** Blue
 
@@ -89,7 +95,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Dragon Fang](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dragon-fang.png){ .item-sprite } [Dragon Fang](../../pokedex/items/dragon-fang.md) | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Dragon Fang](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dragon-fang.png){ .item-sprite } [Dragon Fang](../../pokedex/items/dragon-fang.md)</span> | 5% | 5% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 
@@ -145,7 +151,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 	**#371 [Bagon](./bagon.md)**
 
-	
+
 
 	***You are here***
 

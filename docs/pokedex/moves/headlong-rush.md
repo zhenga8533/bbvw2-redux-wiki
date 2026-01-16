@@ -1,9 +1,11 @@
 # Headlong Rush
 
 
-!!! info "ROM Changes
+??? note "Headlong Rush ROM Changes"
 
-    **Accuracy:** `100` → `90`
+	**Accuracy Changes:**
+
+	- `100` → `90`
 
 
 ## :material-chart-box: Stats

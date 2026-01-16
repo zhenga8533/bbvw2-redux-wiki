@@ -62,7 +62,7 @@
 
 	---
 
-	**Generation:** Generation Iv
+	**Generation:** Generation IV
 
 	**Color:** Purple
 
@@ -125,7 +125,7 @@
 
 	**#422 [Shellos](./shellos.md)**
 
-	
+
 
 	***You are here***
 

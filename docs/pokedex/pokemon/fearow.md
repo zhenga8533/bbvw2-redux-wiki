@@ -13,19 +13,31 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Fearow ROM Changes"
 
-    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+	**Evolution Chain Changes:**
 
-    **Base Stats:** `65 HP / 90 Atk / 65 Def / 61 SAtk / 61 SDef / 100 Spd` → `85 HP / 95 Atk / 80 Def / 61 SAtk / 64 SDef / 100 Spd`
+	- `spearow > fearow: level-up (level 20)` → `spearow > fearow: level-up (level 21)`
 
-    **Abilities:** `keen-eye / sniper` → `intimidate / sniper / sniper`
+	**Base Stats Changes:**
 
-    **Type:** `normal / flying` → `flying`
+	- `65 HP / 90 Atk / 65 Def / 61 SAtk / 61 SDef / 100 Spd` → `85 HP / 95 Atk / 80 Def / 61 SAtk / 64 SDef / 100 Spd`
 
-    **Level-up Moves:** `15 moves` → `23 moves`
+	**Abilities Changes:**
 
-    **TM/HM Compatibility:** `24 moves` → `31 moves (added: hone-claws, taunt, hurricane, quash, shadow-claw...)`
+	- `keen-eye / sniper` → `intimidate / sniper / sniper`
+
+	**Type Changes:**
+
+	- `normal / flying` → `flying`
+
+	**Level-up Moves Changes:**
+
+	- `15 moves` → `23 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `24 moves` → `31 moves (added: hone-claws, taunt, hurricane, quash, shadow-claw...)`
 
 
 ## :material-information: Basic Information
@@ -95,7 +107,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Sharp Beak](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/sharp-beak.png){ .item-sprite } [Sharp Beak](../../pokedex/items/sharp-beak.md) | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Sharp Beak](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/sharp-beak.png){ .item-sprite } [Sharp Beak](../../pokedex/items/sharp-beak.md)</span> | 5% | 5% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 

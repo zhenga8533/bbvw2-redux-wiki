@@ -13,11 +13,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Combusken ROM Changes"
 
-    **Abilities:** `blaze / speed-boost` → `quick-feet / blaze / quick-feet`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `15 moves` → `21 moves`
+	- `blaze / speed-boost` → `quick-feet / blaze / quick-feet`
+
+	**Level-up Moves Changes:**
+
+	- `15 moves` → `21 moves`
 
 
 ## :material-information: Basic Information
@@ -74,7 +78,7 @@
 
 	---
 
-	**Generation:** Generation Iii
+	**Generation:** Generation III
 
 	**Color:** Red
 

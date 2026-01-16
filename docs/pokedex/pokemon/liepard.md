@@ -14,15 +14,23 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Liepard ROM Changes"
 
-    **Base Stats:** `64 HP / 88 Atk / 50 Def / 88 SAtk / 50 SDef / 106 Spd` → `64 HP / 90 Atk / 50 Def / 90 SAtk / 50 SDef / 106 Spd`
+	**Base Stats Changes:**
 
-    **Abilities:** `limber / unburden / prankster` → `prankster / unburden / prankster`
+	- `64 HP / 88 Atk / 50 Def / 88 SAtk / 50 SDef / 106 Spd` → `64 HP / 90 Atk / 50 Def / 90 SAtk / 50 SDef / 106 Spd`
 
-    **Level-up Moves:** `19 moves` → `25 moves`
+	**Abilities Changes:**
 
-    **TM/HM Compatibility:** `34 moves` → `35 moves (added: quash)`
+	- `limber / unburden / prankster` → `prankster / unburden / prankster`
+
+	**Level-up Moves Changes:**
+
+	- `19 moves` → `25 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `34 moves` → `35 moves (added: quash)`
 
 
 ## :material-information: Basic Information

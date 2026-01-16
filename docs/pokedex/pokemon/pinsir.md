@@ -13,13 +13,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Pinsir ROM Changes"
 
-    **Abilities:** `hyper-cutter / mold-breaker / moxie` → `moxie / mold-breaker / moxie`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `24 moves` → `18 moves`
+	- `hyper-cutter / mold-breaker / moxie` → `moxie / mold-breaker / moxie`
 
-    **TM/HM Compatibility:** `35 moves` → `39 moves (added: hone-claws, acrobatics, bug-buzz, work-up)`
+	**Level-up Moves Changes:**
+
+	- `24 moves` → `18 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `35 moves` → `39 moves (added: hone-claws, acrobatics, bug-buzz, work-up)`
 
 
 ## :material-information: Basic Information

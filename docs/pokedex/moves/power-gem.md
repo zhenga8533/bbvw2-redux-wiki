@@ -1,11 +1,15 @@
 # Power Gem
 
 
-!!! info "ROM Changes
+??? note "Power Gem ROM Changes"
 
-    **Power:** `80` → `90`
+	**Power Changes:**
 
-    **Pp:** `20` → `10`
+	- `80` → `90`
+
+	**Pp Changes:**
+
+	- `20` → `10`
 
 
 ## :material-chart-box: Stats

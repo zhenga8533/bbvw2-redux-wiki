@@ -13,11 +13,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Dugtrio ROM Changes"
 
-    **Abilities:** `sand-veil / arena-trap / sand-force` → `sand-force / arena-trap / sand-force`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `18 moves` → `24 moves`
+	- `sand-veil / arena-trap / sand-force` → `sand-force / arena-trap / sand-force`
+
+	**Level-up Moves Changes:**
+
+	- `18 moves` → `24 moves`
 
 
 ## :material-information: Basic Information
@@ -87,7 +91,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Soft Sand](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/soft-sand.png){ .item-sprite } [Soft Sand](../../pokedex/items/soft-sand.md) | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Soft Sand](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/soft-sand.png){ .item-sprite } [Soft Sand](../../pokedex/items/soft-sand.md)</span> | 5% | 5% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 

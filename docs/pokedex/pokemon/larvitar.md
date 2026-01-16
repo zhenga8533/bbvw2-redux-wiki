@@ -13,13 +13,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Larvitar ROM Changes"
 
-    **Abilities:** `guts / sand-veil` → `guts / hustle / sand-veil`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `14 moves` → `16 moves`
+	- `guts / sand-veil` → `guts / hustle / sand-veil`
 
-    **TM/HM Compatibility:** `31 moves` → `32 moves (added: work-up)`
+	**Level-up Moves Changes:**
+
+	- `14 moves` → `16 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `31 moves` → `32 moves (added: work-up)`
 
 
 ## :material-information: Basic Information
@@ -74,7 +80,7 @@
 
 	---
 
-	**Generation:** Generation Ii
+	**Generation:** Generation II
 
 	**Color:** Green
 
@@ -156,7 +162,7 @@
 
 	**#246 [Larvitar](./larvitar.md)**
 
-	
+
 
 	***You are here***
 

@@ -14,11 +14,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Hydreigon ROM Changes"
 
-    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+	**Evolution Chain Changes:**
 
-    **Level-up Moves:** `18 moves` → `24 moves`
+	- `zweilous > hydreigon: unknown` → `zweilous > hydreigon: level-up (level 58)`
+
+	**Level-up Moves Changes:**
+
+	- `18 moves` → `24 moves`
 
 
 ## :material-information: Basic Information

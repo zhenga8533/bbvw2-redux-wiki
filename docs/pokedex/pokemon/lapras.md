@@ -13,11 +13,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Lapras ROM Changes"
 
-    **Level-up Moves:** `15 moves` → `20 moves`
+	**Level-up Moves Changes:**
 
-    **TM/HM Compatibility:** `32 moves` → `33 moves (added: wave-crash)`
+	- `15 moves` → `20 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `32 moves` → `33 moves (added: wave-crash)`
 
 
 ## :material-information: Basic Information

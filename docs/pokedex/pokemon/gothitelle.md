@@ -14,15 +14,23 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Gothitelle ROM Changes"
 
-    **Abilities:** `frisk / shadow-tag` → `shadow-tag / frisk / frisk`
+	**Abilities Changes:**
 
-    **Type:** `psychic` → `psychic / dark`
+	- `frisk / shadow-tag` → `shadow-tag / frisk / frisk`
 
-    **Level-up Moves:** `19 moves` → `23 moves`
+	**Type Changes:**
 
-    **TM/HM Compatibility:** `42 moves` → `44 moves (added: focus-blast, will-o-wisp)`
+	- `psychic` → `psychic / dark`
+
+	**Level-up Moves Changes:**
+
+	- `19 moves` → `23 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `42 moves` → `44 moves (added: focus-blast, will-o-wisp)`
 
 
 ## :material-information: Basic Information
@@ -90,7 +98,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Persim Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/persim-berry.png){ .item-sprite } [Persim Berry](../../pokedex/items/persim-berry.md) | — | — | 50% | 50% |
+| <span style="white-space: nowrap;">![Persim Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/persim-berry.png){ .item-sprite } [Persim Berry](../../pokedex/items/persim-berry.md)</span> | — | — | 50% | 50% |
 
 ## :material-shield-half-full: Type Effectiveness
 

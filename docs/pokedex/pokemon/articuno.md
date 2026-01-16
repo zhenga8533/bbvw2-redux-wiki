@@ -14,13 +14,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Articuno ROM Changes"
 
-    **Abilities:** `pressure / snow-cloak` → `pressure / snow-warning / snow-cloak`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `15 moves` → `16 moves`
+	- `pressure / snow-cloak` → `pressure / snow-warning / snow-cloak`
 
-    **TM/HM Compatibility:** `28 moves` → `29 moves (added: hurricane)`
+	**Level-up Moves Changes:**
+
+	- `15 moves` → `16 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `28 moves` → `29 moves (added: hurricane)`
 
 
 ## :material-information: Basic Information

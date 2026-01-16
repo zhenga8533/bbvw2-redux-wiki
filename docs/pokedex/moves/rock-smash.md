@@ -1,9 +1,11 @@
 # Rock Smash
 
 
-!!! info "ROM Changes
+??? note "Rock Smash ROM Changes"
 
-    **Power:** `40` → `55`
+	**Power Changes:**
+
+	- `40` → `55`
 
 
 ## :material-chart-box: Stats

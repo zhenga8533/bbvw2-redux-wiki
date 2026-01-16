@@ -13,15 +13,23 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Swellow ROM Changes"
 
-    **Base Stats:** `60 HP / 85 Atk / 60 Def / 50 SAtk / 50 SDef / 125 Spd` → `60 HP / 85 Atk / 60 Def / 85 SAtk / 50 SDef / 125 Spd`
+	**Base Stats Changes:**
 
-    **Abilities:** `guts / scrappy` → `guts / scrappy / scrappy`
+	- `60 HP / 85 Atk / 60 Def / 50 SAtk / 50 SDef / 125 Spd` → `60 HP / 85 Atk / 60 Def / 85 SAtk / 50 SDef / 125 Spd`
 
-    **Level-up Moves:** `13 moves` → `25 moves`
+	**Abilities Changes:**
 
-    **TM/HM Compatibility:** `23 moves` → `24 moves (added: hurricane)`
+	- `guts / scrappy` → `guts / scrappy / scrappy`
+
+	**Level-up Moves Changes:**
+
+	- `13 moves` → `25 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `23 moves` → `24 moves (added: hurricane)`
 
 
 ## :material-information: Basic Information
@@ -76,7 +84,7 @@
 
 	---
 
-	**Generation:** Generation Iii
+	**Generation:** Generation III
 
 	**Color:** Blue
 
@@ -91,7 +99,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Charti Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/charti-berry.png){ .item-sprite } [Charti Berry](../../pokedex/items/charti-berry.md) | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Charti Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/charti-berry.png){ .item-sprite } [Charti Berry](../../pokedex/items/charti-berry.md)</span> | 5% | 5% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 

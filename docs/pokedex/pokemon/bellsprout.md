@@ -13,11 +13,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Bellsprout ROM Changes"
 
-    **Abilities:** `chlorophyll / gluttony` → `chlorophyll / gluttony / chlorophyll`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `13 moves` → `21 moves`
+	- `chlorophyll / gluttony` → `chlorophyll / gluttony / chlorophyll`
+
+	**Level-up Moves Changes:**
+
+	- `13 moves` → `21 moves`
 
 
 ## :material-information: Basic Information
@@ -140,7 +144,7 @@
 
 	**#069 [Bellsprout](./bellsprout.md)**
 
-	
+
 
 	***You are here***
 

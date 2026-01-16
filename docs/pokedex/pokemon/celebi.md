@@ -14,11 +14,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Celebi ROM Changes"
 
-    **Level-up Moves:** `14 moves` → `15 moves`
+	**Level-up Moves Changes:**
 
-    **TM/HM Compatibility:** `37 moves` → `38 moves (added: aura-sphere)`
+	- `14 moves` → `15 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `37 moves` → `38 moves (added: aura-sphere)`
 
 
 ## :material-information: Basic Information
@@ -71,7 +75,7 @@
 
 	---
 
-	**Generation:** Generation Ii
+	**Generation:** Generation II
 
 	**Color:** Green
 
@@ -86,7 +90,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Lum Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/lum-berry.png){ .item-sprite } [Lum Berry](../../pokedex/items/lum-berry.md) | 100% | 100% | 100% | 100% |
+| <span style="white-space: nowrap;">![Lum Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/lum-berry.png){ .item-sprite } [Lum Berry](../../pokedex/items/lum-berry.md)</span> | 100% | 100% | 100% | 100% |
 
 ## :material-shield-half-full: Type Effectiveness
 

@@ -14,13 +14,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Audino ROM Changes"
 
-    **Abilities:** `healer / regenerator / klutz` → `natural-cure / regenerator / klutz`
+	**Abilities Changes:**
 
-    **Type:** `normal` → `normal / fairy`
+	- `healer / regenerator / klutz` → `natural-cure / regenerator / klutz`
 
-    **Level-up Moves:** `14 moves` → `24 moves`
+	**Type Changes:**
+
+	- `normal` → `normal / fairy`
+
+	**Level-up Moves Changes:**
+
+	- `14 moves` → `24 moves`
 
 
 ## :material-information: Basic Information
@@ -88,8 +94,8 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Oran Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/oran-berry.png){ .item-sprite } [Oran Berry](../../pokedex/items/oran-berry.md) | 50% | 50% | 50% | 50% |
-| ![Sitrus Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/sitrus-berry.png){ .item-sprite } [Sitrus Berry](../../pokedex/items/sitrus-berry.md) | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Oran Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/oran-berry.png){ .item-sprite } [Oran Berry](../../pokedex/items/oran-berry.md)</span> | 50% | 50% | 50% | 50% |
+| <span style="white-space: nowrap;">![Sitrus Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/sitrus-berry.png){ .item-sprite } [Sitrus Berry](../../pokedex/items/sitrus-berry.md)</span> | 5% | 5% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 

@@ -14,11 +14,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Axew ROM Changes"
 
-    **Level-up Moves:** `16 moves` → `20 moves`
+	**Level-up Moves Changes:**
 
-    **TM/HM Compatibility:** `32 moves` → `34 moves (added: work-up, rock-climb)`
+	- `16 moves` → `20 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `32 moves` → `34 moves (added: work-up, rock-climb)`
 
 
 ## :material-information: Basic Information
@@ -134,7 +138,7 @@
 
 	**#610 [Axew](./axew.md)**
 
-	
+
 
 	***You are here***
 

@@ -14,9 +14,11 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Raikou ROM Changes"
 
-    **Level-up Moves:** `14 moves` → `16 moves`
+	**Level-up Moves Changes:**
+
+	- `14 moves` → `16 moves`
 
 
 ## :material-information: Basic Information
@@ -70,7 +72,7 @@
 
 	---
 
-	**Generation:** Generation Ii
+	**Generation:** Generation II
 
 	**Color:** Yellow
 

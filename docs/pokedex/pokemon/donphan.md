@@ -13,9 +13,11 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Donphan ROM Changes"
 
-    **Level-up Moves:** `16 moves` → `25 moves`
+	**Level-up Moves Changes:**
+
+	- `16 moves` → `25 moves`
 
 
 ## :material-information: Basic Information
@@ -71,7 +73,7 @@
 
 	---
 
-	**Generation:** Generation Ii
+	**Generation:** Generation II
 
 	**Color:** Gray
 
@@ -86,7 +88,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Passho Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/passho-berry.png){ .item-sprite } [Passho Berry](../../pokedex/items/passho-berry.md) | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Passho Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/passho-berry.png){ .item-sprite } [Passho Berry](../../pokedex/items/passho-berry.md)</span> | 5% | 5% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 

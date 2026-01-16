@@ -13,15 +13,23 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Masquerain ROM Changes"
 
-    **Base Stats:** `70 HP / 60 Atk / 62 Def / 80 SAtk / 82 SDef / 60 Spd` → `70 HP / 60 Atk / 55 Def / 100 SAtk / 100 SDef / 100 Spd`
+	**Base Stats Changes:**
 
-    **Type:** `bug / flying` → `bug / water`
+	- `70 HP / 60 Atk / 62 Def / 80 SAtk / 82 SDef / 60 Spd` → `70 HP / 60 Atk / 55 Def / 100 SAtk / 100 SDef / 100 Spd`
 
-    **Level-up Moves:** `16 moves` → `25 moves`
+	**Type Changes:**
 
-    **TM/HM Compatibility:** `28 moves` → `35 moves (added: hurricane, acrobatics, bug-buzz, fly, surf...)`
+	- `bug / flying` → `bug / water`
+
+	**Level-up Moves Changes:**
+
+	- `16 moves` → `25 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `28 moves` → `35 moves (added: hurricane, acrobatics, bug-buzz, fly, surf...)`
 
 
 ## :material-information: Basic Information
@@ -75,7 +83,7 @@
 
 	---
 
-	**Generation:** Generation Iii
+	**Generation:** Generation III
 
 	**Color:** Blue
 
@@ -90,7 +98,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Silver Powder](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/silver-powder.png){ .item-sprite } [Silver Powder](../../pokedex/items/silver-powder.md) | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Silver Powder](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/silver-powder.png){ .item-sprite } [Silver Powder](../../pokedex/items/silver-powder.md)</span> | 5% | 5% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 

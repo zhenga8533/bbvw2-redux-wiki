@@ -13,13 +13,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Dewgong ROM Changes"
 
-    **Base Stats:** `90 HP / 70 Atk / 80 Def / 70 SAtk / 95 SDef / 70 Spd` → `90 HP / 90 Atk / 80 Def / 70 SAtk / 95 SDef / 70 Spd`
+	**Base Stats Changes:**
 
-    **Level-up Moves:** `21 moves` → `24 moves`
+	- `90 HP / 70 Atk / 80 Def / 70 SAtk / 95 SDef / 70 Spd` → `90 HP / 90 Atk / 80 Def / 70 SAtk / 95 SDef / 70 Spd`
 
-    **TM/HM Compatibility:** `26 moves` → `27 moves (added: wave-crash)`
+	**Level-up Moves Changes:**
+
+	- `21 moves` → `24 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `26 moves` → `27 moves (added: wave-crash)`
 
 
 ## :material-information: Basic Information

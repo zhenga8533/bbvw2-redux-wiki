@@ -13,13 +13,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Torkoal ROM Changes"
 
-    **Abilities:** `white-smoke / shell-armor` → `drought / shell-armor / white-smoke`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `17 moves` → `22 moves`
+	- `white-smoke / shell-armor` → `drought / shell-armor / white-smoke`
 
-    **TM/HM Compatibility:** `32 moves` → `33 moves (added: mystical-fire)`
+	**Level-up Moves Changes:**
+
+	- `17 moves` → `22 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `32 moves` → `33 moves (added: mystical-fire)`
 
 
 ## :material-information: Basic Information
@@ -74,7 +80,7 @@
 
 	---
 
-	**Generation:** Generation Iii
+	**Generation:** Generation III
 
 	**Color:** Brown
 

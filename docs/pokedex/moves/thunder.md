@@ -1,9 +1,11 @@
 # Thunder
 
 
-!!! info "ROM Changes
+??? note "Thunder ROM Changes"
 
-    **Pp:** `10` → `5`
+	**Pp Changes:**
+
+	- `10` → `5`
 
 
 ## :material-chart-box: Stats

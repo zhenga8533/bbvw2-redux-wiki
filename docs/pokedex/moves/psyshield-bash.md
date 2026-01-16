@@ -1,9 +1,11 @@
 # Psyshield Bash
 
 
-!!! info "ROM Changes
+??? note "Psyshield Bash ROM Changes"
 
-    **Accuracy:** `90` → `95`
+	**Accuracy Changes:**
+
+	- `90` → `95`
 
 
 ## :material-chart-box: Stats

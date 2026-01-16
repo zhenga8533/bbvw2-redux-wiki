@@ -14,15 +14,23 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Emolga ROM Changes"
 
-    **Base Stats:** `55 HP / 75 Atk / 60 Def / 75 SAtk / 60 SDef / 103 Spd` → `60 HP / 75 Atk / 60 Def / 90 SAtk / 60 SDef / 105 Spd`
+	**Base Stats Changes:**
 
-    **Abilities:** `static / motor-drive` → `static / motor-drive / motor-drive`
+	- `55 HP / 75 Atk / 60 Def / 75 SAtk / 60 SDef / 103 Spd` → `60 HP / 75 Atk / 60 Def / 90 SAtk / 60 SDef / 105 Spd`
 
-    **Level-up Moves:** `15 moves` → `23 moves`
+	**Abilities Changes:**
 
-    **TM/HM Compatibility:** `27 moves` → `28 moves (added: quash)`
+	- `static / motor-drive` → `static / motor-drive / motor-drive`
+
+	**Level-up Moves Changes:**
+
+	- `15 moves` → `23 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `27 moves` → `28 moves (added: quash)`
 
 
 ## :material-information: Basic Information
@@ -90,7 +98,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Cheri Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/cheri-berry.png){ .item-sprite } [Cheri Berry](../../pokedex/items/cheri-berry.md) | 100% | 100% | 100% | 100% |
+| <span style="white-space: nowrap;">![Cheri Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/cheri-berry.png){ .item-sprite } [Cheri Berry](../../pokedex/items/cheri-berry.md)</span> | 100% | 100% | 100% | 100% |
 
 ## :material-shield-half-full: Type Effectiveness
 

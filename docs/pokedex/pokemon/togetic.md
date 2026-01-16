@@ -13,13 +13,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Togetic ROM Changes"
 
-    **Abilities:** `hustle / serene-grace / super-luck` → `super-luck / serene-grace / super-luck`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `18 moves` → `25 moves`
+	- `hustle / serene-grace / super-luck` → `super-luck / serene-grace / super-luck`
 
-    **TM/HM Compatibility:** `40 moves` → `42 moves (added: tri-attack, hurricane)`
+	**Level-up Moves Changes:**
+
+	- `18 moves` → `25 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `40 moves` → `42 moves (added: tri-attack, hurricane)`
 
 
 ## :material-information: Basic Information
@@ -74,7 +80,7 @@
 
 	---
 
-	**Generation:** Generation Ii
+	**Generation:** Generation II
 
 	**Color:** White
 

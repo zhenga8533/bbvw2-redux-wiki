@@ -13,11 +13,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Porygon Z ROM Changes"
 
-    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+	**Evolution Chain Changes:**
 
-    **Level-up Moves:** `17 moves` → `24 moves`
+	- `porygon2 > porygon-z: unknown` → `porygon2 > porygon-z: use-item (dubious-disc)`
+
+	**Level-up Moves Changes:**
+
+	- `17 moves` → `24 moves`
 
 
 ## :material-information: Basic Information
@@ -70,7 +74,7 @@
 
 	---
 
-	**Generation:** Generation Iv
+	**Generation:** Generation IV
 
 	**Color:** Red
 

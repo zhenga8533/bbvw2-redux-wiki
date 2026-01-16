@@ -14,11 +14,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Tirtouga ROM Changes"
 
-    **Level-up Moves:** `18 moves` → `19 moves`
+	**Level-up Moves Changes:**
 
-    **TM/HM Compatibility:** `30 moves` → `31 moves (added: wave-crash)`
+	- `18 moves` → `19 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `30 moves` → `31 moves (added: wave-crash)`
 
 
 ## :material-information: Basic Information
@@ -144,7 +148,7 @@
 
 	**#564 [Tirtouga](./tirtouga.md)**
 
-	
+
 
 	***You are here***
 

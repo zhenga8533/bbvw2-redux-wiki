@@ -13,17 +13,29 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Magmortar ROM Changes"
 
-    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+	**Evolution Chain Changes:**
 
-    **Base Stats:** `75 HP / 95 Atk / 67 Def / 125 SAtk / 95 SDef / 83 Spd` → `75 HP / 95 Atk / 62 Def / 130 SAtk / 85 SDef / 93 Spd`
+	- `magmar > magmortar: trade (held: magmarizer)` → `magmar > magmortar: use-item (magmarizer)`
 
-    **Abilities:** `flame-body / vital-spirit` → `flame-body / vital-spirit / vital-spirit`
+	**Base Stats Changes:**
 
-    **Level-up Moves:** `29 moves` → `25 moves`
+	- `75 HP / 95 Atk / 67 Def / 125 SAtk / 95 SDef / 83 Spd` → `75 HP / 95 Atk / 62 Def / 130 SAtk / 85 SDef / 93 Spd`
 
-    **TM/HM Compatibility:** `37 moves` → `40 moves (added: tri-attack, sludge-bomb, aura-sphere)`
+	**Abilities Changes:**
+
+	- `flame-body / vital-spirit` → `flame-body / vital-spirit / vital-spirit`
+
+	**Level-up Moves Changes:**
+
+	- `29 moves` → `25 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `37 moves` → `40 moves (added: tri-attack, sludge-bomb, aura-sphere)`
+
+	- `magmar > magmortar: unknown` → `magmar > magmortar: use-item (magmarizer)`
 
 
 ## :material-information: Basic Information
@@ -76,7 +88,7 @@
 
 	---
 
-	**Generation:** Generation Iv
+	**Generation:** Generation IV
 
 	**Color:** Red
 
@@ -91,7 +103,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Magmarizer](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/magmarizer.png){ .item-sprite } [Magmarizer](../../pokedex/items/magmarizer.md) | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Magmarizer](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/magmarizer.png){ .item-sprite } [Magmarizer](../../pokedex/items/magmarizer.md)</span> | 5% | 5% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 

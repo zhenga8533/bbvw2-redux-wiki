@@ -13,17 +13,27 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Venomoth ROM Changes"
 
-    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+	**Evolution Chain Changes:**
 
-    **Base Stats:** `70 HP / 65 Atk / 60 Def / 90 SAtk / 75 SDef / 90 Spd` → `70 HP / 55 Atk / 60 Def / 100 SAtk / 75 SDef / 90 Spd`
+	- `venonat > venomoth: level-up (level 31)` → `venonat > venomoth: level-up (level 28)`
 
-    **Abilities:** `shield-dust / tinted-lens / wonder-skin` → `wonder-skin / tinted-lens / shield-dust`
+	**Base Stats Changes:**
 
-    **Level-up Moves:** `19 moves` → `24 moves`
+	- `70 HP / 65 Atk / 60 Def / 90 SAtk / 75 SDef / 90 Spd` → `70 HP / 55 Atk / 60 Def / 100 SAtk / 75 SDef / 90 Spd`
 
-    **TM/HM Compatibility:** `26 moves` → `29 moves (added: hurricane, bug-buzz, fly)`
+	**Abilities Changes:**
+
+	- `shield-dust / tinted-lens / wonder-skin` → `wonder-skin / tinted-lens / shield-dust`
+
+	**Level-up Moves Changes:**
+
+	- `19 moves` → `24 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `26 moves` → `29 moves (added: hurricane, bug-buzz, fly)`
 
 
 ## :material-information: Basic Information
@@ -93,7 +103,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Shed Shell](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/shed-shell.png){ .item-sprite } [Shed Shell](../../pokedex/items/shed-shell.md) | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Shed Shell](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/shed-shell.png){ .item-sprite } [Shed Shell](../../pokedex/items/shed-shell.md)</span> | 5% | 5% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 

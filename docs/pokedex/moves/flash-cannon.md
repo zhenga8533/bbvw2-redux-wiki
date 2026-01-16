@@ -1,9 +1,11 @@
 # Flash Cannon
 
 
-!!! info "ROM Changes
+??? note "Flash Cannon ROM Changes"
 
-    **Power:** `80` → `90`
+	**Power Changes:**
+
+	- `80` → `90`
 
 
 ## :material-chart-box: Stats

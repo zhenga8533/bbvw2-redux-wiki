@@ -14,15 +14,23 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Golett ROM Changes"
 
-    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+	**Evolution Chain Changes:**
 
-    **Abilities:** `iron-fist / klutz / no-guard` → `iron-fist / no-guard / klutz`
+	- `golett > golurk: level-up (level 43)` → `golett > golurk: level-up (level 40)`
 
-    **Level-up Moves:** `15 moves` → `19 moves`
+	**Abilities Changes:**
 
-    **TM/HM Compatibility:** `32 moves` → `33 moves (added: power-up-punch)`
+	- `iron-fist / klutz / no-guard` → `iron-fist / no-guard / klutz`
+
+	**Level-up Moves Changes:**
+
+	- `15 moves` → `19 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `32 moves` → `33 moves (added: power-up-punch)`
 
 
 ## :material-information: Basic Information
@@ -90,7 +98,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Light Clay](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/light-clay.png){ .item-sprite } [Light Clay](../../pokedex/items/light-clay.md) | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Light Clay](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/light-clay.png){ .item-sprite } [Light Clay](../../pokedex/items/light-clay.md)</span> | 5% | 5% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 
@@ -160,7 +168,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 	**#622 [Golett](./golett.md)**
 
-	
+
 
 	***You are here***
 

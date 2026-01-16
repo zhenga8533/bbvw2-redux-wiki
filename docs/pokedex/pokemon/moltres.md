@@ -14,11 +14,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Moltres ROM Changes"
 
-    **Level-up Moves:** `15 moves` → `16 moves`
+	**Level-up Moves Changes:**
 
-    **TM/HM Compatibility:** `31 moves` → `32 moves (added: hurricane)`
+	- `15 moves` → `16 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `31 moves` → `32 moves (added: hurricane)`
 
 
 ## :material-information: Basic Information

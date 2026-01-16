@@ -13,13 +13,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Shellder ROM Changes"
 
-    **Type:** `water` → `water / ice`
+	**Type Changes:**
 
-    **Level-up Moves:** `16 moves` → `23 moves`
+	- `water` → `water / ice`
 
-    **TM/HM Compatibility:** `20 moves` → `21 moves (added: waterfall)`
+	**Level-up Moves Changes:**
+
+	- `16 moves` → `23 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `20 moves` → `21 moves (added: waterfall)`
 
 
 ## :material-information: Basic Information
@@ -89,8 +95,8 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Big Pearl](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/big-pearl.png){ .item-sprite } [Big Pearl](../../pokedex/items/big-pearl.md) | 5% | 5% | 5% | 5% |
-| ![Pearl](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/pearl.png){ .item-sprite } [Pearl](../../pokedex/items/pearl.md) | 50% | 50% | 50% | 50% |
+| <span style="white-space: nowrap;">![Big Pearl](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/big-pearl.png){ .item-sprite } [Big Pearl](../../pokedex/items/big-pearl.md)</span> | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Pearl](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/pearl.png){ .item-sprite } [Pearl](../../pokedex/items/pearl.md)</span> | 50% | 50% | 50% | 50% |
 
 ## :material-shield-half-full: Type Effectiveness
 
@@ -151,7 +157,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 	**#090 [Shellder](./shellder.md)**
 
-	
+
 
 	***You are here***
 

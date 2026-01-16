@@ -13,11 +13,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Starly ROM Changes"
 
-    **Abilities:** `keen-eye` → `reckless / keen-eye / reckless`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `12 moves` → `18 moves`
+	- `keen-eye` → `reckless / keen-eye / reckless`
+
+	**Level-up Moves Changes:**
+
+	- `12 moves` → `18 moves`
 
 
 ## :material-information: Basic Information
@@ -72,7 +76,7 @@
 
 	---
 
-	**Generation:** Generation Iv
+	**Generation:** Generation IV
 
 	**Color:** Brown
 
@@ -87,7 +91,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Yache Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/yache-berry.png){ .item-sprite } [Yache Berry](../../pokedex/items/yache-berry.md) | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Yache Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/yache-berry.png){ .item-sprite } [Yache Berry](../../pokedex/items/yache-berry.md)</span> | 5% | 5% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 
@@ -152,7 +156,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 	**#396 [Starly](./starly.md)**
 
-	
+
 
 	***You are here***
 

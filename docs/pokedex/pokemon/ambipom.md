@@ -13,15 +13,23 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Ambipom ROM Changes"
 
-    **Base Stats:** `75 HP / 100 Atk / 66 Def / 60 SAtk / 66 SDef / 115 Spd` → `75 HP / 105 Atk / 66 Def / 68 SAtk / 66 SDef / 115 Spd`
+	**Base Stats Changes:**
 
-    **Abilities:** `technician / pickup / skill-link` → `skill-link / technician / pickup`
+	- `75 HP / 100 Atk / 66 Def / 60 SAtk / 66 SDef / 115 Spd` → `75 HP / 105 Atk / 66 Def / 68 SAtk / 66 SDef / 115 Spd`
 
-    **Level-up Moves:** `16 moves` → `21 moves`
+	**Abilities Changes:**
 
-    **TM/HM Compatibility:** `40 moves` → `42 moves (added: quash, play-rough)`
+	- `technician / pickup / skill-link` → `skill-link / technician / pickup`
+
+	**Level-up Moves Changes:**
+
+	- `16 moves` → `21 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `40 moves` → `42 moves (added: quash, play-rough)`
 
 
 ## :material-information: Basic Information
@@ -76,7 +84,7 @@
 
 	---
 
-	**Generation:** Generation Iv
+	**Generation:** Generation IV
 
 	**Color:** Purple
 

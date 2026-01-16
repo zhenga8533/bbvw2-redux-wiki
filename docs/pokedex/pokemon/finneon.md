@@ -13,13 +13,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Finneon ROM Changes"
 
-    **Base Stats:** `49 HP / 49 Atk / 56 Def / 49 SAtk / 61 SDef / 66 Spd` → `50 HP / 30 Atk / 60 Def / 60 SAtk / 60 SDef / 70 Spd`
+	**Base Stats Changes:**
 
-    **Level-up Moves:** `14 moves` → `20 moves`
+	- `49 HP / 49 Atk / 56 Def / 49 SAtk / 61 SDef / 66 Spd` → `50 HP / 30 Atk / 60 Def / 60 SAtk / 60 SDef / 70 Spd`
 
-    **TM/HM Compatibility:** `25 moves` → `26 moves (added: hurricane)`
+	**Level-up Moves Changes:**
+
+	- `14 moves` → `20 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `25 moves` → `26 moves (added: hurricane)`
 
 
 ## :material-information: Basic Information
@@ -74,7 +80,7 @@
 
 	---
 
-	**Generation:** Generation Iv
+	**Generation:** Generation IV
 
 	**Color:** Blue
 
@@ -89,7 +95,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Rindo Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/rindo-berry.png){ .item-sprite } [Rindo Berry](../../pokedex/items/rindo-berry.md) | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Rindo Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/rindo-berry.png){ .item-sprite } [Rindo Berry](../../pokedex/items/rindo-berry.md)</span> | 5% | 5% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 
@@ -145,7 +151,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 	**#456 [Finneon](./finneon.md)**
 
-	
+
 
 	***You are here***
 

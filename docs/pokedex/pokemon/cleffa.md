@@ -14,11 +14,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Cleffa ROM Changes"
 
-    **Base Happiness:** `140` → `180`
+	**Base Happiness Changes:**
 
-    **Level-up Moves:** `7 moves` → `9 moves`
+	- `140` → `180`
+
+	**Level-up Moves Changes:**
+
+	- `7 moves` → `9 moves`
 
 
 ## :material-information: Basic Information
@@ -73,7 +77,7 @@
 
 	---
 
-	**Generation:** Generation Ii
+	**Generation:** Generation II
 
 	**Color:** Pink
 
@@ -88,9 +92,9 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Comet Shard](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/comet-shard.png){ .item-sprite } [Comet Shard](../../pokedex/items/comet-shard.md) | 1% | 1% | 1% | 1% |
-| ![Leppa Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/leppa-berry.png){ .item-sprite } [Leppa Berry](../../pokedex/items/leppa-berry.md) | 50% | 50% | 50% | 50% |
-| ![Moon Stone](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/moon-stone.png){ .item-sprite } [Moon Stone](../../pokedex/items/moon-stone.md) | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Comet Shard](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/comet-shard.png){ .item-sprite } [Comet Shard](../../pokedex/items/comet-shard.md)</span> | 1% | 1% | 1% | 1% |
+| <span style="white-space: nowrap;">![Leppa Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/leppa-berry.png){ .item-sprite } [Leppa Berry](../../pokedex/items/leppa-berry.md)</span> | 50% | 50% | 50% | 50% |
+| <span style="white-space: nowrap;">![Moon Stone](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/moon-stone.png){ .item-sprite } [Moon Stone](../../pokedex/items/moon-stone.md)</span> | 5% | 5% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 
@@ -146,7 +150,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 	**#173 [Cleffa](./cleffa.md)**
 
-	
+
 
 	***You are here***
 

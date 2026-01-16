@@ -13,13 +13,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Cherrim ROM Changes"
 
-    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+	**Evolution Chain Changes:**
 
-    **Base Stats:** `70 HP / 60 Atk / 70 Def / 87 SAtk / 78 SDef / 85 Spd` → `70 HP / 45 Atk / 70 Def / 107 SAtk / 83 SDef / 90 Spd`
+	- `cherubi > cherrim: level-up (level 25)` → `cherubi > cherrim: level-up (level 18)`
 
-    **Level-up Moves:** `13 moves` → `24 moves`
+	**Base Stats Changes:**
+
+	- `70 HP / 60 Atk / 70 Def / 87 SAtk / 78 SDef / 85 Spd` → `70 HP / 45 Atk / 70 Def / 107 SAtk / 83 SDef / 90 Spd`
+
+	**Level-up Moves Changes:**
+
+	- `13 moves` → `24 moves`
 
 
 ## :material-information: Basic Information
@@ -70,7 +76,7 @@
 
 	---
 
-	**Generation:** Generation Iv
+	**Generation:** Generation IV
 
 	**Color:** Purple
 
@@ -85,7 +91,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Miracle Seed](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/miracle-seed.png){ .item-sprite } [Miracle Seed](../../pokedex/items/miracle-seed.md) | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Miracle Seed](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/miracle-seed.png){ .item-sprite } [Miracle Seed](../../pokedex/items/miracle-seed.md)</span> | 5% | 5% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 

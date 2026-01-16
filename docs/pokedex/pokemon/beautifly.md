@@ -13,15 +13,23 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Beautifly ROM Changes"
 
-    **Base Stats:** `60 HP / 70 Atk / 50 Def / 90 SAtk / 50 SDef / 65 Spd` → `60 HP / 70 Atk / 57 Def / 120 SAtk / 58 SDef / 85 Spd`
+	**Base Stats Changes:**
 
-    **Abilities:** `swarm / rivalry` → `rivalry / swarm / rivalry`
+	- `60 HP / 70 Atk / 50 Def / 90 SAtk / 50 SDef / 65 Spd` → `60 HP / 70 Atk / 57 Def / 120 SAtk / 58 SDef / 85 Spd`
 
-    **Level-up Moves:** `12 moves` → `16 moves`
+	**Abilities Changes:**
 
-    **TM/HM Compatibility:** `27 moves` → `29 moves (added: hurricane, fly)`
+	- `swarm / rivalry` → `rivalry / swarm / rivalry`
+
+	**Level-up Moves Changes:**
+
+	- `12 moves` → `16 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `27 moves` → `29 moves (added: hurricane, fly)`
 
 
 ## :material-information: Basic Information
@@ -78,7 +86,7 @@
 
 	---
 
-	**Generation:** Generation Iii
+	**Generation:** Generation III
 
 	**Color:** Yellow
 
@@ -93,7 +101,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Shed Shell](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/shed-shell.png){ .item-sprite } [Shed Shell](../../pokedex/items/shed-shell.md) | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Shed Shell](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/shed-shell.png){ .item-sprite } [Shed Shell](../../pokedex/items/shed-shell.md)</span> | 5% | 5% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 

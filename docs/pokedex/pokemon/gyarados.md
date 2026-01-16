@@ -13,13 +13,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Gyarados ROM Changes"
 
-    **Abilities:** `intimidate / moxie` → `intimidate / moxie / moxie`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `11 moves` → `21 moves`
+	- `intimidate / moxie` → `intimidate / moxie / moxie`
 
-    **TM/HM Compatibility:** `39 moves` → `42 moves (added: wave-crash, hurricane, work-up)`
+	**Level-up Moves Changes:**
+
+	- `11 moves` → `21 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `39 moves` → `42 moves (added: wave-crash, hurricane, work-up)`
 
 
 ## :material-information: Basic Information

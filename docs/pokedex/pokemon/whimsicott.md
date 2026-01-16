@@ -14,9 +14,11 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Whimsicott ROM Changes"
 
-    **Level-up Moves:** `7 moves` → `10 moves`
+	**Level-up Moves Changes:**
+
+	- `7 moves` → `10 moves`
 
 
 ## :material-information: Basic Information

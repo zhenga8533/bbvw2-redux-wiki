@@ -13,13 +13,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Combee ROM Changes"
 
-    **Abilities:** `honey-gather / hustle` → `honey-gather / hustle / hustle`
+	**Abilities Changes:**
 
-    **Gender Ratio:** `87.5% Male / 12.5% Female` → `50.0% Male / 50.0% Female`
+	- `honey-gather / hustle` → `honey-gather / hustle / hustle`
 
-    **Level-up Moves:** `4 moves` → `5 moves`
+	**Gender Ratio Changes:**
+
+	- `87.5% Male / 12.5% Female` → `50.0% Male / 50.0% Female`
+
+	**Level-up Moves Changes:**
+
+	- `4 moves` → `5 moves`
 
 
 ## :material-information: Basic Information
@@ -74,7 +80,7 @@
 
 	---
 
-	**Generation:** Generation Iv
+	**Generation:** Generation IV
 
 	**Color:** Yellow
 
@@ -89,7 +95,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Honey](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/honey.png){ .item-sprite } [Honey](../../pokedex/items/honey.md) | 100% | 100% | 5% | 5% |
+| <span style="white-space: nowrap;">![Honey](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/honey.png){ .item-sprite } [Honey](../../pokedex/items/honey.md)</span> | 100% | 100% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 
@@ -164,7 +170,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 	**#415 [Combee](./combee.md)**
 
-	
+
 
 	***You are here***
 

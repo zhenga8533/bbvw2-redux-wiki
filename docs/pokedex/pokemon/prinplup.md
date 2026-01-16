@@ -13,13 +13,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Prinplup ROM Changes"
 
-    **Abilities:** `defiant / competitive` → `defiant / torrent / defiant`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `15 moves` → `21 moves`
+	- `defiant / competitive` → `defiant / torrent / defiant`
 
-    **TM/HM Compatibility:** `34 moves` → `35 moves (added: wave-crash)`
+	**Level-up Moves Changes:**
+
+	- `15 moves` → `21 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `34 moves` → `35 moves (added: wave-crash)`
 
 
 ## :material-information: Basic Information
@@ -72,7 +78,7 @@
 
 	---
 
-	**Generation:** Generation Iv
+	**Generation:** Generation IV
 
 	**Color:** Blue
 

@@ -14,11 +14,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Latias ROM Changes"
 
-    **Level-up Moves:** `18 moves` → `21 moves`
+	**Level-up Moves Changes:**
 
-    **TM/HM Compatibility:** `49 moves` → `50 moves (added: hurricane)`
+	- `18 moves` → `21 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `49 moves` → `50 moves (added: hurricane)`
 
 
 ## :material-information: Basic Information
@@ -71,7 +75,7 @@
 
 	---
 
-	**Generation:** Generation Iii
+	**Generation:** Generation III
 
 	**Color:** Red
 

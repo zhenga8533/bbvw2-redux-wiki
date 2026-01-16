@@ -13,11 +13,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Gloom ROM Changes"
 
-    **Abilities:** `chlorophyll / stench` → `chlorophyll / stench / stench`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `14 moves` → `22 moves`
+	- `chlorophyll / stench` → `chlorophyll / stench / stench`
+
+	**Level-up Moves Changes:**
+
+	- `14 moves` → `22 moves`
 
 
 ## :material-information: Basic Information

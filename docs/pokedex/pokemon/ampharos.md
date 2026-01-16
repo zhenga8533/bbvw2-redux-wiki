@@ -13,17 +13,27 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Ampharos ROM Changes"
 
-    **Base Stats:** `90 HP / 75 Atk / 75 Def / 115 SAtk / 90 SDef / 55 Spd` → `95 HP / 80 Atk / 90 Def / 115 SAtk / 90 SDef / 55 Spd`
+	**Base Stats Changes:**
 
-    **Abilities:** `static / plus` → `static / overcoat / plus`
+	- `90 HP / 75 Atk / 75 Def / 115 SAtk / 90 SDef / 55 Spd` → `95 HP / 80 Atk / 90 Def / 115 SAtk / 90 SDef / 55 Spd`
 
-    **Type:** `electric` → `electric / dragon`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `31 moves` → `25 moves`
+	- `static / plus` → `static / overcoat / plus`
 
-    **TM/HM Compatibility:** `31 moves` → `35 moves (added: dazzling-gleam, energy-ball, power-gem, flash-cannon)`
+	**Type Changes:**
+
+	- `electric` → `electric / dragon`
+
+	**Level-up Moves Changes:**
+
+	- `31 moves` → `25 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `31 moves` → `35 moves (added: dazzling-gleam, energy-ball, power-gem, flash-cannon)`
 
 
 ## :material-information: Basic Information
@@ -78,7 +88,7 @@
 
 	---
 
-	**Generation:** Generation Ii
+	**Generation:** Generation II
 
 	**Color:** Yellow
 

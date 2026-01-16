@@ -13,9 +13,11 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Phanpy ROM Changes"
 
-    **Level-up Moves:** `13 moves` → `22 moves`
+	**Level-up Moves Changes:**
+
+	- `13 moves` → `22 moves`
 
 
 ## :material-information: Basic Information
@@ -69,7 +71,7 @@
 
 	---
 
-	**Generation:** Generation Ii
+	**Generation:** Generation II
 
 	**Color:** Blue
 
@@ -84,7 +86,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Passho Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/passho-berry.png){ .item-sprite } [Passho Berry](../../pokedex/items/passho-berry.md) | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Passho Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/passho-berry.png){ .item-sprite } [Passho Berry](../../pokedex/items/passho-berry.md)</span> | 5% | 5% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 
@@ -149,7 +151,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 	**#231 [Phanpy](./phanpy.md)**
 
-	
+
 
 	***You are here***
 

@@ -14,13 +14,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Vanillish ROM Changes"
 
-    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+	**Evolution Chain Changes:**
 
-    **Level-up Moves:** `18 moves` → `22 moves`
+	- `vanillite > vanillish: level-up (level 35)` → `vanillite > vanillish: level-up (level 29)`
 
-    **TM/HM Compatibility:** `21 moves` → `23 moves (added: dazzling-gleam, power-gem)`
+	**Level-up Moves Changes:**
+
+	- `18 moves` → `22 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `21 moves` → `23 moves (added: dazzling-gleam, power-gem)`
 
 
 ## :material-information: Basic Information

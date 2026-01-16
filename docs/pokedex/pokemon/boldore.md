@@ -14,13 +14,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Boldore ROM Changes"
 
-    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+	**Evolution Chain Changes:**
 
-    **Level-up Moves:** `17 moves` → `20 moves`
+	- `boldore > gigalith: trade` → `boldore > gigalith: use-item (link-cable)`
 
-    **TM/HM Compatibility:** `24 moves` → `26 moves (added: power-up-punch, rock-climb)`
+	**Level-up Moves Changes:**
+
+	- `17 moves` → `20 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `24 moves` → `26 moves (added: power-up-punch, rock-climb)`
 
 
 ## :material-information: Basic Information
@@ -87,8 +93,8 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Everstone](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/everstone.png){ .item-sprite } [Everstone](../../pokedex/items/everstone.md) | 50% | 50% | 50% | 50% |
-| ![Hard Stone](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hard-stone.png){ .item-sprite } [Hard Stone](../../pokedex/items/hard-stone.md) | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Everstone](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/everstone.png){ .item-sprite } [Everstone](../../pokedex/items/everstone.md)</span> | 50% | 50% | 50% | 50% |
+| <span style="white-space: nowrap;">![Hard Stone](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hard-stone.png){ .item-sprite } [Hard Stone](../../pokedex/items/hard-stone.md)</span> | 5% | 5% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 

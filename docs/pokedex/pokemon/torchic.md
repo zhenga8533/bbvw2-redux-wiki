@@ -13,11 +13,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Torchic ROM Changes"
 
-    **Abilities:** `blaze / speed-boost` → `quick-feet / blaze / quick-feet`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `11 moves` → `19 moves`
+	- `blaze / speed-boost` → `quick-feet / blaze / quick-feet`
+
+	**Level-up Moves Changes:**
+
+	- `11 moves` → `19 moves`
 
 
 ## :material-information: Basic Information
@@ -74,7 +78,7 @@
 
 	---
 
-	**Generation:** Generation Iii
+	**Generation:** Generation III
 
 	**Color:** Red
 
@@ -137,7 +141,7 @@
 
 	**#255 [Torchic](./torchic.md)**
 
-	
+
 
 	***You are here***
 

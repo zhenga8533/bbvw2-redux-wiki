@@ -13,13 +13,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Lucario ROM Changes"
 
-    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+	**Evolution Chain Changes:**
 
-    **Abilities:** `steadfast / inner-focus / justified` → `justified / steadfast / inner-focus`
+	- `riolu > lucario: level-up (happiness, day)` → `riolu > lucario: level-up (knows aura-sphere)`
 
-    **Level-up Moves:** `23 moves` → `25 moves`
+	**Abilities Changes:**
+
+	- `steadfast / inner-focus / justified` → `justified / steadfast / inner-focus`
+
+	**Level-up Moves Changes:**
+
+	- `23 moves` → `25 moves`
 
 
 ## :material-information: Basic Information
@@ -72,7 +78,7 @@
 
 	---
 
-	**Generation:** Generation Iv
+	**Generation:** Generation IV
 
 	**Color:** Blue
 

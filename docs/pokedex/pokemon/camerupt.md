@@ -13,15 +13,23 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Camerupt ROM Changes"
 
-    **Base Stats:** `70 HP / 100 Atk / 70 Def / 105 SAtk / 75 SDef / 40 Spd` → `90 HP / 110 Atk / 70 Def / 105 SAtk / 75 SDef / 40 Spd`
+	**Base Stats Changes:**
 
-    **Abilities:** `magma-armor / solid-rock / anger-point` → `solid-rock / simple / anger-point`
+	- `70 HP / 100 Atk / 70 Def / 105 SAtk / 75 SDef / 40 Spd` → `90 HP / 110 Atk / 70 Def / 105 SAtk / 75 SDef / 40 Spd`
 
-    **Level-up Moves:** `29 moves` → `24 moves`
+	**Abilities Changes:**
 
-    **TM/HM Compatibility:** `36 moves` → `38 moves (added: power-gem, rock-climb)`
+	- `magma-armor / solid-rock / anger-point` → `solid-rock / simple / anger-point`
+
+	**Level-up Moves Changes:**
+
+	- `29 moves` → `24 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `36 moves` → `38 moves (added: power-gem, rock-climb)`
 
 
 ## :material-information: Basic Information
@@ -78,7 +86,7 @@
 
 	---
 
-	**Generation:** Generation Iii
+	**Generation:** Generation III
 
 	**Color:** Red
 
@@ -93,7 +101,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Rawst Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/rawst-berry.png){ .item-sprite } [Rawst Berry](../../pokedex/items/rawst-berry.md) | 100% | 100% | 100% | 100% |
+| <span style="white-space: nowrap;">![Rawst Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/rawst-berry.png){ .item-sprite } [Rawst Berry](../../pokedex/items/rawst-berry.md)</span> | 100% | 100% | 100% | 100% |
 
 ## :material-shield-half-full: Type Effectiveness
 

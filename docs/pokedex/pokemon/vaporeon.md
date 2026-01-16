@@ -13,13 +13,25 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Vaporeon ROM Changes"
 
-    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+	**Evolution Chain Changes:**
 
-    **Abilities:** `water-absorb / hydration` → `water-absorb / hydration / hydration`
+	- `eevee > espeon: level-up (happiness, day)` → `eevee > espeon: use-item (sun-stone)`
 
-    **TM/HM Compatibility:** `31 moves` → `33 moves (added: tri-attack, grass-knot)`
+	- `eevee > umbreon: level-up (happiness, night)` → `eevee > umbreon: use-item (moon-stone)`
+
+	- `eevee > leafeon: level-up (at eterna-forest)` → `eevee > leafeon: use-item (leaf-stone)`
+
+	- `eevee > glaceon: level-up (at sinnoh-route-217)` → `eevee > glaceon: use-item (ice-stone)`
+
+	**Abilities Changes:**
+
+	- `water-absorb / hydration` → `water-absorb / hydration / hydration`
+
+	**TM/HM Compatibility Changes:**
+
+	- `31 moves` → `33 moves (added: tri-attack, grass-knot)`
 
 
 ## :material-information: Basic Information

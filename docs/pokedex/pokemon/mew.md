@@ -14,9 +14,11 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Mew ROM Changes"
 
-    **Level-up Moves:** `13 moves` → `19 moves`
+	**Level-up Moves Changes:**
+
+	- `13 moves` → `19 moves`
 
 
 ## :material-information: Basic Information
@@ -84,7 +86,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Lum Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/lum-berry.png){ .item-sprite } [Lum Berry](../../pokedex/items/lum-berry.md) | 100% | 100% | 100% | 100% |
+| <span style="white-space: nowrap;">![Lum Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/lum-berry.png){ .item-sprite } [Lum Berry](../../pokedex/items/lum-berry.md)</span> | 100% | 100% | 100% | 100% |
 
 ## :material-shield-half-full: Type Effectiveness
 

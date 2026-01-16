@@ -13,11 +13,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Shedinja ROM Changes"
 
-    **Level-up Moves:** `12 moves` → `25 moves`
+	**Level-up Moves Changes:**
 
-    **TM/HM Compatibility:** `30 moves` → `32 moves (added: quash, swords-dance)`
+	- `12 moves` → `25 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `30 moves` → `32 moves (added: quash, swords-dance)`
 
 
 ## :material-information: Basic Information
@@ -70,7 +74,7 @@
 
 	---
 
-	**Generation:** Generation Iii
+	**Generation:** Generation III
 
 	**Color:** Brown
 

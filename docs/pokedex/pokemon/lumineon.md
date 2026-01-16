@@ -13,13 +13,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Lumineon ROM Changes"
 
-    **Base Stats:** `69 HP / 69 Atk / 76 Def / 69 SAtk / 86 SDef / 91 Spd` → `70 HP / 43 Atk / 75 Def / 105 SAtk / 90 SDef / 102 Spd`
+	**Base Stats Changes:**
 
-    **Level-up Moves:** `16 moves` → `24 moves`
+	- `69 HP / 69 Atk / 76 Def / 69 SAtk / 86 SDef / 91 Spd` → `70 HP / 43 Atk / 75 Def / 105 SAtk / 90 SDef / 102 Spd`
 
-    **TM/HM Compatibility:** `27 moves` → `28 moves (added: hurricane)`
+	**Level-up Moves Changes:**
+
+	- `16 moves` → `24 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `27 moves` → `28 moves (added: hurricane)`
 
 
 ## :material-information: Basic Information
@@ -74,7 +80,7 @@
 
 	---
 
-	**Generation:** Generation Iv
+	**Generation:** Generation IV
 
 	**Color:** Blue
 
@@ -89,7 +95,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Rindo Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/rindo-berry.png){ .item-sprite } [Rindo Berry](../../pokedex/items/rindo-berry.md) | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Rindo Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/rindo-berry.png){ .item-sprite } [Rindo Berry](../../pokedex/items/rindo-berry.md)</span> | 5% | 5% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 

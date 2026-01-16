@@ -13,11 +13,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Seedot ROM Changes"
 
-    **Abilities:** `chlorophyll / early-bird / pickpocket` → `chlorophyll / rattled / early-bird`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `7 moves` → `20 moves`
+	- `chlorophyll / early-bird / pickpocket` → `chlorophyll / rattled / early-bird`
+
+	**Level-up Moves Changes:**
+
+	- `7 moves` → `20 moves`
 
 
 ## :material-information: Basic Information
@@ -72,7 +76,7 @@
 
 	---
 
-	**Generation:** Generation Iii
+	**Generation:** Generation III
 
 	**Color:** Brown
 
@@ -135,7 +139,7 @@
 
 	**#273 [Seedot](./seedot.md)**
 
-	
+
 
 	***You are here***
 

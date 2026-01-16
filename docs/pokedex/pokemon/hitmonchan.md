@@ -13,11 +13,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Hitmonchan ROM Changes"
 
-    **Abilities:** `keen-eye / iron-fist / inner-focus` → `iron-fist / keen-eye / inner-focus`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `18 moves` → `25 moves`
+	- `keen-eye / iron-fist / inner-focus` → `iron-fist / keen-eye / inner-focus`
+
+	**Level-up Moves Changes:**
+
+	- `18 moves` → `25 moves`
 
 
 ## :material-information: Basic Information

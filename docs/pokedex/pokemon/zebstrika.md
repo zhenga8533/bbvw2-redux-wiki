@@ -14,13 +14,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Zebstrika ROM Changes"
 
-    **Abilities:** `lightning-rod / motor-drive / sap-sipper` → `motor-drive / sap-sipper / lightning-rod`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `16 moves` → `23 moves`
+	- `lightning-rod / motor-drive / sap-sipper` → `motor-drive / sap-sipper / lightning-rod`
 
-    **TM/HM Compatibility:** `26 moves` → `28 moves (added: low-sweep, work-up)`
+	**Level-up Moves Changes:**
+
+	- `16 moves` → `23 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `26 moves` → `28 moves (added: low-sweep, work-up)`
 
 
 ## :material-information: Basic Information
@@ -88,7 +94,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Cheri Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/cheri-berry.png){ .item-sprite } [Cheri Berry](../../pokedex/items/cheri-berry.md) | 50% | 50% | 50% | 50% |
+| <span style="white-space: nowrap;">![Cheri Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/cheri-berry.png){ .item-sprite } [Cheri Berry](../../pokedex/items/cheri-berry.md)</span> | 50% | 50% | 50% | 50% |
 
 ## :material-shield-half-full: Type Effectiveness
 

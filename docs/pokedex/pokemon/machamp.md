@@ -13,11 +13,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Machamp ROM Changes"
 
-    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+	**Evolution Chain Changes:**
 
-    **Level-up Moves:** `17 moves` → `25 moves`
+	- `machoke > machamp: trade` → `machoke > machamp: use-item (link-cable)`
+
+	**Level-up Moves Changes:**
+
+	- `17 moves` → `25 moves`
 
 
 ## :material-information: Basic Information

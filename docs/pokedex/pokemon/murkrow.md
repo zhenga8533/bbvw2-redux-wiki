@@ -13,13 +13,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Murkrow ROM Changes"
 
-    **Abilities:** `insomnia / super-luck / prankster` → `prankster / super-luck / prankster`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `15 moves` → `20 moves`
+	- `insomnia / super-luck / prankster` → `prankster / super-luck / prankster`
 
-    **TM/HM Compatibility:** `31 moves` → `32 moves (added: hurricane)`
+	**Level-up Moves Changes:**
+
+	- `15 moves` → `20 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `31 moves` → `32 moves (added: hurricane)`
 
 
 ## :material-information: Basic Information
@@ -76,7 +82,7 @@
 
 	---
 
-	**Generation:** Generation Ii
+	**Generation:** Generation II
 
 	**Color:** Black
 
@@ -148,7 +154,7 @@
 
 	**#198 [Murkrow](./murkrow.md)**
 
-	
+
 
 	***You are here***
 

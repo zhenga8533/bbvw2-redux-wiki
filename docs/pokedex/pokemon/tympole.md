@@ -14,11 +14,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Tympole ROM Changes"
 
-    **Abilities:** `swift-swim / hydration / water-absorb` → `water-absorb / hydration / swift-swim`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `14 moves` → `19 moves`
+	- `swift-swim / hydration / water-absorb` → `water-absorb / hydration / swift-swim`
+
+	**Level-up Moves Changes:**
+
+	- `14 moves` → `19 moves`
 
 
 ## :material-information: Basic Information
@@ -86,8 +90,8 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Pecha Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/pecha-berry.png){ .item-sprite } [Pecha Berry](../../pokedex/items/pecha-berry.md) | — | — | 50% | 50% |
-| ![Persim Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/persim-berry.png){ .item-sprite } [Persim Berry](../../pokedex/items/persim-berry.md) | 50% | 50% | — | — |
+| <span style="white-space: nowrap;">![Pecha Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/pecha-berry.png){ .item-sprite } [Pecha Berry](../../pokedex/items/pecha-berry.md)</span> | — | — | 50% | 50% |
+| <span style="white-space: nowrap;">![Persim Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/persim-berry.png){ .item-sprite } [Persim Berry](../../pokedex/items/persim-berry.md)</span> | 50% | 50% | — | — |
 
 ## :material-shield-half-full: Type Effectiveness
 
@@ -143,7 +147,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 	**#535 [Tympole](./tympole.md)**
 
-	
+
 
 	***You are here***
 

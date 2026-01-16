@@ -14,11 +14,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Pawniard ROM Changes"
 
-    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+	**Evolution Chain Changes:**
 
-    **Level-up Moves:** `16 moves` → `21 moves`
+	- `pawniard > bisharp: level-up (level 52)` → `pawniard > bisharp: level-up (level 40)`
+
+	**Level-up Moves Changes:**
+
+	- `16 moves` → `21 moves`
 
 
 ## :material-information: Basic Information
@@ -148,7 +152,7 @@
 
 	**#624 [Pawniard](./pawniard.md)**
 
-	
+
 
 	***You are here***
 

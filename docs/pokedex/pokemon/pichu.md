@@ -14,15 +14,23 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Pichu ROM Changes"
 
-    **Abilities:** `static / lightning-rod` → `static / lightning-rod / lightning-rod`
+	**Abilities Changes:**
 
-    **Base Happiness:** `70` → `180`
+	- `static / lightning-rod` → `static / lightning-rod / lightning-rod`
 
-    **Level-up Moves:** `6 moves` → `13 moves`
+	**Base Happiness Changes:**
 
-    **TM/HM Compatibility:** `24 moves` → `25 moves (added: surf)`
+	- `70` → `180`
+
+	**Level-up Moves Changes:**
+
+	- `6 moves` → `13 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `24 moves` → `25 moves (added: surf)`
 
 
 ## :material-information: Basic Information
@@ -77,7 +85,7 @@
 
 	---
 
-	**Generation:** Generation Ii
+	**Generation:** Generation II
 
 	**Color:** Yellow
 
@@ -92,7 +100,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Oran Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/oran-berry.png){ .item-sprite } [Oran Berry](../../pokedex/items/oran-berry.md) | 50% | 50% | — | — |
+| <span style="white-space: nowrap;">![Oran Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/oran-berry.png){ .item-sprite } [Oran Berry](../../pokedex/items/oran-berry.md)</span> | 50% | 50% | — | — |
 
 ## :material-shield-half-full: Type Effectiveness
 
@@ -148,7 +156,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 	**#172 [Pichu](./pichu.md)**
 
-	
+
 
 	***You are here***
 

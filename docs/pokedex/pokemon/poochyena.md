@@ -13,13 +13,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Poochyena ROM Changes"
 
-    **Base Stats:** `35 HP / 55 Atk / 35 Def / 30 SAtk / 30 SDef / 35 Spd` → `35 HP / 65 Atk / 35 Def / 30 SAtk / 30 SDef / 55 Spd`
+	**Base Stats Changes:**
 
-    **Abilities:** `run-away / quick-feet / rattled` → `rattled / run-away / quick-feet`
+	- `35 HP / 55 Atk / 35 Def / 30 SAtk / 30 SDef / 35 Spd` → `35 HP / 65 Atk / 35 Def / 30 SAtk / 30 SDef / 55 Spd`
 
-    **Level-up Moves:** `14 moves` → `24 moves`
+	**Abilities Changes:**
+
+	- `run-away / quick-feet / rattled` → `rattled / run-away / quick-feet`
+
+	**Level-up Moves Changes:**
+
+	- `14 moves` → `24 moves`
 
 
 ## :material-information: Basic Information
@@ -74,7 +80,7 @@
 
 	---
 
-	**Generation:** Generation Iii
+	**Generation:** Generation III
 
 	**Color:** Gray
 
@@ -89,7 +95,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Pecha Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/pecha-berry.png){ .item-sprite } [Pecha Berry](../../pokedex/items/pecha-berry.md) | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Pecha Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/pecha-berry.png){ .item-sprite } [Pecha Berry](../../pokedex/items/pecha-berry.md)</span> | 5% | 5% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 
@@ -154,7 +160,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 	**#261 [Poochyena](./poochyena.md)**
 
-	
+
 
 	***You are here***
 

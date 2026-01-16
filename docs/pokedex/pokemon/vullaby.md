@@ -14,15 +14,23 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Vullaby ROM Changes"
 
-    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+	**Evolution Chain Changes:**
 
-    **Abilities:** `big-pecks / overcoat / weak-armor` → `overcoat / weak-armor / overcoat`
+	- `vullaby > mandibuzz: level-up (level 54)` → `vullaby > mandibuzz: level-up (level 40)`
 
-    **Level-up Moves:** `16 moves` → `22 moves`
+	**Abilities Changes:**
 
-    **TM/HM Compatibility:** `31 moves` → `32 moves (added: hurricane)`
+	- `big-pecks / overcoat / weak-armor` → `overcoat / weak-armor / overcoat`
+
+	**Level-up Moves Changes:**
+
+	- `16 moves` → `22 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `31 moves` → `32 moves (added: hurricane)`
 
 
 ## :material-information: Basic Information
@@ -147,7 +155,7 @@
 
 	**#629 [Vullaby](./vullaby.md)**
 
-	
+
 
 	***You are here***
 

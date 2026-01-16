@@ -13,13 +13,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Starmie ROM Changes"
 
-    **Abilities:** `illuminate / natural-cure / analytic` → `analytic / natural-cure / analytic`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `6 moves` → `8 moves`
+	- `illuminate / natural-cure / analytic` → `analytic / natural-cure / analytic`
 
-    **TM/HM Compatibility:** `36 moves` → `37 moves (added: tri-attack)`
+	**Level-up Moves Changes:**
+
+	- `6 moves` → `8 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `36 moves` → `37 moves (added: tri-attack)`
 
 
 ## :material-information: Basic Information
@@ -89,8 +95,8 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Star Piece](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/star-piece.png){ .item-sprite } [Star Piece](../../pokedex/items/star-piece.md) | 5% | 5% | 5% | 5% |
-| ![Stardust](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/stardust.png){ .item-sprite } [Stardust](../../pokedex/items/stardust.md) | 50% | 50% | 50% | 50% |
+| <span style="white-space: nowrap;">![Star Piece](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/star-piece.png){ .item-sprite } [Star Piece](../../pokedex/items/star-piece.md)</span> | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Stardust](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/stardust.png){ .item-sprite } [Stardust](../../pokedex/items/stardust.md)</span> | 50% | 50% | 50% | 50% |
 
 ## :material-shield-half-full: Type Effectiveness
 

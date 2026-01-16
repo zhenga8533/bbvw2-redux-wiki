@@ -14,13 +14,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Reuniclus ROM Changes"
 
-    **Abilities:** `overcoat / magic-guard / regenerator` → `regenerator / magic-guard / overcoat`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `20 moves` → `24 moves`
+	- `overcoat / magic-guard / regenerator` → `regenerator / magic-guard / overcoat`
 
-    **TM/HM Compatibility:** `41 moves` → `42 moves (added: quash)`
+	**Level-up Moves Changes:**
+
+	- `20 moves` → `24 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `41 moves` → `42 moves (added: quash)`
 
 
 ## :material-information: Basic Information
@@ -88,7 +94,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Persim Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/persim-berry.png){ .item-sprite } [Persim Berry](../../pokedex/items/persim-berry.md) | — | — | 50% | 50% |
+| <span style="white-space: nowrap;">![Persim Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/persim-berry.png){ .item-sprite } [Persim Berry](../../pokedex/items/persim-berry.md)</span> | — | — | 50% | 50% |
 
 ## :material-shield-half-full: Type Effectiveness
 

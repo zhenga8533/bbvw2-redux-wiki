@@ -1,9 +1,11 @@
 # Poison Powder
 
 
-!!! info "ROM Changes
+??? note "Poison Powder ROM Changes"
 
-    **Pp:** `35` → `20`
+	**Pp Changes:**
+
+	- `35` → `20`
 
 
 ## :material-chart-box: Stats

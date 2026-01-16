@@ -13,13 +13,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Mawile ROM Changes"
 
-    **Base Stats:** `50 HP / 85 Atk / 85 Def / 55 SAtk / 55 SDef / 50 Spd` → `50 HP / 85 Atk / 115 Def / 65 SAtk / 84 SDef / 51 Spd`
+	**Base Stats Changes:**
 
-    **Abilities:** `hyper-cutter / intimidate / sheer-force` → `huge-power / intimidate / sheer-force`
+	- `50 HP / 85 Atk / 85 Def / 55 SAtk / 55 SDef / 50 Spd` → `50 HP / 85 Atk / 115 Def / 65 SAtk / 84 SDef / 51 Spd`
 
-    **Level-up Moves:** `14 moves` → `25 moves`
+	**Abilities Changes:**
+
+	- `hyper-cutter / intimidate / sheer-force` → `huge-power / intimidate / sheer-force`
+
+	**Level-up Moves Changes:**
+
+	- `14 moves` → `25 moves`
 
 
 ## :material-information: Basic Information
@@ -74,7 +80,7 @@
 
 	---
 
-	**Generation:** Generation Iii
+	**Generation:** Generation III
 
 	**Color:** Black
 
@@ -89,7 +95,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Occa Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/occa-berry.png){ .item-sprite } [Occa Berry](../../pokedex/items/occa-berry.md) | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Occa Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/occa-berry.png){ .item-sprite } [Occa Berry](../../pokedex/items/occa-berry.md)</span> | 5% | 5% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 

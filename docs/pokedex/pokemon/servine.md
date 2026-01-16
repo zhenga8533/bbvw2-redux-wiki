@@ -14,13 +14,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Servine ROM Changes"
 
-    **Abilities:** `overgrow / contrary` → `contrary / overgrow / contrary`
+	**Abilities Changes:**
 
-    **Type:** `grass` → `grass / dragon`
+	- `overgrow / contrary` → `contrary / overgrow / contrary`
 
-    **Level-up Moves:** `18 moves` → `21 moves`
+	**Type Changes:**
+
+	- `grass` → `grass / dragon`
+
+	**Level-up Moves Changes:**
+
+	- `18 moves` → `21 moves`
 
 
 ## :material-information: Basic Information

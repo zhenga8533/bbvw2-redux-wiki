@@ -13,15 +13,23 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Jynx ROM Changes"
 
-    **Base Stats:** `65 HP / 50 Atk / 35 Def / 115 SAtk / 95 SDef / 95 Spd` → `75 HP / 43 Atk / 65 Def / 125 SAtk / 96 SDef / 96 Spd`
+	**Base Stats Changes:**
 
-    **Abilities:** `oblivious / forewarn / dry-skin` → `trace / dry-skin / dry-skin`
+	- `65 HP / 50 Atk / 35 Def / 115 SAtk / 95 SDef / 95 Spd` → `75 HP / 43 Atk / 65 Def / 125 SAtk / 96 SDef / 96 Spd`
 
-    **Level-up Moves:** `18 moves` → `24 moves`
+	**Abilities Changes:**
 
-    **TM/HM Compatibility:** `40 moves` → `42 moves (added: aura-sphere, power-gem)`
+	- `oblivious / forewarn / dry-skin` → `trace / dry-skin / dry-skin`
+
+	**Level-up Moves Changes:**
+
+	- `18 moves` → `24 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `40 moves` → `42 moves (added: aura-sphere, power-gem)`
 
 
 ## :material-information: Basic Information
@@ -91,7 +99,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Aspear Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/aspear-berry.png){ .item-sprite } [Aspear Berry](../../pokedex/items/aspear-berry.md) | 100% | 100% | 100% | 100% |
+| <span style="white-space: nowrap;">![Aspear Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/aspear-berry.png){ .item-sprite } [Aspear Berry](../../pokedex/items/aspear-berry.md)</span> | 100% | 100% | 100% | 100% |
 
 ## :material-shield-half-full: Type Effectiveness
 

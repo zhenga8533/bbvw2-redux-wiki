@@ -14,13 +14,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Basculin Red Striped ROM Changes"
 
-    **Base Stats:** `70 HP / 92 Atk / 65 Def / 80 SAtk / 55 SDef / 98 Spd` → `90 HP / 92 Atk / 65 Def / 90 SAtk / 55 SDef / 98 Spd`
+	**Base Stats Changes:**
 
-    **Level-up Moves:** `16 moves` → `19 moves`
+	- `70 HP / 92 Atk / 65 Def / 80 SAtk / 55 SDef / 98 Spd` → `90 HP / 92 Atk / 65 Def / 90 SAtk / 55 SDef / 98 Spd`
 
-    **TM/HM Compatibility:** `21 moves` → `23 moves (added: wave-crash, work-up)`
+	**Level-up Moves Changes:**
+
+	- `16 moves` → `19 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `21 moves` → `23 moves (added: wave-crash, work-up)`
 
 
 ## :material-information: Basic Information
@@ -88,7 +94,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Deep Sea Tooth](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/deep-sea-tooth.png){ .item-sprite } [Deep Sea Tooth](../../pokedex/items/deep-sea-tooth.md) | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Deep Sea Tooth](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/deep-sea-tooth.png){ .item-sprite } [Deep Sea Tooth](../../pokedex/items/deep-sea-tooth.md)</span> | 5% | 5% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 

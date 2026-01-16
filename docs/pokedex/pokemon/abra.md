@@ -13,15 +13,23 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Abra ROM Changes"
 
-    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+	**Evolution Chain Changes:**
 
-    **Abilities:** `synchronize / inner-focus / magic-guard` → `synchronize / magic-guard / inner-focus`
+	- `kadabra > alakazam: trade` → `kadabra > alakazam: use-item (link-cable)`
 
-    **Level-up Moves:** `1 move` → `3 moves`
+	**Abilities Changes:**
 
-    **TM/HM Compatibility:** `36 moves` → `37 moves (added: aura-sphere)`
+	- `synchronize / inner-focus / magic-guard` → `synchronize / magic-guard / inner-focus`
+
+	**Level-up Moves Changes:**
+
+	- `1 move` → `3 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `36 moves` → `37 moves (added: aura-sphere)`
 
 
 ## :material-information: Basic Information
@@ -91,7 +99,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Twisted Spoon](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/twisted-spoon.png){ .item-sprite } [Twisted Spoon](../../pokedex/items/twisted-spoon.md) | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Twisted Spoon](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/twisted-spoon.png){ .item-sprite } [Twisted Spoon](../../pokedex/items/twisted-spoon.md)</span> | 5% | 5% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 
@@ -147,7 +155,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 	**#063 [Abra](./abra.md)**
 
-	
+
 
 	***You are here***
 

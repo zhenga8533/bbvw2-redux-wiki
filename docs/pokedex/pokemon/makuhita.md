@@ -13,11 +13,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Makuhita ROM Changes"
 
-    **Base Stats:** `72 HP / 60 Atk / 30 Def / 20 SAtk / 30 SDef / 25 Spd` → `75 HP / 65 Atk / 35 Def / 20 SAtk / 35 SDef / 25 Spd`
+	**Base Stats Changes:**
 
-    **Level-up Moves:** `17 moves` → `20 moves`
+	- `72 HP / 60 Atk / 30 Def / 20 SAtk / 30 SDef / 25 Spd` → `75 HP / 65 Atk / 35 Def / 20 SAtk / 35 SDef / 25 Spd`
+
+	**Level-up Moves Changes:**
+
+	- `17 moves` → `20 moves`
 
 
 ## :material-information: Basic Information
@@ -72,7 +76,7 @@
 
 	---
 
-	**Generation:** Generation Iii
+	**Generation:** Generation III
 
 	**Color:** Yellow
 
@@ -135,7 +139,7 @@
 
 	**#296 [Makuhita](./makuhita.md)**
 
-	
+
 
 	***You are here***
 

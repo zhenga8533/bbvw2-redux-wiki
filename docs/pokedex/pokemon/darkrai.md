@@ -14,9 +14,11 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Darkrai ROM Changes"
 
-    **Level-up Moves:** `12 moves` → `17 moves`
+	**Level-up Moves Changes:**
+
+	- `12 moves` → `17 moves`
 
 
 ## :material-information: Basic Information
@@ -67,7 +69,7 @@
 
 	---
 
-	**Generation:** Generation Iv
+	**Generation:** Generation IV
 
 	**Color:** Black
 

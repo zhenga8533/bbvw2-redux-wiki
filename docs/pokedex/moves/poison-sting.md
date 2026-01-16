@@ -1,11 +1,15 @@
 # Poison Sting
 
 
-!!! info "ROM Changes
+??? note "Poison Sting ROM Changes"
 
-    **Power:** `15` → `30`
+	**Power Changes:**
 
-    **Pp:** `35` → `20`
+	- `15` → `30`
+
+	**Pp Changes:**
+
+	- `35` → `20`
 
 
 ## :material-chart-box: Stats

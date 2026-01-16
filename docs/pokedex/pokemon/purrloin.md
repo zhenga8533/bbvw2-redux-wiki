@@ -14,13 +14,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Purrloin ROM Changes"
 
-    **Abilities:** `limber / unburden / prankster` → `prankster / unburden / prankster`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `16 moves` → `25 moves`
+	- `limber / unburden / prankster` → `prankster / unburden / prankster`
 
-    **TM/HM Compatibility:** `31 moves` → `32 moves (added: quash)`
+	**Level-up Moves Changes:**
+
+	- `16 moves` → `25 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `31 moves` → `32 moves (added: quash)`
 
 
 ## :material-information: Basic Information
@@ -145,7 +151,7 @@
 
 	**#509 [Purrloin](./purrloin.md)**
 
-	
+
 
 	***You are here***
 

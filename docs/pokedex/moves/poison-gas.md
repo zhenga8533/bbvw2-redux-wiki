@@ -1,11 +1,15 @@
 # Poison Gas
 
 
-!!! info "ROM Changes
+??? note "Poison Gas ROM Changes"
 
-    **Pp:** `40` → `20`
+	**Pp Changes:**
 
-    **Accuracy:** `90` → `100`
+	- `40` → `20`
+
+	**Accuracy Changes:**
+
+	- `90` → `100`
 
 
 ## :material-chart-box: Stats

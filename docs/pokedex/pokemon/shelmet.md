@@ -14,13 +14,21 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Shelmet ROM Changes"
 
-    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+	**Evolution Chain Changes:**
 
-    **Abilities:** `hydration / shell-armor / overcoat` → `overcoat / shell-armor / hydration`
+	- `shelmet > accelgor: trade` → `shelmet > accelgor: use-item (reaper-cloth)`
 
-    **Level-up Moves:** `15 moves` → `19 moves`
+	- `shelmet > accelgor: use-item (reaper-cloth)` → `shelmet > accelgor: level-up`
+
+	**Abilities Changes:**
+
+	- `hydration / shell-armor / overcoat` → `overcoat / shell-armor / hydration`
+
+	**Level-up Moves Changes:**
+
+	- `15 moves` → `19 moves`
 
 
 ## :material-information: Basic Information
@@ -136,7 +144,7 @@
 
 	**#616 [Shelmet](./shelmet.md)**
 
-	
+
 
 	***You are here***
 

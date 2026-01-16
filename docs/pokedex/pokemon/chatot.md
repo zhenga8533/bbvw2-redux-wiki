@@ -13,15 +13,23 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Chatot ROM Changes"
 
-    **Base Stats:** `76 HP / 65 Atk / 45 Def / 92 SAtk / 42 SDef / 91 Spd` → `75 HP / 65 Atk / 50 Def / 105 SAtk / 50 SDef / 96 Spd`
+	**Base Stats Changes:**
 
-    **Abilities:** `keen-eye / tangled-feet / big-pecks` → `soundproof / tangled-feet / big-pecks`
+	- `76 HP / 65 Atk / 45 Def / 92 SAtk / 42 SDef / 91 Spd` → `75 HP / 65 Atk / 50 Def / 105 SAtk / 50 SDef / 96 Spd`
 
-    **Level-up Moves:** `15 moves` → `23 moves`
+	**Abilities Changes:**
 
-    **TM/HM Compatibility:** `23 moves` → `25 moves (added: hurricane, bug-buzz)`
+	- `keen-eye / tangled-feet / big-pecks` → `soundproof / tangled-feet / big-pecks`
+
+	**Level-up Moves Changes:**
+
+	- `15 moves` → `23 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `23 moves` → `25 moves (added: hurricane, bug-buzz)`
 
 
 ## :material-information: Basic Information
@@ -74,7 +82,7 @@
 
 	---
 
-	**Generation:** Generation Iv
+	**Generation:** Generation IV
 
 	**Color:** Black
 
@@ -89,7 +97,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Metronome](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/metronome.png){ .item-sprite } [Metronome](../../pokedex/items/metronome.md) | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Metronome](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/metronome.png){ .item-sprite } [Metronome](../../pokedex/items/metronome.md)</span> | 5% | 5% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 

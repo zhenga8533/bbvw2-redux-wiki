@@ -13,13 +13,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Sunkern ROM Changes"
 
-    **Base Stats:** `30 HP / 30 Atk / 30 Def / 30 SAtk / 30 SDef / 30 Spd` → `50 HP / 30 Atk / 50 Def / 30 SAtk / 50 SDef / 30 Spd`
+	**Base Stats Changes:**
 
-    **Abilities:** `chlorophyll / solar-power / early-bird` → `chlorophyll / solar-power / chlorophyll`
+	- `30 HP / 30 Atk / 30 Def / 30 SAtk / 30 SDef / 30 Spd` → `50 HP / 30 Atk / 50 Def / 30 SAtk / 50 SDef / 30 Spd`
 
-    **Level-up Moves:** `27 moves` → `22 moves`
+	**Abilities Changes:**
+
+	- `chlorophyll / solar-power / early-bird` → `chlorophyll / solar-power / chlorophyll`
+
+	**Level-up Moves Changes:**
+
+	- `27 moves` → `22 moves`
 
 
 ## :material-information: Basic Information
@@ -74,7 +80,7 @@
 
 	---
 
-	**Generation:** Generation Ii
+	**Generation:** Generation II
 
 	**Color:** Yellow
 
@@ -89,7 +95,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Coba Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/coba-berry.png){ .item-sprite } [Coba Berry](../../pokedex/items/coba-berry.md) | 5% | 5% | — | — |
+| <span style="white-space: nowrap;">![Coba Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/coba-berry.png){ .item-sprite } [Coba Berry](../../pokedex/items/coba-berry.md)</span> | 5% | 5% | — | — |
 
 ## :material-shield-half-full: Type Effectiveness
 
@@ -145,7 +151,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 	**#191 [Sunkern](./sunkern.md)**
 
-	
+
 
 	***You are here***
 

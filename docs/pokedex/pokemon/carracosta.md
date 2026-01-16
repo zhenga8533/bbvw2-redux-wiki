@@ -14,11 +14,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Carracosta ROM Changes"
 
-    **Level-up Moves:** `19 moves` → `22 moves`
+	**Level-up Moves Changes:**
 
-    **TM/HM Compatibility:** `33 moves` → `34 moves (added: wave-crash)`
+	- `19 moves` → `22 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `33 moves` → `34 moves (added: wave-crash)`
 
 
 ## :material-information: Basic Information

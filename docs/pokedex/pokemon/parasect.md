@@ -13,13 +13,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Parasect ROM Changes"
 
-    **Base Stats:** `60 HP / 95 Atk / 80 Def / 60 SAtk / 80 SDef / 30 Spd` → `60 HP / 115 Atk / 100 Def / 55 SAtk / 90 SDef / 30 Spd`
+	**Base Stats Changes:**
 
-    **Level-up Moves:** `16 moves` → `25 moves`
+	- `60 HP / 95 Atk / 80 Def / 60 SAtk / 80 SDef / 30 Spd` → `60 HP / 115 Atk / 100 Def / 55 SAtk / 90 SDef / 30 Spd`
 
-    **TM/HM Compatibility:** `33 moves` → `34 moves (added: bug-buzz)`
+	**Level-up Moves Changes:**
+
+	- `16 moves` → `25 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `33 moves` → `34 moves (added: bug-buzz)`
 
 
 ## :material-information: Basic Information
@@ -89,9 +95,9 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Balm Mushroom](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/balm-mushroom.png){ .item-sprite } [Balm Mushroom](../../pokedex/items/balm-mushroom.md) | 1% | 1% | 1% | 1% |
-| ![Big Mushroom](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/big-mushroom.png){ .item-sprite } [Big Mushroom](../../pokedex/items/big-mushroom.md) | 5% | 5% | 5% | 5% |
-| ![Tiny Mushroom](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tiny-mushroom.png){ .item-sprite } [Tiny Mushroom](../../pokedex/items/tiny-mushroom.md) | 50% | 50% | 50% | 50% |
+| <span style="white-space: nowrap;">![Balm Mushroom](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/balm-mushroom.png){ .item-sprite } [Balm Mushroom](../../pokedex/items/balm-mushroom.md)</span> | 1% | 1% | 1% | 1% |
+| <span style="white-space: nowrap;">![Big Mushroom](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/big-mushroom.png){ .item-sprite } [Big Mushroom](../../pokedex/items/big-mushroom.md)</span> | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Tiny Mushroom](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tiny-mushroom.png){ .item-sprite } [Tiny Mushroom](../../pokedex/items/tiny-mushroom.md)</span> | 50% | 50% | 50% | 50% |
 
 ## :material-shield-half-full: Type Effectiveness
 

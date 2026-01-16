@@ -13,13 +13,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Rattata ROM Changes"
 
-    **Abilities:** `run-away / guts / hustle` → `hustle / guts / run-away`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `13 moves` → `23 moves`
+	- `run-away / guts / hustle` → `hustle / guts / run-away`
 
-    **TM/HM Compatibility:** `32 moves` → `34 moves (added: hone-claws, quash)`
+	**Level-up Moves Changes:**
+
+	- `13 moves` → `23 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `32 moves` → `34 moves (added: hone-claws, quash)`
 
 
 ## :material-information: Basic Information
@@ -91,7 +97,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Chilan Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/chilan-berry.png){ .item-sprite } [Chilan Berry](../../pokedex/items/chilan-berry.md) | 5% | 5% | — | — |
+| <span style="white-space: nowrap;">![Chilan Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/chilan-berry.png){ .item-sprite } [Chilan Berry](../../pokedex/items/chilan-berry.md)</span> | 5% | 5% | — | — |
 
 ## :material-shield-half-full: Type Effectiveness
 
@@ -147,7 +153,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 	**#019 [Rattata](./rattata.md)**
 
-	
+
 
 	***You are here***
 

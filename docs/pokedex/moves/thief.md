@@ -1,11 +1,15 @@
 # Thief
 
 
-!!! info "ROM Changes
+??? note "Thief ROM Changes"
 
-    **Power:** `60` → `50`
+	**Power Changes:**
 
-    **Pp:** `25` → `15`
+	- `60` → `50`
+
+	**Pp Changes:**
+
+	- `25` → `15`
 
 
 ## :material-chart-box: Stats

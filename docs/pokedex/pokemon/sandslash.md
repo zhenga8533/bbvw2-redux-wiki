@@ -13,13 +13,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Sandslash ROM Changes"
 
-    **Abilities:** `sand-veil / sand-rush` → `rough-skin / sand-rush / sand-rush`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `32 moves` → `25 moves`
+	- `sand-veil / sand-rush` → `rough-skin / sand-rush / sand-rush`
 
-    **TM/HM Compatibility:** `37 moves` → `40 moves (added: smack-down, low-sweep, rock-polish)`
+	**Level-up Moves Changes:**
+
+	- `32 moves` → `25 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `37 moves` → `40 moves (added: smack-down, low-sweep, rock-polish)`
 
 
 ## :material-information: Basic Information
@@ -89,7 +95,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Quick Claw](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/quick-claw.png){ .item-sprite } [Quick Claw](../../pokedex/items/quick-claw.md) | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Quick Claw](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/quick-claw.png){ .item-sprite } [Quick Claw](../../pokedex/items/quick-claw.md)</span> | 5% | 5% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 

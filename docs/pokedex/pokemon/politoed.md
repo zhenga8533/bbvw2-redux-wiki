@@ -13,15 +13,23 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Politoed ROM Changes"
 
-    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+	**Evolution Chain Changes:**
 
-    **Abilities:** `water-absorb / damp / drizzle` → `water-absorb / drizzle / drizzle`
+	- `poliwhirl > politoed: trade (held: kings-rock)` → `poliwhirl > politoed: use-item (king's-rock)`
 
-    **Level-up Moves:** `7 moves` → `12 moves`
+	**Abilities Changes:**
 
-    **TM/HM Compatibility:** `34 moves` → `35 moves (added: wave-crash)`
+	- `water-absorb / damp / drizzle` → `water-absorb / drizzle / drizzle`
+
+	**Level-up Moves Changes:**
+
+	- `7 moves` → `12 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `34 moves` → `35 moves (added: wave-crash)`
 
 
 ## :material-information: Basic Information
@@ -78,7 +86,7 @@
 
 	---
 
-	**Generation:** Generation Ii
+	**Generation:** Generation II
 
 	**Color:** Green
 
@@ -93,7 +101,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![King's Rock](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/kings-rock.png){ .item-sprite } [King's Rock](../../pokedex/items/kings-rock.md) | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![King's Rock](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/kings-rock.png){ .item-sprite } [King's Rock](../../pokedex/items/kings-rock.md)</span> | 5% | 5% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 

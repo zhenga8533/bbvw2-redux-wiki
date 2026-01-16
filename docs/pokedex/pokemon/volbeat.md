@@ -13,17 +13,27 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Volbeat ROM Changes"
 
-    **Base Stats:** `65 HP / 73 Atk / 55 Def / 47 SAtk / 75 SDef / 85 Spd` → `65 HP / 33 Atk / 65 Def / 107 SAtk / 85 SDef / 100 Spd`
+	**Base Stats Changes:**
 
-    **Abilities:** `illuminate / swarm / prankster` → `prankster / tinted-lens / illuminate`
+	- `65 HP / 73 Atk / 55 Def / 47 SAtk / 75 SDef / 85 Spd` → `65 HP / 33 Atk / 65 Def / 107 SAtk / 85 SDef / 100 Spd`
 
-    **Type:** `bug` → `bug / electric`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `13 moves` → `20 moves`
+	- `illuminate / swarm / prankster` → `prankster / tinted-lens / illuminate`
 
-    **TM/HM Compatibility:** `30 moves` → `31 moves (added: mystical-fire)`
+	**Type Changes:**
+
+	- `bug` → `bug / electric`
+
+	**Level-up Moves Changes:**
+
+	- `13 moves` → `20 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `30 moves` → `31 moves (added: mystical-fire)`
 
 
 ## :material-information: Basic Information
@@ -78,7 +88,7 @@
 
 	---
 
-	**Generation:** Generation Iii
+	**Generation:** Generation III
 
 	**Color:** Gray
 

@@ -13,17 +13,27 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Poliwrath ROM Changes"
 
-    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+	**Evolution Chain Changes:**
 
-    **Base Stats:** `90 HP / 85 Atk / 95 Def / 70 SAtk / 90 SDef / 70 Spd` → `90 HP / 105 Atk / 95 Def / 60 SAtk / 90 SDef / 70 Spd`
+	- `poliwhirl > politoed: trade (held: kings-rock)` → `poliwhirl > politoed: use-item (king's-rock)`
 
-    **Abilities:** `water-absorb / damp / swift-swim` → `water-absorb / swift-swim / damp`
+	**Base Stats Changes:**
 
-    **Level-up Moves:** `7 moves` → `12 moves`
+	- `90 HP / 85 Atk / 95 Def / 70 SAtk / 90 SDef / 70 Spd` → `90 HP / 105 Atk / 95 Def / 60 SAtk / 90 SDef / 70 Spd`
 
-    **TM/HM Compatibility:** `39 moves` → `40 moves (added: wave-crash)`
+	**Abilities Changes:**
+
+	- `water-absorb / damp / swift-swim` → `water-absorb / swift-swim / damp`
+
+	**Level-up Moves Changes:**
+
+	- `7 moves` → `12 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `39 moves` → `40 moves (added: wave-crash)`
 
 
 ## :material-information: Basic Information
@@ -93,7 +103,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![King's Rock](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/kings-rock.png){ .item-sprite } [King's Rock](../../pokedex/items/kings-rock.md) | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![King's Rock](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/kings-rock.png){ .item-sprite } [King's Rock](../../pokedex/items/kings-rock.md)</span> | 5% | 5% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 

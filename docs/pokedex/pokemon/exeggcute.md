@@ -13,13 +13,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Exeggcute ROM Changes"
 
-    **Abilities:** `chlorophyll / harvest` → `chlorophyll / harvest / harvest`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `16 moves` → `25 moves`
+	- `chlorophyll / harvest` → `chlorophyll / harvest / harvest`
 
-    **TM/HM Compatibility:** `29 moves` → `30 moves (added: tri-attack)`
+	**Level-up Moves Changes:**
+
+	- `16 moves` → `25 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `29 moves` → `30 moves (added: tri-attack)`
 
 
 ## :material-information: Basic Information
@@ -142,7 +148,7 @@
 
 	**#102 [Exeggcute](./exeggcute.md)**
 
-	
+
 
 	***You are here***
 

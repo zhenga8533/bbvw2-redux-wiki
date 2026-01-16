@@ -13,11 +13,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Slakoth ROM Changes"
 
-    **Abilities:** `truant` → `truant / slow-start / truant`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `10 moves` → `19 moves`
+	- `truant` → `truant / slow-start / truant`
+
+	**Level-up Moves Changes:**
+
+	- `10 moves` → `19 moves`
 
 
 ## :material-information: Basic Information
@@ -72,7 +76,7 @@
 
 	---
 
-	**Generation:** Generation Iii
+	**Generation:** Generation III
 
 	**Color:** Brown
 
@@ -135,7 +139,7 @@
 
 	**#287 [Slakoth](./slakoth.md)**
 
-	
+
 
 	***You are here***
 

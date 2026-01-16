@@ -13,11 +13,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Milotic ROM Changes"
 
-    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+	**Evolution Chain Changes:**
 
-    **Level-up Moves:** `14 moves` → `23 moves`
+	- `feebas > milotic: level-up` → `feebas > milotic: use-item (prism-scale)`
+
+	**Level-up Moves Changes:**
+
+	- `14 moves` → `23 moves`
 
 
 ## :material-information: Basic Information
@@ -73,7 +77,7 @@
 
 	---
 
-	**Generation:** Generation Iii
+	**Generation:** Generation III
 
 	**Color:** Pink
 

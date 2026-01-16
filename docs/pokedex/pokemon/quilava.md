@@ -13,11 +13,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Quilava ROM Changes"
 
-    **Abilities:** `blaze / flash-fire` → `flash-fire / blaze / flash-fire`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `16 moves` → `21 moves`
+	- `blaze / flash-fire` → `flash-fire / blaze / flash-fire`
+
+	**Level-up Moves Changes:**
+
+	- `16 moves` → `21 moves`
 
 
 ## :material-information: Basic Information
@@ -72,7 +76,7 @@
 
 	---
 
-	**Generation:** Generation Ii
+	**Generation:** Generation II
 
 	**Color:** Yellow
 

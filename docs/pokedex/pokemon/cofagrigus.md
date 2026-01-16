@@ -14,13 +14,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Cofagrigus ROM Changes"
 
-    **Base Stats:** `58 HP / 50 Atk / 145 Def / 95 SAtk / 105 SDef / 30 Spd` → `68 HP / 50 Atk / 145 Def / 95 SAtk / 105 SDef / 30 Spd`
+	**Base Stats Changes:**
 
-    **Level-up Moves:** `18 moves` → `25 moves`
+	- `58 HP / 50 Atk / 145 Def / 95 SAtk / 105 SDef / 30 Spd` → `68 HP / 50 Atk / 145 Def / 95 SAtk / 105 SDef / 30 Spd`
 
-    **TM/HM Compatibility:** `30 moves` → `31 moves (added: quash)`
+	**Level-up Moves Changes:**
+
+	- `18 moves` → `25 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `30 moves` → `31 moves (added: quash)`
 
 
 ## :material-information: Basic Information
@@ -86,7 +92,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Spell Tag](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/spell-tag.png){ .item-sprite } [Spell Tag](../../pokedex/items/spell-tag.md) | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Spell Tag](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/spell-tag.png){ .item-sprite } [Spell Tag](../../pokedex/items/spell-tag.md)</span> | 5% | 5% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 

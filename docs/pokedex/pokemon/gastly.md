@@ -13,15 +13,23 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Gastly ROM Changes"
 
-    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+	**Evolution Chain Changes:**
 
-    **Abilities:** `levitate` → `levitate / cursed-body / levitate`
+	- `haunter > gengar: trade` → `haunter > gengar: use-item (link-cable)`
 
-    **Level-up Moves:** `15 moves` → `23 moves`
+	**Abilities Changes:**
 
-    **TM/HM Compatibility:** `31 moves` → `32 moves (added: aura-sphere)`
+	- `levitate` → `levitate / cursed-body / levitate`
+
+	**Level-up Moves Changes:**
+
+	- `15 moves` → `23 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `31 moves` → `32 moves (added: aura-sphere)`
 
 
 ## :material-information: Basic Information
@@ -153,7 +161,7 @@
 
 	**#092 [Gastly](./gastly.md)**
 
-	
+
 
 	***You are here***
 

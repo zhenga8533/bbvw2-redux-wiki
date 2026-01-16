@@ -14,11 +14,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Ferrothorn ROM Changes"
 
-    **Level-up Moves:** `19 moves` → `22 moves`
+	**Level-up Moves Changes:**
 
-    **TM/HM Compatibility:** `36 moves` → `37 moves (added: rock-climb)`
+	- `19 moves` → `22 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `36 moves` → `37 moves (added: rock-climb)`
 
 
 ## :material-information: Basic Information
@@ -84,7 +88,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Sticky Barb](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/sticky-barb.png){ .item-sprite } [Sticky Barb](../../pokedex/items/sticky-barb.md) | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Sticky Barb](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/sticky-barb.png){ .item-sprite } [Sticky Barb](../../pokedex/items/sticky-barb.md)</span> | 5% | 5% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 

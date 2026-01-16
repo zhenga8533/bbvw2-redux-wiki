@@ -14,15 +14,23 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Swadloon ROM Changes"
 
-    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+	**Evolution Chain Changes:**
 
-    **Base Stats:** `55 HP / 63 Atk / 90 Def / 50 SAtk / 80 SDef / 42 Spd` → `70 HP / 63 Atk / 90 Def / 50 SAtk / 80 SDef / 42 Spd`
+	- `sewaddle > swadloon: level-up (level 20)` → `sewaddle > swadloon: level-up (level 21)`
 
-    **Level-up Moves:** `6 moves` → `8 moves`
+	**Base Stats Changes:**
 
-    **TM/HM Compatibility:** `24 moves` → `25 moves (added: hone-claws)`
+	- `55 HP / 63 Atk / 90 Def / 50 SAtk / 80 SDef / 42 Spd` → `70 HP / 63 Atk / 90 Def / 50 SAtk / 80 SDef / 42 Spd`
+
+	**Level-up Moves Changes:**
+
+	- `6 moves` → `8 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `24 moves` → `25 moves (added: hone-claws)`
 
 
 ## :material-information: Basic Information
@@ -90,7 +98,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Mental Herb](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/mental-herb.png){ .item-sprite } [Mental Herb](../../pokedex/items/mental-herb.md) | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Mental Herb](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/mental-herb.png){ .item-sprite } [Mental Herb](../../pokedex/items/mental-herb.md)</span> | 5% | 5% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 

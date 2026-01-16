@@ -13,13 +13,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Primeape ROM Changes"
 
-    **Abilities:** `vital-spirit / anger-point / defiant` → `defiant / anger-point / vital-spirit`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `17 moves` → `25 moves`
+	- `vital-spirit / anger-point / defiant` → `defiant / anger-point / vital-spirit`
 
-    **TM/HM Compatibility:** `43 moves` → `44 moves (added: cut)`
+	**Level-up Moves Changes:**
+
+	- `17 moves` → `25 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `43 moves` → `44 moves (added: cut)`
 
 
 ## :material-information: Basic Information
@@ -89,7 +95,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Payapa Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/payapa-berry.png){ .item-sprite } [Payapa Berry](../../pokedex/items/payapa-berry.md) | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Payapa Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/payapa-berry.png){ .item-sprite } [Payapa Berry](../../pokedex/items/payapa-berry.md)</span> | 5% | 5% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 

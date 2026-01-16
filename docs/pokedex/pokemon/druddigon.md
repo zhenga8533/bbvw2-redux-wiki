@@ -14,11 +14,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Druddigon ROM Changes"
 
-    **Level-up Moves:** `16 moves` → `21 moves`
+	**Level-up Moves Changes:**
 
-    **TM/HM Compatibility:** `44 moves` → `47 moves (added: quash, work-up, rock-climb)`
+	- `16 moves` → `21 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `44 moves` → `47 moves (added: quash, work-up, rock-climb)`
 
 
 ## :material-information: Basic Information
@@ -86,7 +90,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Dragon Fang](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dragon-fang.png){ .item-sprite } [Dragon Fang](../../pokedex/items/dragon-fang.md) | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Dragon Fang](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dragon-fang.png){ .item-sprite } [Dragon Fang](../../pokedex/items/dragon-fang.md)</span> | 5% | 5% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 

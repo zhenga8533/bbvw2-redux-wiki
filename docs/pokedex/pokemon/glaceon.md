@@ -13,15 +13,29 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Glaceon ROM Changes"
 
-    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+	**Evolution Chain Changes:**
 
-    **Base Stats:** `65 HP / 60 Atk / 110 Def / 130 SAtk / 95 SDef / 65 Spd` → `65 HP / 60 Atk / 110 Def / 130 SAtk / 65 SDef / 95 Spd`
+	- `eevee > espeon: level-up (happiness, day)` → `eevee > espeon: use-item (sun-stone)`
 
-    **Abilities:** `snow-cloak / ice-body` → `snow-cloak / serene-grace / serene-grace`
+	- `eevee > umbreon: level-up (happiness, night)` → `eevee > umbreon: use-item (moon-stone)`
 
-    **TM/HM Compatibility:** `28 moves` → `31 moves (added: tri-attack, dazzling-gleam, grass-knot)`
+	- `eevee > leafeon: level-up (at eterna-forest)` → `eevee > leafeon: use-item (leaf-stone)`
+
+	- `eevee > glaceon: level-up (at sinnoh-route-217)` → `eevee > glaceon: use-item (ice-stone)`
+
+	**Base Stats Changes:**
+
+	- `65 HP / 60 Atk / 110 Def / 130 SAtk / 95 SDef / 65 Spd` → `65 HP / 60 Atk / 110 Def / 130 SAtk / 65 SDef / 95 Spd`
+
+	**Abilities Changes:**
+
+	- `snow-cloak / ice-body` → `snow-cloak / serene-grace / serene-grace`
+
+	**TM/HM Compatibility Changes:**
+
+	- `28 moves` → `31 moves (added: tri-attack, dazzling-gleam, grass-knot)`
 
 
 ## :material-information: Basic Information
@@ -74,7 +88,7 @@
 
 	---
 
-	**Generation:** Generation Iv
+	**Generation:** Generation IV
 
 	**Color:** Blue
 

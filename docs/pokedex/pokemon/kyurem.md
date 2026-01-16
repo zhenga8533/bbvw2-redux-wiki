@@ -15,11 +15,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Kyurem ROM Changes"
 
-    **Level-up Moves:** `15 moves` → `17 moves`
+	**Level-up Moves Changes:**
 
-    **TM/HM Compatibility:** `39 moves` → `42 moves (added: frost-breath, work-up, rock-climb)`
+	- `15 moves` → `17 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `39 moves` → `42 moves (added: frost-breath, work-up, rock-climb)`
 
 
 ## :material-information: Basic Information

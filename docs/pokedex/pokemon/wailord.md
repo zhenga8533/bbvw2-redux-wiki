@@ -13,15 +13,23 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Wailord ROM Changes"
 
-    **Base Stats:** `170 HP / 90 Atk / 45 Def / 90 SAtk / 45 SDef / 60 Spd` → `200 HP / 90 Atk / 45 Def / 90 SAtk / 45 SDef / 60 Spd`
+	**Base Stats Changes:**
 
-    **Abilities:** `water-veil / oblivious / pressure` → `water-veil / pressure / pressure`
+	- `170 HP / 90 Atk / 45 Def / 90 SAtk / 45 SDef / 60 Spd` → `200 HP / 90 Atk / 45 Def / 90 SAtk / 45 SDef / 60 Spd`
 
-    **Level-up Moves:** `19 moves` → `23 moves`
+	**Abilities Changes:**
 
-    **TM/HM Compatibility:** `29 moves` → `31 moves (added: weather-ball, quash)`
+	- `water-veil / oblivious / pressure` → `water-veil / pressure / pressure`
+
+	**Level-up Moves Changes:**
+
+	- `19 moves` → `23 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `29 moves` → `31 moves (added: weather-ball, quash)`
 
 
 ## :material-information: Basic Information
@@ -76,7 +84,7 @@
 
 	---
 
-	**Generation:** Generation Iii
+	**Generation:** Generation III
 
 	**Color:** Blue
 

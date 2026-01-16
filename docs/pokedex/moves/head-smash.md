@@ -1,9 +1,11 @@
 # Head Smash
 
 
-!!! info "ROM Changes
+??? note "Head Smash ROM Changes"
 
-    **Accuracy:** `80` → `85`
+	**Accuracy Changes:**
+
+	- `80` → `85`
 
 
 ## :material-chart-box: Stats

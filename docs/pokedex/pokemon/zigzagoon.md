@@ -13,13 +13,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Zigzagoon ROM Changes"
 
-    **Base Stats:** `38 HP / 30 Atk / 41 Def / 30 SAtk / 41 SDef / 60 Spd` → `38 HP / 40 Atk / 41 Def / 30 SAtk / 41 SDef / 60 Spd`
+	**Base Stats Changes:**
 
-    **Level-up Moves:** `14 moves` → `19 moves`
+	- `38 HP / 30 Atk / 41 Def / 30 SAtk / 41 SDef / 60 Spd` → `38 HP / 40 Atk / 41 Def / 30 SAtk / 41 SDef / 60 Spd`
 
-    **TM/HM Compatibility:** `32 moves` → `33 moves (added: rock-climb)`
+	**Level-up Moves Changes:**
+
+	- `14 moves` → `19 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `32 moves` → `33 moves (added: rock-climb)`
 
 
 ## :material-information: Basic Information
@@ -74,7 +80,7 @@
 
 	---
 
-	**Generation:** Generation Iii
+	**Generation:** Generation III
 
 	**Color:** Brown
 
@@ -89,7 +95,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Oran Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/oran-berry.png){ .item-sprite } [Oran Berry](../../pokedex/items/oran-berry.md) | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Oran Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/oran-berry.png){ .item-sprite } [Oran Berry](../../pokedex/items/oran-berry.md)</span> | 5% | 5% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 
@@ -145,7 +151,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 	**#263 [Zigzagoon](./zigzagoon.md)**
 
-	
+
 
 	***You are here***
 

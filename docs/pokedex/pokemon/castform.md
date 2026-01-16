@@ -13,13 +13,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Castform ROM Changes"
 
-    **Base Stats:** `70 HP / 70 Atk / 70 Def / 70 SAtk / 70 SDef / 70 Spd` → `60 HP / 70 Atk / 60 Def / 100 SAtk / 70 SDef / 90 Spd`
+	**Base Stats Changes:**
 
-    **Level-up Moves:** `20 moves` → `23 moves`
+	- `70 HP / 70 Atk / 70 Def / 70 SAtk / 70 SDef / 70 Spd` → `60 HP / 70 Atk / 60 Def / 100 SAtk / 70 SDef / 90 Spd`
 
-    **TM/HM Compatibility:** `33 moves` → `35 moves (added: tri-attack, hurricane)`
+	**Level-up Moves Changes:**
+
+	- `20 moves` → `23 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `33 moves` → `35 moves (added: tri-attack, hurricane)`
 
 
 ## :material-information: Basic Information
@@ -72,7 +78,7 @@
 
 	---
 
-	**Generation:** Generation Iii
+	**Generation:** Generation III
 
 	**Color:** Gray
 
@@ -87,7 +93,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Mystic Water](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/mystic-water.png){ .item-sprite } [Mystic Water](../../pokedex/items/mystic-water.md) | 100% | 100% | 100% | 100% |
+| <span style="white-space: nowrap;">![Mystic Water](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/mystic-water.png){ .item-sprite } [Mystic Water](../../pokedex/items/mystic-water.md)</span> | 100% | 100% | 100% | 100% |
 
 ## :material-shield-half-full: Type Effectiveness
 

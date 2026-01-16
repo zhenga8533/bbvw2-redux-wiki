@@ -13,15 +13,23 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Venusaur ROM Changes"
 
-    **Base Stats:** `80 HP / 82 Atk / 83 Def / 100 SAtk / 100 SDef / 80 Spd` → `80 HP / 87 Atk / 85 Def / 103 SAtk / 100 SDef / 80 Spd`
+	**Base Stats Changes:**
 
-    **Abilities:** `overgrow / chlorophyll` → `solar-power / overgrow / chlorophyll`
+	- `80 HP / 82 Atk / 83 Def / 100 SAtk / 100 SDef / 80 Spd` → `80 HP / 87 Atk / 85 Def / 103 SAtk / 100 SDef / 80 Spd`
 
-    **Level-up Moves:** `18 moves` → `25 moves`
+	**Abilities Changes:**
 
-    **TM/HM Compatibility:** `31 moves` → `33 moves (added: sludge-wave, weather-ball)`
+	- `overgrow / chlorophyll` → `solar-power / overgrow / chlorophyll`
+
+	**Level-up Moves Changes:**
+
+	- `18 moves` → `25 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `31 moves` → `33 moves (added: sludge-wave, weather-ball)`
 
 
 ## :material-information: Basic Information

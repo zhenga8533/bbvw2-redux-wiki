@@ -13,15 +13,23 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Qwilfish ROM Changes"
 
-    **Base Stats:** `65 HP / 95 Atk / 75 Def / 55 SAtk / 55 SDef / 85 Spd` → `65 HP / 95 Atk / 95 Def / 45 SAtk / 55 SDef / 95 Spd`
+	**Base Stats Changes:**
 
-    **Abilities:** `poison-point / swift-swim / intimidate` → `intimidate / swift-swim / poison-point`
+	- `65 HP / 95 Atk / 75 Def / 55 SAtk / 55 SDef / 85 Spd` → `65 HP / 95 Atk / 95 Def / 45 SAtk / 55 SDef / 95 Spd`
 
-    **Level-up Moves:** `18 moves` → `25 moves`
+	**Abilities Changes:**
 
-    **TM/HM Compatibility:** `30 moves` → `31 moves (added: wave-crash)`
+	- `poison-point / swift-swim / intimidate` → `intimidate / swift-swim / poison-point`
+
+	**Level-up Moves Changes:**
+
+	- `18 moves` → `25 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `30 moves` → `31 moves (added: wave-crash)`
 
 
 ## :material-information: Basic Information
@@ -76,7 +84,7 @@
 
 	---
 
-	**Generation:** Generation Ii
+	**Generation:** Generation II
 
 	**Color:** Gray
 
@@ -91,7 +99,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Poison Barb](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/poison-barb.png){ .item-sprite } [Poison Barb](../../pokedex/items/poison-barb.md) | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Poison Barb](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/poison-barb.png){ .item-sprite } [Poison Barb](../../pokedex/items/poison-barb.md)</span> | 5% | 5% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 

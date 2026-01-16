@@ -13,15 +13,23 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Seaking ROM Changes"
 
-    **Base Stats:** `80 HP / 92 Atk / 65 Def / 65 SAtk / 80 SDef / 68 Spd` → `80 HP / 112 Atk / 65 Def / 55 SAtk / 80 SDef / 83 Spd`
+	**Base Stats Changes:**
 
-    **Abilities:** `swift-swim / water-veil / lightning-rod` → `lightning-rod / swift-swim / water-veil`
+	- `80 HP / 92 Atk / 65 Def / 65 SAtk / 80 SDef / 68 Spd` → `80 HP / 112 Atk / 65 Def / 55 SAtk / 80 SDef / 83 Spd`
 
-    **Level-up Moves:** `16 moves` → `24 moves`
+	**Abilities Changes:**
 
-    **TM/HM Compatibility:** `23 moves` → `24 moves (added: wave-crash)`
+	- `swift-swim / water-veil / lightning-rod` → `lightning-rod / swift-swim / water-veil`
+
+	**Level-up Moves Changes:**
+
+	- `16 moves` → `24 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `23 moves` → `24 moves (added: wave-crash)`
 
 
 ## :material-information: Basic Information

@@ -13,15 +13,25 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Slowbro ROM Changes"
 
-    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+	**Evolution Chain Changes:**
 
-    **Abilities:** `oblivious / own-tempo / regenerator` → `regenerator / own-tempo / regenerator`
+	- `slowpoke > slowbro: level-up (level 37)` → `slowpoke > slowbro: level-up (level 33)`
 
-    **Level-up Moves:** `18 moves` → `22 moves`
+	- `slowpoke > slowking: trade (held: kings-rock)` → `slowpoke > slowking: use-item (king's-rock)`
 
-    **TM/HM Compatibility:** `48 moves` → `49 moves (added: waterfall)`
+	**Abilities Changes:**
+
+	- `oblivious / own-tempo / regenerator` → `regenerator / own-tempo / regenerator`
+
+	**Level-up Moves Changes:**
+
+	- `18 moves` → `22 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `48 moves` → `49 moves (added: waterfall)`
 
 
 ## :material-information: Basic Information
@@ -91,7 +101,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![King's Rock](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/kings-rock.png){ .item-sprite } [King's Rock](../../pokedex/items/kings-rock.md) | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![King's Rock](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/kings-rock.png){ .item-sprite } [King's Rock](../../pokedex/items/kings-rock.md)</span> | 5% | 5% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 

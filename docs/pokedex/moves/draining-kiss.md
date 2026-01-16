@@ -1,9 +1,11 @@
 # Draining Kiss
 
 
-!!! info "ROM Changes
+??? note "Draining Kiss ROM Changes"
 
-    **Power:** `50` → `70`
+	**Power Changes:**
+
+	- `50` → `70`
 
 
 ## :material-chart-box: Stats

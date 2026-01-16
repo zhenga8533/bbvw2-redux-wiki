@@ -13,11 +13,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Vigoroth ROM Changes"
 
-    **Abilities:** `vital-spirit` → `vital-spirit / sheer-force / vital-spirit`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `13 moves` → `23 moves`
+	- `vital-spirit` → `vital-spirit / sheer-force / vital-spirit`
+
+	**Level-up Moves Changes:**
+
+	- `13 moves` → `23 moves`
 
 
 ## :material-information: Basic Information
@@ -72,7 +76,7 @@
 
 	---
 
-	**Generation:** Generation Iii
+	**Generation:** Generation III
 
 	**Color:** White
 

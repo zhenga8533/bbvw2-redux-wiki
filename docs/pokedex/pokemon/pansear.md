@@ -14,13 +14,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Pansear ROM Changes"
 
-    **Abilities:** `gluttony / blaze` → `gluttony / blaze / blaze`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `15 moves` → `25 moves`
+	- `gluttony / blaze` → `gluttony / blaze / blaze`
 
-    **TM/HM Compatibility:** `35 moves` → `39 moves (added: power-up-punch, mystical-fire, quash, play-rough)`
+	**Level-up Moves Changes:**
+
+	- `15 moves` → `25 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `35 moves` → `39 moves (added: power-up-punch, mystical-fire, quash, play-rough)`
 
 
 ## :material-information: Basic Information
@@ -88,8 +94,8 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Oran Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/oran-berry.png){ .item-sprite } [Oran Berry](../../pokedex/items/oran-berry.md) | 50% | 50% | 50% | 50% |
-| ![Passho Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/passho-berry.png){ .item-sprite } [Passho Berry](../../pokedex/items/passho-berry.md) | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Oran Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/oran-berry.png){ .item-sprite } [Oran Berry](../../pokedex/items/oran-berry.md)</span> | 50% | 50% | 50% | 50% |
+| <span style="white-space: nowrap;">![Passho Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/passho-berry.png){ .item-sprite } [Passho Berry](../../pokedex/items/passho-berry.md)</span> | 5% | 5% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 
@@ -145,7 +151,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 	**#513 [Pansear](./pansear.md)**
 
-	
+
 
 	***You are here***
 

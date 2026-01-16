@@ -13,15 +13,23 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Persian ROM Changes"
 
-    **Base Stats:** `65 HP / 70 Atk / 60 Def / 65 SAtk / 65 SDef / 115 Spd` → `65 HP / 90 Atk / 60 Def / 80 SAtk / 65 SDef / 115 Spd`
+	**Base Stats Changes:**
 
-    **Abilities:** `limber / technician / unnerve` → `unnerve / technician / pickup`
+	- `65 HP / 70 Atk / 60 Def / 65 SAtk / 65 SDef / 115 Spd` → `65 HP / 90 Atk / 60 Def / 80 SAtk / 65 SDef / 115 Spd`
 
-    **Level-up Moves:** `19 moves` → `24 moves`
+	**Abilities Changes:**
 
-    **TM/HM Compatibility:** `37 moves` → `38 moves (added: quash)`
+	- `limber / technician / unnerve` → `unnerve / technician / pickup`
+
+	**Level-up Moves Changes:**
+
+	- `19 moves` → `24 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `37 moves` → `38 moves (added: quash)`
 
 
 ## :material-information: Basic Information
@@ -91,7 +99,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Quick Claw](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/quick-claw.png){ .item-sprite } [Quick Claw](../../pokedex/items/quick-claw.md) | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Quick Claw](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/quick-claw.png){ .item-sprite } [Quick Claw](../../pokedex/items/quick-claw.md)</span> | 5% | 5% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 

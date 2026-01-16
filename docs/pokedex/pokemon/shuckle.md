@@ -13,13 +13,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Shuckle ROM Changes"
 
-    **Abilities:** `sturdy / gluttony / contrary` → `sturdy / contrary / gluttony`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `29 moves` → `21 moves`
+	- `sturdy / gluttony / contrary` → `sturdy / contrary / gluttony`
 
-    **TM/HM Compatibility:** `31 moves` → `32 moves (added: bug-buzz)`
+	**Level-up Moves Changes:**
+
+	- `29 moves` → `21 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `31 moves` → `32 moves (added: bug-buzz)`
 
 
 ## :material-information: Basic Information
@@ -74,7 +80,7 @@
 
 	---
 
-	**Generation:** Generation Ii
+	**Generation:** Generation II
 
 	**Color:** Yellow
 
@@ -89,7 +95,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Berry Juice](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/berry-juice.png){ .item-sprite } [Berry Juice](../../pokedex/items/berry-juice.md) | 100% | 100% | 100% | 100% |
+| <span style="white-space: nowrap;">![Berry Juice](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/berry-juice.png){ .item-sprite } [Berry Juice](../../pokedex/items/berry-juice.md)</span> | 100% | 100% | 100% | 100% |
 
 ## :material-shield-half-full: Type Effectiveness
 

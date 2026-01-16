@@ -1,9 +1,11 @@
 # Vine Whip
 
 
-!!! info "ROM Changes
+??? note "Vine Whip ROM Changes"
 
-    **Power:** `45` → `40`
+	**Power Changes:**
+
+	- `45` → `40`
 
 
 ## :material-chart-box: Stats

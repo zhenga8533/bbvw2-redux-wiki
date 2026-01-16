@@ -14,11 +14,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Leavanny ROM Changes"
 
-    **Level-up Moves:** `15 moves` → `24 moves`
+	**Level-up Moves Changes:**
 
-    **TM/HM Compatibility:** `35 moves` → `36 moves (added: play-rough)`
+	- `15 moves` → `24 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `35 moves` → `36 moves (added: play-rough)`
 
 
 ## :material-information: Basic Information
@@ -86,7 +90,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Mental Herb](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/mental-herb.png){ .item-sprite } [Mental Herb](../../pokedex/items/mental-herb.md) | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Mental Herb](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/mental-herb.png){ .item-sprite } [Mental Herb](../../pokedex/items/mental-herb.md)</span> | 5% | 5% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 

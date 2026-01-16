@@ -13,13 +13,21 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Huntail ROM Changes"
 
-    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+	**Evolution Chain Changes:**
 
-    **Level-up Moves:** `12 moves` → `20 moves`
+	- `clamperl > huntail: trade (held: deep-sea-tooth)` → `clamperl > huntail: use-item (deep-sea-tooth)`
 
-    **TM/HM Compatibility:** `23 moves` → `25 moves (added: wave-crash, cut)`
+	- `clamperl > gorebyss: trade (held: deep-sea-scale)` → `clamperl > gorebyss: use-item (deep-sea-scale)`
+
+	**Level-up Moves Changes:**
+
+	- `12 moves` → `20 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `23 moves` → `25 moves (added: wave-crash, cut)`
 
 
 ## :material-information: Basic Information
@@ -73,7 +81,7 @@
 
 	---
 
-	**Generation:** Generation Iii
+	**Generation:** Generation III
 
 	**Color:** Blue
 
@@ -88,7 +96,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Deep Sea Tooth](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/deep-sea-tooth.png){ .item-sprite } [Deep Sea Tooth](../../pokedex/items/deep-sea-tooth.md) | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Deep Sea Tooth](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/deep-sea-tooth.png){ .item-sprite } [Deep Sea Tooth](../../pokedex/items/deep-sea-tooth.md)</span> | 5% | 5% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 

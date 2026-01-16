@@ -12,9 +12,11 @@
 	</div>
 
 
-!!! info "ROM Changes
+??? note "Heart Scale ROM Changes"
 
-    **Cost:** `$100` → `$1000`
+	**Cost Changes:**
+
+	- `$100` → `$1000`
 
 
 ## :material-information: Effect

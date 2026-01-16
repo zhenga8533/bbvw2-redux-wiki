@@ -13,17 +13,27 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Magcargo ROM Changes"
 
-    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+	**Evolution Chain Changes:**
 
-    **Base Stats:** `50 HP / 50 Atk / 120 Def / 80 SAtk / 80 SDef / 30 Spd` → `60 HP / 50 Atk / 140 Def / 120 SAtk / 100 SDef / 30 Spd`
+	- `slugma > magcargo: level-up (level 38)` → `slugma > magcargo: level-up (level 30)`
 
-    **Abilities:** `magma-armor / flame-body / weak-armor` → `solid-rock / flame-body / weak-armor`
+	**Base Stats Changes:**
 
-    **Level-up Moves:** `17 moves` → `25 moves`
+	- `50 HP / 50 Atk / 120 Def / 80 SAtk / 80 SDef / 30 Spd` → `60 HP / 50 Atk / 140 Def / 120 SAtk / 100 SDef / 30 Spd`
 
-    **TM/HM Compatibility:** `36 moves` → `37 moves (added: power-gem)`
+	**Abilities Changes:**
+
+	- `magma-armor / flame-body / weak-armor` → `solid-rock / flame-body / weak-armor`
+
+	**Level-up Moves Changes:**
+
+	- `17 moves` → `25 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `36 moves` → `37 moves (added: power-gem)`
 
 
 ## :material-information: Basic Information
@@ -78,7 +88,7 @@
 
 	---
 
-	**Generation:** Generation Ii
+	**Generation:** Generation II
 
 	**Color:** Red
 

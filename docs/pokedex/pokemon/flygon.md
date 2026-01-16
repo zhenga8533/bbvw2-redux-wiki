@@ -13,19 +13,31 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Flygon ROM Changes"
 
-    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+	**Evolution Chain Changes:**
 
-    **Base Stats:** `80 HP / 100 Atk / 80 Def / 80 SAtk / 80 SDef / 100 Spd` → `90 HP / 110 Atk / 85 Def / 130 SAtk / 85 SDef / 100 Spd`
+	- `vibrava > flygon: unknown` → `vibrava > flygon: level-up (level 55)`
 
-    **Type:** `ground / dragon` → `bug / dragon`
+	**Base Stats Changes:**
 
-    **EV Yield:** `1 Atk, 2 Spd` → `3 SAtk`
+	- `80 HP / 100 Atk / 80 Def / 80 SAtk / 80 SDef / 100 Spd` → `90 HP / 110 Atk / 85 Def / 130 SAtk / 85 SDef / 100 Spd`
 
-    **Level-up Moves:** `28 moves` → `25 moves`
+	**Type Changes:**
 
-    **TM/HM Compatibility:** `35 moves` → `36 moves (added: hurricane)`
+	- `ground / dragon` → `bug / dragon`
+
+	**EV Yield Changes:**
+
+	- `1 Atk, 2 Spd` → `3 SAtk`
+
+	**Level-up Moves Changes:**
+
+	- `28 moves` → `25 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `35 moves` → `36 moves (added: hurricane)`
 
 
 ## :material-information: Basic Information
@@ -78,7 +90,7 @@
 
 	---
 
-	**Generation:** Generation Iii
+	**Generation:** Generation III
 
 	**Color:** Green
 

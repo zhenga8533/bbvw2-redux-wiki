@@ -13,13 +13,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Cranidos ROM Changes"
 
-    **Abilities:** `mold-breaker / sheer-force` → `mold-breaker / sheer-force / sheer-force`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `12 moves` → `18 moves`
+	- `mold-breaker / sheer-force` → `mold-breaker / sheer-force / sheer-force`
 
-    **TM/HM Compatibility:** `37 moves` → `38 moves (added: work-up)`
+	**Level-up Moves Changes:**
+
+	- `12 moves` → `18 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `37 moves` → `38 moves (added: work-up)`
 
 
 ## :material-information: Basic Information
@@ -72,7 +78,7 @@
 
 	---
 
-	**Generation:** Generation Iv
+	**Generation:** Generation IV
 
 	**Color:** Blue
 
@@ -135,7 +141,7 @@
 
 	**#408 [Cranidos](./cranidos.md)**
 
-	
+
 
 	***You are here***
 

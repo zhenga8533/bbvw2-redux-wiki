@@ -13,11 +13,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Nidoran♀ ROM Changes"
 
-    **Abilities:** `poison-point / rivalry / hustle` → `hustle / poison-point / rivalry`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `13 moves` → `21 moves`
+	- `poison-point / rivalry / hustle` → `hustle / poison-point / rivalry`
+
+	**Level-up Moves Changes:**
+
+	- `13 moves` → `21 moves`
 
 
 ## :material-information: Basic Information
@@ -135,7 +139,7 @@
 
 	**#029 [Nidoran♀](./nidoran-f.md)**
 
-	
+
 
 	***You are here***
 

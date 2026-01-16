@@ -13,15 +13,23 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Misdreavus ROM Changes"
 
-    **Abilities:** `levitate` → `infiltrator`
+	**Abilities Changes:**
 
-    **Type:** `ghost` → `ghost / fairy`
+	- `levitate` → `infiltrator`
 
-    **Level-up Moves:** `14 moves` → `20 moves`
+	**Type Changes:**
 
-    **TM/HM Compatibility:** `34 moves` → `36 moves (added: mystical-fire, power-gem)`
+	- `ghost` → `ghost / fairy`
+
+	**Level-up Moves Changes:**
+
+	- `14 moves` → `20 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `34 moves` → `36 moves (added: mystical-fire, power-gem)`
 
 
 ## :material-information: Basic Information
@@ -74,7 +82,7 @@
 
 	---
 
-	**Generation:** Generation Ii
+	**Generation:** Generation II
 
 	**Color:** Gray
 
@@ -146,7 +154,7 @@
 
 	**#200 [Misdreavus](./misdreavus.md)**
 
-	
+
 
 	***You are here***
 

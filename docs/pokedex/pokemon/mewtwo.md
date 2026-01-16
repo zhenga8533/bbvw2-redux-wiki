@@ -14,11 +14,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Mewtwo ROM Changes"
 
-    **Level-up Moves:** `18 moves` → `22 moves`
+	**Level-up Moves Changes:**
 
-    **TM/HM Compatibility:** `59 moves` → `61 moves (added: hurricane, work-up)`
+	- `18 moves` → `22 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `59 moves` → `61 moves (added: hurricane, work-up)`
 
 
 ## :material-information: Basic Information

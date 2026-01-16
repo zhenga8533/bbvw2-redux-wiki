@@ -14,9 +14,11 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Rayquaza ROM Changes"
 
-    **TM/HM Compatibility:** `53 moves` → `54 moves (added: work-up)`
+	**TM/HM Compatibility Changes:**
+
+	- `53 moves` → `54 moves (added: work-up)`
 
 
 ## :material-information: Basic Information
@@ -69,7 +71,7 @@
 
 	---
 
-	**Generation:** Generation Iii
+	**Generation:** Generation III
 
 	**Color:** Green
 

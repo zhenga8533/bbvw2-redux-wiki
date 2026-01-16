@@ -13,15 +13,23 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Spinarak ROM Changes"
 
-    **Base Stats:** `40 HP / 60 Atk / 40 Def / 40 SAtk / 40 SDef / 30 Spd` → `40 HP / 70 Atk / 40 Def / 40 SAtk / 40 SDef / 50 Spd`
+	**Base Stats Changes:**
 
-    **Abilities:** `swarm / insomnia / sniper` → `sniper / insomnia / sniper`
+	- `40 HP / 60 Atk / 40 Def / 40 SAtk / 40 SDef / 30 Spd` → `40 HP / 70 Atk / 40 Def / 40 SAtk / 40 SDef / 50 Spd`
 
-    **Level-up Moves:** `15 moves` → `22 moves`
+	**Abilities Changes:**
 
-    **TM/HM Compatibility:** `24 moves` → `26 moves (added: quash, bug-buzz)`
+	- `swarm / insomnia / sniper` → `sniper / insomnia / sniper`
+
+	**Level-up Moves Changes:**
+
+	- `15 moves` → `22 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `24 moves` → `26 moves (added: quash, bug-buzz)`
 
 
 ## :material-information: Basic Information
@@ -76,7 +84,7 @@
 
 	---
 
-	**Generation:** Generation Ii
+	**Generation:** Generation II
 
 	**Color:** Green
 
@@ -144,7 +152,7 @@
 
 	**#167 [Spinarak](./spinarak.md)**
 
-	
+
 
 	***You are here***
 

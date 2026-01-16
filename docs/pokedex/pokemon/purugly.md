@@ -13,15 +13,23 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Purugly ROM Changes"
 
-    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+	**Evolution Chain Changes:**
 
-    **Base Stats:** `71 HP / 82 Atk / 64 Def / 64 SAtk / 59 SDef / 112 Spd` → `90 HP / 95 Atk / 70 Def / 65 SAtk / 60 SDef / 115 Spd`
+	- `glameow > purugly: level-up (level 38)` → `glameow > purugly: level-up (level 26)`
 
-    **Abilities:** `thick-fat / own-tempo / defiant` → `thick-fat / defiant / defiant`
+	**Base Stats Changes:**
 
-    **Level-up Moves:** `16 moves` → `25 moves`
+	- `71 HP / 82 Atk / 64 Def / 64 SAtk / 59 SDef / 112 Spd` → `90 HP / 95 Atk / 70 Def / 65 SAtk / 60 SDef / 115 Spd`
+
+	**Abilities Changes:**
+
+	- `thick-fat / own-tempo / defiant` → `thick-fat / defiant / defiant`
+
+	**Level-up Moves Changes:**
+
+	- `16 moves` → `25 moves`
 
 
 ## :material-information: Basic Information
@@ -74,7 +82,7 @@
 
 	---
 
-	**Generation:** Generation Iv
+	**Generation:** Generation IV
 
 	**Color:** Gray
 
@@ -89,7 +97,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Cheri Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/cheri-berry.png){ .item-sprite } [Cheri Berry](../../pokedex/items/cheri-berry.md) | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Cheri Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/cheri-berry.png){ .item-sprite } [Cheri Berry](../../pokedex/items/cheri-berry.md)</span> | 5% | 5% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 

@@ -13,13 +13,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Pineco ROM Changes"
 
-    **Abilities:** `sturdy / overcoat` → `sturdy / overcoat / overcoat`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `14 moves` → `19 moves`
+	- `sturdy / overcoat` → `sturdy / overcoat / overcoat`
 
-    **TM/HM Compatibility:** `29 moves` → `30 moves (added: bug-buzz)`
+	**Level-up Moves Changes:**
+
+	- `14 moves` → `19 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `29 moves` → `30 moves (added: bug-buzz)`
 
 
 ## :material-information: Basic Information
@@ -74,7 +80,7 @@
 
 	---
 
-	**Generation:** Generation Ii
+	**Generation:** Generation II
 
 	**Color:** Gray
 
@@ -137,7 +143,7 @@
 
 	**#204 [Pineco](./pineco.md)**
 
-	
+
 
 	***You are here***
 

@@ -14,13 +14,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Pidove ROM Changes"
 
-    **Base Stats:** `50 HP / 55 Atk / 50 Def / 36 SAtk / 30 SDef / 43 Spd` → `50 HP / 36 Atk / 50 Def / 55 SAtk / 30 SDef / 43 Spd`
+	**Base Stats Changes:**
 
-    **Abilities:** `big-pecks / super-luck / rivalry` → `unaware / super-luck / rivalry`
+	- `50 HP / 55 Atk / 50 Def / 36 SAtk / 30 SDef / 43 Spd` → `50 HP / 36 Atk / 50 Def / 55 SAtk / 30 SDef / 43 Spd`
 
-    **Level-up Moves:** `15 moves` → `21 moves`
+	**Abilities Changes:**
+
+	- `big-pecks / super-luck / rivalry` → `unaware / super-luck / rivalry`
+
+	**Level-up Moves Changes:**
+
+	- `15 moves` → `21 moves`
 
 
 ## :material-information: Basic Information
@@ -145,7 +151,7 @@
 
 	**#519 [Pidove](./pidove.md)**
 
-	
+
 
 	***You are here***
 

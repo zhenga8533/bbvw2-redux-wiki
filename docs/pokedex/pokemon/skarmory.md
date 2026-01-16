@@ -13,11 +13,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Skarmory ROM Changes"
 
-    **Level-up Moves:** `15 moves` → `25 moves`
+	**Level-up Moves Changes:**
 
-    **TM/HM Compatibility:** `31 moves` → `32 moves (added: hurricane)`
+	- `15 moves` → `25 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `31 moves` → `32 moves (added: hurricane)`
 
 
 ## :material-information: Basic Information
@@ -72,7 +76,7 @@
 
 	---
 
-	**Generation:** Generation Ii
+	**Generation:** Generation II
 
 	**Color:** Gray
 

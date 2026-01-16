@@ -14,15 +14,25 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Accelgor ROM Changes"
 
-    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+	**Evolution Chain Changes:**
 
-    **Abilities:** `hydration / sticky-hold / unburden` → `infiltrator / unburden / sticky-hold`
+	- `shelmet > accelgor: trade` → `shelmet > accelgor: use-item (reaper-cloth)`
 
-    **Level-up Moves:** `18 moves` → `25 moves`
+	- `shelmet > accelgor: use-item (reaper-cloth)` → `shelmet > accelgor: level-up`
 
-    **TM/HM Compatibility:** `22 moves` → `23 moves (added: acrobatics)`
+	**Abilities Changes:**
+
+	- `hydration / sticky-hold / unburden` → `infiltrator / unburden / sticky-hold`
+
+	**Level-up Moves Changes:**
+
+	- `18 moves` → `25 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `22 moves` → `23 moves (added: acrobatics)`
 
 
 ## :material-information: Basic Information

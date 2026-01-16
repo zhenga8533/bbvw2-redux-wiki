@@ -13,15 +13,25 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Burmy ROM Changes"
 
-    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+	**Evolution Chain Changes:**
 
-    **Base Stats:** `40 HP / 29 Atk / 45 Def / 29 SAtk / 45 SDef / 36 Spd` → `40 HP / 20 Atk / 45 Def / 45 SAtk / 45 SDef / 30 Spd`
+	- `burmy > wormadam: level-up (level 20)` → `burmy > wormadam: level-up (level 25)`
 
-    **Abilities:** `shed-skin / overcoat` → `shed-skin / overcoat / overcoat`
+	- `burmy > mothim: level-up (level 20)` → `burmy > mothim: level-up (level 25)`
 
-    **Level-up Moves:** `4 moves` → `7 moves`
+	**Base Stats Changes:**
+
+	- `40 HP / 29 Atk / 45 Def / 29 SAtk / 45 SDef / 36 Spd` → `40 HP / 20 Atk / 45 Def / 45 SAtk / 45 SDef / 30 Spd`
+
+	**Abilities Changes:**
+
+	- `shed-skin / overcoat` → `shed-skin / overcoat / overcoat`
+
+	**Level-up Moves Changes:**
+
+	- `4 moves` → `7 moves`
 
 
 ## :material-information: Basic Information
@@ -74,7 +84,7 @@
 
 	---
 
-	**Generation:** Generation Iv
+	**Generation:** Generation IV
 
 	**Color:** Green
 
@@ -137,7 +147,7 @@
 
 	**#412 [Burmy](./burmy.md)**
 
-	
+
 
 	***You are here***
 

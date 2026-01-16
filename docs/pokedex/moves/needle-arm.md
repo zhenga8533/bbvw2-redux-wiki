@@ -1,9 +1,11 @@
 # Needle Arm
 
 
-!!! info "ROM Changes
+??? note "Needle Arm ROM Changes"
 
-    **Power:** `60` → `100`
+	**Power Changes:**
+
+	- `60` → `100`
 
 
 ## :material-chart-box: Stats

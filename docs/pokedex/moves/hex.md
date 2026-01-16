@@ -1,9 +1,11 @@
 # Hex
 
 
-!!! info "ROM Changes
+??? note "Hex ROM Changes"
 
-    **Pp:** `10` → `15`
+	**Pp Changes:**
+
+	- `10` → `15`
 
 
 ## :material-chart-box: Stats

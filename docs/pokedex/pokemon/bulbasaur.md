@@ -13,13 +13,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Bulbasaur ROM Changes"
 
-    **Abilities:** `overgrow / chlorophyll` → `solar-power / overgrow / chlorophyll`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `14 moves` → `20 moves`
+	- `overgrow / chlorophyll` → `solar-power / overgrow / chlorophyll`
 
-    **TM/HM Compatibility:** `26 moves` → `27 moves (added: weather-ball)`
+	**Level-up Moves Changes:**
+
+	- `14 moves` → `20 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `26 moves` → `27 moves (added: weather-ball)`
 
 
 ## :material-information: Basic Information
@@ -142,7 +148,7 @@
 
 	**#001 [Bulbasaur](./bulbasaur.md)**
 
-	
+
 
 	***You are here***
 

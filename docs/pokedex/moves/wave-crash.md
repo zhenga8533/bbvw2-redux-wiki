@@ -1,11 +1,15 @@
 # Wave Crash
 
 
-!!! info "ROM Changes
+??? note "Wave Crash ROM Changes"
 
-    **Power:** `120` → `110`
+	**Power Changes:**
 
-    **Pp:** `10` → `5`
+	- `120` → `110`
+
+	**Pp Changes:**
+
+	- `10` → `5`
 
 
 ## :material-chart-box: Stats

@@ -14,9 +14,11 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Bouffalant ROM Changes"
 
-    **Level-up Moves:** `14 moves` → `22 moves`
+	**Level-up Moves Changes:**
+
+	- `14 moves` → `22 moves`
 
 
 ## :material-information: Basic Information

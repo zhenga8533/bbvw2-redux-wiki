@@ -13,11 +13,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Bibarel ROM Changes"
 
-    **Base Stats:** `79 HP / 85 Atk / 60 Def / 55 SAtk / 60 SDef / 71 Spd` → `84 HP / 95 Atk / 65 Def / 55 SAtk / 65 SDef / 71 Spd`
+	**Base Stats Changes:**
 
-    **Level-up Moves:** `14 moves` → `25 moves`
+	- `79 HP / 85 Atk / 60 Def / 55 SAtk / 60 SDef / 71 Spd` → `84 HP / 95 Atk / 65 Def / 55 SAtk / 65 SDef / 71 Spd`
+
+	**Level-up Moves Changes:**
+
+	- `14 moves` → `25 moves`
 
 
 ## :material-information: Basic Information
@@ -72,7 +76,7 @@
 
 	---
 
-	**Generation:** Generation Iv
+	**Generation:** Generation IV
 
 	**Color:** Brown
 
@@ -87,8 +91,8 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Oran Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/oran-berry.png){ .item-sprite } [Oran Berry](../../pokedex/items/oran-berry.md) | 50% | 50% | 50% | 50% |
-| ![Sitrus Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/sitrus-berry.png){ .item-sprite } [Sitrus Berry](../../pokedex/items/sitrus-berry.md) | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Oran Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/oran-berry.png){ .item-sprite } [Oran Berry](../../pokedex/items/oran-berry.md)</span> | 50% | 50% | 50% | 50% |
+| <span style="white-space: nowrap;">![Sitrus Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/sitrus-berry.png){ .item-sprite } [Sitrus Berry](../../pokedex/items/sitrus-berry.md)</span> | 5% | 5% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 

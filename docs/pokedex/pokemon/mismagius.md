@@ -13,17 +13,27 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Mismagius ROM Changes"
 
-    **Base Stats:** `60 HP / 60 Atk / 60 Def / 105 SAtk / 105 SDef / 105 Spd` → `60 HP / 64 Atk / 66 Def / 105 SAtk / 105 SDef / 95 Spd`
+	**Base Stats Changes:**
 
-    **Abilities:** `levitate` → `infiltrator`
+	- `60 HP / 60 Atk / 60 Def / 105 SAtk / 105 SDef / 105 Spd` → `60 HP / 64 Atk / 66 Def / 105 SAtk / 105 SDef / 95 Spd`
 
-    **Type:** `ghost` → `ghost / fairy`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `6 moves` → `11 moves`
+	- `levitate` → `infiltrator`
 
-    **TM/HM Compatibility:** `37 moves` → `39 moves (added: mystical-fire, power-gem)`
+	**Type Changes:**
+
+	- `ghost` → `ghost / fairy`
+
+	**Level-up Moves Changes:**
+
+	- `6 moves` → `11 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `37 moves` → `39 moves (added: mystical-fire, power-gem)`
 
 
 ## :material-information: Basic Information
@@ -74,7 +84,7 @@
 
 	---
 
-	**Generation:** Generation Iv
+	**Generation:** Generation IV
 
 	**Color:** Purple
 

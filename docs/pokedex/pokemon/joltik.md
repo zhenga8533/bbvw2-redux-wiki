@@ -14,13 +14,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Joltik ROM Changes"
 
-    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+	**Evolution Chain Changes:**
 
-    **Level-up Moves:** `16 moves` → `23 moves`
+	- `joltik > galvantula: level-up (level 36)` → `joltik > galvantula: level-up (level 39)`
 
-    **TM/HM Compatibility:** `26 moves` → `28 moves (added: bug-buzz, rock-climb)`
+	**Level-up Moves Changes:**
+
+	- `16 moves` → `23 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `26 moves` → `28 moves (added: bug-buzz, rock-climb)`
 
 
 ## :material-information: Basic Information
@@ -136,7 +142,7 @@
 
 	**#595 [Joltik](./joltik.md)**
 
-	
+
 
 	***You are here***
 

@@ -14,11 +14,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Palkia ROM Changes"
 
-    **Level-up Moves:** `13 moves` → `14 moves`
+	**Level-up Moves Changes:**
 
-    **TM/HM Compatibility:** `49 moves` → `50 moves (added: work-up)`
+	- `13 moves` → `14 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `49 moves` → `50 moves (added: work-up)`
 
 
 ## :material-information: Basic Information
@@ -70,7 +74,7 @@
 
 	---
 
-	**Generation:** Generation Iv
+	**Generation:** Generation IV
 
 	**Color:** Purple
 

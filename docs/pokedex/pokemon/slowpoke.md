@@ -13,15 +13,25 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Slowpoke ROM Changes"
 
-    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+	**Evolution Chain Changes:**
 
-    **Abilities:** `oblivious / own-tempo / regenerator` → `regenerator / own-tempo / regenerator`
+	- `slowpoke > slowbro: level-up (level 37)` → `slowpoke > slowbro: level-up (level 33)`
 
-    **Level-up Moves:** `16 moves` → `21 moves`
+	- `slowpoke > slowking: trade (held: kings-rock)` → `slowpoke > slowking: use-item (king's-rock)`
 
-    **TM/HM Compatibility:** `41 moves` → `42 moves (added: waterfall)`
+	**Abilities Changes:**
+
+	- `oblivious / own-tempo / regenerator` → `regenerator / own-tempo / regenerator`
+
+	**Level-up Moves Changes:**
+
+	- `16 moves` → `21 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `41 moves` → `42 moves (added: waterfall)`
 
 
 ## :material-information: Basic Information
@@ -91,7 +101,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Lagging Tail](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/lagging-tail.png){ .item-sprite } [Lagging Tail](../../pokedex/items/lagging-tail.md) | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Lagging Tail](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/lagging-tail.png){ .item-sprite } [Lagging Tail](../../pokedex/items/lagging-tail.md)</span> | 5% | 5% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 
@@ -147,7 +157,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 	**#079 [Slowpoke](./slowpoke.md)**
 
-	
+
 
 	***You are here***
 

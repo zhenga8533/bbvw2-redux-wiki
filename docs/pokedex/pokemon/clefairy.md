@@ -13,11 +13,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Clefairy ROM Changes"
 
-    **Level-up Moves:** `32 moves` → `24 moves`
+	**Level-up Moves Changes:**
 
-    **TM/HM Compatibility:** `44 moves` → `45 moves (added: power-gem)`
+	- `32 moves` → `24 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `44 moves` → `45 moves (added: power-gem)`
 
 
 ## :material-information: Basic Information
@@ -87,9 +91,9 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Comet Shard](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/comet-shard.png){ .item-sprite } [Comet Shard](../../pokedex/items/comet-shard.md) | 1% | 1% | 1% | 1% |
-| ![Leppa Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/leppa-berry.png){ .item-sprite } [Leppa Berry](../../pokedex/items/leppa-berry.md) | 50% | 50% | 50% | 50% |
-| ![Moon Stone](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/moon-stone.png){ .item-sprite } [Moon Stone](../../pokedex/items/moon-stone.md) | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Comet Shard](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/comet-shard.png){ .item-sprite } [Comet Shard](../../pokedex/items/comet-shard.md)</span> | 1% | 1% | 1% | 1% |
+| <span style="white-space: nowrap;">![Leppa Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/leppa-berry.png){ .item-sprite } [Leppa Berry](../../pokedex/items/leppa-berry.md)</span> | 50% | 50% | 50% | 50% |
+| <span style="white-space: nowrap;">![Moon Stone](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/moon-stone.png){ .item-sprite } [Moon Stone](../../pokedex/items/moon-stone.md)</span> | 5% | 5% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 

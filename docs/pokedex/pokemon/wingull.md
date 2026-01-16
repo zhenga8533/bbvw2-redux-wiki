@@ -13,13 +13,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Wingull ROM Changes"
 
-    **Abilities:** `keen-eye / rain-dish` → `hydration / rain-dish / keen-eye`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `23 moves` → `21 moves`
+	- `keen-eye / rain-dish` → `hydration / rain-dish / keen-eye`
 
-    **TM/HM Compatibility:** `23 moves` → `24 moves (added: acrobatics)`
+	**Level-up Moves Changes:**
+
+	- `23 moves` → `21 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `23 moves` → `24 moves (added: acrobatics)`
 
 
 ## :material-information: Basic Information
@@ -74,7 +80,7 @@
 
 	---
 
-	**Generation:** Generation Iii
+	**Generation:** Generation III
 
 	**Color:** White
 
@@ -151,7 +157,7 @@
 
 	**#278 [Wingull](./wingull.md)**
 
-	
+
 
 	***You are here***
 

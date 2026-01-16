@@ -14,15 +14,23 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Musharna ROM Changes"
 
-    **Abilities:** `forewarn / synchronize / telepathy` → `analytic / synchronize / telepathy`
+	**Abilities Changes:**
 
-    **Type:** `psychic` → `psychic / fairy`
+	- `forewarn / synchronize / telepathy` → `analytic / synchronize / telepathy`
 
-    **Level-up Moves:** `4 moves` → `13 moves`
+	**Type Changes:**
 
-    **TM/HM Compatibility:** `34 moves` → `35 moves (added: tri-attack)`
+	- `psychic` → `psychic / fairy`
+
+	**Level-up Moves Changes:**
+
+	- `4 moves` → `13 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `34 moves` → `35 moves (added: tri-attack)`
 
 
 ## :material-information: Basic Information

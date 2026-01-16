@@ -13,11 +13,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Turtwig ROM Changes"
 
-    **Abilities:** `overgrow / shell-armor` → `shell-armor / overgrow / shell-armor`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `12 moves` → `18 moves`
+	- `overgrow / shell-armor` → `shell-armor / overgrow / shell-armor`
+
+	**Level-up Moves Changes:**
+
+	- `12 moves` → `18 moves`
 
 
 ## :material-information: Basic Information
@@ -70,7 +74,7 @@
 
 	---
 
-	**Generation:** Generation Iv
+	**Generation:** Generation IV
 
 	**Color:** Green
 
@@ -133,7 +137,7 @@
 
 	**#387 [Turtwig](./turtwig.md)**
 
-	
+
 
 	***You are here***
 

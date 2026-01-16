@@ -13,15 +13,23 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Ariados ROM Changes"
 
-    **Base Stats:** `70 HP / 90 Atk / 70 Def / 60 SAtk / 60 SDef / 40 Spd` → `70 HP / 110 Atk / 70 Def / 50 SAtk / 70 SDef / 80 Spd`
+	**Base Stats Changes:**
 
-    **Abilities:** `swarm / insomnia / sniper` → `sniper / insomnia / sniper`
+	- `70 HP / 90 Atk / 70 Def / 60 SAtk / 60 SDef / 40 Spd` → `70 HP / 110 Atk / 70 Def / 50 SAtk / 70 SDef / 80 Spd`
 
-    **Level-up Moves:** `18 moves` → `25 moves`
+	**Abilities Changes:**
 
-    **TM/HM Compatibility:** `26 moves` → `28 moves (added: quash, bug-buzz)`
+	- `swarm / insomnia / sniper` → `sniper / insomnia / sniper`
+
+	**Level-up Moves Changes:**
+
+	- `18 moves` → `25 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `26 moves` → `28 moves (added: quash, bug-buzz)`
 
 
 ## :material-information: Basic Information
@@ -76,7 +84,7 @@
 
 	---
 
-	**Generation:** Generation Ii
+	**Generation:** Generation II
 
 	**Color:** Red
 

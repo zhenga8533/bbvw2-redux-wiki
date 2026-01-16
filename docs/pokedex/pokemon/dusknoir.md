@@ -13,15 +13,23 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Dusknoir ROM Changes"
 
-    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+	**Evolution Chain Changes:**
 
-    **Abilities:** `pressure` → `iron-fist / cursed-body / pressure`
+	- `dusclops > dusknoir: unknown` → `dusclops > dusknoir: use-item (reaper-cloth)`
 
-    **Level-up Moves:** `21 moves` → `25 moves`
+	**Abilities Changes:**
 
-    **TM/HM Compatibility:** `42 moves` → `43 moves (added: quash)`
+	- `pressure` → `iron-fist / cursed-body / pressure`
+
+	**Level-up Moves Changes:**
+
+	- `21 moves` → `25 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `42 moves` → `43 moves (added: quash)`
 
 
 ## :material-information: Basic Information
@@ -74,7 +82,7 @@
 
 	---
 
-	**Generation:** Generation Iv
+	**Generation:** Generation IV
 
 	**Color:** Black
 
@@ -89,7 +97,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Kasib Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/kasib-berry.png){ .item-sprite } [Kasib Berry](../../pokedex/items/kasib-berry.md) | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Kasib Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/kasib-berry.png){ .item-sprite } [Kasib Berry](../../pokedex/items/kasib-berry.md)</span> | 5% | 5% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 

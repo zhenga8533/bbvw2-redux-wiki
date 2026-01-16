@@ -14,13 +14,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Smoochum ROM Changes"
 
-    **Base Stats:** `45 HP / 30 Atk / 15 Def / 85 SAtk / 65 SDef / 65 Spd` → `50 HP / 37 Atk / 37 Def / 90 SAtk / 65 SDef / 80 Spd`
+	**Base Stats Changes:**
 
-    **Abilities:** `oblivious / forewarn / hydration` → `dry-skin / forewarn / oblivious`
+	- `45 HP / 30 Atk / 15 Def / 85 SAtk / 65 SDef / 65 Spd` → `50 HP / 37 Atk / 37 Def / 90 SAtk / 65 SDef / 80 Spd`
 
-    **Level-up Moves:** `15 moves` → `20 moves`
+	**Abilities Changes:**
+
+	- `oblivious / forewarn / hydration` → `dry-skin / forewarn / oblivious`
+
+	**Level-up Moves Changes:**
+
+	- `15 moves` → `20 moves`
 
 
 ## :material-information: Basic Information
@@ -75,7 +81,7 @@
 
 	---
 
-	**Generation:** Generation Ii
+	**Generation:** Generation II
 
 	**Color:** Pink
 
@@ -90,7 +96,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Aspear Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/aspear-berry.png){ .item-sprite } [Aspear Berry](../../pokedex/items/aspear-berry.md) | 100% | 100% | 100% | 100% |
+| <span style="white-space: nowrap;">![Aspear Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/aspear-berry.png){ .item-sprite } [Aspear Berry](../../pokedex/items/aspear-berry.md)</span> | 100% | 100% | 100% | 100% |
 
 ## :material-shield-half-full: Type Effectiveness
 
@@ -146,7 +152,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 	**#238 [Smoochum](./smoochum.md)**
 
-	
+
 
 	***You are here***
 

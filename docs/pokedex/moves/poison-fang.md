@@ -1,11 +1,15 @@
 # Poison Fang
 
 
-!!! info "ROM Changes
+??? note "Poison Fang ROM Changes"
 
-    **Power:** `50` → `65`
+	**Power Changes:**
 
-    **Accuracy:** `100` → `95`
+	- `50` → `65`
+
+	**Accuracy Changes:**
+
+	- `100` → `95`
 
 
 ## :material-chart-box: Stats

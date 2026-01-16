@@ -13,13 +13,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Charmander ROM Changes"
 
-    **Abilities:** `blaze / solar-power` → `defiant / blaze / solar-power`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `12 moves` → `20 moves`
+	- `blaze / solar-power` → `defiant / blaze / solar-power`
 
-    **TM/HM Compatibility:** `33 moves` → `35 moves (added: false-swipe, acrobatics)`
+	**Level-up Moves Changes:**
+
+	- `12 moves` → `20 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `33 moves` → `35 moves (added: false-swipe, acrobatics)`
 
 
 ## :material-information: Basic Information
@@ -137,7 +143,7 @@
 
 	**#004 [Charmander](./charmander.md)**
 
-	
+
 
 	***You are here***
 

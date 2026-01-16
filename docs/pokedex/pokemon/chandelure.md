@@ -14,13 +14,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Chandelure ROM Changes"
 
-    **Abilities:** `shadow tag / flame-body / infiltrator` → `flash-fire / flame-body / shadow-tag`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `4 moves` → `10 moves`
+	- `shadow tag / flame-body / infiltrator` → `flash-fire / flame-body / shadow-tag`
 
-    **TM/HM Compatibility:** `36 moves` → `38 moves (added: dazzling-gleam, mystical-fire)`
+	**Level-up Moves Changes:**
+
+	- `4 moves` → `10 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `36 moves` → `38 moves (added: dazzling-gleam, mystical-fire)`
 
 
 ## :material-information: Basic Information

@@ -1,9 +1,11 @@
 # Twineedle
 
 
-!!! info "ROM Changes
+??? note "Twineedle ROM Changes"
 
-    **Power:** `25` → `40`
+	**Power Changes:**
+
+	- `25` → `40`
 
 
 ## :material-chart-box: Stats

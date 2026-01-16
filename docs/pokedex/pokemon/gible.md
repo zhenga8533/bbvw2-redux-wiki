@@ -13,13 +13,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Gible ROM Changes"
 
-    **Abilities:** `sand-veil / rough-skin` → `sand-veil / rough-skin / rough-skin`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `10 moves` → `17 moves`
+	- `sand-veil / rough-skin` → `sand-veil / rough-skin / rough-skin`
 
-    **TM/HM Compatibility:** `32 moves` → `33 moves (added: work-up)`
+	**Level-up Moves Changes:**
+
+	- `10 moves` → `17 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `32 moves` → `33 moves (added: work-up)`
 
 
 ## :material-information: Basic Information
@@ -74,7 +80,7 @@
 
 	---
 
-	**Generation:** Generation Iv
+	**Generation:** Generation IV
 
 	**Color:** Blue
 
@@ -89,7 +95,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Haban Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/haban-berry.png){ .item-sprite } [Haban Berry](../../pokedex/items/haban-berry.md) | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Haban Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/haban-berry.png){ .item-sprite } [Haban Berry](../../pokedex/items/haban-berry.md)</span> | 5% | 5% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 
@@ -159,7 +165,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 	**#443 [Gible](./gible.md)**
 
-	
+
 
 	***You are here***
 

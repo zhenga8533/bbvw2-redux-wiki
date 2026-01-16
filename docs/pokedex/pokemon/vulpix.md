@@ -13,13 +13,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Vulpix ROM Changes"
 
-    **Abilities:** `flash-fire / drought` → `drought / flash-fire / drought`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `33 moves` → `21 moves`
+	- `flash-fire / drought` → `drought / flash-fire / drought`
 
-    **TM/HM Compatibility:** `25 moves` → `28 moves (added: tri-attack, dazzling-gleam, power-gem)`
+	**Level-up Moves Changes:**
+
+	- `33 moves` → `21 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `25 moves` → `28 moves (added: tri-attack, dazzling-gleam, power-gem)`
 
 
 ## :material-information: Basic Information
@@ -89,7 +95,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Rawst Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/rawst-berry.png){ .item-sprite } [Rawst Berry](../../pokedex/items/rawst-berry.md) | 100% | 100% | 100% | 100% |
+| <span style="white-space: nowrap;">![Rawst Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/rawst-berry.png){ .item-sprite } [Rawst Berry](../../pokedex/items/rawst-berry.md)</span> | 100% | 100% | 100% | 100% |
 
 ## :material-shield-half-full: Type Effectiveness
 
@@ -145,7 +151,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 	**#037 [Vulpix](./vulpix.md)**
 
-	
+
 
 	***You are here***
 

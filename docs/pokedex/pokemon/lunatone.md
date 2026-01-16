@@ -13,13 +13,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Lunatone ROM Changes"
 
-    **Base Stats:** `70 HP / 55 Atk / 65 Def / 95 SAtk / 85 SDef / 70 Spd` → `90 HP / 55 Atk / 65 Def / 115 SAtk / 85 SDef / 70 Spd`
+	**Base Stats Changes:**
 
-    **Level-up Moves:** `27 moves` → `20 moves`
+	- `70 HP / 55 Atk / 65 Def / 95 SAtk / 85 SDef / 70 Spd` → `90 HP / 55 Atk / 65 Def / 115 SAtk / 85 SDef / 70 Spd`
 
-    **TM/HM Compatibility:** `42 moves` → `43 moves (added: power-gem)`
+	**Level-up Moves Changes:**
+
+	- `27 moves` → `20 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `42 moves` → `43 moves (added: power-gem)`
 
 
 ## :material-information: Basic Information
@@ -72,7 +78,7 @@
 
 	---
 
-	**Generation:** Generation Iii
+	**Generation:** Generation III
 
 	**Color:** Yellow
 
@@ -87,8 +93,8 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Comet Shard](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/comet-shard.png){ .item-sprite } [Comet Shard](../../pokedex/items/comet-shard.md) | 1% | 1% | 1% | 1% |
-| ![Moon Stone](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/moon-stone.png){ .item-sprite } [Moon Stone](../../pokedex/items/moon-stone.md) | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Comet Shard](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/comet-shard.png){ .item-sprite } [Comet Shard](../../pokedex/items/comet-shard.md)</span> | 1% | 1% | 1% | 1% |
+| <span style="white-space: nowrap;">![Moon Stone](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/moon-stone.png){ .item-sprite } [Moon Stone](../../pokedex/items/moon-stone.md)</span> | 5% | 5% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 

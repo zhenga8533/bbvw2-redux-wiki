@@ -13,15 +13,23 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Drowzee ROM Changes"
 
-    **Base Stats:** `60 HP / 48 Atk / 45 Def / 43 SAtk / 90 SDef / 42 Spd` → `70 HP / 48 Atk / 45 Def / 45 SAtk / 90 SDef / 42 Spd`
+	**Base Stats Changes:**
 
-    **Abilities:** `insomnia / forewarn / inner-focus` → `bad-dreams / insomnia / forewarn`
+	- `60 HP / 48 Atk / 45 Def / 43 SAtk / 90 SDef / 42 Spd` → `70 HP / 48 Atk / 45 Def / 45 SAtk / 90 SDef / 42 Spd`
 
-    **Level-up Moves:** `17 moves` → `19 moves`
+	**Abilities Changes:**
 
-    **TM/HM Compatibility:** `34 moves` → `35 moves (added: aura-sphere)`
+	- `insomnia / forewarn / inner-focus` → `bad-dreams / insomnia / forewarn`
+
+	**Level-up Moves Changes:**
+
+	- `17 moves` → `19 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `34 moves` → `35 moves (added: aura-sphere)`
 
 
 ## :material-information: Basic Information
@@ -139,7 +147,7 @@
 
 	**#096 [Drowzee](./drowzee.md)**
 
-	
+
 
 	***You are here***
 

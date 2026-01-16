@@ -1,11 +1,15 @@
 # Cross Poison
 
 
-!!! info "ROM Changes
+??? note "Cross Poison ROM Changes"
 
-    **Power:** `70` → `90`
+	**Power Changes:**
 
-    **Pp:** `20` → `15`
+	- `70` → `90`
+
+	**Pp Changes:**
+
+	- `20` → `15`
 
 
 ## :material-chart-box: Stats

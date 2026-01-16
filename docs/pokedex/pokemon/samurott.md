@@ -14,17 +14,27 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Samurott ROM Changes"
 
-    **Base Stats:** `95 HP / 100 Atk / 85 Def / 108 SAtk / 70 SDef / 70 Spd` → `95 HP / 100 Atk / 85 Def / 110 SAtk / 75 SDef / 70 Spd`
+	**Base Stats Changes:**
 
-    **Abilities:** `torrent / shell-armor` → `shell-armor / torrent / shell-armor`
+	- `95 HP / 100 Atk / 85 Def / 108 SAtk / 70 SDef / 70 Spd` → `95 HP / 100 Atk / 85 Def / 110 SAtk / 75 SDef / 70 Spd`
 
-    **Type:** `water` → `water / fighting`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `20 moves` → `25 moves`
+	- `torrent / shell-armor` → `shell-armor / torrent / shell-armor`
 
-    **TM/HM Compatibility:** `35 moves` → `38 moves (added: low-sweep, wave-crash, rock-climb)`
+	**Type Changes:**
+
+	- `water` → `water / fighting`
+
+	**Level-up Moves Changes:**
+
+	- `20 moves` → `25 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `35 moves` → `38 moves (added: low-sweep, wave-crash, rock-climb)`
 
 
 ## :material-information: Basic Information

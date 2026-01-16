@@ -13,17 +13,27 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Anorith ROM Changes"
 
-    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+	**Evolution Chain Changes:**
 
-    **Abilities:** `battle-armor / swift-swim` → `battle-armor / swift-swim / swift-swim`
+	- `anorith > armaldo: level-up (level 40)` → `anorith > armaldo: level-up (level 30)`
 
-    **Base Experience:** `71` → `65`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `12 moves` → `18 moves`
+	- `battle-armor / swift-swim` → `battle-armor / swift-swim / swift-swim`
 
-    **TM/HM Compatibility:** `28 moves` → `31 moves (added: wave-crash, bug-buzz, rock-climb)`
+	**Base Experience Changes:**
+
+	- `71` → `65`
+
+	**Level-up Moves Changes:**
+
+	- `12 moves` → `18 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `28 moves` → `31 moves (added: wave-crash, bug-buzz, rock-climb)`
 
 
 ## :material-information: Basic Information
@@ -78,7 +88,7 @@
 
 	---
 
-	**Generation:** Generation Iii
+	**Generation:** Generation III
 
 	**Color:** Gray
 
@@ -141,7 +151,7 @@
 
 	**#347 [Anorith](./anorith.md)**
 
-	
+
 
 	***You are here***
 

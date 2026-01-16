@@ -12,9 +12,11 @@
 	</div>
 
 
-!!! info "ROM Changes
+??? note "Red Shard ROM Changes"
 
-    **Cost:** `$1000` → `$600`
+	**Cost Changes:**
+
+	- `$1000` → `$600`
 
 
 ## :material-information: Effect

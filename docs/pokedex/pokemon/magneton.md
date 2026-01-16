@@ -13,13 +13,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Magneton ROM Changes"
 
-    **Abilities:** `magnet-pull / sturdy / analytic` → `analytic / sturdy / magnet-pull`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `36 moves` → `22 moves`
+	- `magnet-pull / sturdy / analytic` → `analytic / sturdy / magnet-pull`
 
-    **TM/HM Compatibility:** `28 moves` → `29 moves (added: bug-buzz)`
+	**Level-up Moves Changes:**
+
+	- `36 moves` → `22 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `28 moves` → `29 moves (added: bug-buzz)`
 
 
 ## :material-information: Basic Information
@@ -89,7 +95,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Metal Coat](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/metal-coat.png){ .item-sprite } [Metal Coat](../../pokedex/items/metal-coat.md) | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Metal Coat](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/metal-coat.png){ .item-sprite } [Metal Coat](../../pokedex/items/metal-coat.md)</span> | 5% | 5% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 

@@ -13,13 +13,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Honchkrow ROM Changes"
 
-    **Abilities:** `insomnia / super-luck / moxie` → `moxie / super-luck / moxie`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `10 moves` → `11 moves`
+	- `insomnia / super-luck / moxie` → `moxie / super-luck / moxie`
 
-    **TM/HM Compatibility:** `34 moves` → `35 moves (added: hurricane)`
+	**Level-up Moves Changes:**
+
+	- `10 moves` → `11 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `34 moves` → `35 moves (added: hurricane)`
 
 
 ## :material-information: Basic Information
@@ -72,7 +78,7 @@
 
 	---
 
-	**Generation:** Generation Iv
+	**Generation:** Generation IV
 
 	**Color:** Black
 

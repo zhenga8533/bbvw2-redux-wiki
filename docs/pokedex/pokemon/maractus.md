@@ -14,15 +14,23 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Maractus ROM Changes"
 
-    **Base Stats:** `75 HP / 86 Atk / 67 Def / 106 SAtk / 67 SDef / 60 Spd` → `75 HP / 106 Atk / 72 Def / 86 SAtk / 81 SDef / 60 Spd`
+	**Base Stats Changes:**
 
-    **Abilities:** `water-absorb / chlorophyll / storm-drain` → `water-absorb / storm-drain / storm-drain`
+	- `75 HP / 86 Atk / 67 Def / 106 SAtk / 67 SDef / 60 Spd` → `75 HP / 106 Atk / 72 Def / 86 SAtk / 81 SDef / 60 Spd`
 
-    **Level-up Moves:** `18 moves` → `22 moves`
+	**Abilities Changes:**
 
-    **TM/HM Compatibility:** `19 moves` → `20 moves (added: scald)`
+	- `water-absorb / chlorophyll / storm-drain` → `water-absorb / storm-drain / storm-drain`
+
+	**Level-up Moves Changes:**
+
+	- `18 moves` → `22 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `19 moves` → `20 moves (added: scald)`
 
 
 ## :material-information: Basic Information
@@ -90,7 +98,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Miracle Seed](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/miracle-seed.png){ .item-sprite } [Miracle Seed](../../pokedex/items/miracle-seed.md) | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Miracle Seed](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/miracle-seed.png){ .item-sprite } [Miracle Seed](../../pokedex/items/miracle-seed.md)</span> | 5% | 5% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 

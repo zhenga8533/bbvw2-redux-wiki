@@ -13,13 +13,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Solrock ROM Changes"
 
-    **Base Stats:** `70 HP / 95 Atk / 85 Def / 55 SAtk / 65 SDef / 70 Spd` → `90 HP / 115 Atk / 85 Def / 55 SAtk / 65 SDef / 70 Spd`
+	**Base Stats Changes:**
 
-    **Level-up Moves:** `27 moves` → `20 moves`
+	- `70 HP / 95 Atk / 85 Def / 55 SAtk / 65 SDef / 70 Spd` → `90 HP / 115 Atk / 85 Def / 55 SAtk / 65 SDef / 70 Spd`
 
-    **TM/HM Compatibility:** `46 moves` → `48 moves (added: mystical-fire, power-gem)`
+	**Level-up Moves Changes:**
+
+	- `27 moves` → `20 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `46 moves` → `48 moves (added: mystical-fire, power-gem)`
 
 
 ## :material-information: Basic Information
@@ -72,7 +78,7 @@
 
 	---
 
-	**Generation:** Generation Iii
+	**Generation:** Generation III
 
 	**Color:** Red
 
@@ -87,8 +93,8 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Comet Shard](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/comet-shard.png){ .item-sprite } [Comet Shard](../../pokedex/items/comet-shard.md) | 1% | 1% | 1% | 1% |
-| ![Sun Stone](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/sun-stone.png){ .item-sprite } [Sun Stone](../../pokedex/items/sun-stone.md) | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Comet Shard](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/comet-shard.png){ .item-sprite } [Comet Shard](../../pokedex/items/comet-shard.md)</span> | 1% | 1% | 1% | 1% |
+| <span style="white-space: nowrap;">![Sun Stone](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/sun-stone.png){ .item-sprite } [Sun Stone](../../pokedex/items/sun-stone.md)</span> | 5% | 5% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 

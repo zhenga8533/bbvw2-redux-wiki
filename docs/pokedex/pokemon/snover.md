@@ -13,13 +13,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Snover ROM Changes"
 
-    **Abilities:** `snow-warning / soundproof` → `snow-warning / soundproof / soundproof`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `12 moves` → `21 moves`
+	- `snow-warning / soundproof` → `snow-warning / soundproof / soundproof`
 
-    **TM/HM Compatibility:** `25 moves` → `27 moves (added: power-up-punch, work-up)`
+	**Level-up Moves Changes:**
+
+	- `12 moves` → `21 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `25 moves` → `27 moves (added: power-up-punch, work-up)`
 
 
 ## :material-information: Basic Information
@@ -74,7 +80,7 @@
 
 	---
 
-	**Generation:** Generation Iv
+	**Generation:** Generation IV
 
 	**Color:** White
 
@@ -89,7 +95,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Never Melt Ice](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/never-melt-ice.png){ .item-sprite } [Never Melt Ice](../../pokedex/items/never-melt-ice.md) | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Never Melt Ice](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/never-melt-ice.png){ .item-sprite } [Never Melt Ice](../../pokedex/items/never-melt-ice.md)</span> | 5% | 5% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 
@@ -150,7 +156,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 	**#459 [Snover](./snover.md)**
 
-	
+
 
 	***You are here***
 

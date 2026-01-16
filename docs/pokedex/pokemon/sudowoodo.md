@@ -13,15 +13,23 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Sudowoodo ROM Changes"
 
-    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+	**Evolution Chain Changes:**
 
-    **Base Stats:** `70 HP / 100 Atk / 115 Def / 30 SAtk / 65 SDef / 30 Spd` → `90 HP / 115 Atk / 125 Def / 30 SAtk / 75 SDef / 30 Spd`
+	- `bonsly > sudowoodo: level-up (knows mimic)` → `bonsly > sudowoodo: level-up (level 25)`
 
-    **Level-up Moves:** `31 moves` → `25 moves`
+	**Base Stats Changes:**
 
-    **TM/HM Compatibility:** `32 moves` → `33 moves (added: low-sweep)`
+	- `70 HP / 100 Atk / 115 Def / 30 SAtk / 65 SDef / 30 Spd` → `90 HP / 115 Atk / 125 Def / 30 SAtk / 75 SDef / 30 Spd`
+
+	**Level-up Moves Changes:**
+
+	- `31 moves` → `25 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `32 moves` → `33 moves (added: low-sweep)`
 
 
 ## :material-information: Basic Information
@@ -78,7 +86,7 @@
 
 	---
 
-	**Generation:** Generation Ii
+	**Generation:** Generation II
 
 	**Color:** Brown
 

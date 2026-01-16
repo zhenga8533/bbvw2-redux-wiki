@@ -1,9 +1,11 @@
 # Flamethrower
 
 
-!!! info "ROM Changes
+??? note "Flamethrower ROM Changes"
 
-    **Pp:** `15` → `10`
+	**Pp Changes:**
+
+	- `15` → `10`
 
 
 ## :material-chart-box: Stats

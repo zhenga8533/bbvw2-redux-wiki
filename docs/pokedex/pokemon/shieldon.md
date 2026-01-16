@@ -13,15 +13,23 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Shieldon ROM Changes"
 
-    **Base Stats:** `30 HP / 42 Atk / 118 Def / 42 SAtk / 88 SDef / 30 Spd` → `30 HP / 62 Atk / 118 Def / 22 SAtk / 88 SDef / 30 Spd`
+	**Base Stats Changes:**
 
-    **Abilities:** `sturdy / soundproof` → `sturdy / soundproof / soundproof`
+	- `30 HP / 42 Atk / 118 Def / 42 SAtk / 88 SDef / 30 Spd` → `30 HP / 62 Atk / 118 Def / 22 SAtk / 88 SDef / 30 Spd`
 
-    **Level-up Moves:** `12 moves` → `16 moves`
+	**Abilities Changes:**
 
-    **TM/HM Compatibility:** `36 moves` → `37 moves (added: rock-climb)`
+	- `sturdy / soundproof` → `sturdy / soundproof / soundproof`
+
+	**Level-up Moves Changes:**
+
+	- `12 moves` → `16 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `36 moves` → `37 moves (added: rock-climb)`
 
 
 ## :material-information: Basic Information
@@ -74,7 +82,7 @@
 
 	---
 
-	**Generation:** Generation Iv
+	**Generation:** Generation IV
 
 	**Color:** Gray
 
@@ -156,7 +164,7 @@
 
 	**#410 [Shieldon](./shieldon.md)**
 
-	
+
 
 	***You are here***
 

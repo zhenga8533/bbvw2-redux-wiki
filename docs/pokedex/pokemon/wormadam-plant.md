@@ -13,15 +13,25 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Wormadam Plant ROM Changes"
 
-    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+	**Evolution Chain Changes:**
 
-    **Base Stats:** `60 HP / 59 Atk / 85 Def / 79 SAtk / 105 SDef / 36 Spd` → `66 HP / 59 Atk / 85 Def / 99 SAtk / 105 SDef / 36 Spd`
+	- `burmy > wormadam: level-up (level 20)` → `burmy > wormadam: level-up (level 25)`
 
-    **Abilities:** `anticipation / overcoat` → `shield-dust / overcoat / overcoat`
+	- `burmy > mothim: level-up (level 20)` → `burmy > mothim: level-up (level 25)`
 
-    **Level-up Moves:** `13 moves` → `20 moves`
+	**Base Stats Changes:**
+
+	- `60 HP / 59 Atk / 85 Def / 79 SAtk / 105 SDef / 36 Spd` → `66 HP / 59 Atk / 85 Def / 99 SAtk / 105 SDef / 36 Spd`
+
+	**Abilities Changes:**
+
+	- `anticipation / overcoat` → `shield-dust / overcoat / overcoat`
+
+	**Level-up Moves Changes:**
+
+	- `13 moves` → `20 moves`
 
 
 ## :material-information: Basic Information
@@ -74,7 +84,7 @@
 
 	---
 
-	**Generation:** Generation Iv
+	**Generation:** Generation IV
 
 	**Color:** Green
 
@@ -89,7 +99,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Silver Powder](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/silver-powder.png){ .item-sprite } [Silver Powder](../../pokedex/items/silver-powder.md) | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Silver Powder](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/silver-powder.png){ .item-sprite } [Silver Powder](../../pokedex/items/silver-powder.md)</span> | 5% | 5% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 

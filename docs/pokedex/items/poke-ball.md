@@ -12,9 +12,11 @@
 	</div>
 
 
-!!! info "ROM Changes
+??? note "Poke Ball ROM Changes"
 
-    **Cost:** `$200` → `$50`
+	**Cost Changes:**
+
+	- `$200` → `$50`
 
 
 ## :material-information: Effect

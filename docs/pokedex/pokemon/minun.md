@@ -13,15 +13,23 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Minun ROM Changes"
 
-    **Base Stats:** `60 HP / 40 Atk / 50 Def / 75 SAtk / 85 SDef / 95 Spd` → `60 HP / 50 Atk / 50 Def / 85 SAtk / 95 SDef / 110 Spd`
+	**Base Stats Changes:**
 
-    **Abilities:** `minus` → `minus / volt-absorb / volt-absorb`
+	- `60 HP / 40 Atk / 50 Def / 75 SAtk / 85 SDef / 95 Spd` → `60 HP / 50 Atk / 50 Def / 85 SAtk / 95 SDef / 110 Spd`
 
-    **Level-up Moves:** `18 moves` → `23 moves`
+	**Abilities Changes:**
 
-    **TM/HM Compatibility:** `24 moves` → `25 moves (added: flash-cannon)`
+	- `minus` → `minus / volt-absorb / volt-absorb`
+
+	**Level-up Moves Changes:**
+
+	- `18 moves` → `23 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `24 moves` → `25 moves (added: flash-cannon)`
 
 
 ## :material-information: Basic Information
@@ -76,7 +84,7 @@
 
 	---
 
-	**Generation:** Generation Iii
+	**Generation:** Generation III
 
 	**Color:** Yellow
 

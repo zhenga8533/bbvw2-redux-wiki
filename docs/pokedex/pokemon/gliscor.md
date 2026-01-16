@@ -13,15 +13,23 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Gliscor ROM Changes"
 
-    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+	**Evolution Chain Changes:**
 
-    **Abilities:** `hyper-cutter / sand-veil / poison-heal` → `hyper-cutter / poison-heal / poison-heal`
+	- `gligar > gliscor: level-up (held: razor-fang)` → `gligar > gliscor: use-item (razor-fang)`
 
-    **Level-up Moves:** `34 moves` → `25 moves`
+	**Abilities Changes:**
 
-    **TM/HM Compatibility:** `44 moves` → `47 moves (added: bug-buzz, fly, rock-climb)`
+	- `hyper-cutter / sand-veil / poison-heal` → `hyper-cutter / poison-heal / poison-heal`
+
+	**Level-up Moves Changes:**
+
+	- `34 moves` → `25 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `44 moves` → `47 moves (added: bug-buzz, fly, rock-climb)`
 
 
 ## :material-information: Basic Information
@@ -74,7 +82,7 @@
 
 	---
 
-	**Generation:** Generation Iv
+	**Generation:** Generation IV
 
 	**Color:** Purple
 

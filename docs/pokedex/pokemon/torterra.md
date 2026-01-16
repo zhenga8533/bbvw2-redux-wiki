@@ -13,13 +13,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Torterra ROM Changes"
 
-    **Base Stats:** `95 HP / 109 Atk / 105 Def / 75 SAtk / 85 SDef / 56 Spd` → `105 HP / 109 Atk / 110 Def / 65 SAtk / 85 SDef / 61 Spd`
+	**Base Stats Changes:**
 
-    **Abilities:** `overgrow / shell-armor` → `rock-head / overgrow / shell-armor`
+	- `95 HP / 109 Atk / 105 Def / 75 SAtk / 85 SDef / 56 Spd` → `105 HP / 109 Atk / 110 Def / 65 SAtk / 85 SDef / 61 Spd`
 
-    **Level-up Moves:** `17 moves` → `25 moves`
+	**Abilities Changes:**
+
+	- `overgrow / shell-armor` → `rock-head / overgrow / shell-armor`
+
+	**Level-up Moves Changes:**
+
+	- `17 moves` → `25 moves`
 
 
 ## :material-information: Basic Information
@@ -72,7 +78,7 @@
 
 	---
 
-	**Generation:** Generation Iv
+	**Generation:** Generation IV
 
 	**Color:** Green
 

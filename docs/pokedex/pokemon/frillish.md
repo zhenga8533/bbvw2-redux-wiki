@@ -14,9 +14,11 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Frillish ROM Changes"
 
-    **Level-up Moves:** `14 moves` → `18 moves`
+	**Level-up Moves Changes:**
+
+	- `14 moves` → `18 moves`
 
 
 ## :material-information: Basic Information
@@ -143,7 +145,7 @@
 
 	**#592 [Frillish](./frillish.md)**
 
-	
+
 
 	***You are here***
 

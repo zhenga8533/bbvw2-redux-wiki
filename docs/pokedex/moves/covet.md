@@ -1,11 +1,15 @@
 # Covet
 
 
-!!! info "ROM Changes
+??? note "Covet ROM Changes"
 
-    **Type:** `normal` → `fairy`
+	**Type Changes:**
 
-    **Pp:** `25` → `20`
+	- `normal` → `fairy`
+
+	**Pp Changes:**
+
+	- `25` → `20`
 
 
 ## :material-chart-box: Stats

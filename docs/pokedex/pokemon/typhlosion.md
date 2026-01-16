@@ -13,15 +13,23 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Typhlosion ROM Changes"
 
-    **Base Stats:** `78 HP / 84 Atk / 78 Def / 109 SAtk / 85 SDef / 100 Spd` → `78 HP / 84 Atk / 78 Def / 110 SAtk / 85 SDef / 100 Spd`
+	**Base Stats Changes:**
 
-    **Abilities:** `blaze / flash-fire` → `flash-fire / blaze / flash-fire`
+	- `78 HP / 84 Atk / 78 Def / 109 SAtk / 85 SDef / 100 Spd` → `78 HP / 84 Atk / 78 Def / 110 SAtk / 85 SDef / 100 Spd`
 
-    **Level-up Moves:** `18 moves` → `25 moves`
+	**Abilities Changes:**
 
-    **TM/HM Compatibility:** `38 moves` → `39 moves (added: mystical-fire)`
+	- `blaze / flash-fire` → `flash-fire / blaze / flash-fire`
+
+	**Level-up Moves Changes:**
+
+	- `18 moves` → `25 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `38 moves` → `39 moves (added: mystical-fire)`
 
 
 ## :material-information: Basic Information
@@ -76,7 +84,7 @@
 
 	---
 
-	**Generation:** Generation Ii
+	**Generation:** Generation II
 
 	**Color:** Yellow
 

@@ -1,9 +1,11 @@
 # Fury Cutter
 
 
-!!! info "ROM Changes
+??? note "Fury Cutter ROM Changes"
 
-    **Power:** `40` → `30`
+	**Power Changes:**
+
+	- `40` → `30`
 
 
 ## :material-chart-box: Stats

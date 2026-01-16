@@ -1,11 +1,15 @@
 # Glaciate
 
 
-!!! info "ROM Changes
+??? note "Glaciate ROM Changes"
 
-    **Power:** `65` → `85`
+	**Power Changes:**
 
-    **Accuracy:** `95` → `100`
+	- `65` → `85`
+
+	**Accuracy Changes:**
+
+	- `95` → `100`
 
 
 ## :material-chart-box: Stats

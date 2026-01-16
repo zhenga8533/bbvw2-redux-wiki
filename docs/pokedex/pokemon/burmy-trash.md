@@ -13,9 +13,13 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Burmy Trash ROM Changes"
 
-    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+	**Evolution Chain Changes:**
+
+	- `burmy > wormadam: level-up (level 20)` → `burmy > wormadam: level-up (level 25)`
+
+	- `burmy > mothim: level-up (level 20)` → `burmy > mothim: level-up (level 25)`
 
 
 ## :material-information: Basic Information
@@ -67,7 +71,7 @@
 
 	---
 
-	**Generation:** Generation Iv
+	**Generation:** Generation IV
 
 	**Color:** Green
 
@@ -130,7 +134,7 @@
 
 	**#412 [Burmy](./burmy.md)**
 
-	
+
 
 	***You are here***
 

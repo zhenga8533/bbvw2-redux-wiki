@@ -14,15 +14,23 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Dewott ROM Changes"
 
-    **Abilities:** `torrent / shell-armor` → `shell-armor / torrent / shell-armor`
+	**Abilities Changes:**
 
-    **Type:** `water` → `water / fighting`
+	- `torrent / shell-armor` → `shell-armor / torrent / shell-armor`
 
-    **Level-up Moves:** `18 moves` → `22 moves`
+	**Type Changes:**
 
-    **TM/HM Compatibility:** `31 moves` → `33 moves (added: low-sweep, wave-crash)`
+	- `water` → `water / fighting`
+
+	**Level-up Moves Changes:**
+
+	- `18 moves` → `22 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `31 moves` → `33 moves (added: low-sweep, wave-crash)`
 
 
 ## :material-information: Basic Information

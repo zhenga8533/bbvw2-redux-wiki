@@ -13,11 +13,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Vileplume ROM Changes"
 
-    **Abilities:** `chlorophyll / effect-spore` → `thick-fat / effect-spore / effect-spore`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `6 moves` → `15 moves`
+	- `chlorophyll / effect-spore` → `thick-fat / effect-spore / effect-spore`
+
+	**Level-up Moves Changes:**
+
+	- `6 moves` → `15 moves`
 
 
 ## :material-information: Basic Information

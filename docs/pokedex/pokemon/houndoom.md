@@ -13,13 +13,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Houndoom ROM Changes"
 
-    **Abilities:** `early-bird / flash-fire / unnerve` → `flash-fire / intimidate / unnerve`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `19 moves` → `24 moves`
+	- `early-bird / flash-fire / unnerve` → `flash-fire / intimidate / unnerve`
 
-    **TM/HM Compatibility:** `35 moves` → `36 moves (added: work-up)`
+	**Level-up Moves Changes:**
+
+	- `19 moves` → `24 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `35 moves` → `36 moves (added: work-up)`
 
 
 ## :material-information: Basic Information
@@ -76,7 +82,7 @@
 
 	---
 
-	**Generation:** Generation Ii
+	**Generation:** Generation II
 
 	**Color:** Black
 

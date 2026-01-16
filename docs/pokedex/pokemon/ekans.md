@@ -13,11 +13,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Ekans ROM Changes"
 
-    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+	**Evolution Chain Changes:**
 
-    **Level-up Moves:** `16 moves` → `24 moves`
+	- `ekans > arbok: level-up (level 22)` → `ekans > arbok: level-up (level 21)`
+
+	**Level-up Moves Changes:**
+
+	- `16 moves` → `24 moves`
 
 
 ## :material-information: Basic Information
@@ -135,7 +139,7 @@
 
 	**#023 [Ekans](./ekans.md)**
 
-	
+
 
 	***You are here***
 

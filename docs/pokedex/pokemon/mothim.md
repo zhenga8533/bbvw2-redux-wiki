@@ -13,17 +13,29 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Mothim ROM Changes"
 
-    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+	**Evolution Chain Changes:**
 
-    **Base Stats:** `70 HP / 94 Atk / 50 Def / 94 SAtk / 50 SDef / 66 Spd` → `70 HP / 94 Atk / 50 Def / 94 SAtk / 50 SDef / 92 Spd`
+	- `burmy > wormadam: level-up (level 20)` → `burmy > wormadam: level-up (level 25)`
 
-    **Abilities:** `swarm / tinted-lens` → `swarm / tinted-lens / tinted-lens`
+	- `burmy > mothim: level-up (level 20)` → `burmy > mothim: level-up (level 25)`
 
-    **Level-up Moves:** `14 moves` → `19 moves`
+	**Base Stats Changes:**
 
-    **TM/HM Compatibility:** `30 moves` → `31 moves (added: hurricane)`
+	- `70 HP / 94 Atk / 50 Def / 94 SAtk / 50 SDef / 66 Spd` → `70 HP / 94 Atk / 50 Def / 94 SAtk / 50 SDef / 92 Spd`
+
+	**Abilities Changes:**
+
+	- `swarm / tinted-lens` → `swarm / tinted-lens / tinted-lens`
+
+	**Level-up Moves Changes:**
+
+	- `14 moves` → `19 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `30 moves` → `31 moves (added: hurricane)`
 
 
 ## :material-information: Basic Information
@@ -76,7 +88,7 @@
 
 	---
 
-	**Generation:** Generation Iv
+	**Generation:** Generation IV
 
 	**Color:** Yellow
 
@@ -91,7 +103,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Silver Powder](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/silver-powder.png){ .item-sprite } [Silver Powder](../../pokedex/items/silver-powder.md) | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Silver Powder](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/silver-powder.png){ .item-sprite } [Silver Powder](../../pokedex/items/silver-powder.md)</span> | 5% | 5% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 

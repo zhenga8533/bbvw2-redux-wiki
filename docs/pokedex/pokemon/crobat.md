@@ -13,11 +13,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Crobat ROM Changes"
 
-    **Abilities:** `inner-focus / infiltrator` → `inner-focus / infiltrator / infiltrator`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `28 moves` → `24 moves`
+	- `inner-focus / infiltrator` → `inner-focus / infiltrator / infiltrator`
+
+	**Level-up Moves Changes:**
+
+	- `28 moves` → `24 moves`
 
 
 ## :material-information: Basic Information
@@ -72,7 +76,7 @@
 
 	---
 
-	**Generation:** Generation Ii
+	**Generation:** Generation II
 
 	**Color:** Purple
 

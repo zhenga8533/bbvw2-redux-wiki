@@ -13,15 +13,23 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Butterfree ROM Changes"
 
-    **Base Stats:** `60 HP / 45 Atk / 50 Def / 80 SAtk / 80 SDef / 70 Spd` → `65 HP / 45 Atk / 60 Def / 100 SAtk / 90 SDef / 90 Spd`
+	**Base Stats Changes:**
 
-    **Abilities:** `compound-eyes / tinted-lens` → `compound-eyes / tinted-lens / tinted-lens`
+	- `60 HP / 45 Atk / 50 Def / 80 SAtk / 80 SDef / 70 Spd` → `65 HP / 45 Atk / 60 Def / 100 SAtk / 90 SDef / 90 Spd`
 
-    **Level-up Moves:** `16 moves` → `18 moves`
+	**Abilities Changes:**
 
-    **TM/HM Compatibility:** `30 moves` → `32 moves (added: hurricane, fly)`
+	- `compound-eyes / tinted-lens` → `compound-eyes / tinted-lens / tinted-lens`
+
+	**Level-up Moves Changes:**
+
+	- `16 moves` → `18 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `30 moves` → `32 moves (added: hurricane, fly)`
 
 
 ## :material-information: Basic Information
@@ -93,7 +101,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Silver Powder](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/silver-powder.png){ .item-sprite } [Silver Powder](../../pokedex/items/silver-powder.md) | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Silver Powder](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/silver-powder.png){ .item-sprite } [Silver Powder](../../pokedex/items/silver-powder.md)</span> | 5% | 5% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 

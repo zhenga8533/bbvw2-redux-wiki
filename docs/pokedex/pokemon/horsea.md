@@ -13,11 +13,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Horsea ROM Changes"
 
-    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+	**Evolution Chain Changes:**
 
-    **Level-up Moves:** `12 moves` → `20 moves`
+	- `seadra > kingdra: trade (held: dragon-scale)` → `seadra > kingdra: use-item (dragon-scale)`
+
+	**Level-up Moves Changes:**
+
+	- `12 moves` → `20 moves`
 
 
 ## :material-information: Basic Information
@@ -87,7 +91,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Dragon Scale](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dragon-scale.png){ .item-sprite } [Dragon Scale](../../pokedex/items/dragon-scale.md) | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Dragon Scale](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dragon-scale.png){ .item-sprite } [Dragon Scale](../../pokedex/items/dragon-scale.md)</span> | 5% | 5% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 
@@ -143,7 +147,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 	**#116 [Horsea](./horsea.md)**
 
-	
+
 
 	***You are here***
 

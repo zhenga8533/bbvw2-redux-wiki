@@ -14,13 +14,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Deoxys Normal ROM Changes"
 
-    **Abilities:** `pressure` → `moody / pressure`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `14 moves` → `16 moves`
+	- `pressure` → `moody / pressure`
 
-    **TM/HM Compatibility:** `50 moves` → `51 moves (added: work-up)`
+	**Level-up Moves Changes:**
+
+	- `14 moves` → `16 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `50 moves` → `51 moves (added: work-up)`
 
 
 ## :material-information: Basic Information
@@ -74,7 +80,7 @@
 
 	---
 
-	**Generation:** Generation Iii
+	**Generation:** Generation III
 
 	**Color:** Red
 

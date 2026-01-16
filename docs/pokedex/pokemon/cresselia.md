@@ -14,11 +14,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Cresselia ROM Changes"
 
-    **Level-up Moves:** `12 moves` → `15 moves`
+	**Level-up Moves Changes:**
 
-    **TM/HM Compatibility:** `34 moves` → `35 moves (added: mystical-fire)`
+	- `12 moves` → `15 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `34 moves` → `35 moves (added: mystical-fire)`
 
 
 ## :material-information: Basic Information
@@ -69,7 +73,7 @@
 
 	---
 
-	**Generation:** Generation Iv
+	**Generation:** Generation IV
 
 	**Color:** Yellow
 

@@ -14,11 +14,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Fraxure ROM Changes"
 
-    **Level-up Moves:** `19 moves` → `21 moves`
+	**Level-up Moves Changes:**
 
-    **TM/HM Compatibility:** `34 moves` → `36 moves (added: work-up, rock-climb)`
+	- `19 moves` → `21 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `34 moves` → `36 moves (added: work-up, rock-climb)`
 
 
 ## :material-information: Basic Information

@@ -13,13 +13,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Machop ROM Changes"
 
-    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+	**Evolution Chain Changes:**
 
-    **Abilities:** `guts / no-guard / steadfast` → `steadfast / no-guard / steadfast`
+	- `machoke > machamp: trade` → `machoke > machamp: use-item (link-cable)`
 
-    **Level-up Moves:** `14 moves` → `24 moves`
+	**Abilities Changes:**
+
+	- `guts / no-guard / steadfast` → `steadfast / no-guard / steadfast`
+
+	**Level-up Moves Changes:**
+
+	- `14 moves` → `24 moves`
 
 
 ## :material-information: Basic Information
@@ -137,7 +143,7 @@
 
 	**#066 [Machop](./machop.md)**
 
-	
+
 
 	***You are here***
 

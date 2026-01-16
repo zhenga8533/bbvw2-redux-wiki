@@ -1,11 +1,15 @@
 # Chatter
 
 
-!!! info "ROM Changes
+??? note "Chatter ROM Changes"
 
-    **Power:** `65` → `90`
+	**Power Changes:**
 
-    **Pp:** `20` → `10`
+	- `65` → `90`
+
+	**Pp Changes:**
+
+	- `20` → `10`
 
 
 ## :material-chart-box: Stats

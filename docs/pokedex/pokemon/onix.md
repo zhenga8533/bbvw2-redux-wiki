@@ -13,15 +13,23 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Onix ROM Changes"
 
-    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+	**Evolution Chain Changes:**
 
-    **Base Stats:** `35 HP / 45 Atk / 160 Def / 30 SAtk / 45 SDef / 70 Spd` → `55 HP / 85 Atk / 160 Def / 30 SAtk / 45 SDef / 90 Spd`
+	- `onix > steelix: trade (held: metal-coat)` → `onix > steelix: use-item (metal-coat)`
 
-    **Abilities:** `rock-head / sturdy / weak-armor` → `weak-armor / sturdy / rock-head`
+	**Base Stats Changes:**
 
-    **Level-up Moves:** `35 moves` → `25 moves`
+	- `35 HP / 45 Atk / 160 Def / 30 SAtk / 45 SDef / 70 Spd` → `55 HP / 85 Atk / 160 Def / 30 SAtk / 45 SDef / 90 Spd`
+
+	**Abilities Changes:**
+
+	- `rock-head / sturdy / weak-armor` → `weak-armor / sturdy / rock-head`
+
+	**Level-up Moves Changes:**
+
+	- `35 moves` → `25 moves`
 
 
 ## :material-information: Basic Information
@@ -158,7 +166,7 @@
 
 	**#095 [Onix](./onix.md)**
 
-	
+
 
 	***You are here***
 

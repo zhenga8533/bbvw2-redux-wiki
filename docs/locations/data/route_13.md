@@ -76,7 +76,7 @@
 
 ● Ranger♀ Dianne
 
-**Reward:** ![Sitrus Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/sitrus-berry.png){ .item-sprite } [Sitrus Berry](../../pokedex/items/sitrus-berry.md)
+**Reward:** <span style="white-space: nowrap;">![Sitrus Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/sitrus-berry.png){ .item-sprite } [Sitrus Berry](../../pokedex/items/sitrus-berry.md)</span>
 
 **Battle Type:** 3x
 
@@ -90,7 +90,7 @@
 
 ○ Ranger♂ Daryl
 
-**Reward:** ![Sitrus Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/sitrus-berry.png){ .item-sprite } [Sitrus Berry](../../pokedex/items/sitrus-berry.md)
+**Reward:** <span style="white-space: nowrap;">![Sitrus Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/sitrus-berry.png){ .item-sprite } [Sitrus Berry](../../pokedex/items/sitrus-berry.md)</span>
 
 **Battle Type:** Rot
 
@@ -106,7 +106,7 @@
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
-| ![lampent](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/608.gif){ .sprite }<br>[Lampent](../../pokedex/pokemon/lampent.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> <span class="type-badge" style="background: linear-gradient(135deg, #F08030 0%, #F08030dd 100%);">Fire</span></div> | **Level:** 52<br>**Ability:** [Flash Fire](../../pokedex/abilities/flash-fire.md)<br>**Item:** ![Micle Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/micle-berry.png){ .item-sprite } [Micle Berry](../../pokedex/items/micle-berry.md) | 1. [Clear Smog](../../pokedex/moves/clear-smog.md)<br>2. [Inferno](../../pokedex/moves/inferno.md)<br>3. [Pain Split](../../pokedex/moves/pain-split.md)<br>4. [Shadow Ball](../../pokedex/moves/shadow-ball.md) |
+| ![lampent](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/608.gif){ .sprite }<br>[Lampent](../../pokedex/pokemon/lampent.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #705898 0%, #705898dd 100%);">Ghost</span> <span class="type-badge" style="background: linear-gradient(135deg, #F08030 0%, #F08030dd 100%);">Fire</span></div> | **Level:** 52<br>**Ability:** [Flash Fire](../../pokedex/abilities/flash-fire.md)<br>**Item:** <span style="white-space: nowrap;">![Micle Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/micle-berry.png){ .item-sprite } [Micle Berry](../../pokedex/items/micle-berry.md)</span> | 1. [Clear Smog](../../pokedex/moves/clear-smog.md)<br>2. [Inferno](../../pokedex/moves/inferno.md)<br>3. [Pain Split](../../pokedex/moves/pain-split.md)<br>4. [Shadow Ball](../../pokedex/moves/shadow-ball.md) |
 | ![honchkrow](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/430.gif){ .sprite }<br>[Honchkrow](../../pokedex/pokemon/honchkrow.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #705848 0%, #705848dd 100%);">Dark</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 52<br>**Ability:** [Moxie](../../pokedex/abilities/moxie.md) | 1. [Tailwind](../../pokedex/moves/tailwind.md)<br>2. [Drill Peck](../../pokedex/moves/drill-peck.md)<br>3. [Night Slash](../../pokedex/moves/night-slash.md)<br>4. [Sucker Punch](../../pokedex/moves/sucker-punch.md) |
 | ![raticate](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/20.gif){ .sprite }<br>[Raticate](../../pokedex/pokemon/raticate.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8A878 0%, #A8A878dd 100%);">Normal</span></div> | **Level:** 52<br>**Ability:** [Guts](../../pokedex/abilities/guts.md) | 1. [Sucker Punch](../../pokedex/moves/sucker-punch.md)<br>2. [Reversal](../../pokedex/moves/reversal.md)<br>3. [Double Edge](../../pokedex/moves/double-edge.md)<br>4. [Scary Face](../../pokedex/moves/scary-face.md) |
 | ![vespiquen](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/416.gif){ .sprite }<br>[Vespiquen](../../pokedex/pokemon/vespiquen.md) | <div class='badges-vstack'><span class="type-badge" style="background: linear-gradient(135deg, #A8B820 0%, #A8B820dd 100%);">Bug</span> <span class="type-badge" style="background: linear-gradient(135deg, #A890F0 0%, #A890F0dd 100%);">Flying</span></div> | **Level:** 52<br>**Ability:** [Intimidate](../../pokedex/abilities/intimidate.md) | 1. [Air Slash](../../pokedex/moves/air-slash.md)<br>2. [Ominous Wind](../../pokedex/moves/ominous-wind.md)<br>3. [Attack Order](../../pokedex/moves/attack-order.md)<br>4. [Cross Poison](../../pokedex/moves/cross-poison.md) |

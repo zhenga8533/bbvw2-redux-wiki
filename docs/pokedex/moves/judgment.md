@@ -1,9 +1,11 @@
 # Judgment
 
 
-!!! info "ROM Changes
+??? note "Judgment ROM Changes"
 
-    **Power:** `100` → `150`
+	**Power Changes:**
+
+	- `100` → `150`
 
 
 ## :material-chart-box: Stats

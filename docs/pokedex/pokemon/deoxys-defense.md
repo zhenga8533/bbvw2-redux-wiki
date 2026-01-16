@@ -14,11 +14,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Deoxys Defense ROM Changes"
 
-    **Abilities:** `pressure` → `regenerator / pressure`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `14 moves` → `18 moves`
+	- `pressure` → `regenerator / pressure`
+
+	**Level-up Moves Changes:**
+
+	- `14 moves` → `18 moves`
 
 
 ## :material-information: Basic Information
@@ -72,7 +76,7 @@
 
 	---
 
-	**Generation:** Generation Iii
+	**Generation:** Generation III
 
 	**Color:** Red
 

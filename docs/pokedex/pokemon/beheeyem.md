@@ -14,15 +14,23 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Beheeyem ROM Changes"
 
-    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+	**Evolution Chain Changes:**
 
-    **Abilities:** `telepathy / synchronize / analytic` → `analytic / synchronize / analytic`
+	- `elgyem > beheeyem: level-up (level 42)` → `elgyem > beheeyem: level-up (level 37)`
 
-    **Level-up Moves:** `21 moves` → `25 moves`
+	**Abilities Changes:**
 
-    **TM/HM Compatibility:** `37 moves` → `43 moves (added: tri-attack, dazzling-gleam, mystical-fire, power-gem, bug-buzz...)`
+	- `telepathy / synchronize / analytic` → `analytic / synchronize / analytic`
+
+	**Level-up Moves Changes:**
+
+	- `21 moves` → `25 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `37 moves` → `43 moves (added: tri-attack, dazzling-gleam, mystical-fire, power-gem, bug-buzz...)`
 
 
 ## :material-information: Basic Information

@@ -13,15 +13,23 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Xatu ROM Changes"
 
-    **Base Stats:** `65 HP / 75 Atk / 70 Def / 95 SAtk / 70 SDef / 95 Spd` → `65 HP / 65 Atk / 70 Def / 105 SAtk / 80 SDef / 95 Spd`
+	**Base Stats Changes:**
 
-    **Abilities:** `synchronize / early-bird / magic-bounce` → `synchronize / magic-bounce / magic-bounce`
+	- `65 HP / 75 Atk / 70 Def / 95 SAtk / 70 SDef / 95 Spd` → `65 HP / 65 Atk / 70 Def / 105 SAtk / 80 SDef / 95 Spd`
 
-    **Level-up Moves:** `17 moves` → `25 moves`
+	**Abilities Changes:**
 
-    **TM/HM Compatibility:** `36 moves` → `39 moves (added: aura-sphere, mystical-fire, hurricane)`
+	- `synchronize / early-bird / magic-bounce` → `synchronize / magic-bounce / magic-bounce`
+
+	**Level-up Moves Changes:**
+
+	- `17 moves` → `25 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `36 moves` → `39 moves (added: aura-sphere, mystical-fire, hurricane)`
 
 
 ## :material-information: Basic Information
@@ -78,7 +86,7 @@
 
 	---
 
-	**Generation:** Generation Ii
+	**Generation:** Generation II
 
 	**Color:** Green
 

@@ -1,9 +1,11 @@
 # Absorb
 
 
-!!! info "ROM Changes
+??? note "Absorb ROM Changes"
 
-    **Power:** `20` → `35`
+	**Power Changes:**
+
+	- `20` → `35`
 
 
 ## :material-chart-box: Stats

@@ -13,15 +13,23 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Goldeen ROM Changes"
 
-    **Base Stats:** `45 HP / 67 Atk / 60 Def / 35 SAtk / 50 SDef / 63 Spd` → `45 HP / 77 Atk / 60 Def / 25 SAtk / 50 SDef / 73 Spd`
+	**Base Stats Changes:**
 
-    **Abilities:** `swift-swim / water-veil / lightning-rod` → `lightning-rod / swift-swim / water-veil`
+	- `45 HP / 67 Atk / 60 Def / 35 SAtk / 50 SDef / 63 Spd` → `45 HP / 77 Atk / 60 Def / 25 SAtk / 50 SDef / 73 Spd`
 
-    **Level-up Moves:** `14 moves` → `23 moves`
+	**Abilities Changes:**
 
-    **TM/HM Compatibility:** `21 moves` → `22 moves (added: wave-crash)`
+	- `swift-swim / water-veil / lightning-rod` → `lightning-rod / swift-swim / water-veil`
+
+	**Level-up Moves Changes:**
+
+	- `14 moves` → `23 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `21 moves` → `22 moves (added: wave-crash)`
 
 
 ## :material-information: Basic Information
@@ -141,7 +149,7 @@
 
 	**#118 [Goldeen](./goldeen.md)**
 
-	
+
 
 	***You are here***
 

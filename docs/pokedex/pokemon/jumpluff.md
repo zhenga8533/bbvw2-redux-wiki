@@ -13,15 +13,23 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Jumpluff ROM Changes"
 
-    **Base Stats:** `75 HP / 55 Atk / 70 Def / 55 SAtk / 85 SDef / 110 Spd` → `75 HP / 55 Atk / 70 Def / 75 SAtk / 95 SDef / 110 Spd`
+	**Base Stats Changes:**
 
-    **Abilities:** `chlorophyll / leaf-guard / infiltrator` → `prankster / leaf-guard / infiltrator`
+	- `75 HP / 55 Atk / 70 Def / 55 SAtk / 85 SDef / 110 Spd` → `75 HP / 55 Atk / 70 Def / 75 SAtk / 95 SDef / 110 Spd`
 
-    **Level-up Moves:** `21 moves` → `25 moves`
+	**Abilities Changes:**
 
-    **TM/HM Compatibility:** `25 moves` → `27 moves (added: hurricane, fly)`
+	- `chlorophyll / leaf-guard / infiltrator` → `prankster / leaf-guard / infiltrator`
+
+	**Level-up Moves Changes:**
+
+	- `21 moves` → `25 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `25 moves` → `27 moves (added: hurricane, fly)`
 
 
 ## :material-information: Basic Information
@@ -76,7 +84,7 @@
 
 	---
 
-	**Generation:** Generation Ii
+	**Generation:** Generation II
 
 	**Color:** Blue
 

@@ -1,9 +1,11 @@
 # Storm Throw
 
 
-!!! info "ROM Changes
+??? note "Storm Throw ROM Changes"
 
-    **Power:** `60` → `50`
+	**Power Changes:**
+
+	- `60` → `50`
 
 
 ## :material-chart-box: Stats

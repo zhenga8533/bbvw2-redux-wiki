@@ -13,9 +13,11 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Lotad ROM Changes"
 
-    **Level-up Moves:** `11 moves` → `20 moves`
+	**Level-up Moves Changes:**
+
+	- `11 moves` → `20 moves`
 
 
 ## :material-information: Basic Information
@@ -70,7 +72,7 @@
 
 	---
 
-	**Generation:** Generation Iii
+	**Generation:** Generation III
 
 	**Color:** Green
 
@@ -138,7 +140,7 @@
 
 	**#270 [Lotad](./lotad.md)**
 
-	
+
 
 	***You are here***
 

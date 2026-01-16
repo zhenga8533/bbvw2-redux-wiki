@@ -13,11 +13,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Ralts ROM Changes"
 
-    **Base Stats:** `28 HP / 25 Atk / 25 Def / 45 SAtk / 35 SDef / 40 Spd` → `28 HP / 25 Atk / 25 Def / 65 SAtk / 55 SDef / 40 Spd`
+	**Base Stats Changes:**
 
-    **Level-up Moves:** `15 moves` → `20 moves`
+	- `28 HP / 25 Atk / 25 Def / 45 SAtk / 35 SDef / 40 Spd` → `28 HP / 25 Atk / 25 Def / 65 SAtk / 55 SDef / 40 Spd`
+
+	**Level-up Moves Changes:**
+
+	- `15 moves` → `20 moves`
 
 
 ## :material-information: Basic Information
@@ -72,7 +76,7 @@
 
 	---
 
-	**Generation:** Generation Iii
+	**Generation:** Generation III
 
 	**Color:** White
 
@@ -135,7 +139,7 @@
 
 	**#280 [Ralts](./ralts.md)**
 
-	
+
 
 	***You are here***
 

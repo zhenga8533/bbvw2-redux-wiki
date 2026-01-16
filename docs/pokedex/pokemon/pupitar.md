@@ -13,13 +13,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Pupitar ROM Changes"
 
-    **Abilities:** `shed-skin` → `shed-skin / shell-armor / shed-skin`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `16 moves` → `18 moves`
+	- `shed-skin` → `shed-skin / shell-armor / shed-skin`
 
-    **TM/HM Compatibility:** `31 moves` → `32 moves (added: work-up)`
+	**Level-up Moves Changes:**
+
+	- `16 moves` → `18 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `31 moves` → `32 moves (added: work-up)`
 
 
 ## :material-information: Basic Information
@@ -74,7 +80,7 @@
 
 	---
 
-	**Generation:** Generation Ii
+	**Generation:** Generation II
 
 	**Color:** Gray
 

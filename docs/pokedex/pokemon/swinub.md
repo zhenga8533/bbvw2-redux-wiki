@@ -13,13 +13,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Swinub ROM Changes"
 
-    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+	**Evolution Chain Changes:**
 
-    **Abilities:** `oblivious / snow-cloak / thick-fat` → `thick-fat / snow-cloak / oblivious`
+	- `swinub > piloswine: level-up (level 33)` → `swinub > piloswine: level-up (level 29)`
 
-    **Level-up Moves:** `24 moves` → `22 moves`
+	**Abilities Changes:**
+
+	- `oblivious / snow-cloak / thick-fat` → `thick-fat / snow-cloak / oblivious`
+
+	**Level-up Moves Changes:**
+
+	- `24 moves` → `22 moves`
 
 
 ## :material-information: Basic Information
@@ -74,7 +80,7 @@
 
 	---
 
-	**Generation:** Generation Ii
+	**Generation:** Generation II
 
 	**Color:** Brown
 
@@ -146,7 +152,7 @@
 
 	**#220 [Swinub](./swinub.md)**
 
-	
+
 
 	***You are here***
 

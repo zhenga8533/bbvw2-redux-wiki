@@ -13,15 +13,23 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Tropius ROM Changes"
 
-    **Base Stats:** `99 HP / 68 Atk / 83 Def / 72 SAtk / 87 SDef / 51 Spd` → `99 HP / 98 Atk / 83 Def / 82 SAtk / 87 SDef / 51 Spd`
+	**Base Stats Changes:**
 
-    **Base Experience:** `161` → `219`
+	- `99 HP / 68 Atk / 83 Def / 72 SAtk / 87 SDef / 51 Spd` → `99 HP / 98 Atk / 83 Def / 82 SAtk / 87 SDef / 51 Spd`
 
-    **Level-up Moves:** `16 moves` → `22 moves`
+	**Base Experience Changes:**
 
-    **TM/HM Compatibility:** `29 moves` → `31 moves (added: hurricane, dragon-pulse)`
+	- `161` → `219`
+
+	**Level-up Moves Changes:**
+
+	- `16 moves` → `22 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `29 moves` → `31 moves (added: hurricane, dragon-pulse)`
 
 
 ## :material-information: Basic Information
@@ -76,7 +84,7 @@
 
 	---
 
-	**Generation:** Generation Iii
+	**Generation:** Generation III
 
 	**Color:** Green
 

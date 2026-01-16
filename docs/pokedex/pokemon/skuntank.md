@@ -13,15 +13,23 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Skuntank ROM Changes"
 
-    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+	**Evolution Chain Changes:**
 
-    **Base Stats:** `103 HP / 93 Atk / 67 Def / 71 SAtk / 61 SDef / 84 Spd` → `115 HP / 95 Atk / 70 Def / 70 SAtk / 60 SDef / 85 Spd`
+	- `stunky > skuntank: level-up (level 34)` → `stunky > skuntank: level-up (level 26)`
 
-    **Level-up Moves:** `15 moves` → `23 moves`
+	**Base Stats Changes:**
 
-    **TM/HM Compatibility:** `36 moves` → `37 moves (added: quash)`
+	- `103 HP / 93 Atk / 67 Def / 71 SAtk / 61 SDef / 84 Spd` → `115 HP / 95 Atk / 70 Def / 70 SAtk / 60 SDef / 85 Spd`
+
+	**Level-up Moves Changes:**
+
+	- `15 moves` → `23 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `36 moves` → `37 moves (added: quash)`
 
 
 ## :material-information: Basic Information
@@ -74,7 +82,7 @@
 
 	---
 
-	**Generation:** Generation Iv
+	**Generation:** Generation IV
 
 	**Color:** Purple
 
@@ -89,7 +97,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Pecha Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/pecha-berry.png){ .item-sprite } [Pecha Berry](../../pokedex/items/pecha-berry.md) | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Pecha Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/pecha-berry.png){ .item-sprite } [Pecha Berry](../../pokedex/items/pecha-berry.md)</span> | 5% | 5% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 

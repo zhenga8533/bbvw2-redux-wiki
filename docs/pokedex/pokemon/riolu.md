@@ -14,13 +14,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Riolu ROM Changes"
 
-    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+	**Evolution Chain Changes:**
 
-    **Abilities:** `steadfast / inner-focus / prankster` → `prankster / steadfast / inner-focus`
+	- `riolu > lucario: level-up (happiness, day)` → `riolu > lucario: level-up (knows aura-sphere)`
 
-    **Level-up Moves:** `15 moves` → `21 moves`
+	**Abilities Changes:**
+
+	- `steadfast / inner-focus / prankster` → `prankster / steadfast / inner-focus`
+
+	**Level-up Moves Changes:**
+
+	- `15 moves` → `21 moves`
 
 
 ## :material-information: Basic Information
@@ -73,7 +79,7 @@
 
 	---
 
-	**Generation:** Generation Iv
+	**Generation:** Generation IV
 
 	**Color:** Blue
 
@@ -136,7 +142,7 @@
 
 	**#447 [Riolu](./riolu.md)**
 
-	
+
 
 	***You are here***
 

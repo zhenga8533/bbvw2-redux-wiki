@@ -14,17 +14,27 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Mime Jr. ROM Changes"
 
-    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+	**Evolution Chain Changes:**
 
-    **Base Stats:** `20 HP / 25 Atk / 45 Def / 70 SAtk / 90 SDef / 60 Spd` → `20 HP / 15 Atk / 45 Def / 80 SAtk / 90 SDef / 65 Spd`
+	- `mime-jr > mr-mime: level-up (knows mimic)` → `mime-jr > mr-mime: level-up (level 25)`
 
-    **Abilities:** `soundproof / filter / technician` → `technician / filter / soundproof`
+	**Base Stats Changes:**
 
-    **Level-up Moves:** `21 moves` → `22 moves`
+	- `20 HP / 25 Atk / 45 Def / 70 SAtk / 90 SDef / 60 Spd` → `20 HP / 15 Atk / 45 Def / 80 SAtk / 90 SDef / 65 Spd`
 
-    **TM/HM Compatibility:** `37 moves` → `38 moves (added: tri-attack)`
+	**Abilities Changes:**
+
+	- `soundproof / filter / technician` → `technician / filter / soundproof`
+
+	**Level-up Moves Changes:**
+
+	- `21 moves` → `22 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `37 moves` → `38 moves (added: tri-attack)`
 
 
 ## :material-information: Basic Information
@@ -77,7 +87,7 @@
 
 	---
 
-	**Generation:** Generation Iv
+	**Generation:** Generation IV
 
 	**Color:** Pink
 
@@ -92,7 +102,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Leppa Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/leppa-berry.png){ .item-sprite } [Leppa Berry](../../pokedex/items/leppa-berry.md) | 5% | 5% | — | — |
+| <span style="white-space: nowrap;">![Leppa Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/leppa-berry.png){ .item-sprite } [Leppa Berry](../../pokedex/items/leppa-berry.md)</span> | 5% | 5% | — | — |
 
 ## :material-shield-half-full: Type Effectiveness
 
@@ -162,7 +172,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 	**#439 [Mime Jr.](./mime-jr.md)**
 
-	
+
 
 	***You are here***
 

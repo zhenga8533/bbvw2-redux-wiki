@@ -62,7 +62,7 @@
 
 ○ Ranger♂ Maxwell
 
-**Reward:** ![Lum Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/lum-berry.png){ .item-sprite } [Lum Berry](../../pokedex/items/lum-berry.md)
+**Reward:** <span style="white-space: nowrap;">![Lum Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/lum-berry.png){ .item-sprite } [Lum Berry](../../pokedex/items/lum-berry.md)</span>
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|
@@ -73,7 +73,7 @@
 
 ○ Ranger♀ Katie
 
-**Reward:** ![Lum Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/lum-berry.png){ .item-sprite } [Lum Berry](../../pokedex/items/lum-berry.md)
+**Reward:** <span style="white-space: nowrap;">![Lum Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/lum-berry.png){ .item-sprite } [Lum Berry](../../pokedex/items/lum-berry.md)</span>
 
 | Pokémon | Type(s) | Attributes | Moves |
 |:-------:|:-------:|:-----------|:------|

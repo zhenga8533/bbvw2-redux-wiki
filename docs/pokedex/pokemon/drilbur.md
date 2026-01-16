@@ -14,11 +14,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Drilbur ROM Changes"
 
-    **Abilities:** `sand-rush / sand-force / mold-breaker` → `sand-rush / mold-breaker / sand-force`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `15 moves` → `18 moves`
+	- `sand-rush / sand-force / mold-breaker` → `sand-rush / mold-breaker / sand-force`
+
+	**Level-up Moves Changes:**
+
+	- `15 moves` → `18 moves`
 
 
 ## :material-information: Basic Information
@@ -143,7 +147,7 @@
 
 	**#529 [Drilbur](./drilbur.md)**
 
-	
+
 
 	***You are here***
 

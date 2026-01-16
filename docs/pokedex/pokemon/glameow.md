@@ -13,13 +13,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Glameow ROM Changes"
 
-    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+	**Evolution Chain Changes:**
 
-    **Base Stats:** `49 HP / 55 Atk / 42 Def / 42 SAtk / 37 SDef / 85 Spd` → `50 HP / 65 Atk / 45 Def / 45 SAtk / 40 SDef / 90 Spd`
+	- `glameow > purugly: level-up (level 38)` → `glameow > purugly: level-up (level 26)`
 
-    **Level-up Moves:** `13 moves` → `21 moves`
+	**Base Stats Changes:**
+
+	- `49 HP / 55 Atk / 42 Def / 42 SAtk / 37 SDef / 85 Spd` → `50 HP / 65 Atk / 45 Def / 45 SAtk / 40 SDef / 90 Spd`
+
+	**Level-up Moves Changes:**
+
+	- `13 moves` → `21 moves`
 
 
 ## :material-information: Basic Information
@@ -72,7 +78,7 @@
 
 	---
 
-	**Generation:** Generation Iv
+	**Generation:** Generation IV
 
 	**Color:** Gray
 
@@ -87,7 +93,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Cheri Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/cheri-berry.png){ .item-sprite } [Cheri Berry](../../pokedex/items/cheri-berry.md) | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Cheri Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/cheri-berry.png){ .item-sprite } [Cheri Berry](../../pokedex/items/cheri-berry.md)</span> | 5% | 5% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 
@@ -143,7 +149,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 	**#431 [Glameow](./glameow.md)**
 
-	
+
 
 	***You are here***
 

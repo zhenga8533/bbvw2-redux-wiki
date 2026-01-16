@@ -1,11 +1,15 @@
 # Leaf Tornado
 
 
-!!! info "ROM Changes
+??? note "Leaf Tornado ROM Changes"
 
-    **Power:** `65` → `70`
+	**Power Changes:**
 
-    **Accuracy:** `90` → `100`
+	- `65` → `70`
+
+	**Accuracy Changes:**
+
+	- `90` → `100`
 
 
 ## :material-chart-box: Stats

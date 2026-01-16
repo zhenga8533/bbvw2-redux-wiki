@@ -13,13 +13,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Skiploom ROM Changes"
 
-    **Base Stats:** `55 HP / 45 Atk / 50 Def / 45 SAtk / 65 SDef / 80 Spd` → `55 HP / 45 Atk / 50 Def / 55 SAtk / 65 SDef / 90 Spd`
+	**Base Stats Changes:**
 
-    **Abilities:** `chlorophyll / leaf-guard / infiltrator` → `prankster / leaf-guard / infiltrator`
+	- `55 HP / 45 Atk / 50 Def / 45 SAtk / 65 SDef / 80 Spd` → `55 HP / 45 Atk / 50 Def / 55 SAtk / 65 SDef / 90 Spd`
 
-    **Level-up Moves:** `21 moves` → `25 moves`
+	**Abilities Changes:**
+
+	- `chlorophyll / leaf-guard / infiltrator` → `prankster / leaf-guard / infiltrator`
+
+	**Level-up Moves Changes:**
+
+	- `21 moves` → `25 moves`
 
 
 ## :material-information: Basic Information
@@ -74,7 +80,7 @@
 
 	---
 
-	**Generation:** Generation Ii
+	**Generation:** Generation II
 
 	**Color:** Green
 

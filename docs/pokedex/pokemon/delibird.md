@@ -13,17 +13,27 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Delibird ROM Changes"
 
-    **Base Stats:** `45 HP / 55 Atk / 45 Def / 65 SAtk / 45 SDef / 75 Spd` → `55 HP / 95 Atk / 65 Def / 65 SAtk / 65 SDef / 95 Spd`
+	**Base Stats Changes:**
 
-    **Abilities:** `vital-spirit / hustle / insomnia` → `technician / sheer-force / insomnia`
+	- `45 HP / 55 Atk / 45 Def / 65 SAtk / 45 SDef / 75 Spd` → `55 HP / 95 Atk / 65 Def / 65 SAtk / 65 SDef / 95 Spd`
 
-    **EV Yield:** `1 Spd` → `1 SAtk, 1 Spd`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `1 move` → `18 moves`
+	- `vital-spirit / hustle / insomnia` → `technician / sheer-force / insomnia`
 
-    **TM/HM Compatibility:** `23 moves` → `30 moves (added: hone-claws, hurricane, acrobatics, work-up, u-turn...)`
+	**EV Yield Changes:**
+
+	- `1 Spd` → `1 SAtk, 1 Spd`
+
+	**Level-up Moves Changes:**
+
+	- `1 move` → `18 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `23 moves` → `30 moves (added: hone-claws, hurricane, acrobatics, work-up, u-turn...)`
 
 
 ## :material-information: Basic Information
@@ -78,7 +88,7 @@
 
 	---
 
-	**Generation:** Generation Ii
+	**Generation:** Generation II
 
 	**Color:** Red
 

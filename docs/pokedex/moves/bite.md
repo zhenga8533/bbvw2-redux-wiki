@@ -1,9 +1,11 @@
 # Bite
 
 
-!!! info "ROM Changes
+??? note "Bite ROM Changes"
 
-    **Pp:** `25` → `20`
+	**Pp Changes:**
+
+	- `25` → `20`
 
 
 ## :material-chart-box: Stats

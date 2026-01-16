@@ -13,11 +13,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Zubat ROM Changes"
 
-    **Abilities:** `inner-focus / infiltrator` → `inner-focus / infiltrator / infiltrator`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `21 moves` → `23 moves`
+	- `inner-focus / infiltrator` → `inner-focus / infiltrator / infiltrator`
+
+	**Level-up Moves Changes:**
+
+	- `21 moves` → `23 moves`
 
 
 ## :material-information: Basic Information
@@ -151,7 +155,7 @@
 
 	**#041 [Zubat](./zubat.md)**
 
-	
+
 
 	***You are here***
 

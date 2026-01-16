@@ -1,9 +1,11 @@
 # Grass Whistle
 
 
-!!! info "ROM Changes
+??? note "Grass Whistle ROM Changes"
 
-    **Accuracy:** `55` → `65`
+	**Accuracy Changes:**
+
+	- `55` → `65`
 
 
 ## :material-chart-box: Stats

@@ -14,15 +14,23 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Cinccino ROM Changes"
 
-    **Base Stats:** `75 HP / 95 Atk / 60 Def / 65 SAtk / 60 SDef / 115 Spd` → `80 HP / 100 Atk / 60 Def / 65 SAtk / 60 SDef / 115 Spd`
+	**Base Stats Changes:**
 
-    **Abilities:** `cute-charm / technician / skill-link` → `skill-link / technician / cute-charm`
+	- `75 HP / 95 Atk / 60 Def / 65 SAtk / 60 SDef / 115 Spd` → `80 HP / 100 Atk / 60 Def / 65 SAtk / 60 SDef / 115 Spd`
 
-    **Level-up Moves:** `6 moves` → `9 moves`
+	**Abilities Changes:**
 
-    **TM/HM Compatibility:** `31 moves` → `32 moves (added: low-sweep)`
+	- `cute-charm / technician / skill-link` → `skill-link / technician / cute-charm`
+
+	**Level-up Moves Changes:**
+
+	- `6 moves` → `9 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `31 moves` → `32 moves (added: low-sweep)`
 
 
 ## :material-information: Basic Information
@@ -90,7 +98,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Chesto Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/chesto-berry.png){ .item-sprite } [Chesto Berry](../../pokedex/items/chesto-berry.md) | 50% | 50% | 50% | 50% |
+| <span style="white-space: nowrap;">![Chesto Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/chesto-berry.png){ .item-sprite } [Chesto Berry](../../pokedex/items/chesto-berry.md)</span> | 50% | 50% | 50% | 50% |
 
 ## :material-shield-half-full: Type Effectiveness
 

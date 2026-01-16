@@ -13,15 +13,23 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Cacnea ROM Changes"
 
-    **Abilities:** `sand-veil / water-absorb` → `unnerve / water-absorb / water-absorb`
+	**Abilities Changes:**
 
-    **Type:** `grass` → `grass / dark`
+	- `sand-veil / water-absorb` → `unnerve / water-absorb / water-absorb`
 
-    **Level-up Moves:** `16 moves` → `24 moves`
+	**Type Changes:**
 
-    **TM/HM Compatibility:** `25 moves` → `26 moves (added: rock-climb)`
+	- `grass` → `grass / dark`
+
+	**Level-up Moves Changes:**
+
+	- `16 moves` → `24 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `25 moves` → `26 moves (added: rock-climb)`
 
 
 ## :material-information: Basic Information
@@ -76,7 +84,7 @@
 
 	---
 
-	**Generation:** Generation Iii
+	**Generation:** Generation III
 
 	**Color:** Green
 
@@ -91,7 +99,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Sticky Barb](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/sticky-barb.png){ .item-sprite } [Sticky Barb](../../pokedex/items/sticky-barb.md) | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Sticky Barb](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/sticky-barb.png){ .item-sprite } [Sticky Barb](../../pokedex/items/sticky-barb.md)</span> | 5% | 5% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 
@@ -161,7 +169,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 	**#331 [Cacnea](./cacnea.md)**
 
-	
+
 
 	***You are here***
 

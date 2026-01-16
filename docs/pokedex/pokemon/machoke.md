@@ -13,13 +13,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Machoke ROM Changes"
 
-    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+	**Evolution Chain Changes:**
 
-    **Abilities:** `guts / no-guard / steadfast` → `steadfast / no-guard / steadfast`
+	- `machoke > machamp: trade` → `machoke > machamp: use-item (link-cable)`
 
-    **Level-up Moves:** `16 moves` → `25 moves`
+	**Abilities Changes:**
+
+	- `guts / no-guard / steadfast` → `steadfast / no-guard / steadfast`
+
+	**Level-up Moves Changes:**
+
+	- `16 moves` → `25 moves`
 
 
 ## :material-information: Basic Information

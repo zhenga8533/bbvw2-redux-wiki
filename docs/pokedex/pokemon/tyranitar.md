@@ -13,13 +13,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Tyranitar ROM Changes"
 
-    **Abilities:** `sand-stream / unnerve` → `sand-stream / battle-armor / unnerve`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `20 moves` → `24 moves`
+	- `sand-stream / unnerve` → `sand-stream / battle-armor / unnerve`
 
-    **TM/HM Compatibility:** `51 moves` → `52 moves (added: work-up)`
+	**Level-up Moves Changes:**
+
+	- `20 moves` → `24 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `51 moves` → `52 moves (added: work-up)`
 
 
 ## :material-information: Basic Information
@@ -74,7 +80,7 @@
 
 	---
 
-	**Generation:** Generation Ii
+	**Generation:** Generation II
 
 	**Color:** Green
 

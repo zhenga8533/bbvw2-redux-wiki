@@ -78,7 +78,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Deep Sea Tooth](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/deep-sea-tooth.png){ .item-sprite } [Deep Sea Tooth](../../pokedex/items/deep-sea-tooth.md) | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Deep Sea Tooth](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/deep-sea-tooth.png){ .item-sprite } [Deep Sea Tooth](../../pokedex/items/deep-sea-tooth.md)</span> | 5% | 5% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 

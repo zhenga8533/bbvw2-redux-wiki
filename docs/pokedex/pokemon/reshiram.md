@@ -15,9 +15,11 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Reshiram ROM Changes"
 
-    **TM/HM Compatibility:** `41 moves` → `43 moves (added: earthquake, rock-climb)`
+	**TM/HM Compatibility Changes:**
+
+	- `41 moves` → `43 moves (added: earthquake, rock-climb)`
 
 
 ## :material-information: Basic Information

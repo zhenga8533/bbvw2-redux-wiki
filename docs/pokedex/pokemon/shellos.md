@@ -13,9 +13,11 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Shellos ROM Changes"
 
-    **Level-up Moves:** `10 moves` → `23 moves`
+	**Level-up Moves Changes:**
+
+	- `10 moves` → `23 moves`
 
 
 ## :material-information: Basic Information
@@ -68,7 +70,7 @@
 
 	---
 
-	**Generation:** Generation Iv
+	**Generation:** Generation IV
 
 	**Color:** Purple
 
@@ -131,7 +133,7 @@
 
 	**#422 [Shellos](./shellos.md)**
 
-	
+
 
 	***You are here***
 

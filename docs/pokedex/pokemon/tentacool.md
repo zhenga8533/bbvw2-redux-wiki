@@ -13,11 +13,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Tentacool ROM Changes"
 
-    **Abilities:** `clear-body / liquid-ooze / rain-dish` → `clear-body / rain-dish / liquid-ooze`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `16 moves` → `20 moves`
+	- `clear-body / liquid-ooze / rain-dish` → `clear-body / rain-dish / liquid-ooze`
+
+	**Level-up Moves Changes:**
+
+	- `16 moves` → `20 moves`
 
 
 ## :material-information: Basic Information
@@ -87,7 +91,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Poison Barb](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/poison-barb.png){ .item-sprite } [Poison Barb](../../pokedex/items/poison-barb.md) | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Poison Barb](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/poison-barb.png){ .item-sprite } [Poison Barb](../../pokedex/items/poison-barb.md)</span> | 5% | 5% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 
@@ -143,7 +147,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 	**#072 [Tentacool](./tentacool.md)**
 
-	
+
 
 	***You are here***
 

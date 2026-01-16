@@ -13,15 +13,23 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Gengar ROM Changes"
 
-    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+	**Evolution Chain Changes:**
 
-    **Abilities:** `cursed-body / levitate` → `levitate / cursed-body / levitate`
+	- `haunter > gengar: trade` → `haunter > gengar: use-item (link-cable)`
 
-    **Level-up Moves:** `17 moves` → `25 moves`
+	**Abilities Changes:**
 
-    **TM/HM Compatibility:** `41 moves` → `42 moves (added: aura-sphere)`
+	- `cursed-body / levitate` → `levitate / cursed-body / levitate`
+
+	**Level-up Moves Changes:**
+
+	- `17 moves` → `25 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `41 moves` → `42 moves (added: aura-sphere)`
 
 
 ## :material-information: Basic Information

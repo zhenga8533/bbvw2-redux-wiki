@@ -1,9 +1,11 @@
 # Dragon Rush
 
 
-!!! info "ROM Changes
+??? note "Dragon Rush ROM Changes"
 
-    **Accuracy:** `75` → `80`
+	**Accuracy Changes:**
+
+	- `75` → `80`
 
 
 ## :material-chart-box: Stats

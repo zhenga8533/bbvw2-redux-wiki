@@ -15,11 +15,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Victini ROM Changes"
 
-    **Level-up Moves:** `17 moves` → `25 moves`
+	**Level-up Moves Changes:**
 
-    **TM/HM Compatibility:** `45 moves` → `46 moves (added: acrobatics)`
+	- `17 moves` → `25 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `45 moves` → `46 moves (added: acrobatics)`
 
 
 ## :material-information: Basic Information

@@ -13,11 +13,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Snorunt ROM Changes"
 
-    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+	**Evolution Chain Changes:**
 
-    **Level-up Moves:** `12 moves` → `18 moves`
+	- `snorunt > glalie: level-up (level 42)` → `snorunt > glalie: use-item (ice-stone)`
+
+	**Level-up Moves Changes:**
+
+	- `12 moves` → `18 moves`
 
 
 ## :material-information: Basic Information
@@ -72,7 +76,7 @@
 
 	---
 
-	**Generation:** Generation Iii
+	**Generation:** Generation III
 
 	**Color:** Gray
 
@@ -87,7 +91,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Babiri Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/babiri-berry.png){ .item-sprite } [Babiri Berry](../../pokedex/items/babiri-berry.md) | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Babiri Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/babiri-berry.png){ .item-sprite } [Babiri Berry](../../pokedex/items/babiri-berry.md)</span> | 5% | 5% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 
@@ -143,7 +147,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 	**#361 [Snorunt](./snorunt.md)**
 
-	
+
 
 	***You are here***
 

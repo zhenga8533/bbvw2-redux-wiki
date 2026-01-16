@@ -1,11 +1,15 @@
 # Flame Wheel
 
 
-!!! info "ROM Changes
+??? note "Flame Wheel ROM Changes"
 
-    **Power:** `60` → `75`
+	**Power Changes:**
 
-    **Pp:** `25` → `20`
+	- `60` → `75`
+
+	**Pp Changes:**
+
+	- `25` → `20`
 
 
 ## :material-chart-box: Stats

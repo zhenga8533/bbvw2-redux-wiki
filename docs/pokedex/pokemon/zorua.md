@@ -14,9 +14,11 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Zorua ROM Changes"
 
-    **Level-up Moves:** `16 moves` → `21 moves`
+	**Level-up Moves Changes:**
+
+	- `16 moves` → `21 moves`
 
 
 ## :material-information: Basic Information
@@ -139,7 +141,7 @@
 
 	**#570 [Zorua](./zorua.md)**
 
-	
+
 
 	***You are here***
 

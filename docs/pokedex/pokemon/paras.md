@@ -13,11 +13,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Paras ROM Changes"
 
-    **Level-up Moves:** `12 moves` → `23 moves`
+	**Level-up Moves Changes:**
 
-    **TM/HM Compatibility:** `31 moves` → `32 moves (added: bug-buzz)`
+	- `12 moves` → `23 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `31 moves` → `32 moves (added: bug-buzz)`
 
 
 ## :material-information: Basic Information
@@ -87,9 +91,9 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Balm Mushroom](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/balm-mushroom.png){ .item-sprite } [Balm Mushroom](../../pokedex/items/balm-mushroom.md) | 1% | 1% | 1% | 1% |
-| ![Big Mushroom](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/big-mushroom.png){ .item-sprite } [Big Mushroom](../../pokedex/items/big-mushroom.md) | 5% | 5% | 5% | 5% |
-| ![Tiny Mushroom](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tiny-mushroom.png){ .item-sprite } [Tiny Mushroom](../../pokedex/items/tiny-mushroom.md) | 50% | 50% | 50% | 50% |
+| <span style="white-space: nowrap;">![Balm Mushroom](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/balm-mushroom.png){ .item-sprite } [Balm Mushroom](../../pokedex/items/balm-mushroom.md)</span> | 1% | 1% | 1% | 1% |
+| <span style="white-space: nowrap;">![Big Mushroom](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/big-mushroom.png){ .item-sprite } [Big Mushroom](../../pokedex/items/big-mushroom.md)</span> | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Tiny Mushroom](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tiny-mushroom.png){ .item-sprite } [Tiny Mushroom](../../pokedex/items/tiny-mushroom.md)</span> | 50% | 50% | 50% | 50% |
 
 ## :material-shield-half-full: Type Effectiveness
 
@@ -155,7 +159,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 	**#046 [Paras](./paras.md)**
 
-	
+
 
 	***You are here***
 

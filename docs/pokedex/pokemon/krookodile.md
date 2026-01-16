@@ -14,9 +14,11 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Krookodile ROM Changes"
 
-    **Level-up Moves:** `19 moves` → `25 moves`
+	**Level-up Moves Changes:**
+
+	- `19 moves` → `25 moves`
 
 
 ## :material-information: Basic Information

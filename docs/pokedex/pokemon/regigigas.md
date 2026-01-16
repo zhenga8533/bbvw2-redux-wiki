@@ -14,13 +14,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Regigigas ROM Changes"
 
-    **Abilities:** `slow-start` → `slow-start / defeatist / slow-start`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `14 moves` → `15 moves`
+	- `slow-start` → `slow-start / defeatist / slow-start`
 
-    **TM/HM Compatibility:** `33 moves` → `36 moves (added: low-sweep, quash, work-up)`
+	**Level-up Moves Changes:**
+
+	- `14 moves` → `15 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `33 moves` → `36 moves (added: low-sweep, quash, work-up)`
 
 
 ## :material-information: Basic Information
@@ -73,7 +79,7 @@
 
 	---
 
-	**Generation:** Generation Iv
+	**Generation:** Generation IV
 
 	**Color:** White
 

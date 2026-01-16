@@ -14,11 +14,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Deoxys Attack ROM Changes"
 
-    **Abilities:** `pressure` → `download / pressure`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `14 moves` → `16 moves`
+	- `pressure` → `download / pressure`
+
+	**Level-up Moves Changes:**
+
+	- `14 moves` → `16 moves`
 
 
 ## :material-information: Basic Information
@@ -72,7 +76,7 @@
 
 	---
 
-	**Generation:** Generation Iii
+	**Generation:** Generation III
 
 	**Color:** Red
 

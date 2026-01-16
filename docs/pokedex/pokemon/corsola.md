@@ -13,13 +13,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Corsola ROM Changes"
 
-    **Base Stats:** `55 HP / 55 Atk / 85 Def / 65 SAtk / 85 SDef / 35 Spd` → `65 HP / 45 Atk / 115 Def / 90 SAtk / 115 SDef / 35 Spd`
+	**Base Stats Changes:**
 
-    **Abilities:** `hustle / natural-cure / regenerator` → `regenerator / natural-cure / hustle`
+	- `55 HP / 55 Atk / 85 Def / 65 SAtk / 85 SDef / 35 Spd` → `65 HP / 45 Atk / 115 Def / 90 SAtk / 115 SDef / 35 Spd`
 
-    **Level-up Moves:** `28 moves` → `21 moves`
+	**Abilities Changes:**
+
+	- `hustle / natural-cure / regenerator` → `regenerator / natural-cure / hustle`
+
+	**Level-up Moves Changes:**
+
+	- `28 moves` → `21 moves`
 
 
 ## :material-information: Basic Information
@@ -74,7 +80,7 @@
 
 	---
 
-	**Generation:** Generation Ii
+	**Generation:** Generation II
 
 	**Color:** Pink
 
@@ -89,7 +95,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Hard Stone](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hard-stone.png){ .item-sprite } [Hard Stone](../../pokedex/items/hard-stone.md) | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Hard Stone](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hard-stone.png){ .item-sprite } [Hard Stone](../../pokedex/items/hard-stone.md)</span> | 5% | 5% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 

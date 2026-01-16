@@ -1,9 +1,11 @@
 # Charm
 
 
-!!! info "ROM Changes
+??? note "Charm ROM Changes"
 
-    **Type:** `normal` → `fairy`
+	**Type Changes:**
+
+	- `normal` → `fairy`
 
 
 ## :material-chart-box: Stats

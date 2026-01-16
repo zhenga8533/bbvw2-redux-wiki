@@ -1,9 +1,11 @@
 # Esper Wing
 
 
-!!! info "ROM Changes
+??? note "Esper Wing ROM Changes"
 
-    **Power:** `80` → `70`
+	**Power Changes:**
+
+	- `80` → `70`
 
 
 ## :material-chart-box: Stats

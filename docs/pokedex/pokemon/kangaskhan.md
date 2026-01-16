@@ -13,11 +13,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Kangaskhan ROM Changes"
 
-    **Level-up Moves:** `15 moves` → `25 moves`
+	**Level-up Moves Changes:**
 
-    **TM/HM Compatibility:** `46 moves` → `50 moves (added: hone-claws, low-sweep, quash, play-rough)`
+	- `15 moves` → `25 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `46 moves` → `50 moves (added: hone-claws, low-sweep, quash, play-rough)`
 
 
 ## :material-information: Basic Information

@@ -13,13 +13,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Dragonite ROM Changes"
 
-    **Abilities:** `inner-focus / multiscale` → `inner-focus / multiscale / multiscale`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `21 moves` → `25 moves`
+	- `inner-focus / multiscale` → `inner-focus / multiscale / multiscale`
 
-    **TM/HM Compatibility:** `49 moves` → `50 moves (added: hurricane)`
+	**Level-up Moves Changes:**
+
+	- `21 moves` → `25 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `49 moves` → `50 moves (added: hurricane)`
 
 
 ## :material-information: Basic Information
@@ -89,7 +95,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Dragon Scale](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dragon-scale.png){ .item-sprite } [Dragon Scale](../../pokedex/items/dragon-scale.md) | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Dragon Scale](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dragon-scale.png){ .item-sprite } [Dragon Scale](../../pokedex/items/dragon-scale.md)</span> | 5% | 5% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 

@@ -1,9 +1,11 @@
 # Snarl
 
 
-!!! info "ROM Changes
+??? note "Snarl ROM Changes"
 
-    **Accuracy:** `95` → `100`
+	**Accuracy Changes:**
+
+	- `95` → `100`
 
 
 ## :material-chart-box: Stats

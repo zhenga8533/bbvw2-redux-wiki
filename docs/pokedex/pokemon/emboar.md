@@ -14,17 +14,27 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Emboar ROM Changes"
 
-    **Base Stats:** `110 HP / 123 Atk / 65 Def / 100 SAtk / 65 SDef / 65 Spd` → `115 HP / 125 Atk / 80 Def / 70 SAtk / 80 SDef / 65 Spd`
+	**Base Stats Changes:**
 
-    **Abilities:** `blaze / reckless` → `mold-breaker / blaze / reckless`
+	- `110 HP / 123 Atk / 65 Def / 100 SAtk / 65 SDef / 65 Spd` → `115 HP / 125 Atk / 80 Def / 70 SAtk / 80 SDef / 65 Spd`
 
-    **Type:** `fire / fighting` → `fire / ground`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `20 moves` → `25 moves`
+	- `blaze / reckless` → `mold-breaker / blaze / reckless`
 
-    **TM/HM Compatibility:** `44 moves` → `46 moves (added: quash, rock-climb)`
+	**Type Changes:**
+
+	- `fire / fighting` → `fire / ground`
+
+	**Level-up Moves Changes:**
+
+	- `20 moves` → `25 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `44 moves` → `46 moves (added: quash, rock-climb)`
 
 
 ## :material-information: Basic Information

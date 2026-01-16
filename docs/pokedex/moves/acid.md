@@ -1,9 +1,11 @@
 # Acid
 
 
-!!! info "ROM Changes
+??? note "Acid ROM Changes"
 
-    **Power:** `40` → `35`
+	**Power Changes:**
+
+	- `40` → `35`
 
 
 ## :material-chart-box: Stats

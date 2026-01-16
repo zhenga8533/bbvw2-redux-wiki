@@ -13,15 +13,29 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Eevee ROM Changes"
 
-    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+	**Evolution Chain Changes:**
 
-    **Abilities:** `run-away / adaptability / anticipation` → `adaptability / run-away / anticipation`
+	- `eevee > espeon: level-up (happiness, day)` → `eevee > espeon: use-item (sun-stone)`
 
-    **Level-up Moves:** `22 moves` → `25 moves`
+	- `eevee > umbreon: level-up (happiness, night)` → `eevee > umbreon: use-item (moon-stone)`
 
-    **TM/HM Compatibility:** `19 moves` → `21 moves (added: tri-attack, grass-knot)`
+	- `eevee > leafeon: level-up (at eterna-forest)` → `eevee > leafeon: use-item (leaf-stone)`
+
+	- `eevee > glaceon: level-up (at sinnoh-route-217)` → `eevee > glaceon: use-item (ice-stone)`
+
+	**Abilities Changes:**
+
+	- `run-away / adaptability / anticipation` → `adaptability / run-away / anticipation`
+
+	**Level-up Moves Changes:**
+
+	- `22 moves` → `25 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `19 moves` → `21 moves (added: tri-attack, grass-knot)`
 
 
 ## :material-information: Basic Information
@@ -141,7 +155,7 @@
 
 	**#133 [Eevee](./eevee.md)**
 
-	
+
 
 	***You are here***
 

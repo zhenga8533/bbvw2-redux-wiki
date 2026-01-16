@@ -14,17 +14,27 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Serperior ROM Changes"
 
-    **Base Stats:** `75 HP / 75 Atk / 95 Def / 75 SAtk / 95 SDef / 113 Spd` → `80 HP / 75 Atk / 95 Def / 77 SAtk / 95 SDef / 113 Spd`
+	**Base Stats Changes:**
 
-    **Abilities:** `overgrow / contrary` → `contrary / overgrow / contrary`
+	- `75 HP / 75 Atk / 95 Def / 75 SAtk / 95 SDef / 113 Spd` → `80 HP / 75 Atk / 95 Def / 77 SAtk / 95 SDef / 113 Spd`
 
-    **Type:** `grass` → `grass / dragon`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `18 moves` → `25 moves`
+	- `overgrow / contrary` → `contrary / overgrow / contrary`
 
-    **TM/HM Compatibility:** `31 moves` → `32 moves (added: quash)`
+	**Type Changes:**
+
+	- `grass` → `grass / dragon`
+
+	**Level-up Moves Changes:**
+
+	- `18 moves` → `25 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `31 moves` → `32 moves (added: quash)`
 
 
 ## :material-information: Basic Information

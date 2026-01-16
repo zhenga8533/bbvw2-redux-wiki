@@ -13,11 +13,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Mudkip ROM Changes"
 
-    **Abilities:** `torrent / damp` → `water-veil / torrent / damp`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `12 moves` → `18 moves`
+	- `torrent / damp` → `water-veil / torrent / damp`
+
+	**Level-up Moves Changes:**
+
+	- `12 moves` → `18 moves`
 
 
 ## :material-information: Basic Information
@@ -72,7 +76,7 @@
 
 	---
 
-	**Generation:** Generation Iii
+	**Generation:** Generation III
 
 	**Color:** Blue
 
@@ -135,7 +139,7 @@
 
 	**#258 [Mudkip](./mudkip.md)**
 
-	
+
 
 	***You are here***
 

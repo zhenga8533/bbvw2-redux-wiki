@@ -1,9 +1,11 @@
 # Giga Drain
 
 
-!!! info "ROM Changes
+??? note "Giga Drain ROM Changes"
 
-    **Power:** `75` → `80`
+	**Power Changes:**
+
+	- `75` → `80`
 
 
 ## :material-chart-box: Stats

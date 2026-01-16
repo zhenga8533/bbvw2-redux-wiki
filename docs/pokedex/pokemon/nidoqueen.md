@@ -13,13 +13,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Nidoqueen ROM Changes"
 
-    **Abilities:** `poison-point / rivalry / sheer-force` → `sheer-force / poison-point / rivalry`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `8 moves` → `14 moves`
+	- `poison-point / rivalry / sheer-force` → `sheer-force / poison-point / rivalry`
 
-    **TM/HM Compatibility:** `53 moves` → `54 moves (added: low-sweep)`
+	**Level-up Moves Changes:**
+
+	- `8 moves` → `14 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `53 moves` → `54 moves (added: low-sweep)`
 
 
 ## :material-information: Basic Information

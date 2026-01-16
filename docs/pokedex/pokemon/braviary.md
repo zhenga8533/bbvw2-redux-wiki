@@ -14,15 +14,23 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Braviary ROM Changes"
 
-    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+	**Evolution Chain Changes:**
 
-    **Abilities:** `keen-eye / sheer-force / defiant` → `defiant / sheer-force / defiant`
+	- `rufflet > braviary: level-up (level 54)` → `rufflet > braviary: level-up (level 40)`
 
-    **Level-up Moves:** `19 moves` → `23 moves`
+	**Abilities Changes:**
 
-    **TM/HM Compatibility:** `31 moves` → `32 moves (added: quash)`
+	- `keen-eye / sheer-force / defiant` → `defiant / sheer-force / defiant`
+
+	**Level-up Moves Changes:**
+
+	- `19 moves` → `23 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `31 moves` → `32 moves (added: quash)`
 
 
 ## :material-information: Basic Information

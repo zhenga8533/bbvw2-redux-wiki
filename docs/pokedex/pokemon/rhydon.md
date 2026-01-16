@@ -13,11 +13,17 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Rhydon ROM Changes"
 
-    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+	**Evolution Chain Changes:**
 
-    **Level-up Moves:** `17 moves` → `24 moves`
+	- `rhyhorn > rhydon: level-up (level 42)` → `rhyhorn > rhydon: level-up (level 36)`
+
+	- `rhydon > rhyperior: unknown` → `rhydon > rhyperior: use-item (protector)`
+
+	**Level-up Moves Changes:**
+
+	- `17 moves` → `24 moves`
 
 
 ## :material-information: Basic Information

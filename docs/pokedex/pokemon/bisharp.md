@@ -14,11 +14,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Bisharp ROM Changes"
 
-    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+	**Evolution Chain Changes:**
 
-    **Level-up Moves:** `20 moves` → `24 moves`
+	- `pawniard > bisharp: level-up (level 52)` → `pawniard > bisharp: level-up (level 40)`
+
+	**Level-up Moves Changes:**
+
+	- `20 moves` → `24 moves`
 
 
 ## :material-information: Basic Information

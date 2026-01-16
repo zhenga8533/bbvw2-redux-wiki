@@ -13,13 +13,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Heracross ROM Changes"
 
-    **Abilities:** `swarm / guts / moxie` → `moxie / skill-link / guts`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `22 moves` → `25 moves`
+	- `swarm / guts / moxie` → `moxie / skill-link / guts`
 
-    **TM/HM Compatibility:** `39 moves` → `40 moves (added: bug-buzz)`
+	**Level-up Moves Changes:**
+
+	- `22 moves` → `25 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `39 moves` → `40 moves (added: bug-buzz)`
 
 
 ## :material-information: Basic Information
@@ -76,7 +82,7 @@
 
 	---
 
-	**Generation:** Generation Ii
+	**Generation:** Generation II
 
 	**Color:** Blue
 

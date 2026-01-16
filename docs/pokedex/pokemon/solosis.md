@@ -14,13 +14,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Solosis ROM Changes"
 
-    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+	**Evolution Chain Changes:**
 
-    **Abilities:** `overcoat / magic-guard / regenerator` → `regenerator / magic-guard / overcoat`
+	- `solosis > duosion: level-up (level 32)` → `solosis > duosion: level-up (level 30)`
 
-    **Level-up Moves:** `16 moves` → `19 moves`
+	**Abilities Changes:**
+
+	- `overcoat / magic-guard / regenerator` → `regenerator / magic-guard / overcoat`
+
+	**Level-up Moves Changes:**
+
+	- `16 moves` → `19 moves`
 
 
 ## :material-information: Basic Information
@@ -88,7 +94,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Persim Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/persim-berry.png){ .item-sprite } [Persim Berry](../../pokedex/items/persim-berry.md) | — | — | 50% | 50% |
+| <span style="white-space: nowrap;">![Persim Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/persim-berry.png){ .item-sprite } [Persim Berry](../../pokedex/items/persim-berry.md)</span> | — | — | 50% | 50% |
 
 ## :material-shield-half-full: Type Effectiveness
 
@@ -144,7 +150,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 	**#577 [Solosis](./solosis.md)**
 
-	
+
 
 	***You are here***
 

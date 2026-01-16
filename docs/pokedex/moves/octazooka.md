@@ -1,11 +1,15 @@
 # Octazooka
 
 
-!!! info "ROM Changes
+??? note "Octazooka ROM Changes"
 
-    **Power:** `65` → `90`
+	**Power Changes:**
 
-    **Pp:** `10` → `5`
+	- `65` → `90`
+
+	**Pp Changes:**
+
+	- `10` → `5`
 
 
 ## :material-chart-box: Stats

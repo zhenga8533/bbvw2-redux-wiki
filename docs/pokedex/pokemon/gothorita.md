@@ -14,17 +14,27 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Gothorita ROM Changes"
 
-    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+	**Evolution Chain Changes:**
 
-    **Abilities:** `frisk / shadow-tag` → `shadow-tag / frisk / frisk`
+	- `gothita > gothorita: level-up (level 32)` → `gothita > gothorita: level-up (level 30)`
 
-    **Type:** `psychic` → `psychic / dark`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `19 moves` → `20 moves`
+	- `frisk / shadow-tag` → `shadow-tag / frisk / frisk`
 
-    **TM/HM Compatibility:** `38 moves` → `39 moves (added: will-o-wisp)`
+	**Type Changes:**
+
+	- `psychic` → `psychic / dark`
+
+	**Level-up Moves Changes:**
+
+	- `19 moves` → `20 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `38 moves` → `39 moves (added: will-o-wisp)`
 
 
 ## :material-information: Basic Information
@@ -92,7 +102,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Persim Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/persim-berry.png){ .item-sprite } [Persim Berry](../../pokedex/items/persim-berry.md) | — | — | 50% | 50% |
+| <span style="white-space: nowrap;">![Persim Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/persim-berry.png){ .item-sprite } [Persim Berry](../../pokedex/items/persim-berry.md)</span> | — | — | 50% | 50% |
 
 ## :material-shield-half-full: Type Effectiveness
 

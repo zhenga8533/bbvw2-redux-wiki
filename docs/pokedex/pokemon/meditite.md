@@ -13,13 +13,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Meditite ROM Changes"
 
-    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+	**Evolution Chain Changes:**
 
-    **Base Stats:** `30 HP / 40 Atk / 55 Def / 40 SAtk / 55 SDef / 60 Spd` → `30 HP / 50 Atk / 55 Def / 50 SAtk / 55 SDef / 60 Spd`
+	- `meditite > medicham: level-up (level 37)` → `meditite > medicham: level-up (level 34)`
 
-    **Level-up Moves:** `15 moves` → `22 moves`
+	**Base Stats Changes:**
+
+	- `30 HP / 40 Atk / 55 Def / 40 SAtk / 55 SDef / 60 Spd` → `30 HP / 50 Atk / 55 Def / 50 SAtk / 55 SDef / 60 Spd`
+
+	**Level-up Moves Changes:**
+
+	- `15 moves` → `22 moves`
 
 
 ## :material-information: Basic Information
@@ -75,7 +81,7 @@
 
 	---
 
-	**Generation:** Generation Iii
+	**Generation:** Generation III
 
 	**Color:** Blue
 
@@ -138,7 +144,7 @@
 
 	**#307 [Meditite](./meditite.md)**
 
-	
+
 
 	***You are here***
 

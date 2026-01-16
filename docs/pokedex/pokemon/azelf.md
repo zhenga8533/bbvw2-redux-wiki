@@ -14,11 +14,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Azelf ROM Changes"
 
-    **Type:** `psychic` → `psychic / fairy`
+	**Type Changes:**
 
-    **Level-up Moves:** `12 moves` → `15 moves`
+	- `psychic` → `psychic / fairy`
+
+	**Level-up Moves Changes:**
+
+	- `12 moves` → `15 moves`
 
 
 ## :material-information: Basic Information
@@ -69,7 +73,7 @@
 
 	---
 
-	**Generation:** Generation Iv
+	**Generation:** Generation IV
 
 	**Color:** Blue
 

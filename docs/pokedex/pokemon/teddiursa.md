@@ -13,13 +13,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Teddiursa ROM Changes"
 
-    **Type:** `normal` → `normal / ground`
+	**Type Changes:**
 
-    **Level-up Moves:** `14 moves` → `23 moves`
+	- `normal` → `normal / ground`
 
-    **TM/HM Compatibility:** `36 moves` → `37 moves (added: rock-climb)`
+	**Level-up Moves Changes:**
+
+	- `14 moves` → `23 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `36 moves` → `37 moves (added: rock-climb)`
 
 
 ## :material-information: Basic Information
@@ -74,7 +80,7 @@
 
 	---
 
-	**Generation:** Generation Ii
+	**Generation:** Generation II
 
 	**Color:** Brown
 
@@ -146,7 +152,7 @@
 
 	**#216 [Teddiursa](./teddiursa.md)**
 
-	
+
 
 	***You are here***
 

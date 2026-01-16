@@ -1,9 +1,11 @@
 # Air Cutter
 
 
-!!! info "ROM Changes
+??? note "Air Cutter ROM Changes"
 
-    **Pp:** `25` → `15`
+	**Pp Changes:**
+
+	- `25` → `15`
 
 
 ## :material-chart-box: Stats

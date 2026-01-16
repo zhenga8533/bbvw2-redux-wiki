@@ -14,13 +14,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Pansage ROM Changes"
 
-    **Abilities:** `gluttony / overgrow` → `gluttony / overgrow / overgrow`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `15 moves` → `25 moves`
+	- `gluttony / overgrow` → `gluttony / overgrow / overgrow`
 
-    **TM/HM Compatibility:** `31 moves` → `34 moves (added: power-up-punch, quash, play-rough)`
+	**Level-up Moves Changes:**
+
+	- `15 moves` → `25 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `31 moves` → `34 moves (added: power-up-punch, quash, play-rough)`
 
 
 ## :material-information: Basic Information
@@ -88,8 +94,8 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Occa Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/occa-berry.png){ .item-sprite } [Occa Berry](../../pokedex/items/occa-berry.md) | 5% | 5% | 5% | 5% |
-| ![Oran Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/oran-berry.png){ .item-sprite } [Oran Berry](../../pokedex/items/oran-berry.md) | 50% | 50% | 50% | 50% |
+| <span style="white-space: nowrap;">![Occa Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/occa-berry.png){ .item-sprite } [Occa Berry](../../pokedex/items/occa-berry.md)</span> | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Oran Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/oran-berry.png){ .item-sprite } [Oran Berry](../../pokedex/items/oran-berry.md)</span> | 50% | 50% | 50% | 50% |
 
 ## :material-shield-half-full: Type Effectiveness
 
@@ -145,7 +151,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 	**#511 [Pansage](./pansage.md)**
 
-	
+
 
 	***You are here***
 

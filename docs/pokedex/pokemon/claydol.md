@@ -13,11 +13,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Claydol ROM Changes"
 
-    **Level-up Moves:** `36 moves` → `22 moves`
+	**Level-up Moves Changes:**
 
-    **TM/HM Compatibility:** `45 moves` → `48 moves (added: tri-attack, power-gem, fly)`
+	- `36 moves` → `22 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `45 moves` → `48 moves (added: tri-attack, power-gem, fly)`
 
 
 ## :material-information: Basic Information
@@ -70,7 +74,7 @@
 
 	---
 
-	**Generation:** Generation Iii
+	**Generation:** Generation III
 
 	**Color:** Black
 

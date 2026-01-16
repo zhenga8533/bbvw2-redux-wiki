@@ -1,9 +1,11 @@
 # Inferno
 
 
-!!! info "ROM Changes
+??? note "Inferno ROM Changes"
 
-    **Accuracy:** `50` → `65`
+	**Accuracy Changes:**
+
+	- `50` → `65`
 
 
 ## :material-chart-box: Stats

@@ -14,15 +14,23 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Simisear ROM Changes"
 
-    **Base Stats:** `75 HP / 98 Atk / 63 Def / 98 SAtk / 63 SDef / 101 Spd` → `75 HP / 99 Atk / 63 Def / 99 SAtk / 63 SDef / 101 Spd`
+	**Base Stats Changes:**
 
-    **Abilities:** `gluttony / blaze` → `gluttony / blaze / blaze`
+	- `75 HP / 98 Atk / 63 Def / 98 SAtk / 63 SDef / 101 Spd` → `75 HP / 99 Atk / 63 Def / 99 SAtk / 63 SDef / 101 Spd`
 
-    **Level-up Moves:** `4 moves` → `14 moves`
+	**Abilities Changes:**
 
-    **TM/HM Compatibility:** `40 moves` → `43 moves (added: mystical-fire, quash, play-rough)`
+	- `gluttony / blaze` → `gluttony / blaze / blaze`
+
+	**Level-up Moves Changes:**
+
+	- `4 moves` → `14 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `40 moves` → `43 moves (added: mystical-fire, quash, play-rough)`
 
 
 ## :material-information: Basic Information
@@ -90,8 +98,8 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Oran Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/oran-berry.png){ .item-sprite } [Oran Berry](../../pokedex/items/oran-berry.md) | 50% | 50% | 50% | 50% |
-| ![Passho Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/passho-berry.png){ .item-sprite } [Passho Berry](../../pokedex/items/passho-berry.md) | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Oran Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/oran-berry.png){ .item-sprite } [Oran Berry](../../pokedex/items/oran-berry.md)</span> | 50% | 50% | 50% | 50% |
+| <span style="white-space: nowrap;">![Passho Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/passho-berry.png){ .item-sprite } [Passho Berry](../../pokedex/items/passho-berry.md)</span> | 5% | 5% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 

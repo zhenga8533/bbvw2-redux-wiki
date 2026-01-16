@@ -13,15 +13,25 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Electivire ROM Changes"
 
-    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+	**Evolution Chain Changes:**
 
-    **Abilities:** `motor-drive / vital-spirit` → `motor-drive / vital-spirit / vital-spirit`
+	- `electabuzz > electivire: trade (held: electirizer)` → `electabuzz > electivire: use-item (electirizer)`
 
-    **Type:** `electric` → `electric / fighting`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `29 moves` → `25 moves`
+	- `motor-drive / vital-spirit` → `motor-drive / vital-spirit / vital-spirit`
+
+	**Type Changes:**
+
+	- `electric` → `electric / fighting`
+
+	**Level-up Moves Changes:**
+
+	- `29 moves` → `25 moves`
+
+	- `electabuzz > electivire: unknown` → `electabuzz > electivire: use-item (electirizer)`
 
 
 ## :material-information: Basic Information
@@ -74,7 +84,7 @@
 
 	---
 
-	**Generation:** Generation Iv
+	**Generation:** Generation IV
 
 	**Color:** Yellow
 
@@ -89,7 +99,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Electirizer](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/electirizer.png){ .item-sprite } [Electirizer](../../pokedex/items/electirizer.md) | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Electirizer](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/electirizer.png){ .item-sprite } [Electirizer](../../pokedex/items/electirizer.md)</span> | 5% | 5% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 

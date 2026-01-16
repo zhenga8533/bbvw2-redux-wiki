@@ -1,9 +1,11 @@
 # Venoshock
 
 
-!!! info "ROM Changes
+??? note "Venoshock ROM Changes"
 
-    **Pp:** `10` → `15`
+	**Pp Changes:**
+
+	- `10` → `15`
 
 
 ## :material-chart-box: Stats

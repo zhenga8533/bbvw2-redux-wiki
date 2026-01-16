@@ -1,9 +1,11 @@
 # Gust
 
 
-!!! info "ROM Changes
+??? note "Gust ROM Changes"
 
-    **Pp:** `35` → `25`
+	**Pp Changes:**
+
+	- `35` → `25`
 
 
 ## :material-chart-box: Stats

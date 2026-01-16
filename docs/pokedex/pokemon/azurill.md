@@ -14,17 +14,27 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Azurill ROM Changes"
 
-    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+	**Evolution Chain Changes:**
 
-    **Base Stats:** `50 HP / 20 Atk / 40 Def / 20 SAtk / 40 SDef / 20 Spd` → `50 HP / 20 Atk / 40 Def / 30 SAtk / 40 SDef / 20 Spd`
+	- `marill > azumarill: level-up (level 18)` → `marill > azumarill: level-up (level 21)`
 
-    **Abilities:** `thick-fat / huge-power / sap-sipper` → `huge-power / thick-fat / sap-sipper`
+	**Base Stats Changes:**
 
-    **Base Happiness:** `70` → `180`
+	- `50 HP / 20 Atk / 40 Def / 20 SAtk / 40 SDef / 20 Spd` → `50 HP / 20 Atk / 40 Def / 30 SAtk / 40 SDef / 20 Spd`
 
-    **Level-up Moves:** `15 moves` → `13 moves`
+	**Abilities Changes:**
+
+	- `thick-fat / huge-power / sap-sipper` → `huge-power / thick-fat / sap-sipper`
+
+	**Base Happiness Changes:**
+
+	- `70` → `180`
+
+	**Level-up Moves Changes:**
+
+	- `15 moves` → `13 moves`
 
 
 ## :material-information: Basic Information
@@ -79,7 +89,7 @@
 
 	---
 
-	**Generation:** Generation Iii
+	**Generation:** Generation III
 
 	**Color:** Blue
 
@@ -142,7 +152,7 @@
 
 	**#298 [Azurill](./azurill.md)**
 
-	
+
 
 	***You are here***
 

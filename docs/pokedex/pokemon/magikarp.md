@@ -13,11 +13,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Magikarp ROM Changes"
 
-    **Abilities:** `swift-swim / rattled` → `swift-swim / rattled / rattled`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `3 moves` → `5 moves`
+	- `swift-swim / rattled` → `swift-swim / rattled / rattled`
+
+	**Level-up Moves Changes:**
+
+	- `3 moves` → `5 moves`
 
 
 ## :material-information: Basic Information
@@ -137,7 +141,7 @@
 
 	**#129 [Magikarp](./magikarp.md)**
 
-	
+
 
 	***You are here***
 

@@ -14,11 +14,17 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Deino ROM Changes"
 
-    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+	**Evolution Chain Changes:**
 
-    **Level-up Moves:** `16 moves` → `19 moves`
+	- `deino > zweilous: level-up (level 50)` → `deino > zweilous: level-up (level 38)`
+
+	- `zweilous > hydreigon: unknown` → `zweilous > hydreigon: level-up (level 58)`
+
+	**Level-up Moves Changes:**
+
+	- `16 moves` → `19 moves`
 
 
 ## :material-information: Basic Information
@@ -146,7 +152,7 @@
 
 	**#633 [Deino](./deino.md)**
 
-	
+
 
 	***You are here***
 

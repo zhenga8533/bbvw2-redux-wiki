@@ -1,11 +1,15 @@
 # Dark Pulse
 
 
-!!! info "ROM Changes
+??? note "Dark Pulse ROM Changes"
 
-    **Pp:** `15` → `10`
+	**Pp Changes:**
 
-    **Accuracy:** `100` → `None`
+	- `15` → `10`
+
+	**Accuracy Changes:**
+
+	- `100` → `None`
 
 
 ## :material-chart-box: Stats

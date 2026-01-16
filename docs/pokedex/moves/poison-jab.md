@@ -1,9 +1,11 @@
 # Poison Jab
 
 
-!!! info "ROM Changes
+??? note "Poison Jab ROM Changes"
 
-    **Pp:** `20` → `10`
+	**Pp Changes:**
+
+	- `20` → `10`
 
 
 ## :material-chart-box: Stats

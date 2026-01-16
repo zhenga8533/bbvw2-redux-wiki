@@ -14,11 +14,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Archen ROM Changes"
 
-    **Base Experience:** `71` → `65`
+	**Base Experience Changes:**
 
-    **Level-up Moves:** `18 moves` → `19 moves`
+	- `71` → `65`
+
+	**Level-up Moves Changes:**
+
+	- `18 moves` → `19 moves`
 
 
 ## :material-information: Basic Information
@@ -141,7 +145,7 @@
 
 	**#566 [Archen](./archen.md)**
 
-	
+
 
 	***You are here***
 

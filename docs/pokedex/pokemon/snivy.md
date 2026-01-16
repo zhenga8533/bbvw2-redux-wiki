@@ -14,11 +14,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Snivy ROM Changes"
 
-    **Abilities:** `overgrow / contrary` → `contrary / overgrow / contrary`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `15 moves` → `18 moves`
+	- `overgrow / contrary` → `contrary / overgrow / contrary`
+
+	**Level-up Moves Changes:**
+
+	- `15 moves` → `18 moves`
 
 
 ## :material-information: Basic Information
@@ -134,7 +138,7 @@
 
 	**#495 [Snivy](./snivy.md)**
 
-	
+
 
 	***You are here***
 

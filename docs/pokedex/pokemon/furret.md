@@ -13,15 +13,23 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Furret ROM Changes"
 
-    **Base Stats:** `85 HP / 76 Atk / 64 Def / 45 SAtk / 55 SDef / 90 Spd` → `90 HP / 85 Atk / 65 Def / 45 SAtk / 55 SDef / 105 Spd`
+	**Base Stats Changes:**
 
-    **Abilities:** `run-away / keen-eye / frisk` → `quick-feet / hustle / run-away`
+	- `85 HP / 76 Atk / 64 Def / 45 SAtk / 55 SDef / 90 Spd` → `90 HP / 85 Atk / 65 Def / 45 SAtk / 55 SDef / 105 Spd`
 
-    **Level-up Moves:** `16 moves` → `25 moves`
+	**Abilities Changes:**
 
-    **TM/HM Compatibility:** `40 moves` → `42 moves (added: quash, play-rough)`
+	- `run-away / keen-eye / frisk` → `quick-feet / hustle / run-away`
+
+	**Level-up Moves Changes:**
+
+	- `16 moves` → `25 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `40 moves` → `42 moves (added: quash, play-rough)`
 
 
 ## :material-information: Basic Information
@@ -76,7 +84,7 @@
 
 	---
 
-	**Generation:** Generation Ii
+	**Generation:** Generation II
 
 	**Color:** Brown
 
@@ -91,8 +99,8 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Oran Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/oran-berry.png){ .item-sprite } [Oran Berry](../../pokedex/items/oran-berry.md) | 50% | 50% | 50% | 50% |
-| ![Sitrus Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/sitrus-berry.png){ .item-sprite } [Sitrus Berry](../../pokedex/items/sitrus-berry.md) | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Oran Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/oran-berry.png){ .item-sprite } [Oran Berry](../../pokedex/items/oran-berry.md)</span> | 50% | 50% | 50% | 50% |
+| <span style="white-space: nowrap;">![Sitrus Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/sitrus-berry.png){ .item-sprite } [Sitrus Berry](../../pokedex/items/sitrus-berry.md)</span> | 5% | 5% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 

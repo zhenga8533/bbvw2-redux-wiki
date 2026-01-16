@@ -14,13 +14,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Munna ROM Changes"
 
-    **Abilities:** `forewarn / synchronize / telepathy` → `analytic / synchronize / telepathy`
+	**Abilities Changes:**
 
-    **Type:** `psychic` → `psychic / fairy`
+	- `forewarn / synchronize / telepathy` → `analytic / synchronize / telepathy`
 
-    **Level-up Moves:** `17 moves` → `23 moves`
+	**Type Changes:**
+
+	- `psychic` → `psychic / fairy`
+
+	**Level-up Moves Changes:**
+
+	- `17 moves` → `23 moves`
 
 
 ## :material-information: Basic Information
@@ -150,7 +156,7 @@
 
 	**#517 [Munna](./munna.md)**
 
-	
+
 
 	***You are here***
 

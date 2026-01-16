@@ -13,15 +13,23 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Stantler ROM Changes"
 
-    **Base Stats:** `73 HP / 95 Atk / 62 Def / 85 SAtk / 65 SDef / 85 Spd` → `73 HP / 95 Atk / 62 Def / 95 SAtk / 75 SDef / 85 Spd`
+	**Base Stats Changes:**
 
-    **Abilities:** `intimidate / frisk / sap-sipper` → `sap-sipper / frisk / intimidate`
+	- `73 HP / 95 Atk / 62 Def / 85 SAtk / 65 SDef / 85 Spd` → `73 HP / 95 Atk / 62 Def / 95 SAtk / 75 SDef / 85 Spd`
 
-    **Level-up Moves:** `15 moves` → `24 moves`
+	**Abilities Changes:**
 
-    **TM/HM Compatibility:** `38 moves` → `41 moves (added: tri-attack, aura-sphere, power-gem)`
+	- `intimidate / frisk / sap-sipper` → `sap-sipper / frisk / intimidate`
+
+	**Level-up Moves Changes:**
+
+	- `15 moves` → `24 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `38 moves` → `41 moves (added: tri-attack, aura-sphere, power-gem)`
 
 
 ## :material-information: Basic Information
@@ -76,7 +84,7 @@
 
 	---
 
-	**Generation:** Generation Ii
+	**Generation:** Generation II
 
 	**Color:** Brown
 

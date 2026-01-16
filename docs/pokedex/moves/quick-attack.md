@@ -1,9 +1,11 @@
 # Quick Attack
 
 
-!!! info "ROM Changes
+??? note "Quick Attack ROM Changes"
 
-    **Pp:** `30` → `20`
+	**Pp Changes:**
+
+	- `30` → `20`
 
 
 ## :material-chart-box: Stats

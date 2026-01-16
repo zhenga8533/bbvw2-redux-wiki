@@ -1,9 +1,11 @@
 # X Scissor
 
 
-!!! info "ROM Changes
+??? note "X Scissor ROM Changes"
 
-    **Pp:** `15` → `10`
+	**Pp Changes:**
+
+	- `15` → `10`
 
 
 ## :material-chart-box: Stats

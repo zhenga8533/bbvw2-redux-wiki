@@ -13,13 +13,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Totodile ROM Changes"
 
-    **Abilities:** `torrent / sheer-force` → `sheer-force / torrent / sheer-force`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `16 moves` → `19 moves`
+	- `torrent / sheer-force` → `sheer-force / torrent / sheer-force`
 
-    **TM/HM Compatibility:** `31 moves` → `32 moves (added: wave-crash)`
+	**Level-up Moves Changes:**
+
+	- `16 moves` → `19 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `31 moves` → `32 moves (added: wave-crash)`
 
 
 ## :material-information: Basic Information
@@ -74,7 +80,7 @@
 
 	---
 
-	**Generation:** Generation Ii
+	**Generation:** Generation II
 
 	**Color:** Blue
 
@@ -137,7 +143,7 @@
 
 	**#158 [Totodile](./totodile.md)**
 
-	
+
 
 	***You are here***
 

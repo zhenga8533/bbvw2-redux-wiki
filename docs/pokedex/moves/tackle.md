@@ -1,11 +1,15 @@
 # Tackle
 
 
-!!! info "ROM Changes
+??? note "Tackle ROM Changes"
 
-    **Power:** `40` → `50`
+	**Power Changes:**
 
-    **Pp:** `35` → `30`
+	- `40` → `50`
+
+	**Pp Changes:**
+
+	- `35` → `30`
 
 
 ## :material-chart-box: Stats

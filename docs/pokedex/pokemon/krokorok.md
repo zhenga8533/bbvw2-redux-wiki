@@ -14,11 +14,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Krokorok ROM Changes"
 
-    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+	**Evolution Chain Changes:**
 
-    **Level-up Moves:** `19 moves` → `24 moves`
+	- `sandile > krokorok: level-up (level 29)` → `sandile > krokorok: level-up (level 27)`
+
+	**Level-up Moves Changes:**
+
+	- `19 moves` → `24 moves`
 
 
 ## :material-information: Basic Information

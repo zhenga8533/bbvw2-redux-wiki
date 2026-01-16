@@ -13,13 +13,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Spinda ROM Changes"
 
-    **Base Stats:** `60 HP / 60 Atk / 60 Def / 60 SAtk / 60 SDef / 60 Spd` → `75 HP / 75 Atk / 75 Def / 75 SAtk / 75 SDef / 75 Spd`
+	**Base Stats Changes:**
 
-    **Abilities:** `own-tempo / tangled-feet / contrary` → `contrary / tangled-feet / contrary`
+	- `60 HP / 60 Atk / 60 Def / 60 SAtk / 60 SDef / 60 Spd` → `75 HP / 75 Atk / 75 Def / 75 SAtk / 75 SDef / 75 Spd`
 
-    **Level-up Moves:** `13 moves` → `21 moves`
+	**Abilities Changes:**
+
+	- `own-tempo / tangled-feet / contrary` → `contrary / tangled-feet / contrary`
+
+	**Level-up Moves Changes:**
+
+	- `13 moves` → `21 moves`
 
 
 ## :material-information: Basic Information
@@ -74,7 +80,7 @@
 
 	---
 
-	**Generation:** Generation Iii
+	**Generation:** Generation III
 
 	**Color:** Brown
 
@@ -89,7 +95,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Chesto Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/chesto-berry.png){ .item-sprite } [Chesto Berry](../../pokedex/items/chesto-berry.md) | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Chesto Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/chesto-berry.png){ .item-sprite } [Chesto Berry](../../pokedex/items/chesto-berry.md)</span> | 5% | 5% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 

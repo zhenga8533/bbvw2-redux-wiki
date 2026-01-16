@@ -14,13 +14,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Vanilluxe ROM Changes"
 
-    **Type:** `ice` → `ice / fairy`
+	**Type Changes:**
 
-    **Level-up Moves:** `19 moves` → `25 moves`
+	- `ice` → `ice / fairy`
 
-    **TM/HM Compatibility:** `23 moves` → `25 moves (added: dazzling-gleam, power-gem)`
+	**Level-up Moves Changes:**
+
+	- `19 moves` → `25 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `23 moves` → `25 moves (added: dazzling-gleam, power-gem)`
 
 
 ## :material-information: Basic Information

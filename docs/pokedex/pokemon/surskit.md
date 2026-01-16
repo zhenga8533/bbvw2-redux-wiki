@@ -13,15 +13,23 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Surskit ROM Changes"
 
-    **Base Stats:** `40 HP / 30 Atk / 32 Def / 50 SAtk / 52 SDef / 65 Spd` → `40 HP / 30 Atk / 30 Def / 55 SAtk / 55 SDef / 65 Spd`
+	**Base Stats Changes:**
 
-    **Abilities:** `swift-swim / rain-dish` → `swift-swim / rain-dish / rain-dish`
+	- `40 HP / 30 Atk / 32 Def / 50 SAtk / 52 SDef / 65 Spd` → `40 HP / 30 Atk / 30 Def / 55 SAtk / 55 SDef / 65 Spd`
 
-    **Level-up Moves:** `9 moves` → `19 moves`
+	**Abilities Changes:**
 
-    **TM/HM Compatibility:** `23 moves` → `26 moves (added: bug-buzz, surf, waterfall)`
+	- `swift-swim / rain-dish` → `swift-swim / rain-dish / rain-dish`
+
+	**Level-up Moves Changes:**
+
+	- `9 moves` → `19 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `23 moves` → `26 moves (added: bug-buzz, surf, waterfall)`
 
 
 ## :material-information: Basic Information
@@ -76,7 +84,7 @@
 
 	---
 
-	**Generation:** Generation Iii
+	**Generation:** Generation III
 
 	**Color:** Blue
 
@@ -139,7 +147,7 @@
 
 	**#283 [Surskit](./surskit.md)**
 
-	
+
 
 	***You are here***
 

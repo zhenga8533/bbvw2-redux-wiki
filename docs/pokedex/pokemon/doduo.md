@@ -13,13 +13,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Doduo ROM Changes"
 
-    **Abilities:** `run-away / early-bird / tangled-feet` → `tangled-feet / early-bird / tangled-feet`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `13 moves` → `22 moves`
+	- `run-away / early-bird / tangled-feet` → `tangled-feet / early-bird / tangled-feet`
 
-    **TM/HM Compatibility:** `19 moves` → `21 moves (added: low-sweep, rock-climb)`
+	**Level-up Moves Changes:**
+
+	- `13 moves` → `22 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `19 moves` → `21 moves (added: low-sweep, rock-climb)`
 
 
 ## :material-information: Basic Information
@@ -91,7 +97,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Sharp Beak](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/sharp-beak.png){ .item-sprite } [Sharp Beak](../../pokedex/items/sharp-beak.md) | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Sharp Beak](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/sharp-beak.png){ .item-sprite } [Sharp Beak](../../pokedex/items/sharp-beak.md)</span> | 5% | 5% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 
@@ -156,7 +162,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 	**#084 [Doduo](./doduo.md)**
 
-	
+
 
 	***You are here***
 

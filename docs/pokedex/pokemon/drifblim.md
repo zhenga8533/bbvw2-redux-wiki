@@ -13,13 +13,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Drifblim ROM Changes"
 
-    **Abilities:** `aftermath / unburden / flare-boost` → `flare-boost / unburden / aftermath`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `29 moves` → `22 moves`
+	- `aftermath / unburden / flare-boost` → `flare-boost / unburden / aftermath`
 
-    **TM/HM Compatibility:** `36 moves` → `37 moves (added: hurricane)`
+	**Level-up Moves Changes:**
+
+	- `29 moves` → `22 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `36 moves` → `37 moves (added: hurricane)`
 
 
 ## :material-information: Basic Information
@@ -72,7 +78,7 @@
 
 	---
 
-	**Generation:** Generation Iv
+	**Generation:** Generation IV
 
 	**Color:** Purple
 
@@ -87,7 +93,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Air Balloon](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/air-balloon.png){ .item-sprite } [Air Balloon](../../pokedex/items/air-balloon.md) | — | — | 1% | 1% |
+| <span style="white-space: nowrap;">![Air Balloon](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/air-balloon.png){ .item-sprite } [Air Balloon](../../pokedex/items/air-balloon.md)</span> | — | — | 1% | 1% |
 
 ## :material-shield-half-full: Type Effectiveness
 

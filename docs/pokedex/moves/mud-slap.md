@@ -1,11 +1,15 @@
 # Mud Slap
 
 
-!!! info "ROM Changes
+??? note "Mud Slap ROM Changes"
 
-    **Power:** `20` → `30`
+	**Power Changes:**
 
-    **Pp:** `10` → `20`
+	- `20` → `30`
+
+	**Pp Changes:**
+
+	- `10` → `20`
 
 
 ## :material-chart-box: Stats

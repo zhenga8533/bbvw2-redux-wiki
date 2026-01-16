@@ -1,11 +1,15 @@
 # Dragon Pulse
 
 
-!!! info "ROM Changes
+??? note "Dragon Pulse ROM Changes"
 
-    **Power:** `85` → `90`
+	**Power Changes:**
 
-    **Accuracy:** `100` → `None`
+	- `85` → `90`
+
+	**Accuracy Changes:**
+
+	- `100` → `None`
 
 
 ## :material-chart-box: Stats

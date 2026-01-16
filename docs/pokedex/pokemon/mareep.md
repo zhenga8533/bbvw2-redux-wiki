@@ -13,15 +13,23 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Mareep ROM Changes"
 
-    **Base Stats:** `55 HP / 40 Atk / 40 Def / 65 SAtk / 45 SDef / 35 Spd` → `55 HP / 40 Atk / 45 Def / 65 SAtk / 45 SDef / 35 Spd`
+	**Base Stats Changes:**
 
-    **Abilities:** `static / plus` → `static / overcoat / plus`
+	- `55 HP / 40 Atk / 40 Def / 65 SAtk / 45 SDef / 35 Spd` → `55 HP / 40 Atk / 45 Def / 65 SAtk / 45 SDef / 35 Spd`
 
-    **Level-up Moves:** `27 moves` → `23 moves`
+	**Abilities Changes:**
 
-    **TM/HM Compatibility:** `22 moves` → `23 moves (added: power-gem)`
+	- `static / plus` → `static / overcoat / plus`
+
+	**Level-up Moves Changes:**
+
+	- `27 moves` → `23 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `22 moves` → `23 moves (added: power-gem)`
 
 
 ## :material-information: Basic Information
@@ -76,7 +84,7 @@
 
 	---
 
-	**Generation:** Generation Ii
+	**Generation:** Generation II
 
 	**Color:** White
 
@@ -139,7 +147,7 @@
 
 	**#179 [Mareep](./mareep.md)**
 
-	
+
 
 	***You are here***
 

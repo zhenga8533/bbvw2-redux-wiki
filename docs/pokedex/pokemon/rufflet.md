@@ -14,13 +14,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Rufflet ROM Changes"
 
-    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+	**Evolution Chain Changes:**
 
-    **Abilities:** `keen-eye / sheer-force / hustle` → `hustle / sheer-force / hustle`
+	- `rufflet > braviary: level-up (level 54)` → `rufflet > braviary: level-up (level 40)`
 
-    **Level-up Moves:** `16 moves` → `23 moves`
+	**Abilities Changes:**
+
+	- `keen-eye / sheer-force / hustle` → `hustle / sheer-force / hustle`
+
+	**Level-up Moves Changes:**
+
+	- `16 moves` → `23 moves`
 
 
 ## :material-information: Basic Information
@@ -145,7 +151,7 @@
 
 	**#627 [Rufflet](./rufflet.md)**
 
-	
+
 
 	***You are here***
 

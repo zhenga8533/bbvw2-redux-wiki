@@ -13,15 +13,23 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Charmeleon ROM Changes"
 
-    **Abilities:** `blaze / solar-power` → `defiant / blaze / solar-power`
+	**Abilities Changes:**
 
-    **Type:** `fire` → `fire / dragon`
+	- `blaze / solar-power` → `defiant / blaze / solar-power`
 
-    **Level-up Moves:** `13 moves` → `23 moves`
+	**Type Changes:**
 
-    **TM/HM Compatibility:** `33 moves` → `36 moves (added: low-sweep, false-swipe, acrobatics)`
+	- `fire` → `fire / dragon`
+
+	**Level-up Moves Changes:**
+
+	- `13 moves` → `23 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `33 moves` → `36 moves (added: low-sweep, false-swipe, acrobatics)`
 
 
 ## :material-information: Basic Information

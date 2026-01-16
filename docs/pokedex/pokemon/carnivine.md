@@ -13,13 +13,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Carnivine ROM Changes"
 
-    **Base Stats:** `74 HP / 100 Atk / 72 Def / 90 SAtk / 72 SDef / 46 Spd` → `74 HP / 110 Atk / 72 Def / 100 SAtk / 72 SDef / 36 Spd`
+	**Base Stats Changes:**
 
-    **Level-up Moves:** `14 moves` → `21 moves`
+	- `74 HP / 100 Atk / 72 Def / 90 SAtk / 72 SDef / 46 Spd` → `74 HP / 110 Atk / 72 Def / 100 SAtk / 72 SDef / 36 Spd`
 
-    **TM/HM Compatibility:** `25 moves` → `26 moves (added: quash)`
+	**Level-up Moves Changes:**
+
+	- `14 moves` → `21 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `25 moves` → `26 moves (added: quash)`
 
 
 ## :material-information: Basic Information
@@ -70,7 +76,7 @@
 
 	---
 
-	**Generation:** Generation Iv
+	**Generation:** Generation IV
 
 	**Color:** Green
 

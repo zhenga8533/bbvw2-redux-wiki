@@ -13,11 +13,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Crawdaunt ROM Changes"
 
-    **Abilities:** `hyper-cutter / shell-armor / adaptability` → `adaptability / hyper-cutter / adaptability`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `17 moves` → `24 moves`
+	- `hyper-cutter / shell-armor / adaptability` → `adaptability / hyper-cutter / adaptability`
+
+	**Level-up Moves Changes:**
+
+	- `17 moves` → `24 moves`
 
 
 ## :material-information: Basic Information
@@ -72,7 +76,7 @@
 
 	---
 
-	**Generation:** Generation Iii
+	**Generation:** Generation III
 
 	**Color:** Red
 

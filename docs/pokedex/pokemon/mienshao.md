@@ -14,13 +14,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Mienshao ROM Changes"
 
-    **Abilities:** `inner-focus / regenerator / reckless` → `reckless / regenerator / reckless`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `19 moves` → `23 moves`
+	- `inner-focus / regenerator / reckless` → `reckless / regenerator / reckless`
 
-    **TM/HM Compatibility:** `40 moves` → `41 moves (added: rock-climb)`
+	**Level-up Moves Changes:**
+
+	- `19 moves` → `23 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `40 moves` → `41 moves (added: rock-climb)`
 
 
 ## :material-information: Basic Information

@@ -1,9 +1,11 @@
 # Air Slash
 
 
-!!! info "ROM Changes
+??? note "Air Slash ROM Changes"
 
-    **Pp:** `15` → `10`
+	**Pp Changes:**
+
+	- `15` → `10`
 
 
 ## :material-chart-box: Stats

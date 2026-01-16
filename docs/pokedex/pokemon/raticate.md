@@ -13,15 +13,23 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Raticate ROM Changes"
 
-    **Base Stats:** `55 HP / 81 Atk / 60 Def / 50 SAtk / 70 SDef / 97 Spd` → `60 HP / 92 Atk / 60 Def / 50 SAtk / 70 SDef / 108 Spd`
+	**Base Stats Changes:**
 
-    **Abilities:** `run-away / guts / hustle` → `hustle / guts / run-away`
+	- `55 HP / 81 Atk / 60 Def / 50 SAtk / 70 SDef / 97 Spd` → `60 HP / 92 Atk / 60 Def / 50 SAtk / 70 SDef / 108 Spd`
 
-    **Level-up Moves:** `17 moves` → `25 moves`
+	**Abilities Changes:**
 
-    **TM/HM Compatibility:** `37 moves` → `43 moves (added: hone-claws, aerial-ace, false-swipe, quash, shadow-claw...)`
+	- `run-away / guts / hustle` → `hustle / guts / run-away`
+
+	**Level-up Moves Changes:**
+
+	- `17 moves` → `25 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `37 moves` → `43 moves (added: hone-claws, aerial-ace, false-swipe, quash, shadow-claw...)`
 
 
 ## :material-information: Basic Information
@@ -93,7 +101,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Chilan Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/chilan-berry.png){ .item-sprite } [Chilan Berry](../../pokedex/items/chilan-berry.md) | 5% | 5% | — | — |
+| <span style="white-space: nowrap;">![Chilan Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/chilan-berry.png){ .item-sprite } [Chilan Berry](../../pokedex/items/chilan-berry.md)</span> | 5% | 5% | — | — |
 
 ## :material-shield-half-full: Type Effectiveness
 

@@ -13,9 +13,11 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Baltoy ROM Changes"
 
-    **Level-up Moves:** `33 moves` → `18 moves`
+	**Level-up Moves Changes:**
+
+	- `33 moves` → `18 moves`
 
 
 ## :material-information: Basic Information
@@ -68,7 +70,7 @@
 
 	---
 
-	**Generation:** Generation Iii
+	**Generation:** Generation III
 
 	**Color:** Brown
 
@@ -140,7 +142,7 @@
 
 	**#343 [Baltoy](./baltoy.md)**
 
-	
+
 
 	***You are here***
 

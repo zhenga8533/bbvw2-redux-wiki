@@ -14,13 +14,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Giratina Altered ROM Changes"
 
-    **Held Items:** `None` → `griseous-orb`
+	**Held Items Changes:**
 
-    **Level-up Moves:** `13 moves` → `14 moves`
+	- `None` → `griseous-orb`
 
-    **TM/HM Compatibility:** `43 moves` → `44 moves (added: work-up)`
+	**Level-up Moves Changes:**
+
+	- `13 moves` → `14 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `43 moves` → `44 moves (added: work-up)`
 
 
 ## :material-information: Basic Information
@@ -72,7 +78,7 @@
 
 	---
 
-	**Generation:** Generation Iv
+	**Generation:** Generation IV
 
 	**Color:** Black
 
@@ -87,7 +93,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Griseous Orb](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/griseous-orb.png){ .item-sprite } [Griseous Orb](../../pokedex/items/griseous-orb.md) | — | — | — | — |
+| <span style="white-space: nowrap;">![Griseous Orb](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/griseous-orb.png){ .item-sprite } [Griseous Orb](../../pokedex/items/griseous-orb.md)</span> | — | — | — | — |
 
 ## :material-shield-half-full: Type Effectiveness
 

@@ -13,13 +13,19 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Luxray ROM Changes"
 
-    **Abilities:** `rivalry / intimidate / guts` → `guts / intimidate / guts`
+	**Abilities Changes:**
 
-    **Type:** `electric` → `electric / dark`
+	- `rivalry / intimidate / guts` → `guts / intimidate / guts`
 
-    **Level-up Moves:** `14 moves` → `25 moves`
+	**Type Changes:**
+
+	- `electric` → `electric / dark`
+
+	**Level-up Moves Changes:**
+
+	- `14 moves` → `25 moves`
 
 
 ## :material-information: Basic Information
@@ -74,7 +80,7 @@
 
 	---
 
-	**Generation:** Generation Iv
+	**Generation:** Generation IV
 
 	**Color:** Blue
 

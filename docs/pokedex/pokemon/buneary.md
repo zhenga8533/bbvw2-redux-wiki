@@ -13,11 +13,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Buneary ROM Changes"
 
-    **Abilities:** `run-away / klutz / limber` → `run-away / limber / klutz`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `16 moves` → `20 moves`
+	- `run-away / klutz / limber` → `run-away / limber / klutz`
+
+	**Level-up Moves Changes:**
+
+	- `16 moves` → `20 moves`
 
 
 ## :material-information: Basic Information
@@ -70,7 +74,7 @@
 
 	---
 
-	**Generation:** Generation Iv
+	**Generation:** Generation IV
 
 	**Color:** Brown
 
@@ -85,8 +89,8 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Chople Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/chople-berry.png){ .item-sprite } [Chople Berry](../../pokedex/items/chople-berry.md) | 5% | 5% | — | — |
-| ![Pecha Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/pecha-berry.png){ .item-sprite } [Pecha Berry](../../pokedex/items/pecha-berry.md) | — | — | 50% | 50% |
+| <span style="white-space: nowrap;">![Chople Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/chople-berry.png){ .item-sprite } [Chople Berry](../../pokedex/items/chople-berry.md)</span> | 5% | 5% | — | — |
+| <span style="white-space: nowrap;">![Pecha Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/pecha-berry.png){ .item-sprite } [Pecha Berry](../../pokedex/items/pecha-berry.md)</span> | — | — | 50% | 50% |
 
 ## :material-shield-half-full: Type Effectiveness
 
@@ -142,7 +146,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 	**#427 [Buneary](./buneary.md)**
 
-	
+
 
 	***You are here***
 

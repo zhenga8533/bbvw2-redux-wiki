@@ -1,9 +1,11 @@
 # Raging Fury
 
 
-!!! info "ROM Changes
+??? note "Raging Fury ROM Changes"
 
-    **Power:** `120` → `95`
+	**Power Changes:**
+
+	- `120` → `95`
 
 
 ## :material-chart-box: Stats

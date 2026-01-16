@@ -13,19 +13,31 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Farfetchˈd ROM Changes"
 
-    **Base Stats:** `52 HP / 90 Atk / 55 Def / 58 SAtk / 62 SDef / 60 Spd` → `55 HP / 110 Atk / 65 Def / 75 SAtk / 65 SDef / 100 Spd`
+	**Base Stats Changes:**
 
-    **Abilities:** `keen-eye / inner-focus / defiant` → `defeatist`
+	- `52 HP / 90 Atk / 55 Def / 58 SAtk / 62 SDef / 60 Spd` → `55 HP / 110 Atk / 65 Def / 75 SAtk / 65 SDef / 100 Spd`
 
-    **Type:** `normal / flying` → `fighting / flying`
+	**Abilities Changes:**
 
-    **EV Yield:** `1 Atk` → `2 Atk`
+	- `keen-eye / inner-focus / defiant` → `defeatist`
 
-    **Level-up Moves:** `18 moves` → `24 moves`
+	**Type Changes:**
 
-    **TM/HM Compatibility:** `26 moves` → `30 moves (added: brick-break, low-sweep, focus-blast, hurricane)`
+	- `normal / flying` → `fighting / flying`
+
+	**EV Yield Changes:**
+
+	- `1 Atk` → `2 Atk`
+
+	**Level-up Moves Changes:**
+
+	- `18 moves` → `24 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `26 moves` → `30 moves (added: brick-break, low-sweep, focus-blast, hurricane)`
 
 
 ## :material-information: Basic Information
@@ -93,7 +105,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Stick](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/stick.png){ .item-sprite } [Stick](../../pokedex/items/stick.md) | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Stick](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/stick.png){ .item-sprite } [Stick](../../pokedex/items/stick.md)</span> | 5% | 5% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 

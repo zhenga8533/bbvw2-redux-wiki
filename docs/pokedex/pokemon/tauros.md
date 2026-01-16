@@ -13,15 +13,23 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Tauros ROM Changes"
 
-    **Base Stats:** `75 HP / 100 Atk / 95 Def / 40 SAtk / 70 SDef / 110 Spd` → `75 HP / 110 Atk / 95 Def / 40 SAtk / 70 SDef / 110 Spd`
+	**Base Stats Changes:**
 
-    **Abilities:** `intimidate / anger-point / sheer-force` → `intimidate / sheer-force / anger-point`
+	- `75 HP / 100 Atk / 95 Def / 40 SAtk / 70 SDef / 110 Spd` → `75 HP / 110 Atk / 95 Def / 40 SAtk / 70 SDef / 110 Spd`
 
-    **Level-up Moves:** `14 moves` → `21 moves`
+	**Abilities Changes:**
 
-    **TM/HM Compatibility:** `37 moves` → `38 moves (added: brutal-swing)`
+	- `intimidate / anger-point / sheer-force` → `intimidate / sheer-force / anger-point`
+
+	**Level-up Moves Changes:**
+
+	- `14 moves` → `21 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `37 moves` → `38 moves (added: brutal-swing)`
 
 
 ## :material-information: Basic Information

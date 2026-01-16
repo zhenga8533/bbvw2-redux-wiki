@@ -13,11 +13,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Dratini ROM Changes"
 
-    **Abilities:** `shed-skin / marvel-scale` → `shed-skin / marvel-scale / marvel-scale`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `14 moves` → `20 moves`
+	- `shed-skin / marvel-scale` → `shed-skin / marvel-scale / marvel-scale`
+
+	**Level-up Moves Changes:**
+
+	- `14 moves` → `20 moves`
 
 
 ## :material-information: Basic Information
@@ -87,7 +91,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Dragon Scale](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dragon-scale.png){ .item-sprite } [Dragon Scale](../../pokedex/items/dragon-scale.md) | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Dragon Scale](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dragon-scale.png){ .item-sprite } [Dragon Scale](../../pokedex/items/dragon-scale.md)</span> | 5% | 5% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 
@@ -143,7 +147,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 	**#147 [Dratini](./dratini.md)**
 
-	
+
 
 	***You are here***
 

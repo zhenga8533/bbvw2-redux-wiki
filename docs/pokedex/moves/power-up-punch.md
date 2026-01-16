@@ -1,9 +1,11 @@
 # Power Up Punch
 
 
-!!! info "ROM Changes
+??? note "Power Up Punch ROM Changes"
 
-    **Power:** `40` → `50`
+	**Power Changes:**
+
+	- `40` → `50`
 
 
 ## :material-chart-box: Stats

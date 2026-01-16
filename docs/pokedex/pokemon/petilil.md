@@ -14,9 +14,11 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Petilil ROM Changes"
 
-    **Level-up Moves:** `16 moves` → `22 moves`
+	**Level-up Moves Changes:**
+
+	- `16 moves` → `22 moves`
 
 
 ## :material-information: Basic Information
@@ -132,7 +134,7 @@
 
 	**#548 [Petilil](./petilil.md)**
 
-	
+
 
 	***You are here***
 

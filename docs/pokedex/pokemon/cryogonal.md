@@ -14,9 +14,11 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Cryogonal ROM Changes"
 
-    **Level-up Moves:** `18 moves` → `19 moves`
+	**Level-up Moves Changes:**
+
+	- `18 moves` → `19 moves`
 
 
 ## :material-information: Basic Information
@@ -82,7 +84,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Never Melt Ice](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/never-melt-ice.png){ .item-sprite } [Never Melt Ice](../../pokedex/items/never-melt-ice.md) | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Never Melt Ice](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/never-melt-ice.png){ .item-sprite } [Never Melt Ice](../../pokedex/items/never-melt-ice.md)</span> | 5% | 5% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 

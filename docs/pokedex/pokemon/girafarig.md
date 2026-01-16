@@ -13,15 +13,23 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Girafarig ROM Changes"
 
-    **Base Stats:** `70 HP / 80 Atk / 65 Def / 90 SAtk / 65 SDef / 85 Spd` → `70 HP / 90 Atk / 65 Def / 95 SAtk / 65 SDef / 90 Spd`
+	**Base Stats Changes:**
 
-    **Abilities:** `inner-focus / early-bird / sap-sipper` → `sap-sipper / rattled / sap-sipper`
+	- `70 HP / 80 Atk / 65 Def / 90 SAtk / 65 SDef / 85 Spd` → `70 HP / 90 Atk / 65 Def / 95 SAtk / 65 SDef / 90 Spd`
 
-    **Level-up Moves:** `16 moves` → `25 moves`
+	**Abilities Changes:**
 
-    **TM/HM Compatibility:** `39 moves` → `41 moves (added: low-sweep, quash)`
+	- `inner-focus / early-bird / sap-sipper` → `sap-sipper / rattled / sap-sipper`
+
+	**Level-up Moves Changes:**
+
+	- `16 moves` → `25 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `39 moves` → `41 moves (added: low-sweep, quash)`
 
 
 ## :material-information: Basic Information
@@ -78,7 +86,7 @@
 
 	---
 
-	**Generation:** Generation Ii
+	**Generation:** Generation II
 
 	**Color:** Yellow
 
@@ -93,7 +101,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Persim Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/persim-berry.png){ .item-sprite } [Persim Berry](../../pokedex/items/persim-berry.md) | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Persim Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/persim-berry.png){ .item-sprite } [Persim Berry](../../pokedex/items/persim-berry.md)</span> | 5% | 5% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 

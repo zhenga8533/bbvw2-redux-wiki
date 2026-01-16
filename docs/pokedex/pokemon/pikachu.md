@@ -13,15 +13,23 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Pikachu ROM Changes"
 
-    **Base Stats:** `35 HP / 55 Atk / 30 Def / 50 SAtk / 40 SDef / 90 Spd` → `40 HP / 65 Atk / 30 Def / 65 SAtk / 40 SDef / 100 Spd`
+	**Base Stats Changes:**
 
-    **Abilities:** `static / lightning-rod` → `static / lightning-rod / lightning-rod`
+	- `35 HP / 55 Atk / 30 Def / 50 SAtk / 40 SDef / 90 Spd` → `40 HP / 65 Atk / 30 Def / 65 SAtk / 40 SDef / 100 Spd`
 
-    **Level-up Moves:** `14 moves` → `25 moves`
+	**Abilities Changes:**
 
-    **TM/HM Compatibility:** `28 moves` → `31 moves (added: cut, fly, surf)`
+	- `static / lightning-rod` → `static / lightning-rod / lightning-rod`
+
+	**Level-up Moves Changes:**
+
+	- `14 moves` → `25 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `28 moves` → `31 moves (added: cut, fly, surf)`
 
 
 ## :material-information: Basic Information
@@ -93,8 +101,8 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Light Ball](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/light-ball.png){ .item-sprite } [Light Ball](../../pokedex/items/light-ball.md) | 1% | 1% | 5% | 5% |
-| ![Oran Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/oran-berry.png){ .item-sprite } [Oran Berry](../../pokedex/items/oran-berry.md) | 50% | 50% | — | — |
+| <span style="white-space: nowrap;">![Light Ball](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/light-ball.png){ .item-sprite } [Light Ball](../../pokedex/items/light-ball.md)</span> | 1% | 1% | 5% | 5% |
+| <span style="white-space: nowrap;">![Oran Berry](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/oran-berry.png){ .item-sprite } [Oran Berry](../../pokedex/items/oran-berry.md)</span> | 50% | 50% | — | — |
 
 ## :material-shield-half-full: Type Effectiveness
 

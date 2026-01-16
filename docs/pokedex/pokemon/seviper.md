@@ -13,15 +13,23 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Seviper ROM Changes"
 
-    **Base Stats:** `73 HP / 100 Atk / 60 Def / 100 SAtk / 60 SDef / 65 Spd` → `75 HP / 115 Atk / 60 Def / 80 SAtk / 60 SDef / 75 Spd`
+	**Base Stats Changes:**
 
-    **Abilities:** `shed-skin / infiltrator` → `shed-skin / infiltrator / infiltrator`
+	- `73 HP / 100 Atk / 60 Def / 100 SAtk / 60 SDef / 65 Spd` → `75 HP / 115 Atk / 60 Def / 80 SAtk / 60 SDef / 75 Spd`
 
-    **Level-up Moves:** `30 moves` → `22 moves`
+	**Abilities Changes:**
 
-    **TM/HM Compatibility:** `30 moves` → `32 moves (added: work-up, cut)`
+	- `shed-skin / infiltrator` → `shed-skin / infiltrator / infiltrator`
+
+	**Level-up Moves Changes:**
+
+	- `30 moves` → `22 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `30 moves` → `32 moves (added: work-up, cut)`
 
 
 ## :material-information: Basic Information
@@ -76,7 +84,7 @@
 
 	---
 
-	**Generation:** Generation Iii
+	**Generation:** Generation III
 
 	**Color:** Black
 

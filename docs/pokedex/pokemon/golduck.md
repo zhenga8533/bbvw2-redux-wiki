@@ -13,17 +13,27 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Golduck ROM Changes"
 
-    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+	**Evolution Chain Changes:**
 
-    **Abilities:** `damp / cloud-nine / swift-swim` → `cloud-nine / swift-swim / damp`
+	- `psyduck > golduck: level-up (level 33)` → `psyduck > golduck: level-up (level 25)`
 
-    **Type:** `water` → `water / psychic`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `32 moves` → `25 moves`
+	- `damp / cloud-nine / swift-swim` → `cloud-nine / swift-swim / damp`
 
-    **TM/HM Compatibility:** `39 moves` → `42 moves (added: aura-sphere, wave-crash, power-gem)`
+	**Type Changes:**
+
+	- `water` → `water / psychic`
+
+	**Level-up Moves Changes:**
+
+	- `32 moves` → `25 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `39 moves` → `42 moves (added: aura-sphere, wave-crash, power-gem)`
 
 
 ## :material-information: Basic Information

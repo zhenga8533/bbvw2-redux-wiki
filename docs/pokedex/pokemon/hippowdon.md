@@ -13,11 +13,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Hippowdon ROM Changes"
 
-    **Abilities:** `sand-stream / sand-force` → `sand-stream / sand-force / sand-force`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `16 moves` → `22 moves`
+	- `sand-stream / sand-force` → `sand-stream / sand-force / sand-force`
+
+	**Level-up Moves Changes:**
+
+	- `16 moves` → `22 moves`
 
 
 ## :material-information: Basic Information
@@ -72,7 +76,7 @@
 
 	---
 
-	**Generation:** Generation Iv
+	**Generation:** Generation IV
 
 	**Color:** Brown
 

@@ -13,11 +13,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Spiritomb ROM Changes"
 
-    **Abilities:** `pressure / infiltrator` → `pressure / infiltrator / infiltrator`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `13 moves` → `22 moves`
+	- `pressure / infiltrator` → `pressure / infiltrator / infiltrator`
+
+	**Level-up Moves Changes:**
+
+	- `13 moves` → `22 moves`
 
 
 ## :material-information: Basic Information
@@ -70,7 +74,7 @@
 
 	---
 
-	**Generation:** Generation Iv
+	**Generation:** Generation IV
 
 	**Color:** Purple
 

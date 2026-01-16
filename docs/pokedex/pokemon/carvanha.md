@@ -13,15 +13,23 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Carvanha ROM Changes"
 
-    **Evolution Chain:** `Updated` → `Modified evolution method or target`
+	**Evolution Chain Changes:**
 
-    **Abilities:** `rough-skin / speed-boost` → `rough-skin / speed-boost / speed-boost`
+	- `carvanha > sharpedo: level-up (level 30)` → `carvanha > sharpedo: level-up (level 26)`
 
-    **Level-up Moves:** `13 moves` → `22 moves`
+	**Abilities Changes:**
 
-    **TM/HM Compatibility:** `26 moves` → `27 moves (added: wave-crash)`
+	- `rough-skin / speed-boost` → `rough-skin / speed-boost / speed-boost`
+
+	**Level-up Moves Changes:**
+
+	- `13 moves` → `22 moves`
+
+	**TM/HM Compatibility Changes:**
+
+	- `26 moves` → `27 moves (added: wave-crash)`
 
 
 ## :material-information: Basic Information
@@ -76,7 +84,7 @@
 
 	---
 
-	**Generation:** Generation Iii
+	**Generation:** Generation III
 
 	**Color:** Red
 
@@ -91,7 +99,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 | Item | Black | White | Black 2 | White 2 |
 |:-----|:-----:|:-----:|:-------:|:-------:|
-| ![Deep Sea Tooth](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/deep-sea-tooth.png){ .item-sprite } [Deep Sea Tooth](../../pokedex/items/deep-sea-tooth.md) | 5% | 5% | 5% | 5% |
+| <span style="white-space: nowrap;">![Deep Sea Tooth](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/deep-sea-tooth.png){ .item-sprite } [Deep Sea Tooth](../../pokedex/items/deep-sea-tooth.md)</span> | 5% | 5% | 5% | 5% |
 
 ## :material-shield-half-full: Type Effectiveness
 
@@ -156,7 +164,7 @@ These items can be found when catching or defeating this Pokémon in the wild:
 
 	**#318 [Carvanha](./carvanha.md)**
 
-	
+
 
 	***You are here***
 

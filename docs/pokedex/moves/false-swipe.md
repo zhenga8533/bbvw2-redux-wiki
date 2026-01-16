@@ -1,9 +1,11 @@
 # False Swipe
 
 
-!!! info "ROM Changes
+??? note "False Swipe ROM Changes"
 
-    **Pp:** `40` → `30`
+	**Pp Changes:**
+
+	- `40` → `30`
 
 
 ## :material-chart-box: Stats

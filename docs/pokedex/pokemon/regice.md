@@ -14,11 +14,15 @@
 </div>
 
 
-!!! info "ROM Changes
+??? note "Regice ROM Changes"
 
-    **Abilities:** `clear-body / ice-body` → `filter / ice-body / clear-body`
+	**Abilities Changes:**
 
-    **Level-up Moves:** `13 moves` → `15 moves`
+	- `clear-body / ice-body` → `filter / ice-body / clear-body`
+
+	**Level-up Moves Changes:**
+
+	- `13 moves` → `15 moves`
 
 
 ## :material-information: Basic Information
@@ -73,7 +77,7 @@
 
 	---
 
-	**Generation:** Generation Iii
+	**Generation:** Generation III
 
 	**Color:** Blue
 
