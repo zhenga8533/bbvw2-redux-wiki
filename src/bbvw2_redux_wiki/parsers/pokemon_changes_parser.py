@@ -40,9 +40,6 @@ class PokemonChangesParser(BaseParser):
             output_dir (str, optional): Path to the output directory. Defaults to "docs".
         """
         super().__init__(input_file=input_file, output_dir=output_dir)
-        self.attribute_service = AttributeService()
-        self.pokemon_item_service = PokemonItemService()
-        self.pokemon_move_service = PokemonMoveService()
         self._sections = [
             "General Notes",
             "Type Changes",
@@ -101,7 +98,7 @@ class PokemonChangesParser(BaseParser):
 
         # Update level-up moves if we have any
         if self._levelup_moves:
-            self.pokemon_move_service.update_levelup_moves(
+            PokemonMoveService.update_levelup_moves(
                 pokemon=self._current_pokemon,
                 moves=self._levelup_moves,
                 forme=self._current_forme,
@@ -110,7 +107,7 @@ class PokemonChangesParser(BaseParser):
 
         # Update TM/HM moves if we have any
         if self._tm_hm_moves:
-            self.pokemon_move_service.update_machine_moves(
+            PokemonMoveService.update_machine_moves(
                 pokemon=self._current_pokemon,
                 moves=self._tm_hm_moves,
                 forme=self._current_forme,
@@ -188,7 +185,7 @@ class PokemonChangesParser(BaseParser):
             self._markdown += "\n"
 
             # Update Pokemon attribute in JSON file
-            self.attribute_service.update_attribute(
+            AttributeService.update_attribute(
                 pokemon=self._current_pokemon,
                 attribute=self._current_attribute,
                 value=line,
@@ -377,7 +374,7 @@ class PokemonChangesParser(BaseParser):
         rarity = int(match.group(2))  # 100
 
         # Update held item immediately (no accumulation needed)
-        self.pokemon_item_service.update_held_item(
+        PokemonItemService.update_held_item(
             pokemon=self._current_pokemon,
             item_name=item_name,
             rarity=rarity,
@@ -408,7 +405,7 @@ class PokemonChangesParser(BaseParser):
         growth_rate = match.group(1)  # "fast", "medium-fast", "slow", etc.
 
         # Update growth rate immediately (no accumulation needed)
-        self.attribute_service.update_attribute(
+        AttributeService.update_attribute(
             pokemon=self._current_pokemon,
             attribute="growth_rate",
             value=growth_rate,
