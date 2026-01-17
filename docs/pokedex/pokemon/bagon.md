@@ -15,6 +15,14 @@
 
 ??? note "Bagon ROM Changes"
 
+	**Ability (slot 2) Changes:**
+
+	- `(none)` → `sheer-force`
+
+	**Ability (slot 3) Changes:**
+
+	- `sheer-force` → `(none)`
+
 	**Level-up Moves Changes:**
 
 	- `12 moves` → `22 moves`
@@ -33,7 +41,7 @@
 	---
 
 	- [Rock Head](../../pokedex/abilities/rock-head.md)
-	- [Sheer Force](../../pokedex/abilities/sheer-force.md) :material-eye-off:
+	- [Sheer Force](../../pokedex/abilities/sheer-force.md)
 
 - **:material-ruler: Physical Attributes**
 

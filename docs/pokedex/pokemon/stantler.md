@@ -15,6 +15,14 @@
 
 ??? note "Stantler ROM Changes"
 
+	**Ability (slot 1) Changes:**
+
+	- `intimidate` → `sap-sipper`
+
+	**Ability (slot 3) Changes:**
+
+	- `sap-sipper` → `intimidate`
+
 	**Level-up Moves Changes:**
 
 	- `15 moves` → `24 moves`
@@ -32,9 +40,9 @@
 
 	---
 
-	- [Intimidate](../../pokedex/abilities/intimidate.md)
+	- [Sap Sipper](../../pokedex/abilities/sap-sipper.md)
 	- [Frisk](../../pokedex/abilities/frisk.md)
-	- [Sap Sipper](../../pokedex/abilities/sap-sipper.md) :material-eye-off:
+	- [Intimidate](../../pokedex/abilities/intimidate.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

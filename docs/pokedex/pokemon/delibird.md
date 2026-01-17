@@ -15,9 +15,13 @@
 
 ??? note "Delibird ROM Changes"
 
-	**Ability Changes:**
+	**Ability (slot 1) Changes:**
 
-	- `insomnia` → `technician`
+	- `vital-spirit` → `technician`
+
+	**Ability (slot 2) Changes:**
+
+	- `hustle` → `sheer-force`
 
 	**Level-up Moves Changes:**
 
@@ -36,9 +40,9 @@
 
 	---
 
-	- [Vital Spirit](../../pokedex/abilities/vital-spirit.md)
-	- [Hustle](../../pokedex/abilities/hustle.md)
-	- [Technician](../../pokedex/abilities/technician.md) :material-eye-off:
+	- [Technician](../../pokedex/abilities/technician.md)
+	- [Sheer Force](../../pokedex/abilities/sheer-force.md)
+	- [Insomnia](../../pokedex/abilities/insomnia.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

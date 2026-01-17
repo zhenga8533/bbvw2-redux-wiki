@@ -20,9 +20,13 @@
 
 	- `14 moves` → `16 moves`
 
-	**Ability Changes:**
+	**Ability (slot 1) Changes:**
 
-	- `(none)` → `regenerator`
+	- `pressure` → `regenerator`
+
+	**Ability (slot 2) Changes:**
+
+	- `(none)` → `pressure`
 
 
 ## :material-information: Basic Information
@@ -33,8 +37,8 @@
 
 	---
 
-	- [Pressure](../../pokedex/abilities/pressure.md)
 	- [Regenerator](../../pokedex/abilities/regenerator.md)
+	- [Pressure](../../pokedex/abilities/pressure.md)
 
 - **:material-ruler: Physical Attributes**
 

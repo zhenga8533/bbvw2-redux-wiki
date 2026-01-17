@@ -15,6 +15,18 @@
 
 ??? note "Sceptile ROM Changes"
 
+	**Ability (slot 1) Changes:**
+
+	- `overgrow` → `unburden`
+
+	**Ability (slot 2) Changes:**
+
+	- `(none)` → `overgrow`
+
+	**Ability (slot 3) Changes:**
+
+	- `unburden` → `(none)`
+
 	**Type Changes:**
 
 	- `grass` → `grass / dragon`
@@ -32,8 +44,8 @@
 
 	---
 
+	- [Unburden](../../pokedex/abilities/unburden.md)
 	- [Overgrow](../../pokedex/abilities/overgrow.md)
-	- [Unburden](../../pokedex/abilities/unburden.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

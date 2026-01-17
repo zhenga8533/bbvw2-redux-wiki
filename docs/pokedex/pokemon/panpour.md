@@ -16,6 +16,14 @@
 
 ??? note "Panpour ROM Changes"
 
+	**Ability (slot 2) Changes:**
+
+	- `(none)` → `torrent`
+
+	**Ability (slot 3) Changes:**
+
+	- `torrent` → `(none)`
+
 	**Growth Rate Changes:**
 
 	- `medium` → `fast`
@@ -38,7 +46,7 @@
 	---
 
 	- [Gluttony](../../pokedex/abilities/gluttony.md)
-	- [Torrent](../../pokedex/abilities/torrent.md) :material-eye-off:
+	- [Torrent](../../pokedex/abilities/torrent.md)
 
 - **:material-ruler: Physical Attributes**
 

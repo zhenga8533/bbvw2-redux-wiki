@@ -21,6 +21,14 @@
 
 	- `vibrava > flygon: unknown` → `vibrava > flygon: level-up (level 55)`
 
+	**Ability (slot 2) Changes:**
+
+	- `arena-trap` → `sheer-force`
+
+	**Ability (slot 3) Changes:**
+
+	- `sheer-force` → `arena-trap`
+
 	**Type Changes:**
 
 	- `ground` → `bug / ground`
@@ -43,8 +51,8 @@
 	---
 
 	- [Hyper Cutter](../../pokedex/abilities/hyper-cutter.md)
-	- [Arena Trap](../../pokedex/abilities/arena-trap.md)
-	- [Sheer Force](../../pokedex/abilities/sheer-force.md) :material-eye-off:
+	- [Sheer Force](../../pokedex/abilities/sheer-force.md)
+	- [Arena Trap](../../pokedex/abilities/arena-trap.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

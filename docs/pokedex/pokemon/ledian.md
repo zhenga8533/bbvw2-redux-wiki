@@ -15,9 +15,23 @@
 
 ??? note "Ledian ROM Changes"
 
-	**Ability Changes:**
+	**Ability (slot 1) Changes:**
+
+	- `swarm` → `rattled`
+
+	**Ability (slot 2) Changes:**
+
+	- `early-bird` → `iron-fist`
+
+	**Ability (slot 3) Changes:**
+
+	- `iron-fist` → `swarm`
+
+	- `rattled` → `swarm`
 
 	- `iron-fist` → `rattled`
+
+	- `swarm` → `early-bird`
 
 	**Level-up Moves Changes:**
 
@@ -26,6 +40,10 @@
 	**Machine Moves Changes:**
 
 	- `32 moves` → `34 moves (added: bug-buzz, fly)`
+
+	- `rattled` → `iron-fist`
+
+	- `early-bird` → `swarm`
 
 
 ## :material-information: Basic Information
@@ -37,8 +55,8 @@
 	---
 
 	- [Swarm](../../pokedex/abilities/swarm.md)
-	- [Early Bird](../../pokedex/abilities/early-bird.md)
-	- [Rattled](../../pokedex/abilities/rattled.md) :material-eye-off:
+	- [Rattled](../../pokedex/abilities/rattled.md)
+	- [Early Bird](../../pokedex/abilities/early-bird.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

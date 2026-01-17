@@ -19,9 +19,9 @@
 
 	- `slugma > magcargo: level-up (level 38)` → `slugma > magcargo: level-up (level 30)`
 
-	**Ability Changes:**
+	**Ability (slot 1) Changes:**
 
-	- `weak-armor` → `solid-rock`
+	- `magma-armor` → `solid-rock`
 
 	**Level-up Moves Changes:**
 
@@ -40,9 +40,9 @@
 
 	---
 
-	- [Magma Armor](../../pokedex/abilities/magma-armor.md)
+	- [Solid Rock](../../pokedex/abilities/solid-rock.md)
 	- [Flame Body](../../pokedex/abilities/flame-body.md)
-	- [Solid Rock](../../pokedex/abilities/solid-rock.md) :material-eye-off:
+	- [Weak Armor](../../pokedex/abilities/weak-armor.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

@@ -16,9 +16,13 @@
 
 ??? note "Chandelure ROM Changes"
 
-	**Ability Changes:**
+	**Ability (slot 1) Changes:**
 
-	- `infiltrator` → `flash-fire`
+	- `shadow tag` → `flash-fire`
+
+	**Ability (slot 3) Changes:**
+
+	- `infiltrator` → `shadow-tag`
 
 	**Level-up Moves Changes:**
 
@@ -37,9 +41,9 @@
 
 	---
 
-	- [Shadow Tag](../../pokedex/abilities/shadow-tag.md)
+	- [Flash Fire](../../pokedex/abilities/flash-fire.md)
 	- [Flame Body](../../pokedex/abilities/flame-body.md)
-	- [Flash Fire](../../pokedex/abilities/flash-fire.md) :material-eye-off:
+	- [Shadow Tag](../../pokedex/abilities/shadow-tag.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

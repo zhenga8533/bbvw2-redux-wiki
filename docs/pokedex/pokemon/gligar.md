@@ -19,6 +19,14 @@
 
 	- `gligar > gliscor: level-up (held: razor-fang)` → `gligar > gliscor: use-item (razor-fang)`
 
+	**Ability (slot 2) Changes:**
+
+	- `sand-veil` → `immunity`
+
+	**Ability (slot 3) Changes:**
+
+	- `immunity` → `(none)`
+
 	**Level-up Moves Changes:**
 
 	- `28 moves` → `23 moves`
@@ -37,8 +45,7 @@
 	---
 
 	- [Hyper Cutter](../../pokedex/abilities/hyper-cutter.md)
-	- [Sand Veil](../../pokedex/abilities/sand-veil.md)
-	- [Immunity](../../pokedex/abilities/immunity.md) :material-eye-off:
+	- [Immunity](../../pokedex/abilities/immunity.md)
 
 - **:material-ruler: Physical Attributes**
 

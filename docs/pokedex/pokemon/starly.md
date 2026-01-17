@@ -15,9 +15,13 @@
 
 ??? note "Starly ROM Changes"
 
-	**Ability Changes:**
+	**Ability (slot 1) Changes:**
 
-	- `(none)` → `reckless`
+	- `keen-eye` → `reckless`
+
+	**Ability (slot 2) Changes:**
+
+	- `(none)` → `keen-eye`
 
 	**Level-up Moves Changes:**
 
@@ -32,8 +36,8 @@
 
 	---
 
-	- [Keen Eye](../../pokedex/abilities/keen-eye.md)
 	- [Reckless](../../pokedex/abilities/reckless.md)
+	- [Keen Eye](../../pokedex/abilities/keen-eye.md)
 
 - **:material-ruler: Physical Attributes**
 

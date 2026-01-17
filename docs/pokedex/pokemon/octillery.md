@@ -15,9 +15,13 @@
 
 ??? note "Octillery ROM Changes"
 
-	**Ability Changes:**
+	**Ability (slot 1) Changes:**
 
-	- `moody` → `mold-breaker`
+	- `suction-cups` → `mold-breaker`
+
+	**Ability (slot 3) Changes:**
+
+	- `moody` → `suction-cups`
 
 	**Level-up Moves Changes:**
 
@@ -36,9 +40,9 @@
 
 	---
 
-	- [Suction Cups](../../pokedex/abilities/suction-cups.md)
+	- [Mold Breaker](../../pokedex/abilities/mold-breaker.md)
 	- [Sniper](../../pokedex/abilities/sniper.md)
-	- [Mold Breaker](../../pokedex/abilities/mold-breaker.md) :material-eye-off:
+	- [Suction Cups](../../pokedex/abilities/suction-cups.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

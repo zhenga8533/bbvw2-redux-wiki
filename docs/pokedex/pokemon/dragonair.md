@@ -15,6 +15,14 @@
 
 ??? note "Dragonair ROM Changes"
 
+	**Ability (slot 2) Changes:**
+
+	- `(none)` → `marvel-scale`
+
+	**Ability (slot 3) Changes:**
+
+	- `marvel-scale` → `(none)`
+
 	**Level-up Moves Changes:**
 
 	- `16 moves` → `22 moves`
@@ -29,7 +37,7 @@
 	---
 
 	- [Shed Skin](../../pokedex/abilities/shed-skin.md)
-	- [Marvel Scale](../../pokedex/abilities/marvel-scale.md) :material-eye-off:
+	- [Marvel Scale](../../pokedex/abilities/marvel-scale.md)
 
 - **:material-ruler: Physical Attributes**
 

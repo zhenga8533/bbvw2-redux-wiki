@@ -15,6 +15,14 @@
 
 ??? note "Prinplup ROM Changes"
 
+	**Ability (slot 2) Changes:**
+
+	- `(none)` → `torrent`
+
+	**Ability (slot 3) Changes:**
+
+	- `competitive` → `(none)`
+
 	**Level-up Moves Changes:**
 
 	- `15 moves` → `21 moves`
@@ -33,7 +41,7 @@
 	---
 
 	- [Defiant](../../pokedex/abilities/defiant.md)
-	- Competitive :material-eye-off:
+	- [Torrent](../../pokedex/abilities/torrent.md)
 
 - **:material-ruler: Physical Attributes**
 

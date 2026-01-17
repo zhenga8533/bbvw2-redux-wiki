@@ -28,24 +28,6 @@
 
 	**#113 [Chansey](../pokemon/chansey.md)**
 
--	[![Chikorita](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/152.gif){: .pokemon-sprite-img }](../pokemon/chikorita.md)
-
-	***
-
-	**#152 [Chikorita](../pokemon/chikorita.md)**
-
--	[![Bayleef](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/153.gif){: .pokemon-sprite-img }](../pokemon/bayleef.md)
-
-	***
-
-	**#153 [Bayleef](../pokemon/bayleef.md)**
-
--	[![Meganium](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/154.gif){: .pokemon-sprite-img }](../pokemon/meganium.md)
-
-	***
-
-	**#154 [Meganium](../pokemon/meganium.md)**
-
 -	[![Togepi](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/175.gif){: .pokemon-sprite-img }](../pokemon/togepi.md)
 
 	***

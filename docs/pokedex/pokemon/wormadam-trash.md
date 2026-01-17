@@ -21,11 +21,19 @@
 
 	- `burmy > mothim: level-up (level 20)` → `burmy > mothim: level-up (level 25)`
 
-	**Ability Changes:**
+	**Ability (slot 1) Changes:**
 
-	- `(none)` → `shield-dust`
+	- `anticipation` → `shield-dust`
 
-	- `overcoat` → `rough-skin`
+	**Ability (slot 2) Changes:**
+
+	- `(none)` → `overcoat`
+
+	**Ability (slot 3) Changes:**
+
+	- `overcoat` → `(none)`
+
+	- `shield-dust` → `rough-skin`
 
 	- `rough-skin` → `wonder-skin`
 
@@ -33,7 +41,7 @@
 
 	- `13 moves` → `20 moves`
 
-	- `wonder-skin` → `rough-skin`
+	- `wonder-skin` → `shield-dust`
 
 
 ## :material-information: Basic Information
@@ -44,9 +52,8 @@
 
 	---
 
-	- [Anticipation](../../pokedex/abilities/anticipation.md)
-	- [Wonder Skin](../../pokedex/abilities/wonder-skin.md) :material-eye-off:
-	- [Shield Dust](../../pokedex/abilities/shield-dust.md)
+	- [Wonder Skin](../../pokedex/abilities/wonder-skin.md)
+	- [Overcoat](../../pokedex/abilities/overcoat.md)
 
 - **:material-ruler: Physical Attributes**
 

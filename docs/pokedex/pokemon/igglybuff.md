@@ -16,6 +16,14 @@
 
 ??? note "Igglybuff ROM Changes"
 
+	**Ability (slot 2) Changes:**
+
+	- `(none)` → `friend-guard`
+
+	**Ability (slot 3) Changes:**
+
+	- `friend-guard` → `(none)`
+
 	**Base Happiness Changes:**
 
 	- `70` → `180`
@@ -34,7 +42,7 @@
 	---
 
 	- [Cute Charm](../../pokedex/abilities/cute-charm.md)
-	- [Friend Guard](../../pokedex/abilities/friend-guard.md) :material-eye-off:
+	- [Friend Guard](../../pokedex/abilities/friend-guard.md)
 
 - **:material-ruler: Physical Attributes**
 

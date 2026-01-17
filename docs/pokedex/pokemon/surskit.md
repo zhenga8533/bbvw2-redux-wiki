@@ -15,6 +15,14 @@
 
 ??? note "Surskit ROM Changes"
 
+	**Ability (slot 2) Changes:**
+
+	- `(none)` → `rain-dish`
+
+	**Ability (slot 3) Changes:**
+
+	- `rain-dish` → `(none)`
+
 	**Level-up Moves Changes:**
 
 	- `9 moves` → `19 moves`
@@ -33,7 +41,7 @@
 	---
 
 	- [Swift Swim](../../pokedex/abilities/swift-swim.md)
-	- [Rain Dish](../../pokedex/abilities/rain-dish.md) :material-eye-off:
+	- [Rain Dish](../../pokedex/abilities/rain-dish.md)
 
 - **:material-ruler: Physical Attributes**
 

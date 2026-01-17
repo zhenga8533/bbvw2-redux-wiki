@@ -16,6 +16,14 @@
 
 ??? note "Patrat ROM Changes"
 
+	**Ability (slot 1) Changes:**
+
+	- `run-away` → `analytic`
+
+	**Ability (slot 3) Changes:**
+
+	- `analytic` → `(none)`
+
 	**Level-up Moves Changes:**
 
 	- `15 moves` → `22 moves`
@@ -33,9 +41,8 @@
 
 	---
 
-	- [Run Away](../../pokedex/abilities/run-away.md)
+	- [Analytic](../../pokedex/abilities/analytic.md)
 	- [Keen Eye](../../pokedex/abilities/keen-eye.md)
-	- [Analytic](../../pokedex/abilities/analytic.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

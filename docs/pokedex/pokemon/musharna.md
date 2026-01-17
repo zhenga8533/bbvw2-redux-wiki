@@ -16,9 +16,9 @@
 
 ??? note "Musharna ROM Changes"
 
-	**Ability Changes:**
+	**Ability (slot 1) Changes:**
 
-	- `telepathy` → `analytic`
+	- `forewarn` → `analytic`
 
 	**Type Changes:**
 
@@ -41,9 +41,9 @@
 
 	---
 
-	- [Forewarn](../../pokedex/abilities/forewarn.md)
+	- [Analytic](../../pokedex/abilities/analytic.md)
 	- [Synchronize](../../pokedex/abilities/synchronize.md)
-	- [Analytic](../../pokedex/abilities/analytic.md) :material-eye-off:
+	- [Telepathy](../../pokedex/abilities/telepathy.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

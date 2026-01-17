@@ -16,6 +16,14 @@
 
 ??? note "Mienfoo ROM Changes"
 
+	**Ability (slot 1) Changes:**
+
+	- `inner-focus` → `reckless`
+
+	**Ability (slot 3) Changes:**
+
+	- `reckless` → `(none)`
+
 	**Level-up Moves Changes:**
 
 	- `16 moves` → `20 moves`
@@ -33,9 +41,8 @@
 
 	---
 
-	- [Inner Focus](../../pokedex/abilities/inner-focus.md)
+	- [Reckless](../../pokedex/abilities/reckless.md)
 	- [Regenerator](../../pokedex/abilities/regenerator.md)
-	- [Reckless](../../pokedex/abilities/reckless.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

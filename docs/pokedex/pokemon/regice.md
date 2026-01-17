@@ -16,9 +16,17 @@
 
 ??? note "Regice ROM Changes"
 
-	**Ability Changes:**
+	**Ability (slot 1) Changes:**
 
-	- `(none)` → `filter`
+	- `clear-body` → `filter`
+
+	**Ability (slot 2) Changes:**
+
+	- `(none)` → `ice-body`
+
+	**Ability (slot 3) Changes:**
+
+	- `ice-body` → `clear-body`
 
 	**Level-up Moves Changes:**
 
@@ -33,9 +41,9 @@
 
 	---
 
-	- [Clear Body](../../pokedex/abilities/clear-body.md)
-	- [Ice Body](../../pokedex/abilities/ice-body.md) :material-eye-off:
 	- [Filter](../../pokedex/abilities/filter.md)
+	- [Clear Body](../../pokedex/abilities/clear-body.md) :material-eye-off:
+	- [Ice Body](../../pokedex/abilities/ice-body.md)
 
 - **:material-ruler: Physical Attributes**
 

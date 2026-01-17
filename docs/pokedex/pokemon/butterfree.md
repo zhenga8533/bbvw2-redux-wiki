@@ -15,6 +15,14 @@
 
 ??? note "Butterfree ROM Changes"
 
+	**Ability (slot 2) Changes:**
+
+	- `(none)` → `tinted-lens`
+
+	**Ability (slot 3) Changes:**
+
+	- `tinted-lens` → `(none)`
+
 	**Level-up Moves Changes:**
 
 	- `16 moves` → `18 moves`
@@ -33,7 +41,7 @@
 	---
 
 	- [Compound Eyes](../../pokedex/abilities/compound-eyes.md)
-	- [Tinted Lens](../../pokedex/abilities/tinted-lens.md) :material-eye-off:
+	- [Tinted Lens](../../pokedex/abilities/tinted-lens.md)
 
 - **:material-ruler: Physical Attributes**
 

@@ -15,6 +15,14 @@
 
 ??? note "Luvdisc ROM Changes"
 
+	**Ability (slot 2) Changes:**
+
+	- `(none)` → `hydration`
+
+	**Ability (slot 3) Changes:**
+
+	- `hydration` → `(none)`
+
 	**Type Changes:**
 
 	- `water` → `water / fairy`
@@ -37,7 +45,7 @@
 	---
 
 	- [Swift Swim](../../pokedex/abilities/swift-swim.md)
-	- [Hydration](../../pokedex/abilities/hydration.md) :material-eye-off:
+	- [Hydration](../../pokedex/abilities/hydration.md)
 
 - **:material-ruler: Physical Attributes**
 

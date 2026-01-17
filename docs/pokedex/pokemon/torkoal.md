@@ -15,9 +15,17 @@
 
 ??? note "Torkoal ROM Changes"
 
-	**Ability Changes:**
+	**Ability (slot 1) Changes:**
 
-	- `(none)` → `drought`
+	- `white-smoke` → `drought`
+
+	**Ability (slot 2) Changes:**
+
+	- `(none)` → `shell-armor`
+
+	**Ability (slot 3) Changes:**
+
+	- `shell-armor` → `white-smoke`
 
 	**Level-up Moves Changes:**
 
@@ -36,9 +44,9 @@
 
 	---
 
-	- [White Smoke](../../pokedex/abilities/white-smoke.md)
-	- [Shell Armor](../../pokedex/abilities/shell-armor.md) :material-eye-off:
 	- [Drought](../../pokedex/abilities/drought.md)
+	- [White Smoke](../../pokedex/abilities/white-smoke.md) :material-eye-off:
+	- [Shell Armor](../../pokedex/abilities/shell-armor.md)
 
 - **:material-ruler: Physical Attributes**
 

@@ -15,6 +15,10 @@
 
 ??? note "Kecleon ROM Changes"
 
+	**Ability (slot 2) Changes:**
+
+	- `(none)` → `adaptability`
+
 	**Level-up Moves Changes:**
 
 	- `18 moves` → `22 moves`
@@ -33,6 +37,7 @@
 	---
 
 	- [Color Change](../../pokedex/abilities/color-change.md)
+	- [Adaptability](../../pokedex/abilities/adaptability.md)
 
 - **:material-ruler: Physical Attributes**
 

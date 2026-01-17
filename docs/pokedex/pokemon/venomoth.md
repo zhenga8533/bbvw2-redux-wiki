@@ -19,6 +19,14 @@
 
 	- `venonat > venomoth: level-up (level 31)` → `venonat > venomoth: level-up (level 28)`
 
+	**Ability (slot 1) Changes:**
+
+	- `shield-dust` → `wonder-skin`
+
+	**Ability (slot 3) Changes:**
+
+	- `wonder-skin` → `shield-dust`
+
 	**Level-up Moves Changes:**
 
 	- `19 moves` → `24 moves`
@@ -36,9 +44,9 @@
 
 	---
 
-	- [Shield Dust](../../pokedex/abilities/shield-dust.md)
+	- [Wonder Skin](../../pokedex/abilities/wonder-skin.md)
 	- [Tinted Lens](../../pokedex/abilities/tinted-lens.md)
-	- [Wonder Skin](../../pokedex/abilities/wonder-skin.md) :material-eye-off:
+	- [Shield Dust](../../pokedex/abilities/shield-dust.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

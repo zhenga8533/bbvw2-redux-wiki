@@ -15,6 +15,14 @@
 
 ??? note "Loudred ROM Changes"
 
+	**Ability (slot 2) Changes:**
+
+	- `(none)` → `scrappy`
+
+	**Ability (slot 3) Changes:**
+
+	- `scrappy` → `rattled`
+
 	**Level-up Moves Changes:**
 
 	- `16 moves` → `18 moves`
@@ -33,7 +41,8 @@
 	---
 
 	- [Soundproof](../../pokedex/abilities/soundproof.md)
-	- [Scrappy](../../pokedex/abilities/scrappy.md) :material-eye-off:
+	- [Rattled](../../pokedex/abilities/rattled.md) :material-eye-off:
+	- [Scrappy](../../pokedex/abilities/scrappy.md)
 
 - **:material-ruler: Physical Attributes**
 

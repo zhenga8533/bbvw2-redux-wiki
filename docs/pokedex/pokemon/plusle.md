@@ -15,6 +15,10 @@
 
 ??? note "Plusle ROM Changes"
 
+	**Ability (slot 2) Changes:**
+
+	- `(none)` → `lightning-rod`
+
 	**Level-up Moves Changes:**
 
 	- `18 moves` → `23 moves`
@@ -33,6 +37,7 @@
 	---
 
 	- [Plus](../../pokedex/abilities/plus.md)
+	- [Lightning Rod](../../pokedex/abilities/lightning-rod.md)
 
 - **:material-ruler: Physical Attributes**
 

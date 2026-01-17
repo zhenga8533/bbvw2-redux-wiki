@@ -22,24 +22,6 @@
 
 <div class="grid cards" markdown>
 
--	[![Torkoal](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/324.gif){: .pokemon-sprite-img }](../pokemon/torkoal.md)
-
-	***
-
-	**#324 [Torkoal](../pokemon/torkoal.md)**
-
--	[![Groudon](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/383.gif){: .pokemon-sprite-img }](../pokemon/groudon.md)
-
-	***
-
-	**#383 [Groudon](../pokemon/groudon.md)**
-
-</div>
-
-### :material-eye-off: Hidden Ability
-
-<div class="grid cards" markdown>
-
 -	[![Vulpix](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/37.gif){: .pokemon-sprite-img }](../pokemon/vulpix.md)
 
 	***
@@ -57,6 +39,18 @@
 	***
 
 	**#192 [Sunflora](../pokemon/sunflora.md)**
+
+-	[![Torkoal](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/324.gif){: .pokemon-sprite-img }](../pokemon/torkoal.md)
+
+	***
+
+	**#324 [Torkoal](../pokemon/torkoal.md)**
+
+-	[![Groudon](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/383.gif){: .pokemon-sprite-img }](../pokemon/groudon.md)
+
+	***
+
+	**#383 [Groudon](../pokemon/groudon.md)**
 
 </div>
 

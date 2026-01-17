@@ -15,6 +15,18 @@
 
 ??? note "Lickilicky ROM Changes"
 
+	**Ability (slot 1) Changes:**
+
+	- `own-tempo` → `cloud-nine`
+
+	**Ability (slot 2) Changes:**
+
+	- `oblivious` → `gluttony`
+
+	**Ability (slot 3) Changes:**
+
+	- `cloud-nine` → `(none)`
+
 	**Level-up Moves Changes:**
 
 	- `16 moves` → `24 moves`
@@ -28,9 +40,8 @@
 
 	---
 
-	- [Own Tempo](../../pokedex/abilities/own-tempo.md)
-	- [Oblivious](../../pokedex/abilities/oblivious.md)
-	- [Cloud Nine](../../pokedex/abilities/cloud-nine.md) :material-eye-off:
+	- [Cloud Nine](../../pokedex/abilities/cloud-nine.md)
+	- [Gluttony](../../pokedex/abilities/gluttony.md)
 
 - **:material-ruler: Physical Attributes**
 

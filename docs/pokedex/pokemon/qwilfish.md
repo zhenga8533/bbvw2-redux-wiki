@@ -15,6 +15,14 @@
 
 ??? note "Qwilfish ROM Changes"
 
+	**Ability (slot 1) Changes:**
+
+	- `poison-point` → `intimidate`
+
+	**Ability (slot 3) Changes:**
+
+	- `intimidate` → `poison-point`
+
 	**Level-up Moves Changes:**
 
 	- `18 moves` → `25 moves`
@@ -32,9 +40,9 @@
 
 	---
 
-	- [Poison Point](../../pokedex/abilities/poison-point.md)
+	- [Intimidate](../../pokedex/abilities/intimidate.md)
 	- [Swift Swim](../../pokedex/abilities/swift-swim.md)
-	- [Intimidate](../../pokedex/abilities/intimidate.md) :material-eye-off:
+	- [Poison Point](../../pokedex/abilities/poison-point.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

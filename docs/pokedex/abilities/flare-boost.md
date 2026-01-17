@@ -18,7 +18,7 @@
 
 ## :material-pokeball: Pokémon with this Ability
 
-### :material-eye-off: Hidden Ability
+### :material-star: Standard Ability
 
 <div class="grid cards" markdown>
 

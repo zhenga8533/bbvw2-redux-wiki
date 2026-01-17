@@ -15,6 +15,14 @@
 
 ??? note "Ariados ROM Changes"
 
+	**Ability (slot 1) Changes:**
+
+	- `swarm` → `sniper`
+
+	**Ability (slot 3) Changes:**
+
+	- `sniper` → `(none)`
+
 	**Level-up Moves Changes:**
 
 	- `18 moves` → `25 moves`
@@ -32,9 +40,8 @@
 
 	---
 
-	- [Swarm](../../pokedex/abilities/swarm.md)
+	- [Sniper](../../pokedex/abilities/sniper.md)
 	- [Insomnia](../../pokedex/abilities/insomnia.md)
-	- [Sniper](../../pokedex/abilities/sniper.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

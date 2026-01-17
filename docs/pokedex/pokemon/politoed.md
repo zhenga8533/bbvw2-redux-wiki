@@ -19,6 +19,14 @@
 
 	- `poliwhirl > politoed: trade (held: kings-rock)` → `poliwhirl > politoed: use-item (king's-rock)`
 
+	**Ability (slot 2) Changes:**
+
+	- `damp` → `drizzle`
+
+	**Ability (slot 3) Changes:**
+
+	- `drizzle` → `(none)`
+
 	**Level-up Moves Changes:**
 
 	- `7 moves` → `12 moves`
@@ -37,8 +45,7 @@
 	---
 
 	- [Water Absorb](../../pokedex/abilities/water-absorb.md)
-	- [Damp](../../pokedex/abilities/damp.md)
-	- [Drizzle](../../pokedex/abilities/drizzle.md) :material-eye-off:
+	- [Drizzle](../../pokedex/abilities/drizzle.md)
 
 - **:material-ruler: Physical Attributes**
 

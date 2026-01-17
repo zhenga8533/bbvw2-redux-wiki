@@ -15,6 +15,18 @@
 
 ??? note "Nidoking ROM Changes"
 
+	**Ability (slot 1) Changes:**
+
+	- `poison-point` → `sheer-force`
+
+	**Ability (slot 2) Changes:**
+
+	- `rivalry` → `poison-point`
+
+	**Ability (slot 3) Changes:**
+
+	- `sheer-force` → `rivalry`
+
 	**Level-up Moves Changes:**
 
 	- `8 moves` → `14 moves`
@@ -32,9 +44,9 @@
 
 	---
 
+	- [Sheer Force](../../pokedex/abilities/sheer-force.md)
 	- [Poison Point](../../pokedex/abilities/poison-point.md)
-	- [Rivalry](../../pokedex/abilities/rivalry.md)
-	- [Sheer Force](../../pokedex/abilities/sheer-force.md) :material-eye-off:
+	- [Rivalry](../../pokedex/abilities/rivalry.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

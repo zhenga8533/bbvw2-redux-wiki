@@ -15,6 +15,14 @@
 
 ??? note "Spinda ROM Changes"
 
+	**Ability (slot 1) Changes:**
+
+	- `own-tempo` → `contrary`
+
+	**Ability (slot 3) Changes:**
+
+	- `contrary` → `(none)`
+
 	**Level-up Moves Changes:**
 
 	- `13 moves` → `21 moves`
@@ -28,9 +36,8 @@
 
 	---
 
-	- [Own Tempo](../../pokedex/abilities/own-tempo.md)
+	- [Contrary](../../pokedex/abilities/contrary.md)
 	- [Tangled Feet](../../pokedex/abilities/tangled-feet.md)
-	- [Contrary](../../pokedex/abilities/contrary.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

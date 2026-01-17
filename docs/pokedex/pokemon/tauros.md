@@ -15,6 +15,14 @@
 
 ??? note "Tauros ROM Changes"
 
+	**Ability (slot 2) Changes:**
+
+	- `anger-point` → `sheer-force`
+
+	**Ability (slot 3) Changes:**
+
+	- `sheer-force` → `anger-point`
+
 	**Level-up Moves Changes:**
 
 	- `14 moves` → `21 moves`
@@ -33,8 +41,8 @@
 	---
 
 	- [Intimidate](../../pokedex/abilities/intimidate.md)
-	- [Anger Point](../../pokedex/abilities/anger-point.md)
-	- [Sheer Force](../../pokedex/abilities/sheer-force.md) :material-eye-off:
+	- [Sheer Force](../../pokedex/abilities/sheer-force.md)
+	- [Anger Point](../../pokedex/abilities/anger-point.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

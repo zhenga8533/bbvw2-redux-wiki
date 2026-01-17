@@ -21,6 +21,14 @@
 
 	- `burmy > mothim: level-up (level 20)` → `burmy > mothim: level-up (level 25)`
 
+	**Ability (slot 2) Changes:**
+
+	- `(none)` → `overcoat`
+
+	**Ability (slot 3) Changes:**
+
+	- `overcoat` → `(none)`
+
 	**Level-up Moves Changes:**
 
 	- `4 moves` → `7 moves`
@@ -35,7 +43,7 @@
 	---
 
 	- [Shed Skin](../../pokedex/abilities/shed-skin.md)
-	- [Overcoat](../../pokedex/abilities/overcoat.md) :material-eye-off:
+	- [Overcoat](../../pokedex/abilities/overcoat.md)
 
 - **:material-ruler: Physical Attributes**
 

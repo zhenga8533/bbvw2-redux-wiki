@@ -34,24 +34,6 @@
 
 	**#047 [Parasect](../pokemon/parasect.md)**
 
--	[![Croagunk](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/453.gif){: .pokemon-sprite-img }](../pokemon/croagunk.md)
-
-	***
-
-	**#453 [Croagunk](../pokemon/croagunk.md)**
-
--	[![Toxicroak](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/454.gif){: .pokemon-sprite-img }](../pokemon/toxicroak.md)
-
-	***
-
-	**#454 [Toxicroak](../pokemon/toxicroak.md)**
-
-</div>
-
-### :material-eye-off: Hidden Ability
-
-<div class="grid cards" markdown>
-
 -	[![Jynx](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/124.gif){: .pokemon-sprite-img }](../pokemon/jynx.md)
 
 	***
@@ -63,6 +45,18 @@
 	***
 
 	**#238 [Smoochum](../pokemon/smoochum.md)**
+
+-	[![Croagunk](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/453.gif){: .pokemon-sprite-img }](../pokemon/croagunk.md)
+
+	***
+
+	**#453 [Croagunk](../pokemon/croagunk.md)**
+
+-	[![Toxicroak](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/454.gif){: .pokemon-sprite-img }](../pokemon/toxicroak.md)
+
+	***
+
+	**#454 [Toxicroak](../pokemon/toxicroak.md)**
 
 </div>
 

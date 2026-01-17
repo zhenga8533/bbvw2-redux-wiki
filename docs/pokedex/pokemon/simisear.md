@@ -16,6 +16,14 @@
 
 ??? note "Simisear ROM Changes"
 
+	**Ability (slot 2) Changes:**
+
+	- `(none)` → `blaze`
+
+	**Ability (slot 3) Changes:**
+
+	- `blaze` → `(none)`
+
 	**Growth Rate Changes:**
 
 	- `medium` → `fast`
@@ -38,7 +46,7 @@
 	---
 
 	- [Gluttony](../../pokedex/abilities/gluttony.md)
-	- [Blaze](../../pokedex/abilities/blaze.md) :material-eye-off:
+	- [Blaze](../../pokedex/abilities/blaze.md)
 
 - **:material-ruler: Physical Attributes**
 

@@ -15,9 +15,19 @@
 
 ??? note "Cacnea ROM Changes"
 
-	**Ability Changes:**
+	**Ability (slot 1) Changes:**
 
-	- `(none)` → `unnerve`
+	- `sand-veil` → `unnerve`
+
+	**Ability (slot 2) Changes:**
+
+	- `(none)` → `water-absorb`
+
+	**Ability (slot 3) Changes:**
+
+	- `water-absorb` → `(none)`
+
+	- `unnerve` → `sand-veil`
 
 	**Type Changes:**
 
@@ -41,8 +51,7 @@
 	---
 
 	- [Sand Veil](../../pokedex/abilities/sand-veil.md)
-	- [Water Absorb](../../pokedex/abilities/water-absorb.md) :material-eye-off:
-	- [Unnerve](../../pokedex/abilities/unnerve.md)
+	- [Water Absorb](../../pokedex/abilities/water-absorb.md)
 
 - **:material-ruler: Physical Attributes**
 

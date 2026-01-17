@@ -15,6 +15,14 @@
 
 ??? note "Clefable ROM Changes"
 
+	**Ability (slot 1) Changes:**
+
+	- `cute-charm` → `unaware`
+
+	**Ability (slot 3) Changes:**
+
+	- `unaware` → `(none)`
+
 	**Level-up Moves Changes:**
 
 	- `4 moves` → `7 moves`
@@ -32,9 +40,8 @@
 
 	---
 
-	- [Cute Charm](../../pokedex/abilities/cute-charm.md)
+	- [Unaware](../../pokedex/abilities/unaware.md)
 	- [Magic Guard](../../pokedex/abilities/magic-guard.md)
-	- [Unaware](../../pokedex/abilities/unaware.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

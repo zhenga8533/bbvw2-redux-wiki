@@ -16,9 +16,19 @@
 
 ??? note "Emboar ROM Changes"
 
-	**Ability Changes:**
+	**Ability (slot 1) Changes:**
 
-	- `(none)` → `mold-breaker`
+	- `blaze` → `mold-breaker`
+
+	**Ability (slot 2) Changes:**
+
+	- `(none)` → `blaze`
+
+	- `mold-breaker` → `reckless`
+
+	**Ability (slot 3) Changes:**
+
+	- `reckless` → `(none)`
 
 	**Type Changes:**
 
@@ -32,6 +42,10 @@
 
 	- `44 moves` → `46 moves (added: quash, rock-climb)`
 
+	- `reckless` → `mold-breaker`
+
+	- `(none)` → `reckless`
+
 
 ## :material-information: Basic Information
 
@@ -41,9 +55,8 @@
 
 	---
 
+	- [Reckless](../../pokedex/abilities/reckless.md)
 	- [Blaze](../../pokedex/abilities/blaze.md)
-	- [Reckless](../../pokedex/abilities/reckless.md) :material-eye-off:
-	- [Mold Breaker](../../pokedex/abilities/mold-breaker.md)
 
 - **:material-ruler: Physical Attributes**
 

@@ -15,9 +15,21 @@
 
 ??? note "Wigglytuff ROM Changes"
 
-	**Ability Changes:**
+	**Ability (slot 1) Changes:**
 
-	- `(none)` → `huge-power`
+	- `cute-charm` → `huge-power`
+
+	**Ability (slot 2) Changes:**
+
+	- `(none)` → `friend-guard`
+
+	- `huge-power` → `cute-charm`
+
+	- `friend-guard` → `frisk`
+
+	**Ability (slot 3) Changes:**
+
+	- `frisk` → `(none)`
 
 	**Level-up Moves Changes:**
 
@@ -26,6 +38,10 @@
 	**Machine Moves Changes:**
 
 	- `45 moves` → `47 moves (added: low-sweep, power-gem)`
+
+	- `frisk` → `friend-guard`
+
+	- `(none)` → `frisk`
 
 
 ## :material-information: Basic Information
@@ -37,8 +53,7 @@
 	---
 
 	- [Cute Charm](../../pokedex/abilities/cute-charm.md)
-	- [Frisk](../../pokedex/abilities/frisk.md) :material-eye-off:
-	- [Huge Power](../../pokedex/abilities/huge-power.md)
+	- [Frisk](../../pokedex/abilities/frisk.md)
 
 - **:material-ruler: Physical Attributes**
 

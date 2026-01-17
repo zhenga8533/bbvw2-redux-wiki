@@ -22,6 +22,24 @@
 
 <div class="grid cards" markdown>
 
+-	[![Bulbasaur](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/1.gif){: .pokemon-sprite-img }](../pokemon/bulbasaur.md)
+
+	***
+
+	**#001 [Bulbasaur](../pokemon/bulbasaur.md)**
+
+-	[![Ivysaur](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/2.gif){: .pokemon-sprite-img }](../pokemon/ivysaur.md)
+
+	***
+
+	**#002 [Ivysaur](../pokemon/ivysaur.md)**
+
+-	[![Venusaur](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/3.gif){: .pokemon-sprite-img }](../pokemon/venusaur.md)
+
+	***
+
+	**#003 [Venusaur](../pokemon/venusaur.md)**
+
 -	[![Oddish](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/43.gif){: .pokemon-sprite-img }](../pokemon/oddish.md)
 
 	***
@@ -70,12 +88,6 @@
 
 	**#103 [Exeggutor](../pokemon/exeggutor.md)**
 
--	[![Tangela](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/114.gif){: .pokemon-sprite-img }](../pokemon/tangela.md)
-
-	***
-
-	**#114 [Tangela](../pokemon/tangela.md)**
-
 -	[![Bellossom](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/182.gif){: .pokemon-sprite-img }](../pokemon/bellossom.md)
 
 	***
@@ -105,12 +117,6 @@
 	***
 
 	**#191 [Sunkern](../pokemon/sunkern.md)**
-
--	[![Sunflora](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/192.gif){: .pokemon-sprite-img }](../pokemon/sunflora.md)
-
-	***
-
-	**#192 [Sunflora](../pokemon/sunflora.md)**
 
 -	[![Seedot](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/273.gif){: .pokemon-sprite-img }](../pokemon/seedot.md)
 
@@ -142,11 +148,11 @@
 
 	**#420 [Cherubi](../pokemon/cherubi.md)**
 
--	[![Tangrowth](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/465.gif){: .pokemon-sprite-img }](../pokemon/tangrowth.md)
+-	[![Leafeon](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/470.gif){: .pokemon-sprite-img }](../pokemon/leafeon.md)
 
 	***
 
-	**#465 [Tangrowth](../pokemon/tangrowth.md)**
+	**#470 [Leafeon](../pokemon/leafeon.md)**
 
 -	[![Sewaddle](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/540.gif){: .pokemon-sprite-img }](../pokemon/sewaddle.md)
 
@@ -178,12 +184,6 @@
 
 	**#549 [Lilligant](../pokemon/lilligant.md)**
 
--	[![Maractus](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/556.gif){: .pokemon-sprite-img }](../pokemon/maractus.md)
-
-	***
-
-	**#556 [Maractus](../pokemon/maractus.md)**
-
 -	[![Deerling](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/585.gif){: .pokemon-sprite-img }](../pokemon/deerling.md)
 
 	***
@@ -202,29 +202,11 @@
 
 <div class="grid cards" markdown>
 
--	[![Bulbasaur](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/1.gif){: .pokemon-sprite-img }](../pokemon/bulbasaur.md)
+-	[![Sunflora](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/192.gif){: .pokemon-sprite-img }](../pokemon/sunflora.md)
 
 	***
 
-	**#001 [Bulbasaur](../pokemon/bulbasaur.md)**
-
--	[![Ivysaur](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/2.gif){: .pokemon-sprite-img }](../pokemon/ivysaur.md)
-
-	***
-
-	**#002 [Ivysaur](../pokemon/ivysaur.md)**
-
--	[![Venusaur](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/3.gif){: .pokemon-sprite-img }](../pokemon/venusaur.md)
-
-	***
-
-	**#003 [Venusaur](../pokemon/venusaur.md)**
-
--	[![Leafeon](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/470.gif){: .pokemon-sprite-img }](../pokemon/leafeon.md)
-
-	***
-
-	**#470 [Leafeon](../pokemon/leafeon.md)**
+	**#192 [Sunflora](../pokemon/sunflora.md)**
 
 -	[![Cottonee](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/546.gif){: .pokemon-sprite-img }](../pokemon/cottonee.md)
 

@@ -15,6 +15,14 @@
 
 ??? note "Pachirisu ROM Changes"
 
+	**Ability (slot 1) Changes:**
+
+	- `run-away` → `volt-absorb`
+
+	**Ability (slot 3) Changes:**
+
+	- `volt-absorb` → `run-away`
+
 	**Level-up Moves Changes:**
 
 	- `14 moves` → `20 moves`
@@ -32,9 +40,9 @@
 
 	---
 
-	- [Run Away](../../pokedex/abilities/run-away.md)
+	- [Volt Absorb](../../pokedex/abilities/volt-absorb.md)
 	- [Pickup](../../pokedex/abilities/pickup.md)
-	- [Volt Absorb](../../pokedex/abilities/volt-absorb.md) :material-eye-off:
+	- [Run Away](../../pokedex/abilities/run-away.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

@@ -22,6 +22,30 @@
 
 <div class="grid cards" markdown>
 
+-	[![Hitmonlee](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/106.gif){: .pokemon-sprite-img }](../pokemon/hitmonlee.md)
+
+	***
+
+	**#106 [Hitmonlee](../pokemon/hitmonlee.md)**
+
+-	[![Treecko](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/252.gif){: .pokemon-sprite-img }](../pokemon/treecko.md)
+
+	***
+
+	**#252 [Treecko](../pokemon/treecko.md)**
+
+-	[![Grovyle](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/253.gif){: .pokemon-sprite-img }](../pokemon/grovyle.md)
+
+	***
+
+	**#253 [Grovyle](../pokemon/grovyle.md)**
+
+-	[![Sceptile](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/254.gif){: .pokemon-sprite-img }](../pokemon/sceptile.md)
+
+	***
+
+	**#254 [Sceptile](../pokemon/sceptile.md)**
+
 -	[![Drifloon](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/425.gif){: .pokemon-sprite-img }](../pokemon/drifloon.md)
 
 	***
@@ -46,35 +70,11 @@
 
 	**#510 [Liepard](../pokemon/liepard.md)**
 
-</div>
-
-### :material-eye-off: Hidden Ability
-
-<div class="grid cards" markdown>
-
--	[![Hitmonlee](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/106.gif){: .pokemon-sprite-img }](../pokemon/hitmonlee.md)
+-	[![Accelgor](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/617.gif){: .pokemon-sprite-img }](../pokemon/accelgor.md)
 
 	***
 
-	**#106 [Hitmonlee](../pokemon/hitmonlee.md)**
-
--	[![Treecko](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/252.gif){: .pokemon-sprite-img }](../pokemon/treecko.md)
-
-	***
-
-	**#252 [Treecko](../pokemon/treecko.md)**
-
--	[![Grovyle](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/253.gif){: .pokemon-sprite-img }](../pokemon/grovyle.md)
-
-	***
-
-	**#253 [Grovyle](../pokemon/grovyle.md)**
-
--	[![Sceptile](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/254.gif){: .pokemon-sprite-img }](../pokemon/sceptile.md)
-
-	***
-
-	**#254 [Sceptile](../pokemon/sceptile.md)**
+	**#617 [Accelgor](../pokemon/accelgor.md)**
 
 </div>
 

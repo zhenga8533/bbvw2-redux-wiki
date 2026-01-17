@@ -16,6 +16,18 @@
 
 ??? note "Trubbish ROM Changes"
 
+	**Ability (slot 1) Changes:**
+
+	- `stench` → `aftermath`
+
+	**Ability (slot 2) Changes:**
+
+	- `sticky-hold` → `stench`
+
+	**Ability (slot 3) Changes:**
+
+	- `aftermath` → `sticky-hold`
+
 	**Level-up Moves Changes:**
 
 	- `16 moves` → `22 moves`
@@ -29,9 +41,9 @@
 
 	---
 
+	- [Aftermath](../../pokedex/abilities/aftermath.md)
 	- [Stench](../../pokedex/abilities/stench.md)
-	- [Sticky Hold](../../pokedex/abilities/sticky-hold.md)
-	- [Aftermath](../../pokedex/abilities/aftermath.md) :material-eye-off:
+	- [Sticky Hold](../../pokedex/abilities/sticky-hold.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

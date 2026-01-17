@@ -16,6 +16,10 @@
 
 ??? note "Stunfisk ROM Changes"
 
+	**Ability (slot 2) Changes:**
+
+	- `limber` → `lightning-rod`
+
 	**Level-up Moves Changes:**
 
 	- `15 moves` → `21 moves`
@@ -30,7 +34,7 @@
 	---
 
 	- [Static](../../pokedex/abilities/static.md)
-	- [Limber](../../pokedex/abilities/limber.md)
+	- [Lightning Rod](../../pokedex/abilities/lightning-rod.md)
 	- [Sand Veil](../../pokedex/abilities/sand-veil.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**

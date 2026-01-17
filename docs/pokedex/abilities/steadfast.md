@@ -22,6 +22,18 @@
 
 <div class="grid cards" markdown>
 
+-	[![Machop](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/66.gif){: .pokemon-sprite-img }](../pokemon/machop.md)
+
+	***
+
+	**#066 [Machop](../pokemon/machop.md)**
+
+-	[![Machoke](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/67.gif){: .pokemon-sprite-img }](../pokemon/machoke.md)
+
+	***
+
+	**#067 [Machoke](../pokemon/machoke.md)**
+
 -	[![Tyrogue](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/236.gif){: .pokemon-sprite-img }](../pokemon/tyrogue.md)
 
 	***
@@ -51,18 +63,6 @@
 ### :material-eye-off: Hidden Ability
 
 <div class="grid cards" markdown>
-
--	[![Machop](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/66.gif){: .pokemon-sprite-img }](../pokemon/machop.md)
-
-	***
-
-	**#066 [Machop](../pokemon/machop.md)**
-
--	[![Machoke](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/67.gif){: .pokemon-sprite-img }](../pokemon/machoke.md)
-
-	***
-
-	**#067 [Machoke](../pokemon/machoke.md)**
 
 -	[![Machamp](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/68.gif){: .pokemon-sprite-img }](../pokemon/machamp.md)
 

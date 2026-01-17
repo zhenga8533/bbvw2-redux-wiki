@@ -16,6 +16,14 @@
 
 ??? note "Drilbur ROM Changes"
 
+	**Ability (slot 2) Changes:**
+
+	- `sand-force` → `mold-breaker`
+
+	**Ability (slot 3) Changes:**
+
+	- `mold-breaker` → `sand-force`
+
 	**Level-up Moves Changes:**
 
 	- `15 moves` → `18 moves`
@@ -30,8 +38,8 @@
 	---
 
 	- [Sand Rush](../../pokedex/abilities/sand-rush.md)
-	- [Sand Force](../../pokedex/abilities/sand-force.md)
-	- [Mold Breaker](../../pokedex/abilities/mold-breaker.md) :material-eye-off:
+	- [Mold Breaker](../../pokedex/abilities/mold-breaker.md)
+	- [Sand Force](../../pokedex/abilities/sand-force.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

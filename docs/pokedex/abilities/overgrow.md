@@ -112,12 +112,6 @@
 
 	**#497 [Serperior](../pokemon/serperior.md)**
 
-</div>
-
-### :material-eye-off: Hidden Ability
-
-<div class="grid cards" markdown>
-
 -	[![Pansage](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/511.gif){: .pokemon-sprite-img }](../pokemon/pansage.md)
 
 	***

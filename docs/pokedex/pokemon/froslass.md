@@ -19,6 +19,14 @@
 
 	- `snorunt > glalie: level-up (level 42)` → `snorunt > glalie: use-item (ice-stone)`
 
+	**Ability (slot 2) Changes:**
+
+	- `(none)` → `cursed-body`
+
+	**Ability (slot 3) Changes:**
+
+	- `cursed-body` → `(none)`
+
 	**Level-up Moves Changes:**
 
 	- `15 moves` → `19 moves`
@@ -37,7 +45,7 @@
 	---
 
 	- [Snow Cloak](../../pokedex/abilities/snow-cloak.md)
-	- [Cursed Body](../../pokedex/abilities/cursed-body.md) :material-eye-off:
+	- [Cursed Body](../../pokedex/abilities/cursed-body.md)
 
 - **:material-ruler: Physical Attributes**
 

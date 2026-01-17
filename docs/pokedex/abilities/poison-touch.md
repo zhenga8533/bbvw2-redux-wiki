@@ -22,18 +22,6 @@
 
 <div class="grid cards" markdown>
 
--	[![Seismitoad](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/537.gif){: .pokemon-sprite-img }](../pokemon/seismitoad.md)
-
-	***
-
-	**#537 [Seismitoad](../pokemon/seismitoad.md)**
-
-</div>
-
-### :material-eye-off: Hidden Ability
-
-<div class="grid cards" markdown>
-
 -	[![Grimer](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/88.gif){: .pokemon-sprite-img }](../pokemon/grimer.md)
 
 	***
@@ -46,6 +34,12 @@
 
 	**#089 [Muk](../pokemon/muk.md)**
 
+-	[![Umbreon](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/197.gif){: .pokemon-sprite-img }](../pokemon/umbreon.md)
+
+	***
+
+	**#197 [Umbreon](../pokemon/umbreon.md)**
+
 -	[![Croagunk](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/453.gif){: .pokemon-sprite-img }](../pokemon/croagunk.md)
 
 	***
@@ -57,6 +51,12 @@
 	***
 
 	**#454 [Toxicroak](../pokemon/toxicroak.md)**
+
+-	[![Seismitoad](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/537.gif){: .pokemon-sprite-img }](../pokemon/seismitoad.md)
+
+	***
+
+	**#537 [Seismitoad](../pokemon/seismitoad.md)**
 
 </div>
 

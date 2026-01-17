@@ -12,6 +12,18 @@
 	</div>
 </div>
 
+
+??? note "Ditto ROM Changes"
+
+	**Ability (slot 1) Changes:**
+
+	- `limber` → `imposter`
+
+	**Ability (slot 3) Changes:**
+
+	- `imposter` → `(none)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>
@@ -20,8 +32,7 @@
 
 	---
 
-	- [Limber](../../pokedex/abilities/limber.md)
-	- [Imposter](../../pokedex/abilities/imposter.md) :material-eye-off:
+	- [Imposter](../../pokedex/abilities/imposter.md)
 
 - **:material-ruler: Physical Attributes**
 

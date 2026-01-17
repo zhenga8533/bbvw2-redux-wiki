@@ -156,23 +156,18 @@ class PokemonChangesParser(BaseParser):
 
         # Handle Ability changes
         elif attribute.startswith("Ability"):
-            # Extract slot number from attribute name (e.g., "Ability 1" -> 1)
-            slot = None
-            if " " in attribute:
-                try:
-                    slot = int(attribute.split()[-1])
-                except ValueError:
-                    pass
+            abilities = set()
 
-            # Parse abilities - value might be "Ability1 / Ability2 / Ability3"
-            abilities = [name_to_id(a.strip()) for a in value.split("/") if a.strip()]
-
-            # If there's a slot number, update that specific slot
-            if slot is not None and len(abilities) == 1:
-                AttributeService.update_ability_slot(pokemon_id, abilities[0], slot)
-            # Otherwise update all abilities (this handles bulk ability changes)
-            elif abilities:
-                AttributeService.update_ability_slot(pokemon_id, abilities[0], slot)
+            for i, ability in enumerate(
+                [name_to_id(a.strip()) for a in value.split("/")]
+            ):
+                if ability == "-" or ability in abilities:
+                    AttributeService.delete_ability_slot(pokemon_id, i + 1)
+                else:
+                    AttributeService.update_ability_slot(
+                        pokemon_id, name_to_id(ability), i + 1
+                    )
+                    abilities.add(ability)
 
         # Handle Base Happiness
         elif attribute == "Base Happiness":

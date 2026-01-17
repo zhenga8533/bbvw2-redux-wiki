@@ -15,9 +15,19 @@
 
 ??? note "Venusaur ROM Changes"
 
-	**Ability Changes:**
+	**Ability (slot 1) Changes:**
 
-	- `(none)` → `solar-power`
+	- `overgrow` → `solar-power`
+
+	**Ability (slot 2) Changes:**
+
+	- `(none)` → `overgrow`
+
+	- `solar-power` → `chlorophyll`
+
+	**Ability (slot 3) Changes:**
+
+	- `chlorophyll` → `(none)`
 
 	**Level-up Moves Changes:**
 
@@ -26,6 +36,10 @@
 	**Machine Moves Changes:**
 
 	- `31 moves` → `33 moves (added: sludge-wave, weather-ball)`
+
+	- `chlorophyll` → `solar-power`
+
+	- `(none)` → `chlorophyll`
 
 
 ## :material-information: Basic Information
@@ -36,9 +50,8 @@
 
 	---
 
+	- [Chlorophyll](../../pokedex/abilities/chlorophyll.md)
 	- [Overgrow](../../pokedex/abilities/overgrow.md)
-	- [Chlorophyll](../../pokedex/abilities/chlorophyll.md) :material-eye-off:
-	- [Solar Power](../../pokedex/abilities/solar-power.md)
 
 - **:material-ruler: Physical Attributes**
 

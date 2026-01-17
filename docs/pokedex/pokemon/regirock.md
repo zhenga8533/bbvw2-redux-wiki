@@ -16,9 +16,17 @@
 
 ??? note "Regirock ROM Changes"
 
-	**Ability Changes:**
+	**Ability (slot 1) Changes:**
 
-	- `(none)` → `solid-rock`
+	- `clear-body` → `solid-rock`
+
+	**Ability (slot 2) Changes:**
+
+	- `(none)` → `sturdy`
+
+	**Ability (slot 3) Changes:**
+
+	- `sturdy` → `clear-body`
 
 	**Level-up Moves Changes:**
 
@@ -33,9 +41,9 @@
 
 	---
 
-	- [Clear Body](../../pokedex/abilities/clear-body.md)
-	- [Sturdy](../../pokedex/abilities/sturdy.md) :material-eye-off:
 	- [Solid Rock](../../pokedex/abilities/solid-rock.md)
+	- [Clear Body](../../pokedex/abilities/clear-body.md) :material-eye-off:
+	- [Sturdy](../../pokedex/abilities/sturdy.md)
 
 - **:material-ruler: Physical Attributes**
 

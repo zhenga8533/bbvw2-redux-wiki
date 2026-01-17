@@ -22,42 +22,6 @@
 
 <div class="grid cards" markdown>
 
--	[![Sandile](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/551.gif){: .pokemon-sprite-img }](../pokemon/sandile.md)
-
-	***
-
-	**#551 [Sandile](../pokemon/sandile.md)**
-
--	[![Krokorok](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/552.gif){: .pokemon-sprite-img }](../pokemon/krokorok.md)
-
-	***
-
-	**#552 [Krokorok](../pokemon/krokorok.md)**
-
--	[![Krookodile](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/553.gif){: .pokemon-sprite-img }](../pokemon/krookodile.md)
-
-	***
-
-	**#553 [Krookodile](../pokemon/krookodile.md)**
-
--	[![Scraggy](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/559.gif){: .pokemon-sprite-img }](../pokemon/scraggy.md)
-
-	***
-
-	**#559 [Scraggy](../pokemon/scraggy.md)**
-
--	[![Scrafty](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/560.gif){: .pokemon-sprite-img }](../pokemon/scrafty.md)
-
-	***
-
-	**#560 [Scrafty](../pokemon/scrafty.md)**
-
-</div>
-
-### :material-eye-off: Hidden Ability
-
-<div class="grid cards" markdown>
-
 -	[![Pinsir](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/127.gif){: .pokemon-sprite-img }](../pokemon/pinsir.md)
 
 	***
@@ -93,6 +57,36 @@
 	***
 
 	**#430 [Honchkrow](../pokemon/honchkrow.md)**
+
+-	[![Sandile](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/551.gif){: .pokemon-sprite-img }](../pokemon/sandile.md)
+
+	***
+
+	**#551 [Sandile](../pokemon/sandile.md)**
+
+-	[![Krokorok](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/552.gif){: .pokemon-sprite-img }](../pokemon/krokorok.md)
+
+	***
+
+	**#552 [Krokorok](../pokemon/krokorok.md)**
+
+-	[![Krookodile](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/553.gif){: .pokemon-sprite-img }](../pokemon/krookodile.md)
+
+	***
+
+	**#553 [Krookodile](../pokemon/krookodile.md)**
+
+-	[![Scraggy](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/559.gif){: .pokemon-sprite-img }](../pokemon/scraggy.md)
+
+	***
+
+	**#559 [Scraggy](../pokemon/scraggy.md)**
+
+-	[![Scrafty](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/560.gif){: .pokemon-sprite-img }](../pokemon/scrafty.md)
+
+	***
+
+	**#560 [Scrafty](../pokemon/scrafty.md)**
 
 </div>
 

@@ -22,6 +22,12 @@
 
 <div class="grid cards" markdown>
 
+-	[![Articuno](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/144.gif){: .pokemon-sprite-img }](../pokemon/articuno.md)
+
+	***
+
+	**#144 [Articuno](../pokemon/articuno.md)**
+
 -	[![Snover](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/459.gif){: .pokemon-sprite-img }](../pokemon/snover.md)
 
 	***

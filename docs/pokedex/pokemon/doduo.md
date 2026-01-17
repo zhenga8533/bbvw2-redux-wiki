@@ -15,6 +15,16 @@
 
 ??? note "Doduo ROM Changes"
 
+	**Ability (slot 1) Changes:**
+
+	- `run-away` → `tangled-feet`
+
+	**Ability (slot 3) Changes:**
+
+	- `tangled-feet` → `(none)`
+
+	- `(none)` → `run-away`
+
 	**Level-up Moves Changes:**
 
 	- `13 moves` → `22 moves`
@@ -22,6 +32,8 @@
 	**Machine Moves Changes:**
 
 	- `19 moves` → `21 moves (added: low-sweep, rock-climb)`
+
+	- `run-away` → `(none)`
 
 
 ## :material-information: Basic Information
@@ -32,9 +44,9 @@
 
 	---
 
-	- [Run Away](../../pokedex/abilities/run-away.md)
+	- [Tangled Feet](../../pokedex/abilities/tangled-feet.md)
 	- [Early Bird](../../pokedex/abilities/early-bird.md)
-	- [Tangled Feet](../../pokedex/abilities/tangled-feet.md) :material-eye-off:
+	- [Run Away](../../pokedex/abilities/run-away.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

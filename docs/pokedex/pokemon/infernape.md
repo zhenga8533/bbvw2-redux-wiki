@@ -15,6 +15,18 @@
 
 ??? note "Infernape ROM Changes"
 
+	**Ability (slot 1) Changes:**
+
+	- `blaze` → `iron-fist`
+
+	**Ability (slot 2) Changes:**
+
+	- `(none)` → `blaze`
+
+	**Ability (slot 3) Changes:**
+
+	- `iron-fist` → `(none)`
+
 	**Level-up Moves Changes:**
 
 	- `16 moves` → `25 moves`
@@ -28,8 +40,8 @@
 
 	---
 
+	- [Iron Fist](../../pokedex/abilities/iron-fist.md)
 	- [Blaze](../../pokedex/abilities/blaze.md)
-	- [Iron Fist](../../pokedex/abilities/iron-fist.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

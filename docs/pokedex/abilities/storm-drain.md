@@ -22,6 +22,18 @@
 
 <div class="grid cards" markdown>
 
+-	[![Lileep](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/345.gif){: .pokemon-sprite-img }](../pokemon/lileep.md)
+
+	***
+
+	**#345 [Lileep](../pokemon/lileep.md)**
+
+-	[![Cradily](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/346.gif){: .pokemon-sprite-img }](../pokemon/cradily.md)
+
+	***
+
+	**#346 [Cradily](../pokemon/cradily.md)**
+
 -	[![Shellos](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/422.gif){: .pokemon-sprite-img }](../pokemon/shellos.md)
 
 	***
@@ -45,24 +57,6 @@
 	***
 
 	**#457 [Lumineon](../pokemon/lumineon.md)**
-
-</div>
-
-### :material-eye-off: Hidden Ability
-
-<div class="grid cards" markdown>
-
--	[![Lileep](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/345.gif){: .pokemon-sprite-img }](../pokemon/lileep.md)
-
-	***
-
-	**#345 [Lileep](../pokemon/lileep.md)**
-
--	[![Cradily](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/346.gif){: .pokemon-sprite-img }](../pokemon/cradily.md)
-
-	***
-
-	**#346 [Cradily](../pokemon/cradily.md)**
 
 -	[![Maractus](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/556.gif){: .pokemon-sprite-img }](../pokemon/maractus.md)
 

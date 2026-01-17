@@ -100,12 +100,6 @@
 
 	**#492 [Shaymin Land](../pokemon/shaymin-land.md)**
 
-</div>
-
-### :material-eye-off: Hidden Ability
-
-<div class="grid cards" markdown>
-
 -	[![Audino](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/531.gif){: .pokemon-sprite-img }](../pokemon/audino.md)
 
 	***

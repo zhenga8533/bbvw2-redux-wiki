@@ -22,17 +22,23 @@
 
 <div class="grid cards" markdown>
 
--	[![Cacnea](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/331.gif){: .pokemon-sprite-img }](../pokemon/cacnea.md)
+-	[![Meowth](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/52.gif){: .pokemon-sprite-img }](../pokemon/meowth.md)
 
 	***
 
-	**#331 [Cacnea](../pokemon/cacnea.md)**
+	**#052 [Meowth](../pokemon/meowth.md)**
 
--	[![Cacturne](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/332.gif){: .pokemon-sprite-img }](../pokemon/cacturne.md)
+-	[![Persian](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/53.gif){: .pokemon-sprite-img }](../pokemon/persian.md)
 
 	***
 
-	**#332 [Cacturne](../pokemon/cacturne.md)**
+	**#053 [Persian](../pokemon/persian.md)**
+
+-	[![Houndoom](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/229.gif){: .pokemon-sprite-img }](../pokemon/houndoom.md)
+
+	***
+
+	**#229 [Houndoom](../pokemon/houndoom.md)**
 
 -	[![Joltik](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/595.gif){: .pokemon-sprite-img }](../pokemon/joltik.md)
 
@@ -64,18 +70,6 @@
 
 	**#024 [Arbok](../pokemon/arbok.md)**
 
--	[![Meowth](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/52.gif){: .pokemon-sprite-img }](../pokemon/meowth.md)
-
-	***
-
-	**#052 [Meowth](../pokemon/meowth.md)**
-
--	[![Persian](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/53.gif){: .pokemon-sprite-img }](../pokemon/persian.md)
-
-	***
-
-	**#053 [Persian](../pokemon/persian.md)**
-
 -	[![Aerodactyl](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/142.gif){: .pokemon-sprite-img }](../pokemon/aerodactyl.md)
 
 	***
@@ -99,12 +93,6 @@
 	***
 
 	**#228 [Houndour](../pokemon/houndour.md)**
-
--	[![Houndoom](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/229.gif){: .pokemon-sprite-img }](../pokemon/houndoom.md)
-
-	***
-
-	**#229 [Houndoom](../pokemon/houndoom.md)**
 
 -	[![Tyranitar](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/248.gif){: .pokemon-sprite-img }](../pokemon/tyranitar.md)
 

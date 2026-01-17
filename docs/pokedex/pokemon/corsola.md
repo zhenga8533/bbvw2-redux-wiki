@@ -15,6 +15,14 @@
 
 ??? note "Corsola ROM Changes"
 
+	**Ability (slot 1) Changes:**
+
+	- `hustle` → `regenerator`
+
+	**Ability (slot 3) Changes:**
+
+	- `regenerator` → `hustle`
+
 	**Level-up Moves Changes:**
 
 	- `28 moves` → `21 moves`
@@ -28,9 +36,9 @@
 
 	---
 
-	- [Hustle](../../pokedex/abilities/hustle.md)
+	- [Regenerator](../../pokedex/abilities/regenerator.md)
 	- [Natural Cure](../../pokedex/abilities/natural-cure.md)
-	- [Regenerator](../../pokedex/abilities/regenerator.md) :material-eye-off:
+	- [Hustle](../../pokedex/abilities/hustle.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

@@ -15,6 +15,14 @@
 
 ??? note "Pikachu ROM Changes"
 
+	**Ability (slot 2) Changes:**
+
+	- `(none)` → `lightning-rod`
+
+	**Ability (slot 3) Changes:**
+
+	- `lightning-rod` → `(none)`
+
 	**Level-up Moves Changes:**
 
 	- `14 moves` → `25 moves`
@@ -33,7 +41,7 @@
 	---
 
 	- [Static](../../pokedex/abilities/static.md)
-	- [Lightning Rod](../../pokedex/abilities/lightning-rod.md) :material-eye-off:
+	- [Lightning Rod](../../pokedex/abilities/lightning-rod.md)
 
 - **:material-ruler: Physical Attributes**
 

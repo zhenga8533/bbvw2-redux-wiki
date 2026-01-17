@@ -15,9 +15,13 @@
 
 ??? note "Cascoon ROM Changes"
 
-	**Ability Changes:**
+	**Ability (slot 1) Changes:**
 
-	- `(none)` → `shell-armor`
+	- `shed-skin` → `shell-armor`
+
+	**Ability (slot 2) Changes:**
+
+	- `(none)` → `shed-skin`
 
 
 ## :material-information: Basic Information
@@ -28,8 +32,8 @@
 
 	---
 
-	- [Shed Skin](../../pokedex/abilities/shed-skin.md)
 	- [Shell Armor](../../pokedex/abilities/shell-armor.md)
+	- [Shed Skin](../../pokedex/abilities/shed-skin.md)
 
 - **:material-ruler: Physical Attributes**
 

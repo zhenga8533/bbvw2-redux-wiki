@@ -25,6 +25,14 @@
 
 	- `eevee > glaceon: level-up (at sinnoh-route-217)` → `eevee > glaceon: use-item (ice-stone)`
 
+	**Ability (slot 2) Changes:**
+
+	- `(none)` → `poison-touch`
+
+	**Ability (slot 3) Changes:**
+
+	- `inner-focus` → `(none)`
+
 	**Machine Moves Changes:**
 
 	- `30 moves` → `35 moves (added: tri-attack, mystical-fire, quash, power-gem, grass-knot)`
@@ -39,7 +47,7 @@
 	---
 
 	- [Synchronize](../../pokedex/abilities/synchronize.md)
-	- [Inner Focus](../../pokedex/abilities/inner-focus.md) :material-eye-off:
+	- [Poison Touch](../../pokedex/abilities/poison-touch.md)
 
 - **:material-ruler: Physical Attributes**
 

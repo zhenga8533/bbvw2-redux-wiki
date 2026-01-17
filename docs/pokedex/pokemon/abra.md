@@ -19,6 +19,14 @@
 
 	- `kadabra > alakazam: trade` → `kadabra > alakazam: use-item (link-cable)`
 
+	**Ability (slot 2) Changes:**
+
+	- `inner-focus` → `magic-guard`
+
+	**Ability (slot 3) Changes:**
+
+	- `magic-guard` → `inner-focus`
+
 	**Level-up Moves Changes:**
 
 	- `1 move` → `3 moves`
@@ -37,8 +45,8 @@
 	---
 
 	- [Synchronize](../../pokedex/abilities/synchronize.md)
-	- [Inner Focus](../../pokedex/abilities/inner-focus.md)
-	- [Magic Guard](../../pokedex/abilities/magic-guard.md) :material-eye-off:
+	- [Magic Guard](../../pokedex/abilities/magic-guard.md)
+	- [Inner Focus](../../pokedex/abilities/inner-focus.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

@@ -15,6 +15,14 @@
 
 ??? note "Pidgey ROM Changes"
 
+	**Ability (slot 1) Changes:**
+
+	- `keen-eye` → `big-pecks`
+
+	**Ability (slot 3) Changes:**
+
+	- `big-pecks` → `keen-eye`
+
 	**Level-up Moves Changes:**
 
 	- `14 moves` → `23 moves`
@@ -32,9 +40,9 @@
 
 	---
 
-	- [Keen Eye](../../pokedex/abilities/keen-eye.md)
+	- [Big Pecks](../../pokedex/abilities/big-pecks.md)
 	- [Tangled Feet](../../pokedex/abilities/tangled-feet.md)
-	- [Big Pecks](../../pokedex/abilities/big-pecks.md) :material-eye-off:
+	- [Keen Eye](../../pokedex/abilities/keen-eye.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

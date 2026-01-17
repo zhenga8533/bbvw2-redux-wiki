@@ -19,6 +19,14 @@
 
 	- `haunter > gengar: trade` → `haunter > gengar: use-item (link-cable)`
 
+	**Ability (slot 1) Changes:**
+
+	- `cursed-body` → `levitate`
+
+	**Ability (slot 2) Changes:**
+
+	- `levitate` → `cursed-body`
+
 	**Level-up Moves Changes:**
 
 	- `17 moves` → `25 moves`
@@ -36,8 +44,8 @@
 
 	---
 
-	- [Cursed Body](../../pokedex/abilities/cursed-body.md)
 	- [Levitate](../../pokedex/abilities/levitate.md)
+	- [Cursed Body](../../pokedex/abilities/cursed-body.md)
 
 - **:material-ruler: Physical Attributes**
 

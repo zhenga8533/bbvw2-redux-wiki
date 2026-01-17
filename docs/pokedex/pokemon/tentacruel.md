@@ -15,6 +15,14 @@
 
 ??? note "Tentacruel ROM Changes"
 
+	**Ability (slot 2) Changes:**
+
+	- `liquid-ooze` → `rain-dish`
+
+	**Ability (slot 3) Changes:**
+
+	- `rain-dish` → `liquid-ooze`
+
 	**Level-up Moves Changes:**
 
 	- `18 moves` → `21 moves`
@@ -29,8 +37,8 @@
 	---
 
 	- [Clear Body](../../pokedex/abilities/clear-body.md)
-	- [Liquid Ooze](../../pokedex/abilities/liquid-ooze.md)
-	- [Rain Dish](../../pokedex/abilities/rain-dish.md) :material-eye-off:
+	- [Rain Dish](../../pokedex/abilities/rain-dish.md)
+	- [Liquid Ooze](../../pokedex/abilities/liquid-ooze.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

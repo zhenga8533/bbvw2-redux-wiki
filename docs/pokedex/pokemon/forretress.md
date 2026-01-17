@@ -15,6 +15,14 @@
 
 ??? note "Forretress ROM Changes"
 
+	**Ability (slot 2) Changes:**
+
+	- `(none)` → `overcoat`
+
+	**Ability (slot 3) Changes:**
+
+	- `overcoat` → `(none)`
+
 	**Machine Moves Changes:**
 
 	- `34 moves` → `35 moves (added: bug-buzz)`
@@ -29,7 +37,7 @@
 	---
 
 	- [Sturdy](../../pokedex/abilities/sturdy.md)
-	- [Overcoat](../../pokedex/abilities/overcoat.md) :material-eye-off:
+	- [Overcoat](../../pokedex/abilities/overcoat.md)
 
 - **:material-ruler: Physical Attributes**
 

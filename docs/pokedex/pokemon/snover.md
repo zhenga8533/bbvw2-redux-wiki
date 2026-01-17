@@ -15,6 +15,14 @@
 
 ??? note "Snover ROM Changes"
 
+	**Ability (slot 2) Changes:**
+
+	- `(none)` → `soundproof`
+
+	**Ability (slot 3) Changes:**
+
+	- `soundproof` → `(none)`
+
 	**Level-up Moves Changes:**
 
 	- `12 moves` → `21 moves`
@@ -33,7 +41,7 @@
 	---
 
 	- [Snow Warning](../../pokedex/abilities/snow-warning.md)
-	- [Soundproof](../../pokedex/abilities/soundproof.md) :material-eye-off:
+	- [Soundproof](../../pokedex/abilities/soundproof.md)
 
 - **:material-ruler: Physical Attributes**
 

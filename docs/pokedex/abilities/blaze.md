@@ -112,12 +112,6 @@
 
 	**#500 [Emboar](../pokemon/emboar.md)**
 
-</div>
-
-### :material-eye-off: Hidden Ability
-
-<div class="grid cards" markdown>
-
 -	[![Pansear](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/513.gif){: .pokemon-sprite-img }](../pokemon/pansear.md)
 
 	***

@@ -15,6 +15,14 @@
 
 ??? note "Togetic ROM Changes"
 
+	**Ability (slot 1) Changes:**
+
+	- `hustle` → `super-luck`
+
+	**Ability (slot 3) Changes:**
+
+	- `super-luck` → `(none)`
+
 	**Level-up Moves Changes:**
 
 	- `18 moves` → `25 moves`
@@ -32,9 +40,8 @@
 
 	---
 
-	- [Hustle](../../pokedex/abilities/hustle.md)
+	- [Super Luck](../../pokedex/abilities/super-luck.md)
 	- [Serene Grace](../../pokedex/abilities/serene-grace.md)
-	- [Super Luck](../../pokedex/abilities/super-luck.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

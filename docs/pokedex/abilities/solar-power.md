@@ -22,23 +22,23 @@
 
 <div class="grid cards" markdown>
 
--	[![Bulbasaur](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/1.gif){: .pokemon-sprite-img }](../pokemon/bulbasaur.md)
+-	[![Charmander](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/4.gif){: .pokemon-sprite-img }](../pokemon/charmander.md)
 
 	***
 
-	**#001 [Bulbasaur](../pokemon/bulbasaur.md)**
+	**#004 [Charmander](../pokemon/charmander.md)**
 
--	[![Ivysaur](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/2.gif){: .pokemon-sprite-img }](../pokemon/ivysaur.md)
-
-	***
-
-	**#002 [Ivysaur](../pokemon/ivysaur.md)**
-
--	[![Venusaur](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/3.gif){: .pokemon-sprite-img }](../pokemon/venusaur.md)
+-	[![Charmeleon](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/5.gif){: .pokemon-sprite-img }](../pokemon/charmeleon.md)
 
 	***
 
-	**#003 [Venusaur](../pokemon/venusaur.md)**
+	**#005 [Charmeleon](../pokemon/charmeleon.md)**
+
+-	[![Charizard](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/6.gif){: .pokemon-sprite-img }](../pokemon/charizard.md)
+
+	***
+
+	**#006 [Charizard](../pokemon/charizard.md)**
 
 -	[![Sunkern](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/191.gif){: .pokemon-sprite-img }](../pokemon/sunkern.md)
 
@@ -57,30 +57,6 @@
 	***
 
 	**#357 [Tropius](../pokemon/tropius.md)**
-
-</div>
-
-### :material-eye-off: Hidden Ability
-
-<div class="grid cards" markdown>
-
--	[![Charmander](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/4.gif){: .pokemon-sprite-img }](../pokemon/charmander.md)
-
-	***
-
-	**#004 [Charmander](../pokemon/charmander.md)**
-
--	[![Charmeleon](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/5.gif){: .pokemon-sprite-img }](../pokemon/charmeleon.md)
-
-	***
-
-	**#005 [Charmeleon](../pokemon/charmeleon.md)**
-
--	[![Charizard](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/6.gif){: .pokemon-sprite-img }](../pokemon/charizard.md)
-
-	***
-
-	**#006 [Charizard](../pokemon/charizard.md)**
 
 </div>
 

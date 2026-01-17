@@ -46,12 +46,6 @@
 
 	**#523 [Zebstrika](../pokemon/zebstrika.md)**
 
-</div>
-
-### :material-eye-off: Hidden Ability
-
-<div class="grid cards" markdown>
-
 -	[![Emolga](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/587.gif){: .pokemon-sprite-img }](../pokemon/emolga.md)
 
 	***

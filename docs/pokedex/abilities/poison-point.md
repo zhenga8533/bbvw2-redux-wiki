@@ -64,12 +64,6 @@
 
 	**#117 [Seadra](../pokemon/seadra.md)**
 
--	[![Qwilfish](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/211.gif){: .pokemon-sprite-img }](../pokemon/qwilfish.md)
-
-	***
-
-	**#211 [Qwilfish](../pokemon/qwilfish.md)**
-
 -	[![Roselia](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/315.gif){: .pokemon-sprite-img }](../pokemon/roselia.md)
 
 	***
@@ -87,6 +81,36 @@
 	***
 
 	**#407 [Roserade](../pokemon/roserade.md)**
+
+-	[![Venipede](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/543.gif){: .pokemon-sprite-img }](../pokemon/venipede.md)
+
+	***
+
+	**#543 [Venipede](../pokemon/venipede.md)**
+
+-	[![Whirlipede](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/544.gif){: .pokemon-sprite-img }](../pokemon/whirlipede.md)
+
+	***
+
+	**#544 [Whirlipede](../pokemon/whirlipede.md)**
+
+-	[![Scolipede](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/545.gif){: .pokemon-sprite-img }](../pokemon/scolipede.md)
+
+	***
+
+	**#545 [Scolipede](../pokemon/scolipede.md)**
+
+</div>
+
+### :material-eye-off: Hidden Ability
+
+<div class="grid cards" markdown>
+
+-	[![Qwilfish](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/211.gif){: .pokemon-sprite-img }](../pokemon/qwilfish.md)
+
+	***
+
+	**#211 [Qwilfish](../pokemon/qwilfish.md)**
 
 </div>
 

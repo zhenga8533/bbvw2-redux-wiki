@@ -15,9 +15,21 @@
 
 ??? note "Beedrill ROM Changes"
 
-	**Ability Changes:**
+	**Ability (slot 1) Changes:**
 
-	- `(none)` → `adaptability`
+	- `swarm` → `adaptability`
+
+	**Ability (slot 2) Changes:**
+
+	- `(none)` → `sniper`
+
+	**Ability (slot 3) Changes:**
+
+	- `sniper` → `swarm`
+
+	- `adaptability` → `swarm`
+
+	- `swarm` → `(none)`
 
 	**Level-up Moves Changes:**
 
@@ -26,6 +38,8 @@
 	**Machine Moves Changes:**
 
 	- `32 moves` → `35 moves (added: bug-buzz, work-up, fly)`
+
+	- `(none)` → `swarm`
 
 
 ## :material-information: Basic Information
@@ -37,8 +51,7 @@
 	---
 
 	- [Swarm](../../pokedex/abilities/swarm.md)
-	- [Sniper](../../pokedex/abilities/sniper.md) :material-eye-off:
-	- [Adaptability](../../pokedex/abilities/adaptability.md)
+	- [Sniper](../../pokedex/abilities/sniper.md)
 
 - **:material-ruler: Physical Attributes**
 

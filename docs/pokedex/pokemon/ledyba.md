@@ -15,6 +15,24 @@
 
 ??? note "Ledyba ROM Changes"
 
+	**Ability (slot 1) Changes:**
+
+	- `swarm` → `rattled`
+
+	**Ability (slot 2) Changes:**
+
+	- `early-bird` → `iron-fist`
+
+	**Ability (slot 3) Changes:**
+
+	- `rattled` → `swarm`
+
+	- `rattled` → `swarm`
+
+	- `iron-fist` → `rattled`
+
+	- `swarm` → `early-bird`
+
 	**Level-up Moves Changes:**
 
 	- `13 moves` → `24 moves`
@@ -22,6 +40,10 @@
 	**Machine Moves Changes:**
 
 	- `27 moves` → `28 moves (added: bug-buzz)`
+
+	- `rattled` → `iron-fist`
+
+	- `early-bird` → `swarm`
 
 
 ## :material-information: Basic Information
@@ -33,8 +55,8 @@
 	---
 
 	- [Swarm](../../pokedex/abilities/swarm.md)
-	- [Early Bird](../../pokedex/abilities/early-bird.md)
-	- [Rattled](../../pokedex/abilities/rattled.md) :material-eye-off:
+	- [Rattled](../../pokedex/abilities/rattled.md)
+	- [Early Bird](../../pokedex/abilities/early-bird.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

@@ -34,12 +34,6 @@
 
 	**#286 [Breloom](../pokemon/breloom.md)**
 
-</div>
-
-### :material-eye-off: Hidden Ability
-
-<div class="grid cards" markdown>
-
 -	[![Gliscor](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/472.gif){: .pokemon-sprite-img }](../pokemon/gliscor.md)
 
 	***

@@ -16,6 +16,14 @@
 
 ??? note "Togepi ROM Changes"
 
+	**Ability (slot 1) Changes:**
+
+	- `hustle` → `super-luck`
+
+	**Ability (slot 3) Changes:**
+
+	- `super-luck` → `(none)`
+
 	**Base Happiness Changes:**
 
 	- `70` → `180`
@@ -33,9 +41,8 @@
 
 	---
 
-	- [Hustle](../../pokedex/abilities/hustle.md)
+	- [Super Luck](../../pokedex/abilities/super-luck.md)
 	- [Serene Grace](../../pokedex/abilities/serene-grace.md)
-	- [Super Luck](../../pokedex/abilities/super-luck.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

@@ -19,6 +19,14 @@
 
 	- `gligar > gliscor: level-up (held: razor-fang)` → `gligar > gliscor: use-item (razor-fang)`
 
+	**Ability (slot 2) Changes:**
+
+	- `sand-veil` → `poison-heal`
+
+	**Ability (slot 3) Changes:**
+
+	- `poison-heal` → `(none)`
+
 	**Level-up Moves Changes:**
 
 	- `34 moves` → `25 moves`
@@ -37,8 +45,7 @@
 	---
 
 	- [Hyper Cutter](../../pokedex/abilities/hyper-cutter.md)
-	- [Sand Veil](../../pokedex/abilities/sand-veil.md)
-	- [Poison Heal](../../pokedex/abilities/poison-heal.md) :material-eye-off:
+	- [Poison Heal](../../pokedex/abilities/poison-heal.md)
 
 - **:material-ruler: Physical Attributes**
 

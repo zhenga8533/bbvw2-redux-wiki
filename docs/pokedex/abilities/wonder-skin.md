@@ -22,18 +22,6 @@
 
 <div class="grid cards" markdown>
 
--	[![Sigilyph](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/561.gif){: .pokemon-sprite-img }](../pokemon/sigilyph.md)
-
-	***
-
-	**#561 [Sigilyph](../pokemon/sigilyph.md)**
-
-</div>
-
-### :material-eye-off: Hidden Ability
-
-<div class="grid cards" markdown>
-
 -	[![Venomoth](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/49.gif){: .pokemon-sprite-img }](../pokemon/venomoth.md)
 
 	***
@@ -51,6 +39,18 @@
 	***
 
 	**#301 [Delcatty](../pokemon/delcatty.md)**
+
+</div>
+
+### :material-eye-off: Hidden Ability
+
+<div class="grid cards" markdown>
+
+-	[![Sigilyph](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/561.gif){: .pokemon-sprite-img }](../pokemon/sigilyph.md)
+
+	***
+
+	**#561 [Sigilyph](../pokemon/sigilyph.md)**
 
 </div>
 

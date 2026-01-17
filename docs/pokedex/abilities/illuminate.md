@@ -18,21 +18,9 @@
 
 ## :material-pokeball: Pokémon with this Ability
 
-### :material-star: Standard Ability
+### :material-eye-off: Hidden Ability
 
 <div class="grid cards" markdown>
-
--	[![Staryu](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/120.gif){: .pokemon-sprite-img }](../pokemon/staryu.md)
-
-	***
-
-	**#120 [Staryu](../pokemon/staryu.md)**
-
--	[![Starmie](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/121.gif){: .pokemon-sprite-img }](../pokemon/starmie.md)
-
-	***
-
-	**#121 [Starmie](../pokemon/starmie.md)**
 
 -	[![Chinchou](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/170.gif){: .pokemon-sprite-img }](../pokemon/chinchou.md)
 
@@ -51,12 +39,6 @@
 	***
 
 	**#313 [Volbeat](../pokemon/volbeat.md)**
-
--	[![Watchog](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/505.gif){: .pokemon-sprite-img }](../pokemon/watchog.md)
-
-	***
-
-	**#505 [Watchog](../pokemon/watchog.md)**
 
 </div>
 

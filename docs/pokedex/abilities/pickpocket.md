@@ -18,15 +18,9 @@
 
 ## :material-pokeball: Pokémon with this Ability
 
-### :material-eye-off: Hidden Ability
+### :material-star: Standard Ability
 
 <div class="grid cards" markdown>
-
--	[![Sneasel](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/215.gif){: .pokemon-sprite-img }](../pokemon/sneasel.md)
-
-	***
-
-	**#215 [Sneasel](../pokemon/sneasel.md)**
 
 -	[![Seedot](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/273.gif){: .pokemon-sprite-img }](../pokemon/seedot.md)
 
@@ -45,6 +39,18 @@
 	***
 
 	**#275 [Shiftry](../pokemon/shiftry.md)**
+
+</div>
+
+### :material-eye-off: Hidden Ability
+
+<div class="grid cards" markdown>
+
+-	[![Sneasel](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/215.gif){: .pokemon-sprite-img }](../pokemon/sneasel.md)
+
+	***
+
+	**#215 [Sneasel](../pokemon/sneasel.md)**
 
 -	[![Weavile](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/461.gif){: .pokemon-sprite-img }](../pokemon/weavile.md)
 

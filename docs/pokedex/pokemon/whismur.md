@@ -15,6 +15,10 @@
 
 ??? note "Whismur ROM Changes"
 
+	**Ability (slot 2) Changes:**
+
+	- `(none)` → `scrappy`
+
 	**Level-up Moves Changes:**
 
 	- `12 moves` → `17 moves`
@@ -34,6 +38,7 @@
 
 	- [Soundproof](../../pokedex/abilities/soundproof.md)
 	- [Rattled](../../pokedex/abilities/rattled.md) :material-eye-off:
+	- [Scrappy](../../pokedex/abilities/scrappy.md)
 
 - **:material-ruler: Physical Attributes**
 

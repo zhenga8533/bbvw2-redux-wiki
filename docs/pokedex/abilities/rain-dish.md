@@ -22,30 +22,6 @@
 
 <div class="grid cards" markdown>
 
--	[![Lotad](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/270.gif){: .pokemon-sprite-img }](../pokemon/lotad.md)
-
-	***
-
-	**#270 [Lotad](../pokemon/lotad.md)**
-
--	[![Lombre](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/271.gif){: .pokemon-sprite-img }](../pokemon/lombre.md)
-
-	***
-
-	**#271 [Lombre](../pokemon/lombre.md)**
-
--	[![Ludicolo](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/272.gif){: .pokemon-sprite-img }](../pokemon/ludicolo.md)
-
-	***
-
-	**#272 [Ludicolo](../pokemon/ludicolo.md)**
-
-</div>
-
-### :material-eye-off: Hidden Ability
-
-<div class="grid cards" markdown>
-
 -	[![Squirtle](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/7.gif){: .pokemon-sprite-img }](../pokemon/squirtle.md)
 
 	***
@@ -75,6 +51,24 @@
 	***
 
 	**#073 [Tentacruel](../pokemon/tentacruel.md)**
+
+-	[![Lotad](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/270.gif){: .pokemon-sprite-img }](../pokemon/lotad.md)
+
+	***
+
+	**#270 [Lotad](../pokemon/lotad.md)**
+
+-	[![Lombre](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/271.gif){: .pokemon-sprite-img }](../pokemon/lombre.md)
+
+	***
+
+	**#271 [Lombre](../pokemon/lombre.md)**
+
+-	[![Ludicolo](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/272.gif){: .pokemon-sprite-img }](../pokemon/ludicolo.md)
+
+	***
+
+	**#272 [Ludicolo](../pokemon/ludicolo.md)**
 
 -	[![Wingull](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/278.gif){: .pokemon-sprite-img }](../pokemon/wingull.md)
 

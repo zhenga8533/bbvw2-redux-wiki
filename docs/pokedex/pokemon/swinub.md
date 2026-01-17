@@ -19,6 +19,14 @@
 
 	- `swinub > piloswine: level-up (level 33)` → `swinub > piloswine: level-up (level 29)`
 
+	**Ability (slot 1) Changes:**
+
+	- `oblivious` → `thick-fat`
+
+	**Ability (slot 3) Changes:**
+
+	- `thick-fat` → `oblivious`
+
 	**Level-up Moves Changes:**
 
 	- `24 moves` → `22 moves`
@@ -32,9 +40,9 @@
 
 	---
 
-	- [Oblivious](../../pokedex/abilities/oblivious.md)
+	- [Thick Fat](../../pokedex/abilities/thick-fat.md)
 	- [Snow Cloak](../../pokedex/abilities/snow-cloak.md)
-	- [Thick Fat](../../pokedex/abilities/thick-fat.md) :material-eye-off:
+	- [Oblivious](../../pokedex/abilities/oblivious.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

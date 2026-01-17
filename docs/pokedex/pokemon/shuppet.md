@@ -19,6 +19,14 @@
 
 	- `shuppet > banette: level-up (level 37)` → `shuppet > banette: level-up (level 32)`
 
+	**Ability (slot 1) Changes:**
+
+	- `insomnia` → `cursed-body`
+
+	**Ability (slot 3) Changes:**
+
+	- `cursed-body` → `(none)`
+
 	**Level-up Moves Changes:**
 
 	- `29 moves` → `18 moves`
@@ -36,9 +44,8 @@
 
 	---
 
-	- [Insomnia](../../pokedex/abilities/insomnia.md)
+	- [Cursed Body](../../pokedex/abilities/cursed-body.md)
 	- [Frisk](../../pokedex/abilities/frisk.md)
-	- [Cursed Body](../../pokedex/abilities/cursed-body.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

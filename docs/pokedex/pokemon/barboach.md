@@ -15,9 +15,9 @@
 
 ??? note "Barboach ROM Changes"
 
-	**Ability Changes:**
+	**Ability (slot 1) Changes:**
 
-	- `hydration` → `simple`
+	- `oblivious` → `simple`
 
 	**Level-up Moves Changes:**
 
@@ -36,9 +36,9 @@
 
 	---
 
-	- [Oblivious](../../pokedex/abilities/oblivious.md)
+	- [Simple](../../pokedex/abilities/simple.md)
 	- [Anticipation](../../pokedex/abilities/anticipation.md)
-	- [Simple](../../pokedex/abilities/simple.md) :material-eye-off:
+	- [Hydration](../../pokedex/abilities/hydration.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

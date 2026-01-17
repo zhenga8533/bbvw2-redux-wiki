@@ -15,6 +15,10 @@
 
 ??? note "Ampharos ROM Changes"
 
+	**Ability (slot 2) Changes:**
+
+	- `(none)` → `overcoat`
+
 	**Type Changes:**
 
 	- `electric` → `electric / dragon`
@@ -38,6 +42,7 @@
 
 	- [Static](../../pokedex/abilities/static.md)
 	- [Plus](../../pokedex/abilities/plus.md) :material-eye-off:
+	- [Overcoat](../../pokedex/abilities/overcoat.md)
 
 - **:material-ruler: Physical Attributes**
 

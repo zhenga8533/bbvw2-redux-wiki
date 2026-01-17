@@ -15,6 +15,20 @@
 
 ??? note "Volbeat ROM Changes"
 
+	**Ability (slot 1) Changes:**
+
+	- `illuminate` → `prankster`
+
+	**Ability (slot 2) Changes:**
+
+	- `swarm` → `tinted-lens`
+
+	**Ability (slot 3) Changes:**
+
+	- `prankster` → `illuminate`
+
+	- `tinted-lens` → `swarm`
+
 	**Type Changes:**
 
 	- `bug` → `bug / electric`
@@ -36,9 +50,9 @@
 
 	---
 
-	- [Illuminate](../../pokedex/abilities/illuminate.md)
+	- [Prankster](../../pokedex/abilities/prankster.md)
 	- [Swarm](../../pokedex/abilities/swarm.md)
-	- [Prankster](../../pokedex/abilities/prankster.md) :material-eye-off:
+	- [Illuminate](../../pokedex/abilities/illuminate.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

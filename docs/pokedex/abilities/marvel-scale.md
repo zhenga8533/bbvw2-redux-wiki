@@ -22,18 +22,6 @@
 
 <div class="grid cards" markdown>
 
--	[![Milotic](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/350.gif){: .pokemon-sprite-img }](../pokemon/milotic.md)
-
-	***
-
-	**#350 [Milotic](../pokemon/milotic.md)**
-
-</div>
-
-### :material-eye-off: Hidden Ability
-
-<div class="grid cards" markdown>
-
 -	[![Dratini](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/147.gif){: .pokemon-sprite-img }](../pokemon/dratini.md)
 
 	***
@@ -45,6 +33,12 @@
 	***
 
 	**#148 [Dragonair](../pokemon/dragonair.md)**
+
+-	[![Milotic](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/350.gif){: .pokemon-sprite-img }](../pokemon/milotic.md)
+
+	***
+
+	**#350 [Milotic](../pokemon/milotic.md)**
 
 </div>
 

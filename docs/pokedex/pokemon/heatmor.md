@@ -16,9 +16,9 @@
 
 ??? note "Heatmor ROM Changes"
 
-	**Ability Changes:**
+	**Ability (slot 1) Changes:**
 
-	- `white-smoke` → `mold-breaker`
+	- `gluttony` → `mold-breaker`
 
 	**Level-up Moves Changes:**
 
@@ -37,9 +37,9 @@
 
 	---
 
-	- [Gluttony](../../pokedex/abilities/gluttony.md)
+	- [Mold Breaker](../../pokedex/abilities/mold-breaker.md)
 	- [Flash Fire](../../pokedex/abilities/flash-fire.md)
-	- [Mold Breaker](../../pokedex/abilities/mold-breaker.md) :material-eye-off:
+	- [White Smoke](../../pokedex/abilities/white-smoke.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

@@ -34,17 +34,17 @@
 
 	**#057 [Primeape](../pokemon/primeape.md)**
 
--	[![Tauros](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/128.gif){: .pokemon-sprite-img }](../pokemon/tauros.md)
-
-	***
-
-	**#128 [Tauros](../pokemon/tauros.md)**
-
 </div>
 
 ### :material-eye-off: Hidden Ability
 
 <div class="grid cards" markdown>
+
+-	[![Tauros](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/128.gif){: .pokemon-sprite-img }](../pokemon/tauros.md)
+
+	***
+
+	**#128 [Tauros](../pokemon/tauros.md)**
 
 -	[![Camerupt](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/323.gif){: .pokemon-sprite-img }](../pokemon/camerupt.md)
 

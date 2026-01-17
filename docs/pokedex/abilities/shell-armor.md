@@ -22,24 +22,6 @@
 
 <div class="grid cards" markdown>
 
--	[![Squirtle](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/7.gif){: .pokemon-sprite-img }](../pokemon/squirtle.md)
-
-	***
-
-	**#007 [Squirtle](../pokemon/squirtle.md)**
-
--	[![Wartortle](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/8.gif){: .pokemon-sprite-img }](../pokemon/wartortle.md)
-
-	***
-
-	**#008 [Wartortle](../pokemon/wartortle.md)**
-
--	[![Blastoise](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/9.gif){: .pokemon-sprite-img }](../pokemon/blastoise.md)
-
-	***
-
-	**#009 [Blastoise](../pokemon/blastoise.md)**
-
 -	[![Shellder](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/90.gif){: .pokemon-sprite-img }](../pokemon/shellder.md)
 
 	***
@@ -82,6 +64,12 @@
 
 	**#139 [Omastar](../pokemon/omastar.md)**
 
+-	[![Pupitar](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/247.gif){: .pokemon-sprite-img }](../pokemon/pupitar.md)
+
+	***
+
+	**#247 [Pupitar](../pokemon/pupitar.md)**
+
 -	[![Silcoon](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/266.gif){: .pokemon-sprite-img }](../pokemon/silcoon.md)
 
 	***
@@ -94,59 +82,17 @@
 
 	**#268 [Cascoon](../pokemon/cascoon.md)**
 
--	[![Corphish](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/341.gif){: .pokemon-sprite-img }](../pokemon/corphish.md)
+-	[![Torkoal](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/324.gif){: .pokemon-sprite-img }](../pokemon/torkoal.md)
 
 	***
 
-	**#341 [Corphish](../pokemon/corphish.md)**
-
--	[![Crawdaunt](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/342.gif){: .pokemon-sprite-img }](../pokemon/crawdaunt.md)
-
-	***
-
-	**#342 [Crawdaunt](../pokemon/crawdaunt.md)**
+	**#324 [Torkoal](../pokemon/torkoal.md)**
 
 -	[![Clamperl](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/366.gif){: .pokemon-sprite-img }](../pokemon/clamperl.md)
 
 	***
 
 	**#366 [Clamperl](../pokemon/clamperl.md)**
-
--	[![Dwebble](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/557.gif){: .pokemon-sprite-img }](../pokemon/dwebble.md)
-
-	***
-
-	**#557 [Dwebble](../pokemon/dwebble.md)**
-
--	[![Crustle](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/558.gif){: .pokemon-sprite-img }](../pokemon/crustle.md)
-
-	***
-
-	**#558 [Crustle](../pokemon/crustle.md)**
-
--	[![Escavalier](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/589.gif){: .pokemon-sprite-img }](../pokemon/escavalier.md)
-
-	***
-
-	**#589 [Escavalier](../pokemon/escavalier.md)**
-
--	[![Shelmet](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/616.gif){: .pokemon-sprite-img }](../pokemon/shelmet.md)
-
-	***
-
-	**#616 [Shelmet](../pokemon/shelmet.md)**
-
-</div>
-
-### :material-eye-off: Hidden Ability
-
-<div class="grid cards" markdown>
-
--	[![Torkoal](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/324.gif){: .pokemon-sprite-img }](../pokemon/torkoal.md)
-
-	***
-
-	**#324 [Torkoal](../pokemon/torkoal.md)**
 
 -	[![Turtwig](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/387.gif){: .pokemon-sprite-img }](../pokemon/turtwig.md)
 
@@ -183,6 +129,30 @@
 	***
 
 	**#503 [Samurott](../pokemon/samurott.md)**
+
+-	[![Dwebble](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/557.gif){: .pokemon-sprite-img }](../pokemon/dwebble.md)
+
+	***
+
+	**#557 [Dwebble](../pokemon/dwebble.md)**
+
+-	[![Crustle](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/558.gif){: .pokemon-sprite-img }](../pokemon/crustle.md)
+
+	***
+
+	**#558 [Crustle](../pokemon/crustle.md)**
+
+-	[![Escavalier](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/589.gif){: .pokemon-sprite-img }](../pokemon/escavalier.md)
+
+	***
+
+	**#589 [Escavalier](../pokemon/escavalier.md)**
+
+-	[![Shelmet](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/616.gif){: .pokemon-sprite-img }](../pokemon/shelmet.md)
+
+	***
+
+	**#616 [Shelmet](../pokemon/shelmet.md)**
 
 </div>
 

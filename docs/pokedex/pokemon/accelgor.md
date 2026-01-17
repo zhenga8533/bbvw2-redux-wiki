@@ -22,9 +22,17 @@
 
 	- `shelmet > accelgor: use-item (reaper-cloth)` → `shelmet > accelgor: level-up`
 
-	**Ability Changes:**
+	**Ability (slot 1) Changes:**
 
-	- `unburden` → `infiltrator`
+	- `hydration` → `infiltrator`
+
+	**Ability (slot 2) Changes:**
+
+	- `sticky-hold` → `unburden`
+
+	**Ability (slot 3) Changes:**
+
+	- `unburden` → `sticky-hold`
 
 	**Level-up Moves Changes:**
 
@@ -43,9 +51,9 @@
 
 	---
 
-	- [Hydration](../../pokedex/abilities/hydration.md)
-	- [Sticky Hold](../../pokedex/abilities/sticky-hold.md)
-	- [Infiltrator](../../pokedex/abilities/infiltrator.md) :material-eye-off:
+	- [Infiltrator](../../pokedex/abilities/infiltrator.md)
+	- [Unburden](../../pokedex/abilities/unburden.md)
+	- [Sticky Hold](../../pokedex/abilities/sticky-hold.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

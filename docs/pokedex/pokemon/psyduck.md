@@ -19,6 +19,18 @@
 
 	- `psyduck > golduck: level-up (level 33)` → `psyduck > golduck: level-up (level 25)`
 
+	**Ability (slot 1) Changes:**
+
+	- `damp` → `cloud-nine`
+
+	**Ability (slot 2) Changes:**
+
+	- `cloud-nine` → `swift-swim`
+
+	**Ability (slot 3) Changes:**
+
+	- `swift-swim` → `damp`
+
 	**Level-up Moves Changes:**
 
 	- `29 moves` → `23 moves`
@@ -32,9 +44,9 @@
 
 	---
 
-	- [Damp](../../pokedex/abilities/damp.md)
 	- [Cloud Nine](../../pokedex/abilities/cloud-nine.md)
-	- [Swift Swim](../../pokedex/abilities/swift-swim.md) :material-eye-off:
+	- [Swift Swim](../../pokedex/abilities/swift-swim.md)
+	- [Damp](../../pokedex/abilities/damp.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

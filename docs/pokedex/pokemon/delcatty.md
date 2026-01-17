@@ -19,6 +19,14 @@
 
 	- `skitty > delcatty: use-item (moon-stone)` → `skitty > delcatty: level-up (level 25)`
 
+	**Ability (slot 1) Changes:**
+
+	- `cute-charm` → `wonder-skin`
+
+	**Ability (slot 3) Changes:**
+
+	- `wonder-skin` → `(none)`
+
 	**Level-up Moves Changes:**
 
 	- `4 moves` → `13 moves`
@@ -36,9 +44,8 @@
 
 	---
 
-	- [Cute Charm](../../pokedex/abilities/cute-charm.md)
+	- [Wonder Skin](../../pokedex/abilities/wonder-skin.md)
 	- [Normalize](../../pokedex/abilities/normalize.md)
-	- [Wonder Skin](../../pokedex/abilities/wonder-skin.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

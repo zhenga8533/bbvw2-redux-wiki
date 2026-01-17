@@ -15,6 +15,14 @@
 
 ??? note "Wobbuffet ROM Changes"
 
+	**Ability (slot 2) Changes:**
+
+	- `(none)` → `telepathy`
+
+	**Ability (slot 3) Changes:**
+
+	- `telepathy` → `(none)`
+
 	**Level-up Moves Changes:**
 
 	- `4 moves` → `7 moves`
@@ -29,7 +37,7 @@
 	---
 
 	- [Shadow Tag](../../pokedex/abilities/shadow-tag.md)
-	- [Telepathy](../../pokedex/abilities/telepathy.md) :material-eye-off:
+	- [Telepathy](../../pokedex/abilities/telepathy.md)
 
 - **:material-ruler: Physical Attributes**
 

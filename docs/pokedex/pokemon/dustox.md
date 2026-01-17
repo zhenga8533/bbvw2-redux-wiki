@@ -15,6 +15,18 @@
 
 ??? note "Dustox ROM Changes"
 
+	**Ability (slot 1) Changes:**
+
+	- `shield-dust` → `compound-eyes`
+
+	**Ability (slot 2) Changes:**
+
+	- `(none)` → `shield-dust`
+
+	**Ability (slot 3) Changes:**
+
+	- `compound-eyes` → `(none)`
+
 	**Level-up Moves Changes:**
 
 	- `12 moves` → `16 moves`
@@ -32,8 +44,8 @@
 
 	---
 
+	- [Compound Eyes](../../pokedex/abilities/compound-eyes.md)
 	- [Shield Dust](../../pokedex/abilities/shield-dust.md)
-	- [Compound Eyes](../../pokedex/abilities/compound-eyes.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

@@ -22,6 +22,24 @@
 
 <div class="grid cards" markdown>
 
+-	[![Absol](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/359.gif){: .pokemon-sprite-img }](../pokemon/absol.md)
+
+	***
+
+	**#359 [Absol](../pokemon/absol.md)**
+
+-	[![Lucario](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/448.gif){: .pokemon-sprite-img }](../pokemon/lucario.md)
+
+	***
+
+	**#448 [Lucario](../pokemon/lucario.md)**
+
+-	[![Gallade](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/475.gif){: .pokemon-sprite-img }](../pokemon/gallade.md)
+
+	***
+
+	**#475 [Gallade](../pokemon/gallade.md)**
+
 -	[![Cobalion](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/638.gif){: .pokemon-sprite-img }](../pokemon/cobalion.md)
 
 	***
@@ -63,24 +81,6 @@
 	***
 
 	**#059 [Arcanine](../pokemon/arcanine.md)**
-
--	[![Absol](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/359.gif){: .pokemon-sprite-img }](../pokemon/absol.md)
-
-	***
-
-	**#359 [Absol](../pokemon/absol.md)**
-
--	[![Lucario](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/448.gif){: .pokemon-sprite-img }](../pokemon/lucario.md)
-
-	***
-
-	**#448 [Lucario](../pokemon/lucario.md)**
-
--	[![Gallade](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/475.gif){: .pokemon-sprite-img }](../pokemon/gallade.md)
-
-	***
-
-	**#475 [Gallade](../pokemon/gallade.md)**
 
 </div>
 

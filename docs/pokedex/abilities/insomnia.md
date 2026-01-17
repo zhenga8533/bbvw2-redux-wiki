@@ -58,29 +58,17 @@
 
 	**#168 [Ariados](../pokemon/ariados.md)**
 
--	[![Murkrow](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/198.gif){: .pokemon-sprite-img }](../pokemon/murkrow.md)
+</div>
+
+### :material-eye-off: Hidden Ability
+
+<div class="grid cards" markdown>
+
+-	[![Delibird](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/225.gif){: .pokemon-sprite-img }](../pokemon/delibird.md)
 
 	***
 
-	**#198 [Murkrow](../pokemon/murkrow.md)**
-
--	[![Shuppet](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/353.gif){: .pokemon-sprite-img }](../pokemon/shuppet.md)
-
-	***
-
-	**#353 [Shuppet](../pokemon/shuppet.md)**
-
--	[![Banette](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/354.gif){: .pokemon-sprite-img }](../pokemon/banette.md)
-
-	***
-
-	**#354 [Banette](../pokemon/banette.md)**
-
--	[![Honchkrow](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/430.gif){: .pokemon-sprite-img }](../pokemon/honchkrow.md)
-
-	***
-
-	**#430 [Honchkrow](../pokemon/honchkrow.md)**
+	**#225 [Delibird](../pokemon/delibird.md)**
 
 </div>
 

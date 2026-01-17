@@ -16,6 +16,18 @@
 
 ??? note "Gothitelle ROM Changes"
 
+	**Ability (slot 1) Changes:**
+
+	- `frisk` → `shadow-tag`
+
+	**Ability (slot 2) Changes:**
+
+	- `(none)` → `frisk`
+
+	**Ability (slot 3) Changes:**
+
+	- `shadow-tag` → `(none)`
+
 	**Type Changes:**
 
 	- `psychic` → `psychic / dark`
@@ -37,8 +49,8 @@
 
 	---
 
+	- [Shadow Tag](../../pokedex/abilities/shadow-tag.md)
 	- [Frisk](../../pokedex/abilities/frisk.md)
-	- [Shadow Tag](../../pokedex/abilities/shadow-tag.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

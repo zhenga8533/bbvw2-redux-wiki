@@ -15,6 +15,18 @@
 
 ??? note "Nidorino ROM Changes"
 
+	**Ability (slot 1) Changes:**
+
+	- `poison-point` → `hustle`
+
+	**Ability (slot 2) Changes:**
+
+	- `rivalry` → `poison-point`
+
+	**Ability (slot 3) Changes:**
+
+	- `hustle` → `rivalry`
+
 	**Level-up Moves Changes:**
 
 	- `13 moves` → `21 moves`
@@ -28,9 +40,9 @@
 
 	---
 
+	- [Hustle](../../pokedex/abilities/hustle.md)
 	- [Poison Point](../../pokedex/abilities/poison-point.md)
-	- [Rivalry](../../pokedex/abilities/rivalry.md)
-	- [Hustle](../../pokedex/abilities/hustle.md) :material-eye-off:
+	- [Rivalry](../../pokedex/abilities/rivalry.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

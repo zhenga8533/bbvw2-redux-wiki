@@ -18,7 +18,7 @@
 
 ## :material-pokeball: Pokémon with this Ability
 
-### :material-star: Standard Ability
+### :material-eye-off: Hidden Ability
 
 <div class="grid cards" markdown>
 
@@ -34,17 +34,11 @@
 
 	**#428 [Lopunny](../pokemon/lopunny.md)**
 
--	[![Woobat](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/527.gif){: .pokemon-sprite-img }](../pokemon/woobat.md)
+-	[![Audino](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/531.gif){: .pokemon-sprite-img }](../pokemon/audino.md)
 
 	***
 
-	**#527 [Woobat](../pokemon/woobat.md)**
-
--	[![Swoobat](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/528.gif){: .pokemon-sprite-img }](../pokemon/swoobat.md)
-
-	***
-
-	**#528 [Swoobat](../pokemon/swoobat.md)**
+	**#531 [Audino](../pokemon/audino.md)**
 
 -	[![Golett](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/622.gif){: .pokemon-sprite-img }](../pokemon/golett.md)
 

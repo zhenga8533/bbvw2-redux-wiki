@@ -19,6 +19,14 @@
 
 	- `glameow > purugly: level-up (level 38)` → `glameow > purugly: level-up (level 26)`
 
+	**Ability (slot 2) Changes:**
+
+	- `own-tempo` → `defiant`
+
+	**Ability (slot 3) Changes:**
+
+	- `defiant` → `(none)`
+
 	**Level-up Moves Changes:**
 
 	- `16 moves` → `25 moves`
@@ -33,8 +41,7 @@
 	---
 
 	- [Thick Fat](../../pokedex/abilities/thick-fat.md)
-	- [Own Tempo](../../pokedex/abilities/own-tempo.md)
-	- [Defiant](../../pokedex/abilities/defiant.md) :material-eye-off:
+	- [Defiant](../../pokedex/abilities/defiant.md)
 
 - **:material-ruler: Physical Attributes**
 

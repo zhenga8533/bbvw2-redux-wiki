@@ -15,6 +15,14 @@
 
 ??? note "Gloom ROM Changes"
 
+	**Ability (slot 2) Changes:**
+
+	- `(none)` → `stench`
+
+	**Ability (slot 3) Changes:**
+
+	- `stench` → `(none)`
+
 	**Level-up Moves Changes:**
 
 	- `14 moves` → `22 moves`
@@ -29,7 +37,7 @@
 	---
 
 	- [Chlorophyll](../../pokedex/abilities/chlorophyll.md)
-	- [Stench](../../pokedex/abilities/stench.md) :material-eye-off:
+	- [Stench](../../pokedex/abilities/stench.md)
 
 - **:material-ruler: Physical Attributes**
 

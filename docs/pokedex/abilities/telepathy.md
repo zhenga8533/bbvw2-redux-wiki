@@ -22,29 +22,23 @@
 
 <div class="grid cards" markdown>
 
--	[![Elgyem](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/605.gif){: .pokemon-sprite-img }](../pokemon/elgyem.md)
+-	[![Wobbuffet](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/202.gif){: .pokemon-sprite-img }](../pokemon/wobbuffet.md)
 
 	***
 
-	**#605 [Elgyem](../pokemon/elgyem.md)**
+	**#202 [Wobbuffet](../pokemon/wobbuffet.md)**
 
--	[![Beheeyem](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/606.gif){: .pokemon-sprite-img }](../pokemon/beheeyem.md)
+-	[![Wynaut](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/360.gif){: .pokemon-sprite-img }](../pokemon/wynaut.md)
 
 	***
 
-	**#606 [Beheeyem](../pokemon/beheeyem.md)**
+	**#360 [Wynaut](../pokemon/wynaut.md)**
 
 </div>
 
 ### :material-eye-off: Hidden Ability
 
 <div class="grid cards" markdown>
-
--	[![Wobbuffet](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/202.gif){: .pokemon-sprite-img }](../pokemon/wobbuffet.md)
-
-	***
-
-	**#202 [Wobbuffet](../pokemon/wobbuffet.md)**
 
 -	[![Ralts](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/280.gif){: .pokemon-sprite-img }](../pokemon/ralts.md)
 
@@ -76,12 +70,6 @@
 
 	**#308 [Medicham](../pokemon/medicham.md)**
 
--	[![Wynaut](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/360.gif){: .pokemon-sprite-img }](../pokemon/wynaut.md)
-
-	***
-
-	**#360 [Wynaut](../pokemon/wynaut.md)**
-
 -	[![Dialga](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/483.gif){: .pokemon-sprite-img }](../pokemon/dialga.md)
 
 	***
@@ -99,6 +87,18 @@
 	***
 
 	**#487 [Giratina Altered](../pokemon/giratina-altered.md)**
+
+-	[![Munna](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/517.gif){: .pokemon-sprite-img }](../pokemon/munna.md)
+
+	***
+
+	**#517 [Munna](../pokemon/munna.md)**
+
+-	[![Musharna](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/518.gif){: .pokemon-sprite-img }](../pokemon/musharna.md)
+
+	***
+
+	**#518 [Musharna](../pokemon/musharna.md)**
 
 </div>
 

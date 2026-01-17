@@ -18,7 +18,7 @@
 
 ## :material-pokeball: Pokémon with this Ability
 
-### :material-eye-off: Hidden Ability
+### :material-star: Standard Ability
 
 <div class="grid cards" markdown>
 
@@ -33,6 +33,12 @@
 	***
 
 	**#103 [Exeggutor](../pokemon/exeggutor.md)**
+
+</div>
+
+### :material-eye-off: Hidden Ability
+
+<div class="grid cards" markdown>
 
 -	[![Tropius](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/357.gif){: .pokemon-sprite-img }](../pokemon/tropius.md)
 

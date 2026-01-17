@@ -15,6 +15,18 @@
 
 ??? note "Seaking ROM Changes"
 
+	**Ability (slot 1) Changes:**
+
+	- `swift-swim` → `lightning-rod`
+
+	**Ability (slot 2) Changes:**
+
+	- `water-veil` → `swift-swim`
+
+	**Ability (slot 3) Changes:**
+
+	- `lightning-rod` → `water-veil`
+
 	**Level-up Moves Changes:**
 
 	- `16 moves` → `24 moves`
@@ -32,9 +44,9 @@
 
 	---
 
+	- [Lightning Rod](../../pokedex/abilities/lightning-rod.md)
 	- [Swift Swim](../../pokedex/abilities/swift-swim.md)
-	- [Water Veil](../../pokedex/abilities/water-veil.md)
-	- [Lightning Rod](../../pokedex/abilities/lightning-rod.md) :material-eye-off:
+	- [Water Veil](../../pokedex/abilities/water-veil.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

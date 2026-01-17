@@ -16,6 +16,14 @@
 
 ??? note "Simisage ROM Changes"
 
+	**Ability (slot 2) Changes:**
+
+	- `(none)` → `overgrow`
+
+	**Ability (slot 3) Changes:**
+
+	- `overgrow` → `(none)`
+
 	**Growth Rate Changes:**
 
 	- `medium` → `fast`
@@ -38,7 +46,7 @@
 	---
 
 	- [Gluttony](../../pokedex/abilities/gluttony.md)
-	- [Overgrow](../../pokedex/abilities/overgrow.md) :material-eye-off:
+	- [Overgrow](../../pokedex/abilities/overgrow.md)
 
 - **:material-ruler: Physical Attributes**
 

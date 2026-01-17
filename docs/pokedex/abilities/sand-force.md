@@ -22,30 +22,6 @@
 
 <div class="grid cards" markdown>
 
--	[![Drilbur](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/529.gif){: .pokemon-sprite-img }](../pokemon/drilbur.md)
-
-	***
-
-	**#529 [Drilbur](../pokemon/drilbur.md)**
-
--	[![Excadrill](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/530.gif){: .pokemon-sprite-img }](../pokemon/excadrill.md)
-
-	***
-
-	**#530 [Excadrill](../pokemon/excadrill.md)**
-
--	[![Landorus Incarnate](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/645.gif){: .pokemon-sprite-img }](../pokemon/landorus-incarnate.md)
-
-	***
-
-	**#645 [Landorus Incarnate](../pokemon/landorus-incarnate.md)**
-
-</div>
-
-### :material-eye-off: Hidden Ability
-
-<div class="grid cards" markdown>
-
 -	[![Diglett](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/50.gif){: .pokemon-sprite-img }](../pokemon/diglett.md)
 
 	***
@@ -63,18 +39,6 @@
 	***
 
 	**#299 [Nosepass](../pokemon/nosepass.md)**
-
--	[![Shellos](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/422.gif){: .pokemon-sprite-img }](../pokemon/shellos.md)
-
-	***
-
-	**#422 [Shellos](../pokemon/shellos.md)**
-
--	[![Gastrodon](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/423.gif){: .pokemon-sprite-img }](../pokemon/gastrodon.md)
-
-	***
-
-	**#423 [Gastrodon](../pokemon/gastrodon.md)**
 
 -	[![Hippopotas](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/449.gif){: .pokemon-sprite-img }](../pokemon/hippopotas.md)
 
@@ -94,6 +58,30 @@
 
 	**#476 [Probopass](../pokemon/probopass.md)**
 
+-	[![Landorus Incarnate](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/645.gif){: .pokemon-sprite-img }](../pokemon/landorus-incarnate.md)
+
+	***
+
+	**#645 [Landorus Incarnate](../pokemon/landorus-incarnate.md)**
+
+</div>
+
+### :material-eye-off: Hidden Ability
+
+<div class="grid cards" markdown>
+
+-	[![Shellos](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/422.gif){: .pokemon-sprite-img }](../pokemon/shellos.md)
+
+	***
+
+	**#422 [Shellos](../pokemon/shellos.md)**
+
+-	[![Gastrodon](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/423.gif){: .pokemon-sprite-img }](../pokemon/gastrodon.md)
+
+	***
+
+	**#423 [Gastrodon](../pokemon/gastrodon.md)**
+
 -	[![Roggenrola](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/524.gif){: .pokemon-sprite-img }](../pokemon/roggenrola.md)
 
 	***
@@ -111,6 +99,18 @@
 	***
 
 	**#526 [Gigalith](../pokemon/gigalith.md)**
+
+-	[![Drilbur](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/529.gif){: .pokemon-sprite-img }](../pokemon/drilbur.md)
+
+	***
+
+	**#529 [Drilbur](../pokemon/drilbur.md)**
+
+-	[![Excadrill](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/530.gif){: .pokemon-sprite-img }](../pokemon/excadrill.md)
+
+	***
+
+	**#530 [Excadrill](../pokemon/excadrill.md)**
 
 </div>
 

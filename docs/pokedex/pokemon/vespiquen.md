@@ -15,9 +15,13 @@
 
 ??? note "Vespiquen ROM Changes"
 
-	**Ability Changes:**
+	**Ability (slot 1) Changes:**
 
-	- `(none)` → `intimidate`
+	- `pressure` → `intimidate`
+
+	**Ability (slot 2) Changes:**
+
+	- `(none)` → `pressure`
 
 	**Level-up Moves Changes:**
 
@@ -36,9 +40,9 @@
 
 	---
 
-	- [Pressure](../../pokedex/abilities/pressure.md)
-	- [Unnerve](../../pokedex/abilities/unnerve.md) :material-eye-off:
 	- [Intimidate](../../pokedex/abilities/intimidate.md)
+	- [Unnerve](../../pokedex/abilities/unnerve.md) :material-eye-off:
+	- [Pressure](../../pokedex/abilities/pressure.md)
 
 - **:material-ruler: Physical Attributes**
 

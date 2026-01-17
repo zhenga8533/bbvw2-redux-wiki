@@ -15,6 +15,14 @@
 
 ??? note "Piplup ROM Changes"
 
+	**Ability (slot 2) Changes:**
+
+	- `(none)` → `torrent`
+
+	**Ability (slot 3) Changes:**
+
+	- `competitive` → `(none)`
+
 	**Level-up Moves Changes:**
 
 	- `13 moves` → `18 moves`
@@ -33,7 +41,7 @@
 	---
 
 	- [Defiant](../../pokedex/abilities/defiant.md)
-	- Competitive :material-eye-off:
+	- [Torrent](../../pokedex/abilities/torrent.md)
 
 - **:material-ruler: Physical Attributes**
 

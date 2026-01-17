@@ -18,7 +18,7 @@
 
 ## :material-pokeball: Pokémon with this Ability
 
-### :material-star: Standard Ability
+### :material-eye-off: Hidden Ability
 
 <div class="grid cards" markdown>
 
@@ -27,6 +27,12 @@
 	***
 
 	**#324 [Torkoal](../pokemon/torkoal.md)**
+
+-	[![Heatmor](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/631.gif){: .pokemon-sprite-img }](../pokemon/heatmor.md)
+
+	***
+
+	**#631 [Heatmor](../pokemon/heatmor.md)**
 
 </div>
 

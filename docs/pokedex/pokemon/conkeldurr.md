@@ -20,6 +20,14 @@
 
 	- `gurdurr > conkeldurr: trade` → `gurdurr > conkeldurr: use-item (link-cable)`
 
+	**Ability (slot 2) Changes:**
+
+	- `sheer-force` → `iron-fist`
+
+	**Ability (slot 3) Changes:**
+
+	- `iron-fist` → `sheer-force`
+
 	**Level-up Moves Changes:**
 
 	- `18 moves` → `25 moves`
@@ -38,8 +46,8 @@
 	---
 
 	- [Guts](../../pokedex/abilities/guts.md)
-	- [Sheer Force](../../pokedex/abilities/sheer-force.md)
-	- [Iron Fist](../../pokedex/abilities/iron-fist.md) :material-eye-off:
+	- [Iron Fist](../../pokedex/abilities/iron-fist.md)
+	- [Sheer Force](../../pokedex/abilities/sheer-force.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

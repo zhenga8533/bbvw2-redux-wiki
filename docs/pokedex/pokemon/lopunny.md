@@ -15,11 +15,21 @@
 
 ??? note "Lopunny ROM Changes"
 
-	**Ability Changes:**
+	**Ability (slot 1) Changes:**
 
-	- `limber` → `scrappy`
+	- `cute-charm` → `scrappy`
+
+	**Ability (slot 2) Changes:**
+
+	- `klutz` → `(none)`
 
 	- `scrappy` → `run-away`
+
+	- `(none)` → `limber`
+
+	**Ability (slot 3) Changes:**
+
+	- `limber` → `klutz`
 
 	**Type Changes:**
 
@@ -31,6 +41,10 @@
 
 	- `run-away` → `scrappy`
 
+	- `limber` → `(none)`
+
+	- `klutz` → `limber`
+
 
 ## :material-information: Basic Information
 
@@ -40,9 +54,9 @@
 
 	---
 
-	- [Cute Charm](../../pokedex/abilities/cute-charm.md)
-	- [Klutz](../../pokedex/abilities/klutz.md)
-	- [Run Away](../../pokedex/abilities/run-away.md) :material-eye-off:
+	- [Run Away](../../pokedex/abilities/run-away.md)
+	- [Klutz](../../pokedex/abilities/klutz.md) :material-eye-off:
+	- [Limber](../../pokedex/abilities/limber.md)
 
 - **:material-ruler: Physical Attributes**
 

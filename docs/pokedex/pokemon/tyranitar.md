@@ -15,6 +15,10 @@
 
 ??? note "Tyranitar ROM Changes"
 
+	**Ability (slot 2) Changes:**
+
+	- `(none)` → `battle-armor`
+
 	**Level-up Moves Changes:**
 
 	- `20 moves` → `24 moves`
@@ -34,6 +38,7 @@
 
 	- [Sand Stream](../../pokedex/abilities/sand-stream.md)
 	- [Unnerve](../../pokedex/abilities/unnerve.md) :material-eye-off:
+	- [Battle Armor](../../pokedex/abilities/battle-armor.md)
 
 - **:material-ruler: Physical Attributes**
 

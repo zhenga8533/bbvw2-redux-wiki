@@ -20,6 +20,18 @@
 
 	- `riolu > lucario: level-up (happiness, day)` → `riolu > lucario: level-up (knows aura-sphere)`
 
+	**Ability (slot 1) Changes:**
+
+	- `steadfast` → `prankster`
+
+	**Ability (slot 2) Changes:**
+
+	- `inner-focus` → `steadfast`
+
+	**Ability (slot 3) Changes:**
+
+	- `prankster` → `inner-focus`
+
 	**Level-up Moves Changes:**
 
 	- `15 moves` → `21 moves`
@@ -33,9 +45,9 @@
 
 	---
 
+	- [Prankster](../../pokedex/abilities/prankster.md)
 	- [Steadfast](../../pokedex/abilities/steadfast.md)
-	- [Inner Focus](../../pokedex/abilities/inner-focus.md)
-	- [Prankster](../../pokedex/abilities/prankster.md) :material-eye-off:
+	- [Inner Focus](../../pokedex/abilities/inner-focus.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

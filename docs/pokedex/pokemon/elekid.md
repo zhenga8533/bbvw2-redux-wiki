@@ -22,6 +22,14 @@
 
 	- `elekid > electabuzz: level-up (level 30)` → `elekid > electabuzz: level-up (level 29)`
 
+	**Ability (slot 2) Changes:**
+
+	- `(none)` → `vital-spirit`
+
+	**Ability (slot 3) Changes:**
+
+	- `vital-spirit` → `(none)`
+
 	**Level-up Moves Changes:**
 
 	- `24 moves` → `22 moves`
@@ -38,7 +46,7 @@
 	---
 
 	- [Static](../../pokedex/abilities/static.md)
-	- [Vital Spirit](../../pokedex/abilities/vital-spirit.md) :material-eye-off:
+	- [Vital Spirit](../../pokedex/abilities/vital-spirit.md)
 
 - **:material-ruler: Physical Attributes**
 

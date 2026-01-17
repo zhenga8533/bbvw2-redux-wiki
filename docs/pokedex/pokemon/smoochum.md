@@ -16,9 +16,13 @@
 
 ??? note "Smoochum ROM Changes"
 
-	**Ability Changes:**
+	**Ability (slot 1) Changes:**
 
-	- `hydration` → `dry-skin`
+	- `oblivious` → `dry-skin`
+
+	**Ability (slot 3) Changes:**
+
+	- `hydration` → `oblivious`
 
 	**Level-up Moves Changes:**
 
@@ -33,9 +37,9 @@
 
 	---
 
-	- [Oblivious](../../pokedex/abilities/oblivious.md)
+	- [Dry Skin](../../pokedex/abilities/dry-skin.md)
 	- [Forewarn](../../pokedex/abilities/forewarn.md)
-	- [Dry Skin](../../pokedex/abilities/dry-skin.md) :material-eye-off:
+	- [Oblivious](../../pokedex/abilities/oblivious.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

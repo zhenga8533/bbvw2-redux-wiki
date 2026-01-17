@@ -15,6 +15,14 @@
 
 ??? note "Kricketot ROM Changes"
 
+	**Ability (slot 2) Changes:**
+
+	- `(none)` → `run-away`
+
+	**Ability (slot 3) Changes:**
+
+	- `run-away` → `swarm`
+
 	**Level-up Moves Changes:**
 
 	- `4 moves` → `6 moves`
@@ -29,7 +37,8 @@
 	---
 
 	- [Shed Skin](../../pokedex/abilities/shed-skin.md)
-	- [Run Away](../../pokedex/abilities/run-away.md) :material-eye-off:
+	- [Swarm](../../pokedex/abilities/swarm.md) :material-eye-off:
+	- [Run Away](../../pokedex/abilities/run-away.md)
 
 - **:material-ruler: Physical Attributes**
 

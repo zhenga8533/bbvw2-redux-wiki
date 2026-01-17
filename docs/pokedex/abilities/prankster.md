@@ -22,36 +22,6 @@
 
 <div class="grid cards" markdown>
 
--	[![Cottonee](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/546.gif){: .pokemon-sprite-img }](../pokemon/cottonee.md)
-
-	***
-
-	**#546 [Cottonee](../pokemon/cottonee.md)**
-
--	[![Whimsicott](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/547.gif){: .pokemon-sprite-img }](../pokemon/whimsicott.md)
-
-	***
-
-	**#547 [Whimsicott](../pokemon/whimsicott.md)**
-
--	[![Tornadus Incarnate](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/641.gif){: .pokemon-sprite-img }](../pokemon/tornadus-incarnate.md)
-
-	***
-
-	**#641 [Tornadus Incarnate](../pokemon/tornadus-incarnate.md)**
-
--	[![Thundurus Incarnate](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/642.gif){: .pokemon-sprite-img }](../pokemon/thundurus-incarnate.md)
-
-	***
-
-	**#642 [Thundurus Incarnate](../pokemon/thundurus-incarnate.md)**
-
-</div>
-
-### :material-eye-off: Hidden Ability
-
-<div class="grid cards" markdown>
-
 -	[![Murkrow](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/198.gif){: .pokemon-sprite-img }](../pokemon/murkrow.md)
 
 	***
@@ -93,6 +63,30 @@
 	***
 
 	**#510 [Liepard](../pokemon/liepard.md)**
+
+-	[![Cottonee](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/546.gif){: .pokemon-sprite-img }](../pokemon/cottonee.md)
+
+	***
+
+	**#546 [Cottonee](../pokemon/cottonee.md)**
+
+-	[![Whimsicott](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/547.gif){: .pokemon-sprite-img }](../pokemon/whimsicott.md)
+
+	***
+
+	**#547 [Whimsicott](../pokemon/whimsicott.md)**
+
+-	[![Tornadus Incarnate](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/641.gif){: .pokemon-sprite-img }](../pokemon/tornadus-incarnate.md)
+
+	***
+
+	**#641 [Tornadus Incarnate](../pokemon/tornadus-incarnate.md)**
+
+-	[![Thundurus Incarnate](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/642.gif){: .pokemon-sprite-img }](../pokemon/thundurus-incarnate.md)
+
+	***
+
+	**#642 [Thundurus Incarnate](../pokemon/thundurus-incarnate.md)**
 
 </div>
 

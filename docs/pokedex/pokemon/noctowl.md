@@ -15,6 +15,18 @@
 
 ??? note "Noctowl ROM Changes"
 
+	**Ability (slot 1) Changes:**
+
+	- `insomnia` → `tinted-lens`
+
+	**Ability (slot 2) Changes:**
+
+	- `keen-eye` → `insomnia`
+
+	**Ability (slot 3) Changes:**
+
+	- `tinted-lens` → `keen-eye`
+
 	**Type Changes:**
 
 	- `normal / flying` → `psychic / flying`
@@ -36,9 +48,9 @@
 
 	---
 
+	- [Tinted Lens](../../pokedex/abilities/tinted-lens.md)
 	- [Insomnia](../../pokedex/abilities/insomnia.md)
-	- [Keen Eye](../../pokedex/abilities/keen-eye.md)
-	- [Tinted Lens](../../pokedex/abilities/tinted-lens.md) :material-eye-off:
+	- [Keen Eye](../../pokedex/abilities/keen-eye.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

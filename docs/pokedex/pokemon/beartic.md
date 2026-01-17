@@ -16,6 +16,10 @@
 
 ??? note "Beartic ROM Changes"
 
+	**Ability (slot 2) Changes:**
+
+	- `(none)` → `sheer-force`
+
 	**Type Changes:**
 
 	- `ice` → `ice / fighting`
@@ -39,6 +43,7 @@
 
 	- [Snow Cloak](../../pokedex/abilities/snow-cloak.md)
 	- [Swift Swim](../../pokedex/abilities/swift-swim.md) :material-eye-off:
+	- [Sheer Force](../../pokedex/abilities/sheer-force.md)
 
 - **:material-ruler: Physical Attributes**
 

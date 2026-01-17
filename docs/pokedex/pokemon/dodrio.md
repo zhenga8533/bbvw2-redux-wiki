@@ -15,11 +15,15 @@
 
 ??? note "Dodrio ROM Changes"
 
-	**Ability Changes:**
+	**Ability (slot 1) Changes:**
 
-	- `tangled-feet` → `anger-point`
+	- `run-away` → `anger-point`
 
 	- `anger-point` → `tangled-feet`
+
+	**Ability (slot 3) Changes:**
+
+	- `tangled-feet` → `run-away`
 
 	**Level-up Moves Changes:**
 
@@ -28,6 +32,10 @@
 	**Machine Moves Changes:**
 
 	- `24 moves` → `26 moves (added: low-sweep, rock-climb)`
+
+	- `tangled-feet` → `anger-point`
+
+	- `run-away` → `tangled-feet`
 
 
 ## :material-information: Basic Information
@@ -38,9 +46,9 @@
 
 	---
 
-	- [Run Away](../../pokedex/abilities/run-away.md)
+	- [Tangled Feet](../../pokedex/abilities/tangled-feet.md)
 	- [Early Bird](../../pokedex/abilities/early-bird.md)
-	- [Tangled Feet](../../pokedex/abilities/tangled-feet.md) :material-eye-off:
+	- [Run Away](../../pokedex/abilities/run-away.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

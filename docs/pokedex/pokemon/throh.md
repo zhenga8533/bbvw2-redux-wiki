@@ -16,6 +16,14 @@
 
 ??? note "Throh ROM Changes"
 
+	**Ability (slot 2) Changes:**
+
+	- `inner-focus` → `mold-breaker`
+
+	**Ability (slot 3) Changes:**
+
+	- `mold-breaker` → `(none)`
+
 	**Level-up Moves Changes:**
 
 	- `15 moves` → `22 moves`
@@ -34,8 +42,7 @@
 	---
 
 	- [Guts](../../pokedex/abilities/guts.md)
-	- [Inner Focus](../../pokedex/abilities/inner-focus.md)
-	- [Mold Breaker](../../pokedex/abilities/mold-breaker.md) :material-eye-off:
+	- [Mold Breaker](../../pokedex/abilities/mold-breaker.md)
 
 - **:material-ruler: Physical Attributes**
 

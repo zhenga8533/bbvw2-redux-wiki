@@ -15,6 +15,14 @@
 
 ??? note "Nincada ROM Changes"
 
+	**Ability (slot 2) Changes:**
+
+	- `(none)` → `run-away`
+
+	**Ability (slot 3) Changes:**
+
+	- `run-away` → `(none)`
+
 	**Level-up Moves Changes:**
 
 	- `10 moves` → `22 moves`
@@ -29,7 +37,7 @@
 	---
 
 	- [Compound Eyes](../../pokedex/abilities/compound-eyes.md)
-	- [Run Away](../../pokedex/abilities/run-away.md) :material-eye-off:
+	- [Run Away](../../pokedex/abilities/run-away.md)
 
 - **:material-ruler: Physical Attributes**
 

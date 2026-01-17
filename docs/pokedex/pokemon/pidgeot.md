@@ -15,9 +15,13 @@
 
 ??? note "Pidgeot ROM Changes"
 
-	**Ability Changes:**
+	**Ability (slot 1) Changes:**
 
-	- `big-pecks` → `no-guard`
+	- `keen-eye` → `no-guard`
+
+	**Ability (slot 3) Changes:**
+
+	- `big-pecks` → `keen-eye`
 
 	- `no-guard` → `big-pecks`
 
@@ -29,6 +33,8 @@
 
 	- `22 moves` → `24 moves (added: echoed-voice, hurricane)`
 
+	- `big-pecks` → `no-guard`
+
 
 ## :material-information: Basic Information
 
@@ -38,9 +44,9 @@
 
 	---
 
-	- [Keen Eye](../../pokedex/abilities/keen-eye.md)
+	- [Big Pecks](../../pokedex/abilities/big-pecks.md)
 	- [Tangled Feet](../../pokedex/abilities/tangled-feet.md)
-	- [Big Pecks](../../pokedex/abilities/big-pecks.md) :material-eye-off:
+	- [Keen Eye](../../pokedex/abilities/keen-eye.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

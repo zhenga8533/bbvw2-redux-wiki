@@ -34,24 +34,6 @@
 
 	**#028 [Sandslash](../pokemon/sandslash.md)**
 
--	[![Diglett](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/50.gif){: .pokemon-sprite-img }](../pokemon/diglett.md)
-
-	***
-
-	**#050 [Diglett](../pokemon/diglett.md)**
-
--	[![Dugtrio](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/51.gif){: .pokemon-sprite-img }](../pokemon/dugtrio.md)
-
-	***
-
-	**#051 [Dugtrio](../pokemon/dugtrio.md)**
-
--	[![Gligar](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/207.gif){: .pokemon-sprite-img }](../pokemon/gligar.md)
-
-	***
-
-	**#207 [Gligar](../pokemon/gligar.md)**
-
 -	[![Cacnea](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/331.gif){: .pokemon-sprite-img }](../pokemon/cacnea.md)
 
 	***
@@ -81,12 +63,6 @@
 	***
 
 	**#445 [Garchomp](../pokemon/garchomp.md)**
-
--	[![Gliscor](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/472.gif){: .pokemon-sprite-img }](../pokemon/gliscor.md)
-
-	***
-
-	**#472 [Gliscor](../pokemon/gliscor.md)**
 
 </div>
 

@@ -19,6 +19,14 @@
 
 	- `shroomish > breloom: level-up (level 23)` → `shroomish > breloom: level-up (level 21)`
 
+	**Ability (slot 1) Changes:**
+
+	- `effect-spore` → `technician`
+
+	**Ability (slot 3) Changes:**
+
+	- `technician` → `(none)`
+
 	**Level-up Moves Changes:**
 
 	- `16 moves` → `25 moves`
@@ -32,9 +40,8 @@
 
 	---
 
-	- [Effect Spore](../../pokedex/abilities/effect-spore.md)
+	- [Technician](../../pokedex/abilities/technician.md)
 	- [Poison Heal](../../pokedex/abilities/poison-heal.md)
-	- [Technician](../../pokedex/abilities/technician.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

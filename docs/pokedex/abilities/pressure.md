@@ -58,17 +58,23 @@
 
 	**#250 [Ho-Oh](../pokemon/ho-oh.md)**
 
+-	[![Wailmer](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/320.gif){: .pokemon-sprite-img }](../pokemon/wailmer.md)
+
+	***
+
+	**#320 [Wailmer](../pokemon/wailmer.md)**
+
+-	[![Wailord](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/321.gif){: .pokemon-sprite-img }](../pokemon/wailord.md)
+
+	***
+
+	**#321 [Wailord](../pokemon/wailord.md)**
+
 -	[![Dusclops](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/356.gif){: .pokemon-sprite-img }](../pokemon/dusclops.md)
 
 	***
 
 	**#356 [Dusclops](../pokemon/dusclops.md)**
-
--	[![Absol](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/359.gif){: .pokemon-sprite-img }](../pokemon/absol.md)
-
-	***
-
-	**#359 [Absol](../pokemon/absol.md)**
 
 -	[![Deoxys Normal](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/386.gif){: .pokemon-sprite-img }](../pokemon/deoxys-normal.md)
 
@@ -93,12 +99,6 @@
 	***
 
 	**#461 [Weavile](../pokemon/weavile.md)**
-
--	[![Dusknoir](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/477.gif){: .pokemon-sprite-img }](../pokemon/dusknoir.md)
-
-	***
-
-	**#477 [Dusknoir](../pokemon/dusknoir.md)**
 
 -	[![Dialga](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/483.gif){: .pokemon-sprite-img }](../pokemon/dialga.md)
 
@@ -130,17 +130,17 @@
 
 <div class="grid cards" markdown>
 
--	[![Wailmer](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/320.gif){: .pokemon-sprite-img }](../pokemon/wailmer.md)
+-	[![Absol](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/359.gif){: .pokemon-sprite-img }](../pokemon/absol.md)
 
 	***
 
-	**#320 [Wailmer](../pokemon/wailmer.md)**
+	**#359 [Absol](../pokemon/absol.md)**
 
--	[![Wailord](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/321.gif){: .pokemon-sprite-img }](../pokemon/wailord.md)
+-	[![Dusknoir](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/477.gif){: .pokemon-sprite-img }](../pokemon/dusknoir.md)
 
 	***
 
-	**#321 [Wailord](../pokemon/wailord.md)**
+	**#477 [Dusknoir](../pokemon/dusknoir.md)**
 
 -	[![Pawniard](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/624.gif){: .pokemon-sprite-img }](../pokemon/pawniard.md)
 

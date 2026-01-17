@@ -15,6 +15,14 @@
 
 ??? note "Mightyena ROM Changes"
 
+	**Ability (slot 2) Changes:**
+
+	- `quick-feet` → `moxie`
+
+	**Ability (slot 3) Changes:**
+
+	- `moxie` → `quick-feet`
+
 	**Level-up Moves Changes:**
 
 	- `17 moves` → `24 moves`
@@ -33,8 +41,8 @@
 	---
 
 	- [Intimidate](../../pokedex/abilities/intimidate.md)
-	- [Quick Feet](../../pokedex/abilities/quick-feet.md)
-	- [Moxie](../../pokedex/abilities/moxie.md) :material-eye-off:
+	- [Moxie](../../pokedex/abilities/moxie.md)
+	- [Quick Feet](../../pokedex/abilities/quick-feet.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

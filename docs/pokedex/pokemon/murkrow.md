@@ -15,6 +15,14 @@
 
 ??? note "Murkrow ROM Changes"
 
+	**Ability (slot 1) Changes:**
+
+	- `insomnia` → `prankster`
+
+	**Ability (slot 3) Changes:**
+
+	- `prankster` → `(none)`
+
 	**Level-up Moves Changes:**
 
 	- `15 moves` → `20 moves`
@@ -32,9 +40,8 @@
 
 	---
 
-	- [Insomnia](../../pokedex/abilities/insomnia.md)
+	- [Prankster](../../pokedex/abilities/prankster.md)
 	- [Super Luck](../../pokedex/abilities/super-luck.md)
-	- [Prankster](../../pokedex/abilities/prankster.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

@@ -15,6 +15,14 @@
 
 ??? note "Hitmonlee ROM Changes"
 
+	**Ability (slot 1) Changes:**
+
+	- `limber` → `unburden`
+
+	**Ability (slot 3) Changes:**
+
+	- `unburden` → `limber`
+
 	**Level-up Moves Changes:**
 
 	- `17 moves` → `25 moves`
@@ -28,9 +36,9 @@
 
 	---
 
-	- [Limber](../../pokedex/abilities/limber.md)
+	- [Unburden](../../pokedex/abilities/unburden.md)
 	- [Reckless](../../pokedex/abilities/reckless.md)
-	- [Unburden](../../pokedex/abilities/unburden.md) :material-eye-off:
+	- [Limber](../../pokedex/abilities/limber.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

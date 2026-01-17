@@ -15,6 +15,14 @@
 
 ??? note "Caterpie ROM Changes"
 
+	**Ability (slot 2) Changes:**
+
+	- `(none)` → `run-away`
+
+	**Ability (slot 3) Changes:**
+
+	- `run-away` → `(none)`
+
 	**Level-up Moves Changes:**
 
 	- `3 moves` → `5 moves`
@@ -29,7 +37,7 @@
 	---
 
 	- [Shield Dust](../../pokedex/abilities/shield-dust.md)
-	- [Run Away](../../pokedex/abilities/run-away.md) :material-eye-off:
+	- [Run Away](../../pokedex/abilities/run-away.md)
 
 - **:material-ruler: Physical Attributes**
 

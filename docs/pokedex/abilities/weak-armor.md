@@ -22,23 +22,29 @@
 
 <div class="grid cards" markdown>
 
--	[![Garbodor](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/569.gif){: .pokemon-sprite-img }](../pokemon/garbodor.md)
+-	[![Onix](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/95.gif){: .pokemon-sprite-img }](../pokemon/onix.md)
 
 	***
 
-	**#569 [Garbodor](../pokemon/garbodor.md)**
+	**#095 [Onix](../pokemon/onix.md)**
+
+-	[![Vullaby](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/629.gif){: .pokemon-sprite-img }](../pokemon/vullaby.md)
+
+	***
+
+	**#629 [Vullaby](../pokemon/vullaby.md)**
+
+-	[![Mandibuzz](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/630.gif){: .pokemon-sprite-img }](../pokemon/mandibuzz.md)
+
+	***
+
+	**#630 [Mandibuzz](../pokemon/mandibuzz.md)**
 
 </div>
 
 ### :material-eye-off: Hidden Ability
 
 <div class="grid cards" markdown>
-
--	[![Onix](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/95.gif){: .pokemon-sprite-img }](../pokemon/onix.md)
-
-	***
-
-	**#095 [Onix](../pokemon/onix.md)**
 
 -	[![Omanyte](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/138.gif){: .pokemon-sprite-img }](../pokemon/omanyte.md)
 
@@ -69,6 +75,12 @@
 	***
 
 	**#218 [Slugma](../pokemon/slugma.md)**
+
+-	[![Magcargo](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/219.gif){: .pokemon-sprite-img }](../pokemon/magcargo.md)
+
+	***
+
+	**#219 [Magcargo](../pokemon/magcargo.md)**
 
 -	[![Skarmory](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/227.gif){: .pokemon-sprite-img }](../pokemon/skarmory.md)
 
@@ -105,18 +117,6 @@
 	***
 
 	**#584 [Vanilluxe](../pokemon/vanilluxe.md)**
-
--	[![Vullaby](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/629.gif){: .pokemon-sprite-img }](../pokemon/vullaby.md)
-
-	***
-
-	**#629 [Vullaby](../pokemon/vullaby.md)**
-
--	[![Mandibuzz](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/630.gif){: .pokemon-sprite-img }](../pokemon/mandibuzz.md)
-
-	***
-
-	**#630 [Mandibuzz](../pokemon/mandibuzz.md)**
 
 </div>
 

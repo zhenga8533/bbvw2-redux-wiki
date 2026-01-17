@@ -15,9 +15,17 @@
 
 ??? note "Drowzee ROM Changes"
 
-	**Ability Changes:**
+	**Ability (slot 1) Changes:**
 
-	- `inner-focus` → `bad-dreams`
+	- `insomnia` → `bad-dreams`
+
+	**Ability (slot 2) Changes:**
+
+	- `forewarn` → `insomnia`
+
+	**Ability (slot 3) Changes:**
+
+	- `inner-focus` → `forewarn`
 
 	**Level-up Moves Changes:**
 
@@ -36,9 +44,9 @@
 
 	---
 
+	- [Bad Dreams](../../pokedex/abilities/bad-dreams.md)
 	- [Insomnia](../../pokedex/abilities/insomnia.md)
-	- [Forewarn](../../pokedex/abilities/forewarn.md)
-	- [Bad Dreams](../../pokedex/abilities/bad-dreams.md) :material-eye-off:
+	- [Forewarn](../../pokedex/abilities/forewarn.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

@@ -15,6 +15,14 @@
 
 ??? note "Altaria ROM Changes"
 
+	**Ability (slot 2) Changes:**
+
+	- `(none)` → `cloud-nine`
+
+	**Ability (slot 3) Changes:**
+
+	- `cloud-nine` → `(none)`
+
 	**Type Changes:**
 
 	- `dragon / flying` → `dragon / fairy`
@@ -33,7 +41,7 @@
 	---
 
 	- [Natural Cure](../../pokedex/abilities/natural-cure.md)
-	- [Cloud Nine](../../pokedex/abilities/cloud-nine.md) :material-eye-off:
+	- [Cloud Nine](../../pokedex/abilities/cloud-nine.md)
 
 - **:material-ruler: Physical Attributes**
 

@@ -16,6 +16,14 @@
 
 ??? note "Liepard ROM Changes"
 
+	**Ability (slot 1) Changes:**
+
+	- `limber` → `prankster`
+
+	**Ability (slot 3) Changes:**
+
+	- `prankster` → `(none)`
+
 	**Level-up Moves Changes:**
 
 	- `19 moves` → `25 moves`
@@ -33,9 +41,8 @@
 
 	---
 
-	- [Limber](../../pokedex/abilities/limber.md)
+	- [Prankster](../../pokedex/abilities/prankster.md)
 	- [Unburden](../../pokedex/abilities/unburden.md)
-	- [Prankster](../../pokedex/abilities/prankster.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

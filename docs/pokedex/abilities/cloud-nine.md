@@ -34,12 +34,6 @@
 
 	**#055 [Golduck](../pokemon/golduck.md)**
 
-</div>
-
-### :material-eye-off: Hidden Ability
-
-<div class="grid cards" markdown>
-
 -	[![Lickitung](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/108.gif){: .pokemon-sprite-img }](../pokemon/lickitung.md)
 
 	***

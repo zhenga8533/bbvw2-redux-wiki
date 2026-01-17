@@ -16,9 +16,9 @@
 
 ??? note "Durant ROM Changes"
 
-	**Ability Changes:**
+	**Ability (slot 1) Changes:**
 
-	- `truant` → `heatproof`
+	- `swarm` → `heatproof`
 
 	**Level-up Moves Changes:**
 
@@ -37,9 +37,9 @@
 
 	---
 
-	- [Swarm](../../pokedex/abilities/swarm.md)
+	- [Heatproof](../../pokedex/abilities/heatproof.md)
 	- [Hustle](../../pokedex/abilities/hustle.md)
-	- [Heatproof](../../pokedex/abilities/heatproof.md) :material-eye-off:
+	- [Truant](../../pokedex/abilities/truant.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

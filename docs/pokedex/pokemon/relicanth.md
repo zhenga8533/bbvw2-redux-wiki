@@ -15,6 +15,14 @@
 
 ??? note "Relicanth ROM Changes"
 
+	**Ability (slot 1) Changes:**
+
+	- `swift-swim` → `sturdy`
+
+	**Ability (slot 3) Changes:**
+
+	- `sturdy` → `(none)`
+
 	**Level-up Moves Changes:**
 
 	- `13 moves` → `21 moves`
@@ -32,9 +40,8 @@
 
 	---
 
-	- [Swift Swim](../../pokedex/abilities/swift-swim.md)
+	- [Sturdy](../../pokedex/abilities/sturdy.md)
 	- [Rock Head](../../pokedex/abilities/rock-head.md)
-	- [Sturdy](../../pokedex/abilities/sturdy.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

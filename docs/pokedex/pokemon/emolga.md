@@ -16,6 +16,14 @@
 
 ??? note "Emolga ROM Changes"
 
+	**Ability (slot 2) Changes:**
+
+	- `(none)` → `motor-drive`
+
+	**Ability (slot 3) Changes:**
+
+	- `motor-drive` → `(none)`
+
 	**Level-up Moves Changes:**
 
 	- `15 moves` → `23 moves`
@@ -34,7 +42,7 @@
 	---
 
 	- [Static](../../pokedex/abilities/static.md)
-	- [Motor Drive](../../pokedex/abilities/motor-drive.md) :material-eye-off:
+	- [Motor Drive](../../pokedex/abilities/motor-drive.md)
 
 - **:material-ruler: Physical Attributes**
 

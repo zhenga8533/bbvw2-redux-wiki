@@ -40,6 +40,24 @@
 
 	**#115 [Kangaskhan](../pokemon/kangaskhan.md)**
 
+-	[![Girafarig](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/203.gif){: .pokemon-sprite-img }](../pokemon/girafarig.md)
+
+	***
+
+	**#203 [Girafarig](../pokemon/girafarig.md)**
+
+-	[![Taillow](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/276.gif){: .pokemon-sprite-img }](../pokemon/taillow.md)
+
+	***
+
+	**#276 [Taillow](../pokemon/taillow.md)**
+
+</div>
+
+### :material-eye-off: Hidden Ability
+
+<div class="grid cards" markdown>
+
 -	[![Ledyba](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/165.gif){: .pokemon-sprite-img }](../pokemon/ledyba.md)
 
 	***
@@ -51,36 +69,6 @@
 	***
 
 	**#166 [Ledian](../pokemon/ledian.md)**
-
--	[![Natu](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/177.gif){: .pokemon-sprite-img }](../pokemon/natu.md)
-
-	***
-
-	**#177 [Natu](../pokemon/natu.md)**
-
--	[![Xatu](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/178.gif){: .pokemon-sprite-img }](../pokemon/xatu.md)
-
-	***
-
-	**#178 [Xatu](../pokemon/xatu.md)**
-
--	[![Girafarig](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/203.gif){: .pokemon-sprite-img }](../pokemon/girafarig.md)
-
-	***
-
-	**#203 [Girafarig](../pokemon/girafarig.md)**
-
--	[![Houndour](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/228.gif){: .pokemon-sprite-img }](../pokemon/houndour.md)
-
-	***
-
-	**#228 [Houndour](../pokemon/houndour.md)**
-
--	[![Houndoom](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/229.gif){: .pokemon-sprite-img }](../pokemon/houndoom.md)
-
-	***
-
-	**#229 [Houndoom](../pokemon/houndoom.md)**
 
 -	[![Seedot](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/273.gif){: .pokemon-sprite-img }](../pokemon/seedot.md)
 
@@ -99,24 +87,6 @@
 	***
 
 	**#275 [Shiftry](../pokemon/shiftry.md)**
-
--	[![Taillow](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/276.gif){: .pokemon-sprite-img }](../pokemon/taillow.md)
-
-	***
-
-	**#276 [Taillow](../pokemon/taillow.md)**
-
-</div>
-
-### :material-eye-off: Hidden Ability
-
-<div class="grid cards" markdown>
-
--	[![Sunkern](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/191.gif){: .pokemon-sprite-img }](../pokemon/sunkern.md)
-
-	***
-
-	**#191 [Sunkern](../pokemon/sunkern.md)**
 
 </div>
 

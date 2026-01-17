@@ -15,6 +15,10 @@
 
 ??? note "Vigoroth ROM Changes"
 
+	**Ability (slot 2) Changes:**
+
+	- `(none)` → `sheer-force`
+
 	**Level-up Moves Changes:**
 
 	- `13 moves` → `23 moves`
@@ -29,6 +33,7 @@
 	---
 
 	- [Vital Spirit](../../pokedex/abilities/vital-spirit.md)
+	- [Sheer Force](../../pokedex/abilities/sheer-force.md)
 
 - **:material-ruler: Physical Attributes**
 

@@ -19,6 +19,14 @@
 
 	- `marill > azumarill: level-up (level 18)` → `marill > azumarill: level-up (level 21)`
 
+	**Ability (slot 1) Changes:**
+
+	- `thick-fat` → `huge-power`
+
+	**Ability (slot 2) Changes:**
+
+	- `huge-power` → `thick-fat`
+
 	**Level-up Moves Changes:**
 
 	- `25 moves` → `24 moves`
@@ -32,8 +40,8 @@
 
 	---
 
-	- [Thick Fat](../../pokedex/abilities/thick-fat.md)
 	- [Huge Power](../../pokedex/abilities/huge-power.md)
+	- [Thick Fat](../../pokedex/abilities/thick-fat.md)
 	- [Sap Sipper](../../pokedex/abilities/sap-sipper.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**

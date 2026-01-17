@@ -22,11 +22,29 @@
 
 <div class="grid cards" markdown>
 
--	[![Shuckle](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/213.gif){: .pokemon-sprite-img }](../pokemon/shuckle.md)
+-	[![Bellsprout](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/69.gif){: .pokemon-sprite-img }](../pokemon/bellsprout.md)
 
 	***
 
-	**#213 [Shuckle](../pokemon/shuckle.md)**
+	**#069 [Bellsprout](../pokemon/bellsprout.md)**
+
+-	[![Weepinbell](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/70.gif){: .pokemon-sprite-img }](../pokemon/weepinbell.md)
+
+	***
+
+	**#070 [Weepinbell](../pokemon/weepinbell.md)**
+
+-	[![Victreebel](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/71.gif){: .pokemon-sprite-img }](../pokemon/victreebel.md)
+
+	***
+
+	**#071 [Victreebel](../pokemon/victreebel.md)**
+
+-	[![Lickitung](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/108.gif){: .pokemon-sprite-img }](../pokemon/lickitung.md)
+
+	***
+
+	**#108 [Lickitung](../pokemon/lickitung.md)**
 
 -	[![Zigzagoon](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/263.gif){: .pokemon-sprite-img }](../pokemon/zigzagoon.md)
 
@@ -39,6 +57,12 @@
 	***
 
 	**#264 [Linoone](../pokemon/linoone.md)**
+
+-	[![Lickilicky](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/463.gif){: .pokemon-sprite-img }](../pokemon/lickilicky.md)
+
+	***
+
+	**#463 [Lickilicky](../pokemon/lickilicky.md)**
 
 -	[![Pansage](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/511.gif){: .pokemon-sprite-img }](../pokemon/pansage.md)
 
@@ -76,41 +100,23 @@
 
 	**#516 [Simipour](../pokemon/simipour.md)**
 
--	[![Heatmor](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/631.gif){: .pokemon-sprite-img }](../pokemon/heatmor.md)
-
-	***
-
-	**#631 [Heatmor](../pokemon/heatmor.md)**
-
 </div>
 
 ### :material-eye-off: Hidden Ability
 
 <div class="grid cards" markdown>
 
--	[![Bellsprout](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/69.gif){: .pokemon-sprite-img }](../pokemon/bellsprout.md)
-
-	***
-
-	**#069 [Bellsprout](../pokemon/bellsprout.md)**
-
--	[![Weepinbell](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/70.gif){: .pokemon-sprite-img }](../pokemon/weepinbell.md)
-
-	***
-
-	**#070 [Weepinbell](../pokemon/weepinbell.md)**
-
--	[![Victreebel](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/71.gif){: .pokemon-sprite-img }](../pokemon/victreebel.md)
-
-	***
-
-	**#071 [Victreebel](../pokemon/victreebel.md)**
-
 -	[![Snorlax](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/143.gif){: .pokemon-sprite-img }](../pokemon/snorlax.md)
 
 	***
 
 	**#143 [Snorlax](../pokemon/snorlax.md)**
+
+-	[![Shuckle](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/213.gif){: .pokemon-sprite-img }](../pokemon/shuckle.md)
+
+	***
+
+	**#213 [Shuckle](../pokemon/shuckle.md)**
 
 -	[![Gulpin](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/316.gif){: .pokemon-sprite-img }](../pokemon/gulpin.md)
 

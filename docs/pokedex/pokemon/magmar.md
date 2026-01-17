@@ -21,6 +21,14 @@
 
 	- `magby > magmar: level-up (level 30)` → `magby > magmar: level-up (level 29)`
 
+	**Ability (slot 2) Changes:**
+
+	- `(none)` → `vital-spirit`
+
+	**Ability (slot 3) Changes:**
+
+	- `vital-spirit` → `(none)`
+
 	**Machine Moves Changes:**
 
 	- `29 moves` → `30 moves (added: aura-sphere)`
@@ -37,7 +45,7 @@
 	---
 
 	- [Flame Body](../../pokedex/abilities/flame-body.md)
-	- [Vital Spirit](../../pokedex/abilities/vital-spirit.md) :material-eye-off:
+	- [Vital Spirit](../../pokedex/abilities/vital-spirit.md)
 
 - **:material-ruler: Physical Attributes**
 

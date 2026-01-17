@@ -16,6 +16,14 @@
 
 ??? note "Pichu ROM Changes"
 
+	**Ability (slot 2) Changes:**
+
+	- `(none)` → `lightning-rod`
+
+	**Ability (slot 3) Changes:**
+
+	- `lightning-rod` → `(none)`
+
 	**Base Happiness Changes:**
 
 	- `70` → `180`
@@ -38,7 +46,7 @@
 	---
 
 	- [Static](../../pokedex/abilities/static.md)
-	- [Lightning Rod](../../pokedex/abilities/lightning-rod.md) :material-eye-off:
+	- [Lightning Rod](../../pokedex/abilities/lightning-rod.md)
 
 - **:material-ruler: Physical Attributes**
 

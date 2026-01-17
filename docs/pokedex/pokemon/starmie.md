@@ -15,6 +15,14 @@
 
 ??? note "Starmie ROM Changes"
 
+	**Ability (slot 1) Changes:**
+
+	- `illuminate` → `analytic`
+
+	**Ability (slot 3) Changes:**
+
+	- `analytic` → `(none)`
+
 	**Level-up Moves Changes:**
 
 	- `6 moves` → `8 moves`
@@ -32,9 +40,8 @@
 
 	---
 
-	- [Illuminate](../../pokedex/abilities/illuminate.md)
+	- [Analytic](../../pokedex/abilities/analytic.md)
 	- [Natural Cure](../../pokedex/abilities/natural-cure.md)
-	- [Analytic](../../pokedex/abilities/analytic.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

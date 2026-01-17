@@ -15,6 +15,18 @@
 
 ??? note "Poochyena ROM Changes"
 
+	**Ability (slot 1) Changes:**
+
+	- `run-away` → `rattled`
+
+	**Ability (slot 2) Changes:**
+
+	- `quick-feet` → `run-away`
+
+	**Ability (slot 3) Changes:**
+
+	- `rattled` → `quick-feet`
+
 	**Level-up Moves Changes:**
 
 	- `14 moves` → `24 moves`
@@ -28,9 +40,9 @@
 
 	---
 
+	- [Rattled](../../pokedex/abilities/rattled.md)
 	- [Run Away](../../pokedex/abilities/run-away.md)
-	- [Quick Feet](../../pokedex/abilities/quick-feet.md)
-	- [Rattled](../../pokedex/abilities/rattled.md) :material-eye-off:
+	- [Quick Feet](../../pokedex/abilities/quick-feet.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

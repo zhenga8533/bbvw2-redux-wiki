@@ -15,9 +15,13 @@
 
 ??? note "Marshtomp ROM Changes"
 
-	**Ability Changes:**
+	**Ability (slot 1) Changes:**
 
-	- `(none)` → `water-veil`
+	- `torrent` → `water-veil`
+
+	**Ability (slot 2) Changes:**
+
+	- `(none)` → `torrent`
 
 	**Level-up Moves Changes:**
 
@@ -32,9 +36,9 @@
 
 	---
 
-	- [Torrent](../../pokedex/abilities/torrent.md)
-	- [Damp](../../pokedex/abilities/damp.md) :material-eye-off:
 	- [Water Veil](../../pokedex/abilities/water-veil.md)
+	- [Damp](../../pokedex/abilities/damp.md) :material-eye-off:
+	- [Torrent](../../pokedex/abilities/torrent.md)
 
 - **:material-ruler: Physical Attributes**
 

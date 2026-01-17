@@ -15,9 +15,17 @@
 
 ??? note "Electrike ROM Changes"
 
-	**Ability Changes:**
+	**Ability (slot 1) Changes:**
 
-	- `minus` → `intimidate`
+	- `static` → `intimidate`
+
+	**Ability (slot 2) Changes:**
+
+	- `lightning-rod` → `static`
+
+	**Ability (slot 3) Changes:**
+
+	- `minus` → `lightning-rod`
 
 	**Level-up Moves Changes:**
 
@@ -32,9 +40,9 @@
 
 	---
 
+	- [Intimidate](../../pokedex/abilities/intimidate.md)
 	- [Static](../../pokedex/abilities/static.md)
-	- [Lightning Rod](../../pokedex/abilities/lightning-rod.md)
-	- [Intimidate](../../pokedex/abilities/intimidate.md) :material-eye-off:
+	- [Lightning Rod](../../pokedex/abilities/lightning-rod.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

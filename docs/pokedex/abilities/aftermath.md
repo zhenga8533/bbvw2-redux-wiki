@@ -22,18 +22,6 @@
 
 <div class="grid cards" markdown>
 
--	[![Drifloon](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/425.gif){: .pokemon-sprite-img }](../pokemon/drifloon.md)
-
-	***
-
-	**#425 [Drifloon](../pokemon/drifloon.md)**
-
--	[![Drifblim](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/426.gif){: .pokemon-sprite-img }](../pokemon/drifblim.md)
-
-	***
-
-	**#426 [Drifblim](../pokemon/drifblim.md)**
-
 -	[![Stunky](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/434.gif){: .pokemon-sprite-img }](../pokemon/stunky.md)
 
 	***
@@ -45,6 +33,18 @@
 	***
 
 	**#435 [Skuntank](../pokemon/skuntank.md)**
+
+-	[![Trubbish](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/568.gif){: .pokemon-sprite-img }](../pokemon/trubbish.md)
+
+	***
+
+	**#568 [Trubbish](../pokemon/trubbish.md)**
+
+-	[![Garbodor](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/569.gif){: .pokemon-sprite-img }](../pokemon/garbodor.md)
+
+	***
+
+	**#569 [Garbodor](../pokemon/garbodor.md)**
 
 </div>
 
@@ -64,17 +64,17 @@
 
 	**#101 [Electrode](../pokemon/electrode.md)**
 
--	[![Trubbish](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/568.gif){: .pokemon-sprite-img }](../pokemon/trubbish.md)
+-	[![Drifloon](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/425.gif){: .pokemon-sprite-img }](../pokemon/drifloon.md)
 
 	***
 
-	**#568 [Trubbish](../pokemon/trubbish.md)**
+	**#425 [Drifloon](../pokemon/drifloon.md)**
 
--	[![Garbodor](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/569.gif){: .pokemon-sprite-img }](../pokemon/garbodor.md)
+-	[![Drifblim](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/426.gif){: .pokemon-sprite-img }](../pokemon/drifblim.md)
 
 	***
 
-	**#569 [Garbodor](../pokemon/garbodor.md)**
+	**#426 [Drifblim](../pokemon/drifblim.md)**
 
 </div>
 

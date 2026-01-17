@@ -15,9 +15,17 @@
 
 ??? note "Taillow ROM Changes"
 
-	**Ability Changes:**
+	**Ability (slot 1) Changes:**
 
-	- `(none)` → `early-bird`
+	- `guts` → `early-bird`
+
+	**Ability (slot 2) Changes:**
+
+	- `(none)` → `scrappy`
+
+	**Ability (slot 3) Changes:**
+
+	- `scrappy` → `(none)`
 
 	**Level-up Moves Changes:**
 
@@ -36,9 +44,8 @@
 
 	---
 
-	- [Guts](../../pokedex/abilities/guts.md)
-	- [Scrappy](../../pokedex/abilities/scrappy.md) :material-eye-off:
 	- [Early Bird](../../pokedex/abilities/early-bird.md)
+	- [Scrappy](../../pokedex/abilities/scrappy.md)
 
 - **:material-ruler: Physical Attributes**
 

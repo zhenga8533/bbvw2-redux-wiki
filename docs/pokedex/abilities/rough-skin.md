@@ -22,18 +22,6 @@
 
 <div class="grid cards" markdown>
 
--	[![Sandshrew](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/27.gif){: .pokemon-sprite-img }](../pokemon/sandshrew.md)
-
-	***
-
-	**#027 [Sandshrew](../pokemon/sandshrew.md)**
-
--	[![Sandslash](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/28.gif){: .pokemon-sprite-img }](../pokemon/sandslash.md)
-
-	***
-
-	**#028 [Sandslash](../pokemon/sandslash.md)**
-
 -	[![Carvanha](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/318.gif){: .pokemon-sprite-img }](../pokemon/carvanha.md)
 
 	***
@@ -45,18 +33,6 @@
 	***
 
 	**#319 [Sharpedo](../pokemon/sharpedo.md)**
-
--	[![Druddigon](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/621.gif){: .pokemon-sprite-img }](../pokemon/druddigon.md)
-
-	***
-
-	**#621 [Druddigon](../pokemon/druddigon.md)**
-
-</div>
-
-### :material-eye-off: Hidden Ability
-
-<div class="grid cards" markdown>
 
 -	[![Gible](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/443.gif){: .pokemon-sprite-img }](../pokemon/gible.md)
 
@@ -75,6 +51,12 @@
 	***
 
 	**#445 [Garchomp](../pokemon/garchomp.md)**
+
+-	[![Druddigon](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/621.gif){: .pokemon-sprite-img }](../pokemon/druddigon.md)
+
+	***
+
+	**#621 [Druddigon](../pokemon/druddigon.md)**
 
 </div>
 

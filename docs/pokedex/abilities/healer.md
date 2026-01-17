@@ -22,17 +22,11 @@
 
 <div class="grid cards" markdown>
 
--	[![Audino](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/531.gif){: .pokemon-sprite-img }](../pokemon/audino.md)
+-	[![Bellossom](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/182.gif){: .pokemon-sprite-img }](../pokemon/bellossom.md)
 
 	***
 
-	**#531 [Audino](../pokemon/audino.md)**
-
--	[![Alomomola](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/594.gif){: .pokemon-sprite-img }](../pokemon/alomomola.md)
-
-	***
-
-	**#594 [Alomomola](../pokemon/alomomola.md)**
+	**#182 [Bellossom](../pokemon/bellossom.md)**
 
 </div>
 
@@ -45,12 +39,6 @@
 	***
 
 	**#113 [Chansey](../pokemon/chansey.md)**
-
--	[![Bellossom](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/182.gif){: .pokemon-sprite-img }](../pokemon/bellossom.md)
-
-	***
-
-	**#182 [Bellossom](../pokemon/bellossom.md)**
 
 -	[![Blissey](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/242.gif){: .pokemon-sprite-img }](../pokemon/blissey.md)
 

@@ -22,18 +22,6 @@
 
 <div class="grid cards" markdown>
 
--	[![Darkrai](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/491.gif){: .pokemon-sprite-img }](../pokemon/darkrai.md)
-
-	***
-
-	**#491 [Darkrai](../pokemon/darkrai.md)**
-
-</div>
-
-### :material-eye-off: Hidden Ability
-
-<div class="grid cards" markdown>
-
 -	[![Drowzee](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/96.gif){: .pokemon-sprite-img }](../pokemon/drowzee.md)
 
 	***
@@ -45,6 +33,12 @@
 	***
 
 	**#097 [Hypno](../pokemon/hypno.md)**
+
+-	[![Darkrai](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/491.gif){: .pokemon-sprite-img }](../pokemon/darkrai.md)
+
+	***
+
+	**#491 [Darkrai](../pokemon/darkrai.md)**
 
 </div>
 

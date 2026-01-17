@@ -19,6 +19,14 @@
 
 	- `onix > steelix: trade (held: metal-coat)` → `onix > steelix: use-item (metal-coat)`
 
+	**Ability (slot 1) Changes:**
+
+	- `rock-head` → `sheer-force`
+
+	**Ability (slot 3) Changes:**
+
+	- `sheer-force` → `rock-head`
+
 	**Level-up Moves Changes:**
 
 	- `38 moves` → `25 moves`
@@ -32,9 +40,9 @@
 
 	---
 
-	- [Rock Head](../../pokedex/abilities/rock-head.md)
+	- [Sheer Force](../../pokedex/abilities/sheer-force.md)
 	- [Sturdy](../../pokedex/abilities/sturdy.md)
-	- [Sheer Force](../../pokedex/abilities/sheer-force.md) :material-eye-off:
+	- [Rock Head](../../pokedex/abilities/rock-head.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

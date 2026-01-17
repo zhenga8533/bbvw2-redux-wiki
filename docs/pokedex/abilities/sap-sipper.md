@@ -22,6 +22,30 @@
 
 <div class="grid cards" markdown>
 
+-	[![Girafarig](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/203.gif){: .pokemon-sprite-img }](../pokemon/girafarig.md)
+
+	***
+
+	**#203 [Girafarig](../pokemon/girafarig.md)**
+
+-	[![Stantler](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/234.gif){: .pokemon-sprite-img }](../pokemon/stantler.md)
+
+	***
+
+	**#234 [Stantler](../pokemon/stantler.md)**
+
+-	[![Blitzle](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/522.gif){: .pokemon-sprite-img }](../pokemon/blitzle.md)
+
+	***
+
+	**#522 [Blitzle](../pokemon/blitzle.md)**
+
+-	[![Zebstrika](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/523.gif){: .pokemon-sprite-img }](../pokemon/zebstrika.md)
+
+	***
+
+	**#523 [Zebstrika](../pokemon/zebstrika.md)**
+
 -	[![Deerling](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/585.gif){: .pokemon-sprite-img }](../pokemon/deerling.md)
 
 	***
@@ -58,18 +82,6 @@
 
 	**#184 [Azumarill](../pokemon/azumarill.md)**
 
--	[![Girafarig](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/203.gif){: .pokemon-sprite-img }](../pokemon/girafarig.md)
-
-	***
-
-	**#203 [Girafarig](../pokemon/girafarig.md)**
-
--	[![Stantler](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/234.gif){: .pokemon-sprite-img }](../pokemon/stantler.md)
-
-	***
-
-	**#234 [Stantler](../pokemon/stantler.md)**
-
 -	[![Miltank](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/241.gif){: .pokemon-sprite-img }](../pokemon/miltank.md)
 
 	***
@@ -81,18 +93,6 @@
 	***
 
 	**#298 [Azurill](../pokemon/azurill.md)**
-
--	[![Blitzle](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/522.gif){: .pokemon-sprite-img }](../pokemon/blitzle.md)
-
-	***
-
-	**#522 [Blitzle](../pokemon/blitzle.md)**
-
--	[![Zebstrika](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/523.gif){: .pokemon-sprite-img }](../pokemon/zebstrika.md)
-
-	***
-
-	**#523 [Zebstrika](../pokemon/zebstrika.md)**
 
 </div>
 

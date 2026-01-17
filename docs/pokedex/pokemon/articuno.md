@@ -16,6 +16,10 @@
 
 ??? note "Articuno ROM Changes"
 
+	**Ability (slot 2) Changes:**
+
+	- `(none)` → `snow-warning`
+
 	**Level-up Moves Changes:**
 
 	- `15 moves` → `16 moves`
@@ -35,6 +39,7 @@
 
 	- [Pressure](../../pokedex/abilities/pressure.md)
 	- [Snow Cloak](../../pokedex/abilities/snow-cloak.md) :material-eye-off:
+	- [Snow Warning](../../pokedex/abilities/snow-warning.md)
 
 - **:material-ruler: Physical Attributes**
 

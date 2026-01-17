@@ -15,6 +15,14 @@
 
 ??? note "Salamence ROM Changes"
 
+	**Ability (slot 2) Changes:**
+
+	- `(none)` → `moxie`
+
+	**Ability (slot 3) Changes:**
+
+	- `moxie` → `(none)`
+
 	**Level-up Moves Changes:**
 
 	- `20 moves` → `25 moves`
@@ -33,7 +41,7 @@
 	---
 
 	- [Intimidate](../../pokedex/abilities/intimidate.md)
-	- [Moxie](../../pokedex/abilities/moxie.md) :material-eye-off:
+	- [Moxie](../../pokedex/abilities/moxie.md)
 
 - **:material-ruler: Physical Attributes**
 

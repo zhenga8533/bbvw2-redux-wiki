@@ -15,6 +15,14 @@
 
 ??? note "Hippopotas ROM Changes"
 
+	**Ability (slot 2) Changes:**
+
+	- `(none)` → `sand-force`
+
+	**Ability (slot 3) Changes:**
+
+	- `sand-force` → `(none)`
+
 	**Level-up Moves Changes:**
 
 	- `11 moves` → `19 moves`
@@ -29,7 +37,7 @@
 	---
 
 	- [Sand Stream](../../pokedex/abilities/sand-stream.md)
-	- [Sand Force](../../pokedex/abilities/sand-force.md) :material-eye-off:
+	- [Sand Force](../../pokedex/abilities/sand-force.md)
 
 - **:material-ruler: Physical Attributes**
 

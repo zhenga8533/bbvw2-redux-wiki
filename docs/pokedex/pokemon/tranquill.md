@@ -16,9 +16,9 @@
 
 ??? note "Tranquill ROM Changes"
 
-	**Ability Changes:**
+	**Ability (slot 1) Changes:**
 
-	- `rivalry` → `unaware`
+	- `big-pecks` → `unaware`
 
 	**Level-up Moves Changes:**
 
@@ -37,9 +37,9 @@
 
 	---
 
-	- [Big Pecks](../../pokedex/abilities/big-pecks.md)
+	- [Unaware](../../pokedex/abilities/unaware.md)
 	- [Super Luck](../../pokedex/abilities/super-luck.md)
-	- [Unaware](../../pokedex/abilities/unaware.md) :material-eye-off:
+	- [Rivalry](../../pokedex/abilities/rivalry.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

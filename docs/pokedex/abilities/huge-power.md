@@ -22,12 +22,6 @@
 
 <div class="grid cards" markdown>
 
--	[![Wigglytuff](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/40.gif){: .pokemon-sprite-img }](../pokemon/wigglytuff.md)
-
-	***
-
-	**#040 [Wigglytuff](../pokemon/wigglytuff.md)**
-
 -	[![Marill](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/183.gif){: .pokemon-sprite-img }](../pokemon/marill.md)
 
 	***

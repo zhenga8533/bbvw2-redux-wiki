@@ -28,23 +28,47 @@
 
 	**#106 [Hitmonlee](../pokemon/hitmonlee.md)**
 
--	[![Blaziken](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/257.gif){: .pokemon-sprite-img }](../pokemon/blaziken.md)
-
-	***
-
-	**#257 [Blaziken](../pokemon/blaziken.md)**
-
 -	[![Starly](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/396.gif){: .pokemon-sprite-img }](../pokemon/starly.md)
 
 	***
 
 	**#396 [Starly](../pokemon/starly.md)**
 
+-	[![Staravia](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/397.gif){: .pokemon-sprite-img }](../pokemon/staravia.md)
+
+	***
+
+	**#397 [Staravia](../pokemon/staravia.md)**
+
+-	[![Staraptor](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/398.gif){: .pokemon-sprite-img }](../pokemon/staraptor.md)
+
+	***
+
+	**#398 [Staraptor](../pokemon/staraptor.md)**
+
+-	[![Emboar](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/500.gif){: .pokemon-sprite-img }](../pokemon/emboar.md)
+
+	***
+
+	**#500 [Emboar](../pokemon/emboar.md)**
+
 -	[![Basculin Red Striped](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/550.gif){: .pokemon-sprite-img }](../pokemon/basculin-red-striped.md)
 
 	***
 
 	**#550 [Basculin Red Striped](../pokemon/basculin-red-striped.md)**
+
+-	[![Mienfoo](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/619.gif){: .pokemon-sprite-img }](../pokemon/mienfoo.md)
+
+	***
+
+	**#619 [Mienfoo](../pokemon/mienfoo.md)**
+
+-	[![Mienshao](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/620.gif){: .pokemon-sprite-img }](../pokemon/mienshao.md)
+
+	***
+
+	**#620 [Mienshao](../pokemon/mienshao.md)**
 
 -	[![Bouffalant](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/626.gif){: .pokemon-sprite-img }](../pokemon/bouffalant.md)
 
@@ -70,41 +94,11 @@
 
 	**#112 [Rhydon](../pokemon/rhydon.md)**
 
--	[![Staravia](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/397.gif){: .pokemon-sprite-img }](../pokemon/staravia.md)
-
-	***
-
-	**#397 [Staravia](../pokemon/staravia.md)**
-
--	[![Staraptor](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/398.gif){: .pokemon-sprite-img }](../pokemon/staraptor.md)
-
-	***
-
-	**#398 [Staraptor](../pokemon/staraptor.md)**
-
 -	[![Rhyperior](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/464.gif){: .pokemon-sprite-img }](../pokemon/rhyperior.md)
 
 	***
 
 	**#464 [Rhyperior](../pokemon/rhyperior.md)**
-
--	[![Emboar](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/500.gif){: .pokemon-sprite-img }](../pokemon/emboar.md)
-
-	***
-
-	**#500 [Emboar](../pokemon/emboar.md)**
-
--	[![Mienfoo](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/619.gif){: .pokemon-sprite-img }](../pokemon/mienfoo.md)
-
-	***
-
-	**#619 [Mienfoo](../pokemon/mienfoo.md)**
-
--	[![Mienshao](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/620.gif){: .pokemon-sprite-img }](../pokemon/mienshao.md)
-
-	***
-
-	**#620 [Mienshao](../pokemon/mienshao.md)**
 
 </div>
 

@@ -13,6 +13,18 @@
 	</div>
 </div>
 
+
+??? note "Excadrill ROM Changes"
+
+	**Ability (slot 2) Changes:**
+
+	- `sand-force` → `mold-breaker`
+
+	**Ability (slot 3) Changes:**
+
+	- `mold-breaker` → `sand-force`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>
@@ -22,8 +34,8 @@
 	---
 
 	- [Sand Rush](../../pokedex/abilities/sand-rush.md)
-	- [Sand Force](../../pokedex/abilities/sand-force.md)
-	- [Mold Breaker](../../pokedex/abilities/mold-breaker.md) :material-eye-off:
+	- [Mold Breaker](../../pokedex/abilities/mold-breaker.md)
+	- [Sand Force](../../pokedex/abilities/sand-force.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

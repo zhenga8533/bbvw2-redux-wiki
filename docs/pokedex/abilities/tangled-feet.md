@@ -40,24 +40,6 @@
 
 	**#018 [Pidgeot](../pokemon/pidgeot.md)**
 
--	[![Spinda](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/327.gif){: .pokemon-sprite-img }](../pokemon/spinda.md)
-
-	***
-
-	**#327 [Spinda](../pokemon/spinda.md)**
-
--	[![Chatot](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/441.gif){: .pokemon-sprite-img }](../pokemon/chatot.md)
-
-	***
-
-	**#441 [Chatot](../pokemon/chatot.md)**
-
-</div>
-
-### :material-eye-off: Hidden Ability
-
-<div class="grid cards" markdown>
-
 -	[![Doduo](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/84.gif){: .pokemon-sprite-img }](../pokemon/doduo.md)
 
 	***
@@ -69,6 +51,18 @@
 	***
 
 	**#085 [Dodrio](../pokemon/dodrio.md)**
+
+-	[![Spinda](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/327.gif){: .pokemon-sprite-img }](../pokemon/spinda.md)
+
+	***
+
+	**#327 [Spinda](../pokemon/spinda.md)**
+
+-	[![Chatot](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/441.gif){: .pokemon-sprite-img }](../pokemon/chatot.md)
+
+	***
+
+	**#441 [Chatot](../pokemon/chatot.md)**
 
 </div>
 

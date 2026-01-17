@@ -15,6 +15,10 @@
 
 ??? note "Mareep ROM Changes"
 
+	**Ability (slot 2) Changes:**
+
+	- `(none)` → `overcoat`
+
 	**Level-up Moves Changes:**
 
 	- `27 moves` → `23 moves`
@@ -34,6 +38,7 @@
 
 	- [Static](../../pokedex/abilities/static.md)
 	- [Plus](../../pokedex/abilities/plus.md) :material-eye-off:
+	- [Overcoat](../../pokedex/abilities/overcoat.md)
 
 - **:material-ruler: Physical Attributes**
 

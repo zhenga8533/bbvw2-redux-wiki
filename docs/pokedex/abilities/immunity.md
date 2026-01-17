@@ -28,23 +28,17 @@
 
 	**#143 [Snorlax](../pokemon/snorlax.md)**
 
--	[![Zangoose](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/335.gif){: .pokemon-sprite-img }](../pokemon/zangoose.md)
-
-	***
-
-	**#335 [Zangoose](../pokemon/zangoose.md)**
-
-</div>
-
-### :material-eye-off: Hidden Ability
-
-<div class="grid cards" markdown>
-
 -	[![Gligar](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/207.gif){: .pokemon-sprite-img }](../pokemon/gligar.md)
 
 	***
 
 	**#207 [Gligar](../pokemon/gligar.md)**
+
+-	[![Zangoose](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/335.gif){: .pokemon-sprite-img }](../pokemon/zangoose.md)
+
+	***
+
+	**#335 [Zangoose](../pokemon/zangoose.md)**
 
 </div>
 

@@ -15,6 +15,14 @@
 
 ??? note "Swellow ROM Changes"
 
+	**Ability (slot 2) Changes:**
+
+	- `(none)` → `scrappy`
+
+	**Ability (slot 3) Changes:**
+
+	- `scrappy` → `(none)`
+
 	**Level-up Moves Changes:**
 
 	- `13 moves` → `25 moves`
@@ -33,7 +41,7 @@
 	---
 
 	- [Guts](../../pokedex/abilities/guts.md)
-	- [Scrappy](../../pokedex/abilities/scrappy.md) :material-eye-off:
+	- [Scrappy](../../pokedex/abilities/scrappy.md)
 
 - **:material-ruler: Physical Attributes**
 

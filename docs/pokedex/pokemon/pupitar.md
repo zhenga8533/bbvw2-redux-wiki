@@ -15,6 +15,10 @@
 
 ??? note "Pupitar ROM Changes"
 
+	**Ability (slot 2) Changes:**
+
+	- `(none)` → `shell-armor`
+
 	**Level-up Moves Changes:**
 
 	- `16 moves` → `18 moves`
@@ -33,6 +37,7 @@
 	---
 
 	- [Shed Skin](../../pokedex/abilities/shed-skin.md)
+	- [Shell Armor](../../pokedex/abilities/shell-armor.md)
 
 - **:material-ruler: Physical Attributes**
 

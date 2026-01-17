@@ -16,9 +16,13 @@
 
 ??? note "Deoxys Normal ROM Changes"
 
-	**Ability Changes:**
+	**Ability (slot 1) Changes:**
 
-	- `(none)` → `moody`
+	- `pressure` → `moody`
+
+	**Ability (slot 2) Changes:**
+
+	- `(none)` → `pressure`
 
 
 ## :material-information: Basic Information
@@ -29,8 +33,8 @@
 
 	---
 
-	- [Pressure](../../pokedex/abilities/pressure.md)
 	- [Moody](../../pokedex/abilities/moody.md)
+	- [Pressure](../../pokedex/abilities/pressure.md)
 
 - **:material-ruler: Physical Attributes**
 

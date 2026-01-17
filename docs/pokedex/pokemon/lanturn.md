@@ -15,6 +15,14 @@
 
 ??? note "Lanturn ROM Changes"
 
+	**Ability (slot 2) Changes:**
+
+	- `illuminate` → `water-absorb`
+
+	**Ability (slot 3) Changes:**
+
+	- `water-absorb` → `illuminate`
+
 	**Level-up Moves Changes:**
 
 	- `19 moves` → `25 moves`
@@ -33,8 +41,8 @@
 	---
 
 	- [Volt Absorb](../../pokedex/abilities/volt-absorb.md)
-	- [Illuminate](../../pokedex/abilities/illuminate.md)
-	- [Water Absorb](../../pokedex/abilities/water-absorb.md) :material-eye-off:
+	- [Water Absorb](../../pokedex/abilities/water-absorb.md)
+	- [Illuminate](../../pokedex/abilities/illuminate.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

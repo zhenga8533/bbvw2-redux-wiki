@@ -64,36 +64,6 @@
 
 	**#136 [Flareon](../pokemon/flareon.md)**
 
--	[![Houndour](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/228.gif){: .pokemon-sprite-img }](../pokemon/houndour.md)
-
-	***
-
-	**#228 [Houndour](../pokemon/houndour.md)**
-
--	[![Houndoom](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/229.gif){: .pokemon-sprite-img }](../pokemon/houndoom.md)
-
-	***
-
-	**#229 [Houndoom](../pokemon/houndoom.md)**
-
--	[![Heatran](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/485.gif){: .pokemon-sprite-img }](../pokemon/heatran.md)
-
-	***
-
-	**#485 [Heatran](../pokemon/heatran.md)**
-
--	[![Heatmor](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/631.gif){: .pokemon-sprite-img }](../pokemon/heatmor.md)
-
-	***
-
-	**#631 [Heatmor](../pokemon/heatmor.md)**
-
-</div>
-
-### :material-eye-off: Hidden Ability
-
-<div class="grid cards" markdown>
-
 -	[![Cyndaquil](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/155.gif){: .pokemon-sprite-img }](../pokemon/cyndaquil.md)
 
 	***
@@ -112,6 +82,24 @@
 
 	**#157 [Typhlosion](../pokemon/typhlosion.md)**
 
+-	[![Houndour](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/228.gif){: .pokemon-sprite-img }](../pokemon/houndour.md)
+
+	***
+
+	**#228 [Houndour](../pokemon/houndour.md)**
+
+-	[![Houndoom](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/229.gif){: .pokemon-sprite-img }](../pokemon/houndoom.md)
+
+	***
+
+	**#229 [Houndoom](../pokemon/houndoom.md)**
+
+-	[![Heatran](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/485.gif){: .pokemon-sprite-img }](../pokemon/heatran.md)
+
+	***
+
+	**#485 [Heatran](../pokemon/heatran.md)**
+
 -	[![Litwick](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/607.gif){: .pokemon-sprite-img }](../pokemon/litwick.md)
 
 	***
@@ -129,6 +117,12 @@
 	***
 
 	**#609 [Chandelure](../pokemon/chandelure.md)**
+
+-	[![Heatmor](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/631.gif){: .pokemon-sprite-img }](../pokemon/heatmor.md)
+
+	***
+
+	**#631 [Heatmor](../pokemon/heatmor.md)**
 
 </div>
 

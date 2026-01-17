@@ -15,6 +15,14 @@
 
 ??? note "Tangela ROM Changes"
 
+	**Ability (slot 1) Changes:**
+
+	- `chlorophyll` → `regenerator`
+
+	**Ability (slot 3) Changes:**
+
+	- `regenerator` → `(none)`
+
 	**Level-up Moves Changes:**
 
 	- `32 moves` → `25 moves`
@@ -28,9 +36,8 @@
 
 	---
 
-	- [Chlorophyll](../../pokedex/abilities/chlorophyll.md)
+	- [Regenerator](../../pokedex/abilities/regenerator.md)
 	- [Leaf Guard](../../pokedex/abilities/leaf-guard.md)
-	- [Regenerator](../../pokedex/abilities/regenerator.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

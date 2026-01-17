@@ -22,6 +22,24 @@
 
 <div class="grid cards" markdown>
 
+-	[![Wigglytuff](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/40.gif){: .pokemon-sprite-img }](../pokemon/wigglytuff.md)
+
+	***
+
+	**#040 [Wigglytuff](../pokemon/wigglytuff.md)**
+
+-	[![Sentret](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/161.gif){: .pokemon-sprite-img }](../pokemon/sentret.md)
+
+	***
+
+	**#161 [Sentret](../pokemon/sentret.md)**
+
+-	[![Furret](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/162.gif){: .pokemon-sprite-img }](../pokemon/furret.md)
+
+	***
+
+	**#162 [Furret](../pokemon/furret.md)**
+
 -	[![Stantler](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/234.gif){: .pokemon-sprite-img }](../pokemon/stantler.md)
 
 	***
@@ -63,24 +81,6 @@
 ### :material-eye-off: Hidden Ability
 
 <div class="grid cards" markdown>
-
--	[![Wigglytuff](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/40.gif){: .pokemon-sprite-img }](../pokemon/wigglytuff.md)
-
-	***
-
-	**#040 [Wigglytuff](../pokemon/wigglytuff.md)**
-
--	[![Sentret](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/161.gif){: .pokemon-sprite-img }](../pokemon/sentret.md)
-
-	***
-
-	**#161 [Sentret](../pokemon/sentret.md)**
-
--	[![Furret](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/162.gif){: .pokemon-sprite-img }](../pokemon/furret.md)
-
-	***
-
-	**#162 [Furret](../pokemon/furret.md)**
 
 -	[![Yanma](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/193.gif){: .pokemon-sprite-img }](../pokemon/yanma.md)
 

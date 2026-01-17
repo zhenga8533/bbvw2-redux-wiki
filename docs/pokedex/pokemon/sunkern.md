@@ -15,6 +15,10 @@
 
 ??? note "Sunkern ROM Changes"
 
+	**Ability (slot 3) Changes:**
+
+	- `early-bird` → `(none)`
+
 	**Level-up Moves Changes:**
 
 	- `27 moves` → `22 moves`
@@ -30,7 +34,6 @@
 
 	- [Chlorophyll](../../pokedex/abilities/chlorophyll.md)
 	- [Solar Power](../../pokedex/abilities/solar-power.md)
-	- [Early Bird](../../pokedex/abilities/early-bird.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

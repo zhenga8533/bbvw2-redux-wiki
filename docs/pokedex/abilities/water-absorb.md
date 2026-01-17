@@ -52,6 +52,18 @@
 
 	**#134 [Vaporeon](../pokemon/vaporeon.md)**
 
+-	[![Chinchou](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/170.gif){: .pokemon-sprite-img }](../pokemon/chinchou.md)
+
+	***
+
+	**#170 [Chinchou](../pokemon/chinchou.md)**
+
+-	[![Lanturn](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/171.gif){: .pokemon-sprite-img }](../pokemon/lanturn.md)
+
+	***
+
+	**#171 [Lanturn](../pokemon/lanturn.md)**
+
 -	[![Politoed](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/186.gif){: .pokemon-sprite-img }](../pokemon/politoed.md)
 
 	***
@@ -76,48 +88,6 @@
 
 	**#226 [Mantine](../pokemon/mantine.md)**
 
--	[![Mantyke](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/458.gif){: .pokemon-sprite-img }](../pokemon/mantyke.md)
-
-	***
-
-	**#458 [Mantyke](../pokemon/mantyke.md)**
-
--	[![Maractus](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/556.gif){: .pokemon-sprite-img }](../pokemon/maractus.md)
-
-	***
-
-	**#556 [Maractus](../pokemon/maractus.md)**
-
--	[![Frillish](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/592.gif){: .pokemon-sprite-img }](../pokemon/frillish.md)
-
-	***
-
-	**#592 [Frillish](../pokemon/frillish.md)**
-
--	[![Jellicent](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/593.gif){: .pokemon-sprite-img }](../pokemon/jellicent.md)
-
-	***
-
-	**#593 [Jellicent](../pokemon/jellicent.md)**
-
-</div>
-
-### :material-eye-off: Hidden Ability
-
-<div class="grid cards" markdown>
-
--	[![Chinchou](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/170.gif){: .pokemon-sprite-img }](../pokemon/chinchou.md)
-
-	***
-
-	**#170 [Chinchou](../pokemon/chinchou.md)**
-
--	[![Lanturn](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/171.gif){: .pokemon-sprite-img }](../pokemon/lanturn.md)
-
-	***
-
-	**#171 [Lanturn](../pokemon/lanturn.md)**
-
 -	[![Cacnea](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/331.gif){: .pokemon-sprite-img }](../pokemon/cacnea.md)
 
 	***
@@ -129,6 +99,12 @@
 	***
 
 	**#332 [Cacturne](../pokemon/cacturne.md)**
+
+-	[![Mantyke](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/458.gif){: .pokemon-sprite-img }](../pokemon/mantyke.md)
+
+	***
+
+	**#458 [Mantyke](../pokemon/mantyke.md)**
 
 -	[![Tympole](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/535.gif){: .pokemon-sprite-img }](../pokemon/tympole.md)
 
@@ -147,6 +123,24 @@
 	***
 
 	**#537 [Seismitoad](../pokemon/seismitoad.md)**
+
+-	[![Maractus](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/556.gif){: .pokemon-sprite-img }](../pokemon/maractus.md)
+
+	***
+
+	**#556 [Maractus](../pokemon/maractus.md)**
+
+-	[![Frillish](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/592.gif){: .pokemon-sprite-img }](../pokemon/frillish.md)
+
+	***
+
+	**#592 [Frillish](../pokemon/frillish.md)**
+
+-	[![Jellicent](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/593.gif){: .pokemon-sprite-img }](../pokemon/jellicent.md)
+
+	***
+
+	**#593 [Jellicent](../pokemon/jellicent.md)**
 
 </div>
 

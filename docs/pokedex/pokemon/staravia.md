@@ -15,6 +15,18 @@
 
 ??? note "Staravia ROM Changes"
 
+	**Ability (slot 1) Changes:**
+
+	- `intimidate` → `reckless`
+
+	**Ability (slot 2) Changes:**
+
+	- `(none)` → `intimidate`
+
+	**Ability (slot 3) Changes:**
+
+	- `reckless` → `(none)`
+
 	**Level-up Moves Changes:**
 
 	- `13 moves` → `21 moves`
@@ -28,8 +40,8 @@
 
 	---
 
+	- [Reckless](../../pokedex/abilities/reckless.md)
 	- [Intimidate](../../pokedex/abilities/intimidate.md)
-	- [Reckless](../../pokedex/abilities/reckless.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

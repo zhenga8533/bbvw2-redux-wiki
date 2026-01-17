@@ -15,6 +15,22 @@
 
 ??? note "Houndoom ROM Changes"
 
+	**Ability (slot 1) Changes:**
+
+	- `early-bird` → `flash-fire`
+
+	**Ability (slot 2) Changes:**
+
+	- `flash-fire` → `intimidate`
+
+	- `flash-fire` → `unnerve`
+
+	- `intimidate` → `flash-fire`
+
+	**Ability (slot 3) Changes:**
+
+	- `unnerve` → `(none)`
+
 	**Level-up Moves Changes:**
 
 	- `19 moves` → `24 moves`
@@ -22,6 +38,10 @@
 	**Machine Moves Changes:**
 
 	- `35 moves` → `36 moves (added: work-up)`
+
+	- `unnerve` → `flash-fire`
+
+	- `(none)` → `unnerve`
 
 
 ## :material-information: Basic Information
@@ -32,9 +52,8 @@
 
 	---
 
-	- [Early Bird](../../pokedex/abilities/early-bird.md)
+	- [Unnerve](../../pokedex/abilities/unnerve.md)
 	- [Flash Fire](../../pokedex/abilities/flash-fire.md)
-	- [Unnerve](../../pokedex/abilities/unnerve.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

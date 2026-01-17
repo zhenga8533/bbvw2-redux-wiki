@@ -20,6 +20,14 @@
 
 	- `scraggy > scrafty: level-up (level 39)` → `scraggy > scrafty: level-up (level 30)`
 
+	**Ability (slot 1) Changes:**
+
+	- `shed-skin` → `intimidate`
+
+	**Ability (slot 3) Changes:**
+
+	- `intimidate` → `shed-skin`
+
 	**Level-up Moves Changes:**
 
 	- `16 moves` → `21 moves`
@@ -33,9 +41,9 @@
 
 	---
 
-	- [Shed Skin](../../pokedex/abilities/shed-skin.md)
+	- [Intimidate](../../pokedex/abilities/intimidate.md)
 	- [Moxie](../../pokedex/abilities/moxie.md)
-	- [Intimidate](../../pokedex/abilities/intimidate.md) :material-eye-off:
+	- [Shed Skin](../../pokedex/abilities/shed-skin.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

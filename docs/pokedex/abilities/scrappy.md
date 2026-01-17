@@ -34,12 +34,6 @@
 
 	**#241 [Miltank](../pokemon/miltank.md)**
 
-</div>
-
-### :material-eye-off: Hidden Ability
-
-<div class="grid cards" markdown>
-
 -	[![Taillow](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/276.gif){: .pokemon-sprite-img }](../pokemon/taillow.md)
 
 	***
@@ -52,6 +46,12 @@
 
 	**#277 [Swellow](../pokemon/swellow.md)**
 
+-	[![Whismur](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/293.gif){: .pokemon-sprite-img }](../pokemon/whismur.md)
+
+	***
+
+	**#293 [Whismur](../pokemon/whismur.md)**
+
 -	[![Loudred](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/294.gif){: .pokemon-sprite-img }](../pokemon/loudred.md)
 
 	***
@@ -63,6 +63,12 @@
 	***
 
 	**#295 [Exploud](../pokemon/exploud.md)**
+
+</div>
+
+### :material-eye-off: Hidden Ability
+
+<div class="grid cards" markdown>
 
 -	[![Herdier](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/507.gif){: .pokemon-sprite-img }](../pokemon/herdier.md)
 

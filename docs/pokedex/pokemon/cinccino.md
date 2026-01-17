@@ -16,6 +16,14 @@
 
 ??? note "Cinccino ROM Changes"
 
+	**Ability (slot 1) Changes:**
+
+	- `cute-charm` → `skill-link`
+
+	**Ability (slot 3) Changes:**
+
+	- `skill-link` → `cute-charm`
+
 	**Level-up Moves Changes:**
 
 	- `6 moves` → `9 moves`
@@ -33,9 +41,9 @@
 
 	---
 
-	- [Cute Charm](../../pokedex/abilities/cute-charm.md)
+	- [Skill Link](../../pokedex/abilities/skill-link.md)
 	- [Technician](../../pokedex/abilities/technician.md)
-	- [Skill Link](../../pokedex/abilities/skill-link.md) :material-eye-off:
+	- [Cute Charm](../../pokedex/abilities/cute-charm.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

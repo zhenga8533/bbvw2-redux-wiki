@@ -15,9 +15,19 @@
 
 ??? note "Charmander ROM Changes"
 
-	**Ability Changes:**
+	**Ability (slot 1) Changes:**
 
-	- `(none)` → `defiant`
+	- `blaze` → `defiant`
+
+	**Ability (slot 2) Changes:**
+
+	- `(none)` → `blaze`
+
+	- `defiant` → `solar-power`
+
+	**Ability (slot 3) Changes:**
+
+	- `solar-power` → `(none)`
 
 	**Level-up Moves Changes:**
 
@@ -26,6 +36,10 @@
 	**Machine Moves Changes:**
 
 	- `33 moves` → `35 moves (added: false-swipe, acrobatics)`
+
+	- `solar-power` → `defiant`
+
+	- `(none)` → `solar-power`
 
 
 ## :material-information: Basic Information
@@ -36,9 +50,8 @@
 
 	---
 
+	- [Solar Power](../../pokedex/abilities/solar-power.md)
 	- [Blaze](../../pokedex/abilities/blaze.md)
-	- [Solar Power](../../pokedex/abilities/solar-power.md) :material-eye-off:
-	- [Defiant](../../pokedex/abilities/defiant.md)
 
 - **:material-ruler: Physical Attributes**
 

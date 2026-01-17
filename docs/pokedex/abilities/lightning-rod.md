@@ -22,6 +22,18 @@
 
 <div class="grid cards" markdown>
 
+-	[![Pikachu](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/25.gif){: .pokemon-sprite-img }](../pokemon/pikachu.md)
+
+	***
+
+	**#025 [Pikachu](../pokemon/pikachu.md)**
+
+-	[![Raichu](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/26.gif){: .pokemon-sprite-img }](../pokemon/raichu.md)
+
+	***
+
+	**#026 [Raichu](../pokemon/raichu.md)**
+
 -	[![Cubone](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/104.gif){: .pokemon-sprite-img }](../pokemon/cubone.md)
 
 	***
@@ -46,54 +58,6 @@
 
 	**#112 [Rhydon](../pokemon/rhydon.md)**
 
--	[![Electrike](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/309.gif){: .pokemon-sprite-img }](../pokemon/electrike.md)
-
-	***
-
-	**#309 [Electrike](../pokemon/electrike.md)**
-
--	[![Manectric](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/310.gif){: .pokemon-sprite-img }](../pokemon/manectric.md)
-
-	***
-
-	**#310 [Manectric](../pokemon/manectric.md)**
-
--	[![Rhyperior](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/464.gif){: .pokemon-sprite-img }](../pokemon/rhyperior.md)
-
-	***
-
-	**#464 [Rhyperior](../pokemon/rhyperior.md)**
-
--	[![Blitzle](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/522.gif){: .pokemon-sprite-img }](../pokemon/blitzle.md)
-
-	***
-
-	**#522 [Blitzle](../pokemon/blitzle.md)**
-
--	[![Zebstrika](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/523.gif){: .pokemon-sprite-img }](../pokemon/zebstrika.md)
-
-	***
-
-	**#523 [Zebstrika](../pokemon/zebstrika.md)**
-
-</div>
-
-### :material-eye-off: Hidden Ability
-
-<div class="grid cards" markdown>
-
--	[![Pikachu](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/25.gif){: .pokemon-sprite-img }](../pokemon/pikachu.md)
-
-	***
-
-	**#025 [Pikachu](../pokemon/pikachu.md)**
-
--	[![Raichu](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/26.gif){: .pokemon-sprite-img }](../pokemon/raichu.md)
-
-	***
-
-	**#026 [Raichu](../pokemon/raichu.md)**
-
 -	[![Goldeen](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/118.gif){: .pokemon-sprite-img }](../pokemon/goldeen.md)
 
 	***
@@ -111,6 +75,54 @@
 	***
 
 	**#172 [Pichu](../pokemon/pichu.md)**
+
+-	[![Plusle](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/311.gif){: .pokemon-sprite-img }](../pokemon/plusle.md)
+
+	***
+
+	**#311 [Plusle](../pokemon/plusle.md)**
+
+-	[![Rhyperior](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/464.gif){: .pokemon-sprite-img }](../pokemon/rhyperior.md)
+
+	***
+
+	**#464 [Rhyperior](../pokemon/rhyperior.md)**
+
+-	[![Stunfisk](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/618.gif){: .pokemon-sprite-img }](../pokemon/stunfisk.md)
+
+	***
+
+	**#618 [Stunfisk](../pokemon/stunfisk.md)**
+
+</div>
+
+### :material-eye-off: Hidden Ability
+
+<div class="grid cards" markdown>
+
+-	[![Electrike](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/309.gif){: .pokemon-sprite-img }](../pokemon/electrike.md)
+
+	***
+
+	**#309 [Electrike](../pokemon/electrike.md)**
+
+-	[![Manectric](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/310.gif){: .pokemon-sprite-img }](../pokemon/manectric.md)
+
+	***
+
+	**#310 [Manectric](../pokemon/manectric.md)**
+
+-	[![Blitzle](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/522.gif){: .pokemon-sprite-img }](../pokemon/blitzle.md)
+
+	***
+
+	**#522 [Blitzle](../pokemon/blitzle.md)**
+
+-	[![Zebstrika](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/523.gif){: .pokemon-sprite-img }](../pokemon/zebstrika.md)
+
+	***
+
+	**#523 [Zebstrika](../pokemon/zebstrika.md)**
 
 </div>
 

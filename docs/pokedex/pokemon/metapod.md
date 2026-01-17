@@ -12,6 +12,16 @@
 	</div>
 </div>
 
+
+??? note "Metapod ROM Changes"
+
+	**Ability (slot 2) Changes:**
+
+	- `(none)` → `battle-armor`
+
+	- `battle-armor` → `(none)`
+
+
 ## :material-information: Basic Information
 
 <div class="grid cards" markdown>

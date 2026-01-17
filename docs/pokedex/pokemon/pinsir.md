@@ -15,6 +15,14 @@
 
 ??? note "Pinsir ROM Changes"
 
+	**Ability (slot 1) Changes:**
+
+	- `hyper-cutter` → `moxie`
+
+	**Ability (slot 3) Changes:**
+
+	- `moxie` → `(none)`
+
 	**Level-up Moves Changes:**
 
 	- `24 moves` → `18 moves`
@@ -32,9 +40,8 @@
 
 	---
 
-	- [Hyper Cutter](../../pokedex/abilities/hyper-cutter.md)
+	- [Moxie](../../pokedex/abilities/moxie.md)
 	- [Mold Breaker](../../pokedex/abilities/mold-breaker.md)
-	- [Moxie](../../pokedex/abilities/moxie.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

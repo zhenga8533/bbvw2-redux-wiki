@@ -15,6 +15,18 @@
 
 ??? note "Typhlosion ROM Changes"
 
+	**Ability (slot 1) Changes:**
+
+	- `blaze` → `flash-fire`
+
+	**Ability (slot 2) Changes:**
+
+	- `(none)` → `blaze`
+
+	**Ability (slot 3) Changes:**
+
+	- `flash-fire` → `(none)`
+
 	**Level-up Moves Changes:**
 
 	- `18 moves` → `25 moves`
@@ -32,8 +44,8 @@
 
 	---
 
+	- [Flash Fire](../../pokedex/abilities/flash-fire.md)
 	- [Blaze](../../pokedex/abilities/blaze.md)
-	- [Flash Fire](../../pokedex/abilities/flash-fire.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

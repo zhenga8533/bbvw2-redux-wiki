@@ -15,6 +15,14 @@
 
 ??? note "Mankey ROM Changes"
 
+	**Ability (slot 1) Changes:**
+
+	- `vital-spirit` → `defiant`
+
+	**Ability (slot 3) Changes:**
+
+	- `defiant` → `vital-spirit`
+
 	**Level-up Moves Changes:**
 
 	- `16 moves` → `23 moves`
@@ -32,9 +40,9 @@
 
 	---
 
-	- [Vital Spirit](../../pokedex/abilities/vital-spirit.md)
+	- [Defiant](../../pokedex/abilities/defiant.md)
 	- [Anger Point](../../pokedex/abilities/anger-point.md)
-	- [Defiant](../../pokedex/abilities/defiant.md) :material-eye-off:
+	- [Vital Spirit](../../pokedex/abilities/vital-spirit.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

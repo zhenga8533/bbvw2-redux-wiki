@@ -25,6 +25,14 @@
 
 	- `eevee > glaceon: level-up (at sinnoh-route-217)` → `eevee > glaceon: use-item (ice-stone)`
 
+	**Ability (slot 2) Changes:**
+
+	- `(none)` → `guts`
+
+	**Ability (slot 3) Changes:**
+
+	- `guts` → `(none)`
+
 	**Machine Moves Changes:**
 
 	- `30 moves` → `35 moves (added: tri-attack, rock-slide, grass-knot, wild-charge, cut)`
@@ -39,7 +47,7 @@
 	---
 
 	- [Flash Fire](../../pokedex/abilities/flash-fire.md)
-	- [Guts](../../pokedex/abilities/guts.md) :material-eye-off:
+	- [Guts](../../pokedex/abilities/guts.md)
 
 - **:material-ruler: Physical Attributes**
 

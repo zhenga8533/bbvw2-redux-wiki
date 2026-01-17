@@ -40,17 +40,17 @@
 
 	**#068 [Machamp](../pokemon/machamp.md)**
 
-</div>
-
-### :material-eye-off: Hidden Ability
-
-<div class="grid cards" markdown>
-
 -	[![Karrablast](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/588.gif){: .pokemon-sprite-img }](../pokemon/karrablast.md)
 
 	***
 
 	**#588 [Karrablast](../pokemon/karrablast.md)**
+
+-	[![Escavalier](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/589.gif){: .pokemon-sprite-img }](../pokemon/escavalier.md)
+
+	***
+
+	**#589 [Escavalier](../pokemon/escavalier.md)**
 
 -	[![Golett](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/622.gif){: .pokemon-sprite-img }](../pokemon/golett.md)
 

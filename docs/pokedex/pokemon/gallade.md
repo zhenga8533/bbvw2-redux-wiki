@@ -15,6 +15,20 @@
 
 ??? note "Gallade ROM Changes"
 
+	**Ability (slot 1) Changes:**
+
+	- `steadfast` → `justified`
+
+	**Ability (slot 2) Changes:**
+
+	- `(none)` → `hyper-cutter`
+
+	**Ability (slot 3) Changes:**
+
+	- `justified` → `(none)`
+
+	- `hyper-cutter` → `steadfast`
+
 	**Level-up Moves Changes:**
 
 	- `20 moves` → `25 moves`
@@ -22,6 +36,8 @@
 	**Machine Moves Changes:**
 
 	- `58 moves` → `59 moves (added: hone-claws)`
+
+	- `steadfast` → `hyper-cutter`
 
 
 ## :material-information: Basic Information
@@ -32,8 +48,8 @@
 
 	---
 
+	- [Justified](../../pokedex/abilities/justified.md)
 	- [Steadfast](../../pokedex/abilities/steadfast.md)
-	- [Justified](../../pokedex/abilities/justified.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

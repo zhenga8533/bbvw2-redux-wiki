@@ -19,6 +19,14 @@
 
 	- `croagunk > toxicroak: level-up (level 37)` → `croagunk > toxicroak: level-up (level 33)`
 
+	**Ability (slot 1) Changes:**
+
+	- `anticipation` → `poison-touch`
+
+	**Ability (slot 3) Changes:**
+
+	- `poison-touch` → `(none)`
+
 	**Level-up Moves Changes:**
 
 	- `15 moves` → `20 moves`
@@ -32,9 +40,8 @@
 
 	---
 
-	- [Anticipation](../../pokedex/abilities/anticipation.md)
+	- [Poison Touch](../../pokedex/abilities/poison-touch.md)
 	- [Dry Skin](../../pokedex/abilities/dry-skin.md)
-	- [Poison Touch](../../pokedex/abilities/poison-touch.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

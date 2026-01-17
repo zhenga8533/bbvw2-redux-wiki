@@ -15,11 +15,17 @@
 
 ??? note "Farfetchˈd ROM Changes"
 
-	**Ability Changes:**
+	**Ability (slot 1) Changes:**
 
-	- `defiant` → `defeatist`
+	- `keen-eye` → `defeatist`
+
+	**Ability (slot 3) Changes:**
+
+	- `defiant` → `(none)`
 
 	- `defeatist` → `defiant`
+
+	- `(none)` → `keen-eye`
 
 	**Type Changes:**
 
@@ -33,6 +39,10 @@
 
 	- `26 moves` → `30 moves (added: brick-break, low-sweep, focus-blast, hurricane)`
 
+	- `defiant` → `defeatist`
+
+	- `keen-eye` → `(none)`
+
 
 ## :material-information: Basic Information
 
@@ -42,9 +52,9 @@
 
 	---
 
-	- [Keen Eye](../../pokedex/abilities/keen-eye.md)
+	- [Defiant](../../pokedex/abilities/defiant.md)
 	- [Inner Focus](../../pokedex/abilities/inner-focus.md)
-	- [Defiant](../../pokedex/abilities/defiant.md) :material-eye-off:
+	- [Keen Eye](../../pokedex/abilities/keen-eye.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

@@ -15,6 +15,14 @@
 
 ??? note "Pineco ROM Changes"
 
+	**Ability (slot 2) Changes:**
+
+	- `(none)` → `overcoat`
+
+	**Ability (slot 3) Changes:**
+
+	- `overcoat` → `(none)`
+
 	**Level-up Moves Changes:**
 
 	- `14 moves` → `19 moves`
@@ -33,7 +41,7 @@
 	---
 
 	- [Sturdy](../../pokedex/abilities/sturdy.md)
-	- [Overcoat](../../pokedex/abilities/overcoat.md) :material-eye-off:
+	- [Overcoat](../../pokedex/abilities/overcoat.md)
 
 - **:material-ruler: Physical Attributes**
 

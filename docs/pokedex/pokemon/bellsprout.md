@@ -15,6 +15,14 @@
 
 ??? note "Bellsprout ROM Changes"
 
+	**Ability (slot 2) Changes:**
+
+	- `(none)` → `gluttony`
+
+	**Ability (slot 3) Changes:**
+
+	- `gluttony` → `(none)`
+
 	**Level-up Moves Changes:**
 
 	- `13 moves` → `21 moves`
@@ -29,7 +37,7 @@
 	---
 
 	- [Chlorophyll](../../pokedex/abilities/chlorophyll.md)
-	- [Gluttony](../../pokedex/abilities/gluttony.md) :material-eye-off:
+	- [Gluttony](../../pokedex/abilities/gluttony.md)
 
 - **:material-ruler: Physical Attributes**
 

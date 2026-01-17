@@ -20,9 +20,13 @@
 
 	- `klink > klang: level-up (level 38)` → `klink > klang: level-up (level 30)`
 
-	**Ability Changes:**
+	**Ability (slot 1) Changes:**
 
-	- `clear-body` → `levitate`
+	- `plus` → `levitate`
+
+	**Ability (slot 3) Changes:**
+
+	- `clear-body` → `(none)`
 
 	**Level-up Moves Changes:**
 
@@ -37,9 +41,8 @@
 
 	---
 
-	- [Plus](../../pokedex/abilities/plus.md)
+	- [Levitate](../../pokedex/abilities/levitate.md)
 	- [Minus](../../pokedex/abilities/minus.md)
-	- [Levitate](../../pokedex/abilities/levitate.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

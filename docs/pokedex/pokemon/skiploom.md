@@ -15,15 +15,29 @@
 
 ??? note "Skiploom ROM Changes"
 
-	**Ability Changes:**
+	**Ability (slot 1) Changes:**
 
-	- `infiltrator` → `prankster`
+	- `chlorophyll` → `prankster`
 
 	- `prankster` → `infiltrator`
+
+	**Ability (slot 2) Changes:**
+
+	- `leaf-guard` → `chlorophyll`
+
+	**Ability (slot 3) Changes:**
+
+	- `infiltrator` → `leaf-guard`
 
 	**Level-up Moves Changes:**
 
 	- `21 moves` → `25 moves`
+
+	- `infiltrator` → `prankster`
+
+	- `chlorophyll` → `leaf-guard`
+
+	- `leaf-guard` → `infiltrator`
 
 
 ## :material-information: Basic Information
@@ -34,9 +48,9 @@
 
 	---
 
+	- [Infiltrator](../../pokedex/abilities/infiltrator.md)
 	- [Chlorophyll](../../pokedex/abilities/chlorophyll.md)
-	- [Leaf Guard](../../pokedex/abilities/leaf-guard.md)
-	- [Infiltrator](../../pokedex/abilities/infiltrator.md) :material-eye-off:
+	- [Leaf Guard](../../pokedex/abilities/leaf-guard.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

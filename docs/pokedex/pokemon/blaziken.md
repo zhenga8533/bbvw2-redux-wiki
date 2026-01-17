@@ -15,13 +15,25 @@
 
 ??? note "Blaziken ROM Changes"
 
-	**Ability Changes:**
+	**Ability (slot 1) Changes:**
 
-	- `(none)` → `reckless`
+	- `blaze` → `reckless`
+
+	**Ability (slot 2) Changes:**
+
+	- `(none)` → `blaze`
+
+	**Ability (slot 3) Changes:**
+
+	- `speed-boost` → `(none)`
+
+	- `reckless` → `speed-boost`
 
 	**Level-up Moves Changes:**
 
 	- `18 moves` → `25 moves`
+
+	- `speed-boost` → `reckless`
 
 
 ## :material-information: Basic Information
@@ -32,9 +44,8 @@
 
 	---
 
+	- [Speed Boost](../../pokedex/abilities/speed-boost.md)
 	- [Blaze](../../pokedex/abilities/blaze.md)
-	- [Speed Boost](../../pokedex/abilities/speed-boost.md) :material-eye-off:
-	- [Reckless](../../pokedex/abilities/reckless.md)
 
 - **:material-ruler: Physical Attributes**
 

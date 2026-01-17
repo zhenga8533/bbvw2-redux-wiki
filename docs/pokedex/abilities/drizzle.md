@@ -22,6 +22,12 @@
 
 <div class="grid cards" markdown>
 
+-	[![Politoed](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/186.gif){: .pokemon-sprite-img }](../pokemon/politoed.md)
+
+	***
+
+	**#186 [Politoed](../pokemon/politoed.md)**
+
 -	[![Pelipper](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/279.gif){: .pokemon-sprite-img }](../pokemon/pelipper.md)
 
 	***
@@ -33,18 +39,6 @@
 	***
 
 	**#382 [Kyogre](../pokemon/kyogre.md)**
-
-</div>
-
-### :material-eye-off: Hidden Ability
-
-<div class="grid cards" markdown>
-
--	[![Politoed](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/186.gif){: .pokemon-sprite-img }](../pokemon/politoed.md)
-
-	***
-
-	**#186 [Politoed](../pokemon/politoed.md)**
 
 </div>
 

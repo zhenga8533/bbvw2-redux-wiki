@@ -15,9 +15,17 @@
 
 ??? note "Pelipper ROM Changes"
 
-	**Ability Changes:**
+	**Ability (slot 1) Changes:**
 
-	- `(none)` → `drizzle`
+	- `keen-eye` → `drizzle`
+
+	**Ability (slot 2) Changes:**
+
+	- `(none)` → `rain-dish`
+
+	**Ability (slot 3) Changes:**
+
+	- `rain-dish` → `keen-eye`
 
 	**Level-up Moves Changes:**
 
@@ -36,9 +44,9 @@
 
 	---
 
-	- [Keen Eye](../../pokedex/abilities/keen-eye.md)
-	- [Rain Dish](../../pokedex/abilities/rain-dish.md) :material-eye-off:
 	- [Drizzle](../../pokedex/abilities/drizzle.md)
+	- [Keen Eye](../../pokedex/abilities/keen-eye.md) :material-eye-off:
+	- [Rain Dish](../../pokedex/abilities/rain-dish.md)
 
 - **:material-ruler: Physical Attributes**
 

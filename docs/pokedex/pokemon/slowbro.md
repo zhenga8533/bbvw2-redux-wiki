@@ -21,6 +21,14 @@
 
 	- `slowpoke > slowking: trade (held: kings-rock)` → `slowpoke > slowking: use-item (king's-rock)`
 
+	**Ability (slot 1) Changes:**
+
+	- `oblivious` → `regenerator`
+
+	**Ability (slot 3) Changes:**
+
+	- `regenerator` → `(none)`
+
 	**Level-up Moves Changes:**
 
 	- `18 moves` → `22 moves`
@@ -38,9 +46,8 @@
 
 	---
 
-	- [Oblivious](../../pokedex/abilities/oblivious.md)
+	- [Regenerator](../../pokedex/abilities/regenerator.md)
 	- [Own Tempo](../../pokedex/abilities/own-tempo.md)
-	- [Regenerator](../../pokedex/abilities/regenerator.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

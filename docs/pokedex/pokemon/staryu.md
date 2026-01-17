@@ -15,9 +15,9 @@
 
 ??? note "Staryu ROM Changes"
 
-	**Ability Changes:**
+	**Ability (slot 1) Changes:**
 
-	- `analytic` → `regenerator`
+	- `illuminate` → `regenerator`
 
 	**Level-up Moves Changes:**
 
@@ -36,9 +36,9 @@
 
 	---
 
-	- [Illuminate](../../pokedex/abilities/illuminate.md)
+	- [Regenerator](../../pokedex/abilities/regenerator.md)
 	- [Natural Cure](../../pokedex/abilities/natural-cure.md)
-	- [Regenerator](../../pokedex/abilities/regenerator.md) :material-eye-off:
+	- [Analytic](../../pokedex/abilities/analytic.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

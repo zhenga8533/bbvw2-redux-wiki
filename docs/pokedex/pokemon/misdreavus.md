@@ -15,9 +15,9 @@
 
 ??? note "Misdreavus ROM Changes"
 
-	**Ability Changes:**
+	**Ability (slot 1) Changes:**
 
-	- `(none)` → `infiltrator`
+	- `levitate` → `infiltrator`
 
 	**Type Changes:**
 
@@ -40,7 +40,6 @@
 
 	---
 
-	- [Levitate](../../pokedex/abilities/levitate.md)
 	- [Infiltrator](../../pokedex/abilities/infiltrator.md)
 
 - **:material-ruler: Physical Attributes**

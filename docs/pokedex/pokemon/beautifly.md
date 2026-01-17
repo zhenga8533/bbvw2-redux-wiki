@@ -15,6 +15,18 @@
 
 ??? note "Beautifly ROM Changes"
 
+	**Ability (slot 1) Changes:**
+
+	- `swarm` → `rivalry`
+
+	**Ability (slot 2) Changes:**
+
+	- `(none)` → `swarm`
+
+	**Ability (slot 3) Changes:**
+
+	- `rivalry` → `(none)`
+
 	**Level-up Moves Changes:**
 
 	- `12 moves` → `16 moves`
@@ -32,8 +44,8 @@
 
 	---
 
+	- [Rivalry](../../pokedex/abilities/rivalry.md)
 	- [Swarm](../../pokedex/abilities/swarm.md)
-	- [Rivalry](../../pokedex/abilities/rivalry.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

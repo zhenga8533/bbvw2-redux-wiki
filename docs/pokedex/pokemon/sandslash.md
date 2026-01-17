@@ -15,9 +15,19 @@
 
 ??? note "Sandslash ROM Changes"
 
-	**Ability Changes:**
+	**Ability (slot 1) Changes:**
 
-	- `(none)` → `rough-skin`
+	- `sand-veil` → `rough-skin`
+
+	**Ability (slot 2) Changes:**
+
+	- `(none)` → `sand-rush`
+
+	**Ability (slot 3) Changes:**
+
+	- `sand-rush` → `(none)`
+
+	- `rough-skin` → `sand-veil`
 
 	**Level-up Moves Changes:**
 
@@ -37,8 +47,7 @@
 	---
 
 	- [Sand Veil](../../pokedex/abilities/sand-veil.md)
-	- [Sand Rush](../../pokedex/abilities/sand-rush.md) :material-eye-off:
-	- [Rough Skin](../../pokedex/abilities/rough-skin.md)
+	- [Sand Rush](../../pokedex/abilities/sand-rush.md)
 
 - **:material-ruler: Physical Attributes**
 

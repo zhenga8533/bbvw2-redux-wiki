@@ -15,6 +15,14 @@
 
 ??? note "Dugtrio ROM Changes"
 
+	**Ability (slot 1) Changes:**
+
+	- `sand-veil` → `sand-force`
+
+	**Ability (slot 3) Changes:**
+
+	- `sand-force` → `(none)`
+
 	**Level-up Moves Changes:**
 
 	- `18 moves` → `24 moves`
@@ -28,9 +36,8 @@
 
 	---
 
-	- [Sand Veil](../../pokedex/abilities/sand-veil.md)
+	- [Sand Force](../../pokedex/abilities/sand-force.md)
 	- [Arena Trap](../../pokedex/abilities/arena-trap.md)
-	- [Sand Force](../../pokedex/abilities/sand-force.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

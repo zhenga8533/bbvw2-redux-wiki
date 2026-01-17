@@ -15,6 +15,14 @@
 
 ??? note "Persian ROM Changes"
 
+	**Ability (slot 1) Changes:**
+
+	- `limber` → `unnerve`
+
+	**Ability (slot 3) Changes:**
+
+	- `unnerve` → `pickup`
+
 	**Level-up Moves Changes:**
 
 	- `19 moves` → `24 moves`
@@ -32,9 +40,9 @@
 
 	---
 
-	- [Limber](../../pokedex/abilities/limber.md)
+	- [Unnerve](../../pokedex/abilities/unnerve.md)
 	- [Technician](../../pokedex/abilities/technician.md)
-	- [Unnerve](../../pokedex/abilities/unnerve.md) :material-eye-off:
+	- [Pickup](../../pokedex/abilities/pickup.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

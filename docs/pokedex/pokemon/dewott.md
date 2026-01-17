@@ -16,6 +16,18 @@
 
 ??? note "Dewott ROM Changes"
 
+	**Ability (slot 1) Changes:**
+
+	- `torrent` → `shell-armor`
+
+	**Ability (slot 2) Changes:**
+
+	- `(none)` → `torrent`
+
+	**Ability (slot 3) Changes:**
+
+	- `shell-armor` → `(none)`
+
 	**Type Changes:**
 
 	- `water` → `water / fighting`
@@ -37,8 +49,8 @@
 
 	---
 
+	- [Shell Armor](../../pokedex/abilities/shell-armor.md)
 	- [Torrent](../../pokedex/abilities/torrent.md)
-	- [Shell Armor](../../pokedex/abilities/shell-armor.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

@@ -16,6 +16,18 @@
 
 ??? note "Scolipede ROM Changes"
 
+	**Ability (slot 1) Changes:**
+
+	- `quick feet` → `speed-boost`
+
+	**Ability (slot 2) Changes:**
+
+	- `swarm` → `poison-point`
+
+	**Ability (slot 3) Changes:**
+
+	- `speed-boost` → `swarm`
+
 	**Level-up Moves Changes:**
 
 	- `18 moves` → `25 moves`
@@ -33,9 +45,9 @@
 
 	---
 
-	- [Quick Feet](../../pokedex/abilities/quick-feet.md)
-	- [Swarm](../../pokedex/abilities/swarm.md)
-	- [Speed Boost](../../pokedex/abilities/speed-boost.md) :material-eye-off:
+	- [Speed Boost](../../pokedex/abilities/speed-boost.md)
+	- [Poison Point](../../pokedex/abilities/poison-point.md)
+	- [Swarm](../../pokedex/abilities/swarm.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

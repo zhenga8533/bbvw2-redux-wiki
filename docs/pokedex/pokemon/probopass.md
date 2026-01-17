@@ -15,6 +15,16 @@
 
 ??? note "Probopass ROM Changes"
 
+	**Ability (slot 2) Changes:**
+
+	- `magnet-pull` → `clear-body`
+
+	**Ability (slot 3) Changes:**
+
+	- `sand-force` → `magnet-pull`
+
+	- `clear-body` → `sand-force`
+
 	**Type Changes:**
 
 	- `rock / steel` → `rock / electric`
@@ -27,6 +37,8 @@
 
 	- `33 moves` → `36 moves (added: energy-ball, charge-beam, power-gem)`
 
+	- `sand-force` → `clear-body`
+
 
 ## :material-information: Basic Information
 
@@ -37,8 +49,8 @@
 	---
 
 	- [Sturdy](../../pokedex/abilities/sturdy.md)
-	- [Magnet Pull](../../pokedex/abilities/magnet-pull.md)
-	- [Sand Force](../../pokedex/abilities/sand-force.md) :material-eye-off:
+	- [Sand Force](../../pokedex/abilities/sand-force.md)
+	- [Magnet Pull](../../pokedex/abilities/magnet-pull.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

@@ -19,6 +19,14 @@
 
 	- `anorith > armaldo: level-up (level 40)` → `anorith > armaldo: level-up (level 30)`
 
+	**Ability (slot 2) Changes:**
+
+	- `(none)` → `swift-swim`
+
+	**Ability (slot 3) Changes:**
+
+	- `swift-swim` → `(none)`
+
 	**Base Experience Changes:**
 
 	- `71` → `65`
@@ -41,7 +49,7 @@
 	---
 
 	- [Battle Armor](../../pokedex/abilities/battle-armor.md)
-	- [Swift Swim](../../pokedex/abilities/swift-swim.md) :material-eye-off:
+	- [Swift Swim](../../pokedex/abilities/swift-swim.md)
 
 - **:material-ruler: Physical Attributes**
 

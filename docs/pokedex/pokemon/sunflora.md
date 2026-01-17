@@ -15,9 +15,13 @@
 
 ??? note "Sunflora ROM Changes"
 
-	**Ability Changes:**
+	**Ability (slot 1) Changes:**
 
-	- `early-bird` → `drought`
+	- `chlorophyll` → `drought`
+
+	**Ability (slot 3) Changes:**
+
+	- `early-bird` → `chlorophyll`
 
 	**Level-up Moves Changes:**
 
@@ -36,9 +40,9 @@
 
 	---
 
-	- [Chlorophyll](../../pokedex/abilities/chlorophyll.md)
+	- [Drought](../../pokedex/abilities/drought.md)
 	- [Solar Power](../../pokedex/abilities/solar-power.md)
-	- [Drought](../../pokedex/abilities/drought.md) :material-eye-off:
+	- [Chlorophyll](../../pokedex/abilities/chlorophyll.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

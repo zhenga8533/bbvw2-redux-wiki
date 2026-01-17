@@ -15,6 +15,14 @@
 
 ??? note "Nosepass ROM Changes"
 
+	**Ability (slot 2) Changes:**
+
+	- `magnet-pull` → `sand-force`
+
+	**Ability (slot 3) Changes:**
+
+	- `sand-force` → `magnet-pull`
+
 	**Base Experience Changes:**
 
 	- `75` → `65`
@@ -37,8 +45,8 @@
 	---
 
 	- [Sturdy](../../pokedex/abilities/sturdy.md)
-	- [Magnet Pull](../../pokedex/abilities/magnet-pull.md)
-	- [Sand Force](../../pokedex/abilities/sand-force.md) :material-eye-off:
+	- [Sand Force](../../pokedex/abilities/sand-force.md)
+	- [Magnet Pull](../../pokedex/abilities/magnet-pull.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

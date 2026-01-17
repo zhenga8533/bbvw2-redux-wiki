@@ -20,6 +20,14 @@
 
 	- `elgyem > beheeyem: level-up (level 42)` → `elgyem > beheeyem: level-up (level 37)`
 
+	**Ability (slot 1) Changes:**
+
+	- `telepathy` → `analytic`
+
+	**Ability (slot 3) Changes:**
+
+	- `analytic` → `(none)`
+
 	**Level-up Moves Changes:**
 
 	- `21 moves` → `25 moves`
@@ -37,9 +45,8 @@
 
 	---
 
-	- [Telepathy](../../pokedex/abilities/telepathy.md)
+	- [Analytic](../../pokedex/abilities/analytic.md)
 	- [Synchronize](../../pokedex/abilities/synchronize.md)
-	- [Analytic](../../pokedex/abilities/analytic.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

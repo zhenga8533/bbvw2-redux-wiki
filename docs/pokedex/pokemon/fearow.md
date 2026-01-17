@@ -19,9 +19,19 @@
 
 	- `spearow > fearow: level-up (level 20)` → `spearow > fearow: level-up (level 21)`
 
-	**Ability Changes:**
+	**Ability (slot 1) Changes:**
 
-	- `(none)` → `intimidate`
+	- `keen-eye` → `intimidate`
+
+	**Ability (slot 2) Changes:**
+
+	- `(none)` → `sniper`
+
+	**Ability (slot 3) Changes:**
+
+	- `sniper` → `(none)`
+
+	- `intimidate` → `keen-eye`
 
 	**Type Changes:**
 
@@ -45,8 +55,7 @@
 	---
 
 	- [Keen Eye](../../pokedex/abilities/keen-eye.md)
-	- [Sniper](../../pokedex/abilities/sniper.md) :material-eye-off:
-	- [Intimidate](../../pokedex/abilities/intimidate.md)
+	- [Sniper](../../pokedex/abilities/sniper.md)
 
 - **:material-ruler: Physical Attributes**
 

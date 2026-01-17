@@ -20,9 +20,13 @@
 
 	- `14 moves` → `18 moves`
 
-	**Ability Changes:**
+	**Ability (slot 1) Changes:**
 
-	- `(none)` → `inner-focus`
+	- `pressure` → `inner-focus`
+
+	**Ability (slot 2) Changes:**
+
+	- `(none)` → `pressure`
 
 
 ## :material-information: Basic Information
@@ -33,8 +37,8 @@
 
 	---
 
-	- [Pressure](../../pokedex/abilities/pressure.md)
 	- [Inner Focus](../../pokedex/abilities/inner-focus.md)
+	- [Pressure](../../pokedex/abilities/pressure.md)
 
 - **:material-ruler: Physical Attributes**
 

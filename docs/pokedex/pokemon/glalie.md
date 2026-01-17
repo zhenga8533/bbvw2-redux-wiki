@@ -19,9 +19,13 @@
 
 	- `snorunt > glalie: level-up (level 42)` → `snorunt > glalie: use-item (ice-stone)`
 
-	**Ability Changes:**
+	**Ability (slot 1) Changes:**
 
-	- `moody` → `levitate`
+	- `inner-focus` → `levitate`
+
+	**Ability (slot 3) Changes:**
+
+	- `moody` → `(none)`
 
 	**Type Changes:**
 
@@ -44,9 +48,8 @@
 
 	---
 
-	- [Inner Focus](../../pokedex/abilities/inner-focus.md)
+	- [Levitate](../../pokedex/abilities/levitate.md)
 	- [Ice Body](../../pokedex/abilities/ice-body.md)
-	- [Levitate](../../pokedex/abilities/levitate.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

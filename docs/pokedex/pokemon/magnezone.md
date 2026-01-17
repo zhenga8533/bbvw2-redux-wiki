@@ -15,6 +15,14 @@
 
 ??? note "Magnezone ROM Changes"
 
+	**Ability (slot 1) Changes:**
+
+	- `magnet-pull` → `analytic`
+
+	**Ability (slot 3) Changes:**
+
+	- `analytic` → `magnet-pull`
+
 	**Level-up Moves Changes:**
 
 	- `37 moves` → `24 moves`
@@ -32,9 +40,9 @@
 
 	---
 
-	- [Magnet Pull](../../pokedex/abilities/magnet-pull.md)
+	- [Analytic](../../pokedex/abilities/analytic.md)
 	- [Sturdy](../../pokedex/abilities/sturdy.md)
-	- [Analytic](../../pokedex/abilities/analytic.md) :material-eye-off:
+	- [Magnet Pull](../../pokedex/abilities/magnet-pull.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

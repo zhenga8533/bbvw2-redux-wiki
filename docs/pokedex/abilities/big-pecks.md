@@ -22,54 +22,6 @@
 
 <div class="grid cards" markdown>
 
--	[![Pidove](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/519.gif){: .pokemon-sprite-img }](../pokemon/pidove.md)
-
-	***
-
-	**#519 [Pidove](../pokemon/pidove.md)**
-
--	[![Tranquill](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/520.gif){: .pokemon-sprite-img }](../pokemon/tranquill.md)
-
-	***
-
-	**#520 [Tranquill](../pokemon/tranquill.md)**
-
--	[![Unfezant](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/521.gif){: .pokemon-sprite-img }](../pokemon/unfezant.md)
-
-	***
-
-	**#521 [Unfezant](../pokemon/unfezant.md)**
-
--	[![Ducklett](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/580.gif){: .pokemon-sprite-img }](../pokemon/ducklett.md)
-
-	***
-
-	**#580 [Ducklett](../pokemon/ducklett.md)**
-
--	[![Swanna](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/581.gif){: .pokemon-sprite-img }](../pokemon/swanna.md)
-
-	***
-
-	**#581 [Swanna](../pokemon/swanna.md)**
-
--	[![Vullaby](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/629.gif){: .pokemon-sprite-img }](../pokemon/vullaby.md)
-
-	***
-
-	**#629 [Vullaby](../pokemon/vullaby.md)**
-
--	[![Mandibuzz](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/630.gif){: .pokemon-sprite-img }](../pokemon/mandibuzz.md)
-
-	***
-
-	**#630 [Mandibuzz](../pokemon/mandibuzz.md)**
-
-</div>
-
-### :material-eye-off: Hidden Ability
-
-<div class="grid cards" markdown>
-
 -	[![Pidgey](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/16.gif){: .pokemon-sprite-img }](../pokemon/pidgey.md)
 
 	***
@@ -87,6 +39,30 @@
 	***
 
 	**#018 [Pidgeot](../pokemon/pidgeot.md)**
+
+-	[![Ducklett](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/580.gif){: .pokemon-sprite-img }](../pokemon/ducklett.md)
+
+	***
+
+	**#580 [Ducklett](../pokemon/ducklett.md)**
+
+-	[![Swanna](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/581.gif){: .pokemon-sprite-img }](../pokemon/swanna.md)
+
+	***
+
+	**#581 [Swanna](../pokemon/swanna.md)**
+
+</div>
+
+### :material-eye-off: Hidden Ability
+
+<div class="grid cards" markdown>
+
+-	[![Chatot](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/441.gif){: .pokemon-sprite-img }](../pokemon/chatot.md)
+
+	***
+
+	**#441 [Chatot](../pokemon/chatot.md)**
 
 </div>
 

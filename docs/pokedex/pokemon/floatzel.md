@@ -15,6 +15,14 @@
 
 ??? note "Floatzel ROM Changes"
 
+	**Ability (slot 2) Changes:**
+
+	- `(none)` → `water-veil`
+
+	**Ability (slot 3) Changes:**
+
+	- `water-veil` → `(none)`
+
 	**Level-up Moves Changes:**
 
 	- `29 moves` → `24 moves`
@@ -33,7 +41,7 @@
 	---
 
 	- [Swift Swim](../../pokedex/abilities/swift-swim.md)
-	- [Water Veil](../../pokedex/abilities/water-veil.md) :material-eye-off:
+	- [Water Veil](../../pokedex/abilities/water-veil.md)
 
 - **:material-ruler: Physical Attributes**
 

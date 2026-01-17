@@ -15,6 +15,18 @@
 
 ??? note "Crawdaunt ROM Changes"
 
+	**Ability (slot 1) Changes:**
+
+	- `hyper-cutter` → `adaptability`
+
+	**Ability (slot 2) Changes:**
+
+	- `shell-armor` → `hyper-cutter`
+
+	**Ability (slot 3) Changes:**
+
+	- `adaptability` → `(none)`
+
 	**Level-up Moves Changes:**
 
 	- `17 moves` → `24 moves`
@@ -28,9 +40,8 @@
 
 	---
 
+	- [Adaptability](../../pokedex/abilities/adaptability.md)
 	- [Hyper Cutter](../../pokedex/abilities/hyper-cutter.md)
-	- [Shell Armor](../../pokedex/abilities/shell-armor.md)
-	- [Adaptability](../../pokedex/abilities/adaptability.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

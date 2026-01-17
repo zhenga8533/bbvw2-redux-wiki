@@ -22,6 +22,14 @@
 
 	- `karrablast > escavalier: use-item (metal-coat)` → `karrablast > escavalier: level-up`
 
+	**Ability (slot 1) Changes:**
+
+	- `swarm` → `shell-armor`
+
+	**Ability (slot 2) Changes:**
+
+	- `shell-armor` → `no-guard`
+
 	**Level-up Moves Changes:**
 
 	- `18 moves` → `25 moves`
@@ -39,8 +47,8 @@
 
 	---
 
-	- [Swarm](../../pokedex/abilities/swarm.md)
 	- [Shell Armor](../../pokedex/abilities/shell-armor.md)
+	- [No Guard](../../pokedex/abilities/no-guard.md)
 	- [Overcoat](../../pokedex/abilities/overcoat.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**

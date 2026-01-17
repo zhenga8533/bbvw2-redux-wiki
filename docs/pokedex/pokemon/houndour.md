@@ -15,6 +15,14 @@
 
 ??? note "Houndour ROM Changes"
 
+	**Ability (slot 1) Changes:**
+
+	- `early-bird` → `flash-fire`
+
+	**Ability (slot 2) Changes:**
+
+	- `flash-fire` → `intimidate`
+
 	**Level-up Moves Changes:**
 
 	- `16 moves` → `22 moves`
@@ -28,8 +36,8 @@
 
 	---
 
-	- [Early Bird](../../pokedex/abilities/early-bird.md)
 	- [Flash Fire](../../pokedex/abilities/flash-fire.md)
+	- [Intimidate](../../pokedex/abilities/intimidate.md)
 	- [Unnerve](../../pokedex/abilities/unnerve.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**

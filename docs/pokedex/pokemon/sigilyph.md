@@ -16,6 +16,14 @@
 
 ??? note "Sigilyph ROM Changes"
 
+	**Ability (slot 1) Changes:**
+
+	- `wonder-skin` → `tinted-lens`
+
+	**Ability (slot 3) Changes:**
+
+	- `tinted-lens` → `wonder-skin`
+
 	**Level-up Moves Changes:**
 
 	- `17 moves` → `23 moves`
@@ -33,9 +41,9 @@
 
 	---
 
-	- [Wonder Skin](../../pokedex/abilities/wonder-skin.md)
+	- [Tinted Lens](../../pokedex/abilities/tinted-lens.md)
 	- [Magic Guard](../../pokedex/abilities/magic-guard.md)
-	- [Tinted Lens](../../pokedex/abilities/tinted-lens.md) :material-eye-off:
+	- [Wonder Skin](../../pokedex/abilities/wonder-skin.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

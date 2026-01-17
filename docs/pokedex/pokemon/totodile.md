@@ -15,6 +15,18 @@
 
 ??? note "Totodile ROM Changes"
 
+	**Ability (slot 1) Changes:**
+
+	- `torrent` → `sheer-force`
+
+	**Ability (slot 2) Changes:**
+
+	- `(none)` → `torrent`
+
+	**Ability (slot 3) Changes:**
+
+	- `sheer-force` → `(none)`
+
 	**Level-up Moves Changes:**
 
 	- `16 moves` → `19 moves`
@@ -32,8 +44,8 @@
 
 	---
 
+	- [Sheer Force](../../pokedex/abilities/sheer-force.md)
 	- [Torrent](../../pokedex/abilities/torrent.md)
-	- [Sheer Force](../../pokedex/abilities/sheer-force.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

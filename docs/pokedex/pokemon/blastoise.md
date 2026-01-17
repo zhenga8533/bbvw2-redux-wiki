@@ -15,9 +15,19 @@
 
 ??? note "Blastoise ROM Changes"
 
-	**Ability Changes:**
+	**Ability (slot 1) Changes:**
 
-	- `(none)` → `shell-armor`
+	- `torrent` → `shell-armor`
+
+	**Ability (slot 2) Changes:**
+
+	- `(none)` → `torrent`
+
+	- `shell-armor` → `rain-dish`
+
+	**Ability (slot 3) Changes:**
+
+	- `rain-dish` → `(none)`
 
 	**Level-up Moves Changes:**
 
@@ -26,6 +36,10 @@
 	**Machine Moves Changes:**
 
 	- `37 moves` → `40 moves (added: tri-attack, aura-sphere, wave-crash)`
+
+	- `rain-dish` → `shell-armor`
+
+	- `(none)` → `rain-dish`
 
 
 ## :material-information: Basic Information
@@ -36,9 +50,8 @@
 
 	---
 
+	- [Rain Dish](../../pokedex/abilities/rain-dish.md)
 	- [Torrent](../../pokedex/abilities/torrent.md)
-	- [Rain Dish](../../pokedex/abilities/rain-dish.md) :material-eye-off:
-	- [Shell Armor](../../pokedex/abilities/shell-armor.md)
 
 - **:material-ruler: Physical Attributes**
 

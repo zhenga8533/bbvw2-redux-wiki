@@ -20,6 +20,14 @@
 
 	- `woobat > swoobat: level-up (happiness)` → `woobat > swoobat: level-up (level 25)`
 
+	**Ability (slot 2) Changes:**
+
+	- `klutz` → `simple`
+
+	**Ability (slot 3) Changes:**
+
+	- `simple` → `(none)`
+
 	**Level-up Moves Changes:**
 
 	- `17 moves` → `24 moves`
@@ -38,8 +46,7 @@
 	---
 
 	- [Unaware](../../pokedex/abilities/unaware.md)
-	- [Klutz](../../pokedex/abilities/klutz.md)
-	- [Simple](../../pokedex/abilities/simple.md) :material-eye-off:
+	- [Simple](../../pokedex/abilities/simple.md)
 
 - **:material-ruler: Physical Attributes**
 

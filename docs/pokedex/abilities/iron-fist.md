@@ -28,29 +28,17 @@
 
 	**#107 [Hitmonchan](../pokemon/hitmonchan.md)**
 
--	[![Dusknoir](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/477.gif){: .pokemon-sprite-img }](../pokemon/dusknoir.md)
+-	[![Metang](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/375.gif){: .pokemon-sprite-img }](../pokemon/metang.md)
 
 	***
 
-	**#477 [Dusknoir](../pokemon/dusknoir.md)**
+	**#375 [Metang](../pokemon/metang.md)**
 
--	[![Golett](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/622.gif){: .pokemon-sprite-img }](../pokemon/golett.md)
-
-	***
-
-	**#622 [Golett](../pokemon/golett.md)**
-
--	[![Golurk](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/623.gif){: .pokemon-sprite-img }](../pokemon/golurk.md)
+-	[![Metagross](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/376.gif){: .pokemon-sprite-img }](../pokemon/metagross.md)
 
 	***
 
-	**#623 [Golurk](../pokemon/golurk.md)**
-
-</div>
-
-### :material-eye-off: Hidden Ability
-
-<div class="grid cards" markdown>
+	**#376 [Metagross](../pokemon/metagross.md)**
 
 -	[![Chimchar](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/390.gif){: .pokemon-sprite-img }](../pokemon/chimchar.md)
 
@@ -70,6 +58,12 @@
 
 	**#392 [Infernape](../pokemon/infernape.md)**
 
+-	[![Dusknoir](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/477.gif){: .pokemon-sprite-img }](../pokemon/dusknoir.md)
+
+	***
+
+	**#477 [Dusknoir](../pokemon/dusknoir.md)**
+
 -	[![Timburr](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/532.gif){: .pokemon-sprite-img }](../pokemon/timburr.md)
 
 	***
@@ -87,6 +81,18 @@
 	***
 
 	**#534 [Conkeldurr](../pokemon/conkeldurr.md)**
+
+-	[![Golett](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/622.gif){: .pokemon-sprite-img }](../pokemon/golett.md)
+
+	***
+
+	**#622 [Golett](../pokemon/golett.md)**
+
+-	[![Golurk](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/623.gif){: .pokemon-sprite-img }](../pokemon/golurk.md)
+
+	***
+
+	**#623 [Golurk](../pokemon/golurk.md)**
 
 </div>
 

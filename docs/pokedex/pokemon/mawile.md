@@ -15,15 +15,23 @@
 
 ??? note "Mawile ROM Changes"
 
-	**Ability Changes:**
+	**Ability (slot 1) Changes:**
 
-	- `sheer-force` → `huge-power`
+	- `hyper-cutter` → `huge-power`
 
 	- `huge-power` → `sheer-force`
+
+	**Ability (slot 3) Changes:**
+
+	- `sheer-force` → `(none)`
 
 	**Level-up Moves Changes:**
 
 	- `14 moves` → `25 moves`
+
+	- `sheer-force` → `huge-power`
+
+	- `(none)` → `sheer-force`
 
 
 ## :material-information: Basic Information
@@ -34,9 +42,8 @@
 
 	---
 
-	- [Hyper Cutter](../../pokedex/abilities/hyper-cutter.md)
+	- [Sheer Force](../../pokedex/abilities/sheer-force.md)
 	- [Intimidate](../../pokedex/abilities/intimidate.md)
-	- [Sheer Force](../../pokedex/abilities/sheer-force.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

@@ -15,6 +15,18 @@
 
 ??? note "Ambipom ROM Changes"
 
+	**Ability (slot 1) Changes:**
+
+	- `technician` → `skill-link`
+
+	**Ability (slot 2) Changes:**
+
+	- `pickup` → `technician`
+
+	**Ability (slot 3) Changes:**
+
+	- `skill-link` → `pickup`
+
 	**Level-up Moves Changes:**
 
 	- `16 moves` → `21 moves`
@@ -32,9 +44,9 @@
 
 	---
 
+	- [Skill Link](../../pokedex/abilities/skill-link.md)
 	- [Technician](../../pokedex/abilities/technician.md)
-	- [Pickup](../../pokedex/abilities/pickup.md)
-	- [Skill Link](../../pokedex/abilities/skill-link.md) :material-eye-off:
+	- [Pickup](../../pokedex/abilities/pickup.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

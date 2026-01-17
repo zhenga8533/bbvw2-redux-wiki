@@ -15,6 +15,14 @@
 
 ??? note "Exeggcute ROM Changes"
 
+	**Ability (slot 2) Changes:**
+
+	- `(none)` → `harvest`
+
+	**Ability (slot 3) Changes:**
+
+	- `harvest` → `(none)`
+
 	**Level-up Moves Changes:**
 
 	- `16 moves` → `25 moves`
@@ -33,7 +41,7 @@
 	---
 
 	- [Chlorophyll](../../pokedex/abilities/chlorophyll.md)
-	- [Harvest](../../pokedex/abilities/harvest.md) :material-eye-off:
+	- [Harvest](../../pokedex/abilities/harvest.md)
 
 - **:material-ruler: Physical Attributes**
 

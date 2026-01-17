@@ -22,23 +22,35 @@
 
 <div class="grid cards" markdown>
 
--	[![Togepi](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/175.gif){: .pokemon-sprite-img }](../pokemon/togepi.md)
+-	[![Rattata](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/19.gif){: .pokemon-sprite-img }](../pokemon/rattata.md)
 
 	***
 
-	**#175 [Togepi](../pokemon/togepi.md)**
+	**#019 [Rattata](../pokemon/rattata.md)**
 
--	[![Togetic](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/176.gif){: .pokemon-sprite-img }](../pokemon/togetic.md)
-
-	***
-
-	**#176 [Togetic](../pokemon/togetic.md)**
-
--	[![Corsola](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/222.gif){: .pokemon-sprite-img }](../pokemon/corsola.md)
+-	[![Raticate](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/20.gif){: .pokemon-sprite-img }](../pokemon/raticate.md)
 
 	***
 
-	**#222 [Corsola](../pokemon/corsola.md)**
+	**#020 [Raticate](../pokemon/raticate.md)**
+
+-	[![Nidorina](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/30.gif){: .pokemon-sprite-img }](../pokemon/nidorina.md)
+
+	***
+
+	**#030 [Nidorina](../pokemon/nidorina.md)**
+
+-	[![Nidorino](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/33.gif){: .pokemon-sprite-img }](../pokemon/nidorino.md)
+
+	***
+
+	**#033 [Nidorino](../pokemon/nidorino.md)**
+
+-	[![Sentret](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/161.gif){: .pokemon-sprite-img }](../pokemon/sentret.md)
+
+	***
+
+	**#161 [Sentret](../pokemon/sentret.md)**
 
 -	[![Remoraid](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/223.gif){: .pokemon-sprite-img }](../pokemon/remoraid.md)
 
@@ -46,23 +58,23 @@
 
 	**#223 [Remoraid](../pokemon/remoraid.md)**
 
--	[![Delibird](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/225.gif){: .pokemon-sprite-img }](../pokemon/delibird.md)
+-	[![Larvitar](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/246.gif){: .pokemon-sprite-img }](../pokemon/larvitar.md)
 
 	***
 
-	**#225 [Delibird](../pokemon/delibird.md)**
+	**#246 [Larvitar](../pokemon/larvitar.md)**
 
--	[![Togekiss](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/468.gif){: .pokemon-sprite-img }](../pokemon/togekiss.md)
-
-	***
-
-	**#468 [Togekiss](../pokemon/togekiss.md)**
-
--	[![Darumaka](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/554.gif){: .pokemon-sprite-img }](../pokemon/darumaka.md)
+-	[![Combee](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/415.gif){: .pokemon-sprite-img }](../pokemon/combee.md)
 
 	***
 
-	**#554 [Darumaka](../pokemon/darumaka.md)**
+	**#415 [Combee](../pokemon/combee.md)**
+
+-	[![Rufflet](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/627.gif){: .pokemon-sprite-img }](../pokemon/rufflet.md)
+
+	***
+
+	**#627 [Rufflet](../pokemon/rufflet.md)**
 
 -	[![Durant](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/632.gif){: .pokemon-sprite-img }](../pokemon/durant.md)
 
@@ -88,29 +100,11 @@
 
 <div class="grid cards" markdown>
 
--	[![Rattata](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/19.gif){: .pokemon-sprite-img }](../pokemon/rattata.md)
-
-	***
-
-	**#019 [Rattata](../pokemon/rattata.md)**
-
--	[![Raticate](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/20.gif){: .pokemon-sprite-img }](../pokemon/raticate.md)
-
-	***
-
-	**#020 [Raticate](../pokemon/raticate.md)**
-
 -	[![Nidoran♀](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/29.gif){: .pokemon-sprite-img }](../pokemon/nidoran-f.md)
 
 	***
 
 	**#029 [Nidoran♀](../pokemon/nidoran-f.md)**
-
--	[![Nidorina](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/30.gif){: .pokemon-sprite-img }](../pokemon/nidorina.md)
-
-	***
-
-	**#030 [Nidorina](../pokemon/nidorina.md)**
 
 -	[![Nidoran♂](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/32.gif){: .pokemon-sprite-img }](../pokemon/nidoran-m.md)
 
@@ -118,23 +112,11 @@
 
 	**#032 [Nidoran♂](../pokemon/nidoran-m.md)**
 
--	[![Nidorino](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/33.gif){: .pokemon-sprite-img }](../pokemon/nidorino.md)
+-	[![Corsola](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/222.gif){: .pokemon-sprite-img }](../pokemon/corsola.md)
 
 	***
 
-	**#033 [Nidorino](../pokemon/nidorino.md)**
-
--	[![Combee](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/415.gif){: .pokemon-sprite-img }](../pokemon/combee.md)
-
-	***
-
-	**#415 [Combee](../pokemon/combee.md)**
-
--	[![Rufflet](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/627.gif){: .pokemon-sprite-img }](../pokemon/rufflet.md)
-
-	***
-
-	**#627 [Rufflet](../pokemon/rufflet.md)**
+	**#222 [Corsola](../pokemon/corsola.md)**
 
 </div>
 

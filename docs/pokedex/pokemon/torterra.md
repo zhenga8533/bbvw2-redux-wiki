@@ -15,13 +15,27 @@
 
 ??? note "Torterra ROM Changes"
 
-	**Ability Changes:**
+	**Ability (slot 1) Changes:**
 
-	- `(none)` → `rock-head`
+	- `overgrow` → `rock-head`
+
+	**Ability (slot 2) Changes:**
+
+	- `(none)` → `overgrow`
+
+	- `rock-head` → `shell-armor`
+
+	**Ability (slot 3) Changes:**
+
+	- `shell-armor` → `(none)`
 
 	**Level-up Moves Changes:**
 
 	- `17 moves` → `25 moves`
+
+	- `shell-armor` → `rock-head`
+
+	- `(none)` → `shell-armor`
 
 
 ## :material-information: Basic Information
@@ -32,9 +46,8 @@
 
 	---
 
+	- [Shell Armor](../../pokedex/abilities/shell-armor.md)
 	- [Overgrow](../../pokedex/abilities/overgrow.md)
-	- [Shell Armor](../../pokedex/abilities/shell-armor.md) :material-eye-off:
-	- [Rock Head](../../pokedex/abilities/rock-head.md)
 
 - **:material-ruler: Physical Attributes**
 

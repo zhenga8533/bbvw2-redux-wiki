@@ -22,23 +22,17 @@
 
 <div class="grid cards" markdown>
 
--	[![Persian](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/53.gif){: .pokemon-sprite-img }](../pokemon/persian.md)
+-	[![Buneary](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/427.gif){: .pokemon-sprite-img }](../pokemon/buneary.md)
 
 	***
 
-	**#053 [Persian](../pokemon/persian.md)**
+	**#427 [Buneary](../pokemon/buneary.md)**
 
--	[![Hitmonlee](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/106.gif){: .pokemon-sprite-img }](../pokemon/hitmonlee.md)
-
-	***
-
-	**#106 [Hitmonlee](../pokemon/hitmonlee.md)**
-
--	[![Ditto](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/132.gif){: .pokemon-sprite-img }](../pokemon/ditto.md)
+-	[![Lopunny](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/428.gif){: .pokemon-sprite-img }](../pokemon/lopunny.md)
 
 	***
 
-	**#132 [Ditto](../pokemon/ditto.md)**
+	**#428 [Lopunny](../pokemon/lopunny.md)**
 
 -	[![Glameow](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/431.gif){: .pokemon-sprite-img }](../pokemon/glameow.md)
 
@@ -46,35 +40,17 @@
 
 	**#431 [Glameow](../pokemon/glameow.md)**
 
--	[![Purrloin](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/509.gif){: .pokemon-sprite-img }](../pokemon/purrloin.md)
-
-	***
-
-	**#509 [Purrloin](../pokemon/purrloin.md)**
-
--	[![Liepard](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/510.gif){: .pokemon-sprite-img }](../pokemon/liepard.md)
-
-	***
-
-	**#510 [Liepard](../pokemon/liepard.md)**
-
--	[![Stunfisk](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/618.gif){: .pokemon-sprite-img }](../pokemon/stunfisk.md)
-
-	***
-
-	**#618 [Stunfisk](../pokemon/stunfisk.md)**
-
 </div>
 
 ### :material-eye-off: Hidden Ability
 
 <div class="grid cards" markdown>
 
--	[![Buneary](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/427.gif){: .pokemon-sprite-img }](../pokemon/buneary.md)
+-	[![Hitmonlee](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/106.gif){: .pokemon-sprite-img }](../pokemon/hitmonlee.md)
 
 	***
 
-	**#427 [Buneary](../pokemon/buneary.md)**
+	**#106 [Hitmonlee](../pokemon/hitmonlee.md)**
 
 </div>
 

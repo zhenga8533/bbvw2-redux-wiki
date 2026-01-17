@@ -15,6 +15,14 @@
 
 ??? note "Kingler ROM Changes"
 
+	**Ability (slot 1) Changes:**
+
+	- `hyper-cutter` → `sheer-force`
+
+	**Ability (slot 3) Changes:**
+
+	- `sheer-force` → `(none)`
+
 	**Level-up Moves Changes:**
 
 	- `18 moves` → `23 moves`
@@ -32,9 +40,8 @@
 
 	---
 
-	- [Hyper Cutter](../../pokedex/abilities/hyper-cutter.md)
+	- [Sheer Force](../../pokedex/abilities/sheer-force.md)
 	- [Shell Armor](../../pokedex/abilities/shell-armor.md)
-	- [Sheer Force](../../pokedex/abilities/sheer-force.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

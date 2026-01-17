@@ -19,6 +19,18 @@
 
 	- `grimer > muk: level-up (level 38)` → `grimer > muk: level-up (level 35)`
 
+	**Ability (slot 1) Changes:**
+
+	- `stench` → `poison-touch`
+
+	**Ability (slot 2) Changes:**
+
+	- `sticky-hold` → `stench`
+
+	**Ability (slot 3) Changes:**
+
+	- `poison-touch` → `(none)`
+
 	**Level-up Moves Changes:**
 
 	- `25 moves` → `21 moves`
@@ -36,9 +48,8 @@
 
 	---
 
+	- [Poison Touch](../../pokedex/abilities/poison-touch.md)
 	- [Stench](../../pokedex/abilities/stench.md)
-	- [Sticky Hold](../../pokedex/abilities/sticky-hold.md)
-	- [Poison Touch](../../pokedex/abilities/poison-touch.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

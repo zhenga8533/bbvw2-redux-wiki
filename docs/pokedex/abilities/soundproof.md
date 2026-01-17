@@ -34,12 +34,6 @@
 
 	**#101 [Electrode](../pokemon/electrode.md)**
 
--	[![Mr. Mime](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/122.gif){: .pokemon-sprite-img }](../pokemon/mr-mime.md)
-
-	***
-
-	**#122 [Mr. Mime](../pokemon/mr-mime.md)**
-
 -	[![Whismur](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/293.gif){: .pokemon-sprite-img }](../pokemon/whismur.md)
 
 	***
@@ -58,17 +52,11 @@
 
 	**#295 [Exploud](../pokemon/exploud.md)**
 
--	[![Mime Jr.](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/439.gif){: .pokemon-sprite-img }](../pokemon/mime-jr.md)
+-	[![Kricketune](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/402.gif){: .pokemon-sprite-img }](../pokemon/kricketune.md)
 
 	***
 
-	**#439 [Mime Jr.](../pokemon/mime-jr.md)**
-
-</div>
-
-### :material-eye-off: Hidden Ability
-
-<div class="grid cards" markdown>
+	**#402 [Kricketune](../pokemon/kricketune.md)**
 
 -	[![Shieldon](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/410.gif){: .pokemon-sprite-img }](../pokemon/shieldon.md)
 
@@ -99,6 +87,18 @@
 	***
 
 	**#460 [Abomasnow](../pokemon/abomasnow.md)**
+
+</div>
+
+### :material-eye-off: Hidden Ability
+
+<div class="grid cards" markdown>
+
+-	[![Mime Jr.](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/439.gif){: .pokemon-sprite-img }](../pokemon/mime-jr.md)
+
+	***
+
+	**#439 [Mime Jr.](../pokemon/mime-jr.md)**
 
 -	[![Bouffalant](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/626.gif){: .pokemon-sprite-img }](../pokemon/bouffalant.md)
 

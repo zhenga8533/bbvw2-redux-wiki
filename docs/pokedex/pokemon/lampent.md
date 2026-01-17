@@ -20,9 +20,9 @@
 
 	- `litwick > lampent: level-up (level 41)` → `litwick > lampent: level-up (level 27)`
 
-	**Ability Changes:**
+	**Ability (slot 1) Changes:**
 
-	- `infiltrator` → `flash-fire`
+	- `shadow tag` → `flash-fire`
 
 	**Level-up Moves Changes:**
 
@@ -41,9 +41,9 @@
 
 	---
 
-	- [Shadow Tag](../../pokedex/abilities/shadow-tag.md)
+	- [Flash Fire](../../pokedex/abilities/flash-fire.md)
 	- [Flame Body](../../pokedex/abilities/flame-body.md)
-	- [Flash Fire](../../pokedex/abilities/flash-fire.md) :material-eye-off:
+	- [Infiltrator](../../pokedex/abilities/infiltrator.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

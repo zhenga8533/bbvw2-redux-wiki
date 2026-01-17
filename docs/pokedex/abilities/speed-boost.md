@@ -28,24 +28,6 @@
 
 	**#193 [Yanma](../pokemon/yanma.md)**
 
--	[![Ninjask](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/291.gif){: .pokemon-sprite-img }](../pokemon/ninjask.md)
-
-	***
-
-	**#291 [Ninjask](../pokemon/ninjask.md)**
-
--	[![Yanmega](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/469.gif){: .pokemon-sprite-img }](../pokemon/yanmega.md)
-
-	***
-
-	**#469 [Yanmega](../pokemon/yanmega.md)**
-
-</div>
-
-### :material-eye-off: Hidden Ability
-
-<div class="grid cards" markdown>
-
 -	[![Torchic](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/255.gif){: .pokemon-sprite-img }](../pokemon/torchic.md)
 
 	***
@@ -64,6 +46,12 @@
 
 	**#257 [Blaziken](../pokemon/blaziken.md)**
 
+-	[![Ninjask](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/291.gif){: .pokemon-sprite-img }](../pokemon/ninjask.md)
+
+	***
+
+	**#291 [Ninjask](../pokemon/ninjask.md)**
+
 -	[![Carvanha](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/318.gif){: .pokemon-sprite-img }](../pokemon/carvanha.md)
 
 	***
@@ -75,6 +63,12 @@
 	***
 
 	**#319 [Sharpedo](../pokemon/sharpedo.md)**
+
+-	[![Yanmega](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/469.gif){: .pokemon-sprite-img }](../pokemon/yanmega.md)
+
+	***
+
+	**#469 [Yanmega](../pokemon/yanmega.md)**
 
 -	[![Scolipede](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/545.gif){: .pokemon-sprite-img }](../pokemon/scolipede.md)
 

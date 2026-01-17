@@ -46,29 +46,11 @@
 
 	**#166 [Ledian](../pokemon/ledian.md)**
 
--	[![Spinarak](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/167.gif){: .pokemon-sprite-img }](../pokemon/spinarak.md)
-
-	***
-
-	**#167 [Spinarak](../pokemon/spinarak.md)**
-
--	[![Ariados](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/168.gif){: .pokemon-sprite-img }](../pokemon/ariados.md)
-
-	***
-
-	**#168 [Ariados](../pokemon/ariados.md)**
-
 -	[![Scizor](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/212.gif){: .pokemon-sprite-img }](../pokemon/scizor.md)
 
 	***
 
 	**#212 [Scizor](../pokemon/scizor.md)**
-
--	[![Heracross](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/214.gif){: .pokemon-sprite-img }](../pokemon/heracross.md)
-
-	***
-
-	**#214 [Heracross](../pokemon/heracross.md)**
 
 -	[![Beautifly](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/267.gif){: .pokemon-sprite-img }](../pokemon/beautifly.md)
 
@@ -81,12 +63,6 @@
 	***
 
 	**#313 [Volbeat](../pokemon/volbeat.md)**
-
--	[![Kricketune](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/402.gif){: .pokemon-sprite-img }](../pokemon/kricketune.md)
-
-	***
-
-	**#402 [Kricketune](../pokemon/kricketune.md)**
 
 -	[![Mothim](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/414.gif){: .pokemon-sprite-img }](../pokemon/mothim.md)
 
@@ -106,6 +82,48 @@
 
 	**#542 [Leavanny](../pokemon/leavanny.md)**
 
+-	[![Karrablast](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/588.gif){: .pokemon-sprite-img }](../pokemon/karrablast.md)
+
+	***
+
+	**#588 [Karrablast](../pokemon/karrablast.md)**
+
+-	[![Larvesta](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/636.gif){: .pokemon-sprite-img }](../pokemon/larvesta.md)
+
+	***
+
+	**#636 [Larvesta](../pokemon/larvesta.md)**
+
+-	[![Volcarona](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/637.gif){: .pokemon-sprite-img }](../pokemon/volcarona.md)
+
+	***
+
+	**#637 [Volcarona](../pokemon/volcarona.md)**
+
+</div>
+
+### :material-eye-off: Hidden Ability
+
+<div class="grid cards" markdown>
+
+-	[![Heracross](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/214.gif){: .pokemon-sprite-img }](../pokemon/heracross.md)
+
+	***
+
+	**#214 [Heracross](../pokemon/heracross.md)**
+
+-	[![Kricketot](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/401.gif){: .pokemon-sprite-img }](../pokemon/kricketot.md)
+
+	***
+
+	**#401 [Kricketot](../pokemon/kricketot.md)**
+
+-	[![Kricketune](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/402.gif){: .pokemon-sprite-img }](../pokemon/kricketune.md)
+
+	***
+
+	**#402 [Kricketune](../pokemon/kricketune.md)**
+
 -	[![Venipede](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/543.gif){: .pokemon-sprite-img }](../pokemon/venipede.md)
 
 	***
@@ -124,30 +142,6 @@
 
 	**#545 [Scolipede](../pokemon/scolipede.md)**
 
--	[![Karrablast](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/588.gif){: .pokemon-sprite-img }](../pokemon/karrablast.md)
-
-	***
-
-	**#588 [Karrablast](../pokemon/karrablast.md)**
-
--	[![Escavalier](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/589.gif){: .pokemon-sprite-img }](../pokemon/escavalier.md)
-
-	***
-
-	**#589 [Escavalier](../pokemon/escavalier.md)**
-
--	[![Durant](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/632.gif){: .pokemon-sprite-img }](../pokemon/durant.md)
-
-	***
-
-	**#632 [Durant](../pokemon/durant.md)**
-
-</div>
-
-### :material-eye-off: Hidden Ability
-
-<div class="grid cards" markdown>
-
 -	[![Joltik](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/595.gif){: .pokemon-sprite-img }](../pokemon/joltik.md)
 
 	***
@@ -159,18 +153,6 @@
 	***
 
 	**#596 [Galvantula](../pokemon/galvantula.md)**
-
--	[![Larvesta](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/636.gif){: .pokemon-sprite-img }](../pokemon/larvesta.md)
-
-	***
-
-	**#636 [Larvesta](../pokemon/larvesta.md)**
-
--	[![Volcarona](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/637.gif){: .pokemon-sprite-img }](../pokemon/volcarona.md)
-
-	***
-
-	**#637 [Volcarona](../pokemon/volcarona.md)**
 
 </div>
 

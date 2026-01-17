@@ -28,23 +28,11 @@
 
 	**#322 [Numel](../pokemon/numel.md)**
 
--	[![Bidoof](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/399.gif){: .pokemon-sprite-img }](../pokemon/bidoof.md)
+-	[![Camerupt](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/323.gif){: .pokemon-sprite-img }](../pokemon/camerupt.md)
 
 	***
 
-	**#399 [Bidoof](../pokemon/bidoof.md)**
-
--	[![Bibarel](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/400.gif){: .pokemon-sprite-img }](../pokemon/bibarel.md)
-
-	***
-
-	**#400 [Bibarel](../pokemon/bibarel.md)**
-
-</div>
-
-### :material-eye-off: Hidden Ability
-
-<div class="grid cards" markdown>
+	**#323 [Camerupt](../pokemon/camerupt.md)**
 
 -	[![Barboach](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/339.gif){: .pokemon-sprite-img }](../pokemon/barboach.md)
 
@@ -57,6 +45,18 @@
 	***
 
 	**#340 [Whiscash](../pokemon/whiscash.md)**
+
+-	[![Bidoof](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/399.gif){: .pokemon-sprite-img }](../pokemon/bidoof.md)
+
+	***
+
+	**#399 [Bidoof](../pokemon/bidoof.md)**
+
+-	[![Bibarel](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/400.gif){: .pokemon-sprite-img }](../pokemon/bibarel.md)
+
+	***
+
+	**#400 [Bibarel](../pokemon/bibarel.md)**
 
 -	[![Woobat](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/527.gif){: .pokemon-sprite-img }](../pokemon/woobat.md)
 

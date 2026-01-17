@@ -22,12 +22,6 @@
 
 <div class="grid cards" markdown>
 
--	[![Vileplume](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/45.gif){: .pokemon-sprite-img }](../pokemon/vileplume.md)
-
-	***
-
-	**#045 [Vileplume](../pokemon/vileplume.md)**
-
 -	[![Seel](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/86.gif){: .pokemon-sprite-img }](../pokemon/seel.md)
 
 	***
@@ -57,6 +51,18 @@
 	***
 
 	**#184 [Azumarill](../pokemon/azumarill.md)**
+
+-	[![Swinub](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/220.gif){: .pokemon-sprite-img }](../pokemon/swinub.md)
+
+	***
+
+	**#220 [Swinub](../pokemon/swinub.md)**
+
+-	[![Piloswine](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/221.gif){: .pokemon-sprite-img }](../pokemon/piloswine.md)
+
+	***
+
+	**#221 [Piloswine](../pokemon/piloswine.md)**
 
 -	[![Miltank](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/241.gif){: .pokemon-sprite-img }](../pokemon/miltank.md)
 
@@ -123,24 +129,6 @@
 	***
 
 	**#446 [Munchlax](../pokemon/munchlax.md)**
-
-</div>
-
-### :material-eye-off: Hidden Ability
-
-<div class="grid cards" markdown>
-
--	[![Swinub](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/220.gif){: .pokemon-sprite-img }](../pokemon/swinub.md)
-
-	***
-
-	**#220 [Swinub](../pokemon/swinub.md)**
-
--	[![Piloswine](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/221.gif){: .pokemon-sprite-img }](../pokemon/piloswine.md)
-
-	***
-
-	**#221 [Piloswine](../pokemon/piloswine.md)**
 
 -	[![Mamoswine](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/473.gif){: .pokemon-sprite-img }](../pokemon/mamoswine.md)
 

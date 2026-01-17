@@ -52,12 +52,6 @@
 
 	**#110 [Weezing](../pokemon/weezing.md)**
 
--	[![Misdreavus](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/200.gif){: .pokemon-sprite-img }](../pokemon/misdreavus.md)
-
-	***
-
-	**#200 [Misdreavus](../pokemon/misdreavus.md)**
-
 -	[![Unown](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/201.gif){: .pokemon-sprite-img }](../pokemon/unown.md)
 
 	***
@@ -112,6 +106,12 @@
 
 	**#358 [Chimecho](../pokemon/chimecho.md)**
 
+-	[![Glalie](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/362.gif){: .pokemon-sprite-img }](../pokemon/glalie.md)
+
+	***
+
+	**#362 [Glalie](../pokemon/glalie.md)**
+
 -	[![Latias](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/380.gif){: .pokemon-sprite-img }](../pokemon/latias.md)
 
 	***
@@ -123,12 +123,6 @@
 	***
 
 	**#381 [Latios](../pokemon/latios.md)**
-
--	[![Mismagius](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/429.gif){: .pokemon-sprite-img }](../pokemon/mismagius.md)
-
-	***
-
-	**#429 [Mismagius](../pokemon/mismagius.md)**
 
 -	[![Chingling](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/433.gif){: .pokemon-sprite-img }](../pokemon/chingling.md)
 
@@ -154,12 +148,6 @@
 
 	**#455 [Carnivine](../pokemon/carnivine.md)**
 
--	[![Rotom](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/479.gif){: .pokemon-sprite-img }](../pokemon/rotom.md)
-
-	***
-
-	**#479 [Rotom](../pokemon/rotom.md)**
-
 -	[![Uxie](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/480.gif){: .pokemon-sprite-img }](../pokemon/uxie.md)
 
 	***
@@ -183,6 +171,24 @@
 	***
 
 	**#488 [Cresselia](../pokemon/cresselia.md)**
+
+-	[![Klink](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/599.gif){: .pokemon-sprite-img }](../pokemon/klink.md)
+
+	***
+
+	**#599 [Klink](../pokemon/klink.md)**
+
+-	[![Klang](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/600.gif){: .pokemon-sprite-img }](../pokemon/klang.md)
+
+	***
+
+	**#600 [Klang](../pokemon/klang.md)**
+
+-	[![Klinklang](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/601.gif){: .pokemon-sprite-img }](../pokemon/klinklang.md)
+
+	***
+
+	**#601 [Klinklang](../pokemon/klinklang.md)**
 
 -	[![Tynamo](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/602.gif){: .pokemon-sprite-img }](../pokemon/tynamo.md)
 
@@ -213,36 +219,6 @@
 	***
 
 	**#635 [Hydreigon](../pokemon/hydreigon.md)**
-
-</div>
-
-### :material-eye-off: Hidden Ability
-
-<div class="grid cards" markdown>
-
--	[![Glalie](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/362.gif){: .pokemon-sprite-img }](../pokemon/glalie.md)
-
-	***
-
-	**#362 [Glalie](../pokemon/glalie.md)**
-
--	[![Klink](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/599.gif){: .pokemon-sprite-img }](../pokemon/klink.md)
-
-	***
-
-	**#599 [Klink](../pokemon/klink.md)**
-
--	[![Klang](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/600.gif){: .pokemon-sprite-img }](../pokemon/klang.md)
-
-	***
-
-	**#600 [Klang](../pokemon/klang.md)**
-
--	[![Klinklang](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/601.gif){: .pokemon-sprite-img }](../pokemon/klinklang.md)
-
-	***
-
-	**#601 [Klinklang](../pokemon/klinklang.md)**
 
 </div>
 

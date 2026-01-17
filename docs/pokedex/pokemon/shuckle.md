@@ -15,6 +15,14 @@
 
 ??? note "Shuckle ROM Changes"
 
+	**Ability (slot 2) Changes:**
+
+	- `gluttony` → `contrary`
+
+	**Ability (slot 3) Changes:**
+
+	- `contrary` → `gluttony`
+
 	**Level-up Moves Changes:**
 
 	- `29 moves` → `21 moves`
@@ -33,8 +41,8 @@
 	---
 
 	- [Sturdy](../../pokedex/abilities/sturdy.md)
-	- [Gluttony](../../pokedex/abilities/gluttony.md)
-	- [Contrary](../../pokedex/abilities/contrary.md) :material-eye-off:
+	- [Contrary](../../pokedex/abilities/contrary.md)
+	- [Gluttony](../../pokedex/abilities/gluttony.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

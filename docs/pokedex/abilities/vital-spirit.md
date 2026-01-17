@@ -22,42 +22,6 @@
 
 <div class="grid cards" markdown>
 
--	[![Mankey](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/56.gif){: .pokemon-sprite-img }](../pokemon/mankey.md)
-
-	***
-
-	**#056 [Mankey](../pokemon/mankey.md)**
-
--	[![Primeape](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/57.gif){: .pokemon-sprite-img }](../pokemon/primeape.md)
-
-	***
-
-	**#057 [Primeape](../pokemon/primeape.md)**
-
--	[![Delibird](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/225.gif){: .pokemon-sprite-img }](../pokemon/delibird.md)
-
-	***
-
-	**#225 [Delibird](../pokemon/delibird.md)**
-
--	[![Vigoroth](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/288.gif){: .pokemon-sprite-img }](../pokemon/vigoroth.md)
-
-	***
-
-	**#288 [Vigoroth](../pokemon/vigoroth.md)**
-
--	[![Lillipup](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/506.gif){: .pokemon-sprite-img }](../pokemon/lillipup.md)
-
-	***
-
-	**#506 [Lillipup](../pokemon/lillipup.md)**
-
-</div>
-
-### :material-eye-off: Hidden Ability
-
-<div class="grid cards" markdown>
-
 -	[![Electabuzz](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/125.gif){: .pokemon-sprite-img }](../pokemon/electabuzz.md)
 
 	***
@@ -69,12 +33,6 @@
 	***
 
 	**#126 [Magmar](../pokemon/magmar.md)**
-
--	[![Tyrogue](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/236.gif){: .pokemon-sprite-img }](../pokemon/tyrogue.md)
-
-	***
-
-	**#236 [Tyrogue](../pokemon/tyrogue.md)**
 
 -	[![Elekid](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/239.gif){: .pokemon-sprite-img }](../pokemon/elekid.md)
 
@@ -88,6 +46,12 @@
 
 	**#240 [Magby](../pokemon/magby.md)**
 
+-	[![Vigoroth](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/288.gif){: .pokemon-sprite-img }](../pokemon/vigoroth.md)
+
+	***
+
+	**#288 [Vigoroth](../pokemon/vigoroth.md)**
+
 -	[![Electivire](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/466.gif){: .pokemon-sprite-img }](../pokemon/electivire.md)
 
 	***
@@ -99,6 +63,36 @@
 	***
 
 	**#467 [Magmortar](../pokemon/magmortar.md)**
+
+-	[![Lillipup](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/506.gif){: .pokemon-sprite-img }](../pokemon/lillipup.md)
+
+	***
+
+	**#506 [Lillipup](../pokemon/lillipup.md)**
+
+</div>
+
+### :material-eye-off: Hidden Ability
+
+<div class="grid cards" markdown>
+
+-	[![Mankey](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/56.gif){: .pokemon-sprite-img }](../pokemon/mankey.md)
+
+	***
+
+	**#056 [Mankey](../pokemon/mankey.md)**
+
+-	[![Primeape](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/57.gif){: .pokemon-sprite-img }](../pokemon/primeape.md)
+
+	***
+
+	**#057 [Primeape](../pokemon/primeape.md)**
+
+-	[![Tyrogue](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/236.gif){: .pokemon-sprite-img }](../pokemon/tyrogue.md)
+
+	***
+
+	**#236 [Tyrogue](../pokemon/tyrogue.md)**
 
 </div>
 

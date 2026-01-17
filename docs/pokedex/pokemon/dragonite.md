@@ -15,6 +15,14 @@
 
 ??? note "Dragonite ROM Changes"
 
+	**Ability (slot 2) Changes:**
+
+	- `(none)` → `multiscale`
+
+	**Ability (slot 3) Changes:**
+
+	- `multiscale` → `(none)`
+
 	**Level-up Moves Changes:**
 
 	- `21 moves` → `25 moves`
@@ -33,7 +41,7 @@
 	---
 
 	- [Inner Focus](../../pokedex/abilities/inner-focus.md)
-	- [Multiscale](../../pokedex/abilities/multiscale.md) :material-eye-off:
+	- [Multiscale](../../pokedex/abilities/multiscale.md)
 
 - **:material-ruler: Physical Attributes**
 

@@ -21,6 +21,14 @@
 
 	- `burmy > mothim: level-up (level 20)` → `burmy > mothim: level-up (level 25)`
 
+	**Ability (slot 2) Changes:**
+
+	- `(none)` → `tinted-lens`
+
+	**Ability (slot 3) Changes:**
+
+	- `tinted-lens` → `(none)`
+
 	**Level-up Moves Changes:**
 
 	- `14 moves` → `19 moves`
@@ -39,7 +47,7 @@
 	---
 
 	- [Swarm](../../pokedex/abilities/swarm.md)
-	- [Tinted Lens](../../pokedex/abilities/tinted-lens.md) :material-eye-off:
+	- [Tinted Lens](../../pokedex/abilities/tinted-lens.md)
 
 - **:material-ruler: Physical Attributes**
 

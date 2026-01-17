@@ -15,6 +15,18 @@
 
 ??? note "Wooper ROM Changes"
 
+	**Ability (slot 1) Changes:**
+
+	- `damp` → `water-absorb`
+
+	**Ability (slot 2) Changes:**
+
+	- `water-absorb` → `unaware`
+
+	**Ability (slot 3) Changes:**
+
+	- `unaware` → `damp`
+
 	**Level-up Moves Changes:**
 
 	- `13 moves` → `23 moves`
@@ -28,9 +40,9 @@
 
 	---
 
-	- [Damp](../../pokedex/abilities/damp.md)
 	- [Water Absorb](../../pokedex/abilities/water-absorb.md)
-	- [Unaware](../../pokedex/abilities/unaware.md) :material-eye-off:
+	- [Unaware](../../pokedex/abilities/unaware.md)
+	- [Damp](../../pokedex/abilities/damp.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

@@ -40,6 +40,12 @@
 
 	**#193 [Yanma](../pokemon/yanma.md)**
 
+-	[![Dustox](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/269.gif){: .pokemon-sprite-img }](../pokemon/dustox.md)
+
+	***
+
+	**#269 [Dustox](../pokemon/dustox.md)**
+
 -	[![Nincada](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/290.gif){: .pokemon-sprite-img }](../pokemon/nincada.md)
 
 	***
@@ -57,18 +63,6 @@
 	***
 
 	**#596 [Galvantula](../pokemon/galvantula.md)**
-
-</div>
-
-### :material-eye-off: Hidden Ability
-
-<div class="grid cards" markdown>
-
--	[![Dustox](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/269.gif){: .pokemon-sprite-img }](../pokemon/dustox.md)
-
-	***
-
-	**#269 [Dustox](../pokemon/dustox.md)**
 
 </div>
 

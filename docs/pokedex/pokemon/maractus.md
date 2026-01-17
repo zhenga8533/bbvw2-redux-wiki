@@ -16,6 +16,14 @@
 
 ??? note "Maractus ROM Changes"
 
+	**Ability (slot 2) Changes:**
+
+	- `chlorophyll` → `storm-drain`
+
+	**Ability (slot 3) Changes:**
+
+	- `storm-drain` → `(none)`
+
 	**Level-up Moves Changes:**
 
 	- `18 moves` → `22 moves`
@@ -34,8 +42,7 @@
 	---
 
 	- [Water Absorb](../../pokedex/abilities/water-absorb.md)
-	- [Chlorophyll](../../pokedex/abilities/chlorophyll.md)
-	- [Storm Drain](../../pokedex/abilities/storm-drain.md) :material-eye-off:
+	- [Storm Drain](../../pokedex/abilities/storm-drain.md)
 
 - **:material-ruler: Physical Attributes**
 

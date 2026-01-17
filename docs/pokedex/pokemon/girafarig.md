@@ -15,6 +15,20 @@
 
 ??? note "Girafarig ROM Changes"
 
+	**Ability (slot 1) Changes:**
+
+	- `inner-focus` → `sap-sipper`
+
+	**Ability (slot 2) Changes:**
+
+	- `early-bird` → `rattled`
+
+	**Ability (slot 3) Changes:**
+
+	- `sap-sipper` → `(none)`
+
+	- `rattled` → `early-bird`
+
 	**Level-up Moves Changes:**
 
 	- `16 moves` → `25 moves`
@@ -32,9 +46,8 @@
 
 	---
 
-	- [Inner Focus](../../pokedex/abilities/inner-focus.md)
+	- [Sap Sipper](../../pokedex/abilities/sap-sipper.md)
 	- [Early Bird](../../pokedex/abilities/early-bird.md)
-	- [Sap Sipper](../../pokedex/abilities/sap-sipper.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

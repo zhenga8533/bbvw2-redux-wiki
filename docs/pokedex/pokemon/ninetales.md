@@ -15,6 +15,18 @@
 
 ??? note "Ninetales ROM Changes"
 
+	**Ability (slot 1) Changes:**
+
+	- `flash-fire` → `drought`
+
+	**Ability (slot 2) Changes:**
+
+	- `(none)` → `flash-fire`
+
+	**Ability (slot 3) Changes:**
+
+	- `drought` → `(none)`
+
 	**Type Changes:**
 
 	- `fire` → `fire / fairy`
@@ -36,8 +48,8 @@
 
 	---
 
+	- [Drought](../../pokedex/abilities/drought.md)
 	- [Flash Fire](../../pokedex/abilities/flash-fire.md)
-	- [Drought](../../pokedex/abilities/drought.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

@@ -15,11 +15,23 @@
 
 ??? note "Jynx ROM Changes"
 
-	**Ability Changes:**
+	**Ability (slot 1) Changes:**
 
-	- `dry-skin` → `trace`
+	- `oblivious` → `trace`
+
+	**Ability (slot 2) Changes:**
+
+	- `forewarn` → `dry-skin`
+
+	**Ability (slot 3) Changes:**
+
+	- `dry-skin` → `(none)`
 
 	- `trace` → `dry-skin`
+
+	- `dry-skin` → `forewarn`
+
+	- `(none)` → `oblivious`
 
 	**Level-up Moves Changes:**
 
@@ -28,6 +40,10 @@
 	**Machine Moves Changes:**
 
 	- `40 moves` → `42 moves (added: aura-sphere, power-gem)`
+
+	- `dry-skin` → `trace`
+
+	- `oblivious` → `(none)`
 
 
 ## :material-information: Basic Information
@@ -38,9 +54,9 @@
 
 	---
 
-	- [Oblivious](../../pokedex/abilities/oblivious.md)
+	- [Dry Skin](../../pokedex/abilities/dry-skin.md)
 	- [Forewarn](../../pokedex/abilities/forewarn.md)
-	- [Dry Skin](../../pokedex/abilities/dry-skin.md) :material-eye-off:
+	- [Oblivious](../../pokedex/abilities/oblivious.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

@@ -15,6 +15,14 @@
 
 ??? note "Meowth ROM Changes"
 
+	**Ability (slot 1) Changes:**
+
+	- `pickup` → `unnerve`
+
+	**Ability (slot 3) Changes:**
+
+	- `unnerve` → `pickup`
+
 	**Level-up Moves Changes:**
 
 	- `15 moves` → `22 moves`
@@ -28,9 +36,9 @@
 
 	---
 
-	- [Pickup](../../pokedex/abilities/pickup.md)
+	- [Unnerve](../../pokedex/abilities/unnerve.md)
 	- [Technician](../../pokedex/abilities/technician.md)
-	- [Unnerve](../../pokedex/abilities/unnerve.md) :material-eye-off:
+	- [Pickup](../../pokedex/abilities/pickup.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

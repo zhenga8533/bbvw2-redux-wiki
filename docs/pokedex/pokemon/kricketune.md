@@ -15,6 +15,18 @@
 
 ??? note "Kricketune ROM Changes"
 
+	**Ability (slot 1) Changes:**
+
+	- `swarm` → `technician`
+
+	**Ability (slot 2) Changes:**
+
+	- `(none)` → `soundproof`
+
+	**Ability (slot 3) Changes:**
+
+	- `technician` → `swarm`
+
 	**Level-up Moves Changes:**
 
 	- `13 moves` → `22 moves`
@@ -32,8 +44,9 @@
 
 	---
 
-	- [Swarm](../../pokedex/abilities/swarm.md)
-	- [Technician](../../pokedex/abilities/technician.md) :material-eye-off:
+	- [Technician](../../pokedex/abilities/technician.md)
+	- [Swarm](../../pokedex/abilities/swarm.md) :material-eye-off:
+	- [Soundproof](../../pokedex/abilities/soundproof.md)
 
 - **:material-ruler: Physical Attributes**
 

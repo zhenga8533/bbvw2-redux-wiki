@@ -16,9 +16,9 @@
 
 ??? note "Ducklett ROM Changes"
 
-	**Ability Changes:**
+	**Ability (slot 1) Changes:**
 
-	- `hydration` → `friend-guard`
+	- `keen-eye` → `friend-guard`
 
 	**Level-up Moves Changes:**
 
@@ -37,9 +37,9 @@
 
 	---
 
-	- [Keen Eye](../../pokedex/abilities/keen-eye.md)
+	- [Friend Guard](../../pokedex/abilities/friend-guard.md)
 	- [Big Pecks](../../pokedex/abilities/big-pecks.md)
-	- [Friend Guard](../../pokedex/abilities/friend-guard.md) :material-eye-off:
+	- [Hydration](../../pokedex/abilities/hydration.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

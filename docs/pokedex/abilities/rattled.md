@@ -18,7 +18,7 @@
 
 ## :material-pokeball: Pokémon with this Ability
 
-### :material-eye-off: Hidden Ability
+### :material-star: Standard Ability
 
 <div class="grid cards" markdown>
 
@@ -39,6 +39,24 @@
 	***
 
 	**#166 [Ledian](../pokemon/ledian.md)**
+
+-	[![Poochyena](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/261.gif){: .pokemon-sprite-img }](../pokemon/poochyena.md)
+
+	***
+
+	**#261 [Poochyena](../pokemon/poochyena.md)**
+
+-	[![Cubchoo](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/613.gif){: .pokemon-sprite-img }](../pokemon/cubchoo.md)
+
+	***
+
+	**#613 [Cubchoo](../pokemon/cubchoo.md)**
+
+</div>
+
+### :material-eye-off: Hidden Ability
+
+<div class="grid cards" markdown>
 
 -	[![Sudowoodo](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/185.gif){: .pokemon-sprite-img }](../pokemon/sudowoodo.md)
 
@@ -64,17 +82,23 @@
 
 	**#210 [Granbull](../pokemon/granbull.md)**
 
--	[![Poochyena](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/261.gif){: .pokemon-sprite-img }](../pokemon/poochyena.md)
-
-	***
-
-	**#261 [Poochyena](../pokemon/poochyena.md)**
-
 -	[![Whismur](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/293.gif){: .pokemon-sprite-img }](../pokemon/whismur.md)
 
 	***
 
 	**#293 [Whismur](../pokemon/whismur.md)**
+
+-	[![Loudred](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/294.gif){: .pokemon-sprite-img }](../pokemon/loudred.md)
+
+	***
+
+	**#294 [Loudred](../pokemon/loudred.md)**
+
+-	[![Exploud](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/295.gif){: .pokemon-sprite-img }](../pokemon/exploud.md)
+
+	***
+
+	**#295 [Exploud](../pokemon/exploud.md)**
 
 -	[![Clamperl](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/366.gif){: .pokemon-sprite-img }](../pokemon/clamperl.md)
 
@@ -87,12 +111,6 @@
 	***
 
 	**#438 [Bonsly](../pokemon/bonsly.md)**
-
--	[![Cubchoo](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/613.gif){: .pokemon-sprite-img }](../pokemon/cubchoo.md)
-
-	***
-
-	**#613 [Cubchoo](../pokemon/cubchoo.md)**
 
 </div>
 

@@ -15,11 +15,21 @@
 
 ??? note "Furret ROM Changes"
 
-	**Ability Changes:**
+	**Ability (slot 1) Changes:**
 
-	- `frisk` → `quick-feet`
+	- `run-away` → `quick-feet`
+
+	**Ability (slot 2) Changes:**
+
+	- `keen-eye` → `hustle`
+
+	**Ability (slot 3) Changes:**
+
+	- `frisk` → `run-away`
 
 	- `quick-feet` → `frisk`
+
+	- `hustle` → `keen-eye`
 
 	**Level-up Moves Changes:**
 
@@ -28,6 +38,8 @@
 	**Machine Moves Changes:**
 
 	- `40 moves` → `42 moves (added: quash, play-rough)`
+
+	- `frisk` → `quick-feet`
 
 
 ## :material-information: Basic Information
@@ -38,9 +50,9 @@
 
 	---
 
-	- [Run Away](../../pokedex/abilities/run-away.md)
+	- [Frisk](../../pokedex/abilities/frisk.md)
 	- [Keen Eye](../../pokedex/abilities/keen-eye.md)
-	- [Frisk](../../pokedex/abilities/frisk.md) :material-eye-off:
+	- [Run Away](../../pokedex/abilities/run-away.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

@@ -25,6 +25,14 @@
 
 	- `eevee > glaceon: level-up (at sinnoh-route-217)` → `eevee > glaceon: use-item (ice-stone)`
 
+	**Ability (slot 2) Changes:**
+
+	- `(none)` → `quick-feet`
+
+	**Ability (slot 3) Changes:**
+
+	- `quick-feet` → `(none)`
+
 	**Machine Moves Changes:**
 
 	- `32 moves` → `34 moves (added: tri-attack, grass-knot)`
@@ -39,7 +47,7 @@
 	---
 
 	- [Volt Absorb](../../pokedex/abilities/volt-absorb.md)
-	- [Quick Feet](../../pokedex/abilities/quick-feet.md) :material-eye-off:
+	- [Quick Feet](../../pokedex/abilities/quick-feet.md)
 
 - **:material-ruler: Physical Attributes**
 

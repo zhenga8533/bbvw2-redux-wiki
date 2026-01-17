@@ -15,9 +15,9 @@
 
 ??? note "Chatot ROM Changes"
 
-	**Ability Changes:**
+	**Ability (slot 1) Changes:**
 
-	- `big-pecks` → `soundproof`
+	- `keen-eye` → `soundproof`
 
 	**Level-up Moves Changes:**
 
@@ -36,9 +36,9 @@
 
 	---
 
-	- [Keen Eye](../../pokedex/abilities/keen-eye.md)
+	- [Soundproof](../../pokedex/abilities/soundproof.md)
 	- [Tangled Feet](../../pokedex/abilities/tangled-feet.md)
-	- [Soundproof](../../pokedex/abilities/soundproof.md) :material-eye-off:
+	- [Big Pecks](../../pokedex/abilities/big-pecks.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

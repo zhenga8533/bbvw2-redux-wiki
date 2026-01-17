@@ -15,6 +15,10 @@
 
 ??? note "Minun ROM Changes"
 
+	**Ability (slot 2) Changes:**
+
+	- `(none)` → `volt-absorb`
+
 	**Level-up Moves Changes:**
 
 	- `18 moves` → `23 moves`
@@ -33,6 +37,7 @@
 	---
 
 	- [Minus](../../pokedex/abilities/minus.md)
+	- [Volt Absorb](../../pokedex/abilities/volt-absorb.md)
 
 - **:material-ruler: Physical Attributes**
 

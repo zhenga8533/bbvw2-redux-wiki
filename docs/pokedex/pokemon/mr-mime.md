@@ -19,6 +19,14 @@
 
 	- `mime-jr > mr-mime: level-up (knows mimic)` → `mime-jr > mr-mime: level-up (level 25)`
 
+	**Ability (slot 1) Changes:**
+
+	- `soundproof` → `technician`
+
+	**Ability (slot 3) Changes:**
+
+	- `technician` → `(none)`
+
 	**Level-up Moves Changes:**
 
 	- `26 moves` → `24 moves`
@@ -36,9 +44,8 @@
 
 	---
 
-	- [Soundproof](../../pokedex/abilities/soundproof.md)
+	- [Technician](../../pokedex/abilities/technician.md)
 	- [Filter](../../pokedex/abilities/filter.md)
-	- [Technician](../../pokedex/abilities/technician.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

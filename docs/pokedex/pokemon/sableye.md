@@ -15,6 +15,14 @@
 
 ??? note "Sableye ROM Changes"
 
+	**Ability (slot 1) Changes:**
+
+	- `keen-eye` → `prankster`
+
+	**Ability (slot 3) Changes:**
+
+	- `prankster` → `keen-eye`
+
 	**Level-up Moves Changes:**
 
 	- `19 moves` → `23 moves`
@@ -28,9 +36,9 @@
 
 	---
 
-	- [Keen Eye](../../pokedex/abilities/keen-eye.md)
+	- [Prankster](../../pokedex/abilities/prankster.md)
 	- [Stall](../../pokedex/abilities/stall.md)
-	- [Prankster](../../pokedex/abilities/prankster.md) :material-eye-off:
+	- [Keen Eye](../../pokedex/abilities/keen-eye.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

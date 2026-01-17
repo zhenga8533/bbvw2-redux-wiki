@@ -106,23 +106,17 @@
 
 	**#299 [Nosepass](../pokemon/nosepass.md)**
 
--	[![Aron](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/304.gif){: .pokemon-sprite-img }](../pokemon/aron.md)
+-	[![Relicanth](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/369.gif){: .pokemon-sprite-img }](../pokemon/relicanth.md)
 
 	***
 
-	**#304 [Aron](../pokemon/aron.md)**
+	**#369 [Relicanth](../pokemon/relicanth.md)**
 
--	[![Lairon](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/305.gif){: .pokemon-sprite-img }](../pokemon/lairon.md)
-
-	***
-
-	**#305 [Lairon](../pokemon/lairon.md)**
-
--	[![Aggron](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/306.gif){: .pokemon-sprite-img }](../pokemon/aggron.md)
+-	[![Regirock](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/377.gif){: .pokemon-sprite-img }](../pokemon/regirock.md)
 
 	***
 
-	**#306 [Aggron](../pokemon/aggron.md)**
+	**#377 [Regirock](../pokemon/regirock.md)**
 
 -	[![Shieldon](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/410.gif){: .pokemon-sprite-img }](../pokemon/shieldon.md)
 
@@ -208,17 +202,23 @@
 
 <div class="grid cards" markdown>
 
--	[![Relicanth](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/369.gif){: .pokemon-sprite-img }](../pokemon/relicanth.md)
+-	[![Aron](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/304.gif){: .pokemon-sprite-img }](../pokemon/aron.md)
 
 	***
 
-	**#369 [Relicanth](../pokemon/relicanth.md)**
+	**#304 [Aron](../pokemon/aron.md)**
 
--	[![Regirock](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/377.gif){: .pokemon-sprite-img }](../pokemon/regirock.md)
+-	[![Lairon](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/305.gif){: .pokemon-sprite-img }](../pokemon/lairon.md)
 
 	***
 
-	**#377 [Regirock](../pokemon/regirock.md)**
+	**#305 [Lairon](../pokemon/lairon.md)**
+
+-	[![Aggron](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/306.gif){: .pokemon-sprite-img }](../pokemon/aggron.md)
+
+	***
+
+	**#306 [Aggron](../pokemon/aggron.md)**
 
 </div>
 

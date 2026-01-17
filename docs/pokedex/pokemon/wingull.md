@@ -15,9 +15,17 @@
 
 ??? note "Wingull ROM Changes"
 
-	**Ability Changes:**
+	**Ability (slot 1) Changes:**
 
-	- `(none)` → `hydration`
+	- `keen-eye` → `hydration`
+
+	**Ability (slot 2) Changes:**
+
+	- `(none)` → `rain-dish`
+
+	**Ability (slot 3) Changes:**
+
+	- `rain-dish` → `keen-eye`
 
 	**Level-up Moves Changes:**
 
@@ -36,9 +44,9 @@
 
 	---
 
-	- [Keen Eye](../../pokedex/abilities/keen-eye.md)
-	- [Rain Dish](../../pokedex/abilities/rain-dish.md) :material-eye-off:
 	- [Hydration](../../pokedex/abilities/hydration.md)
+	- [Keen Eye](../../pokedex/abilities/keen-eye.md) :material-eye-off:
+	- [Rain Dish](../../pokedex/abilities/rain-dish.md)
 
 - **:material-ruler: Physical Attributes**
 

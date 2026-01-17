@@ -22,18 +22,6 @@
 
 <div class="grid cards" markdown>
 
--	[![Spearow](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/21.gif){: .pokemon-sprite-img }](../pokemon/spearow.md)
-
-	***
-
-	**#021 [Spearow](../pokemon/spearow.md)**
-
--	[![Fearow](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/22.gif){: .pokemon-sprite-img }](../pokemon/fearow.md)
-
-	***
-
-	**#022 [Fearow](../pokemon/fearow.md)**
-
 -	[![Ekans](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/23.gif){: .pokemon-sprite-img }](../pokemon/ekans.md)
 
 	***
@@ -82,11 +70,17 @@
 
 	**#210 [Granbull](../pokemon/granbull.md)**
 
--	[![Stantler](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/234.gif){: .pokemon-sprite-img }](../pokemon/stantler.md)
+-	[![Qwilfish](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/211.gif){: .pokemon-sprite-img }](../pokemon/qwilfish.md)
 
 	***
 
-	**#234 [Stantler](../pokemon/stantler.md)**
+	**#211 [Qwilfish](../pokemon/qwilfish.md)**
+
+-	[![Houndour](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/228.gif){: .pokemon-sprite-img }](../pokemon/houndour.md)
+
+	***
+
+	**#228 [Houndour](../pokemon/houndour.md)**
 
 -	[![Hitmontop](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/237.gif){: .pokemon-sprite-img }](../pokemon/hitmontop.md)
 
@@ -111,6 +105,18 @@
 	***
 
 	**#303 [Mawile](../pokemon/mawile.md)**
+
+-	[![Electrike](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/309.gif){: .pokemon-sprite-img }](../pokemon/electrike.md)
+
+	***
+
+	**#309 [Electrike](../pokemon/electrike.md)**
+
+-	[![Manectric](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/310.gif){: .pokemon-sprite-img }](../pokemon/manectric.md)
+
+	***
+
+	**#310 [Manectric](../pokemon/manectric.md)**
 
 -	[![Salamence](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/373.gif){: .pokemon-sprite-img }](../pokemon/salamence.md)
 
@@ -184,30 +190,6 @@
 
 	**#553 [Krookodile](../pokemon/krookodile.md)**
 
-</div>
-
-### :material-eye-off: Hidden Ability
-
-<div class="grid cards" markdown>
-
--	[![Qwilfish](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/211.gif){: .pokemon-sprite-img }](../pokemon/qwilfish.md)
-
-	***
-
-	**#211 [Qwilfish](../pokemon/qwilfish.md)**
-
--	[![Electrike](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/309.gif){: .pokemon-sprite-img }](../pokemon/electrike.md)
-
-	***
-
-	**#309 [Electrike](../pokemon/electrike.md)**
-
--	[![Manectric](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/310.gif){: .pokemon-sprite-img }](../pokemon/manectric.md)
-
-	***
-
-	**#310 [Manectric](../pokemon/manectric.md)**
-
 -	[![Scraggy](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/559.gif){: .pokemon-sprite-img }](../pokemon/scraggy.md)
 
 	***
@@ -219,6 +201,18 @@
 	***
 
 	**#560 [Scrafty](../pokemon/scrafty.md)**
+
+</div>
+
+### :material-eye-off: Hidden Ability
+
+<div class="grid cards" markdown>
+
+-	[![Stantler](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/234.gif){: .pokemon-sprite-img }](../pokemon/stantler.md)
+
+	***
+
+	**#234 [Stantler](../pokemon/stantler.md)**
 
 </div>
 

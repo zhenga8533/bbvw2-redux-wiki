@@ -15,9 +15,21 @@
 
 ??? note "Seedot ROM Changes"
 
+	**Ability (slot 2) Changes:**
+
+	- `early-bird` → `rattled`
+
+	**Ability (slot 3) Changes:**
+
+	- `pickpocket` → `early-bird`
+
+	- `rattled` → `pickpocket`
+
 	**Level-up Moves Changes:**
 
 	- `7 moves` → `20 moves`
+
+	- `pickpocket` → `rattled`
 
 
 ## :material-information: Basic Information
@@ -29,8 +41,8 @@
 	---
 
 	- [Chlorophyll](../../pokedex/abilities/chlorophyll.md)
-	- [Early Bird](../../pokedex/abilities/early-bird.md)
-	- [Pickpocket](../../pokedex/abilities/pickpocket.md) :material-eye-off:
+	- [Pickpocket](../../pokedex/abilities/pickpocket.md)
+	- [Early Bird](../../pokedex/abilities/early-bird.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

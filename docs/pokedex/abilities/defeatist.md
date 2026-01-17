@@ -22,6 +22,12 @@
 
 <div class="grid cards" markdown>
 
+-	[![Regigigas](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/486.gif){: .pokemon-sprite-img }](../pokemon/regigigas.md)
+
+	***
+
+	**#486 [Regigigas](../pokemon/regigigas.md)**
+
 -	[![Archen](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/566.gif){: .pokemon-sprite-img }](../pokemon/archen.md)
 
 	***

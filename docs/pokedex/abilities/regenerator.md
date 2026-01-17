@@ -22,30 +22,6 @@
 
 <div class="grid cards" markdown>
 
--	[![Audino](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/531.gif){: .pokemon-sprite-img }](../pokemon/audino.md)
-
-	***
-
-	**#531 [Audino](../pokemon/audino.md)**
-
--	[![Mienfoo](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/619.gif){: .pokemon-sprite-img }](../pokemon/mienfoo.md)
-
-	***
-
-	**#619 [Mienfoo](../pokemon/mienfoo.md)**
-
--	[![Mienshao](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/620.gif){: .pokemon-sprite-img }](../pokemon/mienshao.md)
-
-	***
-
-	**#620 [Mienshao](../pokemon/mienshao.md)**
-
-</div>
-
-### :material-eye-off: Hidden Ability
-
-<div class="grid cards" markdown>
-
 -	[![Slowpoke](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/79.gif){: .pokemon-sprite-img }](../pokemon/slowpoke.md)
 
 	***
@@ -82,17 +58,17 @@
 
 	**#222 [Corsola](../pokemon/corsola.md)**
 
--	[![Ho-Oh](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/250.gif){: .pokemon-sprite-img }](../pokemon/ho-oh.md)
-
-	***
-
-	**#250 [Ho-Oh](../pokemon/ho-oh.md)**
-
 -	[![Tangrowth](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/465.gif){: .pokemon-sprite-img }](../pokemon/tangrowth.md)
 
 	***
 
 	**#465 [Tangrowth](../pokemon/tangrowth.md)**
+
+-	[![Audino](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/531.gif){: .pokemon-sprite-img }](../pokemon/audino.md)
+
+	***
+
+	**#531 [Audino](../pokemon/audino.md)**
 
 -	[![Solosis](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/577.gif){: .pokemon-sprite-img }](../pokemon/solosis.md)
 
@@ -129,6 +105,30 @@
 	***
 
 	**#594 [Alomomola](../pokemon/alomomola.md)**
+
+-	[![Mienfoo](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/619.gif){: .pokemon-sprite-img }](../pokemon/mienfoo.md)
+
+	***
+
+	**#619 [Mienfoo](../pokemon/mienfoo.md)**
+
+-	[![Mienshao](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/620.gif){: .pokemon-sprite-img }](../pokemon/mienshao.md)
+
+	***
+
+	**#620 [Mienshao](../pokemon/mienshao.md)**
+
+</div>
+
+### :material-eye-off: Hidden Ability
+
+<div class="grid cards" markdown>
+
+-	[![Ho-Oh](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/250.gif){: .pokemon-sprite-img }](../pokemon/ho-oh.md)
+
+	***
+
+	**#250 [Ho-Oh](../pokemon/ho-oh.md)**
 
 </div>
 

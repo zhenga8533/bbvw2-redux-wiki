@@ -15,6 +15,14 @@
 
 ??? note "Zangoose ROM Changes"
 
+	**Ability (slot 2) Changes:**
+
+	- `(none)` → `toxic-boost`
+
+	**Ability (slot 3) Changes:**
+
+	- `toxic-boost` → `(none)`
+
 	**Level-up Moves Changes:**
 
 	- `26 moves` → `22 moves`
@@ -33,7 +41,7 @@
 	---
 
 	- [Immunity](../../pokedex/abilities/immunity.md)
-	- [Toxic Boost](../../pokedex/abilities/toxic-boost.md) :material-eye-off:
+	- [Toxic Boost](../../pokedex/abilities/toxic-boost.md)
 
 - **:material-ruler: Physical Attributes**
 

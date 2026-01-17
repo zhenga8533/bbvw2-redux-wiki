@@ -19,6 +19,14 @@
 
 	- `onix > steelix: trade (held: metal-coat)` → `onix > steelix: use-item (metal-coat)`
 
+	**Ability (slot 1) Changes:**
+
+	- `rock-head` → `weak-armor`
+
+	**Ability (slot 3) Changes:**
+
+	- `weak-armor` → `rock-head`
+
 	**Level-up Moves Changes:**
 
 	- `35 moves` → `25 moves`
@@ -32,9 +40,9 @@
 
 	---
 
-	- [Rock Head](../../pokedex/abilities/rock-head.md)
+	- [Weak Armor](../../pokedex/abilities/weak-armor.md)
 	- [Sturdy](../../pokedex/abilities/sturdy.md)
-	- [Weak Armor](../../pokedex/abilities/weak-armor.md) :material-eye-off:
+	- [Rock Head](../../pokedex/abilities/rock-head.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

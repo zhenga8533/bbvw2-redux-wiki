@@ -52,6 +52,18 @@
 
 	**#376 [Metagross](../pokemon/metagross.md)**
 
+-	[![Registeel](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/379.gif){: .pokemon-sprite-img }](../pokemon/registeel.md)
+
+	***
+
+	**#379 [Registeel](../pokemon/registeel.md)**
+
+</div>
+
+### :material-eye-off: Hidden Ability
+
+<div class="grid cards" markdown>
+
 -	[![Regirock](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/377.gif){: .pokemon-sprite-img }](../pokemon/regirock.md)
 
 	***
@@ -63,12 +75,6 @@
 	***
 
 	**#378 [Regice](../pokemon/regice.md)**
-
--	[![Registeel](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/379.gif){: .pokemon-sprite-img }](../pokemon/registeel.md)
-
-	***
-
-	**#379 [Registeel](../pokemon/registeel.md)**
 
 </div>
 

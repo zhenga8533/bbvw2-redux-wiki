@@ -15,6 +15,14 @@
 
 ??? note "Illumise ROM Changes"
 
+	**Ability (slot 1) Changes:**
+
+	- `oblivious` → `prankster`
+
+	**Ability (slot 3) Changes:**
+
+	- `prankster` → `oblivious`
+
 	**Type Changes:**
 
 	- `bug` → `bug / fairy`
@@ -36,9 +44,9 @@
 
 	---
 
-	- [Oblivious](../../pokedex/abilities/oblivious.md)
+	- [Prankster](../../pokedex/abilities/prankster.md)
 	- [Tinted Lens](../../pokedex/abilities/tinted-lens.md)
-	- [Prankster](../../pokedex/abilities/prankster.md) :material-eye-off:
+	- [Oblivious](../../pokedex/abilities/oblivious.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

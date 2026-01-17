@@ -15,6 +15,14 @@
 
 ??? note "Absol ROM Changes"
 
+	**Ability (slot 1) Changes:**
+
+	- `pressure` → `justified`
+
+	**Ability (slot 3) Changes:**
+
+	- `justified` → `pressure`
+
 	**Level-up Moves Changes:**
 
 	- `32 moves` → `21 moves`
@@ -32,9 +40,9 @@
 
 	---
 
-	- [Pressure](../../pokedex/abilities/pressure.md)
+	- [Justified](../../pokedex/abilities/justified.md)
 	- [Super Luck](../../pokedex/abilities/super-luck.md)
-	- [Justified](../../pokedex/abilities/justified.md) :material-eye-off:
+	- [Pressure](../../pokedex/abilities/pressure.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

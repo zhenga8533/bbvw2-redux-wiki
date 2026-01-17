@@ -15,6 +15,14 @@
 
 ??? note "Honchkrow ROM Changes"
 
+	**Ability (slot 1) Changes:**
+
+	- `insomnia` → `moxie`
+
+	**Ability (slot 3) Changes:**
+
+	- `moxie` → `(none)`
+
 	**Level-up Moves Changes:**
 
 	- `10 moves` → `11 moves`
@@ -32,9 +40,8 @@
 
 	---
 
-	- [Insomnia](../../pokedex/abilities/insomnia.md)
+	- [Moxie](../../pokedex/abilities/moxie.md)
 	- [Super Luck](../../pokedex/abilities/super-luck.md)
-	- [Moxie](../../pokedex/abilities/moxie.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

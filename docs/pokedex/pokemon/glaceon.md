@@ -25,9 +25,27 @@
 
 	- `eevee > glaceon: level-up (at sinnoh-route-217)` → `eevee > glaceon: use-item (ice-stone)`
 
+	**Ability (slot 2) Changes:**
+
+	- `(none)` → `serene-grace`
+
+	**Ability (slot 3) Changes:**
+
+	- `ice-body` → `(none)`
+
+	**Ability (slot 1) Changes:**
+
+	- `snow-cloak` → `ice-body`
+
+	- `serene-grace` → `snow-cloak`
+
 	**Machine Moves Changes:**
 
 	- `28 moves` → `31 moves (added: tri-attack, dazzling-gleam, grass-knot)`
+
+	- `ice-body` → `snow-cloak`
+
+	- `snow-cloak` → `serene-grace`
 
 
 ## :material-information: Basic Information
@@ -38,8 +56,8 @@
 
 	---
 
+	- [Ice Body](../../pokedex/abilities/ice-body.md)
 	- [Snow Cloak](../../pokedex/abilities/snow-cloak.md)
-	- [Ice Body](../../pokedex/abilities/ice-body.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

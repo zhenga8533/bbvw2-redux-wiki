@@ -15,6 +15,14 @@
 
 ??? note "Camerupt ROM Changes"
 
+	**Ability (slot 1) Changes:**
+
+	- `magma-armor` → `solid-rock`
+
+	**Ability (slot 2) Changes:**
+
+	- `solid-rock` → `simple`
+
 	**Level-up Moves Changes:**
 
 	- `29 moves` → `24 moves`
@@ -32,8 +40,8 @@
 
 	---
 
-	- [Magma Armor](../../pokedex/abilities/magma-armor.md)
 	- [Solid Rock](../../pokedex/abilities/solid-rock.md)
+	- [Simple](../../pokedex/abilities/simple.md)
 	- [Anger Point](../../pokedex/abilities/anger-point.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**

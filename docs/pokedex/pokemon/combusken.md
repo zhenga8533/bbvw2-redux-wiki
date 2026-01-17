@@ -15,13 +15,25 @@
 
 ??? note "Combusken ROM Changes"
 
-	**Ability Changes:**
+	**Ability (slot 1) Changes:**
 
-	- `(none)` → `quick-feet`
+	- `blaze` → `quick-feet`
+
+	**Ability (slot 2) Changes:**
+
+	- `(none)` → `blaze`
+
+	**Ability (slot 3) Changes:**
+
+	- `speed-boost` → `(none)`
+
+	- `quick-feet` → `speed-boost`
 
 	**Level-up Moves Changes:**
 
 	- `15 moves` → `21 moves`
+
+	- `speed-boost` → `quick-feet`
 
 
 ## :material-information: Basic Information
@@ -32,9 +44,8 @@
 
 	---
 
+	- [Speed Boost](../../pokedex/abilities/speed-boost.md)
 	- [Blaze](../../pokedex/abilities/blaze.md)
-	- [Speed Boost](../../pokedex/abilities/speed-boost.md) :material-eye-off:
-	- [Quick Feet](../../pokedex/abilities/quick-feet.md)
 
 - **:material-ruler: Physical Attributes**
 

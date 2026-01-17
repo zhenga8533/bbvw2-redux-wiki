@@ -15,6 +15,10 @@
 
 ??? note "Larvitar ROM Changes"
 
+	**Ability (slot 2) Changes:**
+
+	- `(none)` → `hustle`
+
 	**Level-up Moves Changes:**
 
 	- `14 moves` → `16 moves`
@@ -34,6 +38,7 @@
 
 	- [Guts](../../pokedex/abilities/guts.md)
 	- [Sand Veil](../../pokedex/abilities/sand-veil.md) :material-eye-off:
+	- [Hustle](../../pokedex/abilities/hustle.md)
 
 - **:material-ruler: Physical Attributes**
 

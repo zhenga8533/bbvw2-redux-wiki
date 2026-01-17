@@ -40,24 +40,6 @@
 
 	**#076 [Golem](../pokemon/golem.md)**
 
--	[![Onix](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/95.gif){: .pokemon-sprite-img }](../pokemon/onix.md)
-
-	***
-
-	**#095 [Onix](../pokemon/onix.md)**
-
--	[![Cubone](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/104.gif){: .pokemon-sprite-img }](../pokemon/cubone.md)
-
-	***
-
-	**#104 [Cubone](../pokemon/cubone.md)**
-
--	[![Marowak](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/105.gif){: .pokemon-sprite-img }](../pokemon/marowak.md)
-
-	***
-
-	**#105 [Marowak](../pokemon/marowak.md)**
-
 -	[![Rhyhorn](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/111.gif){: .pokemon-sprite-img }](../pokemon/rhyhorn.md)
 
 	***
@@ -81,12 +63,6 @@
 	***
 
 	**#185 [Sudowoodo](../pokemon/sudowoodo.md)**
-
--	[![Steelix](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/208.gif){: .pokemon-sprite-img }](../pokemon/steelix.md)
-
-	***
-
-	**#208 [Steelix](../pokemon/steelix.md)**
 
 -	[![Aron](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/304.gif){: .pokemon-sprite-img }](../pokemon/aron.md)
 
@@ -124,23 +100,47 @@
 
 	**#372 [Shelgon](../pokemon/shelgon.md)**
 
--	[![Grotle](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/388.gif){: .pokemon-sprite-img }](../pokemon/grotle.md)
+-	[![Beldum](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/374.gif){: .pokemon-sprite-img }](../pokemon/beldum.md)
 
 	***
 
-	**#388 [Grotle](../pokemon/grotle.md)**
-
--	[![Torterra](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/389.gif){: .pokemon-sprite-img }](../pokemon/torterra.md)
-
-	***
-
-	**#389 [Torterra](../pokemon/torterra.md)**
+	**#374 [Beldum](../pokemon/beldum.md)**
 
 -	[![Bonsly](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/438.gif){: .pokemon-sprite-img }](../pokemon/bonsly.md)
 
 	***
 
 	**#438 [Bonsly](../pokemon/bonsly.md)**
+
+</div>
+
+### :material-eye-off: Hidden Ability
+
+<div class="grid cards" markdown>
+
+-	[![Onix](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/95.gif){: .pokemon-sprite-img }](../pokemon/onix.md)
+
+	***
+
+	**#095 [Onix](../pokemon/onix.md)**
+
+-	[![Cubone](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/104.gif){: .pokemon-sprite-img }](../pokemon/cubone.md)
+
+	***
+
+	**#104 [Cubone](../pokemon/cubone.md)**
+
+-	[![Marowak](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/105.gif){: .pokemon-sprite-img }](../pokemon/marowak.md)
+
+	***
+
+	**#105 [Marowak](../pokemon/marowak.md)**
+
+-	[![Steelix](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/208.gif){: .pokemon-sprite-img }](../pokemon/steelix.md)
+
+	***
+
+	**#208 [Steelix](../pokemon/steelix.md)**
 
 </div>
 

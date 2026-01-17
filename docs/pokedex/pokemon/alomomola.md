@@ -16,6 +16,14 @@
 
 ??? note "Alomomola ROM Changes"
 
+	**Ability (slot 1) Changes:**
+
+	- `healer` → `regenerator`
+
+	**Ability (slot 3) Changes:**
+
+	- `regenerator` → `(none)`
+
 	**Level-up Moves Changes:**
 
 	- `17 moves` → `20 moves`
@@ -29,9 +37,8 @@
 
 	---
 
-	- [Healer](../../pokedex/abilities/healer.md)
+	- [Regenerator](../../pokedex/abilities/regenerator.md)
 	- [Hydration](../../pokedex/abilities/hydration.md)
-	- [Regenerator](../../pokedex/abilities/regenerator.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

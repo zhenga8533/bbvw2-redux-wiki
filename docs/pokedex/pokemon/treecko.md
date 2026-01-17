@@ -15,6 +15,18 @@
 
 ??? note "Treecko ROM Changes"
 
+	**Ability (slot 1) Changes:**
+
+	- `overgrow` → `unburden`
+
+	**Ability (slot 2) Changes:**
+
+	- `(none)` → `overgrow`
+
+	**Ability (slot 3) Changes:**
+
+	- `unburden` → `(none)`
+
 	**Level-up Moves Changes:**
 
 	- `12 moves` → `19 moves`
@@ -28,8 +40,8 @@
 
 	---
 
+	- [Unburden](../../pokedex/abilities/unburden.md)
 	- [Overgrow](../../pokedex/abilities/overgrow.md)
-	- [Unburden](../../pokedex/abilities/unburden.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 

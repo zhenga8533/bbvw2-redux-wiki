@@ -22,6 +22,18 @@
 
 <div class="grid cards" markdown>
 
+-	[![Togepi](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/175.gif){: .pokemon-sprite-img }](../pokemon/togepi.md)
+
+	***
+
+	**#175 [Togepi](../pokemon/togepi.md)**
+
+-	[![Togetic](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/176.gif){: .pokemon-sprite-img }](../pokemon/togetic.md)
+
+	***
+
+	**#176 [Togetic](../pokemon/togetic.md)**
+
 -	[![Murkrow](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/198.gif){: .pokemon-sprite-img }](../pokemon/murkrow.md)
 
 	***
@@ -39,6 +51,12 @@
 	***
 
 	**#430 [Honchkrow](../pokemon/honchkrow.md)**
+
+-	[![Togekiss](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/468.gif){: .pokemon-sprite-img }](../pokemon/togekiss.md)
+
+	***
+
+	**#468 [Togekiss](../pokemon/togekiss.md)**
 
 -	[![Leafeon](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/470.gif){: .pokemon-sprite-img }](../pokemon/leafeon.md)
 
@@ -63,30 +81,6 @@
 	***
 
 	**#521 [Unfezant](../pokemon/unfezant.md)**
-
-</div>
-
-### :material-eye-off: Hidden Ability
-
-<div class="grid cards" markdown>
-
--	[![Togepi](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/175.gif){: .pokemon-sprite-img }](../pokemon/togepi.md)
-
-	***
-
-	**#175 [Togepi](../pokemon/togepi.md)**
-
--	[![Togetic](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/176.gif){: .pokemon-sprite-img }](../pokemon/togetic.md)
-
-	***
-
-	**#176 [Togetic](../pokemon/togetic.md)**
-
--	[![Togekiss](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/468.gif){: .pokemon-sprite-img }](../pokemon/togekiss.md)
-
-	***
-
-	**#468 [Togekiss](../pokemon/togekiss.md)**
 
 </div>
 

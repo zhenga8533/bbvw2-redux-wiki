@@ -16,6 +16,10 @@
 
 ??? note "Regigigas ROM Changes"
 
+	**Ability (slot 2) Changes:**
+
+	- `(none)` → `defeatist`
+
 	**Level-up Moves Changes:**
 
 	- `14 moves` → `15 moves`
@@ -34,6 +38,7 @@
 	---
 
 	- [Slow Start](../../pokedex/abilities/slow-start.md)
+	- [Defeatist](../../pokedex/abilities/defeatist.md)
 
 - **:material-ruler: Physical Attributes**
 

@@ -15,6 +15,14 @@
 
 ??? note "Metang ROM Changes"
 
+	**Ability (slot 2) Changes:**
+
+	- `(none)` → `iron-fist`
+
+	**Ability (slot 3) Changes:**
+
+	- `light-metal` → `heavy-metal`
+
 	**Catch Rate Changes:**
 
 	- `3` → `45`
@@ -37,7 +45,8 @@
 	---
 
 	- [Clear Body](../../pokedex/abilities/clear-body.md)
-	- [Light Metal](../../pokedex/abilities/light-metal.md) :material-eye-off:
+	- [Heavy Metal](../../pokedex/abilities/heavy-metal.md) :material-eye-off:
+	- [Iron Fist](../../pokedex/abilities/iron-fist.md)
 
 - **:material-ruler: Physical Attributes**
 

@@ -15,6 +15,14 @@
 
 ??? note "Drifloon ROM Changes"
 
+	**Ability (slot 1) Changes:**
+
+	- `aftermath` → `flare-boost`
+
+	**Ability (slot 3) Changes:**
+
+	- `flare-boost` → `aftermath`
+
 	**Level-up Moves Changes:**
 
 	- `27 moves` → `21 moves`
@@ -32,9 +40,9 @@
 
 	---
 
-	- [Aftermath](../../pokedex/abilities/aftermath.md)
+	- [Flare Boost](../../pokedex/abilities/flare-boost.md)
 	- [Unburden](../../pokedex/abilities/unburden.md)
-	- [Flare Boost](../../pokedex/abilities/flare-boost.md) :material-eye-off:
+	- [Aftermath](../../pokedex/abilities/aftermath.md) :material-eye-off:
 
 - **:material-ruler: Physical Attributes**
 
